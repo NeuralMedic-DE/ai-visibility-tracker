@@ -1,0 +1,326 @@
+{
+  "generated_at": "2026-05-27T00:00:00Z",
+  "note": "Static fixture — replace with live scoring once engine is built",
+  "brands": [
+    {
+      "rank": 1,
+      "id": "notion",
+      "name": "Notion",
+      "category": "Productivity",
+      "website": "notion.so",
+      "overall_score": 94,
+      "scores": {
+        "chatgpt": 96,
+        "claude": 95,
+        "perplexity": 93,
+        "google_aio": 92
+      },
+      "trend": "stable",
+      "badge": "Top Performer"
+    },
+    {
+      "rank": 2,
+      "id": "linear",
+      "name": "Linear",
+      "category": "Project Management",
+      "website": "linear.app",
+      "overall_score": 91,
+      "scores": {
+        "chatgpt": 92,
+        "claude": 93,
+        "perplexity": 90,
+        "google_aio": 89
+      },
+      "trend": "up",
+      "badge": null
+    },
+    {
+      "rank": 3,
+      "id": "vercel",
+      "name": "Vercel",
+      "category": "Developer Tools",
+      "website": "vercel.com",
+      "overall_score": 89,
+      "scores": {
+        "chatgpt": 91,
+        "claude": 90,
+        "perplexity": 88,
+        "google_aio": 87
+      },
+      "trend": "up",
+      "badge": null
+    },
+    {
+      "rank": 4,
+      "id": "supabase",
+      "name": "Supabase",
+      "category": "Developer Tools",
+      "website": "supabase.com",
+      "overall_score": 87,
+      "scores": {
+        "chatgpt": 88,
+        "claude": 90,
+        "perplexity": 86,
+        "google_aio": 84
+      },
+      "trend": "up",
+      "badge": "Rising Star"
+    },
+    {
+      "rank": 5,
+      "id": "loom",
+      "name": "Loom",
+      "category": "Communication",
+      "website": "loom.com",
+      "overall_score": 82,
+      "scores": {
+        "chatgpt": 84,
+        "claude": 83,
+        "perplexity": 81,
+        "google_aio": 80
+      },
+      "trend": "stable",
+      "badge": null
+    },
+    {
+      "rank": 6,
+      "id": "intercom",
+      "name": "Intercom",
+      "category": "Customer Support",
+      "website": "intercom.com",
+      "overall_score": 80,
+      "scores": {
+        "chatgpt": 82,
+        "claude": 79,
+        "perplexity": 80,
+        "google_aio": 79
+      },
+      "trend": "down",
+      "badge": null
+    },
+    {
+      "rank": 7,
+      "id": "retool",
+      "name": "Retool",
+      "category": "Developer Tools",
+      "website": "retool.com",
+      "overall_score": 76,
+      "scores": {
+        "chatgpt": 78,
+        "claude": 77,
+        "perplexity": 75,
+        "google_aio": 74
+      },
+      "trend": "stable",
+      "badge": null
+    },
+    {
+      "rank": 8,
+      "id": "posthog",
+      "name": "PostHog",
+      "category": "Analytics",
+      "website": "posthog.com",
+      "overall_score": 74,
+      "scores": {
+        "chatgpt": 76,
+        "claude": 75,
+        "perplexity": 73,
+        "google_aio": 72
+      },
+      "trend": "up",
+      "badge": "Rising Star"
+    },
+    {
+      "rank": 9,
+      "id": "cal-com",
+      "name": "Cal.com",
+      "category": "Scheduling",
+      "website": "cal.com",
+      "overall_score": 71,
+      "scores": {
+        "chatgpt": 73,
+        "claude": 72,
+        "perplexity": 70,
+        "google_aio": 69
+      },
+      "trend": "up",
+      "badge": null
+    },
+    {
+      "rank": 10,
+      "id": "resend",
+      "name": "Resend",
+      "category": "Developer Tools",
+      "website": "resend.com",
+      "overall_score": 68,
+      "scores": {
+        "chatgpt": 70,
+        "claude": 71,
+        "perplexity": 67,
+        "google_aio": 64
+      },
+      "trend": "up",
+      "badge": "Rising Star"
+    },
+    {
+      "rank": 11,
+      "id": "clerk",
+      "name": "Clerk",
+      "category": "Auth",
+      "website": "clerk.com",
+      "overall_score": 65,
+      "scores": {
+        "chatgpt": 67,
+        "claude": 66,
+        "perplexity": 64,
+        "google_aio": 63
+      },
+      "trend": "up",
+      "badge": null
+    },
+    {
+      "rank": 12,
+      "id": "neon",
+      "name": "Neon",
+      "category": "Developer Tools",
+      "website": "neon.tech",
+      "overall_score": 61,
+      "scores": {
+        "chatgpt": 63,
+        "claude": 62,
+        "perplexity": 60,
+        "google_aio": 59
+      },
+      "trend": "up",
+      "badge": null
+    },
+    {
+      "rank": 13,
+      "id": "trigger-dev",
+      "name": "Trigger.dev",
+      "category": "Developer Tools",
+      "website": "trigger.dev",
+      "overall_score": 55,
+      "scores": {
+        "chatgpt": 57,
+        "claude": 56,
+        "perplexity": 54,
+        "google_aio": 53
+      },
+      "trend": "stable",
+      "badge": null
+    },
+    {
+      "rank": 14,
+      "id": "inngest",
+      "name": "Inngest",
+      "category": "Developer Tools",
+      "website": "inngest.com",
+      "overall_score": 52,
+      "scores": {
+        "chatgpt": 54,
+        "claude": 53,
+        "perplexity": 51,
+        "google_aio": 50
+      },
+      "trend": "stable",
+      "badge": null
+    },
+    {
+      "rank": 15,
+      "id": "loops",
+      "name": "Loops",
+      "category": "Email Marketing",
+      "website": "loops.so",
+      "overall_score": 48,
+      "scores": {
+        "chatgpt": 50,
+        "claude": 49,
+        "perplexity": 47,
+        "google_aio": 46
+      },
+      "trend": "down",
+      "badge": null
+    },
+    {
+      "rank": 16,
+      "id": "fathom",
+      "name": "Fathom Analytics",
+      "category": "Analytics",
+      "website": "usefathom.com",
+      "overall_score": 44,
+      "scores": {
+        "chatgpt": 46,
+        "claude": 45,
+        "perplexity": 43,
+        "google_aio": 42
+      },
+      "trend": "down",
+      "badge": null
+    },
+    {
+      "rank": 17,
+      "id": "raycast",
+      "name": "Raycast",
+      "category": "Productivity",
+      "website": "raycast.com",
+      "overall_score": 40,
+      "scores": {
+        "chatgpt": 42,
+        "claude": 41,
+        "perplexity": 39,
+        "google_aio": 38
+      },
+      "trend": "down",
+      "badge": null
+    },
+    {
+      "rank": 18,
+      "id": "plain",
+      "name": "Plain",
+      "category": "Customer Support",
+      "website": "plain.com",
+      "overall_score": 35,
+      "scores": {
+        "chatgpt": 37,
+        "claude": 36,
+        "perplexity": 34,
+        "google_aio": 33
+      },
+      "trend": "down",
+      "badge": null
+    },
+    {
+      "rank": 19,
+      "id": "basehub",
+      "name": "BaseHub",
+      "category": "CMS",
+      "website": "basehub.com",
+      "overall_score": 28,
+      "scores": {
+        "chatgpt": 30,
+        "claude": 29,
+        "perplexity": 27,
+        "google_aio": 26
+      },
+      "trend": "down",
+      "badge": "Needs Attention"
+    },
+    {
+      "rank": 20,
+      "id": "unkey",
+      "name": "Unkey",
+      "category": "Developer Tools",
+      "website": "unkey.dev",
+      "overall_score": 22,
+      "scores": {
+        "chatgpt": 24,
+        "claude": 23,
+        "perplexity": 21,
+        "google_aio": 20
+      },
+      "trend": "down",
+      "badge": "Needs Attention"
+    }
+  ]
+}
