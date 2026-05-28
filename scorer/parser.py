@@ -21,6 +21,63 @@ AMBIGUOUS_BRAND_TOKENS: frozenset[str] = frozenset({
     "Sentry",   # noun conflict (sentry guard, on sentry duty)
 })
 
+# ── Cloud-platform adjacency set ───────────────────────────────────────────
+# Unambiguous cloud/infrastructure product names used by the sentence-context
+# check below.  When an AMBIGUOUS_BRAND_TOKEN appears *lowercase* immediately
+# adjacent to one of these (separated only by list punctuation), it is treated
+# as a brand mention rather than a common-word usage.
+#
+# "immediately adjacent" means only [ \t\n,/|•*-] chars between the two tokens,
+# e.g.:  "Heroku, render, Fly.io"  ← "render" directly follows "heroku,"
+#        "options: fly.io / render / vercel"  ← slashes are list separators
+#        "render HTML and deploy to heroku"   ← DOES NOT match (word gap)
+#
+# Keep this list conservative (unambiguous product names only) to avoid
+# false positives.
+_CLOUD_PLATFORM_ADJACENT: tuple[str, ...] = (
+    "fly.io",        # Fly.io PaaS
+    "heroku",        # Heroku (Salesforce) PaaS
+    "vercel",        # Vercel hosting/edge
+    "netlify",       # Netlify hosting
+    "digitalocean",  # DigitalOcean cloud
+    "render.com",    # render.com domain (unambiguous)
+    "render cloud",  # explicit brand variant
+    "railway.app",   # Railway.app PaaS (distinguishes from transportation "railway")
+    "cloudflare",    # Cloudflare CDN/workers
+    "kubernetes",    # Kubernetes orchestration
+    "dockerfile",    # Dockerfile (container definition)
+)
+
+# List-separator characters that may appear between two adjacent list items.
+_LIST_SEP_PATTERN = r"[\s,/|•*\-]+"
+
+
+def _lowercase_in_platform_list(response_lower: str, name_lower: str) -> bool:
+    """
+    Return True if *name_lower* appears in a list directly adjacent (only
+    list-separator characters between them) to a known cloud platform name.
+
+    Examples that return True:
+      "heroku, render, fly.io"      → "render" between heroku and fly.io
+      "options: fly.io / render"    → "render" after fly.io with slash sep
+
+    Examples that return False:
+      "render HTML and deploy to heroku"  → non-separator chars between them
+      "React components render to the DOM"  → no platform name nearby
+    """
+    name_esc = re.escape(name_lower)
+    for platform in _CLOUD_PLATFORM_ADJACENT:
+        plat_esc = re.escape(platform)
+        # platform … name  (e.g. "heroku, render")
+        if re.search(plat_esc + _LIST_SEP_PATTERN + name_esc + r"(?![a-zA-Z0-9])",
+                     response_lower):
+            return True
+        # name … platform  (e.g. "render, fly.io")
+        if re.search(r"(?<![a-zA-Z0-9])" + name_esc + _LIST_SEP_PATTERN + plat_esc,
+                     response_lower):
+            return True
+    return False
+
 
 # ── Presence detection ─────────────────────────────────────────────────────
 
@@ -29,22 +86,36 @@ def detect_presence(response: str, brand_names: List[str]) -> bool:
     Return True if any brand name (or alias) appears in the response.
 
     Case-insensitive by default.  For names in AMBIGUOUS_BRAND_TOKENS the
-    match is case-SENSITIVE so that common-word usages ("close to",
-    "render HTML") are not counted as brand mentions.  Only the exact
-    capitalised form in the set triggers the strict path; compound aliases
-    like "Close CRM" or "close.com" are matched case-insensitively.
+    match is case-SENSITIVE (primary check) so that common-word usages
+    ("close to", "render HTML") are not counted as brand mentions.
+
+    Secondary (sentence-context) check: if the lowercase token appears
+    directly adjacent to an unambiguous cloud platform name in a list
+    (e.g. "heroku, render, fly.io"), it is accepted as a brand mention
+    even without the capital letter.  This catches LLM responses that
+    omit capitalisation when listing cloud services in a series.
+
+    Compound aliases like "Close CRM" or "close.com" bypass the ambiguous-
+    token path entirely and are matched case-insensitively.
 
     Requires word-boundary match to avoid false positives
     (e.g. "close" matching "disclose").
 
-    Bug B fix: case-sensitive matching for ambiguous single-word brand tokens.
+    Bug B fix: capital-letter-required + sentence-context check for
+    ambiguous single-word brand tokens.
     """
     resp_lower = response.lower()
     for name in brand_names:
         if name in AMBIGUOUS_BRAND_TOKENS:
-            # Case-sensitive: the brand name must appear capitalised in the text.
+            # ── Primary: capital-letter-required ─────────────────────────
+            # Only the exact capitalised form avoids verb/noun false-positives.
             cap_pattern = r"(?<![a-zA-Z0-9])" + re.escape(name) + r"(?![a-zA-Z0-9])"
             if re.search(cap_pattern, response):   # no re.IGNORECASE
+                return True
+            # ── Secondary: sentence-context (list adjacency) ─────────────
+            # Lowercase brand token directly adjacent to a cloud platform name
+            # in a comma/slash list → treat as brand, not verb/noun.
+            if _lowercase_in_platform_list(resp_lower, name.lower()):
                 return True
         else:
             # General case: case-insensitive word-boundary match.

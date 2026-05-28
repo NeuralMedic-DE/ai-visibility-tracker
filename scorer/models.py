@@ -25,10 +25,31 @@ class BrandProfile:
     def all_names(self) -> List[str]:
         """All brand name variants used for mention detection."""
         names = [self.brand] + self.aliases
-        # also add bare domain without TLD, e.g. "close" from "close.com"
-        domain_bare = self.url.split(".")[0].lower()
-        if domain_bare not in [n.lower() for n in names]:
+
+        # Strip optional scheme/www prefix from URL (handles "https://www.close.com")
+        raw_url = self.url.lower()
+        for prefix in ("https://www.", "https://", "http://www.", "http://", "www."):
+            if raw_url.startswith(prefix):
+                raw_url = raw_url[len(prefix):]
+                break
+        # e.g. "close.com/foo/bar" → "close.com"
+        domain_full = raw_url.split("/")[0]    # "render.com", "close.com"
+        # e.g. "render.com" → "render"
+        domain_bare = domain_full.split(".")[0]  # bare name before first dot
+
+        # Add bare domain if not already represented (case-insensitive dedup).
+        # For non-ambiguous brands this gives a free lowercase alias.
+        name_lowers = [n.lower() for n in names]
+        if domain_bare not in name_lowers:
             names.append(domain_bare)
+
+        # Always add the full domain (e.g. "render.com") as an explicit alias.
+        # This is NOT in AMBIGUOUS_BRAND_TOKENS, so detect_presence() matches it
+        # case-insensitively — unambiguously catching "render.com" bare-domain
+        # mentions even when capital "Render" is absent from the response.
+        if domain_full not in [n.lower() for n in names]:
+            names.append(domain_full)
+
         return list(dict.fromkeys(names))  # dedup, preserve order
 
     def template_vars(self) -> Dict[str, str]:

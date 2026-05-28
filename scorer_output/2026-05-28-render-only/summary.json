@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-05-28-render-only",
+  "total_brands": 1,
+  "active_llms": [
+    "openai",
+    "anthropic",
+    "perplexity"
+  ],
+  "elapsed_seconds": 0.1,
+  "concurrency": 4,
+  "dry_run": false,
+  "total_cost_usd": 0,
+  "cost_breakdown": {},
+  "brands": [
+    {
+      "brand": "Render",
+      "url": "render.com",
+      "avs": 25.7,
+      "avs_per_llm": {
+        "openai": 20.0,
+        "anthropic": 34.4,
+        "perplexity": 22.8
+      }
+    }
+  ]
+}

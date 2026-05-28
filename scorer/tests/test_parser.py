@@ -7,6 +7,10 @@ Also contains regression tests for the three bugs fixed in 2026-05-28:
   Bug A — UC-/IN- prompt rank miscounts (sub-item inflation + early-mention heuristic)
   Bug B — Word-collision false positives for ambiguous brand tokens
   Bug C — CM-prompt winner detection (was always "unranked", now "na" when brand wins)
+
+And the sentence-context extension for Bug B (2026-05-28):
+  Bug B-ctx — Lowercase ambiguous tokens in cloud-platform list context now detected
+              (e.g. "heroku, render, fly.io" → presence=True even without capital R)
 """
 import pytest
 from scorer.parser import (
@@ -15,6 +19,7 @@ from scorer.parser import (
     detect_link,
     compute_score,
     AMBIGUOUS_BRAND_TOKENS,
+    _lowercase_in_platform_list,
 )
 
 
@@ -580,3 +585,239 @@ class TestBugC:
         response = "Close CRM and Pipedrive are both mentioned in the discussion."
         rank = extract_rank(response, ["Close", "Close CRM"], "CD-02", presence=True)
         assert rank == "unranked"
+
+
+# ═══════════════════════════════════════════════════════════════
+# Bug B sentence-context extension
+# Render in lowercase cloud-platform list context
+# ═══════════════════════════════════════════════════════════════
+
+class TestBugBRenderSentenceContext:
+    """
+    Bug B — Sentence-context (list-adjacency) extension for Render.
+
+    Confirmed root cause (2026-05-28 debug): when LLMs write cloud platform
+    names in all-lowercase (e.g. "heroku, render, fly.io"), the original
+    capital-letter-required check misses "render" as the brand.
+
+    Fix: secondary check in detect_presence() — if the lowercase brand token
+    appears directly adjacent (only list-separator chars between) to an
+    unambiguous cloud platform name, treat it as a brand mention.
+
+    The "for backend APIs: Railway, Render, Fly.io" test is the canonical
+    regression fixture confirming the capital-R path still works too.
+    """
+
+    # ── Capital-R path — should always work (regression) ───────────────────
+
+    def test_render_capital_in_list_detected(self):
+        """
+        Canonical regression test: capital 'Render' in a comma-separated
+        cloud-service list must yield presence=True.
+        """
+        response = "for backend APIs: Railway, Render, Fly.io"
+        assert detect_presence(response, ["Render", "Render Cloud"]) is True
+
+    def test_render_capital_standalone_detected(self):
+        """Capital 'Render' in prose is still detected."""
+        assert detect_presence(
+            "We deploy all our services to Render.", ["Render"]
+        ) is True
+
+    # ── Lowercase-r + cloud context — NEW behaviour ─────────────────────────
+
+    def test_render_lowercase_adjacent_heroku_detected(self):
+        """
+        'render' lowercase immediately after 'heroku' in a comma list
+        must now yield presence=True (sentence-context fix).
+        """
+        assert detect_presence(
+            "Try heroku, render, or fly.io for easy PaaS deployments.",
+            ["Render", "Render Cloud"],
+        ) is True
+
+    def test_render_lowercase_adjacent_flyio_detected(self):
+        """
+        'render' lowercase immediately before 'fly.io' must yield True.
+        """
+        assert detect_presence(
+            "Options: render, fly.io, vercel — all good choices.",
+            ["Render", "Render Cloud"],
+        ) is True
+
+    def test_render_lowercase_slash_separator_detected(self):
+        """
+        Slash-separated list: 'Heroku / render / Fly.io' — present.
+        """
+        assert detect_presence(
+            "PaaS options for startups: Heroku / render / Fly.io",
+            ["Render", "Render Cloud"],
+        ) is True
+
+    def test_render_lowercase_bullet_list_detected(self):
+        """
+        Bullet list with lowercase render next to heroku must be detected.
+        """
+        response = "Popular PaaS:\n- heroku\n- render\n- fly.io\n- vercel"
+        assert detect_presence(response, ["Render", "Render Cloud"]) is True
+
+    def test_render_dot_com_detected_via_alias(self):
+        """
+        Bare 'render.com' in a response must yield presence=True.
+        This is caught via the full-URL alias added by models.py all_names()
+        feeding 'render.com' into detect_presence as a case-insensitive alias.
+        """
+        assert detect_presence(
+            "Consider using render.com for easy deployments.",
+            ["Render", "Render Cloud", "render.com"],  # all_names() provides this
+        ) is True
+
+    # ── False-positive guard — verb/noun context must remain False ──────────
+
+    def test_render_lowercase_verb_html_no_platform_context(self):
+        """
+        'render HTML' with no cloud platform nearby must remain False.
+        """
+        assert detect_presence(
+            "The server needs to render the HTML before sending it to the client.",
+            ["Render", "Render Cloud"],
+        ) is False
+
+    def test_render_lowercase_react_dom_no_platform_context(self):
+        """
+        'React components render to the DOM' with no platform nearby → False.
+        """
+        assert detect_presence(
+            "React components render to the DOM automatically on state change.",
+            ["Render", "Render Cloud"],
+        ) is False
+
+    def test_render_lowercase_sentence_with_heroku_but_not_adjacent(self):
+        """
+        'render' as verb with heroku appearing elsewhere in the same sentence
+        must still return False — the key is ADJACENCY (direct list neighbour),
+        not mere co-occurrence.
+
+        'render HTML and then deploy to heroku' → False because 'HTML and
+        then deploy to' are non-separator chars between 'render' and 'heroku'.
+        """
+        assert detect_presence(
+            "You'll need to render HTML and then deploy to heroku.",
+            ["Render", "Render Cloud"],
+        ) is False
+
+    # ── _lowercase_in_platform_list helper ─────────────────────────────────
+
+    def test_helper_adjacent_true(self):
+        assert _lowercase_in_platform_list("heroku, render, fly.io", "render") is True
+
+    def test_helper_nonadjacent_false(self):
+        assert _lowercase_in_platform_list(
+            "render the html and deploy to heroku", "render"
+        ) is False
+
+    def test_helper_render_dot_com_adjacent(self):
+        """
+        'render, render.com' — render directly adjacent to the render.com
+        keyword (the domain itself is in _CLOUD_PLATFORM_ADJACENT) → True.
+        """
+        assert _lowercase_in_platform_list(
+            "options include: render, render.com, fly.io", "render"
+        ) is True
+
+    def test_helper_non_list_context_false(self):
+        """
+        'render is similar to render.com and fly.io' — 'render' is separated
+        from 'fly.io' by real words, not just list separators → False.
+        The list-adjacency helper ONLY fires on direct list neighbours.
+        """
+        assert _lowercase_in_platform_list(
+            "render is similar to render.com and fly.io", "render"
+        ) is False
+
+
+# ═══════════════════════════════════════════════════════════════
+# models.py all_names() — full-domain alias
+# ═══════════════════════════════════════════════════════════════
+
+class TestAllNamesFullDomain:
+    """
+    Verify that BrandProfile.all_names() now includes the full URL domain
+    (e.g. 'render.com') as a case-insensitive alias, in addition to the
+    bare domain part ('render') and any explicit aliases.
+    """
+
+    def test_render_all_names_includes_full_domain(self):
+        """
+        Render brand with url='render.com' must include 'render.com' in
+        all_names() so detect_presence() catches bare 'render.com' mentions.
+        """
+        from scorer.models import BrandProfile
+        brand = BrandProfile(
+            brand="Render",
+            url="render.com",
+            category="cloud infrastructure",
+            category_long="modern cloud hosting platform",
+            segment="startup teams",
+            competitor_1="Heroku",
+            competitor_2="Railway",
+            use_case_1="deploy web services",
+            use_case_2="run background workers",
+            integration_1="GitHub",
+            integration_2="PostgreSQL",
+            role="DevOps lead",
+            aliases=["Render Cloud"],
+        )
+        names = brand.all_names()
+        assert "render.com" in names, (
+            f"Expected 'render.com' in all_names(); got: {names}"
+        )
+
+    def test_render_presence_via_full_domain_alias(self):
+        """
+        End-to-end: 'render.com' in a response → presence=True when the
+        full-domain alias is in the names list (as returned by all_names()).
+        """
+        from scorer.models import BrandProfile
+        brand = BrandProfile(
+            brand="Render",
+            url="render.com",
+            category="cloud infrastructure",
+            category_long="modern cloud hosting platform",
+            segment="startup teams",
+            competitor_1="Heroku",
+            competitor_2="Railway",
+            use_case_1="deploy web services",
+            use_case_2="run background workers",
+            integration_1="GitHub",
+            integration_2="PostgreSQL",
+            role="DevOps lead",
+            aliases=["Render Cloud"],
+        )
+        names = brand.all_names()
+        response = "A great option is render.com — easy deploys, managed Postgres."
+        assert detect_presence(response, names) is True
+
+    def test_other_brand_includes_full_domain(self):
+        """
+        Non-ambiguous brand (e.g. Vercel) also gets its full domain in
+        all_names() for consistency.
+        """
+        from scorer.models import BrandProfile
+        brand = BrandProfile(
+            brand="Vercel",
+            url="vercel.com",
+            category="hosting",
+            category_long="edge hosting platform",
+            segment="frontend teams",
+            competitor_1="Netlify",
+            competitor_2="Cloudflare",
+            use_case_1="deploy Next.js apps",
+            use_case_2="run edge functions",
+            integration_1="GitHub",
+            integration_2="Figma",
+            role="frontend engineer",
+            aliases=[],
+        )
+        names = brand.all_names()
+        assert "vercel.com" in names
