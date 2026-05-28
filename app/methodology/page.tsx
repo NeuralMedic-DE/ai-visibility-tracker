@@ -9,39 +9,39 @@ export const metadata: Metadata = {
 
 const PROMPT_CATEGORIES = [
   {
-    id: “CD”,
-    label: “Category Discovery”,
+    id: "CD",
+    label: "Category Discovery",
     count: 5,
     description:
-      `Generic “what’s best for X” queries — the prompts most buyers fire first. Example: “What is the best CRM for B2B SaaS?”`,
+      `Generic "what's best for X" queries — the prompts most buyers fire first. Example: "What is the best CRM for B2B SaaS?"`,
   },
   {
-    id: “CM”,
-    label: “Comparison”,
+    id: "CM",
+    label: "Comparison",
     count: 5,
     description:
-      `Head-to-head comparisons against the brand’s two closest competitors. Example: “Pipedrive vs HubSpot: which is better?”`,
+      `Head-to-head comparisons against the brand's two closest competitors. Example: "Pipedrive vs HubSpot: which is better?"`,
   },
   {
-    id: “AL”,
-    label: “Alternatives”,
+    id: "AL",
+    label: "Alternatives",
     count: 5,
     description:
-      `Buyer-in-pain queries searching for a switch. Example: “Cheaper alternatives to Salesforce for SMBs.”`,
+      `Buyer-in-pain queries searching for a switch. Example: "Cheaper alternatives to Salesforce for SMBs."`,
   },
   {
-    id: “UC”,
-    label: “Use Case”,
+    id: "UC",
+    label: "Use Case",
     count: 5,
     description:
-      `Job-to-be-done questions a practitioner might ask. Example: “Best way to track trial-to-paid conversion for a SaaS team.”`,
+      `Job-to-be-done questions a practitioner might ask. Example: "Best way to track trial-to-paid conversion for a SaaS team."`,
   },
   {
-    id: “IN”,
-    label: “Integration”,
+    id: "IN",
+    label: "Integration",
     count: 5,
     description:
-      `Tool-stack queries about connectivity. Example: “Does Attio integrate with Zapier?”`,
+      `Tool-stack queries about connectivity. Example: "Does Attio integrate with Zapier?"`,
   },
 ];
 
