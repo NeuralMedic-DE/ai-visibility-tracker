@@ -1,32 +1,40 @@
 {
-  "run_date": "2026-05-30",
-  "generated_at": "2026-05-30T12:00:00.000000+00:00",
+  "generated_at": "2026-05-28T12:58:10.641005+00:00",
+  "scoring_method": "hybrid_v1",
+  "scoring_note": "100 brands scored live on 2026-05-30 via OpenAI, Anthropic, and Perplexity APIs (Google AIO pending). 0 brands carry research-based estimates.",
   "total_brands": 100,
-  "active_llms": [
+  "llms_modeled": [
     "openai",
     "anthropic",
-    "perplexity"
+    "perplexity",
+    "google"
   ],
   "brands": [
     {
-      "slug": "vercel",
       "brand": "Vercel",
-      "url": "vercel.com",
-      "rank": 1,
-      "avs_brand": 54.8,
-      "avs_per_llm": {
-        "openai": 64.0,
-        "anthropic": 44.4,
-        "perplexity": 56.0
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best deployment for frontend engineering teams at SaaS companies?",
-      "verified": true,
+      "domain": "vercel.com",
       "category": "deployment",
       "category_long": "frontend cloud and deployment platform for modern web apps",
       "tier": "anchor",
+      "composite_score": 54.8,
+      "scores": {
+        "openai": {
+          "score": 64.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 44.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 56.0,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 72.1,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -46,27 +54,35 @@
           "description": "Vercel lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 1,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "prefect",
       "brand": "Prefect",
-      "url": "prefect.io",
-      "rank": 2,
-      "avs_brand": 46.8,
-      "avs_per_llm": {
-        "openai": 54.4,
-        "anthropic": 36.8,
-        "perplexity": 49.2
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": null,
-      "top_gap_prompt": null,
-      "verified": true,
+      "domain": "prefect.io",
       "category": "workflow orchestration",
       "category_long": "Python-native data workflow orchestration for modern data engineering",
       "tier": "tier2",
+      "composite_score": 46.8,
+      "scores": {
+        "openai": {
+          "score": 54.4,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 36.8,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 49.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 56.1,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -86,67 +102,35 @@
           "description": "Prefect's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 2,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "mixpanel",
-      "brand": "Mixpanel",
-      "url": "mixpanel.com",
-      "rank": 3,
-      "avs_brand": 46.0,
-      "avs_per_llm": {
-        "openai": 55.2,
-        "anthropic": 38.0,
-        "perplexity": 44.8
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "AL-05",
-      "top_gap_prompt": "Open source or affordable product analytics tools instead of PostHog",
-      "verified": true,
-      "category": "product analytics",
-      "category_long": "event-based product analytics for SaaS companies",
-      "tier": "anchor",
-      "gaps": [
-        {
-          "type": "schema",
-          "title": "No HowTo schema on documentation and tutorial pages",
-          "description": "Mixpanel's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
-          "priority": 1
-        },
-        {
-          "type": "schema",
-          "title": "Missing FAQPage schema on pricing and comparison pages",
-          "description": "Mixpanel's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
-          "priority": 2
-        },
-        {
-          "type": "content",
-          "title": "Thin or missing dedicated competitor-comparison pages",
-          "description": "Mixpanel lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
-          "priority": 3
-        }
-      ]
-    },
-    {
-      "slug": "retool",
       "brand": "Retool",
-      "url": "retool.com",
-      "rank": 4,
-      "avs_brand": 46.0,
-      "avs_per_llm": {
-        "openai": 46.0,
-        "anthropic": 39.6,
-        "perplexity": 52.4
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best internal tooling for engineering and operations teams at mid-market companies?",
-      "verified": true,
+      "domain": "retool.com",
       "category": "internal tooling",
       "category_long": "low-code platform for building internal tools and dashboards",
       "tier": "anchor",
+      "composite_score": 46.0,
+      "scores": {
+        "openai": {
+          "score": 46.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 39.6,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 52.4,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 78.1,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -166,27 +150,83 @@
           "description": "Retool lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 3,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "gainsight",
-      "brand": "Gainsight",
-      "url": "gainsight.com",
-      "rank": 5,
-      "avs_brand": 45.9,
-      "avs_per_llm": {
-        "openai": 54.4,
-        "anthropic": 44.4,
-        "perplexity": 38.8
+      "brand": "Mixpanel",
+      "domain": "mixpanel.com",
+      "category": "product analytics",
+      "category_long": "event-based product analytics for SaaS companies",
+      "tier": "anchor",
+      "composite_score": 46.0,
+      "scores": {
+        "openai": {
+          "score": 55.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 38.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 44.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 75.4,
+          "label": "Google AI Overviews"
+        }
       },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "UC-01",
-      "top_gap_prompt": "How do I manage customer health scores and automate CSM playbooks at scale without spending a lot on software?",
-      "verified": true,
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Mixpanel's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Mixpanel's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Mixpanel lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 4,
+      "data_source": "verified_2026-05-30"
+    },
+    {
+      "brand": "Gainsight",
+      "domain": "gainsight.com",
       "category": "customer success",
       "category_long": "enterprise customer success and digital engagement platform",
       "tier": "anchor",
+      "composite_score": 45.9,
+      "scores": {
+        "openai": {
+          "score": 54.4,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 44.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 38.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 82.0,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -206,27 +246,35 @@
           "description": "Gainsight lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 5,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "zapier",
       "brand": "Zapier",
-      "url": "zapier.com",
-      "rank": 6,
-      "avs_brand": 45.6,
-      "avs_per_llm": {
-        "openai": 53.2,
-        "anthropic": 38.0,
-        "perplexity": 45.6
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "UC-04",
-      "top_gap_prompt": "How can a Ops Manager or No-Code Lead at a small to mid-market company connect apps and automate repetitive workflows without writing any code more efficiently?",
-      "verified": true,
+      "domain": "zapier.com",
       "category": "automation",
       "category_long": "no-code workflow automation platform connecting 6000 plus apps",
       "tier": "anchor",
+      "composite_score": 45.6,
+      "scores": {
+        "openai": {
+          "score": 53.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 38.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 45.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 60.3,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -246,27 +294,35 @@
           "description": "Zapier's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 6,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "amplitude",
       "brand": "Amplitude",
-      "url": "amplitude.com",
-      "rank": 7,
-      "avs_brand": 45.3,
-      "avs_per_llm": {
-        "openai": 50.0,
-        "anthropic": 40.8,
-        "perplexity": 45.2
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "UC-02",
-      "top_gap_prompt": "Best way to optimize onboarding and conversion funnels for a mid-market to enterprise product teams team",
-      "verified": true,
+      "domain": "amplitude.com",
       "category": "product analytics",
       "category_long": "digital analytics platform for enterprise and mid-market teams",
       "tier": "anchor",
+      "composite_score": 45.3,
+      "scores": {
+        "openai": {
+          "score": 50.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 40.8,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 45.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 55.2,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -286,27 +342,35 @@
           "description": "Amplitude's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 7,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "customer-io",
       "brand": "Customer.io",
-      "url": "customer.io",
-      "rank": 8,
-      "avs_brand": 45.2,
-      "avs_per_llm": {
-        "openai": 47.6,
-        "anthropic": 40.4,
-        "perplexity": 47.6
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "AL-02",
-      "top_gap_prompt": "Cheaper alternatives to Klaviyo",
-      "verified": true,
+      "domain": "customer.io",
       "category": "marketing automation",
       "category_long": "customer messaging and lifecycle automation platform for SaaS",
       "tier": "anchor",
+      "composite_score": 45.2,
+      "scores": {
+        "openai": {
+          "score": 47.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 40.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 47.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 64.3,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -326,27 +390,35 @@
           "description": "Customer.io lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 8,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "vanta",
       "brand": "Vanta",
-      "url": "vanta.com",
-      "rank": 9,
-      "avs_brand": 44.9,
-      "avs_per_llm": {
-        "openai": 45.2,
-        "anthropic": 40.0,
-        "perplexity": 49.6
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "IN-04",
-      "top_gap_prompt": "Best compliance that works with GitHub and AWS",
-      "verified": true,
+      "domain": "vanta.com",
       "category": "compliance",
       "category_long": "automated security compliance platform for SOC 2 ISO 27001 and more",
       "tier": "anchor",
+      "composite_score": 44.9,
+      "scores": {
+        "openai": {
+          "score": 45.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 40.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 49.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 76.3,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -366,27 +438,35 @@
           "description": "Vanta lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 9,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "hightouch",
       "brand": "Hightouch",
-      "url": "hightouch.com",
-      "rank": 10,
-      "avs_brand": 44.7,
-      "avs_per_llm": {
-        "openai": 45.6,
-        "anthropic": 39.6,
-        "perplexity": 48.8
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "AL-02",
-      "top_gap_prompt": "Cheaper alternatives to Omnata",
-      "verified": true,
+      "domain": "hightouch.com",
       "category": "reverse ETL",
       "category_long": "data activation and reverse ETL platform for RevOps and data teams",
       "tier": "tier1",
+      "composite_score": 44.7,
+      "scores": {
+        "openai": {
+          "score": 45.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 39.6,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 48.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 40.9,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -406,27 +486,35 @@
           "description": "Hightouch is under-represented in third-party 'best reverse ETL' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 10,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "pipedrive",
       "brand": "Pipedrive",
-      "url": "pipedrive.com",
-      "rank": 11,
-      "avs_brand": 44.5,
-      "avs_per_llm": {
-        "openai": 43.2,
-        "anthropic": 41.6,
-        "perplexity": 48.8
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "UC-01",
-      "top_gap_prompt": "How do I manage a visual sales pipeline without spending a lot on software?",
-      "verified": true,
+      "domain": "pipedrive.com",
       "category": "CRM",
       "category_long": "visual sales CRM for SMBs",
       "tier": "anchor",
+      "composite_score": 44.5,
+      "scores": {
+        "openai": {
+          "score": 43.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 41.6,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 48.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 84.9,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -446,27 +534,35 @@
           "description": "Pipedrive lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 11,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "rudderstack",
       "brand": "RudderStack",
-      "url": "rudderstack.com",
-      "rank": 12,
-      "avs_brand": 44.3,
-      "avs_per_llm": {
-        "openai": 56.0,
-        "anthropic": 36.4,
-        "perplexity": 40.4
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "IN-05",
-      "top_gap_prompt": "customer data platform tools with native Segment integration",
-      "verified": true,
+      "domain": "rudderstack.com",
       "category": "customer data platform",
       "category_long": "open-source customer data platform for engineering-led data teams",
       "tier": "tier2",
+      "composite_score": 44.3,
+      "scores": {
+        "openai": {
+          "score": 56.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 36.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 40.4,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 56.7,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -486,27 +582,35 @@
           "description": "RudderStack is under-represented in third-party 'best customer data platform' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 12,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "totango",
       "brand": "Totango",
-      "url": "totango.com",
-      "rank": 13,
-      "avs_brand": 43.5,
-      "avs_per_llm": {
-        "openai": 46.8,
-        "anthropic": 39.6,
-        "perplexity": 44.0
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "UC-04",
-      "top_gap_prompt": "How can a VP CS or Enterprise CS Lead at a large SaaS organization build modular customer success programs using composable SuccessBLOC templates more efficiently?",
-      "verified": true,
+      "domain": "totango.com",
       "category": "customer success",
       "category_long": "composable customer success platform for enterprise SaaS companies",
       "tier": "tier1",
+      "composite_score": 43.5,
+      "scores": {
+        "openai": {
+          "score": 46.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 39.6,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 44.0,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 43.7,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -526,27 +630,35 @@
           "description": "Totango's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 13,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "plausible",
       "brand": "Plausible",
-      "url": "plausible.io",
-      "rank": 14,
-      "avs_brand": 43.1,
-      "avs_per_llm": {
-        "openai": 48.8,
-        "anthropic": 39.6,
-        "perplexity": 40.8
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-03",
-      "top_gap_prompt": "Which web analytics software should a SaaS founder or marketing manager use?",
-      "verified": true,
+      "domain": "plausible.io",
       "category": "web analytics",
       "category_long": "privacy-first web analytics for SaaS founders",
       "tier": "tier1",
+      "composite_score": 43.1,
+      "scores": {
+        "openai": {
+          "score": 48.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 39.6,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 40.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 31.0,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -566,27 +678,35 @@
           "description": "Plausible is under-represented in third-party 'best web analytics' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 14,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "chartmogul",
       "brand": "ChartMogul",
-      "url": "chartmogul.com",
-      "rank": 15,
-      "avs_brand": 42.0,
-      "avs_per_llm": {
-        "openai": 44.4,
-        "anthropic": 38.0,
-        "perplexity": 43.6
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "UC-02",
-      "top_gap_prompt": "Best way to analyze cohort retention and forecast subscription revenue growth for a founders and finance teams at subscription SaaS businesses team",
-      "verified": true,
+      "domain": "chartmogul.com",
       "category": "SaaS analytics",
       "category_long": "subscription analytics and revenue intelligence for SaaS companies",
       "tier": "tier2",
+      "composite_score": 42.0,
+      "scores": {
+        "openai": {
+          "score": 44.4,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 38.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 43.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 54.3,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -606,27 +726,35 @@
           "description": "ChartMogul's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 15,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "fivetran",
       "brand": "Fivetran",
-      "url": "fivetran.com",
-      "rank": 16,
-      "avs_brand": 41.9,
-      "avs_per_llm": {
-        "openai": 43.6,
-        "anthropic": 45.2,
-        "perplexity": 36.8
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "UC-01",
-      "top_gap_prompt": "How do I replicate data from 400 plus sources to your data warehouse automatically without spending a lot on software?",
-      "verified": true,
+      "domain": "fivetran.com",
       "category": "data integration",
       "category_long": "automated data movement and transformation platform for modern data stacks",
       "tier": "anchor",
+      "composite_score": 41.9,
+      "scores": {
+        "openai": {
+          "score": 43.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 45.2,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 36.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 74.4,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -646,27 +774,35 @@
           "description": "Fivetran lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 16,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "baremetrics",
       "brand": "Baremetrics",
-      "url": "baremetrics.com",
-      "rank": 17,
-      "avs_brand": 41.2,
-      "avs_per_llm": {
-        "openai": 42.8,
-        "anthropic": 36.0,
-        "perplexity": 44.8
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "UC-05",
-      "top_gap_prompt": "What software helps with forecast revenue and identify at-risk customers before they churn at scale?",
-      "verified": true,
+      "domain": "baremetrics.com",
       "category": "SaaS analytics",
       "category_long": "SaaS metrics and subscription analytics for bootstrap and funded founders",
       "tier": "tier1",
+      "composite_score": 41.2,
+      "scores": {
+        "openai": {
+          "score": 42.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 36.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 44.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 35.5,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -686,27 +822,35 @@
           "description": "Baremetrics is under-represented in third-party 'best SaaS analytics' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 17,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "weights-biases",
       "brand": "Weights & Biases",
-      "url": "wandb.ai",
-      "rank": 18,
-      "avs_brand": 40.5,
-      "avs_per_llm": {
-        "openai": 44.0,
-        "anthropic": 40.0,
-        "perplexity": 37.6
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "AL-02",
-      "top_gap_prompt": "Cheaper alternatives to Comet",
-      "verified": true,
+      "domain": "wandb.ai",
       "category": "MLOps",
       "category_long": "experiment tracking and ML model management platform for AI teams",
       "tier": "anchor",
+      "composite_score": 40.5,
+      "scores": {
+        "openai": {
+          "score": 44.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 40.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 37.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 75.7,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -726,27 +870,35 @@
           "description": "Weights & Biases lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 18,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "raycast",
       "brand": "Raycast",
-      "url": "raycast.com",
-      "rank": 19,
-      "avs_brand": 40.4,
-      "avs_per_llm": {
-        "openai": 37.6,
-        "anthropic": 34.4,
-        "perplexity": 49.2
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-03",
-      "top_gap_prompt": "Which productivity software should a Developer Productivity Lead or CTO at a tech company use?",
-      "verified": true,
+      "domain": "raycast.com",
       "category": "productivity",
       "category_long": "developer productivity launcher for Mac power users",
       "tier": "tier1",
+      "composite_score": 40.4,
+      "scores": {
+        "openai": {
+          "score": 37.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 34.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 49.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 17.0,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -766,27 +918,35 @@
           "description": "Raycast lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 19,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "workable",
       "brand": "Workable",
-      "url": "workable.com",
-      "rank": 20,
-      "avs_brand": 40.3,
-      "avs_per_llm": {
-        "openai": 34.0,
-        "anthropic": 46.0,
-        "perplexity": 40.8
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "AL-05",
-      "top_gap_prompt": "Open source or affordable ATS tools instead of Greenhouse",
-      "verified": true,
+      "domain": "workable.com",
       "category": "ATS",
       "category_long": "applicant tracking system for growing companies",
       "tier": "tier2",
+      "composite_score": 40.3,
+      "scores": {
+        "openai": {
+          "score": 34.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 46.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 40.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 64.9,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -806,27 +966,35 @@
           "description": "Workable's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 20,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "activecampaign",
       "brand": "ActiveCampaign",
-      "url": "activecampaign.com",
-      "rank": 21,
-      "avs_brand": 40.1,
-      "avs_per_llm": {
-        "openai": 39.6,
-        "anthropic": 36.4,
-        "perplexity": 44.4
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "UC-02",
-      "top_gap_prompt": "Best way to segment contacts and send personalized campaigns based on behavioral data for a SMB and mid-market marketing teams running email and CRM programs team",
-      "verified": true,
+      "domain": "activecampaign.com",
       "category": "marketing automation",
       "category_long": "customer experience automation for SMB and mid-market businesses",
       "tier": "anchor",
+      "composite_score": 40.1,
+      "scores": {
+        "openai": {
+          "score": 39.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 36.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 44.4,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 79.7,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -846,27 +1014,35 @@
           "description": "ActiveCampaign lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 21,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "intercom",
       "brand": "Intercom",
-      "url": "intercom.com",
-      "rank": 22,
-      "avs_brand": 40.1,
-      "avs_per_llm": {
-        "openai": 40.8,
-        "anthropic": 44.8,
-        "perplexity": 34.8
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "UC-01",
-      "top_gap_prompt": "How do I manage all customer conversations in one unified inbox across chat email and social without spending a lot on software?",
-      "verified": true,
+      "domain": "intercom.com",
       "category": "customer support",
       "category_long": "customer messaging and AI-powered support platform for B2B SaaS",
       "tier": "anchor",
+      "composite_score": 40.1,
+      "scores": {
+        "openai": {
+          "score": 40.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 44.8,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 34.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 55.2,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -886,27 +1062,35 @@
           "description": "Intercom's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 22,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "neon",
       "brand": "Neon",
-      "url": "neon.tech",
-      "rank": 23,
-      "avs_brand": 40.0,
-      "avs_per_llm": {
-        "openai": 26.8,
-        "anthropic": 38.0,
-        "perplexity": 55.2
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best database for developer teams building SaaS and AI applications?",
-      "verified": true,
+      "domain": "neon.tech",
       "category": "database",
       "category_long": "serverless Postgres platform for developer teams",
       "tier": "tier2",
+      "composite_score": 40.0,
+      "scores": {
+        "openai": {
+          "score": 26.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 38.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 55.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 36.6,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -926,27 +1110,35 @@
           "description": "Neon's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 23,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "metabase",
       "brand": "Metabase",
-      "url": "metabase.com",
-      "rank": 24,
-      "avs_brand": 39.9,
-      "avs_per_llm": {
-        "openai": 37.2,
-        "anthropic": 36.8,
-        "perplexity": 45.6
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "UC-05",
-      "top_gap_prompt": "What software helps with share data insights with non-technical stakeholders at scale?",
-      "verified": true,
+      "domain": "metabase.com",
       "category": "business intelligence",
       "category_long": "open-source BI and data visualization tool",
       "tier": "tier1",
+      "composite_score": 39.9,
+      "scores": {
+        "openai": {
+          "score": 37.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 36.8,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 45.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 20.5,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -966,27 +1158,35 @@
           "description": "Metabase is under-represented in third-party 'best business intelligence' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 24,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "pendo",
       "brand": "Pendo",
-      "url": "pendo.io",
-      "rank": 25,
-      "avs_brand": 39.1,
-      "avs_per_llm": {
-        "openai": 36.8,
-        "anthropic": 37.2,
-        "perplexity": 43.2
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "UC-01",
-      "top_gap_prompt": "How do I guide users through in-app onboarding tours without spending a lot on software?",
-      "verified": true,
+      "domain": "pendo.io",
       "category": "product analytics",
       "category_long": "product experience and analytics platform for enterprise SaaS",
       "tier": "anchor",
+      "composite_score": 39.1,
+      "scores": {
+        "openai": {
+          "score": 36.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 37.2,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 43.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 85.9,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -1006,27 +1206,35 @@
           "description": "Pendo lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 25,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "langchain",
       "brand": "LangChain",
-      "url": "langchain.com",
-      "rank": 26,
-      "avs_brand": 38.8,
-      "avs_per_llm": {
-        "openai": 37.6,
-        "anthropic": 38.4,
-        "perplexity": 40.4
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "IN-05",
-      "top_gap_prompt": "AI tooling tools with native OpenAI integration",
-      "verified": true,
+      "domain": "langchain.com",
       "category": "AI tooling",
       "category_long": "framework for building production LLM-powered applications",
       "tier": "tier2",
+      "composite_score": 38.8,
+      "scores": {
+        "openai": {
+          "score": 37.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 38.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 40.4,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 64.0,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -1046,27 +1254,35 @@
           "description": "LangChain lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 26,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "paddle",
       "brand": "Paddle",
-      "url": "paddle.com",
-      "rank": 27,
-      "avs_brand": 38.5,
-      "avs_per_llm": {
-        "openai": 35.6,
-        "anthropic": 38.4,
-        "perplexity": 41.6
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "AL-04",
-      "top_gap_prompt": "Stripe vs alternatives: what should I switch to?",
-      "verified": true,
+      "domain": "paddle.com",
       "category": "billing",
       "category_long": "complete payments and billing infrastructure for software companies",
       "tier": "tier2",
+      "composite_score": 38.5,
+      "scores": {
+        "openai": {
+          "score": 35.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 38.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 41.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 63.5,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -1086,27 +1302,35 @@
           "description": "Paddle's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 27,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "chargebee",
       "brand": "Chargebee",
-      "url": "chargebee.com",
-      "rank": 28,
-      "avs_brand": 38.4,
-      "avs_per_llm": {
-        "openai": 50.4,
-        "anthropic": 26.8,
-        "perplexity": 38.0
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "IN-05",
-      "top_gap_prompt": "billing tools with native Salesforce integration",
-      "verified": true,
+      "domain": "chargebee.com",
       "category": "billing",
       "category_long": "subscription management and revenue billing platform for SaaS",
       "tier": "anchor",
+      "composite_score": 38.4,
+      "scores": {
+        "openai": {
+          "score": 50.4,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 26.8,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 38.0,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 80.0,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -1126,27 +1350,35 @@
           "description": "Chargebee lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 28,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "airbyte",
       "brand": "Airbyte",
-      "url": "airbyte.com",
-      "rank": 29,
-      "avs_brand": 37.6,
-      "avs_per_llm": {
-        "openai": 28.0,
-        "anthropic": 36.4,
-        "perplexity": 48.4
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "AL-02",
-      "top_gap_prompt": "Cheaper alternatives to Stitch",
-      "verified": true,
+      "domain": "airbyte.com",
       "category": "data integration",
       "category_long": "open-source ELT data integration platform for modern data teams",
       "tier": "tier2",
+      "composite_score": 37.6,
+      "scores": {
+        "openai": {
+          "score": 28.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 36.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 48.4,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 37.7,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -1166,27 +1398,35 @@
           "description": "Airbyte is under-represented in third-party 'best data integration' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 29,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "supermetrics",
       "brand": "Supermetrics",
-      "url": "supermetrics.com",
-      "rank": 30,
-      "avs_brand": 36.9,
-      "avs_per_llm": {
-        "openai": 41.6,
-        "anthropic": 35.2,
-        "perplexity": 34.0
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-03",
-      "top_gap_prompt": "Which marketing analytics software should a marketing analyst or head of marketing use?",
-      "verified": true,
+      "domain": "supermetrics.com",
       "category": "marketing analytics",
       "category_long": "marketing data pipeline tool for agencies and in-house teams",
       "tier": "tier1",
+      "composite_score": 36.9,
+      "scores": {
+        "openai": {
+          "score": 41.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 35.2,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 34.0,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 15.5,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -1206,27 +1446,35 @@
           "description": "Supermetrics lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 30,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "sentry",
       "brand": "Sentry",
-      "url": "sentry.io",
-      "rank": 31,
-      "avs_brand": 36.3,
-      "avs_per_llm": {
-        "openai": 44.0,
-        "anthropic": 32.4,
-        "perplexity": 32.4
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "UC-02",
-      "top_gap_prompt": "Best way to monitor application performance and response latency for a engineering teams at SaaS companies team",
-      "verified": true,
+      "domain": "sentry.io",
       "category": "error monitoring",
       "category_long": "application performance monitoring and error tracking platform",
       "tier": "anchor",
+      "composite_score": 36.3,
+      "scores": {
+        "openai": {
+          "score": 44.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 32.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 32.4,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 67.3,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -1246,27 +1494,35 @@
           "description": "Sentry lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 31,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "help-scout",
       "brand": "Help Scout",
-      "url": "helpscout.com",
-      "rank": 32,
-      "avs_brand": 36.1,
-      "avs_per_llm": {
-        "openai": 41.6,
-        "anthropic": 30.0,
-        "perplexity": 36.8
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "UC-02",
-      "top_gap_prompt": "Best way to build a self-service knowledge base that reduces inbound support volume for a support and success teams at bootstrapped and growth-stage SaaS companies team",
-      "verified": true,
+      "domain": "helpscout.com",
       "category": "customer support",
       "category_long": "simple email-based customer support platform for customer-centric teams",
       "tier": "tier2",
+      "composite_score": 36.1,
+      "scores": {
+        "openai": {
+          "score": 41.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 30.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 36.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 53.9,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -1286,27 +1542,35 @@
           "description": "Help Scout's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 32,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "drata",
       "brand": "Drata",
-      "url": "drata.com",
-      "rank": 33,
-      "avs_brand": 35.9,
-      "avs_per_llm": {
-        "openai": 37.2,
-        "anthropic": 31.2,
-        "perplexity": 39.2
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best compliance for security and compliance teams at high-growth technology companies?",
-      "verified": true,
+      "domain": "drata.com",
       "category": "compliance",
       "category_long": "continuous security and compliance automation platform for tech companies",
       "tier": "anchor",
+      "composite_score": 35.9,
+      "scores": {
+        "openai": {
+          "score": 37.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 31.2,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 39.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 87.9,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -1326,27 +1590,35 @@
           "description": "Drata lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 33,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "n8n",
       "brand": "n8n",
-      "url": "n8n.io",
-      "rank": 34,
-      "avs_brand": 35.7,
-      "avs_per_llm": {
-        "openai": 37.6,
-        "anthropic": 26.0,
-        "perplexity": 43.6
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "IN-04",
-      "top_gap_prompt": "Best automation that works with GitHub and Postgres",
-      "verified": true,
+      "domain": "n8n.io",
       "category": "automation",
       "category_long": "open-source workflow automation for technical operations teams",
       "tier": "tier1",
+      "composite_score": 35.7,
+      "scores": {
+        "openai": {
+          "score": 37.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 26.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 43.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 10.9,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -1366,27 +1638,35 @@
           "description": "n8n lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 34,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "posthog",
       "brand": "PostHog",
-      "url": "posthog.com",
-      "rank": 35,
-      "avs_brand": 35.6,
-      "avs_per_llm": {
-        "openai": 29.6,
-        "anthropic": 36.0,
-        "perplexity": 41.2
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "UC-05",
-      "top_gap_prompt": "What software helps with track feature flags and run A/B experiments at scale?",
-      "verified": true,
+      "domain": "posthog.com",
       "category": "product analytics",
       "category_long": "open-source product analytics platform for developer teams",
       "tier": "anchor",
+      "composite_score": 35.6,
+      "scores": {
+        "openai": {
+          "score": 29.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 36.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 41.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 76.9,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -1406,27 +1686,35 @@
           "description": "PostHog lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 35,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "fullstory",
       "brand": "FullStory",
-      "url": "fullstory.com",
-      "rank": 36,
-      "avs_brand": 35.3,
-      "avs_per_llm": {
-        "openai": 38.0,
-        "anthropic": 34.4,
-        "perplexity": 33.6
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "AL-03",
-      "top_gap_prompt": "Best product analytics alternatives for product and UX teams at mid-market SaaS companies teams on a budget",
-      "verified": true,
+      "domain": "fullstory.com",
       "category": "product analytics",
       "category_long": "digital experience analytics with session replay",
       "tier": "tier1",
+      "composite_score": 35.3,
+      "scores": {
+        "openai": {
+          "score": 38.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 34.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 33.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 54.9,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -1446,27 +1734,35 @@
           "description": "FullStory's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 36,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "lattice",
       "brand": "Lattice",
-      "url": "lattice.com",
-      "rank": 37,
-      "avs_brand": 35.1,
-      "avs_per_llm": {
-        "openai": 36.8,
-        "anthropic": 33.6,
-        "perplexity": 34.8
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best HR for mid-market companies building high-performance cultures?",
-      "verified": true,
+      "domain": "lattice.com",
       "category": "HR",
       "category_long": "performance management and people development platform for growing teams",
       "tier": "tier2",
+      "composite_score": 35.1,
+      "scores": {
+        "openai": {
+          "score": 36.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 33.6,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 34.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 31.1,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -1486,27 +1782,35 @@
           "description": "Lattice is under-represented in third-party 'best HR' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 37,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "copper",
       "brand": "Copper",
-      "url": "copper.com",
-      "rank": 38,
-      "avs_brand": 34.9,
-      "avs_per_llm": {
-        "openai": 39.2,
-        "anthropic": 24.4,
-        "perplexity": 41.2
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "AL-02",
-      "top_gap_prompt": "Cheaper alternatives to Pipedrive",
-      "verified": true,
+      "domain": "copper.com",
       "category": "CRM",
       "category_long": "Google-native CRM for agencies and consultants",
       "tier": "niche",
+      "composite_score": 34.9,
+      "scores": {
+        "openai": {
+          "score": 39.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 24.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 41.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 18.9,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -1526,27 +1830,35 @@
           "description": "Copper lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 38,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "apollo-io",
       "brand": "Apollo.io",
-      "url": "apollo.io",
-      "rank": 39,
-      "avs_brand": 34.7,
-      "avs_per_llm": {
-        "openai": 27.6,
-        "anthropic": 40.4,
-        "perplexity": 36.0
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best CRM for SDR teams at B2B companies?",
-      "verified": true,
+      "domain": "apollo.io",
       "category": "CRM",
       "category_long": "B2B sales intelligence and outreach platform",
       "tier": "anchor",
+      "composite_score": 34.7,
+      "scores": {
+        "openai": {
+          "score": 27.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 40.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 36.0,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 83.5,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -1566,27 +1878,35 @@
           "description": "Apollo.io lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 39,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "rippling",
       "brand": "Rippling",
-      "url": "rippling.com",
-      "rank": 40,
-      "avs_brand": 33.7,
-      "avs_per_llm": {
-        "openai": 27.6,
-        "anthropic": 38.4,
-        "perplexity": 35.2
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "AL-05",
-      "top_gap_prompt": "Open source or affordable HR tools instead of BambooHR",
-      "verified": true,
+      "domain": "rippling.com",
       "category": "HR",
       "category_long": "unified workforce platform for HR payroll IT and finance",
       "tier": "anchor",
+      "composite_score": 33.7,
+      "scores": {
+        "openai": {
+          "score": 27.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 38.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 35.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 53.8,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -1606,27 +1926,35 @@
           "description": "Rippling's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 40,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "make",
       "brand": "Make",
-      "url": "make.com",
-      "rank": 41,
-      "avs_brand": 33.6,
-      "avs_per_llm": {
-        "openai": 34.0,
-        "anthropic": 37.6,
-        "perplexity": 29.2
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "UC-02",
-      "top_gap_prompt": "Best way to design advanced logic and data transformations for enterprise-grade automated workflows for a operations teams and automation specialists building advanced integrations team",
-      "verified": true,
+      "domain": "make.com",
       "category": "automation",
       "category_long": "visual no-code automation platform for building complex workflows",
       "tier": "tier2",
+      "composite_score": 33.6,
+      "scores": {
+        "openai": {
+          "score": 34.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 37.6,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 29.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 38.5,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -1646,27 +1974,35 @@
           "description": "Make's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 41,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "linear",
       "brand": "Linear",
-      "url": "linear.app",
-      "rank": 42,
-      "avs_brand": 33.3,
-      "avs_per_llm": {
-        "openai": 23.6,
-        "anthropic": 36.0,
-        "perplexity": 40.4
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "AL-02",
-      "top_gap_prompt": "Cheaper alternatives to Asana",
-      "verified": true,
+      "domain": "linear.app",
       "category": "project management",
       "category_long": "issue tracking and project management for software teams",
       "tier": "tier2",
+      "composite_score": 33.3,
+      "scores": {
+        "openai": {
+          "score": 23.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 36.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 40.4,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 39.6,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -1686,67 +2022,35 @@
           "description": "Linear is under-represented in third-party 'best project management' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 42,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "llamaindex",
-      "brand": "LlamaIndex",
-      "url": "llamaindex.ai",
-      "rank": 43,
-      "avs_brand": 33.2,
-      "avs_per_llm": {
-        "openai": 27.6,
-        "anthropic": 36.8,
-        "perplexity": 35.2
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "UC-02",
-      "top_gap_prompt": "Best way to connect LLMs to enterprise knowledge bases with advanced indexing techniques for a AI engineers building knowledge-intensive LLM and RAG applications team",
-      "verified": true,
-      "category": "AI tooling",
-      "category_long": "data framework for LLM applications and RAG pipelines",
-      "tier": "tier2",
-      "gaps": [
-        {
-          "type": "schema",
-          "title": "Missing FAQPage schema on pricing and comparison pages",
-          "description": "LlamaIndex's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
-          "priority": 1
-        },
-        {
-          "type": "content",
-          "title": "Thin or missing dedicated competitor-comparison pages",
-          "description": "LlamaIndex lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
-          "priority": 2
-        },
-        {
-          "type": "schema",
-          "title": "No HowTo schema on documentation and tutorial pages",
-          "description": "LlamaIndex's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
-          "priority": 3
-        }
-      ]
-    },
-    {
-      "slug": "personio",
       "brand": "Personio",
-      "url": "personio.com",
-      "rank": 44,
-      "avs_brand": 33.2,
-      "avs_per_llm": {
-        "openai": 36.8,
-        "anthropic": 30.8,
-        "perplexity": 32.0
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-04",
-      "top_gap_prompt": "Best HR platforms for manage all HR processes from hiring to payroll in one system",
-      "verified": true,
+      "domain": "personio.com",
       "category": "HR",
       "category_long": "all-in-one HR software for European SMEs",
       "tier": "anchor",
+      "composite_score": 33.2,
+      "scores": {
+        "openai": {
+          "score": 36.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 30.8,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 32.0,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 84.3,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -1766,67 +2070,83 @@
           "description": "Personio lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 43,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "semgrep",
-      "brand": "Semgrep",
-      "url": "semgrep.com",
-      "rank": 45,
-      "avs_brand": 32.8,
-      "avs_per_llm": {
-        "openai": 20.8,
-        "anthropic": 39.2,
-        "perplexity": 38.4
+      "brand": "LlamaIndex",
+      "domain": "llamaindex.ai",
+      "category": "AI tooling",
+      "category_long": "data framework for LLM applications and RAG pipelines",
+      "tier": "tier2",
+      "composite_score": 33.2,
+      "scores": {
+        "openai": {
+          "score": 27.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 36.8,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 35.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 55.4,
+          "label": "Google AI Overviews"
+        }
       },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best security for application security and DevSecOps teams at technology companies?",
-      "verified": true,
-      "category": "security",
-      "category_long": "static analysis and application security testing tool for developers",
-      "tier": "niche",
       "gaps": [
         {
-          "type": "content",
-          "title": "Thin or missing dedicated competitor-comparison pages",
-          "description": "Semgrep lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "LlamaIndex's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
           "priority": 1
         },
         {
-          "type": "schema",
-          "title": "No Organization or SoftwareApplication schema on homepage",
-          "description": "Semgrep's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "LlamaIndex lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 2
         },
         {
-          "type": "content",
-          "title": "Low placement frequency in 'best [category] tools' roundups",
-          "description": "Semgrep is under-represented in third-party 'best security' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "LlamaIndex's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 44,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "churnzero",
       "brand": "ChurnZero",
-      "url": "churnzero.com",
-      "rank": 46,
-      "avs_brand": 32.8,
-      "avs_per_llm": {
-        "openai": 39.2,
-        "anthropic": 15.2,
-        "perplexity": 44.0
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best customer success for customer success teams at mid-market and enterprise SaaS companies?",
-      "verified": true,
+      "domain": "churnzero.com",
       "category": "customer success",
       "category_long": "real-time customer success software for subscription businesses",
       "tier": "tier2",
+      "composite_score": 32.8,
+      "scores": {
+        "openai": {
+          "score": 39.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 15.2,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 44.0,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 47.3,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -1846,27 +2166,83 @@
           "description": "ChurnZero's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 45,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "vitally",
-      "brand": "Vitally",
-      "url": "vitally.io",
-      "rank": 47,
-      "avs_brand": 31.3,
-      "avs_per_llm": {
-        "openai": 16.8,
-        "anthropic": 35.2,
-        "perplexity": 42.0
+      "brand": "Semgrep",
+      "domain": "semgrep.com",
+      "category": "security",
+      "category_long": "static analysis and application security testing tool for developers",
+      "tier": "niche",
+      "composite_score": 32.8,
+      "scores": {
+        "openai": {
+          "score": 20.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 39.2,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 38.4,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 42.3,
+          "label": "Google AI Overviews"
+        }
       },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best customer success for customer success teams at mid-market B2B SaaS companies?",
-      "verified": true,
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Semgrep lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Semgrep's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Semgrep is under-represented in third-party 'best security' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 46,
+      "data_source": "verified_2026-05-30"
+    },
+    {
+      "brand": "Vitally",
+      "domain": "vitally.io",
       "category": "customer success",
       "category_long": "customer success platform for B2B SaaS product and CS teams",
       "tier": "tier1",
+      "composite_score": 31.3,
+      "scores": {
+        "openai": {
+          "score": 16.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 35.2,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 42.0,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 17.3,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -1886,27 +2262,35 @@
           "description": "Vitally lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 47,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "ashby",
       "brand": "Ashby",
-      "url": "ashby.com",
-      "rank": 48,
-      "avs_brand": 31.1,
-      "avs_per_llm": {
-        "openai": 18.0,
-        "anthropic": 39.2,
-        "perplexity": 36.0
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "AL-02",
-      "top_gap_prompt": "Cheaper alternatives to Greenhouse",
-      "verified": true,
+      "domain": "ashby.com",
       "category": "ATS",
       "category_long": "all-in-one recruiting platform for high-growth companies",
       "tier": "tier2",
+      "composite_score": 31.1,
+      "scores": {
+        "openai": {
+          "score": 18.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 39.2,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 36.0,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 59.3,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -1926,27 +2310,35 @@
           "description": "Ashby's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 48,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "doppler",
       "brand": "Doppler",
-      "url": "doppler.com",
-      "rank": 49,
-      "avs_brand": 31.1,
-      "avs_per_llm": {
-        "openai": 27.6,
-        "anthropic": 28.0,
-        "perplexity": 37.6
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "IN-04",
-      "top_gap_prompt": "Best secrets management that works with GitHub and Kubernetes",
-      "verified": true,
+      "domain": "doppler.com",
       "category": "secrets management",
       "category_long": "universal secrets manager for engineering and DevOps teams",
       "tier": "tier1",
+      "composite_score": 31.1,
+      "scores": {
+        "openai": {
+          "score": 27.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 28.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 37.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 22.2,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -1966,27 +2358,35 @@
           "description": "Doppler is under-represented in third-party 'best secrets management' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 49,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "instantly",
       "brand": "Instantly",
-      "url": "instantly.ai",
-      "rank": 50,
-      "avs_brand": 29.6,
-      "avs_per_llm": {
-        "openai": 18.4,
-        "anthropic": 30.8,
-        "perplexity": 39.6
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best sales engagement for SDR teams and growth hackers running high-volume cold email campaigns?",
-      "verified": true,
+      "domain": "instantly.ai",
       "category": "sales engagement",
       "category_long": "cold email automation platform built for high-volume outbound",
       "tier": "tier1",
+      "composite_score": 29.6,
+      "scores": {
+        "openai": {
+          "score": 18.4,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 30.8,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 39.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 44.0,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -2006,27 +2406,35 @@
           "description": "Instantly is under-represented in third-party 'best sales engagement' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 50,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "lemlist",
       "brand": "Lemlist",
-      "url": "lemlist.com",
-      "rank": 51,
-      "avs_brand": 29.3,
-      "avs_per_llm": {
-        "openai": 24.0,
-        "anthropic": 36.8,
-        "perplexity": 27.2
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best sales engagement for sales teams and growth marketers at B2B companies doing outbound?",
-      "verified": true,
+      "domain": "lemlist.com",
       "category": "sales engagement",
       "category_long": "AI-powered cold email and multi-channel sales engagement platform",
       "tier": "anchor",
+      "composite_score": 29.3,
+      "scores": {
+        "openai": {
+          "score": 24.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 36.8,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 27.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 68.0,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -2046,27 +2454,35 @@
           "description": "Lemlist lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 51,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "brevo",
       "brand": "Brevo",
-      "url": "brevo.com",
-      "rank": 52,
-      "avs_brand": 28.9,
-      "avs_per_llm": {
-        "openai": 11.6,
-        "anthropic": 39.2,
-        "perplexity": 36.0
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "UC-05",
-      "top_gap_prompt": "What software helps with manage contacts and automate marketing workflows from a single platform at scale?",
-      "verified": true,
+      "domain": "brevo.com",
       "category": "marketing automation",
       "category_long": "all-in-one marketing platform for email SMS and CRM campaigns",
       "tier": "anchor",
+      "composite_score": 28.9,
+      "scores": {
+        "openai": {
+          "score": 11.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 39.2,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 36.0,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 75.6,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -2086,27 +2502,35 @@
           "description": "Brevo lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 52,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "secureframe",
       "brand": "Secureframe",
-      "url": "secureframe.com",
-      "rank": 53,
-      "avs_brand": 28.7,
-      "avs_per_llm": {
-        "openai": 31.6,
-        "anthropic": 26.8,
-        "perplexity": 27.6
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best compliance for security teams at mid-market SaaS companies pursuing multiple frameworks?",
-      "verified": true,
+      "domain": "secureframe.com",
       "category": "compliance",
       "category_long": "security and compliance automation for mid-market SaaS companies",
       "tier": "tier2",
+      "composite_score": 28.7,
+      "scores": {
+        "openai": {
+          "score": 31.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 26.8,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 27.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 64.9,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -2126,27 +2550,35 @@
           "description": "Secureframe lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 53,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "workato",
       "brand": "Workato",
-      "url": "workato.com",
-      "rank": 54,
-      "avs_brand": 28.4,
-      "avs_per_llm": {
-        "openai": 22.0,
-        "anthropic": 24.4,
-        "perplexity": 38.8
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "AL-05",
-      "top_gap_prompt": "Open source or affordable automation tools instead of Boomi",
-      "verified": true,
+      "domain": "workato.com",
       "category": "automation",
       "category_long": "enterprise automation platform for business and IT integration teams",
       "tier": "anchor",
+      "composite_score": 28.4,
+      "scores": {
+        "openai": {
+          "score": 22.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 24.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 38.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 75.4,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -2166,27 +2598,35 @@
           "description": "Workato lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 54,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "uservoice",
       "brand": "UserVoice",
-      "url": "uservoice.com",
-      "rank": 55,
-      "avs_brand": 28.3,
-      "avs_per_llm": {
-        "openai": 29.6,
-        "anthropic": 24.4,
-        "perplexity": 30.8
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-02",
-      "top_gap_prompt": "Top product feedback and roadmap management platform for product teams tools in 2025",
-      "verified": true,
+      "domain": "uservoice.com",
       "category": "product feedback",
       "category_long": "product feedback and roadmap management platform for product teams",
       "tier": "tier1",
+      "composite_score": 28.3,
+      "scores": {
+        "openai": {
+          "score": 29.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 24.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 30.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 51.9,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -2206,107 +2646,35 @@
           "description": "UserVoice is under-represented in third-party 'best product feedback' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 55,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "front",
-      "brand": "Front",
-      "url": "front.com",
-      "rank": 56,
-      "avs_brand": 28.1,
-      "avs_per_llm": {
-        "openai": 27.2,
-        "anthropic": 27.6,
-        "perplexity": 29.6
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best customer operations for customer ops support and account management teams at growing companies?",
-      "verified": true,
-      "category": "customer operations",
-      "category_long": "collaborative customer communications platform for operations teams",
-      "tier": "tier2",
-      "gaps": [
-        {
-          "type": "content",
-          "title": "Thin or missing dedicated competitor-comparison pages",
-          "description": "Front lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
-          "priority": 1
-        },
-        {
-          "type": "schema",
-          "title": "No Organization or SoftwareApplication schema on homepage",
-          "description": "Front's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
-          "priority": 2
-        },
-        {
-          "type": "content",
-          "title": "Low placement frequency in 'best [category] tools' roundups",
-          "description": "Front is under-represented in third-party 'best customer operations' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
-          "priority": 3
-        }
-      ]
-    },
-    {
-      "slug": "planhat",
-      "brand": "Planhat",
-      "url": "planhat.com",
-      "rank": 57,
-      "avs_brand": 28.1,
-      "avs_per_llm": {
-        "openai": 23.2,
-        "anthropic": 32.8,
-        "perplexity": 28.4
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best customer success for enterprise SaaS CS and RevOps teams managing complex customer portfolios?",
-      "verified": true,
-      "category": "customer success",
-      "category_long": "customer success and revenue platform for CS and RevOps teams",
-      "tier": "tier1",
-      "gaps": [
-        {
-          "type": "content",
-          "title": "Thin or missing dedicated competitor-comparison pages",
-          "description": "Planhat lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
-          "priority": 1
-        },
-        {
-          "type": "schema",
-          "title": "No Organization or SoftwareApplication schema on homepage",
-          "description": "Planhat's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
-          "priority": 2
-        },
-        {
-          "type": "content",
-          "title": "Low placement frequency in 'best [category] tools' roundups",
-          "description": "Planhat is under-represented in third-party 'best customer success' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
-          "priority": 3
-        }
-      ]
-    },
-    {
-      "slug": "reply-io",
       "brand": "Reply.io",
-      "url": "reply.io",
-      "rank": 58,
-      "avs_brand": 28.1,
-      "avs_per_llm": {
-        "openai": 24.8,
-        "anthropic": 23.6,
-        "perplexity": 36.0
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "AL-05",
-      "top_gap_prompt": "Open source or affordable sales engagement tools instead of Outreach",
-      "verified": true,
+      "domain": "reply.io",
       "category": "sales engagement",
       "category_long": "AI sales engagement platform for automated multi-channel outreach",
       "tier": "tier2",
+      "composite_score": 28.1,
+      "scores": {
+        "openai": {
+          "score": 24.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 23.6,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 36.0,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 44.1,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -2326,27 +2694,131 @@
           "description": "Reply.io's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 56,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "mosaic",
-      "brand": "Mosaic",
-      "url": "mosaic.tech",
-      "rank": 59,
-      "avs_brand": 27.7,
-      "avs_per_llm": {
-        "openai": 16.0,
-        "anthropic": 34.4,
-        "perplexity": 32.8
+      "brand": "Front",
+      "domain": "front.com",
+      "category": "customer operations",
+      "category_long": "collaborative customer communications platform for operations teams",
+      "tier": "tier2",
+      "composite_score": 28.1,
+      "scores": {
+        "openai": {
+          "score": 27.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 27.6,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 29.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 43.2,
+          "label": "Google AI Overviews"
+        }
       },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "UC-01",
-      "top_gap_prompt": "How do I build real-time financial models connected to live business data sources without spending a lot on software?",
-      "verified": true,
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Front lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Front's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Front is under-represented in third-party 'best customer operations' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 57,
+      "data_source": "verified_2026-05-30"
+    },
+    {
+      "brand": "Planhat",
+      "domain": "planhat.com",
+      "category": "customer success",
+      "category_long": "customer success and revenue platform for CS and RevOps teams",
+      "tier": "tier1",
+      "composite_score": 28.1,
+      "scores": {
+        "openai": {
+          "score": 23.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 32.8,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 28.4,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 29.8,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Planhat lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Planhat's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Planhat is under-represented in third-party 'best customer success' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 58,
+      "data_source": "verified_2026-05-30"
+    },
+    {
+      "brand": "Mosaic",
+      "domain": "mosaic.tech",
       "category": "FP&A",
       "category_long": "strategic finance platform for modern FP&A teams",
       "tier": "tier1",
+      "composite_score": 27.7,
+      "scores": {
+        "openai": {
+          "score": 16.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 34.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 32.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 31.5,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -2366,27 +2838,35 @@
           "description": "Mosaic is under-represented in third-party 'best FP&A' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 59,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "drip",
       "brand": "Drip",
-      "url": "drip.com",
-      "rank": 60,
-      "avs_brand": 26.5,
-      "avs_per_llm": {
-        "openai": 26.4,
-        "anthropic": 20.8,
-        "perplexity": 32.4
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "AL-02",
-      "top_gap_prompt": "Cheaper alternatives to Mailchimp",
-      "verified": true,
+      "domain": "drip.com",
       "category": "marketing automation",
       "category_long": "ecommerce CRM and email marketing platform for DTC brands",
       "tier": "tier1",
+      "composite_score": 26.5,
+      "scores": {
+        "openai": {
+          "score": 26.4,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 20.8,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 32.4,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 60.6,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -2406,27 +2886,35 @@
           "description": "Drip's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 60,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "apify",
       "brand": "Apify",
-      "url": "apify.com",
-      "rank": 61,
-      "avs_brand": 26.3,
-      "avs_per_llm": {
-        "openai": 22.0,
-        "anthropic": 34.8,
-        "perplexity": 22.0
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "AL-02",
-      "top_gap_prompt": "Cheaper alternatives to Playwright",
-      "verified": true,
+      "domain": "apify.com",
       "category": "automation",
       "category_long": "web scraping and browser automation platform for developers",
       "tier": "tier1",
+      "composite_score": 26.3,
+      "scores": {
+        "openai": {
+          "score": 22.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 34.8,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 22.0,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 41.1,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -2446,67 +2934,35 @@
           "description": "Apify is under-represented in third-party 'best automation' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 61,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "render",
-      "brand": "Render",
-      "url": "render.com",
-      "rank": 62,
-      "avs_brand": 25.7,
-      "avs_per_llm": {
-        "openai": 20.0,
-        "anthropic": 34.4,
-        "perplexity": 22.8
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best cloud infrastructure for startup and scale-up engineering teams?",
-      "verified": true,
-      "category": "cloud infrastructure",
-      "category_long": "modern cloud hosting platform for web services and databases",
-      "tier": "tier2",
-      "gaps": [
-        {
-          "type": "schema",
-          "title": "Missing FAQPage schema on pricing and comparison pages",
-          "description": "Render's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
-          "priority": 1
-        },
-        {
-          "type": "content",
-          "title": "Thin or missing dedicated competitor-comparison pages",
-          "description": "Render lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
-          "priority": 2
-        },
-        {
-          "type": "schema",
-          "title": "No HowTo schema on documentation and tutorial pages",
-          "description": "Render's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
-          "priority": 3
-        }
-      ]
-    },
-    {
-      "slug": "langfuse",
       "brand": "Langfuse",
-      "url": "langfuse.com",
-      "rank": 63,
-      "avs_brand": 25.7,
-      "avs_per_llm": {
-        "openai": 15.6,
-        "anthropic": 24.0,
-        "perplexity": 37.6
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best AI tooling for engineering teams building and debugging production LLM applications?",
-      "verified": true,
+      "domain": "langfuse.com",
       "category": "AI tooling",
       "category_long": "open-source LLM observability and evaluation platform",
       "tier": "tier1",
+      "composite_score": 25.7,
+      "scores": {
+        "openai": {
+          "score": 15.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 24.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 37.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 38.9,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -2526,27 +2982,83 @@
           "description": "Langfuse is under-represented in third-party 'best AI tooling' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 62,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "matillion",
-      "brand": "Matillion",
-      "url": "matillion.com",
-      "rank": 64,
-      "avs_brand": 25.3,
-      "avs_per_llm": {
-        "openai": 28.4,
-        "anthropic": 17.2,
-        "perplexity": 30.4
+      "brand": "Render",
+      "domain": "render.com",
+      "category": "cloud infrastructure",
+      "category_long": "modern cloud hosting platform for web services and databases",
+      "tier": "tier2",
+      "composite_score": 25.7,
+      "scores": {
+        "openai": {
+          "score": 20.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 34.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 22.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 50.8,
+          "label": "Google AI Overviews"
+        }
       },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best data integration for enterprise data engineering teams migrating from legacy ETL tools?",
-      "verified": true,
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Render's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Render lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Render's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ],
+      "rank": 63,
+      "data_source": "verified_2026-05-30"
+    },
+    {
+      "brand": "Matillion",
+      "domain": "matillion.com",
       "category": "data integration",
       "category_long": "cloud-native data integration and transformation platform for enterprises",
       "tier": "tier2",
+      "composite_score": 25.3,
+      "scores": {
+        "openai": {
+          "score": 28.4,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 17.2,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 30.4,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 32.7,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -2566,27 +3078,35 @@
           "description": "Matillion is under-represented in third-party 'best data integration' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 64,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "hibob",
       "brand": "HiBob",
-      "url": "hibob.com",
-      "rank": 65,
-      "avs_brand": 25.2,
-      "avs_per_llm": {
-        "openai": 20.8,
-        "anthropic": 16.0,
-        "perplexity": 38.8
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "AL-05",
-      "top_gap_prompt": "Open source or affordable HR tools instead of Personio",
-      "verified": true,
+      "domain": "hibob.com",
       "category": "HR",
       "category_long": "modern HRIS for mid-market global and remote-first teams",
       "tier": "anchor",
+      "composite_score": 25.2,
+      "scores": {
+        "openai": {
+          "score": 20.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 16.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 38.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 68.6,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -2606,27 +3126,35 @@
           "description": "HiBob's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 65,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "comet-ml",
       "brand": "Comet ML",
-      "url": "comet.com",
-      "rank": 66,
-      "avs_brand": 24.4,
-      "avs_per_llm": {
-        "openai": 33.2,
-        "anthropic": 20.8,
-        "perplexity": 19.2
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best MLOps for data science and ML engineering teams at analytics-driven companies?",
-      "verified": true,
+      "domain": "comet.com",
       "category": "MLOps",
       "category_long": "ML experiment tracking and model management for data science teams",
       "tier": "tier1",
+      "composite_score": 24.4,
+      "scores": {
+        "openai": {
+          "score": 33.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 20.8,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 19.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 19.0,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -2646,27 +3174,35 @@
           "description": "Comet ML is under-represented in third-party 'best MLOps' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 66,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "mailmodo",
       "brand": "Mailmodo",
-      "url": "mailmodo.com",
-      "rank": 67,
-      "avs_brand": 24.1,
-      "avs_per_llm": {
-        "openai": 19.2,
-        "anthropic": 26.8,
-        "perplexity": 26.4
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best marketing automation for SaaS growth marketers and email marketing leads wanting higher engagement?",
-      "verified": true,
+      "domain": "mailmodo.com",
       "category": "marketing automation",
       "category_long": "interactive email marketing platform for SaaS growth and engagement",
       "tier": "tier1",
+      "composite_score": 24.1,
+      "scores": {
+        "openai": {
+          "score": 19.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 26.8,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 26.4,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 14.6,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -2686,27 +3222,35 @@
           "description": "Mailmodo lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 67,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "sprinto",
       "brand": "Sprinto",
-      "url": "sprinto.com",
-      "rank": 68,
-      "avs_brand": 23.7,
-      "avs_per_llm": {
-        "openai": 18.0,
-        "anthropic": 16.0,
-        "perplexity": 37.2
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best compliance for engineering and compliance teams at growth-stage SaaS startups?",
-      "verified": true,
+      "domain": "sprinto.com",
       "category": "compliance",
       "category_long": "fast-track compliance automation platform for SaaS startups",
       "tier": "tier1",
+      "composite_score": 23.7,
+      "scores": {
+        "openai": {
+          "score": 18.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 16.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 37.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 35.2,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -2726,27 +3270,35 @@
           "description": "Sprinto is under-represented in third-party 'best compliance' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 68,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "helicone",
       "brand": "Helicone",
-      "url": "helicone.ai",
-      "rank": 69,
-      "avs_brand": 23.5,
-      "avs_per_llm": {
-        "openai": 15.2,
-        "anthropic": 26.0,
-        "perplexity": 29.2
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best AI tooling for developers and startups building and scaling LLM-powered applications?",
-      "verified": true,
+      "domain": "helicone.ai",
       "category": "AI tooling",
       "category_long": "LLM observability and cost monitoring platform for developers",
       "tier": "tier1",
+      "composite_score": 23.5,
+      "scores": {
+        "openai": {
+          "score": 15.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 26.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 29.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 23.1,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -2766,27 +3318,35 @@
           "description": "Helicone is under-represented in third-party 'best AI tooling' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 69,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "planetscale",
       "brand": "Planetscale",
-      "url": "planetscale.com",
-      "rank": 70,
-      "avs_brand": 23.1,
-      "avs_per_llm": {
-        "openai": 20.8,
-        "anthropic": 20.4,
-        "perplexity": 28.0
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best database for engineering teams at fast-growing SaaS companies?",
-      "verified": true,
+      "domain": "planetscale.com",
       "category": "database",
       "category_long": "serverless MySQL platform for modern web applications",
       "tier": "tier2",
+      "composite_score": 23.1,
+      "scores": {
+        "openai": {
+          "score": 20.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 20.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 28.0,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 54.2,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -2806,27 +3366,35 @@
           "description": "Planetscale's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 70,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "braintrust",
       "brand": "Braintrust",
-      "url": "braintrust.dev",
-      "rank": 71,
-      "avs_brand": 22.8,
-      "avs_per_llm": {
-        "openai": 13.2,
-        "anthropic": 24.0,
-        "perplexity": 31.2
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-03",
-      "top_gap_prompt": "Which AI tooling software should a AI Engineer or ML Ops Lead at a product company use?",
-      "verified": true,
+      "domain": "braintrust.dev",
       "category": "AI tooling",
       "category_long": "AI evaluation and model testing platform for engineering teams",
       "tier": "tier1",
+      "composite_score": 22.8,
+      "scores": {
+        "openai": {
+          "score": 13.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 24.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 31.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 45.9,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -2846,27 +3414,35 @@
           "description": "Braintrust's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 71,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "leapsome",
       "brand": "Leapsome",
-      "url": "leapsome.com",
-      "rank": 72,
-      "avs_brand": 22.8,
-      "avs_per_llm": {
-        "openai": 25.2,
-        "anthropic": 15.6,
-        "perplexity": 27.6
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best HR for fast-growing companies with performance-driven cultures?",
-      "verified": true,
+      "domain": "leapsome.com",
       "category": "HR",
       "category_long": "performance and engagement platform for continuous people development",
       "tier": "tier2",
+      "composite_score": 22.8,
+      "scores": {
+        "openai": {
+          "score": 25.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 15.6,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 27.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 43.4,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -2886,27 +3462,35 @@
           "description": "Leapsome is under-represented in third-party 'best HR' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 72,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "encharge",
       "brand": "Encharge",
-      "url": "encharge.io",
-      "rank": 73,
-      "avs_brand": 22.1,
-      "avs_per_llm": {
-        "openai": 15.2,
-        "anthropic": 17.6,
-        "perplexity": 33.6
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best marketing automation for SaaS marketing leads and growth engineers building lifecycle flows?",
-      "verified": true,
+      "domain": "encharge.io",
       "category": "marketing automation",
       "category_long": "behavior-based email automation platform for SaaS companies",
       "tier": "tier1",
+      "composite_score": 22.1,
+      "scores": {
+        "openai": {
+          "score": 15.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 17.6,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 33.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 28.0,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -2926,27 +3510,35 @@
           "description": "Encharge is under-represented in third-party 'best marketing automation' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 73,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "maxio",
       "brand": "Maxio",
-      "url": "maxio.com",
-      "rank": 74,
-      "avs_brand": 21.9,
-      "avs_per_llm": {
-        "openai": 13.6,
-        "anthropic": 21.2,
-        "perplexity": 30.8
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best billing for finance teams at B2B SaaS companies with complex pricing?",
-      "verified": true,
+      "domain": "maxio.com",
       "category": "billing",
       "category_long": "SaaS financial operations and subscription billing platform",
       "tier": "tier2",
+      "composite_score": 21.9,
+      "scores": {
+        "openai": {
+          "score": 13.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 21.2,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 30.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 52.6,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -2966,27 +3558,35 @@
           "description": "Maxio is under-represented in third-party 'best billing' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 74,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "charlie-hr",
       "brand": "Charlie HR",
-      "url": "charliehr.com",
-      "rank": 75,
-      "avs_brand": 21.7,
-      "avs_per_llm": {
-        "openai": 31.6,
-        "anthropic": 14.4,
-        "perplexity": 19.2
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-04",
-      "top_gap_prompt": "Best HR platforms for manage employee leave documents and HR admin in one place",
-      "verified": true,
+      "domain": "charliehr.com",
       "category": "HR",
       "category_long": "simple HR software built for small UK companies",
       "tier": "tier1",
+      "composite_score": 21.7,
+      "scores": {
+        "openai": {
+          "score": 31.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 14.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 19.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 48.5,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -3006,27 +3606,35 @@
           "description": "Charlie HR is under-represented in third-party 'best HR' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 75,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "numeric",
       "brand": "Numeric",
-      "url": "numeric.io",
-      "rank": 76,
-      "avs_brand": 21.5,
-      "avs_per_llm": {
-        "openai": 19.6,
-        "anthropic": 17.2,
-        "perplexity": 27.6
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-03",
-      "top_gap_prompt": "Which finance software should a Finance Manager or Controller at a mid-market company use?",
-      "verified": true,
+      "domain": "numeric.io",
       "category": "finance",
       "category_long": "close management and financial reporting platform for finance teams",
       "tier": "tier1",
+      "composite_score": 21.5,
+      "scores": {
+        "openai": {
+          "score": 19.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 17.2,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 27.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 18.1,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -3046,27 +3654,35 @@
           "description": "Numeric lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 76,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "userlist",
       "brand": "Userlist",
-      "url": "userlist.com",
-      "rank": 77,
-      "avs_brand": 21.3,
-      "avs_per_llm": {
-        "openai": 17.6,
-        "anthropic": 16.8,
-        "perplexity": 29.6
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-02",
-      "top_gap_prompt": "Top email automation platform for SaaS onboarding and user lifecycle tools in 2025",
-      "verified": true,
+      "domain": "userlist.com",
       "category": "marketing automation",
       "category_long": "email automation platform for SaaS onboarding and user lifecycle",
       "tier": "tier1",
+      "composite_score": 21.3,
+      "scores": {
+        "openai": {
+          "score": 17.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 16.8,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 29.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 38.2,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -3086,27 +3702,35 @@
           "description": "Userlist is under-represented in third-party 'best marketing automation' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 77,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "june-so",
       "brand": "June.so",
-      "url": "june.so",
-      "rank": 78,
-      "avs_brand": 20.4,
-      "avs_per_llm": {
-        "openai": 22.0,
-        "anthropic": 18.0,
-        "perplexity": 21.2
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best product analytics for early-stage B2B SaaS teams?",
-      "verified": true,
+      "domain": "june.so",
       "category": "product analytics",
       "category_long": "B2B product analytics built on Segment for early-stage teams",
       "tier": "tier1",
+      "composite_score": 20.4,
+      "scores": {
+        "openai": {
+          "score": 22.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 18.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 21.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 9.1,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -3126,27 +3750,35 @@
           "description": "June.so lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 78,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "close",
       "brand": "Close",
-      "url": "close.com",
-      "rank": 79,
-      "avs_brand": 20.0,
-      "avs_per_llm": {
-        "openai": 18.4,
-        "anthropic": 14.8,
-        "perplexity": 26.8
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best CRM for early-stage startups?",
-      "verified": true,
+      "domain": "close.com",
       "category": "CRM",
       "category_long": "sales CRM for inside sales teams",
       "tier": "tier1",
+      "composite_score": 20.0,
+      "scores": {
+        "openai": {
+          "score": 18.4,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 14.8,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 26.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 25.1,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -3166,27 +3798,35 @@
           "description": "Close is under-represented in third-party 'best CRM' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 79,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "amplemarket",
       "brand": "Amplemarket",
-      "url": "amplemarket.com",
-      "rank": 80,
-      "avs_brand": 19.7,
-      "avs_per_llm": {
-        "openai": 18.8,
-        "anthropic": 15.2,
-        "perplexity": 25.2
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best CRM for outbound sales teams at B2B companies?",
-      "verified": true,
+      "domain": "amplemarket.com",
       "category": "CRM",
       "category_long": "AI-powered sales intelligence and engagement platform",
       "tier": "tier1",
+      "composite_score": 19.7,
+      "scores": {
+        "openai": {
+          "score": 18.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 15.2,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 25.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 37.9,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -3206,27 +3846,35 @@
           "description": "Amplemarket is under-represented in third-party 'best CRM' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 80,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "salesflare",
       "brand": "Salesflare",
-      "url": "salesflare.com",
-      "rank": 81,
-      "avs_brand": 19.5,
-      "avs_per_llm": {
-        "openai": 22.0,
-        "anthropic": 14.0,
-        "perplexity": 22.4
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best CRM for small B2B teams and agencies?",
-      "verified": true,
+      "domain": "salesflare.com",
       "category": "CRM",
       "category_long": "automated CRM for small B2B companies",
       "tier": "tier1",
+      "composite_score": 19.5,
+      "scores": {
+        "openai": {
+          "score": 22.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 14.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 22.4,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 30.8,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -3246,27 +3894,35 @@
           "description": "Salesflare is under-represented in third-party 'best CRM' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 81,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "finaloop",
       "brand": "Finaloop",
-      "url": "finaloop.com",
-      "rank": 82,
-      "avs_brand": 18.8,
-      "avs_per_llm": {
-        "openai": 16.8,
-        "anthropic": 12.0,
-        "perplexity": 27.6
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-05",
-      "top_gap_prompt": "Recommended finance tools for e-commerce founders and finance teams on Shopify and Amazon companies",
-      "verified": true,
+      "domain": "finaloop.com",
       "category": "finance",
       "category_long": "real-time accounting platform built for e-commerce businesses",
       "tier": "tier1",
+      "composite_score": 18.8,
+      "scores": {
+        "openai": {
+          "score": 16.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 12.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 27.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 38.3,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -3286,27 +3942,35 @@
           "description": "Finaloop is under-represented in third-party 'best finance' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 82,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "pilot",
       "brand": "Pilot",
-      "url": "pilot.com",
-      "rank": 83,
-      "avs_brand": 18.7,
-      "avs_per_llm": {
-        "openai": 18.8,
-        "anthropic": 14.0,
-        "perplexity": 23.2
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best finance for venture-backed and bootstrapped startups needing clean financials?",
-      "verified": true,
+      "domain": "pilot.com",
       "category": "finance",
       "category_long": "bookkeeping and financial operations platform for startups",
       "tier": "tier2",
+      "composite_score": 18.7,
+      "scores": {
+        "openai": {
+          "score": 18.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 14.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 23.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 49.3,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -3326,27 +3990,35 @@
           "description": "Pilot's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 83,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "rho",
       "brand": "Rho",
-      "url": "rho.co",
-      "rank": 84,
-      "avs_brand": 18.7,
-      "avs_per_llm": {
-        "openai": 15.6,
-        "anthropic": 11.6,
-        "perplexity": 28.8
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-03",
-      "top_gap_prompt": "Which finance software should a CFO or Finance Lead at a venture-backed startup use?",
-      "verified": true,
+      "domain": "rho.co",
       "category": "finance",
       "category_long": "all-in-one finance platform for scaling startups and scaleups",
       "tier": "tier1",
+      "composite_score": 18.7,
+      "scores": {
+        "openai": {
+          "score": 15.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 11.6,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 28.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 33.2,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -3366,27 +4038,35 @@
           "description": "Rho is under-represented in third-party 'best finance' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 84,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "leadiq",
       "brand": "LeadIQ",
-      "url": "leadiq.com",
-      "rank": 85,
-      "avs_brand": 18.5,
-      "avs_per_llm": {
-        "openai": 21.2,
-        "anthropic": 12.0,
-        "perplexity": 22.4
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best CRM for SDR and outbound sales teams?",
-      "verified": true,
+      "domain": "leadiq.com",
       "category": "CRM",
       "category_long": "prospecting and lead capture platform for SDRs",
       "tier": "tier1",
+      "composite_score": 18.5,
+      "scores": {
+        "openai": {
+          "score": 21.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 12.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 22.4,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 27.6,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -3406,27 +4086,35 @@
           "description": "LeadIQ is under-represented in third-party 'best CRM' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 85,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "nudge-security",
       "brand": "Nudge Security",
-      "url": "nudgesecurity.com",
-      "rank": 86,
-      "avs_brand": 18.4,
-      "avs_per_llm": {
-        "openai": 15.2,
-        "anthropic": 14.0,
-        "perplexity": 26.0
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best security for IT and security teams at mid-market companies managing SaaS sprawl?",
-      "verified": true,
+      "domain": "nudgesecurity.com",
       "category": "security",
       "category_long": "SaaS security and shadow IT discovery platform for IT teams",
       "tier": "tier1",
+      "composite_score": 18.4,
+      "scores": {
+        "openai": {
+          "score": 15.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 14.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 26.0,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 33.9,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -3446,27 +4134,35 @@
           "description": "Nudge Security is under-represented in third-party 'best security' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 86,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "klipfolio",
       "brand": "Klipfolio",
-      "url": "klipfolio.com",
-      "rank": 87,
-      "avs_brand": 18.4,
-      "avs_per_llm": {
-        "openai": 17.6,
-        "anthropic": 13.2,
-        "perplexity": 24.4
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best business intelligence for marketing and operations teams at SMBs?",
-      "verified": true,
+      "domain": "klipfolio.com",
       "category": "business intelligence",
       "category_long": "cloud dashboard and KPI tracking tool for SMBs",
       "tier": "tier1",
+      "composite_score": 18.4,
+      "scores": {
+        "openai": {
+          "score": 17.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 13.2,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 24.4,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 40.2,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -3486,27 +4182,35 @@
           "description": "Klipfolio is under-represented in third-party 'best business intelligence' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 87,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "portkey",
       "brand": "Portkey",
-      "url": "portkey.ai",
-      "rank": 88,
-      "avs_brand": 18.3,
-      "avs_per_llm": {
-        "openai": 12.4,
-        "anthropic": 14.8,
-        "perplexity": 27.6
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best AI tooling for platform and AI engineering teams managing multi-LLM production deployments?",
-      "verified": true,
+      "domain": "portkey.ai",
       "category": "AI tooling",
       "category_long": "AI gateway and LLM ops platform for production engineering teams",
       "tier": "tier1",
+      "composite_score": 18.3,
+      "scores": {
+        "openai": {
+          "score": 12.4,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 14.8,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 27.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 29.1,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -3526,27 +4230,35 @@
           "description": "Portkey is under-represented in third-party 'best AI tooling' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 88,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "safebase",
       "brand": "SafeBase",
-      "url": "safebase.io",
-      "rank": 89,
-      "avs_brand": 18.3,
-      "avs_per_llm": {
-        "openai": 16.4,
-        "anthropic": 14.4,
-        "perplexity": 24.0
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best security for sales engineering and security teams at B2B SaaS companies?",
-      "verified": true,
+      "domain": "safebase.io",
       "category": "security",
       "category_long": "trust and security center platform for B2B SaaS vendor reviews",
       "tier": "tier1",
+      "composite_score": 18.3,
+      "scores": {
+        "openai": {
+          "score": 16.4,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 14.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 24.0,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 24.3,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -3566,27 +4278,35 @@
           "description": "SafeBase is under-represented in third-party 'best security' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 89,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "teamtailor",
       "brand": "Teamtailor",
-      "url": "teamtailor.com",
-      "rank": 90,
-      "avs_brand": 18.1,
-      "avs_per_llm": {
-        "openai": 13.6,
-        "anthropic": 12.8,
-        "perplexity": 28.0
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-02",
-      "top_gap_prompt": "Top employer branding and ATS platform for modern talent teams tools in 2025",
-      "verified": true,
+      "domain": "teamtailor.com",
       "category": "ATS",
       "category_long": "employer branding and ATS platform for modern talent teams",
       "tier": "tier2",
+      "composite_score": 18.1,
+      "scores": {
+        "openai": {
+          "score": 13.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 12.8,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 28.0,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 50.3,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -3606,27 +4326,35 @@
           "description": "Teamtailor's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 90,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "checkly",
       "brand": "Checkly",
-      "url": "checklyhq.com",
-      "rank": 91,
-      "avs_brand": 18.0,
-      "avs_per_llm": {
-        "openai": 17.2,
-        "anthropic": 22.0,
-        "perplexity": 14.8
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best monitoring for DevOps and SRE teams at SaaS companies?",
-      "verified": true,
+      "domain": "checklyhq.com",
       "category": "monitoring",
       "category_long": "monitoring as code platform for DevOps and reliability teams",
       "tier": "tier1",
+      "composite_score": 18.0,
+      "scores": {
+        "openai": {
+          "score": 17.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 22.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 14.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 28.1,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -3646,27 +4374,35 @@
           "description": "Checkly lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 91,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "nutshell",
       "brand": "Nutshell",
-      "url": "nutshell.com",
-      "rank": 92,
-      "avs_brand": 17.9,
-      "avs_per_llm": {
-        "openai": 16.8,
-        "anthropic": 15.6,
-        "perplexity": 21.2
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best CRM for small and mid-size B2B sales teams?",
-      "verified": true,
+      "domain": "nutshell.com",
       "category": "CRM",
       "category_long": "all-in-one CRM and email marketing for B2B teams",
       "tier": "tier1",
+      "composite_score": 17.9,
+      "scores": {
+        "openai": {
+          "score": 16.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 15.6,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 21.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 31.9,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -3686,27 +4422,35 @@
           "description": "Nutshell is under-represented in third-party 'best CRM' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 92,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "attio",
       "brand": "Attio",
-      "url": "attio.com",
-      "rank": 93,
-      "avs_brand": 17.6,
-      "avs_per_llm": {
-        "openai": 14.8,
-        "anthropic": 15.6,
-        "perplexity": 22.4
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best CRM for B2B startups?",
-      "verified": true,
+      "domain": "attio.com",
       "category": "CRM",
       "category_long": "modern CRM for high-growth B2B startups",
       "tier": "tier1",
+      "composite_score": 17.6,
+      "scores": {
+        "openai": {
+          "score": 14.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 15.6,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 22.4,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 54.7,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -3726,27 +4470,35 @@
           "description": "Attio's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 93,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "stonly",
       "brand": "Stonly",
-      "url": "stonly.com",
-      "rank": 94,
-      "avs_brand": 16.9,
-      "avs_per_llm": {
-        "openai": 19.6,
-        "anthropic": 9.6,
-        "perplexity": 21.6
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best knowledge management for CS teams building self-service and guided onboarding experiences?",
-      "verified": true,
+      "domain": "stonly.com",
       "category": "knowledge management",
       "category_long": "interactive knowledge base and guided support platform for CS teams",
       "tier": "tier1",
+      "composite_score": 16.9,
+      "scores": {
+        "openai": {
+          "score": 19.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 9.6,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 21.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 18.5,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -3766,27 +4518,35 @@
           "description": "Stonly lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 94,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "humaans",
       "brand": "Humaans",
-      "url": "humaans.io",
-      "rank": 95,
-      "avs_brand": 16.5,
-      "avs_per_llm": {
-        "openai": 16.8,
-        "anthropic": 13.6,
-        "perplexity": 19.2
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best HR for HR teams at startups and scaleups scaling their people ops?",
-      "verified": true,
+      "domain": "humaans.io",
       "category": "HR",
       "category_long": "modern HRIS for fast-moving startups and scaleups",
       "tier": "tier1",
+      "composite_score": 16.5,
+      "scores": {
+        "openai": {
+          "score": 16.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 13.6,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 19.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 29.9,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -3806,27 +4566,35 @@
           "description": "Humaans is under-represented in third-party 'best HR' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 95,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "folk",
       "brand": "Folk",
-      "url": "folk.app",
-      "rank": 96,
-      "avs_brand": 16.4,
-      "avs_per_llm": {
-        "openai": 16.4,
-        "anthropic": 14.4,
-        "perplexity": 18.4
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best CRM for startup founders and agency leads?",
-      "verified": true,
+      "domain": "folk.app",
       "category": "CRM",
       "category_long": "collaborative CRM for founders and agencies",
       "tier": "tier1",
+      "composite_score": 16.4,
+      "scores": {
+        "openai": {
+          "score": 16.4,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 14.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 18.4,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 28.7,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -3846,27 +4614,35 @@
           "description": "Folk lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 96,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "vellum",
       "brand": "Vellum",
-      "url": "vellum.ai",
-      "rank": 97,
-      "avs_brand": 15.9,
-      "avs_per_llm": {
-        "openai": 15.2,
-        "anthropic": 13.6,
-        "perplexity": 18.8
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best AI tooling for AI product teams building and iterating on LLM-powered product features?",
-      "verified": true,
+      "domain": "vellum.ai",
       "category": "AI tooling",
       "category_long": "LLM product development and prompt management platform",
       "tier": "tier2",
+      "composite_score": 15.9,
+      "scores": {
+        "openai": {
+          "score": 15.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 13.6,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 18.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 53.9,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -3886,27 +4662,35 @@
           "description": "Vellum's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 97,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "conveyor",
       "brand": "Conveyor",
-      "url": "conveyor.com",
-      "rank": 98,
-      "avs_brand": 15.7,
-      "avs_per_llm": {
-        "openai": 13.6,
-        "anthropic": 14.0,
-        "perplexity": 19.6
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best security for sales and security teams at B2B SaaS companies dealing with security reviews?",
-      "verified": true,
+      "domain": "conveyor.com",
       "category": "security",
       "category_long": "security review automation platform for SaaS sales and compliance",
       "tier": "tier1",
+      "composite_score": 15.7,
+      "scores": {
+        "openai": {
+          "score": 13.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 14.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 19.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 39.8,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -3926,27 +4710,35 @@
           "description": "Conveyor is under-represented in third-party 'best security' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 98,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "grip-security",
       "brand": "Grip Security",
-      "url": "grip.security",
-      "rank": 99,
-      "avs_brand": 15.3,
-      "avs_per_llm": {
-        "openai": 14.0,
-        "anthropic": 10.4,
-        "perplexity": 21.6
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best security for security teams at enterprise companies managing SaaS risk and exposure?",
-      "verified": true,
+      "domain": "grip.security",
       "category": "security",
       "category_long": "SaaS security posture management platform for enterprise teams",
       "tier": "tier1",
+      "composite_score": 15.3,
+      "scores": {
+        "openai": {
+          "score": 14.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 10.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 21.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 28.2,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "schema",
@@ -3966,27 +4758,35 @@
           "description": "Grip Security lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 99,
+      "data_source": "verified_2026-05-30"
     },
     {
-      "slug": "anecdotes",
       "brand": "Anecdotes",
-      "url": "anecdotes.ai",
-      "rank": 100,
-      "avs_brand": 15.1,
-      "avs_per_llm": {
-        "openai": 20.4,
-        "anthropic": 10.0,
-        "perplexity": 14.8
-      },
-      "prompts_scored": 25,
-      "run_date": "2026-05-30",
-      "top_gap": "CD-01",
-      "top_gap_prompt": "What is the best compliance for enterprise GRC and compliance teams at regulated technology companies?",
-      "verified": true,
+      "domain": "anecdotes.ai",
       "category": "compliance",
       "category_long": "compliance operations platform for enterprise security and GRC teams",
       "tier": "tier2",
+      "composite_score": 15.1,
+      "scores": {
+        "openai": {
+          "score": 20.4,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 10.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 14.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 21.4,
+          "label": "Google AI Overviews"
+        }
+      },
       "gaps": [
         {
           "type": "content",
@@ -4006,7 +4806,9 @@
           "description": "Anecdotes is under-represented in third-party 'best compliance' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
           "priority": 3
         }
-      ]
+      ],
+      "rank": 100,
+      "data_source": "verified_2026-05-30"
     }
   ]
 }
