@@ -22,15 +22,24 @@
       "destination": "/api/stripe/webhook"
     }
   ],
+  "crons": [
+    {
+      "path": "/api/cron/weekly",
+      "schedule": "0 9 * * 1"
+    }
+  ],
   "functions": {
     "app/api/stripe/webhook/route.ts": {
-      "maxDuration": 10
+      "maxDuration": 30
     },
     "app/api/checkout/route.ts": {
       "maxDuration": 10
     },
     "app/api/waitlist/route.ts": {
       "maxDuration": 10
+    },
+    "app/api/cron/weekly/route.ts": {
+      "maxDuration": 300
     }
   }
 }

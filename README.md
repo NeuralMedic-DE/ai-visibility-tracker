@@ -78,5 +78,98 @@ Run the migration against your Supabase project:
 # Via Supabase CLI
 supabase db push
 
-# Or paste supabase/migrations/0001_init.sql into the Supabase SQL editor
+# Or paste the migrations in order into the Supabase SQL editor:
+# supabase/migrations/0001_init.sql
+# supabase/migrations/0002_customers.sql
+# supabase/migrations/0003_tracked_brands.sql
+# supabase/migrations/0004_email_tracking.sql   ← adds welcome_email_id
+# supabase/migrations/0005_email_log.sql        ← adds email_log table
 ```
+
+## Transactional email (Resend)
+
+Weekly digest and welcome emails are sent via [Resend](https://resend.com).
+
+### Setup
+
+1. Create a Resend account and generate an API key.
+2. Add the domain `neuralreach.de` in the Resend dashboard → **Domains**.
+3. Copy the provided TXT/DKIM/SPF DNS records to your DNS host and click **Verify**.
+4. Set `RESEND_API_KEY` in Vercel environment variables (and `.env.local` locally).
+
+### Local development (dry-run mode)
+
+Set `EMAIL_DRY_RUN=1` in `.env.local` (already set). Emails will be printed to
+the console instead of sent — no Resend quota burned during development.
+
+## Scheduling the weekly cron
+
+The weekly scoring + digest email runs at `POST /api/cron/weekly`, protected by
+`X-Cron-Secret` header matching the `CRON_SECRET` env var.
+
+### Vercel Cron (recommended)
+
+The `vercel.json` already includes a cron entry at **Monday 09:00 UTC**:
+
+```json
+"crons": [
+  { "path": "/api/cron/weekly", "schedule": "0 9 * * 1" }
+]
+```
+
+Vercel Cron calls the endpoint automatically. The call arrives without auth
+headers by default — **you must add the `X-Cron-Secret` header via a Vercel
+Cron override**, or use a public-facing cron service (below).
+
+#### Option A — External cron service (cron-job.org, EasyCron, GitHub Actions)
+
+This is the easiest approach and works on Vercel Hobby:
+
+```
+URL:    https://neuralreach.de/api/cron/weekly
+Method: POST
+Header: X-Cron-Secret: <your CRON_SECRET value>
+Schedule: 0 9 * * 1   (Monday 09:00 UTC)
+```
+
+1. Go to [cron-job.org](https://cron-job.org) (free) → **New cron job**.
+2. Set the URL, method POST, and add the `X-Cron-Secret` header.
+3. Set the cron schedule to `0 9 * * 1`.
+
+#### Option B — GitHub Actions (zero new services)
+
+Add `.github/workflows/weekly-cron.yml`:
+
+```yaml
+name: Weekly scoring cron
+on:
+  schedule:
+    - cron: "0 9 * * 1"  # Monday 09:00 UTC
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          curl -sf -X POST https://neuralreach.de/api/cron/weekly \
+            -H "X-Cron-Secret: ${{ secrets.CRON_SECRET }}"
+```
+
+Store `CRON_SECRET` as a GitHub Actions secret.
+
+### Manual test
+
+```bash
+curl -X POST http://localhost:3000/api/cron/weekly \
+  -H "X-Cron-Secret: $(grep CRON_SECRET .env.local | cut -d= -f2)"
+```
+
+With `EMAIL_DRY_RUN=1` the emails are printed to your terminal — no Resend
+calls made.
+
+### Vercel function timeout
+
+The cron route has `maxDuration: 300` in `vercel.json` (requires Vercel Pro).
+Each customer scorer run takes up to ~90 s. On the Hobby plan (60 s max), keep
+the active customer count to 1-2 per run or move to an async job queue.

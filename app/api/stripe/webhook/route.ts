@@ -3,6 +3,8 @@ import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
 import { stripe } from "@/lib/stripe";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { sendEmail } from "@/lib/email";
+import { welcomeEmail } from "@/lib/email-templates/welcome";
 
 // Tell Next.js not to parse the body — Stripe needs the raw bytes for signature verification.
 export const dynamic = "force-dynamic";
@@ -123,6 +125,34 @@ export async function POST(req: NextRequest) {
         console.log(
           `[webhook] ✅ Customer ${email} → plan=${plan}, status=${subscriptionStatus}`
         );
+
+        // ── Send welcome email ────────────────────────────────────────────
+        const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? "https://neuralreach.de";
+        const tmpl = welcomeEmail({ appUrl });
+        const { id: welcomeEmailId, error: emailErr } = await sendEmail({
+          to: email,
+          subject: tmpl.subject,
+          html: tmpl.html,
+          text: tmpl.text,
+        });
+
+        if (emailErr) {
+          // Don't fail the webhook for an email error — log and continue.
+          console.error("[webhook] Failed to send welcome email:", emailErr);
+        } else {
+          console.log(`[webhook] ✉️  Welcome email sent to ${email} | id=${welcomeEmailId}`);
+
+          // Persist message_id in customers row (best-effort)
+          if (welcomeEmailId) {
+            const { error: updateEmailIdErr } = await supabase
+              .from("customers")
+              .update({ welcome_email_id: welcomeEmailId })
+              .eq("email", email);
+            if (updateEmailIdErr) {
+              console.warn("[webhook] Could not write welcome_email_id:", updateEmailIdErr);
+            }
+          }
+        }
         break;
       }
 

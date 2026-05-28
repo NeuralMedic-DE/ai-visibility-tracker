@@ -17,7 +17,8 @@
     "stripe": "^17.3.1",
     "@stripe/stripe-js": "^4.8.0",
     "clsx": "^2.1.1",
-    "tailwind-merge": "^2.5.3"
+    "tailwind-merge": "^2.5.3",
+    "resend": "^4.0.0"
   },
   "devDependencies": {
     "typescript": "^5",
