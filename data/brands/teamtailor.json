@@ -1,0 +1,96 @@
+{
+  "slug": "teamtailor",
+  "brand": "Teamtailor",
+  "url": "teamtailor.com",
+  "rank": 90,
+  "avs_brand": 18.1,
+  "avs_per_llm": {
+    "openai": 13.6,
+    "anthropic": 12.8,
+    "perplexity": 28.0
+  },
+  "prompts_scored": 25,
+  "run_date": "2026-05-30",
+  "top_gap": "CD-02",
+  "top_gap_prompt": "Top employer branding and ATS platform for modern talent teams tools in 2025",
+  "verified": true,
+  "category": "ATS",
+  "category_long": "employer branding and ATS platform for modern talent teams",
+  "tier": "tier2",
+  "gaps": [
+    {
+      "type": "schema",
+      "title": "Missing FAQPage schema on pricing and comparison pages",
+      "description": "Teamtailor's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+      "priority": 1
+    },
+    {
+      "type": "content",
+      "title": "Thin or missing dedicated competitor-comparison pages",
+      "description": "Teamtailor lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+      "priority": 2
+    },
+    {
+      "type": "schema",
+      "title": "No HowTo schema on documentation and tutorial pages",
+      "description": "Teamtailor's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+      "priority": 3
+    }
+  ],
+  "gap_prompts": [
+    {
+      "prompt_id": "CD-02",
+      "prompt_text": "Top employer branding and ATS platform for modern talent teams tools in 2025",
+      "prompt_category": "category_discovery",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Discovery queries drive early-funnel awareness. Buyers use these to find solutions to problems they haven't yet named. Missing here means you're invisible before the consideration stage."
+    },
+    {
+      "prompt_id": "CD-03",
+      "prompt_text": "Which ATS software should a Talent Manager or Head of HR at a mid-market company use?",
+      "prompt_category": "category_discovery",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Discovery queries drive early-funnel awareness. Buyers use these to find solutions to problems they haven't yet named. Missing here means you're invisible before the consideration stage."
+    },
+    {
+      "prompt_id": "CD-05",
+      "prompt_text": "Recommended ATS tools for mid-market companies with active employer branding programs companies",
+      "prompt_category": "category_discovery",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Discovery queries drive early-funnel awareness. Buyers use these to find solutions to problems they haven't yet named. Missing here means you're invisible before the consideration stage."
+    }
+  ],
+  "llm_details": {
+    "openai": {
+      "label": "ChatGPT (GPT-4o)",
+      "avs": 13.6,
+      "prompts_scored": 25
+    },
+    "anthropic": {
+      "label": "Claude (Haiku 4.5)",
+      "avs": 12.8,
+      "prompts_scored": 25
+    },
+    "perplexity": {
+      "label": "Perplexity (sonar-pro)",
+      "avs": 28.0,
+      "prompts_scored": 25
+    }
+  },
+  "total_brands": 100
+}

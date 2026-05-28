@@ -1,0 +1,96 @@
+{
+  "slug": "copper",
+  "brand": "Copper",
+  "url": "copper.com",
+  "rank": 38,
+  "avs_brand": 34.9,
+  "avs_per_llm": {
+    "openai": 39.2,
+    "anthropic": 24.4,
+    "perplexity": 41.2
+  },
+  "prompts_scored": 25,
+  "run_date": "2026-05-30",
+  "top_gap": "AL-02",
+  "top_gap_prompt": "Cheaper alternatives to Pipedrive",
+  "verified": true,
+  "category": "CRM",
+  "category_long": "Google-native CRM for agencies and consultants",
+  "tier": "niche",
+  "gaps": [
+    {
+      "type": "schema",
+      "title": "No Organization or SoftwareApplication schema on homepage",
+      "description": "Copper's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+      "priority": 1
+    },
+    {
+      "type": "content",
+      "title": "Low placement frequency in 'best [category] tools' roundups",
+      "description": "Copper is under-represented in third-party 'best CRM' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+      "priority": 2
+    },
+    {
+      "type": "content",
+      "title": "Thin or missing dedicated competitor-comparison pages",
+      "description": "Copper lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+      "priority": 3
+    }
+  ],
+  "gap_prompts": [
+    {
+      "prompt_id": "AL-02",
+      "prompt_text": "Cheaper alternatives to Pipedrive",
+      "prompt_category": "alternatives",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Alternative searches are used by buyers actively switching tools. Visibility here captures switching-intent demand at its peak."
+    },
+    {
+      "prompt_id": "AL-04",
+      "prompt_text": "HubSpot vs alternatives: what should I switch to?",
+      "prompt_category": "alternatives",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Alternative searches are used by buyers actively switching tools. Visibility here captures switching-intent demand at its peak."
+    },
+    {
+      "prompt_id": "AL-05",
+      "prompt_text": "Open source or affordable CRM tools instead of Pipedrive",
+      "prompt_category": "alternatives",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Alternative searches are used by buyers actively switching tools. Visibility here captures switching-intent demand at its peak."
+    }
+  ],
+  "llm_details": {
+    "openai": {
+      "label": "ChatGPT (GPT-4o)",
+      "avs": 39.2,
+      "prompts_scored": 25
+    },
+    "anthropic": {
+      "label": "Claude (Haiku 4.5)",
+      "avs": 24.4,
+      "prompts_scored": 25
+    },
+    "perplexity": {
+      "label": "Perplexity (sonar-pro)",
+      "avs": 41.2,
+      "prompts_scored": 25
+    }
+  },
+  "total_brands": 100
+}

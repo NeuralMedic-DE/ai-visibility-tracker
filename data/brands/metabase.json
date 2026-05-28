@@ -1,0 +1,94 @@
+{
+  "slug": "metabase",
+  "brand": "Metabase",
+  "url": "metabase.com",
+  "rank": 24,
+  "avs_brand": 39.9,
+  "avs_per_llm": {
+    "openai": 37.2,
+    "anthropic": 36.8,
+    "perplexity": 45.6
+  },
+  "prompts_scored": 25,
+  "run_date": "2026-05-30",
+  "top_gap": "UC-05",
+  "top_gap_prompt": "What software helps with share data insights with non-technical stakeholders at scale?",
+  "verified": true,
+  "category": "business intelligence",
+  "category_long": "open-source BI and data visualization tool",
+  "tier": "tier1",
+  "gaps": [
+    {
+      "type": "content",
+      "title": "Thin or missing dedicated competitor-comparison pages",
+      "description": "Metabase lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+      "priority": 1
+    },
+    {
+      "type": "schema",
+      "title": "No Organization or SoftwareApplication schema on homepage",
+      "description": "Metabase's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+      "priority": 2
+    },
+    {
+      "type": "content",
+      "title": "Low placement frequency in 'best [category] tools' roundups",
+      "description": "Metabase is under-represented in third-party 'best business intelligence' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+      "priority": 3
+    }
+  ],
+  "gap_prompts": [
+    {
+      "prompt_id": "UC-05",
+      "prompt_text": "What software helps with share data insights with non-technical stakeholders at scale?",
+      "prompt_category": "use_case",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Use-case prompts reach buyers at the exact moment they need your solution. These are the highest-converting prompt type in AI search."
+    },
+    {
+      "prompt_id": "UC-02",
+      "prompt_text": "Best way to share data insights with non-technical stakeholders for a data and operations teams at startups and SMBs team",
+      "prompt_category": "use_case",
+      "llms_missing": [
+        "openai",
+        "perplexity"
+      ],
+      "llms_missing_count": 2,
+      "why_it_matters": "Use-case prompts reach buyers at the exact moment they need your solution. These are the highest-converting prompt type in AI search."
+    },
+    {
+      "prompt_id": "UC-04",
+      "prompt_text": "How can a data analyst or head of data build dashboards and reports without writing SQL more efficiently?",
+      "prompt_category": "use_case",
+      "llms_missing": [
+        "openai",
+        "perplexity"
+      ],
+      "llms_missing_count": 2,
+      "why_it_matters": "Use-case prompts reach buyers at the exact moment they need your solution. These are the highest-converting prompt type in AI search."
+    }
+  ],
+  "llm_details": {
+    "openai": {
+      "label": "ChatGPT (GPT-4o)",
+      "avs": 37.2,
+      "prompts_scored": 25
+    },
+    "anthropic": {
+      "label": "Claude (Haiku 4.5)",
+      "avs": 36.8,
+      "prompts_scored": 25
+    },
+    "perplexity": {
+      "label": "Perplexity (sonar-pro)",
+      "avs": 45.6,
+      "prompts_scored": 25
+    }
+  },
+  "total_brands": 100
+}

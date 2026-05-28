@@ -1,0 +1,95 @@
+{
+  "slug": "semgrep",
+  "brand": "Semgrep",
+  "url": "semgrep.com",
+  "rank": 45,
+  "avs_brand": 32.8,
+  "avs_per_llm": {
+    "openai": 20.8,
+    "anthropic": 39.2,
+    "perplexity": 38.4
+  },
+  "prompts_scored": 25,
+  "run_date": "2026-05-30",
+  "top_gap": "CD-01",
+  "top_gap_prompt": "What is the best security for application security and DevSecOps teams at technology companies?",
+  "verified": true,
+  "category": "security",
+  "category_long": "static analysis and application security testing tool for developers",
+  "tier": "niche",
+  "gaps": [
+    {
+      "type": "content",
+      "title": "Thin or missing dedicated competitor-comparison pages",
+      "description": "Semgrep lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+      "priority": 1
+    },
+    {
+      "type": "schema",
+      "title": "No Organization or SoftwareApplication schema on homepage",
+      "description": "Semgrep's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+      "priority": 2
+    },
+    {
+      "type": "content",
+      "title": "Low placement frequency in 'best [category] tools' roundups",
+      "description": "Semgrep is under-represented in third-party 'best security' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+      "priority": 3
+    }
+  ],
+  "gap_prompts": [
+    {
+      "prompt_id": "CD-01",
+      "prompt_text": "What is the best security for application security and DevSecOps teams at technology companies?",
+      "prompt_category": "category_discovery",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Discovery queries drive early-funnel awareness. Buyers use these to find solutions to problems they haven't yet named. Missing here means you're invisible before the consideration stage."
+    },
+    {
+      "prompt_id": "UC-01",
+      "prompt_text": "How do I find and fix security vulnerabilities in code automatically before they reach production without spending a lot on software?",
+      "prompt_category": "use_case",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Use-case prompts reach buyers at the exact moment they need your solution. These are the highest-converting prompt type in AI search."
+    },
+    {
+      "prompt_id": "AL-04",
+      "prompt_text": "Snyk vs alternatives: what should I switch to?",
+      "prompt_category": "alternatives",
+      "llms_missing": [
+        "openai",
+        "anthropic"
+      ],
+      "llms_missing_count": 2,
+      "why_it_matters": "Alternative searches are used by buyers actively switching tools. Visibility here captures switching-intent demand at its peak."
+    }
+  ],
+  "llm_details": {
+    "openai": {
+      "label": "ChatGPT (GPT-4o)",
+      "avs": 20.8,
+      "prompts_scored": 25
+    },
+    "anthropic": {
+      "label": "Claude (Haiku 4.5)",
+      "avs": 39.2,
+      "prompts_scored": 25
+    },
+    "perplexity": {
+      "label": "Perplexity (sonar-pro)",
+      "avs": 38.4,
+      "prompts_scored": 25
+    }
+  },
+  "total_brands": 100
+}

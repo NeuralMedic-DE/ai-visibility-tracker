@@ -1,0 +1,80 @@
+{
+  "slug": "zapier",
+  "brand": "Zapier",
+  "url": "zapier.com",
+  "rank": 6,
+  "avs_brand": 45.6,
+  "avs_per_llm": {
+    "openai": 53.2,
+    "anthropic": 38.0,
+    "perplexity": 45.6
+  },
+  "prompts_scored": 25,
+  "run_date": "2026-05-30",
+  "top_gap": "UC-04",
+  "top_gap_prompt": "How can a Ops Manager or No-Code Lead at a small to mid-market company connect apps and automate repetitive workflows without writing any code more efficiently?",
+  "verified": true,
+  "category": "automation",
+  "category_long": "no-code workflow automation platform connecting 6000 plus apps",
+  "tier": "anchor",
+  "gaps": [
+    {
+      "type": "schema",
+      "title": "Missing FAQPage schema on pricing and comparison pages",
+      "description": "Zapier's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+      "priority": 1
+    },
+    {
+      "type": "content",
+      "title": "Thin or missing dedicated competitor-comparison pages",
+      "description": "Zapier lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+      "priority": 2
+    },
+    {
+      "type": "schema",
+      "title": "No HowTo schema on documentation and tutorial pages",
+      "description": "Zapier's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+      "priority": 3
+    }
+  ],
+  "gap_prompts": [
+    {
+      "prompt_id": "UC-04",
+      "prompt_text": "How can a Ops Manager or No-Code Lead at a small to mid-market company connect apps and automate repetitive workflows without writing any code more efficiently?",
+      "prompt_category": "use_case",
+      "llms_missing": [
+        "perplexity"
+      ],
+      "llms_missing_count": 1,
+      "why_it_matters": "Use-case prompts reach buyers at the exact moment they need your solution. These are the highest-converting prompt type in AI search."
+    },
+    {
+      "prompt_id": "AL-04",
+      "prompt_text": "Make vs alternatives: what should I switch to?",
+      "prompt_category": "alternatives",
+      "llms_missing": [
+        "anthropic"
+      ],
+      "llms_missing_count": 1,
+      "why_it_matters": "Alternative searches are used by buyers actively switching tools. Visibility here captures switching-intent demand at its peak."
+    }
+  ],
+  "llm_details": {
+    "openai": {
+      "label": "ChatGPT (GPT-4o)",
+      "avs": 53.2,
+      "prompts_scored": 25
+    },
+    "anthropic": {
+      "label": "Claude (Haiku 4.5)",
+      "avs": 38.0,
+      "prompts_scored": 25
+    },
+    "perplexity": {
+      "label": "Perplexity (sonar-pro)",
+      "avs": 45.6,
+      "prompts_scored": 25
+    }
+  },
+  "total_brands": 100
+}

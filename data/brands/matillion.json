@@ -1,0 +1,96 @@
+{
+  "slug": "matillion",
+  "brand": "Matillion",
+  "url": "matillion.com",
+  "rank": 64,
+  "avs_brand": 25.3,
+  "avs_per_llm": {
+    "openai": 28.4,
+    "anthropic": 17.2,
+    "perplexity": 30.4
+  },
+  "prompts_scored": 25,
+  "run_date": "2026-05-30",
+  "top_gap": "CD-01",
+  "top_gap_prompt": "What is the best data integration for enterprise data engineering teams migrating from legacy ETL tools?",
+  "verified": true,
+  "category": "data integration",
+  "category_long": "cloud-native data integration and transformation platform for enterprises",
+  "tier": "tier2",
+  "gaps": [
+    {
+      "type": "content",
+      "title": "Thin or missing dedicated competitor-comparison pages",
+      "description": "Matillion lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+      "priority": 1
+    },
+    {
+      "type": "schema",
+      "title": "No Organization or SoftwareApplication schema on homepage",
+      "description": "Matillion's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+      "priority": 2
+    },
+    {
+      "type": "content",
+      "title": "Low placement frequency in 'best [category] tools' roundups",
+      "description": "Matillion is under-represented in third-party 'best data integration' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+      "priority": 3
+    }
+  ],
+  "gap_prompts": [
+    {
+      "prompt_id": "CD-01",
+      "prompt_text": "What is the best data integration for enterprise data engineering teams migrating from legacy ETL tools?",
+      "prompt_category": "category_discovery",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Discovery queries drive early-funnel awareness. Buyers use these to find solutions to problems they haven't yet named. Missing here means you're invisible before the consideration stage."
+    },
+    {
+      "prompt_id": "CD-03",
+      "prompt_text": "Which data integration software should a Data Engineer or ETL Lead at a data-heavy enterprise use?",
+      "prompt_category": "category_discovery",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Discovery queries drive early-funnel awareness. Buyers use these to find solutions to problems they haven't yet named. Missing here means you're invisible before the consideration stage."
+    },
+    {
+      "prompt_id": "AL-05",
+      "prompt_text": "Open source or affordable data integration tools instead of Informatica",
+      "prompt_category": "alternatives",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Alternative searches are used by buyers actively switching tools. Visibility here captures switching-intent demand at its peak."
+    }
+  ],
+  "llm_details": {
+    "openai": {
+      "label": "ChatGPT (GPT-4o)",
+      "avs": 28.4,
+      "prompts_scored": 25
+    },
+    "anthropic": {
+      "label": "Claude (Haiku 4.5)",
+      "avs": 17.2,
+      "prompts_scored": 25
+    },
+    "perplexity": {
+      "label": "Perplexity (sonar-pro)",
+      "avs": 30.4,
+      "prompts_scored": 25
+    }
+  },
+  "total_brands": 100
+}

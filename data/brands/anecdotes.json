@@ -1,0 +1,96 @@
+{
+  "slug": "anecdotes",
+  "brand": "Anecdotes",
+  "url": "anecdotes.ai",
+  "rank": 100,
+  "avs_brand": 15.1,
+  "avs_per_llm": {
+    "openai": 20.4,
+    "anthropic": 10.0,
+    "perplexity": 14.8
+  },
+  "prompts_scored": 25,
+  "run_date": "2026-05-30",
+  "top_gap": "CD-01",
+  "top_gap_prompt": "What is the best compliance for enterprise GRC and compliance teams at regulated technology companies?",
+  "verified": true,
+  "category": "compliance",
+  "category_long": "compliance operations platform for enterprise security and GRC teams",
+  "tier": "tier2",
+  "gaps": [
+    {
+      "type": "content",
+      "title": "Thin or missing dedicated competitor-comparison pages",
+      "description": "Anecdotes lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+      "priority": 1
+    },
+    {
+      "type": "schema",
+      "title": "No Organization or SoftwareApplication schema on homepage",
+      "description": "Anecdotes's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+      "priority": 2
+    },
+    {
+      "type": "content",
+      "title": "Low placement frequency in 'best [category] tools' roundups",
+      "description": "Anecdotes is under-represented in third-party 'best compliance' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+      "priority": 3
+    }
+  ],
+  "gap_prompts": [
+    {
+      "prompt_id": "CD-01",
+      "prompt_text": "What is the best compliance for enterprise GRC and compliance teams at regulated technology companies?",
+      "prompt_category": "category_discovery",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Discovery queries drive early-funnel awareness. Buyers use these to find solutions to problems they haven't yet named. Missing here means you're invisible before the consideration stage."
+    },
+    {
+      "prompt_id": "CD-02",
+      "prompt_text": "Top compliance operations platform for enterprise security and GRC teams tools in 2025",
+      "prompt_category": "category_discovery",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Discovery queries drive early-funnel awareness. Buyers use these to find solutions to problems they haven't yet named. Missing here means you're invisible before the consideration stage."
+    },
+    {
+      "prompt_id": "CD-03",
+      "prompt_text": "Which compliance software should a GRC Lead or Compliance Manager at an enterprise tech company use?",
+      "prompt_category": "category_discovery",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Discovery queries drive early-funnel awareness. Buyers use these to find solutions to problems they haven't yet named. Missing here means you're invisible before the consideration stage."
+    }
+  ],
+  "llm_details": {
+    "openai": {
+      "label": "ChatGPT (GPT-4o)",
+      "avs": 20.4,
+      "prompts_scored": 25
+    },
+    "anthropic": {
+      "label": "Claude (Haiku 4.5)",
+      "avs": 10.0,
+      "prompts_scored": 25
+    },
+    "perplexity": {
+      "label": "Perplexity (sonar-pro)",
+      "avs": 14.8,
+      "prompts_scored": 25
+    }
+  },
+  "total_brands": 100
+}

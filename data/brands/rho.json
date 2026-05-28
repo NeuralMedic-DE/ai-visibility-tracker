@@ -1,0 +1,96 @@
+{
+  "slug": "rho",
+  "brand": "Rho",
+  "url": "rho.co",
+  "rank": 84,
+  "avs_brand": 18.7,
+  "avs_per_llm": {
+    "openai": 15.6,
+    "anthropic": 11.6,
+    "perplexity": 28.8
+  },
+  "prompts_scored": 25,
+  "run_date": "2026-05-30",
+  "top_gap": "CD-03",
+  "top_gap_prompt": "Which finance software should a CFO or Finance Lead at a venture-backed startup use?",
+  "verified": true,
+  "category": "finance",
+  "category_long": "all-in-one finance platform for scaling startups and scaleups",
+  "tier": "tier1",
+  "gaps": [
+    {
+      "type": "content",
+      "title": "Thin or missing dedicated competitor-comparison pages",
+      "description": "Rho lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+      "priority": 1
+    },
+    {
+      "type": "schema",
+      "title": "No Organization or SoftwareApplication schema on homepage",
+      "description": "Rho's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+      "priority": 2
+    },
+    {
+      "type": "content",
+      "title": "Low placement frequency in 'best [category] tools' roundups",
+      "description": "Rho is under-represented in third-party 'best finance' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+      "priority": 3
+    }
+  ],
+  "gap_prompts": [
+    {
+      "prompt_id": "CD-03",
+      "prompt_text": "Which finance software should a CFO or Finance Lead at a venture-backed startup use?",
+      "prompt_category": "category_discovery",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Discovery queries drive early-funnel awareness. Buyers use these to find solutions to problems they haven't yet named. Missing here means you're invisible before the consideration stage."
+    },
+    {
+      "prompt_id": "CD-04",
+      "prompt_text": "Best finance platforms for manage company spending with smart corporate cards and bill pay automation",
+      "prompt_category": "category_discovery",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Discovery queries drive early-funnel awareness. Buyers use these to find solutions to problems they haven't yet named. Missing here means you're invisible before the consideration stage."
+    },
+    {
+      "prompt_id": "AL-05",
+      "prompt_text": "Open source or affordable finance tools instead of Mercury",
+      "prompt_category": "alternatives",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Alternative searches are used by buyers actively switching tools. Visibility here captures switching-intent demand at its peak."
+    }
+  ],
+  "llm_details": {
+    "openai": {
+      "label": "ChatGPT (GPT-4o)",
+      "avs": 15.6,
+      "prompts_scored": 25
+    },
+    "anthropic": {
+      "label": "Claude (Haiku 4.5)",
+      "avs": 11.6,
+      "prompts_scored": 25
+    },
+    "perplexity": {
+      "label": "Perplexity (sonar-pro)",
+      "avs": 28.8,
+      "prompts_scored": 25
+    }
+  },
+  "total_brands": 100
+}

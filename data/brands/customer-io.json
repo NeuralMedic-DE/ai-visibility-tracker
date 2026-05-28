@@ -1,0 +1,95 @@
+{
+  "slug": "customer-io",
+  "brand": "Customer.io",
+  "url": "customer.io",
+  "rank": 8,
+  "avs_brand": 45.2,
+  "avs_per_llm": {
+    "openai": 47.6,
+    "anthropic": 40.4,
+    "perplexity": 47.6
+  },
+  "prompts_scored": 25,
+  "run_date": "2026-05-30",
+  "top_gap": "AL-02",
+  "top_gap_prompt": "Cheaper alternatives to Klaviyo",
+  "verified": true,
+  "category": "marketing automation",
+  "category_long": "customer messaging and lifecycle automation platform for SaaS",
+  "tier": "anchor",
+  "gaps": [
+    {
+      "type": "schema",
+      "title": "No HowTo schema on documentation and tutorial pages",
+      "description": "Customer.io's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+      "priority": 1
+    },
+    {
+      "type": "schema",
+      "title": "Missing FAQPage schema on pricing and comparison pages",
+      "description": "Customer.io's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+      "priority": 2
+    },
+    {
+      "type": "content",
+      "title": "Thin or missing dedicated competitor-comparison pages",
+      "description": "Customer.io lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+      "priority": 3
+    }
+  ],
+  "gap_prompts": [
+    {
+      "prompt_id": "AL-02",
+      "prompt_text": "Cheaper alternatives to Klaviyo",
+      "prompt_category": "alternatives",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Alternative searches are used by buyers actively switching tools. Visibility here captures switching-intent demand at its peak."
+    },
+    {
+      "prompt_id": "UC-01",
+      "prompt_text": "How do I send behavior-triggered emails and push notifications at scale without spending a lot on software?",
+      "prompt_category": "use_case",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Use-case prompts reach buyers at the exact moment they need your solution. These are the highest-converting prompt type in AI search."
+    },
+    {
+      "prompt_id": "AL-05",
+      "prompt_text": "Open source or affordable marketing automation tools instead of Klaviyo",
+      "prompt_category": "alternatives",
+      "llms_missing": [
+        "openai",
+        "anthropic"
+      ],
+      "llms_missing_count": 2,
+      "why_it_matters": "Alternative searches are used by buyers actively switching tools. Visibility here captures switching-intent demand at its peak."
+    }
+  ],
+  "llm_details": {
+    "openai": {
+      "label": "ChatGPT (GPT-4o)",
+      "avs": 47.6,
+      "prompts_scored": 25
+    },
+    "anthropic": {
+      "label": "Claude (Haiku 4.5)",
+      "avs": 40.4,
+      "prompts_scored": 25
+    },
+    "perplexity": {
+      "label": "Perplexity (sonar-pro)",
+      "avs": 47.6,
+      "prompts_scored": 25
+    }
+  },
+  "total_brands": 100
+}

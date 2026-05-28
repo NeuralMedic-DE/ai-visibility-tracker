@@ -1,0 +1,96 @@
+{
+  "slug": "ashby",
+  "brand": "Ashby",
+  "url": "ashby.com",
+  "rank": 48,
+  "avs_brand": 31.1,
+  "avs_per_llm": {
+    "openai": 18.0,
+    "anthropic": 39.2,
+    "perplexity": 36.0
+  },
+  "prompts_scored": 25,
+  "run_date": "2026-05-30",
+  "top_gap": "AL-02",
+  "top_gap_prompt": "Cheaper alternatives to Greenhouse",
+  "verified": true,
+  "category": "ATS",
+  "category_long": "all-in-one recruiting platform for high-growth companies",
+  "tier": "tier2",
+  "gaps": [
+    {
+      "type": "schema",
+      "title": "Missing FAQPage schema on pricing and comparison pages",
+      "description": "Ashby's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+      "priority": 1
+    },
+    {
+      "type": "content",
+      "title": "Thin or missing dedicated competitor-comparison pages",
+      "description": "Ashby lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+      "priority": 2
+    },
+    {
+      "type": "schema",
+      "title": "No HowTo schema on documentation and tutorial pages",
+      "description": "Ashby's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+      "priority": 3
+    }
+  ],
+  "gap_prompts": [
+    {
+      "prompt_id": "AL-02",
+      "prompt_text": "Cheaper alternatives to Greenhouse",
+      "prompt_category": "alternatives",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Alternative searches are used by buyers actively switching tools. Visibility here captures switching-intent demand at its peak."
+    },
+    {
+      "prompt_id": "UC-01",
+      "prompt_text": "How do I manage the full recruiting funnel from sourcing to offer letter without spending a lot on software?",
+      "prompt_category": "use_case",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Use-case prompts reach buyers at the exact moment they need your solution. These are the highest-converting prompt type in AI search."
+    },
+    {
+      "prompt_id": "UC-02",
+      "prompt_text": "Best way to build structured hiring workflows and automate interview scheduling for a talent teams at high-growth startups and scaleups team",
+      "prompt_category": "use_case",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Use-case prompts reach buyers at the exact moment they need your solution. These are the highest-converting prompt type in AI search."
+    }
+  ],
+  "llm_details": {
+    "openai": {
+      "label": "ChatGPT (GPT-4o)",
+      "avs": 18.0,
+      "prompts_scored": 25
+    },
+    "anthropic": {
+      "label": "Claude (Haiku 4.5)",
+      "avs": 39.2,
+      "prompts_scored": 25
+    },
+    "perplexity": {
+      "label": "Perplexity (sonar-pro)",
+      "avs": 36.0,
+      "prompts_scored": 25
+    }
+  },
+  "total_brands": 100
+}

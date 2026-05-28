@@ -1,0 +1,95 @@
+{
+  "slug": "llamaindex",
+  "brand": "LlamaIndex",
+  "url": "llamaindex.ai",
+  "rank": 43,
+  "avs_brand": 33.2,
+  "avs_per_llm": {
+    "openai": 27.6,
+    "anthropic": 36.8,
+    "perplexity": 35.2
+  },
+  "prompts_scored": 25,
+  "run_date": "2026-05-30",
+  "top_gap": "UC-02",
+  "top_gap_prompt": "Best way to connect LLMs to enterprise knowledge bases with advanced indexing techniques for a AI engineers building knowledge-intensive LLM and RAG applications team",
+  "verified": true,
+  "category": "AI tooling",
+  "category_long": "data framework for LLM applications and RAG pipelines",
+  "tier": "tier2",
+  "gaps": [
+    {
+      "type": "schema",
+      "title": "Missing FAQPage schema on pricing and comparison pages",
+      "description": "LlamaIndex's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+      "priority": 1
+    },
+    {
+      "type": "content",
+      "title": "Thin or missing dedicated competitor-comparison pages",
+      "description": "LlamaIndex lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+      "priority": 2
+    },
+    {
+      "type": "schema",
+      "title": "No HowTo schema on documentation and tutorial pages",
+      "description": "LlamaIndex's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+      "priority": 3
+    }
+  ],
+  "gap_prompts": [
+    {
+      "prompt_id": "UC-02",
+      "prompt_text": "Best way to connect LLMs to enterprise knowledge bases with advanced indexing techniques for a AI engineers building knowledge-intensive LLM and RAG applications team",
+      "prompt_category": "use_case",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Use-case prompts reach buyers at the exact moment they need your solution. These are the highest-converting prompt type in AI search."
+    },
+    {
+      "prompt_id": "UC-04",
+      "prompt_text": "How can a AI Engineer or ML Lead building RAG applications build production RAG pipelines over custom private data sources more efficiently?",
+      "prompt_category": "use_case",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Use-case prompts reach buyers at the exact moment they need your solution. These are the highest-converting prompt type in AI search."
+    },
+    {
+      "prompt_id": "IN-05",
+      "prompt_text": "AI tooling tools with native OpenAI integration",
+      "prompt_category": "integration",
+      "llms_missing": [
+        "openai",
+        "perplexity"
+      ],
+      "llms_missing_count": 2,
+      "why_it_matters": "Integration queries signal technical buyers in the evaluation stage. Missing here loses decision-stage opportunities to tools that have stronger integration documentation."
+    }
+  ],
+  "llm_details": {
+    "openai": {
+      "label": "ChatGPT (GPT-4o)",
+      "avs": 27.6,
+      "prompts_scored": 25
+    },
+    "anthropic": {
+      "label": "Claude (Haiku 4.5)",
+      "avs": 36.8,
+      "prompts_scored": 25
+    },
+    "perplexity": {
+      "label": "Perplexity (sonar-pro)",
+      "avs": 35.2,
+      "prompts_scored": 25
+    }
+  },
+  "total_brands": 100
+}

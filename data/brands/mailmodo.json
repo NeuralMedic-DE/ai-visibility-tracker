@@ -1,0 +1,96 @@
+{
+  "slug": "mailmodo",
+  "brand": "Mailmodo",
+  "url": "mailmodo.com",
+  "rank": 67,
+  "avs_brand": 24.1,
+  "avs_per_llm": {
+    "openai": 19.2,
+    "anthropic": 26.8,
+    "perplexity": 26.4
+  },
+  "prompts_scored": 25,
+  "run_date": "2026-05-30",
+  "top_gap": "CD-01",
+  "top_gap_prompt": "What is the best marketing automation for SaaS growth marketers and email marketing leads wanting higher engagement?",
+  "verified": true,
+  "category": "marketing automation",
+  "category_long": "interactive email marketing platform for SaaS growth and engagement",
+  "tier": "tier1",
+  "gaps": [
+    {
+      "type": "schema",
+      "title": "No Organization or SoftwareApplication schema on homepage",
+      "description": "Mailmodo's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+      "priority": 1
+    },
+    {
+      "type": "content",
+      "title": "Low placement frequency in 'best [category] tools' roundups",
+      "description": "Mailmodo is under-represented in third-party 'best marketing automation' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+      "priority": 2
+    },
+    {
+      "type": "content",
+      "title": "Thin or missing dedicated competitor-comparison pages",
+      "description": "Mailmodo lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+      "priority": 3
+    }
+  ],
+  "gap_prompts": [
+    {
+      "prompt_id": "CD-01",
+      "prompt_text": "What is the best marketing automation for SaaS growth marketers and email marketing leads wanting higher engagement?",
+      "prompt_category": "category_discovery",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Discovery queries drive early-funnel awareness. Buyers use these to find solutions to problems they haven't yet named. Missing here means you're invisible before the consideration stage."
+    },
+    {
+      "prompt_id": "CD-03",
+      "prompt_text": "Which marketing automation software should a Email Marketer or Head of Growth at a SaaS company use?",
+      "prompt_category": "category_discovery",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Discovery queries drive early-funnel awareness. Buyers use these to find solutions to problems they haven't yet named. Missing here means you're invisible before the consideration stage."
+    },
+    {
+      "prompt_id": "CD-05",
+      "prompt_text": "Recommended marketing automation tools for SaaS growth marketers and email marketing leads wanting higher engagement companies",
+      "prompt_category": "category_discovery",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Discovery queries drive early-funnel awareness. Buyers use these to find solutions to problems they haven't yet named. Missing here means you're invisible before the consideration stage."
+    }
+  ],
+  "llm_details": {
+    "openai": {
+      "label": "ChatGPT (GPT-4o)",
+      "avs": 19.2,
+      "prompts_scored": 25
+    },
+    "anthropic": {
+      "label": "Claude (Haiku 4.5)",
+      "avs": 26.8,
+      "prompts_scored": 25
+    },
+    "perplexity": {
+      "label": "Perplexity (sonar-pro)",
+      "avs": 26.4,
+      "prompts_scored": 25
+    }
+  },
+  "total_brands": 100
+}

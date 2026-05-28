@@ -1,0 +1,4012 @@
+{
+  "run_date": "2026-05-30",
+  "generated_at": "2026-05-28T12:46:38.905807+00:00",
+  "total_brands": 100,
+  "active_llms": [
+    "openai",
+    "anthropic",
+    "perplexity"
+  ],
+  "brands": [
+    {
+      "slug": "vercel",
+      "brand": "Vercel",
+      "url": "vercel.com",
+      "rank": 1,
+      "avs_brand": 54.8,
+      "avs_per_llm": {
+        "openai": 64.0,
+        "anthropic": 44.4,
+        "perplexity": 56.0
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best deployment for frontend engineering teams at SaaS companies?",
+      "verified": true,
+      "category": "deployment",
+      "category_long": "frontend cloud and deployment platform for modern web apps",
+      "tier": "anchor",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Vercel's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Vercel's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Vercel lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "prefect",
+      "brand": "Prefect",
+      "url": "prefect.io",
+      "rank": 2,
+      "avs_brand": 46.8,
+      "avs_per_llm": {
+        "openai": 54.4,
+        "anthropic": 36.8,
+        "perplexity": 49.2
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": null,
+      "top_gap_prompt": null,
+      "verified": true,
+      "category": "workflow orchestration",
+      "category_long": "Python-native data workflow orchestration for modern data engineering",
+      "tier": "tier2",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Prefect's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Prefect lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Prefect's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "mixpanel",
+      "brand": "Mixpanel",
+      "url": "mixpanel.com",
+      "rank": 3,
+      "avs_brand": 46.0,
+      "avs_per_llm": {
+        "openai": 55.2,
+        "anthropic": 38.0,
+        "perplexity": 44.8
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "AL-05",
+      "top_gap_prompt": "Open source or affordable product analytics tools instead of PostHog",
+      "verified": true,
+      "category": "product analytics",
+      "category_long": "event-based product analytics for SaaS companies",
+      "tier": "anchor",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Mixpanel's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Mixpanel's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Mixpanel lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "retool",
+      "brand": "Retool",
+      "url": "retool.com",
+      "rank": 4,
+      "avs_brand": 46.0,
+      "avs_per_llm": {
+        "openai": 46.0,
+        "anthropic": 39.6,
+        "perplexity": 52.4
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best internal tooling for engineering and operations teams at mid-market companies?",
+      "verified": true,
+      "category": "internal tooling",
+      "category_long": "low-code platform for building internal tools and dashboards",
+      "tier": "anchor",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Retool's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Retool's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Retool lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "gainsight",
+      "brand": "Gainsight",
+      "url": "gainsight.com",
+      "rank": 5,
+      "avs_brand": 45.9,
+      "avs_per_llm": {
+        "openai": 54.4,
+        "anthropic": 44.4,
+        "perplexity": 38.8
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "UC-01",
+      "top_gap_prompt": "How do I manage customer health scores and automate CSM playbooks at scale without spending a lot on software?",
+      "verified": true,
+      "category": "customer success",
+      "category_long": "enterprise customer success and digital engagement platform",
+      "tier": "anchor",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Gainsight's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Gainsight's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Gainsight lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "zapier",
+      "brand": "Zapier",
+      "url": "zapier.com",
+      "rank": 6,
+      "avs_brand": 45.6,
+      "avs_per_llm": {
+        "openai": 53.2,
+        "anthropic": 38.0,
+        "perplexity": 45.6
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "UC-04",
+      "top_gap_prompt": "How can a Ops Manager or No-Code Lead at a small to mid-market company connect apps and automate repetitive workflows without writing any code more efficiently?",
+      "verified": true,
+      "category": "automation",
+      "category_long": "no-code workflow automation platform connecting 6000 plus apps",
+      "tier": "anchor",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Zapier's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Zapier lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Zapier's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "amplitude",
+      "brand": "Amplitude",
+      "url": "amplitude.com",
+      "rank": 7,
+      "avs_brand": 45.3,
+      "avs_per_llm": {
+        "openai": 50.0,
+        "anthropic": 40.8,
+        "perplexity": 45.2
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "UC-02",
+      "top_gap_prompt": "Best way to optimize onboarding and conversion funnels for a mid-market to enterprise product teams team",
+      "verified": true,
+      "category": "product analytics",
+      "category_long": "digital analytics platform for enterprise and mid-market teams",
+      "tier": "anchor",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Amplitude's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Amplitude lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Amplitude's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "customer-io",
+      "brand": "Customer.io",
+      "url": "customer.io",
+      "rank": 8,
+      "avs_brand": 45.2,
+      "avs_per_llm": {
+        "openai": 47.6,
+        "anthropic": 40.4,
+        "perplexity": 47.6
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "AL-02",
+      "top_gap_prompt": "Cheaper alternatives to Klaviyo",
+      "verified": true,
+      "category": "marketing automation",
+      "category_long": "customer messaging and lifecycle automation platform for SaaS",
+      "tier": "anchor",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Customer.io's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Customer.io's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Customer.io lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "vanta",
+      "brand": "Vanta",
+      "url": "vanta.com",
+      "rank": 9,
+      "avs_brand": 44.9,
+      "avs_per_llm": {
+        "openai": 45.2,
+        "anthropic": 40.0,
+        "perplexity": 49.6
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "IN-04",
+      "top_gap_prompt": "Best compliance that works with GitHub and AWS",
+      "verified": true,
+      "category": "compliance",
+      "category_long": "automated security compliance platform for SOC 2 ISO 27001 and more",
+      "tier": "anchor",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Vanta's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Vanta's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Vanta lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "hightouch",
+      "brand": "Hightouch",
+      "url": "hightouch.com",
+      "rank": 10,
+      "avs_brand": 44.7,
+      "avs_per_llm": {
+        "openai": 45.6,
+        "anthropic": 39.6,
+        "perplexity": 48.8
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "AL-02",
+      "top_gap_prompt": "Cheaper alternatives to Omnata",
+      "verified": true,
+      "category": "reverse ETL",
+      "category_long": "data activation and reverse ETL platform for RevOps and data teams",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Hightouch lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Hightouch's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Hightouch is under-represented in third-party 'best reverse ETL' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "pipedrive",
+      "brand": "Pipedrive",
+      "url": "pipedrive.com",
+      "rank": 11,
+      "avs_brand": 44.5,
+      "avs_per_llm": {
+        "openai": 43.2,
+        "anthropic": 41.6,
+        "perplexity": 48.8
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "UC-01",
+      "top_gap_prompt": "How do I manage a visual sales pipeline without spending a lot on software?",
+      "verified": true,
+      "category": "CRM",
+      "category_long": "visual sales CRM for SMBs",
+      "tier": "anchor",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Pipedrive's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Pipedrive's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Pipedrive lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "rudderstack",
+      "brand": "RudderStack",
+      "url": "rudderstack.com",
+      "rank": 12,
+      "avs_brand": 44.3,
+      "avs_per_llm": {
+        "openai": 56.0,
+        "anthropic": 36.4,
+        "perplexity": 40.4
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "IN-05",
+      "top_gap_prompt": "customer data platform tools with native Segment integration",
+      "verified": true,
+      "category": "customer data platform",
+      "category_long": "open-source customer data platform for engineering-led data teams",
+      "tier": "tier2",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "RudderStack lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "RudderStack's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "RudderStack is under-represented in third-party 'best customer data platform' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "totango",
+      "brand": "Totango",
+      "url": "totango.com",
+      "rank": 13,
+      "avs_brand": 43.5,
+      "avs_per_llm": {
+        "openai": 46.8,
+        "anthropic": 39.6,
+        "perplexity": 44.0
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "UC-04",
+      "top_gap_prompt": "How can a VP CS or Enterprise CS Lead at a large SaaS organization build modular customer success programs using composable SuccessBLOC templates more efficiently?",
+      "verified": true,
+      "category": "customer success",
+      "category_long": "composable customer success platform for enterprise SaaS companies",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Totango's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Totango lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Totango's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "plausible",
+      "brand": "Plausible",
+      "url": "plausible.io",
+      "rank": 14,
+      "avs_brand": 43.1,
+      "avs_per_llm": {
+        "openai": 48.8,
+        "anthropic": 39.6,
+        "perplexity": 40.8
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-03",
+      "top_gap_prompt": "Which web analytics software should a SaaS founder or marketing manager use?",
+      "verified": true,
+      "category": "web analytics",
+      "category_long": "privacy-first web analytics for SaaS founders",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Plausible lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Plausible's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Plausible is under-represented in third-party 'best web analytics' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "chartmogul",
+      "brand": "ChartMogul",
+      "url": "chartmogul.com",
+      "rank": 15,
+      "avs_brand": 42.0,
+      "avs_per_llm": {
+        "openai": 44.4,
+        "anthropic": 38.0,
+        "perplexity": 43.6
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "UC-02",
+      "top_gap_prompt": "Best way to analyze cohort retention and forecast subscription revenue growth for a founders and finance teams at subscription SaaS businesses team",
+      "verified": true,
+      "category": "SaaS analytics",
+      "category_long": "subscription analytics and revenue intelligence for SaaS companies",
+      "tier": "tier2",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "ChartMogul's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "ChartMogul lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "ChartMogul's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "fivetran",
+      "brand": "Fivetran",
+      "url": "fivetran.com",
+      "rank": 16,
+      "avs_brand": 41.9,
+      "avs_per_llm": {
+        "openai": 43.6,
+        "anthropic": 45.2,
+        "perplexity": 36.8
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "UC-01",
+      "top_gap_prompt": "How do I replicate data from 400 plus sources to your data warehouse automatically without spending a lot on software?",
+      "verified": true,
+      "category": "data integration",
+      "category_long": "automated data movement and transformation platform for modern data stacks",
+      "tier": "anchor",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Fivetran's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Fivetran's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Fivetran lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "baremetrics",
+      "brand": "Baremetrics",
+      "url": "baremetrics.com",
+      "rank": 17,
+      "avs_brand": 41.2,
+      "avs_per_llm": {
+        "openai": 42.8,
+        "anthropic": 36.0,
+        "perplexity": 44.8
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "UC-05",
+      "top_gap_prompt": "What software helps with forecast revenue and identify at-risk customers before they churn at scale?",
+      "verified": true,
+      "category": "SaaS analytics",
+      "category_long": "SaaS metrics and subscription analytics for bootstrap and funded founders",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Baremetrics lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Baremetrics's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Baremetrics is under-represented in third-party 'best SaaS analytics' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "weights-biases",
+      "brand": "Weights & Biases",
+      "url": "wandb.ai",
+      "rank": 18,
+      "avs_brand": 40.5,
+      "avs_per_llm": {
+        "openai": 44.0,
+        "anthropic": 40.0,
+        "perplexity": 37.6
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "AL-02",
+      "top_gap_prompt": "Cheaper alternatives to Comet",
+      "verified": true,
+      "category": "MLOps",
+      "category_long": "experiment tracking and ML model management platform for AI teams",
+      "tier": "anchor",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Weights & Biases's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Weights & Biases's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Weights & Biases lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "raycast",
+      "brand": "Raycast",
+      "url": "raycast.com",
+      "rank": 19,
+      "avs_brand": 40.4,
+      "avs_per_llm": {
+        "openai": 37.6,
+        "anthropic": 34.4,
+        "perplexity": 49.2
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-03",
+      "top_gap_prompt": "Which productivity software should a Developer Productivity Lead or CTO at a tech company use?",
+      "verified": true,
+      "category": "productivity",
+      "category_long": "developer productivity launcher for Mac power users",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Raycast's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Raycast is under-represented in third-party 'best productivity' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Raycast lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "workable",
+      "brand": "Workable",
+      "url": "workable.com",
+      "rank": 20,
+      "avs_brand": 40.3,
+      "avs_per_llm": {
+        "openai": 34.0,
+        "anthropic": 46.0,
+        "perplexity": 40.8
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "AL-05",
+      "top_gap_prompt": "Open source or affordable ATS tools instead of Greenhouse",
+      "verified": true,
+      "category": "ATS",
+      "category_long": "applicant tracking system for growing companies",
+      "tier": "tier2",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Workable's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Workable lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Workable's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "activecampaign",
+      "brand": "ActiveCampaign",
+      "url": "activecampaign.com",
+      "rank": 21,
+      "avs_brand": 40.1,
+      "avs_per_llm": {
+        "openai": 39.6,
+        "anthropic": 36.4,
+        "perplexity": 44.4
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "UC-02",
+      "top_gap_prompt": "Best way to segment contacts and send personalized campaigns based on behavioral data for a SMB and mid-market marketing teams running email and CRM programs team",
+      "verified": true,
+      "category": "marketing automation",
+      "category_long": "customer experience automation for SMB and mid-market businesses",
+      "tier": "anchor",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "ActiveCampaign's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "ActiveCampaign's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "ActiveCampaign lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "intercom",
+      "brand": "Intercom",
+      "url": "intercom.com",
+      "rank": 22,
+      "avs_brand": 40.1,
+      "avs_per_llm": {
+        "openai": 40.8,
+        "anthropic": 44.8,
+        "perplexity": 34.8
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "UC-01",
+      "top_gap_prompt": "How do I manage all customer conversations in one unified inbox across chat email and social without spending a lot on software?",
+      "verified": true,
+      "category": "customer support",
+      "category_long": "customer messaging and AI-powered support platform for B2B SaaS",
+      "tier": "anchor",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Intercom's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Intercom lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Intercom's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "neon",
+      "brand": "Neon",
+      "url": "neon.tech",
+      "rank": 23,
+      "avs_brand": 40.0,
+      "avs_per_llm": {
+        "openai": 26.8,
+        "anthropic": 38.0,
+        "perplexity": 55.2
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best database for developer teams building SaaS and AI applications?",
+      "verified": true,
+      "category": "database",
+      "category_long": "serverless Postgres platform for developer teams",
+      "tier": "tier2",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Neon's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Neon lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Neon's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "metabase",
+      "brand": "Metabase",
+      "url": "metabase.com",
+      "rank": 24,
+      "avs_brand": 39.9,
+      "avs_per_llm": {
+        "openai": 37.2,
+        "anthropic": 36.8,
+        "perplexity": 45.6
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "UC-05",
+      "top_gap_prompt": "What software helps with share data insights with non-technical stakeholders at scale?",
+      "verified": true,
+      "category": "business intelligence",
+      "category_long": "open-source BI and data visualization tool",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Metabase lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Metabase's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Metabase is under-represented in third-party 'best business intelligence' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "pendo",
+      "brand": "Pendo",
+      "url": "pendo.io",
+      "rank": 25,
+      "avs_brand": 39.1,
+      "avs_per_llm": {
+        "openai": 36.8,
+        "anthropic": 37.2,
+        "perplexity": 43.2
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "UC-01",
+      "top_gap_prompt": "How do I guide users through in-app onboarding tours without spending a lot on software?",
+      "verified": true,
+      "category": "product analytics",
+      "category_long": "product experience and analytics platform for enterprise SaaS",
+      "tier": "anchor",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Pendo's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Pendo's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Pendo lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "langchain",
+      "brand": "LangChain",
+      "url": "langchain.com",
+      "rank": 26,
+      "avs_brand": 38.8,
+      "avs_per_llm": {
+        "openai": 37.6,
+        "anthropic": 38.4,
+        "perplexity": 40.4
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "IN-05",
+      "top_gap_prompt": "AI tooling tools with native OpenAI integration",
+      "verified": true,
+      "category": "AI tooling",
+      "category_long": "framework for building production LLM-powered applications",
+      "tier": "tier2",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "LangChain's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "LangChain's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "LangChain lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "paddle",
+      "brand": "Paddle",
+      "url": "paddle.com",
+      "rank": 27,
+      "avs_brand": 38.5,
+      "avs_per_llm": {
+        "openai": 35.6,
+        "anthropic": 38.4,
+        "perplexity": 41.6
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "AL-04",
+      "top_gap_prompt": "Stripe vs alternatives: what should I switch to?",
+      "verified": true,
+      "category": "billing",
+      "category_long": "complete payments and billing infrastructure for software companies",
+      "tier": "tier2",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Paddle's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Paddle lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Paddle's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "chargebee",
+      "brand": "Chargebee",
+      "url": "chargebee.com",
+      "rank": 28,
+      "avs_brand": 38.4,
+      "avs_per_llm": {
+        "openai": 50.4,
+        "anthropic": 26.8,
+        "perplexity": 38.0
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "IN-05",
+      "top_gap_prompt": "billing tools with native Salesforce integration",
+      "verified": true,
+      "category": "billing",
+      "category_long": "subscription management and revenue billing platform for SaaS",
+      "tier": "anchor",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Chargebee's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Chargebee's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Chargebee lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "airbyte",
+      "brand": "Airbyte",
+      "url": "airbyte.com",
+      "rank": 29,
+      "avs_brand": 37.6,
+      "avs_per_llm": {
+        "openai": 28.0,
+        "anthropic": 36.4,
+        "perplexity": 48.4
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "AL-02",
+      "top_gap_prompt": "Cheaper alternatives to Stitch",
+      "verified": true,
+      "category": "data integration",
+      "category_long": "open-source ELT data integration platform for modern data teams",
+      "tier": "tier2",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Airbyte lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Airbyte's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Airbyte is under-represented in third-party 'best data integration' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "supermetrics",
+      "brand": "Supermetrics",
+      "url": "supermetrics.com",
+      "rank": 30,
+      "avs_brand": 36.9,
+      "avs_per_llm": {
+        "openai": 41.6,
+        "anthropic": 35.2,
+        "perplexity": 34.0
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-03",
+      "top_gap_prompt": "Which marketing analytics software should a marketing analyst or head of marketing use?",
+      "verified": true,
+      "category": "marketing analytics",
+      "category_long": "marketing data pipeline tool for agencies and in-house teams",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Supermetrics's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Supermetrics is under-represented in third-party 'best marketing analytics' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Supermetrics lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "sentry",
+      "brand": "Sentry",
+      "url": "sentry.io",
+      "rank": 31,
+      "avs_brand": 36.3,
+      "avs_per_llm": {
+        "openai": 44.0,
+        "anthropic": 32.4,
+        "perplexity": 32.4
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "UC-02",
+      "top_gap_prompt": "Best way to monitor application performance and response latency for a engineering teams at SaaS companies team",
+      "verified": true,
+      "category": "error monitoring",
+      "category_long": "application performance monitoring and error tracking platform",
+      "tier": "anchor",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Sentry's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Sentry's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Sentry lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "help-scout",
+      "brand": "Help Scout",
+      "url": "helpscout.com",
+      "rank": 32,
+      "avs_brand": 36.1,
+      "avs_per_llm": {
+        "openai": 41.6,
+        "anthropic": 30.0,
+        "perplexity": 36.8
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "UC-02",
+      "top_gap_prompt": "Best way to build a self-service knowledge base that reduces inbound support volume for a support and success teams at bootstrapped and growth-stage SaaS companies team",
+      "verified": true,
+      "category": "customer support",
+      "category_long": "simple email-based customer support platform for customer-centric teams",
+      "tier": "tier2",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Help Scout's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Help Scout lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Help Scout's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "drata",
+      "brand": "Drata",
+      "url": "drata.com",
+      "rank": 33,
+      "avs_brand": 35.9,
+      "avs_per_llm": {
+        "openai": 37.2,
+        "anthropic": 31.2,
+        "perplexity": 39.2
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best compliance for security and compliance teams at high-growth technology companies?",
+      "verified": true,
+      "category": "compliance",
+      "category_long": "continuous security and compliance automation platform for tech companies",
+      "tier": "anchor",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Drata's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Drata's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Drata lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "n8n",
+      "brand": "n8n",
+      "url": "n8n.io",
+      "rank": 34,
+      "avs_brand": 35.7,
+      "avs_per_llm": {
+        "openai": 37.6,
+        "anthropic": 26.0,
+        "perplexity": 43.6
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "IN-04",
+      "top_gap_prompt": "Best automation that works with GitHub and Postgres",
+      "verified": true,
+      "category": "automation",
+      "category_long": "open-source workflow automation for technical operations teams",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "n8n's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "n8n is under-represented in third-party 'best automation' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "n8n lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "posthog",
+      "brand": "PostHog",
+      "url": "posthog.com",
+      "rank": 35,
+      "avs_brand": 35.6,
+      "avs_per_llm": {
+        "openai": 29.6,
+        "anthropic": 36.0,
+        "perplexity": 41.2
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "UC-05",
+      "top_gap_prompt": "What software helps with track feature flags and run A/B experiments at scale?",
+      "verified": true,
+      "category": "product analytics",
+      "category_long": "open-source product analytics platform for developer teams",
+      "tier": "anchor",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "PostHog's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "PostHog's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "PostHog lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "fullstory",
+      "brand": "FullStory",
+      "url": "fullstory.com",
+      "rank": 36,
+      "avs_brand": 35.3,
+      "avs_per_llm": {
+        "openai": 38.0,
+        "anthropic": 34.4,
+        "perplexity": 33.6
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "AL-03",
+      "top_gap_prompt": "Best product analytics alternatives for product and UX teams at mid-market SaaS companies teams on a budget",
+      "verified": true,
+      "category": "product analytics",
+      "category_long": "digital experience analytics with session replay",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "FullStory's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "FullStory lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "FullStory's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "lattice",
+      "brand": "Lattice",
+      "url": "lattice.com",
+      "rank": 37,
+      "avs_brand": 35.1,
+      "avs_per_llm": {
+        "openai": 36.8,
+        "anthropic": 33.6,
+        "perplexity": 34.8
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best HR for mid-market companies building high-performance cultures?",
+      "verified": true,
+      "category": "HR",
+      "category_long": "performance management and people development platform for growing teams",
+      "tier": "tier2",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Lattice lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Lattice's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Lattice is under-represented in third-party 'best HR' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "copper",
+      "brand": "Copper",
+      "url": "copper.com",
+      "rank": 38,
+      "avs_brand": 34.9,
+      "avs_per_llm": {
+        "openai": 39.2,
+        "anthropic": 24.4,
+        "perplexity": 41.2
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "AL-02",
+      "top_gap_prompt": "Cheaper alternatives to Pipedrive",
+      "verified": true,
+      "category": "CRM",
+      "category_long": "Google-native CRM for agencies and consultants",
+      "tier": "niche",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Copper's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Copper is under-represented in third-party 'best CRM' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Copper lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "apollo-io",
+      "brand": "Apollo.io",
+      "url": "apollo.io",
+      "rank": 39,
+      "avs_brand": 34.7,
+      "avs_per_llm": {
+        "openai": 27.6,
+        "anthropic": 40.4,
+        "perplexity": 36.0
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best CRM for SDR teams at B2B companies?",
+      "verified": true,
+      "category": "CRM",
+      "category_long": "B2B sales intelligence and outreach platform",
+      "tier": "anchor",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Apollo.io's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Apollo.io's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Apollo.io lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "rippling",
+      "brand": "Rippling",
+      "url": "rippling.com",
+      "rank": 40,
+      "avs_brand": 33.7,
+      "avs_per_llm": {
+        "openai": 27.6,
+        "anthropic": 38.4,
+        "perplexity": 35.2
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "AL-05",
+      "top_gap_prompt": "Open source or affordable HR tools instead of BambooHR",
+      "verified": true,
+      "category": "HR",
+      "category_long": "unified workforce platform for HR payroll IT and finance",
+      "tier": "anchor",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Rippling's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Rippling lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Rippling's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "make",
+      "brand": "Make",
+      "url": "make.com",
+      "rank": 41,
+      "avs_brand": 33.6,
+      "avs_per_llm": {
+        "openai": 34.0,
+        "anthropic": 37.6,
+        "perplexity": 29.2
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "UC-02",
+      "top_gap_prompt": "Best way to design advanced logic and data transformations for enterprise-grade automated workflows for a operations teams and automation specialists building advanced integrations team",
+      "verified": true,
+      "category": "automation",
+      "category_long": "visual no-code automation platform for building complex workflows",
+      "tier": "tier2",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Make's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Make lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Make's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "linear",
+      "brand": "Linear",
+      "url": "linear.app",
+      "rank": 42,
+      "avs_brand": 33.3,
+      "avs_per_llm": {
+        "openai": 23.6,
+        "anthropic": 36.0,
+        "perplexity": 40.4
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "AL-02",
+      "top_gap_prompt": "Cheaper alternatives to Asana",
+      "verified": true,
+      "category": "project management",
+      "category_long": "issue tracking and project management for software teams",
+      "tier": "tier2",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Linear lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Linear's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Linear is under-represented in third-party 'best project management' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "llamaindex",
+      "brand": "LlamaIndex",
+      "url": "llamaindex.ai",
+      "rank": 43,
+      "avs_brand": 33.2,
+      "avs_per_llm": {
+        "openai": 27.6,
+        "anthropic": 36.8,
+        "perplexity": 35.2
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "UC-02",
+      "top_gap_prompt": "Best way to connect LLMs to enterprise knowledge bases with advanced indexing techniques for a AI engineers building knowledge-intensive LLM and RAG applications team",
+      "verified": true,
+      "category": "AI tooling",
+      "category_long": "data framework for LLM applications and RAG pipelines",
+      "tier": "tier2",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "LlamaIndex's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "LlamaIndex lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "LlamaIndex's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "personio",
+      "brand": "Personio",
+      "url": "personio.com",
+      "rank": 44,
+      "avs_brand": 33.2,
+      "avs_per_llm": {
+        "openai": 36.8,
+        "anthropic": 30.8,
+        "perplexity": 32.0
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-04",
+      "top_gap_prompt": "Best HR platforms for manage all HR processes from hiring to payroll in one system",
+      "verified": true,
+      "category": "HR",
+      "category_long": "all-in-one HR software for European SMEs",
+      "tier": "anchor",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Personio's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Personio's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Personio lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "semgrep",
+      "brand": "Semgrep",
+      "url": "semgrep.com",
+      "rank": 45,
+      "avs_brand": 32.8,
+      "avs_per_llm": {
+        "openai": 20.8,
+        "anthropic": 39.2,
+        "perplexity": 38.4
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best security for application security and DevSecOps teams at technology companies?",
+      "verified": true,
+      "category": "security",
+      "category_long": "static analysis and application security testing tool for developers",
+      "tier": "niche",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Semgrep lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Semgrep's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Semgrep is under-represented in third-party 'best security' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "churnzero",
+      "brand": "ChurnZero",
+      "url": "churnzero.com",
+      "rank": 46,
+      "avs_brand": 32.8,
+      "avs_per_llm": {
+        "openai": 39.2,
+        "anthropic": 15.2,
+        "perplexity": 44.0
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best customer success for customer success teams at mid-market and enterprise SaaS companies?",
+      "verified": true,
+      "category": "customer success",
+      "category_long": "real-time customer success software for subscription businesses",
+      "tier": "tier2",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "ChurnZero's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "ChurnZero lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "ChurnZero's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "vitally",
+      "brand": "Vitally",
+      "url": "vitally.io",
+      "rank": 47,
+      "avs_brand": 31.3,
+      "avs_per_llm": {
+        "openai": 16.8,
+        "anthropic": 35.2,
+        "perplexity": 42.0
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best customer success for customer success teams at mid-market B2B SaaS companies?",
+      "verified": true,
+      "category": "customer success",
+      "category_long": "customer success platform for B2B SaaS product and CS teams",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Vitally's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Vitally is under-represented in third-party 'best customer success' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Vitally lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "ashby",
+      "brand": "Ashby",
+      "url": "ashby.com",
+      "rank": 48,
+      "avs_brand": 31.1,
+      "avs_per_llm": {
+        "openai": 18.0,
+        "anthropic": 39.2,
+        "perplexity": 36.0
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "AL-02",
+      "top_gap_prompt": "Cheaper alternatives to Greenhouse",
+      "verified": true,
+      "category": "ATS",
+      "category_long": "all-in-one recruiting platform for high-growth companies",
+      "tier": "tier2",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Ashby's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Ashby lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Ashby's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "doppler",
+      "brand": "Doppler",
+      "url": "doppler.com",
+      "rank": 49,
+      "avs_brand": 31.1,
+      "avs_per_llm": {
+        "openai": 27.6,
+        "anthropic": 28.0,
+        "perplexity": 37.6
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "IN-04",
+      "top_gap_prompt": "Best secrets management that works with GitHub and Kubernetes",
+      "verified": true,
+      "category": "secrets management",
+      "category_long": "universal secrets manager for engineering and DevOps teams",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Doppler lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Doppler's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Doppler is under-represented in third-party 'best secrets management' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "instantly",
+      "brand": "Instantly",
+      "url": "instantly.ai",
+      "rank": 50,
+      "avs_brand": 29.6,
+      "avs_per_llm": {
+        "openai": 18.4,
+        "anthropic": 30.8,
+        "perplexity": 39.6
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best sales engagement for SDR teams and growth hackers running high-volume cold email campaigns?",
+      "verified": true,
+      "category": "sales engagement",
+      "category_long": "cold email automation platform built for high-volume outbound",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Instantly lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Instantly's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Instantly is under-represented in third-party 'best sales engagement' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "lemlist",
+      "brand": "Lemlist",
+      "url": "lemlist.com",
+      "rank": 51,
+      "avs_brand": 29.3,
+      "avs_per_llm": {
+        "openai": 24.0,
+        "anthropic": 36.8,
+        "perplexity": 27.2
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best sales engagement for sales teams and growth marketers at B2B companies doing outbound?",
+      "verified": true,
+      "category": "sales engagement",
+      "category_long": "AI-powered cold email and multi-channel sales engagement platform",
+      "tier": "anchor",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Lemlist's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Lemlist's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Lemlist lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "brevo",
+      "brand": "Brevo",
+      "url": "brevo.com",
+      "rank": 52,
+      "avs_brand": 28.9,
+      "avs_per_llm": {
+        "openai": 11.6,
+        "anthropic": 39.2,
+        "perplexity": 36.0
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "UC-05",
+      "top_gap_prompt": "What software helps with manage contacts and automate marketing workflows from a single platform at scale?",
+      "verified": true,
+      "category": "marketing automation",
+      "category_long": "all-in-one marketing platform for email SMS and CRM campaigns",
+      "tier": "anchor",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Brevo's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Brevo's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Brevo lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "secureframe",
+      "brand": "Secureframe",
+      "url": "secureframe.com",
+      "rank": 53,
+      "avs_brand": 28.7,
+      "avs_per_llm": {
+        "openai": 31.6,
+        "anthropic": 26.8,
+        "perplexity": 27.6
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best compliance for security teams at mid-market SaaS companies pursuing multiple frameworks?",
+      "verified": true,
+      "category": "compliance",
+      "category_long": "security and compliance automation for mid-market SaaS companies",
+      "tier": "tier2",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Secureframe's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Secureframe's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Secureframe lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "workato",
+      "brand": "Workato",
+      "url": "workato.com",
+      "rank": 54,
+      "avs_brand": 28.4,
+      "avs_per_llm": {
+        "openai": 22.0,
+        "anthropic": 24.4,
+        "perplexity": 38.8
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "AL-05",
+      "top_gap_prompt": "Open source or affordable automation tools instead of Boomi",
+      "verified": true,
+      "category": "automation",
+      "category_long": "enterprise automation platform for business and IT integration teams",
+      "tier": "anchor",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Workato's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Workato's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Workato lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "uservoice",
+      "brand": "UserVoice",
+      "url": "uservoice.com",
+      "rank": 55,
+      "avs_brand": 28.3,
+      "avs_per_llm": {
+        "openai": 29.6,
+        "anthropic": 24.4,
+        "perplexity": 30.8
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-02",
+      "top_gap_prompt": "Top product feedback and roadmap management platform for product teams tools in 2025",
+      "verified": true,
+      "category": "product feedback",
+      "category_long": "product feedback and roadmap management platform for product teams",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "UserVoice lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "UserVoice's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "UserVoice is under-represented in third-party 'best product feedback' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "front",
+      "brand": "Front",
+      "url": "front.com",
+      "rank": 56,
+      "avs_brand": 28.1,
+      "avs_per_llm": {
+        "openai": 27.2,
+        "anthropic": 27.6,
+        "perplexity": 29.6
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best customer operations for customer ops support and account management teams at growing companies?",
+      "verified": true,
+      "category": "customer operations",
+      "category_long": "collaborative customer communications platform for operations teams",
+      "tier": "tier2",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Front lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Front's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Front is under-represented in third-party 'best customer operations' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "planhat",
+      "brand": "Planhat",
+      "url": "planhat.com",
+      "rank": 57,
+      "avs_brand": 28.1,
+      "avs_per_llm": {
+        "openai": 23.2,
+        "anthropic": 32.8,
+        "perplexity": 28.4
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best customer success for enterprise SaaS CS and RevOps teams managing complex customer portfolios?",
+      "verified": true,
+      "category": "customer success",
+      "category_long": "customer success and revenue platform for CS and RevOps teams",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Planhat lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Planhat's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Planhat is under-represented in third-party 'best customer success' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "reply-io",
+      "brand": "Reply.io",
+      "url": "reply.io",
+      "rank": 58,
+      "avs_brand": 28.1,
+      "avs_per_llm": {
+        "openai": 24.8,
+        "anthropic": 23.6,
+        "perplexity": 36.0
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "AL-05",
+      "top_gap_prompt": "Open source or affordable sales engagement tools instead of Outreach",
+      "verified": true,
+      "category": "sales engagement",
+      "category_long": "AI sales engagement platform for automated multi-channel outreach",
+      "tier": "tier2",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Reply.io's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Reply.io lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Reply.io's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "mosaic",
+      "brand": "Mosaic",
+      "url": "mosaic.tech",
+      "rank": 59,
+      "avs_brand": 27.7,
+      "avs_per_llm": {
+        "openai": 16.0,
+        "anthropic": 34.4,
+        "perplexity": 32.8
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "UC-01",
+      "top_gap_prompt": "How do I build real-time financial models connected to live business data sources without spending a lot on software?",
+      "verified": true,
+      "category": "FP&A",
+      "category_long": "strategic finance platform for modern FP&A teams",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Mosaic lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Mosaic's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Mosaic is under-represented in third-party 'best FP&A' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "drip",
+      "brand": "Drip",
+      "url": "drip.com",
+      "rank": 60,
+      "avs_brand": 26.5,
+      "avs_per_llm": {
+        "openai": 26.4,
+        "anthropic": 20.8,
+        "perplexity": 32.4
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "AL-02",
+      "top_gap_prompt": "Cheaper alternatives to Mailchimp",
+      "verified": true,
+      "category": "marketing automation",
+      "category_long": "ecommerce CRM and email marketing platform for DTC brands",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Drip's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Drip lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Drip's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "apify",
+      "brand": "Apify",
+      "url": "apify.com",
+      "rank": 61,
+      "avs_brand": 26.3,
+      "avs_per_llm": {
+        "openai": 22.0,
+        "anthropic": 34.8,
+        "perplexity": 22.0
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "AL-02",
+      "top_gap_prompt": "Cheaper alternatives to Playwright",
+      "verified": true,
+      "category": "automation",
+      "category_long": "web scraping and browser automation platform for developers",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Apify lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Apify's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Apify is under-represented in third-party 'best automation' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "render",
+      "brand": "Render",
+      "url": "render.com",
+      "rank": 62,
+      "avs_brand": 25.7,
+      "avs_per_llm": {
+        "openai": 20.0,
+        "anthropic": 34.4,
+        "perplexity": 22.8
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best cloud infrastructure for startup and scale-up engineering teams?",
+      "verified": true,
+      "category": "cloud infrastructure",
+      "category_long": "modern cloud hosting platform for web services and databases",
+      "tier": "tier2",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Render's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Render lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Render's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "langfuse",
+      "brand": "Langfuse",
+      "url": "langfuse.com",
+      "rank": 63,
+      "avs_brand": 25.7,
+      "avs_per_llm": {
+        "openai": 15.6,
+        "anthropic": 24.0,
+        "perplexity": 37.6
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best AI tooling for engineering teams building and debugging production LLM applications?",
+      "verified": true,
+      "category": "AI tooling",
+      "category_long": "open-source LLM observability and evaluation platform",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Langfuse lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Langfuse's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Langfuse is under-represented in third-party 'best AI tooling' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "matillion",
+      "brand": "Matillion",
+      "url": "matillion.com",
+      "rank": 64,
+      "avs_brand": 25.3,
+      "avs_per_llm": {
+        "openai": 28.4,
+        "anthropic": 17.2,
+        "perplexity": 30.4
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best data integration for enterprise data engineering teams migrating from legacy ETL tools?",
+      "verified": true,
+      "category": "data integration",
+      "category_long": "cloud-native data integration and transformation platform for enterprises",
+      "tier": "tier2",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Matillion lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Matillion's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Matillion is under-represented in third-party 'best data integration' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "hibob",
+      "brand": "HiBob",
+      "url": "hibob.com",
+      "rank": 65,
+      "avs_brand": 25.2,
+      "avs_per_llm": {
+        "openai": 20.8,
+        "anthropic": 16.0,
+        "perplexity": 38.8
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "AL-05",
+      "top_gap_prompt": "Open source or affordable HR tools instead of Personio",
+      "verified": true,
+      "category": "HR",
+      "category_long": "modern HRIS for mid-market global and remote-first teams",
+      "tier": "anchor",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "HiBob's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "HiBob lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "HiBob's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "comet-ml",
+      "brand": "Comet ML",
+      "url": "comet.com",
+      "rank": 66,
+      "avs_brand": 24.4,
+      "avs_per_llm": {
+        "openai": 33.2,
+        "anthropic": 20.8,
+        "perplexity": 19.2
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best MLOps for data science and ML engineering teams at analytics-driven companies?",
+      "verified": true,
+      "category": "MLOps",
+      "category_long": "ML experiment tracking and model management for data science teams",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Comet ML lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Comet ML's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Comet ML is under-represented in third-party 'best MLOps' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "mailmodo",
+      "brand": "Mailmodo",
+      "url": "mailmodo.com",
+      "rank": 67,
+      "avs_brand": 24.1,
+      "avs_per_llm": {
+        "openai": 19.2,
+        "anthropic": 26.8,
+        "perplexity": 26.4
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best marketing automation for SaaS growth marketers and email marketing leads wanting higher engagement?",
+      "verified": true,
+      "category": "marketing automation",
+      "category_long": "interactive email marketing platform for SaaS growth and engagement",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Mailmodo's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Mailmodo is under-represented in third-party 'best marketing automation' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Mailmodo lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "sprinto",
+      "brand": "Sprinto",
+      "url": "sprinto.com",
+      "rank": 68,
+      "avs_brand": 23.7,
+      "avs_per_llm": {
+        "openai": 18.0,
+        "anthropic": 16.0,
+        "perplexity": 37.2
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best compliance for engineering and compliance teams at growth-stage SaaS startups?",
+      "verified": true,
+      "category": "compliance",
+      "category_long": "fast-track compliance automation platform for SaaS startups",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Sprinto lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Sprinto's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Sprinto is under-represented in third-party 'best compliance' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "helicone",
+      "brand": "Helicone",
+      "url": "helicone.ai",
+      "rank": 69,
+      "avs_brand": 23.5,
+      "avs_per_llm": {
+        "openai": 15.2,
+        "anthropic": 26.0,
+        "perplexity": 29.2
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best AI tooling for developers and startups building and scaling LLM-powered applications?",
+      "verified": true,
+      "category": "AI tooling",
+      "category_long": "LLM observability and cost monitoring platform for developers",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Helicone lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Helicone's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Helicone is under-represented in third-party 'best AI tooling' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "planetscale",
+      "brand": "Planetscale",
+      "url": "planetscale.com",
+      "rank": 70,
+      "avs_brand": 23.1,
+      "avs_per_llm": {
+        "openai": 20.8,
+        "anthropic": 20.4,
+        "perplexity": 28.0
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best database for engineering teams at fast-growing SaaS companies?",
+      "verified": true,
+      "category": "database",
+      "category_long": "serverless MySQL platform for modern web applications",
+      "tier": "tier2",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Planetscale's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Planetscale lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Planetscale's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "braintrust",
+      "brand": "Braintrust",
+      "url": "braintrust.dev",
+      "rank": 71,
+      "avs_brand": 22.8,
+      "avs_per_llm": {
+        "openai": 13.2,
+        "anthropic": 24.0,
+        "perplexity": 31.2
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-03",
+      "top_gap_prompt": "Which AI tooling software should a AI Engineer or ML Ops Lead at a product company use?",
+      "verified": true,
+      "category": "AI tooling",
+      "category_long": "AI evaluation and model testing platform for engineering teams",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Braintrust's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Braintrust lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Braintrust's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "leapsome",
+      "brand": "Leapsome",
+      "url": "leapsome.com",
+      "rank": 72,
+      "avs_brand": 22.8,
+      "avs_per_llm": {
+        "openai": 25.2,
+        "anthropic": 15.6,
+        "perplexity": 27.6
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best HR for fast-growing companies with performance-driven cultures?",
+      "verified": true,
+      "category": "HR",
+      "category_long": "performance and engagement platform for continuous people development",
+      "tier": "tier2",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Leapsome lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Leapsome's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Leapsome is under-represented in third-party 'best HR' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "encharge",
+      "brand": "Encharge",
+      "url": "encharge.io",
+      "rank": 73,
+      "avs_brand": 22.1,
+      "avs_per_llm": {
+        "openai": 15.2,
+        "anthropic": 17.6,
+        "perplexity": 33.6
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best marketing automation for SaaS marketing leads and growth engineers building lifecycle flows?",
+      "verified": true,
+      "category": "marketing automation",
+      "category_long": "behavior-based email automation platform for SaaS companies",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Encharge lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Encharge's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Encharge is under-represented in third-party 'best marketing automation' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "maxio",
+      "brand": "Maxio",
+      "url": "maxio.com",
+      "rank": 74,
+      "avs_brand": 21.9,
+      "avs_per_llm": {
+        "openai": 13.6,
+        "anthropic": 21.2,
+        "perplexity": 30.8
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best billing for finance teams at B2B SaaS companies with complex pricing?",
+      "verified": true,
+      "category": "billing",
+      "category_long": "SaaS financial operations and subscription billing platform",
+      "tier": "tier2",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Maxio lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Maxio's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Maxio is under-represented in third-party 'best billing' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "charlie-hr",
+      "brand": "Charlie HR",
+      "url": "charliehr.com",
+      "rank": 75,
+      "avs_brand": 21.7,
+      "avs_per_llm": {
+        "openai": 31.6,
+        "anthropic": 14.4,
+        "perplexity": 19.2
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-04",
+      "top_gap_prompt": "Best HR platforms for manage employee leave documents and HR admin in one place",
+      "verified": true,
+      "category": "HR",
+      "category_long": "simple HR software built for small UK companies",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Charlie HR lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Charlie HR's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Charlie HR is under-represented in third-party 'best HR' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "numeric",
+      "brand": "Numeric",
+      "url": "numeric.io",
+      "rank": 76,
+      "avs_brand": 21.5,
+      "avs_per_llm": {
+        "openai": 19.6,
+        "anthropic": 17.2,
+        "perplexity": 27.6
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-03",
+      "top_gap_prompt": "Which finance software should a Finance Manager or Controller at a mid-market company use?",
+      "verified": true,
+      "category": "finance",
+      "category_long": "close management and financial reporting platform for finance teams",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Numeric's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Numeric is under-represented in third-party 'best finance' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Numeric lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "userlist",
+      "brand": "Userlist",
+      "url": "userlist.com",
+      "rank": 77,
+      "avs_brand": 21.3,
+      "avs_per_llm": {
+        "openai": 17.6,
+        "anthropic": 16.8,
+        "perplexity": 29.6
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-02",
+      "top_gap_prompt": "Top email automation platform for SaaS onboarding and user lifecycle tools in 2025",
+      "verified": true,
+      "category": "marketing automation",
+      "category_long": "email automation platform for SaaS onboarding and user lifecycle",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Userlist lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Userlist's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Userlist is under-represented in third-party 'best marketing automation' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "june-so",
+      "brand": "June.so",
+      "url": "june.so",
+      "rank": 78,
+      "avs_brand": 20.4,
+      "avs_per_llm": {
+        "openai": 22.0,
+        "anthropic": 18.0,
+        "perplexity": 21.2
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best product analytics for early-stage B2B SaaS teams?",
+      "verified": true,
+      "category": "product analytics",
+      "category_long": "B2B product analytics built on Segment for early-stage teams",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "June.so's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "June.so is under-represented in third-party 'best product analytics' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "June.so lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "close",
+      "brand": "Close",
+      "url": "close.com",
+      "rank": 79,
+      "avs_brand": 20.0,
+      "avs_per_llm": {
+        "openai": 18.4,
+        "anthropic": 14.8,
+        "perplexity": 26.8
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best CRM for early-stage startups?",
+      "verified": true,
+      "category": "CRM",
+      "category_long": "sales CRM for inside sales teams",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Close lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Close's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Close is under-represented in third-party 'best CRM' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "amplemarket",
+      "brand": "Amplemarket",
+      "url": "amplemarket.com",
+      "rank": 80,
+      "avs_brand": 19.7,
+      "avs_per_llm": {
+        "openai": 18.8,
+        "anthropic": 15.2,
+        "perplexity": 25.2
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best CRM for outbound sales teams at B2B companies?",
+      "verified": true,
+      "category": "CRM",
+      "category_long": "AI-powered sales intelligence and engagement platform",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Amplemarket lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Amplemarket's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Amplemarket is under-represented in third-party 'best CRM' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "salesflare",
+      "brand": "Salesflare",
+      "url": "salesflare.com",
+      "rank": 81,
+      "avs_brand": 19.5,
+      "avs_per_llm": {
+        "openai": 22.0,
+        "anthropic": 14.0,
+        "perplexity": 22.4
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best CRM for small B2B teams and agencies?",
+      "verified": true,
+      "category": "CRM",
+      "category_long": "automated CRM for small B2B companies",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Salesflare lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Salesflare's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Salesflare is under-represented in third-party 'best CRM' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "finaloop",
+      "brand": "Finaloop",
+      "url": "finaloop.com",
+      "rank": 82,
+      "avs_brand": 18.8,
+      "avs_per_llm": {
+        "openai": 16.8,
+        "anthropic": 12.0,
+        "perplexity": 27.6
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-05",
+      "top_gap_prompt": "Recommended finance tools for e-commerce founders and finance teams on Shopify and Amazon companies",
+      "verified": true,
+      "category": "finance",
+      "category_long": "real-time accounting platform built for e-commerce businesses",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Finaloop lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Finaloop's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Finaloop is under-represented in third-party 'best finance' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "pilot",
+      "brand": "Pilot",
+      "url": "pilot.com",
+      "rank": 83,
+      "avs_brand": 18.7,
+      "avs_per_llm": {
+        "openai": 18.8,
+        "anthropic": 14.0,
+        "perplexity": 23.2
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best finance for venture-backed and bootstrapped startups needing clean financials?",
+      "verified": true,
+      "category": "finance",
+      "category_long": "bookkeeping and financial operations platform for startups",
+      "tier": "tier2",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Pilot's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Pilot lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Pilot's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "rho",
+      "brand": "Rho",
+      "url": "rho.co",
+      "rank": 84,
+      "avs_brand": 18.7,
+      "avs_per_llm": {
+        "openai": 15.6,
+        "anthropic": 11.6,
+        "perplexity": 28.8
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-03",
+      "top_gap_prompt": "Which finance software should a CFO or Finance Lead at a venture-backed startup use?",
+      "verified": true,
+      "category": "finance",
+      "category_long": "all-in-one finance platform for scaling startups and scaleups",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Rho lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Rho's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Rho is under-represented in third-party 'best finance' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "leadiq",
+      "brand": "LeadIQ",
+      "url": "leadiq.com",
+      "rank": 85,
+      "avs_brand": 18.5,
+      "avs_per_llm": {
+        "openai": 21.2,
+        "anthropic": 12.0,
+        "perplexity": 22.4
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best CRM for SDR and outbound sales teams?",
+      "verified": true,
+      "category": "CRM",
+      "category_long": "prospecting and lead capture platform for SDRs",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "LeadIQ lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "LeadIQ's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "LeadIQ is under-represented in third-party 'best CRM' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "nudge-security",
+      "brand": "Nudge Security",
+      "url": "nudgesecurity.com",
+      "rank": 86,
+      "avs_brand": 18.4,
+      "avs_per_llm": {
+        "openai": 15.2,
+        "anthropic": 14.0,
+        "perplexity": 26.0
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best security for IT and security teams at mid-market companies managing SaaS sprawl?",
+      "verified": true,
+      "category": "security",
+      "category_long": "SaaS security and shadow IT discovery platform for IT teams",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Nudge Security lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Nudge Security's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Nudge Security is under-represented in third-party 'best security' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "klipfolio",
+      "brand": "Klipfolio",
+      "url": "klipfolio.com",
+      "rank": 87,
+      "avs_brand": 18.4,
+      "avs_per_llm": {
+        "openai": 17.6,
+        "anthropic": 13.2,
+        "perplexity": 24.4
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best business intelligence for marketing and operations teams at SMBs?",
+      "verified": true,
+      "category": "business intelligence",
+      "category_long": "cloud dashboard and KPI tracking tool for SMBs",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Klipfolio lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Klipfolio's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Klipfolio is under-represented in third-party 'best business intelligence' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "portkey",
+      "brand": "Portkey",
+      "url": "portkey.ai",
+      "rank": 88,
+      "avs_brand": 18.3,
+      "avs_per_llm": {
+        "openai": 12.4,
+        "anthropic": 14.8,
+        "perplexity": 27.6
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best AI tooling for platform and AI engineering teams managing multi-LLM production deployments?",
+      "verified": true,
+      "category": "AI tooling",
+      "category_long": "AI gateway and LLM ops platform for production engineering teams",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Portkey lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Portkey's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Portkey is under-represented in third-party 'best AI tooling' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "safebase",
+      "brand": "SafeBase",
+      "url": "safebase.io",
+      "rank": 89,
+      "avs_brand": 18.3,
+      "avs_per_llm": {
+        "openai": 16.4,
+        "anthropic": 14.4,
+        "perplexity": 24.0
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best security for sales engineering and security teams at B2B SaaS companies?",
+      "verified": true,
+      "category": "security",
+      "category_long": "trust and security center platform for B2B SaaS vendor reviews",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "SafeBase lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "SafeBase's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "SafeBase is under-represented in third-party 'best security' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "teamtailor",
+      "brand": "Teamtailor",
+      "url": "teamtailor.com",
+      "rank": 90,
+      "avs_brand": 18.1,
+      "avs_per_llm": {
+        "openai": 13.6,
+        "anthropic": 12.8,
+        "perplexity": 28.0
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-02",
+      "top_gap_prompt": "Top employer branding and ATS platform for modern talent teams tools in 2025",
+      "verified": true,
+      "category": "ATS",
+      "category_long": "employer branding and ATS platform for modern talent teams",
+      "tier": "tier2",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Teamtailor's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Teamtailor lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Teamtailor's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "checkly",
+      "brand": "Checkly",
+      "url": "checklyhq.com",
+      "rank": 91,
+      "avs_brand": 18.0,
+      "avs_per_llm": {
+        "openai": 17.2,
+        "anthropic": 22.0,
+        "perplexity": 14.8
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best monitoring for DevOps and SRE teams at SaaS companies?",
+      "verified": true,
+      "category": "monitoring",
+      "category_long": "monitoring as code platform for DevOps and reliability teams",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Checkly's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Checkly is under-represented in third-party 'best monitoring' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Checkly lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "nutshell",
+      "brand": "Nutshell",
+      "url": "nutshell.com",
+      "rank": 92,
+      "avs_brand": 17.9,
+      "avs_per_llm": {
+        "openai": 16.8,
+        "anthropic": 15.6,
+        "perplexity": 21.2
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best CRM for small and mid-size B2B sales teams?",
+      "verified": true,
+      "category": "CRM",
+      "category_long": "all-in-one CRM and email marketing for B2B teams",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Nutshell lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Nutshell's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Nutshell is under-represented in third-party 'best CRM' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "attio",
+      "brand": "Attio",
+      "url": "attio.com",
+      "rank": 93,
+      "avs_brand": 17.6,
+      "avs_per_llm": {
+        "openai": 14.8,
+        "anthropic": 15.6,
+        "perplexity": 22.4
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best CRM for B2B startups?",
+      "verified": true,
+      "category": "CRM",
+      "category_long": "modern CRM for high-growth B2B startups",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Attio's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Attio lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Attio's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "stonly",
+      "brand": "Stonly",
+      "url": "stonly.com",
+      "rank": 94,
+      "avs_brand": 16.9,
+      "avs_per_llm": {
+        "openai": 19.6,
+        "anthropic": 9.6,
+        "perplexity": 21.6
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best knowledge management for CS teams building self-service and guided onboarding experiences?",
+      "verified": true,
+      "category": "knowledge management",
+      "category_long": "interactive knowledge base and guided support platform for CS teams",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Stonly's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Stonly is under-represented in third-party 'best knowledge management' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Stonly lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "humaans",
+      "brand": "Humaans",
+      "url": "humaans.io",
+      "rank": 95,
+      "avs_brand": 16.5,
+      "avs_per_llm": {
+        "openai": 16.8,
+        "anthropic": 13.6,
+        "perplexity": 19.2
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best HR for HR teams at startups and scaleups scaling their people ops?",
+      "verified": true,
+      "category": "HR",
+      "category_long": "modern HRIS for fast-moving startups and scaleups",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Humaans lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Humaans's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Humaans is under-represented in third-party 'best HR' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "folk",
+      "brand": "Folk",
+      "url": "folk.app",
+      "rank": 96,
+      "avs_brand": 16.4,
+      "avs_per_llm": {
+        "openai": 16.4,
+        "anthropic": 14.4,
+        "perplexity": 18.4
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best CRM for startup founders and agency leads?",
+      "verified": true,
+      "category": "CRM",
+      "category_long": "collaborative CRM for founders and agencies",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Folk's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Folk is under-represented in third-party 'best CRM' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Folk lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "vellum",
+      "brand": "Vellum",
+      "url": "vellum.ai",
+      "rank": 97,
+      "avs_brand": 15.9,
+      "avs_per_llm": {
+        "openai": 15.2,
+        "anthropic": 13.6,
+        "perplexity": 18.8
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best AI tooling for AI product teams building and iterating on LLM-powered product features?",
+      "verified": true,
+      "category": "AI tooling",
+      "category_long": "LLM product development and prompt management platform",
+      "tier": "tier2",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Vellum's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Vellum lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Vellum's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "conveyor",
+      "brand": "Conveyor",
+      "url": "conveyor.com",
+      "rank": 98,
+      "avs_brand": 15.7,
+      "avs_per_llm": {
+        "openai": 13.6,
+        "anthropic": 14.0,
+        "perplexity": 19.6
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best security for sales and security teams at B2B SaaS companies dealing with security reviews?",
+      "verified": true,
+      "category": "security",
+      "category_long": "security review automation platform for SaaS sales and compliance",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Conveyor lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Conveyor's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Conveyor is under-represented in third-party 'best security' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "grip-security",
+      "brand": "Grip Security",
+      "url": "grip.security",
+      "rank": 99,
+      "avs_brand": 15.3,
+      "avs_per_llm": {
+        "openai": 14.0,
+        "anthropic": 10.4,
+        "perplexity": 21.6
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best security for security teams at enterprise companies managing SaaS risk and exposure?",
+      "verified": true,
+      "category": "security",
+      "category_long": "SaaS security posture management platform for enterprise teams",
+      "tier": "tier1",
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Grip Security's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Grip Security is under-represented in third-party 'best security' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Grip Security lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "slug": "anecdotes",
+      "brand": "Anecdotes",
+      "url": "anecdotes.ai",
+      "rank": 100,
+      "avs_brand": 15.1,
+      "avs_per_llm": {
+        "openai": 20.4,
+        "anthropic": 10.0,
+        "perplexity": 14.8
+      },
+      "prompts_scored": 25,
+      "run_date": "2026-05-30",
+      "top_gap": "CD-01",
+      "top_gap_prompt": "What is the best compliance for enterprise GRC and compliance teams at regulated technology companies?",
+      "verified": true,
+      "category": "compliance",
+      "category_long": "compliance operations platform for enterprise security and GRC teams",
+      "tier": "tier2",
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Anecdotes lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Anecdotes's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Anecdotes is under-represented in third-party 'best compliance' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ]
+    }
+  ]
+}

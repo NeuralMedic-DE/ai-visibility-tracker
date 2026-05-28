@@ -1,0 +1,92 @@
+{
+  "slug": "totango",
+  "brand": "Totango",
+  "url": "totango.com",
+  "rank": 13,
+  "avs_brand": 43.5,
+  "avs_per_llm": {
+    "openai": 46.8,
+    "anthropic": 39.6,
+    "perplexity": 44.0
+  },
+  "prompts_scored": 25,
+  "run_date": "2026-05-30",
+  "top_gap": "UC-04",
+  "top_gap_prompt": "How can a VP CS or Enterprise CS Lead at a large SaaS organization build modular customer success programs using composable SuccessBLOC templates more efficiently?",
+  "verified": true,
+  "category": "customer success",
+  "category_long": "composable customer success platform for enterprise SaaS companies",
+  "tier": "tier1",
+  "gaps": [
+    {
+      "type": "schema",
+      "title": "Missing FAQPage schema on pricing and comparison pages",
+      "description": "Totango's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+      "priority": 1
+    },
+    {
+      "type": "content",
+      "title": "Thin or missing dedicated competitor-comparison pages",
+      "description": "Totango lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+      "priority": 2
+    },
+    {
+      "type": "schema",
+      "title": "No HowTo schema on documentation and tutorial pages",
+      "description": "Totango's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+      "priority": 3
+    }
+  ],
+  "gap_prompts": [
+    {
+      "prompt_id": "UC-04",
+      "prompt_text": "How can a VP CS or Enterprise CS Lead at a large SaaS organization build modular customer success programs using composable SuccessBLOC templates more efficiently?",
+      "prompt_category": "use_case",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Use-case prompts reach buyers at the exact moment they need your solution. These are the highest-converting prompt type in AI search."
+    },
+    {
+      "prompt_id": "CD-01",
+      "prompt_text": "What is the best customer success for enterprise customer success and CX teams at large SaaS organizations?",
+      "prompt_category": "category_discovery",
+      "llms_missing": [
+        "openai"
+      ],
+      "llms_missing_count": 1,
+      "why_it_matters": "Discovery queries drive early-funnel awareness. Buyers use these to find solutions to problems they haven't yet named. Missing here means you're invisible before the consideration stage."
+    },
+    {
+      "prompt_id": "UC-01",
+      "prompt_text": "How do I build modular customer success programs using composable SuccessBLOC templates without spending a lot on software?",
+      "prompt_category": "use_case",
+      "llms_missing": [
+        "openai"
+      ],
+      "llms_missing_count": 1,
+      "why_it_matters": "Use-case prompts reach buyers at the exact moment they need your solution. These are the highest-converting prompt type in AI search."
+    }
+  ],
+  "llm_details": {
+    "openai": {
+      "label": "ChatGPT (GPT-4o)",
+      "avs": 46.8,
+      "prompts_scored": 25
+    },
+    "anthropic": {
+      "label": "Claude (Haiku 4.5)",
+      "avs": 39.6,
+      "prompts_scored": 25
+    },
+    "perplexity": {
+      "label": "Perplexity (sonar-pro)",
+      "avs": 44.0,
+      "prompts_scored": 25
+    }
+  },
+  "total_brands": 100
+}

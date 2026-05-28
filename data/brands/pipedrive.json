@@ -1,0 +1,91 @@
+{
+  "slug": "pipedrive",
+  "brand": "Pipedrive",
+  "url": "pipedrive.com",
+  "rank": 11,
+  "avs_brand": 44.5,
+  "avs_per_llm": {
+    "openai": 43.2,
+    "anthropic": 41.6,
+    "perplexity": 48.8
+  },
+  "prompts_scored": 25,
+  "run_date": "2026-05-30",
+  "top_gap": "UC-01",
+  "top_gap_prompt": "How do I manage a visual sales pipeline without spending a lot on software?",
+  "verified": true,
+  "category": "CRM",
+  "category_long": "visual sales CRM for SMBs",
+  "tier": "anchor",
+  "gaps": [
+    {
+      "type": "schema",
+      "title": "No HowTo schema on documentation and tutorial pages",
+      "description": "Pipedrive's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+      "priority": 1
+    },
+    {
+      "type": "schema",
+      "title": "Missing FAQPage schema on pricing and comparison pages",
+      "description": "Pipedrive's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+      "priority": 2
+    },
+    {
+      "type": "content",
+      "title": "Thin or missing dedicated competitor-comparison pages",
+      "description": "Pipedrive lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+      "priority": 3
+    }
+  ],
+  "gap_prompts": [
+    {
+      "prompt_id": "UC-01",
+      "prompt_text": "How do I manage a visual sales pipeline without spending a lot on software?",
+      "prompt_category": "use_case",
+      "llms_missing": [
+        "openai",
+        "anthropic"
+      ],
+      "llms_missing_count": 2,
+      "why_it_matters": "Use-case prompts reach buyers at the exact moment they need your solution. These are the highest-converting prompt type in AI search."
+    },
+    {
+      "prompt_id": "AL-05",
+      "prompt_text": "Open source or affordable CRM tools instead of Salesforce",
+      "prompt_category": "alternatives",
+      "llms_missing": [
+        "openai"
+      ],
+      "llms_missing_count": 1,
+      "why_it_matters": "Alternative searches are used by buyers actively switching tools. Visibility here captures switching-intent demand at its peak."
+    },
+    {
+      "prompt_id": "UC-05",
+      "prompt_text": "What software helps with track deals and forecast revenue at scale?",
+      "prompt_category": "use_case",
+      "llms_missing": [
+        "perplexity"
+      ],
+      "llms_missing_count": 1,
+      "why_it_matters": "Use-case prompts reach buyers at the exact moment they need your solution. These are the highest-converting prompt type in AI search."
+    }
+  ],
+  "llm_details": {
+    "openai": {
+      "label": "ChatGPT (GPT-4o)",
+      "avs": 43.2,
+      "prompts_scored": 25
+    },
+    "anthropic": {
+      "label": "Claude (Haiku 4.5)",
+      "avs": 41.6,
+      "prompts_scored": 25
+    },
+    "perplexity": {
+      "label": "Perplexity (sonar-pro)",
+      "avs": 48.8,
+      "prompts_scored": 25
+    }
+  },
+  "total_brands": 100
+}

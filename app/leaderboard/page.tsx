@@ -8,109 +8,114 @@ import type { BrandScore, BrandGap } from "@/components/LeaderboardTable";
 export const metadata: Metadata = {
   title: "AI Visibility Index — Top 100 B2B SaaS Brands | NeuralReach",
   description:
-    "See how the top B2B SaaS brands rank for AI search visibility across ChatGPT, Claude, Perplexity, and Google AI Overviews. Free leaderboard updated weekly.",
+    "See how the top B2B SaaS brands rank for AI search visibility across ChatGPT, Claude, and Perplexity. Free leaderboard — all scores measured with real API calls.",
   openGraph: {
     title: "AI Visibility Index — Top 100 B2B SaaS Brands",
     description:
-      "Ranked by how often they appear in AI recommendations across 4 platforms and 25 prompts.",
+      "Ranked by how often they appear in AI recommendations across 3 platforms and 25 prompts. All scores verified via live API calls.",
     type: "website",
   },
 };
 
-// ── v1 raw JSON shape (from data/leaderboard_v1.json) ─────────────────────────
+// ── Real-data JSON shape (from data/leaderboard.json) ─────────────────────────
 
-interface V1Brand {
+interface NewBrand {
+  slug: string;
   brand: string;
-  domain: string;
+  url: string;
+  rank: number;
+  avs_brand: number;
+  avs_per_llm: {
+    openai?: number;
+    anthropic?: number;
+    perplexity?: number;
+  };
+  prompts_scored: number;
+  run_date: string;
+  top_gap: string | null;
+  top_gap_prompt: string | null;
+  verified: boolean;
   category: string;
   category_long: string;
   tier: "anchor" | "tier2" | "tier1" | "niche";
-  composite_score: number;
-  scores: {
-    openai: { score: number; label: string };
-    anthropic: { score: number; label: string };
-    perplexity: { score: number; label: string };
-    google: { score: number; label: string };
-  };
   gaps: BrandGap[];
-  rank: number;
-  /** "verified_YYYY-MM-DD" = live API score | "estimated" = research-based estimate */
-  data_source?: string;
 }
 
-interface V1Data {
+interface LeaderboardData {
+  run_date: string;
   generated_at: string;
-  scoring_method: string;
-  scoring_note: string;
   total_brands: number;
-  brands: V1Brand[];
+  active_llms: string[];
+  brands: NewBrand[];
 }
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
-const TIER_BADGE: Record<V1Brand["tier"], string | null> = {
-  anchor: "Top Performer",
-  tier2:  "Established",
-  tier1:  null,
-  niche:  null,
+const TIER_BADGE: Record<NewBrand["tier"], string | null> = {
+  anchor:  "Top Performer",
+  tier2:   "Established",
+  tier1:   null,
+  niche:   null,
 };
-
-function slugify(name: string): string {
-  return name
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "");
-}
 
 function toFixed1(n: number): number {
   return Math.round(n * 10) / 10;
 }
 
-function transformBrand(v: V1Brand): BrandScore {
+function transformBrand(v: NewBrand): BrandScore {
   return {
     rank:          v.rank,
-    id:            slugify(v.brand),
+    id:            v.slug,
     name:          v.brand,
-    category:      v.category,
-    category_long: v.category_long,
-    website:       v.domain,
-    overall_score: toFixed1(v.composite_score),
+    category:      v.category || "B2B SaaS",
+    category_long: v.category_long || v.category || "B2B SaaS",
+    website:       v.url,
+    overall_score: toFixed1(v.avs_brand),
     scores: {
-      chatgpt:    toFixed1(v.scores.openai.score),
-      claude:     toFixed1(v.scores.anthropic.score),
-      perplexity: toFixed1(v.scores.perplexity.score),
-      google_aio: toFixed1(v.scores.google.score),
+      chatgpt:    toFixed1(v.avs_per_llm.openai ?? 0),
+      claude:     toFixed1(v.avs_per_llm.anthropic ?? 0),
+      perplexity: toFixed1(v.avs_per_llm.perplexity ?? 0),
+      google_aio: 0,   // Google AIO not included in this run
     },
     trend:       "stable",
-    badge:       TIER_BADGE[v.tier],
+    badge:       TIER_BADGE[v.tier] ?? null,
     tier:        v.tier,
     gaps:        v.gaps ?? [],
-    data_source: v.data_source,
+    data_source: v.verified ? `verified_${v.run_date}` : undefined,
   };
 }
 
 // ── Data loader (runs at build time → pure SSG) ───────────────────────────────
 
-function getLeaderboardData(): { brands: BrandScore[]; note: string; generated_at: string } {
-  const filePath = path.join(process.cwd(), "data", "leaderboard_v1.json");
+function getLeaderboardData(): {
+  brands: BrandScore[];
+  note: string;
+  generated_at: string;
+  run_date: string;
+} {
+  const filePath = path.join(process.cwd(), "data", "leaderboard.json");
   const raw = fs.readFileSync(filePath, "utf-8");
-  const data = JSON.parse(raw) as V1Data;
+  const data = JSON.parse(raw) as LeaderboardData;
 
   const brands = data.brands
     .sort((a, b) => a.rank - b.rank)
     .map(transformBrand);
 
+  const note =
+    `${data.total_brands} brands scored live on ${data.run_date} via real API calls to OpenAI, Anthropic & Perplexity (${data.total_brands * 25} total prompts).`;
+
   return {
     brands,
-    note: data.scoring_note,
+    note,
     generated_at: data.generated_at,
+    run_date: data.run_date,
   };
 }
 
 // ── Page ──────────────────────────────────────────────────────────────────────
 
 export default function LeaderboardPage() {
-  const { brands, note, generated_at } = getLeaderboardData();
+  const { brands, note, generated_at, run_date } = getLeaderboardData();
 
   return (
     <div className="min-h-screen bg-white">
@@ -149,6 +154,7 @@ export default function LeaderboardPage() {
           brands={brands}
           note={note}
           generatedAt={generated_at}
+          runDate={run_date}
         />
       </main>
 

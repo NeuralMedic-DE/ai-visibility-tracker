@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { cn } from "@/lib/cn";
 
 export interface BrandGap {
@@ -359,13 +360,13 @@ export function LeaderboardTable({
               <td className="whitespace-nowrap px-3 py-3">
                 <div className="flex items-center gap-2">
                   <div className="min-w-0">
-                    <button
-                      onClick={() => onBrandClick(brand)}
-                      className="font-semibold text-gray-900 truncate max-w-[140px] sm:max-w-none hover:text-brand-700 hover:underline focus:outline-none focus:ring-2 focus:ring-brand-400 rounded text-left"
-                      title={`View ${brand.name} AI visibility details`}
+                    <Link
+                      href={`/leaderboard/${brand.id}`}
+                      className="font-semibold text-gray-900 truncate max-w-[140px] sm:max-w-none hover:text-brand-700 hover:underline focus:outline-none focus:ring-2 focus:ring-brand-400 rounded block"
+                      title={`View ${brand.name} AI visibility report`}
                     >
                       {brand.name}
-                    </button>
+                    </Link>
                     <div className="text-xs text-gray-400 truncate max-w-[140px] sm:max-w-none">
                       {brand.website}
                     </div>
@@ -422,13 +423,13 @@ export function LeaderboardTable({
 
               {/* CTA */}
               <td className="whitespace-nowrap px-3 py-3 text-right">
-                <button
-                  onClick={() => onGetReport(brand.name)}
+                <Link
+                  href={`/leaderboard/${brand.id}`}
                   className="text-xs font-medium text-brand-600 hover:text-brand-800 opacity-0 group-hover:opacity-100 focus:opacity-100 transition-opacity rounded px-2 py-1 hover:bg-brand-50 focus:outline-none focus:ring-2 focus:ring-brand-400"
-                  aria-label={`Get AI visibility report for ${brand.name}`}
+                  aria-label={`View AI visibility report for ${brand.name}`}
                 >
-                  Track →
-                </button>
+                  View →
+                </Link>
               </td>
             </tr>
           ))}

@@ -1,0 +1,96 @@
+{
+  "slug": "uservoice",
+  "brand": "UserVoice",
+  "url": "uservoice.com",
+  "rank": 55,
+  "avs_brand": 28.3,
+  "avs_per_llm": {
+    "openai": 29.6,
+    "anthropic": 24.4,
+    "perplexity": 30.8
+  },
+  "prompts_scored": 25,
+  "run_date": "2026-05-30",
+  "top_gap": "CD-02",
+  "top_gap_prompt": "Top product feedback and roadmap management platform for product teams tools in 2025",
+  "verified": true,
+  "category": "product feedback",
+  "category_long": "product feedback and roadmap management platform for product teams",
+  "tier": "tier1",
+  "gaps": [
+    {
+      "type": "content",
+      "title": "Thin or missing dedicated competitor-comparison pages",
+      "description": "UserVoice lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+      "priority": 1
+    },
+    {
+      "type": "schema",
+      "title": "No Organization or SoftwareApplication schema on homepage",
+      "description": "UserVoice's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+      "priority": 2
+    },
+    {
+      "type": "content",
+      "title": "Low placement frequency in 'best [category] tools' roundups",
+      "description": "UserVoice is under-represented in third-party 'best product feedback' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+      "priority": 3
+    }
+  ],
+  "gap_prompts": [
+    {
+      "prompt_id": "CD-02",
+      "prompt_text": "Top product feedback and roadmap management platform for product teams tools in 2025",
+      "prompt_category": "category_discovery",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Discovery queries drive early-funnel awareness. Buyers use these to find solutions to problems they haven't yet named. Missing here means you're invisible before the consideration stage."
+    },
+    {
+      "prompt_id": "UC-04",
+      "prompt_text": "How can a Head of Product or CS Manager at a SaaS company collect and prioritize customer feedback to inform product roadmap decisions more efficiently?",
+      "prompt_category": "use_case",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Use-case prompts reach buyers at the exact moment they need your solution. These are the highest-converting prompt type in AI search."
+    },
+    {
+      "prompt_id": "UC-05",
+      "prompt_text": "What software helps with close the feedback loop with customers when their requested features ship at scale?",
+      "prompt_category": "use_case",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Use-case prompts reach buyers at the exact moment they need your solution. These are the highest-converting prompt type in AI search."
+    }
+  ],
+  "llm_details": {
+    "openai": {
+      "label": "ChatGPT (GPT-4o)",
+      "avs": 29.6,
+      "prompts_scored": 25
+    },
+    "anthropic": {
+      "label": "Claude (Haiku 4.5)",
+      "avs": 24.4,
+      "prompts_scored": 25
+    },
+    "perplexity": {
+      "label": "Perplexity (sonar-pro)",
+      "avs": 30.8,
+      "prompts_scored": 25
+    }
+  },
+  "total_brands": 100
+}

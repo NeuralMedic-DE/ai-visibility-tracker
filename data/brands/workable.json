@@ -1,0 +1,91 @@
+{
+  "slug": "workable",
+  "brand": "Workable",
+  "url": "workable.com",
+  "rank": 20,
+  "avs_brand": 40.3,
+  "avs_per_llm": {
+    "openai": 34.0,
+    "anthropic": 46.0,
+    "perplexity": 40.8
+  },
+  "prompts_scored": 25,
+  "run_date": "2026-05-30",
+  "top_gap": "AL-05",
+  "top_gap_prompt": "Open source or affordable ATS tools instead of Greenhouse",
+  "verified": true,
+  "category": "ATS",
+  "category_long": "applicant tracking system for growing companies",
+  "tier": "tier2",
+  "gaps": [
+    {
+      "type": "schema",
+      "title": "Missing FAQPage schema on pricing and comparison pages",
+      "description": "Workable's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+      "priority": 1
+    },
+    {
+      "type": "content",
+      "title": "Thin or missing dedicated competitor-comparison pages",
+      "description": "Workable lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+      "priority": 2
+    },
+    {
+      "type": "schema",
+      "title": "No HowTo schema on documentation and tutorial pages",
+      "description": "Workable's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+      "priority": 3
+    }
+  ],
+  "gap_prompts": [
+    {
+      "prompt_id": "AL-05",
+      "prompt_text": "Open source or affordable ATS tools instead of Greenhouse",
+      "prompt_category": "alternatives",
+      "llms_missing": [
+        "openai",
+        "perplexity"
+      ],
+      "llms_missing_count": 2,
+      "why_it_matters": "Alternative searches are used by buyers actively switching tools. Visibility here captures switching-intent demand at its peak."
+    },
+    {
+      "prompt_id": "UC-01",
+      "prompt_text": "How do I post jobs to 200 plus job boards with a single click without spending a lot on software?",
+      "prompt_category": "use_case",
+      "llms_missing": [
+        "openai"
+      ],
+      "llms_missing_count": 1,
+      "why_it_matters": "Use-case prompts reach buyers at the exact moment they need your solution. These are the highest-converting prompt type in AI search."
+    },
+    {
+      "prompt_id": "IN-05",
+      "prompt_text": "ATS tools with native LinkedIn integration",
+      "prompt_category": "integration",
+      "llms_missing": [
+        "openai"
+      ],
+      "llms_missing_count": 1,
+      "why_it_matters": "Integration queries signal technical buyers in the evaluation stage. Missing here loses decision-stage opportunities to tools that have stronger integration documentation."
+    }
+  ],
+  "llm_details": {
+    "openai": {
+      "label": "ChatGPT (GPT-4o)",
+      "avs": 34.0,
+      "prompts_scored": 25
+    },
+    "anthropic": {
+      "label": "Claude (Haiku 4.5)",
+      "avs": 46.0,
+      "prompts_scored": 25
+    },
+    "perplexity": {
+      "label": "Perplexity (sonar-pro)",
+      "avs": 40.8,
+      "prompts_scored": 25
+    }
+  },
+  "total_brands": 100
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "prefect",
+  "brand": "Prefect",
+  "url": "prefect.io",
+  "rank": 2,
+  "avs_brand": 46.8,
+  "avs_per_llm": {
+    "openai": 54.4,
+    "anthropic": 36.8,
+    "perplexity": 49.2
+  },
+  "prompts_scored": 25,
+  "run_date": "2026-05-30",
+  "top_gap": null,
+  "top_gap_prompt": null,
+  "verified": true,
+  "category": "workflow orchestration",
+  "category_long": "Python-native data workflow orchestration for modern data engineering",
+  "tier": "tier2",
+  "gaps": [
+    {
+      "type": "schema",
+      "title": "Missing FAQPage schema on pricing and comparison pages",
+      "description": "Prefect's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+      "priority": 1
+    },
+    {
+      "type": "content",
+      "title": "Thin or missing dedicated competitor-comparison pages",
+      "description": "Prefect lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+      "priority": 2
+    },
+    {
+      "type": "schema",
+      "title": "No HowTo schema on documentation and tutorial pages",
+      "description": "Prefect's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+      "priority": 3
+    }
+  ],
+  "gap_prompts": [],
+  "llm_details": {
+    "openai": {
+      "label": "ChatGPT (GPT-4o)",
+      "avs": 54.4,
+      "prompts_scored": 25
+    },
+    "anthropic": {
+      "label": "Claude (Haiku 4.5)",
+      "avs": 36.8,
+      "prompts_scored": 25
+    },
+    "perplexity": {
+      "label": "Perplexity (sonar-pro)",
+      "avs": 49.2,
+      "prompts_scored": 25
+    }
+  },
+  "total_brands": 100
+}

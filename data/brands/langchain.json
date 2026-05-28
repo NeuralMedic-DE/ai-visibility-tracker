@@ -1,0 +1,94 @@
+{
+  "slug": "langchain",
+  "brand": "LangChain",
+  "url": "langchain.com",
+  "rank": 26,
+  "avs_brand": 38.8,
+  "avs_per_llm": {
+    "openai": 37.6,
+    "anthropic": 38.4,
+    "perplexity": 40.4
+  },
+  "prompts_scored": 25,
+  "run_date": "2026-05-30",
+  "top_gap": "IN-05",
+  "top_gap_prompt": "AI tooling tools with native OpenAI integration",
+  "verified": true,
+  "category": "AI tooling",
+  "category_long": "framework for building production LLM-powered applications",
+  "tier": "tier2",
+  "gaps": [
+    {
+      "type": "schema",
+      "title": "No HowTo schema on documentation and tutorial pages",
+      "description": "LangChain's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+      "priority": 1
+    },
+    {
+      "type": "schema",
+      "title": "Missing FAQPage schema on pricing and comparison pages",
+      "description": "LangChain's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+      "priority": 2
+    },
+    {
+      "type": "content",
+      "title": "Thin or missing dedicated competitor-comparison pages",
+      "description": "LangChain lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+      "priority": 3
+    }
+  ],
+  "gap_prompts": [
+    {
+      "prompt_id": "IN-05",
+      "prompt_text": "AI tooling tools with native OpenAI integration",
+      "prompt_category": "integration",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Integration queries signal technical buyers in the evaluation stage. Missing here loses decision-stage opportunities to tools that have stronger integration documentation."
+    },
+    {
+      "prompt_id": "UC-02",
+      "prompt_text": "Best way to chain together LLM calls tool use and memory for complex AI agent workflows for a AI engineers at startups and enterprises building LLM applications team",
+      "prompt_category": "use_case",
+      "llms_missing": [
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 2,
+      "why_it_matters": "Use-case prompts reach buyers at the exact moment they need your solution. These are the highest-converting prompt type in AI search."
+    },
+    {
+      "prompt_id": "UC-04",
+      "prompt_text": "How can a AI or ML Engineer building production LLM applications build production-ready LLM apps with retrieval augmented generation pipelines more efficiently?",
+      "prompt_category": "use_case",
+      "llms_missing": [
+        "openai",
+        "perplexity"
+      ],
+      "llms_missing_count": 2,
+      "why_it_matters": "Use-case prompts reach buyers at the exact moment they need your solution. These are the highest-converting prompt type in AI search."
+    }
+  ],
+  "llm_details": {
+    "openai": {
+      "label": "ChatGPT (GPT-4o)",
+      "avs": 37.6,
+      "prompts_scored": 25
+    },
+    "anthropic": {
+      "label": "Claude (Haiku 4.5)",
+      "avs": 38.4,
+      "prompts_scored": 25
+    },
+    "perplexity": {
+      "label": "Perplexity (sonar-pro)",
+      "avs": 40.4,
+      "prompts_scored": 25
+    }
+  },
+  "total_brands": 100
+}

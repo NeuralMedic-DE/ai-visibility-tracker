@@ -1,0 +1,94 @@
+{
+  "slug": "airbyte",
+  "brand": "Airbyte",
+  "url": "airbyte.com",
+  "rank": 29,
+  "avs_brand": 37.6,
+  "avs_per_llm": {
+    "openai": 28.0,
+    "anthropic": 36.4,
+    "perplexity": 48.4
+  },
+  "prompts_scored": 25,
+  "run_date": "2026-05-30",
+  "top_gap": "AL-02",
+  "top_gap_prompt": "Cheaper alternatives to Stitch",
+  "verified": true,
+  "category": "data integration",
+  "category_long": "open-source ELT data integration platform for modern data teams",
+  "tier": "tier2",
+  "gaps": [
+    {
+      "type": "content",
+      "title": "Thin or missing dedicated competitor-comparison pages",
+      "description": "Airbyte lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+      "priority": 1
+    },
+    {
+      "type": "schema",
+      "title": "No Organization or SoftwareApplication schema on homepage",
+      "description": "Airbyte's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+      "priority": 2
+    },
+    {
+      "type": "content",
+      "title": "Low placement frequency in 'best [category] tools' roundups",
+      "description": "Airbyte is under-represented in third-party 'best data integration' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+      "priority": 3
+    }
+  ],
+  "gap_prompts": [
+    {
+      "prompt_id": "AL-02",
+      "prompt_text": "Cheaper alternatives to Stitch",
+      "prompt_category": "alternatives",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Alternative searches are used by buyers actively switching tools. Visibility here captures switching-intent demand at its peak."
+    },
+    {
+      "prompt_id": "CD-01",
+      "prompt_text": "What is the best data integration for data engineers at startups and mid-market companies building data pipelines?",
+      "prompt_category": "category_discovery",
+      "llms_missing": [
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 2,
+      "why_it_matters": "Discovery queries drive early-funnel awareness. Buyers use these to find solutions to problems they haven't yet named. Missing here means you're invisible before the consideration stage."
+    },
+    {
+      "prompt_id": "UC-05",
+      "prompt_text": "What software helps with build custom connectors with a no-code connector builder when pre-built ones are missing at scale?",
+      "prompt_category": "use_case",
+      "llms_missing": [
+        "openai",
+        "anthropic"
+      ],
+      "llms_missing_count": 2,
+      "why_it_matters": "Use-case prompts reach buyers at the exact moment they need your solution. These are the highest-converting prompt type in AI search."
+    }
+  ],
+  "llm_details": {
+    "openai": {
+      "label": "ChatGPT (GPT-4o)",
+      "avs": 28.0,
+      "prompts_scored": 25
+    },
+    "anthropic": {
+      "label": "Claude (Haiku 4.5)",
+      "avs": 36.4,
+      "prompts_scored": 25
+    },
+    "perplexity": {
+      "label": "Perplexity (sonar-pro)",
+      "avs": 48.4,
+      "prompts_scored": 25
+    }
+  },
+  "total_brands": 100
+}

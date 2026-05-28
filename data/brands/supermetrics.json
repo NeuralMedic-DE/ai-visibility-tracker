@@ -1,0 +1,95 @@
+{
+  "slug": "supermetrics",
+  "brand": "Supermetrics",
+  "url": "supermetrics.com",
+  "rank": 30,
+  "avs_brand": 36.9,
+  "avs_per_llm": {
+    "openai": 41.6,
+    "anthropic": 35.2,
+    "perplexity": 34.0
+  },
+  "prompts_scored": 25,
+  "run_date": "2026-05-30",
+  "top_gap": "CD-03",
+  "top_gap_prompt": "Which marketing analytics software should a marketing analyst or head of marketing use?",
+  "verified": true,
+  "category": "marketing analytics",
+  "category_long": "marketing data pipeline tool for agencies and in-house teams",
+  "tier": "tier1",
+  "gaps": [
+    {
+      "type": "schema",
+      "title": "No Organization or SoftwareApplication schema on homepage",
+      "description": "Supermetrics's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+      "priority": 1
+    },
+    {
+      "type": "content",
+      "title": "Low placement frequency in 'best [category] tools' roundups",
+      "description": "Supermetrics is under-represented in third-party 'best marketing analytics' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+      "priority": 2
+    },
+    {
+      "type": "content",
+      "title": "Thin or missing dedicated competitor-comparison pages",
+      "description": "Supermetrics lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+      "priority": 3
+    }
+  ],
+  "gap_prompts": [
+    {
+      "prompt_id": "CD-03",
+      "prompt_text": "Which marketing analytics software should a marketing analyst or head of marketing use?",
+      "prompt_category": "category_discovery",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Discovery queries drive early-funnel awareness. Buyers use these to find solutions to problems they haven't yet named. Missing here means you're invisible before the consideration stage."
+    },
+    {
+      "prompt_id": "AL-02",
+      "prompt_text": "Cheaper alternatives to Fivetran",
+      "prompt_category": "alternatives",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Alternative searches are used by buyers actively switching tools. Visibility here captures switching-intent demand at its peak."
+    },
+    {
+      "prompt_id": "CD-05",
+      "prompt_text": "Recommended marketing analytics tools for digital marketing agencies and in-house marketing teams companies",
+      "prompt_category": "category_discovery",
+      "llms_missing": [
+        "openai",
+        "perplexity"
+      ],
+      "llms_missing_count": 2,
+      "why_it_matters": "Discovery queries drive early-funnel awareness. Buyers use these to find solutions to problems they haven't yet named. Missing here means you're invisible before the consideration stage."
+    }
+  ],
+  "llm_details": {
+    "openai": {
+      "label": "ChatGPT (GPT-4o)",
+      "avs": 41.6,
+      "prompts_scored": 25
+    },
+    "anthropic": {
+      "label": "Claude (Haiku 4.5)",
+      "avs": 35.2,
+      "prompts_scored": 25
+    },
+    "perplexity": {
+      "label": "Perplexity (sonar-pro)",
+      "avs": 34.0,
+      "prompts_scored": 25
+    }
+  },
+  "total_brands": 100
+}

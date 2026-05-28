@@ -1,0 +1,92 @@
+{
+  "slug": "retool",
+  "brand": "Retool",
+  "url": "retool.com",
+  "rank": 4,
+  "avs_brand": 46.0,
+  "avs_per_llm": {
+    "openai": 46.0,
+    "anthropic": 39.6,
+    "perplexity": 52.4
+  },
+  "prompts_scored": 25,
+  "run_date": "2026-05-30",
+  "top_gap": "CD-01",
+  "top_gap_prompt": "What is the best internal tooling for engineering and operations teams at mid-market companies?",
+  "verified": true,
+  "category": "internal tooling",
+  "category_long": "low-code platform for building internal tools and dashboards",
+  "tier": "anchor",
+  "gaps": [
+    {
+      "type": "schema",
+      "title": "No HowTo schema on documentation and tutorial pages",
+      "description": "Retool's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+      "priority": 1
+    },
+    {
+      "type": "schema",
+      "title": "Missing FAQPage schema on pricing and comparison pages",
+      "description": "Retool's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+      "priority": 2
+    },
+    {
+      "type": "content",
+      "title": "Thin or missing dedicated competitor-comparison pages",
+      "description": "Retool lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+      "priority": 3
+    }
+  ],
+  "gap_prompts": [
+    {
+      "prompt_id": "CD-01",
+      "prompt_text": "What is the best internal tooling for engineering and operations teams at mid-market companies?",
+      "prompt_category": "category_discovery",
+      "llms_missing": [
+        "openai",
+        "anthropic"
+      ],
+      "llms_missing_count": 2,
+      "why_it_matters": "Discovery queries drive early-funnel awareness. Buyers use these to find solutions to problems they haven't yet named. Missing here means you're invisible before the consideration stage."
+    },
+    {
+      "prompt_id": "IN-05",
+      "prompt_text": "internal tooling tools with native PostgreSQL integration",
+      "prompt_category": "integration",
+      "llms_missing": [
+        "openai",
+        "anthropic"
+      ],
+      "llms_missing_count": 2,
+      "why_it_matters": "Integration queries signal technical buyers in the evaluation stage. Missing here loses decision-stage opportunities to tools that have stronger integration documentation."
+    },
+    {
+      "prompt_id": "UC-05",
+      "prompt_text": "What software helps with create CRUD apps without full-stack engineering effort at scale?",
+      "prompt_category": "use_case",
+      "llms_missing": [
+        "anthropic"
+      ],
+      "llms_missing_count": 1,
+      "why_it_matters": "Use-case prompts reach buyers at the exact moment they need your solution. These are the highest-converting prompt type in AI search."
+    }
+  ],
+  "llm_details": {
+    "openai": {
+      "label": "ChatGPT (GPT-4o)",
+      "avs": 46.0,
+      "prompts_scored": 25
+    },
+    "anthropic": {
+      "label": "Claude (Haiku 4.5)",
+      "avs": 39.6,
+      "prompts_scored": 25
+    },
+    "perplexity": {
+      "label": "Perplexity (sonar-pro)",
+      "avs": 52.4,
+      "prompts_scored": 25
+    }
+  },
+  "total_brands": 100
+}

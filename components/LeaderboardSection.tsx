@@ -10,6 +10,8 @@ interface LeaderboardSectionProps {
   brands: BrandScore[];
   note: string;
   generatedAt: string;
+  /** ISO date string like "2026-05-30" — shown in the "Last run" badge */
+  runDate?: string;
 }
 
 function getValue(brand: BrandScore, col: SortColumn): number | string {
@@ -25,7 +27,7 @@ function getValue(brand: BrandScore, col: SortColumn): number | string {
   }
 }
 
-export function LeaderboardSection({ brands, note, generatedAt }: LeaderboardSectionProps) {
+export function LeaderboardSection({ brands, note, generatedAt, runDate }: LeaderboardSectionProps) {
   const [sortColumn, setSortColumn] = useState<SortColumn>("rank");
   const [sortDir, setSortDir]       = useState<SortDir>("asc");
   const [modalOpen, setModalOpen]   = useState(false);
@@ -89,11 +91,18 @@ export function LeaderboardSection({ brands, note, generatedAt }: LeaderboardSec
     setModalOpen(true);
   }
 
-  const dateLabel = new Date(generatedAt).toLocaleDateString("en-US", {
-    month: "long",
-    day: "numeric",
-    year: "numeric",
-  });
+  // Use runDate (e.g. "2026-05-30") for "Last run" badge when available
+  const runDateLabel = runDate
+    ? new Date(runDate + "T12:00:00Z").toLocaleDateString("en-US", {
+        month: "long",
+        day: "numeric",
+        year: "numeric",
+      })
+    : new Date(generatedAt).toLocaleDateString("en-US", {
+        month: "long",
+        day: "numeric",
+        year: "numeric",
+      });
 
   const hasFilters = search.trim() !== "" || categoryFilter !== "all";
 
@@ -102,8 +111,13 @@ export function LeaderboardSection({ brands, note, generatedAt }: LeaderboardSec
       {/* ── Page header ─────────────────────────────────────── */}
       <section className="bg-gradient-to-b from-brand-50 to-white py-14">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-flex items-center rounded-full bg-brand-100 px-3 py-1 text-xs font-medium text-brand-700 ring-1 ring-brand-200 mb-4">
-            Updated {dateLabel}
+          <div className="inline-flex items-center gap-1.5 rounded-full bg-brand-100 px-3 py-1 text-xs font-medium text-brand-700 ring-1 ring-brand-200 mb-4">
+            {/* green pulse dot */}
+            <span className="relative flex h-2 w-2 shrink-0" aria-hidden="true">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500" />
+            </span>
+            Last run: {runDateLabel}
           </div>
           <h1 className="text-3xl sm:text-4xl font-extrabold text-gray-900">
             AI Visibility Index

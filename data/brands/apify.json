@@ -1,0 +1,96 @@
+{
+  "slug": "apify",
+  "brand": "Apify",
+  "url": "apify.com",
+  "rank": 61,
+  "avs_brand": 26.3,
+  "avs_per_llm": {
+    "openai": 22.0,
+    "anthropic": 34.8,
+    "perplexity": 22.0
+  },
+  "prompts_scored": 25,
+  "run_date": "2026-05-30",
+  "top_gap": "AL-02",
+  "top_gap_prompt": "Cheaper alternatives to Playwright",
+  "verified": true,
+  "category": "automation",
+  "category_long": "web scraping and browser automation platform for developers",
+  "tier": "tier1",
+  "gaps": [
+    {
+      "type": "content",
+      "title": "Thin or missing dedicated competitor-comparison pages",
+      "description": "Apify lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+      "priority": 1
+    },
+    {
+      "type": "schema",
+      "title": "No Organization or SoftwareApplication schema on homepage",
+      "description": "Apify's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+      "priority": 2
+    },
+    {
+      "type": "content",
+      "title": "Low placement frequency in 'best [category] tools' roundups",
+      "description": "Apify is under-represented in third-party 'best automation' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+      "priority": 3
+    }
+  ],
+  "gap_prompts": [
+    {
+      "prompt_id": "AL-02",
+      "prompt_text": "Cheaper alternatives to Playwright",
+      "prompt_category": "alternatives",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Alternative searches are used by buyers actively switching tools. Visibility here captures switching-intent demand at its peak."
+    },
+    {
+      "prompt_id": "AL-05",
+      "prompt_text": "Open source or affordable automation tools instead of Playwright",
+      "prompt_category": "alternatives",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Alternative searches are used by buyers actively switching tools. Visibility here captures switching-intent demand at its peak."
+    },
+    {
+      "prompt_id": "IN-04",
+      "prompt_text": "Best automation that works with Python and JavaScript",
+      "prompt_category": "integration",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Integration queries signal technical buyers in the evaluation stage. Missing here loses decision-stage opportunities to tools that have stronger integration documentation."
+    }
+  ],
+  "llm_details": {
+    "openai": {
+      "label": "ChatGPT (GPT-4o)",
+      "avs": 22.0,
+      "prompts_scored": 25
+    },
+    "anthropic": {
+      "label": "Claude (Haiku 4.5)",
+      "avs": 34.8,
+      "prompts_scored": 25
+    },
+    "perplexity": {
+      "label": "Perplexity (sonar-pro)",
+      "avs": 22.0,
+      "prompts_scored": 25
+    }
+  },
+  "total_brands": 100
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "n8n",
+  "brand": "n8n",
+  "url": "n8n.io",
+  "rank": 34,
+  "avs_brand": 35.7,
+  "avs_per_llm": {
+    "openai": 37.6,
+    "anthropic": 26.0,
+    "perplexity": 43.6
+  },
+  "prompts_scored": 25,
+  "run_date": "2026-05-30",
+  "top_gap": "IN-04",
+  "top_gap_prompt": "Best automation that works with GitHub and Postgres",
+  "verified": true,
+  "category": "automation",
+  "category_long": "open-source workflow automation for technical operations teams",
+  "tier": "tier1",
+  "gaps": [
+    {
+      "type": "schema",
+      "title": "No Organization or SoftwareApplication schema on homepage",
+      "description": "n8n's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+      "priority": 1
+    },
+    {
+      "type": "content",
+      "title": "Low placement frequency in 'best [category] tools' roundups",
+      "description": "n8n is under-represented in third-party 'best automation' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+      "priority": 2
+    },
+    {
+      "type": "content",
+      "title": "Thin or missing dedicated competitor-comparison pages",
+      "description": "n8n lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+      "priority": 3
+    }
+  ],
+  "gap_prompts": [
+    {
+      "prompt_id": "IN-04",
+      "prompt_text": "Best automation that works with GitHub and Postgres",
+      "prompt_category": "integration",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Integration queries signal technical buyers in the evaluation stage. Missing here loses decision-stage opportunities to tools that have stronger integration documentation."
+    },
+    {
+      "prompt_id": "IN-05",
+      "prompt_text": "automation tools with native GitHub integration",
+      "prompt_category": "integration",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Integration queries signal technical buyers in the evaluation stage. Missing here loses decision-stage opportunities to tools that have stronger integration documentation."
+    },
+    {
+      "prompt_id": "CD-03",
+      "prompt_text": "Which automation software should a Technical Ops Lead or Developer wanting self-hosted automation use?",
+      "prompt_category": "category_discovery",
+      "llms_missing": [
+        "openai",
+        "anthropic"
+      ],
+      "llms_missing_count": 2,
+      "why_it_matters": "Discovery queries drive early-funnel awareness. Buyers use these to find solutions to problems they haven't yet named. Missing here means you're invisible before the consideration stage."
+    }
+  ],
+  "llm_details": {
+    "openai": {
+      "label": "ChatGPT (GPT-4o)",
+      "avs": 37.6,
+      "prompts_scored": 25
+    },
+    "anthropic": {
+      "label": "Claude (Haiku 4.5)",
+      "avs": 26.0,
+      "prompts_scored": 25
+    },
+    "perplexity": {
+      "label": "Perplexity (sonar-pro)",
+      "avs": 43.6,
+      "prompts_scored": 25
+    }
+  },
+  "total_brands": 100
+}

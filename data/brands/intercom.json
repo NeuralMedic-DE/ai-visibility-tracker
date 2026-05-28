@@ -1,0 +1,92 @@
+{
+  "slug": "intercom",
+  "brand": "Intercom",
+  "url": "intercom.com",
+  "rank": 22,
+  "avs_brand": 40.1,
+  "avs_per_llm": {
+    "openai": 40.8,
+    "anthropic": 44.8,
+    "perplexity": 34.8
+  },
+  "prompts_scored": 25,
+  "run_date": "2026-05-30",
+  "top_gap": "UC-01",
+  "top_gap_prompt": "How do I manage all customer conversations in one unified inbox across chat email and social without spending a lot on software?",
+  "verified": true,
+  "category": "customer support",
+  "category_long": "customer messaging and AI-powered support platform for B2B SaaS",
+  "tier": "anchor",
+  "gaps": [
+    {
+      "type": "schema",
+      "title": "Missing FAQPage schema on pricing and comparison pages",
+      "description": "Intercom's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+      "priority": 1
+    },
+    {
+      "type": "content",
+      "title": "Thin or missing dedicated competitor-comparison pages",
+      "description": "Intercom lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+      "priority": 2
+    },
+    {
+      "type": "schema",
+      "title": "No HowTo schema on documentation and tutorial pages",
+      "description": "Intercom's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+      "priority": 3
+    }
+  ],
+  "gap_prompts": [
+    {
+      "prompt_id": "UC-01",
+      "prompt_text": "How do I manage all customer conversations in one unified inbox across chat email and social without spending a lot on software?",
+      "prompt_category": "use_case",
+      "llms_missing": [
+        "openai",
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 3,
+      "why_it_matters": "Use-case prompts reach buyers at the exact moment they need your solution. These are the highest-converting prompt type in AI search."
+    },
+    {
+      "prompt_id": "IN-05",
+      "prompt_text": "customer support tools with native Salesforce integration",
+      "prompt_category": "integration",
+      "llms_missing": [
+        "perplexity"
+      ],
+      "llms_missing_count": 1,
+      "why_it_matters": "Integration queries signal technical buyers in the evaluation stage. Missing here loses decision-stage opportunities to tools that have stronger integration documentation."
+    },
+    {
+      "prompt_id": "CD-04",
+      "prompt_text": "Best customer support platforms for manage all customer conversations in one unified inbox across chat email and social",
+      "prompt_category": "category_discovery",
+      "llms_missing": [
+        "perplexity"
+      ],
+      "llms_missing_count": 1,
+      "why_it_matters": "Discovery queries drive early-funnel awareness. Buyers use these to find solutions to problems they haven't yet named. Missing here means you're invisible before the consideration stage."
+    }
+  ],
+  "llm_details": {
+    "openai": {
+      "label": "ChatGPT (GPT-4o)",
+      "avs": 40.8,
+      "prompts_scored": 25
+    },
+    "anthropic": {
+      "label": "Claude (Haiku 4.5)",
+      "avs": 44.8,
+      "prompts_scored": 25
+    },
+    "perplexity": {
+      "label": "Perplexity (sonar-pro)",
+      "avs": 34.8,
+      "prompts_scored": 25
+    }
+  },
+  "total_brands": 100
+}

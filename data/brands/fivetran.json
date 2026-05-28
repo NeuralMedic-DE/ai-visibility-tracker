@@ -1,0 +1,92 @@
+{
+  "slug": "fivetran",
+  "brand": "Fivetran",
+  "url": "fivetran.com",
+  "rank": 16,
+  "avs_brand": 41.9,
+  "avs_per_llm": {
+    "openai": 43.6,
+    "anthropic": 45.2,
+    "perplexity": 36.8
+  },
+  "prompts_scored": 25,
+  "run_date": "2026-05-30",
+  "top_gap": "UC-01",
+  "top_gap_prompt": "How do I replicate data from 400 plus sources to your data warehouse automatically without spending a lot on software?",
+  "verified": true,
+  "category": "data integration",
+  "category_long": "automated data movement and transformation platform for modern data stacks",
+  "tier": "anchor",
+  "gaps": [
+    {
+      "type": "schema",
+      "title": "No HowTo schema on documentation and tutorial pages",
+      "description": "Fivetran's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+      "priority": 1
+    },
+    {
+      "type": "schema",
+      "title": "Missing FAQPage schema on pricing and comparison pages",
+      "description": "Fivetran's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+      "priority": 2
+    },
+    {
+      "type": "content",
+      "title": "Thin or missing dedicated competitor-comparison pages",
+      "description": "Fivetran lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+      "priority": 3
+    }
+  ],
+  "gap_prompts": [
+    {
+      "prompt_id": "UC-01",
+      "prompt_text": "How do I replicate data from 400 plus sources to your data warehouse automatically without spending a lot on software?",
+      "prompt_category": "use_case",
+      "llms_missing": [
+        "openai",
+        "anthropic"
+      ],
+      "llms_missing_count": 2,
+      "why_it_matters": "Use-case prompts reach buyers at the exact moment they need your solution. These are the highest-converting prompt type in AI search."
+    },
+    {
+      "prompt_id": "UC-05",
+      "prompt_text": "What software helps with transform and model raw data with dbt in a unified managed data pipeline at scale?",
+      "prompt_category": "use_case",
+      "llms_missing": [
+        "anthropic",
+        "perplexity"
+      ],
+      "llms_missing_count": 2,
+      "why_it_matters": "Use-case prompts reach buyers at the exact moment they need your solution. These are the highest-converting prompt type in AI search."
+    },
+    {
+      "prompt_id": "UC-02",
+      "prompt_text": "Best way to transform and model raw data with dbt in a unified managed data pipeline for a data engineering teams at mid-to-large analytics-driven companies team",
+      "prompt_category": "use_case",
+      "llms_missing": [
+        "openai"
+      ],
+      "llms_missing_count": 1,
+      "why_it_matters": "Use-case prompts reach buyers at the exact moment they need your solution. These are the highest-converting prompt type in AI search."
+    }
+  ],
+  "llm_details": {
+    "openai": {
+      "label": "ChatGPT (GPT-4o)",
+      "avs": 43.6,
+      "prompts_scored": 25
+    },
+    "anthropic": {
+      "label": "Claude (Haiku 4.5)",
+      "avs": 45.2,
+      "prompts_scored": 25
+    },
+    "perplexity": {
+      "label": "Perplexity (sonar-pro)",
+      "avs": 36.8,
+      "prompts_scored": 25
+    }
+  },
+  "total_brands": 100
+}
