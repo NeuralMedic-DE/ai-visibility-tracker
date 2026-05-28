@@ -53,9 +53,15 @@ export default function PricingPage() {
             <div className="flex items-center gap-4">
               <Link
                 href="/leaderboard"
-                className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
+                className="hidden sm:block text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
               >
                 AI Visibility Index →
+              </Link>
+              <Link
+                href="/methodology"
+                className="hidden sm:block text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
+              >
+                Methodology
               </Link>
               <Link
                 href="/#waitlist"
@@ -233,6 +239,9 @@ export default function PricingPage() {
             <div className="flex gap-4 text-xs text-gray-400">
               <Link href="/leaderboard" className="hover:text-gray-600">
                 AI Visibility Index
+              </Link>
+              <Link href="/methodology" className="hover:text-gray-600">
+                Methodology
               </Link>
               <a href="mailto:hello@neuralreach.de" className="hover:text-gray-600">
                 Contact

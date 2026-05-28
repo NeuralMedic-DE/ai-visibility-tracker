@@ -131,6 +131,12 @@ export default function LeaderboardPage() {
             </Link>
             <div className="flex items-center gap-3">
               <Link
+                href="/methodology"
+                className="hidden sm:block text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
+              >
+                Methodology
+              </Link>
+              <Link
                 href="/#pricing"
                 className="hidden sm:block text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
               >
@@ -166,11 +172,14 @@ export default function LeaderboardPage() {
             <Link href="/" className="hover:text-gray-600 transition-colors">
               Home
             </Link>
+            <Link href="/methodology" className="hover:text-gray-600 transition-colors">
+              Methodology
+            </Link>
             <Link href="/#pricing" className="hover:text-gray-600 transition-colors">
               Pricing
             </Link>
             <a
-              href="mailto:hello@neuralreach.io"
+              href="mailto:hello@neuralreach.de"
               className="hover:text-gray-600 transition-colors"
             >
               Contact

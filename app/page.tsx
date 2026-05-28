@@ -43,6 +43,12 @@ export default function HomePage() {
               >
                 Pricing
               </Link>
+              <Link
+                href="/methodology"
+                className="hidden sm:block text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
+              >
+                Methodology
+              </Link>
               <a
                 href="#waitlist"
                 className="rounded-lg bg-brand-600 px-4 py-2 text-sm font-semibold text-white hover:bg-brand-700 transition-colors"
