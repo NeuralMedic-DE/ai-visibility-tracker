@@ -1,0 +1,9 @@
+{
+  "brand": "Amplemarket",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which CRM software should a SDR manager or head of outbound sales use?",
+  "response": "# Best CRM Options for SDR Managers/Heads of Outbound Sales\n\n## Top-Tier Choices\n\n**Salesforce**\n- Gold standard for larger teams\n- Excellent for complex workflows and forecasting\n- Strong reporting and customization\n- Higher cost and learning curve\n\n**HubSpot Sales Hub**\n- Best balance of ease-of-use and power\n- Intuitive interface SDRs actually like\n- Good sequence/automation features\n- Scales well from 5 to 500+ reps\n\n## Specialized for Outbound\n\n**Outreach or Salesloft**\n- Built specifically for outbound motion\n- Superior cadence/sequencing\n- Better engagement tracking\n- Pricier, but worth it if outbound is core\n\n**Close**\n- Built for sales velocity and call tracking\n- Great for high-volume prospecting\n- Simpler, faster to implement\n\n## Practical Recommendation\n\n**Choose based on your situation:**\n\n- **Under 15 SDRs, pure outbound?** → HubSpot or Close\n- **Growing team, mixed motion?** → HubSpot or Salesforce\n- **Enterprise, complex deal flow?** → Salesforce\n- **Outbound-obsessed, any size?** → Outreach/Salesloft\n\n## Key Features to Prioritize\n- Email sequences/cadences\n- Call logging and dialing integration\n- Pipeline visibility and forecasting\n- Activity tracking (calls, emails, meetings)\n- Team performance dashboards\n- Mobile accessibility\n\nWhat's your team size and primary motion? That would help narrow it further.",
+  "cached_at": "2026-05-27T19:02:48Z",
+  "metadata": {}
+}

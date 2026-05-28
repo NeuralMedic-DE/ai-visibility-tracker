@@ -1,0 +1,9 @@
+{
+  "brand": "Finaloop",
+  "prompt_id": "IN-05",
+  "llm": "anthropic",
+  "prompt_text": "finance tools with native Shopify integration",
+  "response": "# Finance Tools with Native Shopify Integration\n\n## Top Solutions\n\n### **1. Shopify Balance**\n- **Built-in** payment account for Shopify sellers\n- Low-cost transfers and payouts\n- Business debit card\n- Cash flow management dashboard\n\n### **2. Xero**\n- Comprehensive accounting software\n- Direct Shopify transaction sync\n- Invoicing and expense tracking\n- Financial reporting and tax prep\n\n### **3. Wave**\n- **Free accounting software**\n- Automatic invoice syncing from Shopify\n- Expense tracking\n- Financial reports\n\n### **4. QuickBooks Online**\n- Official Shopify app available\n- Automatic order/payment sync\n- Inventory management integration\n- Tax preparation features\n\n### **5. Stripe or Square**\n- Payment processing with Shopify\n- Integrated financial dashboards\n- Automated settlement tracking\n- Dispute management\n\n### **6. Klaviyo** (Marketing + Financial Insights)\n- Revenue attribution by channel\n- Customer lifetime value tracking\n- Campaign ROI analytics\n\n### **7. Shopify Flow** (Automation)\n- Automate financial workflows\n- Conditional actions for payments/refunds\n- Custom reporting triggers\n\n## Key Integration Points\n\n| Tool | Order Sync | Inventory | Payouts | Reporting |\n|------|-----------|-----------|---------|-----------|\n| Xero | ✅ | ✅ | ✅ | ✅ |\n| QuickBooks | ✅ | ✅ | ✅ | ✅ |\n| Wave | ✅ | ❌ | ✅ | ✅ |\n| Shopify Balance | ✅ | ❌ | ✅ | ✅ |\n\n## Selection Tips\n\n- **Startups**: Wave or Shopify Balance\n- **Growing Businesses**: Xero or QuickBooks\n- **Multi-channel**: QuickBooks (best integration depth)\n- **Simplicity**: Shopify Balance + Xero\n\nWhat's your primary use case?",
+  "cached_at": "2026-05-28T07:07:53Z",
+  "metadata": {}
+}

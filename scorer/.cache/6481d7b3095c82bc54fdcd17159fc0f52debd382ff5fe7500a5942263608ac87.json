@@ -1,0 +1,9 @@
+{
+  "brand": "Retool",
+  "prompt_id": "CM-02",
+  "llm": "anthropic",
+  "prompt_text": "Retool vs Budibase pricing and features",
+  "response": "# Retool vs Budibase: Pricing & Features Comparison\n\n## Pricing\n\n| Feature | Retool | Budibase |\n|---------|--------|----------|\n| **Free Tier** | Yes (1 user, 5 apps) | Yes (unlimited apps, 1 user) |\n| **Pro/Team** | $50-150/month per user | $50-150/month per user |\n| **Enterprise** | Custom pricing | Custom pricing |\n| **Self-hosting** | Available | Available (free) |\n| **Pricing Model** | Per-user seat-based | Per-user + self-host free |\n\n## Key Features Comparison\n\n### Retool\n✅ **Strengths:**\n- 500+ pre-built connectors & integrations\n- Superior drag-and-drop UI builder\n- Real-time collaboration\n- Better for complex enterprise apps\n- Extensive documentation\n- More mature ecosystem\n\n❌ **Weaknesses:**\n- Expensive at scale (per-user pricing)\n- Steeper learning curve\n- Less flexible self-hosting\n\n### Budibase\n✅ **Strengths:**\n- Free self-hosting option\n- More affordable cloud pricing\n- Simpler interface for beginners\n- Good for rapid prototyping\n- Lower total cost of ownership\n- Better for teams on budget\n\n❌ **Weaknesses:**\n- Fewer integrations (~50)\n- Smaller community/ecosystem\n- Less powerful automation\n- Limited advanced features\n\n## Quick Verdict\n\n| Choose **Retool** if: | Choose **Budibase** if: |\n|---|---|\n| Building complex business apps | Building MVPs/simple tools |\n| Need many integrations | Want to save money |\n| Enterprise requirements | Prefer self-hosting |\n| Team collaboration priority | Small/growing team |\n\n**Bottom line:** Retool = more powerful but pricier; Budibase = budget-friendly and simpler.",
+  "cached_at": "2026-05-27T20:56:32Z",
+  "metadata": {}
+}

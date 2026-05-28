@@ -1,0 +1,9 @@
+{
+  "brand": "Rho",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Rho integrate with NetSuite?",
+  "response": "# Rho and NetSuite Integration\n\nI don't have current information about whether Rho has a direct integration with NetSuite. This depends on which \"Rho\" product you're referring to, as there are several companies using that name.\n\nTo get accurate information, I'd recommend:\n\n1. **Check Rho's official website** - Look for their integrations or app marketplace section\n2. **Check NetSuite's AppExchange** - Search for Rho to see if they're listed\n3. **Contact Rho directly** - Their sales or support team can confirm current integration capabilities\n4. **Look for third-party connectors** - Services like Zapier or other iPaaS platforms might offer a workaround\n\n**Could you clarify which Rho product you're asking about?** For example:\n- Rho (financial/accounting software)\n- Rho (a different SaaS platform)\n- Something else?\n\nThis would help me provide more specific guidance.",
+  "cached_at": "2026-05-28T07:12:40Z",
+  "metadata": {}
+}

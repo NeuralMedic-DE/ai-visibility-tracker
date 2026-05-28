@@ -1,0 +1,9 @@
+{
+  "brand": "ActiveCampaign",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect ActiveCampaign with Shopify?",
+  "response": "# Connecting ActiveCampaign with Shopify\n\nHere's how to set up the integration:\n\n## Via ActiveCampaign\n\n1. **Log in** to your ActiveCampaign account\n2. Go to **Settings** → **Integrations**\n3. Search for **Shopify** and click it\n4. Click **Connect**\n5. You'll be redirected to Shopify—log in and authorize the connection\n6. Return to ActiveCampaign to confirm\n\n## Via Shopify App Store\n\n1. In your Shopify admin, go to **Apps and sales channels**\n2. Search for **ActiveCampaign**\n3. Click the app and select **Add app**\n4. Authorize the permissions\n5. Configure your settings in ActiveCampaign\n\n## What Gets Synced\n\n- Customer data (name, email, phone)\n- Orders and purchase history\n- Contact tags and lists\n- Abandoned cart information\n\n## Key Setup Steps\n\n- **Map fields** between Shopify and ActiveCampaign\n- **Set up automation rules** (welcome emails, abandoned carts, post-purchase follow-ups)\n- **Configure list synchronization** for segmentation\n- **Test** with a small purchase before going live\n\n## Common Uses\n\n- Automate customer welcome sequences\n- Cart abandonment campaigns\n- Post-purchase follow-ups\n- Customer segmentation based on purchases\n\nNeed help with a specific setup step?",
+  "cached_at": "2026-05-28T07:23:50Z",
+  "metadata": {}
+}

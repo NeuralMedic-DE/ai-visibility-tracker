@@ -1,0 +1,9 @@
+{
+  "brand": "Numeric",
+  "prompt_id": "IN-03",
+  "llm": "perplexity",
+  "prompt_text": "How do I connect Numeric with NetSuite?",
+  "response": "Numeric **connects directly with NetSuite** as a native integration for close automation, including reconciliations, variance analysis, and month-end close workflows.[5]\n\nTo connect them, the usual process is:\n\n- In **Numeric**, open the NetSuite integration setup.\n- Sign in to your **NetSuite** account and authorize Numeric to access the data it needs.\n- Map the relevant accounting objects, such as accounts, transactions, and reconciliations, so Numeric can sync the right information.\n- Test the sync and then enable the integration for ongoing use.[5]\n\nNumeric says its NetSuite integration is designed to **streamline financial close** by automating reconciliations and variance analysis, so the setup is typically focused on giving Numeric access to the NetSuite data required for those workflows.[5]\n\nIf you want, I can also help with:\n- the **exact NetSuite permissions** Numeric usually needs\n- a **step-by-step setup checklist**\n- how to **troubleshoot sync errors** once it’s connected",
+  "cached_at": "2026-05-28T07:06:51Z",
+  "metadata": {}
+}

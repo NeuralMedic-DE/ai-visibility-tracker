@@ -1,0 +1,9 @@
+{
+  "brand": "Planhat",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Planhat vs Gainsight: which is better?",
+  "response": "# Planhat vs Gainsight Comparison\n\nNeither is universally \"better\"—it depends on your priorities:\n\n## **Planhat strengths**\n- More intuitive, easier onboarding\n- Better for smaller/mid-market teams\n- Lower cost\n- Simpler interface\n- Strong collaboration features\n\n## **Gainsight strengths**\n- More powerful analytics and reporting\n- Better for enterprise scale\n- Deeper integrations ecosystem\n- Advanced predictive analytics\n- More customizable\n\n## **Key differences**\n\n| Factor | Planhat | Gainsight |\n|--------|---------|-----------|\n| **Best for** | Mid-market, quick implementation | Enterprise, complex needs |\n| **Learning curve** | Gentle | Steeper |\n| **Price** | Lower | Higher |\n| **Customization** | Good | Excellent |\n\n## **Questions to ask yourself**\n- Company size and CSM team size?\n- Budget constraints?\n- Need for advanced analytics/AI?\n- Implementation timeline?\n- Existing tech stack?\n\n**Rough guidance:**\n- **Choose Planhat** if you want simpler, faster deployment at lower cost\n- **Choose Gainsight** if you need enterprise power and have resources for implementation\n\nWhat's your main use case or biggest priority? That would help narrow it down.",
+  "cached_at": "2026-05-28T08:11:51Z",
+  "metadata": {}
+}

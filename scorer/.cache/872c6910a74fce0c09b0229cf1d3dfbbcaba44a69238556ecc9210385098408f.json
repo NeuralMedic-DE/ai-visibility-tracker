@@ -1,0 +1,9 @@
+{
+  "brand": "Copper",
+  "prompt_id": "CD-04",
+  "llm": "anthropic",
+  "prompt_text": "Best CRM platforms for manage client relationships inside Gmail",
+  "response": "# Best CRM Platforms for Gmail Integration\n\n## Top Integrated Solutions\n\n### **HubSpot CRM**\n- **Best for:** All-around functionality\n- Free tier with email tracking, contact management\n- Sidebar widget in Gmail for quick access\n- Automatic email logging\n- Deal pipeline management\n\n### **Pipedrive**\n- **Best for:** Sales teams\n- Native Gmail sidebar integration\n- Email sync and tracking\n- Activity timeline visible in inbox\n- Affordable pricing\n\n### **Zoho CRM**\n- **Best for:** Budget-conscious teams\n- Seamless Gmail integration\n- Mail merge and email templates\n- Contact enrichment features\n- Strong automation tools\n\n### **Salesforce**\n- **Best for:** Enterprise needs\n- Gmail integration via Einstein Activity Capture\n- Comprehensive customization\n- Higher cost but feature-rich\n- Excellent scalability\n\n### **Streak**\n- **Best for:** Gmail-first users\n- Works directly within Gmail interface\n- Pipeline kanban boards in inbox\n- Email tracking and templates\n- Great for small teams\n\n## Simple Alternatives\n\n- **SalesForce Inbox** – Lightweight sales enablement\n- **Gmail native Labels & Filters** – Free, basic organization\n- **Front** – Email management with CRM basics\n- **ActiveCampaign** – Marketing + CRM hybrid\n\n## Selection Tips\n- **Budget:** HubSpot free or Zoho\n- **Simplicity:** Streak or Gmail filters\n- **Features:** HubSpot or Salesforce\n- **Mobile:** Pipedrive or Zoho\n\n**What's your team size and main priority?** That'll help narrow down the best choice.",
+  "cached_at": "2026-05-27T18:22:37Z",
+  "metadata": {}
+}

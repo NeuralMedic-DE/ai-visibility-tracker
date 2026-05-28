@@ -1,0 +1,9 @@
+{
+  "brand": "Helicone",
+  "prompt_id": "IN-04",
+  "llm": "anthropic",
+  "prompt_text": "Best AI tooling that works with OpenAI and Anthropic",
+  "response": "# Best AI Tooling for OpenAI & Anthropic\n\n## Multi-Model Platforms\n\n**LangChain** / **LangSmith**\n- Industry standard for orchestrating multiple LLM providers\n- Built-in support for both OpenAI and Anthropic\n- Chains, agents, RAG, memory management\n- LangSmith for debugging and monitoring\n\n**LlamaIndex**\n- Excellent for data indexing and retrieval\n- Unified interface across providers\n- Strong RAG capabilities\n\n**Vercel AI SDK**\n- Lightweight, React-friendly\n- Clean abstraction layer\n- Real-time streaming support\n- Good for web apps\n\n## Development & Testing\n\n**Anthropic's Prompt Caching** + **OpenAI's Fine-tuning**\n- Use native features of each platform\n- Anthropic excels at long context (200k tokens)\n- OpenAI better for specialized domain tuning\n\n**OpenRouter**\n- Single API for multiple providers\n- Good for cost optimization and failover\n\n**Braintrust**\n- Testing and evaluation across models\n- Compare outputs side-by-side\n\n## Observability\n\n**LangSmith** (best integrated)\n- Tracing, testing, evaluation\n- Works seamlessly with both\n\n**Helicone** / **Martian**\n- Provider-agnostic monitoring\n- Cost tracking, latency analysis\n\n## Specialized Use Cases\n\n**Pydantic AI** - Type-safe agent framework\n**CrewAI** - Multi-agent orchestration\n**Dify** - No-code/low-code workflows\n**Superflows** - API integration automation\n\n**What's your specific use case?** I can narrow down recommendations.",
+  "cached_at": "2026-05-28T07:49:58Z",
+  "metadata": {}
+}

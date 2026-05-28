@@ -1,0 +1,9 @@
+{
+  "brand": "Paddle",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Paddle integrate with Stripe?",
+  "response": "# Paddle and Stripe Integration\n\nPaddle and Stripe are **separate payment processors** that don't directly integrate with each other. However, here are your options:\n\n## If you're using Paddle:\n- Paddle is a complete payment solution (payments, subscriptions, invoicing, tax handling, payouts)\n- You wouldn't typically need Stripe alongside it\n\n## If you want both:\n- Some platforms or tools may support **both** Paddle and Stripe independently\n- You could use them for different purposes (e.g., Stripe for one product line, Paddle for another)\n- Integration would depend on your platform or custom development\n\n## Better approach:\n- **Choose one** based on your needs:\n  - **Paddle**: Better for SaaS, subscriptions, global tax compliance, and creator tools\n  - **Stripe**: More flexible for various use cases, larger ecosystem of integrations\n\nIf you're looking to integrate payments into your business, I'd recommend picking the one that best fits your needs rather than trying to use both. What's your specific use case?",
+  "cached_at": "2026-05-28T07:00:15Z",
+  "metadata": {}
+}

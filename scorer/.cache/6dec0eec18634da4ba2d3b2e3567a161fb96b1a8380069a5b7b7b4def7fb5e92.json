@@ -1,0 +1,9 @@
+{
+  "brand": "Rho",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Rho with NetSuite?",
+  "response": "# Connecting Rho with NetSuite\n\nI'd be happy to help, but I need a bit more context since \"Rho\" could refer to several different platforms. Here are the most common scenarios:\n\n## If you mean Rho (payments/fintech platform):\n1. **Check Rho's integration marketplace** - Look for NetSuite connectors in your Rho dashboard\n2. **Use APIs** - Rho likely offers REST APIs that can sync data with NetSuite\n3. **Middleware tools** - Consider platforms like Zapier, Make, or Workato for integration\n4. **Contact support** - Reach out to Rho's support team for specific integration documentation\n\n## If you mean another Rho product:\n- **Rho Motion** (workforce management)\n- **Rho Software** (specific industry solutions)\n- A custom or internal tool\n\n## General NetSuite Integration Steps:\n1. Verify both platforms support API connectivity\n2. Obtain API keys/credentials from both services\n3. Map data fields between systems\n4. Test the connection in a sandbox environment\n5. Deploy to production\n\n**Could you clarify which Rho product you're working with?** That way I can give you more specific steps and documentation links.",
+  "cached_at": "2026-05-28T07:12:44Z",
+  "metadata": {}
+}

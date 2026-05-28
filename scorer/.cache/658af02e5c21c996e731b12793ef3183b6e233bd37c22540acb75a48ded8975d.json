@@ -1,0 +1,9 @@
+{
+  "brand": "Close",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Pipedrive vs alternatives: what should I switch to?",
+  "response": "# Pipedrive Alternatives: Choosing Your Next CRM\n\n## Quick comparison by situation:\n\n**If you want simpler/cheaper:**\n- **HubSpot** – free tier is robust; scales well\n- **Zoho CRM** – very affordable, feature-rich\n- **Freshsales** – lightweight, good for SMBs\n\n**If you need advanced features:**\n- **Salesforce** – enterprise-grade but complex/expensive\n- **Microsoft Dynamics 365** – if you're in the Microsoft ecosystem\n\n**If you want Pipedrive's simplicity but better value:**\n- **Close** – sales-focused, similar UI philosophy\n- **Copper** – lightweight, Gmail-integrated\n\n## Key questions to ask:\n\n1. **What frustrates you about Pipedrive?** (pricing, features, integrations, reporting?)\n2. **Company size?** (affects what matters: ease vs. customization)\n3. **Must-have integrations?** (varies by tool)\n4. **Budget?** (some \"free\" alternatives lock features behind paywalls)\n\n## Honest take:\n\nPipedrive is solid but not exceptional. It's middle-of-the-road on price and features. Most switches happen because:\n- Pricing creep as you scale\n- Need more reporting/automation\n- Want better native integrations\n\n**Before switching:** audit what you *actually* use. Sometimes you're paying for unused features elsewhere too.\n\nWhat's driving your consideration? That'll help narrow it down.",
+  "cached_at": "2026-05-27T17:50:53Z",
+  "metadata": {}
+}

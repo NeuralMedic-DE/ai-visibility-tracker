@@ -1,0 +1,9 @@
+{
+  "brand": "Apify",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I extract data from any website with ready-made scrapers or custom code actors without spending a lot on software?",
+  "response": "# Budget-Friendly Web Scraping Options\n\n## Ready-Made Scrapers (No Coding)\n\n**Free/Low-Cost Platforms:**\n- **Apify** - Pre-built actors for common sites (some free tier)\n- **ParseHub** - Visual scraper, free plan available\n- **Octoparse** - GUI-based with limited free version\n- **Nightmare** - Browser automation, open-source\n\n## Custom Code (Low/No Cost)\n\n**Popular Open-Source Libraries:**\n- **Python**: BeautifulSoup, Scrapy, Selenium (free)\n- **JavaScript**: Puppeteer, Cheerio, Nightmare\n- **General**: cURL for simple extraction\n\n## Cost Optimization Strategies\n\n| Approach | Cost | Best For |\n|----------|------|----------|\n| **DIY scripting** | Free | Technical users, regular needs |\n| **Open-source tools** | Free | Full control, learning |\n| **Free tiers** | Free | Testing/small projects |\n| **Paid services** | $10-50/mo | Complex sites, support needed |\n\n## Important Considerations\n\n⚠️ **Legal/Ethical:**\n- Check site's `robots.txt` and Terms of Service\n- Respect rate limits (don't overload servers)\n- Some sites explicitly prohibit scraping\n- Use appropriate delays between requests\n\n**Practical tip:** Start with BeautifulSoup (Python) if you can code—it's free and handles ~80% of scraping needs. For visual/no-code, try Apify's free tier first.\n\nWhat type of website are you targeting? That affects which approach makes most sense.",
+  "cached_at": "2026-05-28T07:59:05Z",
+  "metadata": {}
+}

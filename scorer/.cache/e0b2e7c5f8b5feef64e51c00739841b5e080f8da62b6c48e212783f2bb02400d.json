@@ -1,0 +1,9 @@
+{
+  "brand": "ActiveCampaign",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does ActiveCampaign integrate with Shopify?",
+  "response": "Yes, ActiveCampaign integrates with Shopify. This integration allows you to sync your Shopify customer data with ActiveCampaign, enabling you to automate email marketing, segment your audience, and create personalized customer journeys based on purchase behavior and other customer data from your Shopify store.",
+  "cached_at": "2026-05-28T07:23:38Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Vitally",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which customer success software should a CS Lead or Head of Customer Success at a B2B SaaS company use?",
+  "response": "# Customer Success Software for B2B SaaS Leaders\n\nThe best choice depends on your company's maturity and priorities, but here are the top options:\n\n## **Enterprise/Full-Featured**\n- **Gainsight** - Most comprehensive; health scoring, plays, workflows. Best for mature orgs with dedicated CS teams\n- **Totango** - Strong analytics and expansion revenue focus; good if upsell/expansion is critical\n- **Vitally** - Modern UI, collaborative, integrates well with dev tools; good for product-led companies\n\n## **Mid-Market Sweet Spot**\n- **Catalyst** - Straightforward, affordable, purpose-built for CS teams\n- **Planhat** - Strong on journey mapping and team collaboration\n- **ChartHop** (if focused on planning/metrics) or **Outreach** (if sales-adjacent workflows matter)\n\n## **Lightweight/Budget-Friendly**\n- **Pendo** - If you want in-app engagement + analytics\n- **Spreadsheets + CRM integration** - Sometimes sufficient for early-stage teams\n\n## **Key Questions to Ask Yourself**\n- **Team size?** (2 people vs. 20+ changes everything)\n- **Primary pain point?** (Health scoring, renewals, upsell, churn prediction, engagement?)\n- **Existing stack?** (What CRM/data warehouse do you use?)\n- **Budget?** (ranges from $500–$50k+/month)\n\n**Most common recommendation**: Gainsight if you have the budget and complexity; Vitally if you want modern and collaborative; Totango if expansion revenue is your north star.\n\nWhat's your biggest CS challenge right now?",
+  "cached_at": "2026-05-28T08:09:13Z",
+  "metadata": {}
+}

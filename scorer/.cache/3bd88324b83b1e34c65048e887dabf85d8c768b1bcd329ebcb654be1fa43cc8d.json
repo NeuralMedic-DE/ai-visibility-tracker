@@ -1,0 +1,9 @@
+{
+  "brand": "Amplitude",
+  "prompt_id": "AL-05",
+  "llm": "openai",
+  "prompt_text": "Open source or affordable product analytics tools instead of Pendo",
+  "response": "If you're looking for open-source or more affordable alternatives to Pendo for product analytics, here are some options you might consider:\n\n1. **PostHog**: An open-source product analytics platform that offers features like event tracking, user cohorts, and feature flags. It can be self-hosted or used as a cloud service.\n\n2. **Matomo**: An open-source web analytics platform that provides detailed reports on your website visitors, including user behavior and conversion tracking. It can be self-hosted or used via their cloud service.\n\n3. **Plausible Analytics**: A simple, privacy-focused, and open-source web analytics tool. It's lightweight and can be self-hosted or used as a cloud service.\n\n4. **Mixpanel**: While not open-source, Mixpanel offers a free tier with basic analytics features, which might be suitable for smaller projects or startups.\n\n5. **Heap**: Offers a free plan with automatic event tracking and user analytics, which can be a good starting point for smaller teams.\n\n6. **Amplitude**: Provides a free plan with core analytics features, which can be useful for startups or small businesses looking to understand user behavior.\n\n7. **GoAccess**: An open-source, real-time web log analyzer and interactive viewer that runs in a terminal in *nix systems or through your browser.\n\n8. **Countly**: An open-source product analytics tool that focuses on mobile and web applications. It offers features like real-time analytics, crash reporting, and push notifications.\n\nThese tools vary in terms of features, ease of use, and scalability, so it's worth evaluating them based on your specific needs and technical capabilities.",
+  "cached_at": "2026-05-27T19:23:07Z",
+  "metadata": {}
+}

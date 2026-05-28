@@ -1,0 +1,9 @@
+{
+  "brand": "Customer.io",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Braze vs alternatives: what should I switch to?",
+  "response": "# Braze Alternatives: Key Considerations\n\nThe right choice depends on your priorities. Here's how to think about it:\n\n## **If you want lower cost:**\n- **Segment** – Better pricing for high-volume use\n- **mParticle** – More transparent, modular pricing\n- **Klaviyo** – Excellent for e-commerce, less expensive at scale\n\n## **If you need better ease-of-use:**\n- **HubSpot** – More intuitive, good all-in-one option\n- **Iterable** – Cleaner interface, strong email focus\n- **Attentive** – SMS/push focus, simpler setup\n\n## **If you want deeper customization:**\n- **Segment + custom CDP** – Build your own stack\n- **mParticle** – More flexible integrations\n- **Tealium** – Enterprise-grade customization\n\n## **If you're e-commerce focused:**\n- **Klaviyo** – Best-in-class for this segment\n- **Omnisend** – Affordable, feature-complete for stores\n\n## **If you need enterprise support:**\n- **Salesforce Marketing Cloud** – Heavy-duty, lots of hand-holding\n- **Adobe Real-time CDP** – Integrated ecosystem\n\n## **Quick diagnostic questions:**\n1. What's your annual data volume?\n2. Do you need omnichannel or just email/SMS?\n3. Who's your customer (B2B vs B2C)?\n4. What's your technical sophistication?\n\n**Most common switch:** Braze → Klaviyo (e-commerce) or Segment (flexibility)\n\nWhat's driving your consideration?",
+  "cached_at": "2026-05-28T07:14:51Z",
+  "metadata": {}
+}

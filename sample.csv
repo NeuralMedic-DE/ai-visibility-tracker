@@ -1,0 +1,6 @@
+brand,url,category,category_long,segment,competitor_1,competitor_2,use_case_1,use_case_2,integration_1,integration_2,role,aliases
+Close,close.com,CRM,sales CRM for inside sales teams,early-stage startups,Pipedrive,HubSpot,track sales pipeline,manage follow-ups automatically,Slack,Zapier,head of sales at a 20-person startup,"Close CRM,close.io"
+Attio,attio.com,CRM,modern CRM for high-growth B2B startups,B2B startups,Salesforce,HubSpot,manage customer relationships,automate revenue workflows,Slack,Zapier,founder or RevOps lead at a Series A startup,attio.com
+Plausible,plausible.io,web analytics,privacy-first web analytics for SaaS founders,privacy-conscious SaaS companies,Google Analytics,Mixpanel,track website traffic without cookies,monitor conversion funnels,WordPress,Gatsby,SaaS founder or marketing manager,Plausible Analytics
+Linear,linear.app,project management,issue tracking and project management for software teams,software development teams,Jira,Asana,track engineering tasks and sprints,manage product roadmaps,GitHub,Slack,engineering manager at a fast-growing startup,Linear App
+Ashby,ashby.com,applicant tracking system,all-in-one recruiting software for high-growth teams,high-growth technology companies,Lever,Greenhouse,manage job postings and candidates,streamline the hiring process,Slack,LinkedIn,head of talent at a Series B startup,Ashby ATS

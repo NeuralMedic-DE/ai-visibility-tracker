@@ -1,0 +1,9 @@
+{
+  "brand": "Help Scout",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Help Scout vs Freshdesk: which is better?",
+  "response": "# Help Scout vs Freshdesk\n\nBoth are solid customer support platforms. Here's how they compare:\n\n## Help Scout\n**Strengths:**\n- Simpler, more intuitive interface\n- Stronger email-focused workflows\n- Better for smaller teams\n- Lower learning curve\n- Good conversation management\n\n**Weaknesses:**\n- Fewer advanced features\n- Less powerful automation\n- Limited reporting depth\n- Pricier per user at higher tiers\n\n## Freshdesk\n**Strengths:**\n- More comprehensive feature set\n- Better automation capabilities\n- Stronger reporting & analytics\n- Works well at scale (small to large)\n- More affordable overall pricing\n\n**Weaknesses:**\n- Steeper learning curve\n- Interface can feel cluttered\n- Requires more setup/customization\n- Support quality varies by region\n\n## Choose Help Scout if you:\n- Have a small team (<10 people)\n- Want simplicity over features\n- Focus heavily on email support\n- Prefer straightforward pricing\n\n## Choose Freshdesk if you:\n- Need advanced automation & workflows\n- Want better analytics\n- Scale team as you grow\n- Use multiple support channels heavily\n\n**Bottom line:** Help Scout wins on ease-of-use, Freshdesk on features and value. Test both free trials with your actual workflow to see which feels right.\n\nWhat's your team size and main use case? That might narrow it down further.",
+  "cached_at": "2026-05-28T08:19:12Z",
+  "metadata": {}
+}

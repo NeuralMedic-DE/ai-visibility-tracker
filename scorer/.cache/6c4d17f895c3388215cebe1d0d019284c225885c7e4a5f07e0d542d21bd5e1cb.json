@@ -1,0 +1,9 @@
+{
+  "brand": "Gainsight",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Gainsight integrate with Salesforce?",
+  "response": "# Gainsight and Salesforce Integration\n\nYes, Gainsight integrates with Salesforce. Gainsight (now part of Salesforce after its 2021 acquisition) offers native integration with Salesforce CRM, allowing you to:\n\n- **Sync customer data** between Gainsight and Salesforce\n- **View customer health scores** directly in Salesforce records\n- **Access Gainsight insights** within your Salesforce workflow\n- **Automate data flow** between the two platforms\n- **Embed Gainsight dashboards** in Salesforce\n\nSince Gainsight is now a Salesforce product, the integration is particularly seamless and well-supported.\n\nIf you're considering this integration, I'd recommend checking Gainsight's current documentation or contacting their support team for the most up-to-date information on specific integration capabilities and setup requirements.",
+  "cached_at": "2026-05-28T08:04:29Z",
+  "metadata": {}
+}

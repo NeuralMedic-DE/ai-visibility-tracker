@@ -1,0 +1,9 @@
+{
+  "brand": "Sprinto",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which compliance software should a Compliance Lead or CTO at a growth-stage startup use?",
+  "response": "# Compliance Software for Growth-Stage Startups\n\nThe best choice depends on your industry and specific needs, but here's a practical framework:\n\n## Top Tier (Most Popular)\n\n**OneTrust** - Best for multi-framework needs\n- Handles GDPR, CCPA, SOC 2, ISO 27001, etc.\n- Expensive but scales with you\n- Good if you need investor credibility quickly\n\n**Vanta** - Best for SaaS/tech companies\n- SOC 2 focus (often first requirement)\n- Automated evidence collection\n- Lower cost, faster implementation\n\n**Drata** - Alternative to Vanta\n- Similar positioning, slightly different UX\n- Good customer support\n\n## By Specific Need\n\n| Your Priority | Tool | Why |\n|---|---|---|\n| **SOC 2 ASAP** | Vanta or Drata | Automates 60-70% of work |\n| **Multiple frameworks** | OneTrust | Handles everything but pricier |\n| **Privacy-first (B2C)** | Osano | GDPR/CCPA specialist |\n| **Financial services** | Comply Forward | FI-specific workflows |\n| **Minimal budget** | Secureframe or internal docs | Start manual, upgrade later |\n\n## My Recommendation\n\n**For most growth-stage startups:**\n1. Start with **Vanta** or **Drata** for SOC 2 (your customers will ask)\n2. Layer in **OneTrust** later if you hit international expansion\n3. Consider **Secureframe** if bootstrapped\n\n**Key question first:** *What compliance framework are your customers actually demanding?* That answer usually wins.\n\nWhat industry are you in? Happy to refine further.",
+  "cached_at": "2026-05-28T08:31:01Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Attio",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with automate revenue workflows at scale?",
+  "response": "# Software for Automating Revenue Workflows at Scale\n\n## Revenue Operations Platforms\n- **Salesforce** (with Flow/Process Builder) - extensive customization\n- **HubSpot** - strong automation for SMBs/mid-market\n- **Pipedrive** - workflow automation built-in\n- **Zendesk Sell** - good for sales automation\n\n## Dedicated Revenue Automation\n- **Salesloft** - sales engagement & cadence automation\n- **Outreach** - revenue orchestration platform\n- **Gainsight** (now Gainsight PX) - customer success automation\n- **Clari** - revenue intelligence with workflow tools\n\n## Integration & Workflow Builders\n- **Zapier** - connects 1000+ apps\n- **Make.com** (Integromat) - visual workflow automation\n- **Workato** - enterprise integration platform\n- **n8n** - open-source workflow automation\n\n## Billing & Finance Automation\n- **Stripe Billing** - recurring revenue automation\n- **Zuora** - subscription billing at scale\n- **NetSuite** - ERP with automation\n- **Workday** - financial management automation\n\n## What to Consider\n- **Integration needs** - does it connect your existing stack?\n- **Scale** - can it handle your transaction volume?\n- **Customization** - how flexible is the automation?\n- **Cost** - pricing typically scales with usage/users\n\nWhat specific workflows are you looking to automate? (e.g., lead scoring, contract management, invoicing)",
+  "cached_at": "2026-05-27T17:55:03Z",
+  "metadata": {}
+}

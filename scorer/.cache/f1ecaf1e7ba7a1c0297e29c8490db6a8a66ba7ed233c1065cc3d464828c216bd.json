@@ -1,0 +1,9 @@
+{
+  "brand": "LlamaIndex",
+  "prompt_id": "AL-02",
+  "llm": "openai",
+  "prompt_text": "Cheaper alternatives to Haystack",
+  "response": "If you're looking for cheaper alternatives to Haystack, which is a tool for managing and searching through your company's data, there are several options you might consider depending on your specific needs:\n\n1. **Elasticsearch**: An open-source search engine that is highly scalable and can be used to search through large volumes of data quickly.\n\n2. **Algolia**: Offers a powerful search API that is easy to integrate and provides fast search capabilities. It may be more affordable depending on your usage.\n\n3. **Apache Solr**: Another open-source search platform built on Apache Lucene, suitable for enterprise search applications.\n\n4. **Meilisearch**: An open-source, fast, and relevant search engine that is easy to deploy and use.\n\n5. **Swiftype**: Provides a customizable search experience with a focus on ease of use and integration.\n\n6. **Elastic App Search**: Part of the Elastic Stack, it offers a more user-friendly interface on top of Elasticsearch, making it easier to implement search features.\n\n7. **Typesense**: An open-source search engine that is designed to be simple to set up and fast to use.\n\n8. **Whoosh**: A pure Python search library that is simple to use and can be a good fit for smaller projects.\n\nWhen choosing an alternative, consider factors such as the volume of data you need to handle, the complexity of your search requirements, ease of integration, and the level of support you need.",
+  "cached_at": "2026-05-28T07:42:10Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Copper",
+  "prompt_id": "CM-02",
+  "llm": "anthropic",
+  "prompt_text": "Copper vs Pipedrive pricing and features",
+  "response": "# Copper vs Pipedrive: Comparison\n\n## Pricing\n\n| Feature | Copper | Pipedrive |\n|---------|--------|----------|\n| **Entry Level** | Free plan available | Free plan available |\n| **Mid Tier** | $25/user/month | $14/user/month |\n| **Pro Tier** | $65/user/month | $39/user/month |\n| **Enterprise** | Custom pricing | $59-99/user/month |\n\n## Key Features Comparison\n\n### Copper (Salesforce-Integrated)\n✅ **Strengths:**\n- Native Google Workspace integration (Gmail, Calendar, Drive)\n- Automatic contact and email capture\n- Built-in relationship intelligence\n- No-code customization\n- Better for Gmail-heavy teams\n\n❌ **Limitations:**\n- Fewer advanced customization options\n- Smaller app ecosystem\n- Less flexible pipeline management\n\n### Pipedrive (Standalone CRM)\n✅ **Strengths:**\n- More affordable entry point\n- Highly visual, deal-focused interface\n- Extensive app marketplace (500+ integrations)\n- Better for sales process tracking\n- More customizable pipelines\n\n❌ **Limitations:**\n- Requires manual data entry\n- Less native integration with email\n- Steeper learning curve for complex workflows\n\n## Best For\n\n| Choose **Copper** if you... | Choose **Pipedrive** if you... |\n|---------------------------|------------------------------|\n| Use Google Workspace daily | Need maximum customization |\n| Want minimal setup time | Want lower per-user costs |\n| Prefer automation over manual work | Prioritize deal pipeline visuals |\n| Have a small-to-mid team | Want extensive marketplace apps |\n\n**Bottom line:** Copper = best for Gmail users; Pipedrive = best for budget-conscious sales teams.",
+  "cached_at": "2026-05-27T18:22:52Z",
+  "metadata": {}
+}

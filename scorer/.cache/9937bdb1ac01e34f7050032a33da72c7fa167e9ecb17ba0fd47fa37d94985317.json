@@ -1,0 +1,9 @@
+{
+  "brand": "Raycast",
+  "prompt_id": "AL-01",
+  "llm": "openai",
+  "prompt_text": "Alternatives to Alfred for Mac-based developer and design teams at tech companies",
+  "response": "If you're looking for alternatives to Alfred for Mac-based developer and design teams, there are several options that offer similar productivity and workflow enhancements:\n\n1. **Raycast**: A popular alternative to Alfred, Raycast offers a fast and efficient command palette with a focus on developer productivity. It includes features like script commands, integrations with popular tools, and a sleek interface.\n\n2. **LaunchBar**: This is a powerful productivity tool that allows you to search and access files, launch applications, and execute scripts. It also supports custom workflows and has a variety of built-in actions.\n\n3. **Butler**: Butler is another launcher that can automate tasks, manage files, and control applications. It offers customizable triggers and supports a wide range of actions.\n\n4. **Quicksilver**: Known for its extensibility, Quicksilver allows users to perform tasks quickly through keyboard shortcuts. It supports plugins for added functionality and is highly customizable.\n\n5. **Keyboard Maestro**: While not a direct replacement for Alfred, Keyboard Maestro is a powerful automation tool that can create complex macros to automate repetitive tasks, which can be very useful for developers and designers.\n\n6. **Spotlight**: Built into macOS, Spotlight is a basic but effective search tool that can be enhanced with third-party plugins to increase its functionality.\n\n7. **Hammerspoon**: For those who are comfortable with scripting, Hammerspoon allows you to automate tasks and customize your workflow using Lua scripts.\n\nEach of these tools has its own strengths, so the best choice will depend on your specific needs and preferences.",
+  "cached_at": "2026-05-28T06:25:12Z",
+  "metadata": {}
+}

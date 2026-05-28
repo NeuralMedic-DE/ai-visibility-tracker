@@ -1,0 +1,9 @@
+{
+  "brand": "Teamtailor",
+  "prompt_id": "CD-03",
+  "llm": "perplexity",
+  "prompt_text": "Which ATS software should a Talent Manager or Head of HR at a mid-market company use?",
+  "response": "For a **mid-market company**, the strongest default choice is **Greenhouse** if you want a structured, data-driven ATS with strong hiring workflows, scorecards, and analytics.[1] If your team also wants built-in CRM-style candidate nurturing, **Lever** is a strong alternative.[1]\n\nIf you want a more modern, mid-market-focused platform with stronger scheduling and analytics, **Ashby** is also worth serious consideration; it is described as a modern ATS for mid-market companies with built-in scheduling and advanced analytics.[2] If your company already uses a broader HRIS and wants the ATS to live inside it, **BambooHR** or **Rippling** can make sense, but they are generally better fits for simpler recruiting needs than for a dedicated recruiting team.[1][3]\n\nA practical shortlist for a Talent Manager or Head of HR at a mid-market company would be:\n\n- **Greenhouse** — best for structured hiring and reporting.[1]\n- **Ashby** — best for modern workflows, scheduling, and analytics.[2]\n- **Lever** — best when ATS + CRM capability matters.[1]\n- **iCIMS** — best if you expect heavier scale and enterprise-style complexity.[1]\n- **BambooHR / Rippling** — best if you want recruiting bundled with HR operations.[1][3]\n\nIf you tell me your priorities, I can narrow this to one recommendation:\n- **structured hiring**\n- **speed and scheduling**\n- **candidate CRM / sourcing**\n- **HRIS integration**\n- **budget sensitivity**",
+  "cached_at": "2026-05-28T06:41:40Z",
+  "metadata": {}
+}

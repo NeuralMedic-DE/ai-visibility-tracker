@@ -1,0 +1,9 @@
+{
+  "brand": "Ashby",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to Greenhouse",
+  "response": "# Cheaper Alternatives to Greenhouse\n\n## Budget-Friendly ATS/HRMS Platforms\n\n### Lightweight ATS Options\n- **Workable** - Affordable for small-mid teams, strong features\n- **Lever** - Competitive pricing with good candidate experience\n- **JazzHR** - Entry-level pricing, good for startups\n- **Hire** - Google's tool, integrates with Google Workspace\n- **Breezy HR** - Simple interface, lower cost tiers\n\n### Free/Nearly Free Options\n- **Odoo** - Open-source, customizable but requires setup\n- **Recruitee** - Free plan available for basic needs\n- **Rippling** - Good for small companies (though not purely ATS)\n\n## Cost-Saving Strategies\n\n| Strategy | Benefit |\n|----------|---------|\n| **Start with free tiers** | Test before committing |\n| **Use separate tools** | Job board, screening, offers separately |\n| **Open-source solutions** | Odoo, OpenCATS (technical setup required) |\n| **LinkedIn + spreadsheets** | Minimal spend for early stage |\n\n## When Greenhouse Is Worth It\n- Complex hiring workflows\n- Multiple departments/locations\n- Need advanced analytics\n- High-volume recruiting\n\n**What's your company size/hiring volume?** That would help narrow recommendations.",
+  "cached_at": "2026-05-28T06:39:23Z",
+  "metadata": {}
+}

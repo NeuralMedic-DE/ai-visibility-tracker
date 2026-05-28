@@ -1,0 +1,9 @@
+{
+  "brand": "Render",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Render integrate with GitHub?",
+  "response": "# Render and GitHub Integration\n\nYes, **Render integrates with GitHub**, and it's one of the primary ways to deploy applications on Render.\n\n## Key Integration Features:\n\n- **Direct GitHub Connection**: You can connect your GitHub account to Render and authorize access to your repositories\n- **Automatic Deployments**: Render automatically deploys your application whenever you push to a specified branch (typically `main` or `master`)\n- **GitHub Actions Alternative**: For many use cases, Render provides a simpler alternative to setting up GitHub Actions\n- **Pull Request Previews**: You can configure Render to create preview environments for pull requests\n- **Easy Setup**: The integration is straightforward—just select your repository during the service creation process\n\n## Other Deployment Methods:\n\nWhile GitHub is the most common, Render also supports:\n- GitLab\n- Bitbucket\n- Manual deployments via CLI\n\n## Basic Workflow:\n\n1. Connect your GitHub account to Render\n2. Select a repository\n3. Configure build and deployment settings\n4. Push code to your connected branch → automatic deployment triggers\n\nThis makes Render a convenient choice if you're already using GitHub for version control.",
+  "cached_at": "2026-05-27T21:38:17Z",
+  "metadata": {}
+}

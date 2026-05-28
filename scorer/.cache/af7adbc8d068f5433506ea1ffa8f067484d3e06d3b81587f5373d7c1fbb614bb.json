@@ -1,0 +1,9 @@
+{
+  "brand": "Neon",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Neon integrate with Vercel?",
+  "response": "Yes. **Neon has official, built-in integrations with Vercel**, available directly from the Vercel Marketplace and Neon dashboard.[1][2][3]\n\nEssential details:\n\n- **Integration types** (from Neon’s docs):  \n  - **Vercel-Managed Integration** – create and manage **Neon databases from the Vercel dashboard** with **unified billing through Vercel**.[1]  \n  - **Neon-Managed Integration** – link an **existing Neon project** to a Vercel project while **keeping billing in Neon**.[1][2]  \n  - Both support **preview branches** (automatic isolated database branches per Vercel preview deployment).[1][2][7]\n\n- **Availability in Vercel**: Neon is listed in the **Vercel Marketplace**, replacing the older Vercel Postgres integration for new users and providing **integrated billing and automated provisioning** from the Vercel dashboard.[3]\n\n- **Usage**:\n  - You can start from **Neon Console → Integrations → Vercel** to link a Neon project to a Vercel project.[2]  \n  - Or start from **Vercel Marketplace**, install Neon, and choose whether to create a new Neon project or link an existing one.[1][2][3]  \n  - There is also a **manual connection** option where you just use the Neon Postgres connection string in Vercel env vars (`DATABASE_URL`).[1][4][5]\n\nSo if you are deploying on Vercel, you can either let Vercel manage Neon for you via the marketplace integration or connect an existing Neon account, both with first-class support for preview deployments.",
+  "cached_at": "2026-05-28T06:19:45Z",
+  "metadata": {}
+}

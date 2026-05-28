@@ -1,0 +1,9 @@
+{
+  "brand": "Humaans",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with automate onboarding and offboarding workflows with zero manual effort at scale?",
+  "response": "# Software for Automated Onboarding/Offboarding\n\nSeveral categories of tools can help automate these workflows:\n\n## Dedicated Workflow Automation\n- **Workato, Zapier, Make (formerly Integromat)** - Visual automation platforms that connect apps and reduce manual tasks\n- **Power Automate** (Microsoft) - Integrates with Microsoft 365 and enterprise apps\n- **n8n** - Open-source alternative for custom workflows\n\n## Identity & Access Management (IAM)\n- **Okta, Azure AD, OneLogin** - Automate user provisioning across systems\n- **JumpCloud** - Directory platform with automated access management\n- **Ping Identity** - Enterprise identity orchestration\n\n## HR-Focused Solutions\n- **Workday** - Enterprise HR with integrated provisioning\n- **SuccessFactors** (SAP) - Automated employee lifecycle management\n- **BambooHR, Namely** - Mid-market HR with workflow automation\n- **Rippling** - Designed specifically to automate IT onboarding alongside HR\n\n## IT Service Management\n- **ServiceNow** - Extensive automation capabilities\n- **Jira Service Management** - Good for tech teams\n- **Freshservice** - More affordable alternative\n\n## Best For \"Zero Manual Effort at Scale\"\n**Rippling** and **Okta** are often cited as strongest for true end-to-end automation because they integrate identity, IT, and HR processes together.\n\n**What's your team size and primary use case?** That would help narrow recommendations.",
+  "cached_at": "2026-05-28T06:48:17Z",
+  "metadata": {}
+}

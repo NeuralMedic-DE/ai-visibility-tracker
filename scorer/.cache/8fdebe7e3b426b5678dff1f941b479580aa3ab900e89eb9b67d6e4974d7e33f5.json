@@ -1,0 +1,9 @@
+{
+  "brand": "Mixpanel",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Mixpanel Slack integration: how does it work?",
+  "response": "# Mixpanel Slack Integration\n\n## Overview\nMixpanel's Slack integration allows you to receive alerts and insights directly in Slack without leaving your workspace.\n\n## Key Features\n\n### 1. **Automated Alerts**\n- Get notified when metrics cross predefined thresholds\n- Set up alerts for events, funnels, and user properties\n- Customize alert frequency and conditions\n\n### 2. **Report Delivery**\n- Schedule recurring reports to Slack channels\n- Share dashboards and insights automatically\n- Get daily/weekly summaries of key metrics\n\n### 3. **Interactive Messages**\n- View charts and metrics directly in Slack\n- Drill down into data without opening Mixpanel\n- Quick access to detailed reports\n\n## How to Set Up\n\n### Basic Steps:\n1. **Connect accounts**: Authorize Mixpanel in Slack workspace\n2. **Select destination**: Choose which Slack channel receives data\n3. **Configure alerts**: Define metrics and thresholds\n4. **Set schedule**: Choose delivery frequency for reports\n\n### Configuration:\n- **Alerts**: Mixpanel dashboard → Settings → Alerts → Slack\n- **Reports**: Create scheduled reports and choose Slack as delivery method\n- **Webhooks**: Use Mixpanel webhooks for custom integrations\n\n## Common Use Cases\n\n- **Real-time monitoring** of critical KPIs\n- **Team notifications** on campaign performance\n- **Daily/weekly digests** of user engagement metrics\n- **Anomaly detection** alerts\n\n## Limitations\n- Requires Slack workspace admin access\n- Some advanced features need Mixpanel paid plan\n- Message formatting has platform constraints\n\nWould you like help setting up a specific type of alert or report?",
+  "cached_at": "2026-05-27T19:15:36Z",
+  "metadata": {}
+}

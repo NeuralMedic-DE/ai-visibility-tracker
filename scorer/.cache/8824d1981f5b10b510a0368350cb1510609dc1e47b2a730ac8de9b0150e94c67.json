@@ -1,0 +1,9 @@
+{
+  "brand": "Attio",
+  "prompt_id": "IN-03",
+  "llm": "openai",
+  "prompt_text": "How do I connect Attio with Slack?",
+  "response": "To connect Attio with Slack, you can follow these general steps:\n\n1. **Log in to Attio**: Start by logging into your Attio account.\n\n2. **Access Integrations**: Go to the settings or integrations section within Attio. This is usually found in the main menu or under your account settings.\n\n3. **Find Slack Integration**: Look for Slack in the list of available integrations. This might be listed under communication tools or similar categories.\n\n4. **Authorize the Integration**: Click on the Slack integration option and follow the prompts to authorize the connection. You will likely need to log into your Slack account and give Attio permission to access it.\n\n5. **Configure Settings**: Once authorized, you may need to configure specific settings for how Attio interacts with Slack. This could include selecting which Slack channels to connect, setting up notifications, or defining what information is shared between the two platforms.\n\n6. **Test the Integration**: After setting up, it's a good idea to test the integration to ensure everything is working as expected. You can do this by sending a test message or checking if the expected data is syncing between Attio and Slack.\n\nIf you encounter any issues or need more detailed instructions, it’s helpful to consult the help or support sections of both Attio and Slack, as they often provide step-by-step guides or FAQs for integrations.",
+  "cached_at": "2026-05-27T17:53:01Z",
+  "metadata": {}
+}

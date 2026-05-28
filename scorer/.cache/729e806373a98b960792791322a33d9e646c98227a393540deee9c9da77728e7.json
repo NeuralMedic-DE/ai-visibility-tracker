@@ -1,0 +1,9 @@
+{
+  "brand": "Make",
+  "prompt_id": "AL-02",
+  "llm": "openai",
+  "prompt_text": "Cheaper alternatives to n8n",
+  "response": "If you're looking for cheaper alternatives to n8n, which is a workflow automation tool, there are several options you might consider:\n\n1. **Integromat (now Make)**: Offers a free tier with limited operations per month and affordable paid plans. It's user-friendly and supports a wide range of integrations.\n\n2. **Zapier**: While it can become expensive at higher tiers, Zapier offers a free plan with limited tasks and is widely used for its extensive app integrations and ease of use.\n\n3. **Automate.io**: Provides a free plan with basic features and affordable paid plans. It supports a variety of apps and is designed for ease of use.\n\n4. **IFTTT (If This Then That)**: Offers a free plan with basic applets and a Pro plan with more features. It's great for simple automations and supports a wide range of services.\n\n5. **Microsoft Power Automate**: Part of the Microsoft Power Platform, it offers a free tier for personal use and is integrated well with Microsoft services.\n\n6. **Pipedream**: Offers a generous free tier and is developer-friendly, allowing you to write custom code for integrations.\n\n7. **Tray.io**: While primarily targeting enterprise users, it offers flexible pricing and powerful automation capabilities.\n\n8. **Node-RED**: An open-source tool that is free to use. It requires more technical knowledge but is highly customizable.\n\nEach of these tools has its own strengths and pricing structures, so the best choice depends on your specific needs and technical expertise.",
+  "cached_at": "2026-05-28T08:53:31Z",
+  "metadata": {}
+}

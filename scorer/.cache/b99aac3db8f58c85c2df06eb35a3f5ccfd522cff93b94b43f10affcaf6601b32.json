@@ -1,0 +1,9 @@
+{
+  "brand": "Make",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Make integrate with Google Sheets?",
+  "response": "Yes. **Make (make.com) has a native integration with Google Sheets** that lets you connect Sheets to your workflows without writing code.[1]  \n\nUsing the **Google Sheets app in Make**, you can:  \n- **Add, update, and delete rows or cells** in a spreadsheet from other apps and automations.[1][2][4]  \n- **Use Google Sheets as a trigger**, for example to start a scenario when a new row is added or a sheet is changed.[1][4][6]  \n- **Visually build workflows** where data flows between Google Sheets and tools like CRMs, project management apps, forms, etc.[1][2][4]  \n\nTo set it up, you add a **Google Sheets module** in a Make scenario, create a connection, sign in with your Google account, grant permissions, and then choose the spreadsheet and sheet tab you want to work with.[2][4]",
+  "cached_at": "2026-05-28T08:55:25Z",
+  "metadata": {}
+}

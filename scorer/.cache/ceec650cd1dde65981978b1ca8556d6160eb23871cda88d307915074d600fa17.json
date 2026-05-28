@@ -1,0 +1,9 @@
+{
+  "brand": "Workable",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Workable integrate with LinkedIn?",
+  "response": "Yes, Workable integrates with LinkedIn. This integration allows users to post jobs directly to LinkedIn from Workable, streamline the recruitment process, and leverage LinkedIn's vast professional network to find and attract candidates. Additionally, users can use LinkedIn's features to enhance candidate sourcing and management within the Workable platform.",
+  "cached_at": "2026-05-28T06:46:06Z",
+  "metadata": {}
+}

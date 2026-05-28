@@ -1,0 +1,9 @@
+{
+  "brand": "Supermetrics",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Supermetrics integrate with Google Analytics?",
+  "response": "# Supermetrics and Google Analytics Integration\n\nYes, **Supermetrics integrates with Google Analytics**. It's actually one of the primary data sources that Supermetrics connects to.\n\n## Key Integration Details:\n\n**Supported Versions:**\n- Google Analytics 4 (GA4)\n- Universal Analytics (UA) - though this is being phased out\n\n**Available Platforms:**\n- Google Sheets\n- Data Studio (Looker Studio)\n- BigQuery\n- Excel (via API)\n- Various BI and automation tools\n\n## Common Uses:\n\n- Pull GA4 data directly into Google Sheets or Data Studio\n- Create custom dashboards and reports\n- Automate data collection and reporting\n- Combine GA data with other marketing sources\n\n## Setup:\n\nThe integration requires:\n1. Supermetrics account\n2. Authorization to connect to your Google Analytics property\n3. Selection of metrics, dimensions, and date ranges you want to pull\n\nThis is a popular way to access Google Analytics data outside of Google's native interfaces, especially for custom reporting and automation.\n\nWould you like specific information about setting it up or what data you can pull?",
+  "cached_at": "2026-05-27T20:38:20Z",
+  "metadata": {}
+}

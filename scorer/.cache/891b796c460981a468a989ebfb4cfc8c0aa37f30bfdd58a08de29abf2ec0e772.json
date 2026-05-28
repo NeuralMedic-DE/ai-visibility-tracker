@@ -1,0 +1,9 @@
+{
+  "brand": "Drata",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Drata with GitHub?",
+  "response": "# Connecting Drata with GitHub\n\nDrata doesn't have a direct native integration with GitHub in the traditional sense. However, here are the ways you can work with both:\n\n## Option 1: Use GitHub for Documentation\n- Store your compliance documentation, policies, and procedures in a GitHub repository\n- Reference or link to GitHub from within Drata's framework\n- Use GitHub's version control to track changes to your compliance materials\n\n## Option 2: Zapier or Automation\n- Use **Zapier** as a middle layer to connect Drata with GitHub\n- Set up automated workflows (e.g., create GitHub issues when Drata tasks are assigned)\n- This requires setting up a Zapier account and configuring the integration\n\n## Option 3: Manual Integration\n- Export data from one platform and import to another as needed\n- Use APIs if you have developer resources\n\n## Best Practice\nFor most compliance purposes, keep your actual compliance work in Drata and use GitHub as a supplementary version control system for related code or documentation.\n\n---\n\n**For the most current integration options**, I'd recommend checking:\n- Drata's official integration marketplace\n- Your Drata account settings under \"Integrations\"\n- Drata's documentation or contacting their support team\n\nIs there a specific workflow or use case you're trying to achieve?",
+  "cached_at": "2026-05-28T08:29:08Z",
+  "metadata": {}
+}

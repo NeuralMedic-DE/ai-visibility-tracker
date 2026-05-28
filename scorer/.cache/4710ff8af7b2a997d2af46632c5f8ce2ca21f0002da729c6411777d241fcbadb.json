@@ -1,0 +1,9 @@
+{
+  "brand": "Linear",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Linear with GitHub?",
+  "response": "# Connecting Linear with GitHub\n\nHere's how to set up the integration:\n\n## 1. **In Linear**\n- Go to **Settings** → **Integrations**\n- Find **GitHub** and click **Connect**\n- You'll be redirected to GitHub to authorize\n\n## 2. **Authorize on GitHub**\n- Review the permissions Linear is requesting\n- Click **Authorize linear-app** (or similar)\n- You'll be redirected back to Linear\n\n## 3. **Configure the Integration**\n- Select which GitHub repositories to sync with Linear\n- Choose how you want issues synced (optional):\n  - Auto-create Linear issues from GitHub issues\n  - Link existing issues\n  - Set up branch/PR syncing\n\n## 4. **Link Issues**\nOnce connected, you can:\n- Mention Linear issues in GitHub PRs/commits (e.g., `LINEAR-123`)\n- Auto-link issues by referencing them\n- Sync issue status between platforms\n\n## Tips\n- Make sure you have admin access to your GitHub repositories\n- You can manage the integration settings anytime in Linear's Integrations page\n- Check Linear's [documentation](https://linear.app/docs) for specific sync options\n\n**Need help with a specific feature?** Let me know what you're trying to accomplish!",
+  "cached_at": "2026-05-27T21:08:57Z",
+  "metadata": {}
+}

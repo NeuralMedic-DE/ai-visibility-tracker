@@ -1,0 +1,9 @@
+{
+  "brand": "Attio",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do B2B startups companies use to manage customer relationships?",
+  "response": "# Key CRM Tools for B2B Startups\n\n## Popular Platforms\n\n**Enterprise-focused:**\n- **Salesforce** – Most comprehensive, but expensive for early-stage\n- **HubSpot** – Strong free tier; good balance of features and affordability\n- **Pipedrive** – Sales pipeline-focused, intuitive interface\n- **Zoho CRM** – Budget-friendly with solid features\n\n**Lightweight/Modern:**\n- **Copper** – Gmail-integrated, minimal setup\n- **Close** – Built for sales teams, call/SMS included\n- **Freshsales** – Affordable with AI features\n\n## Why B2B Startups Choose Specific Tools\n\n| Factor | Best Options |\n|--------|-------------|\n| **Budget constraints** | HubSpot free, Zoho, Freshsales |\n| **Sales-heavy** | Pipedrive, Close |\n| **Integrations needed** | HubSpot, Zapier-compatible options |\n| **Ease of use** | Pipedrive, Copper |\n| **Multi-function** | HubSpot (CRM + email + analytics) |\n\n## Supporting Tools Often Used Together\n- Email integration (Gmail, Outlook)\n- Communication: Slack, email automation\n- Data: LinkedIn Sales Navigator, Hunter\n- Automation: Zapier, Make\n- Analytics: Google Analytics, custom dashboards\n\n## Recommendation Framework\nStart with **HubSpot's free tier** or **Pipedrive** if you're sales-focused. Most startups upgrade gradually as they scale rather than overpaying upfront.\n\nWhat's your startup's primary focus—sales, customer success, or general relationship management?",
+  "cached_at": "2026-05-27T17:54:52Z",
+  "metadata": {}
+}

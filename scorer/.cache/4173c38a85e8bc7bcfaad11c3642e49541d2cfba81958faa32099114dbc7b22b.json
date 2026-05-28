@@ -1,0 +1,9 @@
+{
+  "brand": "Sprinto",
+  "prompt_id": "AL-05",
+  "llm": "anthropic",
+  "prompt_text": "Open source or affordable compliance tools instead of Drata",
+  "response": "# Affordable Compliance Tools & Alternatives to Drata\n\n## Open Source Options\n\n### **Compliance Frameworks**\n- **OpenSCAP** - Security compliance automation (free, NIST/CIS aligned)\n- **Kubernetes Policies** - Open Policy Agent (OPA) for infrastructure compliance\n- **OWASP** tools - Security compliance resources and frameworks\n- **Vuls** - Vulnerability scanner for compliance monitoring\n\n### **Documentation & Audit**\n- **Gitbook** - Free tier for compliance documentation\n- **Standard Notes** - Encrypted documentation\n- **Mediawiki** - Self-hosted compliance wiki\n\n---\n\n## Affordable/Freemium Alternatives\n\n### **Budget-Friendly Compliance Platforms**\n| Tool | Price | Best For |\n|------|-------|----------|\n| **Vanta** | $300+/mo | Lower-cost than Drata alternative |\n| **Secureframe** | $500+/mo | SMB-focused |\n| **Laika** | Self-hosted | Internal audits |\n| **AuditBoard** | Mid-market pricing | Continuous auditing |\n\n### **Specialized Tools**\n- **Snyk** - Dev security compliance (free tier)\n- **Wiz** - Cloud compliance monitoring (free tier)\n- **Tailscale ACLs** - Free network compliance\n- **Supabase** - Self-hosted, GDPR-friendly DB\n\n---\n\n## DIY/Low-Cost Approach\n\n**Build your own with:**\n- Spreadsheets + checklists (Airtable free tier)\n- GitHub Issues for tracking\n- Automated scanning (free tools above)\n- Document templates (compliance.ai, SANS resources)\n\n**Estimated savings:** 50-70% vs. Drata\n\n---\n\nWhat compliance standard are you targeting (SOC 2, ISO 27001, HIPAA, GDPR)?",
+  "cached_at": "2026-05-28T08:31:22Z",
+  "metadata": {}
+}

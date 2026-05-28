@@ -1,0 +1,9 @@
+{
+  "brand": "ActiveCampaign",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Klaviyo vs alternatives: what should I switch to?",
+  "response": "# Klaviyo Alternatives: Quick Comparison\n\nYour best alternatives depend on what's frustrating you about Klaviyo. Here are the main contenders:\n\n## **If pricing is the issue:**\n- **Brevo** (formerly Sendinblue) – cheapest option, free tier available\n- **Mailchimp** – free plan, but limited automation\n- **ConvertKit** – better for creators/newsletters\n\n## **If you want similar power at lower cost:**\n- **Klaviyo alternative**: Check if you're actually using advanced segmentation/flows\n- **ActiveCampaign** – good middle ground on price/features\n- **HubSpot** – free CRM + email, grows with you\n\n## **If you need Klaviyo's strengths elsewhere:**\n- **Attentive/SMS** – if you want better SMS/push notification focus\n- **Klaviyo competitors** like **Klayvio, Omnisend** – specifically built for Shopify/ecommerce\n- **Segment + email tool combo** – if you need better data control\n\n## **Real questions to ask first:**\n1. What's actually costing you? (Often overages, not base plan)\n2. Are you using Klaviyo's AI features or just basic campaigns?\n3. Is it feature gaps or just budget?\n\n**Honest take:** Many people switching from Klaviyo find they're paying for features they don't use. Audit your needs before switching—migration is painful.\n\nWhat's your main frustration with Klaviyo?",
+  "cached_at": "2026-05-28T07:23:36Z",
+  "metadata": {}
+}

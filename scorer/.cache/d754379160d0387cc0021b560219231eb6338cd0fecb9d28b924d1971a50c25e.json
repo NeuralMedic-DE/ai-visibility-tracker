@@ -1,0 +1,9 @@
+{
+  "brand": "Mixpanel",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to PostHog",
+  "response": "# Cheaper Alternatives to PostHog\n\n## Open-Source Options (Free/Self-Hosted)\n- **Plausible Analytics** - Privacy-focused, simpler than PostHog\n- **Matomo** - Self-hosted Google Analytics alternative\n- **Open Web Analytics** - Lightweight, self-hosted\n- **Fathom Analytics** - Privacy-first, affordable SaaS (~$15/mo)\n\n## Lighter-Weight Paid Tools\n- **Mixpanel** - Similar feature set, often cheaper at lower volumes\n- **Amplitude** - Free tier available, scales better for growth\n- **Segment** - CDP alternative (not analytics-focused but complementary)\n- **Heap** - Automatic event capture, free tier available\n\n## Budget-Friendly Options\n- **Google Analytics 4** - Free (limited features vs PostHog)\n- **Metabase** - Open-source BI/analytics tool (~$25/mo for hosting)\n- **Piwik PRO** - European alternative, competitive pricing\n- **Woopra** - Real-time analytics, good value at scale\n\n## When to Consider Each\n| Tool | Best For |\n|------|----------|\n| **Plausible** | Privacy + simplicity over depth |\n| **Amplitude** | Product teams needing free tier |\n| **Matomo** | Full control + self-hosting |\n| **GA4** | Basic tracking without much spend |\n\n## Cost Factors\nPostHog pricing is based on tracked events. Cheaper alternatives often:\n- Have smaller feature sets\n- Charge by sessions instead of events\n- Offer generous free tiers\n- Are self-hosted (one-time cost vs SaaS)\n\n**What's your primary use case?** That would help narrow down the best fit.",
+  "cached_at": "2026-05-27T19:14:33Z",
+  "metadata": {}
+}

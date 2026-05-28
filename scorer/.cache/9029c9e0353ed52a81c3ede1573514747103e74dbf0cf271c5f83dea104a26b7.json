@@ -1,0 +1,9 @@
+{
+  "brand": "Teamtailor",
+  "prompt_id": "CM-03",
+  "llm": "perplexity",
+  "prompt_text": "Teamtailor vs Lever for mid-market companies with active employer branding programs",
+  "response": "For **mid-market companies with active employer branding programs**, **Teamtailor** is usually the better fit because it is explicitly positioned around **employer branding, candidate UX, and career-site design**.[1][2][3] **Lever** is the stronger choice when the priority is **sourcing/CRM workflow depth, structured recruiting operations, and outbound-heavy hiring**, rather than branding-led candidate attraction.[1][4][7]\n\n- **Choose Teamtailor** if your hiring strategy depends on a polished employer brand, customizable career pages, and a candidate-first experience.[1][2][5]\n- **Choose Lever** if your team needs stronger recruiter workflow rigor and sourcing/CRM capabilities and branding is not the primary differentiator.[1][4][7]\n- For **mid-market scale**, both can fit, but Teamtailor appears more purpose-built for companies using recruiting as a marketing function, while Lever is more ops/sourcing oriented.[1][2][4]\n\nA practical way to decide:\n- If your team regularly runs campaigns, cares about conversion from career site traffic, and wants recruiting to reinforce brand perception, **Teamtailor** is the more aligned product.[1][2][8]\n- If your team values pipeline management, recruiter efficiency, and outbound sourcing more than branded career-site experiences, **Lever** is likely the better operational tool.[1][4][7]\n\nIf you want, I can also provide a **side-by-side comparison table** for **Teamtailor vs Lever** across branding, ATS depth, sourcing, integrations, analytics, and likely implementation fit for mid-market teams.",
+  "cached_at": "2026-05-28T06:42:01Z",
+  "metadata": {}
+}

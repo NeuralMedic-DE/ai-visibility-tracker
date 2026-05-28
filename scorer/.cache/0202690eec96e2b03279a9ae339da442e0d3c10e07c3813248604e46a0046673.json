@@ -1,0 +1,9 @@
+{
+  "brand": "Hightouch",
+  "prompt_id": "IN-04",
+  "llm": "anthropic",
+  "prompt_text": "Best reverse ETL that works with Salesforce and HubSpot",
+  "response": "# Best Reverse ETL Tools for Salesforce & HubSpot\n\n## Top Recommendations\n\n### **1. Hightouch** ⭐ Best Overall\n- **Strengths**: Excellent Salesforce/HubSpot support, intuitive UI, strong activation features\n- **Best for**: Marketing ops and revenue teams\n- **Pricing**: Freemium model available\n- **Key feature**: Pre-built templates for common use cases\n\n### **2. Census** ⭐ Strong Alternative\n- **Strengths**: SQL-based transformations, reliable sync, great data governance\n- **Best for**: Data teams preferring SQL control\n- **Pricing**: Usage-based with free tier\n- **Key feature**: dbt integration, comprehensive audit logs\n\n### **3. Rudderstack** ⭐ Open-Source Option\n- **Strengths**: Open-source alternative, flexible, good for custom needs\n- **Best for**: Teams wanting self-hosted or customization\n- **Pricing**: Free tier + enterprise\n- **Key feature**: CDP capabilities built-in\n\n### **4. Segment** (Engage)\n- **Strengths**: Broad integrations, audience building\n- **Best for**: Marketing-focused teams\n- **Limitation**: Higher pricing, more CDP-focused than pure reverse ETL\n\n## Quick Comparison\n\n| Tool | Ease of Use | SQL Support | Pricing | Best For |\n|------|-----------|-----------|--------|----------|\n| **Hightouch** | ⭐⭐⭐⭐⭐ | Yes | Affordable | Quick setup |\n| **Census** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | Flexible | Data teams |\n| **Rudderstack** | ⭐⭐⭐ | Yes | Cost-effective | Custom/self-hosted |\n\n## Selection Criteria\n- **Non-technical users?** → Hightouch\n- **Complex transformations?** → Census\n- **Budget-conscious?** → Rudderstack\n- **Already using dbt?** → Census\n\n**My recommendation**: Start with **Hightouch** for most teams—fastest ROI and easiest implementation.",
+  "cached_at": "2026-05-28T09:05:50Z",
+  "metadata": {}
+}

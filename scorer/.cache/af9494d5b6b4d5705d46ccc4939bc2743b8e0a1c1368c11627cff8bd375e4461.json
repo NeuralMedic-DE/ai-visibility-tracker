@@ -1,0 +1,9 @@
+{
+  "brand": "Helicone",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is Helicone better than Portkey for debug and replay failed LLM calls with full request logging and history?",
+  "response": "# Helicone vs Portkey for LLM Debugging & Replay\n\nNeither is objectively \"better\"—they have different strengths:\n\n## **Helicone's Advantages**\n- **Better request logging detail** - captures more granular request/response data\n- **Stronger replay capabilities** - easier to re-run failed calls with exact parameters\n- **Cleaner UI** for historical analysis\n- **Good cost tracking** alongside debugging\n\n## **Portkey's Advantages**\n- **Superior failover/routing** - goes beyond just debugging (automatic fallback providers)\n- **More robust retry logic** - built-in intelligent retries, not just replay\n- **Better for production resilience** - handles issues proactively, not just retrospectively\n- **Gateway-like features** - request moderation, caching, load balancing\n\n## **For Your Specific Use Case**\n\nIf you want **pure debugging + replay of failed calls**:\n- **Helicone leans slightly ahead** - more straightforward for this\n\nIf you want **debugging + preventing failures in the first place**:\n- **Portkey is stronger** - better for production robustness\n\n## **Practical Recommendation**\n- **Start with Helicone** if you just need logging/debugging\n- **Use Portkey** if you need both debugging AND reliability features (failovers, retries, caching)\n- Consider **both** if budget allows—they complement each other\n\nWhat's your primary pain point—investigating past failures or preventing future ones?",
+  "cached_at": "2026-05-28T07:49:34Z",
+  "metadata": {}
+}

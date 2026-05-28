@@ -1,0 +1,9 @@
+{
+  "brand": "LangChain",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does LangChain integrate with OpenAI?",
+  "response": "Yes, LangChain integrates with OpenAI. LangChain provides tools and interfaces to work with OpenAI's language models, allowing you to build applications that leverage the capabilities of these models. You can use LangChain to manage interactions with OpenAI's APIs, handle prompt engineering, and streamline the integration of OpenAI's models into your projects.",
+  "cached_at": "2026-05-28T07:40:02Z",
+  "metadata": {}
+}

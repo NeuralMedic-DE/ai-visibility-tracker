@@ -1,0 +1,9 @@
+{
+  "brand": "Nutshell",
+  "prompt_id": "UC-04",
+  "llm": "anthropic",
+  "prompt_text": "How can a sales manager at an SMB manage leads and track pipeline progress more efficiently?",
+  "response": "# Efficient Lead & Pipeline Management for SMBs\n\n## Core Systems to Set Up\n\n**CRM fundamentals**\n- Choose one accessible platform (HubSpot Free, Pipedrive, or Zoho are SMB-friendly)\n- Define clear pipeline stages matching your actual sales cycle\n- Make data entry mandatory but simple—only essential fields\n\n**Automation to save time**\n- Auto-assign leads by territory or product\n- Set reminders for follow-ups\n- Trigger status updates based on actions (email opened, meeting scheduled)\n\n## Tracking That Actually Works\n\n**Weekly discipline**\n- 15-minute pipeline reviews identifying stalled deals\n- Consistent forecasting based on deal probability, not hope\n- Flag deals needing attention early rather than reacting at month-end\n\n**Key metrics to monitor**\n- Win rate by rep and deal size\n- Sales cycle length (identify bottlenecks)\n- Lead source quality (spend where conversion is highest)\n\n## Practical Workflow Tips\n\n- **Batch CRM updates** rather than continuous logging\n- **Use templates** for common follow-ups (emails, calls)\n- **Segment leads** by quality so reps focus on viable prospects\n- **Hold reps accountable** to daily lead activity, not just results\n\n## Common SMB Mistakes to Avoid\n\n- Switching tools constantly (pick one and commit)\n- Overcomplicating pipeline stages\n- Tracking activity without connecting it to outcomes\n\n**What's your biggest current bottleneck?** That usually reveals where to start.",
+  "cached_at": "2026-05-27T18:34:15Z",
+  "metadata": {}
+}

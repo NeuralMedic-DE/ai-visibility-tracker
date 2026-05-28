@@ -1,0 +1,9 @@
+{
+  "brand": "Raycast",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Raycast integrate with Slack?",
+  "response": "Yes, Raycast does integrate with Slack. Raycast offers an extension that allows you to interact with Slack directly from the Raycast interface. This integration can enable you to quickly send messages, search for conversations, and perform other Slack-related tasks without leaving Raycast. You can find and install this extension from the Raycast Store within the app.",
+  "cached_at": "2026-05-28T06:25:21Z",
+  "metadata": {}
+}

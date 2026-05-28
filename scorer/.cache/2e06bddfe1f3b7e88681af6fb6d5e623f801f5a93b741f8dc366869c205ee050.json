@@ -1,0 +1,9 @@
+{
+  "brand": "Pendo",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is Pendo better than Mixpanel for track feature adoption and measure NPS?",
+  "response": "# Pendo vs Mixpanel for Feature Adoption & NPS\n\nNeither is clearly \"better\"—they're optimized differently:\n\n## Pendo's Strengths\n- **Feature adoption**: Built-in UI tagging and heat mapping make tracking feature usage intuitive\n- **NPS surveys**: Native NPS tools with contextual targeting (ask specific user segments at relevant moments)\n- **In-app guidance**: Can pair adoption metrics with in-app tips/walkthroughs\n- **User segmentation**: Strong for correlating adoption with user attributes\n\n## Mixpanel's Strengths\n- **Deeper analytics**: More flexible event-based tracking and funnel analysis\n- **Behavioral cohorts**: Better for identifying *why* adoption happens\n- **Data export**: Easier to pipe data to other tools if needed\n- **Lower cost** at smaller scales\n\n## Key Differences\n| Use Case | Pendo | Mixpanel |\n|----------|-------|----------|\n| **Quick NPS setup** | ✅ Better | ⏱️ Requires custom events |\n| **Adoption tracking** | ✅ Easier visual tagging | Requires engineering |\n| **Complex analysis** | Simpler | ✅ More flexible |\n\n## Reality Check\n- If you want **zero-engineering NPS surveys** → Pendo\n- If you need **deep behavioral data** or already have analytics → Mixpanel\n- Many teams use **both** (Pendo for surface-level adoption, Mixpanel for deeper insights)\n\n**What's your current setup?** That would help narrow down what makes sense.",
+  "cached_at": "2026-05-27T19:47:43Z",
+  "metadata": {}
+}

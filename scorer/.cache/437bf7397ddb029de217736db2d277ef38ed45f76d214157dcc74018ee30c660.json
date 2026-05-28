@@ -1,0 +1,9 @@
+{
+  "brand": "Reply.io",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I automate email LinkedIn and call sequences for outbound sales workflows without spending a lot on software?",
+  "response": "# Low-Cost Automation for Outbound Sales\n\n## Free/Cheap Tools to Combine\n\n**Email sequences:**\n- Google Sheets + Zapier (500 tasks/month free) to trigger emails via Gmail or a free tier mail service\n- Brevo (Sendinblue) - free tier with basic automation\n- Mailchimp - limited but functional free version\n\n**LinkedIn outreach:**\n- LinkedIn Sales Navigator ($65/mo) + manual scheduling or simple Google Sheets tracking\n- Hunter.io or RocketReach (free tiers) to find emails, then use email sequences above\n- Most \"automation\" here is templates + personal touches to avoid detection\n\n**Call sequences:**\n- Calendly (free) for scheduling callbacks\n- Google Voice for local presence number\n- Track manually in Sheets or use free CRM (see below)\n\n## Cheapest Real Workflow\n\n1. **Find prospects** → Hunter.io or manual LinkedIn\n2. **Track in Google Sheets** → columns for status, dates, notes\n3. **Automate emails** → Zapier → Gmail or Brevo (trigger by date, auto-add delays)\n4. **LinkedIn touches** → Manual but templated (5 min per person)\n5. **Calls** → Schedule via Calendly, track in Sheets\n\n## Better Free CRM Alternative\n- **HubSpot** (genuinely free tier) or **Pipedrive** (14-day trial renewable with tricks)\n- These have built-in email/call logging, deal tracking, and basic automation\n\n**Reality check:** You'll spend ~5-10 hours setting this up, but it scales to 50-100 contacts/week without paid software.\n\nWhat's your main bottleneck—finding prospects, staying consistent with follow-ups, or tracking conversations?",
+  "cached_at": "2026-05-28T07:21:22Z",
+  "metadata": {}
+}

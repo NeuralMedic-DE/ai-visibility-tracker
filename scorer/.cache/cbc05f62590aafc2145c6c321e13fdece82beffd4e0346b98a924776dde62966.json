@@ -1,0 +1,9 @@
+{
+  "brand": "Nudge Security",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do IT and security teams at mid-market companies managing SaaS sprawl companies use to discover all SaaS apps used across your company without deploying agents?",
+  "response": "# SaaS Discovery Tools for Agent-Free Environments\n\n## Network-Based Discovery (No Agent Required)\n\n**Proxy/Firewall Integration**\n- Zscaler, Palo Alto Networks Prisma Access, Fortinet FortiGate\n- Capture DNS queries and SSL/TLS certificate inspection at the gateway\n- Works across all connected devices without endpoint deployment\n\n**DNS Log Analysis**\n- Cisco Umbrella, OpenDNS\n- Parse DNS query logs to identify SaaS domains\n- Good coverage but misses encrypted/VPN traffic\n\n## API-Based Cloud Detection\n\n**Cloud Access Security Brokers (CASB)**\n- Microsoft Defender for Cloud Apps\n- Netskope\n- Leverage API integrations with major cloud providers to see actual usage\n- Often the most accurate for identifying *active* subscriptions\n\n**SSO/Identity Provider Analysis**\n- Okta, Azure AD/Entra ID logs\n- Shows who's accessing what and when\n- Requires SSO adoption; won't catch non-SSO apps\n\n## Hybrid Approaches\n\n**Network + User Surveys**\n- Combine passive network monitoring with lightweight questionnaires\n- Tools like Zylo or Blissfully combine multiple data sources\n- Reduces blind spots in either approach\n\n## The Reality Check\n\n**What actually works best:**\n- **Combination approach** – no single method catches everything (employees using personal payment methods, shadow IT, VPNs)\n- **DNS + CASB** is a common starting point\n- **SSO logs** are gold if you have decent SSO adoption\n\n**Biggest gap:** Apps accessed via VPN or on unmanaged devices often stay invisible.\n\nWhat's your current visibility baseline? That shapes which tools make most sense.",
+  "cached_at": "2026-05-28T08:38:52Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Mailmodo",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Mailmodo integrate with Zapier?",
+  "response": "Yes, Mailmodo integrates with Zapier. This integration allows you to automate workflows by connecting Mailmodo with various other apps and services available on Zapier. You can set up triggers and actions to streamline your email marketing processes and enhance productivity.",
+  "cached_at": "2026-05-28T07:35:15Z",
+  "metadata": {}
+}

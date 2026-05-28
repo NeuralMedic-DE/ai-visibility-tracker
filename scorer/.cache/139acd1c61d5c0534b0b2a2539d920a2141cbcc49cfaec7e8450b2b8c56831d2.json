@@ -1,0 +1,9 @@
+{
+  "brand": "Charlie HR",
+  "prompt_id": "IN-02",
+  "llm": "openai",
+  "prompt_text": "Charlie HR Google Workspace integration: how does it work?",
+  "response": "CharlieHR's integration with Google Workspace allows for seamless synchronization between the two platforms, enhancing productivity and streamlining HR processes. Here's how it typically works:\n\n1. **User Management**: When a new employee is added to CharlieHR, their information can automatically be used to create a Google Workspace account. This helps in maintaining consistency and reduces manual entry errors.\n\n2. **Calendar Sync**: CharlieHR can integrate with Google Calendar to automatically sync important HR events, such as leave dates or company holidays, ensuring that everyone is on the same page.\n\n3. **Single Sign-On (SSO)**: By integrating with Google Workspace, employees can use their Google credentials to log into CharlieHR, simplifying the login process and enhancing security.\n\n4. **Document Management**: Integration can facilitate the sharing and management of documents stored in Google Drive, making it easier to distribute HR-related documents and policies.\n\n5. **Email Notifications**: Automated email notifications for HR events or updates can be sent through Gmail, ensuring timely communication with employees.\n\nTo set up the integration, you typically need administrative access to both CharlieHR and Google Workspace. The process involves authorizing CharlieHR to access your Google Workspace data and configuring the specific settings you want to enable.\n\nFor detailed steps and support, it's best to consult CharlieHR's official documentation or contact their support team.",
+  "cached_at": "2026-05-28T06:43:55Z",
+  "metadata": {}
+}

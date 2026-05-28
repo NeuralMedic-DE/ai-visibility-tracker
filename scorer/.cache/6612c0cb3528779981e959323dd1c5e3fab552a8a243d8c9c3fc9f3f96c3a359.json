@@ -1,0 +1,9 @@
+{
+  "brand": "Baremetrics",
+  "prompt_id": "AL-05",
+  "llm": "anthropic",
+  "prompt_text": "Open source or affordable SaaS analytics tools instead of ProfitWell",
+  "response": "# Analytics Tools Alternatives to ProfitWell\n\n## Open Source Options\n\n### **Metabase**\n- Free, self-hosted business intelligence\n- Good for dashboards and data exploration\n- Minimal setup for basic metrics\n- Works with most databases\n\n### **Superset (Apache)**\n- Modern, web-based visualization\n- Strong charting capabilities\n- Steeper learning curve than Metabase\n- Good for technical teams\n\n### **Plausible / Fathom**\n- Privacy-focused web analytics\n- Lighter alternative for website metrics\n- Not SaaS metrics-specific, but useful for traffic\n\n---\n\n## Affordable SaaS ($0-100/mo)\n\n### **Stripe's Native Dashboards**\n- Free if you use Stripe\n- Basic revenue metrics, churn tracking\n- Limited but sufficient for early-stage\n\n### **Baremetrics**\n- ~$50-150/mo\n- Built specifically for subscription metrics\n- Lifetime value, churn, MRR dashboards\n- Integrates with Stripe, Shopify, PayPal\n\n### **Chartmogul**\n- ~$50/mo starter tier\n- Subscription analytics focused\n- Clean reporting, good integrations\n- Better for multi-currency businesses\n\n### **Paddle Analytics**\n- Free tier available\n- Built-in if using Paddle for payments\n- Basic cohort and retention data\n\n### **Plaid Dash** / **Arcane**\n- Lightweight, lower cost options\n- Emerging alternatives with better pricing\n\n---\n\n## Budget Approach\n\n1. **Start free**: Stripe dashboards + Google Sheets\n2. **Scale to $50-100**: Baremetrics or Chartmogul\n3. **Self-host if technical**: Metabase + data warehouse\n\nWhat metrics are most critical for your business?",
+  "cached_at": "2026-05-28T06:57:39Z",
+  "metadata": {}
+}

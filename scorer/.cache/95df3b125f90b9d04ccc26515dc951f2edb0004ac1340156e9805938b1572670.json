@@ -1,0 +1,9 @@
+{
+  "brand": "Intercom",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do SaaS customer success and support teams managing high volumes of customer conversations companies use to manage all customer conversations in one unified inbox across chat email and social?",
+  "response": "# Popular Unified Inbox Tools for SaaS Customer Success Teams\n\n## Market Leaders\n\n**Zendesk**\n- Most established player for high-volume support\n- Consolidates email, chat, social, and phone\n- Strong reporting and automation features\n- Scalable but can be pricey at volume\n\n**Intercom**\n- Built for product-embedded customer communication\n- Combines messaging, support, and product tours\n- Strong for engagement-focused teams\n- Pricing scales with conversation volume\n\n**Freshdesk/Freshworks**\n- More affordable option for mid-market\n- Good omnichannel coverage\n- AI-powered insights and automation\n- Simplified interface\n\n**HubSpot Service Hub**\n- Integrates with broader CRM platform\n- Good for teams already in HubSpot ecosystem\n- Includes ticketing, knowledge base, and workflows\n- Competitive pricing tiers\n\n## Lighter-Weight Alternatives\n\n- **Front** - Email-focused with team collaboration\n- **Slack** (with integrations) - For chat-native teams\n- **Gorgias** - E-commerce focused\n- **Kustomer** - Consumer-grade support\n- **Drift** - Conversational AI focused\n\n## Key Selection Factors\n\n- **Volume pricing** (per agent vs. per conversation)\n- **Integration needs** (your existing tech stack)\n- **Automation capabilities** (routing, triage)\n- **Reporting requirements** (success metrics)\n- **Customer context** (need CRM integration?)\n\nWhat's your team size and current tech stack? That would help narrow recommendations.",
+  "cached_at": "2026-05-28T08:01:53Z",
+  "metadata": {}
+}

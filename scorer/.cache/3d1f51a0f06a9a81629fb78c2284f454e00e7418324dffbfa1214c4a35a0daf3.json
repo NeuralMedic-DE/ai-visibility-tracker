@@ -1,0 +1,9 @@
+{
+  "brand": "LangChain",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to Haystack",
+  "response": "# Cheaper Alternatives to Haystack\n\n## **Vector Databases & RAG Frameworks**\n\n### **Open Source (Free)**\n- **LlamaIndex** - More flexible than Haystack for custom pipelines\n- **LangChain** - Broader ecosystem, good documentation\n- **RAG4j** - Java-focused RAG framework\n- **Infinity** - Self-hosted vector search\n\n### **Self-Hosted (Lower Cost)**\n- **Milvus** - Open-source vector DB, minimal infrastructure costs\n- **Weaviate Community** - Free version with good performance\n- **Qdrant** - Affordable self-hosted option\n- **Chroma** - Simple, embeddable vector store\n\n### **Cloud-Native Budget Options**\n| Service | Starting Price | Notes |\n|---------|----------------|-------|\n| **Pinecone Starter** | Free tier | 1M vectors free |\n| **Supabase pgvector** | $5/month | PostgreSQL + vectors |\n| **SingleStore** | Free tier | SQL + vector support |\n| **Typesense** | Free/self-host | Fast search, cheaper storage |\n\n## **Cost Optimization Tips**\n- Use **smaller embeddings models** (e.g., all-MiniLM-L6-v2)\n- Choose **local LLMs** instead of API calls (Ollama, LM Studio)\n- Implement **caching** and **batching** strategies\n- Use **managed vector DBs** with free tiers during development\n\n**What's your primary use case?** (Customer support, search, document QA?) I can suggest more specific alternatives.",
+  "cached_at": "2026-05-28T07:39:48Z",
+  "metadata": {}
+}

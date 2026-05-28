@@ -1,0 +1,9 @@
+{
+  "brand": "Vitally",
+  "prompt_id": "AL-02",
+  "llm": "openai",
+  "prompt_text": "Cheaper alternatives to Gainsight",
+  "response": "If you're looking for cheaper alternatives to Gainsight for customer success management, there are several options you might consider:\n\n1. **Totango**: Offers a free version with basic features and paid plans that are generally more affordable than Gainsight.\n\n2. **ChurnZero**: Focuses on customer success and engagement, often at a lower price point.\n\n3. **ClientSuccess**: Provides a straightforward platform for managing customer relationships and is typically more budget-friendly.\n\n4. **Planhat**: Offers flexible pricing and a comprehensive set of tools for customer success.\n\n5. **UserIQ**: Combines customer success with product analytics and is known for competitive pricing.\n\n6. **Custify**: Designed for SaaS businesses, it offers a range of features at a lower cost.\n\n7. **Help Scout**: While primarily a help desk solution, it includes features that can be used for customer success at a lower price.\n\n8. **Zendesk**: Known for its customer support capabilities, it also offers tools for customer success and engagement.\n\nWhen choosing an alternative, consider the specific features you need, your budget, and how well the tool integrates with your existing systems.",
+  "cached_at": "2026-05-28T08:09:27Z",
+  "metadata": {}
+}

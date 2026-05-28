@@ -1,0 +1,9 @@
+{
+  "brand": "Stonly",
+  "prompt_id": "IN-05",
+  "llm": "openai",
+  "prompt_text": "knowledge management tools with native Intercom integration",
+  "response": "If you're looking for knowledge management tools that offer native integration with Intercom, here are a few options:\n\n1. **Guru**: Guru is a knowledge management tool that integrates seamlessly with Intercom. It allows you to capture, organize, and share knowledge directly within Intercom, making it easy for support teams to access the information they need while interacting with customers.\n\n2. **Notion**: Notion is a versatile tool that can be used for knowledge management and integrates with Intercom. You can use Notion to create a knowledge base and link it with Intercom to provide quick access to relevant information.\n\n3. **Zendesk**: While primarily a customer service platform, Zendesk offers a knowledge base feature and integrates with Intercom. This allows you to sync help articles and other resources between the two platforms.\n\n4. **Confluence**: Developed by Atlassian, Confluence is a robust knowledge management tool that can be integrated with Intercom using third-party connectors. It helps teams collaborate and share knowledge effectively.\n\n5. **HelpDocs**: HelpDocs is a knowledge base software that integrates with Intercom. It allows you to create and manage help documentation that can be accessed directly from Intercom's interface.\n\nThese tools can help streamline your support processes by ensuring that your team has easy access to the information they need when communicating with customers through Intercom.",
+  "cached_at": "2026-05-28T08:22:07Z",
+  "metadata": {}
+}

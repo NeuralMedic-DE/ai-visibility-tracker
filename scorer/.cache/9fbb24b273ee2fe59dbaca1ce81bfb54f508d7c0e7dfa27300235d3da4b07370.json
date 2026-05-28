@@ -1,0 +1,9 @@
+{
+  "brand": "Reply.io",
+  "prompt_id": "CM-02",
+  "llm": "anthropic",
+  "prompt_text": "Reply.io vs Outreach pricing and features",
+  "response": "# Reply.io vs Outreach: Pricing & Features Comparison\n\n## **Pricing**\n\n| Feature | Reply.io | Outreach |\n|---------|----------|----------|\n| **Entry Level** | ~$40-50/user/month | Custom pricing (typically $1,000+/month) |\n| **Best For** | SMBs, startups | Enterprise |\n| **Trial** | 14 days free | Demo/custom trial |\n\n## **Key Features**\n\n### **Reply.io**\n✅ **Strengths:**\n- Email sequencing & automation\n- Multi-channel (email, LinkedIn, calls)\n- Built-in email verification\n- Sales engagement platform\n- AI features for personalization\n- Affordable pricing\n- Ease of use\n\n❌ **Limitations:**\n- Smaller feature set than Outreach\n- Less robust reporting\n- Limited CRM integration\n\n### **Outreach**\n✅ **Strengths:**\n- Enterprise-grade platform\n- Advanced AI & insights\n- Deeper CRM integration\n- Comprehensive analytics\n- Deal management\n- Team coaching tools\n- Mobile app\n\n❌ **Limitations:**\n- Expensive\n- Steeper learning curve\n- Overkill for small teams\n\n## **Best For:**\n\n| Choose Reply.io if: | Choose Outreach if: |\n|-------------------|-------------------|\n| Budget-conscious | Enterprise budget |\n| 1-50 person team | 50+ person team |\n| Want ease-of-use | Need advanced analytics |\n| Starting out | Mature sales ops |\n\n**Bottom line:** Reply.io = great value for small teams; Outreach = premium enterprise solution.",
+  "cached_at": "2026-05-28T07:21:07Z",
+  "metadata": {}
+}

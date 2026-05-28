@@ -1,0 +1,9 @@
+{
+  "brand": "Chargebee",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Stripe Billing vs alternatives: what should I switch to?",
+  "response": "# Stripe Billing vs Alternatives\n\n## Quick comparison framework\n\n**Stay with Stripe if:**\n- You need strong developer experience and API flexibility\n- You're already using Stripe's ecosystem\n- You want integration with Stripe's other products\n- Your needs are fairly standard\n\n**Consider switching if:**\n- Stripe's pricing feels high (2.9% + $0.30 per transaction)\n- You need specialized features (usage-based, complex prorations, etc.)\n- You want better UX for customers or internal teams\n- You need white-label capabilities\n\n## Realistic alternatives\n\n| Solution | Best for | Key trade-off |\n|----------|----------|---------------|\n| **Paddle** | SaaS with better margins | Less API flexibility than Stripe |\n| **Chargebee** | Complex billing logic | More expensive upfront; steeper learning curve |\n| **Supabase Billing** (via Stripe) | Lower-cost startups | Still uses Stripe under the hood |\n| **RevenueCat** | Mobile/subscription apps | Mobile-focused; less general-purpose |\n| **Zuora** | Enterprise complexity | Enterprise pricing; overkill for most |\n\n## Real considerations\n\n**Most teams don't actually switch** because:\n- Migration costs are significant (engineering time, customer communication)\n- Stripe's APIs are genuinely well-designed\n- Switching doesn't usually solve the real problem (margin pressure, feature gaps)\n\n**Better questions to ask:**\n- Is it really Stripe's cost, or do I need to adjust pricing?\n- Is this a billing feature gap or a product strategy issue?\n- How much engineering time will migration take vs. building missing features?\n\nWhat's driving your consideration? The answer usually matters more than the platform itself.",
+  "cached_at": "2026-05-28T06:50:43Z",
+  "metadata": {}
+}

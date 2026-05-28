@@ -1,0 +1,9 @@
+{
+  "brand": "Supermetrics",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with automate marketing reporting across all channels at scale?",
+  "response": "# Marketing Automation & Reporting Software\n\n## Full-Stack Platforms\n- **HubSpot** – Integrates CRM, email, social, and analytics with built-in reporting\n- **Marketo** (Adobe) – Enterprise marketing automation with custom dashboards\n- **Pardot** (Salesforce) – B2B-focused with integrated reporting\n- **ActiveCampaign** – Mid-market automation with multi-channel tracking\n\n## Data & Analytics Focused\n- **Google Data Studio** – Free, connects multiple data sources with customizable dashboards\n- **Tableau** – Powerful visualization across all channels\n- **Looker** – Advanced analytics and automated reporting\n- **Power BI** – Microsoft ecosystem integration\n\n## Channel-Specific + Aggregation\n- **Sprout Social** – Social media + reporting at scale\n- **Supermetrics** – Pulls data from 100+ marketing platforms into one dashboard\n- **Funnelytics** – Visual funnel tracking across channels\n- **Triple Whale** – Real-time multi-channel metrics\n\n## Best for Scale\nIf you need to aggregate *all* channels, **Supermetrics + Data Studio/Looker** is a cost-effective combo, while **HubSpot** or **Marketo** work best if you want integrated automation + reporting.\n\n**What channels are you primarily tracking?** That would help narrow down the best fit.",
+  "cached_at": "2026-05-27T20:38:16Z",
+  "metadata": {}
+}

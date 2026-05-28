@@ -1,0 +1,9 @@
+{
+  "brand": "Prefect",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Prefect integrate with Python?",
+  "response": "Yes. **Prefect is built as a native Python framework**, so you use it directly from Python code and run your flows as standard Python programs.[1][5]\n\nEssential details:\n\n- Prefect is described as a workflow orchestration framework for building data pipelines **in Python**.[1][5]  \n- You install it as a normal Python package (e.g., `pip install -U prefect`) and write flows/tasks using Python decorators like `@flow` and `@task` on regular Python functions.[1]  \n- Prefect requires **Python 3.10+** and is positioned as “the standards for Python automation,” emphasizing its tight integration with the Python ecosystem.[1][5]  \n\nSo if you are working in Python, Prefect integrates directly—your workflows are just Python code using Prefect’s API.",
+  "cached_at": "2026-05-28T09:12:55Z",
+  "metadata": {}
+}

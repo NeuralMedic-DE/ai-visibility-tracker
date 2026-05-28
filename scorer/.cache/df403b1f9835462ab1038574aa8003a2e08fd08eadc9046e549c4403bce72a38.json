@@ -1,0 +1,9 @@
+{
+  "brand": "Ashby",
+  "prompt_id": "IN-02",
+  "llm": "perplexity",
+  "prompt_text": "Ashby LinkedIn integration: how does it work?",
+  "response": "Ashby’s **LinkedIn integration** is typically used in one of two ways: either through a no-code automation platform like Zapier/Relay, or as a direct partner integration for recruiting workflows such as sourcing and posting jobs.[1][2][4]\n\n- With **Relay.app**, you can connect Ashby and LinkedIn by choosing an **Ashby trigger** and a **LinkedIn action**, then authorizing both accounts; Relay currently lists Ashby triggers like new or changed applications, interview events, jobs, and job postings, and LinkedIn actions like creating posts, searching profiles, commenting, and searching job listings.[1]\n- With **Zapier**, the pattern is the same: pick an Ashby trigger such as **“Application Changed Stage”** and a LinkedIn action such as **“Create Company Update,”** then test and turn on the automation.[2]\n- Ashby’s own integrations page emphasizes that Ashby supports **200+ integrations**, an open API for custom workflows, and a streamlined partner process, but it does not describe a standalone first-party LinkedIn product integration on that page.[4]\n\nIn practical terms, this means the integration usually works by **passing events from Ashby into LinkedIn tasks** or vice versa through a workflow tool, rather than by a native one-click “sync everything” feature.[1][2]\n\nFor recruiting use cases, published commentary on Ashby integrations highlights **LinkedIn Recruiter** as a sourcing tool that can help recruiters see whether a LinkedIn profile already exists in Ashby and reduce duplicate outreach.[3]",
+  "cached_at": "2026-05-28T06:41:21Z",
+  "metadata": {}
+}

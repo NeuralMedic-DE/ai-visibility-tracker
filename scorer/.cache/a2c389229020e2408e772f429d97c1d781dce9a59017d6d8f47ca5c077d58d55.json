@@ -1,0 +1,9 @@
+{
+  "brand": "Planetscale",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I build scalable relational databases without operational overhead without spending a lot on software?",
+  "response": "# Building Scalable Relational Databases Cost-Effectively\n\n## Best Free/Cheap Options\n\n**Managed Services (lowest ops overhead)**\n- **AWS RDS Free Tier** – 12 months free, then ~$15-30/month for small instances\n- **Google Cloud SQL** – competitive pricing, free tier available\n- **Azure Database** – free tier option\n- These handle backups, patching, monitoring automatically\n\n**Self-hosted (more control, less cost)**\n- **PostgreSQL** – excellent for scaling, completely free\n- **MySQL/MariaDB** – solid alternative, also free\n- Host on cheap VPS: DigitalOcean ($4-6/month), Hetzner, Linode\n\n## Scaling Strategies (minimize costs)\n\n1. **Optimize before scaling**\n   - Proper indexing, query optimization, connection pooling (PgBouncer)\n   - Often saves 10x more than throwing hardware at problems\n\n2. **Vertical scaling first** – bigger servers are cheaper/easier than distributed systems\n\n3. **Read replicas** – distribute read traffic without rewriting application logic\n\n4. **Partitioning/sharding** – when you actually need it (usually later than you think)\n\n## The Overhead Reality\n\n- **Managed services** cost more but save ops time (automation, monitoring, failover)\n- **Self-hosted** costs less upfront but requires operational knowledge\n- Middle ground: managed PostgreSQL on modest hardware often wins\n\n**What's your current setup?** That'd help me give more specific advice.",
+  "cached_at": "2026-05-28T06:15:42Z",
+  "metadata": {}
+}

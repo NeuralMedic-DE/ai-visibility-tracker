@@ -1,0 +1,9 @@
+{
+  "brand": "Close",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Close integrate with Slack?",
+  "response": "# Close and Slack Integration\n\nYes, **Close does integrate with Slack**. This integration allows you to:\n\n- **Receive notifications** in Slack about Close activities (like new leads, deals, or emails)\n- **Get updates** on sales activities and important events\n- **Stay informed** without leaving Slack\n\n## How to Set It Up\n\nThe integration typically involves:\n1. Installing the Close app from Slack's app directory, or\n2. Configuring it within your Close account settings\n3. Selecting which notifications and activities you want to receive\n\n## What You Can Do\n\nCommon capabilities include notifications for:\n- New leads or contacts\n- Deal updates\n- Email activity\n- Task reminders\n- Team activity\n\nFor the most current details about specific features and setup instructions, I'd recommend checking **Close's official documentation** or contacting their support team, as integration features can be updated.",
+  "cached_at": "2026-05-27T17:51:32Z",
+  "metadata": {}
+}

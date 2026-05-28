@@ -1,0 +1,9 @@
+{
+  "brand": "Zapier",
+  "prompt_id": "IN-05",
+  "llm": "openai",
+  "prompt_text": "automation tools with native Google Sheets integration",
+  "response": "There are several automation tools that offer native integration with Google Sheets, allowing you to streamline workflows and automate tasks. Here are some popular ones:\n\n1. **Zapier**: Zapier is a widely used automation tool that connects Google Sheets with thousands of other apps. You can create \"Zaps\" to automate tasks such as adding new rows, updating data, or triggering actions based on changes in your spreadsheet.\n\n2. **Integromat (Make)**: Integromat, now known as Make, provides powerful automation capabilities with Google Sheets integration. It allows you to create complex workflows with multiple steps and conditions.\n\n3. **Automate.io**: This tool offers a straightforward interface to connect Google Sheets with various apps and automate repetitive tasks. It supports a wide range of triggers and actions for Google Sheets.\n\n4. **IFTTT (If This Then That)**: IFTTT is a simple automation tool that can connect Google Sheets with other services. It’s great for basic automation tasks and supports a variety of applets involving Google Sheets.\n\n5. **Coupler.io**: Coupler.io specializes in data integration and automation, allowing you to import data from various sources into Google Sheets automatically.\n\n6. **Parabola**: Parabola is a data automation tool that can pull data from Google Sheets, transform it, and send it to other platforms. It’s particularly useful for data-heavy workflows.\n\n7. **Sheetgo**: Sheetgo allows you to automate workflows directly within Google Sheets. You can connect multiple sheets, filter data, and create automated reports.\n\nThese tools can help you automate data entry, reporting, and other repetitive tasks, saving time and reducing errors.",
+  "cached_at": "2026-05-28T08:51:21Z",
+  "metadata": {}
+}

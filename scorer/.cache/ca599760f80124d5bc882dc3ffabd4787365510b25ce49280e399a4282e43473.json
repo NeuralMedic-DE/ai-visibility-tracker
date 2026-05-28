@@ -1,0 +1,9 @@
+{
+  "brand": "Workato",
+  "prompt_id": "AL-05",
+  "llm": "openai",
+  "prompt_text": "Open source or affordable automation tools instead of Boomi",
+  "response": "If you're looking for open-source or more affordable alternatives to Boomi for automation and integration tasks, here are some options you might consider:\n\n1. **Apache Camel**: An open-source integration framework that provides a wide range of components for integrating various systems using enterprise integration patterns.\n\n2. **Talend Open Studio**: An open-source data integration tool that offers a graphical development environment for building integration jobs.\n\n3. **n8n**: An open-source workflow automation tool that allows you to automate tasks and connect different services with a visual interface.\n\n4. **Huginn**: An open-source system for building agents that perform automated tasks online, similar to IFTTT or Zapier.\n\n5. **Node-RED**: A flow-based development tool for visual programming, originally developed by IBM, that is open-source and great for integrating APIs and services.\n\n6. **Integromat (now Make)**: While not open-source, it is often more affordable than Boomi and offers a wide range of integrations and automation capabilities.\n\n7. **Zapier**: Although not open-source, Zapier is a popular and user-friendly automation tool that can be more affordable depending on your usage needs.\n\n8. **Automate.io**: Another cloud-based automation tool that offers a variety of integrations and can be more cost-effective than enterprise solutions like Boomi.\n\nEach of these tools has its own strengths and use cases, so the best choice will depend on your specific requirements, such as the complexity of your workflows, the systems you need to integrate, and your budget.",
+  "cached_at": "2026-05-28T09:13:28Z",
+  "metadata": {}
+}

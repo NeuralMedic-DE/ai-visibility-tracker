@@ -1,0 +1,9 @@
+{
+  "brand": "Maxio",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with manage complex multi-element arrangements and revenue recognition compliance at scale?",
+  "response": "# Software for Multi-Element Arrangements & Revenue Recognition\n\n## Leading Solutions\n\n**SAP Revenue Accounting & Reporting (RAR)**\n- Handles complex contract structures and performance obligations\n- Automates ASC 606/IFRS 15 compliance\n- Scales across large transaction volumes\n\n**Oracle NetSuite Revenue Management**\n- Multi-subsidiary, multi-currency support\n- Built-in revenue recognition rules engine\n- Integrates with financial modules\n\n**Anaplan (Salesforce)**\n- Flexible modeling for complex deal structures\n- Scenario planning capabilities\n- Real-time visibility across arrangements\n\n**BlackLine**\n- Specializes in revenue and accounting close automation\n- Contract-to-cash workflow management\n- Strong audit trail and compliance features\n\n**Certent/Revvy**\n- Purpose-built for subscription and recurring revenue\n- Handles waterfall arrangements\n- ASC 606/IFRS 15 ready\n\n## Key Capabilities to Evaluate\n\n- **Contract parsing & data extraction** (manual vs. automated)\n- **Performance obligation identification** and standalone selling price logic\n- **Deferral and amortization** automation\n- **Audit trail** and compliance reporting\n- **Integration** with existing ERP/billing systems\n- **Scale requirements** (transaction volume, entity count)\n\n## Decision Factors\n\nAre you managing SaaS subscriptions, professional services, or a hybrid model? The best choice depends on your contract complexity, transaction volume, and existing system landscape.\n\nWhat's your primary revenue model?",
+  "cached_at": "2026-05-28T06:53:02Z",
+  "metadata": {}
+}

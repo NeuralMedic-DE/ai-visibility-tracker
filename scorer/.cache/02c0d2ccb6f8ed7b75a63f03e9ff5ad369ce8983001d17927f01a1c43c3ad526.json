@@ -1,0 +1,9 @@
+{
+  "brand": "Pendo",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Pendo with Salesforce?",
+  "response": "# Connecting Pendo with Salesforce\n\nHere's the basic process:\n\n## 1. **Prerequisites**\n- Active accounts in both Pendo and Salesforce\n- Admin access to both platforms\n- Salesforce API enabled\n\n## 2. **In Salesforce**\n- Create a Connected App (Setup → Apps → App Manager → New Connected App)\n- Configure OAuth settings\n- Generate Consumer Key and Consumer Secret\n- Grant necessary permissions\n\n## 3. **In Pendo**\n- Go to **Settings → Integrations → Salesforce**\n- Enter your Salesforce credentials or OAuth details\n- Authorize the connection\n\n## 4. **Configure Mapping**\n- Map Pendo user data to Salesforce objects (typically Contacts/Accounts)\n- Set up which data syncs between platforms\n\n## 5. **Verify Connection**\n- Test the integration\n- Confirm data is flowing correctly\n\n## Key Features After Connection\n- Send Pendo analytics to Salesforce reports\n- Create Salesforce records from Pendo feedback\n- Sync user metadata between platforms\n\n## Next Steps\n- Check **Pendo's official documentation** (docs.pendo.io) for detailed guides\n- Contact **Pendo support** if you hit issues\n- Consider consulting your Salesforce admin if you need help on that side\n\nAre you trying to sync analytics data, customer feedback, or something specific?",
+  "cached_at": "2026-05-27T19:49:02Z",
+  "metadata": {}
+}

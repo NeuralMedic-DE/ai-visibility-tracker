@@ -1,0 +1,9 @@
+{
+  "brand": "Linear",
+  "prompt_id": "CM-02",
+  "llm": "anthropic",
+  "prompt_text": "Linear vs Asana pricing and features",
+  "response": "# Linear vs Asana: Pricing & Features Comparison\n\n## **Pricing**\n\n| Plan | Linear | Asana |\n|------|--------|-------|\n| **Free** | Yes ($0) | Yes ($0) |\n| **Pro/Standard** | $10/user/month | $10.99/user/month |\n| **Plus/Premium** | $30/user/month | $24.99/user/month |\n| **Enterprise** | Custom | Custom |\n\n**Key difference**: Linear charges per active member; Asana offers more tiered options.\n\n---\n\n## **Core Features Comparison**\n\n### **Linear Strengths**\n✅ Purpose-built for **software development teams**  \n✅ **Fast, snappy interface** (optimized performance)  \n✅ **GitHub/GitLab integration** (seamless CI/CD)  \n✅ Keyboard shortcuts & power-user features  \n✅ **Cycles** (sprint-like planning)  \n✅ Excellent for **technical teams**  \n✅ Simpler learning curve for devs\n\n### **Asana Strengths**\n✅ **Broader team appeal** (non-technical + technical)  \n✅ Multiple **view types** (timeline, calendar, list, board, table)  \n✅ **More automation & workflows**  \n✅ Advanced **reporting & dashboards**  \n✅ Better for **cross-functional projects**  \n✅ Strong **portfolio management**  \n✅ Mobile app is more polished\n\n---\n\n## **Best For**\n\n| Use Case | Choose |\n|----------|--------|\n| Software development teams | **Linear** |\n| Small, fast-moving startups | **Linear** |\n| Marketing/creative teams | **Asana** |\n| Enterprise/large orgs | **Asana** |\n| Multi-team coordination | **Asana** |\n| GitHub-heavy workflows | **Linear** |\n\n---\n\n## **Verdict**\n\n- **Linear**: Best for engineering teams who want speed & dev-focused features\n- **Asana**: Best for diverse teams needing flexibility & broader functionality\n\nWould you like deeper details on any specific feature?",
+  "cached_at": "2026-05-27T21:07:18Z",
+  "metadata": {}
+}

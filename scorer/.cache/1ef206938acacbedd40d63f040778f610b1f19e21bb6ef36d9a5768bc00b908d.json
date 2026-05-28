@@ -1,0 +1,9 @@
+{
+  "brand": "Brevo",
+  "prompt_id": "UC-05",
+  "llm": "perplexity",
+  "prompt_text": "What software helps with manage contacts and automate marketing workflows from a single platform at scale?",
+  "response": "The type of software you’re asking about is an **all‑in‑one CRM with built‑in marketing automation**, such as **ActiveCampaign**, **HubSpot**, or similar platforms that combine contact management and automated marketing workflows at scale.[2][6]\n\nTo break it down:\n\n- **Category you want:**  \n  Look for a **CRM with marketing automation** (sometimes called an “all‑in‑one marketing automation CRM”). These tools store and segment **contacts** and also let you **build automated email/SMS campaigns, lead nurturing flows, and sales follow‑ups** from the same platform.[2][6]\n\n- **Leading options that fit your description:**\n  - **ActiveCampaign** – Frequently recommended as the **best all‑rounder** for deep automation, combining CRM/contact management with powerful visual workflow builders and multichannel campaigns.[2][6]\n  - **HubSpot CRM + Marketing Hub** – An **all‑in‑one contact and sales tracking CRM** with marketing automation, good for B2B and revenue attribution; starts with a free CRM and scales up.[1][2][4]\n  - **EngageBay, Zoho CRM, Freshsales, Pipedrive (with add‑ons)** – Also offer **integrated CRM + marketing automation** to various degrees, aimed at SMBs and sales‑led teams.[2]\n\nIf you share your use case (B2B vs e‑commerce, list size, budget, channels you care about), I can narrow this down to 1–2 best‑fit platforms and outline how they’d handle your contact management and workflow automation at scale.",
+  "cached_at": "2026-05-28T07:27:29Z",
+  "metadata": {}
+}

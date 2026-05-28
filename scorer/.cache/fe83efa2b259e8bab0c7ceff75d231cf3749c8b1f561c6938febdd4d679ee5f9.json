@@ -1,0 +1,9 @@
+{
+  "brand": "Amplemarket",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is Amplemarket better than ZoomInfo for automate multi-channel outreach sequences?",
+  "response": "# Amplemarket vs ZoomInfo for Multi-Channel Outreach\n\nBoth excel at different things. Here's the comparison:\n\n## **Amplemarket's Strengths**\n- **Built for sequences**: Native multi-channel automation (email, LinkedIn, calls) is core to the platform\n- **Simpler workflow**: Easier to set up and manage outreach campaigns\n- **Cost-effective**: Generally cheaper, especially for sequence-heavy users\n- **LinkedIn integration**: Strong native LinkedIn outreach capabilities\n\n## **ZoomInfo's Strengths**\n- **Data quality**: More comprehensive B2B database with better accuracy\n- **Enterprise features**: Better for large teams needing advanced permissioning\n- **Integration ecosystem**: Deeper CRM integrations\n- **Sales intelligence**: Superior company research and intent signals\n\n## **Key Trade-off**\n- **Choose Amplemarket if**: You prioritize ease of multi-channel sequence automation and want a lean, affordable tool\n- **Choose ZoomInfo if**: Data quality and enterprise scale matter more than sequence simplicity\n\n## **Reality Check**\nFor pure multi-channel automation sequences, **Amplemarket is purpose-built and likely the better choice**. ZoomInfo treats sequences as a secondary feature alongside its data platform.\n\n**Consider**: What's your main bottleneck—building sequences quickly or finding the right prospects? That answer matters more than either tool's overall capabilities.\n\nWhat's your current setup, and what specifically frustrates you about it?",
+  "cached_at": "2026-05-27T19:03:30Z",
+  "metadata": {}
+}

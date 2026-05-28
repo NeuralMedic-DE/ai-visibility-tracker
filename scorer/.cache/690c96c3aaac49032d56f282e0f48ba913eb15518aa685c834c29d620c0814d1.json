@@ -1,0 +1,9 @@
+{
+  "brand": "Portkey",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Portkey integrate with OpenAI?",
+  "response": "Yes, Portkey integrates with OpenAI. It provides a platform that allows developers to easily connect their applications with OpenAI's models, facilitating the integration of AI capabilities into various applications. This can streamline the process of using OpenAI's APIs and enhance the functionality of apps with AI-driven features.",
+  "cached_at": "2026-05-28T07:52:06Z",
+  "metadata": {}
+}

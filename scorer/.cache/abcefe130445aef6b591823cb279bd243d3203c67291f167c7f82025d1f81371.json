@@ -1,0 +1,9 @@
+{
+  "brand": "Linear",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I track engineering tasks and sprints efficiently without spending a lot on software?",
+  "response": "# Low-Cost Task & Sprint Tracking\n\n## Free options that work well\n\n**Trello or similar**\n- Kanban boards are intuitive for sprints (To Do → In Progress → Done)\n- Free tier handles most small team needs\n- Good for visibility across tasks\n\n**GitHub Issues/Projects** (if you code)\n- Built-in, integrates with your repo\n- Milestones = sprints, issues = tasks\n- Free for public and private repos\n\n**Jira Free tier**\n- More structured than Trello\n- Better for tracking story points, velocity\n- Good if you want \"proper\" agile tracking\n\n**Spreadsheets** (genuinely underrated)\n- Google Sheets with filters/sorting\n- Start simple, add complexity only if needed\n- Works for teams <10 people\n\n## What actually matters\n\n- **Consistency** over the tool (pick one and stick with it)\n- **Visibility** - everyone sees what's blocked or due\n- **Minimal overhead** - tracking shouldn't take longer than doing work\n- **Review cadence** - standup/retro rituals matter more than the software\n\n## Honest take\n\nMost teams overspend on tools then underuse them. Start with free + simple, upgrade only if you hit real limitations. What's your team size and current pain point?",
+  "cached_at": "2026-05-27T21:08:16Z",
+  "metadata": {}
+}

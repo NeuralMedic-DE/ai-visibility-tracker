@@ -1,0 +1,9 @@
+{
+  "brand": "LeadIQ",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best CRM for SDR and outbound sales teams?",
+  "response": "# Best CRMs for SDRs and Outbound Sales Teams\n\nThe \"best\" depends on your priorities, but here are the top contenders:\n\n## **HubSpot Sales Hub**\n- **Strengths:** User-friendly, excellent free tier, strong email automation, built-in calling\n- **Best for:** Teams valuing ease of use and integrated marketing/sales tools\n- **Drawback:** Can get pricey at scale\n\n## **Salesforce**\n- **Strengths:** Highly customizable, enterprise-grade, extensive integrations\n- **Best for:** Larger teams needing complex workflows and reporting\n- **Drawback:** Steep learning curve, expensive\n\n## **Apollo.io / Clay**\n- **Strengths:** Built specifically for outbound, integrated prospecting/sequencing, affordability\n- **Best for:** SDRs doing high-volume cold outreach\n- **Drawback:** Less robust for post-deal management\n\n## **Outreach / Salesloft**\n- **Strengths:** Best-in-class engagement sequencing, coaching/analytics, call recording\n- **Best for:** Mature outbound organizations wanting advanced cadence automation\n- **Drawback:** Premium pricing\n\n## **Pipedrive**\n- **Strengths:** Visual pipeline, affordable, intuitive\n- **Best for:** Smaller teams wanting simplicity without complexity\n- **Drawback:** Limited native outbound features\n\n## **Quick recommendation:**\n- **Starting out?** → HubSpot or Pipedrive\n- **Heavy outbound focus?** → Apollo.io or Clay\n- **Enterprise/complex?** → Salesforce or Outreach\n\nWhat's your team size and budget range?",
+  "cached_at": "2026-05-27T18:42:32Z",
+  "metadata": {}
+}

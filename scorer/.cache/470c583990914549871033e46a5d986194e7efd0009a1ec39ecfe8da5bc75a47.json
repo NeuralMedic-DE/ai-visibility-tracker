@@ -1,0 +1,9 @@
+{
+  "brand": "Paddle",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do SaaS companies selling software globally across multiple geographies companies use to sell software globally with built-in tax compliance and payments handling?",
+  "response": "# Tools for Global SaaS Tax & Payment Compliance\n\n## All-in-One Platforms\n\n**Stripe Tax + Stripe Payments**\n- Real-time tax calculation (VAT/GST/sales tax)\n- Handles 200+ jurisdictions\n- Integrated payments\n- Used by: Figma, Zapier, Notion\n\n**Stripe Billing** (for recurring revenue)\n- Combined with Tax for end-to-end solution\n- Handles dunning, proration, usage-based pricing\n\n**Avalara**\n- Tax determination engine for 200+ jurisdictions\n- Integrates with payment processors\n- AvaTax API connects to billing systems\n\n**TaxJar**\n- Simpler tax calculation for growing companies\n- Good for non-payment scenarios\n- Recently acquired by Stripe (integration improving)\n\n## Payment + Tax Combinations\n\n**Paddle** (Stripe alternative)\n- Built-in VAT/GST handling\n- Merchant of record model\n- Good for software/SaaS specifically\n\n**Adyen**\n- Enterprise-grade payments\n- Separate tax integration needed (Avalara/Vertex)\n\n## Tax-Only Solutions\n\n**Vertex**\n- Enterprise tax engine\n- Integrates with major payment systems\n- Used by larger platforms\n\n**Zuora Billing** (with tax add-ons)\n- Subscription billing platform\n- Can integrate with Avalara/Vertex\n\n## Key Considerations\n\n| Factor | Best For |\n|--------|----------|\n| **Startup stage** | Stripe Tax + Payments |\n| **High volume/Enterprise** | Avalara + custom payment integration |\n| **Simple recurring billing** | Paddle |\n| **Complex subscription models** | Zuora + tax integration |\n\n**Most common modern stack:** Stripe Payments + Stripe Tax (increasingly preferred over TaxJar integration)",
+  "cached_at": "2026-05-28T07:00:12Z",
+  "metadata": {}
+}

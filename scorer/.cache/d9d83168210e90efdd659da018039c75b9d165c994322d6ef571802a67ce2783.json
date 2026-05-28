@@ -1,0 +1,9 @@
+{
+  "brand": "Reply.io",
+  "prompt_id": "IN-05",
+  "llm": "anthropic",
+  "prompt_text": "sales engagement tools with native Salesforce integration",
+  "response": "# Sales Engagement Tools with Native Salesforce Integration\n\n## Top Enterprise Solutions\n\n### **Salesforce Native**\n- **Salesforce Einstein Activity Capture** - Built-in, no integration needed\n- **Salesforce Inbox** - Email tracking and templates within Salesforce\n- **Dialer (within Salesforce)**\n\n### **Best-in-Class Integrations**\n\n| Tool | Key Features | Integration Depth |\n|------|--------------|-------------------|\n| **Outreach** | AI-powered sequences, multi-channel | Bi-directional sync, native app |\n| **Salesloft** | Cadence automation, forecasting | Deep Salesforce integration |\n| **HubSpot Sales Hub** | Free CRM + engagement tools | Salesforce connector available |\n| **Groove** | Lightweight, email-focused | Native sync, real-time updates |\n| **Cirrus Insight** | Email + calendar integration | Gmail-based, Salesforce sync |\n| **Yesware** | Email tracking, templates | Chrome extension + Salesforce |\n| **SalesLoft Kaia** | AI coaching, rep insights | Native platform |\n\n## Key Integration Capabilities to Look For\n\n✅ **Two-way data sync** (activities, contacts, opportunities)  \n✅ **Call recording storage** in Salesforce  \n✅ **Automated task/activity logging**  \n✅ **Real-time presence** within Salesforce UI  \n✅ **Native Salesforce app** (AppExchange certified)  \n✅ **Custom field mapping**  \n✅ **Workflow automation** (flows/process builder)\n\n## Selection Criteria\n- **Budget tier** (Startup vs. Enterprise)\n- **Channel mix** (email, phone, social, SMS)\n- **Team size & use cases**\n- **Compliance needs** (HIPAA, GDPR)\n\n**What's your primary use case?** That'll help narrow recommendations.",
+  "cached_at": "2026-05-28T07:21:40Z",
+  "metadata": {}
+}

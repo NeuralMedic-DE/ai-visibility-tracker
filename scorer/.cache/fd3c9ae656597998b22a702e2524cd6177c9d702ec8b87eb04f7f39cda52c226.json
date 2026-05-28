@@ -1,0 +1,9 @@
+{
+  "brand": "Stonly",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with reduce support tickets with contextual in-app help widgets and self-service portals at scale?",
+  "response": "There are several software solutions designed to reduce support tickets by providing contextual in-app help widgets and self-service portals. Some popular options include:\n\n1. **Intercom**: Offers in-app messaging, help widgets, and a robust self-service portal to guide users and reduce support queries.\n\n2. **Zendesk**: Provides a comprehensive help center with knowledge base capabilities, along with in-app support widgets to assist users directly within your application.\n\n3. **Freshdesk**: Features a self-service portal and contextual help widgets that can be integrated into your app to help users find answers without needing to submit a ticket.\n\n4. **Help Scout**: Offers a knowledge base and Beacon, an in-app help widget that provides contextual assistance and reduces the need for direct support interactions.\n\n5. **WalkMe**: Specializes in digital adoption and provides in-app guidance and support widgets to help users navigate software and reduce support needs.\n\n6. **Pendo**: Provides in-app guidance and feedback tools that help users understand and use your product more effectively, reducing the need for support tickets.\n\n7. **Appcues**: Focuses on user onboarding and engagement with in-app messages and walkthroughs that can reduce the need for support by educating users directly.\n\nThese tools can help streamline user support by providing immediate, contextual assistance and empowering users to find solutions independently.",
+  "cached_at": "2026-05-28T08:22:02Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Front",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Front with Salesforce?",
+  "response": "# Connecting Front with Salesforce\n\nHere's how to set up the integration:\n\n## Prerequisites\n- Admin access to both Front and Salesforce accounts\n- Salesforce API enabled\n\n## Steps\n\n### 1. **In Front**\n- Go to **Settings** → **Integrations**\n- Search for and select **Salesforce**\n- Click **Connect**\n\n### 2. **Authorize Salesforce**\n- You'll be redirected to Salesforce login\n- Log in with your Salesforce admin credentials\n- Review and approve the requested permissions\n- Click **Allow**\n\n### 3. **Configure the Integration**\nBack in Front, you'll set up:\n- **Contact sync**: Map Front contacts to Salesforce contacts\n- **Opportunity sync**: Link conversations to Salesforce opportunities\n- **Custom fields**: Choose which data to sync\n- **Sync direction**: One-way or two-way sync\n\n### 4. **Map Objects** (Optional)\n- Link Front conversations to Salesforce records (Accounts, Contacts, Opportunities)\n- Set up automatic field mapping\n\n### 5. **Test & Activate**\n- Send a test message\n- Verify it appears in Salesforce\n- Activate the integration\n\n## Key Features\n✓ Sync customer info automatically  \n✓ Log conversations to Salesforce records  \n✓ Access Salesforce data within Front  \n✓ Two-way sync available for most fields\n\n**Need help?** Check Front's [official Salesforce documentation](https://help.frontapp.com) or contact their support team.",
+  "cached_at": "2026-05-28T08:17:24Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Mailmodo",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Mailmodo integrate with Zapier?",
+  "response": "# Mailmodo and Zapier Integration\n\nYes, **Mailmodo does integrate with Zapier**. This integration allows you to connect Mailmodo forms with thousands of other apps and automate workflows.\n\n## Common use cases include:\n\n- **Sending form responses** to other apps (CRM, spreadsheets, email tools, etc.)\n- **Creating automated workflows** when someone submits a Mailmodo form\n- **Syncing data** across your business tools\n- **Triggering actions** in other applications based on form submissions\n\n## To set it up:\n\n1. Go to Zapier and search for \"Mailmodo\"\n2. Create a Zap using Mailmodo as the trigger\n3. Connect your Mailmodo account\n4. Select your form and configure the trigger\n5. Choose your action app and set up the workflow\n\nFor the most current information and detailed integration steps, I'd recommend checking:\n- **Zapier's Mailmodo app page** (zapier.com)\n- **Mailmodo's integration documentation** or help center\n\nIs there a specific workflow or app you're trying to connect Mailmodo with?",
+  "cached_at": "2026-05-28T07:35:27Z",
+  "metadata": {}
+}

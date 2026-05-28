@@ -1,0 +1,9 @@
+{
+  "brand": "Hightouch",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do RevOps and data teams activating warehouse data in operational tools companies use to sync customer data from your data warehouse to CRM and marketing tools automatically?",
+  "response": "# RevOps & Data Team Sync Tools\n\n## Dedicated Reverse ETL Platforms\nThese are built specifically for this use case:\n\n- **Hightouch** - Most popular for RevOps; strong CRM/marketing integrations\n- **Segment** (Twilio) - Audience syncing with built-in governance\n- **Census** - Developer-friendly, flexible transformation logic\n- **Arrow** - Lightweight alternative gaining traction\n- **Rudderstack** - Open-source option with self-hosted capability\n\n## Native Warehouse Integrations\nMany data warehouses now have built-in sync:\n\n- **Snowflake** - Native connectors, Snowflake Partner Network tools\n- **BigQuery** - Google Cloud integrations, Dataflow capabilities\n- **Redshift** - AWS Glue, native connectors\n\n## Embedded in CDP/Platforms\n- **mParticle** - CDP with bi-directional syncs\n- **Braze** - Marketing platform with warehouse connectors\n- **Salesforce Data Cloud** - Purpose-built for this\n\n## Custom Integration Approaches\n- **Zapier/Make** - Lower-volume, manual workflows\n- **API-first tools** - Custom Python/Node scripts (increasingly common)\n- **Fivetran/Stitch** (reverse direction) - Less ideal but possible\n\n## Key Evaluation Factors\nRevOps teams typically prioritize:\n- Transformation/dbt support\n- Change Data Capture (CDC) for incrementals\n- Schema handling and field mapping\n- Cost at scale\n- Governance/audit trails\n\n**What's your warehouse & primary destination tool?** That'll narrow down the best fit.",
+  "cached_at": "2026-05-28T09:05:40Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Workable",
+  "prompt_id": "IN-04",
+  "llm": "anthropic",
+  "prompt_text": "Best ATS that works with LinkedIn and Slack",
+  "response": "# Top ATS Systems with LinkedIn & Slack Integration\n\n## **Best Overall Options**\n\n### **1. Greenhouse**\n- **LinkedIn**: Native job posting, candidate sourcing, profile sync\n- **Slack**: Full integration for notifications, approvals, interview scheduling\n- **Best for**: Mid to enterprise companies, structured hiring\n- **Price**: $$$\n\n### **2. Lever**\n- **LinkedIn**: Direct posting, candidate import, profile data\n- **Slack**: Notifications, candidate updates, team collaboration\n- **Best for**: Growth-stage companies, modern workflows\n- **Price**: $$-$$$\n\n### **3. Workable**\n- **LinkedIn**: Job posting, candidate sourcing, profile parsing\n- **Slack**: Interview reminders, candidate activity alerts\n- **Best for**: SMBs to mid-market\n- **Price**: $-$$\n\n## **Budget-Friendly Options**\n\n### **4. Ashby**\n- **LinkedIn**: Strong sourcing and posting\n- **Slack**: Advanced workflow automations\n- **Best for**: Startups, high-volume hiring\n- **Price**: $$\n\n### **5. JazzHR**\n- **LinkedIn**: Job posting integration\n- **Slack**: Basic notifications\n- **Best for**: Small businesses\n- **Price**: $\n\n## **Quick Comparison**\n\n| System | LinkedIn | Slack | Best For |\n|--------|----------|-------|----------|\n| Greenhouse | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | Enterprise |\n| Lever | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | Growth |\n| Workable | ⭐⭐⭐⭐ | ⭐⭐⭐ | SMB |\n| Ashby | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | Startups |\n\n**My recommendation**: **Lever** for the best balance of features and user experience. **Ashby** if you prioritize Slack automation.",
+  "cached_at": "2026-05-28T06:46:20Z",
+  "metadata": {}
+}

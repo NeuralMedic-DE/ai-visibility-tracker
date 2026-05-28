@@ -1,0 +1,9 @@
+{
+  "brand": "Planhat",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with align sales and success teams on revenue expansion and renewal opportunities at scale?",
+  "response": "# Software for Sales & Success Alignment on Revenue Growth\n\nSeveral categories of tools address this:\n\n## **Revenue Intelligence Platforms**\n- **Gainsight** – Purpose-built for customer success; tracks health scores and expansion opportunities\n- **Totango** – CSM platform with sales-success collaboration features\n- **ChartMogul** – Focuses on subscription metrics and expansion data visibility\n- **Vitally** – Modern CSM with tight sales integration\n\n## **CRM & RevOps Solutions**\n- **Salesforce** – With proper setup, enables shared pipelines and visibility\n- **HubSpot** – Integrated CRM with sales/success visibility (especially Service Hub)\n- **Pipedrive** – Deal-focused with collaboration features\n\n## **Dedicated Alignment Tools**\n- **Planhat** – CRM for SaaS with explicit sales-success workflows\n- **Chorus/Gong** – Revenue intelligence that both teams can access\n- **Slack/Teams integrations** – Many solutions layer on top of existing platforms\n\n## **Key Features to Look For**\n- Shared account visibility (not siloed data)\n- Automated opportunity scoring/routing\n- Expansion/renewal pipeline management\n- Activity sync between teams\n- Health scoring visible to both sales and success\n\n**Best approach:** Many companies combine a CSM platform (like Gainsight) with their existing CRM to create unified visibility without replacing core systems.\n\nWhat's your current stack? That might help narrow down the best fit.",
+  "cached_at": "2026-05-28T08:12:17Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Neon",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Neon integrate with Vercel?",
+  "response": "Yes, Neon integrates with Vercel. Neon is a serverless Postgres database platform, and it can be used as a backend database for applications deployed on Vercel. Vercel provides seamless integration with various databases, including Neon, allowing you to connect your Vercel applications to a Neon database easily. This integration enables you to manage your database and application deployment efficiently, leveraging Neon's serverless capabilities alongside Vercel's hosting and deployment services.",
+  "cached_at": "2026-05-28T06:17:57Z",
+  "metadata": {}
+}

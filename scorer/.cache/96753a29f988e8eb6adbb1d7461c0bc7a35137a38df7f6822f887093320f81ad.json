@@ -1,0 +1,9 @@
+{
+  "brand": "Grip Security",
+  "prompt_id": "AL-02",
+  "llm": "openai",
+  "prompt_text": "Cheaper alternatives to Obsidian",
+  "response": "If you're looking for cheaper alternatives to Obsidian, which is already free for personal use, you might be interested in other free or low-cost note-taking and knowledge management tools. Here are a few options:\n\n1. **Joplin**: An open-source note-taking app that supports Markdown, with features like to-do lists, notebooks, and synchronization across devices.\n\n2. **Notion**: Offers a free plan with a wide range of features for note-taking, task management, and collaborative workspaces.\n\n3. **Zettlr**: A Markdown editor designed for academic writing and note-taking, with features that support Zettelkasten methods.\n\n4. **Standard Notes**: A simple and secure note-taking app that offers a free tier with basic features and end-to-end encryption.\n\n5. **Simplenote**: A straightforward, free note-taking app that focuses on simplicity and speed, with synchronization across devices.\n\n6. **Bear**: A note-taking app for Apple devices that offers a free version with basic features and a subscription for additional functionality.\n\nThese alternatives offer various features that might suit your needs depending on what you're looking for in a note-taking app.",
+  "cached_at": "2026-05-28T08:41:12Z",
+  "metadata": {}
+}

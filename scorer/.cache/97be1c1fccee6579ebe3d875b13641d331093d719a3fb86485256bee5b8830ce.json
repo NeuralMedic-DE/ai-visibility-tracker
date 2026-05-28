@@ -1,0 +1,9 @@
+{
+  "brand": "Zapier",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best automation for operations teams and business users at SMBs and mid-market companies?",
+  "response": "# Best Automation for SMB/Mid-Market Operations\n\nThe answer depends on your specific pain points, but here's what typically delivers the best ROI:\n\n## High-Impact, Accessible Solutions\n\n**Workflow automation platforms** (Make, Zapier, n8n)\n- Connect existing tools without coding\n- Handle routine data flows, approvals, notifications\n- Relatively affordable and quick to implement\n- Best for: invoice processing, lead routing, ticket escalation\n\n**RPA for specific processes** (UiPath Community, Automation Anywhere)\n- Automates repetitive manual tasks across systems\n- Good ROI on high-volume, rule-based work\n- Steeper learning curve but powerful\n- Best for: data entry, account reconciliation, report generation\n\n**AI-powered document processing** (Document Intelligence, Intelligent OCR)\n- Extract data from emails, PDFs, forms automatically\n- Reduces manual data entry significantly\n- Best for: invoicing, HR paperwork, compliance documents\n\n## Realistic Prioritization\n\n1. **Start with your biggest time sink** — where people do repetitive work daily\n2. **Choose tools that connect to systems you already use** — avoid isolated solutions\n3. **Prioritize business users being able to build workflows** — not just IT\n4. **Measure before/after** — time saved, error reduction, cost per transaction\n\n## Practical Cautions\n\n- Automation isn't a silver bullet; process discipline matters first\n- \"Low-code/no-code\" still requires someone's time to maintain\n- Expect 6-12 months to see full ROI on larger implementations\n\n**What's your biggest operational bottleneck right now?** That would help narrow recommendations.",
+  "cached_at": "2026-05-28T08:50:57Z",
+  "metadata": {}
+}

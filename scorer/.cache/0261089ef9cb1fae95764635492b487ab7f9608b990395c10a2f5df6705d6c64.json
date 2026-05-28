@@ -1,0 +1,9 @@
+{
+  "brand": "Make",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to n8n",
+  "response": "# Cheaper Alternatives to n8n\n\n## **Free/Open-Source Options**\n\n| Tool | Cost | Best For |\n|------|------|----------|\n| **Zapier Free** | $0-29/mo | Basic automation, 100 tasks/mo free |\n| **Make (Integromat)** | $0-299/mo | Visual workflows, free tier available |\n| **Ifttt** | Free-$9.99/mo | Simple if-this-then-that automation |\n| **Node-RED** | Free (self-hosted) | IoT, lightweight workflows |\n| **Apache Airflow** | Free (self-hosted) | Data pipelines, complex workflows |\n| **Temporal** | Free (self-hosted) | Reliable workflow automation |\n\n## **Budget-Friendly Paid Options**\n\n- **Zapier**: Starting $29/mo (basic plans very affordable)\n- **Make**: €9-299/mo depending on usage\n- **Parabola**: Free-$150/mo (visual, intuitive)\n- **Retool**: $10/month (internal tools focus)\n- **PipedreamPipedream**: Free-$25/mo (developer-friendly)\n\n## **Self-Hosted (Cheapest Long-Term)**\n\n- **Node-RED** - minimal resource requirements\n- **Apache Airflow** - powerful but steeper learning curve\n- **Huginn** - lightweight, privacy-focused\n- **Activepieces** - newer, open-source n8n alternative\n\n## **When to Choose Each:**\n\n- **Just starting?** → Zapier/IFTTT free tier\n- **Developer-friendly?** → Pipedream or Node-RED\n- **Complex workflows?** → Make or Parabola\n- **Maximum control?** → Self-hosted open-source\n\nWhat's your main use case? That would help narrow down the best fit.",
+  "cached_at": "2026-05-28T08:53:40Z",
+  "metadata": {}
+}

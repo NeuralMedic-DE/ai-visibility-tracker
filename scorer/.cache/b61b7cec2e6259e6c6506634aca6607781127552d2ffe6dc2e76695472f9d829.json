@@ -1,0 +1,9 @@
+{
+  "brand": "Mixpanel",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with analyze funnel conversion rates at scale?",
+  "response": "# Tools for Analyzing Funnel Conversion Rates at Scale\n\n## Analytics & BI Platforms\n- **Amplitude** - Product analytics focused on funnels and user journeys\n- **Mixpanel** - Event tracking with advanced funnel analysis\n- **Segment** - Data collection and routing to multiple tools\n- **Google Analytics 4** - Free option with funnel reports and exploration tools\n- **Heap** - Automatic event capture without manual instrumentation\n\n## Data Warehousing & SQL-Based\n- **Looker** - BI tool built for warehouse analytics\n- **Tableau** - Visualization of complex funnel data\n- **Databricks** - For large-scale data processing\n- **Snowflake + dbt** - Combine warehouse with transformation\n\n## Product-Focused Platforms\n- **Pendo** - In-app analytics and user journey tracking\n- **FullStory** - Session replay with funnel analysis\n- **AppsFlyer/Branch** - Mobile app attribution and funnels\n\n## Specialized Funnel Tools\n- **Conversion.ai** - Funnel optimization\n- **Contentsquare** - Digital analytics with funnel insights\n\n## Key Considerations\n- **Scale requirements** - What data volume do you need?\n- **Integration** - What platforms must it connect to?\n- **Cost model** - Events-based, users-based, or fixed pricing?\n- **Technical depth** - Do you need SQL access or visual builders?\n\n**What's your primary use case?** (E-commerce, SaaS, mobile, web?) That would help narrow recommendations.",
+  "cached_at": "2026-05-27T19:15:27Z",
+  "metadata": {}
+}

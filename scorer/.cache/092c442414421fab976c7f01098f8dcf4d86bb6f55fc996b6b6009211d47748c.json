@@ -1,0 +1,9 @@
+{
+  "brand": "SafeBase",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I automate security questionnaire responses to unblock enterprise sales deals without spending a lot on software?",
+  "response": "I'd approach this carefully, since \"automating\" questionnaire responses has real risks:\n\n**What you probably want to solve:**\n- Repetitive RFP/security questionnaire cycles eating sales time\n- Delays while waiting for legal/security to review each one\n- Inconsistent answers across deals\n\n**Low-cost approaches that work:**\n\n1. **Template library + process**\n   - Create approved response templates in Google Docs/Sheets for common questions\n   - Document your actual security practices once, then reference them\n   - Have security sign off on templates once, not each deal\n   - Cost: ~$0, mostly effort\n\n2. **Questionnaire intake system**\n   - Use Airtable or Google Forms to capture incoming questions\n   - Route to right owner, flag duplicates\n   - Reuse previous answers where applicable\n   - Cost: Free tier usually covers this\n\n3. **Salesforce automation** (if you use it)\n   - Templates, approval workflows, merge fields\n   - Most CRMs have this built in\n\n**The honest caution:**\nFully automated *responses* (filling answers without review) is risky. Security questionnaires are legal/compliance documents. A wrong answer about data handling, certifications, or incident response can:\n- Create contractual liability\n- Violate your actual compliance status\n- Kill deals when discovered\n\n**Better framing:** \"automate the busywork, not the judgment.\" Let your security team spend time on nuanced answers, not retyping the same SOC2 description.\n\nWhat's your biggest bottleneck right now—volume, speed, or coordination?",
+  "cached_at": "2026-05-28T08:43:40Z",
+  "metadata": {}
+}

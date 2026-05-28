@@ -1,0 +1,9 @@
+{
+  "brand": "Chargebee",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is Chargebee better than Recurly for handle complex pricing models and SaaS revenue recognition rules?",
+  "response": "# Chargebee vs Recurly: Pricing & Revenue Recognition\n\nBoth handle complex scenarios reasonably well, but with different strengths:\n\n## Chargebee's advantages\n- **More flexible pricing**: Better support for tiered pricing, usage-based models, and custom pricing logic\n- **Revenue recognition**: Strong ASC 606/IFRS 15 compliance with detailed recognition schedules\n- **Customization**: More hooks and flexibility for non-standard pricing scenarios\n- **Multi-currency/tax**: Handles complex international setups more smoothly\n\n## Recurly's advantages\n- **Revenue recognition**: Equally robust, with clear GL mapping and recognition mechanics\n- **Simplicity**: Sometimes easier to implement for complex setups due to cleaner UI\n- **Dunning**: Historically better at failed payment recovery (though gap has narrowed)\n\n## Key questions for your decision\n\n1. **How complex is your pricing?** \n   - Heavy usage-based or metered billing? → Chargebee\n   - Mix of fixed + usage? → Either works\n\n2. **Do you need custom revenue logic?** → Chargebee offers more flexibility\n\n3. **Integration needs?** Check which has better coverage for your specific ERP/GL system\n\n4. **Scale**: Both handle enterprise, but Chargebee's ecosystem is slightly broader\n\n## The real difference\nThe gap has narrowed significantly. Your specific implementation details (payment processors, accounting system, pricing structure) matter more than the platform choice.\n\nWhat's your primary complexity driver—pricing models, revenue recognition rules, or something else?",
+  "cached_at": "2026-05-28T06:50:33Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Mosaic",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which FP&A software should a CFO or FP&A Lead at a Series B+ company use?",
+  "response": "# FP&A Software for Series B+ Companies\n\nThe right choice depends on your specific priorities, but here's a practical framework:\n\n## Top Tier Options\n\n**Anaplan (SAP)** or **Adaptive Insights**\n- Most mature, enterprise-grade\n- Best for complex consolidation & multi-entity scenarios\n- Overkill for many Series B companies (cost & complexity)\n\n**Planful** (formerly Host Analytics)\n- Strong mid-market focus\n- Better UX than legacy solutions\n- Good balance of power and usability\n\n**Mosaic**\n- Purpose-built for VC-backed companies\n- Handles SaaS metrics well\n- Excellent for early-stage fundraising scenarios\n\n## Strong Specialized Options\n\n**Causal** or **Pigment**\n- Modern, spreadsheet-free modeling\n- Intuitive interfaces\n- Good for iterative planning\n\n**NumPy/Palantir Foundry**\n- If you need extreme customization\n- Requires engineering resources\n\n## Honest Recommendation\n\nAt Series B+, consider:\n\n1. **What problems are you solving?**\n   - Fundraising visibility → Mosaic, Causal\n   - Multi-entity consolidation → Planful\n   - Complex revenue recognition → Anaplan\n\n2. **Implementation reality**: Most deployments take 4-6 months and $100-300K+. Budget accordingly.\n\n3. **Many teams stay in Excel longer** than they should. A $500/month tool that gets adoption beats $50K software gathering dust.\n\n**What's your biggest pain point right now?** That answer usually points to the right tool.",
+  "cached_at": "2026-05-28T07:09:49Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Raycast",
+  "prompt_id": "UC-03",
+  "llm": "openai",
+  "prompt_text": "What tools do Mac-based developer and design teams at tech companies companies use to launch apps and run custom workflows from the keyboard instantly?",
+  "response": "Mac-based developer and design teams often use a combination of tools to streamline their workflows and launch apps quickly from the keyboard. Some popular tools include:\n\n1. **Alfred**: A powerful productivity application that allows users to launch apps, search their Mac and the web, and control their system with custom workflows and hotkeys.\n\n2. **Raycast**: Similar to Alfred, Raycast is a keyboard-driven productivity tool that lets users run commands, manage tasks, and launch applications quickly.\n\n3. **Keyboard Maestro**: This tool allows users to automate repetitive tasks by creating macros, which can be triggered by hotkeys or other events.\n\n4. **BetterTouchTool**: While primarily known for enhancing trackpad and mouse gestures, BetterTouchTool also allows users to create custom keyboard shortcuts and actions.\n\n5. **Karabiner-Elements**: A powerful keyboard customizer for macOS that allows developers to remap keys and create complex keyboard shortcuts.\n\n6. **Automator**: Built into macOS, Automator lets users create custom workflows to automate tasks, which can be triggered via keyboard shortcuts.\n\n7. **Hammerspoon**: A tool for power users that allows for scripting and automation of macOS using Lua, enabling custom workflows and hotkeys.\n\nThese tools help teams increase productivity by allowing them to quickly access applications and perform tasks directly from the keyboard, reducing the need for mouse interactions and manual navigation.",
+  "cached_at": "2026-05-28T06:25:21Z",
+  "metadata": {}
+}

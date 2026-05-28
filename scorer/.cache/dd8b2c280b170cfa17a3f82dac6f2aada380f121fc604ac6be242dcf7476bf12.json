@@ -1,0 +1,9 @@
+{
+  "brand": "Airbyte",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with build custom connectors with a no-code connector builder when pre-built ones are missing at scale?",
+  "response": "# No-Code Connector Builders for Enterprise Scale\n\nSeveral platforms excel at building custom connectors without code:\n\n## Leading Solutions\n\n**MuleSoft Anypoint Platform**\n- Visual connector builder with drag-and-drop interface\n- Strong for enterprise integration at scale\n- Extensive pre-built connector library with custom extension capabilities\n\n**Zapier**\n- User-friendly no-code connector creation\n- Good for SaaS integrations\n- Limited for complex enterprise scenarios\n\n**Make (formerly Integromat)**\n- Intuitive visual workflow builder\n- Decent custom connector capabilities\n- Better suited for mid-market than enterprise scale\n\n**Boomi AtomSphere**\n- No-code/low-code connector development\n- Built-in templates and wizards\n- Strong enterprise support and scalability\n\n**n8n**\n- Open-source alternative\n- Node-based approach for custom connectors\n- Good for self-hosted enterprise deployments\n\n## For Enterprise Scale Specifically\n\n**Microsoft Power Platform** (Power Automate)\n- Custom connector builder within the platform\n- Integrates with Azure ecosystem\n- Strong governance for enterprise use\n\n**Informatica Intelligent Cloud Services**\n- Enterprise-grade connector framework\n- Handles complex data transformations\n- Scalability built-in\n\n## Selection Criteria\n- Integration complexity\n- Scale requirements (users, transactions, APIs)\n- On-premise vs. cloud deployment\n- Existing tech stack alignment\n- Support and maintenance needs\n\nWhat's your primary use case or target system? That would help narrow recommendations further.",
+  "cached_at": "2026-05-28T09:03:39Z",
+  "metadata": {}
+}

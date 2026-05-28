@@ -1,0 +1,9 @@
+{
+  "brand": "Neon",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is Neon better than PlanetScale for branch databases like code for isolated development and testing?",
+  "response": "# Neon vs PlanetScale for Branch Databases\n\nThis depends on your specific needs, as they have different strengths:\n\n## Neon's Advantages for Branching\n- **Native branching**: Built-in git-like branching specifically designed for this use case\n- **Copy-on-write**: Branches are essentially free until you diverge from parent data\n- **PostgreSQL**: If your stack is PostgreSQL-native\n- **Better for isolated testing**: Branches are isolated at the storage level\n\n## PlanetScale's Advantages\n- **MySQL/MariaDB ecosystem**: Broader tool compatibility if you're MySQL-focused\n- **Mature branching**: Git-style workflow, but more battle-tested in production\n- **Better for team workflows**: Long history with development branches in production environments\n- **Query insights**: Superior observability tools\n\n## Key Considerations\n\n| Factor | Neon | PlanetScale |\n|--------|------|------------|\n| **Branch cost** | Very cheap (CoW) | Per-branch fee |\n| **Database type** | PostgreSQL only | MySQL/MariaDB |\n| **Isolation level** | Storage-level | Application-level |\n| **Maturity** | Newer | More established |\n\n## Recommendation\n- **Choose Neon** if: You use PostgreSQL and want true, cheap branching with minimal DevOps friction\n- **Choose PlanetScale** if: You're MySQL-based, need production-grade stability, or prefer Vitess architecture\n\nBoth are solid; it largely comes down to your database engine preference and budget constraints.",
+  "cached_at": "2026-05-28T06:17:43Z",
+  "metadata": {}
+}

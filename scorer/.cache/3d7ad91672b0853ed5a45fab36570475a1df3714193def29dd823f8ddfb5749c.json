@@ -1,0 +1,9 @@
+{
+  "brand": "Fivetran",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with transform and model raw data with dbt in a unified managed data pipeline at scale?",
+  "response": "To transform and model raw data with dbt (data build tool) in a unified managed data pipeline at scale, you can use platforms like **dbt Cloud** or **dbt Core** in combination with modern data stack tools. Here are a few options:\n\n1. **dbt Cloud**: This is the managed service offering from dbt Labs that provides a web-based interface, scheduling, and orchestration features. It integrates seamlessly with various data warehouses like Snowflake, BigQuery, Redshift, and Databricks.\n\n2. **Airflow**: Apache Airflow is an open-source tool that can be used to orchestrate dbt runs along with other tasks in a data pipeline. It allows you to manage complex workflows and dependencies.\n\n3. **Dagster**: Dagster is another orchestration tool that can integrate with dbt to manage and monitor data pipelines effectively.\n\n4. **Prefect**: Prefect is a workflow orchestration tool that can be used alongside dbt to create, schedule, and monitor data workflows.\n\n5. **Fivetran** or **Stitch**: These ETL tools can be used to extract and load data into your data warehouse, where dbt can then transform it.\n\nThese tools, when used together, can help you build a robust and scalable data pipeline that leverages dbt for data transformation and modeling.",
+  "cached_at": "2026-05-28T08:58:43Z",
+  "metadata": {}
+}

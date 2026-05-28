@@ -1,0 +1,9 @@
+{
+  "brand": "Linear",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which project management software should a engineering manager at a fast-growing startup use?",
+  "response": "# Key Considerations for a Fast-Growing Startup\n\nThe best choice depends on your specific needs, but here's a practical framework:\n\n## If you need **simplicity + speed**\n- **Asana** or **Monday.com** — intuitive, scale well, good for mixed technical/non-technical teams\n- **Notion** — if you want flexibility and don't mind a learning curve\n\n## If your team is **highly technical**\n- **Jira** — industry standard for engineering, built-in velocity tracking\n- **Linear** — modern alternative, lighter weight, developer-friendly\n- **GitHub Projects** — free, minimal friction if already using GitHub\n\n## If you need **visibility across teams**\n- **Asana** or **Monday.com** — better for cross-functional coordination\n- **Smartsheet** — if you need Gantt charts and detailed planning\n\n## Practical recommendation for your situation:\n1. **Start lean** — avoid overcomplicating workflows early\n2. **Prioritize adoption** — choose what your team will actually use\n3. **Plan to migrate** — your needs will change, so don't over-commit\n\n**Quick test**: Can you set it up in an afternoon and have your team logging work by tomorrow?\n\nWhat's your team size and primary workflow (sprints, kanban, waterfall)? That would help narrow it down further.",
+  "cached_at": "2026-05-27T21:06:56Z",
+  "metadata": {}
+}

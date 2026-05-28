@@ -1,0 +1,9 @@
+{
+  "brand": "June.so",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "June.so HubSpot integration: how does it work?",
+  "response": "# June.so HubSpot Integration Overview\n\nJune.so is a product analytics platform that integrates with HubSpot to connect product usage data with CRM information. Here's how it typically works:\n\n## Key Functionality\n\n**Data Connection**\n- June syncs product events from your application with HubSpot contacts\n- Links user behavior (feature usage, engagement metrics) to HubSpot records\n- Creates a unified view of customer activity across product and sales data\n\n**Common Use Cases**\n- **Lead Scoring**: Adjust scores based on actual product engagement\n- **Sales Insights**: Show sales teams which prospects are actively using features\n- **Customer Health**: Track product adoption to identify at-risk or high-value customers\n- **Segmentation**: Create HubSpot lists based on product usage patterns\n\n## Integration Flow\n\n1. **Event Tracking** → June captures product usage events\n2. **User Identification** → Maps users to HubSpot contacts (via email, ID, etc.)\n3. **Data Sync** → Pushes usage metrics into HubSpot as contact properties\n4. **Workflows** → HubSpot triggers actions based on product behavior\n\n## What Gets Synced\n\n- Feature usage frequency\n- Last seen/login dates\n- Session duration\n- Custom events specific to your product\n- Engagement scores\n\n## Requirements\n\n- Active June.so account with product analytics enabled\n- HubSpot CRM (typically Professional tier or above)\n- API access to both platforms\n- Proper event tracking implementation in your product\n\n**Need specifics about setup or troubleshooting?** I can help with more detailed technical guidance.",
+  "cached_at": "2026-05-27T19:58:43Z",
+  "metadata": {}
+}

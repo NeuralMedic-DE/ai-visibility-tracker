@@ -1,0 +1,9 @@
+{
+  "brand": "Drata",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best compliance for security and compliance teams at high-growth technology companies?",
+  "response": "# Security & Compliance Best Practices for High-Growth Tech\n\n## Strategic Foundation\n\n**Risk-based prioritization**\n- Focus on threats matching your actual threat model, not checkbox compliance\n- Build compliance into products early (shift-left) rather than retrofitting\n- Map compliance requirements to security controls—they often overlap\n\n**Scaled governance**\n- Establish clear ownership (CISO, Chief Compliance Officer, or shared accountability)\n- Create lightweight approval processes that don't throttle development velocity\n- Use automation heavily as you scale—manual processes break at 200+ employees\n\n## Core Areas\n\n**Documentation & evidence**\n- Maintain living docs that auto-update (link to code, systems, logs)\n- Track controls in a system of record rather than spreadsheets\n- Audit trails become critical when you're being examined\n\n**Data handling**\n- Inventory what data you collect, where it lives, and who can access it\n- Implement encryption, access controls, and DLP early\n- Privacy by design matters for GDPR, CCPA, and customer trust\n\n**Access & identity**\n- SSO + MFA across everything\n- Regular access reviews (quarterly minimum)\n- Eliminate standing admin privileges where possible\n\n**Incident response**\n- Have a plan *before* you need it\n- Regular tabletop exercises\n- Fast notification/remediation matters more than preventing all incidents\n\n## The Realism Check\n\nThe best compliance is **sustainable and integrated into how you work**—not a separate function that slows everything down. High-growth companies that win treat security as an enabler of growth, not a brake on it.\n\nWhat specific area are you most concerned about?",
+  "cached_at": "2026-05-28T08:28:35Z",
+  "metadata": {}
+}

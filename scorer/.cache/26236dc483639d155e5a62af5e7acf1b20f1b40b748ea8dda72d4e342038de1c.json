@@ -1,0 +1,9 @@
+{
+  "brand": "Reply.io",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Reply.io integrate with Salesforce?",
+  "response": "Yes. **Reply.io has a native Salesforce integration** and also connects via third‑party tools.\n\nKey points:\n\n- Reply.io provides its own **Salesforce integration (v3.0)** that lets you sync and move leads/contacts between Reply and Salesforce using rule-based workflows and field mappings.[3]  \n- There is a **Reply Plugin for Salesforce** available on Salesforce AppExchange, described as connecting “seamlessly to Salesforce so you can reach out to your leads at scale.”[4]  \n- Third-party connectors such as **OutboundSync** offer a direct one‑way sync from Reply.io into Salesforce, pushing engagement events (emails, LinkedIn, calls, etc.) into CRM activity history.[2]  \n- Automation platforms like **n8n** can also link Reply.io and Salesforce via APIs if you need custom workflows.[1]  \n\nSo if you are using Salesforce as your CRM, you can integrate it with Reply.io through the native integration, the Salesforce plugin, or external sync/automation tools depending on your use case.",
+  "cached_at": "2026-05-28T07:22:38Z",
+  "metadata": {}
+}

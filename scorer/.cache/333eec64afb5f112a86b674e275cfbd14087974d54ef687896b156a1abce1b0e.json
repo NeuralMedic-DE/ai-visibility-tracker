@@ -1,0 +1,9 @@
+{
+  "brand": "Leapsome",
+  "prompt_id": "CD-05",
+  "llm": "anthropic",
+  "prompt_text": "Recommended HR tools for fast-growing companies with performance-driven cultures companies",
+  "response": "# HR Tools for Fast-Growing, Performance-Driven Companies\n\n## Core HRIS & Payroll\n- **Guidepoint, Workday** – Enterprise-grade, scalable across rapid growth\n- **BambooHR, Rippling** – Mid-market friendly, fast implementation\n- **Deel** – Strong for distributed/international teams\n- **Justworks** – Payroll + compliance automation\n\n## Performance Management\n- **Lattice** – Goals, feedback, reviews with engagement focus\n- **15Five** – Continuous feedback + OKR tracking\n- **Culture Amp** – Survey insights + engagement analytics\n- **Namely** – Integrated performance + compensation planning\n\n## Compensation & Equity\n- **Pulley, Carta** – Cap table + equity management\n- **Radford, Mercer** – Market benchmarking data\n- **Pave, Compaas** – Pay equity analysis\n\n## Talent Acquisition\n- **Ashby, Greenhouse** – ATS built for scaling teams\n- **Workable, Lever** – Mid-market applicant tracking\n- **LinkedIn Recruiter** – For speed and sourcing\n\n## Learning & Development\n- **Docebo, Cornerstone** – Scalable L&D platforms\n- **Maven** – Cohort-based internal training\n\n## Engagement & Culture\n- **Officevibe, Peakon** – Pulse surveys + sentiment tracking\n- **Bonusly** – Recognition + real-time feedback\n\n## Key Selection Criteria\n- **Integration capability** (avoid tool fragmentation)\n- **Mobile-first** (distributed teams)\n- **Speed of ROI** (reduce implementation time)\n- **Scalability** (handle 10x growth)\n\n**What's your specific growth stage/pain point?**",
+  "cached_at": "2026-05-28T06:37:02Z",
+  "metadata": {}
+}

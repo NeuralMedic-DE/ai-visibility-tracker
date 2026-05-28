@@ -1,0 +1,9 @@
+{
+  "brand": "Rippling",
+  "prompt_id": "IN-04",
+  "llm": "anthropic",
+  "prompt_text": "Best HR that works with Slack and Google Workspace",
+  "response": "# Top HR Platforms for Slack + Google Workspace\n\n## **Best Overall**\n**Rippling**\n- Deep Slack & Google Workspace integration\n- Onboarding, payroll, benefits, compliance all-in-one\n- Strong automation capabilities\n- Premium pricing (~$8-12/user/month)\n\n## **Best for Mid-Market**\n**Bamboo HR**\n- Excellent Google Workspace sync\n- Slack notifications for approvals/updates\n- Good onboarding & employee directory\n- Mid-range pricing (~$6-10/user/month)\n\n## **Best Budget-Friendly**\n**Guidepoint** or **BambooHR's Essentials**\n- Core HR + payroll basics\n- Native Slack integration\n- Lighter feature set but solid fundamentals\n- Starting ~$4-6/user/month\n\n## **Best for Distributed Teams**\n**Deel** (if international)\n- Excellent Slack/Google integration\n- Payroll, compliance across countries\n- Built for remote-first teams\n\n## **Best Lightweight Option**\n**Lattice**\n- Strong performance management\n- Good Slack integration\n- Google Workspace friendly\n- Great for employee engagement\n\n## **Key Integration Features to Verify:**\n✅ Slack notifications for approvals  \n✅ Google Workspace calendar sync  \n✅ Directory integration  \n✅ Time-off requests in Slack  \n✅ Onboarding checklists  \n\n**My recommendation:** Start with **Rippling** if budget allows, or **BambooHR** for best value. Both integrate seamlessly and handle 90% of HR needs.\n\nWhat's your company size? That would help narrow it down further.",
+  "cached_at": "2026-05-28T06:27:55Z",
+  "metadata": {}
+}

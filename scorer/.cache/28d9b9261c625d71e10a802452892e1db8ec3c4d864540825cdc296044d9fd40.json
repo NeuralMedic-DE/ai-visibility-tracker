@@ -1,0 +1,9 @@
+{
+  "brand": "Checkly",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with catch regressions in staging before they ever reach production at scale?",
+  "response": "# Software for Catching Regressions in Staging\n\nSeveral categories of tools help prevent regressions from reaching production:\n\n## **Automated Testing Frameworks**\n- **Unit testing**: Jest, pytest, unittest\n- **Integration testing**: Cypress, Selenium, Playwright\n- **API testing**: Postman, REST Assured\n\n## **CI/CD Platforms**\n- **Jenkins, GitLab CI, GitHub Actions, CircleCI** - Automate test execution on every commit\n- Run full test suites before code merges to main branches\n\n## **Performance & Load Testing**\n- **k6, Apache JMeter, Gatling** - Catch performance regressions under realistic load\n- **Artillery** - Lightweight load testing\n\n## **Visual Regression Testing**\n- **Percy, Chromatic, BackstopJS** - Catch unintended UI changes\n- Compare screenshots against baseline images\n\n## **Monitoring & Observability**\n- **Datadog, New Relic, Prometheus** - Monitor staging for anomalies\n- Alert on performance degradation, error spikes, or unusual behavior\n\n## **Feature Flags & Canary Deployments**\n- **LaunchDarkly, Unleash** - Control feature rollout to staging subsets\n- Gradually expose changes to catch issues early\n\n## **Database/Schema Testing**\n- **Liquibase, Flyway** - Validate migrations in staging before production\n\n## **Best Practice**\nUse a **layered approach**: unit tests → integration tests → staging environment → monitoring, ideally with feature flags for gradual rollout.\n\nWhat specific type of regressions are you most concerned about?",
+  "cached_at": "2026-05-28T06:23:09Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Matillion",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with transform raw data into analytics-ready models using a visual low-code ETL designer at scale?",
+  "response": "There are several software solutions that offer visual low-code ETL (Extract, Transform, Load) capabilities to transform raw data into analytics-ready models at scale. Some popular options include:\n\n1. **Talend**: Talend provides a comprehensive suite of data integration and transformation tools with a visual interface that allows users to design ETL processes without extensive coding.\n\n2. **Alteryx**: Alteryx offers a user-friendly platform for data preparation, blending, and analytics, featuring a drag-and-drop interface for building ETL workflows.\n\n3. **Informatica**: Informatica's PowerCenter and Cloud Data Integration tools provide robust ETL capabilities with a visual designer for data transformation and integration tasks.\n\n4. **Microsoft Power BI Dataflows**: Power BI Dataflows allow users to create ETL processes using a visual interface, making it easier to prepare data for analysis within the Power BI ecosystem.\n\n5. **Apache NiFi**: While more technical, Apache NiFi offers a visual interface for designing data flows, making it suitable for users who need to manage data transformation and routing at scale.\n\n6. **Knime**: Knime Analytics Platform provides a visual workflow interface for data manipulation, analysis, and ETL processes, catering to both data scientists and business analysts.\n\nThese tools are designed to simplify the process of transforming raw data into formats suitable for analysis, often integrating with various data sources and destinations to streamline data workflows.",
+  "cached_at": "2026-05-28T09:00:55Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Doppler",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Doppler with GitHub?",
+  "response": "# Connecting Doppler with GitHub\n\nHere are the main ways to integrate Doppler with GitHub:\n\n## 1. **GitHub Actions Integration** (Most Common)\n\n### Using the Official Action\nAdd this to your `.github/workflows/` file:\n\n```yaml\nname: Deploy with Doppler Secrets\n\non: [push]\n\njobs:\n  deploy:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v3\n      \n      - name: Run with Doppler secrets\n        uses: dopplerhq/secrets-fetch-action@v1\n        with:\n          doppler-token: ${{ secrets.DOPPLER_TOKEN }}\n          doppler-project: my-project\n          doppler-config: prd\n```\n\n### Prerequisites:\n1. Create a **service token** in Doppler (Settings → Service Tokens)\n2. Store it as a GitHub secret: `DOPPLER_TOKEN`\n3. Reference it in your workflow\n\n## 2. **Manual GitHub Secrets Setup**\n\nIf you prefer syncing secrets manually:\n1. Go to your Doppler dashboard\n2. Copy individual secrets\n3. Add them to GitHub repo (Settings → Secrets and Variables → Actions)\n\n## 3. **Using Doppler CLI in Workflows**\n\n```yaml\n- name: Install Doppler CLI\n  uses: dopplerhq/cli-action@v2\n\n- name: Run command with secrets\n  run: doppler run -- npm start\n  env:\n    DOPPLER_TOKEN: ${{ secrets.DOPPLER_TOKEN }}\n```\n\n## Need Help?\n- Which approach interests you most?\n- Are you using GitHub Actions or need manual syncing?",
+  "cached_at": "2026-05-28T06:20:42Z",
+  "metadata": {}
+}

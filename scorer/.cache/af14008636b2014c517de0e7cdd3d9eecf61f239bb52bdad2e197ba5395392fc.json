@@ -1,0 +1,9 @@
+{
+  "brand": "RudderStack",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to mParticle",
+  "response": "# Cheaper Alternatives to mParticle\n\n## Direct Competitors\n\n**Segment**\n- Similar CDP functionality\n- Often competitively priced or comparable\n- Good for mid-market companies\n\n**Tealium**\n- Tag management + data collection\n- Enterprise-focused but more flexible pricing\n- Strong for omnichannel data\n\n**Amplitude**\n- Product analytics focus\n- Better value if analytics is your priority\n- Freemium model available\n\n## Budget-Friendly Options\n\n**Mixpanel**\n- Event tracking and analytics\n- Cheaper for smaller volumes\n- Strong mobile support\n\n**Heap**\n- Automatic event capture\n- Lower implementation costs\n- Good ROI for small/mid teams\n\n**Fullstory**\n- Session replay + analytics\n- Pay-per-session model\n- Different value prop but lower cost\n\n**Rudderstack**\n- Open-source alternative\n- Self-hosted or cloud options\n- Significantly cheaper at scale\n\n## Ultra-Budget Solutions\n\n- **Plausible/Fathom** – Basic analytics only (~$20-100/month)\n- **Posthog** – Open-source product analytics\n- **Custom solution** – Direct API integrations (if engineering capacity exists)\n\n## Key Cost Factors\n- Data volume/events\n- Number of destinations\n- Integration complexity\n- Support tier needed\n\n**What's your main use case?** (Analytics, CDP, tag management, etc.) I can give more specific recommendations.",
+  "cached_at": "2026-05-28T09:07:57Z",
+  "metadata": {}
+}

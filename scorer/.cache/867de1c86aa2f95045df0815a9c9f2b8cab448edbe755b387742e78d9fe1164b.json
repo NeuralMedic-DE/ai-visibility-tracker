@@ -1,0 +1,9 @@
+{
+  "brand": "Linear",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with manage product roadmaps and coordinate releases at scale?",
+  "response": "There are several software tools designed to help manage product roadmaps and coordinate releases at scale. Some popular options include:\n\n1. **Aha!** - A comprehensive product management tool that helps teams build and share visual roadmaps, set strategy, and prioritize features.\n\n2. **Jira** - Widely used for agile project management, Jira offers roadmap features and integrates with various plugins to enhance release management.\n\n3. **ProductPlan** - A tool focused on creating and sharing product roadmaps, allowing teams to visualize their plans and collaborate effectively.\n\n4. **Trello** - Known for its simplicity and flexibility, Trello can be used to manage product roadmaps with the help of power-ups and integrations.\n\n5. **Roadmunk** - Offers a visual roadmap tool that allows teams to create, share, and collaborate on roadmaps easily.\n\n6. **Asana** - While primarily a project management tool, Asana can be used to manage product roadmaps and coordinate releases through its timeline and task management features.\n\n7. **Monday.com** - A flexible work operating system that can be customized to manage product roadmaps and track releases.\n\n8. **Airfocus** - A prioritization and roadmapping tool that helps teams focus on building the right features and aligning their strategy.\n\nThese tools vary in features and complexity, so the best choice will depend on your specific needs, team size, and workflow preferences.",
+  "cached_at": "2026-05-27T21:06:13Z",
+  "metadata": {}
+}

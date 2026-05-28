@@ -1,0 +1,9 @@
+{
+  "brand": "Linear",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Linear integrate with GitHub?",
+  "response": "Yes, Linear does integrate with GitHub. This integration allows you to link Linear issues with GitHub pull requests and commits, enabling seamless tracking of development progress. You can automate workflows, such as automatically closing Linear issues when a pull request is merged, and view relevant issue details directly from GitHub. This integration helps streamline project management and development processes by keeping both platforms in sync.",
+  "cached_at": "2026-05-27T21:06:17Z",
+  "metadata": {}
+}

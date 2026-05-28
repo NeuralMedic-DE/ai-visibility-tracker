@@ -1,0 +1,9 @@
+{
+  "brand": "Sprinto",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Sprinto integrate with GitHub?",
+  "response": "Yes, Sprinto integrates with GitHub. This integration allows Sprinto to automate and streamline compliance processes by monitoring and managing access controls, code changes, and other security-related activities directly within your GitHub repositories. This helps ensure that your development practices align with compliance requirements.",
+  "cached_at": "2026-05-28T08:31:29Z",
+  "metadata": {}
+}

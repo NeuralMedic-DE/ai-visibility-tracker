@@ -1,0 +1,9 @@
+{
+  "brand": "Lemlist",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is Lemlist better than Instantly for automate multi-channel outreach sequences across LinkedIn and email?",
+  "response": "# Lemlist vs Instantly for Multi-Channel Outreach\n\nBoth are solid, but they have different strengths:\n\n## Lemlist advantages:\n- **Better LinkedIn integration** – more native features for LinkedIn sequences\n- **Stronger personalization** – video, images, landing pages built-in\n- **Superior deliverability tracking** – clearer insight into what's working\n- **More polished UI** – easier learning curve\n\n## Instantly advantages:\n- **Better email deliverability** – generally higher inbox placement\n- **More affordable** – lower price point, especially at scale\n- **Faster sequences** – less restrictive on timing\n- **Better for pure email volume** – optimized for that use case\n\n## For multi-channel specifically:\n**Lemlist edges out Instantly** if LinkedIn is a priority—it has better LinkedIn automation. But Instantly is more aggressive on email volume if that's your main channel.\n\n## Consider your priorities:\n- **LinkedIn-heavy workflow?** → Lemlist\n- **Email-heavy with some LinkedIn?** → Instantly\n- **Budget-conscious?** → Instantly\n- **Want richer personalization?** → Lemlist\n\n**Real talk:** The best tool depends on your actual outreach mix and what your data shows works. Test both if possible—many teams use them in parallel for different campaigns. What's your primary channel?",
+  "cached_at": "2026-05-28T07:17:01Z",
+  "metadata": {}
+}

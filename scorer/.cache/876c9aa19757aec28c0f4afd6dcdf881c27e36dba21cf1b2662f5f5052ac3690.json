@@ -1,0 +1,9 @@
+{
+  "brand": "SafeBase",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect SafeBase with Salesforce?",
+  "response": "# Connecting SafeBase with Salesforce\n\nI don't have specific documentation for SafeBase's Salesforce integration in my current knowledge base. However, here's a general approach:\n\n## Typical Steps:\n\n1. **Check SafeBase's app marketplace**\n   - Look in Salesforce AppExchange for SafeBase\n   - Or visit SafeBase's documentation/integrations page\n\n2. **Install the integration**\n   - Use Salesforce's setup wizard if available\n   - Grant required permissions when prompted\n\n3. **Configure authentication**\n   - Connect your SafeBase account\n   - Authorize API access between platforms\n\n4. **Map data fields**\n   - Configure which Salesforce fields sync with SafeBase\n   - Set up the direction of data flow\n\n5. **Test the connection**\n   - Verify data is syncing correctly\n   - Check both platforms for accuracy\n\n## Better Resources:\n\n- **SafeBase Help Center** - Specific integration guides\n- **Salesforce Setup** - Native app management tools\n- **Contact SafeBase Support** - For integration assistance\n\nWould you like help with a specific aspect of the integration, or do you have access to SafeBase documentation I could help you interpret?",
+  "cached_at": "2026-05-28T08:43:48Z",
+  "metadata": {}
+}

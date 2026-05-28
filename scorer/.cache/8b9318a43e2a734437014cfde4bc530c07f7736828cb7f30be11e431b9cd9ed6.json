@@ -1,0 +1,9 @@
+{
+  "brand": "Finaloop",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do e-commerce founders and finance teams on Shopify and Amazon companies use to automate e-commerce bookkeeping with real-time P&L and inventory COGS?",
+  "response": "# E-Commerce Bookkeeping Automation Tools\n\n## Dedicated E-Commerce Solutions\n\n**Purpose-built platforms:**\n- **Shopify Flow** + **Shopify Balance** - native automation for order-to-cash\n- **Xero** - strong Shopify/Amazon connectors with real-time sync\n- **Quickbooks Online** - integrates via apps like Zapier or native connectors\n- **Finale Inventory** - COGS tracking focused\n- **TraceLink** or **Cin7** - inventory + financials integration\n- **Cin7 (now Eka)** - multi-channel inventory management with GL sync\n\n## Real-Time P&L & COGS Specialists\n\n- **Metrilo** - Shopify-native analytics + COGS automation\n- **Sellvana/Sellfy** - built-in accounting features\n- **ProfitWheel** - Shopify/Amazon P&L dashboards with COGS\n- **Brightpearl** - inventory-centric with accounting integration\n- **Ordoro** - order + inventory management with accounting sync\n\n## Integration/Middleware Layer\n\n- **Zapier** - connects Shopify/Amazon to accounting software\n- **Make (Integromat)** - complex automation workflows\n- **APIvio** or **Pagobi** - specialized e-commerce data pipelines\n- **Fivetran** - enterprise-grade data integration\n\n## Key Features Teams Prioritize\n\n✓ Multi-channel inventory sync (SKU-level COGS)\n✓ Automated journal entries for discounts/refunds\n✓ Real-time revenue recognition\n✓ Tax compliance (sales tax, nexus)\n✓ Profit margin visibility by product/channel\n\n**What's your primary pain point?** (Channel reconciliation, COGS accuracy, inventory variance?) That determines the best fit.",
+  "cached_at": "2026-05-28T07:07:43Z",
+  "metadata": {}
+}

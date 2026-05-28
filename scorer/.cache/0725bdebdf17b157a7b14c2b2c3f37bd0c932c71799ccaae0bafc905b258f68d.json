@@ -1,0 +1,9 @@
+{
+  "brand": "Chargebee",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Chargebee with Salesforce?",
+  "response": "# Connecting Chargebee with Salesforce\n\nHere's how to set up the integration:\n\n## **Via Chargebee's Native Integration**\n\n1. **In Chargebee:**\n   - Go to **Settings** → **Integrations** → **Salesforce**\n   - Click **Connect**\n\n2. **Authorize:**\n   - You'll be redirected to Salesforce login\n   - Log in with your Salesforce credentials\n   - Grant Chargebee permission to access your Salesforce org\n\n3. **Configure:**\n   - Choose which Chargebee objects to sync (Customers, Subscriptions, Invoices, etc.)\n   - Map Chargebee fields to Salesforce objects (Accounts, Contacts, Opportunities)\n   - Select sync direction (one-way or two-way)\n\n4. **Save & Test:**\n   - Review the configuration\n   - Test the connection\n\n## **Alternative: Using Zapier or Other iPaaS**\n\nIf you prefer more flexibility:\n- Use **Zapier**, **PieSync**, or **Integromat** to create custom workflows\n- Good for complex requirements or field mapping\n\n## **Common Sync Options**\n\n- **Customers** → Salesforce Accounts/Contacts\n- **Subscriptions** → Opportunities or custom objects\n- **Invoices** → Custom records or notes\n- **Payments** → Activity records\n\n## **Troubleshooting Tips**\n\n- Ensure you have admin access in both systems\n- Check API rate limits if syncing large datasets\n- Verify field permissions in Salesforce\n- Test with a small dataset first\n\nWould you like help with specific field mapping or troubleshooting?",
+  "cached_at": "2026-05-28T06:50:56Z",
+  "metadata": {}
+}

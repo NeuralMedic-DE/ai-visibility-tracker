@@ -1,0 +1,9 @@
+{
+  "brand": "Totango",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is Totango better than ChurnZero for scale CS operations across thousands of accounts with automated plays?",
+  "response": "# Totango vs ChurnZero for Scaled CS Operations\n\nBoth handle thousands of accounts, but they have different strengths:\n\n## Totango's advantages at scale\n- **Automation depth**: More sophisticated workflow automation and conditional logic\n- **Custom plays**: Better flexibility for building complex, multi-step automated plays\n- **Data integration**: Stronger ETL capabilities for pulling in external data\n- **Enterprise features**: Built for large, fragmented tech stacks\n\n## ChurnZero's advantages at scale\n- **Ease of use**: Faster to set up automated plays without heavy customization\n- **Health scoring**: More intuitive health score configuration\n- **User adoption**: Lower learning curve means faster team onboarding\n- **Cost efficiency**: Often cheaper per account at 5K+ scale\n\n## The real differentiator for automation\n\nYour answer depends on:\n- **Complexity of plays**: If you need deeply conditional, multi-tool orchestration → Totango\n- **Speed to deployment**: If you need plays running in weeks, not months → ChurnZero\n- **Team size/skill**: Do you have dedicated ops resources for Totango's complexity?\n- **Tech stack**: How many systems need to feed data into the plays?\n\n**Honest take**: ChurnZero can absolutely handle thousands of accounts with good automation. The question isn't really \"which scales\" but \"which matches your ops maturity and complexity needs.\"\n\nWhat type of plays are you looking to automate? That would clarify the choice.",
+  "cached_at": "2026-05-28T08:14:27Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Mosaic",
+  "prompt_id": "CM-01",
+  "llm": "perplexity",
+  "prompt_text": "Mosaic vs Planful: which is better?",
+  "response": "**Planful is generally the better choice for most mid-market to enterprise FP&A teams**, while **Mosaic can be better if you want a simpler, more modern user experience and faster onboarding**.[1][2][7]\n\n- **Planful’s strengths:** unified close, consolidation, planning, and forecasting in one platform; positioned as fast to implement and adaptable for organizations that need broader finance workflows.[1]\n- **Mosaic’s strengths:** reviewers on G2 note slightly higher ease-of-use ratings, and Mosaic is often associated with a more intuitive, no-code planning experience.[2]\n- **Tradeoff:** Mosaic’s no-code setup can limit customization, and some users note its formula/functions are less flexible than Excel-like alternatives.[2]\n- **Overall fit:** if you need *more complete FP&A depth* and a broader enterprise finance suite, Planful has the edge; if you prioritize *simplicity and usability*, Mosaic may be the better fit.[1][2][7]\n\nIf you want, I can also give you a **Mosaic vs Planful comparison table** across pricing, ease of use, modeling, implementation, and best-fit company size.",
+  "cached_at": "2026-05-28T07:10:13Z",
+  "metadata": {}
+}

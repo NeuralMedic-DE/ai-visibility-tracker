@@ -1,0 +1,9 @@
+{
+  "brand": "Leapsome",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is Leapsome better than 15Five for track employee engagement with pulse surveys and act on insights?",
+  "response": "# Leapsome vs 15Five for Pulse Surveys & Engagement\n\nBoth are solid choices, but they have different strengths:\n\n## Leapsome's advantages\n- **More intuitive survey builder** - easier to create and customize pulse surveys\n- **Better visual dashboards** - cleaner presentation of engagement insights\n- **Stronger action-planning tools** - good features for acting on findings\n- **More affordable** - typically lower cost\n\n## 15Five's advantages\n- **Deeper analytics** - more sophisticated trend analysis and predictive insights\n- **Better for continuous feedback** - integrated check-ins between formal surveys\n- **Stronger OKR integration** - connects engagement to business outcomes\n- **Established platform** - longer track record in this space\n\n## Key question for you:\n- Do you want **simplicity and ease of use**? → Leapsome\n- Do you need **advanced analytics and predictive insights**? → 15Five\n\n## What to actually evaluate:\n1. **Current tech stack** - which integrates better with your existing tools?\n2. **Survey frequency** - pulse-only or continuous feedback mix?\n3. **Team size** - pricing differs significantly at scale\n4. **Action plan workflow** - demo both to see which fits your process\n\nBoth can handle pulse surveys and insight-to-action workflows well. The better choice depends more on your company's size, technical needs, and how you want to use the data than on either being objectively \"better.\"\n\nWould it help to discuss what specific engagement challenges you're trying to solve?",
+  "cached_at": "2026-05-28T06:37:07Z",
+  "metadata": {}
+}

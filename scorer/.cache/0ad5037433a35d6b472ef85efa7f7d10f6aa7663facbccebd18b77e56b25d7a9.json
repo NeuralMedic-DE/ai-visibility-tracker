@@ -1,0 +1,9 @@
+{
+  "brand": "Vercel",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Vercel integrate with GitHub?",
+  "response": "# Vercel and GitHub Integration\n\nYes, **Vercel integrates deeply with GitHub**. Here are the main features:\n\n## Key Integration Points\n\n- **Automatic Deployments**: Push to GitHub → automatic deployment to Vercel\n- **Preview Deployments**: Every pull request gets a unique preview URL\n- **Git Push Deploys**: Changes to your main branch trigger production deployments\n- **GitHub Checks**: Deployment status appears directly in pull requests\n\n## Setup Process\n\n1. Connect your GitHub account when creating a Vercel project\n2. Select the repository you want to deploy\n3. Configure build settings (usually auto-detected)\n4. Vercel automatically creates webhooks for deployments\n\n## Additional Features\n\n- **Environment Variables**: Sync with GitHub secrets\n- **Rollbacks**: Revert to previous deployments easily\n- **Commit Integration**: See deployment status linked to commits\n- **Team Collaboration**: Manage access through GitHub organizations\n\n## Alternative VCS Support\n\nWhile GitHub is the most popular, Vercel also integrates with:\n- GitLab\n- Bitbucket\n\nThe GitHub integration is particularly seamless and well-documented, making it one of Vercel's strongest features for modern development workflows.",
+  "cached_at": "2026-05-27T21:28:42Z",
+  "metadata": {}
+}

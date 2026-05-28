@@ -1,0 +1,9 @@
+{
+  "brand": "Amplemarket",
+  "prompt_id": "IN-04",
+  "llm": "openai",
+  "prompt_text": "Best CRM that works with Salesforce and LinkedIn",
+  "response": "When looking for a CRM that integrates well with both Salesforce and LinkedIn, Salesforce itself is a strong contender. Salesforce is a leading CRM platform that offers robust integration capabilities. Here’s how it works with LinkedIn:\n\n1. **Salesforce LinkedIn Integration**: Salesforce can integrate with LinkedIn Sales Navigator, which allows users to access LinkedIn’s vast network directly from Salesforce. This integration helps in lead generation and management by providing insights and updates on contacts and accounts.\n\n2. **AppExchange**: Salesforce’s AppExchange offers various third-party applications that enhance its integration with LinkedIn. These apps can help automate data entry, enrich contact profiles, and streamline communication between the two platforms.\n\n3. **LinkedIn Sales Navigator**: This tool can be embedded within Salesforce, allowing users to leverage LinkedIn’s professional network for sales prospecting and relationship management directly from the CRM.\n\nIf you are considering other CRM platforms that work well with both Salesforce and LinkedIn, you might look into:\n\n- **HubSpot CRM**: HubSpot offers integrations with both Salesforce and LinkedIn. It can sync data between Salesforce and HubSpot, and its LinkedIn integration allows users to engage with leads and contacts on LinkedIn.\n\n- **Zoho CRM**: Zoho offers integration with LinkedIn through its SalesIQ and other tools, and it can also integrate with Salesforce, allowing for a multi-platform approach.\n\nUltimately, the best choice depends on your specific business needs, budget, and existing technology stack. Salesforce itself, however, is a powerful option if you are looking for seamless integration with LinkedIn.",
+  "cached_at": "2026-05-27T19:02:22Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Plausible",
+  "prompt_id": "UC-04",
+  "llm": "anthropic",
+  "prompt_text": "How can a SaaS founder or marketing manager track website traffic without cookies or consent banners more efficiently?",
+  "response": "# Cookie-Free Traffic Tracking Options\n\n## Server-Side Solutions (Most Practical)\n\n**First-party data collection**\n- Track via your own domain using server logs and analytics\n- No cookie dependencies, no consent needed for basic metrics\n- Tools: Plausible, Fathom Analytics, or self-hosted solutions like Matomo\n\n**Email/account-based tracking**\n- If users sign up or log in, you own that relationship\n- Track behavior tied to known identities\n- More valuable than anonymous traffic anyway\n\n## What You Can Still Measure Reliably\n\n- Page views and session duration (via server logs)\n- Conversion funnels for logged-in users\n- Revenue-related metrics\n- Geographic data (IP-based, no consent needed)\n- Device/browser info\n\n## What's Actually Worth Tracking\n\nThe uncomfortable truth: much cookie-based tracking provided marginal ROI while creating compliance headaches. Focus on:\n\n- **Who converted** (actual customer data)\n- **Where they came from** (UTM parameters, referrer data)\n- **What they did after signup** (your first-party events)\n- **Revenue impact** (the only metric that matters)\n\n## Implementation Note\n\nServer-side tracking requires some engineering lift but often improves data quality since it's harder to block. Most modern frameworks support this well.\n\n**What's your primary tracking goal?** (Marketing attribution, product analytics, or general traffic?) That matters for which solution makes sense.",
+  "cached_at": "2026-05-27T20:18:51Z",
+  "metadata": {}
+}

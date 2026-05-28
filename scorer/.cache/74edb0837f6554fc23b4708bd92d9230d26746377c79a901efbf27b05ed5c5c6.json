@@ -1,0 +1,9 @@
+{
+  "brand": "Attio",
+  "prompt_id": "CD-05",
+  "llm": "anthropic",
+  "prompt_text": "Recommended CRM tools for B2B startups companies",
+  "response": "# Best CRM Tools for B2B Startups\n\n## **Top Tier (Most Popular)**\n\n### **HubSpot CRM**\n- Free tier covers basics; paid plans start ~$45/month\n- Excellent onboarding and learning resources\n- Strong automation and sales pipeline features\n- Great for inbound marketing integration\n\n### **Pipedrive**\n- Intuitive, visual sales pipeline\n- ~$14/month (starting price)\n- Excellent for sales-focused teams\n- Mobile-friendly\n\n### **Zoho CRM**\n- Very affordable (~$20/month)\n- Comprehensive features at lower cost\n- Good customization options\n- Best for budget-conscious startups\n\n---\n\n## **Strong Alternatives**\n\n| Tool | Best For | Price |\n|------|----------|-------|\n| **Salesforce** | Enterprise-ready growth | $165+/month |\n| **Monday.com** | Visual workflow management | $99+/month |\n| **Copper** | Google Workspace integration | $99+/month |\n| **Freshsales** | Smaller teams, AI features | $35+/month |\n| **Insightly** | Project + CRM combo | $29+/month |\n\n---\n\n## **Selection Criteria**\n\n✅ **Consider your priorities:**\n- Budget constraints\n- Team size (5-20 people)\n- Integration needs (email, calendar, accounting)\n- Ease of use vs. customization\n- Scalability requirements\n- Mobile access needs\n\n**Pro tip:** Most offer free trials—test 2-3 options with your team before deciding.\n\nWhat's your specific use case? I can recommend more targeted options.",
+  "cached_at": "2026-05-27T17:53:42Z",
+  "metadata": {}
+}

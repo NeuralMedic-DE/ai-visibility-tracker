@@ -1,0 +1,9 @@
+{
+  "brand": "Finaloop",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Finaloop integrate with Shopify?",
+  "response": "Yes. **Finaloop has a native integration with Shopify** that automatically syncs your Shopify store data into Finaloop.\n\nKey points:\n- Finaloop’s Shopify integration pulls **orders, products, fulfillment, and payment data** in real time to keep your books updated and reconciled automatically.[1]\n- Finaloop’s own integrations page lists **Shopify** as a supported store integration.[4]\n- The Finaloop Shopify app is available in the **Shopify App Store**, confirming official integration support.[3]\n\nSo if you run a Shopify store, you can connect it directly to Finaloop to automate your ecommerce bookkeeping and reporting.",
+  "cached_at": "2026-05-28T07:09:17Z",
+  "metadata": {}
+}

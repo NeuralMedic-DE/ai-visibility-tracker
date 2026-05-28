@@ -1,0 +1,9 @@
+{
+  "brand": "Supermetrics",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with automate marketing reporting across all channels at scale?",
+  "response": "There are several software solutions that can help automate marketing reporting across various channels at scale. Some popular options include:\n\n1. **Google Data Studio**: A free tool that allows you to create customizable reports and dashboards by connecting to various data sources, including Google Analytics, Google Ads, and more.\n\n2. **Tableau**: A powerful data visualization tool that can connect to a wide range of data sources to create interactive and shareable dashboards.\n\n3. **Datorama (Salesforce Marketing Cloud)**: A marketing intelligence platform that integrates data from multiple sources to automate reporting and provide insights.\n\n4. **Supermetrics**: A tool that pulls data from various marketing platforms into Google Sheets, Excel, or data visualization tools like Google Data Studio and Tableau.\n\n5. **HubSpot**: Offers built-in reporting and analytics tools that can automate marketing reports across email, social media, and other channels.\n\n6. **Klipfolio**: A cloud-based platform that allows you to create real-time business dashboards by connecting to various data sources.\n\n7. **Looker (Google Cloud)**: A business intelligence platform that can help automate reporting by connecting to multiple data sources and providing advanced data analytics capabilities.\n\n8. **AgencyAnalytics**: Designed specifically for marketing agencies, it provides automated reporting and dashboards for SEO, PPC, social media, and more.\n\nThese tools vary in terms of features, integrations, and pricing, so it's important to evaluate them based on your specific needs and the channels you use.",
+  "cached_at": "2026-05-27T20:35:45Z",
+  "metadata": {}
+}

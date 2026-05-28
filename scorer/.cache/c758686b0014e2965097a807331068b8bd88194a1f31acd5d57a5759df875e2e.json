@@ -1,0 +1,9 @@
+{
+  "brand": "Numeric",
+  "prompt_id": "CM-02",
+  "llm": "anthropic",
+  "prompt_text": "Numeric vs BlackLine pricing and features",
+  "response": "# Numeric vs BlackLine: Pricing & Features Comparison\n\n## Overview\n| Aspect | Numeric | BlackLine |\n|--------|---------|-----------|\n| **Type** | Modern accounting close platform | Accounting automation + close management |\n| **Primary Focus** | Financial consolidation & close | Account reconciliation & audit trail |\n| **Deployment** | Cloud-native | SaaS (cloud) |\n\n## Key Features\n\n### Numeric\n- **Financial consolidation** (multi-entity, multi-currency)\n- Close process automation\n- Variance analysis & reporting\n- Real-time dashboards\n- Journal entry management\n- Integration with major ERPs\n\n### BlackLine\n- **Account reconciliation** (core strength)\n- Intercompany reconciliation\n- Bank reconciliation automation\n- Journal entry controls & audit trail\n- Transaction matching\n- Continuous auditing capabilities\n\n## Pricing\n\n### Numeric\n- **Model**: Usage-based + seat licensing\n- **Range**: Typically $50K-$300K+ annually\n- **Factors**: Data volume, # of entities, users\n- **Best for**: Mid-market to enterprise\n\n### BlackLine\n- **Model**: Subscription-based (per module)\n- **Range**: $100K-$500K+ annually\n- **Factors**: # of users, modules selected, transaction volume\n- **Best for**: Enterprise organizations\n\n## When to Choose Each\n\n**Choose Numeric if:**\n- Multi-entity consolidation is priority\n- Need modern, user-friendly interface\n- Budget constraints exist\n\n**Choose BlackLine if:**\n- Reconciliation efficiency is critical\n- Audit/compliance is top priority\n- Larger enterprise with complex requirements\n\n---\n*Pricing varies by implementation and customization. Request demos for accurate quotes.*",
+  "cached_at": "2026-05-28T07:04:52Z",
+  "metadata": {}
+}

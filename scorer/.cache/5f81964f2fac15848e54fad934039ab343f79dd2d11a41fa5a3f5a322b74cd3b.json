@@ -1,0 +1,9 @@
+{
+  "brand": "Attio",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which CRM software should a founder or RevOps lead at a Series A startup use?",
+  "response": "# CRM for Series A Startups\n\nThe best choice depends on your specific situation, but here's a practical framework:\n\n## **Salesforce (Sales Cloud)**\n**Best if:** You need to scale quickly, have complex sales processes, or plan aggressive growth\n- Most flexible and extensible\n- Strong ecosystem of integrations\n- Higher cost and implementation burden upfront\n- Overkill if you're still figuring out your sales process\n\n## **HubSpot**\n**Best if:** You want speed-to-value with minimal setup\n- Easiest onboarding for early-stage teams\n- Good free tier to start, scales affordably\n- Built-in marketing and service tools reduce tool sprawl\n- Less customizable than Salesforce, but usually good enough\n\n## **Pipedrive**\n**Best if:** You're sales-focused and want simplicity\n- Lightweight, visual pipeline management\n- Very affordable\n- Less powerful for marketing/service integration\n\n## **Key questions to ask yourself:**\n\n1. **How complex is your sales process?** (Straightforward = HubSpot/Pipedrive; Multi-step = Salesforce)\n2. **Do you need marketing automation?** (Yes = HubSpot; No = others work fine)\n3. **How much implementation time do you have?** (Minimal = HubSpot; Can invest = Salesforce)\n4. **What's your burn rate sensitivity?** (High = HubSpot; Lower = Salesforce viable)\n\n## **My take:**\n**HubSpot** tends to be the sweet spot for Series A—you get moving fast without overcommitting resources or budget. You can always migrate to Salesforce later if you outgrow it.\n\nWhat's your sales process look like?",
+  "cached_at": "2026-05-27T17:53:30Z",
+  "metadata": {}
+}

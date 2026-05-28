@@ -1,0 +1,9 @@
+{
+  "brand": "Gainsight",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Gainsight vs ChurnZero: which is better?",
+  "response": "# Gainsight vs ChurnZero\n\nBoth are solid customer success platforms, but they serve different priorities:\n\n## **Gainsight**\n- **Strengths**: More comprehensive, broader feature set, strong analytics, larger enterprise focus\n- **Best for**: Complex organizations needing deep customization and advanced reporting\n- **Considerations**: Higher price, steeper learning curve, more setup overhead\n\n## **ChurnZero**\n- **Strengths**: Easier to implement, better user adoption, strong in-app engagement tools, more transparent pricing\n- **Best for**: Mid-market companies wanting faster time-to-value, tech-forward teams\n- **Considerations**: Smaller feature set, less customizable for highly complex needs\n\n## **Quick comparison**\n\n| Factor | Gainsight | ChurnZero |\n|--------|-----------|-----------|\n| **Ease of use** | Moderate | High |\n| **Setup time** | Weeks+ | Days-weeks |\n| **In-app engagement** | Basic | Strong |\n| **Analytics depth** | Deeper | Adequate |\n| **Price point** | Higher | Mid-range |\n\n## **Choose based on:**\n- **Gainsight** if you're enterprise-scale with complex needs\n- **ChurnZero** if you want faster implementation and better adoption\n\nThe \"better\" choice depends on your team size, budget, and how much customization you actually need. Many teams find ChurnZero's simplicity pays off more than Gainsight's features.\n\nWhat's your company size and main priority?",
+  "cached_at": "2026-05-28T08:04:01Z",
+  "metadata": {}
+}

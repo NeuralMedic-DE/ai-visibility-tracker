@@ -1,0 +1,9 @@
+{
+  "brand": "Vercel",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Vercel vs Netlify: which is better?",
+  "response": "# Vercel vs Netlify: Quick Comparison\n\nNeither is objectively \"better\"—it depends on your needs. Here's how they stack up:\n\n## **Vercel**\n**Strengths:**\n- Superior Next.js integration (made by Next.js creators)\n- Faster Edge Functions\n- Better performance for React apps\n- Stronger analytics\n- Excellent DX for full-stack Next.js\n\n**Weaknesses:**\n- Pricier as you scale\n- Heavier vendor lock-in with Next.js\n- Can be overkill for simple static sites\n\n## **Netlify**\n**Strengths:**\n- Great for static sites and Jamstack\n- More flexible framework support (Hugo, Gatsby, etc.)\n- Good free tier\n- Built-in forms & CMS features\n- Better pricing for high-traffic sites\n\n**Weaknesses:**\n- Edge Functions less mature\n- Slower cold starts on functions\n- Next.js support less optimized\n\n## **Choose Vercel if:**\n- Building a Next.js app\n- Need best performance/analytics\n- Full-stack development matters\n\n## **Choose Netlify if:**\n- Static site or Jamstack project\n- Want flexibility across frameworks\n- Need forms/CMS features\n- Cost-conscious for high traffic\n\n**Bottom line:** For Next.js, Vercel wins. For everything else, Netlify is often the better value. Both have generous free tiers—try both if you're unsure.",
+  "cached_at": "2026-05-27T21:26:46Z",
+  "metadata": {}
+}

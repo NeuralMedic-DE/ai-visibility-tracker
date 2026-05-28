@@ -1,0 +1,9 @@
+{
+  "brand": "Chargebee",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which billing software should a Finance Lead or RevOps Manager at a SaaS company use?",
+  "response": "# Best Billing Software for SaaS Finance/RevOps Leaders\n\nThe answer depends on your company's complexity, but here are the top contenders:\n\n## **Enterprise/Mid-Market (Most Common)**\n- **Zuora** - Purpose-built for subscription billing; strong reporting and revenue recognition\n- **Stripe Billing** - Great if already using Stripe; modern, developer-friendly, good for growth stage\n- **Recurly** - Solid mid-market option with good dunning and analytics\n\n## **High-Growth SaaS**\n- **Paddle** - Excellent for global expansion and tax compliance\n- **Chargify** - User-friendly, good for recurring revenue focus\n- **FastSpring** - Strong if you need commerce + billing combined\n\n## **Key Evaluation Criteria**\n\n| Factor | Matters Because |\n|--------|-----------------|\n| **Revenue Recognition** | ASC 606 compliance is non-negotiable |\n| **Integration Depth** | Must connect cleanly to accounting (Netsuite, Sage) and CRM (Salesforce) |\n| **Reporting/Analytics** | You need real-time MRR, cohort, and churn visibility |\n| **Dunning/Collections** | Reduces involuntary churn significantly |\n| **Global/Tax Compliance** | VAT, GST, local requirements if international |\n\n## **Red Flags to Avoid**\n- Outdated UX or weak reporting\n- Poor API documentation\n- Manual revenue recognition workflows\n\n**Quick Shortcut:** If you're under $10M ARR and tech-savvy, **Stripe Billing**. If you need sophisticated reporting and multiple currencies at scale, **Zuora**. For everything in between, **Recurly** or **Chargify**.\n\nWhat's your company's ARR and current gaps?",
+  "cached_at": "2026-05-28T06:50:23Z",
+  "metadata": {}
+}

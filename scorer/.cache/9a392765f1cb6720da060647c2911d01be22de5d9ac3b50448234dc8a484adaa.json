@@ -1,0 +1,9 @@
+{
+  "brand": "Make",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I build complex multi-step automations with a visual drag-and-drop workflow builder without spending a lot on software?",
+  "response": "# Low-Cost Workflow Automation Options\n\n## Free/Cheap Platforms\n\n**Zapier alternatives with visual builders:**\n- **n8n** (self-hosted free, or cloud ~$25/mo) - robust, node-based visual editor\n- **Make** (formerly Integromat) - generous free tier, intuitive drag-and-drop\n- **Pabbly Connect** - flat $19/mo for unlimited automations\n- **Automation Anywhere Community Edition** - free for personal use\n\n**Google Workspace natives (if you're in that ecosystem):**\n- **Google Sheets + Apps Script** - free, steeper learning curve\n- **Google Workflow** - integrates tightly with Google services\n\n## Hybrid Approaches (Lower Cost)\n\n- **Start with Make's free tier** while learning, upgrade selectively\n- **Self-host n8n** on cheap cloud (Replit free tier, or $5-10/mo VPS)\n- **Combine tools**: Use IFTTT (free) for simple triggers + Sheets for logic\n- **Supabase + Edge Functions** - build custom workflows programmatically on budget\n\n## What to Evaluate\n\nBefore committing, ask:\n- How many automations do you need?\n- Are you connecting standard apps (Zapier-friendly) or custom systems?\n- Do you need true multi-step logic, or mostly data forwarding?\n\n**Most cost-effective starting point?** Make's free tier handles surprisingly complex workflows, then you only pay if you actually scale. n8n self-hosted if you're comfortable with basic server management.\n\nWhat types of systems are you trying to connect?",
+  "cached_at": "2026-05-28T08:53:46Z",
+  "metadata": {}
+}

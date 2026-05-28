@@ -1,0 +1,9 @@
+{
+  "brand": "Raycast",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with search documentation code snippets and teammates without leaving the keyboard at scale?",
+  "response": "A popular software that helps with searching documentation, code snippets, and collaborating with teammates without leaving the keyboard is **Sourcegraph**. Sourcegraph provides universal code search and enables developers to find and understand code across repositories, making it easier to collaborate and maintain codebases at scale. Another tool that offers similar functionality is **Kite**, which provides AI-powered code completions and documentation lookup directly in your code editor. Additionally, **Dash** for macOS is a documentation browser that allows you to search through documentation and code snippets efficiently.",
+  "cached_at": "2026-05-28T06:25:20Z",
+  "metadata": {}
+}

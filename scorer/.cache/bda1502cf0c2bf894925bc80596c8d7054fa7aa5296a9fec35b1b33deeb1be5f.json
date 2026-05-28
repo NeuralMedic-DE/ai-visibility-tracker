@@ -1,0 +1,9 @@
+{
+  "brand": "Help Scout",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is Help Scout better than Zendesk for build a self-service knowledge base that reduces inbound support volume?",
+  "response": "# Help Scout vs Zendesk for Self-Service Knowledge Bases\n\nNeither has a clear edge here—it depends on your specific needs:\n\n## Help Scout's strengths\n- **Simpler setup** - easier to get running quickly with less technical overhead\n- **Cleaner interface** - less cluttered for basic knowledge base use\n- **Better for small teams** - more intuitive out of the box\n- **Reasonable cost** for basic knowledge base features\n\n## Zendesk's strengths\n- **More sophisticated search** - better at surfacing relevant articles\n- **Advanced analytics** - clearer visibility into which articles reduce tickets\n- **Better integration ecosystem** - connects to more third-party tools\n- **Scalability** - handles larger knowledge bases more effectively\n- **Customization** - more flexibility for complex requirements\n\n## Key question to answer first\n**How will you actually drive traffic to your knowledge base?** This matters more than the platform choice:\n- Self-service only works if people find it (search visibility, discoverability)\n- You need to actively direct support inquiries toward articles\n- Platform features mean little if adoption is low\n\n## Practical recommendation\n- **Small team (<20 people)**: Help Scout's simplicity wins\n- **Scaling or complex needs**: Zendesk's features justify the higher cost\n- **Try both**: Most offer trials; test with your actual support volume\n\nThe knowledge base platform is less important than your strategy for reducing tickets through it.",
+  "cached_at": "2026-05-28T08:19:21Z",
+  "metadata": {}
+}

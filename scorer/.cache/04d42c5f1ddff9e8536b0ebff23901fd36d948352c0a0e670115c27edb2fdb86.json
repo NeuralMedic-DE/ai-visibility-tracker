@@ -1,0 +1,9 @@
+{
+  "brand": "Supermetrics",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which marketing analytics software should a marketing analyst or head of marketing use?",
+  "response": "# Top Marketing Analytics Software Options\n\nThe best choice depends on your **goals, budget, and existing tools**, but here are the leading options:\n\n## For Comprehensive Analytics\n- **Google Analytics 4** – Free, essential for web/app tracking; steep learning curve\n- **Mixpanel** – Strong for product/user behavior analytics\n- **Amplitude** – Excellent for retention and cohort analysis\n\n## For Attribution & ROI\n- **HubSpot Analytics** – Good if already using HubSpot; integrated across channels\n- **Ruler Analytics** – Strong multi-touch attribution for paid channels\n- **Wicked Reports** – Revenue attribution focus\n\n## For Social & Campaign Performance\n- **Sprout Social** – Social media analytics + management\n- **Hootsuite Analytics** – Multi-channel social tracking\n- **Buffer** – Simpler social analytics\n\n## For Dashboard & Reporting\n- **Tableau** or **Looker** – Data visualization (requires technical setup)\n- **Data Studio** – Free, integrates with Google products\n\n## My Recommendation\n**Start with:**\n1. **Google Analytics 4** (free baseline)\n2. **HubSpot** (if managing campaigns across channels)\n3. **Mixpanel or Amplitude** (if analyzing user behavior/retention)\n\n**Then layer in** specialized tools based on specific gaps.\n\n**What matters most to you?** (ROI tracking, user behavior, social performance, or something else?) That'll narrow the choice significantly.",
+  "cached_at": "2026-05-27T20:36:24Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Humaans",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Humaans vs BambooHR: which is better?",
+  "response": "# Humaans vs BambooHR\n\nBoth are solid HR platforms, but they serve slightly different needs:\n\n## **BambooHR** (stronger choice for most)\n- **Better for:** Mid-sized companies (50-500+ employees)\n- **Strengths:** Mature product, excellent customer support, strong onboarding, good reporting\n- **Best features:** Time tracking, performance management, employee directory\n- **Pricing:** ~$99-199/employee/year\n\n## **Humaans** (newer, design-focused)\n- **Better for:** Small to mid-size companies wanting modern UX\n- **Strengths:** Cleaner interface, fast implementation, good for startups\n- **Best features:** Employee experience, workflows, documents\n- **Pricing:** ~$90-150/employee/year\n\n## **Quick comparison**\n\n| Factor | BambooHR | Humaans |\n|--------|----------|---------|\n| Maturity | ✅ Established | 🆕 Newer |\n| Ease of use | Good | ✅ Excellent |\n| Integrations | ✅ Many | Limited |\n| Support | ✅ Excellent | Good |\n| Reporting | ✅ Strong | Basic |\n| Scalability | ✅ Better | Growing |\n\n## **Bottom line:**\n- **Choose BambooHR** if you need robust features and extensive integrations\n- **Choose Humaans** if you value modern design and employee experience\n\nWhat's your company size and main pain point? That would help narrow it down further.",
+  "cached_at": "2026-05-28T06:47:55Z",
+  "metadata": {}
+}

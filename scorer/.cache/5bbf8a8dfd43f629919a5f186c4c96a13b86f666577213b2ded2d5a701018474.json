@@ -1,0 +1,9 @@
+{
+  "brand": "Baremetrics",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Baremetrics PayPal integration: how does it work?",
+  "response": "# Baremetrics PayPal Integration Overview\n\n## How It Works\n\nBaremetrics connects to your PayPal account to automatically pull financial data:\n\n### **Connection Process**\n1. **OAuth Authentication** - You authorize Baremetrics through PayPal's secure login\n2. **Data Sync** - Baremetrics syncs your PayPal transactions and account data\n3. **Ongoing Updates** - Data refreshes automatically (typically daily or per transaction)\n\n### **What Data is Captured**\n- Transactions and payments\n- Gross/net revenue\n- Fees charged\n- Payouts and balances\n- Customer information (if available)\n\n## Key Features\n\n| Feature | Purpose |\n|---------|---------|\n| **Revenue Tracking** | Monitor money coming in from PayPal |\n| **Expense Visibility** | See PayPal fees deducted |\n| **Dashboard Reporting** | View metrics in Baremetrics dashboard |\n| **Multi-account Support** | Connect multiple PayPal accounts |\n| **Historical Data** | Usually pulls back 12+ months |\n\n## Limitations to Know\n\n- ⚠️ Doesn't capture subscription data as cleanly as native integrations\n- Limited customer lifetime value (CLV) metrics without additional setup\n- May require manual categorization for better insights\n- Real-time sync is delayed (not instantaneous)\n\n## Better Alternatives\n\nFor **subscription billing**, direct integrations work better:\n- Stripe\n- Square\n- Braintree\n\n**Best for:** Service providers and e-commerce using PayPal's standard payment system.\n\nNeed help setting this up specifically?",
+  "cached_at": "2026-05-28T06:57:54Z",
+  "metadata": {}
+}

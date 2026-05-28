@@ -1,0 +1,9 @@
+{
+  "brand": "June.so",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with identify accounts likely to churn early at scale?",
+  "response": "# Software for Churn Prediction at Scale\n\n## Dedicated Churn Analytics Platforms\n- **Gainsight** - Customer success platform with churn scoring\n- **Totango** - Health scores and predictive churn models\n- **Planhat** - CS platform with churn risk identification\n- **ChartMogul** - MRR analytics with cohort churn tracking\n\n## Data & ML Platforms\n- **Mixpanel** - Behavioral analytics with cohort analysis\n- **Amplitude** - Product analytics with retention funnels\n- **Looker/Tableau** - BI tools for custom churn dashboards\n- **Databricks/Snowflake** - Data warehouses for ML model building\n- **H2O.ai** - AutoML for churn prediction models\n\n## CRM & Operational Systems\n- **Salesforce Einstein** - AI-driven churn scoring\n- **HubSpot** - Built-in churn analytics\n- **Intercom** - Customer communication with usage signals\n- **Segment** - Data collection for unified churn analysis\n\n## Key Capabilities to Look For\n✓ Real-time scoring (not just monthly reports)\n✓ Feature engineering from behavioral data\n✓ Integration with your existing data stack\n✓ Explainability (which factors drive churn)\n✓ Workflow automation to trigger interventions\n\n**Most effective approach:** Combine a CS platform (Gainsight/Totango) with your data warehouse for custom modeling tailored to your specific business metrics.\n\nWhat's your current tech stack? That influences the best fit.",
+  "cached_at": "2026-05-27T19:58:34Z",
+  "metadata": {}
+}

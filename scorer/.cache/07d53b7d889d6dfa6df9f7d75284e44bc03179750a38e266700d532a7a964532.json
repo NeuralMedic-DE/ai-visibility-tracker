@@ -1,0 +1,9 @@
+{
+  "brand": "Checkly",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best monitoring for DevOps and SRE teams at SaaS companies?",
+  "response": "# Best Monitoring for DevOps/SRE Teams at SaaS\n\n## Core Pillars\n\n**Observability > Traditional Monitoring**\n- Logs, metrics, and traces (not just dashboards of pre-defined metrics)\n- Rich context for debugging production issues quickly\n- Tool examples: Datadog, New Relic, Grafana stack, Honeycomb\n\n## Critical Metrics by Category\n\n**Service-Level Indicators (SLIs)**\n- Latency (p50, p95, p99)\n- Error rate\n- Availability/uptime\n- Throughput\n\n**Golden Signals** (for every service)\n- Latency\n- Traffic\n- Errors\n- Saturation\n\n**Infrastructure**\n- CPU, memory, disk, network\n- Container/pod metrics (if K8s)\n- Database performance\n\n## Key Features to Prioritize\n\n| Feature | Why It Matters |\n|---------|---------------|\n| **Alerting with context** | Actionable alerts, not noise |\n| **Distributed tracing** | Find bottlenecks across services |\n| **Custom dashboards** | Team-specific views |\n| **Log aggregation** | Quick root cause analysis |\n| **Budget/cost tracking** | Prevent surprise bills |\n\n## SaaS-Specific Considerations\n\n- **Multi-tenant isolation visibility** — ensure one customer doesn't impact another\n- **Customer health dashboards** — what matters to your business\n- **Cost per customer metric** — critical for unit economics\n- **Compliance/audit logging** — regulatory requirements\n- **On-call integration** — PagerDuty, Opsgenie, etc.\n\n## Quick Recommendation Framework\n\n**Starting out:** Prometheus + Grafana + Loki (open-source, lighter)\n\n**Scaling/complexity:** Datadog or New Relic (managed, richer features)\n\n**High-volume logging:** Splunk or Elastic (if logs are your biggest challenge)\n\nWhat's your current stack or biggest pain point?",
+  "cached_at": "2026-05-28T06:22:37Z",
+  "metadata": {}
+}

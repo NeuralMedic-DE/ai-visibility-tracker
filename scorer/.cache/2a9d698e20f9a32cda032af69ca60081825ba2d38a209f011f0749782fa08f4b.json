@@ -1,0 +1,9 @@
+{
+  "brand": "Mosaic",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Mosaic vs Planful: which is better?",
+  "response": "# Mosaic vs Planful: Key Differences\n\n**Mosaic** is better if you want:\n- Easier implementation and faster time-to-value\n- Simpler, more intuitive interface\n- Lower cost for small-to-mid teams\n- Focused planning without excessive complexity\n\n**Planful** is better if you need:\n- More comprehensive FP&A capabilities\n- Deeper financial modeling and consolidation\n- Stronger audit/compliance features\n- Enterprise-scale flexibility\n\n## Quick Comparison\n\n| Factor | Mosaic | Planful |\n|--------|--------|---------|\n| **Ease of use** | Simpler | More complex |\n| **Setup time** | Faster | Longer |\n| **Price** | More affordable | Higher cost |\n| **Enterprise features** | Limited | Robust |\n| **Integrations** | Good | Extensive |\n\n## The Real Answer\n\n**It depends on:**\n- Your company size and complexity\n- Budget constraints\n- How quickly you need to deploy\n- Whether you need advanced consolidation/compliance features\n\n**Smaller companies/simpler needs** → Mosaic often wins on ROI\n\n**Enterprise/complex operations** → Planful's depth usually justifies the cost\n\nWould you like help evaluating based on your specific situation?",
+  "cached_at": "2026-05-28T07:09:55Z",
+  "metadata": {}
+}

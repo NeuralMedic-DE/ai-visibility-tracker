@@ -1,0 +1,9 @@
+{
+  "brand": "Workable",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best ATS for HR teams at SMB and mid-market companies hiring at scale?",
+  "response": "# Top ATS Options for SMB/Mid-Market Scale Hiring\n\n## Best Overall: **Greenhouse**\n- Strong for high-volume hiring (50-500+ hires/year)\n- Excellent structured interviewing & scorecards\n- Good integrations and reporting\n- Scalable without overpaying early on\n- *Trade-off: Pricier than basic alternatives*\n\n## Best Value: **Lever**\n- Similar feature set to Greenhouse at lower price points\n- Clean UX, strong candidate experience\n- Good automation and pipeline visibility\n- *Trade-off: Slightly less robust analytics*\n\n## Most User-Friendly: **Workable**\n- Intuitive for non-technical HR teams\n- Good job board reach without extra costs\n- Reasonable pricing\n- *Trade-off: Less sophisticated for complex hiring workflows*\n\n## Best for Rapid Growth: **Ashby**\n- Modern platform built for scaling teams\n- Strong emphasis on hiring process analytics\n- Excellent developer experience (if integrating)\n- *Trade-off: Newer, smaller customer base*\n\n## Runner-ups worth considering:\n- **iCIMS**: Enterprise-grade, can work for mid-market\n- **JazzHR**: Good if budget is tight ($99-500/mo range)\n\n## Key questions to ask:\n- What's your monthly hiring volume?\n- Do you need multi-location/multi-country support?\n- How important is custom reporting vs. standard analytics?\n- Will you integrate with payroll/HRIS systems?\n\n**Most common sweet spot:** Greenhouse or Lever for $1-3K/month budgets at this scale.\n\nWhat's your typical monthly hire volume?",
+  "cached_at": "2026-05-28T06:45:50Z",
+  "metadata": {}
+}

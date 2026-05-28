@@ -1,0 +1,9 @@
+{
+  "brand": "Mailmodo",
+  "prompt_id": "AL-05",
+  "llm": "anthropic",
+  "prompt_text": "Open source or affordable marketing automation tools instead of Mailchimp",
+  "response": "# Marketing Automation Alternatives to Mailchimp\n\n## **Free/Open Source**\n\n### Mautic\n- Self-hosted open-source platform\n- Email marketing, landing pages, lead scoring\n- Free but requires own server setup\n- Best for: Technical teams with server access\n\n### Listmonk\n- Lightweight, self-hosted email platform\n- Clean UI, good documentation\n- Minimal resource requirements\n- Best for: Simple email campaigns on a budget\n\n### Brevo (formerly Sendinblue)\n- Free tier: 300 emails/day, unlimited contacts\n- SMS + email marketing\n- Basic automation included\n- Best for: Startups needing both channels\n\n## **Affordable SaaS**\n\n### Omnisend\n- ~$25-99/month (based on contacts)\n- Email, SMS, push notifications\n- Good automation workflows\n- Best for: E-commerce\n\n### Klaviyo\n- Free up to 500 contacts\n- Starts ~$20/month paid tier\n- Strong e-commerce focus\n- Best for: Online stores\n\n### MailerLite\n- Free up to 1,000 subscribers\n- $20-199/month paid plans\n- Excellent automation builder\n- Best for: Creators, small businesses\n\n### Beehiiv\n- Free tier available\n- $15-99/month paid\n- Newsletter-focused\n- Best for: Substack competitors, writers\n\n## **Budget Comparison**\n| Tool | Free Tier | Paid Start | Best For |\n|------|-----------|-----------|----------|\n| Brevo | Very generous | $20/mo | Budget-conscious |\n| MailerLite | 1K subscribers | $20/mo | Automation needs |\n| Mautic | Self-hosted | $0 | Technical users |\n\n**Quick pick:** MailerLite for ease of use + affordability balance.\n\nWhat's your primary use case?",
+  "cached_at": "2026-05-28T07:35:18Z",
+  "metadata": {}
+}

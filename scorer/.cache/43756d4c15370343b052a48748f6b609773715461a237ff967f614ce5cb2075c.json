@@ -1,0 +1,9 @@
+{
+  "brand": "Raycast",
+  "prompt_id": "AL-05",
+  "llm": "anthropic",
+  "prompt_text": "Open source or affordable productivity tools instead of Spotlight",
+  "response": "# Open Source & Affordable Productivity Alternatives\n\n## **Search/Launcher (Spotlight Replacements)**\n- **[Alfred](https://www.alfredapp.com/)** (Mac, freemium) - More powerful than Spotlight, great workflows\n- **[Raycast](https://www.raycast.com/)** (Mac, free tier) - Modern, extensible, snappy\n- **[Ueli](https://ueli.app/)** (Windows/Mac, open source) - Lightweight launcher\n- **[Cerebro](https://cerebroapp.com/)** (Cross-platform, open source) - Simple & fast\n\n## **Note-Taking**\n- **[Obsidian](https://obsidian.md/)** (Free, local-first) - Knowledge base, markdown\n- **[Joplin](https://joplinapp.org/)** (Open source, free) - Evernote alternative\n- **[Logseq](https://logseq.com/)** (Open source, free) - Knowledge management\n- **[Notesnook](https://notesnook.com/)** (Free tier, private) - Encrypted notes\n\n## **Task Management**\n- **[Vikunja](https://vikunja.io/)** (Open source, free) - Self-hosted to-do lists\n- **[Plane](https://plane.so/)** (Open source) - Notion alternative, lightweight\n- **[OpenTasks](https://play.google.com/store/apps/details?id=org.dmfs.tasks)** (Open source, Android)\n\n## **Office Suite**\n- **[LibreOffice](https://www.libreoffice.org/)** (Open source, free) - Documents, sheets, presentations\n- **[Collabora Online](https://www.collaboraoffice.com/)** (Self-hosted option)\n\n## **Password Manager**\n- **[Bitwarden](https://bitwarden.com/)** (Freemium) - Open source, affordable\n- **[KeePass](https://keepass.info/)** (Open source, free) - Local-first\n\n**What's your main use case?** I can suggest more specific tools.",
+  "cached_at": "2026-05-28T06:25:18Z",
+  "metadata": {}
+}

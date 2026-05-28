@@ -1,0 +1,9 @@
+{
+  "brand": "Attio",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Attio integrate with Slack?",
+  "response": "# Attio and Slack Integration\n\nYes, Attio integrates with Slack. The integration allows you to:\n\n- **Receive notifications** in Slack about important activities and updates in Attio\n- **Access Attio data** without leaving Slack\n- **Log activities** and update records from Slack\n- **Search and view** Attio information directly in Slack\n\nHowever, for the most current and detailed information about specific features and capabilities, I'd recommend:\n\n1. Checking Attio's official documentation\n2. Visiting the Attio app in Slack's App Directory\n3. Contacting Attio's support team directly\n\nIntegration features can change, so confirming directly with Attio will give you the latest details on what's currently available.",
+  "cached_at": "2026-05-27T17:55:06Z",
+  "metadata": {}
+}

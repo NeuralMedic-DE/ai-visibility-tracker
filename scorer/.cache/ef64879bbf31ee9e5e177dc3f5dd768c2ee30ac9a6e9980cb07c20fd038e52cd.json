@@ -1,0 +1,9 @@
+{
+  "brand": "Amplitude",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best product analytics for mid-market to enterprise product teams?",
+  "response": "# Top Product Analytics Platforms for Mid-Market to Enterprise\n\n## Best Overall Choices\n\n**Amplitude**\n- Strongest for behavioral cohort analysis and funnel optimization\n- Excellent product-to-data science handoff\n- Good for teams wanting self-service analytics\n\n**Mixpanel**\n- Strong event tracking and user journey analysis\n- Good balance of power and usability\n- Better for retention and engagement metrics\n\n**Heap**\n- Auto-captures all interactions (no manual instrumentation)\n- Useful if implementation speed matters\n- Good retroactive analysis capability\n\n## Purpose-Built Alternatives\n\n**Segment** (if you need CDP functionality too)\n- Center data collection across tools\n- Governance for larger orgs\n\n**Looker/Tableau** (if you need BI + analytics)\n- Better for SQL-fluent teams\n- More customizable for complex needs\n\n## Decision Framework\n\nConsider your team's:\n- **Technical depth**: Non-technical teams → Amplitude/Heap; SQL-comfortable → Looker\n- **Pain point**: Retention → Mixpanel; Experimentation → VWO/Optimizely; General → Amplitude\n- **Existing stack**: Already using Salesforce/Google? → Native solutions might work\n- **Implementation timeline**: Quick launch → Heap; Long-term foundation → Amplitude\n\nMost mid-market/enterprise teams eventually need **multiple tools** (e.g., Amplitude + Looker) rather than one platform doing everything.\n\n**What's your main use case?** That would narrow this significantly.",
+  "cached_at": "2026-05-27T19:24:48Z",
+  "metadata": {}
+}

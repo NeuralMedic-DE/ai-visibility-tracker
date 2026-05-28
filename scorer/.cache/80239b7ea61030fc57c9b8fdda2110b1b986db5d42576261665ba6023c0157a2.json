@@ -1,0 +1,9 @@
+{
+  "brand": "ChartMogul",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I track MRR ARR churn and all subscription metrics in one dashboard without spending a lot on software?",
+  "response": "# Low-Cost Subscription Metrics Dashboard\n\n## Free/Cheap Tools\n\n**Google Sheets** (genuinely viable)\n- Use formulas to pull data from your payment processor's API\n- Templates exist for MRR, ARR, churn calculations\n- Zapier can automate data pulls (free tier: 100 tasks/month)\n- Takes 2-3 hours to set up, then runs itself\n\n**Stripe (if that's your processor)**\n- Built-in reporting covers most basics\n- Sigma (their custom reporting) is free for standard queries\n- Can export raw data to Sheets monthly\n\n**Metabase** (open source, self-hosted)\n- Free and powerful\n- Requires database connection (Postgres, MySQL, etc.)\n- ~1 hour setup if you're technical, otherwise hire someone for $200-500\n\n## What to Actually Track\n\nFocus on these core metrics first:\n- **MRR**: Recurring revenue this month\n- **ARR**: MRR × 12\n- **Churn Rate**: (Lost customers / Start customers) × 100\n- **Expansion**: Revenue from upgrades\n- **New MRR**: Fresh customer revenue\n- **Logo Churn**: Percentage of customers lost\n\nSkip fancy cohort analysis until you have fundamentals working.\n\n## Realistic Recommendation\n\n**If <$10K MRR**: Google Sheets + your payment processor's native reports\n**If $10-50K MRR**: Sheets upgraded to Metabase or Plausible\n**If >$50K MRR**: Worth considering Baremetrics ($50-100/mo) or Chartmogul\n\nWhat payment processor are you using? That changes the answer.",
+  "cached_at": "2026-05-28T06:55:05Z",
+  "metadata": {}
+}

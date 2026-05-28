@@ -1,0 +1,9 @@
+{
+  "brand": "Apollo.io",
+  "prompt_id": "IN-03",
+  "llm": "openai",
+  "prompt_text": "How do I connect Apollo.io with Salesforce?",
+  "response": "To connect Apollo.io with Salesforce, you need to follow these steps:\n\n1. **Log into Apollo.io:**\n   - Go to the Apollo.io website and log into your account.\n\n2. **Access Integrations:**\n   - Once logged in, navigate to the settings or integrations section. This is usually found in the main menu or under your profile settings.\n\n3. **Select Salesforce Integration:**\n   - In the integrations section, look for Salesforce. Click on it to start the integration process.\n\n4. **Authenticate with Salesforce:**\n   - You will be prompted to log into your Salesforce account. Make sure you have the necessary permissions to authorize third-party applications.\n   - Enter your Salesforce credentials and grant Apollo.io the necessary permissions to access your Salesforce data.\n\n5. **Configure Integration Settings:**\n   - After authentication, you may need to configure specific settings for how Apollo.io interacts with Salesforce. This can include mapping fields, setting up data sync preferences, and choosing which data to import or export.\n\n6. **Test the Connection:**\n   - Once configured, it’s a good idea to test the integration to ensure that data is syncing correctly between Apollo.io and Salesforce.\n\n7. **Save and Finalize:**\n   - Save your settings and finalize the integration. You should now see Apollo.io data in Salesforce and vice versa, depending on your configuration.\n\nIf you encounter any issues during the process, refer to Apollo.io’s support documentation or contact their support team for assistance. Additionally, ensure that your Salesforce account has the necessary API access enabled, as this is required for the integration to work.",
+  "cached_at": "2026-05-27T18:02:59Z",
+  "metadata": {}
+}

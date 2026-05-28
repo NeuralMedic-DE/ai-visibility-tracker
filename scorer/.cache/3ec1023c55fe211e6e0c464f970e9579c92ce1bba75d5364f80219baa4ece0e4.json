@@ -1,0 +1,9 @@
+{
+  "brand": "Leapsome",
+  "prompt_id": "AL-05",
+  "llm": "anthropic",
+  "prompt_text": "Open source or affordable HR tools instead of 15Five",
+  "response": "# HR Tools Alternative to 15Five\n\n## **Free/Low-Cost Options**\n\n### **All-in-One Platforms**\n- **Lattice** (mid-market focus, more affordable than 15Five)\n- **CultureAmp** (survey-focused, tiered pricing)\n- **HiBob** (modern UX, competitive pricing)\n- **Personio** (especially strong for small-to-mid companies)\n\n### **Completely Free**\n- **Peoplebox** (free tier for up to 50 employees)\n- **Officevibe** (limited free version)\n- **Kazoo** (freemium model)\n\n---\n\n## **Best by Use Case**\n\n| Need | Tool | Cost |\n|------|------|------|\n| **1:1s & Feedback** | Lattice, Officevibe | $$ |\n| **Performance Reviews** | Small improvements, Lattice | $-$$ |\n| **Surveys/Engagement** | CultureAmp, Peoplebox | $$-$$$ |\n| **OKRs & Goal-tracking** | 15Five alternative: **Perdoo** or **Gtmhub** | $$-$$$ |\n| **Simple + Free** | **Taiga** (open-source) | Free |\n\n---\n\n## **Open Source Options**\n- **Taiga.io** – project management (some HR overlap)\n- **OpenProject** – lightweight alternative\n- **Build custom** with Airtable + Zapier\n\n---\n\n**What's most important to you?** (Goals, reviews, engagement, feedback?) That'll narrow down the best fit.",
+  "cached_at": "2026-05-28T06:37:16Z",
+  "metadata": {}
+}

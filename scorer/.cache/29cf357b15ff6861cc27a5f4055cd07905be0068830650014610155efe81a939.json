@@ -1,0 +1,9 @@
+{
+  "brand": "Help Scout",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Help Scout with Slack?",
+  "response": "# Connecting Help Scout with Slack\n\nHere's how to set up the integration:\n\n## Via Help Scout\n\n1. **Log in** to your Help Scout account\n2. Go to **Settings** → **Integrations**\n3. Find **Slack** in the list and click it\n4. Click **Connect** or **Install**\n5. You'll be redirected to Slack to authorize the connection\n6. **Select your Slack workspace** and click **Allow**\n7. Choose which Help Scout notifications you want in Slack (new conversations, assignments, etc.)\n8. Select which Slack channel(s) to receive notifications\n9. **Confirm and save**\n\n## Key Setup Options\n\n- **Notifications**: Choose events (new tickets, replies, assignments)\n- **Channel mapping**: Route different notification types to specific channels\n- **Filters**: Narrow down which conversations trigger notifications\n\n## Via Slack App Directory\n\nAlternatively:\n1. Open Slack and go to **App Directory**\n2. Search for \"Help Scout\"\n3. Click **Add** or **Install**\n4. Follow the same authorization steps above\n\n## What You Can Do After\n\n- Get real-time notifications in Slack\n- View conversation details\n- Reply to Help Scout messages directly from Slack (with some plans)\n- Mention Help Scout in conversations\n\n**Note:** Features vary by Help Scout plan. Higher tiers offer more integration capabilities.\n\nNeed help with a specific feature?",
+  "cached_at": "2026-05-28T08:19:42Z",
+  "metadata": {}
+}

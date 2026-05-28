@@ -1,0 +1,9 @@
+{
+  "brand": "Pipedrive",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to Salesforce",
+  "response": "# Cheaper Salesforce Alternatives\n\n## **Lightweight & Budget-Friendly**\n\n| Platform | Price | Best For |\n|----------|-------|----------|\n| **HubSpot CRM** | Free tier available | Small teams, startups |\n| **Pipedrive** | $14-99/user/mo | Sales-focused teams |\n| **Zoho CRM** | $18-55/user/mo | Cost-conscious scaling |\n| **monday.com CRM** | $10-24/user/mo | Project-oriented sales |\n\n## **By Use Case**\n\n**For Startups**\n- HubSpot CRM (free features are generous)\n- Pipedrive (clean, sales-specific)\n\n**For Service/Support**\n- Zoho CRM (strong ecosystem)\n- Freshsales (good support tools)\n\n**For Simplicity**\n- monday.com Sales\n- Close (automation-heavy)\n\n**For Very Small Teams**\n- Insightly ($29-99/mo flat)\n- Copper (Google Workspace integration)\n\n## **Key Differences from Salesforce**\n\n✅ **Typically better:**\n- Easier to implement\n- Lower onboarding costs\n- Simpler customization (less coding)\n- All-in pricing vs. per-feature add-ons\n\n⚠️ **Typically weaker:**\n- Enterprise scalability\n- Advanced customization\n- API complexity\n- Built-in ecosystem (Salesforce AppExchange)\n\n## **Pro Tip**\nMost offer free trials. Test 2-3 with your actual workflow before deciding.\n\n**Which use case matters most to you?** I can narrow recommendations further.",
+  "cached_at": "2026-05-27T17:48:29Z",
+  "metadata": {}
+}

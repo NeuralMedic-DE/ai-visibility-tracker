@@ -1,0 +1,9 @@
+{
+  "brand": "Totango",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Totango integrate with Salesforce?",
+  "response": "# Totango and Salesforce Integration\n\nYes, Totango integrates with Salesforce. The integration allows you to:\n\n- **Sync customer data** between Totango and Salesforce\n- **Track customer health scores** and account information in Salesforce\n- **Automate workflows** between the two platforms\n- **Improve visibility** into customer success metrics for sales and CS teams\n\n## Key Benefits\n\n- Unified view of customer accounts across both systems\n- Automatic data synchronization to keep information current\n- Better collaboration between sales and customer success teams\n\nFor the most current details about specific features, connectors, and setup requirements, I'd recommend checking:\n- Totango's integration marketplace or documentation\n- Salesforce AppExchange\n- Contacting Totango's support team directly\n\nIntegration capabilities and features can change, so verifying with their current documentation ensures you have the latest information.",
+  "cached_at": "2026-05-28T08:14:42Z",
+  "metadata": {}
+}

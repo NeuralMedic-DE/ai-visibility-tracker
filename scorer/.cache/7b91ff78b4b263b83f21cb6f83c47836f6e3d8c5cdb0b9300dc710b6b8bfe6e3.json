@@ -1,0 +1,9 @@
+{
+  "brand": "ChurnZero",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Gainsight vs alternatives: what should I switch to?",
+  "response": "# Gainsight Alternatives: What to Consider\n\nYour best switch depends on what's driving the move. Here's a practical breakdown:\n\n## If you want **lower cost**\n- **Totango** — Strong CS features, better pricing at mid-market\n- **Vitally** — Modern, intuitive, good for smaller teams\n- **Chorus** — Affordable starting point\n\n## If you want **better ease of use**\n- **Vitally** — Cleanest UX, fastest onboarding\n- **Catalyst** — Built for simplicity\n- **Apptio** (Planview) — Good reporting, less clunky\n\n## If you want **stronger product analytics**\n- **Pendo** — Better in-app insights\n- **Amplitude** — Superior analytics (less CS-focused)\n- **Mixpanel** — Good product-CS bridge\n\n## If you want **better integration ecosystem**\n- **HubSpot Service Hub** — Best if you're already in HubSpot\n- **Salesforce Service Cloud** — Most enterprise-integrated\n- **Gainsight alternatives within Salesforce** are limited\n\n## If you want **scalability without complexity**\n- **Totango** — Grows with you\n- **Apptio** — Enterprise-grade\n\n## Key questions before switching:\n- What specifically frustrates you? (Price, UX, missing features, poor support)\n- How much custom configuration do you have?\n- What's your team size and budget?\n- How integrated is Gainsight to your workflow?\n\n**Migration is painful** — often takes 3-6 months. Make sure the grass is actually greener before jumping.\n\nWhat's your main pain point with Gainsight?",
+  "cached_at": "2026-05-28T08:06:47Z",
+  "metadata": {}
+}

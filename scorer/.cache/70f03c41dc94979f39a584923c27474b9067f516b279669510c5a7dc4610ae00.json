@@ -1,0 +1,9 @@
+{
+  "brand": "Metabase",
+  "prompt_id": "IN-02",
+  "llm": "perplexity",
+  "prompt_text": "Metabase MySQL integration: how does it work?",
+  "response": "Metabase connects to **MySQL as a separate data source**, then runs queries directly against it to power dashboards, charts, and the query builder; it is a **querying and visualization layer** rather than a data copy or ETL tool.[2][6]\n\nIn practice, it works like this:\n\n- You add a MySQL database in **Admin settings > Databases > Add a database**.[2][6]\n- Metabase opens a connection to MySQL using the **MariaDB connector**.[2]\n- For analysis, Metabase sends SQL queries to MySQL and displays the results in charts, tables, and dashboards.[6]\n- Metabase periodically **scans the schema** so it can learn tables, columns, and relationships for the visual query builder.[1]\n- Because the queries run in MySQL, the dashboards reflect **current data** rather than a copied snapshot.[6]\n\nA few important setup details matter:\n\n- Use a **dedicated read-only MySQL user**, not root or a write-capable account.[1]\n- If you are using **MySQL 8**, Metabase’s MariaDB connector may require the user to use **`mysql_native_password`** instead of MySQL 8’s default authentication plugin.[2]\n- If Metabase is running in Docker, the host/port must point to the MySQL server that the Metabase container can actually reach; `localhost` inside a container refers to the container itself, not your machine.[5][7]\n- The `MB_DB_*` environment variables configure **Metabase’s own application database**, not the MySQL database you want to analyze.[1][2]\n\nIn short, Metabase sits on top of MySQL, reads from it live, learns its schema for exploration, and visualizes the results with minimal setup.[1][6]",
+  "cached_at": "2026-05-27T20:13:44Z",
+  "metadata": {}
+}

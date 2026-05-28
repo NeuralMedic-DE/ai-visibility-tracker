@@ -1,0 +1,9 @@
+{
+  "brand": "Klipfolio",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with create automated executive reports without manual data entry at scale?",
+  "response": "# Software for Automated Executive Reports\n\n## Leading Platforms\n\n**Business Intelligence & Analytics**\n- **Power BI** (Microsoft) - Excel integration, automated refresh, strong visualization\n- **Tableau** - Excellent for complex dashboards, good scheduling features\n- **Looker** (Google Cloud) - Embedded analytics, LookML for automation\n- **Qlik Sense** - Associative engine reduces manual data prep\n\n**Reporting-Specific Tools**\n- **Sisense** - Handles large datasets well\n- **Yellowfin** - Lightweight, good for executive summaries\n- **Alteryx** - Strong automation workflow engine (data prep to reporting)\n- **RapidMiner** - Automates data workflows at scale\n\n**Enterprise Solutions**\n- **SAP Analytics Cloud** - For large organizations with SAP ecosystems\n- **Oracle Analytics** - Similar enterprise approach\n- **Domo** - Cloud-native, strong automation features\n\n## Key Capabilities to Look For\n\n- **Automated scheduling** (reports delivered on set intervals)\n- **Direct database connections** (no manual exports)\n- **Self-service options** (users refresh without IT help)\n- **Integration APIs** (connect your data sources)\n- **Template libraries** (standardized formats)\n\n## Quick Selection Tips\n\n- **Budget constraints?** → Power BI or open-source (Metabase, Apache Superset)\n- **Complex workflows?** → Alteryx or RapidMiner\n- **Quick deployment?** → Domo or Tableau\n- **Already Microsoft-heavy?** → Power BI is natural fit\n\nWhat's your primary data source, and how many reports do you need to automate?",
+  "cached_at": "2026-05-27T20:28:38Z",
+  "metadata": {}
+}

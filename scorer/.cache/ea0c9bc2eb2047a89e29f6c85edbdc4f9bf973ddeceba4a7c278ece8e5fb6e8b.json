@@ -1,0 +1,9 @@
+{
+  "brand": "Finaloop",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Finaloop Amazon integration: how does it work?",
+  "response": "# Finaloop Amazon Integration\n\nI don't have specific documentation about Finaloop's Amazon integration in my training data. However, I can help you understand what's likely involved:\n\n## Typical E-commerce Platform Integrations\n\nMost integrations like this usually handle:\n\n- **Inventory sync** - Real-time or scheduled product/stock updates\n- **Order management** - Pulling orders from Amazon to your system\n- **Financial reconciliation** - Matching Amazon transactions with accounting records\n- **Reporting & analytics** - Aggregating Amazon sales data\n\n## How to Get Accurate Information\n\n1. **Check Finaloop's documentation** - Their official docs or knowledge base\n2. **Contact Finaloop support** - They can explain their specific implementation\n3. **Check your account settings** - If you're already a user, look for integration guides\n4. **Review their API documentation** - If it's a technical integration\n\n## What I'd Recommend Asking Them\n\n- What data syncs (orders, inventory, returns)?\n- How often does it update?\n- What Amazon seller account types are supported?\n- Are there any limitations or requirements?\n\n**Is there something specific about the integration you're trying to accomplish?** I might be able to help with the general process even if I don't know Finaloop's exact implementation.",
+  "cached_at": "2026-05-28T07:07:48Z",
+  "metadata": {}
+}

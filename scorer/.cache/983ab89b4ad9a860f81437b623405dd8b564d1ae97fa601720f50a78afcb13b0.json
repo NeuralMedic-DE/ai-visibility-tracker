@@ -1,0 +1,9 @@
+{
+  "brand": "Sentry",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is Sentry better than Bugsnag for monitor application performance and response latency?",
+  "response": "# Sentry vs Bugsnag for Performance Monitoring\n\nBoth tools have performance monitoring capabilities, but they excel in different areas:\n\n## Sentry's Strengths\n- **Transaction tracing**: Strong distributed tracing across services\n- **Release health**: Good visibility into deployment impact\n- **Flame graphs**: Detailed visual performance breakdowns\n- **Broader integration ecosystem**: Excellent for full-stack monitoring\n- **Open-source option**: Can self-host for more control\n\n## Bugsnag's Strengths\n- **Real User Monitoring (RUM)**: Particularly strong for frontend performance\n- **User impact focus**: Clear metrics on how errors/slowdowns affect users\n- **Simpler setup**: Often easier initial configuration\n- **Mobile performance**: More refined mobile app performance monitoring\n\n## For Response Latency Specifically\n- **Sentry** typically offers more detailed backend latency analysis\n- **Bugsnag** excels at user-perceived latency and frontend performance\n\n## The Reality\nThis depends on your needs:\n- **Backend/microservices-heavy**: Sentry usually wins\n- **Frontend/user-centric focus**: Bugsnag often better\n- **Full-stack monitoring**: Both are comparable; choose based on your primary pain point\n\n**Best approach**: Try both with your actual application. Their free tiers let you evaluate real performance against your specific architecture and use cases.\n\nWhat's your primary monitoring concern—backend latency, frontend performance, or both?",
+  "cached_at": "2026-05-27T21:17:32Z",
+  "metadata": {}
+}

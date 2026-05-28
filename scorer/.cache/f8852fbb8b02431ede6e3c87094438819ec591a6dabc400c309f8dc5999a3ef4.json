@@ -1,0 +1,9 @@
+{
+  "brand": "FullStory",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I replay user sessions to understand UX friction points without spending a lot on software?",
+  "response": "# Low-Cost Session Replay Options\n\n## Free/Cheap Tools\n\n**Open source:**\n- **Rrweb** - JS library you self-host; captures DOM changes and interactions\n- **OpenReplay** - Self-hosted option available (requires some infrastructure)\n- **Crazy Egg** - Heatmaps + basic replay, reasonable pricing\n\n**Low-cost SaaS:**\n- **LogRocket** - Free tier captures 1,000 sessions/month\n- **Hotjar** - Free plan includes basic heatmaps and limited recordings\n- **Microsoft Clarity** - Completely free\n\n## DIY Approach (Cheapest)\n\nIf you're technical, instrument your own:\n- Use browser dev tools + screen recording software (OBS, free)\n- Log user interactions (clicks, scrolls, form inputs) to your backend\n- Replay by parsing those logs—works surprisingly well for finding friction\n\n## What to Actually Watch For\n\nRather than replay everything:\n- **Rage clicks** - users clicking repeatedly on non-clickable elements\n- **Dead zones** - areas nobody scrolls to\n- **Form abandonment** - where people drop off input fields\n- **Session recordings at drop-off points** - replay only the sessions where users quit\n\n## Reality Check\n\nReplays are useful but limited. Combine with:\n- User testing (even 5 people = huge insights)\n- Analytics on *where* people leave\n- Direct interviews (\"why did you leave that field blank?\")\n\nSession replay alone shows *what* happened, not *why*.\n\nWhat's your main friction point you're trying to diagnose?",
+  "cached_at": "2026-05-27T20:47:01Z",
+  "metadata": {}
+}

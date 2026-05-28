@@ -1,0 +1,9 @@
+{
+  "brand": "Raycast",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Raycast vs Alfred: which is better?",
+  "response": "# Raycast vs Alfred\n\nBoth are excellent, so it depends on your priorities:\n\n## **Raycast**\n**Strengths:**\n- Modern, actively developed, frequent updates\n- Free tier is genuinely useful\n- Built-in AI features (Claude, ChatGPT integration)\n- Window management, clipboard history, snippets included\n- Great extension ecosystem\n- Better UI/UX for most users\n\n**Weaknesses:**\n- Requires account (though local mode exists)\n- Younger product, less battle-tested\n- Premium features cost money\n\n## **Alfred**\n**Strengths:**\n- Mature, stable, proven over years\n- One-time purchase (no subscriptions)\n- Powerful workflows for power users\n- Lightweight, fast\n- Excellent for automation/scripting\n\n**Weaknesses:**\n- Older UI, less modern feel\n- Steeper learning curve\n- Development feels slower\n- No built-in AI features\n\n## **Pick Raycast if:**\n- You want modern features with less setup\n- You like AI integration\n- You prefer free with optional premium\n\n## **Pick Alfred if:**\n- You want stability and one-time pricing\n- You need advanced automation/workflows\n- You're okay with learning curves\n\n**Most people today lean Raycast**, but Alfred still wins for specific power-user workflows.\n\nWhat's your main use case? That might narrow it down further.",
+  "cached_at": "2026-05-28T06:25:05Z",
+  "metadata": {}
+}

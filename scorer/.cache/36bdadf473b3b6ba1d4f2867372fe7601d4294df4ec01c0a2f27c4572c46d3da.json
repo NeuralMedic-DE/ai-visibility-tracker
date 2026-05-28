@@ -1,0 +1,9 @@
+{
+  "brand": "Neon",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Supabase vs alternatives: what should I switch to?",
+  "response": "# Supabase Alternatives: Decision Framework\n\nWhether to switch depends on what's frustrating you. Here's a practical breakdown:\n\n## If you want PostgreSQL + modern API\n\n**Neon** or **Railway**\n- Neon: Better for serverless/scaling, free tier generous\n- Railway: Simpler, better dashboard, fixed pricing\n- *Con: Less opinionated than Supabase—you build more yourself*\n\n## If you want the full Supabase replacement\n\n**Firebase** (Google)\n- Most mature alternative\n- Better performance at scale, better support\n- *Con: Firestore is NoSQL (different mental model), pricier, vendor lock-in*\n\n**Convex** (newer, rising)\n- Built for modern React/TypeScript teams\n- Better DX, real-time by default, includes functions\n- *Con: Smaller ecosystem, less battle-tested*\n\n## If auth is the problem\n\n**Clerk** or **Auth0**\n- Both excellent, though Clerk is trendier\n- Works with any backend\n- *Con: Need separate database solution*\n\n## If it's just stability/performance\n\nBefore switching:\n- Check if it's a **specific feature** (auth, replication, edge functions?)\n- Supabase issues usually fixable with config changes\n- Their Discord support is actually responsive\n\n## Red flags for staying\n\n- ❌ Hitting hard limits regularly\n- ❌ Auth/RLS consistently unreliable\n- ❌ Your use case is enterprise-scale (Firebase probably better)\n- ❌ You need features they've promised for 2 years\n\n**What specific problem are you hitting?** That'll give a better answer than general recommendations.",
+  "cached_at": "2026-05-28T06:17:50Z",
+  "metadata": {}
+}

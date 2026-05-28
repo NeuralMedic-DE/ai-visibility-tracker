@@ -1,0 +1,9 @@
+{
+  "brand": "Matillion",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which data integration software should a Data Engineer or ETL Lead at a data-heavy enterprise use?",
+  "response": "# Data Integration Software for Enterprise Data Engineers\n\nThe best choice depends on your specific context, but here's a practical breakdown:\n\n## **For Most Enterprise Scenarios**\n\n### **Apache Airflow**\n- **Best for**: Complex orchestration, Python-native teams\n- Open-source, highly flexible, strong community\n- Better control but steeper learning curve\n\n### **Informatica PowerCenter**\n- **Best for**: Traditional enterprise environments\n- Mature, GUI-based, strong support\n- Good for non-technical users; expensive licensing\n\n### **Talend**\n- **Best for**: Balanced approach between code and GUI\n- Cloud-friendly, decent open-source version\n- Good scalability\n\n## **Modern Cloud-Native Options**\n\n- **dbt** – SQL-focused transformation (increasingly essential)\n- **Apache Kafka** – Real-time streaming pipelines\n- **Fivetran/Stitch** – Low-code, managed SaaS (less customization)\n- **Cloud-native tools** (AWS Glue, Google Dataflow, Azure Data Factory) – if locked into a cloud ecosystem\n\n## **Decision Framework**\n\nAsk yourself:\n- **Team skill level?** (Code-heavy → Airflow; GUI-first → Informatica/Talend)\n- **Data volume/velocity?** (Batch → Airflow; Real-time → Kafka)\n- **Budget constraints?** (Open-source vs. licensed)\n- **Cloud or on-premises?**\n- **Vendor lock-in acceptable?**\n\n**Most common enterprise choice**: Informatica + Airflow hybrid, or pure Airflow for modern data teams.\n\nWhat's your current environment look like?",
+  "cached_at": "2026-05-28T09:00:26Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Copper",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Copper integrate with Google Workspace?",
+  "response": "# Copper and Google Workspace Integration\n\nYes, **Copper integrates with Google Workspace**. Here are the key integration points:\n\n## Main Features\n\n- **Gmail Integration** - Copper syncs directly with Gmail, allowing you to:\n  - Track emails and attach them to contacts/deals\n  - See customer information alongside your inbox\n  - Log activities automatically\n\n- **Google Calendar** - View and manage calendar events within Copper\n\n- **Google Contacts** - Sync contacts between Copper and Google Contacts\n\n## Installation\n\nThe integration is typically available through:\n- Google Workspace Marketplace\n- Copper's app directory\n\n## What to Check\n\nFor the most current details on:\n- Specific features available in your plan\n- Setup requirements\n- Any recent changes to the integration\n\nI'd recommend checking:\n1. **Copper's official documentation** - their help center or support site\n2. **Google Workspace Marketplace** - for the latest integration details\n\nIs there a specific aspect of the Copper-Google Workspace integration you'd like to know more about?",
+  "cached_at": "2026-05-27T18:24:12Z",
+  "metadata": {}
+}

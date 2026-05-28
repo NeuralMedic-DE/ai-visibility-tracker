@@ -1,0 +1,9 @@
+{
+  "brand": "Intercom",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Intercom vs Zendesk: which is better?",
+  "response": "# Intercom vs Zendesk\n\nNeither is universally \"better\"—it depends on your needs:\n\n## **Intercom strengths**\n- Better for proactive engagement (in-app messaging, targeted campaigns)\n- Sleeker UX, easier to set up quickly\n- Good for product-driven support\n- Strong chatbot/automation features\n\n## **Zendesk strengths**\n- More comprehensive ticketing system\n- Better for high-volume, complex support\n- Deeper customization and integrations\n- Scales well for large teams\n\n## **Key differences**\n\n| Factor | Intercom | Zendesk |\n|--------|----------|---------|\n| **Best for** | Growth/product teams | Enterprise support |\n| **Setup** | Faster | More involved |\n| **Cost** | Usually higher per user | Flexible pricing tiers |\n| **Learning curve** | Gentler | Steeper |\n\n## **Quick decision guide**\n- Choose **Intercom** if you want to *engage* customers proactively\n- Choose **Zendesk** if you need a robust *ticketing system* for complex support\n\nWhat matters most for your use case—proactive engagement, support volume, team size, or budget constraints?",
+  "cached_at": "2026-05-28T08:01:32Z",
+  "metadata": {}
+}

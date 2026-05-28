@@ -1,0 +1,9 @@
+{
+  "brand": "Ashby",
+  "prompt_id": "CD-01",
+  "llm": "openai",
+  "prompt_text": "What is the best ATS for talent teams at high-growth startups and scaleups?",
+  "response": "The best Applicant Tracking System (ATS) for high-growth startups and scaleups often depends on specific needs such as budget, integration capabilities, user interface, and scalability. However, some popular ATS options that are well-regarded in the startup and scaleup space include:\n\n1. **Greenhouse**: Known for its robust features and scalability, Greenhouse is a favorite among high-growth companies. It offers strong integration capabilities and a user-friendly interface.\n\n2. **Lever**: Lever combines ATS and CRM functionalities, making it ideal for companies looking to streamline their recruiting and relationship management processes. It's known for its intuitive design and collaborative features.\n\n3. **BambooHR**: While primarily an HR software, BambooHR includes an ATS that is suitable for small to medium-sized businesses. It's user-friendly and offers good integration options.\n\n4. **Workable**: This is a flexible and easy-to-use ATS that is particularly popular with startups due to its comprehensive feature set and scalability.\n\n5. **JazzHR**: Known for its affordability and ease of use, JazzHR is a good option for startups that need a cost-effective solution without sacrificing essential features.\n\n6. **Recruitee**: Offers a collaborative hiring platform with a strong emphasis on team collaboration and candidate experience, making it a good fit for growing teams.\n\nUltimately, the best choice will depend on your specific requirements, such as the size of your team, the volume of hiring, and any specific integrations you need with other tools your company uses. It's often beneficial to take advantage of free trials or demos to see which system best fits your workflow.",
+  "cached_at": "2026-05-28T06:39:08Z",
+  "metadata": {}
+}

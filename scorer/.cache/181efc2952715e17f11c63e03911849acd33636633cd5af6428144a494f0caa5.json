@@ -1,0 +1,9 @@
+{
+  "brand": "Gainsight",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Gainsight Zendesk integration: how does it work?",
+  "response": "# Gainsight-Zendesk Integration Overview\n\n## Core Functionality\n\nThe integration syncs customer support data between platforms to create a unified customer view:\n\n### **Data Sync**\n- **Tickets** → Flow from Zendesk to Gainsight\n- **Customer information** ↔ Bi-directional sync\n- **Interactions** tracked for customer health scores\n- **Custom fields** can be mapped between systems\n\n## Key Use Cases\n\n| Use Case | Benefit |\n|----------|---------|\n| **Health Scoring** | Support tickets feed into Gainsight's health models |\n| **360° View** | CSMs see support history without leaving Gainsight |\n| **Proactive Support** | Identify at-risk customers from ticket volume/sentiment |\n| **Handoffs** | CSMs and support teams coordinate better |\n| **Reporting** | Combined metrics across support + CS |\n\n## How Data Flows\n\n```\nZendesk Tickets\n    ↓\nGainsight (synced regularly)\n    ↓\nHealth Scores & Insights\n    ↓\nCSM Actions & Alerts\n```\n\n## Setup Requirements\n\n- Valid credentials for both platforms\n- API access enabled\n- Field mapping configuration\n- Sync frequency settings (real-time or scheduled)\n\n## Limitations to Know\n\n- Some custom Zendesk fields may need manual mapping\n- Sync is typically one-way (tickets → Gainsight)\n- Data latency depends on refresh schedule\n\n**Want specifics on setup, troubleshooting, or alternative approaches?**",
+  "cached_at": "2026-05-28T08:04:33Z",
+  "metadata": {}
+}

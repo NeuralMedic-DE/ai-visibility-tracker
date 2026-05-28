@@ -1,0 +1,9 @@
+{
+  "brand": "Plausible",
+  "prompt_id": "CD-02",
+  "llm": "openai",
+  "prompt_text": "Top privacy-first web analytics for SaaS founders tools in 2025",
+  "response": "As of 2023, several privacy-focused web analytics tools are popular among SaaS founders, and it's likely that these or similar tools will continue to be relevant in 2025. Here are some top privacy-first web analytics tools that are worth considering:\n\n1. **Plausible Analytics**: Plausible is a lightweight, open-source analytics tool that prioritizes user privacy. It doesn't use cookies and is fully compliant with GDPR, CCPA, and PECR.\n\n2. **Fathom Analytics**: Fathom offers simple, privacy-focused analytics without tracking personal data. It provides a straightforward dashboard and is compliant with privacy laws.\n\n3. **Matomo**: Formerly known as Piwik, Matomo is an open-source analytics platform that can be self-hosted for full data ownership. It offers comprehensive analytics features while respecting user privacy.\n\n4. **Simple Analytics**: This tool provides a clean and simple interface for web analytics without tracking personal data. It's designed to be privacy-friendly and easy to use.\n\n5. **GoAccess**: A real-time web log analyzer that can be used for privacy-focused analytics. It's open-source and can be run on your server to ensure data privacy.\n\n6. **Umami**: An open-source, self-hosted web analytics solution that provides privacy-focused insights without using cookies.\n\n7. **Ackee**: Another self-hosted, open-source analytics tool that respects user privacy and provides detailed insights without compromising data security.\n\nThese tools are designed to provide valuable insights while ensuring compliance with privacy regulations, making them ideal for SaaS founders who prioritize user privacy.",
+  "cached_at": "2026-05-27T20:14:30Z",
+  "metadata": {}
+}

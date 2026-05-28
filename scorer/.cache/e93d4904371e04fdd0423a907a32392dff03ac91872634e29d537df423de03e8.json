@@ -1,0 +1,9 @@
+{
+  "brand": "Amplemarket",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Amplemarket LinkedIn integration: how does it work?",
+  "response": "# Amplemarket LinkedIn Integration\n\n## How It Works\n\nAmplemarket connects to LinkedIn to streamline B2B prospecting and outreach:\n\n### **Core Functionality**\n\n1. **Data Enrichment**\n   - Pulls professional profiles directly from LinkedIn\n   - Captures contact information, job titles, and company details\n   - Builds lead lists automatically based on your criteria\n\n2. **Profile Verification**\n   - Confirms active LinkedIn profiles\n   - Validates email addresses associated with profiles\n   - Checks employment status and recent updates\n\n3. **Outreach Automation**\n   - Enables LinkedIn message/connection request templates\n   - Syncs prospects into your campaign workflows\n   - Tracks engagement metrics (profile views, message responses)\n\n4. **Lead Sourcing**\n   - Search and filter by company, role, skills, industry\n   - Save prospects directly to your CRM/database\n   - Export lists for multi-channel campaigns\n\n### **Key Benefits**\n\n✓ Reduces manual prospecting time  \n✓ Access to verified professional data  \n✓ Integrates with email and other outreach tools  \n✓ Tracks LinkedIn engagement separately from email\n\n### **Important Notes**\n\n- Operates within LinkedIn's terms of service\n- Typically requires a paid Amplemarket account\n- Works best with LinkedIn Sales Navigator (optional upgrade)\n- May require LinkedIn account authorization\n\n**Would you like specific help setting up the integration or using a particular feature?**",
+  "cached_at": "2026-05-27T19:04:42Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Brevo",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Brevo integrate with WordPress?",
+  "response": "# Brevo WordPress Integration\n\nYes, **Brevo (formerly Sendinblue) integrates with WordPress**, though the integration approach has evolved.\n\n## Current Integration Method\n\nBrevo offers a **WordPress plugin** that allows you to:\n- Capture email subscribers via signup forms\n- Manage contacts directly from WordPress\n- Send newsletters and marketing campaigns\n- Track email performance\n\n## How to Set It Up\n\n1. **Install the plugin** from the WordPress plugin directory\n2. **Connect your Brevo account** using your API key\n3. **Create subscription forms** and add them to your site\n4. **Manage subscribers** and campaigns from your WordPress dashboard\n\n## Alternative: Zapier\n\nIf you need more advanced automation or the native plugin doesn't meet your needs, you can also use **Zapier** to connect Brevo with WordPress and other tools.\n\n## Important Note\n\nSince Brevo has undergone rebranding and platform changes, I'd recommend checking the **current WordPress plugin repository** or **Brevo's official documentation** to ensure you're getting the latest integration method, as details may have been updated recently.\n\nWould you like help with a specific integration task?",
+  "cached_at": "2026-05-28T07:26:11Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Pendo",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Pendo vs Amplitude: which is better?",
+  "response": "# Pendo vs Amplitude\n\nNeither is universally \"better\"—it depends on your priorities:\n\n## **Pendo** excels at:\n- **In-app guidance** (tooltips, walkthroughs, surveys)\n- **User onboarding** and feature adoption\n- **Product analytics** + engagement tools in one platform\n- Teams wanting to guide users *within* the product\n\n## **Amplitude** excels at:\n- **Deep behavioral analytics** and cohort analysis\n- **Event-based tracking** and funnel analysis\n- **Predictive analytics** and machine learning features\n- Data teams and complex analysis workflows\n\n## **Key differences:**\n\n| Factor | Pendo | Amplitude |\n|--------|-------|-----------|\n| **Primary focus** | Guidance + analytics | Analytics first |\n| **Learning curve** | Easier | Steeper |\n| **In-app messaging** | Built-in, powerful | Not included |\n| **Data depth** | Good | Excellent |\n| **Price** | Higher for smaller teams | More scalable |\n\n## **Choose Pendo if:**\nYou prioritize user onboarding, feature adoption, and want guidance tools built-in.\n\n## **Choose Amplitude if:**\nYou need sophisticated analytics, have technical resources, and want flexible data exploration.\n\n**Consider:** Some teams use both (Amplitude for analytics, Pendo for guidance). What's your main use case?",
+  "cached_at": "2026-05-27T19:47:15Z",
+  "metadata": {}
+}

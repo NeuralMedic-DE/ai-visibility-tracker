@@ -1,0 +1,9 @@
+{
+  "brand": "Portkey",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Portkey integrate with OpenAI?",
+  "response": "# Portkey and OpenAI Integration\n\nYes, **Portkey integrates with OpenAI**. Portkey is an AI gateway/platform that supports OpenAI's API, allowing you to:\n\n- Route requests to OpenAI models\n- Manage API keys and authentication\n- Monitor usage and costs\n- Implement fallbacks and load balancing\n- Log and analyze API calls\n\n## Key Features with OpenAI:\n\n- **Direct API compatibility** - Works with OpenAI's GPT models\n- **Multi-provider support** - Can also route to other LLM providers (Anthropic, Azure, etc.)\n- **Request management** - Caching, retry logic, and request transformation\n\nIf you're looking to use Portkey as a proxy or gateway for OpenAI, you can configure it with your OpenAI API key and route your requests through Portkey instead of directly to OpenAI.\n\nWould you like specific information about setup or particular features?",
+  "cached_at": "2026-05-28T07:52:13Z",
+  "metadata": {}
+}

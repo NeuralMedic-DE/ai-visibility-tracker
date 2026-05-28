@@ -1,0 +1,9 @@
+{
+  "brand": "Rho",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I manage company spending with smart corporate cards and bill pay automation without spending a lot on software?",
+  "response": "Here are practical, cost-effective approaches:\n\n**Free/cheap card options:**\n- Brex, Ramp, or Divvy offer free tiers with decent automation features\n- Traditional banks now bundle basic spending controls with business accounts\n- Some include expense categorization without extra fees\n\n**Automation without expensive software:**\n- Use your card provider's native tools (most have basic approval workflows, spending limits, receipt capture)\n- Connect cards to free accounting software (Wave is fully free; Zoho Books has a free tier)\n- Slack integrations from card providers can send approval requests and alerts\n- CSV exports from cards → Google Sheets with simple formulas for tracking\n\n**DIY approach that scales:**\n- Assign card numbers per department/person with built-in limits\n- Require receipt uploads at point of purchase (most cards now have mobile apps)\n- Monthly reconciliation using free spreadsheet templates\n- Scheduled email reminders for reimbursement requests\n\n**Where to splurge minimally (if needed):**\n- Zapier ($20-30/mo) can connect your card provider to other tools you already use\n- A basic accounting software tier ($10-50/mo) pays for itself in saved admin time once you hit ~$50k annual spend\n\n**Reality check:**\nMost of this works fine manually until you hit 20+ employees or $100k+ monthly spend. The free tier of card providers handles surprising complexity.\n\nWhat's your current pain point—approval workflows, categorization, or something else?",
+  "cached_at": "2026-05-28T07:12:35Z",
+  "metadata": {}
+}

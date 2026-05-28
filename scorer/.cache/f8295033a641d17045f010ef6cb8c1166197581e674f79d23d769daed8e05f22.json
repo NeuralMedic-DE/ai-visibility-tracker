@@ -1,0 +1,9 @@
+{
+  "brand": "Instantly",
+  "prompt_id": "CD-03",
+  "llm": "perplexity",
+  "prompt_text": "Which sales engagement software should a SDR Manager or Growth Marketer doing outbound use?",
+  "response": "For an **SDR Manager** or **Growth Marketer doing outbound**, the best fit depends on whether you want an **all-in-one stack** or a **dedicated sales engagement platform**. For most outbound teams, **Apollo** is the strongest default choice because it combines contact data, sequencing, AI personalization, and reporting in one workspace[1][2].\n\nIf you want a more specialized **sales engagement** tool for larger or more complex outbound motions, **Outreach** and **Salesloft** are the main alternatives. Outreach is described as the enterprise-focused option for multi-step, multi-channel cadences at scale, while Salesloft is positioned as a pure sales engagement platform with AI-prioritized workflows[2].\n\nA practical decision guide:\n\n- **Choose Apollo** if you want prospecting data + sequences in one tool, especially for a smaller SDR team or lean outbound motion[1][2].\n- **Choose Outreach** if you need enterprise-grade cadence automation across email, phone, LinkedIn, and SMS[2].\n- **Choose Salesloft** if you want a dedicated engagement platform with strong workflow prioritization and rep activity management[2].\n- **Choose Salesforce Sales Engagement** if your team wants engagement tightly embedded in Salesforce and CRM-native workflows[3].\n\nFor an SDR Manager or Growth Marketer, the key features to prioritize are **CRM integration**, **multi-channel automation**, **deliverability controls**, **analytics/reporting**, and **AI personalization**[3]. Those are the capabilities that matter most for outbound execution and measurement[1][3].\n\nIf you want, I can also give you a **“best tool by team size and budget” shortlist** for outbound SDRs and growth teams.",
+  "cached_at": "2026-05-28T07:18:56Z",
+  "metadata": {}
+}

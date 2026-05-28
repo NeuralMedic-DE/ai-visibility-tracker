@@ -1,0 +1,9 @@
+{
+  "brand": "Pilot",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Pilot integrate with Stripe?",
+  "response": "# Pilot and Stripe Integration\n\nYes, **Pilot integrates with Stripe**. Pilot is a financial platform designed for freelancers and contractors, and it connects with Stripe to help manage payments and invoicing.\n\n## Key Details:\n\n- **Payment Processing**: You can connect your Stripe account to receive payments from clients\n- **Invoicing**: Pilot can sync with Stripe to streamline your invoicing workflow\n- **Financial Management**: The integration helps consolidate payment data for better financial tracking\n\nHowever, the specific features and depth of integration may vary. For the most current information about:\n- Exact integration capabilities\n- Setup instructions\n- Any limitations or requirements\n\nI'd recommend checking **Pilot's official documentation** or contacting their support team directly, as integrations can be updated or expanded over time.\n\nIs there a specific aspect of the Pilot-Stripe integration you're trying to set up?",
+  "cached_at": "2026-05-28T07:02:45Z",
+  "metadata": {}
+}

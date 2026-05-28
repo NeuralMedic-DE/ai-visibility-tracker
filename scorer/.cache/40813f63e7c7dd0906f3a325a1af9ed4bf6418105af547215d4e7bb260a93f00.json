@@ -1,0 +1,9 @@
+{
+  "brand": "Humaans",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best HR for HR teams at startups and scaleups scaling their people ops?",
+  "response": "# Best HR Platforms for Startup/Scaleup People Ops\n\n## Top Tier for Your Stage\n**Rippling** and **Guidepoint** lead for early-stage scaling because they:\n- Consolidate HR + IT + Finance (reduces tool sprawl)\n- Scale efficiently from 10 to 500+ employees\n- Have strong integrations with other startup tools\n- Offer reasonable pricing that doesn't break early budgets\n\n## Strong Alternatives by Priority\n\n**If you prioritize simplicity:**\n- **Deel** (especially multi-country)\n- **Pave** (lightweight, collaborative)\n\n**If you prioritize depth/analytics:**\n- **Workday** (if you're raising Series B+ and want to grow into it)\n- **BambooHR** (good middle ground - more features than Rippling, more affordable than Workday)\n\n**If you're distributed/global:**\n- **Deel** or **Remote** (compliance + payroll)\n\n## Key Questions to Answer First\n1. **How many employees now vs. projected in 18 months?**\n2. **Single country or multi-country?**\n3. **Do you need payroll/benefits bundled or separate?**\n4. **Budget per employee/month?**\n\nMost startups I've worked with regret picking something too enterprise-y too early (complexity tax) or too cheap that requires rip-and-replace at 200 people.\n\nWhat's your current headcount and biggest pain point in people ops?",
+  "cached_at": "2026-05-28T06:47:51Z",
+  "metadata": {}
+}

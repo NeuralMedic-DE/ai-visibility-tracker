@@ -1,0 +1,9 @@
+{
+  "brand": "Apollo.io",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I build targeted prospect lists without spending a lot on software?",
+  "response": "Here are practical, low-cost approaches:\n\n**Free/cheap tools**\n- LinkedIn (free tier): Filter by company, role, industry, location. Export what you can.\n- Google Maps/local searches: For geographically-focused lists\n- Industry directories: Many trade associations publish free member lists\n- Chamber of commerce sites: Usually searchable\n- Hunter.io or RocketReach free versions: Find emails, limited daily searches\n- Apollo or ZoomInfo free trials: Grab what you need before expiration\n\n**Manual research methods**\n- Build lists from Google searches + company websites (slow but targeted)\n- Check competitors' client lists, case studies, or press releases\n- Browse relevant subreddits, forums, Slack communities where your audience hangs out\n- Look at event attendee lists (conferences, webinars)\n\n**Smart shortcuts**\n- Start with one good prospect, then find 10 similar companies using \"similar companies\" features or searches\n- Use ChatGPT to brainstorm prospect criteria, then manually verify\n- Ask your existing customers who else you should talk to\n\n**The reality check**\n- \"Targeted\" matters more than volume—50 right prospects beats 500 wrong ones\n- You'll spend time instead of money, which is the real tradeoff\n- For most businesses, once you close a few deals, paid tools pay for themselves\n\nWhat industry/customer type are you targeting? That affects which approaches work best.",
+  "cached_at": "2026-05-27T18:04:50Z",
+  "metadata": {}
+}

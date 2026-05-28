@@ -1,0 +1,9 @@
+{
+  "brand": "Apollo.io",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do SDR teams at B2B companies companies use to build targeted prospect lists?",
+  "response": "# Tools SDR Teams Use for Prospect List Building\n\n## Data & Intelligence Platforms\n- **Apollo, Hunter, RocketReach** – Email finding, contact enrichment\n- **ZoomInfo, Clearbit, Dun & Bradstreet** – Company data, technographics, firmographics\n- **LinkedIn Sales Navigator** – Account/contact search with filters (industry, role, company size)\n- **Cognism, Seamless.ai** – Intent data, verified contacts\n\n## Intent & Behavioral Data\n- **6sense, Demandbase, Terminus** – ABM platforms showing buying intent signals\n- **PipedDrive insights, web analytics integrations** – Website visitor tracking\n- **G2, Capterra reviews** – Identify evaluating prospects\n\n## List Building & Management\n- **Spreadsheet templates** (basic but common starting point)\n- **Salesforce/HubSpot native tools** – Custom list creation, imports\n- **LeadIQ, Outreach** – List building with enrichment\n- **Phantombuster, Clay** – Automated list scraping and enrichment\n\n## Research & Validation\n- **Company websites, SEC filings** – For research and verification\n- **Employee monitoring** (LinkedIn job changes) – Trigger-based outreach\n\n## Common Workflow\nMost teams use a **combination**: Start with ZoomInfo or Apollo for base list → filter in LinkedIn → enrich in Clearbit/Hunter → manage in Salesforce → execute outreach via email/calling tools.\n\n**Key consideration**: Data quality matters more than tool quantity. Many teams prioritize verified, recent contacts over volume.\n\nWhat's your team currently using, or what's your biggest bottleneck?",
+  "cached_at": "2026-05-27T18:05:07Z",
+  "metadata": {}
+}

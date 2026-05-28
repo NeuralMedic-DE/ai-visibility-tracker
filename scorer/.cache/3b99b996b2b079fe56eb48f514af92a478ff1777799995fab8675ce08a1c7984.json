@@ -1,0 +1,9 @@
+{
+  "brand": "Supermetrics",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I pull marketing data from all ad platforms into spreadsheets without spending a lot on software?",
+  "response": "# Low-Cost Ways to Pull Ad Data into Spreadsheets\n\n## Free native tools (best starting point)\n- **Google Ads & Analytics**: Built-in exports to Sheets via Google Ads scripts or native integrations\n- **Meta Ads Manager**: Download reports as CSV/Excel\n- **LinkedIn Campaign Manager**: Export functionality built in\n- **TikTok Ads Manager**: CSV exports available\n- **X Ads**: Download campaign data directly\n\nMost platforms let you export reports manually or on a schedule—tedious but free.\n\n## Low-cost automation ($0-50/month)\n\n**Zapier/Make (formerly Integromat)**\n- Connect platforms to Google Sheets automatically\n- Free tier covers basic workflows; paid starts ~$10-30/month\n- Good for smaller volumes\n\n**Google Sheets add-ons**\n- Some platforms have official Sheets connectors (free)\n- Check your platform's app marketplace first\n\n**Platform-specific free APIs**\n- If you're technical, most platforms offer APIs\n- Write scripts to pull data (requires some coding knowledge)\n\n## DIY automation (free but requires work)\n- **Google Apps Script**: Write custom code to fetch data from APIs\n- **Python scripts**: Pull data and push to Sheets (Colab is free)\n- Takes more setup but very cheap at scale\n\n## Reality check\nIf you're managing multiple platforms, manual exports usually take 2-4 hours weekly. At that point, a $20-50/month tool often saves time that's worth more than the cost.\n\nWhat platforms are you using? That would help narrow better options.",
+  "cached_at": "2026-05-27T20:37:50Z",
+  "metadata": {}
+}

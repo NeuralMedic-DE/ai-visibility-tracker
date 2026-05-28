@@ -1,0 +1,9 @@
+{
+  "brand": "Copper",
+  "prompt_id": "IN-03",
+  "llm": "perplexity",
+  "prompt_text": "How do I connect Copper with Google Workspace?",
+  "response": "You connect **Copper** to **Google Workspace** by signing in with your Google Workspace account and enabling Copper’s native Google integrations for **Gmail**, **Calendar**, **Contacts**, and related Workspace tools. Copper is designed to work inside Google Workspace, and Copper says you should first connect your team’s Google Workspace accounts so it can pull in contact details and email conversations.[4][6]\n\nThe usual setup is:\n\n- **Install Copper** or start a trial from Copper’s Google Workspace integration or Chrome extension.[5]\n- **Sign in with Google** and authorize Copper to access your Workspace data.[2][5]\n- **Connect Gmail and Calendar** so Copper can sync emails, contacts, and meetings into the CRM.[4][6]\n- Optionally **install the Chrome extension** to create and update leads, people, companies, and tasks directly from Gmail, Google Calendar, Google Meet, or any website.[5]\n- If you want spreadsheet-based reporting or analysis, install the **Copper CRM for Google Sheets** add-on from the Google Workspace Marketplace.[2]\n\nWhat Copper gives you after connecting:\n\n- Automatic population of records from **Gmail** and **Google Calendar**.[2][4][5]\n- Ability to **add contacts from Gmail** and manage CRM records from your inbox.[4][5]\n- Support for working with files and workflows through **Google Drive** and other Workspace features.[4]\n\nIf you want, I can also give you the **exact step-by-step setup flow** for an admin or for a single user.",
+  "cached_at": "2026-05-27T18:29:13Z",
+  "metadata": {}
+}

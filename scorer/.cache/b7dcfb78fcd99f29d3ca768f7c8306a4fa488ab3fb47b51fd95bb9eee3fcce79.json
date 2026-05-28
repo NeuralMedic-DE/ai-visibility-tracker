@@ -1,0 +1,9 @@
+{
+  "brand": "Numeric",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to BlackLine",
+  "response": "# Cheaper Alternatives to BlackLine\n\n## Lower-Cost Options\n\n### **Close.io** (now Klaviyo for finance)\n- Strong automation and reconciliation features\n- Better pricing for smaller teams\n- Good for SMBs\n\n### **Certent Adra**\n- Solid reconciliation capabilities\n- More affordable than BlackLine\n- Decent consolidation features\n\n### **Trintech Cadency** (formerly Cadency)\n- Mid-market pricing\n- Good for intercompany reconciliation\n- Flexible deployment\n\n### **OneStream**\n- CPM/consolidation platform\n- Competitive pricing for mid-market\n- Strong reporting\n\n## Budget-Friendly Solutions\n\n| Tool | Best For | Price Point |\n|------|----------|-------------|\n| **Vena** | FP&A teams | Lower |\n| **Planful** (Anaplan) | Planning-focused | Mid |\n| **Host Analytics** | Consolidation | Mid |\n| **Workday Financials** | ERP-integrated | Higher but bundled |\n\n## DIY/Spreadsheet Alternatives\n- Excel + Power Query (free but labor-intensive)\n- Google Sheets + add-ons\n- Custom Python/Power BI solutions\n\n## Cost Comparison Tips\n- **Negotiate volume pricing** with BlackLine competitors\n- **Consider cloud-only versions** (cheaper than on-premise)\n- **Evaluate bundled offerings** (ERP + accounting automation)\n- **Start with free trials** to test functionality\n\n**What's your main use case?** (reconciliation, consolidation, close automation?) I can provide more specific recommendations.",
+  "cached_at": "2026-05-28T07:05:01Z",
+  "metadata": {}
+}

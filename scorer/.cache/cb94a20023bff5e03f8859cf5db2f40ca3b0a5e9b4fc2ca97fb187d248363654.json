@@ -1,0 +1,9 @@
+{
+  "brand": "Stonly",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Stonly with Intercom?",
+  "response": "# Connecting Stonly with Intercom\n\nHere's how to set up the integration:\n\n## Steps:\n\n1. **In Stonly:**\n   - Go to **Settings** → **Integrations**\n   - Find and select **Intercom**\n   - Click **Connect**\n\n2. **Authorize the connection:**\n   - You'll be redirected to Intercom to authorize access\n   - Log in with your Intercom account\n   - Grant Stonly the necessary permissions\n   - Confirm the connection\n\n3. **Configure the integration:**\n   - Return to Stonly and set your preferences:\n     - Choose which guides to display in Intercom\n     - Decide where guides appear (Messenger, Help Center, etc.)\n     - Configure any custom settings\n\n4. **Test the integration:**\n   - Verify guides appear correctly in your Intercom workspace\n\n## What this enables:\n- Display Stonly guides within Intercom Messenger\n- Reduce support tickets by providing self-service guides\n- Track guide performance through both platforms\n\n## Troubleshooting:\n- Ensure you have admin access in both Stonly and Intercom\n- Check that your Intercom workspace is on a compatible plan\n- Verify API permissions are properly granted\n\n**Need more help?** Check Stonly's official documentation or contact their support team if you encounter issues.",
+  "cached_at": "2026-05-28T08:22:09Z",
+  "metadata": {}
+}

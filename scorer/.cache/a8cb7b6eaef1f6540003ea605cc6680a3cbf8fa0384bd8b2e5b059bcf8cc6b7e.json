@@ -1,0 +1,9 @@
+{
+  "brand": "LeadIQ",
+  "prompt_id": "CD-04",
+  "llm": "anthropic",
+  "prompt_text": "Best CRM platforms for capture prospect data from LinkedIn",
+  "response": "# Best CRM Platforms for LinkedIn Lead Capture\n\n## **Native LinkedIn Integration Leaders**\n\n### **1. HubSpot**\n- Seamless LinkedIn Sales Navigator integration\n- Auto-syncs prospect data and interactions\n- Lead scoring and nurturing automation\n- Free CRM tier available\n- Best for: All-in-one marketing/sales teams\n\n### **2. Salesforce**\n- Deep LinkedIn integration (owns LinkedIn)\n- Einstein AI for lead insights\n- Custom data capture workflows\n- Enterprise-grade features\n- Best for: Large organizations\n\n### **3. Pipedrive**\n- User-friendly pipeline management\n- LinkedIn integration via Zapier/API\n- Visual sales process tracking\n- Affordable pricing\n- Best for: Sales-focused teams\n\n## **Strong Integration Options**\n\n### **4. Apollo.io**\n- LinkedIn data enrichment built-in\n- Browser extension for easy capture\n- Email finder and verification\n- API for custom workflows\n- Best for: B2B prospecting\n\n### **5. Clay**\n- Real-time data enrichment from LinkedIn\n- API-first approach\n- Workflow automation\n- Best for: Data-driven sales ops teams\n\n### **6. Lemlist**\n- LinkedIn automation + CRM combo\n- Sequence building\n- Engagement tracking\n- Best for: Cold outreach campaigns\n\n## **Budget Options**\n\n- **Free/Low-cost**: HubSpot free, Pipedrive starter\n- **Mid-range**: Apollo, Lemlist\n- **Enterprise**: Salesforce, HubSpot Pro\n\n## **Key Evaluation Criteria**\n\n✓ Automatic data sync from LinkedIn\n✓ Contact enrichment capabilities\n✓ Lead scoring/qualification\n✓ Email integration\n✓ Workflow automation\n✓ Scalability for your team size\n\n**What's your team size and budget?** That would help narrow down the best fit.",
+  "cached_at": "2026-05-27T18:42:51Z",
+  "metadata": {}
+}

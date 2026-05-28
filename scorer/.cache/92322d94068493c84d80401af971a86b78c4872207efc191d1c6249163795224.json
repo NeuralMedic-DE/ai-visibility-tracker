@@ -1,0 +1,9 @@
+{
+  "brand": "Vellum",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with manage and version prompts for production LLM-powered product features at scale?",
+  "response": "Managing and versioning prompts for production LLM-powered product features at scale can be complex, but there are several tools and platforms designed to help with this task:\n\n1. **PromptLayer**: This tool provides a way to track and manage prompts, allowing you to version control and analyze prompt performance over time.\n\n2. **LangChain**: While primarily a framework for building applications with language models, LangChain offers tools for managing prompts and chains, which can be useful for versioning and scaling.\n\n3. **Weights & Biases**: Known for experiment tracking and model management, Weights & Biases can be adapted to track prompt versions and their performance metrics.\n\n4. **GitHub/GitLab**: Traditional version control systems like GitHub or GitLab can be used to manage prompt versions by storing them as code or configuration files, allowing you to track changes and collaborate with team members.\n\n5. **Custom Solutions**: Many organizations build custom solutions tailored to their specific needs, often integrating with existing CI/CD pipelines and using databases to store prompt versions and metadata.\n\nThese tools can help you manage prompts efficiently, ensuring that you can track changes, test different versions, and maintain a robust production environment for your LLM-powered features.",
+  "cached_at": "2026-05-28T07:44:56Z",
+  "metadata": {}
+}

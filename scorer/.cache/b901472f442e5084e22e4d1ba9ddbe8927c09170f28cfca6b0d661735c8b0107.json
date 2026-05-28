@@ -1,0 +1,9 @@
+{
+  "brand": "Close",
+  "prompt_id": "UC-04",
+  "llm": "anthropic",
+  "prompt_text": "How can a head of sales at a 20-person startup track sales pipeline more efficiently?",
+  "response": "# Practical Pipeline Tracking for Small Sales Teams\n\n## Start with the right tool\n- **Spreadsheet** (Google Sheets/Excel): Free, familiar, sufficient if you're disciplined about updates\n- **Lightweight CRM** (Pipedrive, HubSpot free tier): Worth it once you hit ~$50K monthly revenue or 15+ active deals\n- **Avoid overkill**: Full Salesforce will waste time on setup and maintenance\n\n## Essential structure\nTrack only what matters:\n- Deal name, value, stage, probability, close date\n- Contact/company name and owner\n- One clear next step\n- Last update date (forces freshness)\n\nSkip detailed fields—they'll rot unused.\n\n## Discipline matters more than tools\n- **Weekly review cadence** (30 min): What moved? What's stuck?\n- **Clear stage definitions**: Define what \"qualified\" or \"negotiating\" actually means so reps use them consistently\n- **One person accountable** for accuracy (probably you initially)\n\n## Specific wins at 20 people\n- **Deal reviews** in your 1-on-1s, not separate meetings\n- **Forecast by person**: easier to spot who needs help\n- **Monthly trend**: closed deals vs. pipeline value—pattern emerges fast\n- **Pipeline health ratio**: Aim for 3:1 pipeline to target (adjust based on sales cycle)\n\n## Red flags to watch\n- Deals stuck in middle stages for months\n- Reps afraid of moving deals backward\n- Last update dates old\n\nWhat's your current biggest friction point—tool switching, rep consistency, or forecasting accuracy?",
+  "cached_at": "2026-05-27T17:51:24Z",
+  "metadata": {}
+}

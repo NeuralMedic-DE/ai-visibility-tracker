@@ -1,0 +1,9 @@
+{
+  "brand": "UserVoice",
+  "prompt_id": "IN-05",
+  "llm": "openai",
+  "prompt_text": "product feedback tools with native Salesforce integration",
+  "response": "If you're looking for product feedback tools that offer native Salesforce integration, here are a few options to consider:\n\n1. **Qualtrics**: Known for its robust survey and feedback capabilities, Qualtrics offers native integration with Salesforce, allowing you to capture and analyze customer feedback directly within your Salesforce environment.\n\n2. **SurveyMonkey**: With its Salesforce integration, SurveyMonkey allows you to send surveys and collect feedback, which can then be automatically linked to Salesforce records such as leads, contacts, or cases.\n\n3. **GetFeedback**: Specifically designed for Salesforce users, GetFeedback offers seamless integration, enabling you to collect customer feedback and view it alongside your Salesforce data.\n\n4. **Medallia**: This platform provides a comprehensive feedback management solution with native Salesforce integration, helping you capture and act on customer insights efficiently.\n\n5. **Typeform**: While primarily known for its engaging forms and surveys, Typeform offers integration with Salesforce through third-party connectors like Zapier, allowing you to sync responses with Salesforce records.\n\n6. **Zonka Feedback**: This tool provides a native Salesforce integration, enabling you to gather customer feedback and link it directly to your Salesforce data for better insights and actionability.\n\nThese tools can help you streamline the process of collecting and analyzing customer feedback within your Salesforce ecosystem, enhancing your ability to respond to customer needs and improve your products.",
+  "cached_at": "2026-05-28T08:24:21Z",
+  "metadata": {}
+}

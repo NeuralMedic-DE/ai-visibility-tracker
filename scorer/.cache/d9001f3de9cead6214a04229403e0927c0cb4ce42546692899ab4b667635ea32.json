@@ -1,0 +1,9 @@
+{
+  "brand": "June.so",
+  "prompt_id": "AL-05",
+  "llm": "anthropic",
+  "prompt_text": "Open source or affordable product analytics tools instead of PostHog",
+  "response": "# Open Source & Affordable Product Analytics Alternatives\n\n## **Open Source (Self-Hosted)**\n\n### **Plausible Analytics**\n- Privacy-focused, GDPR-compliant\n- Simple, fast dashboards\n- ~$20/month or self-host\n- Good for basic website analytics\n\n### **Matomo**\n- Full Google Analytics alternative\n- Self-hosted or cloud (~$19/month)\n- Extensive features, data ownership\n- Steeper learning curve\n\n### **Umami**\n- Lightweight, privacy-first\n- Free and open-source\n- Minimal setup required\n- Great for simple tracking\n\n### **Fathom Analytics**\n- Privacy-respecting (no cookies needed)\n- Affordable (~$14/month)\n- Clean UI\n- Best for privacy-conscious projects\n\n### **Simple Analytics**\n- GDPR/CCPA compliant\n- ~$20/month\n- Very streamlined\n- No data selling\n\n## **DIY/Developer-Friendly**\n\n### **ClickHouse + Metabase**\n- **ClickHouse**: Analytics database (free, open-source)\n- **Metabase**: Query/visualization layer (free)\n- Cost: $0 (self-hosted) + infrastructure\n- Steepest setup, most control\n\n### **Mixpanel** (freemium)\n- Free tier: up to 1,000 users\n- Event-based analytics\n- Good for product teams\n\n## **Comparison for Your Needs**\n\n| Tool | Best For | Cost | Effort |\n|------|----------|------|--------|\n| Umami | Simple site tracking | Free | Low |\n| Plausible | Privacy + ease | $20/mo | Low |\n| ClickHouse + Metabase | Full control, scaling | ~$50/mo infra | High |\n| Matomo | Feature parity with GA | $19/mo | Medium |\n\n**What's your main use case?** (website analytics, product events, user behavior?) I can refine recommendations.",
+  "cached_at": "2026-05-27T19:58:00Z",
+  "metadata": {}
+}

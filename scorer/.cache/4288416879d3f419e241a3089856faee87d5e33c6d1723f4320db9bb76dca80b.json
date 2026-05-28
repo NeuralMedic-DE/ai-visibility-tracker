@@ -1,0 +1,9 @@
+{
+  "brand": "ChurnZero",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "ChurnZero HubSpot integration: how does it work?",
+  "response": "# ChurnZero HubSpot Integration Overview\n\n## Core Functionality\n\nThe integration syncs customer data bidirectionally between ChurnZero (customer success platform) and HubSpot (CRM):\n\n### **Data Syncing**\n- **Contacts → Accounts**: HubSpot contacts sync to ChurnZero accounts\n- **Account attributes**: Company data, industry, employee count, etc.\n- **Custom properties**: Both platforms share custom field mappings\n- **Two-way sync**: Changes in one platform reflect in the other\n\n## Key Features\n\n### **Health Score & Metrics**\n- ChurnZero health scores and engagement metrics appear in HubSpot contact/company records\n- Enables sales teams to see customer wellness without switching platforms\n\n### **Activity Tracking**\n- In-app activities, support tickets, and product usage flow to HubSpot\n- Creates a unified timeline of customer interactions\n\n### **Automated Workflows**\n- Trigger HubSpot workflows based on ChurnZero events (low health scores, risk alerts)\n- Create alerts for sales reps when customers need attention\n\n### **Deal & Renewal Tracking**\n- Link HubSpot deals to ChurnZero accounts\n- Track upsell/renewal opportunities alongside health data\n\n## Common Use Cases\n\n✓ Identify at-risk customers before churn occurs  \n✓ Align CS and sales on account health  \n✓ Automate customer outreach workflows  \n✓ Maintain single source of truth for customer data\n\n## Setup Requirements\n- Admin access in both platforms\n- API credentials/authentication\n- Property mapping configuration\n\n**Need help with specific setup steps or troubleshooting?**",
+  "cached_at": "2026-05-28T08:07:02Z",
+  "metadata": {}
+}

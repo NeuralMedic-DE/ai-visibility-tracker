@@ -1,0 +1,9 @@
+{
+  "brand": "LangChain",
+  "prompt_id": "IN-05",
+  "llm": "openai",
+  "prompt_text": "AI tooling tools with native OpenAI integration",
+  "response": "There are several AI tooling tools and platforms that offer native integration with OpenAI's models, such as GPT-3 and GPT-4. Here are a few notable ones:\n\n1. **Microsoft Azure OpenAI Service**: Microsoft Azure provides a service that integrates OpenAI's models directly into its cloud platform. This allows businesses to leverage OpenAI's capabilities within Azure's ecosystem.\n\n2. **Zapier**: Zapier offers integrations with OpenAI, allowing users to automate workflows that involve OpenAI's models. You can set up triggers and actions to interact with OpenAI's API seamlessly.\n\n3. **Notion**: Notion AI integrates OpenAI's models to enhance productivity features such as writing assistance, summarization, and idea generation directly within the Notion workspace.\n\n4. **Copy.ai**: This tool is designed for content creation and uses OpenAI's models to help generate marketing copy, blog posts, and other written content.\n\n5. **Jasper (formerly Jarvis)**: Jasper is a content generation tool that uses OpenAI's models to assist with writing tasks, including blog posts, social media content, and more.\n\n6. **Replika**: An AI chatbot that uses OpenAI's models to create conversational agents for personal use or customer service applications.\n\n7. **Synthesia**: A video creation platform that uses AI, including OpenAI models, to generate video content with AI avatars and voiceovers.\n\nThese tools leverage OpenAI's powerful language models to provide enhanced capabilities in content creation, automation, and productivity across various applications.",
+  "cached_at": "2026-05-28T07:39:57Z",
+  "metadata": {}
+}

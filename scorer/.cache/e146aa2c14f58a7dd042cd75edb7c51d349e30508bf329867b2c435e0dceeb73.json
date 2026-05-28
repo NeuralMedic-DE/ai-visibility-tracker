@@ -1,0 +1,9 @@
+{
+  "brand": "Close",
+  "prompt_id": "IN-04",
+  "llm": "anthropic",
+  "prompt_text": "Best CRM that works with Slack and Zapier",
+  "response": "# Best CRMs for Slack & Zapier Integration\n\n## Top Picks\n\n### **HubSpot CRM**\n- **Free tier** available with solid features\n- Native Slack app + deep Zapier support\n- Best for: Growing teams, all business sizes\n- Excellent documentation\n\n### **Pipedrive**\n- Highly rated for sales teams\n- Great Zapier integration (100+ zaps)\n- Slack notifications for deals\n- Best for: Sales-focused organizations\n\n### **Salesforce**\n- Most powerful option\n- Native Slack integration\n- Extensive Zapier support\n- Best for: Enterprise teams with complex needs\n\n### **Monday.com**\n- Modern interface, very Zapier-friendly\n- Good Slack syncing\n- Best for: Project-based sales\n- Strong automation capabilities\n\n### **Freshsales**\n- Affordable alternative\n- Good Slack/Zapier compatibility\n- Clean UI\n- Best for: Small to mid-size teams\n\n## Quick Comparison\n\n| CRM | Price | Slack | Zapier | Best For |\n|-----|-------|-------|--------|----------|\n| HubSpot | Free-$3,200 | Native | Excellent | Startups→Enterprise |\n| Pipedrive | $14-99/user | Good | Excellent | Sales teams |\n| Salesforce | $25-$300/user | Native | Excellent | Enterprise |\n| Monday | $9-$99/seat | Good | Excellent | Flexibility |\n\n## My Recommendation\n**Start with HubSpot** — free tier lets you test Slack/Zapier integrations without commitment.\n\nWhat's your team size and main use case? That would help narrow it down further.",
+  "cached_at": "2026-05-27T17:51:47Z",
+  "metadata": {}
+}

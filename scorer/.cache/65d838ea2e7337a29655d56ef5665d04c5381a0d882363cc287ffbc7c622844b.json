@@ -1,0 +1,9 @@
+{
+  "brand": "Copper",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "HubSpot vs alternatives: what should I switch to?",
+  "response": "# HubSpot Alternatives: Quick Comparison\n\n**Consider switching if you:**\n- Need lower costs (HubSpot's pricing scales aggressively)\n- Want better customization or deeper integrations\n- Prefer specific features over all-in-one functionality\n\n## Top alternatives by priority:\n\n**Best overall alternative:**\n- **Pipedrive** — Sales-focused, intuitive, cheaper (~$15/user/mo)\n\n**If you need more customization:**\n- **Salesforce** — Powerful but complex; better for enterprises\n- **Monday.com** — Visual, flexible, good for teams beyond sales\n\n**For marketing focus:**\n- **ActiveCampaign** — Better automation, lower price point\n- **Klaviyo** — Superior if email/SMS marketing is your core\n\n**Budget-conscious:**\n- **Zoho CRM** — Underrated, affordable, surprisingly capable\n- **HubSpot free tier** — Actually competitive if you don't need paid features\n\n## What to audit before switching:\n1. **Total cost of ownership** (including time/training)\n2. **Integration requirements** — what else do you use?\n3. **Your actual use case** — do you use everything HubSpot offers?\n4. **Data migration complexity**\n\n**Real talk:** Many people overpay for HubSpot because they don't use 70% of it. Before switching, ask whether a cheaper tier elsewhere + a specialized tool beats one platform.\n\nWhat's driving your consideration? (Cost, specific features, usability?) That matters for a real recommendation.",
+  "cached_at": "2026-05-27T18:23:35Z",
+  "metadata": {}
+}

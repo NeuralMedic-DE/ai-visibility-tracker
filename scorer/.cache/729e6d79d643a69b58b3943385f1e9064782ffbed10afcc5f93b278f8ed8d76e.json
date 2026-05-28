@@ -1,0 +1,9 @@
+{
+  "brand": "n8n",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does n8n integrate with GitHub?",
+  "response": "Yes. n8n has a **native GitHub integration** and can also use Git/GitHub for its built‑in source control.\n\nEssential points:\n\n- n8n provides a **GitHub API credential type**; you connect by creating a **GitHub Personal Access Token (PAT)** (or OAuth app) and entering it in n8n, then you can use GitHub nodes in workflows to interact with repos, issues, commits, etc.[2][3]  \n- Officially, n8n supports **PAT and OAuth2** for GitHub API authentication; it does *not* currently support GitHub App authentication natively.[1]  \n- For **workflow source control**, n8n uses Git and can push/pull your workflows to a Git repository hosted on providers like **GitHub**.[4]  \n- There is also an official **n8n.cloud app on the GitHub Marketplace** that advertises automatically connecting GitHub to third‑party apps via n8n.[5]  \n\nSo you can integrate GitHub both as:\n- an automation target/source via GitHub nodes and API credentials, and  \n- a Git remote for n8n’s source‑control feature (storing workflows in a GitHub repo).",
+  "cached_at": "2026-05-28T08:57:52Z",
+  "metadata": {}
+}

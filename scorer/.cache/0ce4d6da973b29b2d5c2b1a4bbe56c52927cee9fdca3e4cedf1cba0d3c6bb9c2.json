@@ -1,0 +1,9 @@
+{
+  "brand": "Reply.io",
+  "prompt_id": "AL-04",
+  "llm": "openai",
+  "prompt_text": "Lemlist vs alternatives: what should I switch to?",
+  "response": "Choosing an alternative to Lemlist depends on your specific needs and preferences. Lemlist is known for its email outreach and automation capabilities, particularly its personalized cold email campaigns. Here are some popular alternatives, each with its own strengths:\n\n1. **Mailshake**: Known for its ease of use and focus on cold email outreach, Mailshake offers features like automated follow-ups and integration with various CRM systems.\n\n2. **Reply.io**: This platform provides multichannel outreach, including email, social media, and phone calls. It also offers AI-powered features to optimize your campaigns.\n\n3. **Woodpecker**: Ideal for small to medium-sized businesses, Woodpecker focuses on cold email campaigns with features like A/B testing and detailed analytics.\n\n4. **Saleshandy**: Offers email tracking, scheduling, and automated follow-ups. It's a good choice if you're looking for a straightforward tool with essential features.\n\n5. **Outreach.io**: A more comprehensive sales engagement platform, Outreach.io is suitable for larger teams needing robust analytics and integration capabilities.\n\n6. **HubSpot Sales Hub**: Part of the HubSpot ecosystem, this tool offers email tracking, automation, and CRM integration, making it a good choice if you're already using HubSpot.\n\n7. **ActiveCampaign**: Known for its marketing automation capabilities, ActiveCampaign can handle email marketing, CRM, and sales automation in one platform.\n\nConsider factors like your budget, the size of your team, the complexity of your campaigns, and any specific features you need when choosing an alternative. It's also a good idea to take advantage of free trials to test out different platforms before making a decision.",
+  "cached_at": "2026-05-28T07:21:17Z",
+  "metadata": {}
+}

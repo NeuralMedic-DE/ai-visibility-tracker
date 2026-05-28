@@ -1,0 +1,9 @@
+{
+  "brand": "Vitally",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I manage customer accounts with configurable health scores and automated workflows without spending a lot on software?",
+  "response": "# Budget-Friendly Customer Health Management\n\n## Low-Cost Foundation\n\n**Start with spreadsheets + basic automation:**\n- Google Sheets with conditional formatting to visualize health scores\n- Zapier or Make (formerly Integromat) to connect tools and trigger workflows\n- Free tier covers ~100 tasks/month, which handles most SMB needs\n\n**Key metrics to track (simple formula approach):**\n- Product usage frequency\n- Support ticket sentiment\n- Payment behavior\n- Feature adoption rate\n- NPS or survey responses\n\nWeight these with a simple algorithm: `(usage×0.3) + (support_sentiment×0.2) + (payment×0.2) + (adoption×0.2) + (nps×0.1)`\n\n## Slightly More Structured (Still Cheap)\n\n**Airtable** ($0-20/month for small teams)\n- Better than sheets for relational data\n- Built-in automations\n- Can organize accounts, activities, and health metrics in connected tables\n\n**HubSpot free tier**\n- Native health score fields\n- Basic workflow automation\n- Reasonable limit for early-stage companies\n\n## Automation Workflows (No-Code)\n\nOnce health scores identify at-risk customers:\n- Alert sales/CS teams automatically (via Slack, email)\n- Queue outreach tasks in your CRM\n- Trigger follow-up sequences\n- Create tickets for high-touch accounts\n\n**Tools:** Zapier, Make, n8n (self-hosted, free)\n\n## What to avoid early:\n- Enterprise platforms ($500+/month) before you've proven the model\n- Over-complexity—start with 3-4 health metrics, add more later\n\nWhat's your current customer base size? That helps determine the right starting point.",
+  "cached_at": "2026-05-28T08:09:30Z",
+  "metadata": {}
+}

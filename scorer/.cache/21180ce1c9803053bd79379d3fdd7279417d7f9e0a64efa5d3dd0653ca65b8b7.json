@@ -1,0 +1,9 @@
+{
+  "brand": "Numeric",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Numeric integrate with NetSuite?",
+  "response": "Yes, Numeric can integrate with NetSuite. Numeric is a financial planning and analysis tool that often connects with ERP systems like NetSuite to streamline data flow and enhance financial reporting and analytics. Integration typically involves using APIs or third-party connectors to synchronize data between Numeric and NetSuite, allowing for real-time data updates and improved financial management. It's advisable to consult with Numeric's support or your implementation partner for specific integration options and setup procedures tailored to your business needs.",
+  "cached_at": "2026-05-28T07:05:09Z",
+  "metadata": {}
+}

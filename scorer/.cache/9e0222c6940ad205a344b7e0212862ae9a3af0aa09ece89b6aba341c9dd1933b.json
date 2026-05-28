@@ -1,0 +1,9 @@
+{
+  "brand": "Encharge",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Encharge integrate with Stripe?",
+  "response": "Yes, Encharge does integrate with Stripe. This integration allows you to automate workflows and manage customer data by connecting your Stripe account with Encharge. You can use this integration to trigger actions in Encharge based on events in Stripe, such as new charges, subscriptions, or customer updates.",
+  "cached_at": "2026-05-28T07:28:27Z",
+  "metadata": {}
+}

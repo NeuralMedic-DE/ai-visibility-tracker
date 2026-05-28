@@ -1,0 +1,9 @@
+{
+  "brand": "RudderStack",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does RudderStack integrate with Segment?",
+  "response": "Yes. **RudderStack has an official integration with Segment**, and it works in both directions:\n\n- You can use **Segment as a source** and send data from Segment into RudderStack.[1]  \n- You can use **Segment as a destination** and send data from RudderStack into Segment.[4]  \n\n**How it works:**\n\n- **Segment → RudderStack (Segment as a source)**  \n  - In RudderStack, you add **Segment as a source** in the dashboard.[1]  \n  - In Segment, you configure a **webhook destination** that points to RudderStack so that whenever Segment receives an event, it forwards it to RudderStack.[1]  \n  - RudderStack can then route those ingested events to downstream tools and warehouses.[1]  \n\n- **RudderStack → Segment (Segment as a destination)**  \n  - In RudderStack, you add **Segment as a destination** and configure it with a **Segment Write Key**.[4]  \n  - You typically get this key by creating an HTTP source in Segment and copying its write key into RudderStack.[4]  \n  - Once enabled, events from RudderStack flow into Segment in real time.[4]  \n\nThis setup lets you either migrate from Segment to RudderStack or run them together in the same pipeline, depending on your architecture.",
+  "cached_at": "2026-05-28T09:09:56Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Help Scout",
+  "prompt_id": "AL-05",
+  "llm": "anthropic",
+  "prompt_text": "Open source or affordable customer support tools instead of Zendesk",
+  "response": "# Affordable Customer Support Alternatives to Zendesk\n\n## Open Source Options\n\n**Osticket**\n- Self-hosted ticket system\n- Free, lightweight, straightforward\n- Basic but functional for small teams\n- Good for simple ticketing workflows\n\n**Zammad**\n- Modern, feature-rich self-hosted platform\n- Free community edition\n- Multi-channel (email, chat, phone, social)\n- User-friendly interface\n\n**Freescout**\n- Open source helpdesk inspired by Help Scout\n- Free or self-hosted\n- Email-based ticketing\n- Good team collaboration features\n\n**Chatwoot**\n- Open source, primarily for live chat\n- Can integrate with support workflows\n- Multi-channel messaging\n- Growing feature set\n\n## Budget-Friendly Paid Tools\n\n**Hive**\n- ~$65/month for 3 users\n- Project management + support\n- All-in-one approach\n\n**Freshdesk** (entry level)\n- Starts at ~$15/user/month\n- More affordable than Zendesk\n- Solid feature set for the price\n\n**Groove**\n- Simple, inbox-based ticketing\n- Affordable pricing tier\n- Great for small teams\n\n**Help Scout**\n- ~$20/user/month\n- Clean interface\n- Email-focused support\n\n## Hybrid Approach\nConsider combining:\n- **Slack** + **Forms** (Typeform/Airtable) for basic support\n- Free tier of **Discord** for community support\n- Email with **Gmail labels** (bare minimum)\n\n**What's your team size and primary support channel?** That would help narrow down the best fit.",
+  "cached_at": "2026-05-28T08:19:27Z",
+  "metadata": {}
+}

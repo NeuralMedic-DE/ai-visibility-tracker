@@ -1,0 +1,9 @@
+{
+  "brand": "Maxio",
+  "prompt_id": "CD-01",
+  "llm": "perplexity",
+  "prompt_text": "What is the best billing for finance teams at B2B SaaS companies with complex pricing?",
+  "response": "For **finance teams at B2B SaaS companies with complex pricing**, the best billing setup is usually a **flexible, automated subscription/billing platform** that can handle **custom contracts, usage-based charges, add-ons, proration, and negotiated pricing** without hard-coding rules.[2][6][9]\n\nWhat matters most is that the system can:\n\n- **Define billable units clearly** before billing logic is built, so plans, seats, credits, usage, and add-ons map to explicit rules.[2]\n- **Support custom pricing per client** and transparent invoices that show fixed and variable charges, overages, and one-time fees.[1]\n- **Automate metering, invoicing, collections, and billing-state updates** to reduce manual finance work and revenue leakage.[1][2]\n- **Track usage at the source** and keep billing aligned with product entitlements and access rules.[2]\n- **Handle exceptions without custom code**, which is important for sales-led deals and negotiated contracts.[2]\n- **Integrate with CRM, ERP, and analytics** so finance can reconcile revenue, invoices, and collections cleanly.[1]\n\nIn practice, that means a platform built for **complex SaaS billing** is usually better than a simple recurring invoicing tool.[2][9] If your pricing is mostly standard subscriptions, a lighter system may be enough, but once you have **usage, credits, hybrid pricing, or enterprise contracts**, you want billing software designed for those cases.[2][6][9]\n\nIf you want, I can also give you:\n- a **shortlist of the best billing platforms** for this use case, or\n- a **decision framework** for choosing between tools like Stripe Billing, Chargebee, Orb, Schematic, or custom billing.",
+  "cached_at": "2026-05-28T06:52:31Z",
+  "metadata": {}
+}

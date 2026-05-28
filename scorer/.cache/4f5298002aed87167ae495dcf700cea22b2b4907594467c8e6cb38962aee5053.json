@@ -1,0 +1,9 @@
+{
+  "brand": "Front",
+  "prompt_id": "CM-02",
+  "llm": "anthropic",
+  "prompt_text": "Front vs Help Scout pricing and features",
+  "response": "# Front vs Help Scout Comparison\n\n## Pricing\n\n| Feature | Front | Help Scout |\n|---------|-------|-----------|\n| **Free Plan** | Limited (1 user) | Yes (up to 3 users) |\n| **Basic Paid** | $59/user/month | $20/user/month |\n| **Mid-tier** | $99/user/month | $65/user/month |\n| **Enterprise** | Custom | Custom |\n\n## Key Features\n\n### **Front**\n✅ **Strengths:**\n- Multi-channel inbox (email, SMS, chat, social)\n- Powerful collaboration tools\n- Strong automation & workflow builder\n- AI-powered drafts & suggestions\n- Advanced team management\n- Better for high-volume/complex workflows\n\n❌ **Weaknesses:**\n- Higher per-user costs\n- Steeper learning curve\n- Overkill for small teams\n\n### **Help Scout**\n✅ **Strengths:**\n- Lower cost per user\n- Simple, intuitive interface\n- Solid knowledge base/documentation tools\n- Email & chat focus\n- Great for small-to-mid teams\n- Faster implementation\n\n❌ **Weaknesses:**\n- Limited channel integrations\n- Less advanced automation\n- SMS support requires extra tools\n\n## Quick Decision Guide\n\n**Choose Front if you:**\n- Need omnichannel support (SMS, social, chat, email)\n- Have complex workflows & large teams\n- Want built-in AI assistance\n- Need advanced reporting\n\n**Choose Help Scout if you:**\n- Want simplicity & ease of use\n- Have a tight budget\n- Focus mainly on email/chat\n- Prefer straightforward implementation\n\n**Best for:** Front = enterprises; Help Scout = small-mid businesses",
+  "cached_at": "2026-05-28T08:16:57Z",
+  "metadata": {}
+}

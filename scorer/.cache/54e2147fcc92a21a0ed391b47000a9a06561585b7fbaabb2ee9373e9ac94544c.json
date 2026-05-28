@@ -1,0 +1,9 @@
+{
+  "brand": "ActiveCampaign",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is ActiveCampaign better than HubSpot for segment contacts and send personalized campaigns based on behavioral data?",
+  "response": "# ActiveCampaign vs HubSpot: Segmentation & Behavioral Campaigns\n\nBoth are strong here, but with different strengths:\n\n## **ActiveCampaign's advantages:**\n- **More granular segmentation** - Complex behavioral rules feel more intuitive\n- **Lower cost** - Better value if segmentation/automation is your priority\n- **Stronger automation workflows** - Excels at behavioral triggers and multi-step sequences\n- **Easier for smaller teams** - Simpler interface for building behavioral campaigns\n\n## **HubSpot's advantages:**\n- **Better data integration** - Pulls behavioral data seamlessly across tools\n- **More visual/intuitive** - Workflow builder is cleaner for non-technical users\n- **Stronger analytics** - Better reporting on campaign performance\n- **Smarter defaults** - Good predictive segmentation without manual setup\n\n## **The real question:**\n\nWhat matters most to *you*?\n\n- **Complex behavioral automation + budget-conscious** → ActiveCampaign\n- **User-friendliness + already in HubSpot ecosystem** → HubSpot\n- **Need both CRM + marketing automation tightly integrated** → HubSpot\n- **Want maximum segmentation flexibility** → ActiveCampaign\n\n## **One caveat:**\nHubSpot's segmentation has improved significantly, but ActiveCampaign still feels more purpose-built for behavioral marketing specifically.\n\nWhat's your current setup, and what's driving this evaluation?",
+  "cached_at": "2026-05-28T07:23:28Z",
+  "metadata": {}
+}

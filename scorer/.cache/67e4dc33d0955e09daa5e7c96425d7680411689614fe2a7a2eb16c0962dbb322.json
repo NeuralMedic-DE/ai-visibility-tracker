@@ -1,0 +1,9 @@
+{
+  "brand": "Vanta",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to Sprinto",
+  "response": "# Cheaper Alternatives to Sprinto\n\n## Direct Competitors\n- **Drata** - Similar compliance automation, competitive pricing\n- **Vanta** - SOC 2 automation, often cheaper for startups\n- **Latera** - More affordable for smaller firms\n- **Secureframe** - Good for basic compliance needs\n- **Hyperproof** - Lower-cost mid-market option\n\n## DIY/In-House Solutions\n- **Compliance.ai** - Self-service framework tools\n- **Process Street** - Basic automation at lower cost\n- **Monday.com** - Generic workflow tool (requires manual setup)\n- **Airtable** - Build custom compliance tracking\n- **Notion** - Free/cheap documentation system\n\n## Open-Source Options\n- **OpenSCAP** - Free security compliance scanning\n- **Audit Trail solutions** - Homegrown logging systems\n\n## Cost-Saving Tips\n- **Start with spreadsheets + tools you have** (Google Workspace, Microsoft 365)\n- **Use hybrid approach** - DIY for documentation, paid tool for specific gaps\n- **Check if your auditor/insurer** provides free resources\n- **Negotiate** - Sprinto sometimes offers discounts\n\n## Key Questions Before Switching\n- What compliance standards do you actually need?\n- How many team members need access?\n- Can you tolerate more manual work?\n\n**Best for different needs:**\n- Startups: Vanta or Drata\n- Budget-conscious: DIY + spreadsheets\n- Specific compliance: Open-source tools\n\nWhat compliance standard are you targeting?",
+  "cached_at": "2026-05-28T08:26:37Z",
+  "metadata": {}
+}

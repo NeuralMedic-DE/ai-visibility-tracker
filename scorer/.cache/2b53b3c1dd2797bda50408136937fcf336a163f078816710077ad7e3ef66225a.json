@@ -1,0 +1,9 @@
+{
+  "brand": "Airbyte",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best data integration for data engineers at startups and mid-market companies building data pipelines?",
+  "response": "# Best Data Integration Solutions for Startups & Mid-Market\n\n## Top Contenders by Use Case\n\n### **Lightweight & Cost-Effective**\n- **Fivetran** - Best all-around for ease + reliability\n  - Pre-built connectors (300+)\n  - Minimal ops overhead\n  - Pricing scales reasonably\n  \n- **Stitch** (Talend) - Good if you want simpler, cheaper alternative\n  - Easier learning curve\n  - Lower price point\n  - Fewer connectors than Fivetran\n\n### **Maximum Flexibility**\n- **Apache Airflow** - If you have engineering resources\n  - Open-source, highly customizable\n  - Requires DevOps investment\n  - Best for complex workflows\n\n- **Dagster** - Modern Airflow alternative\n  - Better developer experience\n  - Growing ecosystem\n  - Good observability built-in\n\n### **Best for Modern Data Stacks**\n- **dbt** + lightweight EL\n  - dbt handles transformations elegantly\n  - Pair with Fivetran or simple scripts\n  - Great for analytics-focused teams\n\n## My Recommendation by Stage\n\n**Early Startup (<$2M):** Fivetran + dbt\n- Get moving fast, focus on product\n- ~$2-3k/month for typical setup\n\n**Growth Stage:** Add Airflow/Dagster if needed\n- More complex orchestration\n- Custom logic requirements\n\n**Key Questions to Answer First:**\n1. How many data sources? (affects connector availability)\n2. Do you have dedicated data eng or hiring one?\n3. Transformation-heavy or extraction-heavy?\n4. What's your data warehouse? (Snowflake, BigQuery, Redshift)\n\nWhat's your specific bottleneck right now?",
+  "cached_at": "2026-05-28T09:03:10Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Instantly",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is Instantly better than Mailshake for warm up email accounts and manage deliverability automatically at scale?",
+  "response": "# Instantly vs Mailshake: Warm-up & Deliverability\n\nThis depends on your priorities, but here's an honest breakdown:\n\n## Instantly's Advantages\n- **Dedicated warm-up focus** - warm-up is a core feature, not an add-on\n- **Better automation** - handles warm-up scheduling with less manual input\n- **Deliverability infrastructure** - designed specifically for scaling outreach safely\n- **Account rotation** - easier management of multiple accounts at scale\n\n## Mailshake's Advantages\n- **More established** - longer track record with email sequences\n- **Better UI/UX** - generally easier to learn and navigate\n- **Integrated CRM** - better for managing full sales workflows\n- **More affordable** entry point\n\n## The Reality Check\n- **Mailshake does have warm-up**, but it's less sophisticated than Instantly's\n- **Neither is fully \"automatic\"** - both require some configuration and monitoring\n- **Instantly wins** if warm-up + scale is your main concern\n- **Mailshake wins** if you want a complete sales tool ecosystem\n\n## Best Practice\nMany serious outreachers actually use **both**:\n- Instantly for dedicated warm-up and sending at scale\n- Mailshake for sequence building and CRM integration\n\n**For pure warm-up and deliverability at scale: Instantly edges ahead.** But test both with your actual email setup—results vary based on your domain age, list quality, and sending patterns.\n\nWhat's your main use case?",
+  "cached_at": "2026-05-28T07:19:04Z",
+  "metadata": {}
+}

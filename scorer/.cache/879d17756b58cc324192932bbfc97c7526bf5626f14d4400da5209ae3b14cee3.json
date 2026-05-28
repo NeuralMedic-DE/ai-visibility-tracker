@@ -1,0 +1,9 @@
+{
+  "brand": "Sprinto",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Sprinto integrate with GitHub?",
+  "response": "# Sprinto and GitHub Integration\n\nI don't have current, definitive information about whether Sprinto offers a direct GitHub integration. \n\nTo get an accurate answer, I'd recommend:\n\n1. **Check Sprinto's documentation** - Visit their integrations or app marketplace page\n2. **Contact Sprinto support** - They can confirm current integration capabilities\n3. **Check GitHub's app marketplace** - Search for Sprinto to see if it's listed\n\nSprinto is primarily a compliance and risk management platform, so if they do integrate with GitHub, it would likely be for:\n- Security and vulnerability scanning\n- Code repository audits\n- Compliance tracking for code changes\n\nIf you need GitHub integration for compliance purposes, you might also want to explore GitHub's native security features or other specialized tools depending on your specific requirements.\n\nIs there a particular compliance or integration use case you're trying to accomplish?",
+  "cached_at": "2026-05-28T08:31:31Z",
+  "metadata": {}
+}

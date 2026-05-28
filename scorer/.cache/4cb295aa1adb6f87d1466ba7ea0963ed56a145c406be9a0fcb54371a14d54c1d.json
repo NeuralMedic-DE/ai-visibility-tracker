@@ -1,0 +1,9 @@
+{
+  "brand": "Sentry",
+  "prompt_id": "IN-03",
+  "llm": "openai",
+  "prompt_text": "How do I connect Sentry with GitHub?",
+  "response": "To connect Sentry with GitHub, you need to integrate the two services so that Sentry can access your GitHub repositories and provide features like commit tracking, release automation, and issue linking. Here's how you can set up the integration:\n\n1. **Log in to Sentry:**\n   - Go to your Sentry account and log in.\n\n2. **Navigate to Organization Settings:**\n   - Click on your organization name in the top-left corner.\n   - Select \"Settings\" from the dropdown menu.\n\n3. **Integrations:**\n   - In the left sidebar, find and click on \"Integrations.\"\n\n4. **Find GitHub:**\n   - In the integrations list, locate \"GitHub\" and click on it.\n\n5. **Install the GitHub App:**\n   - You will be prompted to install the Sentry GitHub App. Click on \"Install\" or \"Configure\" to proceed.\n   - You will be redirected to GitHub to authorize the app. Choose the GitHub organization you want to integrate with Sentry.\n   - You can choose to give access to all repositories or select specific repositories.\n\n6. **Authorize Sentry:**\n   - Follow the prompts to authorize the Sentry app with the necessary permissions.\n\n7. **Configure Integration:**\n   - Once the app is installed, you may need to configure additional settings in Sentry, such as linking repositories to specific projects.\n\n8. **Verify the Integration:**\n   - After completing the setup, verify that the integration is working by checking if Sentry can access your repositories and if commit data is being pulled correctly.\n\nOnce set up, Sentry will be able to link errors to commits, suggest assignees based on commit history, and more. If you encounter any issues, ensure that the permissions are correctly set and that the app is installed on the correct GitHub organization or repositories.",
+  "cached_at": "2026-05-27T21:16:16Z",
+  "metadata": {}
+}

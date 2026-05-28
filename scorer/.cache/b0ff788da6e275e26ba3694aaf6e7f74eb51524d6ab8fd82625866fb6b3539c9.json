@@ -1,0 +1,9 @@
+{
+  "brand": "Baremetrics",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Baremetrics vs ChartMogul: which is better?",
+  "response": "# Baremetrics vs ChartMogul\n\nBoth are solid subscription analytics platforms, but they serve slightly different needs:\n\n## **ChartMogul** (Generally stronger)\n**Strengths:**\n- Best-in-class MRR/ARR dashboards and cohort analysis\n- More flexible data modeling\n- Better for complex, multi-currency setups\n- Stronger integration ecosystem\n- Industry standard for SaaS metrics\n\n**Best for:** Growing SaaS companies wanting deep financial insights\n\n## **Baremetrics**\n**Strengths:**\n- Simpler, more intuitive interface\n- Better for newer founders/smaller teams\n- Direct integrations with payment processors (Stripe, Shopify, etc.)\n- More affordable at lower revenue tiers\n- Cleaner onboarding experience\n\n**Best for:** Solopreneurs, early-stage startups, or those wanting quick setup\n\n## **Key differences:**\n- **Learning curve:** Baremetrics easier, ChartMogul more powerful but steeper\n- **Cost:** Baremetrics cheaper initially; depends on your MRR\n- **Customization:** ChartMogul more flexible\n- **Speed:** Baremetrics faster to set up\n\n## **Quick decision:**\n- Choose **Baremetrics** if you want simplicity and speed\n- Choose **ChartMogul** if you need sophisticated cohort analysis and multi-source data\n\nWhat's your main use case? That would help narrow it down further.",
+  "cached_at": "2026-05-28T06:57:22Z",
+  "metadata": {}
+}

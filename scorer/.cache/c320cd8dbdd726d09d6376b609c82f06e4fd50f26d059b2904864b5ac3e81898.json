@@ -1,0 +1,9 @@
+{
+  "brand": "RudderStack",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Segment vs alternatives: what should I switch to?",
+  "response": "# Segment Alternatives: Choose Based on Your Needs\n\n## Quick comparison matrix\n\n| Use case | Best alternative |\n|----------|------------------|\n| **Cost-sensitive** | mParticle, Freshpaint, or custom solution |\n| **Developer-focused** | RudderStack (open-source option) |\n| **Enterprise/compliance** | mParticle, Tealium |\n| **Simplicity** | Mixpanel, Amplitude (if analytics-first) |\n| **Privacy-first** | Plausible, Fathom (analytics only) |\n\n## Top alternatives by category\n\n**Open-source/Self-hosted**\n- **RudderStack** — closest Segment equivalent, free tier available\n- **meltano** — lighter, data integration focus\n\n**Enterprise**\n- **mParticle** — similar feature set, strong CDP capabilities\n- **Tealium** — more mature, better for large orgs\n\n**Analytics-first** (if you don't need full CDP)\n- **Mixpanel** — event analytics + segmentation\n- **Amplitude** — similar, slightly better product analytics\n\n**Budget-friendly**\n- **Freshpaint** — lower pricing, good feature set\n- **Heap** — autocapture reduces instrumentation work\n\n## Key questions to ask yourself\n\n1. **Do you need a CDP or just analytics?** (influences cost + complexity)\n2. **How much engineering support can you spare?**\n3. **What's your data volume/budget?**\n4. **Do you have compliance requirements?**\n\nWhat's driving your switch? Pricing, features, or something else? That'll help narrow it down.",
+  "cached_at": "2026-05-28T09:08:00Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Braintrust",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Braintrust Anthropic integration: how does it work?",
+  "response": "# Braintrust + Anthropic Integration\n\nI don't have specific documentation about a \"Braintrust Anthropic integration\" in my training data. However, I can outline what this likely involves:\n\n## Probable Setup\n\n**Braintrust** (an evaluation/testing platform for LLMs) would integrate with Anthropic's API to:\n\n1. **Access Claude models** - Use Braintrust's tools to test/evaluate Claude's performance\n2. **Run evaluations** - Compare outputs across different prompts, models, or configurations\n3. **Log & analyze** - Track metrics like accuracy, latency, and cost\n4. **Benchmark** - Compare Claude against other LLM providers\n\n## Typical Integration Flow\n\n```\nYour application\n    ↓\nBraintrust SDK\n    ↓\nAnthropic API (Claude)\n    ↓\nResults → Braintrust Dashboard\n```\n\n## What You'd Need\n\n- Braintrust API key\n- Anthropic API key\n- Integration code (likely using their SDK)\n\n## Next Steps\n\nFor accurate details, I'd recommend:\n- **Braintrust docs**: Check their integration guides\n- **Anthropic docs**: Review their API integration section\n- **GitHub**: Look for example implementations\n\nIs there a specific aspect of this integration you're trying to implement? That would help me provide more targeted guidance.",
+  "cached_at": "2026-05-28T07:47:40Z",
+  "metadata": {}
+}

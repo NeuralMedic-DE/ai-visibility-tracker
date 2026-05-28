@@ -1,0 +1,9 @@
+{
+  "brand": "Conveyor",
+  "prompt_id": "CM-01",
+  "llm": "perplexity",
+  "prompt_text": "Conveyor vs SafeBase: which is better?",
+  "response": "**It depends on the primary job you need done.** If you want a **trust center** for buyer self-service and proactive disclosure, **SafeBase** is usually the better fit; if you need **security questionnaire automation** and faster AI-assisted responses, **Conveyor** is usually stronger.[2][5]\n\n- **Choose SafeBase** if your main goal is to publish security docs, reduce inbound questions, and give prospects a polished self-serve portal.[2][5]\n- **Choose Conveyor** if your main bottleneck is completing questionnaires quickly, because Conveyor emphasizes AI-generated questionnaire responses and workflow automation.[2][3][5]\n- Conveyor’s own materials position it as stronger on **AI accuracy** and broader automation across the review process, while describing SafeBase as a solid trust center solution.[3]\n- Independent review-style summaries also describe SafeBase’s questionnaire capabilities as more limited than dedicated automation tools, while Conveyor is framed as better for moderate-to-high questionnaire volume.[5]\n\nIf you want the shortest practical answer:\n\n- **For trust center / sales enablement:** **SafeBase**\n- **For questionnaire automation / infosec throughput:** **Conveyor**\n\nIf you want, I can also give you a **side-by-side comparison table** across features, pricing style, and best fit for your team.",
+  "cached_at": "2026-05-28T08:46:32Z",
+  "metadata": {}
+}

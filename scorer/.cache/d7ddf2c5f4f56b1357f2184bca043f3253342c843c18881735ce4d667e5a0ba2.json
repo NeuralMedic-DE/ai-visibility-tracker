@@ -1,0 +1,9 @@
+{
+  "brand": "Amplitude",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Amplitude Salesforce integration: how does it work?",
+  "response": "# Amplitude Salesforce Integration Overview\n\n## How It Works\n\nThe integration syncs customer behavioral data from Amplitude to Salesforce, enriching your CRM with product usage insights.\n\n### Core Data Flow\n\n```\nAmplitude (Product Analytics)\n         ↓\n    [Data Syncing]\n         ↓\nSalesforce (CRM)\n```\n\n## Key Capabilities\n\n### 1. **User & Account Enrichment**\n- Sends Amplitude user properties to Salesforce contacts\n- Maps Amplitude accounts to Salesforce accounts\n- Updates lead/contact records with engagement metrics\n\n### 2. **Cohort Synchronization**\n- Create cohorts in Amplitude based on user behavior\n- Sync cohorts to Salesforce as lists/segments\n- Use for targeted campaigns and sales outreach\n\n### 3. **Event Tracking Data**\n- Push behavioral events (feature usage, milestones) to Salesforce\n- Create activity records and update fields\n- Trigger workflows based on product usage\n\n## Setup Process\n\n```\n1. Install integration in Amplitude\n2. Authenticate Salesforce connection\n3. Map Amplitude properties → Salesforce fields\n4. Configure cohort sync rules\n5. Test data flow\n6. Enable automation\n```\n\n## Common Use Cases\n\n- **Sales enablement**: Flag high-engagement prospects for sales\n- **Customer success**: Identify at-risk accounts for intervention\n- **Lead scoring**: Factor product usage into lead quality\n- **Retention campaigns**: Target inactive users with win-back efforts\n\n## Technical Details\n\n- Uses **REST APIs** for data sync\n- Real-time or batch sync options available\n- Bidirectional mapping possible\n- Custom field mapping supported\n\nWould you like details on setup, specific use cases, or troubleshooting?",
+  "cached_at": "2026-05-27T19:27:09Z",
+  "metadata": {}
+}

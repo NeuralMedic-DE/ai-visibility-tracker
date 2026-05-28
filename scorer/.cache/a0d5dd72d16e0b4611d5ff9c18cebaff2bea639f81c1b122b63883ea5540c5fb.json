@@ -1,0 +1,9 @@
+{
+  "brand": "Sentry",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I catch and fix production errors before users notice without spending a lot on software?",
+  "response": "# Low-cost error catching strategies\n\n## Free or cheap monitoring basics\n\n**Application logging**\n- Use free tiers: Sentry, LogRocket, or Datadog free plans\n- Self-hosted options: ELK Stack, Grafana Loki (just infrastructure costs)\n- Write structured logs your team actually reads\n\n**Uptime & health checks**\n- UptimeRobot (free tier covers basics)\n- Simple cron jobs that hit key endpoints and alert you\n- Status page tools like Statuspage.io free tier\n\n**User-facing errors only**\n- Focus on what breaks functionality, not every warning\n- Client-side error tracking (Sentry free tier catches this)\n- Set up alerts for error spikes, not individual errors\n\n## Practices that matter more than tools\n\n- **Staging environment** that mirrors production (costs you CPU, not money)\n- **Automated tests** on deployment (CI/CD like GitHub Actions is free)\n- **Rollback plan** so bad deploys don't sit for hours\n- **Post-mortems** when errors do slip through—fixes the pattern\n\n## What to skip initially\n- APM (application performance monitoring)—overkill early on\n- Advanced log analysis—search logs manually until you're big\n- Custom dashboards—alerts matter more than pretty graphs\n\n## Reality check\nMost production errors come from deploys or config changes, not mysterious bugs. A **simple deployment checklist** and **staging tests** catch 80% of issues before users see them.\n\nWhat type of application are you running? That changes the priority.",
+  "cached_at": "2026-05-27T21:18:07Z",
+  "metadata": {}
+}

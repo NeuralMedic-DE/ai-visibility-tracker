@@ -1,0 +1,9 @@
+{
+  "brand": "Rho",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with gain real-time visibility into budget versus actuals across the entire company at scale?",
+  "response": "# Budget vs. Actuals Visibility Software\n\nSeveral categories of tools excel at this:\n\n## **Enterprise Financial Planning & Analysis (FP&A)**\n- **Anaplan** (SAP) - Cloud-native, handles complex consolidations\n- **Workday Financial Management** - Integrated with HR/payroll data\n- **Jedox** - Strong for multi-dimensional analysis\n- **Host Analytics** - Purpose-built for budget vs. actuals\n\n## **Business Intelligence/Analytics Platforms**\n- **Tableau** - Real-time dashboards with data connectors\n- **Power BI** - Tight Excel/Microsoft integration\n- **Looker** - SQL-based, enterprise scalability\n- **Qlik** - Associative analytics across data sources\n\n## **ERP Systems** (Often Included)\n- **SAP** (with Analytics Cloud)\n- **Oracle NetSuite**\n- **Microsoft Dynamics 365**\n- **Infor**\n\n## **Specialized Controllers' Tools**\n- **BlackLine** - Account reconciliation + variance analysis\n- **Wdesk** - Financial close and reporting\n\n## **Key Selection Factors**\n- Real-time data refresh capability\n- Multi-currency/multi-entity support\n- Integration with your ERP/GL\n- Variance drill-down capabilities\n- User accessibility across departments\n\n**Most common choice at scale:** Cloud-based FP&A platforms (Anaplan, Workday) paired with BI tools (Power BI/Tableau) for the dashboard layer.\n\nWhat's your current ERP system? That typically dictates the best fit.",
+  "cached_at": "2026-05-28T07:12:39Z",
+  "metadata": {}
+}

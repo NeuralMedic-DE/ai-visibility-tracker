@@ -1,0 +1,9 @@
+{
+  "brand": "Copper",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I manage client relationships inside Gmail without spending a lot on software?",
+  "response": "# Free/Low-Cost Client Management in Gmail\n\n## Built-in Gmail Features\n\n**Labels & Filters**\n- Create labels for client names or project types\n- Set up filters to auto-organize incoming mail\n- Use nested labels (Client > Project) for structure\n\n**Stars & Importance Markers**\n- Flag urgent client matters\n- Use different star colors to categorize\n\n**Gmail Search Operators**\n- Search by sender, date range, specific topics\n- Save searches you use repeatedly\n- Example: `from:client@company.com after:2024/01/01`\n\n## Lightweight Complementary Tools\n\n**Google Sheets** (free)\n- Simple client contact database with notes\n- Track projects, rates, last contact date\n- Link to relevant Gmail conversations\n\n**Google Tasks or Keep**\n- Quick to-do lists tied to emails\n- Set reminders for follow-ups\n\n**Free CRM Alternatives**\n- **HubSpot** (limited free tier)\n- **Zoho CRM** (free for 1 user)\n- Both integrate reasonably with email\n\n## Simple System to Start\n\n1. One label per client\n2. A Google Sheet with client names, contact info, rates, and notes\n3. Regular archive of handled emails (don't let inbox bloat)\n4. Monthly review of inactive clients\n\nThis handles most small business needs without complexity or cost. Scale up only when you genuinely outgrow it.\n\nWhat's your client volume like?",
+  "cached_at": "2026-05-27T18:23:46Z",
+  "metadata": {}
+}

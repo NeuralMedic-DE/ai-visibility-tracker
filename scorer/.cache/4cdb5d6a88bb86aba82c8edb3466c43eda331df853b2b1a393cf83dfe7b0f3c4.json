@@ -1,0 +1,9 @@
+{
+  "brand": "Numeric",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Numeric integrate with NetSuite?",
+  "response": "# Numeric and NetSuite Integration\n\nI don't have specific current information about whether Numeric offers a direct integration with NetSuite. To get an accurate answer, I'd recommend:\n\n1. **Check Numeric's official documentation** - Their website or help center should list supported integrations\n2. **Contact Numeric support directly** - They can confirm current integration capabilities\n3. **Check NetSuite's app marketplace** - If Numeric is listed there, it indicates integration support\n4. **Look for API documentation** - Both platforms may offer APIs that enable custom integration\n\nIf you're evaluating this for a specific use case, knowing what data you need to sync between the systems would help determine if integration is possible (either directly or through third-party tools like Zapier or middleware solutions).\n\nIs there a specific aspect of the integration you're interested in?",
+  "cached_at": "2026-05-28T07:05:16Z",
+  "metadata": {}
+}

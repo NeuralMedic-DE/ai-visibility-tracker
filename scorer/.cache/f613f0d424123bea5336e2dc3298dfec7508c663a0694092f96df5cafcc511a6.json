@@ -1,0 +1,9 @@
+{
+  "brand": "Zapier",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which automation software should a Ops Manager or No-Code Lead at a small to mid-market company use?",
+  "response": "# Automation Software for Ops Managers/No-Code Leads (SMB)\n\n## Top Picks by Use Case\n\n**Best Overall Balance:**\n- **Zapier** – Most integrations, easiest learning curve, good free tier\n- **Make** (formerly Integromat) – More flexible logic, better for complex workflows, lower cost at scale\n\n**For Process Automation:**\n- **n8n** – Open-source option, self-hosted control, growing community\n- **Automation Anywhere** – More enterprise-ready if you're scaling up\n\n**For Marketing/Sales Operations:**\n- **HubSpot workflows** (free tier) – If already in HubSpot ecosystem\n- **Zapier/Make** – Better cross-tool flexibility\n\n**For Internal Processes:**\n- **Power Automate** – Strong if you use Microsoft 365\n- **Airtable automations** – If Airtable is your data hub\n\n## Decision Framework\n\nAsk yourself:\n- **How many apps need to connect?** → Zapier (most integrations)\n- **Complex conditional logic?** → Make or n8n\n- **Budget constraints?** → n8n (self-hosted) or Zapier pay-as-you-go\n- **Team size/learning curve?** → Zapier or HubSpot (most intuitive)\n- **Microsoft stack?** → Power Automate\n- **Data-heavy processes?** → Airtable or Make\n\n**My recommendation for most SMBs:** Start with **Zapier** for accessibility, then consider **Make** as you grow and need more sophistication.\n\nWhat's your primary use case? I can narrow it down further.",
+  "cached_at": "2026-05-28T08:50:59Z",
+  "metadata": {}
+}

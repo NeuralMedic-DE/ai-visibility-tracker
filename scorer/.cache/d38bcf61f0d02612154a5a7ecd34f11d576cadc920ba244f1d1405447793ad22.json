@@ -1,0 +1,9 @@
+{
+  "brand": "Nutshell",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with automate email drip campaigns at scale?",
+  "response": "There are several software platforms that can help automate email drip campaigns at scale. Some of the most popular ones include:\n\n1. **Mailchimp**: Known for its user-friendly interface, Mailchimp offers robust automation features for creating and managing drip campaigns.\n\n2. **HubSpot**: This platform provides comprehensive marketing automation tools, including powerful email drip campaign capabilities, integrated with CRM features.\n\n3. **ActiveCampaign**: Offers advanced automation features and is particularly strong in creating complex drip campaigns with personalized content.\n\n4. **ConvertKit**: Designed with creators in mind, ConvertKit offers easy-to-use automation tools for setting up drip campaigns.\n\n5. **Drip**: Specifically focused on e-commerce, Drip provides powerful automation features to create personalized email campaigns.\n\n6. **GetResponse**: Offers a wide range of marketing automation features, including the ability to set up sophisticated drip campaigns.\n\n7. **Klaviyo**: Tailored for e-commerce businesses, Klaviyo provides detailed segmentation and automation features for drip campaigns.\n\n8. **Sendinblue**: Provides a suite of marketing tools, including email automation, to help manage drip campaigns effectively.\n\nEach of these platforms offers different features and pricing models, so it's important to evaluate them based on your specific needs, such as the size of your email list, the complexity of your campaigns, and your budget.",
+  "cached_at": "2026-05-27T18:31:58Z",
+  "metadata": {}
+}

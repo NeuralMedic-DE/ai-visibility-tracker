@@ -1,0 +1,9 @@
+{
+  "brand": "Maxio",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Chargebee vs alternatives: what should I switch to?",
+  "response": "# Chargebee Alternatives: Key Contenders\n\n## If you prioritize **simplicity & affordability**\n- **Stripe Billing** – Native to Stripe, minimal setup, good for startups\n- **Paddle** – Revenue ops focus, handles tax/compliance globally\n- **Lemonsqueezy** – Cheap, creator-friendly, limited enterprise features\n\n## If you need **enterprise power**\n- **Zuora** – Advanced billing, subscription analytics, pricing complexity\n- **Fastspring** – Global payments, compliance-heavy operations\n- **Recurly** – Strong dunning, retention tools, good UX\n\n## If you want **flexibility**\n- **Supabase/custom Stripe** – Full control, high engineering cost\n- **Maxio** – (formerly Chargify) good middle ground on features/cost\n\n## Decision factors to consider:\n\n**Switch if Chargebee feels:**\n- Too expensive at your scale\n- Overly complex for simple use cases\n- Lacking specific features (revenue recognition, advanced analytics, etc.)\n- Poor fit for your payment processors\n\n**Stay if you have:**\n- Complex billing scenarios working well\n- Heavy API integration already built\n- Good ROI on the features you use\n\n**What's driving your consideration?** (pricing, missing features, UX friction?) That'll help narrow it down significantly—the \"best\" alternative varies wildly depending on your actual needs vs. just general complaints.",
+  "cached_at": "2026-05-28T06:52:54Z",
+  "metadata": {}
+}

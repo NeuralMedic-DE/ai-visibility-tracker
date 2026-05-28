@@ -1,0 +1,9 @@
+{
+  "brand": "n8n",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best automation for developers and technical ops teams who need self-hosted workflow automation?",
+  "response": "# Best Self-Hosted Workflow Automation for Dev/Ops Teams\n\n## Top Tier Options\n\n**Temporal** or **Airflow** lead for complex workflows:\n- **Temporal**: Better for distributed systems, retries, error handling, and long-running processes. More developer-friendly API\n- **Airflow**: Stronger for data pipelines and scheduled tasks. Larger ecosystem, easier visualization\n\n**Jenkins** if you specifically need CI/CD (still relevant despite hype):\n- Extensive plugin ecosystem\n- Deeply integrated into existing pipelines\n- Can handle more than just CI/CD with Groovy scripting\n\n## Purpose-Built Alternatives\n\n**GitLab CI / Gitea Actions**\n- If already in that ecosystem, build directly into your VCS\n- Lower overhead than separate systems\n\n**n8n** or **Zapier self-hosted** alternative\n- GUI-based workflow builder (less code)\n- Good for integrating multiple tools\n- Steeper learning curve offsets ease-of-use gains\n\n## Decision Framework\n\nChoose based on:\n1. **Complexity**: Simple tasks → n8n/Gitea; Complex distributed → Temporal\n2. **Team skill**: DevOps-heavy → Airflow/Jenkins; Developers → Temporal\n3. **Existing investment**: Already using Jenkins/GitLab/GitHub? Stay there\n4. **Maintenance tolerance**: Want minimal ops overhead? Use managed services or simpler tools\n\n**My suggestion**: Start with what you already have (GitHub/GitLab Actions) before adding new infrastructure. Only self-host if you have genuine constraints (data residency, air-gapped, etc.).\n\nWhat's your specific use case? That would narrow recommendations significantly.",
+  "cached_at": "2026-05-28T08:55:54Z",
+  "metadata": {}
+}

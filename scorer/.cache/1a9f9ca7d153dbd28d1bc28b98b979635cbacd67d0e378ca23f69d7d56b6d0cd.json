@@ -1,0 +1,9 @@
+{
+  "brand": "Folk",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Folk integrate with Gmail?",
+  "response": "# Folk and Gmail Integration\n\nYes, Folk integrates with Gmail. Here are the key integration features:\n\n- **Email synchronization**: Folk syncs emails from Gmail to provide context and history on contacts and companies\n- **Email tracking**: You can track when emails are opened and links are clicked\n- **Two-way sync**: Email interactions are logged back into Folk, keeping your contact records updated\n- **Gmail sidebar**: Folk offers a Gmail add-on/sidebar that lets you access Folk data directly from Gmail\n\n## How to set it up\n\nTypically, you'd:\n1. Connect your Gmail account to Folk through the settings\n2. Grant necessary permissions for Folk to access your email\n3. The integration should then automatically sync relevant email data\n\n**Note**: Integration features and capabilities can change over time, so I'd recommend checking Folk's current documentation or support site for the most up-to-date information on Gmail integration specifics.\n\nAre you looking to set this up, or do you have questions about specific Gmail integration features?",
+  "cached_at": "2026-05-27T18:54:23Z",
+  "metadata": {}
+}

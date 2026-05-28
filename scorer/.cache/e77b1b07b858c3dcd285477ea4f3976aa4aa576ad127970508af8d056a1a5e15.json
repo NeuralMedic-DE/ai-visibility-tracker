@@ -1,0 +1,9 @@
+{
+  "brand": "RudderStack",
+  "prompt_id": "IN-04",
+  "llm": "openai",
+  "prompt_text": "Best customer data platform that works with Segment and Snowflake",
+  "response": "When looking for a customer data platform (CDP) that integrates well with both Segment and Snowflake, you have several options. Here are a few highly regarded CDPs that are known for their compatibility with these platforms:\n\n1. **Twilio Segment**: Since Segment itself is a leading CDP, it naturally integrates seamlessly with its own platform. It also offers robust integration with Snowflake, allowing you to sync customer data efficiently.\n\n2. **mParticle**: mParticle is another strong CDP that offers excellent integration capabilities with both Segment and Snowflake. It allows you to collect, unify, and connect your customer data across various platforms.\n\n3. **RudderStack**: RudderStack is an open-source alternative to Segment that also provides strong integration with Snowflake. It focuses on data privacy and security while offering robust data pipeline capabilities.\n\n4. **Treasure Data**: This CDP offers comprehensive data integration and management features, with the ability to work well with both Segment and Snowflake. It provides tools for analyzing and activating customer data effectively.\n\n5. **Blueshift**: Known for its AI-driven customer engagement platform, Blueshift integrates with Segment and can export data to Snowflake, enabling personalized marketing and data-driven insights.\n\nWhen choosing a CDP, consider factors such as your specific use cases, budget, and the level of support you require for integration and data management. Each of these platforms offers unique features that might cater to different business needs.",
+  "cached_at": "2026-05-28T09:08:13Z",
+  "metadata": {}
+}

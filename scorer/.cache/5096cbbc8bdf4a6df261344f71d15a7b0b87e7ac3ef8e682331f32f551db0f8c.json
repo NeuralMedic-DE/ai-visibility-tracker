@@ -1,0 +1,9 @@
+{
+  "brand": "Finaloop",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Bench vs alternatives: what should I switch to?",
+  "response": "# Bench vs Alternatives: Quick Comparison\n\nI'd need to know what you're using Bench for, but here are common scenarios:\n\n## If you use Bench for **accounting/bookkeeping:**\n- **QuickBooks Online** – more robust, better integrations\n- **Xero** – stronger for multi-currency/international\n- **Wave** – free option if budget-conscious\n- **Freshbooks** – better for service businesses/invoicing\n\n## If you use Bench for **performance monitoring** (the Mac app):\n- **Activity Monitor** (built-in) – basic but functional\n- **iStat Menus** – more detailed, paid\n- **Macs Fan Control** – if temperature/fan management matters\n\n## Key questions to consider:\n- What specific features do you need most?\n- Budget constraints?\n- Integration requirements (accounting software, banks, etc.)?\n- Team size/complexity?\n\n**What are your main pain points with Bench?** That'll help me suggest something more targeted.",
+  "cached_at": "2026-05-28T07:07:33Z",
+  "metadata": {}
+}

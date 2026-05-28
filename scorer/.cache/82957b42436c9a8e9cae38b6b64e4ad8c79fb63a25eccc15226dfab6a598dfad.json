@@ -1,0 +1,9 @@
+{
+  "brand": "FullStory",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does FullStory integrate with Segment?",
+  "response": "# FullStory and Segment Integration\n\nYes, FullStory integrates with Segment. Here's what you should know:\n\n## How It Works\n- **Segment as a data source**: You can send data from Segment to FullStory, allowing you to unify user data and events across platforms\n- **Two-way connection**: The integration enables better tracking and analytics by connecting Segment's CDP capabilities with FullStory's digital experience analytics\n\n## Common Use Cases\n- Enriching FullStory session replays with Segment event data\n- Using Segment's unified customer data to enhance FullStory's session context\n- Creating cohesive tracking across your entire analytics stack\n\n## Getting Started\nTo set up the integration, you would typically:\n1. Check Segment's integration directory for FullStory\n2. Configure your Segment source\n3. Map events and properties as needed\n\n**Note**: Integration specifics can change, so I'd recommend:\n- Visiting [Segment's integration marketplace](https://segment.com/catalog/) directly\n- Checking [FullStory's documentation](https://www.fullstory.com/integrations/)\n- Contacting their support teams for the most current setup instructions\n\nIs there a specific aspect of this integration you'd like to know more about?",
+  "cached_at": "2026-05-27T20:47:38Z",
+  "metadata": {}
+}

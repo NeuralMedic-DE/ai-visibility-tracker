@@ -1,0 +1,9 @@
+{
+  "brand": "June.so",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do early-stage B2B SaaS teams companies use to track user activation and product-qualified leads?",
+  "response": "# Tools Early-Stage B2B SaaS Teams Use for Activation & PQLs\n\n## Core Product Analytics\n- **Amplitude, Mixpanel, or Heap** — Track feature usage patterns and define activation milestones\n- **Segment** — Centralize data collection across tools\n- **PostHog** — Open-source alternative; good for engineering-heavy teams\n\n## Activation-Specific\n- **Pendo or Appcues** — In-app guidance + behavior tracking to guide users toward activation\n- **Intercom** — Combines messaging with basic usage data\n- **Fullstory** — Session replay to understand *why* users do (or don't) activate\n\n## PQL Identification & Scoring\n- **Salesforce or HubSpot** — Lead scoring rules based on product usage\n- **6sense, Terminus, or Demandbase** — Account-based data (heavier/pricier)\n- **Custom dashboards** in Looker, Tableau, or even Metabase pulling from your product database\n\n## Lightweight Approaches (Early Stage)\n- **Slack + SQL queries** on your database\n- **Google Sheets + manual tracking** (surprisingly common initially)\n- **Webhooks from your app** → Zapier → CRM\n\n## The Reality Check\nMost early-stage teams start with **Amplitude + HubSpot** or **Mixpanel + Salesforce**, then add session replay as they scale. The bottleneck is usually *defining* what activation means for your product, not the tooling.\n\nWhat's your main challenge—tracking behavior, identifying ready-to-sell accounts, or something else?",
+  "cached_at": "2026-05-27T19:58:22Z",
+  "metadata": {}
+}

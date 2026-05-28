@@ -1,0 +1,9 @@
+{
+  "brand": "Stonly",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do CS teams building self-service and guided onboarding experiences companies use to create interactive step-by-step guides that walk users through complex workflows?",
+  "response": "# Tools for Interactive Onboarding Guides\n\n## Product-Native Solutions\n- **Appcues** – Modal-based walkthroughs, hotspots, surveys; strong analytics on completion rates\n- **Pendo** – Feature flagging + guides; good for A/B testing onboarding flows\n- **Userguiding** – No-code builder, works across web apps; affordable for smaller teams\n- **WalkMe** – Enterprise-grade with advanced analytics, but pricier\n\n## Video + Interactive Hybrid\n- **Loom** – Screen recordings embedded in-app (often via Appcues/Pendo)\n- **Wistia** – Higher quality video hosting with interaction overlays\n- **Arcade** – AI-generated interactive demos from screen recordings\n\n## Lightweight/Developer-Friendly\n- **Shepherd.js** – Open-source, code-based tooltip library\n- **Intro.js** – Lightweight, good for simple step-by-step flows\n- **Chameleon** – Good balance of no-code + customization\n\n## Knowledge Base + Guides\n- **Notion** – Often used for documentation that feeds into onboarding\n- **Slite, Document360** – Structured help content\n\n## The Practical Approach\nMost CS teams **layer tools**: use Appcues/Pendo for in-app guides + Loom for complex workflows + a knowledge base for reference. Start simple (tooltips) before investing in heavy personalization.\n\nWhat's your use case—is this for SaaS, internal tools, or something else? That narrows recommendations significantly.",
+  "cached_at": "2026-05-28T08:22:03Z",
+  "metadata": {}
+}

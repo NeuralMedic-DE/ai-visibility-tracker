@@ -1,0 +1,9 @@
+{
+  "brand": "SafeBase",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does SafeBase integrate with Salesforce?",
+  "response": "Yes — **SafeBase does integrate with Salesforce**. Third-party sources describe Salesforce as one of SafeBase’s technology partners and mention Salesforce-based automation/integration features for trust-center and access-request workflows.[2][3]\n\nA couple of details matter:\n\n- One source lists **Salesforce** and **Salesforce PRM** among SafeBase’s partners, suggesting an established integration ecosystem.[3]\n- Another source says SafeBase can use **Salesforce logic** to auto-grant access based on criteria like domain, ACV, or whether an NDA is signed.[2]\n\nI did not find a direct SafeBase product-page result in the provided search results, so the strongest support here comes from partner/integration listings rather than SafeBase’s own documentation.[2][3]",
+  "cached_at": "2026-05-28T08:45:34Z",
+  "metadata": {}
+}

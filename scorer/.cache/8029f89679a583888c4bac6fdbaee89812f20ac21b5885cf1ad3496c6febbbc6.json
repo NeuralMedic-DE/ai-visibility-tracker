@@ -1,0 +1,9 @@
+{
+  "brand": "Comet ML",
+  "prompt_id": "UC-03",
+  "llm": "perplexity",
+  "prompt_text": "What tools do data science and ML engineering teams at analytics-driven companies companies use to track machine learning experiments and compare model performance across teams?",
+  "response": "Data science and ML engineering teams at analytics-driven companies typically use **experiment tracking platforms** such as **Weights & Biases, MLflow, Comet, Neptune, TensorBoard, Polyaxon, and DagsHub** to log runs, store metadata, and compare model performance across teams.[1][2][3][6]\n\nThese tools are used to track things like **hyperparameters, metrics, code/data versions, artifacts, and training outputs**, then make them searchable and comparable in a central dashboard or metadata store.[1][2][3][5]\n\nCommon ways teams use them include:\n\n- **Logging experiments automatically** from training code instead of relying on notebooks or spreadsheets.[1][2]\n- **Comparing runs side by side** to identify the best-performing configuration.[1][2][3][6]\n- **Tracking metrics over epochs** and visualizing learning curves.[1][6]\n- **Sharing results across teams** through a central workspace or project repository so work is reproducible and easier to coordinate.[1][3]\n\nIn smaller setups, teams may still use **spreadsheets or manual logs**, but the sources emphasize that modern experiment tracking tools are preferred because they support **collaboration, reproducibility, and comparison at scale**.[1][2]",
+  "cached_at": "2026-05-28T07:55:28Z",
+  "metadata": {}
+}

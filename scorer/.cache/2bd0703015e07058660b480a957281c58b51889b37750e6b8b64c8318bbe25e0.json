@@ -1,0 +1,9 @@
+{
+  "brand": "Humaans",
+  "prompt_id": "CM-02",
+  "llm": "anthropic",
+  "prompt_text": "Humaans vs HiBob pricing and features",
+  "response": "# Humaans vs HiBob: Comparison\n\n## **Pricing**\n\n| Feature | Humaans | HiBob |\n|---------|---------|-------|\n| **Starting Price** | ~$5-8/employee/month | ~$8-10/employee/month |\n| **Setup** | No setup fees | No setup fees |\n| **Typical SMB Cost** | $200-400/month (50 employees) | $400-500/month (50 employees) |\n| **Transparency** | Custom quotes | Custom quotes |\n\n## **Core Features**\n\n### **Humaans Strengths**\n- ✅ Simplified, lightweight interface\n- ✅ Better for small teams (<100 employees)\n- ✅ Faster onboarding\n- ✅ Lower cost entry point\n- ✅ Decent document management\n\n### **HiBob Strengths**\n- ✅ More comprehensive HR features\n- ✅ Advanced reporting & analytics\n- ✅ Better for mid-market (100-500 employees)\n- ✅ Mobile app is more polished\n- ✅ Stronger learning management system (LMS)\n- ✅ Better talent management tools\n\n## **Feature Breakdown**\n\n| Feature | Humaans | HiBob |\n|---------|---------|-------|\n| Core HR/HRIS | ✅ | ✅✅ |\n| Payroll Integration | ✅ (Limited) | ✅✅ |\n| Performance Management | Basic | Advanced |\n| Learning & Development | Limited | Strong |\n| Analytics/Reporting | Basic | Advanced |\n| Employee Portal | ✅ | ✅ |\n| Applicant Tracking | Basic | ✅ |\n\n## **Best For**\n\n- **Choose Humaans** if you need simple, affordable HRIS for <100 employees\n- **Choose HiBob** if you want advanced features and scalability for growing teams\n\n*Pricing and features change frequently—verify current details with vendors.*",
+  "cached_at": "2026-05-28T06:47:59Z",
+  "metadata": {}
+}

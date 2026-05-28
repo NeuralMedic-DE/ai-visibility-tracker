@@ -1,0 +1,9 @@
+{
+  "brand": "Checkly",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Checkly Slack integration: how does it work?",
+  "response": "# Checkly Slack Integration\n\n## Overview\nCheckly integrates with Slack to send **alert notifications** directly to your channels or DMs, keeping your team informed about monitoring issues in real-time.\n\n## How It Works\n\n### 1. **Setup**\n- Navigate to **Integrations** in Checkly\n- Authorize Checkly to access your Slack workspace\n- Select which Slack channel(s) to receive notifications\n\n### 2. **Alert Notifications**\nCheckly sends Slack messages when:\n- ✅ Checks **fail** (alert triggered)\n- ✅ Checks **recover** (alert resolved)\n- ✅ Checks go into **degraded** state (if configured)\n\n### 3. **Message Content**\nNotifications typically include:\n- Check name and type\n- Current status\n- Error message or failure reason\n- Quick action buttons (view check, silence alert)\n- Timestamp and region information\n\n### 4. **Configuration**\nYou can customize:\n- **Which checks** trigger Slack notifications (via Alert Settings)\n- **Which channels** receive specific alerts\n- **Notification frequency** (immediate, batched, etc.)\n- **Alert conditions** (on failure, on degradation, etc.)\n\n## Key Features\n\n| Feature | Details |\n|---------|---------|\n| **Rich formatting** | Includes check details, status badges |\n| **Quick actions** | Links to view checks in Checkly dashboard |\n| **Multiple channels** | Route different alerts to different channels |\n| **Mentions** | Can include @channel or @user mentions |\n\n## Tips\n- Use Slack channel routing to organize alerts by team\n- Combine with **alert escalation** for critical checks\n- Disable non-critical notifications to reduce noise\n\nNeed help setting it up?",
+  "cached_at": "2026-05-28T06:23:11Z",
+  "metadata": {}
+}

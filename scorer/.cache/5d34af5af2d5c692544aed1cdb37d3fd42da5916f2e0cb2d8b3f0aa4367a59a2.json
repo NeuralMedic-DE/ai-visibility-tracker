@@ -1,0 +1,9 @@
+{
+  "brand": "Help Scout",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Help Scout integrate with Slack?",
+  "response": "# Help Scout and Slack Integration\n\nYes, Help Scout integrates with Slack. The integration allows you to:\n\n- **Receive notifications** in Slack when new conversations arrive or are assigned\n- **View conversation details** directly from Slack messages\n- **Take action** on tickets without leaving Slack\n- **Customize notification settings** to control what triggers alerts\n\n## How to Set It Up\n\nThe integration is typically available through:\n- Help Scout's App Marketplace\n- Slack's App Directory\n- Direct connection via your Help Scout account settings\n\nFor the most current details on features and setup instructions, I'd recommend checking:\n- Help Scout's official documentation or help center\n- Their integration marketplace\n\nSince integrations can be updated or modified, it's worth verifying the current status on their platforms to ensure the features meet your specific needs.",
+  "cached_at": "2026-05-28T08:19:37Z",
+  "metadata": {}
+}

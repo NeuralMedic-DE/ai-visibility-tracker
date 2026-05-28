@@ -1,0 +1,9 @@
+{
+  "brand": "Close",
+  "prompt_id": "CD-05",
+  "llm": "anthropic",
+  "prompt_text": "Recommended CRM tools for early-stage startups companies",
+  "response": "# Best CRM Tools for Early-Stage Startups\n\n## **Free/Freemium Options** (Great for bootstrapping)\n\n### **HubSpot CRM**\n- Genuinely free tier (no time limit)\n- Contact management, deals, basic automation\n- Excellent for learning CRM fundamentals\n- Scales up affordably\n\n### **Zoho CRM**\n- Free plan for up to 3 users\n- Surprisingly feature-rich\n- Good for customization\n- Strong value as you grow\n\n### **Pipedrive**\n- Free tier available\n- Sales-focused, visual pipeline\n- Intuitive for non-technical users\n- Excellent onboarding\n\n## **Budget-Friendly Paid Options**\n\n### **Salesforce Essentials**\n- ~$165/user/month\n- Trusted brand, scalable\n- Good for teams needing enterprise features later\n\n### **Monday.com CRM**\n- Flexible pricing (~$120/month base)\n- Visual, customizable interface\n- Works well for mixed teams\n\n### **Freshsales**\n- Affordable (~$11-99/user/month)\n- Email integration, automation\n- Good customer support\n\n## **Selection Criteria for Your Startup**\n\n| Consider | Priority |\n|----------|----------|\n| Team size | 1-5 people → start free |\n| Budget | <$100/mo → HubSpot or Zoho |\n| Industry | Sales-heavy → Pipedrive |\n| Customization needs | High → Zoho or Monday |\n\n## **Pro Tips**\n\n✅ Start with free tier—don't overpay early  \n✅ Prioritize ease of use over features  \n✅ Check mobile app quality  \n✅ Test API/integration capabilities  \n✅ Plan 2-year growth before choosing\n\n**What's your startup's focus?** I can recommend more specifically.",
+  "cached_at": "2026-05-27T17:50:03Z",
+  "metadata": {}
+}

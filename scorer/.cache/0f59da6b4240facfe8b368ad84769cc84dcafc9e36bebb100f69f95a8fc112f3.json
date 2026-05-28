@@ -1,0 +1,9 @@
+{
+  "brand": "Linear",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Linear Slack integration: how does it work?",
+  "response": "# Linear Slack Integration Overview\n\n## Core Functionality\n\nThe Linear Slack integration enables you to manage Linear issues directly from Slack without switching apps. Here's how it works:\n\n### **1. Issue Notifications**\n- Linear updates post to Slack automatically when:\n  - Issues are created, updated, or closed\n  - Status, assignee, or priority changes\n  - Comments are added\n- You can configure which events trigger notifications\n\n### **2. Issue Creation from Slack**\n- Use `/linear` slash command to create issues\n- Quickly set title, description, assignee, and priority\n- Issues appear in Linear immediately\n\n### **3. Issue Details & Actions**\n- Click issue links in Slack to see details\n- Perform actions directly in Slack threads:\n  - Change status\n  - Update assignee\n  - Add comments/reactions\n  - Add priority labels\n\n### **4. Channel Subscriptions**\n- Subscribe channels to specific teams or projects\n- Filter notifications (e.g., only high-priority issues)\n- Reduces notification noise\n\n## Setup Process\n\n1. **Install** the Linear Slack app from the integrations marketplace\n2. **Authenticate** your Linear and Slack accounts\n3. **Configure** which teams/projects notify which channels\n4. **Customize** notification preferences\n\n## Key Benefits\n\n✅ Reduced context switching  \n✅ Faster issue triage  \n✅ Team visibility into updates  \n✅ Async collaboration  \n\n---\n\n**Need help with a specific setup issue?** Let me know what you're trying to accomplish!",
+  "cached_at": "2026-05-27T21:08:52Z",
+  "metadata": {}
+}

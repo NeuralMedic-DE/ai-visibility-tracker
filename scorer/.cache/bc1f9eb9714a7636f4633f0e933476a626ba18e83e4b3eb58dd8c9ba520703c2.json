@@ -1,0 +1,9 @@
+{
+  "brand": "Nutshell",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "HubSpot vs alternatives: what should I switch to?",
+  "response": "# HubSpot Alternatives: Key Comparison\n\n## When to switch from HubSpot\n\n- **Pricing feels bloated** for your actual needs\n- **Overly complex** for a small team\n- **Poor fit** for your specific industry\n- **Integration gaps** with your existing stack\n\n## Leading alternatives by use case\n\n**If you want lower cost:**\n- **Pipedrive** – Sales-focused, simple UI, ~40% cheaper\n- **Keap** – Good for small businesses/automation\n- **Zoho CRM** – Most affordable full suite\n\n**If you need simplicity:**\n- **Notion** (free/cheap) – If you want lightweight tracking\n- **Close** – Purpose-built for sales teams\n- **Copper** – Gmail-native CRM\n\n**If you want enterprise depth:**\n- **Salesforce** – More customization, steeper learning curve\n- **Microsoft Dynamics 365** – If you're in the Microsoft ecosystem\n\n**If you're specialized:**\n- **Klaviyo** – Email marketing + ecommerce\n- **Gong/Chorus** – Revenue intelligence focus\n- **Outreach** – Sales engagement platform\n\n## Quick decision framework\n\n| Need | Best pick |\n|------|-----------|\n| Lower cost | Pipedrive or Zoho |\n| Ease of use | Close or Copper |\n| Growing fast | Salesforce (eventual) |\n| Email-centric | Notion or Copper |\n\n**What's your main pain point with HubSpot?** That'd help narrow it down—switching costs time and data migration.",
+  "cached_at": "2026-05-27T18:33:45Z",
+  "metadata": {}
+}

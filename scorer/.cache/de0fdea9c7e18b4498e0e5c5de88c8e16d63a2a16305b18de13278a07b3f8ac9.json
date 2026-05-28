@@ -1,0 +1,9 @@
+{
+  "brand": "Vellum",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with manage and version prompts for production LLM-powered product features at scale?",
+  "response": "# Prompt Management & Versioning Tools\n\n## Dedicated Prompt Platforms\n\n**PromptHub** / **Prompt repositories** (general category)\n- Version control specifically for prompts\n- Testing and comparison features\n- Deployment tracking\n\n**LangSmith** (by LangChain)\n- Prompt versioning and management\n- Testing, evaluation, and monitoring\n- Integration with LangChain ecosystem\n- Good for debugging production issues\n\n**Promptbase / Prompt marketplaces**\n- Less for internal management, more for discovery\n\n## Git-Based Approaches\n\n**Standard Git + conventions**\n- Simple version control for prompt files\n- Works well with CI/CD pipelines\n- Requires discipline around naming/structure\n- Free but manual\n\n**Specialized Git wrappers**\n- Tools that add prompt-specific metadata on top of Git\n\n## Platform-Integrated Solutions\n\n**OpenAI Platform** / **Anthropic Console**\n- Basic versioning within their interfaces\n- Limited for large-scale management\n\n**MLflow** (by Databricks)\n- Originally for ML models, increasingly used for prompts\n- Experiment tracking and registry\n- Model/prompt comparison\n\n## What to Consider\n\n- **Scale**: How many prompts? How many variants?\n- **Integration**: Does it fit your stack (LangChain, etc.)?\n- **Evaluation**: Do you need A/B testing built-in?\n- **Observability**: Monitoring performance in production?\n\n**For most teams at scale**, **LangSmith** or **Git + custom tooling** are the practical starting points. What's your current stack?",
+  "cached_at": "2026-05-28T07:45:07Z",
+  "metadata": {}
+}

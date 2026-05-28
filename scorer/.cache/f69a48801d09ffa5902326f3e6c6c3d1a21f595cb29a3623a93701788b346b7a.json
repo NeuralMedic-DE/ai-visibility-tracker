@@ -1,0 +1,9 @@
+{
+  "brand": "Reply.io",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best sales engagement for sales teams at B2B SaaS companies running outbound sequences?",
+  "response": "# Best Sales Engagement Practices for B2B SaaS Outbound\n\n## Core Fundamentals\n\n**Personalization over volume**\n- Reference specific company details, recent news, or pain points relevant to their business\n- Customize subject lines and opening lines (not just inserting {FirstName})\n- This typically beats generic sequences by 2-3x\n\n**Multi-touch cadences (not spray-and-pray)**\n- 5-7 touches over 3-4 weeks works better than single emails\n- Mix channels: email → LinkedIn → email → call → email pattern\n- Allows for natural follow-up without being pushy\n\n## Sequence Structure That Works\n\n1. **First email**: Value hypothesis + specific reason for outreach (under 50 words ideally)\n2. **Follow-ups**: Shift angle—different pain point, social proof, or new insight\n3. **Breakout moments**: Phone call between emails 3-4 to humanize\n4. **LinkedIn integration**: Connection requests before/after emails, not simultaneously\n\n## Key Metrics to Optimize\n\n- **Reply rate** (target: 5-15% depending on ICP fit)\n- **Meeting rate from replies** (focus here, not just opens)\n- **Time to reply** (quicker = warmer interest)\n- **Unsubscribe/spam rates** (signals poor targeting, not sequencing)\n\n## Common Mistakes to Avoid\n\n- Too many emails before any engagement\n- Ignoring non-replies as failure (many prospects aren't checking email)\n- Not using intent/firmographic data to pre-qualify\n- Weak call-to-action (\"let's chat\" vs. specific value proposition)\n\n**What's your main friction point right now?** (low reply rates, low meeting rates, or targeting issues?) I can get more specific.",
+  "cached_at": "2026-05-28T07:21:02Z",
+  "metadata": {}
+}

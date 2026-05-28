@@ -1,0 +1,9 @@
+{
+  "brand": "June.so",
+  "prompt_id": "CM-02",
+  "llm": "anthropic",
+  "prompt_text": "June.so vs PostHog pricing and features",
+  "response": "# June.so vs PostHog Comparison\n\n## Pricing\n\n| Aspect | June.so | PostHog |\n|--------|---------|---------|\n| **Model** | Usage-based (events) | Usage-based (events) + Product Tiers |\n| **Free Tier** | Up to 100K events/month | Up to 1M events/month |\n| **Typical Cost** | $29-$299/month | $20-$20K+/month |\n| **Self-Hosted** | Limited | ✅ Full support |\n\n## Feature Comparison\n\n### Analytics & Tracking\n| Feature | June.so | PostHog |\n|---------|---------|---------|\n| Event tracking | ✅ | ✅ |\n| User segmentation | ✅ | ✅ |\n| Custom dashboards | ✅ | ✅ |\n| Funnel analysis | ✅ | ✅ |\n| Cohorts | ✅ | ✅ |\n\n### Advanced Features\n| Feature | June.so | PostHog |\n|---------|---------|---------|\n| **Session Recording** | Basic | ✅ Advanced |\n| **A/B Testing** | Limited | ✅ Full suite |\n| **Feature Flags** | ✅ | ✅ Advanced |\n| **Heatmaps** | ❌ | ✅ |\n| **Data Warehouse** | ❌ | ✅ |\n\n## Key Differences\n\n**June.so Strengths:**\n- Simpler, more affordable for small teams\n- Focus on product analytics essentials\n- Easier onboarding\n- Better pricing for low-event volumes\n\n**PostHog Strengths:**\n- All-in-one platform (analytics + experiments + feature flags)\n- More powerful session recording\n- Advanced A/B testing\n- Self-hosted options\n- Data warehouse integration\n- Better for enterprises\n\n## Best For\n\n- **June.so**: Early-stage startups, simple analytics needs, budget-conscious teams\n- **PostHog**: Growing companies, full experimentation stacks, enterprises needing self-hosting\n\nWould you like me to dive deeper into any specific feature?",
+  "cached_at": "2026-05-27T19:57:09Z",
+  "metadata": {}
+}

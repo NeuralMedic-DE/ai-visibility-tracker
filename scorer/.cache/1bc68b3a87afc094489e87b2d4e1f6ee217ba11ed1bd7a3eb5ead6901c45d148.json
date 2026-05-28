@@ -1,0 +1,9 @@
+{
+  "brand": "Planetscale",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Planetscale integrate with GitHub?",
+  "response": "# PlanetScale and GitHub Integration\n\nYes, **PlanetScale integrates with GitHub** in several ways:\n\n## Key Integrations\n\n1. **GitHub Authentication**\n   - Sign up and log in using your GitHub account\n\n2. **GitHub Actions**\n   - Use PlanetScale's official GitHub Actions to manage databases in CI/CD pipelines\n   - Deploy schema changes automatically\n   - Run migrations as part of your workflow\n\n3. **Deploy Requests**\n   - Create deploy requests directly from GitHub pull requests\n   - Preview schema changes before merging\n\n4. **Repository Connection**\n   - Link PlanetScale databases to your GitHub repositories\n   - Automatic branch creation for database changes\n   - Integration with pull request workflows\n\n## Common Use Cases\n\n- Automated schema deployments when PRs are merged\n- Running database migrations in CI/CD pipelines\n- Triggering database backups or snapshots on deployment events\n\n## How to Get Started\n\nCheck PlanetScale's [GitHub Actions documentation](https://planetscale.com/docs) or their [GitHub organization](https://github.com/planetscale) for available actions and examples.\n\nIf you're looking to implement a specific workflow, I'd be happy to help with the details!",
+  "cached_at": "2026-05-28T06:15:49Z",
+  "metadata": {}
+}

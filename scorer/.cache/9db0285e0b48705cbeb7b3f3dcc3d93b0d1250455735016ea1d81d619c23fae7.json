@@ -1,0 +1,9 @@
+{
+  "brand": "RudderStack",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do data and engineering teams building warehouse-first customer data infrastructure companies use to collect track and route customer event data to all your analytics and marketing tools?",
+  "response": "# Core Tools for Warehouse-First Customer Data Infrastructure\n\n## Event Collection & Tracking\n- **Segment, mParticle, Rudderstack** - middleware layer that standardizes tracking across web/mobile/server\n- **Custom instrumentation** - direct SDKs (Amplitude, Mixpanel, Heap)\n- **First-party data collection** - warehouse-native tools like dbt Cloud events or custom Python/Node scripts\n- **Browser/mobile SDKs** - Snowplow, Segment for client-side tracking\n\n## Data Warehouses (The \"First\")\n- **Snowflake, BigQuery, Redshift** - where all customer events flow and get unified\n- **Databricks** - increasingly popular for ML-ready data pipelines\n- **DuckDB** - emerging for smaller-scale deployments\n\n## Routing & Activation\n- **dbt** - transforms raw events into customer dimensions/segments\n- **Reverse ETL tools** (Hightouch, Census, Arrow) - pushes warehouse segments to downstream tools\n- **Workflow orchestration** - Airflow, dbt Cloud, Prefect\n- **Custom Python/SQL** - for fine-grained control\n\n## Downstream Destinations\n- Marketing platforms (HubSpot, Klaviyo, Salesforce)\n- Analytics (Looker, Tableau, Metabase)\n- Ad platforms (Google Ads, Facebook, programmatic)\n- CRM and personalization engines\n\n## Key Architectural Pattern\n**Event Source → Collection Layer → Data Warehouse → Transformation (dbt) → Reverse ETL → Marketing/Analytics Tools**\n\nWhat specific pain points are you trying to solve? The stack varies significantly by company maturity and scale.",
+  "cached_at": "2026-05-28T09:08:07Z",
+  "metadata": {}
+}

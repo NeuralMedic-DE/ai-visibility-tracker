@@ -1,0 +1,9 @@
+{
+  "brand": "Braintrust",
+  "prompt_id": "IN-04",
+  "llm": "anthropic",
+  "prompt_text": "Best AI tooling that works with OpenAI and Anthropic",
+  "response": "# Best AI Tooling for OpenAI & Anthropic\n\n## **Multi-Model Platforms**\n\n### **LangChain**\n- Framework for building with multiple LLMs\n- Seamless model switching (GPT-4, Claude, etc.)\n- Memory, chains, agents built-in\n- Best for: Complex applications, RAG systems\n\n### **LiteLLM**\n- Simple unified API across all providers\n- Drop-in replacement for OpenAI SDK\n- Minimal code changes needed\n- Best for: Quick integration, cost optimization\n\n### **Anthropic's Prompt Caching + OpenAI Structured Outputs**\n- Combine strengths: Claude's context window + GPT's JSON modes\n- Use routing logic to pick best model per task\n\n---\n\n## **By Use Case**\n\n### **Development & Testing**\n- **Pydantic** - Type validation for LLM outputs\n- **Marooq** / **Braintrust** - Testing & monitoring both providers\n- **OpenRouter** - Easy provider switching with one API\n\n### **Production Apps**\n- **Vercel AI SDK** - React/Node, multi-model support\n- **Instructor** - Structured outputs for both models\n- **Ollama** (local fallback option)\n\n### **RAG & Knowledge**\n- **LlamaIndex** - Works with both APIs\n- **Chroma/Pinecone** - Agnostic vector stores\n- **Haystack** - Production RAG pipelines\n\n### **Monitoring & Costs**\n- **Helicone** - Works with both providers\n- **Langfuse** - Open-source tracing\n- **Arize/Weights & Biases** - LLM observability\n\n---\n\n## **Quick Recommendation**\n**Just starting?** → LiteLLM + Pydantic  \n**Complex workflows?** → LangChain + Braintrust  \n**Web app?** → Vercel AI SDK + Instructor\n\nWhat's your main use case?",
+  "cached_at": "2026-05-28T07:47:44Z",
+  "metadata": {}
+}

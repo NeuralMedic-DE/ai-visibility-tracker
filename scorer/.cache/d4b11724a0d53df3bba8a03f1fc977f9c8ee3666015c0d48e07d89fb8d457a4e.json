@@ -1,0 +1,9 @@
+{
+  "brand": "Maxio",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to Recurly",
+  "response": "# Cheaper Alternatives to Recurly\n\n## Subscription Management Platforms\n\n### **Stripe Billing**\n- **Cost**: 0.5% + payment processing fees\n- **Best for**: SaaS, subscriptions\n- **Strengths**: Excellent developer experience, strong integrations\n\n### **Paddle**\n- **Cost**: 5-10% (includes payment processing)\n- **Best for**: Global reach, one-payout model\n- **Strengths**: Tax/compliance handling, merchant of record\n\n### **Chargify**\n- **Cost**: $99-$299/month\n- **Best for**: Mid-market subscriptions\n- **Strengths**: Simpler than Recurly, good UI\n\n### **Zuora**\n- **Cost**: $500+/month (enterprise-focused)\n- **Best for**: Complex enterprise billing\n- **Strengths**: Advanced revenue recognition\n\n## Budget-Friendly Options\n\n### **Braintree Subscriptions**\n- **Cost**: Payment fees only (~2.9% + $0.30)\n- **Best for**: Simple recurring billing\n- **Limitation**: Basic features\n\n### **Square Subscriptions**\n- **Cost**: 3.5-4.5% + $0.15\n- **Best for**: Physical + digital subscriptions\n- **Strengths**: Simple setup, affordable\n\n### **Lemon Squeezy**\n- **Cost**: 5% commission + payment fee\n- **Best for**: Digital products, indie developers\n- **Strengths**: Very affordable, simple\n\n## DIY/Custom Options\n\n- **OpenCart + extensions**\n- **WooCommerce subscriptions plugins**\n- Custom Stripe/Square integration\n\n## Selection Criteria\n\n| Need | Best Choice |\n|------|------------|\n| Lowest cost | Stripe Billing |\n| Global tax/compliance | Paddle |\n| Simple/no-code | Lemon Squeezy |\n| Enterprise features | Zuora |\n\n**Most users save 30-60%** switching from Recurly to Stripe Billing or Paddle.",
+  "cached_at": "2026-05-28T06:52:50Z",
+  "metadata": {}
+}

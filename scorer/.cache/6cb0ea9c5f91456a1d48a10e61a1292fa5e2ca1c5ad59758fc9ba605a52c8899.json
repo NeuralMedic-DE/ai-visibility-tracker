@@ -1,0 +1,9 @@
+{
+  "brand": "Close",
+  "prompt_id": "CM-02",
+  "llm": "anthropic",
+  "prompt_text": "Close vs HubSpot pricing and features",
+  "response": "# Close vs HubSpot: Pricing & Features Comparison\n\n## **Pricing**\n\n| Feature | Close | HubSpot |\n|---------|-------|---------|\n| **Starting Price** | $29-99/user/month | Free - $3,200+/month |\n| **Model** | Per-user | Per-contact or tiered |\n| **Free Plan** | No | Yes (limited) |\n| **Custom Pricing** | Available | Available |\n\n## **Key Features**\n\n### **Close**\n✅ **Strengths:**\n- Built for sales teams (narrow focus)\n- Unlimited users on higher plans\n- Call recording & AI insights\n- Strong automation\n- Lower cost for large teams\n\n❌ **Limitations:**\n- Limited marketing tools\n- Smaller app ecosystem\n- Less reporting depth\n\n### **HubSpot**\n✅ **Strengths:**\n- All-in-one platform (CRM + marketing + service)\n- Extensive integrations & app marketplace\n- Advanced reporting & analytics\n- Free plan available\n- Better for multi-department use\n\n❌ **Limitations:**\n- Expensive as you scale contacts\n- Steeper learning curve\n- Can be overkill for sales-only teams\n\n## **Best For**\n\n| Choose Close if... | Choose HubSpot if... |\n|---|---|\n| Sales team focused | Need marketing + sales + service |\n| Budget conscious with large team | Want an all-in-one platform |\n| Need straightforward CRM | Need deep integrations |\n| Call-heavy workflows | Multi-department company |\n\n**Bottom line:** Close = sales-first & cheaper; HubSpot = all-in-one & more comprehensive.\n\nWhat's your main priority?",
+  "cached_at": "2026-05-27T17:50:12Z",
+  "metadata": {}
+}

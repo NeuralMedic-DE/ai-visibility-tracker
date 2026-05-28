@@ -1,0 +1,9 @@
+{
+  "brand": "Rho",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Brex vs alternatives: what should I switch to?",
+  "response": "# Key trade-offs to consider:\n\n## If you're leaving Brex for **cost reasons:**\n- **American Express (corporate cards)** – Lower fees if you have volume/good terms\n- **Chase Ink** – Competitive rewards, less fintech-focused but reliable\n- **Mercury/Wise** – Cheaper for international/multi-currency if that's your pain point\n\n## If it's **features/UX:**\n- **Ramp** – Stronger spend management/approval workflows\n- **Divvy** – Better for mid-market accounting integration\n- **Wayflyer** – If you need embedded financing options\n\n## If it's **banking/cash flow:**\n- **Mercury** – Actual FDIC banking + card, better for startups\n- **Novo** – Simpler, lower fees for solopreneurs\n- **SVB alternatives** (now mid-tier options) – if you need relationship banking\n\n## Honest questions to clarify first:\n- Are you paying unexpected fees, or is their pricing just not competitive for your volume?\n- What features are you actually using vs. what are you paying for?\n- Is the problem the card itself or their banking/financial products bundle?\n\nBrex tends to win on ease + design but loses on cost at scale and flexibility. The \"best\" alternative depends heavily on whether you value convenience, lowest cost, or specific features like international payments.\n\nWhat's driving the consideration?",
+  "cached_at": "2026-05-28T07:12:30Z",
+  "metadata": {}
+}

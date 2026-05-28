@@ -1,0 +1,9 @@
+{
+  "brand": "Doppler",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with auto-rotate secrets and manage access permissions without manual effort at scale?",
+  "response": "# Secret Rotation & Access Management Tools\n\n## Dedicated Solutions\n\n**HashiCorp Vault**\n- Dynamic secrets generation\n- Automatic rotation policies\n- Role-based access control (RBAC)\n- Multi-cloud support\n- Audit logging\n\n**AWS Secrets Manager**\n- Automatic rotation for RDS, DocumentDB, Redshift\n- Lambda-based custom rotations\n- Fine-grained IAM policies\n- Built-in encryption\n\n**Azure Key Vault**\n- Automatic certificate/key rotation\n- Access policies and RBAC\n- Managed identity integration\n- Compliance certifications\n\n**Google Secret Manager**\n- IAM-native permissions\n- Automatic rotation policies\n- Version tracking\n- Encryption at rest/transit\n\n## Multi-Purpose Platforms\n\n**CyberArk**\n- Enterprise PAM (Privileged Access Management)\n- Automatic password rotation\n- Session recording\n- Compliance reporting\n\n**Delinea (formerly Thycotic)**\n- Secret Server\n- DevOps Secrets Vault\n- Scalable for enterprise\n\n## Open-Source Options\n\n- **Sealed Secrets** (Kubernetes-native)\n- **SOPS** (Mozilla - simpler, file-based)\n- **Infisical** (modern, collaborative)\n\n## Key Considerations\n\nChoose based on:\n- **Infrastructure** (cloud-native vs. on-prem)\n- **Scale** (number of secrets/applications)\n- **Compliance** needs (SOC2, HIPAA, etc.)\n- **Integration** requirements (Kubernetes, CI/CD, databases)\n\nWhat's your primary use case—cloud-native, enterprise, or Kubernetes?",
+  "cached_at": "2026-05-28T06:20:38Z",
+  "metadata": {}
+}

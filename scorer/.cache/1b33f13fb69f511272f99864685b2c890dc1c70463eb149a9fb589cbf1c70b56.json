@@ -1,0 +1,9 @@
+{
+  "brand": "Vitally",
+  "prompt_id": "CM-02",
+  "llm": "anthropic",
+  "prompt_text": "Vitally vs Gainsight pricing and features",
+  "response": "# Vitally vs Gainsight: Comparison\n\n## Pricing\n\n| Aspect | Vitally | Gainsight |\n|--------|---------|-----------|\n| **Model** | Usage-based | Custom enterprise pricing |\n| **Starting Price** | ~$500-1,000/month | Typically $10k+/year |\n| **Scalability** | Scales with usage | Scales with contract |\n\n**Note:** Both require custom quotes; pricing varies significantly by features and company size.\n\n---\n\n## Key Features\n\n### Vitally\n- **Strengths:**\n  - Automated health scoring\n  - Account planning tools\n  - Workflow automation\n  - Strong data integration\n  - More intuitive UI\n  - Better for mid-market\n\n### Gainsight\n- **Strengths:**\n  - Enterprise-grade platform\n  - Advanced analytics & reporting\n  - Extensive marketplace integrations\n  - Industry benchmarking\n  - Better for large enterprises\n  - More mature ecosystem\n\n---\n\n## Feature Breakdown\n\n| Feature | Vitally | Gainsight |\n|---------|---------|-----------|\n| Health Scoring | ✅ Native | ✅ Advanced |\n| Playbooks/Automation | ✅ Strong | ✅ Strong |\n| Data Integration | ✅ Good | ✅ Excellent |\n| Reporting | ✅ Good | ✅ Exceptional |\n| Ease of Setup | ✅ Easier | ❌ Complex |\n| Cost Efficiency | ✅ Better | ❌ Higher |\n\n---\n\n## Best For\n\n- **Vitally:** SaaS companies, mid-market, those prioritizing simplicity & automation\n- **Gainsight:** Enterprise companies, complex requirements, those needing advanced analytics\n\n**What's your company size/main priority?** I can give more targeted advice.",
+  "cached_at": "2026-05-28T08:09:14Z",
+  "metadata": {}
+}

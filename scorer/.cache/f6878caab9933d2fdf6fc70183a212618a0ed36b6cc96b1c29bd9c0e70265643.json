@@ -1,0 +1,9 @@
+{
+  "brand": "Lattice",
+  "prompt_id": "UC-03",
+  "llm": "perplexity",
+  "prompt_text": "What tools do mid-market companies building high-performance cultures companies use to run continuous performance reviews and set company-wide OKRs?",
+  "response": "Mid-market companies that want **continuous performance reviews** and company-wide **OKR alignment** most often use platforms like **Lattice**, **15Five**, **PerformYard**, **Culture Amp**, and **Betterworks**.[1][2][4][5][7]\n\n- **Lattice** is the clearest fit for mid-market teams because it supports annual, quarterly, and project-based review cadences, continuous feedback and praise, and **Goals & OKR integration** in the same platform.[2]\n- **15Five** is commonly used for continuous performance management, especially weekly check-ins and real-time feedback loops.[7]\n- **PerformYard** is often chosen for review-process-heavy teams that want structured performance management, though it is described as lighter on AI than some alternatives.[1][4]\n- **Culture Amp** and **Betterworks** are typically positioned as enterprise-leaning platforms that also cover performance management and goals/OKRs, making them relevant for larger mid-market firms with more complex needs.[1][4]\n\nIf you mean **“what type of tools”** rather than specific vendors, the core stack is usually:\n- **Performance review software** for continuous feedback, review cycles, and manager/peer input.[2][5]\n- **OKR software** or a performance platform with built-in OKR tracking for company-wide goal alignment.[2][1]\n- **Communication integrations** like Slack or Teams to keep feedback and check-ins continuous.[1][5]\n\nIf you want, I can also narrow this to the **best tool by company size** or make a **Lattice vs 15Five vs PerformYard** comparison.",
+  "cached_at": "2026-05-28T06:31:32Z",
+  "metadata": {}
+}

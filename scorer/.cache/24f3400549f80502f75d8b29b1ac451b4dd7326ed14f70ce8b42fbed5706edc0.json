@@ -1,0 +1,9 @@
+{
+  "brand": "Grip Security",
+  "prompt_id": "CM-02",
+  "llm": "anthropic",
+  "prompt_text": "Grip Security vs Obsidian pricing and features",
+  "response": "# Grip Security vs Obsidian Pricing & Features\n\nThese serve very different purposes, so here's a breakdown:\n\n## **Grip Security**\n**Focus:** Cloud security posture management (CSPM) for identity & access governance\n\n### Features:\n- Identity threat detection\n- Access governance & entitlements management\n- Multi-cloud identity security (AWS, Azure, GCP)\n- Compliance monitoring\n- Unauthorized access detection\n\n### Pricing:\n- **Not publicly listed** (custom/enterprise pricing)\n- Typically usage-based or per-user model\n- Request demo for quotes\n\n---\n\n## **Obsidian**\n**Focus:** Local-first markdown note-taking application\n\n### Features:\n- Markdown editor with linking capabilities\n- Offline-first (all data stored locally)\n- Graph visualization of notes\n- Community plugins & themes\n- Version control friendly\n- End-to-end encryption (optional)\n\n### Pricing:\n- **Free tier:** Core features\n- **Commercial license:** $50/year (for business use)\n- **Obsidian Sync:** $10/month (optional cloud sync)\n- **Obsidian Publish:** $16/month (optional publishing)\n\n---\n\n## **Quick Comparison Table**\n\n| Aspect | Grip Security | Obsidian |\n|--------|---------------|----------|\n| **Category** | Cloud Security | Note-Taking |\n| **Use Case** | Identity/Access management | Personal knowledge base |\n| **Pricing Model** | Enterprise/Custom | Freemium |\n| **Deployment** | Cloud-based | Local-first |\n| **Target Users** | Security teams | Individuals & teams |\n\n**Are you evaluating these for a specific need? I can provide more targeted guidance.**",
+  "cached_at": "2026-05-28T08:41:08Z",
+  "metadata": {}
+}

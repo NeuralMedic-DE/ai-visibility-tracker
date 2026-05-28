@@ -1,0 +1,9 @@
+{
+  "brand": "Portkey",
+  "prompt_id": "AL-02",
+  "llm": "openai",
+  "prompt_text": "Cheaper alternatives to LiteLLM",
+  "response": "If you're looking for cheaper alternatives to LiteLLM, you might consider the following options, depending on your specific use case and requirements:\n\n1. **OpenAI GPT-3.5-turbo**: OpenAI offers a more cost-effective version of their GPT-3 models, which is often cheaper than other high-end models.\n\n2. **Cohere**: Cohere provides language models that are generally more affordable and can be fine-tuned for specific tasks.\n\n3. **Hugging Face Transformers**: Hugging Face offers a wide range of pre-trained models that you can use for free or at a lower cost, especially if you run them on your own infrastructure.\n\n4. **EleutherAI GPT-Neo and GPT-J**: These are open-source models that can be used freely, though you may incur costs related to the computational resources required to run them.\n\n5. **Google's T5 or BERT**: These models are available through TensorFlow and can be run on your own hardware, potentially reducing costs.\n\n6. **Open Source Models on Hugging Face**: There are numerous open-source models available on Hugging Face's Model Hub that can be used for various NLP tasks at a lower cost.\n\n7. **API Providers with Competitive Pricing**: Some companies offer competitive pricing for language model APIs, such as AI21 Labs or Anthropic.\n\nWhen choosing an alternative, consider factors such as the specific capabilities you need, the cost of running the model (if self-hosted), and any additional features or support you might require.",
+  "cached_at": "2026-05-28T07:52:06Z",
+  "metadata": {}
+}

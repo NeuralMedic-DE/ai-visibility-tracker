@@ -1,0 +1,9 @@
+{
+  "brand": "Workable",
+  "prompt_id": "AL-05",
+  "llm": "openai",
+  "prompt_text": "Open source or affordable ATS tools instead of Greenhouse",
+  "response": "If you're looking for open-source or more affordable alternatives to Greenhouse for applicant tracking systems (ATS), here are a few options you might consider:\n\n1. **OpenCATS**: This is an open-source ATS designed specifically for HR and recruiting teams. It offers features like resume parsing, candidate tracking, and reporting.\n\n2. **Recruity**: An open-source ATS that provides basic functionalities for managing job applications and candidate tracking.\n\n3. **Zoho Recruit**: While not open-source, Zoho Recruit is a more affordable option that offers a range of features for recruitment and applicant tracking, including resume management and interview scheduling.\n\n4. **Breezy HR**: Offers a free tier with basic features, and paid plans that are generally more affordable than some of the larger ATS providers. It includes features like candidate sourcing, pipeline management, and reporting.\n\n5. **JobScore**: Provides a free plan for small teams with basic features, and more comprehensive paid plans. It includes tools for job posting, candidate tracking, and collaboration.\n\n6. **Recruitee**: Offers a relatively affordable pricing model with features like collaborative hiring, pipeline management, and analytics.\n\n7. **SmartRecruiters**: While primarily a paid service, it offers a free version with limited features that might be suitable for smaller teams or startups.\n\nThese options vary in terms of features and pricing, so it would be beneficial to evaluate them based on your specific needs and budget.",
+  "cached_at": "2026-05-28T06:46:02Z",
+  "metadata": {}
+}

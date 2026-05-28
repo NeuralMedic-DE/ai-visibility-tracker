@@ -1,0 +1,9 @@
+{
+  "brand": "Attio",
+  "prompt_id": "AL-01",
+  "llm": "perplexity",
+  "prompt_text": "Alternatives to Salesforce for B2B startups",
+  "response": "For **B2B startups**, the strongest Salesforce alternatives are usually **HubSpot CRM**, **Pipedrive**, **Zoho CRM**, and **Freshsales** because they tend to be simpler to implement, more affordable, and better suited to lean sales teams than Salesforce.[1][2][4][6][7]\n\n- **HubSpot CRM** — Best if you want a **free or low-friction start**, with sales, marketing, and service tools in one platform and fast implementation.[1][2]\n- **Pipedrive** — Best for a **sales-first startup** that wants a simple visual pipeline, strong activity tracking, and a lightweight interface.[1][2][7]\n- **Zoho CRM** — Best if you want **broad functionality on a budget**, with extensive integrations and customization for growing teams.[1][2][3][7]\n- **Freshsales** — A good fit for startups that want **straightforward CRM features** with automation without Salesforce-level complexity.[3][7]\n- **Nutshell** — Worth considering if your team mainly needs **contact management, pipeline tracking, and basic automation**.[7]\n\nA practical way to choose:\n- Pick **HubSpot** if you also need marketing automation and expect the CRM to support go-to-market growth.[1][2]\n- Pick **Pipedrive** if your team sells through a clear pipeline and values speed over breadth.[1][2][7]\n- Pick **Zoho** if budget matters most and you want more than just a basic sales tool.[1][2][7]\n- Pick **Freshsales** if you want a lighter sales CRM with a more modern startup-friendly feel.[3][7]\n\nIf you are early-stage and want the shortest path to value, **HubSpot CRM** or **Pipedrive** are usually the best starting points for B2B startups.[1][2][7]",
+  "cached_at": "2026-05-27T17:57:26Z",
+  "metadata": {}
+}

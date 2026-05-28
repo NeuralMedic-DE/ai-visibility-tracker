@@ -1,0 +1,9 @@
+{
+  "brand": "Retool",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Retool integrate with PostgreSQL?",
+  "response": "Yes. Retool has a **native PostgreSQL integration**, and it also offers **Retool Database**, which is itself a managed PostgreSQL instance.\n\nKey points:\n\n- You can create a **PostgreSQL resource** in Retool and connect it to any accessible Postgres database (cloud or self-hosted), then run SQL queries, insert/update/delete data, execute transactions, and call functions directly from your apps.[2]  \n- Retool manages **connection pooling** for PostgreSQL and supports advanced Postgres types like `JSONB`, arrays, and `hstore`.[2]  \n- Retool also provides **Retool Database**, a managed PostgreSQL database built into the platform; for heavier or external use cases, you can instead connect Retool to your own Postgres instance via the same PostgreSQL integration.[3][8]  \n- The integration flow is: create a new resource → select **PostgreSQL** → enter host, port, database name, username, and password → test and save → use it in queries across Retool apps and automations.[1][2][5]",
+  "cached_at": "2026-05-27T21:02:40Z",
+  "metadata": {}
+}

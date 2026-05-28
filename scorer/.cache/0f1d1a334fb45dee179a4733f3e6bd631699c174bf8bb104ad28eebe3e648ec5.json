@@ -1,0 +1,9 @@
+{
+  "brand": "Mixpanel",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best product analytics for product and growth teams at SaaS companies?",
+  "response": "# Best Product Analytics for SaaS Teams\n\nThe \"best\" depends on your priorities, but here are the top contenders:\n\n## **Amplitude**\n- **Strengths:** Strong behavioral analytics, cohort analysis, and experimentation features\n- **Best for:** Product teams focused on user journeys and conversion optimization\n- **Trade-off:** Higher pricing, steeper learning curve\n\n## **Mixpanel**\n- **Strengths:** Real-time event tracking, retention analysis, user segmentation\n- **Best for:** Growth teams optimizing funnels and engagement\n- **Trade-off:** Less SQL flexibility than Amplitude\n\n## **Segment + Data Warehouse**\n- **Strengths:** Flexible, customizable, works with any downstream tool\n- **Best for:** Teams wanting control and integration with existing stack\n- **Trade-off:** Requires technical resources\n\n## **Heap**\n- **Strengths:** Auto-capture (less implementation), retroactive analysis\n- **Best for:** Teams wanting analytics without extensive instrumentation\n- **Trade-off:** Less granular than manual event tracking\n\n## **PostHog**\n- **Strengths:** Open-source option, feature flags, session recordings included\n- **Best for:** Startups and teams wanting product + analytics bundled\n- **Trade-off:** Smaller community than alternatives\n\n## **My Practical Recommendation**\n\n**Start with:** Amplitude or Mixpanel (battle-tested, feature-rich)\n\n**Then layer:** Session recording (Fullstory/Hotjar) + experimentation (LaunchDarkly/Optimizely)\n\n**Key consideration:** The best tool is one your team will *actually use*. Don't optimize for features you won't leverage.\n\nWhat's your current stage and main analytics gap?",
+  "cached_at": "2026-05-27T19:13:11Z",
+  "metadata": {}
+}

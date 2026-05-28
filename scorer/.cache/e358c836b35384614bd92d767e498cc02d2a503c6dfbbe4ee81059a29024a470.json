@@ -1,0 +1,9 @@
+{
+  "brand": "Help Scout",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Help Scout HubSpot integration: how does it work?",
+  "response": "# Help Scout HubSpot Integration Overview\n\n## How It Works\n\nThe integration connects your Help Scout support inbox with HubSpot's CRM, syncing customer data and interactions bidirectionally.\n\n### **Key Functions**\n\n| Feature | What It Does |\n|---------|------------|\n| **Contact Sync** | Customer info automatically syncs between platforms |\n| **Conversation Logging** | Support tickets appear in HubSpot contact records |\n| **Deal Integration** | Link conversations to specific HubSpot deals |\n| **Property Mapping** | Custom fields sync between systems |\n| **Two-Way Updates** | Changes in either platform reflect in the other |\n\n## Setup Process\n\n1. **Authenticate both accounts** in Help Scout settings\n2. **Map contact fields** (name, email, phone, etc.)\n3. **Configure which data syncs** (choose conversations, tickets, notes)\n4. **Set sync frequency** (real-time or scheduled)\n5. **Test the connection** with a sample conversation\n\n## Main Benefits\n\n✅ **360° customer view** - Support + sales data in one place  \n✅ **Better handoffs** - Sales sees full support history  \n✅ **Automated workflows** - Trigger HubSpot actions from support tickets  \n✅ **No manual data entry** - Eliminates duplicate contact management  \n✅ **Improved context** - Reps understand customer issues before reaching out\n\n## Common Use Cases\n\n- Link support conversations to open deals\n- Track customer satisfaction across support & sales\n- Auto-create contacts in HubSpot from Help Scout tickets\n- Route tickets based on HubSpot deal stage\n\n**Need help with a specific issue?** Let me know what aspect you're working on.",
+  "cached_at": "2026-05-28T08:19:42Z",
+  "metadata": {}
+}

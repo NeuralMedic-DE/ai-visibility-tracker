@@ -1,0 +1,9 @@
+{
+  "brand": "Nutshell",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Nutshell Mailchimp integration: how does it work?",
+  "response": "# Nutshell-Mailchimp Integration Overview\n\n## How It Works\n\nThe integration connects your Nutshell CRM with Mailchimp email marketing, allowing you to:\n\n### **Data Synchronization**\n- **Push contacts** from Nutshell to Mailchimp audiences\n- **Create/update lists** based on Nutshell segments\n- **Sync contact information** (emails, names, custom fields)\n\n### **Key Workflows**\n\n1. **Audience Building**\n   - Export Nutshell leads/contacts to Mailchimp lists\n   - Maintain segmentation (by stage, tag, custom fields)\n   - Keep lists updated with new contacts\n\n2. **Campaign Tracking**\n   - Record Mailchimp email opens/clicks in Nutshell\n   - Track engagement as activity history\n   - Monitor campaign performance within CRM\n\n3. **List Management**\n   - Select which Nutshell fields map to Mailchimp\n   - Automate list updates when contacts change\n   - Use Nutshell tags/segments for Mailchimp audience targeting\n\n## Setup Basics\n\n- **Authentication**: Connect via Mailchimp API key\n- **Field Mapping**: Define which Nutshell fields sync to Mailchimp\n- **Two-way sync**: Can be set to automatic or manual\n\n## Limitations to Consider\n\n- Not all two-way data flows may be real-time\n- Complex custom field mapping might require setup\n- Check current documentation for specific feature availability\n\nWould you like details on setup steps or specific integration scenarios?",
+  "cached_at": "2026-05-27T18:34:28Z",
+  "metadata": {}
+}

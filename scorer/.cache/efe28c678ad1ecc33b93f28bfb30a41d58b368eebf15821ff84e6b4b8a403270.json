@@ -1,0 +1,9 @@
+{
+  "brand": "ActiveCampaign",
+  "prompt_id": "IN-02",
+  "llm": "perplexity",
+  "prompt_text": "ActiveCampaign WordPress integration: how does it work?",
+  "response": "ActiveCampaign’s WordPress integration works by installing the **ActiveCampaign WordPress plugin**, connecting it to your account with your **API URL** and **API key**, and then using it to publish forms, enable **site tracking**, and optionally **live chat** on your site.[1][6]\n\nHere’s the basic flow:\n\n- **Install and activate** the plugin from WordPress by searching for “ActiveCampaign - Forms, Site Tracking, Live Chat.”[1]\n- **Connect your account** in WordPress’s ActiveCampaign settings by pasting in your ActiveCampaign **API URL** and **API key**.[1][6]\n- **Embed forms** in posts, pages, sidebars, or blocks/shortcodes so submissions go directly into ActiveCampaign without middleware like Zapier.[2][6][8]\n- **Track visits** by enabling site tracking, which sends page-visit activity to ActiveCampaign so you can trigger follow-up automations based on behavior.[2][6][8]\n- **Use automations** in ActiveCampaign to react to form submissions, tags, list additions, or tracked site activity.[2][5][9]\n\nA practical way to think about it is:\n\n- WordPress handles the **front end**: forms, page embeds, and tracking code.[2][6][8]\n- ActiveCampaign handles the **backend CRM/marketing automation**: storing contacts, applying tags, and running automations.[2][5][9]\n\nThere are also WordPress form plugins that integrate with ActiveCampaign in a more form-specific way, such as Ninja Forms, Gravity Forms, and WP Fusion, but those are separate integration approaches from the official ActiveCampaign plugin.[3][5][9]",
+  "cached_at": "2026-05-28T07:25:17Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Apify",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Apify vs Scrapy: which is better?",
+  "response": "# Apify vs Scrapy: Quick Comparison\n\nNeither is universally \"better\"—they solve different problems:\n\n## **Scrapy** (Open-source framework)\n**Best for:**\n- Custom, complex scraping projects\n- Full control over the scraping logic\n- Learning/experimentation\n- Self-hosted solutions\n\n**Pros:**\n- Free and open-source\n- Highly customizable\n- Strong community support\n- Great documentation\n\n**Cons:**\n- Steeper learning curve\n- Requires infrastructure management\n- Need to handle proxies, headless browsers yourself\n- More setup time\n\n## **Apify** (Cloud platform)\n**Best for:**\n- Quick deployments with minimal code\n- Enterprise solutions needing reliability\n- Avoiding infrastructure headaches\n- Browser automation (JavaScript-heavy sites)\n\n**Pros:**\n- Managed service (less DevOps work)\n- Built-in proxy rotation, scaling\n- Visual Actor builder (no-code option)\n- Easy JavaScript rendering\n- Monitoring & reliability features\n\n**Cons:**\n- Paid service (can get expensive)\n- Less flexibility than Scrapy\n- Vendor lock-in\n\n## **Quick Decision Guide**\n\n| Situation | Choose |\n|-----------|--------|\n| Learning to scrape | Scrapy |\n| One-off projects | Scrapy |\n| Production at scale | Apify |\n| JavaScript-heavy sites | Apify |\n| Cost-critical | Scrapy |\n| Want managed service | Apify |\n\n**Many teams use both**: Scrapy for development, Apify for production deployment.\n\nWhat's your use case?",
+  "cached_at": "2026-05-28T07:58:46Z",
+  "metadata": {}
+}

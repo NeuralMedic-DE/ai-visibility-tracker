@@ -1,0 +1,9 @@
+{
+  "brand": "Close",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which CRM software should a head of sales at a 20-person startup use?",
+  "response": "# CRM for a 20-person startup\n\nHere's what matters most at your stage:\n\n**Best practical options:**\n\n- **HubSpot CRM** (free tier) – Great entry point, scales well as you grow. Sales hub pricing is reasonable when you're ready to upgrade.\n- **Pipedrive** – Built for sales teams specifically. Intuitive pipeline view, affordable per-user pricing.\n- **Notion/Airtable** – If you want maximum flexibility and minimal cost. Takes more setup but fully customizable.\n\n**Key considerations:**\n\n- **Budget reality**: Aim for $0-100/month initially. Most startups overspend on tools.\n- **Integration needs**: What email, calendar, or accounting software are you using? Pick something that plays nicely.\n- **Team adoption**: The \"best\" CRM is one your team will actually use. Simplicity often wins over features.\n- **Data quality**: At 20 people, discipline around data entry matters more than the tool itself.\n\n**Red flags to avoid:**\n- Expensive enterprise solutions (Salesforce) that you'll grow into later\n- Over-customization before you know your sales process\n\n**My take:** Start with HubSpot's free CRM or Pipedrive's starter plan. Both let you learn what you actually need before committing heavily. You can migrate later if needed.\n\nWhat's your sales process like? That might narrow it further.",
+  "cached_at": "2026-05-27T17:49:52Z",
+  "metadata": {}
+}

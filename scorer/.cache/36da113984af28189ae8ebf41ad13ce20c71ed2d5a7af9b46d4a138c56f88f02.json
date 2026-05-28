@@ -1,0 +1,9 @@
+{
+  "brand": "Salesflare",
+  "prompt_id": "UC-02",
+  "llm": "openai",
+  "prompt_text": "Best way to track email opens and follow-ups for a small B2B teams and agencies team",
+  "response": "For a small B2B team or agency, tracking email opens and managing follow-ups can be efficiently handled using email tracking and CRM tools. Here are some of the best options:\n\n1. **Email Tracking Tools:**\n   - **Mailtrack:** A simple and affordable tool that integrates with Gmail to track email opens and clicks.\n   - **Yesware:** Offers email tracking, templates, and follow-up reminders, and integrates with Gmail and Outlook.\n   - **Mixmax:** Provides email tracking, scheduling, and automation features, and works with Gmail.\n\n2. **CRM Systems with Email Tracking:**\n   - **HubSpot CRM:** Offers a free tier with email tracking, contact management, and follow-up automation. It integrates well with Gmail and Outlook.\n   - **Zoho CRM:** Provides email tracking and automation features, along with robust CRM capabilities.\n   - **Pipedrive:** Known for its user-friendly interface, it offers email tracking and follow-up reminders.\n\n3. **Sales Engagement Platforms:**\n   - **Salesloft:** Offers comprehensive sales engagement features, including email tracking, sequencing, and analytics.\n   - **Outreach:** Provides email tracking, automation, and analytics, designed to streamline sales processes.\n\n4. **Project Management Tools with Email Features:**\n   - **Trello or Asana:** While primarily project management tools, they can be integrated with email tracking tools or CRMs to manage follow-ups and tasks.\n\nWhen choosing a tool, consider factors like integration with your existing email system, ease of use, scalability, and cost. It's also beneficial to look for tools that offer automation features to streamline follow-up processes and improve efficiency.",
+  "cached_at": "2026-05-27T18:11:55Z",
+  "metadata": {}
+}

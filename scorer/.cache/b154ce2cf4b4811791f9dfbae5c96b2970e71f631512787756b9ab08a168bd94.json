@@ -1,0 +1,9 @@
+{
+  "brand": "Comet ML",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Comet ML integrate with Python?",
+  "response": "# Yes, Comet ML integrates with Python\n\nComet ML has **excellent Python support** through its official Python SDK. Here's what you need to know:\n\n## Installation\n```bash\npip install comet-ml\n```\n\n## Basic Integration\n```python\nfrom comet_ml import Experiment\n\n# Create an experiment\nexperiment = Experiment(api_key=\"your-api-key\", project_name=\"my-project\")\n\n# Log metrics\nexperiment.log_metric(\"accuracy\", 0.95)\nexperiment.log_metric(\"loss\", 0.05)\n\n# Log parameters\nexperiment.log_parameters({\"learning_rate\": 0.001, \"batch_size\": 32})\n```\n\n## Framework Support\nComet ML integrates with popular Python ML frameworks:\n- **TensorFlow/Keras**\n- **PyTorch**\n- **Scikit-learn**\n- **XGBoost**\n- **LightGBM**\n- And others\n\n## Key Features\n- Track metrics, parameters, and hyperparameters\n- Log datasets and model artifacts\n- Compare experiments\n- Monitor model performance\n- Version control for models\n\nThe Python integration is one of Comet ML's strongest features, making it straightforward to add experiment tracking to your Python ML workflows.",
+  "cached_at": "2026-05-28T07:54:30Z",
+  "metadata": {}
+}

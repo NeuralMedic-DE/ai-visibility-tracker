@@ -1,0 +1,9 @@
+{
+  "brand": "n8n",
+  "prompt_id": "AL-02",
+  "llm": "openai",
+  "prompt_text": "Cheaper alternatives to Make",
+  "response": "If you're looking for cheaper or free alternatives to Make (formerly Integromat) for automation and integration tasks, here are some options you might consider:\n\n1. **Zapier**: While it offers a free plan with limited tasks, Zapier is a popular alternative for automating workflows between apps.\n\n2. **IFTTT (If This Then That)**: Offers a free plan and is user-friendly, ideal for simple automations between various services.\n\n3. **n8n**: An open-source workflow automation tool that you can self-host, providing flexibility and control over your automations.\n\n4. **Automate.io**: Offers a free plan with limited tasks and is known for its ease of use and integration capabilities.\n\n5. **Microsoft Power Automate**: Part of the Microsoft Power Platform, it offers a free tier and is well-integrated with Microsoft services.\n\n6. **Pipedream**: A free platform for connecting APIs and services with code, offering more flexibility for developers.\n\n7. **Huginn**: An open-source system for building agents that perform automated tasks, which you can host yourself.\n\n8. **Tray.io**: Offers a free trial and is known for its powerful automation capabilities, though it is more enterprise-focused.\n\n9. **Node-RED**: A flow-based development tool for visual programming, ideal for IoT and other automation tasks, and is open-source.\n\nEach of these tools has its own strengths and limitations, so the best choice depends on your specific needs, technical expertise, and the complexity of the workflows you want to automate.",
+  "cached_at": "2026-05-28T08:56:04Z",
+  "metadata": {}
+}

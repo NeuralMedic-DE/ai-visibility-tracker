@@ -1,0 +1,9 @@
+{
+  "brand": "Brevo",
+  "prompt_id": "IN-03",
+  "llm": "perplexity",
+  "prompt_text": "How do I connect Brevo with WordPress?",
+  "response": "You can connect **Brevo with WordPress** in two common ways: by installing Brevo’s **WordPress plugin** for forms, contacts, and marketing automation, or by using **SMTP/API integration** to send WordPress emails through Brevo.[4][7][3]\n\n- **For forms, subscriptions, and marketing features:** install the **Brevo** plugin from the WordPress plugin directory, activate it, then connect your Brevo account with your **API key**.[4]\n- **For sending WordPress emails:** install an SMTP plugin that supports Brevo, then paste your Brevo **API key**, configure the sender details, and save the settings.[3]\n- **For specific plugins like Contact Form 7:** open the plugin’s integration settings in WordPress, paste your Brevo **v3 API key**, and save the changes.[2]\n\nTypical setup steps are:\n\n1. Create or log in to your **Brevo** account.[2][3][4]\n2. In Brevo, go to **SMTP & API** and generate or copy your **API key**.[2][3]\n3. In WordPress, install the relevant plugin:\n   - **Brevo plugin** for marketing/contact features.[4]\n   - **SMTP plugin** for email delivery.[3]\n   - A plugin-specific integration screen if you are using something like Contact Form 7.[2]\n4. Paste the API key into the plugin’s Brevo settings and save.[2][3][4]\n5. Send a test email or submit a test form to confirm it works.[3]\n\nIf your goal is **email delivery**, the SMTP method is usually the right choice.[3] If your goal is **newsletter signups and contact syncing**, use the Brevo plugin.[4][7]\n\nIf you want, I can give you the exact steps for:\n- **Brevo plugin**\n- **WP Mail SMTP**\n- **Contact Form 7**\n- **WooCommerce**",
+  "cached_at": "2026-05-28T07:27:37Z",
+  "metadata": {}
+}

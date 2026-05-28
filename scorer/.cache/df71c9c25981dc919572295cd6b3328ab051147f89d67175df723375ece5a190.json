@@ -1,0 +1,9 @@
+{
+  "brand": "Klipfolio",
+  "prompt_id": "IN-04",
+  "llm": "perplexity",
+  "prompt_text": "Best business intelligence that works with Google Analytics and HubSpot",
+  "response": "The **best business intelligence** options for combining **Google Analytics** and **HubSpot** are usually **Improvado**, **Databox**, **Supermetrics**, and **Porter Metrics**, depending on whether you want *enterprise-grade data modeling*, *easy dashboards*, or *marketing-team reporting*.[1][3][4][6]\n\n- **Improvado** is a strong choice if you want a unified BI layer and centralized dashboards that pull from both HubSpot and Google Analytics.[1]\n- **Databox** is a good fit if you want straightforward performance tracking and reporting from both tools without building everything manually.[6]\n- **Supermetrics** and **Porter Metrics** are commonly used for marketing reporting workflows, especially when you want to connect data into dashboards and automate recurring reports.[3][4]\n- **HubSpot’s own reporting tools** can work well for simpler use cases, but they are more limited if you need a broader BI stack across multiple platforms.[5][7]\n\nIf you want the **single best all-around option**, **Improvado** appears strongest for deeper cross-platform BI because it explicitly focuses on combining HubSpot and Google Analytics into unified dashboards.[1]\n\nIf you want the **best easy-to-use option for marketers**, **Databox** is often the more practical choice because it is designed for tracking and visualizing marketing performance quickly.[6]\n\nIf you want, I can also give you a **ranked shortlist by use case**:\n- **best for small business**\n- **best for marketing agencies**\n- **best for enterprise BI**\n- **best free or low-cost option**",
+  "cached_at": "2026-05-27T20:33:12Z",
+  "metadata": {}
+}

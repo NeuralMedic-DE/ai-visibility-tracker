@@ -1,0 +1,9 @@
+{
+  "brand": "Helicone",
+  "prompt_id": "CM-02",
+  "llm": "anthropic",
+  "prompt_text": "Helicone vs Portkey pricing and features",
+  "response": "# Helicone vs Portkey Comparison\n\n## Pricing Models\n\n| Feature | Helicone | Portkey |\n|---------|----------|---------|\n| **Base Cost** | Free tier available | Free tier available |\n| **Pay-as-you-go** | $0.89 per million requests | $0.50 per million requests |\n| **Enterprise** | Custom pricing | Custom pricing |\n| **Free Tier Limits** | 100k requests/month | Limited requests/month |\n\n## Key Features\n\n### Helicone\n✅ **Strengths:**\n- LLM observability & monitoring\n- Cost tracking across providers\n- Logging & debugging tools\n- User feedback collection\n- Latency analytics\n- Cache management\n- Strong focus on data privacy\n\n❌ **Limitations:**\n- Primarily monitoring-focused\n- Limited routing capabilities\n- Smaller feature set\n\n### Portkey\n✅ **Strengths:**\n- Multi-LLM routing & fallback\n- Load balancing\n- Prompt management (versionable)\n- Analytics & monitoring\n- Cache optimization\n- API gateway features\n- Rate limiting & quotas\n- Broader provider support\n\n❌ **Limitations:**\n- Steeper learning curve\n- More complex setup\n- Pricing less transparent\n\n## Use Cases\n\n**Choose Helicone if you:**\n- Want lightweight monitoring\n- Need detailed cost analytics\n- Prioritize privacy/data security\n- Use single provider mostly\n\n**Choose Portkey if you:**\n- Need multi-provider routing\n- Require prompt versioning\n- Want advanced API gateway features\n- Scale across multiple models\n\n## Bottom Line\n- **Helicone**: Better for monitoring & observability\n- **Portkey**: Better for production infrastructure & routing\n\nWould you like details on specific features?",
+  "cached_at": "2026-05-28T07:49:30Z",
+  "metadata": {}
+}

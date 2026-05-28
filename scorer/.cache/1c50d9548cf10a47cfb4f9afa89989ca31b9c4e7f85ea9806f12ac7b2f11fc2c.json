@@ -1,0 +1,9 @@
+{
+  "brand": "UserVoice",
+  "prompt_id": "CM-02",
+  "llm": "anthropic",
+  "prompt_text": "UserVoice vs Aha! pricing and features",
+  "response": "# UserVoice vs Aha! Comparison\n\n## Pricing\n\n| Aspect | UserVoice | Aha! |\n|--------|-----------|------|\n| **Starting Price** | ~$75/month | ~$99/month |\n| **Model** | Per portal + users | Per seat/workspace |\n| **Enterprise** | Custom pricing | Custom pricing |\n| **Free Trial** | 30 days | 30 days |\n\n## Key Differences\n\n### **UserVoice** (Product Feedback Focus)\n**Best for:** Collecting and prioritizing customer feedback\n\n**Strengths:**\n- Robust feedback/voting portal\n- Strong public-facing feedback widget\n- Excellent for customer engagement\n- Roadmap sharing features\n- Integrations (Slack, GitHub, Jira)\n\n**Limitations:**\n- Less comprehensive product management\n- Lighter on strategic planning tools\n- Smaller feature set overall\n\n### **Aha!** (Comprehensive Product Management)\n**Best for:** Full product strategy and roadmap planning\n\n**Strengths:**\n- End-to-end product management\n- Advanced roadmap visualizations\n- Strategic planning tools\n- Portfolio management\n- More powerful workflow customization\n\n**Limitations:**\n- Steeper learning curve\n- Overkill if you only need feedback collection\n- Higher complexity for small teams\n\n## Quick Decision Matrix\n\n| Choose **UserVoice** if: | Choose **Aha!** if: |\n|------------------------|-------------------|\n| You prioritize customer feedback | You need comprehensive product management |\n| Budget is tight | Strategic planning is critical |\n| You want a public feedback portal | You manage multiple products |\n| Simple workflow needed | Complex workflows required |\n\n**Bottom line:** UserVoice = feedback-first; Aha! = strategy-first.",
+  "cached_at": "2026-05-28T08:24:01Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Render",
+  "prompt_id": "IN-03",
+  "llm": "openai",
+  "prompt_text": "How do I connect Render with GitHub?",
+  "response": "To connect Render with GitHub, follow these steps:\n\n1. **Sign Up or Log In to Render:**\n   - If you don't have a Render account, sign up at [render.com](https://render.com). If you already have an account, log in.\n\n2. **Connect Your GitHub Account:**\n   - Once logged in, go to the Render dashboard.\n   - Click on the \"New\" button and select \"Web Service\" or any other service you want to create.\n   - You will be prompted to connect your GitHub account if you haven't done so already. Click on \"Connect account\" or \"Connect with GitHub.\"\n\n3. **Authorize Render:**\n   - You will be redirected to GitHub to authorize Render. You may need to log in to GitHub if you aren't already.\n   - Review the permissions Render is requesting and click \"Authorize Render\" to proceed.\n\n4. **Select a Repository:**\n   - After authorization, you'll be redirected back to Render.\n   - You can now select a repository from your GitHub account to deploy. Render will list the repositories you have access to.\n\n5. **Configure Your Service:**\n   - Once you've selected a repository, you can configure your service settings such as the build command, start command, and environment variables.\n   - Follow the prompts to complete the setup.\n\n6. **Deploy Your Service:**\n   - After configuration, Render will start building and deploying your service from the selected GitHub repository.\n   - You can monitor the deployment process through the Render dashboard.\n\nBy following these steps, you can successfully connect Render with your GitHub account and deploy applications directly from your GitHub repositories.",
+  "cached_at": "2026-05-27T21:35:34Z",
+  "metadata": {}
+}

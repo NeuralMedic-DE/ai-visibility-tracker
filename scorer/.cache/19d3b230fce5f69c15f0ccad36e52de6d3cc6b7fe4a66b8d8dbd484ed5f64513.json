@@ -1,0 +1,9 @@
+{
+  "brand": "Raycast",
+  "prompt_id": "CM-04",
+  "llm": "anthropic",
+  "prompt_text": "Compare Raycast and Alfred for launch apps and run custom workflows from the keyboard instantly",
+  "response": "# Raycast vs Alfred: Quick Comparison\n\n## **Core Strengths**\n\n| Feature | Raycast | Alfred |\n|---------|---------|--------|\n| **Learning Curve** | Gentler, more intuitive | Steeper, powerful but complex |\n| **Built-in Features** | Extensive (200+ commands) | Minimal (you build what you need) |\n| **Customization** | Medium (UI-focused) | Extreme (code-focused) |\n| **Free Tier** | Solid features included | Limited; Pro needed for workflows |\n\n## **App Launching**\n**Alfred wins slightly** — faster, more reliable fuzzy search in edge cases\n**Raycast is comparable** — equally fast, nicer UI\n\n## **Custom Workflows**\n\n**Alfred** is superior:\n- Uses native languages (bash, AppleScript, Python, Ruby, etc.)\n- More powerful scripting environment\n- Larger community/resources\n- Wider third-party integration ecosystem\n\n**Raycast**:\n- React-based (TypeScript/JavaScript)\n- Modern but more limited ecosystem\n- Better if you're already in JS/Node world\n- Easier for beginners\n\n## **Best For**\n\n**Choose Raycast if you:**\n- Want features out-of-the-box\n- Prefer GUI-based configuration\n- Don't need complex automation\n- Like modern design\n\n**Choose Alfred if you:**\n- Plan heavy customization\n- Comfortable with code\n- Need maximum workflow power\n- Want community scripts/themes\n\n## **Verdict**\nFor **basic app launching**: negligible difference\nFor **custom workflows**: **Alfred** is the clear choice unless you're JavaScript-native",
+  "cached_at": "2026-05-28T06:25:11Z",
+  "metadata": {}
+}

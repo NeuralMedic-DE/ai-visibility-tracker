@@ -1,0 +1,9 @@
+{
+  "brand": "Userlist",
+  "prompt_id": "AL-02",
+  "llm": "openai",
+  "prompt_text": "Cheaper alternatives to Customer.io",
+  "response": "If you're looking for cheaper alternatives to Customer.io for email marketing and customer engagement, here are a few options you might consider:\n\n1. **Mailchimp**: Offers a free plan with basic features and is known for its user-friendly interface. It's a good option for small businesses and startups.\n\n2. **Sendinblue**: Provides a comprehensive suite of tools for email marketing, SMS, and more. It has a free plan and affordable pricing tiers.\n\n3. **MailerLite**: Known for its simplicity and cost-effectiveness, MailerLite offers a free plan with essential features and affordable paid plans.\n\n4. **Moosend**: Offers competitive pricing and a range of features, including automation and analytics. It also provides a free trial.\n\n5. **ActiveCampaign**: While slightly more expensive than some others, it offers robust automation features and is often considered good value for money.\n\n6. **ConvertKit**: Tailored for creators and bloggers, ConvertKit offers a free plan and is known for its ease of use and automation capabilities.\n\n7. **AWeber**: Provides a free plan for up to 500 subscribers and includes features like automation, templates, and analytics.\n\n8. **GetResponse**: Offers a variety of marketing tools, including email marketing, automation, and landing pages, with competitive pricing.\n\nEach of these platforms has its own strengths, so the best choice will depend on your specific needs, such as the size of your subscriber list, the complexity of your campaigns, and the features you require.",
+  "cached_at": "2026-05-28T07:30:41Z",
+  "metadata": {}
+}

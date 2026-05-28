@@ -1,0 +1,9 @@
+{
+  "brand": "Close",
+  "prompt_id": "AL-03",
+  "llm": "perplexity",
+  "prompt_text": "Best CRM alternatives for early-stage startups teams on a budget",
+  "response": "For **early-stage startups on a budget**, the strongest CRM alternatives are usually **HubSpot Free/Starter**, **Zoho CRM**, **Freshsales**, **Pipedrive**, and **Attio** depending on whether you want *lowest cost*, *sales focus*, or *modern workflow flexibility*.[1][2][5]\n\n- **HubSpot** is often the easiest low-friction starting point because its free CRM is widely described as generous, and its Starter tier is presented as a practical sweet spot for many early-stage teams.[2][7][1]\n- **Zoho CRM** is a common pick for **budget-conscious teams**, especially when you want broad CRM functionality without paying premium-pricing-first-tool costs.[1]\n- **Freshsales** is positioned as a **budget-friendly** option and is noted as having a free plan for up to three users, which can be useful for very small teams.[5]\n- **Pipedrive** is best if your startup is mostly doing **outbound sales** and wants a simple pipeline-first CRM rather than a heavier all-in-one system.[1]\n- **Attio** is a strong fit for **technical or product-led growth (PLG) founders** who want a more flexible, modern CRM experience.[1]\n- **NetHunt** is a good option if your team lives in **Google Workspace/Gmail**, since it is built directly inside Gmail and has a startup program.[1]\n\nA practical shortlist by use case:\n\n- **Best overall free/low-cost starting point:** **HubSpot**\n- **Best strict budget option:** **Zoho CRM** or **Freshsales**\n- **Best for outbound sales teams:** **Pipedrive**\n- **Best for Gmail-native teams:** **NetHunt**\n- **Best for technical/PLG teams:** **Attio**[1][5][2]\n\nIf you want, I can also give you a **2-minute comparison table** of these options by **price, ease of use, automation, and startup fit**.",
+  "cached_at": "2026-05-27T17:40:46Z",
+  "metadata": {}
+}

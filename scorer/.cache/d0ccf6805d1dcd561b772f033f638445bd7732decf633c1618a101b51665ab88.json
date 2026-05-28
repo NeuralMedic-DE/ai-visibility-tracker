@@ -1,0 +1,9 @@
+{
+  "brand": "Nudge Security",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to BetterCloud",
+  "response": "# Cheaper Alternatives to BetterCloud\n\n## Free/Low-Cost Options\n\n**Google Workspace Admin Console** (Free)\n- Built-in user/device management\n- Basic security controls\n- Limited compared to BetterCloud but sufficient for small orgs\n\n**Microsoft 365 Admin Center** (Included)\n- Device management for Microsoft ecosystem\n- Basic compliance tools\n- No additional cost\n\n## Budget-Friendly Alternatives\n\n| Tool | Price | Best For |\n|------|-------|----------|\n| **Okta** | ~$2-4/user | Identity management, SSO |\n| **JumpCloud** | ~$15-40/month | Directory services, MDM |\n| **Intune** | ~$6/user/month | Microsoft-focused device management |\n| **Kandji** | ~$4-7/device/month | Apple device management |\n| **SailPoint** | Custom pricing | Identity governance |\n\n## Open-Source Solutions\n\n- **FreeIPA** - Free identity management\n- **Keycloak** - Identity provider\n- **OpenLDAP** - Directory services\n\n## Hybrid Approach\n\nCombine affordable point solutions:\n- Cloud storage: **Sync.com** or **Tresorit** (cheaper than BetterCloud's features)\n- SaaS management: **Zylo** or **Blissfully**\n- MDM: **MobileIron Go** (free tier available)\n\n## Key Factors\n\nConsider what you *actually* need from BetterCloud:\n- User provisioning?\n- SaaS visibility?\n- Mobile device management?\n- Cloud storage governance?\n\nThis determines which alternative best fits your needs and budget.",
+  "cached_at": "2026-05-28T08:38:40Z",
+  "metadata": {}
+}

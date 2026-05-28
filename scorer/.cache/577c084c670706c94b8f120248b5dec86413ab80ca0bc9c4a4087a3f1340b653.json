@@ -1,0 +1,9 @@
+{
+  "brand": "PostHog",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "PostHog vs Mixpanel: which is better?",
+  "response": "# PostHog vs Mixpanel\n\nNeither is universally \"better\"—it depends on your priorities:\n\n## **PostHog strengths**\n- **Open-source** (self-hostable, full transparency)\n- **Lower cost** at scale\n- **Product analytics + session replay + feature flags** in one platform\n- Better for engineers who want control and customization\n- No third-party data sharing\n\n## **Mixpanel strengths**\n- **Mature, polished product** with excellent UX\n- **Behavioral analytics** focus (particularly strong here)\n- **Easier setup** for non-technical teams\n- Better for mobile/app analytics\n- Excellent customer support\n\n## **Quick comparison**\n\n| Factor | PostHog | Mixpanel |\n|--------|---------|----------|\n| **Price** | Lower | Higher |\n| **Ease of use** | More technical | More intuitive |\n| **Features** | Broad | Deep (analytics) |\n| **Privacy** | Better | Standard |\n| **Best for** | Product teams, engineers | Growth/marketing |\n\n## **Choose PostHog if:**\n- Cost matters, you're scaling fast\n- You want everything in one tool\n- Your team is technical\n\n## **Choose Mixpanel if:**\n- You need best-in-class behavioral analytics\n- Your team prefers ease-of-use over features\n- You have budget for a premium tool\n\n**Real talk:** Try both (free tiers exist). Your workflow and team preferences often matter more than the feature list.\n\nWhat's your main use case?",
+  "cached_at": "2026-05-27T19:36:00Z",
+  "metadata": {}
+}

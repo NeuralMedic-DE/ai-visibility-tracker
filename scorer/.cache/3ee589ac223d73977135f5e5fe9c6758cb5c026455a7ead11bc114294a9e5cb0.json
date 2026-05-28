@@ -1,0 +1,9 @@
+{
+  "brand": "Braintrust",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Braintrust integrate with OpenAI?",
+  "response": "# Braintrust and OpenAI Integration\n\nYes, **Braintrust integrates with OpenAI**. You can use OpenAI models (like GPT-4, GPT-3.5-turbo, etc.) within Braintrust for:\n\n- **Evals and testing** - Run evaluations against OpenAI models\n- **Development** - Build and test applications using OpenAI's API\n- **Logging and monitoring** - Track OpenAI API calls through Braintrust's platform\n\n## How it works:\n\n1. You provide your OpenAI API key to Braintrust\n2. Braintrust can then proxy requests to OpenAI or log your existing OpenAI API usage\n3. You can evaluate and compare OpenAI model outputs alongside other providers\n\nBraintrust is designed as a platform that works with multiple LLM providers (not just OpenAI), so it integrates with various APIs to give you flexibility in testing and evaluating different models.\n\nFor the most current integration details and setup instructions, I'd recommend checking [Braintrust's official documentation](https://www.braintrust.dev/docs/) or their integration guides.",
+  "cached_at": "2026-05-28T07:47:37Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Amplitude",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Mixpanel vs alternatives: what should I switch to?",
+  "response": "# Mixpanel Alternatives: Key Contenders\n\n## If you want lower costs\n- **Plausible** or **Fathom** – lightweight, privacy-focused, much cheaper\n- **Heap** – unlimited event tracking (though pricier overall)\n- **Segment** – consolidates data sources (good for cost optimization)\n\n## If you want ease of use\n- **Amplitude** – similar feature set, often simpler UX; strong free tier\n- **Mixpanel's own free tier** – honestly competitive; consider if cost is the only issue\n\n## If you want product analytics depth\n- **PostHog** – open-source option, self-hostable, strong session replay\n- **Amplitude** – excellent retention/cohort analysis\n\n## If you want simplicity + good value\n- **Metabase** – if you already have raw event data\n- **Mixpanel alternatives for web-only**: **Fathom Analytics** or **Plausible**\n\n## Real questions to ask first\n\n1. **Why leave?** (cost, features, UI, integrations, privacy?)\n2. **What data do you actually use?** Most companies use 20% of tracked events\n3. **Do you need retention analysis?** (Where Mixpanel/Amplitude shine)\n4. **Scale?** High volume changes ROI calculations significantly\n\n**Most common switch**: Mixpanel → **Amplitude** (feature parity) or **PostHog** (more control, lower cost at scale)\n\nWhat's driving your review? That'd help narrow it down.",
+  "cached_at": "2026-05-27T19:26:20Z",
+  "metadata": {}
+}

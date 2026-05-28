@@ -1,0 +1,9 @@
+{
+  "brand": "HiBob",
+  "prompt_id": "IN-04",
+  "llm": "anthropic",
+  "prompt_text": "Best HR that works with Slack and Google Workspace",
+  "response": "# Best HR Platforms for Slack + Google Workspace\n\n## Top Overall Choices\n\n### **1. Rippling**\n- **Best for:** All-in-one HR + IT management\n- **Slack integration:** Native workflows, approvals, announcements\n- **Google Workspace:** Full SSO and directory sync\n- **Strengths:** Payroll, benefits, device management in one platform\n- **Cost:** Mid-to-premium pricing\n\n### **2. BambooHR**\n- **Best for:** Mid-market companies\n- **Slack integration:** Announcements, time-off requests\n- **Google Workspace:** SSO support\n- **Strengths:** Intuitive interface, strong onboarding\n- **Cost:** Affordable, good ROI\n\n### **3. Guidepoint (formerly 15Five)**\n- **Best for:** Performance management focused\n- **Slack integration:** Strong two-way integration\n- **Google Workspace:** Compatible\n- **Strengths:** Engagement, pulse surveys, one-on-ones\n- **Cost:** Mid-range\n\n## Lightweight Alternatives\n\n### **4. Deel**\n- Best if you have remote/international employees\n- Strong Slack integration\n- Excellent for contractors\n\n### **5. Lattice**\n- Performance management & engagement\n- Good Slack/Google Workspace compatibility\n- Strong for culture-focused orgs\n\n## Quick Comparison\n\n| Platform | Ease | Price | Slack | Google WS |\n|----------|------|-------|-------|-----------|\n| Rippling | Medium | $$$ | Excellent | Excellent |\n| BambooHR | Easy | $$ | Good | Good |\n| Guidepoint | Easy | $$ | Excellent | Good |\n\n## My Recommendation\n- **Small/startup:** BambooHR\n- **Growing company:** Rippling\n- **Culture-focused:** Guidepoint\n\nWhat's your company size and main HR needs?",
+  "cached_at": "2026-05-28T06:32:45Z",
+  "metadata": {}
+}

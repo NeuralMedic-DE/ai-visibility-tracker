@@ -1,0 +1,9 @@
+{
+  "brand": "Baremetrics",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Baremetrics integrate with Stripe?",
+  "response": "# Baremetrics and Stripe Integration\n\nYes, **Baremetrics integrates with Stripe**. In fact, Stripe is one of the primary payment processors that Baremetrics supports.\n\n## Key Details:\n\n- **Direct integration**: You can connect your Stripe account to Baremetrics to automatically pull in payment and subscription data\n- **Data syncing**: Transaction history, customer information, and subscription metrics are synchronized\n- **Analytics**: Once connected, you get access to Baremetrics' subscription analytics and metrics based on your Stripe data\n\n## Other Supported Processors:\n\nBaremetrics also integrates with other payment platforms including:\n- Braintree\n- Recurly\n- Chargify\n- Several others\n\nIf you're planning to use Baremetrics with Stripe, the integration setup is typically straightforward through their dashboard.",
+  "cached_at": "2026-05-28T06:57:47Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Helicone",
+  "prompt_id": "AL-05",
+  "llm": "anthropic",
+  "prompt_text": "Open source or affordable AI tooling tools instead of Portkey",
+  "response": "# Open Source & Affordable AI Tooling Alternatives to Portkey\n\n## **Open Source Options**\n\n### **LiteLLM** (Most Popular)\n- Unified API for 100+ LLM providers\n- Drop-in replacement for OpenAI SDK\n- Local proxy server, cost tracking, caching\n- **Free & MIT licensed**\n- https://github.com/BerriAI/litellm\n\n### **LangChain / LangSmith**\n- LangChain: Open source framework\n- LangSmith: Paid observability (but generous free tier)\n- Great for building LLM apps\n- https://github.com/langchain-ai/langchain\n\n### **Ollama**\n- Run LLMs locally (no API costs)\n- Supports Llama, Mistral, etc.\n- https://ollama.ai\n\n### **VLLM**\n- High-throughput LLM serving\n- Self-hosted inference\n- https://github.com/vllm-project/vllm\n\n---\n\n## **Affordable/Freemium Paid Options**\n\n| Tool | Free Tier | Use Case |\n|------|-----------|----------|\n| **Unify.ai** | $5 credit | Multi-provider routing |\n| **Modal** | Generous free tier | Serverless AI inference |\n| **Hugging Face Inference API** | Free tier available | Model hosting & inference |\n| **Replicate** | Pay-per-use | Model deployment |\n| **Together AI** | Free tier + cheap pricing | Open source models |\n\n---\n\n## **DIY Stack** (Most Cost-Effective)\n```\nLiteLLM (routing) + OpenObserve (logs) + \nRedis (caching) + Self-hosted monitoring\n```\n\n**Best for:** Teams wanting full control & minimal vendor lock-in\n\n---\n\nWhich use case matters most to you? (Monitoring, routing, cost control, etc.)",
+  "cached_at": "2026-05-28T07:49:43Z",
+  "metadata": {}
+}

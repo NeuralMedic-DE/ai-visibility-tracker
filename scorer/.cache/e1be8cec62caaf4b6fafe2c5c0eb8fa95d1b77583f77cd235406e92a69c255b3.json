@@ -1,0 +1,9 @@
+{
+  "brand": "LeadIQ",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "LeadIQ vs ZoomInfo: which is better?",
+  "response": "# LeadIQ vs ZoomInfo\n\nThere's no universal \"better\" choice—it depends on your needs:\n\n## **ZoomInfo**\n- **Strengths**: Largest B2B database, most comprehensive company/contact data, strong integrations, good for enterprise sales teams\n- **Best for**: Companies needing broad prospecting and data accuracy at scale\n- **Drawback**: Higher price point\n\n## **LeadIQ**\n- **Strengths**: Real-time data, Chrome extension makes prospecting seamless, good for individual reps, faster implementation\n- **Best for**: Sales teams wanting quick, lightweight prospecting without heavy setup\n- **Drawback**: Smaller database than ZoomInfo\n\n## **Key comparison points**\n\n| Factor | ZoomInfo | LeadIQ |\n|--------|----------|--------|\n| **Data size** | Larger | Smaller |\n| **Price** | Higher | Lower |\n| **Ease of use** | Moderate | Very easy |\n| **Best for** | Enterprise/teams | Individual reps |\n| **Updates** | Regular batches | Real-time |\n\n## **Quick decision framework**\n- Choose **ZoomInfo** if you need exhaustive data coverage and have budget\n- Choose **LeadIQ** if you want simplicity and speed at a lower cost\n\nMany teams actually use both for different purposes. What's your main use case?",
+  "cached_at": "2026-05-27T18:43:02Z",
+  "metadata": {}
+}

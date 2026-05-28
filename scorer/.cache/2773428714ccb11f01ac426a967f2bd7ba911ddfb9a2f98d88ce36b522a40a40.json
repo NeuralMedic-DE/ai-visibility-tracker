@@ -1,0 +1,9 @@
+{
+  "brand": "Intercom",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which customer support software should a VP Customer Success or Head of Support at a B2B SaaS company use?",
+  "response": "# Key Criteria for B2B SaaS Support Software\n\nA VP/Head of Support should prioritize:\n\n**Core capabilities:**\n- Ticket management with routing & automation\n- Knowledge base/self-service (reduces volume)\n- Multi-channel (email, chat, in-app)\n- Reporting & analytics on resolution time, CSAT, agent productivity\n- Integration with your product and CRM\n\n**B2B-specific needs:**\n- Account-level support (not just individual contacts)\n- SLA tracking and escalation workflows\n- Macros and canned responses for efficiency\n- API access for custom integrations\n\n## Popular Options by Use Case\n\n**Best overall: Zendesk or Intercom**\n- Mature, customizable, strong reporting\n- Zendesk scales well; Intercom better for in-app support\n\n**Lower cost/simpler: Freshdesk or HubSpot Service Hub**\n- Good features-to-price ratio\n- HubSpot if you're already in their ecosystem\n\n**Highly technical teams: Front or Groove**\n- Better for developer-heavy support or API-first needs\n\n**High-touch, enterprise: Salesforce Service Cloud**\n- When you need deep CRM integration\n\n## Real Decision Factors\n\n- **Team size**: Does it scale with you?\n- **Volume patterns**: Spiky seasonal support vs. steady?\n- **Existing tools**: What's your tech stack?\n- **Budget**: Zendesk isn't cheap, but often worth it\n\n**My suggestion**: Test 2-3 with your actual workflows before committing. The \"best\" tool depends on your specific team structure and product complexity.\n\nWhat's your current team size and biggest support pain point?",
+  "cached_at": "2026-05-28T08:01:28Z",
+  "metadata": {}
+}

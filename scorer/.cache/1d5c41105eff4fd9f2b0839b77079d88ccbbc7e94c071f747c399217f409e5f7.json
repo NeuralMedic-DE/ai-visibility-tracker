@@ -1,0 +1,9 @@
+{
+  "brand": "Amplemarket",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with automate multi-channel outreach sequences at scale?",
+  "response": "There are several software solutions that can help automate multi-channel outreach sequences at scale. Here are a few popular ones:\n\n1. **HubSpot**: Offers comprehensive tools for email marketing, social media, and CRM, allowing for automated outreach across multiple channels.\n\n2. **Salesforce Pardot**: Provides robust marketing automation features, including email campaigns, social media, and more, integrated with Salesforce CRM.\n\n3. **ActiveCampaign**: Known for its powerful automation capabilities, it supports email marketing, SMS, and more, with CRM integration.\n\n4. **Outreach.io**: Specializes in sales engagement and allows for automated sequences across email, phone, and social media.\n\n5. **Mailchimp**: While primarily an email marketing tool, it also offers automation features for social media and other channels.\n\n6. **Marketo**: Part of Adobe, it offers extensive marketing automation capabilities, including multi-channel outreach.\n\n7. **Sendinblue**: Provides email marketing, SMS, and chat, with automation features to manage multi-channel campaigns.\n\n8. **Zoho CRM**: Includes automation tools for email, social media, and other channels, integrated with its CRM system.\n\nThese tools can help streamline your outreach efforts by automating repetitive tasks, personalizing communication, and managing interactions across various channels.",
+  "cached_at": "2026-05-27T19:02:05Z",
+  "metadata": {}
+}

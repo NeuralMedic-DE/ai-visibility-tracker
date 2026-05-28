@@ -1,0 +1,9 @@
+{
+  "brand": "Rippling",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Gusto vs alternatives: what should I switch to?",
+  "response": "# Gusto Alternatives - Quick Comparison\n\nWithout knowing your specific pain point, here are popular options:\n\n## If cost is the issue\n- **Rippling** - More expensive but broader (payroll + HR + IT)\n- **ADP Run** - Comparable or cheaper for small businesses\n- **Paychex Flex** - Better for under 50 employees\n- **OnPay** - Budget-friendly, solid reviews\n\n## If you need more features\n- **Rippling** - Best all-in-one (payroll, HR, benefits, device management)\n- **BambooHR** - Better HR tools, especially for 50+ employees\n- **Workday** - Enterprise-level, if you're scaling significantly\n\n## If you want simplicity\n- **Square Payroll** - Super streamlined\n- **Wave** - Free (Canadian focus)\n- **Catch** - If you're self-employed/contractor\n\n## If customer support matters\n- **Paychex** - Phone support is strong\n- **ADP** - More established, varied support tiers\n\n---\n\n**What would help narrow it down:**\n- Company size / growth stage?\n- Current frustration (price, features, support)?\n- Specific needs (multi-state, benefits administration, etc.)?\n\nWhat's driving the consideration?",
+  "cached_at": "2026-05-28T06:27:39Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Numeric",
+  "prompt_id": "AL-02",
+  "llm": "openai",
+  "prompt_text": "Cheaper alternatives to BlackLine",
+  "response": "If you're looking for cheaper alternatives to BlackLine, which is a financial automation and accounting software, there are several options that might suit your needs depending on the specific features you're looking for. Here are a few alternatives:\n\n1. **FloQast**: Designed for accountants, FloQast offers close management software that integrates with existing ERP systems and is known for its ease of use.\n\n2. **NetSuite**: While not necessarily cheaper, NetSuite offers a comprehensive suite of cloud-based financial management tools that can be more cost-effective for some businesses due to its broad functionality.\n\n3. **Sage Intacct**: This is a cloud-based financial management solution that offers robust accounting features and is often more affordable for small to medium-sized businesses.\n\n4. **Xero**: Known for its user-friendly interface, Xero is a popular choice for small businesses and offers a range of accounting features at a lower cost.\n\n5. **QuickBooks Online**: A widely used accounting software that provides many of the features needed for financial management and is generally more affordable for small businesses.\n\n6. **Zoho Books**: Part of the Zoho suite, this is a cost-effective solution for small businesses looking for basic accounting features.\n\n7. **Wave Accounting**: Offers free accounting software with essential features, making it a great choice for very small businesses or freelancers.\n\nWhen considering alternatives, it's important to evaluate the specific features you need, such as reconciliation, reporting, and integration capabilities, to ensure the software you choose aligns with your business requirements.",
+  "cached_at": "2026-05-28T07:04:57Z",
+  "metadata": {}
+}

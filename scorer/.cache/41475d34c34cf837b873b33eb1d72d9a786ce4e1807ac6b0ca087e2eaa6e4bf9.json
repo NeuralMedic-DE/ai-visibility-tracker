@@ -1,0 +1,9 @@
+{
+  "brand": "Personio",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Personio integrate with Slack?",
+  "response": "Yes. **Personio has a native Slack integration**, and there are also several third‑party tools that connect Personio and Slack.\n\nAccording to Personio’s own support documentation, you can connect Slack via the **Personio Marketplace** and, once integrated, you can:[2][5]  \n- Receive **Personio-related updates in Slack channels** (e.g., daily digests of absences, birthdays, anniversaries, new employees).[2][6]  \n- **Automatically update Slack status** when employees are on time off (e.g., vacation, sick leave).[2][3]  \n- **Request time off directly in Slack** using the `/personio` command and the Personio app.[2][6]  \n\nIn addition to the native integration, there are third‑party platforms (e.g. Tray.io, Harriet, Aragorn) that can further automate workflows between **Personio and Slack**, such as HR notifications, PTO management, or employee directory lookups.[1][4][9]",
+  "cached_at": "2026-05-28T06:36:28Z",
+  "metadata": {}
+}

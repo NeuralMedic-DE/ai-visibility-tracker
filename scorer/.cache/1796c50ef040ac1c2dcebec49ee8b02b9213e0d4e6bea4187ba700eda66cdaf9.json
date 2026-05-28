@@ -1,0 +1,9 @@
+{
+  "brand": "Intercom",
+  "prompt_id": "AL-05",
+  "llm": "anthropic",
+  "prompt_text": "Open source or affordable customer support tools instead of Drift",
+  "response": "# Open Source & Affordable Customer Support Alternatives to Drift\n\n## Open Source Options\n\n### **Chatwoot**\n- Free, self-hosted live chat & ticketing\n- Multi-channel (chat, email, social media, WhatsApp)\n- Team collaboration features\n- Community-driven development\n- [chatwoot.com](https://www.chatwoot.com)\n\n### **Tiledesk**\n- Open-source live chat & chatbot platform\n- Self-hosted or cloud\n- Conversation management, knowledge base\n- Omnichannel support\n- [tiledesk.com](https://tiledesk.com)\n\n### **Zulip Server**\n- Self-hosted team communication\n- Better for internal + customer support workflows\n- Topic-based threading\n- [zulip.com](https://zulip.com)\n\n---\n\n## Affordable Proprietary Tools\n\n### **Budget-Friendly**\n- **Zendesk Chat** (~$15/month) - Basic live chat\n- **Intercom** (free tier available) - Limited but functional\n- **Help Scout** (~$20/month) - Email-based support, lightweight\n- **Freshchat** (~$10/month) - Lightweight live chat\n- **Crisp** (~$25/month) - Simple, clean interface\n\n### **Freemium with Good Free Tiers**\n- **Supabase** + custom build - For DIY approach\n- **Firebase** + Dialogflow - Chatbot foundation\n- **HubSpot Service Hub** (free tier) - Basic ticketing\n\n---\n\n## Hybrid Approach\n**Combine**: Open-source chat (Chatwoot) + ticketing system (Plane/Focalboard) = $0-50/month hosting\n\n**Best for:** Startups wanting control and affordability\n\nWhat's your main use case—live chat, helpdesk, or both?",
+  "cached_at": "2026-05-28T08:01:48Z",
+  "metadata": {}
+}

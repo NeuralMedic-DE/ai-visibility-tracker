@@ -1,0 +1,9 @@
+{
+  "brand": "Vanta",
+  "prompt_id": "IN-04",
+  "llm": "perplexity",
+  "prompt_text": "Best compliance that works with GitHub and AWS",
+  "response": "If you want the **best compliance option that works with both GitHub and AWS**, **Drata** is the strongest fit from the results because it integrates with **GitHub** and **AWS**, scans IaC in repositories, supports CI/CD workflows like **GitHub Actions**, and can automatically create pull requests for remediation.[5]\n\nIf you want an **open-source / AWS-native** alternative, **Prowler** is the best documented option here for AWS compliance and security assessment, but it is broader than GitHub integration and is mainly positioned as a cloud security/compliance scanner across AWS, Azure, GCP, Kubernetes, and Microsoft 365.[2] AWS also points to **Security Hub** for continuous assessment and compliance visibility in AWS environments, and the AWS Security Assessment Solution recommends Security Hub’s foundational security standard for ongoing checks.[3][1]\n\nA practical way to choose:\n\n| Option | Best for | GitHub support | AWS support | Notes |\n|---|---|---:|---:|---|\n| **Drata** | Continuous compliance across code and cloud | **Yes** | **Yes** | Strong fit if you want compliance-as-code, PR-based remediation, and CI/CD integration.[5] |\n| **Prowler** | Cloud security/compliance scanning | Limited/indirect in the results | **Yes** | Strong open-source AWS compliance tool; useful for audits and best-practice checks.[2][6] |\n| **AWS Security Hub** | Centralized AWS compliance visibility | Not shown in results | **Yes** | Best if you want AWS-native posture management and aggregation of findings.[1][3][8] |\n\nIf your priority is **one tool that spans GitHub workflows and AWS compliance**, pick **Drata**.[5] If your priority is **open-source and AWS-first**, pick **Prowler + AWS Security Hub** together.[2][3]",
+  "cached_at": "2026-05-28T08:28:19Z",
+  "metadata": {}
+}

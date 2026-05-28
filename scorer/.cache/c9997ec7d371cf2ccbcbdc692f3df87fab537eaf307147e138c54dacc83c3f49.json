@@ -1,0 +1,9 @@
+{
+  "brand": "Linear",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do software development teams at fast-growing companies companies use to track engineering tasks and sprints efficiently?",
+  "response": "# Common Tools for Engineering Task & Sprint Management\n\n## **Lightweight & Popular**\n- **Jira** – Industry standard for sprint planning, backlog management, and tracking. Highly customizable but can feel heavy\n- **Linear** – Gaining traction for speed and simplicity; popular with startups\n- **GitHub Issues/Projects** – Good if your code is already on GitHub; integrates seamlessly\n- **Asana** – Works well if you need cross-functional visibility beyond just engineering\n\n## **For Specific Needs**\n- **Trello** – Simple kanban boards; works for smaller teams or less complex workflows\n- **Monday.com** – Good for teams wanting dashboards and automation\n- **Plane** – Open-source Jira alternative gaining interest\n\n## **What Fast-Growing Teams Actually Prioritize**\n\n1. **Speed of entry** – Overhead of logging tasks kills adoption\n2. **Sprint automation** – Auto-closing tickets, status updates\n3. **Integration ecosystem** – Slack, GitHub, CI/CD pipelines\n4. **Visibility across teams** – Cross-functional roadmaps become critical\n5. **Scalability** – The tool needs to work at 50 engineers like it does at 10\n\n## **Real-World Pattern**\nMany scale with: GitHub Issues → Linear (or Jira) → potentially adding Roadmap/portfolio layer as complexity grows\n\n**The honest take:** The tool matters less than having *clear prioritization, realistic estimation, and actually closing sprints*. Bad process with any tool will fail; good discipline makes simpler tools work.\n\nWhat size is your team? That might help narrow suggestions.",
+  "cached_at": "2026-05-27T21:08:32Z",
+  "metadata": {}
+}

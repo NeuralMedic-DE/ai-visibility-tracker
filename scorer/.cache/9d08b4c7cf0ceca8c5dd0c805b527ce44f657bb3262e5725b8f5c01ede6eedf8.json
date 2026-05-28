@@ -1,0 +1,9 @@
+{
+  "brand": "Customer.io",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Customer.io integrate with Segment?",
+  "response": "Yes, Customer.io integrates with Segment. You can use Segment to send data to Customer.io, allowing you to manage and automate your customer communications based on the data collected and processed through Segment. This integration helps streamline your marketing efforts by ensuring that customer data is consistent and up-to-date across both platforms.",
+  "cached_at": "2026-05-28T07:14:52Z",
+  "metadata": {}
+}

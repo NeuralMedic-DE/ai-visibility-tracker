@@ -1,0 +1,9 @@
+{
+  "brand": "June.so",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does June.so integrate with Segment?",
+  "response": "Yes, June.so integrates with Segment. This integration allows you to send data from Segment to June, enabling you to leverage your customer data for better analytics and insights within June. You can set up this integration through Segment's platform, making it easier to track and analyze user behavior and metrics.",
+  "cached_at": "2026-05-27T19:56:08Z",
+  "metadata": {}
+}

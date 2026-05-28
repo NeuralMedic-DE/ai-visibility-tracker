@@ -1,0 +1,9 @@
+{
+  "brand": "Mosaic",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do CFOs and FP&A leads at growth-stage venture-backed companies companies use to build real-time financial models connected to live business data sources?",
+  "response": "# Financial Modeling Tools for Growth-Stage VCs\n\nHere's what CFOs and FP&A leads actually use at this stage:\n\n## Primary Modeling Platforms\n\n**Spreadsheet-based (still dominant)**\n- Excel/Sheets + manual data pulls or basic integrations\n- Many teams never graduate beyond this, despite its limitations\n\n**Modern purpose-built platforms**\n- **Mosaic** - Popular for connected models with API integrations\n- **Workday Adaptive Planning** - Enterprise-grade, better for Series B+\n- **Anaplan** - Salesforce-owned, handles complexity well\n- **Pigment** - Rising option, strong UX, real-time focus\n- **Vena** - Excel-native but with data connections\n- **OneStream** - More sophisticated, for financial consolidation\n\n## Data Integration Layer\n\nMost real-time setups use:\n- **Fivetran** or **Stitch** (ELT platforms) to pipe data from operational systems\n- **Custom Zapier/Make workflows** for simpler integrations\n- **Native connectors** (Salesforce, HubSpot, NetSuite APIs)\n- **Data warehouses** (Snowflake, BigQuery) as the middle layer\n\n## Honest Reality Check\n\n**Fewer companies have truly \"live\" models than claim to.** Most have:\n- Weekly or daily refreshes (not real-time)\n- Manual reconciliation steps\n- Hybrid approaches (Sheets + one data source)\n- Dashboard layers (Tableau, Looker) that *feel* live but feed static extracts\n\n**Why it's hard:** Reconciling live operational data with accounting/accrual logic requires more governance than growth-stage companies typically have built.\n\nWhat's your specific use case—revenue forecasting, cash runway, or full P&L?",
+  "cached_at": "2026-05-28T07:10:21Z",
+  "metadata": {}
+}

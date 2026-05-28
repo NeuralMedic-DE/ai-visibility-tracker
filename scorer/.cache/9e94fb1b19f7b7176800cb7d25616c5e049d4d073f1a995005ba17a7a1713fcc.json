@@ -1,0 +1,9 @@
+{
+  "brand": "Conveyor",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is Conveyor better than Drata for build a security profile that accelerates enterprise procurement and security diligence?",
+  "response": "# Conveyor vs Drata for Enterprise Security & Procurement\n\nI don't have current, detailed comparison data to definitively say one is \"better\" than the other. Here's what I'd recommend evaluating:\n\n## Key Differences (General)\n\n**Drata**\n- Stronger compliance automation focus (SOC 2, ISO 27001, etc.)\n- More established in the security/compliance space\n- Better if comprehensive compliance documentation is your priority\n\n**Conveyor**\n- Positioned more around security profiles and vendor risk\n- May be lighter-weight/faster implementation\n- Better if speed to a usable security profile matters most\n\n## What to Actually Compare\n\n1. **Procurement integration** - How well do they plug into your existing procurement workflows?\n2. **Speed to profile** - How quickly can you generate a security profile (weeks vs days)?\n3. **Depth vs breadth** - Do you need shallow profiles for many vendors or deep compliance docs for fewer?\n4. **Cost structure** - Per-vendor, per-audit, or flat pricing?\n5. **Customer references** - Talk to companies in your industry using each\n\n## My Suggestion\n\n**Demo both** with your specific use case (enterprise size, industry, vendor volume). The \"better\" tool depends heavily on whether you're optimizing for:\n- Speed of initial diligence\n- Ongoing compliance maintenance\n- Integration with your existing stack\n\nWhat's your primary bottleneck right now—getting initial vendor security info, or maintaining compliance documentation?",
+  "cached_at": "2026-05-28T08:46:14Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Lemlist",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with automate multi-channel outreach sequences across LinkedIn and email at scale?",
+  "response": "# Multi-Channel Outreach Automation Tools\n\n## Popular Options\n\n**HubSpot Sales Hub**\n- Native LinkedIn + email integration\n- Workflow automation and sequencing\n- Good for mid-market teams\n\n**Outreach**\n- Purpose-built for sales sequences\n- Strong LinkedIn + email coordination\n- Advanced analytics and cadence management\n\n**Salesloft**\n- Comprehensive cadence platform\n- LinkedIn + email + phone integration\n- AI-powered engagement features\n\n**Apollo.io**\n- Affordable alternative\n- Built-in email + LinkedIn messaging\n- Database of 200M+ contacts\n\n**Lemlist**\n- Focuses on personalized campaigns\n- LinkedIn + email combo\n- Good for cold outreach at scale\n\n**Clay**\n- Data enrichment + automation\n- Multi-channel sequencing\n- Popular with founders/agencies\n\n## Key Features to Compare\n\n- LinkedIn API compliance (critical—restrictions tightened recently)\n- Personalization at scale capabilities\n- Bounce handling and list hygiene\n- Deliverability rates\n- Integration with your CRM\n- Template library quality\n\n## Important Note\n\nLinkedIn has restricted automation significantly. Verify current API capabilities before committing—some tools use workarounds that may violate terms of service.\n\n**What's your team size and budget range?** That would help narrow down the best fit.",
+  "cached_at": "2026-05-28T07:17:18Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Totango",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which customer success software should a VP CS or Enterprise CS Lead at a large SaaS organization use?",
+  "response": "# Customer Success Software for Enterprise CS Leaders\n\nFor a VP CS or Enterprise CS Lead at a large SaaS org, the decision depends on your specific setup, but here's a practical framework:\n\n## **Top-tier options:**\n\n**Gainsight** (market leader)\n- Most feature-rich for enterprise scale\n- Strong analytics and predictive health scoring\n- Best if you need: complex multi-stakeholder management, advanced reporting, or already using Salesforce heavily\n\n**Totango**\n- Excellent for product-led growth + sales-led hybrid models\n- Strong automation and journey orchestration\n- Good if you need: flexibility across different CS motions\n\n**Planhat** \n- Purpose-built for enterprise CS (not retrofitted from CRM)\n- Strong relationship mapping and collaboration\n- Good if you prioritize: ease of adoption, cleaner UX\n\n**Vitally**\n- Newest strong contender, built modern\n- Excellent for fast-moving teams\n- Good if you want: simplicity without sacrificing power\n\n## **Decision factors:**\n\n- **Your tech stack** (especially CRM integration)\n- **Team size & complexity** (multi-region, many customer tiers?)\n- **Existing Salesforce dependency** (Gainsight integrates better)\n- **Implementation timeline** (some need 3-6 months for enterprise)\n- **Budget flexibility** ($50k-200k+ annually for enterprise)\n\n## **Honest take:**\n\nMost enterprise leaders find **Gainsight** or **Planhat** work best, but **actually using it well** matters more than the tool. Start with your use cases (health scoring, playbooks, reporting) before choosing.\n\nWhat's your biggest CS challenge right now?",
+  "cached_at": "2026-05-28T08:14:14Z",
+  "metadata": {}
+}

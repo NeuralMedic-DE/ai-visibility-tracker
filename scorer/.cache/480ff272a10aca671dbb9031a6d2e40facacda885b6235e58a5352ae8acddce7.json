@@ -1,0 +1,9 @@
+{
+  "brand": "Hightouch",
+  "prompt_id": "CD-01",
+  "llm": "openai",
+  "prompt_text": "What is the best reverse ETL for RevOps and data teams activating warehouse data in operational tools?",
+  "response": "Selecting the best reverse ETL tool for RevOps and data teams depends on specific needs and criteria such as ease of use, integrations, scalability, and support. However, some of the top reverse ETL tools that are widely recognized for activating warehouse data in operational tools include:\n\n1. **Hightouch**: Known for its user-friendly interface and robust integration capabilities, Hightouch allows teams to sync data from warehouses to various SaaS tools without needing engineering resources.\n\n2. **Census**: Offers strong data governance features and is praised for its seamless integration with popular data warehouses and business applications. It is particularly favored by teams that prioritize data accuracy and security.\n\n3. **RudderStack**: While primarily a customer data platform, RudderStack also provides reverse ETL capabilities, allowing teams to sync data from warehouses to various destinations. It’s appreciated for its developer-friendly approach.\n\n4. **Grouparoo**: An open-source option that allows teams to own their data pipelines. It’s suitable for teams that prefer more control and customization over their data processes.\n\n5. **SeekWell**: Focuses on enabling business teams to access and use data directly from their data warehouse in tools like Google Sheets and Slack, making it ideal for teams that rely heavily on spreadsheets for operations.\n\nWhen choosing a reverse ETL tool, consider factors such as the specific operational tools you need to integrate with, the complexity of your data workflows, your team's technical expertise, and your budget. It's often beneficial to trial a few options to see which best fits your team's workflow and requirements.",
+  "cached_at": "2026-05-28T09:05:11Z",
+  "metadata": {}
+}

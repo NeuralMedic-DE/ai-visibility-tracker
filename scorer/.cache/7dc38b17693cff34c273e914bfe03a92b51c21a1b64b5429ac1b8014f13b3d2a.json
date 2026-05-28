@@ -1,0 +1,9 @@
+{
+  "brand": "n8n",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I self-host workflow automation with full data control and no per-task pricing limits without spending a lot on software?",
+  "response": "# Self-Hosted Workflow Automation on a Budget\n\n## Open-Source Platforms\n\n**n8n** (most practical option)\n- Node-based visual builder, similar to Zapier/Make\n- Self-hostable Docker setup (~$5-10/month on basic VPS)\n- Generous free tier if cloud-hosted\n- Large integration library\n- Active community\n\n**Apache Airflow**\n- Python-based, designed for data pipelines\n- Steeper learning curve but powerful\n- Better for scheduled, complex workflows\n- Industry standard for data engineering\n\n**Temporal**\n- Modern workflow engine with strong reliability features\n- More enterprise-focused but open source\n- Good for mission-critical automation\n\n## Minimal Setup\n\n1. **Hosting**: Rent a $5-10/month VPS (Linode, DigitalOcean, Vultr)\n2. **Docker**: Run n8n in a container\n3. **Database**: Use included SQLite or Postgres\n4. **Reverse proxy**: Nginx for HTTPS (free with Let's Encrypt)\n\nTotal: ~$5-10/month for unlimited executions\n\n## DIY Alternative\n\nIf you're comfortable coding:\n- **Python scripts** + **cron jobs** on your VPS\n- Trigger via webhooks or scheduled tasks\n- Use libraries like `requests`, `schedule`\n- Free but requires more maintenance\n\n## Considerations\n\n- **Support**: You're responsible for uptime/troubleshooting\n- **Maintenance**: Updates, backups, monitoring\n- **Learning curve**: Visual tools (n8n) easier than code-based options\n\nWhat type of workflows are you targeting? That would help narrow recommendations.",
+  "cached_at": "2026-05-28T08:56:15Z",
+  "metadata": {}
+}

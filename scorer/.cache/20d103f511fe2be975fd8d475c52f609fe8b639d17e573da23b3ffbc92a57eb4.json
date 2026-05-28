@@ -1,0 +1,9 @@
+{
+  "brand": "Neon",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Neon integrate with Vercel?",
+  "response": "# Neon and Vercel Integration\n\nYes, **Neon integrates with Vercel**. Here are the key points:\n\n## Direct Integration\n- Neon has a native integration available in the **Vercel Marketplace**\n- You can connect your Neon PostgreSQL database to Vercel projects seamlessly\n\n## How to Set It Up\n1. Go to your Vercel project settings\n2. Navigate to the **Integrations** section\n3. Search for and add the Neon integration\n4. Authorize the connection between Neon and Vercel\n5. Select which Neon project/database to connect\n6. Environment variables are automatically configured\n\n## Benefits\n- **Automatic environment variables** - Connection strings are added automatically\n- **Easy database provisioning** - Streamlined setup process\n- **Serverless-friendly** - Works well with Vercel's serverless functions\n- **Development to production** - Manage both environments easily\n\n## Typical Use Case\nThis integration is especially popular for **Next.js projects** on Vercel that need a PostgreSQL backend, allowing developers to quickly set up full-stack applications.\n\nIf you're looking to connect Neon to Vercel, the marketplace integration is the recommended approach for the smoothest experience.",
+  "cached_at": "2026-05-28T06:18:01Z",
+  "metadata": {}
+}

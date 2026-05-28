@@ -1,0 +1,9 @@
+{
+  "brand": "Zapier",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Zapier integrate with Google Sheets?",
+  "response": "Yes, Zapier integrates with Google Sheets. This integration allows you to automate tasks between Google Sheets and other apps, enabling you to create workflows that can, for example, automatically update a spreadsheet when new data is received from another source, or trigger actions in other apps based on changes in your Google Sheets.",
+  "cached_at": "2026-05-28T08:51:15Z",
+  "metadata": {}
+}

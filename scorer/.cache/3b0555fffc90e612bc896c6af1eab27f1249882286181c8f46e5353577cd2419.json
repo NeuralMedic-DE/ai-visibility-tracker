@@ -1,0 +1,9 @@
+{
+  "brand": "Drata",
+  "prompt_id": "CM-02",
+  "llm": "anthropic",
+  "prompt_text": "Drata vs Sprinto pricing and features",
+  "response": "# Drata vs Sprinto: Pricing & Features Comparison\n\n## **Pricing**\n\n| Aspect | Drata | Sprinto |\n|--------|-------|---------|\n| **Model** | Usage-based + subscription | Subscription-based |\n| **Starting Price** | ~$2,000-3,000/month | ~$1,000-2,000/month |\n| **Transparency** | Custom quotes required | More transparent tiering |\n| **Best For** | Enterprise/scaling companies | SMBs & startups |\n\n---\n\n## **Key Features**\n\n### **Drata**\n✅ **Strengths:**\n- Multi-framework support (SOC 2, ISO 27001, HIPAA, PCI-DSS, etc.)\n- Excellent automation & evidence collection\n- Strong API integrations (100+ integrations)\n- AI-powered risk assessment\n- Detailed compliance roadmap\n- Better for high-volume compliance needs\n\n❌ **Limitations:**\n- Steeper pricing\n- Steeper learning curve\n- May be overkill for smaller orgs\n\n### **Sprinto**\n✅ **Strengths:**\n- User-friendly interface\n- Good starter frameworks (SOC 2, ISO 27001, GDPR)\n- Faster time-to-compliance\n- Better onboarding for first-timers\n- More affordable entry point\n- Intuitive task management\n\n❌ **Limitations:**\n- Fewer integrations than Drata\n- Less powerful automation\n- Fewer advanced features\n\n---\n\n## **Quick Decision Matrix**\n\n| Choose **Drata** if you... | Choose **Sprinto** if you... |\n|---|---|\n| Need multi-framework compliance | Are early-stage/pre-Series A |\n| Have complex infrastructure | Want quick, affordable compliance |\n| Require heavy automation | Prefer simplicity over features |\n| Have large compliance team | Have limited compliance budget |\n\n**Bottom line:** Drata for growth-stage/enterprise; Sprinto for startups & SMBs.",
+  "cached_at": "2026-05-28T08:28:40Z",
+  "metadata": {}
+}

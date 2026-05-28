@@ -1,0 +1,9 @@
+{
+  "brand": "Hightouch",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I sync customer data from your data warehouse to CRM and marketing tools automatically without spending a lot on software?",
+  "response": "# Low-Cost Data Sync Options\n\n## DIY/Cheap Approaches\n\n**Zapier or Make (formerly Integromat)**\n- Pay per task (~$0.99-2 each), not per user\n- Good for moderate volumes (100-1000s of syncs/month)\n- Works with most warehouse tools + CRM/marketing platforms\n- Con: Gets expensive if you're syncing thousands of records daily\n\n**Direct API connections**\n- If you have basic coding skills, write simple scripts\n- Schedule them with cron jobs or cloud functions (AWS Lambda, Google Cloud Functions ~$0.20/month for light use)\n- Con: Requires maintenance, debugging falls on you\n\n**Reverse ETL lite tools**\n- **Hightouch** or **Census**: Pay based on usage, not seats\n- Better for warehouse → CRM specifically than Zapier\n- Starting ~$300-500/month but handles complex syncs cleanly\n\n## Realistic Free/Near-Free Tier\n\n- **Fivetran, Stitch**: Usually one-way (into warehouse), not out\n- **dbt**: Transforms data but doesn't push it anywhere\n- Cloud native options: Some data warehouses (Snowflake, BigQuery) have limited free native connectors\n\n## Real Talk\n\nIf you're syncing customer data regularly:\n- Pure free = you're doing code yourself\n- $50-200/month gets you a usable tool\n- Under $100 usually means rate limits or limited sync frequency\n\n**What's your volume?** (records/month syncing) That changes the math significantly.",
+  "cached_at": "2026-05-28T09:05:36Z",
+  "metadata": {}
+}

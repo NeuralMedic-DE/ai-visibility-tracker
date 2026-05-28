@@ -1,0 +1,9 @@
+{
+  "brand": "FullStory",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is FullStory better than Mouseflow for identify rage clicks and broken flows in the product?",
+  "response": "# FullStory vs Mouseflow for Rage Clicks & Broken Flows\n\nBoth tools handle these issues, but with different strengths:\n\n## FullStory's Advantages\n- **More granular rage click detection** - Better at identifying the exact element causing frustration\n- **Stronger session replay quality** - Easier to see *why* users are raging (visual fidelity, performance details)\n- **Superior debugging data** - Captures console errors, network issues, and technical problems that break flows\n- **Better for complex products** - Excels at tracing issues through multi-step workflows\n\n## Mouseflow's Advantages\n- **Cleaner heatmap visualization** - Easier quick scan for problem areas\n- **Better form analytics** - Specifically highlights field abandonment and friction points\n- **Lower cost** - Often cheaper for smaller teams watching for basic issues\n- **Simpler setup** - Less learning curve to spot obvious problems\n\n## Key Difference\nFullStory is better at **root cause analysis** (why flows break). Mouseflow is better at **quick problem spotting** (what's broken).\n\n## Reality Check\n- **Rage clicks** are easier to detect in either tool—the difference is marginal\n- **Broken flows** detection depends more on *your team's analysis* than the tool itself\n- The \"better\" choice usually depends on your product complexity and budget\n\n**What's your current product type?** That would help narrow it down—FullStory tends to win for complex SaaS, while Mouseflow works fine for simpler workflows.",
+  "cached_at": "2026-05-27T20:46:24Z",
+  "metadata": {}
+}

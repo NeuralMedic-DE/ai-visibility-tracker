@@ -1,0 +1,9 @@
+{
+  "brand": "Amplemarket",
+  "prompt_id": "AL-03",
+  "llm": "anthropic",
+  "prompt_text": "Best CRM alternatives for outbound sales teams at B2B companies teams on a budget",
+  "response": "# Budget-Friendly CRM Alternatives for B2B Outbound Sales\n\n## Best Value Options\n\n**HubSpot Free/Starter**\n- Free tier covers basic contact management, pipelines, and email tracking\n- Strong for outbound sequences and task management\n- Scales affordably as you grow\n- Best if: You want an all-in-one platform with generous free tier\n\n**Pipedrive**\n- Designed specifically for sales-focused teams ($11-99/user/month)\n- Visual pipeline management ideal for outbound tracking\n- Good mobile app for field teams\n- Best if: Your team lives in their pipeline view\n\n**Freshsales**\n- Competitive pricing ($12-65/user/month)\n- Built-in phone, email, and SMS tools\n- Lead scoring and AI-powered insights\n- Best if: You want integrated communication tools\n\n## Lightweight/Specialized Alternatives\n\n**Close**\n- Outbound-first design ($49+/user/month, but automation-heavy)\n- Integrated calling and email\n- Best if: High-activity outbound campaigns are your focus\n\n**Zoho CRM**\n- Very affordable ($12-35/user/month)\n- Full feature set including automation\n- Great for teams in cost-sensitive regions\n- Best if: You need advanced features at rock-bottom prices\n\n**Less Is More Options**\n\n- **Airtable**: For scrappy teams building custom workflows ($10-20/user/month)\n- **Notion**: Free contact database (plus paid features)\n- **Google Sheets + Zapier**: Bare-bones but free to start\n\n## Key Questions to Ask\n- How many seats do you need?\n- Is contact/company data management your pain point?\n- Do you need automation for outbound sequences?\n- Is mobile access critical?\n\n**What's your team size and biggest current pain point?** That'll help narrow it down further.",
+  "cached_at": "2026-05-27T19:03:49Z",
+  "metadata": {}
+}

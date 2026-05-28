@@ -1,0 +1,9 @@
+{
+  "brand": "Help Scout",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with build a self-service knowledge base that reduces inbound support volume at scale?",
+  "response": "# Self-Service Knowledge Base Software\n\n## Leading Platforms\n\n**Zendesk Guide**\n- Integrated with Zendesk support suite\n- AI-powered content recommendations\n- Multi-channel publishing (web, mobile, embedded)\n\n**Confluence** (Atlassian)\n- Strong for internal/external wikis\n- Excellent search and organization\n- Good for collaborative content creation\n\n**Intercom**\n- Customer-focused interface\n- In-app messaging + knowledge base combo\n- Analytics on article effectiveness\n\n**Notion**\n- Flexible, scalable structure\n- Good for SMBs starting out\n- Customizable templates\n\n**Freshdesk Knowledge Base**\n- Built-in to support platform\n- SEO-friendly\n- AI suggestions for solutions\n\n**Document360**\n- Purpose-built for knowledge bases\n- Strong versioning and analytics\n- Good self-hosted options\n\n## Key Features to Consider\n\n- **AI/Search quality** - reduces \"answer not found\"\n- **Integration with support tools** - auto-suggests articles to agents\n- **Analytics** - shows which articles reduce tickets\n- **Multi-language support** - for global scale\n- **Mobile responsiveness** - most users search on phones\n- **Easy content management** - so it stays current\n\n## Pro Tip\nThe best knowledge base combines:\n- Good content (well-written, regularly updated)\n- Smart placement (FAQs, chatbots, contextual help)\n- Strong analytics (track deflection rates)\n\nWould you like specific recommendations based on your support volume or industry?",
+  "cached_at": "2026-05-28T08:19:37Z",
+  "metadata": {}
+}

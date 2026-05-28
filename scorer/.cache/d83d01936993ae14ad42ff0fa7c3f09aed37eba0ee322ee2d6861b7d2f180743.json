@@ -1,0 +1,9 @@
+{
+  "brand": "Amplemarket",
+  "prompt_id": "AL-02",
+  "llm": "openai",
+  "prompt_text": "Cheaper alternatives to ZoomInfo",
+  "response": "If you're looking for cheaper alternatives to ZoomInfo for sales intelligence and lead generation, here are some options you might consider:\n\n1. **LinkedIn Sales Navigator**: Offers advanced search capabilities and insights into potential leads, leveraging LinkedIn's vast professional network.\n\n2. **Clearbit**: Provides real-time intelligence on companies and contacts, integrating with various CRM systems.\n\n3. **Hunter.io**: Focuses on finding and verifying professional email addresses, useful for outreach efforts.\n\n4. **Apollo.io**: Offers a comprehensive platform for sales engagement and lead generation, with a large database of contacts and companies.\n\n5. **Lusha**: Provides contact information and company data, with a focus on accuracy and ease of use.\n\n6. **UpLead**: Offers a pay-as-you-go model for accessing verified B2B contact information.\n\n7. **Seamless.ai**: Uses AI to find contact information and company data, with a focus on sales prospecting.\n\n8. **Lead411**: Provides company and contact data, with features for email verification and sales triggers.\n\n9. **Skrapp.io**: Specializes in finding and verifying email addresses for B2B outreach.\n\n10. **Adapt.io**: Offers a database of business contacts and companies, with tools for lead generation and email campaigns.\n\nThese tools vary in terms of features, pricing, and data accuracy, so it's important to evaluate them based on your specific needs and budget.",
+  "cached_at": "2026-05-27T19:00:48Z",
+  "metadata": {}
+}

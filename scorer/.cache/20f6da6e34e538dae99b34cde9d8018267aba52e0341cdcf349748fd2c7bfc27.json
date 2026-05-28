@@ -1,0 +1,9 @@
+{
+  "brand": "Teamtailor",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Teamtailor with LinkedIn?",
+  "response": "# Connecting Teamtailor with LinkedIn\n\nHere's how to set up the integration:\n\n## Basic Steps\n\n1. **Log in to Teamtailor** and go to **Settings**\n2. Navigate to **Integrations** or **Connected Apps**\n3. Look for **LinkedIn** in the available integrations\n4. Click **Connect** or **Authorize**\n5. You'll be redirected to LinkedIn to approve access\n6. Grant the necessary permissions\n7. Return to Teamtailor to confirm the connection\n\n## What You Can Do\n\nOnce connected, you can typically:\n- **Post job openings** directly to LinkedIn\n- **Pull candidate data** from LinkedIn profiles\n- **Auto-fill applications** with LinkedIn information\n- **Track applicant sources** from LinkedIn\n\n## Troubleshooting\n\n- Ensure you have **admin access** in Teamtailor\n- Use a **LinkedIn company account** (not personal)\n- Check that your LinkedIn account has permission to post jobs\n- Clear browser cache if authorization fails\n\n## Need More Help?\n\nCheck Teamtailor's **help documentation** or contact their support team—the exact steps can vary depending on your Teamtailor plan and any recent updates.\n\nIs there a specific part of the LinkedIn integration you're having trouble with?",
+  "cached_at": "2026-05-28T06:42:07Z",
+  "metadata": {}
+}

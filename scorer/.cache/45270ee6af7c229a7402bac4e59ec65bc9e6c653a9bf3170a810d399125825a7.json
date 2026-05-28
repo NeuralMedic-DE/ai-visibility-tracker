@@ -1,0 +1,9 @@
+{
+  "brand": "Helicone",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to Portkey",
+  "response": "# Cheaper Alternatives to Portkey\n\n## **API Gateway/Load Balancing**\n- **LiteLLM** - Open-source, self-hostable (free)\n- **Ollama** - Local LLM deployment (free)\n- **OpenRouter** - Pay-per-use aggregator\n- **Together AI** - Competitive inference pricing\n- **Hugging Face Inference API** - Budget-friendly options\n\n## **Cost Optimization**\n- **AWS Bedrock** - Direct provider pricing (sometimes cheaper)\n- **Azure OpenAI** - Often has enterprise discounts\n- **Direct API access** - Cut out middleman fees\n- **Groq** - Very fast, cheap inference\n- **Anyscale** - Cost-effective LLM serving\n\n## **Self-Hosted Solutions**\n- **vLLM** - Fast LLM inference engine\n- **Text Generation WebUI** - Local hosting\n- **LocalAI** - Drop-in OpenAI replacement\n- **Ollama** - Simple local deployment\n\n## **Lightweight Alternatives**\n- **Anthropic Claude API** - Direct (no markup)\n- **Google Gemini API** - Often cheaper per token\n- **Open-source models** - Llama 2, Mistral (via providers like Together AI)\n\n## **Hybrid Approach**\nMix direct API access with a lightweight router (like LiteLLM) to manage costs yourself without paying for a managed service.\n\n**Best choice depends on:** Volume, latency needs, and whether you want managed vs. self-hosted.",
+  "cached_at": "2026-05-28T07:49:38Z",
+  "metadata": {}
+}

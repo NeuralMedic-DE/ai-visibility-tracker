@@ -1,0 +1,9 @@
+{
+  "brand": "Workable",
+  "prompt_id": "UC-03",
+  "llm": "openai",
+  "prompt_text": "What tools do HR teams at SMB and mid-market companies hiring at scale companies use to post jobs to 200 plus job boards with a single click?",
+  "response": "HR teams at SMB and mid-market companies often use recruitment marketing platforms or applicant tracking systems (ATS) that offer job distribution features to post jobs to multiple job boards with a single click. Some popular tools that provide this functionality include:\n\n1. **LinkedIn Talent Solutions**: Offers job distribution to multiple boards and social media platforms.\n2. **Indeed**: While primarily a job board, it also partners with other sites for broader distribution.\n3. **ZipRecruiter**: Allows posting to over 100 job boards with a single submission.\n4. **SmartRecruiters**: An ATS that includes a marketplace for job distribution.\n5. **Greenhouse**: Offers integrations with various job boards for broad distribution.\n6. **Lever**: Provides job posting capabilities across multiple platforms.\n7. **Jobvite**: Offers a recruitment suite with job distribution features.\n8. **Broadbean**: Specializes in multi-posting and analytics for job distribution.\n9. **Recruiterbox**: Allows posting to multiple job boards from a single platform.\n10. **iCIMS**: Offers job distribution as part of its talent acquisition suite.\n\nThese tools help streamline the recruitment process by automating the job posting process, saving time, and ensuring a wider reach to potential candidates.",
+  "cached_at": "2026-05-28T06:46:05Z",
+  "metadata": {}
+}

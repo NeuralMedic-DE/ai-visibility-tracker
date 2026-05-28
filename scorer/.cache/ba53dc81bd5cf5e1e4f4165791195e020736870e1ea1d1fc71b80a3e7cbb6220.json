@@ -1,0 +1,9 @@
+{
+  "brand": "Vellum",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Vellum integrate with OpenAI?",
+  "response": "# Vellum and OpenAI Integration\n\nYes, **Vellum integrates with OpenAI**. \n\nVellum is a platform for building, testing, and deploying AI applications, and it supports OpenAI's models as one of its available LLM providers. You can use OpenAI's models (like GPT-4, GPT-3.5-turbo, etc.) directly within Vellum's workflows and applications.\n\n## Key integration features:\n- **Model access** - Use OpenAI models in your Vellum workflows\n- **API management** - Handle authentication with your OpenAI API keys\n- **Testing & evaluation** - Test prompts and chains with OpenAI models\n- **Production deployment** - Deploy applications using OpenAI's models\n\nIf you're planning to use this integration, you'll need an OpenAI API key and a Vellum account to get started.",
+  "cached_at": "2026-05-28T07:45:09Z",
+  "metadata": {}
+}

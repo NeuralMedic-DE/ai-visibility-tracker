@@ -1,0 +1,9 @@
+{
+  "brand": "Planhat",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Planhat integrate with Salesforce?",
+  "response": "Yes, Planhat does integrate with Salesforce. This integration allows you to sync data between the two platforms, enabling better customer relationship management and providing a more comprehensive view of customer interactions and metrics. You can typically set up the integration to automate data flow and enhance your customer success processes.",
+  "cached_at": "2026-05-28T08:12:09Z",
+  "metadata": {}
+}

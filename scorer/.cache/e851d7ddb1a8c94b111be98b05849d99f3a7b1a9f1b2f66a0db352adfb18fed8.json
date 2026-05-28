@@ -1,0 +1,9 @@
+{
+  "brand": "ChartMogul",
+  "prompt_id": "IN-04",
+  "llm": "openai",
+  "prompt_text": "Best SaaS analytics that works with Stripe and Chargebee",
+  "response": "When looking for SaaS analytics tools that integrate well with Stripe and Chargebee, you have several good options. Here are some of the best:\n\n1. **Baremetrics**: Known for its deep integration with Stripe, Baremetrics provides real-time SaaS analytics, including MRR, ARR, churn rate, and more. It also supports Chargebee, making it a versatile choice for subscription analytics.\n\n2. **ProfitWell**: This tool offers comprehensive subscription analytics and is designed to integrate seamlessly with both Stripe and Chargebee. ProfitWell provides insights into MRR, churn, and customer lifetime value, among other metrics.\n\n3. **ChartMogul**: ChartMogul is another popular choice for subscription analytics and works well with both Stripe and Chargebee. It offers detailed insights into revenue, customer behavior, and growth metrics.\n\n4. **Metorik**: While primarily known for its WooCommerce analytics, Metorik also supports Stripe and provides detailed reports and insights for subscription businesses.\n\n5. **KPI Sense**: This tool is designed to help SaaS companies with financial modeling and analytics, and it integrates with Stripe and Chargebee to provide detailed financial insights.\n\nEach of these tools offers unique features, so the best choice depends on your specific needs, such as the level of detail you require, your budget, and any additional features you might need, like forecasting or cohort analysis.",
+  "cached_at": "2026-05-28T06:55:13Z",
+  "metadata": {}
+}

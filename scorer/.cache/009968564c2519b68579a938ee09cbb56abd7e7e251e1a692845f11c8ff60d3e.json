@@ -1,0 +1,9 @@
+{
+  "brand": "Supermetrics",
+  "prompt_id": "IN-03",
+  "llm": "perplexity",
+  "prompt_text": "How do I connect Supermetrics with Google Analytics?",
+  "response": "You can connect **Supermetrics** to **Google Analytics 4** by installing the Supermetrics add-on, opening the Supermetrics sidebar, selecting **Google Analytics 4** as the data source, and signing in with your Google account to authorize access.[1][4][5]\n\nThe basic steps are:\n\n- In **Google Sheets**, open **Extensions** → **Add-ons** → **Get add-ons** and install **Supermetrics**.[4]\n- After installation, open **Extensions** → **Supermetrics** → **Launch** to open the sidebar.[4]\n- Search for and select **Google Analytics 4** in the connector list.[1][4]\n- Sign in with your **Google account** and grant Supermetrics permission to access your Analytics data.[1][4][5]\n- Create a query by choosing the **property/view**, **date range**, **metrics**, and **dimensions** you want.[4][6]\n- Run the query to pull the data into your spreadsheet, and optionally set up a **schedule** to refresh it automatically.[1][2][7]\n\nIf you want, I can also give you:\n- a **step-by-step setup for Google Sheets**\n- the steps for **Looker Studio**\n- the steps for **BigQuery**",
+  "cached_at": "2026-05-27T20:42:43Z",
+  "metadata": {}
+}

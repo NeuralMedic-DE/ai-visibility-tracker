@@ -1,0 +1,9 @@
+{
+  "brand": "Checkly",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Datadog vs alternatives: what should I switch to?",
+  "response": "# Datadog vs Alternatives\n\nThe \"best\" switch depends on your priorities. Here's a breakdown:\n\n## **If cost is primary:**\n- **Prometheus + Grafana** – Open source, self-hosted, minimal fees\n- **New Relic** – Often 30-40% cheaper for similar features\n- **Elastic Stack** – Good for log-heavy workloads, lower cost at scale\n\n## **If you want all-in-one (APM + logs + metrics):**\n- **New Relic** – Strong APM, unified platform, easier setup\n- **Elastic** – Logs especially strong; more operational overhead\n- **Splunk** – Most powerful for logs; highest cost\n\n## **If you're cloud-native focused:**\n- **AWS CloudWatch** – Free tier generous, native integrations (but UI lags Datadog)\n- **Google Cloud Monitoring** – Best in GCP ecosystem\n- **Azure Monitor** – Best in Azure ecosystem\n\n## **If you want simplicity:**\n- **Datadog alternatives like Sentry** (errors only) or **Honeycomb** (great for debugging)\n- **Fly.io Metrics** – Minimal, straightforward\n\n## **Real questions to ask:**\n1. What's actually expensive? (ingestion, users, retention?)\n2. Are you locked into a cloud provider?\n3. Can you afford operational overhead (self-hosted)?\n4. Do you need full APM or just metrics/logs?\n\n**Most common migration path:** Datadog → New Relic (easier transition) or Prometheus/Grafana (cost-sensitive teams).\n\nWhat's driving your consideration—cost, specific missing features, or something else?",
+  "cached_at": "2026-05-28T06:22:56Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Drip",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I automate personalized e-commerce email flows based on purchase behavior without spending a lot on software?",
+  "response": "# Low-Cost Personalized Email Automation\n\n## Free/Cheap Foundations\n\n**Email platforms with automation:**\n- **Brevo** (formerly Sendinblue) - free tier includes basic automation\n- **Mailchimp** - free for <500 contacts; automation available\n- **ActiveCampaign** - has a genuinely affordable tier with solid automation\n- **Klaviyo** - pricier but focused on ecommerce (free tier for <500 contacts)\n\n## DIY Implementation (Cheapest)\n\n**If you have technical capacity:**\n- Use your ecommerce platform's native hooks (Shopify, WooCommerce, etc.)\n- Write scripts that trigger emails based on Webhook events\n- Store customer data in a simple database\n- Services like **Zapier** or **Make** can connect platforms ($10-20/month)\n\n## Practical Automation Workflows (Low-Tech)\n\n1. **Post-purchase** → Thank you + product tips (template)\n2. **Browse abandonment** → Simple reminder (CSV upload segment)\n3. **Low-frequency buyers** → Win-back offers (static segment)\n4. **High-value customers** → VIP perks (manual list)\n\n**Start here:** Set 2-3 workflows initially, not 20.\n\n## Reality Check\n\n- Most \"personalization\" doesn't require fancy AI—product category + purchase history covers 80%\n- Segmentation matters more than dynamic content when budget is tight\n- You'll outgrow free tools eventually, but starting small lets you prove ROI first\n\nWhat platform are you currently selling on? That changes the recommendation significantly.",
+  "cached_at": "2026-05-28T07:33:02Z",
+  "metadata": {}
+}

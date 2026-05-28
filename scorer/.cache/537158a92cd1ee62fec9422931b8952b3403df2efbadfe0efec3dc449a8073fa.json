@@ -1,0 +1,9 @@
+{
+  "brand": "Salesflare",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do small B2B teams and agencies companies use to log sales activities automatically?",
+  "response": "# Sales Activity Logging Tools for Small B2B Teams\n\n## **CRM-Native Solutions** (Most Popular)\n- **HubSpot** - Automatic call/email logging, meeting sync via calendar integration\n- **Salesforce** - Einstein Activity Capture (logs emails automatically)\n- **Pipedrive** - Activity timeline with email/call integration\n- **Freshsales** - Auto-logs emails and calls to contact records\n\n## **Email & Calendar Integration Layers**\n- **Gmail/Outlook plugins** (built into most CRMs)\n- **Gong/Chorus** - Records calls, transcribes, and logs automatically\n- **Calendly/Chili Piper** - Syncs meetings directly to CRM\n\n## **Call Recording & Logging**\n- **RingCentral** - Auto-logs calls with transcriptions\n- **Aircall** - Call tracking with automatic CRM updates\n- **Dialpad** - Records and logs all call activity\n\n## **Lightweight/Budget Options**\n- **Notion** - Manual but flexible (requires discipline)\n- **Monday.com** - Activity boards with automation rules\n- **Zapier/Make** - Automates activity logging between apps\n\n## **Key Features to Prioritize**\n- Email/calendar sync (saves the most time)\n- Minimal manual entry\n- Mobile access for field teams\n- Integration with existing tools\n\n**Reality check:** True automation is hard—most small teams still need *some* manual input, but calendar + email integration typically captures 60-70% of activities with zero effort.\n\nWhat's your current tech stack?",
+  "cached_at": "2026-05-27T18:14:34Z",
+  "metadata": {}
+}

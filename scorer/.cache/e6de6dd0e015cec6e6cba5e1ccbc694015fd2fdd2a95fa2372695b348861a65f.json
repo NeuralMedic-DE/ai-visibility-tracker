@@ -1,0 +1,9 @@
+{
+  "brand": "Front",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Front HubSpot integration: how does it work?",
+  "response": "# HubSpot Integration Overview\n\n## **What It Does**\nA Front-HubSpot integration connects your email management (Front) with your CRM (HubSpot), enabling:\n\n- **Contact sync** - Automatically create/update HubSpot contacts from Front conversations\n- **Deal tracking** - Link emails to specific deals and pipelines\n- **Activity logging** - Email interactions automatically recorded in HubSpot timelines\n- **Two-way data flow** - Information updates across both platforms\n\n## **Key Features**\n\n| Feature | Function |\n|---------|----------|\n| **Email context in HubSpot** | View Front conversations directly in contact records |\n| **Conversation linking** | Attach emails to deals, companies, or contacts |\n| **Automated workflows** | Trigger HubSpot actions based on Front email events |\n| **Contact enrichment** | Pull HubSpot data into Front for context |\n\n## **How to Set It Up**\n\n1. **Install the integration** - Connect via Front or HubSpot app marketplace\n2. **Authenticate** - Grant permissions to both platforms\n3. **Configure mapping** - Choose which data syncs (emails, custom fields, etc.)\n4. **Set rules** - Define when/how data transfers\n5. **Test** - Verify sync works with test conversation\n\n## **Common Use Cases**\n- Sales teams responding to leads while tracking in CRM\n- Customer support logging interactions to client records\n- Shared inbox managing incoming leads with automatic HubSpot logging\n\n**Prefer a specific setup help or troubleshooting issue?**",
+  "cached_at": "2026-05-28T08:17:22Z",
+  "metadata": {}
+}

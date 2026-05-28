@@ -1,0 +1,9 @@
+{
+  "brand": "Pipedrive",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Pipedrive integrate with Slack?",
+  "response": "Yes, Pipedrive does integrate with Slack. This integration allows you to receive notifications and updates from Pipedrive directly in your Slack channels. You can set it up to get alerts about deal updates, activity reminders, and other important information, helping your team stay informed and collaborate more effectively. You can find and configure this integration through the Pipedrive Marketplace or Slack's app directory.",
+  "cached_at": "2026-05-27T17:13:07Z",
+  "metadata": {}
+}

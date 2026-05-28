@@ -1,0 +1,9 @@
+{
+  "brand": "Conveyor",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with build a security profile that accelerates enterprise procurement and security diligence at scale?",
+  "response": "One software solution that can help build a security profile to accelerate enterprise procurement and security diligence at scale is SecurityScorecard. It provides a comprehensive platform for assessing and monitoring the security posture of vendors and partners. SecurityScorecard offers continuous monitoring, risk assessment, and detailed security ratings that can streamline the procurement process by providing insights into the security practices of potential vendors.\n\nAnother option is BitSight, which offers similar capabilities in terms of security ratings and risk management. Both platforms help organizations quickly evaluate the security posture of third parties, making it easier to make informed procurement decisions and manage security risks effectively.\n\nAdditionally, platforms like RiskRecon and Panorays also provide tools for third-party risk management and security assessment, which can be beneficial for enterprise procurement and security diligence. These tools automate the evaluation process and provide actionable insights to help organizations maintain a strong security posture while engaging with vendors.",
+  "cached_at": "2026-05-28T08:46:23Z",
+  "metadata": {}
+}

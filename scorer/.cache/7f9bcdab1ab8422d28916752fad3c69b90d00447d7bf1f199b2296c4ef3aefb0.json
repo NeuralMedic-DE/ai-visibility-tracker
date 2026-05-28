@@ -1,0 +1,9 @@
+{
+  "brand": "Pipedrive",
+  "prompt_id": "CM-03",
+  "llm": "anthropic",
+  "prompt_text": "Pipedrive vs HubSpot for small and mid-size sales teams",
+  "response": "# Pipedrive vs HubSpot: Quick Comparison\n\n## Pipedrive\n**Best for:** Sales-focused teams prioritizing pipeline management\n\n**Strengths:**\n- Intuitive visual pipeline (drag-and-drop deals)\n- Faster onboarding & learning curve\n- Lower cost entry point\n- Excellent mobile app\n- Minimal bloat—sales tools without extras\n\n**Weaknesses:**\n- Limited built-in marketing features\n- Weaker email integration\n- Smaller app ecosystem\n- Less advanced reporting\n\n**Typical cost:** $14–99/user/month\n\n---\n\n## HubSpot\n**Best for:** Teams needing sales + marketing + service integration\n\n**Strengths:**\n- All-in-one platform (CRM + marketing + support)\n- Stronger automation & workflows\n- Better reporting & analytics\n- Excellent free tier (basic CRM)\n- Large app marketplace\n\n**Weaknesses:**\n- Steeper learning curve\n- Can feel feature-heavy for sales-only teams\n- Pricier at scale\n- Interface sometimes cluttered\n\n**Typical cost:** Free → $45–3,200+/month (tiered)\n\n---\n\n## Decision Framework\n\n| **Choose Pipedrive if:** | **Choose HubSpot if:** |\n|---|---|\n| Sales efficiency is #1 priority | You need integrated marketing/support |\n| Budget is tight | You want one unified platform |\n| Team is 5–30 people | You need advanced workflows |\n| Simple CRM with power features | You want a free starting point |\n\n**Honest take:** Pipedrive wins on *sales focus*; HubSpot wins on *flexibility*. Test both free trials—the difference in UX will be immediately obvious.",
+  "cached_at": "2026-05-27T17:48:04Z",
+  "metadata": {}
+}

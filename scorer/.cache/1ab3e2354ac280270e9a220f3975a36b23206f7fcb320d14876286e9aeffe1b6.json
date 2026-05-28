@@ -1,0 +1,9 @@
+{
+  "brand": "Grip Security",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I identify risky and unmanaged SaaS app usage across your entire organization without spending a lot on software?",
+  "response": "# Low-Cost SaaS Risk Identification\n\n## Free/Cheap Immediate Options\n\n**Network-level visibility** (minimal cost)\n- Monitor DNS queries and HTTP traffic logs you likely already have\n- Look for unusual domains and frequency patterns\n- Tools like Zeek (free, open-source) can categorize traffic\n- Your firewall probably already logs this—just need to review it\n\n**Ask people directly** (free)\n- Survey employees about tools they use daily\n- You'll be surprised what's in use—and it's honest\n- Creates awareness that this matters\n\n**Check what you're already paying for**\n- Review credit card statements and expense reports\n- Look at SSO/identity provider logs (if you have them)\n- Cloud storage usage patterns\n\n## Low-Cost Tools ($0-100/month)\n\n- **Netskope Free** or **Cisco Umbrella's free tier** - cloud app discovery\n- **StrongDM** or **Vanta** - have affordable tiers for smaller orgs\n- **Open-source alternatives**: Suricata for network monitoring\n\n## What to Actually Look For\n\n- Apps handling sensitive data (financial, customer, health info)\n- No encryption or weak security\n- Single sign-on gaps (personal accounts)\n- Data exfiltration risk (copy/download/share features)\n- Redundant tools (multiple contract expenses)\n- Lack of audit logs\n- No data residency controls\n\n## The Real Issue\n\nMost risk comes from apps **you don't know about**, not from intentional bad choices. Start with visibility before buying expensive tools.\n\nWhat's your main concern—security, compliance, or cost creep?",
+  "cached_at": "2026-05-28T08:41:23Z",
+  "metadata": {}
+}

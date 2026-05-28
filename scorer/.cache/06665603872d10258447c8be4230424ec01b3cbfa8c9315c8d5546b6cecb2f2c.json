@@ -1,0 +1,9 @@
+{
+  "brand": "Reply.io",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Reply.io with Salesforce?",
+  "response": "# Connecting Reply.io with Salesforce\n\nHere's the general process:\n\n## Basic Steps\n\n1. **Open Reply.io Settings**\n   - Go to your Reply.io account\n   - Navigate to **Integrations** or **Settings**\n\n2. **Find Salesforce Integration**\n   - Look for the Salesforce connector/app\n   - Click **Connect** or **Authorize**\n\n3. **Authenticate**\n   - You'll be redirected to Salesforce login\n   - Log in with your Salesforce credentials\n   - Grant Reply.io permission to access your Salesforce account\n\n4. **Configure Sync Settings**\n   - Choose what data to sync (contacts, leads, opportunities)\n   - Set sync direction (one-way or two-way)\n   - Select which fields to map between platforms\n\n5. **Test & Enable**\n   - Run a test sync if available\n   - Enable the integration\n\n## Key Features After Connection\n\n- Sync campaign results back to Salesforce\n- Auto-create/update leads and contacts\n- Track email opens and clicks in Salesforce\n- Log calls and activities automatically\n\n## Troubleshooting Tips\n\n- Verify you have admin access in both platforms\n- Check that your Salesforce edition supports API access\n- Ensure proper field permissions and mappings\n- Contact Reply.io support if authorization fails\n\n**Note:** Steps may vary slightly depending on your Reply.io plan and Salesforce version. Check Reply.io's official documentation for the most current instructions.",
+  "cached_at": "2026-05-28T07:21:35Z",
+  "metadata": {}
+}

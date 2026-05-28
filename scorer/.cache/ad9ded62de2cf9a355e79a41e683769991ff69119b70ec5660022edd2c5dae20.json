@@ -1,0 +1,9 @@
+{
+  "brand": "Maxio",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best billing for finance teams at B2B SaaS companies with complex pricing?",
+  "response": "# Billing Solutions for Complex B2B SaaS Pricing\n\n## Top contenders for finance teams:\n\n**Stripe Billing**\n- Native integration if you're already on Stripe\n- Handles usage-based, tiered, and hybrid models well\n- Strong revenue recognition (ASC 606) features\n- Good API for custom workflows\n- Limitation: less ideal if you need advanced contract management\n\n**Zuora**\n- Purpose-built for complex recurring revenue\n- Strongest in revenue recognition and subscription lifecycle management\n- Excellent for multi-currency, multi-entity setups\n- Better if you need CPQ (Configure, Price, Quote) integration\n- Trade-off: steeper learning curve, higher cost\n\n**Chargebee**\n- Strong middle ground on complexity vs. usability\n- Good at usage metering and dunning management\n- Solid financial reporting and integrations\n- Easier to implement than Zuora, cheaper too\n\n**NetSuite/Oracle Netsuite**\n- If you already use NetSuite for ERP\n- Handles everything end-to-end (billing → GL)\n- Overkill if billing is your only need\n\n## Key questions to ask first:\n\n1. **How variable is your pricing?** (Usage-based, seat-based, tiered combinations?)\n2. **Do you need CPQ?** (Contract negotiation workflow matters)\n3. **Revenue recognition complexity?** (Multi-entity, multi-currency, ASC 606 requirements)\n4. **Finance system?** (What's your ERP/GL?)\n5. **Volume and growth trajectory?**\n\nWhat's your specific complexity driver—usage metering, contract terms, or something else?",
+  "cached_at": "2026-05-28T06:52:32Z",
+  "metadata": {}
+}

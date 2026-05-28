@@ -1,0 +1,9 @@
+{
+  "brand": "n8n",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect n8n with GitHub?",
+  "response": "# Connecting n8n with GitHub\n\nHere are the main methods to integrate n8n with GitHub:\n\n## 1. **Using GitHub Credentials (OAuth)**\n\n### Setup:\n1. In n8n, create a new credential of type **GitHub**\n2. Click **\"Connect my account\"**\n3. You'll be redirected to GitHub to authorize n8n\n4. Grant the necessary permissions\n5. You'll be redirected back to n8n with your credentials saved\n\n### Permissions typically needed:\n- `repo` - Full control of private repositories\n- `workflow` - GitHub Actions workflow access\n- `user` - User profile information\n\n## 2. **Using Personal Access Token (PAT)**\n\nIf OAuth isn't available or you prefer PAT:\n\n1. Go to GitHub → **Settings** → **Developer settings** → **Personal access tokens**\n2. Click **\"Generate new token\"**\n3. Select scopes:\n   - `repo` - Repository access\n   - `workflow` - Actions workflow\n   - `user` - User data\n4. Copy the token\n5. In n8n, create GitHub credentials and select **\"Personal Access Token\"** as auth type\n6. Paste your token\n\n## 3. **Common n8n GitHub Nodes**\n\nOnce connected, you can use nodes like:\n- **GitHub Trigger** - Listen for events (push, PR, issues)\n- **GitHub** - Perform actions (create issues, manage repos, etc.)\n- **GitHub API** - Direct API calls for advanced operations\n\n## 4. **Example Workflow**\nTrigger on new GitHub issue → Process data → Create notification\n\n---\n\n**Need help with a specific use case?** Let me know what you're trying to accomplish!",
+  "cached_at": "2026-05-28T08:56:24Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Reply.io",
+  "prompt_id": "AL-03",
+  "llm": "anthropic",
+  "prompt_text": "Best sales engagement alternatives for sales teams at B2B SaaS companies running outbound sequences teams on a budget",
+  "response": "# Budget-Friendly Sales Engagement Alternatives for B2B SaaS\n\n## Free/Freemium Options\n\n**Apollo.io**\n- Free tier covers basic prospecting + limited email sends\n- Good CRM integration\n- Best for: Starting outbound with minimal investment\n\n**Lemlist**\n- Generous free plan with personalization features\n- Unlimited landing pages\n- Best for: Teams prioritizing email personalization\n\n**Instantly.ai**\n- Free unlimited emails (deliverability varies)\n- Simple sequences\n- Best for: High-volume, cost-zero testing\n\n## Low-Cost Paid ($50-150/month range)\n\n**Smartlead**\n- $50/month entry point\n- Built-in warm-up, decent deliverability\n- Best for: Teams needing reliability on tight budgets\n\n**Dripify**\n- LinkedIn + email combo\n- $99/month reasonable pricing\n- Best for: LinkedIn-first outbound strategies\n\n**Outreach alternatives:**\n- **Streak** (Gmail-native, $50/user/month)\n- **HubSpot Sales Hub** ($50/month base)\n\n## DIY/Hybrid Approaches\n\n- **Gmail + Mailchimp** for sequences\n- **LinkedIn Sales Navigator** + spreadsheet tracking\n- **Airtable + Zapier** for custom automation ($20-50)\n- **Notion** + scheduling tools for lightweight ops\n\n## Selection Framework\n\nChoose based on:\n1. **Primary channel** (email, LinkedIn, multi-channel?)\n2. **Team size** (per-user pricing cuts differently at scale)\n3. **Deliverability needs** (some free tiers have IP/domain limitations)\n4. **Integration requirements** (Salesforce, HubSpot, custom?)\n\n**Pro tip:** Many of these offer 30-day free trials. Test with 1-2 reps before committing to see what actually works for your ICP.\n\nWhat's your team size and primary outreach channel?",
+  "cached_at": "2026-05-28T07:21:20Z",
+  "metadata": {}
+}

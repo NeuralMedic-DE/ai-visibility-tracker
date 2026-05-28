@@ -1,0 +1,9 @@
+{
+  "brand": "Encharge",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with build complex automation flows with a visual drag-and-drop editor at scale?",
+  "response": "Software like **Zapier**, **Make (formerly Integromat)**, and **Microsoft Power Automate** are popular tools that allow users to build complex automation flows using a visual drag-and-drop editor. These platforms enable users to connect various applications and services to automate workflows without needing extensive programming knowledge. They are designed to scale with the needs of businesses, supporting a wide range of integrations and complex logic.",
+  "cached_at": "2026-05-28T07:28:26Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Sprinto",
+  "prompt_id": "CM-02",
+  "llm": "anthropic",
+  "prompt_text": "Sprinto vs Drata pricing and features",
+  "response": "# Sprinto vs Drata: Pricing & Features\n\n## **Pricing**\n\n| Aspect | Sprinto | Drata |\n|--------|---------|-------|\n| **Model** | Usage-based + fixed tiers | Usage-based (custom quotes) |\n| **Starting Price** | ~₹50K-100K/month (India) | $1,000-$3,000+/month (US) |\n| **Transparency** | Published pricing tiers | Custom quotes only |\n| **Free Trial** | Yes (14 days) | Yes (14 days) |\n\n---\n\n## **Key Features Comparison**\n\n### **Compliance & Certifications**\n| Feature | Sprinto | Drata |\n|---------|---------|-------|\n| SOC 2 | ✅ | ✅ |\n| ISO 27001 | ✅ | ✅ |\n| GDPR/HIPAA | ✅ | ✅ |\n| SOC 1 | ✅ | ✅ |\n| HITRUST | ❌ | ✅ |\n| FedRAMP | ❌ | ✅ |\n\n### **Core Capabilities**\n\n**Sprinto Strengths:**\n- Strong in India/Asia-Pacific focus\n- Real-time compliance monitoring\n- Risk assessment automation\n- Evidence collection automation\n- Good for startups & scale-ups\n\n**Drata Strengths:**\n- More US-centric (broader US certification support)\n- Advanced audit readiness features\n- Better for larger enterprises\n- Strong integrations ecosystem\n- FedRAMP/HITRUST for regulated industries\n\n---\n\n## **Best For**\n\n| Choose Sprinto If... | Choose Drata If... |\n|----------------------|-------------------|\n| Early-stage startup | Enterprise-scale |\n| India/APAC based | US/Global presence |\n| SOC 2 primary focus | Multiple certifications needed |\n| Budget-conscious | Need premium support |\n\n**Note:** Get custom quotes from both; pricing varies significantly by company size and requirements.",
+  "cached_at": "2026-05-28T08:31:07Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Front",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is Front better than Help Scout for automate customer communication workflows with intelligent routing rules and macros?",
+  "response": "# Front vs Help Scout: Automation & Routing\n\n**Front has stronger automation advantages:**\n\n- **Intelligent routing rules**: More sophisticated conditional logic for assigning conversations based on multiple criteria (content, sender, tags, custom fields)\n- **Macros**: Robust macro system with dynamic variables and conditional text\n- **Workflow automation**: Better for complex multi-step sequences and handoffs\n- **API flexibility**: Easier to build custom automation integrations\n\n**Help Scout's strengths are more modest:**\n\n- Solid basic macros and saved replies\n- Workload balancing for distribution\n- Decent but simpler automation rules\n- Better for straightforward workflows\n\n## Important context:\n\nThe \"better\" choice depends on:\n- **Complexity needed**: If you need intricate conditional logic, Front wins\n- **Team size**: Help Scout works fine for smaller teams with simpler processes\n- **Budget**: Help Scout is typically cheaper\n- **Integration needs**: What other tools do you use? Integration availability matters\n\n**Recommendation**: If intelligent routing and advanced macros are deal-breakers for you, Front is the safer pick. If your workflows are moderate complexity, Help Scout might be sufficient and cost-effective.\n\nWould you like help comparing their pricing or integration capabilities for your specific use case?",
+  "cached_at": "2026-05-28T08:17:02Z",
+  "metadata": {}
+}

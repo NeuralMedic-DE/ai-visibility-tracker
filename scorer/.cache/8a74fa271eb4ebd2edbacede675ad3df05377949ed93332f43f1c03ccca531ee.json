@@ -1,0 +1,9 @@
+{
+  "brand": "Metabase",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Metabase with PostgreSQL?",
+  "response": "# Connecting Metabase to PostgreSQL\n\nHere's a step-by-step guide:\n\n## 1. **Start Metabase**\n   - Launch Metabase (ensure it's running on `localhost:3000` or your configured URL)\n\n## 2. **Access Admin Settings**\n   - Click the **gear icon** (⚙️) in the top right\n   - Select **Admin settings**\n\n## 3. **Navigate to Databases**\n   - Go to **Databases** tab\n   - Click **Add a database**\n\n## 4. **Configure PostgreSQL Connection**\n   Fill in the required fields:\n\n   | Field | Example |\n   |-------|---------|\n   | **Name** | My PostgreSQL DB |\n   | **Database type** | PostgreSQL |\n   | **Host** | localhost (or your server IP) |\n   | **Port** | 5432 (default) |\n   | **Database name** | your_database |\n   | **Username** | postgres (or your user) |\n   | **Password** | your_password |\n\n5. **Optional Settings**\n   - **Use a connection string** (advanced): `postgresql://user:password@host:port/database`\n   - **SSL**: Enable if required\n   - **Tunnel SSH** (for remote databases)\n\n## 6. **Test Connection**\n   - Click **Test connection** to verify\n   - You should see: \"Connections looks good ✓\"\n\n## 7. **Save**\n   - Click **Save**\n   - Metabase will sync your database schema\n\n## 8. **Start Querying**\n   - Go to **+ New** → **Question** or **SQL query**\n   - Select your PostgreSQL database and start exploring!\n\n---\n\n## Troubleshooting Tips\n- Ensure PostgreSQL is running and accessible\n- Check firewall rules if connecting remotely\n- Verify database credentials are correct\n- For local connections, try `127.0.0.1` instead of `localhost`\n\nNeed help with a specific error?",
+  "cached_at": "2026-05-27T20:09:30Z",
+  "metadata": {}
+}

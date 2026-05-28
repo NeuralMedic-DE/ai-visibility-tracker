@@ -1,0 +1,9 @@
+{
+  "brand": "Pilot",
+  "prompt_id": "UC-04",
+  "llm": "anthropic",
+  "prompt_text": "How can a Founder/CEO or CFO at a venture-backed startup get accurate books and financial statements managed by real accountants more efficiently?",
+  "response": "# Practical paths to better financial management\n\n## Outsourced accounting (most common for startups)\n\n**Virtual CFO/accounting firms** (Carta, Brex, Rippling, or specialized firms)\n- Handle monthly close, tax prep, financial statements\n- Usually $2-5K/month depending on complexity\n- Works well if you're not yet revenue-complex\n- Downside: less embedded in your business\n\n**Fractional CFO** (for more sophistication)\n- Part-time strategic finance person ($5-15K/month)\n- Better for companies needing forecasting, fundraising prep, or board reporting\n- They often bring connections + board experience\n\n## In-house (scaled startups)\n\n**Controller hire** ($80-150K + equity)\n- When you have consistent transactions, payroll complexity, or board requirements\n- Can manage a small accounting team or outsourced bookkeeper\n- Takes 6-8 weeks to ramped up properly\n\n**Hybrid approach** (increasingly popular)\n- Junior bookkeeper handles daily transaction entry ($50-80K)\n- External accounting firm does monthly close + statements\n- Fractional CFO for strategy quarterly\n\n## Efficiency shortcuts\n\n- **Automate everything**: Brex for cards, Guidepoint/Bill.com for AP, Rippling for payroll\n- **Use cloud accounting (QBO/Xero)** + integrations, not spreadsheets\n- **Monthly close discipline**: 5 days after month-end non-negotiable\n- **Board package template**: Standardized investor reporting saves hours\n\n**Key question to ask yourself**: Are you spending more on finance than you'd spend on someone fixing the problem?\n\nWhat's your current setup creating friction?",
+  "cached_at": "2026-05-28T07:02:46Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Paddle",
+  "prompt_id": "IN-05",
+  "llm": "openai",
+  "prompt_text": "billing tools with native Stripe integration",
+  "response": "There are several billing tools that offer native integration with Stripe, making it easier to manage subscriptions, invoices, and payments. Here are some popular options:\n\n1. **Chargebee**: A subscription management platform that integrates seamlessly with Stripe, offering features like automated invoicing, subscription management, and analytics.\n\n2. **Recurly**: Provides subscription billing services with native Stripe integration, allowing for easy management of recurring billing, dunning management, and reporting.\n\n3. **Zuora**: Known for its robust subscription management capabilities, Zuora integrates with Stripe to handle complex billing scenarios and revenue recognition.\n\n4. **Paddle**: While primarily focused on SaaS and software sales, Paddle integrates with Stripe to offer billing, tax compliance, and payment processing.\n\n5. **Zoho Subscriptions**: Part of the Zoho suite, this tool integrates with Stripe to manage recurring billing, automate invoicing, and track payments.\n\n6. **Baremetrics**: Offers analytics and insights for businesses using Stripe, with features like forecasting, churn analysis, and cohort reports.\n\n7. **MoonClerk**: Built on top of Stripe, MoonClerk provides an easy way to set up recurring payments and manage subscriptions.\n\n8. **Memberful**: Ideal for membership sites, Memberful integrates with Stripe to handle subscription billing and member management.\n\nThese tools can help streamline your billing processes and provide additional features to enhance your payment workflows.",
+  "cached_at": "2026-05-28T07:00:06Z",
+  "metadata": {}
+}

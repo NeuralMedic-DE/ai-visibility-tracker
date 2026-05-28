@@ -1,0 +1,9 @@
+{
+  "brand": "HiBob",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect HiBob with Slack?",
+  "response": "# Connecting HiBob with Slack\n\nHere's how to set up the integration:\n\n## Basic Steps\n\n1. **In HiBob:**\n   - Go to **Settings** → **Integrations**\n   - Look for Slack in the available integrations\n   - Click to enable/configure it\n\n2. **Authorize the connection:**\n   - You'll be redirected to Slack\n   - Select your workspace\n   - Click **Allow** to grant HiBob permissions\n\n3. **Configure settings:**\n   - Choose which HiBob events trigger Slack notifications (e.g., new hires, birthdays, anniversaries)\n   - Select which Slack channel(s) receive notifications\n   - Customize any notification preferences\n\n## Common Use Cases\n\n- **New hire announcements** in a #welcome or #introductions channel\n- **Birthday/anniversary reminders** in a team channel\n- **HR updates** posted automatically\n\n## Troubleshooting Tips\n\n- Ensure you have admin access in both HiBob and Slack\n- Check that your Slack workspace allows third-party apps\n- Verify the correct channel is selected and the bot has permission to post there\n\n## Need More Help?\n\n- Check HiBob's official [support documentation](https://support.hibob.com)\n- Contact HiBob support for specific configuration issues\n\nIs there a specific notification type or channel you want to set up?",
+  "cached_at": "2026-05-28T06:32:43Z",
+  "metadata": {}
+}

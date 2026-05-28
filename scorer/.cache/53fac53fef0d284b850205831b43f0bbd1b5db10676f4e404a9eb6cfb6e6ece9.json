@@ -1,0 +1,9 @@
+{
+  "brand": "Anecdotes",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Vanta vs alternatives: what should I switch to?",
+  "response": "# Vanta Alternatives: Key Considerations\n\nBefore switching, ask yourself:\n- **What's the pain point?** (cost, features, compliance scope, UI, integrations)\n- **What compliance do you actually need?** (SOC 2, ISO 27001, HIPAA, etc.)\n- **How much manual work are you willing to tolerate?**\n\n## Main Alternatives by Category\n\n### **Full-featured, enterprise-grade**\n- **Drata** — Strong SOC 2 focus, good automation, similar pricing\n- **Secureframe** — Flexible for multiple frameworks, good UX\n- **Laika** — Lightweight, lower cost, good for startups\n\n### **Lower cost / lighter lift**\n- **Sprinto** — Cheaper, simpler, good for early-stage\n- **Workiva** — Enterprise-focused, more customizable\n- **AuditBoard** — If you need continuous audit features\n\n### **Build-it-yourself route** (requires effort)\n- **Compliance.ai** + Notion/Excel templates\n- **Hyperproof** — More flexible, less hand-holding\n- **Custom solution** — Control but significant time investment\n\n## Honest Trade-offs\n\n| Factor | Vanta | Drata | Secureframe | Laika |\n|--------|-------|-------|-------------|-------|\n| **Cost** | Higher | Similar | Similar | Cheaper |\n| **Automation** | Excellent | Very good | Good | Good |\n| **Ease** | Very easy | Easy | Good | Simple |\n| **Integrations** | Many | Growing | Many | Some |\n\n**Most common switches from Vanta:** → **Drata** (similar features, slightly better value)\n\nWhat's your main complaint with Vanta? That'll help narrow it down.",
+  "cached_at": "2026-05-28T08:36:12Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Mailmodo",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Mailmodo with Zapier?",
+  "response": "# Connecting Mailmodo with Zapier\n\nHere's how to set up the integration:\n\n## 1. **Create a Zapier Account**\n   - Go to [zapier.com](https://zapier.com) and sign up if you don't have an account\n\n## 2. **Create a New Zap**\n   - Click \"Create\" → \"New Zap\"\n   - Search for and select **Mailmodo** as your trigger app\n\n## 3. **Choose Your Trigger**\n   - Select the trigger event (e.g., \"New Response Submission\")\n   - Click \"Continue\"\n\n## 4. **Connect Your Mailmodo Account**\n   - Click \"Connect a new account\"\n   - You'll be prompted to authorize Zapier to access Mailmodo\n   - Log in to your Mailmodo account and grant permissions\n   - Return to Zapier to confirm the connection\n\n## 5. **Set Up Your Action**\n   - Choose what should happen when the trigger occurs\n   - Select your target app (Google Sheets, Slack, email, etc.)\n   - Configure the action details\n\n## 6. **Test & Deploy**\n   - Test the connection to ensure it works\n   - Turn on your Zap\n\n## Common Use Cases\n- Send Mailmodo responses to Google Sheets\n- Post responses to Slack\n- Create CRM contacts from form submissions\n- Send automated follow-up emails\n\n**Need help?** Check Mailmodo's [integration documentation](https://mailmodo.com) or Zapier's support if you encounter issues.",
+  "cached_at": "2026-05-28T07:35:30Z",
+  "metadata": {}
+}

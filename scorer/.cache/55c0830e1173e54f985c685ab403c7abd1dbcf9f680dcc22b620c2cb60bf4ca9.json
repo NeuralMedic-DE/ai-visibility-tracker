@@ -1,0 +1,9 @@
+{
+  "brand": "Workable",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to Greenhouse",
+  "response": "# Cheaper Alternatives to Greenhouse\n\n## Applicant Tracking Systems (ATS)\n\n**Lower-Cost Options:**\n- **Workable** - $99–$299/month; solid for small-to-mid companies\n- **JazzHR** - $49–$159/month; good for startups\n- **Lever** - Comparable to Greenhouse but often better pricing\n- **iCIMS** - Mid-market option with flexible pricing\n- **SmartRecruiters** - Competes on features with better entry-level pricing\n\n## Free or Freemium Options\n\n- **Zoho Recruit** - Free tier available\n- **Breezy HR** - Free plan for basic recruiting\n- **Recruiterbox** - Limited free version\n- **Hueman** - Free ATS (basic features)\n\n## Hybrid/Lightweight Solutions\n\n- **Excel/Airtable** - DIY approach (minimal cost)\n- **LinkedIn Recruiter** - If you only need sourcing\n- **Indeed Hiring Platform** - Integrated with job posting\n\n## Key Considerations\n\n- **Company size** - Smaller companies need less functionality\n- **Volume** - Higher applicant flow justifies premium tools\n- **Features needed** - Screening, workflows, integrations, analytics\n- **Hidden costs** - Setup, training, support fees\n\n**Bottom line:** Workable or JazzHR offer the best value for budget-conscious teams without major compromises.\n\nWhat's your company size/hiring volume?",
+  "cached_at": "2026-05-28T06:46:04Z",
+  "metadata": {}
+}

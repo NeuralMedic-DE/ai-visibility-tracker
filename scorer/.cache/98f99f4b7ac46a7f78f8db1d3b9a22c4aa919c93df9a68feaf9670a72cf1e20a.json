@@ -1,0 +1,9 @@
+{
+  "brand": "Anecdotes",
+  "prompt_id": "IN-03",
+  "llm": "perplexity",
+  "prompt_text": "How do I connect Anecdotes with GitHub?",
+  "response": "Anecdotes can be connected to GitHub through its **plugins/integrations** area, where Anecdotes says you can integrate with SaaS and on-prem systems for data collection and GRC workflows.[6] I couldn’t verify from the available results whether GitHub is supported as a named, out-of-the-box connector, so the exact setup steps depend on the specific Anecdotes plugin or workflow you want to use.[6]\n\nThe closest relevant information in the results is a GitHub organization for Anecdotes and an Anecdotes plugins page, but neither result shows the GitHub connection procedure itself.[5][6]\n\nIf you want to connect **Anecdotes to GitHub Actions or GitHub data**, the likely path is:\n- Open **Anecdotes → Plugins/Integrations**.[6]\n- Look for a **GitHub** connector or a custom integration option.[6]\n- Authenticate with the required GitHub credentials or token if prompted.[6]\n- Select the GitHub data sources you want to ingest or monitor.[6]\n\nIf you meant a different product named **Anecdotes** or a specific use case such as **GitHub Actions logs, issues, or code scanning**, tell me which one and I can narrow it down.",
+  "cached_at": "2026-05-28T08:37:56Z",
+  "metadata": {}
+}

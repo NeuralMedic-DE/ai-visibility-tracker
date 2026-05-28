@@ -1,0 +1,9 @@
+{
+  "brand": "Render",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which cloud infrastructure software should a DevOps lead or backend engineer at a startup use?",
+  "response": "# Cloud Infrastructure Software for Startups\n\nThe best choice depends on your specific needs, but here's a practical breakdown:\n\n## **Top Recommendations**\n\n### **Terraform** (Most popular)\n- Infrastructure as Code (IaC) tool\n- Works with AWS, Azure, GCP, and others\n- Great for reproducible, version-controlled infrastructure\n- Steep learning curve, but widely adopted\n- Best if: You need multi-cloud flexibility\n\n### **AWS CloudFormation**\n- Native to AWS (if that's your choice)\n- Easier if you're AWS-only\n- Less flexible than Terraform, but simpler onboarding\n- Best if: Committed to AWS ecosystem\n\n### **Docker + Kubernetes**\n- Essential for containerization\n- Kubernetes is complex; consider managed services (EKS, GKE, AKS) for startups\n- Best if: You need container orchestration\n\n## **For Startups Specifically**\n\n**Start simple:**\n- Cloud provider's native tools (AWS Console, managed services)\n- Docker for containerization\n- Add Terraform when infrastructure grows\n\n**Avoid over-engineering:** Most startups don't need Kubernetes initially—managed platforms (Heroku, Vercel, AWS App Runner) often make more sense.\n\n## **My Suggestion**\n1. Pick your cloud provider (AWS dominates market share)\n2. Use their managed services first\n3. Add Terraform when you have >5-10 resources to manage\n4. Only add Kubernetes if you have specific scaling needs\n\n**What type of backend/workload are you building?** That would help narrow it down further.",
+  "cached_at": "2026-05-27T21:36:00Z",
+  "metadata": {}
+}

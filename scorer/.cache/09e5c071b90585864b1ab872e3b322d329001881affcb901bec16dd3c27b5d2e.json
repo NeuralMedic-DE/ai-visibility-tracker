@@ -1,0 +1,9 @@
+{
+  "brand": "LlamaIndex",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does LlamaIndex integrate with OpenAI?",
+  "response": "# LlamaIndex and OpenAI Integration\n\nYes, **LlamaIndex integrates seamlessly with OpenAI**. This is actually one of its primary use cases.\n\n## Key Integration Points\n\n**LLM Integration**\n- LlamaIndex uses OpenAI's models (GPT-4, GPT-3.5-turbo, etc.) as the default LLM for tasks like querying, summarization, and reasoning\n- You can configure it with your OpenAI API key\n\n**Embeddings**\n- OpenAI's embedding models are supported for converting text into vector representations\n- Used for semantic search and retrieval\n\n**Common Workflows**\n- Index documents/data\n- Convert to embeddings (OpenAI)\n- Query the index using OpenAI's LLM\n- Generate responses from retrieved context\n\n## Basic Example\n\n```python\nfrom llama_index.llms.openai import OpenAI\nfrom llama_index.embeddings.openai import OpenAIEmbedding\n\n# Set up with OpenAI\nllm = OpenAI(model=\"gpt-4\")\nembed_model = OpenAIEmbedding(model=\"text-embedding-3-small\")\n```\n\n## Note\n\nWhile OpenAI is well-supported and commonly used, LlamaIndex is **provider-agnostic** and also supports other LLMs and embedding models from Anthropic, Cohere, HuggingFace, and others.\n\nWould you like help setting up a specific integration?",
+  "cached_at": "2026-05-28T07:42:35Z",
+  "metadata": {}
+}

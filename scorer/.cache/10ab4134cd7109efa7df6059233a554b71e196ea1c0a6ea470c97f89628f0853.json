@@ -1,0 +1,9 @@
+{
+  "brand": "ChartMogul",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "ChartMogul Chargebee integration: how does it work?",
+  "response": "# ChartMogul + Chargebee Integration\n\n## How It Works\n\nThe integration automatically syncs your Chargebee billing data to ChartMogul for analytics:\n\n### **Data Flow**\n1. **Events from Chargebee** → ChartMogul receives subscription events (creates, updates, cancellations)\n2. **Automatic Sync** → Customers, subscriptions, and revenue data are continuously updated\n3. **Metrics Calculated** → ChartMogul processes this data into MRR, ARR, churn, LTV, etc.\n\n## Setup Process\n\n### **Step 1: Connect Account**\n- Log into ChartMogul\n- Go to **Data Sources** → **Add Data Source**\n- Select **Chargebee**\n- Choose your Chargebee site\n\n### **Step 2: Authentication**\n- ChartMogul requests API access from Chargebee\n- Grant permissions (read subscription, customer, invoice data)\n- Connection establishes via API key\n\n### **Step 3: Historical Data Import**\n- ChartMogul backfills historical data from Chargebee\n- Can take minutes to hours depending on volume\n- Then syncs new events in real-time or near-real-time\n\n## Key Data Synced\n\n| Data Type | Details |\n|-----------|---------|\n| **Customers** | Contact info, metadata |\n| **Subscriptions** | Plans, billing cycles, status |\n| **Invoices** | Charges, taxes, line items |\n| **Payments** | Revenue recognition |\n| **Refunds** | Credit notes, cancellations |\n\n## What You Get\n\n✅ MRR/ARR tracking  \n✅ Churn analysis  \n✅ Customer cohorts  \n✅ Revenue insights  \n✅ Custom dashboards  \n\n**Note:** Data flows one direction (Chargebee → ChartMogul), no write-back to Chargebee.\n\nNeed help with specific metrics or troubleshooting?",
+  "cached_at": "2026-05-28T06:55:15Z",
+  "metadata": {}
+}

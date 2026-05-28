@@ -1,0 +1,9 @@
+{
+  "brand": "June.so",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is June.so better than PostHog for identify accounts likely to churn early?",
+  "response": "# June.so vs PostHog for Churn Prediction\n\nThis is a close call, and the answer depends on your specific setup:\n\n## June.so's advantages for churn:\n- **Account-level focus**: Built specifically around B2B account analytics, so churn signals are naturally framed at the account level (not just user)\n- **Simpler setup**: Less configuration needed to start tracking account health metrics\n- **Cleaner dashboards**: Their pre-built templates focus on retention/churn patterns\n\n## PostHog's advantages for churn:\n- **More flexibility**: Better if you need custom event tracking and complex segmentation logic\n- **Deeper data control**: You own your data; easier to build sophisticated ML-based churn models\n- **Integration ecosystem**: Stronger connections to tools like Segment, dbt for data pipeline work\n\n## The practical reality:\nNeither tool **automatically predicts churn** without work. You'll need to:\n- Define what \"churn\" means for your business\n- Build or configure churn indicators (usage drop, feature adoption decline, etc.)\n- Segment accounts based on risk signals\n\n**June.so** gets you there faster if you're starting from scratch and just want to monitor accounts.\n\n**PostHog** wins if you need to integrate churn signals with other product data or feed them into external ML pipelines.\n\nWhat's your current setup? That would help narrow it down further.",
+  "cached_at": "2026-05-27T19:57:31Z",
+  "metadata": {}
+}

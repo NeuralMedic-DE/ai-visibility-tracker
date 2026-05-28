@@ -33,9 +33,15 @@ export default function HomePage() {
             <div className="flex items-center gap-4">
               <Link
                 href="/leaderboard"
-                className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
+                className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors hidden sm:inline"
               >
                 AI Visibility Index →
+              </Link>
+              <Link
+                href="/pricing"
+                className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
+              >
+                Pricing
               </Link>
               <a
                 href="#waitlist"
@@ -137,12 +143,19 @@ export default function HomePage() {
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900">Simple pricing</h2>
-            <p className="mt-3 text-gray-500">Start free during beta. Upgrade when you see results.</p>
+            <p className="mt-3 text-gray-500">
+              14-day free trial. No credit card billed until day 15.
+            </p>
           </div>
           <div className="grid gap-8 sm:grid-cols-2 max-w-2xl mx-auto">
-            <PricingCard name="Starter" price={39} features={STARTER_FEATURES} />
-            <PricingCard name="Pro" price={89} features={PRO_FEATURES} highlighted />
+            <PricingCard name="Starter" price={39} features={STARTER_FEATURES} plan="starter" />
+            <PricingCard name="Pro" price={89} features={PRO_FEATURES} plan="pro" highlighted />
           </div>
+          <p className="mt-8 text-center text-sm text-gray-400">
+            <Link href="/pricing" className="underline hover:text-gray-600 transition-colors">
+              See full feature comparison →
+            </Link>
+          </p>
         </div>
       </section>
 

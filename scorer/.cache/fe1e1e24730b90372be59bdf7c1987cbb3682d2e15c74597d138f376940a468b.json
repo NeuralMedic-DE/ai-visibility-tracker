@@ -1,0 +1,9 @@
+{
+  "brand": "Doppler",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Doppler integrate with GitHub?",
+  "response": "Yes, Doppler integrates with GitHub. Doppler is a secrets management platform that can be used to manage environment variables and secrets for your applications. By integrating Doppler with GitHub, you can automate the process of syncing secrets to your GitHub repositories, making it easier to manage secrets in your development workflows. This integration can help ensure that your secrets are securely managed and automatically updated in your GitHub Actions workflows or other parts of your CI/CD pipeline.",
+  "cached_at": "2026-05-28T06:20:28Z",
+  "metadata": {}
+}

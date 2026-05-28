@@ -1,0 +1,9 @@
+{
+  "brand": "Front",
+  "prompt_id": "IN-04",
+  "llm": "anthropic",
+  "prompt_text": "Best customer operations that works with Salesforce and HubSpot",
+  "response": "# Best Customer Operations Tools for Salesforce & HubSpot\n\n## **Native/Integrated Solutions**\n\n### **Salesforce Service Cloud**\n- Built-in support tickets, case management\n- Works seamlessly with Salesforce CRM\n- Knowledge base and community features\n- Best for: Salesforce-heavy organizations\n\n### **HubSpot Service Hub**\n- Native ticketing, knowledge base, customer portal\n- Integrated with HubSpot CRM\n- AI-powered chatbots\n- Best for: HubSpot-first companies\n\n---\n\n## **Top Third-Party Platforms**\n\n| Tool | Best For | Key Features |\n|------|----------|-------------|\n| **Zendesk** | Multi-channel support | Tickets, AI, omnichannel, robust reporting |\n| **Intercom** | Customer engagement | In-app messaging, support, product tours |\n| **Freshdesk** | SMB/Enterprise support | Ticketing, automation, affordable pricing |\n| **Gorgias** | E-commerce support | Unified inbox, order management |\n| **Kustomer** | Enterprise CX | Omnichannel, unified customer view |\n| **Front** | Team collaboration | Shared inbox, automation, workflow |\n\n---\n\n## **Best Integrations**\n\n- **Zendesk** → Bi-directional sync with both platforms ✓\n- **Intercom** → Native Salesforce/HubSpot integration ✓\n- **Kustomer** → Seamless Salesforce connector ✓\n\n---\n\n## **Selection Criteria**\n\nChoose based on:\n- **Budget** (Free/SMB vs. Enterprise)\n- **Scale** (tickets/month)\n- **Channels** needed (email, chat, social, phone)\n- **Reporting** depth required\n- **Integration** maturity\n\n**Need help narrowing down?** What's your company size and primary use case?",
+  "cached_at": "2026-05-28T08:17:25Z",
+  "metadata": {}
+}

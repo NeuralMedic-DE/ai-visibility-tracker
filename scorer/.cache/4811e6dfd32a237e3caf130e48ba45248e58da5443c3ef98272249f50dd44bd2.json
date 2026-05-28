@@ -1,0 +1,9 @@
+{
+  "brand": "Maxio",
+  "prompt_id": "IN-05",
+  "llm": "openai",
+  "prompt_text": "billing tools with native Salesforce integration",
+  "response": "There are several billing tools that offer native integration with Salesforce, allowing for seamless management of billing processes within the Salesforce ecosystem. Here are some popular options:\n\n1. **Salesforce Billing**: As part of Salesforce's Revenue Cloud, Salesforce Billing is a native solution that extends the capabilities of Salesforce CPQ (Configure, Price, Quote) to manage invoicing, payments, and revenue recognition.\n\n2. **Zuora**: Zuora offers a comprehensive subscription management platform with native Salesforce integration. It helps manage billing, payments, and subscription lifecycle processes directly from Salesforce.\n\n3. **Chargent**: Chargent is a payment processing and billing solution built natively on Salesforce. It supports various payment gateways and offers features for managing recurring billing and one-time payments.\n\n4. **FinancialForce**: Built on the Salesforce platform, FinancialForce provides a suite of financial management applications, including billing, that integrate seamlessly with Salesforce CRM.\n\n5. **Conga Billing**: Part of the Conga Suite, Conga Billing integrates with Salesforce to automate billing processes, manage subscriptions, and handle complex pricing models.\n\n6. **GoCardless for Salesforce**: This tool is designed for managing direct debit payments and integrates natively with Salesforce to streamline payment collection and reconciliation.\n\nThese tools vary in terms of features and pricing, so it's important to evaluate them based on your specific business needs and the complexity of your billing processes.",
+  "cached_at": "2026-05-28T06:53:02Z",
+  "metadata": {}
+}

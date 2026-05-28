@@ -1,0 +1,9 @@
+{
+  "brand": "Vanta",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Vanta integrate with GitHub?",
+  "response": "# Vanta and GitHub Integration\n\nYes, Vanta integrates with GitHub. The integration allows Vanta to:\n\n- **Monitor repository security** - Track access controls and code review practices\n- **Assess code management practices** - Evaluate branch protection, commit signing, and deployment workflows\n- **Support compliance requirements** - Gather evidence for SOC 2, ISO 27001, and other compliance frameworks\n- **Automate security audits** - Reduce manual review processes for code and repository management\n\n## How it works\n\nVanta connects to your GitHub organization to collect data about:\n- Repository configurations\n- Access and permissions\n- Security settings\n- Compliance-related policies\n\nThis helps demonstrate secure development practices as part of your overall security posture and compliance efforts.\n\nIf you're considering this integration, I'd recommend checking Vanta's current documentation for the most up-to-date information on setup requirements and available features, as integrations can evolve.",
+  "cached_at": "2026-05-28T08:26:51Z",
+  "metadata": {}
+}

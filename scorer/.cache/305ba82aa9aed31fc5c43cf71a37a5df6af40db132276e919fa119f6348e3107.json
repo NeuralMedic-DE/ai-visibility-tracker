@@ -1,0 +1,9 @@
+{
+  "brand": "Doppler",
+  "prompt_id": "IN-03",
+  "llm": "openai",
+  "prompt_text": "How do I connect Doppler with GitHub?",
+  "response": "To connect Doppler with GitHub, you can follow these steps:\n\n1. **Log in to Doppler**: Go to the Doppler website and log in to your account.\n\n2. **Create or Select a Project**: If you haven't already, create a new project or select an existing one where you want to manage your secrets.\n\n3. **Navigate to Integrations**: In the Doppler dashboard, go to the \"Integrations\" section. This is usually found in the sidebar menu.\n\n4. **Select GitHub Integration**: Look for the GitHub integration option. Click on it to start the connection process.\n\n5. **Authorize Doppler**: You will be prompted to authorize Doppler to access your GitHub account. This typically involves logging into GitHub and granting the necessary permissions.\n\n6. **Configure the Integration**: Once authorized, you may need to configure the integration by selecting the specific GitHub repositories you want Doppler to interact with. This might include setting up environment variables or secrets for your GitHub Actions workflows.\n\n7. **Set Up Secrets Management**: Doppler allows you to manage secrets that can be used in your GitHub repositories. You can specify which secrets should be synced with GitHub and how they should be used.\n\n8. **Test the Integration**: After setting up, it's a good idea to test the integration to ensure that Doppler is correctly managing and syncing secrets with your GitHub repositories.\n\nBy following these steps, you should be able to successfully connect Doppler with GitHub and manage your secrets efficiently. If you encounter any issues, Doppler's documentation and support can provide additional guidance.",
+  "cached_at": "2026-05-28T06:20:34Z",
+  "metadata": {}
+}

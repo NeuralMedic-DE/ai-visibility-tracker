@@ -1,0 +1,9 @@
+{
+  "brand": "Mosaic",
+  "prompt_id": "CM-01",
+  "llm": "openai",
+  "prompt_text": "Mosaic vs Planful: which is better?",
+  "response": "Choosing between Mosaic and Planful depends on your specific needs and priorities, as both platforms offer distinct features tailored to different aspects of business management.\n\n**Mosaic**:\n- Primarily focuses on resource management, project planning, and team collaboration.\n- Offers tools for visualizing team workloads, managing project timelines, and optimizing resource allocation.\n- Suitable for organizations looking to improve project efficiency and team productivity.\n\n**Planful**:\n- Specializes in financial planning and analysis (FP&A).\n- Provides robust tools for budgeting, forecasting, and financial reporting.\n- Ideal for finance teams aiming to streamline financial processes and gain insights into financial performance.\n\n**Considerations**:\n- If your primary need is resource and project management, Mosaic might be more suitable.\n- If your focus is on financial planning and analysis, Planful could be the better choice.\n- Evaluate the specific features, integrations, and pricing of each platform to determine which aligns best with your organization's goals.\n\nUltimately, the \"better\" choice depends on which platform's strengths align more closely with your business requirements.",
+  "cached_at": "2026-05-28T07:09:50Z",
+  "metadata": {}
+}

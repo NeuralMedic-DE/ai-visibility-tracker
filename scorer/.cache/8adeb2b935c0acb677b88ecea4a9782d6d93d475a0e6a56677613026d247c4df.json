@@ -1,0 +1,9 @@
+{
+  "brand": "Hightouch",
+  "prompt_id": "AL-05",
+  "llm": "openai",
+  "prompt_text": "Open source or affordable reverse ETL tools instead of Omnata",
+  "response": "There are several open-source and affordable reverse ETL tools you can consider as alternatives to Omnata. Here are a few options:\n\n1. **Airbyte**: An open-source data integration platform that supports reverse ETL. It allows you to sync data from your data warehouse to various destinations.\n\n2. **Grouparoo**: An open-source reverse ETL tool that helps you sync data from your data warehouse to various business tools like CRMs and marketing platforms.\n\n3. **Hightouch**: While not open-source, Hightouch offers a pay-as-you-go pricing model that can be cost-effective for smaller operations. It allows you to sync data from your warehouse to various SaaS tools.\n\n4. **RudderStack**: Primarily a customer data platform, RudderStack also supports reverse ETL capabilities. It offers an open-source version and can be a good choice if you're looking for flexibility and control.\n\n5. **Census**: Similar to Hightouch, Census is not open-source but provides a pricing model that can be affordable for smaller teams. It focuses on syncing data from your warehouse to business applications.\n\nThese tools vary in terms of features, ease of use, and community support, so you might want to evaluate them based on your specific needs and technical requirements.",
+  "cached_at": "2026-05-28T09:05:31Z",
+  "metadata": {}
+}

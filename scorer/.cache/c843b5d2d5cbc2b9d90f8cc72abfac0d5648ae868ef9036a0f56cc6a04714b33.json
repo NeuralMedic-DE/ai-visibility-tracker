@@ -1,0 +1,9 @@
+{
+  "brand": "Baremetrics",
+  "prompt_id": "IN-02",
+  "llm": "openai",
+  "prompt_text": "Baremetrics PayPal integration: how does it work?",
+  "response": "Baremetrics provides analytics and insights for subscription businesses by integrating with various payment platforms, including PayPal. Here's how the integration typically works:\n\n1. **Connection**: You start by connecting your PayPal account to Baremetrics. This is usually done by logging into your Baremetrics account and selecting PayPal as your payment provider. You will need to authorize Baremetrics to access your PayPal data.\n\n2. **Data Import**: Once connected, Baremetrics imports your transaction data from PayPal. This includes information about your customers, subscriptions, charges, refunds, and other relevant financial data.\n\n3. **Data Processing**: Baremetrics processes this data to provide you with insights and metrics. This includes calculating key performance indicators (KPIs) such as Monthly Recurring Revenue (MRR), Customer Lifetime Value (CLV), Churn Rate, and more.\n\n4. **Dashboard and Reports**: You can access a dashboard within Baremetrics that visualizes these metrics and provides detailed reports. This helps you understand your business performance, track growth, and make informed decisions.\n\n5. **Alerts and Forecasting**: Baremetrics also offers features like financial forecasting and alerts for significant changes in your metrics, helping you stay on top of your business health.\n\nBy integrating PayPal with Baremetrics, you can gain a comprehensive view of your subscription business's financial health and performance, leveraging the insights to drive growth and efficiency.",
+  "cached_at": "2026-05-28T06:57:43Z",
+  "metadata": {}
+}

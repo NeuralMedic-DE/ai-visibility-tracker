@@ -1,0 +1,9 @@
+{
+  "brand": "Paddle",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I sell software globally with built-in tax compliance and payments handling without spending a lot on software?",
+  "response": "# Low-Cost Global Software Sales Setup\n\n## All-in-One Platforms (Easiest Start)\n\n**Gumroad, Lemonsqueezy, or Paddle**\n- Handle tax (VAT/GST collection varies by tier)\n- Process payments in 135+ countries\n- Take 5-10% cut, but you avoid infrastructure costs\n- Good if you're under ~$100k/year revenue\n\n**Shopify or WooCommerce** (if you want a storefront)\n- More upfront work but lower fees (2-3%)\n- WooCommerce is free software + hosting costs (~$10-50/month)\n\n## Hybrid Approach (More Control, Still Cheap)\n\n1. **Stripe or Adyen** for payments ($0 setup, 2.9% + fees)\n   - Handles most countries automatically\n   \n2. **TaxJar or Avalara** (free tier exists)\n   - Calculates tax obligations\n   - Costs ~$20-30/month at small scale\n   \n3. **Zapier or Make** to wire them together\n   - Automate delivery and invoicing (~$10-20/month)\n\n## The Honest Trade-offs\n\n| Platform | Best For | Cost |\n|----------|----------|------|\n| Lemonsqueezy | Digital products, minimal setup | 5-10% |\n| Stripe + custom | Maximum control | 2.9% + ~$50/mo dev |\n| Gumroad | Solo developers | 10% but dead simple |\n\n## What Most People Overlook\n\n- **Tax registration** varies by country (sometimes you don't need it under thresholds)\n- **Currency conversion** often costs more than platform fees\n- **Accounting** — use Wave (free) or Stripe's built-in reports to start\n\n**What's your annual revenue target?** That changes the recommendation significantly.",
+  "cached_at": "2026-05-28T07:00:06Z",
+  "metadata": {}
+}

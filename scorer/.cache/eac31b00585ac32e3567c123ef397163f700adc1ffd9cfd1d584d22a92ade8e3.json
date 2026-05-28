@@ -1,0 +1,9 @@
+{
+  "brand": "ChurnZero",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with give CSMs a unified view of every account's engagement risk and health at scale?",
+  "response": "# Customer Success Management Software for Account Health & Risk\n\nSeveral platforms provide unified account health and engagement risk visibility for CSMs at scale:\n\n## **Leading Options:**\n\n1. **Gainsight** - Industry-leading with:\n   - Real-time health scores across accounts\n   - Automated risk detection\n   - Engagement tracking and dashboards\n\n2. **Totango** - Strong for:\n   - Account health scoring\n   - Engagement analytics\n   - Portfolio management views\n\n3. **Vitally** - Modern alternative offering:\n   - Customizable health metrics\n   - Engagement monitoring\n   - Relationship mapping\n\n4. **Planhat** - Features include:\n   - Account intelligence dashboards\n   - Risk indicators\n   - Multi-stakeholder engagement tracking\n\n5. **ClientSuccess** - Provides:\n   - Health scoring frameworks\n   - Churn risk alerts\n   - Account portfolio views\n\n## **Key Capabilities to Look For:**\n\n- **Unified dashboards** showing all accounts at once\n- **Automated health scores** using multiple data sources\n- **Early warning systems** for at-risk accounts\n- **Integration with CRM/product data** for holistic view\n- **Scalability** for managing hundreds/thousands of accounts\n\nThe \"best\" choice depends on your company size, tech stack, and specific workflows. Most offer free trials to test with your data.\n\nWould you like recommendations based on your specific company size or use case?",
+  "cached_at": "2026-05-28T08:07:02Z",
+  "metadata": {}
+}

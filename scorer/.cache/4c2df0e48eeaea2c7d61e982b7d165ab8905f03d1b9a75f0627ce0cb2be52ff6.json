@@ -1,0 +1,9 @@
+{
+  "brand": "Klipfolio",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Klipfolio HubSpot integration: how does it work?",
+  "response": "# Klipfolio HubSpot Integration Overview\n\n## How It Works\n\nKlipfolio connects to HubSpot through **API integration**, pulling data from your HubSpot account to create real-time dashboards and visualizations.\n\n### Key Steps\n\n1. **Authorization**\n   - Connect your HubSpot account via OAuth authentication\n   - Grant Klipfolio permission to access specific data\n\n2. **Data Synchronization**\n   - Klipfolio accesses HubSpot's API to fetch data\n   - Updates occur automatically at scheduled intervals\n   - Real-time or near-real-time data availability\n\n3. **Dashboard Creation**\n   - Use pre-built HubSpot components or create custom ones\n   - Visualize metrics like:\n     - Sales pipeline data\n     - Lead information\n     - Contact metrics\n     - Deal progress\n\n## Main Use Cases\n\n- **Sales dashboards** - Track pipeline, deals, and rep performance\n- **Marketing metrics** - Monitor lead generation and campaign performance\n- **Management reporting** - Executive overviews of key metrics\n- **Team transparency** - Share performance data with stakeholders\n\n## Data Available\n\n- Contacts and companies\n- Deals and sales pipeline\n- Activities and tasks\n- Custom properties\n- Historical data for trend analysis\n\n## Benefits\n\n✓ No manual data entry\n✓ Centralized metric viewing\n✓ Real-time updates\n✓ Customizable visualizations\n✓ Shareable dashboards\n\nWould you like help with setup steps or specific dashboard recommendations?",
+  "cached_at": "2026-05-27T20:28:46Z",
+  "metadata": {}
+}

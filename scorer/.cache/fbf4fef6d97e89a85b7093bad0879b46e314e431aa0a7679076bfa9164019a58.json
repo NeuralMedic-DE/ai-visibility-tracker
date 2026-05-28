@@ -1,0 +1,9 @@
+{
+  "brand": "Apollo.io",
+  "prompt_id": "IN-03",
+  "llm": "perplexity",
+  "prompt_text": "How do I connect Apollo.io with Salesforce?",
+  "response": "You can connect Apollo.io to Salesforce from **Apollo’s Settings > Integrations > Salesforce**, then authenticate your Salesforce account and configure sync preferences. Apollo’s help docs say you must first connect Salesforce to Apollo, and then you can manage sync settings like pull/push behavior and field mapping.[3][2]\n\n- In Apollo, open **Settings** and go to **Integrations**.[3]\n- Select **Salesforce** and click **Connect** or **Yes** to start authorization.[3][1]\n- Sign in to Salesforce and approve Apollo’s access.[1][2]\n- If you use a sandbox, make sure you authorize the correct Salesforce instance.[1]\n- After connecting, configure what to sync, such as leads, contacts, accounts, opportunities, and related activity.[4][5]\n- Map fields carefully, especially identifiers like email and account name, and set conflict/overwrite rules if needed.[1][5]\n- Test the sync with a small set of records before turning on broader automation.[1]\n\nA few important details:\n- Apollo supports **bi-directional sync**, meaning it can pull data from Salesforce and push data back to Salesforce.[4]\n- Apollo’s credential model distinguishes between **team sync** credentials and **personal** Salesforce credentials for individual users.[2]\n- Apollo’s docs note that each Apollo user needs a separate Salesforce credential set; the same Salesforce credentials cannot be shared by multiple Apollo users.[2]\n\nIf you want, I can also give you a **step-by-step setup guide** for a specific use case, like **syncing leads only**, **pushing Apollo contacts to Salesforce**, or **mapping custom fields**.",
+  "cached_at": "2026-05-27T18:09:47Z",
+  "metadata": {}
+}

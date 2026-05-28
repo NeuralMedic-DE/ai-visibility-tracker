@@ -1,0 +1,9 @@
+{
+  "brand": "Pendo",
+  "prompt_id": "IN-04",
+  "llm": "anthropic",
+  "prompt_text": "Best product analytics that works with Salesforce and Zendesk",
+  "response": "# Best Product Analytics for Salesforce & Zendesk Integration\n\n## Top Recommendations\n\n### **1. Amplitude**\n- **Strongest choice** for comprehensive product analytics\n- Native Zendesk integration; Salesforce via Segment\n- Excellent cohort analysis and retention tracking\n- Best for: Growth-focused teams needing deep behavioral insights\n\n### **2. Mixpanel**\n- Strong event-based analytics\n- Good Salesforce integration (via native or Segment)\n- Zendesk support via webhooks/APIs\n- Best for: Real-time engagement tracking and conversion funnels\n\n### **3. Segment** (Data Infrastructure)\n- Not analytics itself, but **best integration layer**\n- Connects Zendesk → Salesforce → analytics tools\n- Enables unified customer data\n- Best for: Teams needing flexible data routing\n\n### **4. Pendo**\n- In-app product analytics\n- Strong Salesforce integration\n- Good for feature adoption tracking\n- Best for: Product teams focused on user experience\n\n### **5. Looker** (Google Cloud)\n- BI + analytics platform\n- Excellent Salesforce integration\n- Zendesk support via connectors\n- Best for: Enterprise teams wanting centralized BI/analytics\n\n## Quick Comparison\n\n| Tool | Salesforce | Zendesk | Best For |\n|------|-----------|---------|----------|\n| Amplitude | Good (via Segment) | Good | Behavioral analytics |\n| Mixpanel | Good | Fair | Event tracking |\n| Pendo | Excellent | Fair | Product adoption |\n| Looker | Excellent | Good | Enterprise BI |\n\n**My recommendation**: Start with **Amplitude** + **Segment** for best flexibility, or **Pendo** if focused on feature adoption.\n\nWhat's your primary use case?",
+  "cached_at": "2026-05-27T19:49:07Z",
+  "metadata": {}
+}

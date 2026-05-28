@@ -1,0 +1,9 @@
+{
+  "brand": "PostHog",
+  "prompt_id": "AL-02",
+  "llm": "openai",
+  "prompt_text": "Cheaper alternatives to Amplitude",
+  "response": "If you're looking for cheaper alternatives to Amplitude for product analytics, here are a few options you might consider:\n\n1. **Mixpanel**: While Mixpanel can be comparable in price to Amplitude, it often offers competitive pricing and features that might suit your needs, especially if you have a smaller user base.\n\n2. **Heap**: Heap automatically captures all user interactions on your website or app, which can save time and effort in setting up tracking. They offer competitive pricing and a free tier for smaller projects.\n\n3. **PostHog**: An open-source product analytics tool that you can host yourself, which can be a cost-effective solution if you have the technical resources to manage it.\n\n4. **Plausible Analytics**: A privacy-focused, open-source analytics tool that offers straightforward pricing and can be a good option for smaller projects.\n\n5. **Matomo**: Another open-source analytics platform that can be hosted on your own servers, providing flexibility and potentially lower costs.\n\n6. **Fathom Analytics**: Known for its simplicity and privacy focus, Fathom offers straightforward pricing and can be a good choice for smaller websites.\n\n7. **Countly**: A product analytics tool that offers both cloud and on-premise solutions, with a free community edition available.\n\n8. **Kissmetrics**: While not necessarily cheaper, Kissmetrics offers a different pricing model and might be more cost-effective depending on your specific needs.\n\nWhen choosing an alternative, consider the specific features you need, the size of your user base, and whether you prefer a cloud-based or self-hosted solution.",
+  "cached_at": "2026-05-27T19:33:48Z",
+  "metadata": {}
+}

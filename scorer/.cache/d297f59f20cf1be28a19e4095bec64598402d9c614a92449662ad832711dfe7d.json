@@ -1,0 +1,9 @@
+{
+  "brand": "Humaans",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I manage employee data and run payroll through deep integrations without spending a lot on software?",
+  "response": "# Low-Cost Payroll & Employee Data Management\n\n## Budget-Friendly Core Tools\n\n**Spreadsheet-based foundation** (surprisingly viable)\n- Google Sheets + simple formulas for calculations\n- Free payroll templates (many available online)\n- Works best for <20 employees\n- Major limitation: manual tax updates, compliance risk\n\n**Low-cost dedicated platforms**\n- Guidepoint, Rippling, or Deel (tiered pricing, some free tiers)\n- Paychex Flex or ADP Run (basic plans ~$50-100/month)\n- Wave (free basic payroll in some regions)\n- Usually includes tax filing and direct deposit\n\n## \"Deep Integration\" Without Expensive Enterprise Software\n\n**What integrations actually matter?**\n- Bank connections (for direct deposit)\n- Accounting software (QuickBooks, Wave)\n- Time tracking (Clockify, Toggl)\n- Benefits management (basic SSO)\n\n**How to get them cheaply:**\n- Use platforms with native integrations built-in\n- Connect via Zapier/Make for workflows (~$10-20/month)\n- Most mid-tier payroll providers offer API access for developers\n- Avoid building custom integrations yourself (expensive)\n\n## The Real Trade-offs\n\n- **Cheap spreadsheets** = high compliance risk, no scalability\n- **$50-150/month software** = adequate for small businesses, limited customization\n- **True \"deep integration\"** usually requires paying $200-500+/month or hiring a developer\n\n**Question back:** How many employees, and what's driving the integration need? That changes the answer significantly.",
+  "cached_at": "2026-05-28T06:48:12Z",
+  "metadata": {}
+}

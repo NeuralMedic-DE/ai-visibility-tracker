@@ -1,0 +1,9 @@
+{
+  "brand": "Vercel",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best deployment for frontend engineering teams at SaaS companies?",
+  "response": "# Frontend Team Deployment Strategies\n\nThere's no universal \"best,\" but here are the main models with trade-offs:\n\n## **Cross-Functional Product Teams** (Most Common)\nFrontend engineers embedded in teams organized by feature/product area.\n\n**Pros:**\n- Faster shipping, reduced handoffs\n- Shared ownership & accountability\n- Better product understanding\n\n**Cons:**\n- Inconsistent patterns/standards\n- Harder to share knowledge\n- May duplicate work\n\n---\n\n## **Platform/Shared Services Model**\nFrontend platform team owns design systems, tooling, shared components; product teams consume them.\n\n**Pros:**\n- Consistency across products\n- Better scalability as company grows\n- Easier to manage tech debt\n\n**Cons:**\n- Can become bottleneck\n- Slower for product teams\n- Risk of over-abstraction\n\n---\n\n## **Hybrid Approach** (Often Best)\nProduct teams ship features; platform team owns infrastructure, components, standards, and tooling.\n\n**Considerations:**\n- Clear APIs between layers\n- Platform team focuses on *enablement*, not gatekeeping\n- Good for mid-stage SaaS (50-200+ eng)\n\n---\n\n## **Key Questions to Answer First**\n- How many frontend engineers do you have?\n- Product complexity/number of surfaces?\n- How much UI consistency matters?\n- Technical debt vs. velocity priority?\n\n**At early stage (<10 eng):** Just organize by product.\n**At scale (50+ eng):** You almost always need platform support.\n\nWhat's your current team size/structure?",
+  "cached_at": "2026-05-27T21:26:16Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Nutshell",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is Nutshell better than Salesforce for automate email drip campaigns?",
+  "response": "# Nutshell vs. Salesforce for Email Drip Campaigns\n\n**Short answer: It depends on your needs, but they excel in different ways.**\n\n## Nutshell's Strengths\n- **Simpler setup** - easier to configure drip campaigns without technical help\n- **More affordable** - better for small teams with budget constraints\n- **Intuitive automation** - good visual workflow builder\n- **Faster implementation** - quicker to get campaigns running\n\n## Salesforce's Strengths\n- **More powerful** - handles complex, multi-step sequences\n- **Better scalability** - designed for enterprise volumes\n- **Deeper integration** - connects with more third-party tools\n- **Advanced features** - conditional logic, dynamic content, scoring\n\n## Key Considerations\n\n| Factor | Nutshell | Salesforce |\n|--------|----------|-----------|\n| Ease of use | ✓ Better | More complex |\n| Cost | ✓ Better | Pricier |\n| Email capability | Basic to mid-level | Enterprise-grade |\n| Team size | Small to mid-market | Any size |\n\n## Better Question to Ask\n- **Team size & budget?** → Nutshell likely wins\n- **Complex workflows needed?** → Salesforce likely wins\n- **Just email automation?** → Consider dedicated tools like HubSpot or Klaviyo instead\n\nWould knowing more about your specific use case help? (company size, campaign complexity, budget?)",
+  "cached_at": "2026-05-27T18:33:23Z",
+  "metadata": {}
+}

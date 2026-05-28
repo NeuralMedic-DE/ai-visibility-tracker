@@ -1,0 +1,9 @@
+{
+  "brand": "Apollo.io",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with automate cold email sequences at scale?",
+  "response": "# Popular Cold Email Automation Tools\n\n## All-in-One Platforms\n- **Instantly** - High deliverability, built-in warm-up, good for scale\n- **Lemlist** - Strong personalization, video/GIF integration, good tracking\n- **HubSpot** - Full CRM with email sequences, better for longer sales cycles\n- **Apollo** - Email + lead database, built-in outreach tools\n\n## Lightweight & Affordable\n- **Mailshake** - Simple sequences, good UI, reasonable pricing\n- **Outreach** - Enterprise option with advanced features\n- **Yesware** - Gmail-based, lightweight tracking\n\n## Key Features to Look For\n- **Deliverability** - Warm-up capabilities, domain reputation management\n- **Personalization** - Variables, conditional logic, dynamic content\n- **Sequencing** - Multi-touch workflows, conditional branching\n- **Infrastructure** - Multiple sending accounts/domains for scale\n- **Lead data** - Built-in prospecting or API integrations\n- **Analytics** - Open/click tracking, reply detection\n\n## Practical Tip\nFor scaling, you'll typically need:\n1. **Multiple sending domains** (to protect reputation)\n2. **Warm-up tool** (like Warm, Lemwarm, or built-in options)\n3. **Lead source** (Apollo, Hunter, LinkedIn, etc.)\n4. **Email sequencer** (any of the above)\n\nMost successful operations combine 2-3 tools rather than relying on one platform.\n\nWhat's your current bottleneck—leads, deliverability, or campaign management?",
+  "cached_at": "2026-05-27T18:05:21Z",
+  "metadata": {}
+}

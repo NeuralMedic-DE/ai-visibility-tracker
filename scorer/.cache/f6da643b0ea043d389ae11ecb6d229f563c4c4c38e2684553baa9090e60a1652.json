@@ -1,0 +1,9 @@
+{
+  "brand": "Workato",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Workato integrate with SAP?",
+  "response": "# Workato and SAP Integration\n\nYes, **Workato does integrate with SAP**. Here's what you should know:\n\n## Integration Options\n\n1. **SAP Connectors** - Workato offers connectors for:\n   - SAP ERP (via RFC/BAPI)\n   - SAP SuccessFactors\n   - SAP Ariba\n   - SAP Concur\n   - Other SAP cloud solutions\n\n2. **Connection Methods**\n   - Direct API connections where available\n   - RFC (Remote Function Call) for on-premise SAP systems\n   - OData protocols for SAP cloud modules\n\n## Common Use Cases\n\n- Automating data synchronization between SAP and other business apps\n- Creating workflows between SAP and cloud applications\n- Real-time data updates across systems\n- Employee data flows (especially with SuccessFactors)\n- Purchase and expense automation (with Ariba/Concur)\n\n## Considerations\n\n- **On-premise SAP** may require additional setup (secure gateway/VPN)\n- **Cloud SAP modules** typically have more straightforward integration\n- Complexity depends on your specific SAP modules and use case\n\nFor the most current and detailed information about available SAP connectors and their capabilities, I'd recommend checking Workato's official documentation or contacting their sales team, as connector offerings can be updated regularly.",
+  "cached_at": "2026-05-28T09:13:41Z",
+  "metadata": {}
+}

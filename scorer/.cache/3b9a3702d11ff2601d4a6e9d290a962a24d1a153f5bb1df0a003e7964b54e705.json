@@ -1,0 +1,9 @@
+{
+  "brand": "Metabase",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best business intelligence for data and operations teams at startups and SMBs?",
+  "response": "# Best BI Tools for Startups and SMBs\n\nThe \"best\" depends on your specific needs, but here's a practical breakdown:\n\n## Top Considerations for Startups/SMBs\n\n**Budget constraints** – You need affordable, quick ROI\n**Technical skills** – Limited data teams; need user-friendly tools\n**Scalability** – Should grow with you without major overhauls\n**Setup speed** – Can't spend months on implementation\n\n## Strong Options by Use Case\n\n### **For Quick Wins (Low Code/No Code)**\n- **Metabase** – Free, open-source, easiest setup\n- **Google Data Studio** – Free, integrates with Google services\n- **Tableau Public** – Good free tier, strong visualizations\n\n### **For Growing Teams**\n- **Looker Studio** – Better than Data Studio at scale\n- **Power BI** – Excellent if you're in Microsoft ecosystem\n- **Mixpanel/Amplitude** – If analytics/product metrics are primary focus\n\n### **Best Overall Balance**\n- **Metabase** – Cheapest, least friction, surprisingly capable\n- **Superset (Apache)** – Like Metabase but more flexible, steeper learning curve\n\n## Key Questions to Ask Yourself\n\n1. What data sources do you need to connect?\n2. How technical is your team?\n3. Do you need self-service analytics, or just dashboards?\n4. Budget: $0-1K/month vs. higher?\n\n**My practical suggestion**: Start with Metabase or Data Studio, then migrate later if you outgrow them. Most startups waste money on oversized tools initially.\n\nWhat's your primary use case?",
+  "cached_at": "2026-05-27T20:07:01Z",
+  "metadata": {}
+}

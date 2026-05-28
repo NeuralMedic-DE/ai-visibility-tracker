@@ -1,0 +1,9 @@
+{
+  "brand": "Workable",
+  "prompt_id": "CM-05",
+  "llm": "openai",
+  "prompt_text": "Is Workable better than Greenhouse for screen and evaluate candidates with AI-powered scoring tools?",
+  "response": "When comparing Workable and Greenhouse for AI-powered candidate screening and evaluation, it's important to consider the specific features and capabilities each platform offers, as well as your organization's needs.\n\n**Workable**:\n- Workable is known for its user-friendly interface and comprehensive recruitment features, including AI-powered candidate sourcing and screening tools.\n- It offers AI-driven recommendations and candidate scoring to help prioritize applicants based on their fit for the role.\n- Workable's AI tools are designed to streamline the initial stages of recruitment by automatically ranking candidates and suggesting the best matches.\n\n**Greenhouse**:\n- Greenhouse is a robust recruiting platform known for its strong focus on structured hiring processes and collaboration.\n- While Greenhouse does offer some automation and integration capabilities, its primary strength lies in its customizable workflows and interview kits.\n- Greenhouse may not have as advanced AI-powered candidate scoring tools as Workable, but it excels in providing a structured approach to evaluating candidates through customizable scorecards and interview plans.\n\nUltimately, the choice between Workable and Greenhouse depends on your specific priorities. If AI-powered candidate scoring is a top priority, Workable might be more aligned with your needs. However, if you prioritize a structured and collaborative hiring process, Greenhouse could be the better option. It's also worth considering factors like integration capabilities, user experience, and pricing when making your decision.",
+  "cached_at": "2026-05-28T06:45:57Z",
+  "metadata": {}
+}

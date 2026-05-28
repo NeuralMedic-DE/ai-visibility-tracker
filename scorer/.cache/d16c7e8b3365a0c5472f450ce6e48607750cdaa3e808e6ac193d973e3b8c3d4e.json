@@ -1,0 +1,9 @@
+{
+  "brand": "Rho",
+  "prompt_id": "CM-02",
+  "llm": "anthropic",
+  "prompt_text": "Rho vs Mercury pricing and features",
+  "response": "# Rho vs Mercury: Business Banking Comparison\n\n## **Pricing**\n\n| Feature | Rho | Mercury |\n|---------|-----|---------|\n| **Monthly Fee** | $0 | $0 |\n| **Minimum Balance** | None | None |\n| **Transaction Limits** | Unlimited | Unlimited |\n| **Wire Transfers** | Free domestic | Free domestic |\n\n## **Core Features**\n\n### **Rho**\n- **Focus**: Spend management & corporate card\n- Integrated corporate card with spend controls\n- Automated expense categorization\n- Budget tracking & controls\n- API access\n- Bill pay included\n- Multi-user access\n\n### **Mercury**\n- **Focus**: Banking operations & fintech stack\n- Treasury management tools\n- High-yield savings (variable APY)\n- Invoice & invoicing features\n- Advanced API & integrations\n- Payroll capabilities\n- Real-time transaction data\n\n## **Key Differences**\n\n| Aspect | Rho | Mercury |\n|--------|-----|---------|\n| **Best For** | Spend control & expense management | Complete banking + operations |\n| **Card Included** | Yes (primary product) | Available (additional) |\n| **Savings Account** | No | Yes (competitive rates) |\n| **Payroll** | No | Yes |\n| **Invoicing** | No | Yes |\n| **Integration** | Strong with expense tools | Strong with fintech/developer APIs |\n\n## **Bottom Line**\n\n- **Choose Rho** if you prioritize spend management and need an integrated corporate card\n- **Choose Mercury** if you want a full banking suite with treasury, payroll, and invoicing\n\nBoth are **free** with no minimums—decision often depends on which features align with your workflow.",
+  "cached_at": "2026-05-28T07:12:18Z",
+  "metadata": {}
+}

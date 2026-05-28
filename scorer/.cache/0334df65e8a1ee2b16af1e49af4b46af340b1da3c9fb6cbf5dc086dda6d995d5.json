@@ -1,0 +1,9 @@
+{
+  "brand": "Front",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I manage customer emails as a shared team inbox without losing context or dropping threads without spending a lot on software?",
+  "response": "# Low-Cost Shared Email Management\n\n## Free/Cheap Options\n\n**Gmail/Google Workspace approach:**\n- Use group email addresses that forward to a shared label\n- Enable \"Reply as\" so anyone can respond under the shared address\n- Create filters to auto-label incoming messages by category\n- Use Gmail's \"Show trimmed content\" sparingly so people see conversation history\n- Cost: Free or $6-12/user/month for Workspace\n\n**Microsoft 365 approach:**\n- Shared mailbox (included in most plans, ~$6+/user)\n- Everyone sees the same inbox and sent items\n- Cleaner than Gmail for this use case\n\n## Practical workflows to prevent dropped threads\n\n1. **Use labels/folders + flagging**\n   - Flag/star messages needing action\n   - Create status labels: \"Waiting for customer,\" \"Waiting for us,\" \"Resolved\"\n   - Weekly sweep to unstick things\n\n2. **Assign in the subject line** (if no task management tool)\n   - \"**[JOHN]** - Customer question about X\"\n   - Search and filter makes accountability visible\n\n3. **Short response SLAs**\n   - Someone replies *acknowledging* receipt within 2 hours, even if just \"Looking into this\"\n   - Prevents the \"I thought you had it\" problem\n\n4. **Shared spreadsheet as lightweight tracker**\n   - Link to email, customer name, status\n   - Google Sheet or Excel ($0-10/month)\n   - Update in daily standup (5 min)\n\n## What actually matters\nThe tool is secondary—you need:\n- Clear ownership (someone's name on it)\n- Visible status\n- A routine check (daily or twice-daily sweep)\n\nWhat size team and volume are we talking?",
+  "cached_at": "2026-05-28T08:17:13Z",
+  "metadata": {}
+}

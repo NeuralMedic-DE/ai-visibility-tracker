@@ -1,0 +1,9 @@
+{
+  "brand": "Braintrust",
+  "prompt_id": "AL-05",
+  "llm": "openai",
+  "prompt_text": "Open source or affordable AI tooling tools instead of PromptFoo",
+  "response": "If you're looking for open-source or affordable alternatives to PromptFoo for AI tooling, there are several options you might consider:\n\n1. **LangChain**: An open-source framework designed to help build applications with large language models. It provides tools for prompt management, chaining, and integration with various data sources.\n\n2. **LlamaIndex**: Formerly known as GPT Index, this tool helps in building applications with LLMs by providing data connectors and prompt management capabilities.\n\n3. **OpenAI Playground**: While not open-source, the OpenAI Playground is a free tool that allows you to experiment with different prompts and models to see how they respond.\n\n4. **Hugging Face Transformers**: An open-source library that provides access to a wide range of pre-trained models. It includes tools for prompt engineering and model fine-tuning.\n\n5. **Rasa**: An open-source framework for building conversational AI and chatbots. It allows for custom prompt management and integration with various AI models.\n\n6. **Botpress**: An open-source conversational AI platform that provides tools for building, deploying, and managing chatbots, with support for various AI models.\n\n7. **Haystack by deepset**: An open-source framework for building search systems that can integrate with language models for prompt-based querying and response generation.\n\nThese tools offer a range of functionalities, from prompt management to full-fledged conversational AI development, and can be tailored to suit different needs and budgets.",
+  "cached_at": "2026-05-28T07:47:24Z",
+  "metadata": {}
+}

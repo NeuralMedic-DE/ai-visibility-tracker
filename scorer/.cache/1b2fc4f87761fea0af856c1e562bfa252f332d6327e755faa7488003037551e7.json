@@ -1,0 +1,9 @@
+{
+  "brand": "Braintrust",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Braintrust vs Vellum: which is better?",
+  "response": "# Braintrust vs Vellum\n\nBoth are solid platforms for LLM evaluation, but they serve slightly different needs:\n\n## **Braintrust**\n**Strengths:**\n- Better for testing and evaluating LLM outputs\n- Strong evaluation/scoring framework\n- Good for comparing model performance\n- Simpler, more focused feature set\n\n**Best for:** Teams wanting straightforward eval workflows without extra complexity\n\n## **Vellum**\n**Strengths:**\n- More comprehensive—includes prompt management, testing, AND deployment\n- Better if you want an end-to-end platform\n- More robust versioning and collaboration\n- Good for production workflows\n\n**Best for:** Teams wanting a complete LLM app lifecycle platform\n\n## **Quick decision framework:**\n- **Just need evaluations?** → Braintrust\n- **Need the full pipeline** (prompt → test → deploy) → Vellum\n- **Budget-conscious?** → Braintrust tends to be lighter-weight\n- **Enterprise features?** → Vellum has more\n\n## **The honest take:**\nNeither is objectively \"better\"—it depends on whether you want a focused evaluation tool or an integrated platform. Many teams use both for different purposes.\n\nWhat's your main use case? (eval only, or full pipeline?) That'll help narrow it down.",
+  "cached_at": "2026-05-28T07:47:12Z",
+  "metadata": {}
+}

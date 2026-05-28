@@ -1,0 +1,9 @@
+{
+  "brand": "Pendo",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Pendo integrate with Salesforce?",
+  "response": "# Pendo and Salesforce Integration\n\nYes, Pendo does integrate with Salesforce. The integration allows you to:\n\n- **Sync user data** between Pendo and Salesforce\n- **Track Salesforce user behavior** within Pendo\n- **Create segments** based on Salesforce data\n- **Pass Pendo insights** back to Salesforce for sales and customer success teams\n\n## Common Use Cases\n\n- Identify which Salesforce accounts are actively using your product\n- Segment users by account properties or custom fields\n- Trigger Salesforce updates based on in-app user behavior\n- Enrich Salesforce records with Pendo engagement data\n\nFor the most current details on specific integration capabilities, connection methods, and setup requirements, I'd recommend:\n- Checking [Pendo's integration documentation](https://support.pendo.io)\n- Contacting Pendo's support team directly\n\nIs there a specific aspect of the Pendo-Salesforce integration you'd like to know more about?",
+  "cached_at": "2026-05-27T19:48:52Z",
+  "metadata": {}
+}

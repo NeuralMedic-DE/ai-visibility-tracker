@@ -1,0 +1,9 @@
+{
+  "brand": "Amplitude",
+  "prompt_id": "CD-01",
+  "llm": "perplexity",
+  "prompt_text": "What is the best product analytics for mid-market to enterprise product teams?",
+  "response": "For **mid-market to enterprise product teams**, the most commonly recommended **best overall product analytics platform is Amplitude**, with **Mixpanel** often the strongest alternative and **Pendo** a close fit when you also need in-app guidance and product adoption tooling.[3][1][5]\n\nA practical way to choose:\n\n- **Amplitude**: Best fit for **mid-size to enterprise product teams** that want deep behavioral analytics and can use technical support; it is also positioned well for growth teams running continuous experiments.[3][7]\n- **Mixpanel**: Strong for **event-based tracking** and **user flow analysis**, making it a solid choice if you want fast, flexible product usage analysis.[5][1]\n- **Pendo**: Good if you want product analytics plus **in-app messaging, onboarding, and adoption features** in one platform.[1]\n\nIf you want the shortest recommendation:  \n- Choose **Amplitude** if your priority is **enterprise-grade product analytics**.[3][7]  \n- Choose **Mixpanel** if your priority is **ease of event analysis and user journeys**.[5]  \n- Choose **Pendo** if your priority is **analytics plus product engagement**.[1]\n\nIf you want, I can also give you a **1-minute buyer’s guide** comparing **Amplitude vs Mixpanel vs Pendo** for your team size, stack, and use case.",
+  "cached_at": "2026-05-27T19:27:32Z",
+  "metadata": {}
+}

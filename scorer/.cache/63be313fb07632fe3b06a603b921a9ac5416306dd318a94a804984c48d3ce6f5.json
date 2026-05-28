@@ -1,0 +1,9 @@
+{
+  "brand": "Charlie HR",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "BambooHR vs alternatives: what should I switch to?",
+  "response": "# BambooHR Alternatives: Key Contenders\n\n## If you want to **switch**, consider:\n\n**TriNet/Zenefits** - More comprehensive (payroll + benefits + HR)\n- Better for mid-market companies\n- Integrated ecosystem vs BambooHR's modular approach\n\n**Guidepoint/Lattice** - Stronger on performance management\n- Better engagement & development tools\n- If BambooHR's performance features feel light\n\n**Workday** - Enterprise-grade alternative\n- Steeper learning curve & cost\n- Worth it only if you've outgrown mid-market tools\n\n**ADP Workforce Now** - Solid all-in-one\n- Payroll integration is stronger\n- More traditional interface\n\n## Before switching, ask yourself:\n\n- **What's broken?** (If it's just payroll, add ADP/Gusto instead of replacing)\n- **Company size?** (BambooHR is built for SMBs; if you're 500+ employees, you likely need something bigger)\n- **Integration gaps?** (Can you add point solutions instead?)\n- **Cost tolerance?** (Most alternatives cost more)\n\n## Honest take:\n\nBambooHR is genuinely good at what it targets (small-to-mid companies). Most switches fail because people expect enterprise-level features at SMB pricing. \n\n**What's driving your interest in switching?** That'll help narrow down if you actually need a new platform or just need to better configure/supplement what you have.",
+  "cached_at": "2026-05-28T06:43:49Z",
+  "metadata": {}
+}

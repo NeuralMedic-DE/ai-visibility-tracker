@@ -1,0 +1,51 @@
+{
+  "run_date": "2026-05-27",
+  "total_brands": 5,
+  "active_llms": [
+    "openai"
+  ],
+  "elapsed_seconds": 0.0,
+  "dry_run": true,
+  "brands": [
+    {
+      "brand": "Close",
+      "url": "close.com",
+      "avs": 0.0,
+      "avs_per_llm": {
+        "openai": 0.0
+      }
+    },
+    {
+      "brand": "Attio",
+      "url": "attio.com",
+      "avs": 0.0,
+      "avs_per_llm": {
+        "openai": 0.0
+      }
+    },
+    {
+      "brand": "Plausible",
+      "url": "plausible.io",
+      "avs": 0.0,
+      "avs_per_llm": {
+        "openai": 0.0
+      }
+    },
+    {
+      "brand": "Linear",
+      "url": "linear.app",
+      "avs": 0.0,
+      "avs_per_llm": {
+        "openai": 0.0
+      }
+    },
+    {
+      "brand": "Ashby",
+      "url": "ashby.com",
+      "avs": 0.0,
+      "avs_per_llm": {
+        "openai": 0.0
+      }
+    }
+  ]
+}

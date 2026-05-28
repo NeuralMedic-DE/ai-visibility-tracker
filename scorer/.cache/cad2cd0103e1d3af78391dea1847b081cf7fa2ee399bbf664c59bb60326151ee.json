@@ -1,0 +1,9 @@
+{
+  "brand": "Brevo",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Brevo vs Mailchimp: which is better?",
+  "response": "# Brevo vs Mailchimp: Key Differences\n\n**Mailchimp** is better if you want:\n- Simplicity and ease of use\n- Free plan (generous for small lists)\n- Wider third-party integrations\n- Established, familiar platform\n\n**Brevo** is better if you need:\n- SMS marketing included\n- Better automation features\n- Lower cost at scale\n- More advanced segmentation\n- Better transactional email support\n\n## Quick Comparison\n\n| Feature | Mailchimp | Brevo |\n|---------|-----------|-------|\n| Free plan | Very generous | Limited |\n| Automation | Good | Excellent |\n| SMS | Paid add-on | Included |\n| Starting paid tier | ~$13/mo | ~$10/mo |\n| Ease of use | Simpler | Steeper learning curve |\n\n## The Real Answer\n**It depends on your needs:**\n- **Small business, simple campaigns?** → Mailchimp\n- **Growing business needing SMS + automation?** → Brevo\n- **Budget-conscious with advanced needs?** → Brevo\n- **Want the most familiar platform?** → Mailchimp\n\nWhat's your main priority—budget, features, or ease of use? That would help narrow it down.",
+  "cached_at": "2026-05-28T07:25:45Z",
+  "metadata": {}
+}

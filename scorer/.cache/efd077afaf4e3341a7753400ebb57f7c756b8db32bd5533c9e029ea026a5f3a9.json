@@ -1,0 +1,9 @@
+{
+  "brand": "Teamtailor",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to Workable",
+  "response": "# Cheaper Alternatives to Workable\n\n## Free or Freemium Options\n\n**Lever**\n- Free tier for small teams\n- Strong applicant tracking\n- Good integration options\n\n**Greenhouse**\n- Limited free version available\n- Focus on structured hiring\n- Scalable pricing\n\n**Zoho Recruit**\n- Very affordable ($25-50/user/month)\n- Full ATS features\n- Works well for small-medium businesses\n\n## Budget-Friendly Options\n\n**Breezy HR**\n- Starting around $100-150/month\n- Simple, clean interface\n- Good for startups\n\n**Recruitee**\n- €99/month base tier\n- Team collaboration focused\n- Transparent pricing\n\n**JazzHR**\n- ~$69/month\n- User-friendly\n- Good automation features\n\n**Ashby**\n- Competitive mid-market pricing\n- Modern interface\n- Strong reporting\n\n## Ultra-Budget Solutions\n\n**Google Hiring**\n- Integrated with Google Workspace\n- Minimal cost\n- Basic functionality\n\n**Bamboo HR** (for HR generally)\n- More HR-focused than pure ATS\n- Starting around $99/month\n\n## Selection Tips\n\nConsider your priority:\n- **Hiring volume** → Workable offers value at scale\n- **Limited budget** → Zoho Recruit or JazzHR\n- **Simplicity** → Breezy HR\n- **Free option** → Lever or spreadsheet + email system\n\nWould you like recommendations based on your specific team size or hiring volume?",
+  "cached_at": "2026-05-28T06:41:58Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "RudderStack",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "RudderStack vs Segment: which is better?",
+  "response": "# RudderStack vs Segment: Key Differences\n\nNeither is universally \"better\"—it depends on your needs. Here's how they compare:\n\n## **Segment Strengths**\n- **Ease of use**: Simpler setup, especially for non-technical teams\n- **Integrations**: Largest pre-built integration library (~500+)\n- **Ecosystem maturity**: Longer track record, well-established\n- **Support**: More robust customer support options\n\n## **RudderStack Strengths**\n- **Cost**: Generally cheaper, especially at scale\n- **Data control**: Open-source option; you can self-host\n- **Flexibility**: More customization without vendor lock-in\n- **Transparency**: Source code available (open-source version)\n- **Privacy-friendly**: Better for strict data governance needs\n\n## **Key Trade-offs**\n\n| Factor | Segment | RudderStack |\n|--------|---------|-------------|\n| **Price** | Higher | Lower |\n| **Setup complexity** | Lower | Higher |\n| **Control** | Less | More |\n| **Self-hosting** | No | Yes |\n| **Learning curve** | Gentler | Steeper |\n\n## **Choose Segment if:**\nYou want quick deployment, minimal DevOps overhead, and don't mind paying premium prices\n\n## **Choose RudderStack if:**\nYou need cost efficiency, data sovereignty, customization, or prefer avoiding vendor lock-in\n\n**Bottom line**: Test both with your actual use case. RudderStack's open-source version is free to try.",
+  "cached_at": "2026-05-28T09:07:46Z",
+  "metadata": {}
+}

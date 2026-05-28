@@ -1,0 +1,9 @@
+{
+  "brand": "Apollo.io",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Apollo.io HubSpot integration: how does it work?",
+  "response": "# Apollo.io HubSpot Integration\n\n## Overview\nApollo.io connects with HubSpot to sync contact and company data, streamlining your sales workflow.\n\n## Key Features\n\n### **Data Sync**\n- **Contacts**: Import Apollo prospects into HubSpot as contacts\n- **Companies**: Sync company information between platforms\n- **Two-way sync**: Updates can flow in both directions (depending on setup)\n\n### **Main Capabilities**\n- Push Apollo leads directly to HubSpot contact lists\n- Enrich HubSpot contacts with Apollo data (emails, phone numbers, social profiles)\n- Trigger HubSpot workflows based on Apollo activities\n- Log Apollo calls and emails in HubSpot activity timelines\n\n## How It Works (Basic Flow)\n\n1. **Connect accounts** via OAuth in either Apollo or HubSpot app marketplace\n2. **Map fields** between Apollo and HubSpot data fields\n3. **Set sync rules** (which contacts/companies, frequency, direction)\n4. **Data automatically syncs** based on your configuration\n\n## Setup Options\n\n- **Apollo marketplace** → HubSpot integration\n- **HubSpot marketplace** → search for Apollo\n- Some features require paid plans on both platforms\n\n## Common Use Cases\n- Automatically add Apollo prospects to HubSpot CRM\n- Keep lead enrichment data current\n- Centralize all prospect interactions in HubSpot\n\n## Limitations\n- Check current plan compatibility (not all features available on all tiers)\n- Field mapping can require manual configuration\n- Sync frequency depends on your plan\n\n**Need specific details?** Let me know your use case or plan level, and I can provide more targeted information.",
+  "cached_at": "2026-05-27T18:05:29Z",
+  "metadata": {}
+}

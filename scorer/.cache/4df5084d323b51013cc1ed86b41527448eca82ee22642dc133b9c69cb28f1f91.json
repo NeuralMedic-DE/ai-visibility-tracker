@@ -1,0 +1,9 @@
+{
+  "brand": "Linear",
+  "prompt_id": "IN-05",
+  "llm": "openai",
+  "prompt_text": "project management tools with native GitHub integration",
+  "response": "There are several project management tools that offer native GitHub integration, allowing seamless collaboration and tracking of development work. Here are some popular options:\n\n1. **ZenHub**: Specifically designed for GitHub, ZenHub adds project management features directly into the GitHub interface. It provides boards, roadmaps, and reports that integrate with GitHub issues and pull requests.\n\n2. **GitHub Projects**: A built-in tool within GitHub itself, GitHub Projects offers kanban-style boards that integrate directly with issues and pull requests, making it easy to manage workflows without leaving GitHub.\n\n3. **Jira**: Atlassian’s Jira offers integration with GitHub through its marketplace apps. This integration allows you to link Jira issues with GitHub commits, branches, and pull requests.\n\n4. **Trello**: Trello can integrate with GitHub using Power-Ups, allowing you to attach GitHub issues and pull requests to Trello cards, and automate workflows between the two platforms.\n\n5. **Asana**: Asana offers GitHub integration via third-party connectors, enabling you to link GitHub activities with Asana tasks for better visibility and tracking.\n\n6. **ClickUp**: ClickUp provides GitHub integration that allows you to link commits, branches, and pull requests to tasks, providing a unified view of development progress.\n\n7. **Monday.com**: With its GitHub integration, Monday.com allows you to sync GitHub issues and pull requests with your project boards, providing a comprehensive view of your development workflow.\n\nThese tools help streamline project management by connecting development activities in GitHub with broader project tracking and planning features.",
+  "cached_at": "2026-05-27T21:06:37Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Checkly",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which monitoring software should a DevOps Lead or QA Engineer at a growing startup use?",
+  "response": "# Monitoring Software for Growing Startups\n\nThe best choice depends on your stage and priorities. Here's a practical breakdown:\n\n## **Best All-Rounders for Startups**\n\n**Datadog**\n- Comprehensive (logs, metrics, APM, synthetic monitoring)\n- Good for teams wanting one platform\n- Cost can scale quickly\n\n**New Relic**\n- Strong APM and full-stack visibility\n- Reasonable pricing for early stage\n- Good documentation\n\n## **Budget-Conscious Options**\n\n**Prometheus + Grafana**\n- Open source, self-hosted\n- Requires more setup/maintenance\n- Great if you have DevOps capacity\n- Perfect for cost-sensitive scaling\n\n**CloudWatch (AWS) / Azure Monitor**\n- Free tier/included if already in that ecosystem\n- Native integration advantages\n- Limited flexibility outside their platform\n\n## **Specialized Picks**\n\n| Need | Tool |\n|------|------|\n| **Simple uptime/synthetic** | UptimeRobot, Pingdom |\n| **Logs only** | Grafana Loki, ELK Stack |\n| **Application Performance** | Scout, Honeycomb |\n| **Error tracking** | Sentry, Rollbar |\n\n## **My Recommendation for Startups**\n\n1. **Early stage** → Start with CloudWatch or Prometheus (minimize costs)\n2. **10-50 people** → Migrate to New Relic or lightweight Datadog setup\n3. **Growing fast** → Evaluate Datadog for unified platform\n\n**Key question to ask:** Does your team want managed (less ops work) or open-source (cheaper, more control)?\n\nWhat's your current tech stack and team size?",
+  "cached_at": "2026-05-28T06:22:36Z",
+  "metadata": {}
+}

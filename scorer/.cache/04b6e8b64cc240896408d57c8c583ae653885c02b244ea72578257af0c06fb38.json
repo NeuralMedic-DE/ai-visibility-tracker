@@ -1,0 +1,9 @@
+{
+  "brand": "Salesflare",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Salesflare vs Pipedrive: which is better?",
+  "response": "# Salesflare vs Pipedrive\n\nNeither is objectively \"better\"—it depends on your needs. Here's a quick comparison:\n\n## **Pipedrive**\n**Strengths:**\n- More robust pipeline management and visualization\n- Better for complex sales processes\n- Stronger automation capabilities\n- Larger ecosystem of integrations\n- More customizable\n\n**Best for:** Mid-to-large teams with structured sales workflows\n\n## **Salesflare**\n**Strengths:**\n- Simpler, more intuitive interface\n- Strong on contact intelligence and auto-data enrichment\n- Less setup/configuration required\n- Good email integration\n- Better for minimalists\n\n**Best for:** Small teams wanting quick implementation with less complexity\n\n## **Key differences:**\n- **Ease of use:** Salesflare is easier to learn\n- **Power:** Pipedrive handles more complex scenarios\n- **Pricing:** Both are competitive; Pipedrive often cheaper for larger teams\n- **Automation:** Pipedrive wins here\n\n## **Quick decision:**\n- Choose **Salesflare** if you want simplicity and smart automation\n- Choose **Pipedrive** if you need detailed pipeline control and customization\n\n**My suggestion:** Try both free trials with your actual workflow in mind. The \"better\" one is whichever your team will actually use consistently.\n\nWhat type of sales team are you? That would help narrow it down.",
+  "cached_at": "2026-05-27T18:13:26Z",
+  "metadata": {}
+}

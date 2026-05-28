@@ -1,0 +1,9 @@
+{
+  "brand": "Salesflare",
+  "prompt_id": "UC-04",
+  "llm": "anthropic",
+  "prompt_text": "How can a founder or solo sales rep at a startup log sales activities automatically more efficiently?",
+  "response": "# Efficient Sales Activity Logging for Startup Founders/Solo Reps\n\n## Automation-First Approaches\n\n**Email integration**\n- Tools like Pipedrive, HubSpot, or Salesforce auto-log emails to contacts\n- Calendar sync captures meetings automatically\n- Requires minimal manual work after initial setup\n\n**Call recording + transcription**\n- Dialpad, RingCentral, or Gong auto-transcribe calls and pull key details\n- Some parse action items and next steps automatically\n- Creates activity records without you typing\n\n**Calendar blocking**\n- Block time for call types, demos, follow-ups\n- CRM can log these as activities just from calendar data\n- Works if you're disciplined about calendar hygiene\n\n## Lower-Friction Logging\n\n**Mobile-first tools**\n- Salesforce mobile, Pipedrive's app—quick 30-second logs while still on the call\n- Voice memos that sync instead of typed notes\n- Better than nothing when you're busy\n\n**Templates + quick actions**\n- Pre-built activity templates (\"Discovery call,\" \"Demo,\" \"Follow-up email\")\n- Single-click logging for recurring activity types\n- Cuts friction dramatically\n\n**Slack/WhatsApp integrations**\n- Some CRMs log activities via chat commands\n- `/log-call John Smith - discussed pricing` type workflows\n\n## The Reality Check\n\nThe best system is whatever requires **least friction after the sale happens**—logging 10 seconds post-call beats perfect logging that never happens.\n\nWhat's your biggest bottleneck: capturing the activities at all, or remembering to log them?",
+  "cached_at": "2026-05-27T18:14:40Z",
+  "metadata": {}
+}

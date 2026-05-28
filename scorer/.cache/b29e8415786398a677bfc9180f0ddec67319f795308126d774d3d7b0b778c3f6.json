@@ -1,0 +1,9 @@
+{
+  "brand": "Supermetrics",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do digital marketing agencies and in-house marketing teams companies use to pull marketing data from all ad platforms into spreadsheets?",
+  "response": "# Tools for Centralizing Ad Platform Data\n\n## **Native Integration Platforms**\n- **Google Data Studio** (free, Google-owned) – connects to Google Ads, Analytics, etc.\n- **Meta Business Suite reports** – built-in Facebook/Instagram analytics\n- **LinkedIn Campaign Manager** – native reporting\n\n## **Dedicated Marketing Data Platforms**\n- **Supermetrics** – aggregates data from 100+ sources into Google Sheets, Data Studio, Looker\n- **Funnelytics** – visual funnel tracking across platforms\n- **Microsoft Power BI** – enterprise-level dashboards\n- **Tableau** – advanced visualization and reporting\n- **Mixpanel** – behavioral analytics focus\n\n## **Spreadsheet-First Solutions**\n- **Zapier** – automates data syncing to sheets (limited free tier)\n- **OWOX BI** – Google Sheets add-on for Google Ads, Analytics, Facebook data\n- **Coefficient** – syncs Salesforce/HubSpot into Sheets\n- **Improvado** – automated data pipeline tool\n\n## **All-in-One Agency Platforms**\n- **Marin Software** – bid management + reporting\n- **Kenshoo** – cross-channel campaign management\n- **Skai** – unified management and reporting\n- **Adriel** – dashboarding specifically for agencies\n\n## **Selection Factors**\nMost teams choose based on:\n- Budget constraints\n- Platforms they use (Google vs. Meta heavy, etc.)\n- Need for automation vs. manual pulls\n- Client reporting requirements\n\nWhich platforms are you primarily using?",
+  "cached_at": "2026-05-27T20:38:06Z",
+  "metadata": {}
+}

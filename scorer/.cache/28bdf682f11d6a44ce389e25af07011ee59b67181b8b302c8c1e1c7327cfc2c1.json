@@ -1,0 +1,9 @@
+{
+  "brand": "Close",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Close vs Pipedrive: which is better?",
+  "response": "# Close vs Pipedrive\n\nBoth are solid CRM platforms, but they excel in different areas:\n\n## **Close** is better if you:\n- Focus heavily on sales calls and phone workflows\n- Want built-in calling/SMS (no third-party tools needed)\n- Prefer simplicity over customization\n- Need affordable pricing at smaller scales\n- Value straightforward automation\n\n## **Pipedrive** is better if you:\n- Want maximum customization and flexibility\n- Need robust reporting and analytics\n- Work with complex, multi-stage sales processes\n- Prefer a more visual pipeline interface\n- Require extensive integrations\n\n## **Quick comparison:**\n\n| Factor | Close | Pipedrive |\n|--------|-------|-----------|\n| **Ease of use** | Simpler | More powerful, steeper learning curve |\n| **Built-in calling** | Yes | No (requires add-ons) |\n| **Customization** | Limited | Extensive |\n| **Price** | Starting ~$29/user | Starting ~$12/user |\n| **Best for** | Sales teams | Sales + operations |\n\n## **Bottom line:**\n- **Choose Close** if your team is call-heavy and you want a lean, focused tool\n- **Choose Pipedrive** if you need flexibility and plan to scale your processes\n\nWhat's your main priority? That would help narrow it down further.",
+  "cached_at": "2026-05-27T17:50:07Z",
+  "metadata": {}
+}

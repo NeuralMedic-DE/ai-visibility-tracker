@@ -1,0 +1,9 @@
+{
+  "brand": "Klipfolio",
+  "prompt_id": "IN-02",
+  "llm": "openai",
+  "prompt_text": "Klipfolio HubSpot integration: how does it work?",
+  "response": "Klipfolio's integration with HubSpot allows you to connect your HubSpot data to Klipfolio to create custom dashboards and visualizations. Here's how the integration typically works:\n\n1. **Connecting to HubSpot**: You start by connecting your HubSpot account to Klipfolio. This is usually done through an OAuth authentication process where you authorize Klipfolio to access your HubSpot data.\n\n2. **Data Sources**: Once connected, you can create data sources in Klipfolio that pull data from HubSpot. You can use pre-built queries or create custom queries using HubSpot's API to fetch the specific data you need, such as contacts, deals, marketing metrics, etc.\n\n3. **Building Visualizations**: With the data sources set up, you can build visualizations using Klipfolio's tools. You can create charts, graphs, tables, and other types of visualizations to represent your HubSpot data in a meaningful way.\n\n4. **Dashboards**: You can combine multiple visualizations into dashboards. These dashboards can be customized to display the most relevant metrics and KPIs for your business needs.\n\n5. **Real-time Updates**: Klipfolio can be set up to refresh data at regular intervals, ensuring that your dashboards display the most current information from HubSpot.\n\n6. **Sharing and Collaboration**: Once your dashboards are set up, you can share them with your team or stakeholders. Klipfolio offers various sharing options, including public links, email reports, and embedding dashboards in other platforms.\n\nOverall, the integration allows you to leverage HubSpot data effectively by visualizing it in a way that supports data-driven decision-making.",
+  "cached_at": "2026-05-27T20:26:14Z",
+  "metadata": {}
+}

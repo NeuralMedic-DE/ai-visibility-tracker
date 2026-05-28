@@ -1,0 +1,9 @@
+{
+  "brand": "Conveyor",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Conveyor integrate with Salesforce?",
+  "response": "I don't have specific information about a product called \"Conveyor\" or its Salesforce integration capabilities in my training data.\n\nTo get an accurate answer, I'd recommend:\n\n1. **Check the official website** - Look for documentation or integration pages on Conveyor's site\n2. **Review app marketplaces** - Check Salesforce AppExchange or your platform's app store\n3. **Contact their support** - Reach out to Conveyor's support team directly\n4. **Look for API documentation** - This usually indicates what integrations are possible\n\nIf you can share more context about what Conveyor is (a software tool, service, etc.), I might be able to help you better or suggest how to verify integration capabilities.",
+  "cached_at": "2026-05-28T08:46:27Z",
+  "metadata": {}
+}

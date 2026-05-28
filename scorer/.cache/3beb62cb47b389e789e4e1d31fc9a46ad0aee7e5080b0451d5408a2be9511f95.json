@@ -1,0 +1,9 @@
+{
+  "brand": "Drata",
+  "prompt_id": "IN-04",
+  "llm": "anthropic",
+  "prompt_text": "Best compliance that works with GitHub and Okta",
+  "response": "# Best Compliance Solutions for GitHub + Okta Integration\n\n## **Top Recommendations**\n\n### **1. GitHub Advanced Security + GitHub Enterprise**\n- **Native integration** with Okta for SSO/SCIM\n- Built-in: secret scanning, code scanning, dependency management\n- **Best for**: SOC 2, ISO 27001, HIPAA\n- ✅ No additional tools needed for basic compliance\n\n### **2. JFrog Xray + GitHub**\n- Supply chain security & SCA (Software Composition Analysis)\n- Works with Okta authentication\n- **Best for**: SBOM, vulnerability tracking, license compliance\n- Lightweight, development-focused\n\n### **3. Snyk**\n- Developer-first security scanning\n- SAST, DAST, dependency scanning\n- Okta integration available\n- **Best for**: DevSecOps compliance, OWASP\n\n### **4. Delinea (formerly Thycotic)**\n- Secrets management\n- Okta MFA integration\n- **Best for**: SOC 2, PCI DSS\n- Critical for preventing credential exposure\n\n---\n\n## **Compliance Audit Trail Stack** (Most Popular)\n\n| Tool | Purpose | Okta Compatible |\n|------|---------|-----------------|\n| **GitHub Enterprise** | Code & audit logs | ✅ Full SAML/SCIM |\n| **Okta Workflows** | Identity automation | ✅ Native |\n| **Delinea** | Secrets vault | ✅ Yes |\n| **Snyk/JFrog** | Vulnerability mgmt | ✅ Yes |\n| **Bridgecrews Prisma Cloud** | Compliance as code | ✅ Yes |\n\n---\n\n## **Recommended Approach by Compliance Need**\n\n**SOC 2 Type II**: GitHub Enterprise + Okta + Delinea  \n**HIPAA**: Add Bridgecrews + JFrog Xray  \n**PCI DSS**: Add HashiCorp Vault (Secrets) + network scanning  \n**ISO 27001**: All of the above + detailed audit logging\n\nWould you like help setting up any specific compliance framework?",
+  "cached_at": "2026-05-28T08:29:11Z",
+  "metadata": {}
+}

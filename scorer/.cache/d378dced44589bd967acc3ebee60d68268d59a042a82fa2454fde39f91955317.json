@@ -1,0 +1,9 @@
+{
+  "brand": "Teamtailor",
+  "prompt_id": "AL-05",
+  "llm": "anthropic",
+  "prompt_text": "Open source or affordable ATS tools instead of Workable",
+  "response": "# ATS Alternatives to Workable\n\n## Free/Open Source Options\n\n### **OpenCATS**\n- Self-hosted open source platform\n- Basic applicant tracking, resume parsing, job postings\n- Requires technical setup (server hosting)\n- Good for small teams with IT support\n\n### **Open Job Board + Custom Setup**\n- Use open source job board software (Jobtimize, Breezy alternatives)\n- Combine with spreadsheets or basic CRM\n- Requires more manual work\n\n---\n\n## Affordable/Budget Options\n\n### **Lever** (~$99/month)\n- Mid-range pricing\n- Collaborative hiring, beautiful interface\n- Better for early-stage startups\n\n### **Bamboo HR** (pricing flexible)\n- HR-focused with ATS module\n- Scales with team size\n\n### **Greenhouse** (custom pricing)\n- More expensive but robust\n- Often has startup discounts\n\n### **SmartRecruiters** (~$50-200/month tiers)\n- Scalable pricing\n- Interview management built-in\n\n### **JazzHR** (~$39/month)\n- Simple, affordable\n- Good for small businesses\n\n---\n\n## Minimal/DIY Approach\n- **Airtable** + email templates (very affordable)\n- **Notion** + email automation\n- **Zapier** for workflow automation\n\n---\n\n**What's your team size and budget range?** That would help narrow down the best fit.",
+  "cached_at": "2026-05-28T06:41:58Z",
+  "metadata": {}
+}

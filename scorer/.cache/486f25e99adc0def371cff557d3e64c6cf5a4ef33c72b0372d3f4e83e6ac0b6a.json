@@ -1,0 +1,9 @@
+{
+  "brand": "Linear",
+  "prompt_id": "IN-02",
+  "llm": "openai",
+  "prompt_text": "Linear Slack integration: how does it work?",
+  "response": "Linear's Slack integration allows teams to streamline their workflow by connecting Linear, a project management tool, with Slack, a popular communication platform. Here's how it typically works:\n\n1. **Notifications**: You can set up notifications in Slack for various activities in Linear, such as when issues are created, updated, or commented on. This helps keep the team informed without needing to switch between platforms.\n\n2. **Slash Commands**: Linear provides slash commands that you can use directly in Slack to perform actions like creating new issues, searching for existing ones, or updating issue statuses. This makes it easy to manage tasks without leaving Slack.\n\n3. **Link Previews**: When you paste a Linear issue link into a Slack channel, the integration can automatically expand it to show a preview of the issue, including its title, status, and assignee.\n\n4. **Channel Linking**: You can link specific Linear projects or teams to Slack channels. This ensures that relevant updates are posted to the appropriate channels, keeping communication organized.\n\n5. **Customizable Settings**: The integration settings can be customized to fit the needs of your team, such as choosing which types of notifications to receive and which channels to post them in.\n\nTo set up the integration, you typically need to authorize Linear to access your Slack workspace and configure the settings according to your team's preferences. This integration helps improve collaboration by ensuring that team members are always up-to-date with the latest project developments directly within Slack.",
+  "cached_at": "2026-05-27T21:06:22Z",
+  "metadata": {}
+}

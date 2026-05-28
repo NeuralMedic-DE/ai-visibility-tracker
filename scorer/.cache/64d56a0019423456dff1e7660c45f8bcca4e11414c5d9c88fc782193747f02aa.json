@@ -1,0 +1,9 @@
+{
+  "brand": "ActiveCampaign",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to HubSpot",
+  "response": "# Cheaper Alternatives to HubSpot\n\n## Budget-Friendly CRM Options\n\n### **Free/Freemium Tier**\n- **Zoho CRM** - Most generous free plan; scales affordably\n- **Pipedrive** - $14/month starting; sales-focused\n- **HubSpot Free** - Still available (limited features)\n- **Freshsales** - Free tier with phone/email tracking\n- **Keap** - Free option for small teams\n\n### **Low-Cost Paid Plans**\n- **Monday.com** - ~$9/month; visual workflow management\n- **Agile CRM** - $9.99/month; all-in-one features\n- **Capsule CRM** - $25/month; clean interface\n- **Close** - $29/month; call-focused sales CRM\n\n## By Category\n\n**Email Marketing Alternative:**\n- Mailchimp (free → $20/month)\n- Brevo/Sendinblue (generous free tier)\n\n**All-in-One (like HubSpot):**\n- **Zoho One** - Cheapest full suite\n- **Active Campaign** - $19/month start\n\n**Sales-Specific:**\n- Pipedrive, Close, Streak (Gmail-based)\n\n**Simple/Lightweight:**\n- Google Workspace + Airtable\n- Notion + Zapier\n\n## Key Consideration\n**Cheapest ≠ Best.** Compare:\n- Feature overlap with your needs\n- User seat costs at scale\n- Integration requirements\n- Learning curve\n\nWhat specific HubSpot features matter most to you? (Sales pipeline, marketing, customer service?)",
+  "cached_at": "2026-05-28T07:23:34Z",
+  "metadata": {}
+}

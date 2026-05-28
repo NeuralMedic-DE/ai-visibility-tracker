@@ -1,0 +1,9 @@
+{
+  "brand": "Rippling",
+  "prompt_id": "UC-03",
+  "llm": "perplexity",
+  "prompt_text": "What tools do mid-market companies managing distributed and global teams companies use to automate HR payroll benefits and IT provisioning in a single platform?",
+  "response": "Mid-market companies managing **distributed and global teams** commonly use **all-in-one workforce platforms** that combine **HR, payroll, benefits administration, and IT provisioning** in a single system. The clearest example in the results is **Rippling**, which is described as unifying **HR, payroll, IT, and benefits administration** and automating device/app provisioning[5][6].\n\nOther platforms in the results that fit parts of this use case include:\n\n- **Deel** — strong for **global payroll, hiring, benefits administration, and IT device management** for mid-market companies, with a single platform aimed at global operations[1].\n- **Native Teams** — offers an all-in-one platform for **global workforce management**, including **payroll, HR, employment, compliance, and benefits** across 95+ countries[2].\n- **TriNet / ADP / Paychex / Insperity** — these are more traditional HR/PEO platforms focused on **payroll, benefits, compliance, and HR**, but the results do not show the same depth of **IT provisioning** integration as Rippling or Deel[2][7].\n\nIf your specific need is **one platform for HR + payroll + benefits + IT provisioning**, **Rippling** is the most directly matched option in the search results[5][6]. If the priority is **global hiring and payroll with device management**, **Deel** is the closest alternative[1].",
+  "cached_at": "2026-05-28T06:28:59Z",
+  "metadata": {}
+}

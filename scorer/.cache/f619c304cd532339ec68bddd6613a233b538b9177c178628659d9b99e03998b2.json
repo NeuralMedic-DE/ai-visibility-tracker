@@ -1,0 +1,9 @@
+{
+  "brand": "Teamtailor",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Teamtailor vs Lever: which is better?",
+  "response": "# Teamtailor vs Lever\n\nBoth are solid ATS platforms, but they serve different needs:\n\n## **Teamtailor** — better for:\n- **Smaller to mid-size companies** (especially startups)\n- Budget-conscious teams\n- User-friendly, intuitive interface\n- Strong candidate experience & employer branding features\n- Simpler workflows\n- Better pricing transparency\n\n## **Lever** — better for:\n- **Growth-stage & enterprise companies**\n- Complex hiring workflows\n- Advanced customization & integrations\n- Collaborative hiring (strong team coordination)\n- Detailed pipeline analytics\n- Technical hiring (engineering-focused tools)\n\n## Key differences:\n\n| Factor | Teamtailor | Lever |\n|--------|-----------|-------|\n| **Price** | Lower starting point | Higher/less transparent |\n| **Ease of use** | More intuitive | Steeper learning curve |\n| **Customization** | Good for basics | Highly flexible |\n| **Team collaboration** | Basic | Advanced |\n| **Integrations** | Good coverage | Extensive |\n\n## **Quick recommendation:**\n- **Choose Teamtailor** if you want simplicity, speed, and lower cost\n- **Choose Lever** if you need power, customization, and have the team to use it\n\n**What matters most for your use case?** (Company size, hiring volume, specific features needed?) That'll help narrow it down further.",
+  "cached_at": "2026-05-28T06:41:42Z",
+  "metadata": {}
+}

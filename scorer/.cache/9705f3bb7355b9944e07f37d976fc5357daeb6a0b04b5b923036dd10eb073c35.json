@@ -1,0 +1,9 @@
+{
+  "brand": "Semgrep",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do application security and DevSecOps teams at technology companies companies use to find and fix security vulnerabilities in code automatically before they reach production?",
+  "response": "# Tools for Automated Code Security in DevSecOps\n\n## Static Application Security Testing (SAST)\n- **SonarQube** – Scans code quality and security issues during development\n- **Checkmarx** – Enterprise SAST platform\n- **Veracode** – Cloud-based static analysis\n- **Snyk** – Developer-focused vulnerability scanning\n- **GitHub CodeQL** – Semantic code analysis\n- **Semgrep** – Lightweight pattern-matching tool\n\n## Dependency & Composition Analysis\n- **Snyk Open Source** – Identifies vulnerable dependencies\n- **OWASP Dependency-Check** – Open source scanner\n- **Black Duck/Synopsys** – Software composition analysis\n- **WhiteSource** – Supply chain security\n- **npm audit** / **pip audit** – Built-in package managers\n\n## Container & Infrastructure Security\n- **Trivy** – Scans containers and IaC for vulnerabilities\n- **Grype** – Container image vulnerability detection\n- **Anchore** – Container security platform\n- **Aqua Security** – Runtime protection\n\n## Secret Management\n- **GitGuardian** – Detects exposed credentials in repos\n- **TruffleHog** – Finds secrets in git history\n- **HashiCorp Vault** – Centralized secret storage\n\n## CI/CD Integration\nMost tools integrate into **GitHub Actions, GitLab CI, Jenkins, Azure DevOps** to block deployments when risks exceed thresholds.\n\n## Key Approach\nThese tools work in **layered pipelines**: catching issues early in development → preventing vulnerable code from reaching production through automated gates.",
+  "cached_at": "2026-05-28T08:48:55Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Workable",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do HR teams at SMB and mid-market companies hiring at scale companies use to post jobs to 200 plus job boards with a single click?",
+  "response": "# Job Distribution Platforms for Multi-Board Posting\n\nHR teams typically use these categories of tools:\n\n## **Dedicated Job Distribution Networks**\n- **Broadbean** - Industry standard for posting to 200+ boards simultaneously\n- **Job Distributor** - Focuses on multi-board distribution\n- **Appcast** - Distribution + analytics\n- **Workable** - ATS with built-in distribution to 200+ boards\n- **Lever** - ATS with broad job board integrations\n\n## **All-in-One ATS Platforms**\n- **Greenhouse** - Enterprise-grade with distribution features\n- **SmartRecruiters** - Multi-channel posting capability\n- **iCIMS** - Extensive job board network\n- **BambooHR** - For smaller companies, more limited distribution\n- **Ashby** - Modern ATS with distribution integration\n\n## **Key Features to Look For**\n- Single-click posting to 200+ boards\n- Board-specific optimization (formatting, requirements)\n- Tracking which boards generate best candidates\n- Compliance management across regions\n- Application consolidation back to one inbox\n\n## **Reality Check**\nMost mid-market companies don't need 200+ boards—typically 20-30 quality boards outperform the rest. The better question is often *which* boards drive quality hires, not maximizing volume.\n\n**What's your current hiring volume/budget range?** That would help narrow recommendations.",
+  "cached_at": "2026-05-28T06:46:12Z",
+  "metadata": {}
+}

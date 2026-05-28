@@ -1,0 +1,9 @@
+{
+  "brand": "Make",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best automation for operations teams and automation specialists building advanced integrations?",
+  "response": "# Best Automation Platforms for Advanced Integrations\n\n## Top Tier for Operations Teams\n\n**Zapier / Make (Integromat)**\n- Easiest learning curve\n- 7,000+ pre-built integrations\n- Good for workflows but limited for complex logic\n- Best for: Quick integrations, non-technical teams\n\n**n8n**\n- Open-source, self-hostable\n- Visual + code-based workflows\n- Strong for complex logic and custom integrations\n- Best for: Teams wanting control and flexibility\n\n**Apache Airflow**\n- Industry standard for data pipelines\n- Highly scalable, Python-based\n- Steep learning curve\n- Best for: Large-scale, mission-critical orchestration\n\n## For Automation Specialists\n\n**Temporal or Apache Workflow Engines**\n- Handle distributed, long-running processes\n- Reliability and retry logic built-in\n- Best for: Complex business processes\n\n**Custom Solutions (API-First)**\n- Node.js/Python scripts + job schedulers (Celery, Bull)\n- Maximum flexibility and performance\n- Best for: Highly specialized needs\n\n## My Recommendation\n\n**Start with n8n if you want:**\n- Balance of ease + power\n- Self-hosting capability\n- Community support\n- Cost predictability\n\n**Choose Make if:**\n- Speed to market matters most\n- Team is non-technical\n- SaaS is acceptable\n\n**Build custom if:**\n- Integration patterns are unique\n- Scale demands it\n- You have engineering resources\n\n**What's your specific use case?** (data pipelines, business process automation, API integrations?) I can give more targeted advice.",
+  "cached_at": "2026-05-28T08:53:22Z",
+  "metadata": {}
+}

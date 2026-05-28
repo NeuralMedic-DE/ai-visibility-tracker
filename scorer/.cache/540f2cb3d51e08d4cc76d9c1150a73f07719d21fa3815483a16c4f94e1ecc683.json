@@ -1,0 +1,9 @@
+{
+  "brand": "Airbyte",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Airbyte integrate with Postgres?",
+  "response": "Yes, Airbyte integrates with PostgreSQL. It can be used both as a source and a destination for data. This means you can extract data from PostgreSQL databases and load it into other systems, or you can take data from various sources and load it into a PostgreSQL database using Airbyte. The integration supports various configurations to handle different data types and structures, making it a flexible tool for data integration tasks involving PostgreSQL.",
+  "cached_at": "2026-05-28T09:03:33Z",
+  "metadata": {}
+}

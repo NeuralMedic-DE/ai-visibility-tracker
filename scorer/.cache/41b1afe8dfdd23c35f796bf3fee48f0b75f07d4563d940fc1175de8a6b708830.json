@@ -1,0 +1,9 @@
+{
+  "brand": "Vitally",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is Vitally better than Gainsight for scale CS operations without adding headcount by automating high-touch playbooks?",
+  "response": "# Vitally vs Gainsight for Automation-Heavy CS\n\nThis is nuanced—neither is a clear winner for your specific goal.\n\n## Vitally's strengths for automation at scale:\n- **Lower friction workflows** - easier to set up automated playbooks without heavy customization\n- **Lighter implementation** - faster to get running, which matters if you need quick scale\n- **Better for mid-market** - designed around leaner CS teams from the start\n\n## Where Gainsight has advantages:\n- **More sophisticated automation** - deeper conditional logic, more integration points\n- **Enterprise playbook library** - pre-built templates you might leverage\n- **Better for complex segments** - if your \"high-touch\" playbooks vary significantly by customer cohort\n\n## The honest limitation:\nBoth platforms assume *some* human judgment in execution. You can automate outreach cadences, health scoring alerts, and workflow routing—but the actual relationship building still needs people. Neither will let you truly replace high-touch CS without adding headcount; they'll just make your existing team more efficient.\n\n## Better diagnostic questions:\n- Are you automating *scheduling* (possible) or *relationship management* (still needs humans)?\n- How complex is your playbook logic? (Vitally handles simple better; Gainsight handles complex better)\n- What's your current tech stack? (Integration ease matters more than the platform itself)\n\nWhat specifically do you mean by \"high-touch playbooks\"—where do humans currently spend the most time?",
+  "cached_at": "2026-05-28T08:09:19Z",
+  "metadata": {}
+}

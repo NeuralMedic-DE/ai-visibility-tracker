@@ -1,0 +1,9 @@
+{
+  "brand": "Vellum",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which AI tooling software should a AI Product Lead or Head of AI at a product company use?",
+  "response": "# AI Tooling Stack for Product Leaders\n\nHere's what I'd recommend based on role responsibilities:\n\n## Core Categories\n\n**Experimentation & Evaluation**\n- **LangSmith** or **Prompt Flow** - trace, debug, and evaluate LLM chains\n- **Weights & Biases** - experiment tracking and model monitoring\n- **Arize** or **Datadog** - production monitoring and drift detection\n\n**Model Development**\n- **Hugging Face Hub** - model discovery and management\n- **Modal** or **Runwayml** - quick model deployment\n- **Together AI** or **Replicate** - inference APIs for exploration\n\n**Data & Annotation**\n- **Scale AI** or **Labeled.ai** - data labeling at scale\n- **Argilla** - collaborative data labeling and curation\n- **DVC** - data versioning and pipelines\n\n**Product-Specific**\n- **Feature stores** (Tecton, Feast) - if doing personalization\n- **RAG frameworks** (LlamaIndex, LangChain) - if building retrieval systems\n- **Fine-tuning platforms** (OpenAI, Anthropic, or Anyscale) - for custom models\n\n## My Honest Take\n\n**You probably need only 3-4 tools:**\n1. **LangSmith** (debugging/evaluation) - non-negotiable for LLM products\n2. **Weights & Biases** (experiment tracking) - especially if building custom models\n3. **Hugging Face** (model discovery) - already free and comprehensive\n4. **Your inference provider's native tools** (OpenAI, Anthropic dashboards)\n\nAvoid tool sprawl. Start minimal and add only when you have specific pain points.\n\nWhat type of AI product are you building? That would help narrow it down further.",
+  "cached_at": "2026-05-28T07:44:37Z",
+  "metadata": {}
+}

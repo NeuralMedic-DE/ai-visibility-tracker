@@ -1,0 +1,9 @@
+{
+  "brand": "Amplitude",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I analyze product usage and user behavior without spending a lot on software?",
+  "response": "# Low-Cost Product Analytics Approaches\n\n## Free/Built-In Tools\n- **Google Analytics 4** - solid for web traffic, user journeys, conversion tracking\n- **Hotjar free tier** - heatmaps and session recordings to see *how* users interact\n- **Segment or Mixpanel's free plans** - basic event tracking\n- **Your platform's native analytics** - Stripe, Shopify, etc. often have decent dashboards included\n\n## DIY Data Collection\n- **Spreadsheets + simple logging** - sounds basic, but tracking key metrics manually works if volume is low\n- **SQL queries on your own database** - if you have direct access, you can answer most questions without tools\n- **UTM parameters** - free way to track campaign performance and user sources\n\n## Hybrid Approach (My recommendation)\n1. **Pick 3-5 metrics that actually matter** to your business—don't collect everything\n2. Use free tools for those specific questions\n3. Set up basic event tracking in your app (tag key actions)\n4. Review weekly in a shared spreadsheet\n\n## What to Actually Measure\n- Where users come from\n- What they do first (activation)\n- Where they drop off\n- What separates power users from one-time users\n\nThe trap is treating analytics as a cost problem when the real problem is usually unclear *what questions you're trying to answer*. Start there, then the tool choice becomes obvious.\n\nWhat's your main question about user behavior right now?",
+  "cached_at": "2026-05-27T19:26:31Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "ChurnZero",
+  "prompt_id": "IN-03",
+  "llm": "perplexity",
+  "prompt_text": "How do I connect ChurnZero with Salesforce?",
+  "response": "To connect **ChurnZero with Salesforce**, you authorize the integration from the **ChurnZero configuration page** using **OAuth**, and your Salesforce org must support the **Web Services API**.[1] ChurnZero’s Salesforce integration is **bi-directional**, so data can sync in both directions between the two systems.[1][4]\n\nWhat that means in practice:\n\n- **In ChurnZero**, go to the Salesforce integration setup and sign in to Salesforce to authorize access via OAuth.[1]\n- **In Salesforce**, make sure your org has **Web Services API** access enabled/support available.[1]\n- After connection, ChurnZero can sync Salesforce **accounts, contacts, custom fields, notes, and users** with different permissions depending on the object.[1]\n- The sync runs on a schedule of about **every 15 minutes**.[1]\n\nA few useful details:\n\n- ChurnZero’s CRM integrations are described as **bi-directional**, meaning you can update data in ChurnZero and have it pushed back into Salesforce.[4]\n- ChurnZero also notes that its native integrations include **Salesforce** among its CRM integrations.[6]\n\nIf you want, I can also give you the **exact setup steps inside ChurnZero** or help with **common Salesforce connection issues**.",
+  "cached_at": "2026-05-28T08:08:46Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Apollo.io",
+  "prompt_id": "IN-04",
+  "llm": "openai",
+  "prompt_text": "Best CRM that works with Salesforce and HubSpot",
+  "response": "When looking for a CRM that integrates well with both Salesforce and HubSpot, it's important to consider tools that can bridge these platforms effectively. While Salesforce and HubSpot are both CRMs themselves, if you're looking for a tool to integrate or manage data between the two, you might consider the following options:\n\n1. **Zapier**: This is an automation tool that can connect Salesforce and HubSpot, allowing you to automate workflows and data synchronization between the two platforms.\n\n2. **PieSync**: Now part of HubSpot, PieSync offers two-way sync between Salesforce and HubSpot, ensuring that data is consistent across both platforms.\n\n3. **Integromat (now Make)**: Similar to Zapier, Integromat allows for complex integrations and automations between Salesforce and HubSpot.\n\n4. **Tray.io**: This is a more advanced integration platform that can handle complex workflows and data integrations between Salesforce and HubSpot.\n\n5. **Automate.io**: Another integration tool that can connect Salesforce and HubSpot, allowing for automation of tasks and data syncing.\n\nThese tools can help you manage and integrate data between Salesforce and HubSpot, ensuring that your CRM processes are streamlined and efficient.",
+  "cached_at": "2026-05-27T18:03:03Z",
+  "metadata": {}
+}

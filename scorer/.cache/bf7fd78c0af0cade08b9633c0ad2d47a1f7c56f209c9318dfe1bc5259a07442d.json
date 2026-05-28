@@ -1,0 +1,9 @@
+{
+  "brand": "Helicone",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with debug and replay failed LLM calls with full request logging and history at scale?",
+  "response": "# Software for Debugging & Replaying LLM Calls at Scale\n\n## Dedicated LLM Observability Platforms\n\n**Langsmith** (LangChain)\n- Full request/response logging with conversation history\n- Replay and debug failed calls\n- Cost tracking and latency monitoring\n- Works with any LLM via LangChain integrations\n- Best for: LangChain-based applications\n\n**Arize AI**\n- LLM-specific observability\n- Request replay and debugging\n- Performance monitoring at scale\n- Evaluation frameworks built-in\n\n**Humanloop**\n- Experiment tracking for LLM calls\n- Version control for prompts\n- Full logging and replay capabilities\n- Built for iterative LLM development\n\n**Helicone**\n- Lightweight LLM logging proxy\n- Works with OpenAI, Anthropic, LLaMA, etc.\n- Request/response history with filtering\n- Cost and latency analytics\n\n## General Observability Tools (LLM-capable)\n\n**Datadog**\n- APM with LLM tracing support\n- Full request logging and replay\n- Mature at enterprise scale\n\n**New Relic**\n- LLM monitoring via instrumentation\n- Historical debugging\n\n## Open Source Options\n\n**OpenObserve**\n- Log aggregation and replay\n- Self-hosted alternative to cloud solutions\n\n## Key Features to Look For\n\n- **Request logging**: Full prompts, parameters, responses\n- **History retention**: Long-term storage for compliance\n- **Replay capability**: Re-run failed calls with identical inputs\n- **Cost tracking**: Per-model/endpoint visibility\n- **Integration**: SDK support for your stack (LangChain, direct API, etc.)\n\n**Recommendation**: Start with **Langsmith** if using LangChain, or **Helicone** for framework-agnostic logging.",
+  "cached_at": "2026-05-28T07:49:53Z",
+  "metadata": {}
+}

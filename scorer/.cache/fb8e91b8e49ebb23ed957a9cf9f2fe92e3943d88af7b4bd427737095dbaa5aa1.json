@@ -1,0 +1,9 @@
+{
+  "brand": "Planhat",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Planhat Stripe integration: how does it work?",
+  "response": "# Planhat Stripe Integration\n\n## Overview\nThe Planhat-Stripe integration connects your subscription billing data with Planhat's customer success platform, enabling you to sync revenue and subscription information.\n\n## Key Features\n\n### **Automatic Data Sync**\n- **MRR/ARR tracking** - Revenue metrics flow into Planhat automatically\n- **Subscription data** - Plans, billing cycles, and status updates sync\n- **Customer health scores** - Usage and revenue data inform customer metrics\n\n### **What Gets Synced**\n- Subscription status and changes\n- Revenue figures (MRR, ARR, contract value)\n- Billing cycles and renewal dates\n- Customer metadata\n- Churn and expansion signals\n\n## How It Works\n\n1. **Authentication** - Connect your Stripe account via OAuth\n2. **Data mapping** - Configure which Stripe data maps to Planhat fields\n3. **Continuous sync** - Events sync automatically (typically real-time or hourly)\n4. **Bidirectional** - Some workflows can push data back to Stripe\n\n## Common Use Cases\n\n- **Upsell identification** - Flag high-value customers for expansion\n- **Churn alerts** - Monitor failed payments and cancellations\n- **Customer reporting** - View revenue alongside health metrics\n- **Workflow automation** - Trigger actions based on billing changes\n\n## Setup Requirements\n\n- Active Planhat account\n- Stripe account with API access\n- Admin permissions in both platforms\n\n---\n\nWould you like specific guidance on setup, troubleshooting, or how to use the integrated data in Planhat?",
+  "cached_at": "2026-05-28T08:12:22Z",
+  "metadata": {}
+}

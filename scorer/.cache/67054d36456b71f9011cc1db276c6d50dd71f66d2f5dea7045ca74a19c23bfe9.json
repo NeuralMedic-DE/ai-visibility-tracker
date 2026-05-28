@@ -1,0 +1,9 @@
+{
+  "brand": "Baremetrics",
+  "prompt_id": "CD-05",
+  "llm": "anthropic",
+  "prompt_text": "Recommended SaaS analytics tools for early-stage SaaS founders and indie developers on Stripe companies",
+  "response": "# SaaS Analytics Tools for Early-Stage Founders\n\n## **Free/Low-Cost Tier Options**\n\n### **Stripe-Native Solutions**\n- **Stripe Dashboard** - Built-in metrics (MRR, churn, ARR)\n- **Stripe Sigma** - SQL queries on your Stripe data (free with Stripe account)\n- **Stripe Radar** - Fraud detection basics\n\n### **Budget-Friendly Tools**\n- **Metabase** - Free, self-hosted BI tool; query Stripe data directly\n- **Google Sheets + Zapier** - DIY dashboards (free tier available)\n- **Plausible/Fathom** - Privacy-first analytics (~$10-20/mo)\n\n---\n\n## **Purpose-Built SaaS Analytics**\n\n| Tool | Price | Best For |\n|------|-------|----------|\n| **Baremetrics** | $9-199/mo | MRR, churn, cohort analysis |\n| **ChartMogul** | $95+/mo | Retention & expansion metrics |\n| **Paddle Analytics** | Free (if using Paddle) | Payment + revenue metrics |\n| **Profitwell** | Free (acquihire by Paddle) | SaaS benchmarking |\n| **Causal** | Free-paid | Financial modeling & forecasting |\n\n---\n\n## **My Recommendations by Stage**\n\n### **Pre-Launch / MVP**\n- Stripe Dashboard + Google Sheets\n- Free tier of Metabase\n\n### **First 100 Customers**\n- **Baremetrics** (best value for early founders)\n- Stripe native tools\n\n### **Post-PMF ($10k+ MRR)**\n- **ChartMogul** (deeper cohort analysis)\n- **Causal** (forecasting & planning)\n\n---\n\n## **Alternative Approaches**\n- **Build custom dashboards** with Retool or Budibase\n- **Query Stripe API** directly in your app\n- **Leverage Segment** if you need multi-source analytics\n\n**What's your current MRR/stage?** That would help narrow down the best fit.",
+  "cached_at": "2026-05-28T06:57:23Z",
+  "metadata": {}
+}

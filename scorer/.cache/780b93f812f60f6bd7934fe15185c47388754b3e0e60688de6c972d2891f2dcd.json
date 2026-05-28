@@ -1,0 +1,9 @@
+{
+  "brand": "Rho",
+  "prompt_id": "CM-01",
+  "llm": "openai",
+  "prompt_text": "Rho vs Brex: which is better?",
+  "response": "Choosing between Rho and Brex depends on your specific business needs, as both offer financial services tailored to different aspects of business management.\n\n**Brex** is known for providing corporate credit cards and cash management accounts, particularly catering to startups and tech companies. It offers rewards tailored to business spending, no personal guarantee requirements, and integrates well with accounting software. Brex also provides expense management tools and has a strong focus on helping companies manage their financial operations efficiently.\n\n**Rho** offers a broader suite of financial services, including corporate cards, cash management, and accounts payable automation. It is designed for larger businesses or those with more complex financial needs. Rho emphasizes control and visibility over finances, offering tools for budgeting, forecasting, and managing cash flow. It also provides integrations with various financial software and services.\n\nIn summary, if your business is a startup or tech company looking for a straightforward corporate card with good rewards and expense management, Brex might be the better choice. If you need a more comprehensive financial management platform with advanced cash flow and budgeting tools, Rho could be more suitable. Consider your business size, financial complexity, and specific needs when making your decision.",
+  "cached_at": "2026-05-28T07:12:13Z",
+  "metadata": {}
+}

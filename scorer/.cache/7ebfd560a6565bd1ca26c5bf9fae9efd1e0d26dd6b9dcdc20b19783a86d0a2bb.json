@@ -1,0 +1,9 @@
+{
+  "brand": "RudderStack",
+  "prompt_id": "AL-05",
+  "llm": "openai",
+  "prompt_text": "Open source or affordable customer data platform tools instead of mParticle",
+  "response": "If you're looking for open-source or affordable alternatives to mParticle for a customer data platform (CDP), here are a few options you might consider:\n\n1. **RudderStack**: RudderStack is an open-source CDP that allows you to collect, transform, and route customer data to various destinations. It offers a free tier and is designed to be developer-friendly.\n\n2. **Segment (Twilio Segment)**: While not open-source, Segment offers a free tier for small projects and startups. It's a popular choice for managing customer data and integrating with various tools.\n\n3. **Snowplow**: Snowplow is an open-source data collection platform that allows you to track and analyze customer behavior. It requires more setup and maintenance compared to some other options but provides flexibility and control over your data.\n\n4. **Apache Unomi**: This is an open-source CDP that is part of the Apache Software Foundation. It provides features for managing customer profiles and personalizing experiences.\n\n5. **Customer.io**: While not open-source, Customer.io offers affordable pricing plans and is a good option for smaller businesses looking to automate messaging based on customer behavior.\n\n6. **Matomo**: Primarily known as an open-source web analytics platform, Matomo also offers features for customer data management and can be extended with plugins.\n\n7. **Odoo**: Odoo is an open-source suite of business applications that includes CRM and marketing tools, which can be used to manage customer data.\n\nWhen choosing a platform, consider your specific needs, such as ease of integration, scalability, and the level of technical expertise required for setup and maintenance.",
+  "cached_at": "2026-05-28T09:08:02Z",
+  "metadata": {}
+}

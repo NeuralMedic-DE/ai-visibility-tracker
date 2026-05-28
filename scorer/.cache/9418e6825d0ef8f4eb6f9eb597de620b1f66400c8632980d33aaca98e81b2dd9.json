@@ -1,0 +1,9 @@
+{
+  "brand": "Matillion",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with transform raw data into analytics-ready models using a visual low-code ETL designer at scale?",
+  "response": "# Low-Code ETL/Data Integration Platforms\n\nSeveral software solutions excel at visual, low-code ETL design at scale:\n\n## **Top Options:**\n\n### **Informatica PowerCenter / Cloud**\n- Industry leader for enterprise ETL\n- Visual designer with drag-and-drop interface\n- Handles complex transformations at massive scale\n- Strong data quality and governance features\n\n### **Talend**\n- Open-source and commercial versions\n- Cloud-native architecture\n- Large component library for transformations\n- Good for hybrid/multi-cloud environments\n\n### **Apache NiFi**\n- Open-source, free option\n- Visual flow-based design\n- Excellent for real-time data routing\n- Strong community support\n\n### **Microsoft Azure Data Factory**\n- Cloud-native (Azure ecosystem)\n- Low-code visual pipeline designer\n- Integrates well with Power BI/Analytics\n- Serverless scaling\n\n### **Alteryx**\n- Excellent visual UI\n- Strong self-service analytics focus\n- Good for business users, not just developers\n- Scalable cloud option available\n\n### **Matillion**\n- Modern cloud-native approach\n- Optimized for cloud data warehouses (Snowflake, Redshift, BigQuery)\n- Strong transformation capabilities\n- Good value proposition\n\n## **Key Selection Factors:**\n- **Scale needs** (volume, velocity)\n- **Data sources** you're connecting\n- **Cloud vs. on-premise** requirements\n- **Budget** (open-source vs. commercial)\n- **Team skills** (technical vs. business users)\n\nWhat's your primary use case or tech stack?",
+  "cached_at": "2026-05-28T09:00:59Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "PostHog",
+  "prompt_id": "CD-04",
+  "llm": "openai",
+  "prompt_text": "Best product analytics platforms for self-host product analytics without third-party services",
+  "response": "If you're looking for self-hosted product analytics platforms that don't rely on third-party services, here are some popular options:\n\n1. **Matomo (formerly Piwik):** Matomo is a well-known open-source analytics platform that you can host on your own server. It provides comprehensive analytics features and respects user privacy.\n\n2. **Plausible Analytics:** Plausible is a lightweight, open-source analytics tool that can be self-hosted. It's designed to be simple and privacy-friendly, with a focus on essential metrics.\n\n3. **PostHog:** PostHog is an open-source product analytics suite that can be self-hosted. It offers features like event tracking, session recording, and feature flags, making it a comprehensive tool for product teams.\n\n4. **Ackee:** Ackee is a self-hosted, Node.js-based analytics tool that focuses on privacy and simplicity. It provides basic analytics without using cookies or collecting personal data.\n\n5. **GoAccess:** While primarily a web log analyzer, GoAccess can be used for real-time web analytics. It's open-source and can be run on your server to analyze web traffic.\n\n6. **Countly:** Countly is an open-source product analytics and innovation platform. It offers a wide range of features, including mobile and web analytics, and can be self-hosted.\n\n7. **Umami:** Umami is a simple, open-source web analytics solution that can be self-hosted. It focuses on privacy and provides essential analytics without tracking personal data.\n\nThese platforms allow you to maintain control over your data and infrastructure, ensuring privacy and compliance with data protection regulations.",
+  "cached_at": "2026-05-27T19:32:52Z",
+  "metadata": {}
+}

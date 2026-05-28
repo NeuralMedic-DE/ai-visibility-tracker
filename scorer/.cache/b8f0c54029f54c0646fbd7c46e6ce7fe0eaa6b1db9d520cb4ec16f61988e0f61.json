@@ -1,0 +1,9 @@
+{
+  "brand": "Amplitude",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to Pendo",
+  "response": "# Cheaper Alternatives to Pendo\n\n## **Free & Open Source**\n- **Hotjar** - Heatmaps, session recordings (freemium)\n- **Clarity (Microsoft)** - Free heatmaps & recordings\n- **LogRocket** - Session replay (free tier available)\n- **PostHog** - Product analytics & feature flags (self-hosted free option)\n\n## **Budget-Friendly SaaS**\n- **Fullstory** - Session replay & analytics (~$99-500/mo)\n- **Contentsquare** - Analytics & recordings (~$500+/mo)\n- **Heap** - Auto-capture analytics (~$500/mo)\n- **Mixpanel** - Product analytics (~$999/mo)\n- **Amplitude** - Analytics & experiments (~$950/mo)\n\n## **Specialized Alternatives**\n| Use Case | Alternative | Price |\n|----------|-------------|-------|\n| **In-app guidance** | Appcues, Userguiding | $150-500/mo |\n| **Feature flags** | LaunchDarkly, Unleash | $100-500/mo |\n| **User surveys** | Typeform, Sprig | Free-$500/mo |\n| **Analytics** | Plausible, Fathom | $9-200/mo |\n\n## **How to Choose**\n- **Self-hosted:** PostHog, Plausible\n- **Tight budget:** Clarity, Hotjar free tier\n- **Feature-rich:** LogRocket, Fullstory\n- **Simple analytics:** Plausible, Fathom\n\n**Best value overall:** PostHog (combines analytics, feature flags, and session replay)\n\nWhat's your primary use case?",
+  "cached_at": "2026-05-27T19:26:07Z",
+  "metadata": {}
+}

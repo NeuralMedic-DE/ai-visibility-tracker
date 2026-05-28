@@ -1,0 +1,9 @@
+{
+  "brand": "Userlist",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Userlist with Stripe?",
+  "response": "# Connecting Userlist with Stripe\n\nHere's how to integrate Userlist with Stripe:\n\n## 1. **Get Your Stripe API Keys**\n- Go to your Stripe Dashboard\n- Navigate to **Developers > API Keys**\n- Copy your **Secret Key** (you'll need this for Userlist)\n\n## 2. **Connect in Userlist**\n- Log into your Userlist account\n- Go to **Settings > Integrations**\n- Find and select **Stripe**\n- Paste your Stripe Secret Key\n- Click **Connect** or **Save**\n\n## 3. **What Gets Synced**\nOnce connected, Userlist automatically pulls:\n- **Customer data** from Stripe\n- **Subscription information** (plan, status, billing cycle)\n- **Invoice history**\n- **Payment events** (successful charges, failed payments, refunds)\n\n## 4. **Map Your Data (Optional)**\nYou can set up custom mappings if needed:\n- Connect Stripe customer IDs to Userlist user identifiers\n- Map custom attributes or metadata\n\n## 5. **Start Automating**\nNow you can:\n- Trigger campaigns based on subscription changes\n- Send emails when payments fail\n- Welcome customers after successful payment\n- Create segments based on subscription tier\n\n## Quick Tips\n- Make sure you're using the **Secret Key**, not the Publishable Key\n- Test with Stripe's test mode first if available\n- Check that webhook permissions are enabled\n\nDo you need help with a specific use case or automation?",
+  "cached_at": "2026-05-28T07:31:09Z",
+  "metadata": {}
+}

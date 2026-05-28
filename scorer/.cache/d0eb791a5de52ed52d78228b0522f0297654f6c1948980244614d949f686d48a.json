@@ -1,0 +1,9 @@
+{
+  "brand": "Mailmodo",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do SaaS growth marketers and email marketing leads wanting higher engagement companies use to send interactive AMP emails with embedded forms and survey widgets?",
+  "response": "# Tools for Interactive AMP Email Campaigns\n\n## Dedicated AMP Email Platforms\n\n**Google AMP for Email-native tools:**\n- **Dyspatch** - Visual AMP builder with form/survey widgets\n- **Stripo** - AMP template designer with interactive elements\n- **Mailmodo** - Purpose-built for AMP forms and surveys in email\n- **Dyspatch & Mailmodo** - Both excel at no-code interactive widget creation\n\n**Email service providers with AMP support:**\n- **Google Gmail** (native AMP support) - works with ESPs below\n- **SendGrid** - AMP for Email support + form capabilities\n- **Mailgun** - AMP rendering with custom elements\n- **HubSpot** - Limited AMP but improving interactive features\n- **Campaign Monitor** - AMP-enabled templates\n- **Klaviyo** - Growing AMP functionality for e-commerce\n\n## Best-in-Class for Your Use Case\n\n**For embedded forms/surveys specifically:**\n- **Mailmodo** ⭐ (Forms directly in email, highest engagement rates)\n- **Typeform** (integrates with email platforms)\n- **Slido** (polls/surveys with email embed options)\n- **Typebot** (conversational forms in email)\n\n## Important Caveats\n\n⚠️ **AMP email limitations:**\n- Only ~70% of mailboxes support AMP (Gmail, Yahoo, Mail.ru)\n- Fallback static content still essential\n- Security concerns keep adoption limited\n\n**Alternative high-engagement approaches:**\n- Click-triggered dynamic content (wider support)\n- Animated GIFs with clickable CTAs\n- Short code delivery requiring email reply\n\nWhat's your primary goal—lead capture, feedback collection, or conversion?",
+  "cached_at": "2026-05-28T07:35:24Z",
+  "metadata": {}
+}

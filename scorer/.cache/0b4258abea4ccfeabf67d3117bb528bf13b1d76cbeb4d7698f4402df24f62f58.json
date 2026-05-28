@@ -1,0 +1,9 @@
+{
+  "brand": "SafeBase",
+  "prompt_id": "AL-02",
+  "llm": "openai",
+  "prompt_text": "Cheaper alternatives to Whistic",
+  "response": "If you're looking for cheaper alternatives to Whistic, which is a platform for managing vendor risk and security assessments, there are several options you might consider:\n\n1. **OneTrust** - Offers a comprehensive suite of privacy, security, and third-party risk management tools. They have flexible pricing options that might fit smaller budgets.\n\n2. **RiskRecon** - Provides automated assessments and continuous monitoring of third-party security risks. They offer scalable solutions that can be more cost-effective.\n\n3. **SecurityScorecard** - Offers a platform for security ratings and continuous monitoring of vendors. They often have competitive pricing and a focus on ease of use.\n\n4. **BitSight** - Known for its security ratings, BitSight provides insights into the security posture of vendors and can be a more affordable option depending on your needs.\n\n5. **UpGuard** - Offers vendor risk management and security ratings. They provide a range of pricing tiers that can be suitable for smaller companies.\n\n6. **Prevalent** - Provides third-party risk management solutions with various pricing models, potentially offering a more budget-friendly option.\n\n7. **CyberGRX** - Offers a scalable platform for managing third-party cyber risk, with different pricing levels to accommodate different sizes of businesses.\n\nWhen evaluating these alternatives, consider factors such as the specific features you need, the size of your vendor network, and any additional services or integrations that might be important for your organization. It's also a good idea to request demos or trials to see which platform best fits your requirements and budget.",
+  "cached_at": "2026-05-28T08:43:28Z",
+  "metadata": {}
+}

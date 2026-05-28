@@ -1,0 +1,9 @@
+{
+  "brand": "Brevo",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Mailchimp vs alternatives: what should I switch to?",
+  "response": "# Mailchimp vs Alternatives\n\n**It depends on what's frustrating you.** Common pain points and better fits:\n\n## If pricing is the issue\n- **Brevo** (formerly Sendinblue) – Generous free tier, cheaper as you scale\n- **Omnisend** – Better value for ecommerce\n- **Klaviyo** – Higher cost but justifies it with features\n\n## If you need better automation\n- **ActiveCampaign** – More sophisticated workflows\n- **HubSpot** – Excellent free CRM integration\n- **Klaviyo** – Best for ecommerce automation\n\n## If design/templates matter\n- **Klaviyo** – Modern, ecommerce-focused\n- **ConvertKit** – If you're a creator\n- **Substack** – Simpler, if newsletters are your main thing\n\n## If you're small/just starting\n- **Brevo** or **Mailchimp free** are still fine\n- You probably don't need to switch yet\n\n## If you need customer data platform features\n- **Klaviyo** – Behavioral segmentation\n- **HubSpot** – Full CRM ecosystem\n\n---\n\n**Real talk:** Mailchimp works fine for most basic use cases. The grass isn't always greener. Before switching, ask:\n- What exactly doesn't work for you?\n- Will another platform cost more once you account for migration effort?\n- Do you actually need those extra features?\n\nWhat's driving the switch for you?",
+  "cached_at": "2026-05-28T07:26:01Z",
+  "metadata": {}
+}

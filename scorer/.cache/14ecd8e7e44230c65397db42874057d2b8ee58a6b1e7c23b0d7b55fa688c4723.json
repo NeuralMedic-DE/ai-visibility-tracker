@@ -1,0 +1,9 @@
+{
+  "brand": "Prefect",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Prefect with Python?",
+  "response": "# Connecting Prefect with Python\n\nHere's a comprehensive guide to get started:\n\n## 1. **Installation**\n\n```bash\npip install prefect\n```\n\n## 2. **Basic Setup & Authentication**\n\n```python\nfrom prefect import flow, task\nimport prefect\n\n# Check your Prefect version\nprint(prefect.__version__)\n\n# Login to Prefect Cloud (optional)\n# prefect cloud login\n```\n\n## 3. **Create Your First Flow**\n\n```python\nfrom prefect import flow, task\n\n@task\ndef add(x, y):\n    return x + y\n\n@task\ndef multiply(x, y):\n    return x * y\n\n@flow\ndef my_pipeline(x, y):\n    result1 = add(x, y)\n    result2 = multiply(result1, 2)\n    return result2\n\n# Run the flow\nif __name__ == \"__main__\":\n    my_pipeline(3, 5)\n```\n\n## 4. **Key Decorators**\n\n| Decorator | Purpose |\n|-----------|---------|\n| `@flow` | Defines a workflow |\n| `@task` | Defines a reusable unit of work |\n\n## 5. **Running Flows**\n\n```python\n# Run locally\nresult = my_pipeline(3, 5)\nprint(result)  # Output: 26\n\n# Run with parameters\nresult = my_pipeline(x=10, y=20)\n```\n\n## 6. **Connect to Prefect Cloud (Optional)**\n\n```bash\n# Authenticate\nprefect cloud login\n\n# Or set API key\nexport PREFECT_API_KEY=\"your_api_key_here\"\n```\n\n## 7. **Deploy a Flow**\n\n```python\nfrom prefect.deployments import Deployment\n\ndeployment = Deployment.build_from_flow(\n    flow=my_pipeline,\n    name=\"my-deployment\",\n    version=\"1.0\"\n)\n\nif __name__ == \"__main__\":\n    deployment.apply()\n```\n\n**Need help with something specific?** Let me know your use case!",
+  "cached_at": "2026-05-28T09:11:24Z",
+  "metadata": {}
+}

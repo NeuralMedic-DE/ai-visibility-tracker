@@ -1,0 +1,9 @@
+{
+  "brand": "Pendo",
+  "prompt_id": "AL-05",
+  "llm": "openai",
+  "prompt_text": "Open source or affordable product analytics tools instead of Mixpanel",
+  "response": "If you're looking for open-source or more affordable alternatives to Mixpanel for product analytics, here are some options you might consider:\n\n1. **PostHog**: An open-source product analytics platform that offers features like event tracking, user paths, and funnels. It can be self-hosted or used via their cloud service.\n\n2. **Matomo**: Formerly known as Piwik, Matomo is an open-source web analytics platform that provides detailed reports on your website visitors. It can be self-hosted or used as a cloud service.\n\n3. **Plausible Analytics**: A simple, privacy-focused, and open-source web analytics tool. It's lightweight and easy to use, with a focus on providing essential metrics without overwhelming complexity.\n\n4. **Heap**: While not open-source, Heap offers a free plan with automatic event tracking, which can be a cost-effective solution for startups and small businesses.\n\n5. **Fathom Analytics**: A privacy-focused, simple analytics tool that provides straightforward insights. It is not open-source but is relatively affordable.\n\n6. **GoAccess**: An open-source, real-time web log analyzer and interactive viewer that runs in a terminal in *nix systems or through your browser.\n\n7. **Countly**: An open-source product analytics tool that provides insights into user behavior, engagement, and retention. It offers both self-hosted and cloud options.\n\n8. **Ackee**: A self-hosted, Node.js-based analytics tool that is open-source and focuses on privacy and simplicity.\n\nEach of these tools has its own strengths and limitations, so the best choice will depend on your specific needs, such as ease of use, depth of analytics, privacy concerns, and whether you prefer a hosted or self-hosted solution.",
+  "cached_at": "2026-05-27T19:45:16Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Vitally",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Vitally HubSpot integration: how does it work?",
+  "response": "# Vitally HubSpot Integration\n\n## Overview\nThe Vitally-HubSpot integration syncs customer health data and engagement information between platforms, helping teams coordinate account management and improve customer outcomes.\n\n## Key Features\n\n### Data Synchronization\n- **Company/Account Syncing**: HubSpot companies sync with Vitally accounts\n- **Contact Syncing**: HubSpot contacts map to Vitally users\n- **Bidirectional Updates**: Changes in either platform can reflect in the other\n\n### Health Score & CSM Data\n- Vitally health scores and custom metrics push to HubSpot\n- Enables sales and support teams to see customer health status\n- Integrates with HubSpot's deal and ticket workflows\n\n### Account Intelligence\n- Activity data flows from HubSpot to Vitally\n- Vitally playbooks and alerts integrate with HubSpot workflows\n- Automates responses based on health indicators\n\n## Common Use Cases\n\n1. **Sales alignment**: Sales sees health scores in HubSpot\n2. **Churn prevention**: Alerts trigger when accounts decline\n3. **Unified timeline**: Customer interactions visible in both systems\n4. **Automated workflows**: Health changes trigger HubSpot actions\n5. **Reporting**: CSM metrics in HubSpot dashboards\n\n## Setup Requirements\n- Both Vitally and HubSpot accounts\n- API access/integration permissions\n- Field mapping configuration\n- User access controls\n\n## Typical Implementation\nUsually handled through Vitally's native integration or via Zapier/Make for advanced customization.\n\n**Need specifics on setup, troubleshooting, or a particular sync scenario?**",
+  "cached_at": "2026-05-28T08:09:41Z",
+  "metadata": {}
+}

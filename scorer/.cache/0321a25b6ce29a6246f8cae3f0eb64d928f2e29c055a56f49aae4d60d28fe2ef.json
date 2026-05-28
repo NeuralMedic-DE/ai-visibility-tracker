@@ -1,0 +1,9 @@
+{
+  "brand": "Braintrust",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best AI tooling for AI engineering teams building and deploying LLM-powered products?",
+  "response": "# Key AI Engineering Tools & Platforms\n\n## Development & Experimentation\n- **LangChain / LlamaIndex** – RAG frameworks for retrieval and context management\n- **Weights & Biases** – Experiment tracking, model monitoring, prompt versioning\n- **Prompt engineering platforms** – Anthropic Console, OpenAI Playground for iteration\n- **Jupyter/VS Code** – Standard dev environments with good LLM integrations\n\n## Evaluation & Testing\n- **RAGAS, DeepEval** – LLM output evaluation frameworks\n- **BrainTrust, Evals frameworks** – Structured testing and benchmarking\n- **Custom evaluation pipelines** – Often essential for domain-specific quality metrics\n\n## Deployment & Serving\n- **Replicate, Together AI, Modal** – Inference hosting with good dev UX\n- **vLLM, TensorRT-LLM** – Self-hosted inference optimization\n- **AWS Bedrock, Azure OpenAI** – Managed APIs with enterprise features\n\n## Observability & Production Monitoring\n- **Langfuse, LlamaIndex, Helicone** – LLM-specific observability and cost tracking\n- **Datadog, New Relic** – Traditional APM adapted for LLM apps\n- **Custom logging** – Often necessary to track prompt changes and model versions\n\n## The Reality Check\nMost successful teams **combine** tools rather than find one solution:\n- Start with managed APIs (OpenAI/Anthropic)\n- Add experimentation tracking early\n- Invest in evaluation infrastructure before scaling\n- Build custom monitoring for your specific use case\n\n**What's your team's current bottleneck?** (speed to experiment, reliability in production, cost optimization?) That should guide which tools to prioritize.",
+  "cached_at": "2026-05-28T07:47:07Z",
+  "metadata": {}
+}

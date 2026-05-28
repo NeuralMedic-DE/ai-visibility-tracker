@@ -1,0 +1,9 @@
+{
+  "brand": "Supermetrics",
+  "prompt_id": "IN-05",
+  "llm": "openai",
+  "prompt_text": "marketing analytics tools with native Google Analytics integration",
+  "response": "There are several marketing analytics tools that offer native integration with Google Analytics, allowing you to seamlessly combine data and gain deeper insights. Here are some popular ones:\n\n1. **Google Data Studio**: This is a free tool from Google that allows you to create customizable reports and dashboards using data from Google Analytics and other sources.\n\n2. **Supermetrics**: A powerful tool that pulls data from Google Analytics and other platforms into Google Sheets, Data Studio, or Excel for comprehensive analysis.\n\n3. **Tableau**: A leading data visualization tool that can connect directly to Google Analytics to create interactive and shareable dashboards.\n\n4. **Looker**: Part of Google Cloud, Looker offers advanced data analytics and visualization capabilities with direct integration to Google Analytics.\n\n5. **Klipfolio**: A cloud-based dashboard tool that integrates with Google Analytics to provide real-time data visualization and reporting.\n\n6. **Datorama**: Now part of Salesforce, Datorama offers marketing intelligence and analytics with integration capabilities for Google Analytics.\n\n7. **Segment**: A customer data platform that can integrate with Google Analytics to unify and analyze customer data across different platforms.\n\n8. **Mixpanel**: While primarily a product analytics tool, Mixpanel can integrate with Google Analytics to provide a more comprehensive view of user behavior.\n\n9. **Cyfe**: An all-in-one business dashboard app that integrates with Google Analytics for tracking and visualizing data.\n\nThese tools can help you leverage Google Analytics data more effectively by providing enhanced reporting, visualization, and data analysis capabilities.",
+  "cached_at": "2026-05-27T20:36:07Z",
+  "metadata": {}
+}

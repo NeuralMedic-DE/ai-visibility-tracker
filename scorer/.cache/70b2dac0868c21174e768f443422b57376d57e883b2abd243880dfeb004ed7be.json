@@ -1,0 +1,9 @@
+{
+  "brand": "Vercel",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which deployment software should a head of frontend engineering or CTO use?",
+  "response": "# Deployment Software for Frontend Leadership\n\nThe choice depends on your context, but here are the main considerations:\n\n## For most CTOs/Heads of Frontend:\n\n**Vercel** or **Netlify**\n- Optimized for modern frontend frameworks\n- Minimal DevOps overhead\n- Strong developer experience\n- Good for teams prioritizing shipping speed\n\n## If you need more control:\n\n**Kubernetes** (via managed services like EKS, GKE, AKS)\n- For complex infrastructure needs\n- Multi-region deployments\n- High-scale applications\n- Requires more DevOps expertise\n\n## If managing full-stack:\n\n**Docker + CI/CD** (GitHub Actions, GitLab CI, CircleCI)\n- More flexible and portable\n- Works across infrastructure\n- Standard industry approach\n\n## Key questions to ask yourself:\n\n1. **Scale**: Are you at startup phase or enterprise?\n2. **Team**: Do you have DevOps resources?\n3. **Requirements**: Do you need custom infrastructure?\n4. **Cost sensitivity**: How important is managed vs. self-hosted?\n\n## My recommendation:\nStart with **Vercel/Netlify** unless you have specific reasons not to (legacy systems, compliance, complex architecture). You can always migrate later, and these platforms let you focus on product rather than infrastructure.\n\nWhat's your current setup or primary pain point?",
+  "cached_at": "2026-05-27T21:26:26Z",
+  "metadata": {}
+}

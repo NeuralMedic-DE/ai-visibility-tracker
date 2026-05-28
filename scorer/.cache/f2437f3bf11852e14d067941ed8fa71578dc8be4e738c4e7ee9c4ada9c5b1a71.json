@@ -1,0 +1,9 @@
+{
+  "brand": "SafeBase",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with build a public trust center that proactively answers security questions for prospects at scale?",
+  "response": "# Software for Building a Public Trust Center\n\nSeveral categories of tools can help with this:\n\n## Dedicated Trust/Security Center Platforms\n- **Vanta** - Compliance automation with public trust dashboards\n- **Drata** - Automated compliance monitoring with shareable reports\n- **Secureframe** - Security posture management with public certifications\n- **OneTrust** - Governance, risk, and compliance platform\n\n## Content & Knowledge Management\n- **Notion** or **Confluence** - Self-hosted trust center documentation\n- **GitBook** - Clean documentation sites for security/compliance info\n- **Slite** - Team knowledge base that can be partially public\n\n## Website Builders with Integration\n- **Webflow** - Custom trust center sites with dynamic content\n- **WordPress** - With security plugins for structured trust pages\n- **HubSpot** - Integrates CMS with lead capture\n\n## Support & FAQ Tools\n- **Intercom** - Proactive messaging with security FAQs\n- **Zendesk** - Knowledge base + chatbots for common questions\n- **Freshdesk** - Self-service portal\n\n## Best Practice Approach\nMost companies **combine tools**: a lightweight CMS for the trust center + a chatbot/support tool to answer questions in real-time.\n\n**What's your primary use case?** (B2B SaaS, healthcare, fintech, etc.) That would help narrow down the best fit, as compliance needs vary significantly.",
+  "cached_at": "2026-05-28T08:43:44Z",
+  "metadata": {}
+}

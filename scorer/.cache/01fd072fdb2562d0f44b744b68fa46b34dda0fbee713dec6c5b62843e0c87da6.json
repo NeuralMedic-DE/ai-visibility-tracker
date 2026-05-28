@@ -1,0 +1,9 @@
+{
+  "brand": "Workable",
+  "prompt_id": "UC-04",
+  "llm": "anthropic",
+  "prompt_text": "How can a Recruiting Lead or HR Manager at a growing company post jobs to 200 plus job boards with a single click more efficiently?",
+  "response": "# Efficient Multi-Job Board Posting Solutions\n\n## **Automated Platforms (Best Overall)**\n\n**Job aggregator/distribution tools:**\n- **Zapier + job board APIs** – Connect your ATS to multiple boards automatically\n- **LinkedIn Recruiter** – Single posting reaches 900M+ users\n- **Indeed Sponsored Jobs** – Broad reach with one setup\n- **Workable, Greenhouse, Lever** – Built-in distribution to 200+ boards\n- **Joinovia, Entelo** – Designed for this exact use case\n\n## **Practical Setup Steps**\n\n1. **Choose your ATS** (if you don't have one)\n   - Most modern systems have native integrations with 50-150 boards\n   - Examples: Workable (200+), iCIMS, BambooHR\n\n2. **Use a job distribution service**\n   - **Board list management** – Create once, use everywhere\n   - **Bulk posting** – Schedule across all boards simultaneously\n   - **Cost varies** – Usually $20-100 per job posting\n\n3. **Leverage free channels first**\n   - LinkedIn (organic + sponsored)\n   - Google Jobs (free indexing)\n   - Your company career page\n\n## **Implementation Tips**\n\n- ✅ Standardize job descriptions for consistency\n- ✅ Set posting schedules during peak hours\n- ✅ Use UTM parameters to track which boards convert\n- ✅ Automate candidate application syncing back to your ATS\n- ✅ Monitor 3-5 *high-quality* boards instead of blanket coverage\n\n## **Budget Reality**\nMost growing companies spend **$500-2,000/month** for true 200+ board coverage, though organic channels often yield better quality candidates.\n\nWhat's your current ATS setup?",
+  "cached_at": "2026-05-28T06:46:15Z",
+  "metadata": {}
+}

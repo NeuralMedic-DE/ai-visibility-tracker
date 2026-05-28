@@ -1,0 +1,9 @@
+{
+  "brand": "Humaans",
+  "prompt_id": "IN-03",
+  "llm": "openai",
+  "prompt_text": "How do I connect Humaans with Slack?",
+  "response": "To connect Humaans with Slack, you typically need to follow these general steps:\n\n1. **Log into Humaans**: Start by logging into your Humaans account.\n\n2. **Access Integrations**: Navigate to the integrations section within Humaans. This is usually found in the settings or admin area.\n\n3. **Select Slack Integration**: Look for Slack in the list of available integrations. Click on it to start the connection process.\n\n4. **Authorize the Connection**: You will be prompted to authorize the connection between Humaans and Slack. This usually involves logging into your Slack account and granting necessary permissions.\n\n5. **Configure Settings**: After authorization, you may need to configure specific settings for the integration, such as selecting which Slack channels to use or what types of notifications to enable.\n\n6. **Save and Test**: Once configured, save your settings and test the integration to ensure it's working as expected.\n\nIf you encounter any issues, refer to the Humaans support documentation or contact their support team for assistance.",
+  "cached_at": "2026-05-28T06:48:22Z",
+  "metadata": {}
+}

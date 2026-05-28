@@ -1,0 +1,9 @@
+{
+  "brand": "Raycast",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Raycast with Slack?",
+  "response": "# Connecting Raycast with Slack\n\nHere's how to set up the Slack integration in Raycast:\n\n## Step 1: Install the Slack Extension\n1. Open **Raycast**\n2. Search for and select **\"Slack\"** from the extensions\n3. Click **Install** if you haven't already\n\n## Step 2: Authenticate with Slack\n1. In Raycast, open the **Slack extension**\n2. You'll be prompted to authorize Raycast to access your Slack workspace\n3. Click the authorization link that appears\n4. Log in to your Slack workspace (if needed)\n5. Grant Raycast the necessary permissions\n6. Return to Raycast to confirm the connection\n\n## Step 3: Configure Settings (Optional)\n- Open **Raycast Preferences** → **Extensions** → **Slack**\n- Customize settings like default status, notification behavior, etc.\n\n## What You Can Do\nOnce connected, you can use Raycast to:\n- Search and browse messages\n- Set your Slack status\n- Send messages and reactions\n- View channel information\n- Create reminders from Slack messages\n- Search conversations\n\n## Troubleshooting\n- **Not connecting?** Make sure you have the latest Raycast version\n- **Permission errors?** Re-authorize by removing and reinstalling the extension\n- **Check Slack app permissions** in your workspace settings if needed\n\nIs there a specific Slack feature you're trying to use with Raycast?",
+  "cached_at": "2026-05-28T06:25:28Z",
+  "metadata": {}
+}

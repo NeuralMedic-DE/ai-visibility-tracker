@@ -1,0 +1,9 @@
+{
+  "brand": "Braintrust",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Vellum vs alternatives: what should I switch to?",
+  "response": "# Vellum Alternatives: Key Considerations\n\nI'd need more context to give targeted advice, but here are the main comparison factors:\n\n## If you're using Vellum for **document preparation/formatting:**\n- **Overleaf** – better for academic/technical writing, free tier available\n- **Google Docs** – simpler, collaborative, free\n- **Scrivener** – stronger for long-form writing projects\n- **MS Word** – universal, robust, industry standard\n\n## If it's for **LLM/AI application development:**\n- **LangChain** – more flexible, open-source\n- **Prompt Flow** – Microsoft's alternative, integrated with Azure\n- **LlamaIndex** – better for RAG/data indexing\n- **Custom solutions** – if you have specific needs\n\n## Quick decision framework:\n- **Cost is primary issue?** → Google Docs or open-source options\n- **Need collaboration?** → Google Workspace or Microsoft 365\n- **Technical/academic work?** → Overleaf\n- **Long manuscript?** → Scrivener\n- **Enterprise/integration needs?** → depends on your stack\n\n**What were you specifically using Vellum for?** That would help narrow down which alternative actually fits your workflow.",
+  "cached_at": "2026-05-28T07:47:25Z",
+  "metadata": {}
+}

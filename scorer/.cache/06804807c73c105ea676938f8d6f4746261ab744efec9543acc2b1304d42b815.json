@@ -1,0 +1,9 @@
+{
+  "brand": "Copper",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Copper integrate with Google Workspace?",
+  "response": "Yes, Copper integrates with Google Workspace. Copper is designed to work seamlessly with Google applications like Gmail, Google Calendar, and Google Drive. This integration allows users to manage their customer relationships directly within the Google Workspace environment, leveraging features such as email tracking, calendar event syncing, and document management.",
+  "cached_at": "2026-05-27T18:21:51Z",
+  "metadata": {}
+}

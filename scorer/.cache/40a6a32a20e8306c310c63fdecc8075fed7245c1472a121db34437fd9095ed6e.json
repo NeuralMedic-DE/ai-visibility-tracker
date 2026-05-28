@@ -1,0 +1,9 @@
+{
+  "brand": "Close",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with manage follow-ups automatically at scale?",
+  "response": "# Follow-Up Management Software\n\n## Email & Sales Automation\n- **HubSpot** - Built-in sequences, task automation, and reminders\n- **Salesforce** - Extensive workflow automation and email tracking\n- **Mailchimp** - Good for basic marketing automation at scale\n- **ActiveCampaign** - Strong automation with conditional logic\n\n## Task & CRM-Focused\n- **Close** - Sales-focused with built-in calling and automation\n- **Pipedrive** - Visual pipeline with activity reminders\n- **Monday.com** - Workflow automation with notifications\n- **Notion** - Custom solutions with database automation\n\n## Specialized Tools\n- **Instantly** - Cold email outreach with follow-up sequences\n- **Lemlist** - Personalized email campaigns with auto-follow-ups\n- **Gong** - AI-powered follow-up recommendations\n\n## What to Consider\n- **Integration needs** - Does it connect to your existing tools?\n- **Scale** - Number of contacts/records\n- **Customization** - How much control do you need?\n- **Learning curve** - Time to implement\n\n**Best starter:** HubSpot Free or Mailchimp if you want something straightforward\n**Best enterprise:** Salesforce or HubSpot for deeper customization\n\nWhat's your main use case (sales, customer support, marketing)?",
+  "cached_at": "2026-05-27T17:51:28Z",
+  "metadata": {}
+}

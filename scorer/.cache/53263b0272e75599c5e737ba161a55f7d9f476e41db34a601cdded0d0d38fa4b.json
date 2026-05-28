@@ -1,0 +1,9 @@
+{
+  "brand": "Conveyor",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Conveyor integrate with Salesforce?",
+  "response": "Yes. **Conveyor has a native integration with Salesforce** that lets you connect your Trust Center and security review workflows directly to your CRM.[1][3][4]  \n\nKey capabilities of the Conveyor–Salesforce integration include:[1][2][3][4][6]  \n- **Automating access** to your Trust Center using Salesforce CRM data (e.g., auto-approving or bypassing NDAs for known contacts).  \n- **Issuing Trust Center invitations from Salesforce**, so sales can stay in their normal workflow.  \n- **Seeing Trust Center/Room activity inside Salesforce**, giving sales visibility into security review progress.  \n- **Creating leads in Salesforce** when new visitors access your Trust Center.  \n- **Uploading questionnaires from Salesforce into Conveyor** for AI-assisted completion.  \n- **Measuring revenue impact** of security efforts by tying Rooms and access requests to pipeline and closed-won deals.  \n\nIf you’d like, I can outline the basic steps to enable the integration or what permissions you need on the Salesforce side.",
+  "cached_at": "2026-05-28T08:47:54Z",
+  "metadata": {}
+}

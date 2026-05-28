@@ -1,0 +1,9 @@
+{
+  "brand": "Ashby",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best ATS for talent teams at high-growth startups and scaleups?",
+  "response": "# Best ATS for High-Growth Startups\n\nThere's no single \"best,\" but here's how to think about it by priority:\n\n## Top contenders for your stage:\n\n**Ashby**\n- Built specifically for scaling teams (especially 50-500 person range)\n- Strong workflow automation and reporting\n- Excellent candidate experience\n- Pricing scales reasonably\n- Opinionated about best practices\n\n**Lever**\n- Most flexible/customizable\n- Good for teams wanting to build workflows their way\n- Strong integrations\n- Higher lift to implement well\n\n**Greenhouse**\n- Most enterprise-ready if you anticipate rapid scaling\n- Robust analytics and compliance features\n- Can feel over-engineered early on\n- Better ROI as you hit 200+ hires/year\n\n**Lattice or Bamboo** (if bundling with HRIS matters)\n- Advantage if you also need HR infrastructure\n- Less best-in-class on recruiting specifically\n\n## Key questions for your situation:\n\n1. **Hiring volume?** (Ashby shines at 50-300/yr; Greenhouse if 500+/yr)\n2. **Team structure?** (Distributed? Ashby's collab tools win)\n3. **Workflow complexity?** (Simple linear → Ashby; complex → Lever)\n4. **Integration needs?** (Check your stack against each)\n5. **Implementation time?** (How fast do you need it live?)\n\nMost high-growth teams I've seen either go **Ashby** (if moving fast, smaller team) or **Greenhouse** (if planning 3-5 year scaling).\n\nWhat's your current hiring pace and team size?",
+  "cached_at": "2026-05-28T06:39:10Z",
+  "metadata": {}
+}

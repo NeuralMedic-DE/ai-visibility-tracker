@@ -1,0 +1,9 @@
+{
+  "brand": "Humaans",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do HR teams at startups and scaleups scaling their people ops companies use to manage employee data and run payroll through deep integrations?",
+  "response": "# HR Tools for Scaling Startups\n\n## Core Payroll & HRIS Platforms\n\n**All-in-one players:**\n- **Gusto** - Strong payroll + benefits integration; popular with early-stage startups\n- **Rippling** - Device management + HR + payroll; growing rapidly in scaleup segment\n- **Workday** - Enterprise option as you scale; more complex implementation\n- **BambooHR** - HR-focused with payroll add-ons; good mid-market fit\n\n**Payroll-first:**\n- **ADP Workforce Now** - Deep integrations, compliance heavy\n- **Justworks** - HR + payroll + benefits bundled\n- **Catch** - Simpler, developer-friendly APIs\n\n## Integration Ecosystem\n\n**What startups typically connect:**\n- Accounting software (QuickBooks, Netsuite)\n- Benefits platforms (Catch, Stride Health, Zenefits)\n- Time tracking (Clockify, Toggl)\n- Expense management (Expensify, Brex)\n- Identity/SSO (Okta, Azure AD)\n\n**Key integration patterns:**\n- APIs for custom workflows\n- Webhooks for real-time syncing\n- Pre-built connectors via platforms like Zapier\n\n## Data & Compliance\n\n- **Deel/Remote** - For international payroll\n- Built-in compliance features (tax filing, labor law updates)\n- API-first architectures for data portability\n\n**Real question:** What's your specific scale and pain point? Integration depth varies hugely by company size and complexity.",
+  "cached_at": "2026-05-28T06:48:20Z",
+  "metadata": {}
+}

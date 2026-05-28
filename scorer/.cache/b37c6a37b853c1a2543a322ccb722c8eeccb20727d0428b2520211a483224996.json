@@ -1,0 +1,9 @@
+{
+  "brand": "Pendo",
+  "prompt_id": "IN-05",
+  "llm": "openai",
+  "prompt_text": "product analytics tools with native Salesforce integration",
+  "response": "There are several product analytics tools that offer native Salesforce integration, allowing you to seamlessly connect your product data with Salesforce CRM. Here are some popular options:\n\n1. **Mixpanel**: Mixpanel provides native integration with Salesforce, enabling you to sync user data and events between the two platforms. This helps in understanding customer behavior and improving engagement.\n\n2. **Amplitude**: Amplitude offers integration with Salesforce to help you track user interactions and product usage, and then correlate that data with your Salesforce CRM data for a comprehensive view of customer journeys.\n\n3. **Heap**: Heap's integration with Salesforce allows you to automatically capture user interactions and sync them with Salesforce records, providing insights into user behavior and product usage.\n\n4. **Pendo**: Pendo integrates with Salesforce to bring product usage data into your CRM, helping sales and customer success teams understand how customers are interacting with your product.\n\n5. **Segment**: While not a product analytics tool itself, Segment acts as a customer data platform that can integrate with both Salesforce and various analytics tools, facilitating the flow of data between them.\n\n6. **Gainsight PX**: Gainsight PX offers native Salesforce integration to help you align product analytics with customer success efforts, providing insights into user engagement and product adoption.\n\nThese tools can help you leverage the power of Salesforce alongside detailed product analytics to enhance customer understanding and improve decision-making.",
+  "cached_at": "2026-05-27T19:46:34Z",
+  "metadata": {}
+}

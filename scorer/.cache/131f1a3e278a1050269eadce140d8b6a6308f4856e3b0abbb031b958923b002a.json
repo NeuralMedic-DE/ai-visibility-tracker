@@ -1,0 +1,9 @@
+{
+  "brand": "Brevo",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do SMB and mid-market marketing teams needing affordable multi-channel tools companies use to send email and SMS campaigns to millions of contacts at affordable pricing?",
+  "response": "# Affordable Multi-Channel Tools for SMBs & Mid-Market\n\n## **Best Value Options**\n\n### **Email + SMS Platforms**\n- **Klaviyo** - Strong for e-commerce; good SMS integration, reasonable pricing at scale\n- **Brevo (formerly Sendinblue)** - Very affordable email/SMS combo, simple automation\n- **Mailchimp** - Free tier for basics; SMS added to paid plans\n- **Omnisend** - E-commerce focused; bundled email/SMS pricing\n- **ActiveCampaign** - Mid-market sweet spot; automation-heavy\n\n### **SMS-Focused (Often Cheaper for High Volume)**\n- **Twilio** - Pay-as-you-go, developer-friendly\n- **Bandwidth** - Competitive SMS rates\n- **Sinch/MessageBird** - Enterprise features at mid-market pricing\n\n### **Budget-Conscious Alternatives**\n- **Constant Contact** - Straightforward pricing, good support\n- **GetResponse** - All-in-one; webinars + email + SMS\n- **Drip** - Simple, transparent pricing model\n\n## **Key Considerations**\n\n**Pricing models vary:**\n- Per-contact monthly (Klaviyo, ActiveCampaign)\n- Per-send (Brevo, Twilio)\n- Subscriber-based (Mailchimp)\n\n**For \"millions of contacts\":** Per-send models often become more cost-effective\n\n**What to prioritize:**\n- Segmentation/automation quality\n- Deliverability reputation\n- API access for custom workflows\n- Integration with your existing stack\n\nWhat's your primary use case—e-commerce, B2B, or general marketing?",
+  "cached_at": "2026-05-28T07:26:09Z",
+  "metadata": {}
+}

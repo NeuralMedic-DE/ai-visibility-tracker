@@ -1,0 +1,9 @@
+{
+  "brand": "Pendo",
+  "prompt_id": "AL-05",
+  "llm": "anthropic",
+  "prompt_text": "Open source or affordable product analytics tools instead of Mixpanel",
+  "response": "# Product Analytics Alternatives to Mixpanel\n\n## Open Source Options\n\n### **Plausible Analytics**\n- Privacy-focused, GDPR-compliant\n- Simple dashboard, no data sampling\n- ~$20-340/month\n- Great for basic web analytics\n\n### **Posthog**\n- Full-featured, self-hostable or cloud\n- Event tracking, feature flags, A/B testing\n- Free tier available (~$0 self-hosted, $39+/month cloud)\n- Strong for product teams\n\n### **Matomo**\n- Open source Google Analytics alternative\n- On-premise or cloud options\n- ~$20-200+/month cloud\n- Good data ownership\n\n### **Umami**\n- Lightweight, privacy-first\n- Simple dashboard\n- Free self-hosted, ~$9/month cloud\n- Low overhead\n\n## Affordable Proprietary Tools\n\n### **Amplitude (free tier)**\n- Limited free plan available\n- Freemium model ($995+/month paid)\n\n### **Mixpanel Alternatives:**\n- **Segment** - $100+/month (data pipeline focus)\n- **Heap** - $500+/month (autocapture)\n- **Pendo** - $400+/month (in-app + analytics)\n\n## Most Budget-Friendly Stack\n\n**For startups:**\n- **PostHog** free tier + self-hosted\n- **Plausible** (~$20/month)\n- **Simple Segment** alternative: custom event logging\n\n**Best value:** PostHog (feature-rich, generous free tier)\n\nWhat's your main use case? (web, mobile, product features?)",
+  "cached_at": "2026-05-27T19:48:11Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Sentry",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Sentry with GitHub?",
+  "response": "# Connecting Sentry with GitHub\n\nHere's how to set up the integration:\n\n## 1. **Create a GitHub App** (in GitHub)\n\n- Go to GitHub Settings → Developer settings → [GitHub Apps](https://github.com/settings/apps)\n- Click \"New GitHub App\"\n- Fill in the form:\n  - **App name**: Something like \"Sentry\"\n  - **Homepage URL**: `https://sentry.io`\n  - **User authorization callback URL**: Leave blank (unless using OAuth)\n  - **Webhook URL**: Leave unchecked for now\n\n- **Permissions** needed:\n  - Repository: `Contents` (read), `Issues` (read & write), `Pull requests` (read & write)\n  - Organization: `Members` (read)\n\n- Click \"Create GitHub App\"\n\n## 2. **Install the App**\n\n- On your GitHub App page, click \"Install App\"\n- Select your organization/account\n- Choose which repositories to grant access to\n- Confirm installation\n\n## 3. **Connect to Sentry**\n\n- Go to **Sentry → Settings → Integrations**\n- Find \"GitHub\" and click \"Install\"\n- You'll be prompted to authorize Sentry to access your GitHub App\n- Select the GitHub App you created\n- Grant the necessary permissions\n\n## 4. **Link Projects to Repositories**\n\n- In your Sentry project settings, go to **Integrations**\n- Configure which GitHub repositories to link\n\n## What You Can Do\n\nOnce connected:\n- Create GitHub issues from Sentry errors\n- Link commits to errors (via `sentry-cli`)\n- Auto-resolve issues when commits are pushed\n- View commit context in error details\n\nNeed help with a specific part?",
+  "cached_at": "2026-05-27T21:18:52Z",
+  "metadata": {}
+}

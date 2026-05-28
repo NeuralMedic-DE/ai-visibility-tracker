@@ -1,0 +1,9 @@
+{
+  "brand": "Userlist",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Userlist Segment integration: how does it work?",
+  "response": "# Userlist Segment Integration\n\n## Overview\nUserlist integrates with **Segment** to receive customer data and events, enabling automated email campaigns based on user behavior and attributes.\n\n## How It Works\n\n### 1. **Data Flow**\n```\nYour App → Segment → Userlist\n```\n\n- You send user data and events to Segment\n- Segment forwards this data to Userlist\n- Userlist uses it to trigger campaigns and segment users\n\n### 2. **Setup Steps**\n\n**In Segment:**\n- Add Userlist as a destination\n- Configure your Userlist API key\n- Map your events and user properties\n\n**In Userlist:**\n- Enable the Segment source\n- Get your API key from Segment settings\n- Verify the connection\n\n### 3. **What Gets Synced**\n\n| Data Type | Example |\n|-----------|---------|\n| **User Traits** | Email, name, plan, company |\n| **Events** | Sign-up, purchase, feature used |\n| **Attributes** | Custom properties, metadata |\n\n### 4. **Key Features**\n\n✅ **Real-time syncing** - Events trigger immediately  \n✅ **User segmentation** - Target based on traits/events  \n✅ **Campaign triggers** - Automated workflows based on behavior  \n✅ **Historical data** - Backfill existing user info  \n\n## Common Use Cases\n\n- Welcome series on sign-up\n- Re-engagement campaigns for inactive users\n- Feature announcement to specific segments\n- Onboarding sequences\n\n**Need specifics on setup or troubleshooting?**",
+  "cached_at": "2026-05-28T07:31:03Z",
+  "metadata": {}
+}

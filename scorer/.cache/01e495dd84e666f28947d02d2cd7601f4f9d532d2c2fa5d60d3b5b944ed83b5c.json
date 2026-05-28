@@ -1,0 +1,9 @@
+{
+  "brand": "Rippling",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best HR for mid-market companies managing distributed and global teams?",
+  "response": "# Best HR Platforms for Distributed Global Teams\n\n## Top Contenders\n\n**Rippling**\n- Unified HRIS + IT management\n- Multi-country payroll and compliance built-in\n- Strong for scaling companies (100-1000+ employees)\n- High cost but comprehensive\n\n**Guidepoint/BambooHR**\n- BambooHR: intuitive, mid-market focused, good support\n- Lighter weight than Rippling\n- Solid core HRIS without IT management\n\n**Workday**\n- Enterprise-grade for larger mid-market\n- Excellent multi-currency/country support\n- Steeper learning curve and cost\n\n**Deel**\n- Specialized for fully distributed teams\n- Payroll automation across 150+ countries\n- Global contractor + employee management\n\n## Key Capabilities to Prioritize\n\n- **Multi-country payroll** (tax, compliance, currencies)\n- **Time zone-friendly** UX for async teams\n- **Self-service tools** (reduces HR overhead)\n- **Integration ecosystem** (existing tools matter)\n- **Support quality** (non-US compliance gets complex)\n\n## Real Talk\n\nThe \"best\" depends on:\n- **Size** (50 vs 500 employees matters)\n- **Geographic spread** (5 countries vs 20)\n- **Compliance complexity** (regulated industries need more)\n- **Budget** ($5k/mo vs $50k/mo)\n\nWhat's your approximate size and number of countries? That would help narrow it down.",
+  "cached_at": "2026-05-28T06:27:22Z",
+  "metadata": {}
+}

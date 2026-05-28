@@ -1,0 +1,9 @@
+{
+  "brand": "Chargebee",
+  "prompt_id": "AL-02",
+  "llm": "openai",
+  "prompt_text": "Cheaper alternatives to Recurly",
+  "response": "If you're looking for cheaper alternatives to Recurly for subscription billing and management, consider the following options:\n\n1. **Stripe Billing**: Known for its ease of use and integration capabilities, Stripe offers a comprehensive billing solution with competitive pricing, especially for smaller businesses.\n\n2. **Chargebee**: Offers a wide range of features and flexible pricing plans, making it suitable for startups and growing businesses.\n\n3. **Zoho Subscriptions**: Part of the Zoho suite, it provides affordable subscription management with seamless integration with other Zoho products.\n\n4. **Paddle**: Particularly useful for SaaS and software companies, Paddle handles billing, taxes, and compliance, often at a lower cost.\n\n5. **PayPal Subscription**: A straightforward option for businesses that already use PayPal, offering basic subscription management features.\n\n6. **Braintree**: A PayPal service that provides robust subscription billing features, often with competitive pricing.\n\n7. **Chargify**: Offers flexible pricing and a variety of features tailored to different business needs, often at a lower cost than Recurly.\n\n8. **FastSpring**: Ideal for software and digital product companies, offering a full commerce platform with subscription management.\n\nWhen choosing an alternative, consider the specific features you need, such as integration capabilities, ease of use, customer support, and scalability, to ensure the solution fits your business requirements.",
+  "cached_at": "2026-05-28T06:50:36Z",
+  "metadata": {}
+}

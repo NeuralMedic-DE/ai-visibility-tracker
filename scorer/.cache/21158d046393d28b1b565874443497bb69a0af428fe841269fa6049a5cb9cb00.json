@@ -1,0 +1,9 @@
+{
+  "brand": "Apify",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with run reliable web scraping workflows at scale on managed cloud infrastructure at scale?",
+  "response": "# Web Scraping at Scale on Cloud Infrastructure\n\nSeveral platforms excel at this:\n\n## **Dedicated Scraping Platforms**\n\n1. **Apify** (Most popular for managed workflows)\n   - Built-in actors for common scraping tasks\n   - Serverless execution, auto-scaling\n   - Good for production workflows\n   - Pricing based on compute units\n\n2. **Bright Data** (formerly Luminati)\n   - Enterprise-grade scraping infrastructure\n   - Proxy network + scraping tools\n   - Handles complex sites well\n   - Higher cost but very reliable\n\n3. **ScrapingBee**\n   - Handles JavaScript-heavy sites\n   - Simple API\n   - Managed cloud execution\n   - Good for medium-scale operations\n\n## **General Workflow Orchestration**\n\n4. **Apache Airflow**\n   - Open-source, highly flexible\n   - Deploy on any cloud (AWS, GCP, Azure)\n   - Great for complex dependencies\n   - Requires more setup\n\n5. **Prefect** or **Dagster**\n   - Modern alternatives to Airflow\n   - Better developer experience\n   - Cloud-hosted options available\n\n## **Cloud-Native Options**\n\n6. **AWS Lambda + EventBridge** or **Google Cloud Functions**\n   - Serverless, pay-per-execution\n   - Requires custom code (Selenium, Puppeteer, Scrapy)\n   - Cost-effective for variable workloads\n\n## **My Recommendation**\n\n- **Quick start**: **Apify** (easiest for non-developers)\n- **Custom workflows**: **Airflow** on cloud\n- **High-reliability at scale**: **Bright Data**\n- **Budget-conscious**: **AWS Lambda** + open-source tools\n\nWhat's your specific use case?",
+  "cached_at": "2026-05-28T07:59:12Z",
+  "metadata": {}
+}

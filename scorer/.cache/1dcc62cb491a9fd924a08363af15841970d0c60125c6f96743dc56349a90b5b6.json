@@ -1,0 +1,9 @@
+{
+  "brand": "Copper",
+  "prompt_id": "AL-01",
+  "llm": "anthropic",
+  "prompt_text": "Alternatives to HubSpot for Google Workspace power users",
+  "response": "# HubSpot Alternatives for Google Workspace Users\n\n## Best Native Integrations\n\n**Pipedrive**\n- Excellent Google Workspace sync (Calendar, Contacts, Gmail)\n- Light, fast interface; great for sales teams\n- Affordable pricing\n- Less feature-heavy than HubSpot\n\n**Zoho CRM**\n- Deep Google Workspace integration\n- Full suite (marketing, sales, service)\n- Best for budget-conscious teams\n- Can feel dated UI-wise\n\n**Google Workspace Native Solutions**\n\n**Google CRM (built-in)**\n- Integrated directly into Gmail sidebar\n- Free/low-cost\n- Limited features but zero friction\n- Good for simple sales processes\n\n**Streak** (Gmail-native)\n- Runs inside Gmail inbox\n- Pipeline management without leaving email\n- $49-99/user/month\n- Perfect if you live in email\n\n## Mid-Market Options\n\n**Copper** (formerly ProsperWorks)\n- Designed specifically for Google Workspace\n- Built-in Gmail sync, Google Calendar integration\n- Strong contact management\n- $25-80/user/month\n\n**HubSpot Alternatives Comparison Chart**\n| Tool | Strength | Best For |\n|------|----------|----------|\n| Pipedrive | Sales focus, simplicity | Sales teams, SMBs |\n| Zoho | Full suite, price | Cost-conscious enterprises |\n| Copper | G Suite native | Google Workspace devotees |\n| Streak | Gmail-embedded | Email-first teams |\n\n## Questions to Guide Your Choice\n\n- **Team size?** (Scales differently)\n- **Core use case?** (Sales vs. marketing vs. service)\n- **Budget constraints?**\n- **Integration must-haves?** (Beyond Google Workspace)\n\nWhat's driving your move from HubSpot?",
+  "cached_at": "2026-05-27T18:23:18Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Planhat",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Gainsight vs alternatives: what should I switch to?",
+  "response": "# Gainsight Alternatives: Key Comparisons\n\n## Top contenders depend on your priorities:\n\n**For comprehensive CSM workflows:**\n- **Totango** – Similar feature set, often better UX; strong for mid-market\n- **Planhat** – More affordable, growing feature parity; good for smaller teams\n- **ClientSuccess** – Lighter weight, easier implementation\n\n**For analytics-first approach:**\n- **Vitally** – Modern UI, strong automation; better for product-led growth\n- **Catalyst** – Simpler, faster to deploy; good quick wins\n\n**For specific use cases:**\n- **HubSpot** – If you're already in the ecosystem and don't need specialized CSM depth\n- **Nutshell** – Better for sales + CS integration\n- **Outreach** – If engagement/cadence management is your priority\n\n## Questions to clarify first:\n\n1. **What's the pain?** (cost, clunky UX, poor X integration, overkill features?)\n2. **Team size?** (Gainsight can be over-engineered for <10 person teams)\n3. **Must-have features?** (health scores, playbooks, integrations, reporting?)\n4. **Budget range?** (this narrows it fast)\n\n**Reality check:** Most switches cost more in implementation than the software itself. If it's mainly cost or UX frustration, sometimes customizing your current setup works better than switching.\n\nWhat's driving the change for you?",
+  "cached_at": "2026-05-28T08:12:06Z",
+  "metadata": {}
+}

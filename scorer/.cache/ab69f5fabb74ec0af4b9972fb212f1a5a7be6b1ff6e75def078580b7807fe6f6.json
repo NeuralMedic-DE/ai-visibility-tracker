@@ -1,0 +1,9 @@
+{
+  "brand": "Langfuse",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to Helicone",
+  "response": "# Cheaper Alternatives to Helicone\n\n## Free/Open-Source Options\n\n1. **Langsmith** (LangChain)\n   - Free tier available\n   - Good for debugging LLM chains\n   - Better for development than production monitoring\n\n2. **OpenTelemetry + Self-hosted**\n   - Completely free (open-source)\n   - Full control, but requires infrastructure\n   - Steep learning curve\n\n3. **LiteLLM** (with logging)\n   - Open-source LLM router\n   - Built-in cost tracking\n   - Minimal setup\n\n## Budget-Friendly SaaS\n\n4. **Arize AI**\n   - More affordable than Helicone for some use cases\n   - Better ML observability focus\n   - Freemium tier available\n\n5. **Datadog/New Relic**\n   - Can be cheaper at smaller scales\n   - General observability (not LLM-specific)\n   - May require less custom setup\n\n6. **Weights & Biases**\n   - Good for experimentation tracking\n   - LLM-focused features\n   - Academic discounts available\n\n## DIY Solutions\n\n7. **PostgreSQL + Grafana**\n   - Log to database yourself\n   - Visualize with Grafana\n   - Minimal cost (~$5-20/month)\n\n8. **AWS CloudWatch + S3**\n   - Pay per request\n   - Often cheaper for light usage\n\n## Key Considerations\n\n- **Scale matters**: Helicone's pricing advantage grows with volume\n- **What you need**: Cost tracking only vs. full observability\n- **Trade-off**: Savings vs. ease-of-use and support\n\n**Best budget option**: LiteLLM (free) + simple logging to track costs manually.",
+  "cached_at": "2026-05-28T07:56:22Z",
+  "metadata": {}
+}

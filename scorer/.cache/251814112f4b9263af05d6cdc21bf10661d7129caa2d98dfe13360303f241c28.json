@@ -1,0 +1,9 @@
+{
+  "brand": "Amplitude",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Amplitude with Segment?",
+  "response": "# Connecting Amplitude with Segment\n\nHere's how to set up the integration:\n\n## 1. **Get Your Amplitude API Key**\n- Log in to Amplitude\n- Go to **Settings → API Keys**\n- Copy your API Key\n\n## 2. **Add Amplitude as a Destination in Segment**\n- Go to your Segment workspace\n- Click **Catalog** → search for **Amplitude**\n- Click **Amplitude** and select **Add Destination**\n\n## 3. **Configure the Destination**\n- Choose your **Source** (the Segment source sending data)\n- Paste your **Amplitude API Key**\n- Configure optional settings:\n  - **Track Revenue as** (gross amount, revenue, etc.)\n  - **Event name mapping** (if needed)\n  - Enable/disable specific features\n\n## 4. **Test the Connection**\n- Use Segment's **Debugger** to verify events are being sent\n- Check Amplitude's dashboard to confirm data is arriving\n\n## 5. **Map Events (Optional)**\n- In Segment, you can configure event mappings if your naming conventions differ\n- Ensure user IDs match between systems for proper tracking\n\n## Key Notes\n- **User IDs** must be consistent between Segment and Amplitude\n- Events flow from Segment → Amplitude (one-directional)\n- Allow 15-30 minutes for initial data to appear\n- Check Segment's destination logs if data isn't flowing\n\nNeed help with a specific step?",
+  "cached_at": "2026-05-27T19:27:15Z",
+  "metadata": {}
+}

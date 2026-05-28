@@ -1,0 +1,9 @@
+{
+  "brand": "Help Scout",
+  "prompt_id": "IN-05",
+  "llm": "openai",
+  "prompt_text": "customer support tools with native Slack integration",
+  "response": "There are several customer support tools that offer native Slack integration, allowing teams to manage support requests directly from Slack. Here are some popular ones:\n\n1. **Zendesk**: Offers a Slack integration that allows teams to receive notifications, create tickets, and update ticket statuses directly from Slack.\n\n2. **Intercom**: Provides a Slack integration to send notifications about new conversations and updates, and allows team members to reply to customers directly from Slack.\n\n3. **Freshdesk**: Integrates with Slack to notify teams about ticket updates and allows agents to collaborate on tickets within Slack channels.\n\n4. **Help Scout**: Offers a Slack integration that sends notifications about new conversations and updates, and allows team members to discuss and collaborate on support issues.\n\n5. **Front**: Integrates with Slack to notify teams about new messages and allows for collaboration on responses directly within Slack.\n\n6. **Groove**: Provides a Slack integration to send notifications about new tickets and updates, and allows for easy ticket management from Slack.\n\n7. **Kayako**: Offers Slack integration to keep teams informed about support requests and allows for collaboration on tickets within Slack.\n\nThese tools help streamline customer support processes by allowing teams to manage and collaborate on support requests without leaving Slack.",
+  "cached_at": "2026-05-28T08:19:35Z",
+  "metadata": {}
+}

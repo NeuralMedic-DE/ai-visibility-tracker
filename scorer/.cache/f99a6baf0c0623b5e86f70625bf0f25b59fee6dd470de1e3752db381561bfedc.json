@@ -1,0 +1,9 @@
+{
+  "brand": "Apify",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Apify integrate with Python?",
+  "response": "# Apify and Python Integration\n\nYes, **Apify integrates with Python** through several methods:\n\n## 1. **Apify SDK for Python**\n- Official Python library: `apify-client`\n- Install via: `pip install apify-client`\n- Allows you to:\n  - Call Apify actors and tasks from Python code\n  - Manage actor runs, datasets, and storage\n  - Authenticate with your Apify account\n\n## 2. **Python Actors**\n- You can write Apify actors directly in Python\n- Deploy them to the Apify platform\n- Use the `apify` Python package for actor development\n\n## 3. **REST API**\n- Interact with Apify via HTTP requests from any Python script\n- Full control over actors, datasets, and other resources\n\n## Basic Example (Python Client)\n```python\nfrom apify_client import ApifyClient\n\nclient = ApifyClient(\"your-api-token\")\nactor_call = client.actor(\"actor-name\").call({\"input\": \"value\"})\n```\n\n## Common Use Cases\n- Triggering Apify actors from Python applications\n- Processing data returned by actors\n- Building data pipelines with web scraping\n\nSo yes, Python is well-supported for working with Apify, whether you're consuming actors or building them.",
+  "cached_at": "2026-05-28T07:59:12Z",
+  "metadata": {}
+}

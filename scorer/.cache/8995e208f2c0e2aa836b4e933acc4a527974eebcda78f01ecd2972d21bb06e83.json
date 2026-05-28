@@ -1,0 +1,9 @@
+{
+  "brand": "Paddle",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Paddle with Stripe?",
+  "response": "# Connecting Paddle with Stripe\n\nPaddle and Stripe are **separate payment processors** — you can't directly \"connect\" them to each other. However, here are your actual options:\n\n## Option 1: Choose One Payment Processor\nUse **either** Paddle **or** Stripe for your business, not both simultaneously in the same way.\n\n- **Paddle**: All-in-one platform (payments, subscriptions, tax, payouts)\n- **Stripe**: Payment processing (you manage subscriptions, tax, etc.)\n\n## Option 2: Use Both Independently\nIf you want to accept payments through both:\n\n1. **Set up Paddle** for your main payment processing\n2. **Set up Stripe** separately for different use cases (if needed)\n3. **Manually manage** or use integration tools to sync data between them\n\n## Option 3: Use a Third-Party Integration Platform\nServices like **Zapier** or **Make (formerly Integromat)** can:\n- Trigger workflows when payments occur in one system\n- Sync customer data between platforms\n- Create records automatically\n\n**Example workflow**: Stripe payment → Zapier → creates Paddle subscription\n\n## Recommendation\nFor most businesses, pick **one primary processor** to avoid complexity. Choose based on:\n\n- **Paddle**: If you want simplified tax handling and recurring billing\n- **Stripe**: If you need maximum flexibility and control\n\nWhat's your specific use case? That would help me suggest the best approach.",
+  "cached_at": "2026-05-28T07:00:20Z",
+  "metadata": {}
+}

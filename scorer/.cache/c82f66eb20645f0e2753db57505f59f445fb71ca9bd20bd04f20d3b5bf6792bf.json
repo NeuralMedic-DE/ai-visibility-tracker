@@ -1,0 +1,9 @@
+{
+  "brand": "HiBob",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with automate onboarding workflows and org chart updates at scale at scale?",
+  "response": "# Software for Automated Onboarding & Org Chart Management\n\n## Enterprise-Level Solutions\n\n**Workday**\n- Comprehensive HCM platform with workflow automation\n- Native org chart management and updates\n- Integrates with provisioning systems\n\n**SuccessFactors (SAP)**\n- Employee onboarding workflows\n- Organizational design tools\n- Integration capabilities at scale\n\n**Rippling**\n- Purpose-built for onboarding automation\n- Device provisioning + app access\n- Org chart syncing across systems\n- Strong for mid-market to enterprise\n\n## Specialized Onboarding Platforms\n\n**BambooHR** / **Guidepoint**\n- Smaller-scale but effective\n- Customizable workflows\n- Good for SMBs\n\n**Greenhouse** (ATS-focused)\n- Strong onboarding post-hire\n- Integrations with HRIS systems\n\n## Infrastructure/Integration Approach\n\nFor custom scale solutions:\n- **Okta** + **JumpCloud** (identity/access)\n- **Zapier** / **Make** (basic workflow automation)\n- **REST APIs** to your HRIS/directory (most flexible)\n\n## Key Considerations\n\n- **Existing systems**: Most solutions integrate with Active Directory, ADP, BambooHR, etc.\n- **Scale**: Enterprise needs different solutions than 50-person startups\n- **Budget**: Rippling/Workday are premium; Zapier is budget-friendly\n\n**What's your current company size and existing HR tech stack?** That would help narrow recommendations.",
+  "cached_at": "2026-05-28T06:32:38Z",
+  "metadata": {}
+}

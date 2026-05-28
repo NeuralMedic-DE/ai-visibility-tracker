@@ -1,0 +1,9 @@
+{
+  "brand": "Amplitude",
+  "prompt_id": "IN-04",
+  "llm": "perplexity",
+  "prompt_text": "Best product analytics that works with Segment and Salesforce",
+  "response": "If you need **product analytics that works with both Segment and Salesforce**, the strongest fit from the results is **Pendo** because it explicitly integrates with **Salesforce** and **Segment**.[5] Another viable option is **June**, which is described as being “fully integrated with your CRM” and able to connect **Segment** for live data, though the result does not explicitly name Salesforce in the same sentence.[1]\n\nA practical short list would be:\n\n- **Pendo** — best-supported match for **Segment + Salesforce** integration.[5]\n- **June** — strong if you want product analytics tied closely to CRM/customer success workflows and Segment ingestion.[1]\n- **Tableau** — relevant if you want analytics inside the Salesforce ecosystem, but the result here is about customer analytics and BI rather than product analytics specifically.[2]\n\nIf your priority is:\n- **Direct Segment + Salesforce compatibility:** **Pendo**.[5]\n- **Customer success + product analytics + CRM workflow:** **June**.[1]\n- **Salesforce-native reporting/visualization:** **Tableau**.[2]\n\nIf you want, I can also narrow this down by **budget**, **B2B SaaS use case**, or whether you need **event-level product analytics vs. customer health analytics**.",
+  "cached_at": "2026-05-27T19:32:06Z",
+  "metadata": {}
+}

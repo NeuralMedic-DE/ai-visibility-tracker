@@ -1,0 +1,9 @@
+{
+  "brand": "n8n",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with build complex LLM-powered automations with code nodes and custom business logic at scale?",
+  "response": "# Software for Complex LLM-Powered Automations\n\nSeveral platforms excel at this, depending on your needs:\n\n## **Specialized LLM Automation Platforms**\n\n**LangChain / LangGraph**\n- Open-source framework with robust code integration\n- Excellent for custom business logic and chaining operations\n- Strong community and extensive documentation\n\n**Flowise / LangFlow**\n- Visual node-based builders with code node support\n- Lower barrier to entry than pure coding\n- Good for prototyping and production workflows\n\n## **Enterprise Automation Platforms**\n\n**Make (formerly Integromat)**\n- Visual workflow builder with custom JavaScript nodes\n- Scales well for complex multi-step automations\n- Strong integration ecosystem\n\n**Zapier + Code by Zapier**\n- Integrations-first approach with custom logic\n- Good for connecting LLMs to business systems\n- Easier than some alternatives but less flexible\n\n**n8n**\n- Open-source, self-hostable alternative\n- Comprehensive node library and code support\n- Better for privacy-conscious enterprises\n\n## **Custom Development Frameworks**\n\n**FastAPI + LangChain**\n- Maximum flexibility and control\n- Best for scaling to production\n- Requires engineering resources\n\n**Anthropic's APIs**\n- Direct integration for custom applications\n- Finest control over costs and behavior\n\n## **Recommendation**\n\nChoose based on your needs:\n- **Visual + flexible code**: Flowise or n8n\n- **Production-scale custom logic**: LangChain/LangGraph + FastAPI\n- **Business integrations**: Make or Zapier\n- **Self-hosted control**: n8n\n\nWhat's your primary use case?",
+  "cached_at": "2026-05-28T08:56:20Z",
+  "metadata": {}
+}

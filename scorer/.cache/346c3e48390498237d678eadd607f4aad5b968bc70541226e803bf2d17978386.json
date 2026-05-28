@@ -1,0 +1,9 @@
+{
+  "brand": "Sprinto",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Sprinto Slack integration: how does it work?",
+  "response": "# Sprinto Slack Integration Overview\n\nSprinto's Slack integration enables automated compliance notifications and updates directly in your Slack workspace. Here's how it typically works:\n\n## Key Functions\n\n**Notifications & Alerts**\n- Real-time notifications about compliance tasks and deadlines\n- Evidence collection reminders\n- Control assessment updates\n- Audit findings and remediation status\n\n**Workflow Updates**\n- Task assignments and status changes\n- Approval notifications\n- Policy update alerts\n- Risk assessments\n\n## Basic Setup\n\n1. **Install the app** in your Slack workspace (via Slack App Directory)\n2. **Authenticate** your Sprinto account\n3. **Configure channels** where you want notifications sent\n4. **Set preferences** for which events trigger notifications\n\n## Common Use Cases\n\n- Reminding teams to submit compliance evidence\n- Alerting stakeholders of audit deadlines\n- Notifying about policy violations or control gaps\n- Tracking remediation progress\n\n## Benefits\n\n- ✅ Keeps compliance top-of-mind without platform switching\n- ✅ Reduces email overload\n- ✅ Improves response times on critical items\n- ✅ Centralizes compliance communication\n\n## Note\n\nFor the most current and detailed setup instructions, I'd recommend checking Sprinto's official documentation or contacting their support team, as integrations are frequently updated.\n\n**Do you need help with specific integration steps or troubleshooting?**",
+  "cached_at": "2026-05-28T08:31:35Z",
+  "metadata": {}
+}

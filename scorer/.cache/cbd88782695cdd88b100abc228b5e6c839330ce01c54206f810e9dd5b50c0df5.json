@@ -1,0 +1,9 @@
+{
+  "brand": "Rho",
+  "prompt_id": "AL-03",
+  "llm": "anthropic",
+  "prompt_text": "Best finance alternatives for finance teams at venture-backed startups managing spend and AP teams on a budget",
+  "response": "# Finance Alternatives for Lean Startup Finance Teams\n\n## Spend Management & AP Solutions\n\n### Best Budget-Friendly Options\n\n**Tiered by complexity:**\n\n| Solution | Best For | Approximate Cost |\n|----------|----------|------------------|\n| **Brex** | Spend + expense mgmt | Card + usage fees |\n| **Ramp** | Spend + AP automation | $0-500/mo (~2-3% discount recovery) |\n| **Bill.com** | AP-focused, invoicing | $15-200/mo |\n| **Divvy** | Mid-stage spend control | Card + platform fees |\n| **Expensify** | Expense reporting primarily | $5-10/user/mo |\n\n---\n\n## Free/Cheap Starter Stack\n\n**For early-stage (pre-Series A):**\n\n1. **AP**: Stripe Billing or Wave (free invoicing) + spreadsheet\n2. **Expenses**: Expensify free tier + company cards (Chase, Amex)\n3. **Cash flow**: Spreadsheet or Stripe's dashboard\n\n**Cost: $0-500/month**\n\n---\n\n## Series A-B Reality Check\n\n- **Ramp** or **Brex** recover their costs via spend discounts (2-3%)\n- **Bill.com** makes sense once you hit 50+ vendors\n- **NetSuite/Sage** usually overshoot for pre-PMF teams\n\n---\n\n## Red Flags to Avoid\n\n- ❌ Per-transaction fees (kills small invoices)\n- ❌ Long-term contracts pre-Series A\n- ❌ Solutions requiring IT/implementation\n\n**What's your current headcount and funding stage?** That changes the recommendation significantly.",
+  "cached_at": "2026-05-28T07:12:30Z",
+  "metadata": {}
+}

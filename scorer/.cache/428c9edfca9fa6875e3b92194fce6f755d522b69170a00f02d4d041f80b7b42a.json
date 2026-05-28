@@ -1,0 +1,9 @@
+{
+  "brand": "Workato",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to Boomi",
+  "response": "# Cheaper Alternatives to Boomi\n\n## **Low-Cost/Free Integration Platforms**\n\n### **Zapier**\n- Best for: Simple automation between 7,000+ apps\n- Pricing: Free tier available; paid from $19.99/month\n- Strengths: User-friendly, large app ecosystem, no-code\n\n### **Make (formerly Integromat)**\n- Best for: Complex workflows at lower cost\n- Pricing: Free tier; paid from $9.99/month\n- Strengths: Visual workflow builder, more affordable than competitors\n\n### **Integrately**\n- Best for: Budget-conscious teams\n- Pricing: Free tier; paid from $9.99/month\n- Strengths: Easy setup, good for SMBs\n\n### **IFTTT**\n- Best for: Very simple automation\n- Pricing: Free tier available\n- Strengths: Lightweight, minimal learning curve\n\n---\n\n## **Mid-Range Solutions**\n\n### **Workato**\n- More affordable than Boomi for certain use cases\n- Strong API capabilities\n\n### **PieSync**\n- Good for data synchronization\n- Simpler pricing than enterprise platforms\n\n---\n\n## **Self-Hosted/Open-Source**\n\n### **Apache NiFi** / **Talend Open Studio**\n- Free but require technical resources\n- Higher setup/maintenance costs\n\n---\n\n## **Key Comparison**\n\n| Platform | Best For | Cost |\n|----------|----------|------|\n| Zapier | Simple workflows | $19.99+/month |\n| Make | Complex automation | $9.99+/month |\n| Integrately | SMBs | $9.99+/month |\n| Boomi | Enterprise | $5K+/month |\n\n**Choose based on**: complexity, number of integrations needed, and team technical skills.",
+  "cached_at": "2026-05-28T09:13:27Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Teamtailor",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with automate candidate communication throughout the entire hiring process at scale?",
+  "response": "There are several software solutions designed to automate candidate communication throughout the hiring process at scale. Here are a few popular ones:\n\n1. **Lever**: This is an applicant tracking system (ATS) that offers automation features for candidate communication, including email templates and scheduling tools.\n\n2. **Greenhouse**: Known for its robust automation capabilities, Greenhouse provides tools for automating emails, interview scheduling, and feedback collection.\n\n3. **SmartRecruiters**: This platform offers automated communication features, including personalized email templates and interview scheduling.\n\n4. **Workable**: Workable provides automation for various stages of the hiring process, including email communication, interview scheduling, and follow-ups.\n\n5. **Breezy HR**: This software allows for automated communication through customizable email templates and scheduling tools.\n\n6. **iCIMS**: iCIMS offers a suite of tools for automating candidate communication, including text messaging and email campaigns.\n\n7. **Jobvite**: Known for its recruitment marketing capabilities, Jobvite offers automated communication features, including email and text messaging.\n\n8. **HireVue**: While primarily known for video interviewing, HireVue also offers automation features for candidate communication and scheduling.\n\nThese tools help streamline the recruitment process by automating repetitive tasks, allowing recruiters to focus more on engaging with candidates and making strategic hiring decisions.",
+  "cached_at": "2026-05-28T06:41:57Z",
+  "metadata": {}
+}

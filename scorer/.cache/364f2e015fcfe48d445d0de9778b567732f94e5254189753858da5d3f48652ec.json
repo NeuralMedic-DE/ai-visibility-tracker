@@ -1,0 +1,9 @@
+{
+  "brand": "Maxio",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is Maxio better than Recurly for manage complex multi-element arrangements and revenue recognition compliance?",
+  "response": "# Maxio vs Recurly: Complex Billing & Revenue Recognition\n\nThis is a nuanced comparison. Here's what the data suggests:\n\n## Maxio's Strengths\n- **Purpose-built for complexity**: Explicitly designed for enterprise billing with multi-element arrangements\n- **Revenue recognition**: Built-in ASC 606 compliance features are more comprehensive\n- **Flexibility**: Better handles custom billing scenarios, tiered pricing, and complex proration\n- **Reporting**: More granular financial/accounting reporting out-of-the-box\n\n## Recurly's Position\n- **Solid fundamentals**: Handles standard SaaS billing well, including ASC 606 basics\n- **Simpler to implement**: Faster time-to-value for straightforward models\n- **Less overhead**: Lower complexity if you don't need all the features\n- **Growing capabilities**: Continuously improving but still less specialized than Maxio\n\n## The Real Answer\n**It depends on your complexity level:**\n\n- **Choose Maxio if**: You have usage-based billing, service credits, complex bundles, multiple revenue streams, or stringent audit requirements\n- **Choose Recurly if**: Your model is subscription-heavy with standard add-ons and you want simpler operations\n\n## Key Consideration\nFor genuinely *complex* multi-element arrangements (especially with usage or custom terms), Maxio is more purpose-built. However, Recurly can handle moderate complexity with good implementation.\n\nWhat's your specific use case? That would clarify whether the difference matters for you.",
+  "cached_at": "2026-05-28T06:52:45Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Raycast",
+  "prompt_id": "IN-05",
+  "llm": "anthropic",
+  "prompt_text": "productivity tools with native Slack integration",
+  "response": "# Top Productivity Tools with Native Slack Integration\n\n## Project Management\n- **Asana** - Tasks, timelines, portfolios with Slack notifications\n- **Monday.com** - Work OS with deep Slack workflow automation\n- **Jira** - Issue tracking with real-time Slack alerts\n- **Trello** - Card-based boards with Slack automation\n- **Notion** - Notes, databases, wikis with Slack reminders\n\n## Communication & Collaboration\n- **Loom** - Video messaging with Slack sharing\n- **Google Workspace** - Docs, Sheets, Meet with Slack integration\n- **Microsoft Teams** - (limited but growing Slack integration)\n\n## Time & Task Management\n- **Clockify** - Time tracking with Slack logging\n- **Toggl** - Time tracking with Slack commands\n- **TickTick** - To-do lists with Slack sync\n- **Todoist** - Task management with Slack notifications\n\n## Analytics & Reporting\n- **Databox** - Dashboard monitoring with Slack alerts\n- **Mixpanel** - Analytics with Slack integration\n- **Google Analytics** - Via native Slack integration\n\n## Automation & Workflow\n- **Zapier** - Connects 1000+ apps to Slack\n- **Make** - No-code automation platform\n- **IFTTT** - Simple automation recipes\n\n## Note-Taking & Knowledge\n- **Evernote** - With Slack clipping\n- **OneNote** - Microsoft integration available\n\n---\n\n**Pro tip:** Check each tool's Slack App Directory listing for specific features, commands, and permissions before integrating.",
+  "cached_at": "2026-05-28T06:25:29Z",
+  "metadata": {}
+}

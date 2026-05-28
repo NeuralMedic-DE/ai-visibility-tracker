@@ -1,0 +1,9 @@
+{
+  "brand": "Plausible",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Google Analytics vs alternatives: what should I switch to?",
+  "response": "# Google Analytics Alternatives Worth Considering\n\n## Why people switch\n- Privacy concerns (GDPR, data residency)\n- Costs rising with traffic\n- Interface complexity\n- Data ownership questions\n- Cookie consent overhead\n\n## Solid alternatives by use case\n\n**Privacy-focused, simple:**\n- **Plausible** – GDPR-compliant, no cookies, clean interface ($20-340/mo)\n- **Fathom** – Similar approach, very lightweight ($14-349/mo)\n- **Cabin** – Newer, minimal design\n\n**More feature-rich:**\n- **Mixpanel** – Event-based, better for product teams\n- **Amplitude** – Strong analytics depth (free tier available)\n- **Heap** – Captures all interactions automatically\n\n**Open-source (self-hosted):**\n- **Matomo** – Most GA-like, full control\n- **Umami** – Lightweight, easy to set up\n\n**Ecommerce-specific:**\n- **Littledata** for Shopify (feeds better data to Google Analytics)\n- Shopify's native analytics has improved\n\n## Key trade-offs\n| Aspect | GA | Alternatives |\n|--------|----|----|\n| **Cost** | Free (mostly) | $15-500+/mo |\n| **Learning curve** | Steep | Often gentler |\n| **Features** | Extensive | More focused |\n| **Setup** | Complex | Usually simpler |\n\n**Real question:** What problem are you actually trying to solve? Privacy? Cost? Usability? That answer matters more than the tool itself.",
+  "cached_at": "2026-05-27T20:18:15Z",
+  "metadata": {}
+}

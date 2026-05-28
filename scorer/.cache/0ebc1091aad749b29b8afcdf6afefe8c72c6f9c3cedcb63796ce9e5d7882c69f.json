@@ -1,0 +1,9 @@
+{
+  "brand": "Maxio",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which billing software should a SaaS Finance Lead or CFO at a B2B SaaS company use?",
+  "response": "# Best Billing Software for B2B SaaS Companies\n\n## Top-Tier Options (Most Popular)\n\n**Stripe Billing** or **Recurly**\n- Built for subscription models with usage-based billing\n- Strong revenue recognition (ASC 606)\n- Excellent API documentation for custom workflows\n- Good for mid-market companies\n\n**Zuora**\n- Enterprise-grade billing orchestration\n- Handles complex pricing models, multi-currency, tax compliance\n- Strong reporting and analytics\n- Best for large/complex operations\n\n## Strong Alternatives\n\n**ChartMogul** (analytics-focused)\n- Excellent MRR, churn, and cohort analysis\n- Integrates with payment processors you already use\n- Lower cost, faster implementation\n\n**Chargify**\n- Mid-market sweet spot\n- Good UX, revenue recognition features\n- Simpler than Zuora\n\n**Paddle** or **FastSpring**\n- If you sell globally (tax handling is excellent)\n- Good margins and compliance built-in\n\n## Decision Framework\n\nChoose based on:\n- **Complexity**: Simple → Stripe; Complex → Zuora\n- **Scale**: <$5M ARR → Stripe/Chargify; >$100M → Zuora\n- **Pricing model**: Usage-based needs different features than simple subscriptions\n- **Integration needs**: Which accounting/ERP system?\n- **Time to value**: Some implement in weeks, others in months\n\n**For most B2B SaaS companies**, Stripe Billing or Recurly strike the best balance of capability, cost, and implementation speed.\n\nWhat's your company size/complexity?",
+  "cached_at": "2026-05-28T06:52:32Z",
+  "metadata": {}
+}

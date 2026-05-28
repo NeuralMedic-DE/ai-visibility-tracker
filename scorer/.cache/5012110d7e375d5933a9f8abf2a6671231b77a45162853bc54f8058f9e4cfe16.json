@@ -1,0 +1,9 @@
+{
+  "brand": "Teamtailor",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Teamtailor integrate with LinkedIn?",
+  "response": "Yes. **Teamtailor has native integrations with LinkedIn**, and you can also connect them via Zapier.\n\nKey options:\n\n- **LinkedIn Recruiter System Connect (RSC)**: A built-in integration that connects your **LinkedIn Recruiter** account with Teamtailor so you can sync jobs, candidates, applications, comments, stages, and interviews, see InMail history and notes in Teamtailor, and see an “in ATS” indicator inside LinkedIn Recruiter.[1][4]  \n- **Apply with LinkedIn**: A plugin in Teamtailor that lets candidates apply to your job ads using their **LinkedIn profile**, auto-filling their information and attaching their LinkedIn data and profile link to the candidate record in Teamtailor.[3]  \n- **Zapier integration**: If you use standard LinkedIn (e.g., LinkedIn company pages), you can connect Teamtailor to LinkedIn via **Zapier** to automate actions such as creating LinkedIn company updates from Teamtailor activity.[2]",
+  "cached_at": "2026-05-28T06:43:07Z",
+  "metadata": {}
+}

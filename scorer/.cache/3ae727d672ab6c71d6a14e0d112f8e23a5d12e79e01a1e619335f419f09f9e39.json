@@ -1,0 +1,9 @@
+{
+  "brand": "Totango",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with scale CS operations across thousands of accounts with automated plays at scale?",
+  "response": "To scale Customer Success (CS) operations across thousands of accounts with automated plays, you can consider using Customer Success platforms that are designed for automation and scalability. Some popular options include:\n\n1. **Gainsight**: Offers robust automation features, including playbooks and workflows, to manage customer success operations at scale.\n\n2. **Totango**: Provides an extensive library of SuccessBLOCs, which are pre-built, automated workflows that help manage customer journeys and automate tasks.\n\n3. **ChurnZero**: Focuses on real-time customer health scoring and automation, allowing you to create plays that trigger based on specific customer behaviors or milestones.\n\n4. **HubSpot Service Hub**: While primarily a CRM, it includes customer success tools and automation features that can be scaled across numerous accounts.\n\n5. **Salesforce Customer Success**: With its powerful automation capabilities through Salesforce Flow and Process Builder, it can manage complex customer success operations.\n\n6. **Planhat**: Offers a flexible platform with automation capabilities to streamline customer success processes and manage customer lifecycles effectively.\n\nThese platforms typically include features like automated customer health scoring, lifecycle management, playbooks, and task automation, which are essential for managing large volumes of customer accounts efficiently.",
+  "cached_at": "2026-05-28T08:14:33Z",
+  "metadata": {}
+}

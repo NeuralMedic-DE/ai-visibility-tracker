@@ -1,0 +1,9 @@
+{
+  "brand": "Salesflare",
+  "prompt_id": "UC-03",
+  "llm": "openai",
+  "prompt_text": "What tools do small B2B teams and agencies companies use to log sales activities automatically?",
+  "response": "Small B2B teams and agencies often use Customer Relationship Management (CRM) systems that offer automation features to log sales activities. Some popular tools include:\n\n1. **HubSpot CRM**: Offers automatic logging of emails, calls, and meetings, along with integration capabilities with other tools.\n\n2. **Salesforce**: Provides robust automation features for logging sales activities, with extensive customization options.\n\n3. **Pipedrive**: Known for its user-friendly interface, it automatically tracks calls and emails and integrates with various communication tools.\n\n4. **Zoho CRM**: Offers automation for logging sales activities and integrates with a wide range of other business applications.\n\n5. **Copper**: Designed to work seamlessly with Google Workspace, it automatically logs emails and other interactions.\n\n6. **Freshsales (part of Freshworks)**: Automatically logs emails and calls, and offers AI-driven insights.\n\n7. **Insightly**: Provides automatic activity logging and integrates well with other business tools.\n\nThese tools help streamline the sales process by reducing manual data entry and ensuring that all sales activities are accurately recorded.",
+  "cached_at": "2026-05-27T18:12:22Z",
+  "metadata": {}
+}

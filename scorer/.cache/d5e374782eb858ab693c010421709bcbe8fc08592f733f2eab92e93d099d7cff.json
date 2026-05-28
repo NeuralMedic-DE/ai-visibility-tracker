@@ -1,0 +1,9 @@
+{
+  "brand": "Charlie HR",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with onboard new hires with automated checklists and welcome flows at scale?",
+  "response": "There are several software platforms designed to help with onboarding new hires using automated checklists and welcome flows. Some popular options include:\n\n1. **BambooHR**: Offers onboarding tools that include checklists and automated workflows to streamline the process for new hires.\n\n2. **Workday**: Provides comprehensive onboarding solutions with customizable workflows and checklists to ensure a smooth transition for new employees.\n\n3. **Gusto**: Known for its payroll services, Gusto also offers onboarding features like automated checklists and document management.\n\n4. **Zenefits**: Offers an onboarding module that includes automated workflows and checklists to help new hires get up to speed quickly.\n\n5. **Rippling**: Combines HR, IT, and other business functions, offering automated onboarding processes that include checklists and task management.\n\n6. **Trello**: While not specifically an HR tool, Trello can be used to create onboarding boards with checklists and workflows that can be automated with integrations like Zapier.\n\n7. **Asana**: Similar to Trello, Asana can be used to create onboarding projects with tasks and checklists, and it supports automation through integrations.\n\n8. **Onboard**: A dedicated onboarding platform that focuses on creating engaging onboarding experiences with automated workflows and checklists.\n\nThese tools can help HR teams manage the onboarding process more efficiently, ensuring that all necessary steps are completed and that new hires have a positive experience.",
+  "cached_at": "2026-05-28T06:43:51Z",
+  "metadata": {}
+}

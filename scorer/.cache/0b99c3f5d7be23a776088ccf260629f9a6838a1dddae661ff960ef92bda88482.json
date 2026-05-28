@@ -1,0 +1,9 @@
+{
+  "brand": "Salesflare",
+  "prompt_id": "IN-05",
+  "llm": "anthropic",
+  "prompt_text": "CRM tools with native Gmail integration",
+  "response": "# CRM Tools with Native Gmail Integration\n\n## Top Options\n\n### **HubSpot**\n- **Gmail features**: Email tracking, open/click rates, one-click email logging\n- **Strengths**: Free tier available, excellent sync, activity timeline\n- **Best for**: Growing teams, marketing-focused workflows\n\n### **Salesforce**\n- **Gmail features**: Einstein Activity Capture (automatic logging), email templates\n- **Strengths**: Enterprise-grade, highly customizable\n- **Best for**: Large organizations, complex sales processes\n\n### **Pipedrive**\n- **Gmail features**: Email sync, attachment tracking, inbox sidebar\n- **Strengths**: Intuitive interface, affordable pricing\n- **Best for**: Sales teams prioritizing pipeline management\n\n### **ActiveCampaign**\n- **Gmail features**: Email automation, tracking, template library\n- **Strengths**: Marketing + sales + service unified\n- **Best for**: Automation-heavy workflows\n\n### **Zoho CRM**\n- **Gmail features**: Email scheduling, templates, contact sync\n- **Strengths**: Cost-effective, comprehensive suite\n- **Best for**: Budget-conscious teams\n\n### **Outreach / Salesloft**\n- **Gmail features**: Cadence automation, email sequencing\n- **Strengths**: Sales engagement focused, advanced workflows\n- **Best for**: Enterprise sales development teams\n\n## Quick Comparison Table\n\n| Tool | Ease of Use | Price Range | Best Feature |\n|------|-------------|-------------|--------------|\n| HubSpot | ⭐⭐⭐⭐⭐ | Free-$3,200/mo | Freemium tier |\n| Pipedrive | ⭐⭐⭐⭐ | $14-120/mo | Pipeline visual |\n| Zoho | ⭐⭐⭐⭐ | $18-45/mo | Value for money |\n| Salesforce | ⭐⭐⭐ | $165+/mo | Scalability |\n\n**What's your team size and primary use case?** I can give more specific recommendations.",
+  "cached_at": "2026-05-27T18:15:08Z",
+  "metadata": {}
+}

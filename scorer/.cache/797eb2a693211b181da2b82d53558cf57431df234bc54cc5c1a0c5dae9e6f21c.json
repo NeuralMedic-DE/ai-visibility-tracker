@@ -1,0 +1,9 @@
+{
+  "brand": "Ashby",
+  "prompt_id": "AL-05",
+  "llm": "anthropic",
+  "prompt_text": "Open source or affordable ATS tools instead of Greenhouse",
+  "response": "# Open Source & Affordable ATS Alternatives to Greenhouse\n\n## Free/Open Source Options\n\n### **Open Source**\n- **OpenCATS** - Self-hosted, basic but functional\n- **Recruitment** - Django-based, lightweight\n- **Odoo Recruitment** - Part of Odoo ERP suite (free tier available)\n- **Taiga** - Project management but can track candidates\n\n### **Freemium (Limited Free Tier)**\n- **Zoho Recruit** - Free for up to 2 users\n- **Workable** - Free for 1 active job posting\n- **BambooHR** - Free tier for very small teams\n\n## Budget-Friendly Paid Options\n\n| Tool | Starting Price | Best For |\n|------|---|---|\n| **Lever** | ~$500/mo | Mid-market, modern UX |\n| **JazzHR** | ~$50/mo | Small businesses, simplicity |\n| **Freshteam** | ~$60/mo | Startups, integrated HR |\n| **Ashby** | ~$900/mo | Growth-stage (design-focused) |\n| **Lattice** | ~$10/mo per user | Performance + recruiting combo |\n\n## DIY/Spreadsheet Tools\n- **Airtable** + Zapier integration (~$20/mo)\n- **Google Forms** + Sheets automation (free)\n- **Notion** templates ($10/mo team)\n\n## Key Considerations\n- **Self-hosting** saves $ but requires maintenance\n- **SMB tools** often lack advanced reporting Greenhouse has\n- **Integration needs** (email, Slack, LinkedIn) matter for total cost\n\n**What's your team size & main need?** (high volume, specific integrations, etc.) I can narrow recommendations.",
+  "cached_at": "2026-05-28T06:39:30Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Render",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I deploy web services and databases without DevOps complexity without spending a lot on software?",
+  "response": "# Simple Deployment Options (No DevOps Overhead)\n\n## Easiest Platforms (All-in-One)\n\n**Vercel/Netlify** (Frontend + simple backend)\n- Deploy directly from GitHub\n- Free tier covers most side projects\n- Serverless functions included\n- Best for: JAMstack, Next.js, static sites\n\n**Railway/Render** (Full stack)\n- Point to repo, auto-deploys\n- Database included (PostgreSQL, Redis)\n- Free tier + pay-as-you-go (~$5-15/month typical)\n- Very beginner-friendly\n\n**Fly.io**\n- Competitive pricing\n- Good free tier\n- Deploy Docker containers easily\n\n## Database Only\n\n**PlanetScale** (MySQL)\n- Free tier generous\n- Serverless, no management needed\n\n**Supabase** (PostgreSQL)\n- Free tier robust\n- Built-in auth, real-time features\n\n**MongoDB Atlas**\n- Free tier works for prototypes\n\n## Budget Breakdown\n\n| Solution | Cost | Setup Time |\n|----------|------|-----------|\n| Vercel + Supabase | Free-$20/mo | 15 min |\n| Railway | Free-$15/mo | 20 min |\n| Your own VPS + script | $5/mo + time | Hours |\n\n## Avoid These Traps\n\n- ❌ Trying to self-host without ops knowledge (takes time)\n- ❌ Over-optimizing early (use defaults first)\n- ❌ Cheap VPS thinking it's simpler (it's not)\n\n**What's your stack?** (Node, Python, static?) That determines the best pick.",
+  "cached_at": "2026-05-27T21:37:41Z",
+  "metadata": {}
+}

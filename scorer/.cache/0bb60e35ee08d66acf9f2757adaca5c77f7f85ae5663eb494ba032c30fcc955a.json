@@ -1,0 +1,9 @@
+{
+  "brand": "Braintrust",
+  "prompt_id": "IN-05",
+  "llm": "openai",
+  "prompt_text": "AI tooling tools with native OpenAI integration",
+  "response": "There are several AI tooling tools and platforms that offer native integration with OpenAI's models, such as GPT-3 and GPT-4. Here are some notable ones:\n\n1. **Microsoft Azure OpenAI Service**: Microsoft Azure provides a platform where you can access OpenAI models directly through their cloud services. This integration allows you to deploy and scale OpenAI models within the Azure ecosystem.\n\n2. **Zapier**: Zapier offers integrations with OpenAI, allowing you to automate workflows that involve OpenAI's language models. You can use it to create automated tasks that leverage OpenAI's capabilities.\n\n3. **Bubble**: Bubble is a no-code platform that has integrated OpenAI's API, enabling users to build web applications that incorporate AI features without needing to write code.\n\n4. **Notion**: Notion has integrated OpenAI's models to provide AI-powered writing and productivity tools directly within its platform, enhancing note-taking and content creation.\n\n5. **Copy.ai**: This tool uses OpenAI's models to help generate marketing copy, blog posts, and other written content, providing a user-friendly interface for leveraging AI in content creation.\n\n6. **Jasper.ai**: Jasper (formerly Jarvis) is a writing assistant that uses OpenAI's models to help create content for marketing, blogs, and social media.\n\n7. **Replit**: Replit, an online coding platform, has integrated OpenAI's Codex model to assist with code generation and development tasks.\n\nThese tools leverage OpenAI's powerful language models to provide enhanced functionality, making it easier for users to integrate AI into their workflows and applications.",
+  "cached_at": "2026-05-28T07:47:37Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Secureframe",
+  "prompt_id": "AL-05",
+  "llm": "openai",
+  "prompt_text": "Open source or affordable compliance tools instead of Drata",
+  "response": "If you're looking for open-source or more affordable compliance tools as alternatives to Drata, here are a few options you might consider:\n\n1. **Open Source Tools:**\n   - **osquery**: An open-source tool that allows you to query your infrastructure using SQL-based queries. It's useful for monitoring and compliance checks.\n   - **Security Monkey**: Developed by Netflix, this tool monitors AWS, GCP, OpenStack, and GitHub for policy changes and vulnerabilities.\n   - **ModSecurity**: An open-source web application firewall (WAF) that provides real-time monitoring, logging, and access control.\n\n2. **Affordable Compliance Tools:**\n   - **Vanta**: Offers automated security monitoring and compliance management, often at a lower price point than Drata.\n   - **Tugboat Logic**: Provides a platform for managing security audits and compliance, with a focus on affordability and ease of use.\n   - **Secureframe**: Another alternative that automates security compliance, including SOC 2, ISO 27001, and more, often with competitive pricing.\n\n3. **Other Tools:**\n   - **ComplianceForge**: Offers documentation templates and tools to help with compliance requirements, which can be a cost-effective way to manage compliance.\n   - **Kiteworks**: Provides secure file sharing and compliance solutions, often at a lower cost than larger platforms.\n\nWhen selecting a tool, consider the specific compliance requirements you need to meet, such as SOC 2, ISO 27001, GDPR, etc., and evaluate each tool's features, pricing, and community support to ensure it aligns with your organization's needs.",
+  "cached_at": "2026-05-28T08:33:38Z",
+  "metadata": {}
+}

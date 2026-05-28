@@ -1,0 +1,9 @@
+{
+  "brand": "Baremetrics",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with forecast revenue and identify at-risk customers before they churn at scale?",
+  "response": "There are several software solutions that can help with forecasting revenue and identifying at-risk customers before they churn. These tools often use data analytics, machine learning, and customer relationship management (CRM) features to provide insights. Some popular options include:\n\n1. **Salesforce**: With its AI-powered Einstein Analytics, Salesforce can help forecast revenue and identify at-risk customers by analyzing customer interactions and behaviors.\n\n2. **HubSpot**: HubSpot's CRM platform includes features for tracking customer engagement and predicting churn, helping businesses to identify and retain at-risk customers.\n\n3. **Microsoft Dynamics 365**: This platform offers predictive analytics and customer insights to help businesses forecast revenue and manage customer relationships effectively.\n\n4. **Zoho CRM**: Zoho provides tools for sales forecasting and customer analytics, allowing businesses to identify patterns that may indicate potential churn.\n\n5. **Gainsight**: Specifically designed for customer success, Gainsight uses data analytics to predict churn and help businesses take proactive measures to retain customers.\n\n6. **Tableau**: While primarily a data visualization tool, Tableau can be integrated with other systems to analyze customer data and forecast revenue trends.\n\n7. **Looker**: Part of Google Cloud, Looker provides data analytics and business intelligence capabilities to help identify at-risk customers and forecast revenue.\n\nThese tools can be tailored to suit the specific needs of a business, allowing for more accurate predictions and better customer retention strategies.",
+  "cached_at": "2026-05-28T06:57:40Z",
+  "metadata": {}
+}

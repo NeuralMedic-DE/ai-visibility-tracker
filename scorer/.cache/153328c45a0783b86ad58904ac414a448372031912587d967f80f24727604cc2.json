@@ -1,0 +1,9 @@
+{
+  "brand": "Ashby",
+  "prompt_id": "IN-04",
+  "llm": "openai",
+  "prompt_text": "Best ATS that works with Slack and LinkedIn",
+  "response": "When looking for an Applicant Tracking System (ATS) that integrates well with both Slack and LinkedIn, several options stand out due to their robust features and seamless integrations:\n\n1. **Greenhouse**: Greenhouse is a popular ATS that offers strong integrations with both Slack and LinkedIn. It allows you to post jobs directly to LinkedIn and receive notifications and updates in Slack, which helps streamline communication and collaboration.\n\n2. **Lever**: Lever is known for its user-friendly interface and excellent integration capabilities. It integrates with LinkedIn for easy job postings and candidate sourcing, and it also offers Slack integration to keep your team updated on recruitment activities.\n\n3. **Breezy HR**: Breezy HR provides a straightforward integration with LinkedIn for sourcing candidates and posting jobs. It also integrates with Slack to facilitate team communication and keep everyone informed about the hiring process.\n\n4. **Workable**: Workable offers comprehensive integration with LinkedIn, including job postings and candidate sourcing. Its Slack integration allows for real-time updates and collaboration among team members.\n\n5. **JazzHR**: JazzHR integrates with LinkedIn to help with job postings and candidate management. It also offers Slack integration to keep your team in the loop with notifications and updates.\n\nThese ATS platforms are designed to enhance your recruitment process by leveraging the strengths of both Slack and LinkedIn, making it easier to manage candidates and collaborate with your team.",
+  "cached_at": "2026-05-28T06:39:33Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Drip",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Drip with Shopify?",
+  "response": "# Connecting Drip with Shopify\n\nHere's how to set up the integration:\n\n## Through Drip\n\n1. **Log in to Drip** and go to **Settings** → **Integrations**\n2. Find **Shopify** in the available integrations\n3. Click **Connect** (or **Activate**)\n4. You'll be redirected to Shopify to authorize the connection\n5. **Approve** the permissions Drip is requesting\n6. Confirm the connection is complete back in Drip\n\n## What Gets Synced\n\n- **Customers** - synced automatically\n- **Orders** - customer purchase history\n- **Products** - product information\n- **Tags** - customer tags from Shopify\n\n## Key Features\n\n- Automatically add customers to Drip\n- Trigger emails based on purchase behavior\n- Segment customers by product purchases\n- Track order information in customer profiles\n\n## Troubleshooting Tips\n\n- Make sure you have **admin access** to your Shopify store\n- Check that you're using the **correct Shopify account**\n- Verify **all permissions** are approved during authorization\n- Allow a few minutes for initial sync to complete\n\n## Next Steps\n\nOnce connected:\n- Set up **automated workflows** for post-purchase emails\n- Create **segments** based on purchase history\n- Build **abandoned cart campaigns**\n\nNeed help with a specific part of the setup?",
+  "cached_at": "2026-05-28T07:33:15Z",
+  "metadata": {}
+}

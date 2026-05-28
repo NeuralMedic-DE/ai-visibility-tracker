@@ -1,0 +1,9 @@
+{
+  "brand": "Baremetrics",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Baremetrics integrate with Stripe?",
+  "response": "Yes. **Baremetrics has a native, seamless integration with Stripe** that lets it pull in your Stripe billing and subscription data automatically.[2][6][7]\n\nKey points:\n\n- Baremetrics is a **Premier Apps Partner** in the Stripe Partner Ecosystem and is designed specifically to provide deeper analytics on **Stripe data** (MRR, LTV, churn, etc.).[6][7]  \n- Integration is done directly inside Baremetrics: after creating an account, you **select Stripe as the data source and connect in a few clicks**, using your Stripe access/API key; data sync starts immediately.[2][3][6]  \n- You can also install the **Baremetrics app from the Stripe App Marketplace** to see Baremetrics metrics directly inside your Stripe Dashboard.[5]  \n- For additional workflows, Stripe and Baremetrics can also be connected via **Zapier**, but this is optional since a direct integration already exists.[1]",
+  "cached_at": "2026-05-28T06:59:11Z",
+  "metadata": {}
+}

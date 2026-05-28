@@ -1,0 +1,9 @@
+{
+  "brand": "FullStory",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does FullStory integrate with Segment?",
+  "response": "Yes. FullStory **does integrate with Segment** for both web and mobile use cases.[2][3][5]\n\n- For **web**, Segment has a FullStory destination that can send **Identify**, **Track**, and **Page/Viewed Page** data to FullStory.[3][5]\n- For **mobile**, FullStory provides Segment middleware for iOS and Android that can send Segment events and user traits to FullStory, and can also attach FullStory session replay links to Segment events.[2][4]\n- FullStory’s help center explicitly says the integration allows you to “capture sessions and send custom events and user traits from Twilio Segment to Fullstory.”[5]\n\nIf you want, I can also explain the difference between the **web destination** and the **mobile middleware** setup.",
+  "cached_at": "2026-05-27T20:51:54Z",
+  "metadata": {}
+}

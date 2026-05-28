@@ -1,0 +1,9 @@
+{
+  "brand": "Hightouch",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Hightouch integrate with Salesforce?",
+  "response": "Yes. Hightouch **does integrate with Salesforce**, and its docs say Salesforce is a supported destination for syncing data from Hightouch to Salesforce.[3][7] Hightouch also provides a Salesforce Marketing Cloud integration for syncing data into SFMC.[8]\n\nA couple of important details:\n\n- Hightouch’s Salesforce sync is described as **warehouse-to-Salesforce** data activation / reverse ETL.[1][3]\n- Hightouch’s docs note you can use **lookup relationships** to relate Salesforce records through foreign keys.[7]\n- Salesforce itself says Hightouch works with **other Salesforce products**, including Salesforce Marketing Cloud and Sales & Service Cloud data use cases.[4]\n\nIf you want, I can also explain whether the integration is **one-way or bidirectional**, or how it compares with native Salesforce integrations.",
+  "cached_at": "2026-05-28T09:07:08Z",
+  "metadata": {}
+}

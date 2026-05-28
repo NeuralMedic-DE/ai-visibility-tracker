@@ -1,0 +1,9 @@
+{
+  "brand": "Brevo",
+  "prompt_id": "CD-02",
+  "llm": "openai",
+  "prompt_text": "Top all-in-one marketing platform for email SMS and CRM campaigns tools in 2025",
+  "response": "As of 2025, some of the top all-in-one marketing platforms that offer tools for email, SMS, and CRM campaigns include:\n\n1. **HubSpot**: Known for its comprehensive CRM capabilities, HubSpot also offers robust email marketing and SMS integration features. Its all-in-one platform is ideal for businesses looking to streamline their marketing efforts.\n\n2. **Klaviyo**: Particularly popular with e-commerce businesses, Klaviyo provides powerful email and SMS marketing tools along with CRM functionalities, allowing for highly personalized customer engagement.\n\n3. **ActiveCampaign**: This platform combines email marketing, SMS, and CRM tools with advanced automation features, making it a strong choice for businesses looking to enhance their customer experience through personalized communication.\n\n4. **Sendinblue**: Offering a suite of tools for email, SMS marketing, and CRM, Sendinblue is known for its user-friendly interface and affordability, making it suitable for small to medium-sized businesses.\n\n5. **Zoho CRM Plus**: Part of the Zoho suite, this platform integrates CRM with email and SMS marketing, providing a seamless experience for managing customer relationships and campaigns.\n\n6. **Salesforce Marketing Cloud**: While traditionally known for its CRM, Salesforce offers robust marketing tools, including email and SMS capabilities, suitable for larger enterprises looking for a comprehensive solution.\n\nThese platforms are favored for their ability to integrate various marketing channels and provide analytics to optimize campaigns effectively. When choosing a platform, consider factors such as your business size, specific needs, and budget.",
+  "cached_at": "2026-05-28T07:25:39Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Pipedrive",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which CRM software should a VP Sales at a 50-person company use?",
+  "response": "# CRM for a 50-Person Company VP Sales\n\nThe best choice depends on your specifics, but here's a practical framework:\n\n## Top contenders at this size:\n\n**HubSpot Sales Hub**\n- Sweet spot for this company size\n- User-friendly, good support\n- Scales well as you grow\n- Free tier exists, paid tiers reasonable\n\n**Salesforce**\n- Industry standard, most flexible\n- Steeper learning curve and cost\n- Overkill unless you have complex needs\n- Better if you already use other Salesforce products\n\n**Pipedrive**\n- Sales-focused (not just a platform)\n- Simpler, faster implementation\n- Good for straightforward sales processes\n- Less robust reporting than competitors\n\n**Microsoft Dynamics 365**\n- Strong if you're already in Microsoft ecosystem\n- Good integration with Office 365\n\n## Key questions to ask first:\n\n1. **What's your sales process complexity?** (Simple pipeline vs. multi-stage, long cycles)\n2. **Integration needs?** (Accounting software, marketing tools, etc.)\n3. **Team technical comfort?** (Do they resist new tools?)\n4. **Budget?** ($50-200/month vs. $500+/month matters at 50 people)\n5. **Existing software stack?** (Avoid isolated point solutions)\n\n**My suggestion**: Start with **HubSpot** unless you have specific reasons otherwise. Good balance of power, ease, and cost for your size.\n\nWhat's your sales process like?",
+  "cached_at": "2026-05-27T17:47:33Z",
+  "metadata": {}
+}

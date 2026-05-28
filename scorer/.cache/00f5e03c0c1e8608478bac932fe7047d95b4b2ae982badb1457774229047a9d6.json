@@ -1,0 +1,9 @@
+{
+  "brand": "Klipfolio",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which business intelligence software should a marketing ops lead or COO use?",
+  "response": "# Business Intelligence Software for Marketing Ops/COO\n\nThe best choice depends on your priorities, but here's a framework:\n\n## **For Marketing-Specific Needs**\n- **Tableau** or **Looker** – Best visualizations, deep analytics, strong marketing dashboards\n- **Power BI** – If you're already in the Microsoft ecosystem (Excel, Azure)\n- **Amplitude** or **Mixpanel** – If focused on user behavior and product analytics\n\n## **For Broader Operations**\n- **Tableau/Power BI** – Handle both marketing and company-wide metrics\n- **Metabase** – Simpler, lower cost, good for mixed teams with varying technical skills\n- **Sisense** – Strong for combining multiple data sources\n\n## **Key Questions to Ask First**\n1. **Data sources?** (Salesforce, HubSpot, Google Analytics, ad platforms, etc.)\n2. **Team skill level?** (Do you need drag-and-drop or SQL-capable?)\n3. **Self-service vs. analyst-dependent?** (How much support will you need?)\n4. **Budget?** (Ranges from $50/month to $5K+/month)\n5. **Speed to insights?** (Do you need dashboards in weeks or months?)\n\n## **My Practical Recommendation**\nStart with **Tableau** (best-in-class) or **Power BI** (best value if Microsoft-aligned). Both handle marketing ops complexity well and scale with your company.\n\nWhat data sources are you working with?",
+  "cached_at": "2026-05-27T20:26:45Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Neon",
+  "prompt_id": "IN-03",
+  "llm": "openai",
+  "prompt_text": "How do I connect Neon with Vercel?",
+  "response": "To connect Neon with Vercel, you need to set up a Neon database and configure your Vercel project to use it. Here’s a step-by-step guide:\n\n1. **Set Up Neon Database:**\n   - Sign up or log in to your Neon account.\n   - Create a new database project in Neon.\n   - Once the database is created, you will get connection details such as the host, database name, username, and password.\n\n2. **Configure Vercel Project:**\n   - Go to your Vercel dashboard and select the project you want to connect to Neon.\n   - Navigate to the \"Settings\" tab of your project.\n   - Under \"Environment Variables,\" add the connection details for your Neon database. Typically, you would add variables like `DATABASE_URL` or separate variables for `DB_HOST`, `DB_USER`, `DB_PASSWORD`, and `DB_NAME`.\n\n3. **Set Up Your Application:**\n   - In your application code, use the environment variables to connect to the Neon database.\n   - If you are using a Node.js application, you might use a library like `pg` (node-postgres) to connect to the database. Ensure your connection string or configuration uses the environment variables you set in Vercel.\n\n4. **Deploy Your Application:**\n   - Once the environment variables are set and your application is configured to use them, deploy your application on Vercel.\n   - Vercel will use the environment variables to connect to your Neon database during the build and runtime.\n\n5. **Test the Connection:**\n   - After deployment, test your application to ensure it can successfully connect to and interact with the Neon database.\n\nBy following these steps, you should be able to connect your Neon database with your Vercel-hosted application. Make sure to handle your database credentials securely and avoid exposing them in your codebase.",
+  "cached_at": "2026-05-28T06:18:01Z",
+  "metadata": {}
+}

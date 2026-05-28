@@ -1,0 +1,9 @@
+{
+  "brand": "Close",
+  "prompt_id": "CD-02",
+  "llm": "anthropic",
+  "prompt_text": "Top sales CRM for inside sales teams tools in 2025",
+  "response": "# Top Sales CRM Tools for Inside Sales Teams (2025)\n\n## **Best Overall**\n**Salesforce Sales Cloud**\n- Most comprehensive feature set\n- Excellent customization and automation\n- Strong AI capabilities (Einstein)\n- Higher cost but enterprise-grade\n\n## **Best for Mid-Market**\n**HubSpot Sales Hub**\n- User-friendly interface\n- Strong free/affordable plans\n- Built-in calling and email tools\n- Great for teams scaling up\n\n## **Best for Ease of Use**\n**Pipedrive**\n- Visual sales pipeline management\n- Intuitive mobile app\n- Competitive pricing\n- Excellent for smaller teams\n\n## **Best for AI-Powered Inside Sales**\n**Microsoft Dynamics 365**\n- Copilot AI integration\n- Seamless Office 365 integration\n- Strong analytics\n- Better for Microsoft-heavy organizations\n\n## **Best for High-Volume Dialing**\n**Five9 (cloud contact center)**\n- Integrated dialing and calling\n- Call recording and compliance\n- Real-time dashboards\n- Purpose-built for call centers\n\n## **Best Budget-Friendly**\n**Zoho CRM**\n- Very affordable pricing\n- Good automation features\n- Decent mobile app\n- Works well for startups\n\n## **Key Features to Prioritize for Inside Sales**\n✓ Integrated phone/dialing  \n✓ Call recording & transcription  \n✓ Activity tracking  \n✓ Real-time dashboards  \n✓ Mobile accessibility  \n✓ Integration ecosystem  \n✓ Reporting analytics  \n\n**Pro tip:** Most offer free trials—test 2-3 with your team before committing.\n\nWhat's your team size and budget range?",
+  "cached_at": "2026-05-27T17:49:47Z",
+  "metadata": {}
+}

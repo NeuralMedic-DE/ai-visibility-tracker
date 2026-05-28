@@ -1,0 +1,9 @@
+{
+  "brand": "Metabase",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Metabase vs Tableau: which is better?",
+  "response": "# Metabase vs Tableau\n\nNeither is universally \"better\"—it depends on your needs. Here's a practical comparison:\n\n## **Metabase**\n**Best for:** Small teams, startups, budget-conscious orgs\n\n**Strengths:**\n- Free/open-source option\n- Quick setup (minutes, not weeks)\n- Simpler interface—easier for non-technical users\n- Lower total cost of ownership\n- Self-hosted control\n\n**Weaknesses:**\n- Less advanced analytics features\n- Limited customization\n- Smaller ecosystem/community\n- Scaling can be tricky\n\n---\n\n## **Tableau**\n**Best for:** Large enterprises, complex analytics needs\n\n**Strengths:**\n- Most powerful visualization engine\n- Handles massive datasets well\n- Advanced analytics & AI features\n- Excellent support & ecosystem\n- Industry standard (widely recognized)\n\n**Weaknesses:**\n- Expensive (licensing adds up fast)\n- Steeper learning curve\n- Overkill for simple use cases\n- Vendor lock-in potential\n\n---\n\n## **Quick Decision Guide**\n\n| Factor | Choose... |\n|--------|-----------|\n| Budget < $10K/year | Metabase |\n| Budget > $100K/year | Tableau |\n| Need it fast | Metabase |\n| Complex dashboards needed | Tableau |\n| Self-hosted preference | Metabase |\n| Enterprise support critical | Tableau |\n\n**Reality check:** Many teams use both—Metabase for self-service dashboards, Tableau for sophisticated analytics.\n\nWhat's your main use case?",
+  "cached_at": "2026-05-27T20:07:33Z",
+  "metadata": {}
+}

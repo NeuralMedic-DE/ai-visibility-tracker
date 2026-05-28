@@ -1,0 +1,9 @@
+{
+  "brand": "Plausible",
+  "prompt_id": "IN-03",
+  "llm": "openai",
+  "prompt_text": "How do I connect Plausible with WordPress?",
+  "response": "To connect Plausible Analytics with your WordPress site, you can follow these steps:\n\n1. **Sign Up for Plausible:**\n   - If you haven't already, sign up for a Plausible account at [plausible.io](https://plausible.io) and add your website to get the tracking script.\n\n2. **Get the Tracking Script:**\n   - Once your site is added to Plausible, you will receive a tracking script. It usually looks like a small JavaScript snippet.\n\n3. **Install a Plugin to Add Scripts:**\n   - You can manually add the script to your WordPress theme, but using a plugin is easier and safer, especially if you update your theme regularly. A popular plugin for adding scripts is \"Insert Headers and Footers\" by WPBeginner.\n\n4. **Add the Plausible Script:**\n   - Install and activate the \"Insert Headers and Footers\" plugin from the WordPress plugin repository.\n   - Go to **Settings > Insert Headers and Footers** in your WordPress dashboard.\n   - Paste the Plausible tracking script into the \"Scripts in Header\" section.\n   - Save your changes.\n\n5. **Verify the Connection:**\n   - After adding the script, visit your website to trigger a page view.\n   - Go back to your Plausible dashboard and check if the visit is recorded. It might take a few minutes for the data to appear.\n\nBy following these steps, you should have Plausible Analytics successfully connected to your WordPress site. This will allow you to track your website's traffic and analytics without relying on Google Analytics.",
+  "cached_at": "2026-05-27T20:16:26Z",
+  "metadata": {}
+}

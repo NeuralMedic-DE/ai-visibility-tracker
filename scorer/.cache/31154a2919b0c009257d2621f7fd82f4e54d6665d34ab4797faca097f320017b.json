@@ -1,0 +1,9 @@
+{
+  "brand": "Make",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with design advanced logic and data transformations for enterprise-grade automated workflows at scale?",
+  "response": "# Enterprise Workflow Design Software\n\n## Low-Code/No-Code Platforms\n- **Apache Airflow** - DAG-based orchestration, excellent for complex data pipelines\n- **Prefect** - Modern workflow automation with advanced retries and error handling\n- **Dagster** - Data-aware orchestration with strong asset lineage tracking\n- **n8n** - Visual workflow builder with extensive integrations\n- **Make (formerly Integromat)** - Enterprise automation platform\n\n## Enterprise Integration Platforms\n- **MuleSoft** - Robust API-led connectivity and data transformation\n- **Boomi** - Cloud-native integration with strong data mapping\n- **Talend** - ETL/ELT with visual design and governance features\n- **TIBCO** - Comprehensive integration and orchestration suite\n\n## Advanced Data Transformation\n- **dbt (Data Build Tool)** - SQL-based transformations with version control\n- **Apache NiFi** - Data routing, transformation, and system mediation\n- **Informatica** - Enterprise data integration and quality\n- **Apache Spark** - Distributed processing for large-scale transformations\n\n## Key Capabilities to Look For\n✓ Visual logic builders with code options  \n✓ Version control and deployment pipelines  \n✓ Monitoring, logging, and alerting  \n✓ Scalable execution (cloud-native preferred)  \n✓ Error handling and retry strategies  \n✓ Data lineage and governance  \n\n**Best choice depends on:** your tech stack, team expertise, integration needs, and scale requirements. Many enterprises use combinations (e.g., Airflow + dbt + MuleSoft).\n\nWhat's your specific use case?",
+  "cached_at": "2026-05-28T08:53:53Z",
+  "metadata": {}
+}

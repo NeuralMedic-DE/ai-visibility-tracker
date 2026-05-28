@@ -1,0 +1,9 @@
+{
+  "brand": "Plausible",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Plausible integrate with WordPress?",
+  "response": "Yes, Plausible integrates with WordPress. Plausible Analytics offers a WordPress plugin that allows you to easily add their analytics tracking code to your WordPress site. This integration makes it simple to track your website's analytics without needing to manually edit your site's code. You can find the Plausible Analytics plugin in the WordPress plugin repository and install it directly from your WordPress dashboard.",
+  "cached_at": "2026-05-27T20:16:15Z",
+  "metadata": {}
+}

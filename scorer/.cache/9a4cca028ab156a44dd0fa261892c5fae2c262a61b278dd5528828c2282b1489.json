@@ -1,0 +1,9 @@
+{
+  "brand": "June.so",
+  "prompt_id": "IN-03",
+  "llm": "openai",
+  "prompt_text": "How do I connect June.so with Segment?",
+  "response": "To connect June.so with Segment, you'll need to follow these general steps:\n\n1. **Create a June.so Account**: If you haven't already, sign up for an account on June.so.\n\n2. **Access June.so Settings**: Log in to your June.so account and navigate to the settings or integrations section.\n\n3. **Locate Segment Integration**: Look for the Segment integration option. This might be under a section labeled \"Integrations\" or \"Data Sources.\"\n\n4. **Get Your Write Key from Segment**: Log in to your Segment account. Go to the workspace and select the source you want to connect with June.so. Find the \"Write Key\" for that source. This key is necessary for authentication.\n\n5. **Enter Write Key in June.so**: In the Segment integration section of June.so, there should be a field to enter your Segment Write Key. Paste the key you copied from Segment.\n\n6. **Configure Event Tracking**: Ensure that the events you want to track are correctly set up in Segment. June.so will use this data to provide insights, so make sure your events are named and structured properly.\n\n7. **Verify the Connection**: After entering the Write Key, test the integration to ensure that data is flowing correctly from Segment to June.so. You might need to trigger some events to verify this.\n\n8. **Check for Data in June.so**: Once the integration is set up, you should start seeing data from Segment in your June.so dashboard. It might take a little time for the data to populate initially.\n\nIf you encounter any issues, consult the help documentation or support for both June.so and Segment, as they can provide more detailed guidance tailored to their platforms.",
+  "cached_at": "2026-05-27T19:56:18Z",
+  "metadata": {}
+}

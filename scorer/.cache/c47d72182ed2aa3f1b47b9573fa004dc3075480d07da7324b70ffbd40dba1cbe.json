@@ -1,0 +1,9 @@
+{
+  "brand": "Userlist",
+  "prompt_id": "CD-02",
+  "llm": "perplexity",
+  "prompt_text": "Top email automation platform for SaaS onboarding and user lifecycle tools in 2025",
+  "response": "For **SaaS onboarding and user lifecycle email automation** in 2025, **Customer.io** is the strongest fit among the options surfaced here because it is built for behavior-triggered, cross-channel lifecycle messaging and can send one-time emails, welcome sequences, and drip campaigns based on product events and user properties.[1]\n\nIf you want a broader **all-in-one marketing automation** platform, **ActiveCampaign** is the main alternative highlighted in the results; it combines email marketing, marketing automation, CRM, and support tools in one system.[1][4]  \n\nA practical ranking for this use case is:\n\n- **Best for product-led SaaS lifecycle automation:** **Customer.io**[1]\n- **Best all-in-one option for teams wanting CRM + automation:** **ActiveCampaign**[1][4]\n- **Best if you also need in-app onboarding UX and lifecycle messaging together:** **Chameleon + Customer.io** integration, since Chameleon explicitly notes using Customer.io to coordinate email campaigns with product tours.[1]\n\nWhy **Customer.io** stands out for SaaS onboarding:\n- It supports **event-based triggers** and personalization using user behavior and properties.[1]\n- It is designed for **cross-channel messaging**, including email, SMS, and push notifications.[1]\n- It fits **onboarding, engagement, and adoption** workflows where timing and product usage matter.[1]\n\nIf you want, I can turn this into a **shortlist by company size**:\n- **early-stage SaaS**\n- **PLG / product-led SaaS**\n- **enterprise SaaS**\n- **best budget option**",
+  "cached_at": "2026-05-28T07:30:24Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Comet ML",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which MLOps software should a ML Engineer or Data Scientist at a company with an ML team use?",
+  "response": "# MLOps Software Selection Guide\n\nThe best choice depends on your team's context. Here's a practical framework:\n\n## **If you want: Quick setup & simplicity**\n- **Weights & Biases (W&B)** - Excellent for experiment tracking and model monitoring\n- **MLflow** - Open-source, good for tracking and basic registry\n- **Neptune.ai** - Lightweight experiment tracking\n\n## **If you want: End-to-end ML platform**\n- **Databricks** - Great if you're already in their ecosystem\n- **Kubeflow** - Comprehensive but steeper learning curve\n- **Vertex AI** (Google) / **SageMaker** (AWS) - Cloud-native, enterprise-friendly\n\n## **If you want: Production focus**\n- **Seldon Core** - Model serving and monitoring\n- **BentoML** - Model packaging and deployment\n- **Valohai** - Pipeline management and reproducibility\n\n## **Key decision factors for your team:**\n\n| Factor | Consideration |\n|--------|---|\n| **Cloud provider** | AWS/Azure/GCP integration matters |\n| **Team size** | <5 engineers vs. 50+ changes needs |\n| **Existing stack** | What you already use (Airflow, Spark, etc.) |\n| **Budget** | Open-source vs. managed enterprise |\n| **Main pain point** | Tracking? Deployment? Monitoring? |\n\n## **My practical recommendation:**\nStart with **Weights & Biases** or **MLflow** for experiment tracking, then add specialized tools as you identify specific bottlenecks. Avoid over-engineering early.\n\nWhat's your biggest current pain point?",
+  "cached_at": "2026-05-28T07:53:58Z",
+  "metadata": {}
+}

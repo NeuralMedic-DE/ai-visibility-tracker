@@ -1,0 +1,9 @@
+{
+  "brand": "Hightouch",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Hightouch with Salesforce?",
+  "response": "# Connecting Hightouch with Salesforce\n\nHere's a step-by-step guide to set up this integration:\n\n## 1. **Create a Salesforce Connected App**\n   - Log into Salesforce as an admin\n   - Go to **Setup** → **Apps** → **App Manager**\n   - Click **New Connected App**\n   - Fill in required fields:\n     - App Name: \"Hightouch\"\n     - API Name: auto-populates\n     - Contact Email: your email\n   - Enable **OAuth Settings**\n   - Set Callback URL: `https://api.hightouch.io/oauth/callback`\n   - Select OAuth scopes (minimum: `api`, `refresh_token`, `offline_access`)\n   - Save and note your **Consumer Key** and **Consumer Secret**\n\n## 2. **Configure Hightouch**\n   - Go to your Hightouch workspace\n   - Click **Destinations** → **Create Destination**\n   - Select **Salesforce**\n   - Choose your Salesforce environment (Production or Sandbox)\n   - Click **Authenticate**\n   - You'll be redirected to Salesforce to authorize\n   - Approve the connection\n\n## 3. **Set Up Your Sync**\n   - Create a new sync or select an existing one\n   - Choose Salesforce as your destination\n   - Map your source data to Salesforce objects (Contacts, Accounts, Leads, etc.)\n   - Define your sync schedule and upsert keys\n   - Test and activate\n\n## Troubleshooting Tips\n- Ensure your Salesforce user has API access enabled\n- Verify field permissions for mapped fields\n- Check that OAuth scopes include necessary permissions\n\n**Need more help?** Check Hightouch's [official documentation](https://hightouch.com/docs) or contact their support team.",
+  "cached_at": "2026-05-28T09:05:48Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Instantly",
+  "prompt_id": "IN-03",
+  "llm": "openai",
+  "prompt_text": "How do I connect Instantly with HubSpot?",
+  "response": "To connect Instantly with HubSpot, you typically need to follow these general steps:\n\n1. **Check for Integration Availability**: Ensure that Instantly offers an integration with HubSpot. This can usually be found on Instantly's website or within their app under integrations.\n\n2. **Access HubSpot API Key**: \n   - Log in to your HubSpot account.\n   - Navigate to your account settings.\n   - Find the API key section (usually under \"Integrations\" or \"API\").\n   - Generate a new API key if you don't have one already.\n\n3. **Connect via Instantly**:\n   - Log in to your Instantly account.\n   - Go to the integrations section.\n   - Look for HubSpot and select it.\n   - You may be prompted to enter your HubSpot API key or authenticate via OAuth.\n\n4. **Configure the Integration**:\n   - Follow any additional prompts to configure how Instantly should interact with HubSpot.\n   - This might involve setting up data sync preferences, selecting specific contacts or lists, or defining triggers for data transfer.\n\n5. **Test the Connection**:\n   - Once connected, test the integration to ensure data is syncing correctly between Instantly and HubSpot.\n   - Check if contacts, leads, or other data appear as expected in both platforms.\n\n6. **Monitor and Adjust**:\n   - Regularly check the integration to ensure it continues to work as expected.\n   - Make adjustments as necessary based on your business needs or any updates from either platform.\n\nFor specific instructions, it's best to consult the help documentation or support teams of both Instantly and HubSpot, as integration steps can vary slightly depending on updates or specific use cases.",
+  "cached_at": "2026-05-28T07:19:23Z",
+  "metadata": {}
+}

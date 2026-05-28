@@ -1,0 +1,9 @@
+{
+  "brand": "Drata",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which compliance software should a Security Lead or Compliance Manager at a high-growth tech company use?",
+  "response": "# Key Compliance Software for Tech Companies\n\nThe best choice depends on your specific needs, but here's what typically works:\n\n## Top contenders for tech companies:\n\n**For broad compliance (SOC 2, ISO 27001, GDPR, etc.):**\n- **Vanta** – Popular with startups/scale-ups; automated evidence collection, quick audits\n- **Drata** – Strong automation; good for multiple frameworks simultaneously\n- **Thoropass** – Flexible, good for companies managing several compliance tracks\n\n**For security-focused compliance:**\n- **Launchpad** – Risk management + compliance; strong technical teams\n- **Workiva** – More enterprise, but handles complex requirements well\n\n**For specific needs:**\n- **OneTrust** – Privacy/GDPR-heavy focus\n- **AuditBoard** – Audit trail and documentation if that's your bottleneck\n\n## Quick decision framework:\n\n| Your situation | Consider |\n|---|---|\n| Need SOC 2 quickly | Vanta, Drata |\n| Multiple frameworks at once | Drata, Thoropass |\n| Security + compliance | Launchpad |\n| Privacy-heavy | OneTrust |\n| Prefer spreadsheets less | Any of these |\n\n## Reality check:\n- Most solve 70% of your problem—the last 30% requires process work\n- Trial the top 2-3 with your actual audit requirements\n- Budget: $5k-$50k/year depending on scope and company size\n\nWhat frameworks are you targeting first?",
+  "cached_at": "2026-05-28T08:28:34Z",
+  "metadata": {}
+}

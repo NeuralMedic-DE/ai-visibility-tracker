@@ -1,0 +1,9 @@
+{
+  "brand": "Vellum",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Vellum integrate with OpenAI?",
+  "response": "Yes. Vellum **integrates with OpenAI** and supports OpenAI models via API and in the Vellum UI, including multimodal inputs for supported OpenAI models.[1] Vellum also supports using your own API keys, so OpenAI usage is typically handled through your OpenAI account rather than being bundled into Vellum itself.[2]\n\nIf you want, I can also tell you **which OpenAI features Vellum supports** and how the integration works in practice.",
+  "cached_at": "2026-05-28T07:46:36Z",
+  "metadata": {}
+}

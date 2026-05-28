@@ -1,0 +1,9 @@
+{
+  "brand": "Vercel",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Vercel integrate with GitHub?",
+  "response": "Yes, Vercel integrates seamlessly with GitHub. This integration allows you to automatically deploy your projects whenever you push changes to your GitHub repository. Vercel provides features like preview deployments for pull requests, which makes it easy to collaborate and review changes before they go live. You can connect your GitHub account to Vercel, select the repositories you want to deploy, and Vercel will handle the rest, ensuring that your application is always up-to-date with the latest code.",
+  "cached_at": "2026-05-27T21:25:51Z",
+  "metadata": {}
+}

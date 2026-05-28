@@ -1,0 +1,9 @@
+{
+  "brand": "Instantly",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to Mailshake",
+  "response": "# Cheaper Alternatives to Mailshake\n\n## **Free/Freemium Options**\n- **Lemlist** - Free tier with limited sends; strong personalization features\n- **Hunter.io** - Free email finding + basic outreach tools\n- **Brevo (Sendinblue)** - Free up to 300 emails/day\n- **Mailmodo** - Free tier for form-based campaigns\n- **Brevo** - Affordable CRM with email automation\n\n## **Budget-Friendly Paid Tools**\n- **MailerLite** - $0-99/month; great for automation and affordability\n- **ActiveCampaign** - Starts around $9/month; solid automation\n- **GetResponse** - Competitive pricing with good features\n- **ConvertKit** - Creator-focused, reasonable pricing\n- **Klaviyo** - Free starter plan; scales affordably\n\n## **Direct Outreach Specific**\n- **Apollo.io** - Similar to Mailshake, slightly cheaper ($49+/month)\n- **Instantly** - Cold email focus, competitive pricing ($25+/month)\n- **Dripify** - LinkedIn-focused, lower cost option\n- **SmartLead** - Affordable cold outreach alternative\n\n## **DIY Options**\n- **Gmail + automation scripts** (Zapier, Make)\n- **HubSpot free CRM** + email tools\n- **Mailchimp** - Very basic but free\n\n**Best choice depends on:** your use case (cold outreach vs. newsletters), volume, and required features. What's your primary need?",
+  "cached_at": "2026-05-28T07:19:11Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Braintrust",
+  "prompt_id": "CM-05",
+  "llm": "openai",
+  "prompt_text": "Is Braintrust better than PromptFoo for run A/B tests across different models and prompt versions to find optimal configurations?",
+  "response": "Both Braintrust and PromptFoo offer tools for testing and optimizing AI models and prompts, but they have different focuses and strengths.\n\n**Braintrust** is primarily a decentralized talent network that connects freelancers with companies. It doesn't specialize in A/B testing for AI models or prompt optimization. If you're looking for a platform to help with testing AI models and prompts, Braintrust might not be the right fit.\n\n**PromptFoo**, on the other hand, is specifically designed for testing and optimizing prompts across different AI models. It provides tools to run A/B tests, compare different prompt versions, and find the most effective configurations for your needs. This makes PromptFoo a more suitable choice if your goal is to conduct A/B testing and optimize prompts for AI models.\n\nIn summary, for A/B testing and prompt optimization, PromptFoo would be the better choice compared to Braintrust.",
+  "cached_at": "2026-05-28T07:47:17Z",
+  "metadata": {}
+}

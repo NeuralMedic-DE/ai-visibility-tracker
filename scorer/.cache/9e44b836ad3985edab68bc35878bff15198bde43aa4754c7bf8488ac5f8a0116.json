@@ -1,0 +1,9 @@
+{
+  "brand": "ChartMogul",
+  "prompt_id": "IN-03",
+  "llm": "openai",
+  "prompt_text": "How do I connect ChartMogul with Stripe?",
+  "response": "To connect ChartMogul with Stripe, follow these steps:\n\n1. **Log in to ChartMogul:**\n   - Go to the ChartMogul website and log in to your account.\n\n2. **Navigate to Data Sources:**\n   - Once logged in, click on the \"Data Sources\" option in the main menu.\n\n3. **Add a New Data Source:**\n   - Click on \"Add Data Source\" and select \"Stripe\" from the list of available integrations.\n\n4. **Authorize ChartMogul to Access Stripe:**\n   - You will be redirected to Stripe's website to authorize the connection. Log in to your Stripe account if prompted.\n   - Review the permissions and click \"Authorize access to this account\" to allow ChartMogul to access your Stripe data.\n\n5. **Configure the Integration:**\n   - After authorization, you will be redirected back to ChartMogul. Here, you can configure settings such as which data to import and how often to sync.\n\n6. **Start Importing Data:**\n   - Once configured, ChartMogul will begin importing your Stripe data. This may take some time depending on the volume of data.\n\n7. **Verify the Integration:**\n   - After the import is complete, check your ChartMogul dashboard to ensure that your Stripe data is being displayed correctly.\n\nBy following these steps, you should successfully connect ChartMogul with Stripe and start analyzing your subscription metrics. If you encounter any issues, consult the support documentation for both ChartMogul and Stripe or contact their support teams for assistance.",
+  "cached_at": "2026-05-28T06:55:14Z",
+  "metadata": {}
+}

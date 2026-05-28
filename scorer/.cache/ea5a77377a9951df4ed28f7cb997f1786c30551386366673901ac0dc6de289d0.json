@@ -1,0 +1,9 @@
+{
+  "brand": "Drip",
+  "prompt_id": "CM-02",
+  "llm": "anthropic",
+  "prompt_text": "Drip vs Mailchimp pricing and features",
+  "response": "# Drip vs Mailchimp: Pricing & Features Comparison\n\n## **Pricing**\n\n| Feature | Drip | Mailchimp |\n|---------|------|----------|\n| **Free Plan** | No | Yes (up to 500 contacts) |\n| **Starting Price** | ~$19/month (500 contacts) | Free or $13/month (paid plans) |\n| **Scaling Cost** | Moderate increase | Gradual, contact-based |\n| **Payment Model** | Contact-based | Contact + feature-based |\n\n---\n\n## **Key Features**\n\n### **Drip**\n✅ **Strengths:**\n- Advanced automation & workflows\n- Strong e-commerce integration\n- Detailed behavioral tracking\n- Tag-based segmentation\n- High-touch customer support\n- Email/SMS automation\n\n❌ **Limitations:**\n- No free plan\n- Higher entry cost\n- Steeper learning curve\n- Smaller feature set than Mailchimp\n\n---\n\n### **Mailchimp**\n✅ **Strengths:**\n- Generous free tier\n- Intuitive, beginner-friendly\n- SMS marketing included (paid)\n- Landing pages & forms\n- Ads integration (Facebook, Google)\n- Large app marketplace\n- AI-powered content suggestions\n\n❌ **Limitations:**\n- Free plan quite limited\n- Can be pricier at scale\n- Automation less sophisticated than Drip\n- Weaker e-commerce focus\n\n---\n\n## **Best For**\n\n| Choose **Drip** if... | Choose **Mailchimp** if... |\n|---|---|\n| You need advanced automation | You're starting out (budget-conscious) |\n| E-commerce focus | Need multi-channel marketing |\n| Want premium support | Prefer user-friendly interface |\n| Value detailed tracking | Want social media ads integration |\n\n---\n\n## **Verdict**\n- **Beginners:** Mailchimp (free option)\n- **E-commerce/automation:** Drip\n- **All-around flexibility:** Mailchimp\n\nWould you like a deeper dive into any specific features?",
+  "cached_at": "2026-05-28T07:32:48Z",
+  "metadata": {}
+}

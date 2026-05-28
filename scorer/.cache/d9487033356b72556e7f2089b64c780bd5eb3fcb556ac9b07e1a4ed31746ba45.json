@@ -1,0 +1,9 @@
+{
+  "brand": "Drip",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is Drip better than Mailchimp for build revenue-generating workflows for cart abandonment and win-back campaigns?",
+  "response": "# Drip vs Mailchimp: Cart Abandonment & Win-Back Campaigns\n\nBoth can work, but they have different strengths:\n\n## Drip's Advantages\n- **Automation sophistication**: Better conditional logic and multi-step workflows\n- **E-commerce focused**: Built-in features specifically for cart abandonment\n- **Visual workflow builder**: Easier to design complex sequences\n- **Segmentation**: More granular audience targeting\n- **Higher engagement**: Generally better deliverability for abandoned cart emails\n\n## Mailchimp's Advantages\n- **Cost**: Cheaper, especially at small scale\n- **Simplicity**: Easier learning curve for basic campaigns\n- **Free tier**: Viable option if just starting out\n- **Integration breadth**: Works with more platforms\n\n## The Real Consideration\n\nFor **revenue-generating workflows specifically**, Drip typically edges ahead because:\n- Cart abandonment needs timing precision (Drip handles this better)\n- Win-back campaigns require sophisticated segmentation (Drip's strength)\n- You need to track revenue back to campaigns (Drip's reporting is cleaner here)\n\n**However**: Mailchimp has improved significantly and works fine if your workflows aren't extremely complex.\n\n## Better Questions to Ask Yourself\n- What's your current platform (Shopify, WooCommerce, custom)?\n- How many contacts do you have?\n- What's your budget?\n- How complex are your workflows?\n\nWhat's your situation? That'll help narrow it down further.",
+  "cached_at": "2026-05-28T07:32:50Z",
+  "metadata": {}
+}

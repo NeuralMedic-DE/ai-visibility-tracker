@@ -1,0 +1,9 @@
+{
+  "brand": "Lattice",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Lattice vs Leapsome: which is better?",
+  "response": "# Lattice vs Leapsome\n\nBoth are solid performance management platforms, but they excel in different areas:\n\n## **Lattice** — Better for:\n- **Comprehensive HR suite** (performance, engagement, development, succession planning)\n- **Larger enterprises** needing integrated workflows\n- **Complex organizational structures**\n- More polished UI/UX\n- Stronger analytics and reporting\n\n## **Leapsome** — Better for:\n- **Mid-market companies** (fewer resources, simpler needs)\n- **Engagement-first approach** (pulse surveys, continuous feedback)\n- **Ease of implementation** and faster time-to-value\n- **Better value for money** at smaller scales\n- More modern, intuitive interface\n\n## **Key differences:**\n| Factor | Lattice | Leapsome |\n|--------|---------|----------|\n| **Best for** | Enterprise | Mid-market |\n| **Price** | Higher | Lower |\n| **Setup** | Complex | Straightforward |\n| **Feedback** | Structured | Frequent/continuous |\n\n## **Quick decision:**\n- **Choose Lattice** if you need an all-in-one HR platform with sophisticated features\n- **Choose Leapsome** if you want simplicity, engagement focus, and better ROI for smaller teams\n\n**Best approach:** Try both free trials with your actual workflows—fit matters more than general reputation.\n\nWhat's your company size and main priority?",
+  "cached_at": "2026-05-28T06:29:52Z",
+  "metadata": {}
+}

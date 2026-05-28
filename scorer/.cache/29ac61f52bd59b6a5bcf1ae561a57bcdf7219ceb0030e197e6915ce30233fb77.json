@@ -1,0 +1,9 @@
+{
+  "brand": "Maxio",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Maxio vs Chargebee: which is better?",
+  "response": "# Maxio vs Chargebee\n\nBoth are strong billing platforms, but they serve different priorities:\n\n## **Chargebee** (Generally more flexible)\n- **Best for:** SaaS companies wanting flexibility and broad integrations\n- **Strengths:** Excellent API, strong developer experience, handles complex billing scenarios\n- **Pricing:** Typically starts lower, scales with volume\n- **Integrations:** More third-party app ecosystem\n- **Ideal if:** You need customization or non-standard billing models\n\n## **Maxio** (More opinionated)\n- **Best for:** Growing SaaS with standard subscription models\n- **Strengths:** Better analytics/dashboards, stronger financial reporting, easier setup\n- **Pricing:** Often more transparent, slightly higher base cost\n- **Ideal if:** You want out-of-box insights and financial visibility\n\n## **Key differences**\n\n| Factor | Chargebee | Maxio |\n|--------|-----------|-------|\n| **Ease of use** | Steeper learning curve | More intuitive |\n| **Flexibility** | Higher | More standardized |\n| **Analytics** | Basic | More advanced |\n| **Support** | Good | Excellent |\n\n## **Quick decision guide**\n- Choose **Chargebee** if you need maximum flexibility or have complex billing needs\n- Choose **Maxio** if analytics and financial reporting matter most\n\n**Best approach:** Try both free trials with your actual use case. The \"better\" one depends on your specific billing complexity and what you'll actually use.",
+  "cached_at": "2026-05-28T06:52:37Z",
+  "metadata": {}
+}

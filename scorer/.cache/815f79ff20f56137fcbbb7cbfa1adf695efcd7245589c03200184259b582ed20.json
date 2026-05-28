@@ -1,0 +1,9 @@
+{
+  "brand": "Close",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Close integrate with Slack?",
+  "response": "Yes, Close does integrate with Slack. This integration allows you to receive notifications in Slack for various activities and updates from Close, such as new leads, tasks, or communications. You can set up this integration to streamline your workflow and ensure that your team stays informed about important developments in real time. To set it up, you typically need to connect Close to your Slack workspace and configure the specific notifications you want to receive.",
+  "cached_at": "2026-05-27T17:31:47Z",
+  "metadata": {}
+}

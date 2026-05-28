@@ -1,0 +1,36 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "buildCommand": "pnpm run build",
+  "installCommand": "pnpm install",
+  "outputDirectory": ".next",
+  "regions": ["fra1"],
+  "env": {
+    "NEXT_PUBLIC_APP_URL": "https://neuralreach.de"
+  },
+  "headers": [
+    {
+      "source": "/api/:path*",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-store, max-age=0" }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/api/stripe/webhook",
+      "destination": "/api/stripe/webhook"
+    }
+  ],
+  "functions": {
+    "app/api/stripe/webhook/route.ts": {
+      "maxDuration": 10
+    },
+    "app/api/checkout/route.ts": {
+      "maxDuration": 10
+    },
+    "app/api/waitlist/route.ts": {
+      "maxDuration": 10
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Comet ML",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with manage model versioning and track the full ML model development lifecycle at scale?",
+  "response": "# ML Model Versioning & Lifecycle Management Tools\n\n## **Top Platforms**\n\n### **MLflow** (Most Popular)\n- Open-source, language-agnostic\n- Tracks experiments, packages models, deploys them\n- Model Registry for versioning and staging\n- Great for small-to-medium teams\n\n### **Weights & Biases (W&B)**\n- Experiment tracking and collaboration\n- Model versioning and artifact storage\n- Dashboard visualizations\n- Strong integration ecosystem\n\n### **DVC (Data Version Control)**\n- Git-like version control for ML models & datasets\n- Lightweight, open-source\n- Works well with Git workflows\n- Good for data pipeline tracking\n\n## **Enterprise-Grade Solutions**\n\n| Tool | Best For |\n|------|----------|\n| **Databricks MLflow Registry** | Large-scale teams, integrated with Delta Lake |\n| **Kubeflow** | Kubernetes-native ML workflows |\n| **Neptune.ai** | Team collaboration and experiment comparison |\n| **Pachyderm** | Data lineage and reproducible pipelines |\n\n## **Key Features to Look For**\n\n✓ Experiment tracking & comparison  \n✓ Model versioning & artifact storage  \n✓ Reproducibility & lineage tracking  \n✓ Model staging (dev → prod)  \n✓ Deployment integration  \n✓ Collaboration tools  \n\n## **My Recommendation**\n\n**Start with MLflow** if you need open-source flexibility, or **W&B** if your team needs better visualization and collaboration features. Both scale well from prototype to production.\n\nWhat's your primary use case—research, production, or enterprise deployment?",
+  "cached_at": "2026-05-28T07:54:29Z",
+  "metadata": {}
+}

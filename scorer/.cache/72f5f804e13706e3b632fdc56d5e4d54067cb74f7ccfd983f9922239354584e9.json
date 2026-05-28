@@ -1,0 +1,9 @@
+{
+  "brand": "Vanta",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Vanta integrate with GitHub?",
+  "response": "Yes, Vanta integrates with GitHub. This integration allows Vanta to automatically monitor your GitHub repositories for security and compliance purposes. It helps ensure that your codebase adheres to best practices and compliance requirements by checking for issues such as access control, branch protection, and other security settings.",
+  "cached_at": "2026-05-28T08:26:43Z",
+  "metadata": {}
+}

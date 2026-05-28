@@ -1,0 +1,9 @@
+{
+  "brand": "Vitally",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Vitally vs ChurnZero: which is better?",
+  "response": "# Vitally vs ChurnZero\n\nBoth are strong customer success platforms. Here's how they compare:\n\n## **ChurnZero's strengths**\n- More established (longer track record)\n- Simpler, more intuitive interface\n- Better for teams prioritizing ease of use\n- Solid playbook/workflow automation\n\n## **Vitally's strengths**\n- More sophisticated analytics and data visualization\n- Better multi-threaded stakeholder tracking\n- Stronger collaboration features\n- More flexible custom workflows\n\n## **Key differences**\n\n| Factor | Vitally | ChurnZero |\n|--------|---------|-----------|\n| **Learning curve** | Steeper | Gentler |\n| **Customization** | Highly flexible | More standardized |\n| **Pricing** | Usage-based | Per-user typically |\n| **Best for** | Complex GTM/enterprise | Mid-market/simplicity |\n\n## **Choose Vitally if:**\n- You need deep customization\n- You have complex multi-stakeholder accounts\n- Advanced analytics matter\n\n## **Choose ChurnZero if:**\n- You want faster onboarding\n- You prefer straightforward features\n- Your team values simplicity\n\n**Bottom line:** Try both with your specific workflows in mind. The \"better\" choice depends on your team size, complexity needs, and technical preferences.\n\nWhat's your primary use case?",
+  "cached_at": "2026-05-28T08:09:14Z",
+  "metadata": {}
+}

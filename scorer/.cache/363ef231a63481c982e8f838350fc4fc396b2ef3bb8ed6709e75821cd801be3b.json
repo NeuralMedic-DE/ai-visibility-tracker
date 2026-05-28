@@ -1,0 +1,9 @@
+{
+  "brand": "Weights & Biases",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with manage datasets artifacts and model versions in a central model registry at scale?",
+  "response": "To manage datasets, artifacts, and model versions in a central model registry at scale, you can use several software solutions designed for machine learning lifecycle management. Some popular options include:\n\n1. **MLflow**: An open-source platform that provides a central model registry, experiment tracking, and model deployment. It can manage datasets and artifacts and is highly scalable.\n\n2. **DVC (Data Version Control)**: A version control system for machine learning projects that helps manage datasets and model versions. It integrates with Git and provides a way to track large files and datasets.\n\n3. **Weights & Biases**: A platform that offers experiment tracking, dataset versioning, and a model registry. It is designed to work at scale and integrates with many machine learning frameworks.\n\n4. **TensorFlow Extended (TFX)**: A production-ready machine learning platform that includes components for managing datasets and model versions. It is particularly suited for TensorFlow models.\n\n5. **Neptune.ai**: A metadata store for MLOps that helps manage experiments, datasets, and model versions. It provides a centralized place to track and collaborate on model development.\n\n6. **Pachyderm**: A data versioning and pipeline automation tool that integrates with Kubernetes, allowing you to manage datasets and model versions at scale.\n\nThese tools provide various features for managing the lifecycle of machine learning models, including versioning, tracking, and deployment, making them suitable for different needs and scales.",
+  "cached_at": "2026-05-28T07:37:44Z",
+  "metadata": {}
+}

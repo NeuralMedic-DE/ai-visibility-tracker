@@ -1,0 +1,9 @@
+{
+  "brand": "Personio",
+  "prompt_id": "IN-04",
+  "llm": "openai",
+  "prompt_text": "Best HR that works with Slack and Datev",
+  "response": "When looking for an HR solution that integrates well with both Slack and DATEV, it's important to consider tools that offer robust integration capabilities and support for German payroll and accounting standards. Here are a couple of options you might consider:\n\n1. **Personio**: Personio is a popular HR software in Europe that offers integrations with both Slack and DATEV. It provides a comprehensive suite of HR management tools, including payroll, recruiting, and employee management. The integration with Slack allows for notifications and updates, while the DATEV integration helps streamline payroll processing in compliance with German regulations.\n\n2. **HiBob**: HiBob is another HR platform that integrates with Slack, offering features like employee engagement and communication tools. While it may not have a direct integration with DATEV, it supports various payroll systems and can often be configured to work with DATEV through middleware or custom solutions.\n\nWhen selecting an HR tool, ensure that it meets your specific needs in terms of features, compliance, and ease of integration. It might also be beneficial to contact the providers directly to discuss your requirements and see if they offer custom integration solutions with DATEV.",
+  "cached_at": "2026-05-28T06:34:58Z",
+  "metadata": {}
+}

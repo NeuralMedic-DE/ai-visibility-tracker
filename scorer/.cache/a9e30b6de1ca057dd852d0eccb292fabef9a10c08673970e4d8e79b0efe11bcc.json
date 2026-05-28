@@ -1,0 +1,9 @@
+{
+  "brand": "Teamtailor",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Teamtailor Slack integration: how does it work?",
+  "response": "# Teamtailor Slack Integration Overview\n\n## How It Works\n\nThe Teamtailor Slack integration connects your recruitment workflow to Slack, enabling:\n\n### **Core Functionality**\n\n1. **Notifications**\n   - Get alerts for new applications, candidate actions, or job postings\n   - Customizable notification triggers\n   - Real-time updates directly in Slack channels\n\n2. **Candidate Information**\n   - View candidate details without leaving Slack\n   - Share candidate profiles with team members\n   - Access application status and history\n\n3. **Collaboration**\n   - Discuss candidates in designated Slack channels\n   - Tag team members for feedback\n   - Keep recruitment conversations organized\n\n4. **Workflow Integration**\n   - Advance candidates through stages\n   - Leave notes and comments\n   - Perform basic actions directly from Slack\n\n## Setup Process\n\n1. **Authorization**: Connect your Teamtailor account to Slack\n2. **Channel Selection**: Choose which channels receive notifications\n3. **Notification Rules**: Configure what events trigger messages\n4. **Team Access**: Add relevant team members to integrated channels\n\n## Key Benefits\n\n- ⚡ Faster decision-making\n- 📱 Mobile accessibility\n- 🔄 Reduced context switching\n- 👥 Better team coordination\n\n## Limitations\n\n- Limited advanced recruiting features (use Teamtailor directly for complex tasks)\n- May require some configuration to avoid notification overload\n\n**Need specific setup help?** Check Teamtailor's official documentation or support for the latest integration details.",
+  "cached_at": "2026-05-28T06:42:08Z",
+  "metadata": {}
+}

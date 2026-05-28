@@ -1,0 +1,9 @@
+{
+  "brand": "Humaans",
+  "prompt_id": "AL-02",
+  "llm": "openai",
+  "prompt_text": "Cheaper alternatives to HiBob",
+  "response": "If you're looking for cheaper alternatives to HiBob, which is an HR management platform, there are several options you might consider depending on your specific needs and budget. Here are a few:\n\n1. **BambooHR**: Known for its user-friendly interface and comprehensive HR features, BambooHR is a popular choice for small to medium-sized businesses.\n\n2. **Gusto**: Primarily focused on payroll, Gusto also offers HR tools and benefits management, making it a good choice for small businesses.\n\n3. **Zoho People**: Part of the Zoho suite, this platform offers a range of HR features at a competitive price, suitable for businesses of all sizes.\n\n4. **Freshteam**: From Freshworks, Freshteam is an affordable option for managing recruitment, onboarding, and employee data.\n\n5. **Zenefits**: Offers a wide range of HR features, including payroll and benefits management, with flexible pricing plans.\n\n6. **Namely**: While it can be on the pricier side, Namely offers a comprehensive HR platform that can be cost-effective for mid-sized businesses.\n\n7. **Factorial HR**: This platform provides a range of HR management tools with a focus on simplicity and affordability.\n\n8. **Keka**: Known for its payroll and HR management features, Keka is another cost-effective solution for small to medium-sized businesses.\n\nWhen choosing an alternative, consider the specific features you need, such as payroll, benefits administration, performance management, or time tracking, and compare the pricing and scalability of each option.",
+  "cached_at": "2026-05-28T06:48:07Z",
+  "metadata": {}
+}

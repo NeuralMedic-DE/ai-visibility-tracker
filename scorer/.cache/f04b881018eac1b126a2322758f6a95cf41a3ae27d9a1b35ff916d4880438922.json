@@ -1,0 +1,9 @@
+{
+  "brand": "FullStory",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with identify rage clicks and broken flows in the product at scale?",
+  "response": "# Tools for Identifying Rage Clicks & Broken Flows\n\n## Session Replay & User Analytics\n- **Hotjar** - Heatmaps show rage click patterns; session replays reveal frustration\n- **Fullstory** - Advanced session replay with rage click detection and session search\n- **Microsoft Clarity** - Free heatmaps and session replay; good rage click visibility\n- **LogRocket** - Focused on frontend issues; identifies problematic interactions\n\n## Event & Behavioral Analytics\n- **Amplitude** - Tracks user flows and drop-off points at scale\n- **Mixpanel** - Funnel analysis to identify conversion blockers\n- **Segment** - Data collection layer to feed multiple tools\n\n## Specialized Tools\n- **UXCam** - Mobile-focused rage click detection\n- **Contentsquare** (formerly Contentsquare) - Enterprise solution for digital experience monitoring\n- **Glassbox** - Large-scale behavior analytics\n- **Smartlook** - Session replay with rage click metrics\n\n## Data-Driven Approach\nCombine tools strategically:\n- **Quantitative**: Analytics tool for where drops occur\n- **Qualitative**: Session replay to see *why* users rage click\n- **Real-time**: Error tracking (Sentry, Datadog) for technical issues\n\n## Key Metrics to Track\n- Click frequency on same element\n- Time-to-interaction delays\n- Conversion funnel abandonment\n- Error occurrence correlation\n\n**Best starting point**: Hotjar or Clarity (good price-to-value) if you're just starting, or Fullstory if you need enterprise-grade scale.\n\nWhat's your priority—mobile, web, or both?",
+  "cached_at": "2026-05-27T20:47:34Z",
+  "metadata": {}
+}

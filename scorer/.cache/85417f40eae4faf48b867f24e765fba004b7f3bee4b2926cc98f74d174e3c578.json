@@ -1,0 +1,9 @@
+{
+  "brand": "Userlist",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Userlist vs Encharge: which is better?",
+  "response": "# Userlist vs Encharge\n\nBoth are email marketing tools for SaaS, but they serve somewhat different purposes:\n\n## **Userlist**\n**Best for:** Product-driven email automation\n- Triggers based on in-app events and user behavior\n- Strong for onboarding sequences\n- Better developer experience (API-first)\n- Simpler pricing model\n- Smaller feature set (focused)\n\n## **Encharge**\n**Best for:** Full-featured marketing automation\n- More traditional email marketing + automation\n- Better segmentation and audience building\n- Stronger analytics and reporting\n- More integrations\n- More expensive\n- Steeper learning curve\n\n## **Quick comparison:**\n\n| Feature | Userlist | Encharge |\n|---------|----------|----------|\n| Event-based automation | Excellent | Good |\n| Email design | Simple | Advanced |\n| Segmentation | Basic | Strong |\n| Price | Lower | Higher |\n| Ease of use | Easy | Moderate |\n\n## **Choose Userlist if:**\n- You want simple, event-triggered campaigns\n- Budget is tight\n- You're SaaS-focused\n\n## **Choose Encharge if:**\n- You need advanced segmentation\n- You want more marketing automation features\n- You have a larger marketing team\n\n**What's your main use case?** That would help narrow it down further.",
+  "cached_at": "2026-05-28T07:30:30Z",
+  "metadata": {}
+}

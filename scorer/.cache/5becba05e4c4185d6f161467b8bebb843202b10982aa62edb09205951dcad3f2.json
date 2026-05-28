@@ -1,0 +1,9 @@
+{
+  "brand": "Grip Security",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Grip Security integrate with Okta?",
+  "response": "Yes. **Grip Security provides multiple integrations with Okta**, including SSO/SAML, OAuth-based identity integration, and API-key-based integrations, and it also integrates with **Okta Workflows**.\n\nKey points from Grip’s and Okta’s own materials:\n\n- Grip’s docs include specific guides for **“Integrating Okta SSO with Grip Security”** (SAML app in Okta), **“Okta Setup (OAuth Based)”**, and **“Connect Identity Provider to Grip” using an API key, explicitly for Okta**.[1]  \n- Grip’s official integrations page lists **Okta** as an integration to “mitigate risks to both managed and unmanaged (shadow) SaaS by combining usage and identity insights,” and also lists **Okta Workflows** as a supported automation integration.[4]  \n- A joint solution brief, “Grip + Okta: Complete SaaS Governance,” describes the **Okta Single Sign-On (SSO) and Grip SaaS Security Control Plane integration**, as well as integration with **Okta Workflows** for onboarding/offboarding and governance of unfederated SaaS apps.[2]  \n\nSo if you are using Okta, you can integrate it with Grip for identity data, SSO into the Grip portal, SaaS discovery/governance, and automated workflows.",
+  "cached_at": "2026-05-28T08:42:51Z",
+  "metadata": {}
+}

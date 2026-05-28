@@ -1,0 +1,9 @@
+{
+  "brand": "Zapier",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Zapier vs Make: which is better?",
+  "response": "# Zapier vs Make: Quick Comparison\n\nNeither is universally \"better\"—it depends on your needs. Here's the breakdown:\n\n## **Zapier**\n**Strengths:**\n- Easier learning curve, great for beginners\n- 7,000+ app integrations (most comprehensive)\n- Better documentation and community support\n- More reliable uptime historically\n- Superior mobile app\n\n**Weaknesses:**\n- Pricier at scale\n- Less flexible for complex workflows\n- Limited data transformation capabilities\n\n## **Make (formerly Integromat)**\n**Strengths:**\n- More powerful and flexible for complex automations\n- Better value for money\n- Advanced data mapping and transformations\n- Visual scenario builder is intuitive once you learn it\n- Cheaper pricing at higher volumes\n\n**Weaknesses:**\n- Steeper learning curve\n- Fewer integrations (~1,000)\n- Smaller community/support ecosystem\n- Can be overwhelming for simple tasks\n\n## **Quick Decision Guide**\n- **Choose Zapier if:** You want simplicity, have straightforward workflows, or value extensive app support\n- **Choose Make if:** You need complex logic, transform data heavily, or want better pricing at scale\n\n**Many teams use both**—Zapier for simple automations, Make for complex ones.\n\nWhat's your typical use case? That would help narrow it down.",
+  "cached_at": "2026-05-28T08:51:00Z",
+  "metadata": {}
+}

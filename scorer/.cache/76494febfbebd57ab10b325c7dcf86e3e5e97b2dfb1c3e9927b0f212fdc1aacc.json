@@ -1,0 +1,9 @@
+{
+  "brand": "Render",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Render vs Heroku: which is better?",
+  "response": "# Render vs Heroku\n\n## Quick Comparison\n\n| Factor | Render | Heroku |\n|--------|--------|--------|\n| **Pricing** | More affordable, free tier available | Pricier, no free tier (since 2022) |\n| **Ease of use** | Very beginner-friendly | Very beginner-friendly |\n| **Performance** | Generally faster, better specs | Slower dynos, more expensive |\n| **Ecosystem** | Smaller but growing | Mature, extensive add-ons |\n| **Free tier** | Yes (limited) | No |\n\n## Render Advantages\n- ✅ **Better value** - cheaper paid plans\n- ✅ **Free tier** - good for learning/testing\n- ✅ **Native Docker support**\n- ✅ **Faster performance** for the price\n- ✅ **Simple pricing** - no confusing dynos\n\n## Heroku Advantages\n- ✅ **Mature platform** - more stable/battle-tested\n- ✅ **Larger add-on ecosystem** (databases, monitoring, etc.)\n- ✅ **Better for enterprise** - more support options\n- ✅ **Established community** - more tutorials\n\n## Bottom Line\n\n- **Choose Render if:** You want better value, need a free tier, or are starting a new project\n- **Choose Heroku if:** You need enterprise features, extensive add-ons, or have an existing setup\n\n**Current consensus:** Render is winning for hobby/small projects. Heroku still dominates enterprises.\n\nWhat type of project are you deploying?",
+  "cached_at": "2026-05-27T21:36:23Z",
+  "metadata": {}
+}

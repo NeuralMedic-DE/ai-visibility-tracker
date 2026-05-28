@@ -1,0 +1,9 @@
+{
+  "brand": "Humaans",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Humaans integrate with Slack?",
+  "response": "Yes. **Humaans has a native Slack integration**, and there are also third‑party apps that connect Humaans to Slack.\n\nEssential points:\n\n- Humaans provides an official **Slack integration** that lets you receive HR notifications and approve requests directly in Slack.[2]  \n- Using this integration, employees can **book time away** and managers can **approve or decline time‑off requests** via Slack commands like `/humaans`, `/humaans book`, and `/humaans whosaway`.[5]  \n- The Humaans Help Center explicitly refers to **“Enabling Slack's integration with Humaans”**, confirming it is an in‑product, supported integration.[5]  \n- In addition to the native integration, tools like **Harriet** and **Doozy** can connect to your Humaans account to expose HR actions and onboarding workflows inside Slack.[1][8]  \n\nSo if you use Humaans, you can integrate it with Slack both through Humaans’ built‑in integration and via compatible third‑party apps.",
+  "cached_at": "2026-05-28T06:49:56Z",
+  "metadata": {}
+}

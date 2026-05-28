@@ -1,0 +1,9 @@
+{
+  "brand": "HiBob",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I manage employee records and run payroll across multiple countries without spending a lot on software?",
+  "response": "Here are practical, cost-effective approaches:\n\n**Lean software solutions:**\n- Wave, Zoho, or Guidepoint for basic payroll in 1-2 countries\n- Many offer free tiers or ~$20-50/month per country\n- Spreadsheet templates (Google Sheets/Excel) as a backbone if you're small—seriously considered by many small companies\n- Deel or Remoteok if you're primarily hiring contractors/remote workers\n\n**Structural ways to reduce complexity:**\n- Use a Employer of Record (EOR) service for countries where you only have a few employees—they handle compliance for a per-employee fee (~$200-500/month per person depending on country). Actually cheaper than software if you have just 2-3 people in a country\n- Centralize payroll processing through one main country's system where possible\n- Batch processing monthly rather than real-time systems\n\n**What actually matters:**\n- Compliance requirements vary wildly by country—tax withholding, benefits, vacation laws. Don't cheap out on this part; a mistake costs more than software\n- Some countries legally require specific software or providers, so research first\n- Document everything manually if needed, but track it meticulously\n\n**Reality check:**\nIf you have <20 employees across 2-3 countries, an EOR or outsourcing to a local accountant often beats DIY software. The \"savings\" disappear if you mishandle taxes or labor laws.\n\nWhat's your current size and which countries are you in? That changes the best path significantly.",
+  "cached_at": "2026-05-28T06:32:33Z",
+  "metadata": {}
+}

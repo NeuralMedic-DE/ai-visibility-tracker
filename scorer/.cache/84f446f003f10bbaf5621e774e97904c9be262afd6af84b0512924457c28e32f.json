@@ -1,0 +1,9 @@
+{
+  "brand": "LeadIQ",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do SDR and outbound sales teams companies use to capture prospect data from LinkedIn?",
+  "response": "# Tools SDR/Outbound Sales Teams Use for LinkedIn Data Capture\n\n## **Purpose-Built LinkedIn Data Tools**\n\n**Scraping & Automation Platforms**\n- **Apollo.io** – Automated prospecting, email finder, LinkedIn scraping\n- **Hunter.io** – Email verification and company domain research\n- **ZoomInfo** – B2B database with LinkedIn integration\n- **RocketReach** – Contact data and email verification\n- **Clearbit** – Enrichment API for prospect data\n- **Lusha** – B2B contact database with email verification\n\n**LinkedIn-Native Solutions**\n- **LinkedIn Sales Navigator** – Native tool with advanced search and InMail\n- **LinkedIn Recruiter Lite** – Account-based prospecting features\n\n## **All-in-One Platforms**\n\n- **Outreach** – Sales engagement with data capture\n- **Salesloft** – Cadence management with prospecting\n- **HubSpot** – CRM with native LinkedIn integration\n- **Pipedrive** – Pipeline management with web research tools\n\n## **Important Caveats**\n\n⚠️ **Compliance concerns**: Many scraping tools violate LinkedIn's Terms of Service. LinkedIn actively blocks automated scraping.\n\n⚠️ **Best practice**: Use tools that work *with* LinkedIn's API or official integrations rather than against it.\n\n⚠️ **Data quality**: Captured data often needs verification—email accuracy rates vary significantly by tool.\n\n**What's your primary use case?** That would help me recommend more specific tools.",
+  "cached_at": "2026-05-27T18:44:16Z",
+  "metadata": {}
+}

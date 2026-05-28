@@ -1,0 +1,9 @@
+{
+  "brand": "Numeric",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which finance software should a Finance Manager or Controller at a mid-market company use?",
+  "response": "# Best Finance Software for Mid-Market Controllers\n\nThe ideal choice depends on your specific needs, but here's a practical breakdown:\n\n## **Top Tier Options**\n\n**NetSuite**\n- Most comprehensive for mid-market growth\n- Strong multi-entity, multi-currency support\n- Good consolidation and reporting\n- Higher cost ($2K-5K+/month)\n\n**Sage Intacct**\n- Excellent for accounting rigor and control\n- Strong GL/consolidation features\n- Better value than NetSuite\n- Growing functionality\n\n**Microsoft Dynamics 365 Finance**\n- Good if already in Microsoft ecosystem\n- Solid reporting and analytics\n- Competitive pricing\n\n## **If You Want Simpler/Cost-Effective**\n\n**QuickBooks Online Plus** or **Xero**\n- Faster to implement\n- Lower cost ($200-400/month)\n- Limited for complex consolidation/reporting\n- Works if you have external accountants handling complexity\n\n## **Key Questions to Ask First**\n\n1. **Complexity**: Do you need multi-entity consolidation, intercompany transactions?\n2. **Integrations**: What systems must connect (CRM, HR, planning)?\n3. **Reporting**: How sophisticated are your reporting/analytics needs?\n4. **Timeline**: How quickly do you need to go live?\n5. **Budget**: Implementation costs often exceed software costs\n\n## **My Practical Recommendation**\n\nFor most mid-market companies, **Sage Intacct** or **NetSuite** hit the sweet spot—they're built for controllers' needs without over-complexity.\n\nWhat's your company's revenue and biggest pain point with current systems?",
+  "cached_at": "2026-05-28T07:04:47Z",
+  "metadata": {}
+}

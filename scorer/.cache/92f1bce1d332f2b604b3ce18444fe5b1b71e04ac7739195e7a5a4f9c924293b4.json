@@ -1,0 +1,9 @@
+{
+  "brand": "Pilot",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I get accurate books and financial statements managed by real accountants without spending a lot on software?",
+  "response": "# Low-Cost Accounting Options\n\n## Free/Cheap Software First\n- **Wave** - genuinely free accounting + invoicing, works well for small businesses\n- **ZipBooks** - free tier covers basics\n- **Spreadsheets** - if you're organized, a well-structured Excel file with good habits works\n- Most banks let you export transaction data cheaply or free\n\n## Hybrid Approach (Often Cheapest)\n- Use free software to record transactions and organize documents\n- Hire a bookkeeper/accountant for **periodic review** (quarterly or annually) rather than full management\n  - They'll catch errors, optimize structure, ensure compliance\n  - You handle day-to-day entry; they verify it's right\n  - Costs 1/3 or less of full-service\n\n## Finding Affordable Accountants\n- **Freelance sites** (Upwork, Fiverr) - varies widely, check reviews carefully\n- **Local bookkeeping students/semi-retired accountants** - often undercut firms\n- **Accountant referral services** - sometimes have affordable options\n- Ask your network for recommendations\n\n## Reality Check\n- Truly cheap full-service accounting is often risky (compliance gaps, missed deductions)\n- A few hours of professional review beats cheap ongoing management\n- The hybrid model usually gives you the best accuracy-to-cost ratio\n\nWhat type of business? That affects which direction makes most sense.",
+  "cached_at": "2026-05-28T07:02:40Z",
+  "metadata": {}
+}

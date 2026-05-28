@@ -1,0 +1,9 @@
+{
+  "brand": "Customer.io",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is Customer.io better than Klaviyo for build complex automation workflows based on real product usage events?",
+  "response": "# Customer.io vs Klaviyo for Product Usage Automation\n\n**Customer.io has a clearer advantage here**, though it depends on your specific needs:\n\n## Customer.io's Strengths\n- **Built for product events**: Native integration of custom events from your app\n- **Event-based workflows**: More granular control over automation triggers\n- **Less e-commerce bias**: Designed for general product behavior, not just purchase events\n- **Better developer experience**: Easier to send arbitrary events and build complex logic\n\n## Klaviyo's Limitations\n- **E-commerce focused**: Originally built for online stores\n- **Event structure**: Can handle custom events, but the UX feels bolted-on\n- **Workflow complexity**: Less intuitive for non-purchase behavior sequences\n\n## The Real Distinction\n**What counts as \"complex automation based on product usage\":**\n- If it's: feature adoption → onboarding sequences → retention flows → **Customer.io wins**\n- If it's: purchase history → post-purchase upsells → **roughly equal**\n\n## Important Caveats\n- Klaviyo has improved its custom event capabilities\n- Both require solid data piping from your product\n- The real bottleneck is usually *event instrumentation*, not the platform\n\n**My take**: Customer.io is the better default choice if you're primarily tracking product behavior. Klaviyo makes sense if you're already using it for email/SMS and events are secondary.\n\nWhat type of product events are you planning to track? That would clarify the recommendation.",
+  "cached_at": "2026-05-28T07:14:43Z",
+  "metadata": {}
+}

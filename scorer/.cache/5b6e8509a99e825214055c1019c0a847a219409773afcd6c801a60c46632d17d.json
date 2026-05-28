@@ -1,0 +1,9 @@
+{
+  "brand": "Neon",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with branch databases like code for isolated development and testing at scale?",
+  "response": "# Software for Branch Databases\n\nYou're describing **branch database platforms**. Here are the main solutions:\n\n## Leading Options\n\n**PlanetScale** (MySQL)\n- Git-like branching for databases\n- Built for MySQL/Vitess\n- Good for testing schema changes safely\n- Developer-friendly interface\n\n**Neon** (PostgreSQL)\n- PostgreSQL with instant branching\n- Copy-on-write for efficiency\n- Excellent for CI/CD integration\n- Serverless scaling\n\n**Railway** / **Supabase** (PostgreSQL)\n- Full PostgreSQL environments\n- Easier isolated testing setups\n- Good for development databases\n\n## Traditional Approaches\n\n**Database Virtualization Tools**\n- Delphix (enterprise, snapshot-based)\n- Liquibase/Flyway (schema versioning)\n- Vagrant + local databases\n\n**CI/CD Integration**\n- Docker containers with fresh DB instances\n- Testcontainers for automated testing\n- Infrastructure-as-code (Terraform/CloudFormation)\n\n## Key Use Cases\n- Testing schema migrations without risk\n- Parallel development without conflicts\n- Ephemeral databases for CI pipelines\n- Preview environments for PRs\n\n**Which fits best depends on:**\n- Your database type (MySQL vs PostgreSQL)\n- Scale requirements\n- Budget (managed vs self-hosted)\n- Integration needs with your stack\n\nAre you looking for a specific database type or use case?",
+  "cached_at": "2026-05-28T06:18:00Z",
+  "metadata": {}
+}

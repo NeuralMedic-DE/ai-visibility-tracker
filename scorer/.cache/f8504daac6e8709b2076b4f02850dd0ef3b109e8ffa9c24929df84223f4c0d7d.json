@@ -1,0 +1,9 @@
+{
+  "brand": "Workable",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Workable integrate with LinkedIn?",
+  "response": "Yes. Workable integrates with **LinkedIn Recruiter** and also offers several LinkedIn connection options, including **LinkedIn Basic jobs**, **LinkedIn premium job posting**, **LinkedIn Recruiter System Connect**, and **LinkedIn Apply Connect**.[1][2]\n\nThe main direct Recruiter integration lets you sponsor jobs through Workable, connect jobs to your LinkedIn company page, and manage jobs in your LinkedIn Recruiter account.[1] Workable notes that this integration is **not available for Recruiter Lite** accounts.[1][2]\n\nIf you want, I can also break down **which LinkedIn integration fits your use case**.",
+  "cached_at": "2026-05-28T06:47:25Z",
+  "metadata": {}
+}

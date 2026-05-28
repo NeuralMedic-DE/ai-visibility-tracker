@@ -1,0 +1,9 @@
+{
+  "brand": "Front",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Zendesk vs alternatives: what should I switch to?",
+  "response": "# Zendesk Alternatives: Key Considerations\n\nBefore switching, clarify what's driving the move—cost, features, UX, or specific gaps? Here are strong alternatives:\n\n## Best Overall Replacements\n**Freshdesk/Freshservice** (Freshworks)\n- Cheaper than Zendesk at most tiers\n- Solid multi-channel support\n- Good automation and reporting\n- Con: Interface feels less polished\n\n**HubSpot Service Hub**\n- Best if you use HubSpot CRM already\n- Strong ticketing + knowledge base\n- Better for integrated marketing/sales workflows\n- Con: Pricier for standalone use\n\n## Cost-Focused\n**Groove** or **Helpshift**\n- Much cheaper, simpler interfaces\n- Good for smaller teams\n- Con: Fewer enterprise features\n\n## For Specific Needs\n- **Intercom**: Customer messaging + support (better product engagement angle)\n- **Jira Service Management**: If you need dev team integration\n- **Gorgias**: If you sell via Shopify/social commerce\n- **Kustomer**: Better omnichannel if that's your pain point\n\n## Migration Realities\n- Data export from Zendesk is doable but tedious\n- Team retraining required regardless\n- Integration ecosystem smaller elsewhere (might matter)\n\n**What's your main complaint with Zendesk?** (Cost, features, usability, something else?) That'll help narrow it down. Many teams find the grass isn't greener—sometimes it's just different tradeoffs.",
+  "cached_at": "2026-05-28T08:17:11Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Ashby",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is Ashby better than Greenhouse for build structured hiring workflows and automate interview scheduling?",
+  "response": "# Ashby vs Greenhouse: Structured Hiring & Automation\n\nBoth are strong, but they have different strengths:\n\n## **Ashby's advantages**\n- **Workflow automation**: More flexible and intuitive workflow builder—easier to customize stages, rules, and automations without heavy lifting\n- **Interview scheduling**: Cleaner native scheduling experience with better calendar integration\n- **Modern UX**: Generally feels faster and more streamlined for setting up automated processes\n- **Better for custom workflows**: If you need specific logic, Ashby's tools are more accessible\n\n## **Greenhouse's advantages**\n- **Deeper integrations**: More established third-party connections (especially recruiting tools)\n- **Scorecards & interviews**: More robust structured interview framework built-in\n- **Enterprise maturity**: Better for highly regulated hiring or complex organizational structures\n- **More customizable at scale**: Though steeper learning curve\n\n## **In practice**\nFor **pure workflow automation and interview scheduling**, Ashby edges ahead—it feels purpose-built for this. Greenhouse requires more configuration work and sometimes workarounds.\n\n## **Key consideration**\n- **Ashby**: Better if you want to set it up quickly and iterate\n- **Greenhouse**: Better if you have complex compliance needs or heavily use their integrations\n\n**Test both with a real workflow** before deciding—the difference often comes down to your specific hiring volume and team preferences.\n\nWhat's your main priority: ease of setup or integration ecosystem?",
+  "cached_at": "2026-05-28T06:39:20Z",
+  "metadata": {}
+}

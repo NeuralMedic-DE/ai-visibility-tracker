@@ -1,0 +1,9 @@
+{
+  "brand": "Totango",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Totango Marketo integration: how does it work?",
+  "response": "# Totango-Marketo Integration Overview\n\n## How It Works\n\nThe integration connects Totango (customer success platform) with Marketo (marketing automation), enabling bi-directional data flow:\n\n### **Key Data Flows**\n\n| Direction | Purpose |\n|-----------|---------|\n| **Marketo → Totango** | Lead and account data, engagement metrics |\n| **Totango → Marketo** | Customer health scores, usage data, lifecycle stage |\n\n## Main Capabilities\n\n**Sync to Marketo:**\n- Health scores from Totango\n- Customer attributes and segments\n- Engagement indicators\n- Account-level insights\n\n**Sync to Totango:**\n- Marketing campaign performance\n- Lead scoring\n- Engagement data\n- Marketing activity history\n\n## Common Use Cases\n\n1. **Targeted nurturing** - Market to accounts based on health scores\n2. **Churn prevention** - Flag at-risk customers for immediate outreach\n3. **Expansion opportunities** - Identify high-health accounts for upsell campaigns\n4. **Lead quality** - Enrich leads with customer success context\n\n## Implementation Options\n\n- **Native integration** (if available in your versions)\n- **Zapier/third-party connectors**\n- **Custom API integration**\n- **Middleware platforms** (Workato, Boomi, etc.)\n\n## Key Considerations\n\n- Field mapping requirements\n- Frequency of data sync\n- Lead-to-customer matching logic\n- Compliance and data privacy\n\n**What specific aspect interests you?** (setup, troubleshooting, field mapping, etc.)",
+  "cached_at": "2026-05-28T08:14:46Z",
+  "metadata": {}
+}

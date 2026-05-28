@@ -1,0 +1,9 @@
+{
+  "brand": "Rho",
+  "prompt_id": "AL-05",
+  "llm": "perplexity",
+  "prompt_text": "Open source or affordable finance tools instead of Mercury",
+  "response": "If you mean **tools for managing finances** rather than a Mercury-style banking platform, the strongest open-source and low-cost options are **Financial Freedom**, **Actual Budget**, **GnuCash**, **HomeBank**, **KMyMoney**, **Money Manager Ex**, and **Ghostfolio**.[1][2][3][5]\n\n- **Financial Freedom**: an open-source alternative to Mint and YNAB that runs via Docker on your own server or device, including cloud hosts or a Raspberry Pi.[1]\n- **Actual Budget**: a free and open-source budgeting and expense-tracking app for Windows, macOS, and Linux; it can run locally or with a server.[3]\n- **GnuCash**: a stable, full-featured accounting app suitable for personal use and small businesses.[2]\n- **HomeBank**: an easy-to-use personal finance manager with charting and reporting.[2]\n- **KMyMoney**: an open-source personal finance app licensed under GPLv2.[2]\n- **Money Manager Ex**: a cross-platform open-source personal finance manager with mobile support and cloud synchronization.[2]\n- **Ghostfolio**: an open-source portfolio dashboard for tracking net worth, including cash, stocks, ETFs, and crypto.[5]\n\nIf you want the **closest open-source replacement for budgeting**, start with **Actual Budget** or **Financial Freedom**.[1][3] If you want **double-entry accounting and bookkeeping**, **GnuCash** is the more serious accounting tool.[2] If you want a **simple personal-finance desktop app**, **HomeBank** or **KMyMoney** are easier fits.[2]\n\nIf you meant **Mercury alternatives for business banking**, the search results here are mostly commercial competitors rather than open-source tools, so I can’t reliably recommend an open-source Mercury replacement from these sources alone.[6][7][9]",
+  "cached_at": "2026-05-28T07:13:34Z",
+  "metadata": {}
+}

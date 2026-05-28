@@ -1,0 +1,9 @@
+{
+  "brand": "LangChain",
+  "prompt_id": "IN-03",
+  "llm": "openai",
+  "prompt_text": "How do I connect LangChain with OpenAI?",
+  "response": "To connect LangChain with OpenAI, you'll need to set up the OpenAI API within your LangChain environment. Here's a step-by-step guide to help you do that:\n\n1. **Install LangChain**: If you haven't already, install LangChain using pip:\n\n   ```bash\n   pip install langchain\n   ```\n\n2. **Install OpenAI**: Ensure that you have the OpenAI Python package installed:\n\n   ```bash\n   pip install openai\n   ```\n\n3. **Set Up OpenAI API Key**: You need an API key from OpenAI. If you don't have one, sign up on the OpenAI website and create an API key. Once you have it, set it as an environment variable:\n\n   ```bash\n   export OPENAI_API_KEY='your-api-key-here'\n   ```\n\n   Alternatively, you can set it directly in your Python script:\n\n   ```python\n   import os\n   os.environ[\"OPENAI_API_KEY\"] = \"your-api-key-here\"\n   ```\n\n4. **Integrate OpenAI with LangChain**: Use LangChain's OpenAI module to create a connection. Here's a basic example of how to do this:\n\n   ```python\n   from langchain.llms import OpenAI\n\n   # Initialize the OpenAI LLM with your API key\n   openai_llm = OpenAI(api_key=os.getenv(\"OPENAI_API_KEY\"))\n\n   # Use the LLM to generate text\n   response = openai_llm(\"What is the capital of France?\")\n   print(response)\n   ```\n\n5. **Customize as Needed**: You can customize the parameters for the OpenAI LLM, such as temperature, max tokens, etc., by passing additional arguments:\n\n   ```python\n   openai_llm = OpenAI(api_key=os.getenv(\"OPENAI_API_KEY\"), temperature=0.7, max_tokens=150)\n   ```\n\nBy following these steps, you should be able to connect LangChain with OpenAI and start using OpenAI's language models within the LangChain framework.",
+  "cached_at": "2026-05-28T07:39:56Z",
+  "metadata": {}
+}

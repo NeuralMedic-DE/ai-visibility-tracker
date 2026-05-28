@@ -1,0 +1,9 @@
+{
+  "brand": "Metabase",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Metabase integrate with PostgreSQL?",
+  "response": "# Yes, Metabase integrates with PostgreSQL\n\nMetabase has **native support for PostgreSQL** as a data source. Here's what you need to know:\n\n## Setup Requirements\n- PostgreSQL database connection details (host, port, database name, username, password)\n- Network access from your Metabase instance to the PostgreSQL server\n- Appropriate user permissions on the database\n\n## Key Features\n- **Query builder** - Create queries visually without SQL\n- **Native SQL queries** - Write custom SQL when needed\n- **Dashboards** - Build dashboards using PostgreSQL data\n- **Alerts** - Set up data alerts based on query results\n- **Caching** - Query result caching for performance\n\n## Connection Steps\n1. Go to Admin Settings → Databases\n2. Click \"New Database\"\n3. Select PostgreSQL\n4. Enter your connection credentials\n5. Test the connection and save\n\n## Limitations\n- Metabase connects as a **read-only** user (recommended for security)\n- Performance depends on your database size and query complexity\n- Some advanced PostgreSQL features may require native SQL queries\n\nThis is one of the most common and well-supported database integrations in Metabase.",
+  "cached_at": "2026-05-27T20:09:16Z",
+  "metadata": {}
+}

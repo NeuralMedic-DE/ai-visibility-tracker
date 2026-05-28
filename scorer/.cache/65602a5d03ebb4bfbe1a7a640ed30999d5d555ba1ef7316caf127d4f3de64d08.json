@@ -1,0 +1,9 @@
+{
+  "brand": "ChartMogul",
+  "prompt_id": "CD-01",
+  "llm": "openai",
+  "prompt_text": "What is the best SaaS analytics for founders and finance teams at subscription SaaS businesses?",
+  "response": "For founders and finance teams at subscription SaaS businesses, the best SaaS analytics tools typically offer comprehensive insights into key metrics such as Monthly Recurring Revenue (MRR), Customer Lifetime Value (CLV), Churn Rate, and more. Some of the top options include:\n\n1. **ChartMogul**: Known for its robust subscription analytics, ChartMogul provides detailed insights into MRR, ARR, churn, and customer segmentation. It integrates well with various billing systems, making it a popular choice for SaaS businesses.\n\n2. **Baremetrics**: Offers real-time subscription metrics and financial reporting. It provides insights into MRR, ARR, churn, and other critical metrics, along with features like forecasting and cohort analysis.\n\n3. **ProfitWell**: Specializes in subscription revenue reporting and analytics. It offers tools for understanding churn, pricing strategies, and customer segmentation, with a focus on maximizing revenue.\n\n4. **Klipfolio**: While not exclusively for SaaS, Klipfolio is a powerful dashboard tool that can be customized to track SaaS metrics. It integrates with various data sources, allowing for a comprehensive view of business performance.\n\n5. **SaaSOptics**: Provides financial operations solutions for B2B SaaS companies, including subscription management, revenue recognition, and detailed financial reporting.\n\nEach of these tools has its strengths, so the best choice depends on your specific needs, such as the level of detail required, integration capabilities, and budget. It's often beneficial to take advantage of free trials to see which tool aligns best with your business processes.",
+  "cached_at": "2026-05-28T06:54:44Z",
+  "metadata": {}
+}

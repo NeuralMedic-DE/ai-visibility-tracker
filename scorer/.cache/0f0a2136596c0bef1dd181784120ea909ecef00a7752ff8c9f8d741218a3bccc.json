@@ -1,0 +1,9 @@
+{
+  "brand": "Drata",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with reduce audit preparation time with continuously automated controls testing at scale?",
+  "response": "Software that helps reduce audit preparation time with continuously automated controls testing at scale typically falls under the category of Governance, Risk, and Compliance (GRC) platforms. These platforms often include features for automated controls testing, real-time monitoring, and reporting. Some popular options include:\n\n1. **AuditBoard** - This platform offers solutions for audit, risk, and compliance management, providing tools for automated controls testing and real-time analytics.\n\n2. **Workiva** - Known for its integrated risk management and compliance solutions, Workiva helps automate data collection and reporting, streamlining the audit process.\n\n3. **MetricStream** - A comprehensive GRC platform that offers continuous control monitoring and automated testing capabilities.\n\n4. **SAP GRC** - Part of the SAP suite, this software provides tools for continuous control monitoring and compliance management.\n\n5. **ServiceNow GRC** - Offers automated workflows and real-time monitoring to help manage risk and compliance efficiently.\n\n6. **Onspring** - Provides flexible GRC solutions with automation capabilities for controls testing and audit management.\n\nThese platforms can significantly reduce the time and effort required for audit preparation by automating routine tasks and providing real-time insights into compliance status.",
+  "cached_at": "2026-05-28T08:28:56Z",
+  "metadata": {}
+}

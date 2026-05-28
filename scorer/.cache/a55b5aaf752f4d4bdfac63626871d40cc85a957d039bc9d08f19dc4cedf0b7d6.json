@@ -1,0 +1,9 @@
+{
+  "brand": "Prefect",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to Dagster",
+  "response": "# Cheaper Alternatives to Dagster\n\n## Open Source Options (Free)\n\n### **Apache Airflow**\n- Mature, widely-adopted workflow orchestrator\n- Large community and extensive documentation\n- Self-hosted, no licensing costs\n- Steeper learning curve, more operational overhead\n\n### **Prefect** (Open Source)\n- Modern Python-first approach\n- Simpler than Airflow, good developer experience\n- Free tier available; paid cloud option\n- Growing community\n\n### **dbt** (Free)\n- Focuses on data transformation\n- Excellent for analytics/warehousing workflows\n- Free core version; dbt Cloud is paid\n- Best if transformation-heavy\n\n### **Apache Beam**\n- Batch and stream processing\n- Free and open source\n- Steeper learning curve\n- Better for data processing than orchestration\n\n### **Luigi** (by Spotify)\n- Lightweight dependency resolution\n- Simple to learn\n- Less feature-rich than alternatives\n- Good for smaller projects\n\n## Managed/Low-Cost Services\n\n| Tool | Cost Model | Best For |\n|------|-----------|----------|\n| **Prefect Cloud** | Pay-per-run or fixed tier | Quick cloud deployment |\n| **dbt Cloud** | $29+/month | Analytics/transformations |\n| **Temporal** | Open source + cloud | Microservices, resilience |\n| **n8n** | Self-hosted free or cloud paid | No-code/low-code workflows |\n\n## Decision Framework\n\n- **Small, simple workflows** → Luigi, n8n\n- **Analytics/data warehouse** → dbt\n- **Complex dependencies** → Airflow, Prefect\n- **Minimal setup** → Managed Prefect/dbt Cloud\n\n**What's your use case?** That would help narrow down the best fit.",
+  "cached_at": "2026-05-28T09:11:00Z",
+  "metadata": {}
+}

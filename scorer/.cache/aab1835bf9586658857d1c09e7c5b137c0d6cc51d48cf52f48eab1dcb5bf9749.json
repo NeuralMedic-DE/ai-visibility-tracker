@@ -1,0 +1,9 @@
+{
+  "brand": "Folk",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Folk vs HubSpot: which is better?",
+  "response": "# Folk vs HubSpot: Key Differences\n\n**Folk** is best for:\n- Sales teams focused on **relationship intelligence** and prospect research\n- Finding decision-makers and understanding company relationships\n- Integrating with existing tools (Salesforce, Pipedrive, etc.)\n- Companies that want AI-powered insights without replacing their CRM\n\n**HubSpot** is best for:\n- All-in-one needs (CRM, marketing, sales, service, content)\n- Smaller companies or startups building from scratch\n- Marketing automation as a core need\n- Teams wanting everything integrated in one platform\n\n## Quick Comparison\n\n| Factor | Folk | HubSpot |\n|--------|------|---------|\n| **Primary focus** | Prospect intelligence | Full platform |\n| **Setup complexity** | Lighter, integrates with existing CRM | Heavier, replaces systems |\n| **Price** | Mid-range | Free tier + paid |\n| **Learning curve** | Gentler | Steeper |\n\n## The Real Question\n\n- **\"Replace my CRM?\"** → HubSpot\n- **\"Enhance my existing CRM?\"** → Folk\n- **Need both CRM + marketing heavily?** → HubSpot\n- **Just need better prospect data?** → Folk\n\nWhat's your main priority—replacing a system entirely, or adding intelligence to what you already use?",
+  "cached_at": "2026-05-27T18:52:52Z",
+  "metadata": {}
+}

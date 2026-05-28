@@ -1,0 +1,9 @@
+{
+  "brand": "Grip Security",
+  "prompt_id": "IN-05",
+  "llm": "perplexity",
+  "prompt_text": "security tools with native Okta integration",
+  "response": "If you mean **security tools that integrate natively with Okta**, the results show several examples across identity, cloud security, and threat detection. Okta also provides its own native platform capabilities and SDKs for authentication and application integration.[2][3][4][7]\n\n- **Palo Alto Networks**: Okta announced native integrations with **Prisma Access Browser** and the **Cortex** SecOps platform to secure app access and unify identity-threat response.[2]\n- **Cyscale**: Connects to Okta to analyze users, groups, applications, assignments, and permissions, and to map Okta controls to compliance standards.[1]\n- **Abnormal Security**: Uses an API/OAuth integration with Okta to ingest and analyze behavioral signals from Okta for identity protection.[5]\n- **Okta React Native / OIDC SDKs**: Okta’s native libraries support adding authentication to mobile apps using the Authorization Code flow with PKCE.[4]\n- **Okta platform**: Okta itself provides SSO, MFA, user management, APIs, and SDKs for integration with third-party software.[3][7]\n\nIf you want, I can turn this into a **shortlist by use case** such as **SIEM/SOAR, cloud security, identity threat detection, or mobile app auth**.",
+  "cached_at": "2026-05-28T08:43:12Z",
+  "metadata": {}
+}

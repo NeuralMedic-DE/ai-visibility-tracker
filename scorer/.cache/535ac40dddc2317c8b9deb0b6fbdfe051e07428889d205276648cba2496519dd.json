@@ -1,0 +1,9 @@
+{
+  "brand": "Mailmodo",
+  "prompt_id": "CD-04",
+  "llm": "openai",
+  "prompt_text": "Best marketing automation platforms for send interactive AMP emails with embedded forms and survey widgets",
+  "response": "When looking for marketing automation platforms that support sending interactive AMP emails with embedded forms and survey widgets, you should consider the following options:\n\n1. **Mailchimp**: Known for its user-friendly interface, Mailchimp supports AMP for email, allowing you to create interactive elements like forms and surveys directly within your emails.\n\n2. **Sendinblue**: This platform offers a range of email marketing tools, including support for AMP emails. It allows you to create dynamic and interactive email content.\n\n3. **Stripo**: While primarily an email design tool, Stripo integrates with various email service providers and supports AMP emails. It allows you to design interactive emails that can include forms and surveys.\n\n4. **Amazon SES with AMP support**: If you have a more technical setup, Amazon SES can be configured to send AMP emails, but it requires more development work to implement interactive features like forms and surveys.\n\n5. **AWeber**: AWeber has been an early adopter of AMP for email, allowing users to create interactive emails with elements like forms and surveys.\n\n6. **Benchmark Email**: This platform supports AMP emails and provides tools to create interactive content, including forms and surveys, to engage your audience.\n\nWhen choosing a platform, ensure that it not only supports AMP for email but also provides the necessary tools and integrations to create and manage your interactive content effectively. Additionally, verify that your audience's email clients support AMP, as not all email clients do.",
+  "cached_at": "2026-05-28T07:34:59Z",
+  "metadata": {}
+}

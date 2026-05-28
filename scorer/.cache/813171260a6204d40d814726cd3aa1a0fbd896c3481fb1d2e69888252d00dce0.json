@@ -1,0 +1,9 @@
+{
+  "brand": "Workable",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Lever vs alternatives: what should I switch to?",
+  "response": "# Alternatives to Lever ATS\n\nWithout knowing your specific pain points, here are common switches and why:\n\n**If cost is the issue:**\n- Workable, Greenhouse, or SmartRecruiters (mid-market focus)\n- Ashby (modern, developer-friendly)\n- iCIMS or Taleo (enterprise scale)\n\n**If you want simplicity:**\n- Ashby, Workable (cleaner UX)\n- Notion/Airtable (if you're DIY-ing it)\n\n**If you need better integrations:**\n- Greenhouse (HubSpot, Slack ecosystems)\n- Workable (broad 3rd-party support)\n\n**If you're enterprise:**\n- Greenhouse, iCIMS, SAP SuccessFactors\n\n**What to consider:**\n- Migration pain (candidate data transfer, reporting history)\n- Team learning curve\n- Feature gaps you'd actually lose\n- Cost difference at your scale\n- How locked-in you are (data export policies)\n\n**Better question:** What specifically frustrates you about Lever? The answer usually points to the right alternative:\n- Slow hiring? → Ashby\n- Poor reporting? → Greenhouse\n- Too expensive? → Workable\n- Too enterprise? → Ashby/Workable\n\nWhat's driving the switch for you?",
+  "cached_at": "2026-05-28T06:46:06Z",
+  "metadata": {}
+}

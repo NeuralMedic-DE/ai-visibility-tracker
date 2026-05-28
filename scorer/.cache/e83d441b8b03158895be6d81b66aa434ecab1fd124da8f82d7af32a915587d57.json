@@ -1,0 +1,9 @@
+{
+  "brand": "Helicone",
+  "prompt_id": "IN-05",
+  "llm": "openai",
+  "prompt_text": "AI tooling tools with native OpenAI integration",
+  "response": "There are several AI tools and platforms that offer native integration with OpenAI's models, allowing users to leverage the capabilities of models like GPT-3 and GPT-4. Here are some popular ones:\n\n1. **Zapier**: Zapier offers integrations with OpenAI, allowing users to automate workflows and connect OpenAI's language models with thousands of other apps.\n\n2. **Microsoft Power Platform**: Through its partnership with OpenAI, Microsoft provides integration with OpenAI models in its Power Platform, including Power Automate and Power Apps.\n\n3. **Notion**: Notion AI, which integrates OpenAI's models, helps users with tasks like summarization, idea generation, and writing assistance directly within the Notion workspace.\n\n4. **Copy.ai**: This tool uses OpenAI's models to help users generate marketing copy, blog content, and other written materials.\n\n5. **Jasper**: Formerly known as Jarvis, Jasper uses OpenAI's models to assist with content creation, including blog posts, social media content, and more.\n\n6. **Replika**: This AI companion app uses OpenAI's models to engage users in conversation, providing a chatbot experience that feels more human-like.\n\n7. **ChatGPT Plugins**: OpenAI's own ChatGPT platform allows for plugin integration, enabling users to extend the functionality of the AI with various tools and services.\n\nThese tools typically provide user-friendly interfaces and additional features that enhance the capabilities of OpenAI's models, making them accessible for a wide range of applications.",
+  "cached_at": "2026-05-28T07:49:45Z",
+  "metadata": {}
+}

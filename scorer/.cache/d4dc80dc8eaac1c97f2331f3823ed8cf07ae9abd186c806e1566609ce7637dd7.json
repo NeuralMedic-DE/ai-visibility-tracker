@@ -1,0 +1,9 @@
+{
+  "brand": "Pilot",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which finance software should a Founder/CEO or CFO at a venture-backed startup use?",
+  "response": "# Finance Software for Venture-Backed Startups\n\nThe best choice depends on your stage and complexity, but here's the practical breakdown:\n\n## **Core Accounting (Essential)**\n- **Quickbooks Online** - Most common, integrates well, familiar to accountants\n- **Xero** - Growing favorite, better UX, good for multi-currency\n- **Netsuite** - If you're scaling rapidly or have complex operations (but pricier)\n\n## **Cash/Forecasting (Often More Important)**\n- **Mosaic** or **Wdesk** - Purpose-built for startup CFOs, handles projections/scenarios\n- **PlanGuru** or **Vena** - FP&A tools built on spreadsheet familiarity\n- **Carta** - Specifically for cap table + financial visibility\n\n## **Practical Recommendation**\n\n**Early stage (seed/Series A):** QuickBooks Online + a good spreadsheet template (or basic Mosaic)\n- Keep it simple while growing\n\n**Series B+:** QuickBooks/Xero + dedicated FP&A tool (Mosaic, Wdesk, or Vena)\n- Investors want rolling forecasts and scenario analysis\n- Your board needs reliable dashboards\n\n## **Key Decision Factors**\n- Will you raise capital soon? (Investors want clean books + forecasts)\n- Multi-currency/international? (Xero wins)\n- Complexity of revenue model? (More complex = need better FP&A)\n- Your accountant's preference? (They'll prefer what they know)\n\n**Most common path:** QBO + spreadsheets → Add Mosaic/Carta as you scale\n\nWhat stage are you at?",
+  "cached_at": "2026-05-28T07:02:20Z",
+  "metadata": {}
+}

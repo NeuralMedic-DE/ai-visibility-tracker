@@ -1,0 +1,9 @@
+{
+  "brand": "Copper",
+  "prompt_id": "IN-04",
+  "llm": "anthropic",
+  "prompt_text": "Best CRM that works with Google Workspace and Slack",
+  "response": "# Top CRMs for Google Workspace + Slack Integration\n\n## **Best Overall: Pipedrive**\n- **Google Workspace**: Native integration (Gmail, Calendar, Drive)\n- **Slack**: Full two-way sync, deal notifications, activity logging\n- **Why it works**: Lightweight, sales-focused, seamless workflow\n- **Cost**: From $14/user/month\n\n## **Best for Enterprises: HubSpot**\n- **Google Workspace**: Complete integration (email, calendar, contacts)\n- **Slack**: Chat sync, notifications, deal updates\n- **Why it works**: Powerful automation, free tier available\n- **Cost**: Free tier + paid plans from $45/month\n\n## **Best for Teams: Notion CRM (+ Zapier)**\n- **Google Workspace**: Native support\n- **Slack**: Via Zapier automation\n- **Why it works**: Highly customizable, affordable\n- **Cost**: $10/user/month\n\n## **Best Alternative: Copper**\n- **Google Workspace**: Deeply integrated (sits inside Gmail)\n- **Slack**: Native integration with notifications\n- **Why it works**: Purpose-built for Google Workspace\n- **Cost**: From $25/user/month\n\n## **Quick Comparison**\n\n| CRM | Best For | Setup Time |\n|-----|----------|-----------|\n| **Pipedrive** | Sales teams | Quick |\n| **HubSpot** | Marketing + Sales | Medium |\n| **Copper** | Google-first orgs | Fast |\n| **Notion** | Budget-conscious | Flexible |\n\n**My recommendation**: Start with **Pipedrive** or **HubSpot** — both offer free trials and work flawlessly with your tech stack.\n\nWhat's your team size and main use case?",
+  "cached_at": "2026-05-27T18:24:27Z",
+  "metadata": {}
+}

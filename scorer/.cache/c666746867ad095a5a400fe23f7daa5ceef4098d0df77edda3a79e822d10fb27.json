@@ -1,0 +1,9 @@
+{
+  "brand": "Instantly",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Instantly integrate with HubSpot?",
+  "response": "Yes. **Instantly has a native integration with HubSpot**, and you can also connect them via tools like Zapier, Albato, Integrately, and OutboundSync for deeper automation and logging.[1][2][3][4][6][7]\n\nEssential details:\n\n- **Native Instantly–HubSpot integration:** In Instantly, go to **Settings → Integrations → Connect HubSpot**, authorize via OAuth, and you can then **import HubSpot contacts/lists directly into Instantly campaigns** with field mapping and deduplication.[1][2]  \n- **Two‑way sync & automation:** The integration supports **syncing leads, lists, and certain events between HubSpot and Instantly**, including triggering Instantly workflows from HubSpot events and sending key outreach outcomes back to HubSpot using native connectors or webhooks.[2]  \n- **Enhanced setups (optional):**  \n  - **Zapier, Albato, Integrately:** No‑code platforms that let you build workflows such as “new HubSpot contact → add to Instantly campaign” or “reply in Instantly → update HubSpot contact/deal.”[3][4][6]  \n  - **OutboundSync:** Adds **deep activity logging** (sends, opens, clicks, bounces, replies, status changes) from Instantly into the HubSpot contact timeline, beyond what the native integration covers.[1][7]  \n\nIf you tell me what you specifically want (e.g., “import lists only” vs. “full activity logging back to HubSpot”), I can outline the exact setup steps.",
+  "cached_at": "2026-05-28T07:20:32Z",
+  "metadata": {}
+}

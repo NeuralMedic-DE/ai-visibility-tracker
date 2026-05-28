@@ -1,0 +1,9 @@
+{
+  "brand": "Raycast",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with search documentation code snippets and teammates without leaving the keyboard at scale?",
+  "response": "# Software for Code Search & Documentation at Scale\n\n## Best Options:\n\n### **IDE/Editor Built-ins**\n- **VS Code** - Integrated search, command palette, extensions for code navigation\n- **JetBrains IDEs** (IntelliJ, PyCharm) - Advanced search, symbol navigation, local history\n- **Neovim/Vim** - With plugins like `telescope.nvim` for fuzzy finding\n\n### **Dedicated Code Search Tools**\n- **Sourcegraph** - Enterprise code search across repos; CLI tool available\n- **Ripgrep (rg)** - Blazingly fast grep alternative; keyboard-friendly CLI\n- **Universal Ctags** - Symbol indexing and navigation\n- **fzf** - Fuzzy finder for shell integration\n\n### **Team/Documentation Focused**\n- **Slack integrations** (Slackbot, custom bots) - Search without leaving chat\n- **Confluence CLI tools** - Command-line documentation access\n- **GitHub CLI (gh)** - Search repos, issues, code without browser\n- **OpenGrok** - Self-hosted code search engine\n\n### **AI-Assisted Options**\n- **GitHub Copilot** - Code context & documentation in editor\n- **Tabnine** - Local code search + completion\n- **Codeium** - Similar to Copilot, keyboard-centric\n\n## Recommended Stack:\n- **ripgrep** + **fzf** for quick local searching\n- **Sourcegraph** for team-wide code discovery\n- **IDE shortcuts** + plugin ecosystem for context-aware navigation\n\n**What's your primary use case?** (solo dev, team coordination, documentation lookup?) I can narrow recommendations.",
+  "cached_at": "2026-05-28T06:25:24Z",
+  "metadata": {}
+}

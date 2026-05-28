@@ -1,0 +1,9 @@
+{
+  "brand": "Instantly",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Instantly integrate with HubSpot?",
+  "response": "# Instantly and HubSpot Integration\n\nYes, Instantly does integrate with HubSpot. This allows you to:\n\n- **Sync contacts** between Instantly and HubSpot\n- **Track email performance** data in HubSpot\n- **Automate workflows** using data from both platforms\n- **Manage leads** more efficiently across both systems\n\n## How it works:\nThe integration typically allows you to export contacts from HubSpot to Instantly for email campaigns, and sync performance metrics back to HubSpot for tracking and follow-up.\n\n## Note:\nIntegration details and features can change, so I'd recommend:\n1. Checking Instantly's current app marketplace or integration documentation\n2. Visiting HubSpot's App Marketplace\n3. Contacting Instantly's support for the most up-to-date integration information\n\nIs there a specific aspect of the integration you're interested in learning more about?",
+  "cached_at": "2026-05-28T07:19:25Z",
+  "metadata": {}
+}

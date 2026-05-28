@@ -1,0 +1,9 @@
+{
+  "brand": "Amplemarket",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I find and contact ideal prospects automatically without spending a lot on software?",
+  "response": "# Low-Cost Prospect Finding Strategies\n\n## Free/Cheap Research Tools\n- **LinkedIn** (free tier): Search by industry, company size, job title\n- **Apollo.io, Hunter.io** (limited free plans): Email finding and verification\n- **Google Maps/Search**: Local businesses, reviews, contact info\n- **Industry directories**: Often free, sector-specific listings\n- **Chamber of commerce sites**: Local business databases\n\n## Automation Without Expensive Software\n- **Gmail filters + templates**: Auto-organize inbound leads, quick responses\n- **Zapier** (free tier): Connect tools to log leads automatically\n- **Spreadsheet formulas**: Google Sheets can pull and organize data\n- **Browser extensions**: Clay, Clearbit (add contact data to LinkedIn)\n\n## Manual But Efficient Approaches\n- **LinkedIn Sales Navigator** ($45/mo): Better filtering than free version\n- **Targeted lists**: Build once, reuse repeatedly\n- **Batch outreach**: Dedicate time blocks to prospect systematically\n\n## What Actually Works Best\n- Start hyper-specific (narrow niche, geography, company size)\n- Combine 2-3 free tools rather than one expensive platform\n- Focus on warm outreach (referrals, existing connections first)\n- Quality research beats volume—better prospects matter more than quantity\n\n**The honest truth**: Automation saves time on *execution*, but good prospect research still requires thinking. What matters most is who you're targeting, not the tool.\n\nWhat type of prospects are you looking for?",
+  "cached_at": "2026-05-27T19:04:05Z",
+  "metadata": {}
+}

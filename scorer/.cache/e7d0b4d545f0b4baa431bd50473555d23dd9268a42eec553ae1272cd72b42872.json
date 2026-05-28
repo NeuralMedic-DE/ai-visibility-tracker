@@ -1,0 +1,9 @@
+{
+  "brand": "Metabase",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Tableau vs alternatives: what should I switch to?",
+  "response": "# Tableau Alternatives: Quick Decision Framework\n\n## Main contenders by use case:\n\n**For self-service analytics (most common switch)**\n- **Power BI** – best all-around alternative\n  - Cheaper licensing (~$10-20/user vs Tableau's $70+)\n  - Tighter Excel/Microsoft integration\n  - Faster for basic dashboards\n  - Weaker: less sophisticated visualizations, smaller ecosystem\n\n- **Looker** – if you're Google Cloud-heavy\n  - Embedded analytics strength\n  - LookML has steep learning curve\n  - Pricey despite acquisition\n\n**For data exploration**\n- **Apache Superset** – open-source, DIY hosting\n  - Free but requires engineering resources\n  - Limited interactivity compared to Tableau\n\n**For modern, code-friendly orgs**\n- **Metabase** – lightweight, simpler open-source option\n- **Evidence** / **Evidence.dev** – SQL + markdown, git-friendly\n\n**For embedded analytics**\n- **Grafana** – monitoring/real-time focus\n- **Qlik Sense** – associative engine is genuinely different\n\n## What's actually pushing people away:\n\n1. **Cost creep** (main reason)\n2. Licensing complexity (Tableau Creator vs Explorer)\n3. Row-level security friction\n4. Infrastructure overhead\n\n## My honest take:\n\n- **Switching costs are real** – dashboard recreation, training, workflow changes\n- **Power BI wins on cost**, rarely loses on capability for typical BI\n- **Don't switch just to switch** – identify your actual pain point first\n\nWhat's driving your consideration? Cost, capability gap, or something else?",
+  "cached_at": "2026-05-27T20:08:28Z",
+  "metadata": {}
+}

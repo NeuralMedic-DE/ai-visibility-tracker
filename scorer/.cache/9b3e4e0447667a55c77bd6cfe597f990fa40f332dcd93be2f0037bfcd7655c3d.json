@@ -1,0 +1,9 @@
+{
+  "brand": "Retool",
+  "prompt_id": "AL-02",
+  "llm": "openai",
+  "prompt_text": "Cheaper alternatives to Budibase",
+  "response": "If you're looking for cheaper alternatives to Budibase, which is a low-code platform for building internal tools, you might consider the following options:\n\n1. **Appsmith**: An open-source platform that allows you to build custom internal tools quickly. It offers a free tier and is generally considered cost-effective.\n\n2. **Retool**: While Retool can be on the pricier side, it offers a free version for small teams and startups, which might fit your budget depending on your needs.\n\n3. **Internal.io**: This platform provides a straightforward way to build internal tools and offers a free tier for small teams.\n\n4. **NocoDB**: An open-source alternative that turns your database into a smart spreadsheet, allowing for easy creation of internal tools without much cost.\n\n5. **ToolJet**: Another open-source platform that helps build internal tools quickly and efficiently, with a focus on being budget-friendly.\n\n6. **Softr**: While primarily used for building web apps from Airtable, it can be a cost-effective solution for certain types of internal tools.\n\n7. **Jet Admin**: Offers a free tier and is designed for building internal tools with a focus on ease of use and integration.\n\nThese platforms vary in terms of features, ease of use, and pricing, so it would be beneficial to evaluate them based on your specific requirements and budget constraints.",
+  "cached_at": "2026-05-27T20:54:18Z",
+  "metadata": {}
+}

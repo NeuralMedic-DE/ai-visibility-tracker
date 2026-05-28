@@ -1,0 +1,9 @@
+{
+  "brand": "Help Scout",
+  "prompt_id": "AL-05",
+  "llm": "openai",
+  "prompt_text": "Open source or affordable customer support tools instead of Zendesk",
+  "response": "There are several open-source and affordable customer support tools you can consider as alternatives to Zendesk. Here are a few options:\n\n1. **Freshdesk**: Offers a free plan with basic features and affordable paid plans. It's user-friendly and includes features like ticketing, automation, and reporting.\n\n2. **Zoho Desk**: Provides a free plan for up to three agents and affordable pricing for additional features. It integrates well with other Zoho products.\n\n3. **Help Scout**: While not open-source, it offers affordable plans and focuses on providing a personalized customer support experience.\n\n4. **osTicket**: An open-source ticketing system that is free to use. It includes features like ticket filters, auto-responses, and a customizable customer portal.\n\n5. **Zammad**: An open-source helpdesk and support system with features like ticket management, reporting, and integration capabilities.\n\n6. **Hesk**: A lightweight, open-source help desk software that is easy to set up and use. It offers basic ticketing features and a knowledge base.\n\n7. **Crisp**: Offers a free plan with live chat and basic features. Paid plans include more advanced features like automated messaging and integrations.\n\n8. **Tawk.to**: A free live chat application that also offers ticketing and knowledge base features. It is ad-supported but provides a robust set of tools for customer support.\n\nThese tools vary in terms of features and pricing, so it's a good idea to evaluate them based on your specific needs and budget.",
+  "cached_at": "2026-05-28T08:19:25Z",
+  "metadata": {}
+}

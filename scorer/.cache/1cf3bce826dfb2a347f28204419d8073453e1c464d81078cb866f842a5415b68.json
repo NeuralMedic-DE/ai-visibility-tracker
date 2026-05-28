@@ -1,0 +1,9 @@
+{
+  "brand": "Intercom",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Intercom integrate with Salesforce?",
+  "response": "Yes, Intercom integrates with Salesforce. This integration allows you to sync data between the two platforms, enabling you to view and manage customer interactions and information seamlessly. With the integration, you can push Intercom conversations and user data into Salesforce, and vice versa, helping sales and support teams to have a more comprehensive view of customer interactions. This can improve customer relationship management and streamline workflows across both platforms.",
+  "cached_at": "2026-05-28T08:01:48Z",
+  "metadata": {}
+}

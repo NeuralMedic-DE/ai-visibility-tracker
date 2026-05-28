@@ -1,0 +1,9 @@
+{
+  "brand": "Sentry",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with monitor application performance and response latency at scale?",
+  "response": "There are several software tools designed to monitor application performance and response latency at scale. Some of the most popular ones include:\n\n1. **New Relic**: Offers comprehensive monitoring for applications, infrastructure, and customer experience, providing insights into performance and latency.\n\n2. **Datadog**: Provides end-to-end visibility across your applications and infrastructure, with features for monitoring performance metrics and latency.\n\n3. **Dynatrace**: Uses AI to deliver precise answers about application performance, infrastructure, and user experience, helping to identify latency issues.\n\n4. **AppDynamics**: Offers application performance monitoring with real-time business transaction insights, allowing you to track response times and performance bottlenecks.\n\n5. **Prometheus with Grafana**: An open-source monitoring solution that collects metrics from configured targets and displays them in a user-friendly way using Grafana dashboards.\n\n6. **Splunk**: Provides operational intelligence and monitoring capabilities, including application performance monitoring and latency tracking.\n\n7. **Elastic Observability (ELK Stack)**: Uses Elasticsearch, Logstash, and Kibana to monitor and analyze application performance and latency metrics.\n\n8. **Zabbix**: An open-source monitoring tool that provides detailed monitoring capabilities for applications, networks, and servers.\n\nThese tools can help you monitor applications at scale, providing insights into performance issues and helping you optimize response times.",
+  "cached_at": "2026-05-27T21:16:01Z",
+  "metadata": {}
+}

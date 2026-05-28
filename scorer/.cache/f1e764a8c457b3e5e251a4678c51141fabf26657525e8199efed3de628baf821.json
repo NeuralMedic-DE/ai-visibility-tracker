@@ -1,0 +1,9 @@
+{
+  "brand": "Folk",
+  "prompt_id": "AL-02",
+  "llm": "openai",
+  "prompt_text": "Cheaper alternatives to Attio",
+  "response": "If you're looking for cheaper alternatives to Attio, a CRM platform, there are several options you might consider depending on your specific needs and budget. Here are a few:\n\n1. **HubSpot CRM**: Offers a free version with basic features, which can be a good starting point for small businesses.\n\n2. **Zoho CRM**: Provides a free tier for up to 3 users, with affordable paid plans that offer more features.\n\n3. **Agile CRM**: Has a free plan for up to 10 users, and its paid plans are competitively priced.\n\n4. **Freshsales (by Freshworks)**: Offers a free plan with essential features and reasonably priced paid plans.\n\n5. **Bitrix24**: Provides a free plan with a wide range of features and affordable upgrades.\n\n6. **Insightly**: Offers a free plan for up to 2 users, with paid plans that add more functionality.\n\n7. **Streak CRM**: A CRM integrated with Gmail, offering a free plan with basic features and affordable paid options.\n\nEach of these alternatives has its own strengths and weaknesses, so it’s a good idea to evaluate them based on your specific requirements, such as the number of users, integrations, and specific features you need.",
+  "cached_at": "2026-05-27T18:51:03Z",
+  "metadata": {}
+}

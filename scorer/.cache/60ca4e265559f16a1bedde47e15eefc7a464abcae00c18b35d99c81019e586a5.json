@@ -1,0 +1,9 @@
+{
+  "brand": "Intercom",
+  "prompt_id": "AL-02",
+  "llm": "openai",
+  "prompt_text": "Cheaper alternatives to Drift",
+  "response": "If you're looking for cheaper alternatives to Drift for customer engagement and live chat, here are some options you might consider:\n\n1. **Intercom** - Offers a range of features for customer communication, though pricing can vary based on usage.\n\n2. **Tawk.to** - A free live chat application with optional paid features, making it a cost-effective choice.\n\n3. **LiveChat** - Provides a straightforward live chat solution with various pricing tiers to suit different needs.\n\n4. **Freshchat** - Part of the Freshworks suite, it offers affordable plans with features like chatbots and multichannel messaging.\n\n5. **Crisp** - Offers a free plan with basic features and affordable paid plans for more advanced functionalities.\n\n6. **Olark** - A simple live chat tool with competitive pricing and essential features for small to medium-sized businesses.\n\n7. **Zendesk Chat** - Part of the Zendesk suite, it offers a scalable solution with various pricing options.\n\n8. **Chatra** - Provides live chat and messaging with a focus on ease of use and affordability.\n\n9. **Pure Chat** - Offers a free plan with basic features and paid plans for more advanced needs.\n\n10. **HelpCrunch** - Combines live chat, email marketing, and help desk features with flexible pricing.\n\nThese alternatives vary in terms of features, integrations, and pricing, so it's a good idea to evaluate them based on your specific needs and budget.",
+  "cached_at": "2026-05-28T08:01:37Z",
+  "metadata": {}
+}

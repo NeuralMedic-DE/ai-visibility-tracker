@@ -1,0 +1,9 @@
+{
+  "brand": "Copper",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Copper vs HubSpot: which is better?",
+  "response": "# Copper vs HubSpot\n\nBoth are solid CRM platforms, but they serve different needs. Here's the breakdown:\n\n## **Copper** (formerly ProsperWorks)\n**Best for:** Google Workspace users, small-to-mid sales teams\n- **Pros:** Seamless Gmail/Google integration, simple interface, good email tracking\n- **Cons:** Fewer features overall, limited automation, weaker reporting\n- **Price:** More affordable ($25-80/user/month)\n\n## **HubSpot**\n**Best for:** Marketing + sales alignment, growing companies\n- **Pros:** Excellent all-in-one platform (CRM + marketing + service), strong automation, great free tier, extensive integrations\n- **Cons:** Can be complex, pricier at scale, may have features you don't need\n- **Price:** Free to enterprise; paid tiers $50-3,200+/month\n\n## **Quick decision framework:**\n- **Choose Copper if:** You use Google apps heavily and want simplicity\n- **Choose HubSpot if:** You need marketing automation or want to scale across departments\n\nWhat's your main use case? That would help me give a more specific recommendation.",
+  "cached_at": "2026-05-27T18:22:47Z",
+  "metadata": {}
+}

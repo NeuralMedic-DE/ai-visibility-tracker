@@ -1,0 +1,9 @@
+{
+  "brand": "ChurnZero",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect ChurnZero with Salesforce?",
+  "response": "# Connecting ChurnZero with Salesforce\n\nHere's how to set up the integration:\n\n## Basic Setup Steps\n\n1. **In ChurnZero:**\n   - Go to **Settings** → **Integrations** → **Salesforce**\n   - Click **Connect to Salesforce**\n\n2. **Authorize the Connection:**\n   - You'll be redirected to Salesforce to log in\n   - Review and approve the permissions ChurnZero is requesting\n   - Confirm the connection\n\n3. **Configure Field Mappings:**\n   - Map ChurnZero fields to corresponding Salesforce fields\n   - Common mappings include:\n     - Accounts → Accounts\n     - Contacts → Contacts\n     - Custom objects as needed\n\n4. **Enable Data Sync:**\n   - Choose which data flows bidirectionally\n   - Set sync frequency (real-time or scheduled)\n   - Select which objects to sync\n\n## Key Considerations\n\n- **Permissions**: Ensure your Salesforce user has appropriate API access\n- **Field Mapping**: Plan which ChurnZero data you want in Salesforce\n- **Data Volume**: Understand sync limitations based on your Salesforce edition\n- **Testing**: Start with a test org before production\n\n## Need More Help?\n\n- Check [ChurnZero's official documentation](https://support.churnzero.net)\n- Contact ChurnZero support for specific configuration issues\n- Verify Salesforce API is enabled in your org\n\nAre you running into any specific issues with the connection?",
+  "cached_at": "2026-05-28T08:07:03Z",
+  "metadata": {}
+}

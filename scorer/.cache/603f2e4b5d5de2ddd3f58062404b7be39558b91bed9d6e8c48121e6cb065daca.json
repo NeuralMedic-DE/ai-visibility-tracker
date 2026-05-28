@@ -1,0 +1,9 @@
+{
+  "brand": "Planhat",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best customer success for enterprise SaaS CS and RevOps teams managing complex customer portfolios?",
+  "response": "# Best Practices for Enterprise SaaS CS & RevOps\n\n## Segmentation & Prioritization\n\n**Account tiering is foundational:**\n- Segment by ARR, growth trajectory, churn risk, and expansion potential\n- Assign resources proportionally (e.g., dedicated CSMs for top 20%, group management for mid-market)\n- Use predictive analytics to identify at-risk accounts early\n\n## Cross-Functional Alignment\n\n**CS-RevOps integration prevents silos:**\n- Unified data model (single source of truth for account health)\n- Shared KPIs: NRR, CAC payback, LTV, expansion pipeline\n- Weekly/biweekly sync on at-risk accounts and expansion opportunities\n- RevOps owns reporting; CS owns execution\n\n## Playbooks & Processes\n\n**Reduce decision fatigue with battle-tested playbooks:**\n- Onboarding playbooks (Day 1, 30-60-90 days)\n- Health scoring (quantified red/yellow/green statuses)\n- Escalation procedures (CS → exec sponsor)\n- Win-back/churn prevention sequences\n\n## Technology Stack\n\n**Automation enables scale:**\n- CSM platform (Gainsight, Totango, Catalyst)\n- CRM integration (Salesforce)\n- Usage monitoring/product telemetry\n- Automated health dashboards\n- AI-driven risk scoring\n\n## Metrics That Matter\n\n- **NRR** (expansion efficiency)\n- **CAC payback period** (unit economics)\n- **Churn rate by cohort** (leading indicator)\n- **CSM productivity** (accounts/CSM, revenue managed)\n- **Time to value** (engagement velocity)\n\n**What's your biggest bottleneck right now?** That would help me give more targeted recommendations.",
+  "cached_at": "2026-05-28T08:11:47Z",
+  "metadata": {}
+}

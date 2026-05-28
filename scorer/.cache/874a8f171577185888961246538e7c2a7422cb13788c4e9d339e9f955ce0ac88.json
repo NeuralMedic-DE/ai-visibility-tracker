@@ -1,0 +1,9 @@
+{
+  "brand": "Paddle",
+  "prompt_id": "IN-04",
+  "llm": "perplexity",
+  "prompt_text": "Best billing that works with Stripe and PayPal",
+  "response": "The **best billing platform that works with both Stripe and PayPal** is usually **Chargebee** or **Zoho Billing**, depending on whether you need advanced subscriptions or simpler invoicing. Stripe and PayPal both support recurring billing and invoicing, but Stripe is generally stronger for flexible subscription and billing workflows, while PayPal is commonly used for straightforward checkout and invoicing.[1][2][4]\n\n- **Chargebee** is the strongest fit if you need **subscription billing**, proration, dunning, metered billing, and support for multiple payment gateways including Stripe and PayPal.  \n- **Zoho Billing** is a good fit if you want **invoicing + subscriptions + automation** with a simpler setup and lower complexity.  \n- If you only need a **payment gateway** rather than a billing platform, Stripe and PayPal themselves already cover recurring billing and invoices.[1][2][4]\n\nIf you want the simplest recommendation:\n- **For SaaS/subscriptions:** **Chargebee**\n- **For small business invoicing:** **Zoho Billing**\n- **For developer-heavy custom billing:** **Stripe + a billing layer like Chargebee**\n\nIf you want, I can narrow this to the **best option for your exact use case**:\n- SaaS subscriptions\n- one-time invoices\n- marketplace payouts\n- memberships\n- digital products",
+  "cached_at": "2026-05-28T07:02:01Z",
+  "metadata": {}
+}

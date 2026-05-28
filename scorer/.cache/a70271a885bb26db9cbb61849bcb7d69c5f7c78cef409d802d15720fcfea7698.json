@@ -1,0 +1,9 @@
+{
+  "brand": "Drata",
+  "prompt_id": "IN-03",
+  "llm": "openai",
+  "prompt_text": "How do I connect Drata with GitHub?",
+  "response": "To connect Drata with GitHub, you'll need to follow these general steps:\n\n1. **Log in to Drata**: Start by logging into your Drata account.\n\n2. **Navigate to Integrations**: Once logged in, go to the \"Integrations\" section. This is usually found in the main dashboard or settings menu.\n\n3. **Select GitHub**: Look for GitHub in the list of available integrations. Drata supports various integrations, so you might need to scroll or search to find GitHub.\n\n4. **Authorize Drata**: Click on the GitHub integration, and you will be prompted to authorize Drata to access your GitHub account. This typically involves redirecting you to GitHub's website, where you need to log in and grant the necessary permissions.\n\n5. **Configure the Integration**: After authorization, you may need to configure specific settings, such as selecting which repositories Drata should monitor or access. Follow the on-screen instructions to complete this setup.\n\n6. **Verify the Connection**: Once configured, Drata should start syncing data from GitHub. You can verify the connection by checking if Drata is pulling in the expected data from your GitHub repositories.\n\nIf you encounter any issues during this process, refer to Drata's documentation or support for more detailed instructions tailored to their current interface and features.",
+  "cached_at": "2026-05-28T08:28:58Z",
+  "metadata": {}
+}

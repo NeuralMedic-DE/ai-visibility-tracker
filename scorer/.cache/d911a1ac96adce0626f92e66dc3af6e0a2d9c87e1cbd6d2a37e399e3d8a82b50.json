@@ -1,0 +1,9 @@
+{
+  "brand": "Linear",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best project management for software development teams at fast-growing companies?",
+  "response": "# Practical PM Approaches for Fast-Growing Teams\n\n## Best fit depends on your specifics, but consider:\n\n**Scrum/Kanban hybrids** often work well because they:\n- Give structure without excessive ceremony\n- Scale better than pure Kanban as team size grows\n- Allow flexibility when priorities shift (common in growth phases)\n\n**Key priorities to prioritize:**\n\n1. **Visibility over process perfection**\n   - Simple tracking beats elaborate systems nobody maintains\n   - Clear status > detailed documentation when moving fast\n\n2. **Asynchronous-first practices**\n   - Standup notes instead of meetings when distributed\n   - Reduces coordination tax as headcount grows\n\n3. **Ruthless prioritization**\n   - Rapid growth creates unlimited feature requests\n   - You need clear frameworks (RICE, value/effort matrix) to say no\n\n4. **Onboarding rituals**\n   - New hires come constantly—document your process itself\n   - This becomes your PM tool's greatest value\n\n## What often fails:\n- Heavy process (Waterfall, extensive Jira configs) slows you down\n- No process leads to chaos once you pass ~15 engineers\n- Copying the system from your previous company—context matters\n\n**Most practical starting point:** lightweight Scrum (2-week sprints) + Kanban backlog, with emphasis on async communication and clear ownership.\n\nWhat's your current team size and biggest pain point?",
+  "cached_at": "2026-05-27T21:06:44Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Apollo.io",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with automate cold email sequences at scale?",
+  "response": "There are several software tools available that can help automate cold email sequences at scale. Some popular options include:\n\n1. **Mailshake**: This tool is designed specifically for cold email outreach and allows you to automate email sequences, track engagement, and manage responses.\n\n2. **Lemlist**: Known for its personalization features, Lemlist helps automate email sequences while allowing you to customize emails to increase engagement.\n\n3. **Reply.io**: This platform offers email automation along with multi-channel outreach capabilities, including LinkedIn and calls.\n\n4. **Woodpecker**: Woodpecker is designed for B2B cold email campaigns and provides features for personalization, automation, and follow-ups.\n\n5. **SalesLoft**: Primarily a sales engagement platform, SalesLoft includes features for automating email sequences and tracking interactions.\n\n6. **Outreach**: This is a comprehensive sales engagement platform that includes tools for automating and managing email sequences.\n\n7. **HubSpot Sales Hub**: Part of the HubSpot CRM, it offers email automation features along with a suite of sales tools.\n\n8. **ActiveCampaign**: While known for marketing automation, ActiveCampaign also provides features for automating cold email sequences.\n\nWhen selecting a tool, consider factors such as ease of use, integration with your existing systems, personalization capabilities, and pricing to find the best fit for your needs.",
+  "cached_at": "2026-05-27T18:02:47Z",
+  "metadata": {}
+}

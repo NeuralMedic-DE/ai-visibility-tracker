@@ -1,0 +1,9 @@
+{
+  "brand": "Drip",
+  "prompt_id": "UC-05",
+  "llm": "perplexity",
+  "prompt_text": "What software helps with build revenue-generating workflows for cart abandonment and win-back campaigns at scale?",
+  "response": "Software that helps build **revenue-generating workflows** for **cart abandonment** and **win-back** campaigns at scale includes **Omnisend**, **Mailchimp**, **Klaviyo**, **ActiveCampaign**, **Drip**, **CartStack**, and **Remarkety**. These tools support automated, multistep campaigns triggered by customer behavior, often across **email**, **SMS**, and sometimes **push** or other channels.[1][3][4][5][6][7]\n\nA few strong fits from the results are:\n\n- **Omnisend** — offers pre-built abandoned cart and checkout automations designed to automatically detect cart drop-off and send recovery messages.[6]\n- **Mailchimp** — lets you build abandoned cart workflows from scratch or from templates, including email and SMS flows.[3]\n- **CartStack** — described as a robust cart abandonment platform for multichannel recovery.[1]\n- **Klaviyo** — commonly used for abandoned cart email and broader lifecycle automation.[4][9]\n- **ActiveCampaign** — included in software roundups for cart-abandonment automation and marketing workflows.[4]\n- **Drip** — its abandoned cart automations live in workflows and are positioned as ecommerce-focused automation.[5]\n- **Remarkety** — listed as an email marketing automation option for cart-abandonment campaigns.[1]\n\nIf you want the shortest answer, **Omnisend** and **Mailchimp** are the clearest “build-it-fast” options for abandoned cart workflows, while **CartStack** is the most directly positioned for multichannel cart recovery at scale.[1][3][6]",
+  "cached_at": "2026-05-28T07:34:22Z",
+  "metadata": {}
+}

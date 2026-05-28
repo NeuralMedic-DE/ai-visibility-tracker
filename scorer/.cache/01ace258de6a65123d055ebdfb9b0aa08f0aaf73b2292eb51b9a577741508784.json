@@ -1,0 +1,9 @@
+{
+  "brand": "Prefect",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with migrate from Airflow to a modern lightweight orchestration platform without rewrites at scale?",
+  "response": "To migrate from Apache Airflow to a modern, lightweight orchestration platform without extensive rewrites, you might consider using **Prefect**. Prefect is designed to be compatible with Airflow concepts and can often run existing Airflow DAGs with minimal changes. It provides a more modern architecture, with features like a Pythonic API, dynamic task mapping, and a cloud-native approach that can simplify scaling and management.\n\nAnother option is **Dagster**, which also offers a modern take on data orchestration with a focus on data asset management and observability. While Dagster might require more adjustments than Prefect, it provides robust tooling for data pipelines and can integrate with existing Airflow setups.\n\nBoth Prefect and Dagster aim to reduce the complexity and overhead associated with Airflow, while offering improved developer experience and scalability. However, the extent of the migration effort will depend on the specific features and customizations used in your Airflow setup.",
+  "cached_at": "2026-05-28T09:11:14Z",
+  "metadata": {}
+}

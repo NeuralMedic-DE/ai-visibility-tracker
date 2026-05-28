@@ -1,0 +1,9 @@
+{
+  "brand": "Anecdotes",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Anecdotes Okta integration: how does it work?",
+  "response": "# Okta Integration with Anecdotes\n\nI don't have specific information about an \"Anecdotes Okta integration\" in my training data. However, I can explain how Okta integrations typically work, and this likely applies:\n\n## General Okta Integration Pattern\n\n**Okta** is an identity and access management (IAM) platform that typically integrates with apps through:\n\n### Common Methods:\n\n1. **SAML 2.0 or OpenID Connect (OIDC)**\n   - Okta acts as an identity provider\n   - Users authenticate via Okta\n   - Credentials/tokens passed to the connected app\n\n2. **API Integration**\n   - Direct API calls between Okta and the application\n   - Used for provisioning, user management, or data sync\n\n3. **Directory Sync**\n   - Okta syncs user directory information to the app\n   - Automated user creation/deactivation\n\n## What You Likely Get:\n\n- Single Sign-On (SSO)\n- Automatic user provisioning\n- Centralized access control\n- Audit logging\n\n## Next Steps:\n\nCould you clarify:\n- **What is \"Anecdotes\"?** (a specific SaaS product, internal tool, or something else?)\n- **What you're trying to accomplish?** (SSO, user sync, etc.)\n- **Where you found mention of this integration?** (documentation, Okta marketplace, etc.)\n\nThis would help me give you more targeted information!",
+  "cached_at": "2026-05-28T08:36:30Z",
+  "metadata": {}
+}

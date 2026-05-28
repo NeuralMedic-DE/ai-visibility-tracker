@@ -1,0 +1,9 @@
+{
+  "brand": "Drata",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Drata integrate with GitHub?",
+  "response": "# Drata and GitHub Integration\n\nDrata does **not have a direct native integration with GitHub** for compliance and security automation purposes.\n\nHowever, there are a few ways they can work together:\n\n1. **Indirect connections** - You might be able to connect GitHub through third-party automation tools like Zapier or Make (formerly Integromat), though this would have limitations\n\n2. **Manual documentation** - You can document GitHub security practices and export evidence for Drata's compliance frameworks\n\n3. **API possibilities** - Depending on your specific use case, there might be custom integration options\n\n## What Drata Does Integrate With\n\nDrata has native integrations with tools like:\n- AWS, Google Cloud, Azure\n- Okta, Microsoft 365\n- Various other SaaS applications\n\nIf GitHub integration is important for your compliance needs, I'd recommend:\n- **Contacting Drata directly** to confirm current integration status\n- **Checking their integration marketplace** for the latest updates\n- **Exploring alternative tools** if GitHub integration is critical for your workflow\n\nIs there a specific compliance or security task you're trying to accomplish with GitHub and Drata?",
+  "cached_at": "2026-05-28T08:29:05Z",
+  "metadata": {}
+}

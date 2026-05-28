@@ -1,0 +1,9 @@
+{
+  "brand": "PostHog",
+  "prompt_id": "CD-02",
+  "llm": "anthropic",
+  "prompt_text": "Top open-source product analytics platform for developer teams tools in 2025",
+  "response": "# Top Open-Source Product Analytics Platforms for Developers (2025)\n\n## 1. **PostHog**\n**Best for: Comprehensive product analytics**\n- Self-hosted or cloud option\n- Session replay, heatmaps, feature flags, A/B testing\n- Strong developer experience with SDKs for all major frameworks\n- Data residency options\n- Growing community and frequent updates\n\n## 2. **Plausible Analytics**\n**Best for: Privacy-focused, lightweight tracking**\n- GDPR compliant, no cookies\n- Minimal JavaScript footprint\n- Simple, developer-friendly API\n- Privacy-first approach appeals to dev teams\n\n## 3. **Umami**\n**Best for: Self-hosted simplicity**\n- Lightweight, privacy-focused alternative to Google Analytics\n- Easy deployment (Docker, Vercel)\n- Clean dashboard, minimal learning curve\n- Good for teams wanting basic analytics without complexity\n\n## 4. **Minio (for analytics infrastructure)**\n**Best for: Building custom analytics pipelines**\n- S3-compatible object storage\n- Foundation for building analytics stacks\n- Pairs with tools like Clickhouse, dbt, or Superset\n\n## 5. **Superset (Apache)**\n**Best for: Data visualization and dashboarding**\n- Visualization and BI layer\n- SQL-based, flexible analytics\n- Works with any data source\n- Strong for custom analytics dashboards\n\n## Selection Criteria:\n- **PostHog**: Most feature-complete\n- **Umami**: Easiest deployment\n- **Plausible**: Best privacy defaults\n- **Superset**: Maximum flexibility for data teams\n\n**Trend**: Self-hosted + privacy-focused options are gaining momentum in 2025.",
+  "cached_at": "2026-05-27T19:35:36Z",
+  "metadata": {}
+}

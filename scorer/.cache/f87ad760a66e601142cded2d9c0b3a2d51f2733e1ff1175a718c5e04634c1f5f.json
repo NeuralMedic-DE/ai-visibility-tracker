@@ -1,0 +1,9 @@
+{
+  "brand": "Ashby",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Ashby with Slack?",
+  "response": "# Connecting Ashby with Slack\n\nHere's how to set up the integration:\n\n## Steps:\n\n1. **In Ashby:**\n   - Go to **Settings** → **Integrations**\n   - Find **Slack** and click to configure\n   - Click **Connect to Slack**\n\n2. **Authorize in Slack:**\n   - You'll be redirected to Slack's authorization page\n   - Select the workspace you want to connect\n   - Review and approve the permissions requested\n   - Click **Allow**\n\n3. **Configure notifications:**\n   - Choose which events trigger Slack messages (e.g., new applications, interview reminders, candidate rejections)\n   - Select which Slack channels receive notifications\n   - Customize as needed\n\n4. **Test the connection:**\n   - Send a test notification to verify it's working\n\n## Common Use Cases:\n- Get alerts when candidates apply\n- Receive interview reminders\n- Post hiring milestone updates\n- Share candidate feedback\n\n## Troubleshooting:\n- Ensure you have admin access in both Ashby and Slack\n- Check that the Slack workspace permissions allow integrations\n- Verify the connected Slack channel exists and is accessible\n\n**Need more help?** Check Ashby's support documentation or contact their support team for specific configuration options.",
+  "cached_at": "2026-05-28T06:39:41Z",
+  "metadata": {}
+}

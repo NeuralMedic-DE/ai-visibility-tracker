@@ -1,0 +1,9 @@
+{
+  "brand": "Leapsome",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to 15Five",
+  "response": "# Cheaper Alternatives to 15Five\n\n## Budget-Friendly Options\n\n**Free/Low-Cost:**\n- **Google Forms** - Basic feedback collection ($0)\n- **Typeform** - Simple survey tool (free tier available)\n- **Lattice** - Performance management ($5-15/user/month)\n- **Namely** - HCM platform (competitive pricing)\n\n**Affordable Tools ($2-8/user/month):**\n- **Culture Amp** - Employee engagement & feedback\n- **Officevibe** - Pulse surveys & engagement\n- **Peakon** - Real-time employee feedback\n- **Leapsome** - Performance & engagement (starts ~$5/user)\n\n## Mid-Range Alternatives ($8-15/user/month)\n\n- **Reflektive** - Performance management & feedback\n- **Betterworks** - Goals & continuous feedback\n- **7shifts** - Team scheduling (varies by use case)\n- **HeyTaco** - Peer recognition & culture\n- **Kazoo** - Employee engagement platform\n\n## Consider Your Actual Needs\n\nBefore choosing, ask:\n- Do you need just feedback, or full performance management?\n- How many employees?\n- Required integrations (Slack, HRIS, etc.)?\n- Mobile app essential?\n\n**Pro tip:** Many competitors offer free trials—test 2-3 before committing.\n\nWould you like recommendations for a specific use case?",
+  "cached_at": "2026-05-28T06:37:11Z",
+  "metadata": {}
+}

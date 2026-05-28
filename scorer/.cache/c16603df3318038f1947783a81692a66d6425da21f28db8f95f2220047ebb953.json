@@ -1,0 +1,9 @@
+{
+  "brand": "Userlist",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best marketing automation for indie SaaS developers and small SaaS teams building user journeys?",
+  "response": "# Best Marketing Automation for Indie SaaS\n\nHere's what actually works for small teams:\n\n## **Top Picks by Use Case**\n\n**For email sequences & user journeys:**\n- **Loops** - Dead simple, built for SaaS, excellent templates\n- **Klaviyo** - Powerful segmentation, free-ish tier\n- **ConvertKit** - If you're creator/content-heavy\n\n**For full funnels (landing → email → onboarding):**\n- **Webflow + Zapier** - Maximum flexibility, visual editing\n- **Pabbly** - Cheap automation builder, underrated\n- **Make (formerly Integromat)** - Better UI than Zapier for complex flows\n\n**All-in-one (if you want to reduce tool sprawl):**\n- **HubSpot free tier** - Genuinely useful, not a crippled demo\n- **ActiveCampaign** - Best automation logic, reasonable pricing\n\n## **What Actually Matters**\n\n1. **Segmentation capabilities** - Can you split users by behavior/properties?\n2. **Webhook/API support** - Does it connect to your product?\n3. **Conditional logic** - Branch journeys based on user actions?\n4. **Deliverability** - Avoid spam folder (HubSpot/Klaviyo win here)\n\n## **Honest Take**\n\nStart with **Loops** + whatever handles your payment/user data (Zapier/Make). Add complexity only when you have:\n- 1000+ users\n- Clear conversion metrics to optimize\n- Time to actually manage sequences\n\nMost indie SaaS fails from bad copy, not bad automation. Spend 80% time on message, 20% on tools.\n\nWhat's your main bottleneck—onboarding, retention, or activation?",
+  "cached_at": "2026-05-28T07:30:27Z",
+  "metadata": {}
+}

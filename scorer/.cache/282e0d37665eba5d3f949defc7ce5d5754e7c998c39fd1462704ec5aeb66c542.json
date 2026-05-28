@@ -1,0 +1,9 @@
+{
+  "brand": "Teamtailor",
+  "prompt_id": "IN-02",
+  "llm": "perplexity",
+  "prompt_text": "Teamtailor Slack integration: how does it work?",
+  "response": "Teamtailor’s **native Slack integration** sends recruiting activity notifications into Slack channels or DMs, so your team can follow candidate updates without leaving Slack.[1][3]\n\nHere’s how it works in practice:\n\n- You enable it in **Teamtailor → Settings → Integrations → Slack integration** and click **Add channel**.[1]\n- Teamtailor asks you to grant access to your **Slack workspace** and choose the channel or direct message location where updates should appear.[1]\n- You then select which types of Teamtailor activity should be posted, such as **new applications, new connects, sent/received messages, comments, and reviews**.[1][3]\n- You can scope notifications to **all departments/jobs** or narrow them to a specific **department/role/job** so the Slack feed stays relevant.[1]\n- After saving, Slack shows a confirmation message, and future notifications are sent there with a **small delay**.[1]\n\nA few important details:\n\n- The integration is tied to the **user who sets it up**, so changes to that user in Slack or Teamtailor can affect the connection.[1]\n- Teamtailor says you can later **edit** the notification rules at any time.[1]\n- The Slack Marketplace listing also notes that users can receive **personal Teamtailor notifications** through the Slack bot.[3]\n\nIf you want, I can also explain the setup steps in Teamtailor or help you decide which notification types to enable.",
+  "cached_at": "2026-05-28T06:43:07Z",
+  "metadata": {}
+}

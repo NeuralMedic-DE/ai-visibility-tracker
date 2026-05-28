@@ -1,0 +1,9 @@
+{
+  "brand": "Nudge Security",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with manage SaaS sprawl and enforce security policies without blocking employee productivity at scale?",
+  "response": "To manage SaaS sprawl and enforce security policies effectively while maintaining employee productivity, you can consider using a SaaS management platform (SMP) or a cloud access security broker (CASB). These tools help organizations gain visibility into their SaaS usage, manage licenses, enforce security policies, and ensure compliance. Some popular options include:\n\n1. **BetterCloud**: Offers comprehensive SaaS management, including automated workflows, data protection, and security policy enforcement.\n\n2. **Blissfully**: Provides visibility into SaaS usage, spend management, and compliance, helping to streamline operations and reduce unnecessary costs.\n\n3. **Torii**: Focuses on SaaS management by providing insights into application usage, optimizing license costs, and automating workflows.\n\n4. **Zylo**: Helps manage SaaS applications by providing insights into usage and spend, and assists with vendor management and compliance.\n\n5. **Netskope**: A CASB that offers real-time data and threat protection, visibility, and control over cloud applications.\n\n6. **Okta**: Primarily known for identity management, Okta also offers features to manage SaaS applications and enforce security policies.\n\nThese tools help organizations balance security and productivity by providing the necessary controls and insights to manage SaaS applications effectively.",
+  "cached_at": "2026-05-28T08:38:41Z",
+  "metadata": {}
+}

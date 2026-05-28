@@ -1,0 +1,9 @@
+{
+  "brand": "Numeric",
+  "prompt_id": "AL-05",
+  "llm": "openai",
+  "prompt_text": "Open source or affordable finance tools instead of BlackLine",
+  "response": "If you're looking for open-source or more affordable alternatives to BlackLine for financial close management and accounting automation, here are a few options you might consider:\n\n1. **GnuCash**: This is a free, open-source financial accounting software that is suitable for small businesses and individuals. It offers features for tracking bank accounts, stocks, income, and expenses.\n\n2. **Odoo**: Odoo is an open-source suite of business applications that includes accounting and finance modules. It is highly customizable and can be tailored to meet specific business needs.\n\n3. **ERPNext**: This is another open-source ERP software that includes modules for accounting, inventory, sales, and more. It is designed for small and medium-sized businesses and offers a comprehensive set of features.\n\n4. **Wave Accounting**: While not open-source, Wave offers free accounting software that is suitable for small businesses. It includes features like invoicing, expense tracking, and receipt scanning.\n\n5. **Zoho Books**: Zoho Books is an affordable online accounting software that offers features for managing finances, automating business workflows, and working collectively across departments.\n\n6. **Manager.io**: This is a free accounting software that can be downloaded and used on Windows, Mac, and Linux. It offers features like invoicing, expense tracking, and financial reporting.\n\nEach of these tools has its strengths and may be more suitable depending on your specific needs and the size of your business. It's a good idea to explore their features and see which one aligns best with your requirements.",
+  "cached_at": "2026-05-28T07:05:03Z",
+  "metadata": {}
+}

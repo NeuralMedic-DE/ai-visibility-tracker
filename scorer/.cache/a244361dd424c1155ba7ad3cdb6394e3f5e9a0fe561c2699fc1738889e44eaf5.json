@@ -1,0 +1,9 @@
+{
+  "brand": "HiBob",
+  "prompt_id": "AL-02",
+  "llm": "openai",
+  "prompt_text": "Cheaper alternatives to Personio",
+  "response": "If you're looking for cheaper alternatives to Personio, which is an HR software solution, there are several options you might consider depending on your specific needs. Here are a few alternatives:\n\n1. **BambooHR**: Known for its user-friendly interface, BambooHR offers core HR functions like employee records, benefits administration, and time-off tracking. It is often more affordable for small to medium-sized businesses.\n\n2. **Zoho People**: Part of the Zoho suite, Zoho People provides a range of HR features, including employee database management, leave tracking, and performance reviews, at a competitive price.\n\n3. **Gusto**: Primarily focused on payroll, Gusto also offers HR tools such as employee onboarding and benefits administration. It's particularly popular with small businesses.\n\n4. **Freshteam by Freshworks**: This is a cost-effective option for managing recruitment, onboarding, time-off, and employee information.\n\n5. **Kissflow HR Cloud**: Offers a comprehensive HR management solution with features for recruitment, onboarding, performance management, and more, often at a lower cost.\n\n6. **Factorial HR**: Provides a range of HR tools including time tracking, document management, and employee self-service, often at a competitive price point.\n\n7. **CharlieHR**: Aimed at small businesses, CharlieHR offers features like time-off management, employee onboarding, and performance reviews.\n\nWhen selecting an HR software, consider the specific features you need, the size of your business, and your budget to find the best fit. Many of these platforms offer free trials, so you can test them out before making a decision.",
+  "cached_at": "2026-05-28T06:32:31Z",
+  "metadata": {}
+}

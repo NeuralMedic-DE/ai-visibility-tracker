@@ -1,0 +1,9 @@
+{
+  "brand": "Pipedrive",
+  "prompt_id": "AL-05",
+  "llm": "anthropic",
+  "prompt_text": "Open source or affordable CRM tools instead of Salesforce",
+  "response": "# Affordable CRM Alternatives to Salesforce\n\n## **Free/Freemium Options**\n\n| Tool | Best For | Free Tier |\n|------|----------|-----------|\n| **HubSpot CRM** | Inbound marketing + sales | Full CRM free (unlimited contacts) |\n| **Zoho CRM** | SMBs wanting full features | Up to 3 users |\n| **Pipedrive** | Sales-focused teams | Up to 2 users |\n| **Freshsales** | Customer support integration | Up to 3 users |\n| **Brevo (Sendinblue)** | Email + CRM combo | Free tier available |\n\n## **Open Source Solutions**\n\n- **SuiteCRM** - Free fork of SugarCRM\n- **Odoo** - Modular ERP/CRM system\n- **EspoCRM** - Lightweight, self-hosted\n- **Vtiger** - Feature-rich open-source option\n- **Apache OFBiz** - Complex but highly customizable\n\n## **Budget-Friendly Paid Options**\n\n- **Monday Sales CRM** - $10-20/user/month\n- **HubSpot Sales Hub** - $45+/month\n- **Copper** - $25+/month (Gmail-native)\n- **Insightly** - $29+/month\n- **Agile CRM** - $9.99+/month\n\n## **Key Considerations**\n\n✅ **Open-source pros**: Control, customization, no vendor lock-in\n❌ **Open-source cons**: Need hosting, IT expertise, self-support\n\n**My recommendation**: Start with **HubSpot CRM** (free) or **Zoho** (affordable scaling) if you want simplicity with growth options.\n\nWhat's your team size and main use case?",
+  "cached_at": "2026-05-27T17:48:44Z",
+  "metadata": {}
+}

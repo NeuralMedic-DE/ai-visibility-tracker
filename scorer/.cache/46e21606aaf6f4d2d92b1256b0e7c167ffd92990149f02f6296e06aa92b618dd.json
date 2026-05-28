@@ -1,0 +1,9 @@
+{
+  "brand": "Rho",
+  "prompt_id": "CM-05",
+  "llm": "openai",
+  "prompt_text": "Is Rho better than Mercury for gain real-time visibility into budget versus actuals across the entire company?",
+  "response": "When comparing Rho and Mercury for gaining real-time visibility into budget versus actuals across an entire company, it's important to consider the specific features and capabilities of each platform.\n\n**Rho** is a financial platform designed for businesses, offering features like corporate cards, expense management, and integrated banking services. It provides tools for managing budgets and tracking spending, which can help in gaining visibility into financial performance. Rho emphasizes ease of use and integration with existing financial systems.\n\n**Mercury**, on the other hand, is primarily a banking platform for startups and small businesses. It offers banking services, including checking accounts and debit cards, with some financial management tools. However, its focus is more on banking rather than comprehensive financial analytics or budget tracking.\n\nIf your primary goal is to gain real-time visibility into budget versus actuals, Rho might be better suited for this purpose due to its focus on financial management and expense tracking. However, the best choice depends on your specific needs, such as the size of your company, the complexity of your financial operations, and any existing systems you might want to integrate with.\n\nIt's advisable to evaluate both platforms based on a detailed list of your requirements and possibly conduct trials or demos to see which one aligns better with your company's needs.",
+  "cached_at": "2026-05-28T07:12:20Z",
+  "metadata": {}
+}

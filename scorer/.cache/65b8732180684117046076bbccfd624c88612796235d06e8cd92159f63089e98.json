@@ -1,0 +1,9 @@
+{
+  "brand": "Salesflare",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I log sales activities automatically without spending a lot on software?",
+  "response": "# Low-Cost Sales Activity Logging\n\n## Free/Cheap Built-in Options\n\n**Email-based:**\n- Gmail filters + labels to auto-organize client conversations\n- Outlook rules to flag and sort by contact\n- Forward emails to a shared inbox for team visibility\n\n**Spreadsheet automation:**\n- Google Forms → auto-populate a Sheet (great for quick logging)\n- IFTTT or Zapier free tiers for basic integrations\n- Conditional formatting to highlight follow-ups\n\n**Your phone:**\n- Voice memos timestamped during calls\n- Phone notes synced to cloud storage\n- Calendar blocking (free in Google/Outlook) as activity records\n\n## Low-Cost Platforms\n\n- **HubSpot** - genuinely free CRM tier (email tracking, basic logging)\n- **Zoho** - free plan with decent activity tracking\n- **Pipedrive** - lowest-cost paid option (~$15/user) if you need more\n\n## DIY Approach\n\nCreate a simple logging ritual:\n- 2-minute end-of-day form (Google Form takes 30 seconds to fill)\n- Use Slack reminders to prompt activity entries\n- Templates in your notes app for consistency\n\n**Key question:** What specifically needs logging—calls, emails, meetings, or pipeline moves? That'll help narrow down the best tool for your actual need rather than paying for features you don't use.",
+  "cached_at": "2026-05-27T18:14:22Z",
+  "metadata": {}
+}

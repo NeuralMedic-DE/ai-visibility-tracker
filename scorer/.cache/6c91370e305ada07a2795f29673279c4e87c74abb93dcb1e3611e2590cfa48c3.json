@@ -1,0 +1,9 @@
+{
+  "brand": "Instantly",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with warm up email accounts and manage deliverability automatically at scale at scale?",
+  "response": "# Email Warmup & Deliverability Solutions\n\nSeveral platforms handle this at scale:\n\n## Dedicated Warmup Tools\n- **Lemwarm** - Focuses specifically on warming Gmail/Outlook accounts\n- **Warmbox** - Automated warmup with deliverability monitoring\n- **Mailwarm** - Simulates human behavior during warmup phase\n\n## All-in-One Platforms with Warmup\n- **Instantly.ai** - Built-in warmup + multi-account management\n- **Smartlead** - Account warmup + cold email automation\n- **Apollo.io** - Warmup features in their broader sales platform\n- **Outreach/Salesloft** - Enterprise solutions with warmup capabilities\n\n## Deliverability-Focused\n- **Return Path/Validity** - Advanced monitoring and optimization\n- **250ok** - Real-time deliverability intelligence\n- **Substack/ConvertKit** - Good built-in deliverability (if sending newsletters)\n\n## Key Features to Look For\n- Multi-account warmup automation\n- Inbox placement monitoring\n- Authentication setup help (SPF/DKIM/DMARC)\n- Real-time engagement tracking\n- Throttling/spacing controls\n- Integration with major email providers\n\n**For most teams**, Instantly.ai or Smartlead offer the best balance of warmup automation + scale management.\n\nWhat's your primary use case—sales outreach, newsletters, or something else? That would help narrow recommendations.",
+  "cached_at": "2026-05-28T07:19:23Z",
+  "metadata": {}
+}

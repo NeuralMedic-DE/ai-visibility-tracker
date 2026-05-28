@@ -1,0 +1,9 @@
+{
+  "brand": "FullStory",
+  "prompt_id": "UC-03",
+  "llm": "openai",
+  "prompt_text": "What tools do product and UX teams at mid-market SaaS companies companies use to replay user sessions to understand UX friction points?",
+  "response": "Product and UX teams at mid-market SaaS companies often use session replay tools to understand user behavior and identify UX friction points. Some popular tools include:\n\n1. **Hotjar**: Offers session recordings, heatmaps, and feedback polls to help teams understand user interactions and identify areas for improvement.\n\n2. **FullStory**: Provides detailed session replays, heatmaps, and analytics to help teams pinpoint where users encounter issues.\n\n3. **Crazy Egg**: Offers session recordings, heatmaps, and A/B testing features to analyze user behavior and optimize user experience.\n\n4. **Mouseflow**: Provides session replay, heatmaps, funnels, and form analytics to identify friction points and improve conversion rates.\n\n5. **Lucky Orange**: Offers session recordings, heatmaps, and live chat features to help teams understand user behavior and provide real-time support.\n\n6. **Smartlook**: Provides session recordings, heatmaps, and event tracking to analyze user interactions and improve the user experience.\n\nThese tools help teams visualize user journeys, identify where users struggle, and gather insights to enhance the overall user experience.",
+  "cached_at": "2026-05-27T20:44:41Z",
+  "metadata": {}
+}

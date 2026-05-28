@@ -1,0 +1,9 @@
+{
+  "brand": "Encharge",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Encharge integrate with Stripe?",
+  "response": "Yes. **Encharge has a native integration with Stripe** that lets you sync Stripe customer and billing data into Encharge and use it for automation and segmentation.[1][9]\n\nKey points about the Encharge–Stripe integration:  \n- You can **automatically sync Stripe customers** (including existing ones) into Encharge.[1]  \n- Encharge pulls in **MRR, subscriptions, plans, payments, and billing events** (e.g., subscription created/canceled, invoices, trials).[1][2][9]  \n- The integration is configured directly in Encharge under **Settings → Apps → Stripe**, using a restricted Stripe API key.[1]  \n- Once connected, you can **build automations and segments based on Stripe data and events**.[1][2][9]  \n\nThere are also third‑party options (e.g., Zapier, Integrately) to connect Encharge and Stripe, but you do not need them for the core native integration.[3][8]",
+  "cached_at": "2026-05-28T07:29:58Z",
+  "metadata": {}
+}

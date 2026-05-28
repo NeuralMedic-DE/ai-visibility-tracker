@@ -1,0 +1,9 @@
+{
+  "brand": "ChurnZero",
+  "prompt_id": "AL-02",
+  "llm": "openai",
+  "prompt_text": "Cheaper alternatives to Vitally",
+  "response": "If you're looking for cheaper alternatives to Vitally, which is a customer success platform, there are several options you might consider depending on your specific needs and budget. Here are a few alternatives:\n\n1. **ChurnZero**: Offers customer success tools with features like customer segmentation, health scoring, and automation. Pricing can be more competitive for smaller teams.\n\n2. **Totango**: Provides a free version with basic features, and its paid plans are generally more affordable. It includes customer health monitoring and engagement tools.\n\n3. **ClientSuccess**: Focuses on customer success management with features for managing customer relationships and tracking success metrics. It can be a cost-effective option for mid-sized businesses.\n\n4. **Custify**: Designed for SaaS businesses, it offers customer success automation and insights at a lower price point than some competitors.\n\n5. **Planhat**: Offers flexible pricing and a range of features for customer success, including health scoring and lifecycle management.\n\n6. **UserIQ**: Combines customer success with product analytics and is often priced competitively for smaller teams.\n\n7. **Help Scout**: Primarily a help desk software, but it includes customer management features that can be useful for customer success at a lower cost.\n\nWhen choosing an alternative, consider the specific features you need, such as automation, integrations, and analytics, and compare the pricing tiers to find the best fit for your budget and requirements.",
+  "cached_at": "2026-05-28T08:06:39Z",
+  "metadata": {}
+}

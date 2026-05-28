@@ -1,0 +1,9 @@
+{
+  "brand": "Userlist",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with send feature announcements and lifecycle emails to keep users engaged at scale?",
+  "response": "# Software for Feature Announcements & Lifecycle Emails\n\n## Dedicated Email Marketing Platforms\n- **Klaviyo** - Strong for e-commerce lifecycle sequences\n- **ConvertKit** - Good for creator/SaaS audiences\n- **ActiveCampaign** - Robust automation and segmentation\n- **Mailchimp** - Budget-friendly with basic automation\n- **HubSpot** - Integrated CRM with email tools\n\n## Product-Focused Solutions\n- **Segment** - Customer data platform for personalization\n- **Braze** - Multi-channel customer engagement at scale\n- **Customer.io** - Event-triggered lifecycle emails for SaaS\n- **Iterable** - Cross-channel campaigns with strong segmentation\n- **Apptentive** - In-app messaging + email for product engagement\n\n## In-App Messaging (Complements Email)\n- **Pendo** - Feature announcements + guidance\n- **UserGuiding** - Onboarding and feature tours\n- **Intercom** - Customer communication platform\n- **Drift** - Conversational engagement\n\n## Key Features to Look For\n- Behavioral/event-based triggers\n- Sophisticated segmentation\n- A/B testing\n- Automation workflows\n- Deliverability reputation\n- Integration with your product/analytics stack\n\n**Best choice depends on:** your industry (e-commerce vs SaaS), budget, technical resources, and whether you need omnichannel (email + SMS + push) or email-primary.\n\nWhat's your primary use case?",
+  "cached_at": "2026-05-28T07:30:57Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Semgrep",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Semgrep integrate with GitHub?",
+  "response": "# Semgrep and GitHub Integration\n\nYes, **Semgrep integrates with GitHub** in several ways:\n\n## GitHub Actions\n- **Semgrep GitHub Action** allows you to run Semgrep scans automatically on pull requests and commits\n- Findings appear as GitHub annotations/comments on code changes\n- Easy setup via workflow files\n\n## GitHub Advanced Security (GHAS)\n- Semgrep can integrate with GitHub's security features\n- Results can feed into GitHub's security dashboard\n- Supports SARIF format for standardized reporting\n\n## Common Use Cases\n- **PR scanning** - automatically check code before merge\n- **CI/CD integration** - run as part of your workflow\n- **Issue creation** - automatically create GitHub issues for findings\n- **Code review** - inline comments on problematic code\n\n## Setup\nIntegration typically requires:\n1. Adding a GitHub Actions workflow file (`.github/workflows/semgrep.yml`)\n2. Configuring Semgrep rules\n3. Setting appropriate permissions\n\n## Resources\nCheck Semgrep's official documentation for:\n- Detailed setup instructions\n- Available GitHub Actions\n- Configuration options\n\nThe integration is widely used and well-documented, making it straightforward to add Semgrep to your GitHub-based development workflow.",
+  "cached_at": "2026-05-28T08:48:59Z",
+  "metadata": {}
+}

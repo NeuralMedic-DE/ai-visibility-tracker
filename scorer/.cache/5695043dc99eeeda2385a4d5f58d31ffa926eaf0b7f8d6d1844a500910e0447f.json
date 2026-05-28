@@ -1,0 +1,9 @@
+{
+  "brand": "Apollo.io",
+  "prompt_id": "UC-04",
+  "llm": "anthropic",
+  "prompt_text": "How can a VP Sales or SDR manager build targeted prospect lists more efficiently?",
+  "response": "# Building Targeted Prospect Lists More Efficiently\n\n## Data & Tools Strategy\n\n**Leverage existing data first**\n- Mine your CRM for past winners and lost deals to identify patterns\n- Analyze which accounts convert fastest and have highest LTV\n- Use intent data (website visits, content downloads, job changes) to catch active buyers\n\n**Choose the right tools for your budget**\n- Free/low-cost: LinkedIn Sales Navigator, ZoomInfo free tier, Apollo basic\n- Mid-market: 6sense, Demandbase, or RocketReach\n- Enterprise: Combine multiple sources (Clearbit, Hunter, Factors)\n\n## Process Improvements\n\n**Build reusable frameworks**\n- Create ICP profiles with specific criteria (company size, industry, tech stack, growth indicators)\n- Develop scoring models so SDRs aren't guessing who to prioritize\n- Document what makes a \"good\" lead—helps everyone stay aligned\n\n**Automate the grunt work**\n- Use Zapier or Make to sync leads between tools automatically\n- Set up job change alerts for target accounts (Lusha, Clay)\n- Build filtered views so SDRs see only qualified accounts\n\n## Team Efficiency Wins\n\n- **Divide responsibility by source** (one person owns LinkedIn, another handles technographics)\n- **Create account-based lists** for your top 20 targets; have SDRs work deeper vs. wider\n- **Use templates** for research notes so reps aren't starting from scratch\n\n**What's your current biggest bottleneck—finding enough prospects, qualifying them, or research time?** That'll help prioritize which approach matters most.",
+  "cached_at": "2026-05-27T18:05:16Z",
+  "metadata": {}
+}

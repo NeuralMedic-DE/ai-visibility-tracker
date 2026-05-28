@@ -1,0 +1,9 @@
+{
+  "brand": "Salesflare",
+  "prompt_id": "CD-02",
+  "llm": "anthropic",
+  "prompt_text": "Top automated CRM for small B2B companies tools in 2025",
+  "response": "# Top Automated CRM Tools for Small B2B Companies (2025)\n\n## Best Overall Options\n\n### **HubSpot CRM**\n- **Free tier** with unlimited contacts\n- Excellent automation workflows\n- Strong email integration and tracking\n- Best for companies wanting to scale\n- Native integrations with 1000+ apps\n\n### **Pipedrive**\n- Sales-focused pipeline management\n- Visual deal tracking\n- Strong automation for follow-ups\n- Affordable pricing ($11-49/user/month)\n- Excellent mobile app\n\n### **Zoho CRM**\n- Most budget-friendly\n- Comprehensive automation builder\n- India-based (excellent 24/7 support)\n- Good for teams 1-50 people\n- Includes email, phone, chat in base plan\n\n## Specialized Automation Leaders\n\n### **ActiveCampaign**\n- Best automation + email marketing combo\n- Sophisticated workflow builder\n- Lead scoring automation\n- Mid-market pricing ($19-229/month)\n\n### **Salesforce Essentials**\n- Enterprise-grade for SMBs\n- Excellent automation platform\n- Strong AI features (Einstein)\n- Higher cost but feature-rich\n\n## Budget-Friendly Choices\n\n- **Freshsales** - Under $15/user/month\n- **Insightly** - Project-based CRM\n- **Microsoft Dynamics 365** - If already in Microsoft ecosystem\n\n## Key Automation Features to Prioritize\n✅ Workflow builders (no-code)\n✅ Lead scoring & nurturing\n✅ Email sequences\n✅ Task automation\n✅ API integrations\n✅ Mobile access\n\n**My recommendation:** HubSpot (growth) or Zoho (budget) for most small B2B teams in 2025.\n\nWhat's your team size and budget range?",
+  "cached_at": "2026-05-27T18:13:05Z",
+  "metadata": {}
+}

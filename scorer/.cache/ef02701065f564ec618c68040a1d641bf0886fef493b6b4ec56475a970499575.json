@@ -1,0 +1,9 @@
+{
+  "brand": "Intercom",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I manage all customer conversations in one unified inbox across chat email and social without spending a lot on software?",
+  "response": "# Low-Cost Unified Inbox Options\n\n## Free/Cheap Tier Solutions\n\n**Best all-around value:**\n- **Inbox.com** or **Missive** (free tier covers basics)\n- **Front** (free for 1 user, then ~$99/month for teams)\n- **Zendesk** (free tier exists but limited)\n\n**More limited but workable:**\n- **Gmail + filters** (surprisingly functional if you forward social/chat to a Gmail address, though not elegant)\n- **Slack** with integrations (if you already use Slack, Zapier/Make can route emails/DMs there for ~$10-30/month)\n\n## The Honest Trade-offs at Low Cost\n\nMost free tiers will hit limits quickly:\n- Limited channels (usually 2-3 of: email, chat, social)\n- Single user only\n- No reporting/automation\n\n**Where you'll likely need to spend:**\nOnce you add multiple team members, expect $50-150/month for anything solid.\n\n## DIY Approach (Cheapest)\n\nIf you have 1-2 people handling conversations:\n- Designate one email address as hub\n- Use IFTTT ($3.99/month) or Zapier free tier to route notifications\n- Accept you'll manually check different platforms\n\nThis works for small volume but gets messy fast.\n\n**What's your current volume and team size?** That changes whether free tiers are actually viable vs. false economy.",
+  "cached_at": "2026-05-28T08:01:51Z",
+  "metadata": {}
+}

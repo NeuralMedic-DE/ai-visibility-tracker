@@ -1,0 +1,9 @@
+{
+  "brand": "Airbyte",
+  "prompt_id": "CM-05",
+  "llm": "openai",
+  "prompt_text": "Is Airbyte better than Stitch for build custom connectors with a no-code connector builder when pre-built ones are missing?",
+  "response": "When it comes to building custom connectors with a no-code connector builder, Airbyte generally offers more flexibility and capabilities compared to Stitch. Airbyte provides a more robust framework for creating custom connectors, including a no-code connector builder that allows users to define and configure connectors without needing to write code. This feature is particularly useful when pre-built connectors are not available for specific data sources.\n\nStitch, on the other hand, is more limited in terms of custom connector development. While Stitch does offer some level of customization, it typically requires more technical expertise and may not provide the same level of ease and flexibility as Airbyte's no-code solutions.\n\nTherefore, if your primary need is to build custom connectors without coding, Airbyte is likely the better choice between the two.",
+  "cached_at": "2026-05-28T09:03:19Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Leapsome",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with track employee engagement with pulse surveys and act on insights at scale?",
+  "response": "There are several software platforms designed to help track employee engagement through pulse surveys and enable organizations to act on insights at scale. Some popular options include:\n\n1. **Qualtrics**: Offers comprehensive tools for conducting pulse surveys and analyzing employee engagement data, providing actionable insights.\n\n2. **Culture Amp**: Specializes in employee engagement and performance management, offering pulse surveys and analytics to help improve workplace culture.\n\n3. **Glint**: A part of LinkedIn, Glint provides tools for employee engagement, including pulse surveys and real-time analytics to help organizations take action.\n\n4. **Officevibe**: Focuses on employee engagement through pulse surveys and provides insights and feedback to help managers improve team dynamics.\n\n5. **TINYpulse**: Known for its lightweight pulse surveys that gather employee feedback and provide actionable insights to improve engagement.\n\n6. **Peakon (by Workday)**: Offers a platform for continuous employee listening through pulse surveys, with analytics to help organizations understand and improve engagement.\n\n7. **15Five**: Combines performance management with employee engagement tools, including pulse surveys to gather feedback and insights.\n\nThese platforms typically offer features like customizable surveys, real-time feedback, analytics dashboards, and integration with other HR systems to help organizations effectively manage and improve employee engagement.",
+  "cached_at": "2026-05-28T06:37:15Z",
+  "metadata": {}
+}

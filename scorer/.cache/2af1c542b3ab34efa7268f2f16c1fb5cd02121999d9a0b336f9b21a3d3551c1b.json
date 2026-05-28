@@ -1,0 +1,9 @@
+{
+  "brand": "Drata",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Drata integrate with GitHub?",
+  "response": "Yes, Drata integrates with GitHub. This integration allows Drata to automatically monitor and collect evidence related to your organization's compliance posture by connecting to your GitHub repositories. This can help streamline the process of maintaining compliance with various standards by ensuring that relevant data from your version control system is included in your compliance workflows.",
+  "cached_at": "2026-05-28T08:28:56Z",
+  "metadata": {}
+}

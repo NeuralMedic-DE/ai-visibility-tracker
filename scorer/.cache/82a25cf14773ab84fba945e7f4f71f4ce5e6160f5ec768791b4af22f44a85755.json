@@ -1,0 +1,9 @@
+{
+  "brand": "Vellum",
+  "prompt_id": "IN-04",
+  "llm": "anthropic",
+  "prompt_text": "Best AI tooling that works with OpenAI and Anthropic",
+  "response": "# Best AI Tooling for OpenAI & Anthropic\n\n## Multi-Model Platforms\n\n### **LangChain**\n- Industry standard for LLM app development\n- Seamless switching between OpenAI/Anthropic models\n- Chains, agents, memory management\n- Best for: Production applications\n\n### **LiteLLM**\n- Drop-in replacement for OpenAI SDK\n- 100+ model support with unified API\n- Cost tracking & fallback handling\n- Best for: Cost optimization & reliability\n\n### **Anthropic's Prompt Caching + OpenAI's Fine-tuning**\n- Use each platform's strengths\n- Caching reduces costs for repeated contexts\n- Best for: Long-context or repetitive tasks\n\n## Development & Deployment\n\n| Tool | Best For |\n|------|----------|\n| **Continue.dev** | VS Code AI copilot |\n| **Vercel AI SDK** | Web/fullstack integration |\n| **Pydantic AI** | Type-safe agent building |\n| **Cursor** | AI-native code editor |\n| **Dify** | No-code workflow builder |\n\n## Observability & Management\n\n- **Langsmith** - Debugging, testing, monitoring\n- **Helicone** - Analytics & cost tracking\n- **Humanloop** - Prompt management & A/B testing\n\n## Key Considerations\n\n✅ **Use both** - Anthropic excels at reasoning; OpenAI at speed\n✅ **Monitor costs** - LiteLLM or Helicone recommended\n✅ **Version your prompts** - Humanloop or Langsmith\n✅ **Test reliability** - Build fallback chains\n\nWhat's your use case? I can recommend more specific tools.",
+  "cached_at": "2026-05-28T07:45:14Z",
+  "metadata": {}
+}

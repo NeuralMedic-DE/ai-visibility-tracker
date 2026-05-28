@@ -1,0 +1,9 @@
+{
+  "brand": "Ashby",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Lever vs alternatives: what should I switch to?",
+  "response": "# Depends on what you're using Lever for\n\n**If it's the ATS (recruiting):**\n- **Greenhouse** – more robust workflows, stronger for large teams\n- **Workable** – good mid-market balance of features/cost\n- **iCIMS** – enterprise-focused\n- **Ashby** – modern, growing fast, simpler UX\n- **JazzHR** – budget-friendly for small companies\n\n**If it's the CRM:**\n- **Salesforce** – comprehensive but heavier\n- **Pipedrive** – simpler, sales-focused\n- **HubSpot** – better integration ecosystem\n- **Gong/Chorus** – if call recording/intelligence matters\n\n**Real factors that matter:**\n- Team size and structure (enterprise vs. startup)\n- Integration needs (payroll, HRIS, calendar tools?)\n- Budget constraints\n- Learning curve tolerance\n- Mobile usage requirements\n\n**What's pushing you away from Lever?**\n- Price?\n- Missing features?\n- UI/UX frustration?\n- Integrations not working?\n\nThat'd help narrow it down—some \"problems\" are deal-breakers with certain alternatives but not others.",
+  "cached_at": "2026-05-28T06:39:29Z",
+  "metadata": {}
+}

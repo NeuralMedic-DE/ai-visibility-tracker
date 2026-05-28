@@ -1,0 +1,9 @@
+{
+  "brand": "Folk",
+  "prompt_id": "AL-05",
+  "llm": "anthropic",
+  "prompt_text": "Open source or affordable CRM tools instead of Attio",
+  "response": "# Open Source & Affordable CRM Alternatives to Attio\n\n## **Free/Open Source**\n\n| Tool | Best For | Key Features |\n|------|----------|--------------|\n| **Odoo** | Small-medium businesses | Modular, accounting integrated, self-hostable |\n| **Frappe/ERPNext** | Tech-savvy teams | Highly customizable, open source, free self-hosted |\n| **Mautic** | Marketing-focused | Marketing automation + CRM, open source |\n| **EspoCRM** | Lightweight needs | Simple UI, open source, good customization |\n\n## **Affordable/Freemium (Under $100/month)**\n\n| Tool | Price | Strengths |\n|------|-------|-----------|\n| **HubSpot** | Free tier + $50+ | Most complete free option, great for growth |\n| **Keap (Infusionsoft)** | $79+ | Small business automation |\n| **Pipedrive** | $14-99/user | Sales-focused, simple pipeline |\n| **Zoho CRM** | Free-$65/user | Most affordable paid option, good integrations |\n| **Brevo (Sendinblue)** | Free-$99 | Email + CRM bundle, generous free tier |\n| **Nutshell** | $19-99/user | Lightweight, intuitive |\n\n## **Best Budget Picks by Use Case**\n\n- **Lean startups**: HubSpot Free or Zoho CRM Free\n- **Sales teams**: Pipedrive\n- **Self-hosted control**: Odoo or ERPNext\n- **All-in-one**: Zoho CRM Suite\n- **Marketing-heavy**: Mautic (open source) or Brevo\n\n**What's your main priority?** (sales, marketing, team size, budget) Happy to narrow it down further.",
+  "cached_at": "2026-05-27T18:53:48Z",
+  "metadata": {}
+}

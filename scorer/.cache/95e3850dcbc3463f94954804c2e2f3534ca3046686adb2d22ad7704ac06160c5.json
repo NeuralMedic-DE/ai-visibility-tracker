@@ -1,0 +1,9 @@
+{
+  "brand": "Copper",
+  "prompt_id": "IN-04",
+  "llm": "openai",
+  "prompt_text": "Best CRM that works with Google Workspace and Slack",
+  "response": "When looking for a CRM that integrates well with both Google Workspace and Slack, you have several good options. Here are a few popular choices:\n\n1. **HubSpot CRM**: HubSpot offers seamless integration with Google Workspace, allowing you to sync emails, calendar events, and contacts. It also integrates with Slack, enabling you to receive notifications and updates directly in your Slack channels.\n\n2. **Salesforce**: Salesforce is a robust CRM that provides integrations with both Google Workspace and Slack. With its Google Workspace integration, you can sync emails and calendar events, while the Slack integration allows for collaboration and real-time updates.\n\n3. **Zoho CRM**: Zoho CRM integrates with Google Workspace for email, calendar, and document management. It also offers a Slack integration to keep your team updated with CRM activity directly in Slack.\n\n4. **Pipedrive**: Pipedrive is known for its user-friendly interface and integrates well with Google Workspace, allowing you to manage emails and contacts. It also offers Slack integration for notifications and updates.\n\n5. **Copper**: Specifically designed to work with Google Workspace, Copper integrates seamlessly with Gmail and other Google apps. It also provides Slack integration for team collaboration and updates.\n\nEach of these CRMs offers different features and pricing plans, so it might be beneficial to explore them further to see which one best fits your business needs.",
+  "cached_at": "2026-05-27T18:22:10Z",
+  "metadata": {}
+}

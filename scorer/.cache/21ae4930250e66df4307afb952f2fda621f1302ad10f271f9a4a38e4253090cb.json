@@ -1,0 +1,9 @@
+{
+  "brand": "Intercom",
+  "prompt_id": "IN-04",
+  "llm": "openai",
+  "prompt_text": "Best customer support that works with Salesforce and HubSpot",
+  "response": "When looking for customer support solutions that integrate well with both Salesforce and HubSpot, there are several options to consider. Here are some of the best ones:\n\n1. **Zendesk**: Zendesk is a popular customer support platform that offers integrations with both Salesforce and HubSpot. It provides robust ticketing, live chat, and help center capabilities.\n\n2. **Freshdesk**: Freshdesk is another excellent customer support tool that integrates with Salesforce and HubSpot. It offers features like ticketing, automation, and reporting.\n\n3. **Intercom**: Intercom provides a comprehensive suite of customer support tools, including live chat, bots, and a help center. It integrates with both Salesforce and HubSpot to streamline customer interactions.\n\n4. **Zoho Desk**: Zoho Desk is part of the Zoho suite of applications and offers integrations with Salesforce and HubSpot. It provides multi-channel support and automation features.\n\n5. **Help Scout**: Help Scout is known for its simplicity and ease of use. It integrates with Salesforce and HubSpot, offering email-based customer support and knowledge base features.\n\n6. **Kustomer**: Kustomer is a customer service CRM platform that integrates with Salesforce and HubSpot. It focuses on providing a unified view of customer interactions across channels.\n\nWhen choosing a customer support solution, consider the specific needs of your business, such as the volume of support requests, preferred communication channels, and budget. Each of these platforms offers unique features that may be more or less suitable for your requirements.",
+  "cached_at": "2026-05-28T08:01:54Z",
+  "metadata": {}
+}

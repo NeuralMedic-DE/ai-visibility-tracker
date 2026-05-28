@@ -1,0 +1,9 @@
+{
+  "brand": "HiBob",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does HiBob integrate with Slack?",
+  "response": "Yes, HiBob integrates with Slack. This integration allows you to streamline HR processes by receiving notifications and updates directly in Slack, facilitating communication and engagement within your team. You can set up the integration through the HiBob platform, enabling features like automated reminders, announcements, and other HR-related interactions within your Slack workspace.",
+  "cached_at": "2026-05-28T06:32:37Z",
+  "metadata": {}
+}

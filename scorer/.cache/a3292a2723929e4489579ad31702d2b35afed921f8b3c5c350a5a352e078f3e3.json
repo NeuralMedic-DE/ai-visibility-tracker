@@ -1,0 +1,9 @@
+{
+  "brand": "Conveyor",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Conveyor HubSpot integration: how does it work?",
+  "response": "# Conveyor HubSpot Integration Overview\n\nConveyor is a contract management platform that integrates with HubSpot to streamline deal workflows. Here's how it works:\n\n## Key Features\n\n**Bi-directional data sync**\n- Contract data syncs between Conveyor and HubSpot\n- Deal information flows both directions automatically\n- Custom fields can be mapped between systems\n\n**Deal workflow integration**\n- Track contract status directly in HubSpot deals\n- Trigger workflows based on contract milestones\n- Update deal stages as contracts progress\n\n**Contact & company sync**\n- Automatically pulls contact/company info from HubSpot\n- Populates contract parties without manual re-entry\n- Maintains data consistency across platforms\n\n## Common Use Cases\n\n- **Sales teams**: Embed contract management in their existing HubSpot workflow\n- **Deal tracking**: See contract status as part of pipeline visibility\n- **Automation**: Trigger HubSpot workflows when contracts are signed or expire\n- **Reporting**: Pull contract data into HubSpot dashboards\n\n## Setup Requirements\n\n- HubSpot account (typically CRM or higher tier)\n- Conveyor account\n- Admin access to configure field mappings\n- OAuth connection between platforms\n\n## Limitations\n\n- Integration depth depends on your HubSpot plan tier\n- Custom field mapping may require configuration\n- Real-time sync typically has slight delays\n\n---\n\n**Need specifics?** Are you looking to set up this integration, troubleshoot it, or understand particular workflows?",
+  "cached_at": "2026-05-28T08:46:31Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Rippling",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do mid-market companies managing distributed and global teams companies use to automate HR payroll benefits and IT provisioning in a single platform?",
+  "response": "# HR Tech Platforms for Mid-Market Companies\n\n## All-in-One Solutions\n\n**Workday**\n- Most comprehensive, though typically enterprise-focused\n- Strong in payroll, benefits, and workforce management\n- Higher cost but scalable globally\n\n**SAP SuccessFactors**\n- Good for large mid-market with complex needs\n- Integrates payroll, HCM, and learning\n- Better for companies ready for enterprise solutions\n\n**BambooHR**\n- Purpose-built for mid-market (10-1,000 employees)\n- Simple HR + payroll in one system\n- Good international support, though payroll varies by country\n\n## Strong Integrated Options\n\n**Guidepoint/Rippling**\n- IT + HR unified platform\n- Especially strong on device provisioning and access management\n- Growing payroll capabilities\n\n**ADP Workforce Now**\n- Solid payroll + HR core\n- IT provisioning less integrated than competitors\n- Reliable for multi-country payroll\n\n**Deel**\n- Excellent for distributed/global teams\n- Payroll, benefits, compliance across 150+ countries\n- Less robust IT provisioning\n\n## Honest Limitations\n\nMost \"all-in-one\" platforms require supplementing with:\n- **Okta** or **Azure AD** for identity/IT access\n- **Catch** or similar for benefits administration\n- **Justworks** or **Guidepoint** for specific integrations\n\n**The trade-off**: True single-platform solutions are rare. Most mid-market companies use a best-of-breed core (usually payroll) with 2-3 integrated tools.\n\nWhat's your company size and primary pain point—that would help narrow recommendations.",
+  "cached_at": "2026-05-28T06:27:48Z",
+  "metadata": {}
+}

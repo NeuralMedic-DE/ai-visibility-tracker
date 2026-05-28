@@ -1,0 +1,4814 @@
+{
+  "generated_at": "2026-05-27T22:57:45.219836+00:00",
+  "scoring_method": "hybrid_v1",
+  "scoring_note": "25 brands scored live on 2026-05-28 via OpenAI, Anthropic, and Perplexity APIs (Google AIO pending). 75 brands carry research-based estimates.",
+  "total_brands": 100,
+  "llms_modeled": [
+    "openai",
+    "anthropic",
+    "perplexity",
+    "google"
+  ],
+  "brands": [
+    {
+      "brand": "Drata",
+      "domain": "drata.com",
+      "category": "compliance",
+      "category_long": "continuous security and compliance automation platform for tech companies",
+      "tier": "anchor",
+      "composite_score": 90.1,
+      "scores": {
+        "openai": {
+          "score": 87.9,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 91.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 93.7,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 87.9,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Drata's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Drata's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Drata lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 1,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Workato",
+      "domain": "workato.com",
+      "category": "automation",
+      "category_long": "enterprise automation platform for business and IT integration teams",
+      "tier": "anchor",
+      "composite_score": 86.4,
+      "scores": {
+        "openai": {
+          "score": 96.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 86.2,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 87.7,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 75.4,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Workato's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Workato's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Workato lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 2,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "ActiveCampaign",
+      "domain": "activecampaign.com",
+      "category": "marketing automation",
+      "category_long": "customer experience automation for SMB and mid-market businesses",
+      "tier": "anchor",
+      "composite_score": 85.7,
+      "scores": {
+        "openai": {
+          "score": 86.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 85.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 92.0,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 79.7,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "ActiveCampaign's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "ActiveCampaign's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "ActiveCampaign lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 3,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Chargebee",
+      "domain": "chargebee.com",
+      "category": "billing",
+      "category_long": "subscription management and revenue billing platform for SaaS",
+      "tier": "anchor",
+      "composite_score": 84.6,
+      "scores": {
+        "openai": {
+          "score": 88.7,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 84.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 85.3,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 80.0,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Chargebee's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Chargebee's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Chargebee lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 4,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Vanta",
+      "domain": "vanta.com",
+      "category": "compliance",
+      "category_long": "automated security compliance platform for SOC 2 ISO 27001 and more",
+      "tier": "anchor",
+      "composite_score": 84.0,
+      "scores": {
+        "openai": {
+          "score": 88.4,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 83.1,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 88.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 76.3,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Vanta's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Vanta's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Vanta lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 5,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Brevo",
+      "domain": "brevo.com",
+      "category": "marketing automation",
+      "category_long": "all-in-one marketing platform for email SMS and CRM campaigns",
+      "tier": "anchor",
+      "composite_score": 80.5,
+      "scores": {
+        "openai": {
+          "score": 82.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 78.2,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 85.9,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 75.6,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Brevo's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Brevo's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Brevo lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 6,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Lemlist",
+      "domain": "lemlist.com",
+      "category": "sales engagement",
+      "category_long": "AI-powered cold email and multi-channel sales engagement platform",
+      "tier": "anchor",
+      "composite_score": 79.9,
+      "scores": {
+        "openai": {
+          "score": 88.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 78.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 85.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 68.0,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Lemlist's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Lemlist's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Lemlist lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 7,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Personio",
+      "domain": "personio.com",
+      "category": "HR",
+      "category_long": "all-in-one HR software for European SMEs",
+      "tier": "anchor",
+      "composite_score": 79.1,
+      "scores": {
+        "openai": {
+          "score": 81.3,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 76.2,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 74.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 84.3,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Personio's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Personio's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Personio lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 8,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Weights & Biases",
+      "domain": "wandb.ai",
+      "category": "MLOps",
+      "category_long": "experiment tracking and ML model management platform for AI teams",
+      "tier": "anchor",
+      "composite_score": 78.3,
+      "scores": {
+        "openai": {
+          "score": 71.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 78.2,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 88.3,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 75.7,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Weights & Biases's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Weights & Biases's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Weights & Biases lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 9,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Gainsight",
+      "domain": "gainsight.com",
+      "category": "customer success",
+      "category_long": "enterprise customer success and digital engagement platform",
+      "tier": "anchor",
+      "composite_score": 75.6,
+      "scores": {
+        "openai": {
+          "score": 68.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 71.9,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 79.7,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 82.0,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Gainsight's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Gainsight's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Gainsight lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 10,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Customer.io",
+      "domain": "customer.io",
+      "category": "marketing automation",
+      "category_long": "customer messaging and lifecycle automation platform for SaaS",
+      "tier": "anchor",
+      "composite_score": 67.6,
+      "scores": {
+        "openai": {
+          "score": 64.9,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 72.1,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 69.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 64.3,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Customer.io's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Customer.io's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Customer.io lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 11,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "LangChain",
+      "domain": "langchain.com",
+      "category": "AI tooling",
+      "category_long": "framework for building production LLM-powered applications",
+      "tier": "tier2",
+      "composite_score": 67.1,
+      "scores": {
+        "openai": {
+          "score": 70.7,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 64.3,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 69.4,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 64.0,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "LangChain's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "LangChain's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "LangChain lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 12,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Secureframe",
+      "domain": "secureframe.com",
+      "category": "compliance",
+      "category_long": "security and compliance automation for mid-market SaaS companies",
+      "tier": "tier2",
+      "composite_score": 67.0,
+      "scores": {
+        "openai": {
+          "score": 67.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 67.1,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 68.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 64.9,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Secureframe's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Secureframe's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Secureframe lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 13,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Fivetran",
+      "domain": "fivetran.com",
+      "category": "data integration",
+      "category_long": "automated data movement and transformation platform for modern data stacks",
+      "tier": "anchor",
+      "composite_score": 66.7,
+      "scores": {
+        "openai": {
+          "score": 68.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 57.2,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 67.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 74.4,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Fivetran's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Fivetran's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Fivetran lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 14,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "ChartMogul",
+      "domain": "chartmogul.com",
+      "category": "SaaS analytics",
+      "category_long": "subscription analytics and revenue intelligence for SaaS companies",
+      "tier": "tier2",
+      "composite_score": 63.6,
+      "scores": {
+        "openai": {
+          "score": 67.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 55.7,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 76.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 54.3,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "ChartMogul's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "ChartMogul lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "ChartMogul's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ],
+      "rank": 15,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "HiBob",
+      "domain": "hibob.com",
+      "category": "HR",
+      "category_long": "modern HRIS for mid-market global and remote-first teams",
+      "tier": "anchor",
+      "composite_score": 63.4,
+      "scores": {
+        "openai": {
+          "score": 62.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 57.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 65.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 68.6,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "HiBob's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "HiBob lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "HiBob's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ],
+      "rank": 16,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "LlamaIndex",
+      "domain": "llamaindex.ai",
+      "category": "AI tooling",
+      "category_long": "data framework for LLM applications and RAG pipelines",
+      "tier": "tier2",
+      "composite_score": 63.4,
+      "scores": {
+        "openai": {
+          "score": 60.3,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 64.5,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 73.4,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 55.4,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "LlamaIndex's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "LlamaIndex lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "LlamaIndex's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ],
+      "rank": 17,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Zapier",
+      "domain": "zapier.com",
+      "category": "automation",
+      "category_long": "no-code workflow automation platform connecting 6000 plus apps",
+      "tier": "anchor",
+      "composite_score": 63.2,
+      "scores": {
+        "openai": {
+          "score": 63.3,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 68.6,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 60.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 60.3,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Zapier's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Zapier lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Zapier's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ],
+      "rank": 18,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Intercom",
+      "domain": "intercom.com",
+      "category": "customer support",
+      "category_long": "customer messaging and AI-powered support platform for B2B SaaS",
+      "tier": "anchor",
+      "composite_score": 62.6,
+      "scores": {
+        "openai": {
+          "score": 66.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 68.5,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 60.0,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 55.2,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Intercom's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Intercom lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Intercom's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ],
+      "rank": 19,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Paddle",
+      "domain": "paddle.com",
+      "category": "billing",
+      "category_long": "complete payments and billing infrastructure for software companies",
+      "tier": "tier2",
+      "composite_score": 60.9,
+      "scores": {
+        "openai": {
+          "score": 61.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 60.8,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 57.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 63.5,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Paddle's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Paddle lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Paddle's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ],
+      "rank": 20,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Pilot",
+      "domain": "pilot.com",
+      "category": "finance",
+      "category_long": "bookkeeping and financial operations platform for startups",
+      "tier": "tier2",
+      "composite_score": 58.6,
+      "scores": {
+        "openai": {
+          "score": 67.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 58.2,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 59.3,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 49.3,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Pilot's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Pilot lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Pilot's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ],
+      "rank": 21,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Reply.io",
+      "domain": "reply.io",
+      "category": "sales engagement",
+      "category_long": "AI sales engagement platform for automated multi-channel outreach",
+      "tier": "tier2",
+      "composite_score": 58.5,
+      "scores": {
+        "openai": {
+          "score": 59.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 59.6,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 70.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 44.1,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Reply.io's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Reply.io lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Reply.io's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ],
+      "rank": 22,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "ChurnZero",
+      "domain": "churnzero.com",
+      "category": "customer success",
+      "category_long": "real-time customer success software for subscription businesses",
+      "tier": "tier2",
+      "composite_score": 57.6,
+      "scores": {
+        "openai": {
+          "score": 55.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 67.6,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 59.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 47.3,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "ChurnZero's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "ChurnZero lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "ChurnZero's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ],
+      "rank": 23,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Help Scout",
+      "domain": "helpscout.com",
+      "category": "customer support",
+      "category_long": "simple email-based customer support platform for customer-centric teams",
+      "tier": "tier2",
+      "composite_score": 57.3,
+      "scores": {
+        "openai": {
+          "score": 59.7,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 57.7,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 57.9,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 53.9,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Help Scout's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Help Scout lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Help Scout's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ],
+      "rank": 24,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Planetscale",
+      "domain": "planetscale.com",
+      "category": "database",
+      "category_long": "serverless MySQL platform for modern web applications",
+      "tier": "tier2",
+      "composite_score": 57.2,
+      "scores": {
+        "openai": {
+          "score": 53.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 63.1,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 58.7,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 54.2,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Planetscale's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Planetscale lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Planetscale's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ],
+      "rank": 25,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Rippling",
+      "domain": "rippling.com",
+      "category": "HR",
+      "category_long": "unified workforce platform for HR payroll IT and finance",
+      "tier": "anchor",
+      "composite_score": 57.1,
+      "scores": {
+        "openai": {
+          "score": 63.4,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 55.3,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 55.9,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 53.8,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Rippling's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Rippling lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Rippling's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ],
+      "rank": 26,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Workable",
+      "domain": "workable.com",
+      "category": "ATS",
+      "category_long": "applicant tracking system for growing companies",
+      "tier": "tier2",
+      "composite_score": 56.6,
+      "scores": {
+        "openai": {
+          "score": 54.4,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 53.9,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 53.4,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 64.9,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Workable's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Workable lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Workable's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ],
+      "rank": 27,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Prefect",
+      "domain": "prefect.io",
+      "category": "workflow orchestration",
+      "category_long": "Python-native data workflow orchestration for modern data engineering",
+      "tier": "tier2",
+      "composite_score": 55.5,
+      "scores": {
+        "openai": {
+          "score": 59.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 52.1,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 54.0,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 56.1,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Prefect's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Prefect lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Prefect's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ],
+      "rank": 28,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Ashby",
+      "domain": "ashby.com",
+      "category": "ATS",
+      "category_long": "all-in-one recruiting platform for high-growth companies",
+      "tier": "tier2",
+      "composite_score": 55.1,
+      "scores": {
+        "openai": {
+          "score": 55.5,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 52.3,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 53.5,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 59.3,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Ashby's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Ashby lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Ashby's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ],
+      "rank": 29,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Vellum",
+      "domain": "vellum.ai",
+      "category": "AI tooling",
+      "category_long": "LLM product development and prompt management platform",
+      "tier": "tier2",
+      "composite_score": 55.1,
+      "scores": {
+        "openai": {
+          "score": 58.7,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 50.7,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 57.3,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 53.9,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Vellum's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Vellum lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Vellum's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ],
+      "rank": 30,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Vercel",
+      "domain": "vercel.com",
+      "category": "deployment",
+      "category_long": "frontend cloud and deployment platform for modern web apps",
+      "tier": "anchor",
+      "composite_score": 54.8,
+      "scores": {
+        "openai": {
+          "score": 64.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 44.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 56.0,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 72.1,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Vercel's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Vercel's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Vercel lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 31,
+      "data_source": "verified_2026-05-28"
+    },
+    {
+      "brand": "Drip",
+      "domain": "drip.com",
+      "category": "marketing automation",
+      "category_long": "ecommerce CRM and email marketing platform for DTC brands",
+      "tier": "tier1",
+      "composite_score": 53.5,
+      "scores": {
+        "openai": {
+          "score": 51.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 48.2,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 53.7,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 60.6,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Drip's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Drip lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Drip's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ],
+      "rank": 32,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Braintrust",
+      "domain": "braintrust.dev",
+      "category": "AI tooling",
+      "category_long": "AI evaluation and model testing platform for engineering teams",
+      "tier": "tier1",
+      "composite_score": 53.3,
+      "scores": {
+        "openai": {
+          "score": 53.5,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 58.8,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 55.1,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 45.9,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Braintrust's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Braintrust lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Braintrust's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ],
+      "rank": 33,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Make",
+      "domain": "make.com",
+      "category": "automation",
+      "category_long": "visual no-code automation platform for building complex workflows",
+      "tier": "tier2",
+      "composite_score": 51.8,
+      "scores": {
+        "openai": {
+          "score": 55.5,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 49.9,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 63.3,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 38.5,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Make's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Make lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Make's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ],
+      "rank": 34,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Totango",
+      "domain": "totango.com",
+      "category": "customer success",
+      "category_long": "composable customer success platform for enterprise SaaS companies",
+      "tier": "tier1",
+      "composite_score": 51.6,
+      "scores": {
+        "openai": {
+          "score": 52.3,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 54.2,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 56.3,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 43.7,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Totango's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Totango lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Totango's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ],
+      "rank": 35,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Teamtailor",
+      "domain": "teamtailor.com",
+      "category": "ATS",
+      "category_long": "employer branding and ATS platform for modern talent teams",
+      "tier": "tier2",
+      "composite_score": 50.6,
+      "scores": {
+        "openai": {
+          "score": 58.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 55.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 39.1,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 50.3,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Teamtailor's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Teamtailor lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Teamtailor's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ],
+      "rank": 36,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Neon",
+      "domain": "neon.tech",
+      "category": "database",
+      "category_long": "serverless Postgres platform for developer teams",
+      "tier": "tier2",
+      "composite_score": 50.4,
+      "scores": {
+        "openai": {
+          "score": 55.1,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 52.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 57.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 36.6,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Neon's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Neon lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Neon's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ],
+      "rank": 37,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "UserVoice",
+      "domain": "uservoice.com",
+      "category": "product feedback",
+      "category_long": "product feedback and roadmap management platform for product teams",
+      "tier": "tier1",
+      "composite_score": 49.1,
+      "scores": {
+        "openai": {
+          "score": 48.9,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 49.7,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 46.1,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 51.9,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "UserVoice lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "UserVoice's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "UserVoice is under-represented in third-party 'best product feedback' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 38,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Front",
+      "domain": "front.com",
+      "category": "customer operations",
+      "category_long": "collaborative customer communications platform for operations teams",
+      "tier": "tier2",
+      "composite_score": 48.8,
+      "scores": {
+        "openai": {
+          "score": 53.5,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 49.7,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 48.7,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 43.2,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Front lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Front's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Front is under-represented in third-party 'best customer operations' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 39,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Leapsome",
+      "domain": "leapsome.com",
+      "category": "HR",
+      "category_long": "performance and engagement platform for continuous people development",
+      "tier": "tier2",
+      "composite_score": 48.0,
+      "scores": {
+        "openai": {
+          "score": 54.1,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 42.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 51.9,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 43.4,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Leapsome lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Leapsome's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Leapsome is under-represented in third-party 'best HR' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 40,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Maxio",
+      "domain": "maxio.com",
+      "category": "billing",
+      "category_long": "SaaS financial operations and subscription billing platform",
+      "tier": "tier2",
+      "composite_score": 46.8,
+      "scores": {
+        "openai": {
+          "score": 46.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 40.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 47.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 52.6,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Maxio lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Maxio's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Maxio is under-represented in third-party 'best billing' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 41,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Retool",
+      "domain": "retool.com",
+      "category": "internal tooling",
+      "category_long": "low-code platform for building internal tools and dashboards",
+      "tier": "anchor",
+      "composite_score": 46.0,
+      "scores": {
+        "openai": {
+          "score": 46.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 39.6,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 52.4,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 78.1,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Retool's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Retool's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Retool lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 42,
+      "data_source": "verified_2026-05-28"
+    },
+    {
+      "brand": "Mixpanel",
+      "domain": "mixpanel.com",
+      "category": "product analytics",
+      "category_long": "event-based product analytics for SaaS companies",
+      "tier": "anchor",
+      "composite_score": 46.0,
+      "scores": {
+        "openai": {
+          "score": 55.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 38.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 44.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 75.4,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Mixpanel's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Mixpanel's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Mixpanel lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 43,
+      "data_source": "verified_2026-05-28"
+    },
+    {
+      "brand": "RudderStack",
+      "domain": "rudderstack.com",
+      "category": "customer data platform",
+      "category_long": "open-source customer data platform for engineering-led data teams",
+      "tier": "tier2",
+      "composite_score": 46.0,
+      "scores": {
+        "openai": {
+          "score": 41.7,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 42.2,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 43.4,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 56.7,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "RudderStack lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "RudderStack's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "RudderStack is under-represented in third-party 'best customer data platform' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 44,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Amplitude",
+      "domain": "amplitude.com",
+      "category": "product analytics",
+      "category_long": "digital analytics platform for enterprise and mid-market teams",
+      "tier": "anchor",
+      "composite_score": 45.3,
+      "scores": {
+        "openai": {
+          "score": 50.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 40.8,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 45.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 55.2,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Amplitude's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Amplitude lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Amplitude's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ],
+      "rank": 45,
+      "data_source": "verified_2026-05-28"
+    },
+    {
+      "brand": "Charlie HR",
+      "domain": "charliehr.com",
+      "category": "HR",
+      "category_long": "simple HR software built for small UK companies",
+      "tier": "tier1",
+      "composite_score": 44.9,
+      "scores": {
+        "openai": {
+          "score": 42.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 40.7,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 47.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 48.5,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Charlie HR lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Charlie HR's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Charlie HR is under-represented in third-party 'best HR' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 46,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Pipedrive",
+      "domain": "pipedrive.com",
+      "category": "CRM",
+      "category_long": "visual sales CRM for SMBs",
+      "tier": "anchor",
+      "composite_score": 44.5,
+      "scores": {
+        "openai": {
+          "score": 43.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 41.6,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 48.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 84.9,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Pipedrive's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Pipedrive's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Pipedrive lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 47,
+      "data_source": "verified_2026-05-28"
+    },
+    {
+      "brand": "Langfuse",
+      "domain": "langfuse.com",
+      "category": "AI tooling",
+      "category_long": "open-source LLM observability and evaluation platform",
+      "tier": "tier1",
+      "composite_score": 43.9,
+      "scores": {
+        "openai": {
+          "score": 44.4,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 39.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 52.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 38.9,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Langfuse lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Langfuse's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Langfuse is under-represented in third-party 'best AI tooling' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 48,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Instantly",
+      "domain": "instantly.ai",
+      "category": "sales engagement",
+      "category_long": "cold email automation platform built for high-volume outbound",
+      "tier": "tier1",
+      "composite_score": 43.1,
+      "scores": {
+        "openai": {
+          "score": 38.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 47.6,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 42.3,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 44.0,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Instantly lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Instantly's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Instantly is under-represented in third-party 'best sales engagement' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 49,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Plausible",
+      "domain": "plausible.io",
+      "category": "web analytics",
+      "category_long": "privacy-first web analytics for SaaS founders",
+      "tier": "tier1",
+      "composite_score": 43.1,
+      "scores": {
+        "openai": {
+          "score": 48.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 39.6,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 40.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 31.0,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Plausible lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Plausible's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Plausible is under-represented in third-party 'best web analytics' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 50,
+      "data_source": "verified_2026-05-28"
+    },
+    {
+      "brand": "Airbyte",
+      "domain": "airbyte.com",
+      "category": "data integration",
+      "category_long": "open-source ELT data integration platform for modern data teams",
+      "tier": "tier2",
+      "composite_score": 42.6,
+      "scores": {
+        "openai": {
+          "score": 44.4,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 46.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 42.3,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 37.7,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Airbyte lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Airbyte's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Airbyte is under-represented in third-party 'best data integration' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 51,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Matillion",
+      "domain": "matillion.com",
+      "category": "data integration",
+      "category_long": "cloud-native data integration and transformation platform for enterprises",
+      "tier": "tier2",
+      "composite_score": 42.4,
+      "scores": {
+        "openai": {
+          "score": 42.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 46.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 48.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 32.7,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Matillion lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Matillion's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Matillion is under-represented in third-party 'best data integration' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 52,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Baremetrics",
+      "domain": "baremetrics.com",
+      "category": "SaaS analytics",
+      "category_long": "SaaS metrics and subscription analytics for bootstrap and funded founders",
+      "tier": "tier1",
+      "composite_score": 41.2,
+      "scores": {
+        "openai": {
+          "score": 38.9,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 43.7,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 46.7,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 35.5,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Baremetrics lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Baremetrics's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Baremetrics is under-represented in third-party 'best SaaS analytics' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 53,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Nudge Security",
+      "domain": "nudgesecurity.com",
+      "category": "security",
+      "category_long": "SaaS security and shadow IT discovery platform for IT teams",
+      "tier": "tier1",
+      "composite_score": 41.2,
+      "scores": {
+        "openai": {
+          "score": 52.7,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 39.7,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 38.7,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 33.9,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Nudge Security lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Nudge Security's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Nudge Security is under-represented in third-party 'best security' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 54,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Mosaic",
+      "domain": "mosaic.tech",
+      "category": "FP&A",
+      "category_long": "strategic finance platform for modern FP&A teams",
+      "tier": "tier1",
+      "composite_score": 40.0,
+      "scores": {
+        "openai": {
+          "score": 40.3,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 35.6,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 52.7,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 31.5,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Mosaic lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Mosaic's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Mosaic is under-represented in third-party 'best FP&A' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 55,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Metabase",
+      "domain": "metabase.com",
+      "category": "business intelligence",
+      "category_long": "open-source BI and data visualization tool",
+      "tier": "tier1",
+      "composite_score": 39.9,
+      "scores": {
+        "openai": {
+          "score": 37.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 36.8,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 45.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 20.5,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Metabase lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Metabase's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Metabase is under-represented in third-party 'best business intelligence' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 56,
+      "data_source": "verified_2026-05-28"
+    },
+    {
+      "brand": "Hightouch",
+      "domain": "hightouch.com",
+      "category": "reverse ETL",
+      "category_long": "data activation and reverse ETL platform for RevOps and data teams",
+      "tier": "tier1",
+      "composite_score": 39.7,
+      "scores": {
+        "openai": {
+          "score": 38.9,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 39.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 39.5,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 40.9,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Hightouch lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Hightouch's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Hightouch is under-represented in third-party 'best reverse ETL' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 57,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Pendo",
+      "domain": "pendo.io",
+      "category": "product analytics",
+      "category_long": "product experience and analytics platform for enterprise SaaS",
+      "tier": "anchor",
+      "composite_score": 39.1,
+      "scores": {
+        "openai": {
+          "score": 36.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 37.2,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 43.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 85.9,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Pendo's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Pendo's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Pendo lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 58,
+      "data_source": "verified_2026-05-28"
+    },
+    {
+      "brand": "Lattice",
+      "domain": "lattice.com",
+      "category": "HR",
+      "category_long": "performance management and people development platform for growing teams",
+      "tier": "tier2",
+      "composite_score": 38.6,
+      "scores": {
+        "openai": {
+          "score": 44.7,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 40.8,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 38.0,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 31.1,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Lattice lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Lattice's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Lattice is under-represented in third-party 'best HR' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 59,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Planhat",
+      "domain": "planhat.com",
+      "category": "customer success",
+      "category_long": "customer success and revenue platform for CS and RevOps teams",
+      "tier": "tier1",
+      "composite_score": 38.5,
+      "scores": {
+        "openai": {
+          "score": 42.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 37.2,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 44.7,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 29.8,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Planhat lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Planhat's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Planhat is under-represented in third-party 'best customer success' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 60,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Finaloop",
+      "domain": "finaloop.com",
+      "category": "finance",
+      "category_long": "real-time accounting platform built for e-commerce businesses",
+      "tier": "tier1",
+      "composite_score": 38.4,
+      "scores": {
+        "openai": {
+          "score": 41.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 36.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 38.3,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 38.3,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Finaloop lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Finaloop's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Finaloop is under-represented in third-party 'best finance' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 61,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Conveyor",
+      "domain": "conveyor.com",
+      "category": "security",
+      "category_long": "security review automation platform for SaaS sales and compliance",
+      "tier": "tier1",
+      "composite_score": 38.3,
+      "scores": {
+        "openai": {
+          "score": 37.3,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 29.7,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 46.3,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 39.8,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Conveyor lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Conveyor's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Conveyor is under-represented in third-party 'best security' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 62,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Apify",
+      "domain": "apify.com",
+      "category": "automation",
+      "category_long": "web scraping and browser automation platform for developers",
+      "tier": "tier1",
+      "composite_score": 37.6,
+      "scores": {
+        "openai": {
+          "score": 35.5,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 30.8,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 42.9,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 41.1,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Apify lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Apify's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Apify is under-represented in third-party 'best automation' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 63,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Sprinto",
+      "domain": "sprinto.com",
+      "category": "compliance",
+      "category_long": "fast-track compliance automation platform for SaaS startups",
+      "tier": "tier1",
+      "composite_score": 37.3,
+      "scores": {
+        "openai": {
+          "score": 33.9,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 43.2,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 36.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 35.2,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Sprinto lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Sprinto's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Sprinto is under-represented in third-party 'best compliance' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 64,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Portkey",
+      "domain": "portkey.ai",
+      "category": "AI tooling",
+      "category_long": "AI gateway and LLM ops platform for production engineering teams",
+      "tier": "tier1",
+      "composite_score": 37.2,
+      "scores": {
+        "openai": {
+          "score": 40.4,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 35.6,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 43.7,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 29.1,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Portkey lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Portkey's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Portkey is under-represented in third-party 'best AI tooling' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 65,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Rho",
+      "domain": "rho.co",
+      "category": "finance",
+      "category_long": "all-in-one finance platform for scaling startups and scaleups",
+      "tier": "tier1",
+      "composite_score": 36.9,
+      "scores": {
+        "openai": {
+          "score": 39.5,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 34.1,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 40.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 33.2,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Rho lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Rho's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Rho is under-represented in third-party 'best finance' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 66,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Supermetrics",
+      "domain": "supermetrics.com",
+      "category": "marketing analytics",
+      "category_long": "marketing data pipeline tool for agencies and in-house teams",
+      "tier": "tier1",
+      "composite_score": 36.9,
+      "scores": {
+        "openai": {
+          "score": 41.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 35.2,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 34.0,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 15.5,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Supermetrics's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Supermetrics is under-represented in third-party 'best marketing analytics' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Supermetrics lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 67,
+      "data_source": "verified_2026-05-28"
+    },
+    {
+      "brand": "Sentry",
+      "domain": "sentry.io",
+      "category": "error monitoring",
+      "category_long": "application performance monitoring and error tracking platform",
+      "tier": "anchor",
+      "composite_score": 36.3,
+      "scores": {
+        "openai": {
+          "score": 44.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 32.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 32.4,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 67.3,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Sentry's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Sentry's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Sentry lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 68,
+      "data_source": "verified_2026-05-28"
+    },
+    {
+      "brand": "Anecdotes",
+      "domain": "anecdotes.ai",
+      "category": "compliance",
+      "category_long": "compliance operations platform for enterprise security and GRC teams",
+      "tier": "tier2",
+      "composite_score": 36.0,
+      "scores": {
+        "openai": {
+          "score": 36.3,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 43.3,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 43.1,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 21.4,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Anecdotes lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Anecdotes's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Anecdotes is under-represented in third-party 'best compliance' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 69,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Doppler",
+      "domain": "doppler.com",
+      "category": "secrets management",
+      "category_long": "universal secrets manager for engineering and DevOps teams",
+      "tier": "tier1",
+      "composite_score": 35.9,
+      "scores": {
+        "openai": {
+          "score": 37.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 40.8,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 43.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 22.2,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Doppler lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Doppler's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Doppler is under-represented in third-party 'best secrets management' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 70,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "PostHog",
+      "domain": "posthog.com",
+      "category": "product analytics",
+      "category_long": "open-source product analytics platform for developer teams",
+      "tier": "anchor",
+      "composite_score": 35.6,
+      "scores": {
+        "openai": {
+          "score": 29.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 36.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 41.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 76.9,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "PostHog's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "PostHog's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "PostHog lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 71,
+      "data_source": "verified_2026-05-28"
+    },
+    {
+      "brand": "FullStory",
+      "domain": "fullstory.com",
+      "category": "product analytics",
+      "category_long": "digital experience analytics with session replay",
+      "tier": "tier1",
+      "composite_score": 35.3,
+      "scores": {
+        "openai": {
+          "score": 38.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 34.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 33.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 54.9,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "FullStory's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "FullStory lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "FullStory's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ],
+      "rank": 72,
+      "data_source": "verified_2026-05-28"
+    },
+    {
+      "brand": "Semgrep",
+      "domain": "semgrep.com",
+      "category": "security",
+      "category_long": "static analysis and application security testing tool for developers",
+      "tier": "niche",
+      "composite_score": 35.0,
+      "scores": {
+        "openai": {
+          "score": 39.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 26.1,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 32.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 42.3,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Semgrep lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Semgrep's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Semgrep is under-represented in third-party 'best security' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 73,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Copper",
+      "domain": "copper.com",
+      "category": "CRM",
+      "category_long": "Google-native CRM for agencies and consultants",
+      "tier": "niche",
+      "composite_score": 34.9,
+      "scores": {
+        "openai": {
+          "score": 39.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 24.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 41.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 18.9,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Copper's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Copper is under-represented in third-party 'best CRM' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Copper lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 74,
+      "data_source": "verified_2026-05-28"
+    },
+    {
+      "brand": "Apollo.io",
+      "domain": "apollo.io",
+      "category": "CRM",
+      "category_long": "B2B sales intelligence and outreach platform",
+      "tier": "anchor",
+      "composite_score": 34.7,
+      "scores": {
+        "openai": {
+          "score": 27.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 40.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 36.0,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 83.5,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Apollo.io's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Apollo.io's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Apollo.io lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 75,
+      "data_source": "verified_2026-05-28"
+    },
+    {
+      "brand": "Humaans",
+      "domain": "humaans.io",
+      "category": "HR",
+      "category_long": "modern HRIS for fast-moving startups and scaleups",
+      "tier": "tier1",
+      "composite_score": 34.5,
+      "scores": {
+        "openai": {
+          "score": 32.5,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 37.9,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 37.7,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 29.9,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Humaans lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Humaans's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Humaans is under-represented in third-party 'best HR' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 76,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Encharge",
+      "domain": "encharge.io",
+      "category": "marketing automation",
+      "category_long": "behavior-based email automation platform for SaaS companies",
+      "tier": "tier1",
+      "composite_score": 33.9,
+      "scores": {
+        "openai": {
+          "score": 38.7,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 37.6,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 31.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 28.0,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Encharge lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Encharge's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Encharge is under-represented in third-party 'best marketing automation' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 77,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Linear",
+      "domain": "linear.app",
+      "category": "project management",
+      "category_long": "issue tracking and project management for software teams",
+      "tier": "tier2",
+      "composite_score": 33.3,
+      "scores": {
+        "openai": {
+          "score": 23.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 36.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 40.4,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 39.6,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Linear lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Linear's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Linear is under-represented in third-party 'best project management' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 78,
+      "data_source": "verified_2026-05-28"
+    },
+    {
+      "brand": "Userlist",
+      "domain": "userlist.com",
+      "category": "marketing automation",
+      "category_long": "email automation platform for SaaS onboarding and user lifecycle",
+      "tier": "tier1",
+      "composite_score": 33.1,
+      "scores": {
+        "openai": {
+          "score": 35.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 23.8,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 35.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 38.2,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Userlist lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Userlist's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Userlist is under-represented in third-party 'best marketing automation' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 79,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Comet ML",
+      "domain": "comet.com",
+      "category": "MLOps",
+      "category_long": "ML experiment tracking and model management for data science teams",
+      "tier": "tier1",
+      "composite_score": 32.0,
+      "scores": {
+        "openai": {
+          "score": 35.3,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 32.6,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 41.3,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 19.0,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Comet ML lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Comet ML's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Comet ML is under-represented in third-party 'best MLOps' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 80,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Helicone",
+      "domain": "helicone.ai",
+      "category": "AI tooling",
+      "category_long": "LLM observability and cost monitoring platform for developers",
+      "tier": "tier1",
+      "composite_score": 30.4,
+      "scores": {
+        "openai": {
+          "score": 29.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 30.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 39.3,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 23.1,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Helicone lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Helicone's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Helicone is under-represented in third-party 'best AI tooling' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 81,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "SafeBase",
+      "domain": "safebase.io",
+      "category": "security",
+      "category_long": "trust and security center platform for B2B SaaS vendor reviews",
+      "tier": "tier1",
+      "composite_score": 30.2,
+      "scores": {
+        "openai": {
+          "score": 37.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 28.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 31.0,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 24.3,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "SafeBase lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "SafeBase's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "SafeBase is under-represented in third-party 'best security' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 82,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Stonly",
+      "domain": "stonly.com",
+      "category": "knowledge management",
+      "category_long": "interactive knowledge base and guided support platform for CS teams",
+      "tier": "tier1",
+      "composite_score": 29.3,
+      "scores": {
+        "openai": {
+          "score": 31.1,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 37.9,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 29.7,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 18.5,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Stonly's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Stonly is under-represented in third-party 'best knowledge management' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Stonly lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 83,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Grip Security",
+      "domain": "grip.security",
+      "category": "security",
+      "category_long": "SaaS security posture management platform for enterprise teams",
+      "tier": "tier1",
+      "composite_score": 26.4,
+      "scores": {
+        "openai": {
+          "score": 27.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 21.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 28.9,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 28.2,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Grip Security's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Grip Security is under-represented in third-party 'best security' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Grip Security lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 84,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Raycast",
+      "domain": "raycast.com",
+      "category": "productivity",
+      "category_long": "developer productivity launcher for Mac power users",
+      "tier": "tier1",
+      "composite_score": 25.8,
+      "scores": {
+        "openai": {
+          "score": 35.7,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 18.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 32.1,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 17.0,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Raycast's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Raycast is under-represented in third-party 'best productivity' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Raycast lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 85,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Render",
+      "domain": "render.com",
+      "category": "cloud infrastructure",
+      "category_long": "modern cloud hosting platform for web services and databases",
+      "tier": "tier2",
+      "composite_score": 25.7,
+      "scores": {
+        "openai": {
+          "score": 20.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 34.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 22.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 50.8,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Render's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Render lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Render's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ],
+      "rank": 86,
+      "data_source": "verified_2026-05-28"
+    },
+    {
+      "brand": "Checkly",
+      "domain": "checklyhq.com",
+      "category": "monitoring",
+      "category_long": "monitoring as code platform for DevOps and reliability teams",
+      "tier": "tier1",
+      "composite_score": 24.7,
+      "scores": {
+        "openai": {
+          "score": 28.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 24.9,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 17.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 28.1,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Checkly's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Checkly is under-represented in third-party 'best monitoring' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Checkly lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 87,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Mailmodo",
+      "domain": "mailmodo.com",
+      "category": "marketing automation",
+      "category_long": "interactive email marketing platform for SaaS growth and engagement",
+      "tier": "tier1",
+      "composite_score": 24.1,
+      "scores": {
+        "openai": {
+          "score": 29.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 27.9,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 25.1,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 14.6,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Mailmodo's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Mailmodo is under-represented in third-party 'best marketing automation' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Mailmodo lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 88,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "n8n",
+      "domain": "n8n.io",
+      "category": "automation",
+      "category_long": "open-source workflow automation for technical operations teams",
+      "tier": "tier1",
+      "composite_score": 23.2,
+      "scores": {
+        "openai": {
+          "score": 30.7,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 28.8,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 22.4,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 10.9,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "n8n's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "n8n is under-represented in third-party 'best automation' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "n8n lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 89,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Vitally",
+      "domain": "vitally.io",
+      "category": "customer success",
+      "category_long": "customer success platform for B2B SaaS product and CS teams",
+      "tier": "tier1",
+      "composite_score": 23.0,
+      "scores": {
+        "openai": {
+          "score": 20.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 25.1,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 29.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 17.3,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Vitally's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Vitally is under-represented in third-party 'best customer success' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Vitally lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 90,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "Numeric",
+      "domain": "numeric.io",
+      "category": "finance",
+      "category_long": "close management and financial reporting platform for finance teams",
+      "tier": "tier1",
+      "composite_score": 22.3,
+      "scores": {
+        "openai": {
+          "score": 25.7,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 25.7,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 19.6,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 18.1,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Numeric's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Numeric is under-represented in third-party 'best finance' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Numeric lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 91,
+      "data_source": "estimated"
+    },
+    {
+      "brand": "June.so",
+      "domain": "june.so",
+      "category": "product analytics",
+      "category_long": "B2B product analytics built on Segment for early-stage teams",
+      "tier": "tier1",
+      "composite_score": 20.4,
+      "scores": {
+        "openai": {
+          "score": 22.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 18.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 21.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 9.1,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "June.so's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "June.so is under-represented in third-party 'best product analytics' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "June.so lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 92,
+      "data_source": "verified_2026-05-28"
+    },
+    {
+      "brand": "Close",
+      "domain": "close.com",
+      "category": "CRM",
+      "category_long": "sales CRM for inside sales teams",
+      "tier": "tier1",
+      "composite_score": 20.0,
+      "scores": {
+        "openai": {
+          "score": 18.4,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 14.8,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 26.8,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 25.1,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Close lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Close's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Close is under-represented in third-party 'best CRM' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 93,
+      "data_source": "verified_2026-05-28"
+    },
+    {
+      "brand": "Amplemarket",
+      "domain": "amplemarket.com",
+      "category": "CRM",
+      "category_long": "AI-powered sales intelligence and engagement platform",
+      "tier": "tier1",
+      "composite_score": 19.7,
+      "scores": {
+        "openai": {
+          "score": 18.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 15.2,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 25.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 37.9,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Amplemarket lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Amplemarket's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Amplemarket is under-represented in third-party 'best CRM' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 94,
+      "data_source": "verified_2026-05-28"
+    },
+    {
+      "brand": "Salesflare",
+      "domain": "salesflare.com",
+      "category": "CRM",
+      "category_long": "automated CRM for small B2B companies",
+      "tier": "tier1",
+      "composite_score": 19.5,
+      "scores": {
+        "openai": {
+          "score": 22.0,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 14.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 22.4,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 30.8,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Salesflare lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Salesflare's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Salesflare is under-represented in third-party 'best CRM' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 95,
+      "data_source": "verified_2026-05-28"
+    },
+    {
+      "brand": "LeadIQ",
+      "domain": "leadiq.com",
+      "category": "CRM",
+      "category_long": "prospecting and lead capture platform for SDRs",
+      "tier": "tier1",
+      "composite_score": 18.5,
+      "scores": {
+        "openai": {
+          "score": 21.2,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 12.0,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 22.4,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 27.6,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "LeadIQ lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "LeadIQ's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "LeadIQ is under-represented in third-party 'best CRM' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 96,
+      "data_source": "verified_2026-05-28"
+    },
+    {
+      "brand": "Klipfolio",
+      "domain": "klipfolio.com",
+      "category": "business intelligence",
+      "category_long": "cloud dashboard and KPI tracking tool for SMBs",
+      "tier": "tier1",
+      "composite_score": 18.4,
+      "scores": {
+        "openai": {
+          "score": 17.6,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 13.2,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 24.4,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 40.2,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Klipfolio lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Klipfolio's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Klipfolio is under-represented in third-party 'best business intelligence' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 97,
+      "data_source": "verified_2026-05-28"
+    },
+    {
+      "brand": "Nutshell",
+      "domain": "nutshell.com",
+      "category": "CRM",
+      "category_long": "all-in-one CRM and email marketing for B2B teams",
+      "tier": "tier1",
+      "composite_score": 17.9,
+      "scores": {
+        "openai": {
+          "score": 16.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 15.6,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 21.2,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 31.9,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Nutshell lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 1
+        },
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Nutshell's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Nutshell is under-represented in third-party 'best CRM' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 3
+        }
+      ],
+      "rank": 98,
+      "data_source": "verified_2026-05-28"
+    },
+    {
+      "brand": "Attio",
+      "domain": "attio.com",
+      "category": "CRM",
+      "category_long": "modern CRM for high-growth B2B startups",
+      "tier": "tier1",
+      "composite_score": 17.6,
+      "scores": {
+        "openai": {
+          "score": 14.8,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 15.6,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 22.4,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 54.7,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "Missing FAQPage schema on pricing and comparison pages",
+          "description": "Attio's pricing page does not include FAQPage markup, causing it to miss high-intent 'how much does X cost' and 'X vs Y pricing' slots in Google AI Overviews.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Attio lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 2
+        },
+        {
+          "type": "schema",
+          "title": "No HowTo schema on documentation and tutorial pages",
+          "description": "Attio's help center and tutorials lack HowTo structured data, reducing appearance in step-by-step instructional responses from Google AI Overviews and Perplexity.",
+          "priority": 3
+        }
+      ],
+      "rank": 99,
+      "data_source": "verified_2026-05-28"
+    },
+    {
+      "brand": "Folk",
+      "domain": "folk.app",
+      "category": "CRM",
+      "category_long": "collaborative CRM for founders and agencies",
+      "tier": "tier1",
+      "composite_score": 16.4,
+      "scores": {
+        "openai": {
+          "score": 16.4,
+          "label": "ChatGPT (GPT-4o)"
+        },
+        "anthropic": {
+          "score": 14.4,
+          "label": "Claude (Sonnet 3.5)"
+        },
+        "perplexity": {
+          "score": 18.4,
+          "label": "Perplexity (sonar-pro)"
+        },
+        "google": {
+          "score": 28.7,
+          "label": "Google AI Overviews"
+        }
+      },
+      "gaps": [
+        {
+          "type": "schema",
+          "title": "No Organization or SoftwareApplication schema on homepage",
+          "description": "Folk's homepage lacks structured data (schema.org/Organization or SoftwareApplication), reducing the chance AI models pull a rich product snippet when answering category-discovery queries.",
+          "priority": 1
+        },
+        {
+          "type": "content",
+          "title": "Low placement frequency in 'best [category] tools' roundups",
+          "description": "Folk is under-represented in third-party 'best CRM' listicles and review articles. AI models heavily weight these sources in category-discovery responses.",
+          "priority": 2
+        },
+        {
+          "type": "content",
+          "title": "Thin or missing dedicated competitor-comparison pages",
+          "description": "Folk lacks depth on '[brand] vs [competitor]' comparison pages, making it less likely to appear when AI models answer alternative/comparison queries.",
+          "priority": 3
+        }
+      ],
+      "rank": 100,
+      "data_source": "verified_2026-05-28"
+    }
+  ]
+}

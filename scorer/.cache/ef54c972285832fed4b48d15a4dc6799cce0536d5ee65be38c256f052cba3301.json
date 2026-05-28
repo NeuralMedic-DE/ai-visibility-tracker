@@ -1,0 +1,9 @@
+{
+  "brand": "Workato",
+  "prompt_id": "CD-02",
+  "llm": "anthropic",
+  "prompt_text": "Top enterprise automation platform for business and IT integration teams tools in 2025",
+  "response": "# Top Enterprise Automation Platforms in 2025\n\n## **Leading Solutions**\n\n### **1. UiPath**\n- **Strength:** RPA + AI orchestration\n- **Best for:** Large-scale process automation\n- **Key feature:** GenAI integration for intelligent automation\n\n### **2. Automation Anywhere**\n- **Strength:** Cloud-native, end-to-end automation\n- **Best for:** Enterprise transformation\n- **Key feature:** Bot Store marketplace\n\n### **3. Blue Prism**\n- **Strength:** Secure, governance-focused RPA\n- **Best for:** Regulated industries\n- **Key feature:** Integrated process intelligence\n\n### **4. Microsoft Power Automate**\n- **Strength:** Microsoft ecosystem integration\n- **Best for:** Organizations with 365/Azure investments\n- **Key feature:** Low-code/no-code with deep cloud integration\n\n### **5. Workato**\n- **Strength:** Enterprise iPaaS + automation hybrid\n- **Best for:** Complex IT/business process integration\n- **Key feature:** Pre-built connectors (1000+)\n\n---\n\n## **Key Selection Criteria (2025)**\n\n| Factor | Consideration |\n|--------|---|\n| **AI Capability** | GenAI-powered process discovery & optimization |\n| **Integration** | API-first architecture, extensive connectors |\n| **Scalability** | Cloud infrastructure for enterprise volume |\n| **Governance** | Security, audit trails, compliance |\n| **Ease of Use** | Low-code capabilities for citizen developers |\n\n## **Emerging Trend**\nHybrid approaches combining **RPA + iPaaS + AI** are winning enterprise deals.\n\n**What's your primary use case?** (Process automation, system integration, etc.)",
+  "cached_at": "2026-05-28T09:13:11Z",
+  "metadata": {}
+}

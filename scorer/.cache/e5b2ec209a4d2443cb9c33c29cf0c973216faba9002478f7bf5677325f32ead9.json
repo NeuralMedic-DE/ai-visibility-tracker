@@ -1,0 +1,9 @@
+{
+  "brand": "Braintrust",
+  "prompt_id": "IN-05",
+  "llm": "perplexity",
+  "prompt_text": "AI tooling tools with native OpenAI integration",
+  "response": "If you mean **AI tooling platforms or frameworks with native OpenAI integration**, the clearest examples in the provided results are **AI SDK** and the **OpenAI API itself**, which both support built-in tools and agent workflows. OpenAI’s platform supports **function calling, web search, file search, remote MCP servers, tool search, Skills, Shell, computer use, and image generation** through its tools interface.[3]\n\nA few useful distinctions from the results:\n\n- **AI SDK + OpenAI provider**: supports the OpenAI Responses API, including **file search**, **code interpreter**, **MCP tools**, and **tool search** via `openai.tools.*`.[1]\n- **OpenAI platform/API**: offers native tool support such as **function calling**, **web search**, **file search**, **remote MCP**, **tool search**, **computer use**, **shell**, and **skills**.[3]\n- **ToolJet**: integrates OpenAI into a low-code app/workflow platform, but the result is more about general integration than native tool support.[4]\n\nIf you were asking for a list of **AI-native products that integrate OpenAI internally**, the Vertice ranking shows **OpenAI** itself, plus tools like **Cursor**, **Jasper**, and **Harvey AI** among the top adopters, but that source is about adoption rank rather than integration details.[5]\n\nIf you want, I can turn this into one of these:\n- a **short list of developer tools**\n- a **comparison table of platforms with native OpenAI support**\n- a **catalog of OpenAI-native tools by use case**",
+  "cached_at": "2026-05-28T07:49:08Z",
+  "metadata": {}
+}

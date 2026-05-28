@@ -1,0 +1,9 @@
+{
+  "brand": "Semgrep",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Snyk vs alternatives: what should I switch to?",
+  "response": "# Snyk vs Alternatives: A Practical Comparison\n\n## When Snyk Makes Sense\n- You want integrated dependency + container scanning\n- Developer experience/ease of use is a priority\n- You need good SAST capabilities bundled in\n- You're in a well-funded startup (their pricing favors larger teams)\n\n## Stronger Alternatives by Use Case\n\n### **Dependency Scanning**\n- **Dependabot** (GitHub-native, free)\n  - Best if you're already on GitHub\n  - Limited but improving remediation\n  \n- **Renovate** (more flexible, free/paid)\n  - Superior grouping/scheduling options\n  - Works across any Git platform\n\n### **Container & Registry Scanning**\n- **Trivy** (free, open-source)\n  - Fastest, lowest overhead\n  - Great for CI/CD pipelines\n  - No central dashboard, but integrates everywhere\n\n- **Aqua/Grype** (free tier available)\n  - More enterprise features if needed\n\n### **SAST (Code Scanning)**\n- **CodeQL** (GitHub-native, free for public repos)\n  - Industry-leading analysis quality\n  \n- **SonarQube** (free/paid)\n  - Better for multi-language shops\n  - Excellent smell/technical debt tracking\n\n### **All-in-One Alternative**\n- **Aqua Security** or **JFrog** (pricey but comprehensive)\n  - Better value if you need everything integrated\n\n## Key Questions to Ask\n1. Are you GitHub-only? → Dependabot + CodeQL might be sufficient\n2. Do you need a central dashboard? → Snyk or commercial alternatives\n3. Is cost a concern? → Trivy + Renovate/Dependabot combo\n4. What's your biggest pain point? → That determines the best fit\n\n**What's driving your consideration to switch?** That context would help narrow it down.",
+  "cached_at": "2026-05-28T08:48:50Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Mixpanel",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Mixpanel vs Amplitude: which is better?",
+  "response": "# Mixpanel vs Amplitude: Key Differences\n\nNeither is objectively \"better\"—it depends on your needs. Here's how they compare:\n\n## Mixpanel Strengths\n- **Better for marketing-focused analytics** (funnel analysis, cohort tracking)\n- Stronger behavioral segmentation\n- More intuitive UI for many users\n- Better real-time capabilities\n- Good for A/B testing\n\n## Amplitude Strengths\n- **Better for product analytics** (retention, feature adoption)\n- Superior user journey visualization\n- More powerful free tier\n- Stronger at predicting churn\n- Better handling of large datasets\n- More affordable at scale\n\n## Quick Decision Guide\n\n**Choose Mixpanel if you need:**\n- Marketing campaign attribution\n- Quick, simple funnels\n- Real-time dashboards\n\n**Choose Amplitude if you need:**\n- Deep product understanding\n- Retention/engagement analysis\n- Cost efficiency at scale\n- Free plan for smaller teams\n\n## Other Factors\n- **Pricing**: Amplitude often cheaper; Mixpanel has better free tier\n- **Learning curve**: Mixpanel slightly easier initially\n- **Integrations**: Both solid; check specific needs\n- **Support**: Amplitude generally rated higher\n\n## Pro Tip\nMany teams use both—Mixpanel for marketing, Amplitude for product. Or try the free tiers side-by-side with your actual data.\n\nWhat's your primary use case? That would help narrow it down.",
+  "cached_at": "2026-05-27T19:13:44Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Braintrust",
+  "prompt_id": "AL-02",
+  "llm": "openai",
+  "prompt_text": "Cheaper alternatives to PromptFoo",
+  "response": "If you're looking for cheaper alternatives to PromptFoo, which is a tool for testing and evaluating AI prompts, you might consider the following options:\n\n1. **OpenAI Playground**: While not a direct alternative, the OpenAI Playground allows you to experiment with prompts and see how different models respond. It's a good way to test prompts without additional cost if you're already using OpenAI's API.\n\n2. **Hugging Face Transformers**: Hugging Face offers a wide range of models that you can test and evaluate for free. You can use their online interface or run models locally to experiment with different prompts.\n\n3. **Local Development Environment**: Setting up a local environment with open-source models (like those from Hugging Face or EleutherAI) can be a cost-effective way to test prompts without relying on third-party services.\n\n4. **Prompt Engineering Tools**: There are various open-source tools and scripts available on platforms like GitHub that can help you test and refine prompts. These might require more manual setup but can be a cost-effective solution.\n\n5. **AI Dungeon**: While primarily a game, AI Dungeon allows users to experiment with text generation and can be used to test how different prompts affect AI responses.\n\n6. **Custom Scripts**: Writing your own scripts to interact with APIs like OpenAI's GPT-3 or other models can be a low-cost way to test prompts if you have some programming skills.\n\nThese alternatives can help you test and refine AI prompts without the need for a dedicated paid service like PromptFoo.",
+  "cached_at": "2026-05-28T07:47:21Z",
+  "metadata": {}
+}

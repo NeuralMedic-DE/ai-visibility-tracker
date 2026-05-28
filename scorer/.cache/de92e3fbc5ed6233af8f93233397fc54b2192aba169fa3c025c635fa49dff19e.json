@@ -1,0 +1,9 @@
+{
+  "brand": "Salesflare",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Salesflare integrate with Gmail?",
+  "response": "Yes. **Salesflare integrates with Gmail**, including using Gmail from within Salesflare and adding a Gmail sidebar/extension so you can manage contacts and track email activity without switching tabs.[4][6][7]\n\nIt also supports **Google Workspace** in addition to personal Gmail accounts, and Salesflare’s integration pages describe features like seeing customer info next to emails, replying from the inbox, tracking opens/clicks, and auto-creating contacts from your inbox.[4][5][6]",
+  "cached_at": "2026-05-27T18:19:16Z",
+  "metadata": {}
+}

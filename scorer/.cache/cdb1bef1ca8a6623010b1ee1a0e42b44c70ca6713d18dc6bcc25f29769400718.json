@@ -1,0 +1,9 @@
+{
+  "brand": "Userlist",
+  "prompt_id": "IN-05",
+  "llm": "openai",
+  "prompt_text": "marketing automation tools with native Stripe integration",
+  "response": "There are several marketing automation tools that offer native Stripe integration, allowing you to streamline your payment processes alongside your marketing efforts. Here are a few popular ones:\n\n1. **HubSpot**: HubSpot offers a native integration with Stripe, enabling you to manage payments and customer data seamlessly within your CRM and marketing automation workflows.\n\n2. **ActiveCampaign**: ActiveCampaign provides native Stripe integration, allowing you to automate marketing tasks based on payment events and customer interactions.\n\n3. **Mailchimp**: While primarily an email marketing tool, Mailchimp has expanded its features to include marketing automation and offers integration with Stripe for managing e-commerce transactions.\n\n4. **Drip**: Drip is an e-commerce CRM that integrates natively with Stripe, helping you automate personalized marketing campaigns based on customer purchase behavior.\n\n5. **Keap (formerly Infusionsoft)**: Keap integrates with Stripe to help small businesses automate marketing and sales processes, including payment collection and customer management.\n\n6. **ConvertKit**: ConvertKit is a marketing automation tool aimed at creators and offers native integration with Stripe for managing subscriptions and payments.\n\nThese tools can help you automate various aspects of your marketing and sales processes while keeping your payment data synchronized with your customer interactions.",
+  "cached_at": "2026-05-28T07:30:56Z",
+  "metadata": {}
+}

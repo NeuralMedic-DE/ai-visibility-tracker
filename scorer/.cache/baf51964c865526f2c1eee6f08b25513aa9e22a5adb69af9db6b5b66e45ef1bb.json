@@ -1,0 +1,9 @@
+{
+  "brand": "Lattice",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Lattice integrate with Slack?",
+  "response": "Yes — **Lattice does integrate with Slack**.[1][6][9]\n\nThe integration lets Lattice post updates into Slack channels and supports features like **feedback and praise**, **feedback requests**, **review reminders**, **goal updates**, **1:1 talking points**, and **notifications**.[1][6][8] Lattice’s help center says the integration is set up by an admin in both Lattice and Slack, and it is a **read-only API connection** for pulling report outputs rather than writing back into Lattice data.[1]\n\n",
+  "cached_at": "2026-05-28T06:31:41Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Anecdotes",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Anecdotes with GitHub?",
+  "response": "# Connecting Anecdotes with GitHub\n\nI'm not immediately familiar with a service called \"Anecdotes\" that integrates with GitHub. Could you provide more context? Here are some possibilities:\n\n## What you might be referring to:\n\n1. **A specific GitHub App or integration** - Check if it's listed in your GitHub account under Settings → Applications → Installed GitHub Apps\n\n2. **A tool with a different name** - Could you share:\n   - What is Anecdotes used for?\n   - Where did you learn about it?\n   - Is it a CI/CD tool, documentation tool, or something else?\n\n3. **Custom integration** - If it's a custom service, you might need to:\n   - Generate a **GitHub Personal Access Token** (Settings → Developer Settings → Personal Access Tokens)\n   - Authenticate through OAuth\n   - Use GitHub webhooks\n\n## General GitHub Connection Steps:\n\n- Go to your GitHub repository → Settings → Integrations & services\n- Look for the service name in available options\n- Click \"Connect\" or \"Authorize\"\n- Follow the authentication prompts\n\n**Can you provide more details about what Anecdotes is?** That way I can give you more specific instructions.",
+  "cached_at": "2026-05-28T08:36:30Z",
+  "metadata": {}
+}

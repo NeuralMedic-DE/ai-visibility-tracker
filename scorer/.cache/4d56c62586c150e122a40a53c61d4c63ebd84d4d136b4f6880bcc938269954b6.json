@@ -1,0 +1,9 @@
+{
+  "brand": "UserVoice",
+  "prompt_id": "AL-05",
+  "llm": "openai",
+  "prompt_text": "Open source or affordable product feedback tools instead of Aha!",
+  "response": "There are several open source and affordable product feedback tools you can consider as alternatives to Aha! Here are a few options:\n\n1. **Open Source Tools:**\n   - **Fider**: An open source tool for collecting and organizing user feedback. It allows users to submit ideas and vote on them, helping you prioritize features.\n   - **Canny**: While not entirely open source, Canny offers a free tier and is widely used for collecting and managing user feedback.\n\n2. **Affordable Tools:**\n   - **UserVoice**: Offers a feedback management system with various pricing plans, including a more affordable option for smaller teams.\n   - **Sleekplan**: Provides a feedback board, roadmap, and changelog at a competitive price, with a free tier available for basic needs.\n   - **ProdPad**: Offers a range of features for product management, including feedback collection, with pricing plans that cater to different team sizes.\n   - **Upvoty**: A cost-effective tool for managing user feedback and feature requests, with plans that start at a lower price point.\n\nEach of these tools has its own set of features and pricing structures, so it's worth exploring them to see which best fits your needs and budget.",
+  "cached_at": "2026-05-28T08:24:11Z",
+  "metadata": {}
+}

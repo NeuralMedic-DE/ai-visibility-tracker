@@ -1,0 +1,9 @@
+{
+  "brand": "Nutshell",
+  "prompt_id": "IN-03",
+  "llm": "openai",
+  "prompt_text": "How do I connect Nutshell with Gmail?",
+  "response": "To connect Nutshell with Gmail, you need to integrate your Gmail account with Nutshell. Here’s how you can do it:\n\n1. **Log in to Nutshell:**\n   - Go to the Nutshell website and log in to your account.\n\n2. **Access Account Settings:**\n   - Click on your profile picture or initials in the upper-right corner of the screen.\n   - Select \"Account Settings\" from the dropdown menu.\n\n3. **Navigate to Integrations:**\n   - In the settings menu, find and click on \"Integrations.\"\n\n4. **Connect Gmail:**\n   - Look for the Gmail integration option. This might be listed under \"Email\" or \"Google Integrations.\"\n   - Click on \"Connect\" or \"Set up\" next to the Gmail integration.\n\n5. **Authorize Access:**\n   - You will be redirected to a Google authorization page. Log in to your Google account if prompted.\n   - Review the permissions and click \"Allow\" to grant Nutshell access to your Gmail account.\n\n6. **Configuration:**\n   - Once connected, you may have options to configure how emails are synced, such as choosing which labels to sync or setting up email tracking.\n\n7. **Save Changes:**\n   - Make sure to save any changes or configurations you make.\n\nAfter completing these steps, your Gmail account should be integrated with Nutshell, allowing you to manage emails and contacts directly from within the CRM. If you encounter any issues, check Nutshell's support resources or contact their customer support for assistance.",
+  "cached_at": "2026-05-27T18:32:12Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Checkly",
+  "prompt_id": "IN-04",
+  "llm": "anthropic",
+  "prompt_text": "Best monitoring that works with GitHub and Slack",
+  "response": "# Best GitHub + Slack Monitoring Solutions\n\n## **Top Integrated Options**\n\n### **1. GitHub Native + Slack**\n- **GitHub Notifications in Slack** (Official)\n  - Install GitHub app in Slack workspace\n  - Subscribe to repos, pull requests, issues\n  - Customizable alerts\n  - *Best for*: Basic repo monitoring\n\n### **2. Datadog**\n- Deep GitHub integration\n- Performance + error monitoring\n- Slack alerting\n- *Cost*: Free tier available; paid from ~$15/month\n- *Best for*: Production monitoring\n\n### **3. Sentry**\n- Error/exception tracking\n- GitHub PR linking\n- Slack notifications\n- *Cost*: Free tier generous\n- *Best for*: Error monitoring\n\n### **4. Grafana**\n- Multi-source dashboards\n- Slack/PagerDuty alerts\n- GitHub Actions integration\n- *Cost*: Free/self-hosted or cloud\n- *Best for*: Metrics & dashboards\n\n### **5. Incident.io or Opsgenie**\n- On-call management\n- GitHub issue creation\n- Slack integration\n- *Best for*: Incident response\n\n## **Quick Setup Recommendations**\n\n| Use Case | Best Tool |\n|----------|-----------|\n| **CI/CD Pipeline** | GitHub Actions + Slack |\n| **Production Errors** | Sentry + Slack |\n| **Infrastructure** | Datadog + Slack |\n| **Uptime** | Pingdom/StatusCake + Slack |\n| **Code Quality** | CodeClimate + Slack |\n\n## **Budget-Friendly Stack**\n- GitHub Actions (free)\n- Sentry (free tier)\n- Slack (free/pro)\n- **Total**: ~$0-150/month\n\nWhich monitoring type interests you most—CI/CD, errors, uptime, or infrastructure?",
+  "cached_at": "2026-05-28T06:23:15Z",
+  "metadata": {}
+}

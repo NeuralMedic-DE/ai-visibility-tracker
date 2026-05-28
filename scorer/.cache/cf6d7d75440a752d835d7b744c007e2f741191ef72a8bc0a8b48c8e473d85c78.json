@@ -1,0 +1,9 @@
+{
+  "brand": "UserVoice",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does UserVoice integrate with Salesforce?",
+  "response": "# UserVoice and Salesforce Integration\n\nYes, UserVoice integrates with Salesforce, though the specific capabilities depend on your setup:\n\n## Common Integration Methods\n\n- **AppExchange**: UserVoice has been available on Salesforce AppExchange, allowing direct installation into Salesforce environments\n- **API-based connections**: You can use APIs to sync data between the two platforms\n- **Zapier/middleware**: Third-party automation tools can connect UserVoice with Salesforce for workflows\n\n## What You Can Do\n\n- Sync customer feedback and feature requests to Salesforce\n- Create Salesforce records from UserVoice submissions\n- Link feedback to accounts/opportunities\n- Share customer insights across both platforms\n\n## Important Note\n\nIntegration details and availability can change, so I'd recommend:\n1. **Checking the current Salesforce AppExchange** for UserVoice listings\n2. **Contacting UserVoice support** directly for the latest integration options\n3. **Reviewing your UserVoice plan** – some features may be available only at certain tiers\n\nIs there a specific workflow or data you're looking to sync between the two platforms?",
+  "cached_at": "2026-05-28T08:24:22Z",
+  "metadata": {}
+}

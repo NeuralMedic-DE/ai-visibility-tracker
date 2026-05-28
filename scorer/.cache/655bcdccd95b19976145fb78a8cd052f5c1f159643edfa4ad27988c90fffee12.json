@@ -1,0 +1,9 @@
+{
+  "brand": "Vanta",
+  "prompt_id": "AL-05",
+  "llm": "anthropic",
+  "prompt_text": "Open source or affordable compliance tools instead of Sprinto",
+  "response": "# Open Source & Affordable Compliance Tools\n\n## Open Source Options\n\n### **Compliance & Audit Frameworks**\n- **OpenSCAP** - Security compliance automation (NIST, CIS)\n- **Wazuh** - Security monitoring & compliance reporting\n- **Falco** - Runtime security & threat detection\n- **OWASP ZAP** - Application security scanning\n\n### **Configuration Management**\n- **Ansible** - Infrastructure as code, policy enforcement\n- **Terraform** - Infrastructure compliance tracking\n- **Chef/Puppet** - Configuration auditing\n\n### **Documentation & Risk**\n- **OpenAudit** - Asset & compliance auditing\n- **Compliance-as-Code** repos (GitHub)\n- **Markdown-based compliance docs** (versioned)\n\n---\n\n## Affordable Commercial Alternatives\n\n| Tool | Price | Best For |\n|------|-------|----------|\n| **Vanta** | $500-2K/mo | Early-stage startups |\n| **Drata** | $800-3K/mo | SOC 2, ISO 27001 |\n| **AuditBoard** | Custom | Mid-market enterprises |\n| **Secureframe** | Freemium | Lightweight compliance |\n| **OneTrust** | Custom | Privacy-focused |\n\n---\n\n## DIY Approach (Cheapest)\n\n1. **Use templates**: Audit.org, SANS resources\n2. **Spreadsheet tracking** (Google Sheets/Excel)\n3. **GitHub for documentation** (free)\n4. **Free scanners**: Qualys, Nessus Community\n5. **Self-hosted**: Nextcloud + audit logs\n\n---\n\n**Best fit depends on**: Compliance standard, team size, and automation needs. What's your target certification?",
+  "cached_at": "2026-05-28T08:26:42Z",
+  "metadata": {}
+}

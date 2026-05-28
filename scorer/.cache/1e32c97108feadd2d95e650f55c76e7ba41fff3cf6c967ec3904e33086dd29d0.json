@@ -1,0 +1,9 @@
+{
+  "brand": "Vellum",
+  "prompt_id": "IN-03",
+  "llm": "openai",
+  "prompt_text": "How do I connect Vellum with OpenAI?",
+  "response": "To connect Vellum with OpenAI, you typically need to follow these general steps:\n\n1. **Create an OpenAI Account**: If you haven't already, sign up for an account on OpenAI's website.\n\n2. **Obtain API Key**: Once you have an account, you'll need to generate an API key from the OpenAI platform. This key will allow Vellum to access OpenAI's services.\n\n3. **Access Vellum**: Log into your Vellum account. If you don't have one, you'll need to create it.\n\n4. **Integrate OpenAI API Key in Vellum**:\n   - Navigate to the settings or integrations section within Vellum.\n   - Look for an option to add or configure an API key.\n   - Enter the OpenAI API key you obtained earlier.\n\n5. **Configure Settings**: Depending on what you want to achieve, you may need to configure specific settings within Vellum to tailor how it interacts with OpenAI's API.\n\n6. **Test the Connection**: Once you've set up the API key, test the connection to ensure that Vellum can successfully communicate with OpenAI's services.\n\n7. **Utilize OpenAI Features**: After a successful connection, you can start using OpenAI's capabilities within Vellum, such as generating text, answering questions, or other AI-driven tasks.\n\nMake sure to refer to any specific documentation provided by Vellum or OpenAI for detailed instructions, as the exact steps may vary based on updates or changes to their platforms.",
+  "cached_at": "2026-05-28T07:44:59Z",
+  "metadata": {}
+}

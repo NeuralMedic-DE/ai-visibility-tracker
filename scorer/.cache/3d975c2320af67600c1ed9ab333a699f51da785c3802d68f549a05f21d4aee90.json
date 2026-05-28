@@ -1,0 +1,9 @@
+{
+  "brand": "Hightouch",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Hightouch integrate with Salesforce?",
+  "response": "# Hightouch and Salesforce Integration\n\nYes, **Hightouch does integrate with Salesforce**. \n\nHightouch allows you to sync data from your data warehouse or other sources directly into Salesforce. This enables you to:\n\n- Sync customer data to Salesforce objects (Accounts, Contacts, Leads, Opportunities, etc.)\n- Keep Salesforce data synchronized with your source systems\n- Automate data flows without manual exports/imports\n- Create custom objects and sync data to them\n\nThe integration supports both one-time syncs and scheduled recurring syncs, making it useful for keeping your Salesforce CRM up-to-date with your analytical and operational data.\n\nIf you need specific details about setup, available features, or use cases for your situation, I'd recommend checking Hightouch's documentation or contacting their support team.",
+  "cached_at": "2026-05-28T09:05:43Z",
+  "metadata": {}
+}

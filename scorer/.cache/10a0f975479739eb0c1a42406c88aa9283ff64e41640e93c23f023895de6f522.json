@@ -1,0 +1,9 @@
+{
+  "brand": "Pilot",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Pilot integrate with Stripe?",
+  "response": "Yes, Pilot integrates with Stripe. This integration allows businesses to streamline their financial operations by automatically syncing transaction data from Stripe into Pilot's bookkeeping platform. This helps ensure accurate and up-to-date financial records, making it easier for businesses to manage their finances.",
+  "cached_at": "2026-05-28T07:02:42Z",
+  "metadata": {}
+}

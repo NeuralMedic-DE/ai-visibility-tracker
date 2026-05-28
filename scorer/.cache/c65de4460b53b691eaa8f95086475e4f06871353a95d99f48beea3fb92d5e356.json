@@ -1,0 +1,9 @@
+{
+  "brand": "FullStory",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which product analytics software should a VP Product or head of UX research use?",
+  "response": "# Product Analytics for PMs and UX Research Leaders\n\nThe best choice depends on your priorities:\n\n## **Best Overall**\n- **Amplitude** – Strong for behavior tracking, cohort analysis, and building dashboards. Good PM-focused UX\n- **Mixpanel** – Similar capabilities; slightly better for real-time analysis and custom event tracking\n\n## **For UX Research Focus**\n- **Hotjar** – Heatmaps, session recordings, feedback tools. Easier for qualitative insights\n- **Maze** – Built for testing and prototyping with research workflows\n- **UserTesting** – If you need moderated research paired with analytics\n\n## **For Technical Teams**\n- **Segment + warehouse (Snowflake/BigQuery)** – Maximum flexibility; requires engineering resources\n- **Heap** – Auto-captures events; less event definition burden\n\n## **Practical Considerations**\n\n| If you want... | Choose |\n|---|---|\n| Fast setup, PM-friendly | Amplitude or Mixpanel |\n| Session recordings + heatmaps | Hotjar |\n| Deeper data control | Segment + data warehouse |\n| Testing + analytics | Maze or Optimizely |\n\n**My suggestion:** Start with **Amplitude** (if behavior/funnels are critical) or **Hotjar** (if you need both quantitative + qualitative data quickly). Most teams end up combining tools—analytics + session replay is a common pairing.\n\nWhat's your primary pain point—understanding user flows, debugging drop-offs, or capturing feature feedback?",
+  "cached_at": "2026-05-27T20:45:30Z",
+  "metadata": {}
+}

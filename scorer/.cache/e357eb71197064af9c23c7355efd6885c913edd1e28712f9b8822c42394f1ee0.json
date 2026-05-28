@@ -1,0 +1,9 @@
+{
+  "brand": "ChartMogul",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does ChartMogul integrate with Stripe?",
+  "response": "# ChartMogul and Stripe Integration\n\nYes, **ChartMogul integrates with Stripe**. It's one of their primary supported payment gateways.\n\n## Key Points:\n\n- **Direct Integration**: ChartMogul can pull subscription and revenue data directly from your Stripe account\n- **Automatic Data Sync**: Subscription events, charges, and customer information sync automatically\n- **Setup**: You authorize ChartMogul to access your Stripe data via OAuth\n- **Use Cases**: Track MRR, ARR, churn, customer metrics, and other subscription analytics\n\n## What You Can Track:\n\n- Monthly Recurring Revenue (MRR)\n- Annual Recurring Revenue (ARR)\n- Customer lifetime value\n- Churn and retention metrics\n- Subscription health and growth metrics\n\nThis integration is particularly useful if you're using Stripe for subscription billing and want better insights into your subscription business metrics.\n\nFor current integration details and setup instructions, I'd recommend checking [ChartMogul's documentation](https://chartmogul.com/) or contacting their support, as integrations and features can be updated.",
+  "cached_at": "2026-05-28T06:55:13Z",
+  "metadata": {}
+}

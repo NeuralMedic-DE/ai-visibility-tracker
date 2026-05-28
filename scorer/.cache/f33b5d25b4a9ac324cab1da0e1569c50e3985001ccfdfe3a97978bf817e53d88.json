@@ -1,0 +1,9 @@
+{
+  "brand": "Prefect",
+  "prompt_id": "AL-02",
+  "llm": "openai",
+  "prompt_text": "Cheaper alternatives to Dagster",
+  "response": "Dagster is a popular tool for orchestrating data workflows, but if you're looking for cheaper alternatives, you might consider the following options:\n\n1. **Apache Airflow**: An open-source platform used to programmatically author, schedule, and monitor workflows. It's highly customizable and widely used in the industry.\n\n2. **Prefect**: Another open-source workflow management system that is similar to Airflow but with a focus on simplicity and ease of use. Prefect offers a cloud version with additional features, but the open-source version is free.\n\n3. **Luigi**: Developed by Spotify, Luigi is a Python module that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflow management, and visualization.\n\n4. **Kedro**: An open-source Python framework for creating reproducible, maintainable, and modular data science code. While not a direct replacement for orchestration tools, it can be used in conjunction with them.\n\n5. **Metaflow**: Originally developed by Netflix, Metaflow is a human-centric framework that helps scientists and engineers build and manage real-life data science projects. It's open-source and free to use.\n\n6. **Argo Workflows**: An open-source container-native workflow engine for orchestrating parallel jobs on Kubernetes. It's particularly useful if you're already using Kubernetes.\n\nThese tools vary in terms of features, complexity, and ease of use, so the best choice will depend on your specific needs and existing infrastructure.",
+  "cached_at": "2026-05-28T09:10:59Z",
+  "metadata": {}
+}

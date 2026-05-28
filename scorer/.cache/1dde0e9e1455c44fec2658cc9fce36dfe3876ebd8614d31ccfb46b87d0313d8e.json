@@ -1,0 +1,9 @@
+{
+  "brand": "Vitally",
+  "prompt_id": "IN-03",
+  "llm": "perplexity",
+  "prompt_text": "How do I connect Vitally with Salesforce?",
+  "response": "You connect Vitally to Salesforce from **Vitally’s Salesforce integration settings**: open **Settings → Integrations → Salesforce**, click **Connect to Salesforce**, then grant access in Salesforce and configure the sync you want.[1]\n\nThe basic setup in Vitally is:\n\n- Open your **account logo** in the top-left, go to **Settings**, then under **Operations** select **Integrations** and find **Salesforce** (or use Quick Jump: `⌘ + j` on Mac / `Alt + j` on Windows).[1]\n- Click **Connect to Salesforce**.[1]\n- Complete the Salesforce authorization prompts to grant Vitally access.[1]\n- Configure what you want to sync, then click **Sync my Salesforce data with Vitally**.[1]\n\nVitally’s native Salesforce integration supports **bidirectional sync** for **accounts, contacts, notes, tasks, and custom objects** in real time.[1][2][5]\n\nA few setup details that often matter:\n\n- For **Accounts**, you choose the Salesforce object to sync and can optionally use an **external ID** field to match records.[1]\n- For **Notes** and **Tasks**, you can choose the sync direction, such as **Vitally → Salesforce** or **Salesforce → Vitally**.[1]\n- For **custom objects** and field mapping, you configure the object and reference fields in the Salesforce integration page.[1][2]\n\nIf you want, I can also give you the exact steps for one specific setup, such as **account sync**, **contact sync**, or **custom object mapping**.",
+  "cached_at": "2026-05-28T08:11:18Z",
+  "metadata": {}
+}

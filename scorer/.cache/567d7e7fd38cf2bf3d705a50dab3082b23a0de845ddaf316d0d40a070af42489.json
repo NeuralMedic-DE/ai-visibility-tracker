@@ -1,0 +1,9 @@
+{
+  "brand": "Attio",
+  "prompt_id": "UC-05",
+  "llm": "perplexity",
+  "prompt_text": "What software helps with automate revenue workflows at scale?",
+  "response": "If you want to **automate revenue workflows at scale**, the strongest fit is usually a **workflow automation / iPaaS platform** rather than a single-purpose app. The most commonly cited options in the results are **SnapLogic**, **Workato**, **Boomi**, **Microsoft Power Automate**, and **ServiceNow**; these platforms orchestrate multi-step, cross-system workflows with connectors, triggers, governance, and auditability.[1]\n\nFor **revenue-specific automation**, the results also point to tools built around the revenue lifecycle, such as **Salesforce Revenue Cloud** and **Tabs** for quote-to-cash, billing, and revenue recognition automation.[5][9] The revenue-operations space also includes **Creatio**, which is described as revenue operations software with no-code flexibility and AI-powered automation.[7]\n\nA practical way to choose is:\n\n- **SnapLogic** — best when you need governed integrations across CRM, billing, warehouse, and other systems at scale.[1]\n- **Workato** — strong for business-friendly cross-app automation and recipe-based workflows.[1]\n- **Boomi** — solid for app-to-app orchestration and enterprise integration.[1]\n- **Microsoft Power Automate** — best if your stack is centered on Microsoft 365, Dynamics, and Teams.[1]\n- **ServiceNow** — best for governed enterprise workflows, approvals, and orchestration.[1]\n- **Salesforce Revenue Cloud** — best for quote-to-cash and revenue lifecycle automation inside Salesforce-centric teams.[9]\n- **Tabs** — useful for automated billing, revenue recognition, and reporting workflows.[5]\n- **Creatio** — useful for no-code revenue operations automation.[7]\n\nIf you tell me your stack, I can narrow this to the **best 2–3 tools** for your revenue workflows.",
+  "cached_at": "2026-05-27T17:59:20Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Totango",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Totango vs Gainsight: which is better?",
+  "response": "# Totango vs Gainsight: Key Differences\n\nBoth are strong Customer Success platforms, but they serve different needs:\n\n## **Gainsight**\n**Strengths:**\n- More mature, feature-rich platform\n- Excellent for enterprise customers with complex needs\n- Strong analytics and dashboards\n- Better integrations ecosystem\n\n**Drawbacks:**\n- Steeper learning curve\n- Higher cost\n- Can feel bloated for smaller teams\n\n## **Totango**\n**Strengths:**\n- More intuitive, easier to implement\n- Better for mid-market companies\n- Faster time-to-value\n- More affordable pricing\n\n**Drawbacks:**\n- Fewer advanced features\n- Smaller integration library\n- Less suitable for very complex enterprises\n\n## **Choose Gainsight if you:**\n- Have enterprise budgets and needs\n- Need advanced analytics and customization\n- Have dedicated CS teams\n\n## **Choose Totango if you:**\n- Want faster implementation\n- Need simpler workflows\n- Have tighter budgets\n- Prefer ease of use over feature depth\n\n**The real answer:** It depends on your company size, budget, complexity, and timeline. Many teams do free trials of both—that's honestly the best way to decide.\n\nWhat's your company's size and main CS challenges? That might help narrow it down.",
+  "cached_at": "2026-05-28T08:14:19Z",
+  "metadata": {}
+}

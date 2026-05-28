@@ -1,0 +1,9 @@
+{
+  "brand": "Pipedrive",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Pipedrive integrate with Slack?",
+  "response": "# Pipedrive and Slack Integration\n\nYes, Pipedrive does integrate with Slack. Here's what you can do:\n\n## Key Features:\n- **Notifications** - Get alerts about deals, activities, and pipeline updates directly in Slack\n- **Deal updates** - Receive notifications when deals move between stages\n- **Activity reminders** - Get notified about upcoming activities and tasks\n- **Two-way communication** - Some actions can be triggered from Slack\n\n## How to Set It Up:\n1. Go to Pipedrive's app marketplace or Slack's app directory\n2. Search for Pipedrive\n3. Authorize the connection and select which notifications you want\n\n## Limitations:\nThe integration is somewhat basic—it's primarily notification-focused rather than allowing full Pipedrive management from Slack.\n\nIf you need more robust CRM functionality within Slack, you might also consider other tools or check Pipedrive's current marketplace, as integrations and features evolve regularly.\n\n**I'd recommend checking the official Pipedrive and Slack app directories for the most current details on what's available.**",
+  "cached_at": "2026-05-27T17:49:16Z",
+  "metadata": {}
+}

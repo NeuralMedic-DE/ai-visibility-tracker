@@ -1,0 +1,9 @@
+{
+  "brand": "Hightouch",
+  "prompt_id": "CD-02",
+  "llm": "openai",
+  "prompt_text": "Top data activation and reverse ETL platform for RevOps and data teams tools in 2025",
+  "response": "As of 2025, some of the top data activation and reverse ETL platforms that are popular among RevOps and data teams include:\n\n1. **Hightouch**: Known for its user-friendly interface and robust integration capabilities, Hightouch allows teams to sync data from their data warehouse to various SaaS tools, enabling personalized marketing and sales efforts.\n\n2. **Census**: Census is another leading reverse ETL tool that helps businesses operationalize their data by syncing it with CRM, marketing, and other business tools. It emphasizes data governance and security.\n\n3. **RudderStack**: While primarily a customer data platform, RudderStack offers reverse ETL capabilities that allow teams to activate data across different platforms, making it a versatile choice for data-driven operations.\n\n4. **Grouparoo**: Grouparoo is an open-source reverse ETL platform that allows teams to sync data from their data warehouse to various business tools, providing flexibility and control over data processes.\n\n5. **Polytomic**: Polytomic focuses on real-time data activation, enabling teams to sync data quickly and efficiently from warehouses to business applications, which is crucial for timely decision-making.\n\nThese platforms are favored for their ability to streamline data workflows, enhance data accessibility, and improve the efficiency of RevOps and data teams by ensuring that critical business data is readily available in the tools they use daily.",
+  "cached_at": "2026-05-28T09:05:12Z",
+  "metadata": {}
+}

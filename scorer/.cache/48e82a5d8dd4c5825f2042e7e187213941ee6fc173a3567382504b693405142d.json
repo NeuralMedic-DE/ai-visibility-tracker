@@ -1,0 +1,9 @@
+{
+  "brand": "Make",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Make integrate with Google Sheets?",
+  "response": "# Yes, Make integrates with Google Sheets\n\nMake (formerly Integromat) has a **native Google Sheets connector** that allows you to:\n\n## Common Operations\n- **Read** data from spreadsheets\n- **Create** new rows\n- **Update** existing rows\n- **Delete** rows\n- **Search** for specific data\n- **Watch** for changes in real-time\n\n## How It Works\n1. Create a scenario in Make\n2. Add Google Sheets as a module\n3. Authenticate your Google account\n4. Configure the specific operation you need\n5. Connect it to other apps in your workflow\n\n## Popular Use Cases\n- Auto-populate sheets from form submissions\n- Sync data between Google Sheets and CRM tools\n- Generate reports automatically\n- Create backups of sheet data\n- Trigger workflows based on sheet updates\n\n## Key Features\n- No coding required\n- Real-time triggers available\n- Supports batch operations\n- Works with multiple sheets and tabs\n\nThis makes it easy to automate workflows that involve Google Sheets without any manual data entry.",
+  "cached_at": "2026-05-28T08:53:53Z",
+  "metadata": {}
+}

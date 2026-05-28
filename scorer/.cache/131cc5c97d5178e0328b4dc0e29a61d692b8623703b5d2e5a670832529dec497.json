@@ -1,0 +1,9 @@
+{
+  "brand": "Sprinto",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Sprinto integrate with GitHub?",
+  "response": "Yes, **Sprinto does integrate with GitHub**.\n\nAccording to an integrations listing for Sprinto, GitHub is explicitly included among the supported integrations alongside other services like Google Cloud Platform, Slack, and Zoom.[7] In addition, Sprinto’s own materials and demos describe connecting to code repositories (including GitHub) to manage access reviews and automate evidence collection for compliance.[1][2]",
+  "cached_at": "2026-05-28T08:32:46Z",
+  "metadata": {}
+}

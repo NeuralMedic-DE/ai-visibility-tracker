@@ -1,0 +1,9 @@
+{
+  "brand": "Maxio",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do finance teams at B2B SaaS companies with complex pricing companies use to automate subscription billing and track SaaS metrics in a single platform?",
+  "response": "# Tools for B2B SaaS Billing & Metrics\n\nHere are the main categories and players:\n\n## **Dedicated Billing Platforms**\n- **Zuora** - Enterprise-grade, handles complex subscription models and revenue recognition\n- **Chargebee** - Strong in automation with good UI; popular mid-market choice\n- **Stripe Billing** - Simpler, API-first; good if you're already on Stripe\n- **Recurly** - Flexible rules engine for complex pricing\n- **Bluecrescent** - Purpose-built for complex B2B scenarios\n\n## **Revenue Recognition + Billing**\n- **Intacct** (Sage) - Accounting-focused with subscription modules\n- **NetSuite** - Full ERP with native billing capabilities\n- **Aria** (now Openet, then Nokia) - Legacy but still used for complexity\n\n## **Metrics & Analytics Layer**\nMost billing platforms offer basic dashboards, but teams often layer in:\n- **ChartMogul** - Pure-play SaaS metrics (MRR, churn, LTV)\n- **Baremetrics** - Similar metrics focus\n- **Vitally** - More operationalized insights\n- **Gainsight** - Broader customer health/CS focus\n\n## **Reality Check**\nMost teams *don't* find a true single platform. They typically use:\n1. A billing engine (Zuora/Chargebee)\n2. A metrics/analytics layer (ChartMogul)\n3. Data warehouse + BI tool (Snowflake + Looker) for custom reporting\n\nWhat's your pricing complexity level? That shapes whether you need enterprise (Zuora) or can work with mid-market solutions.",
+  "cached_at": "2026-05-28T06:53:02Z",
+  "metadata": {}
+}

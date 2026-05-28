@@ -1,0 +1,9 @@
+{
+  "brand": "Instantly",
+  "prompt_id": "CM-01",
+  "llm": "openai",
+  "prompt_text": "Instantly vs Lemlist: which is better?",
+  "response": "Choosing between Instantly and Lemlist depends on your specific needs and preferences, as both are popular tools for email outreach and marketing automation but have different strengths.\n\n**Instantly:**\n- **Pros:**\n  - Known for its simplicity and ease of use, making it a good choice for beginners.\n  - Offers features like email warm-up, which helps improve deliverability rates.\n  - Provides analytics and reporting to track the performance of your campaigns.\n  - Generally more affordable, which can be beneficial for small businesses or startups.\n\n- **Cons:**\n  - May lack some advanced features and customization options compared to Lemlist.\n  - Integration options might be more limited.\n\n**Lemlist:**\n- **Pros:**\n  - Offers advanced personalization features, allowing you to customize emails with dynamic images and videos.\n  - Provides a strong focus on deliverability, with tools to optimize sending times and warm-up email accounts.\n  - Includes a variety of integrations with CRM and other marketing tools.\n  - Has a strong community and support resources, including tutorials and guides.\n\n- **Cons:**\n  - Can be more complex and have a steeper learning curve for new users.\n  - Generally more expensive, which might not be ideal for those with a tight budget.\n\nUltimately, if you need a straightforward tool with essential features and are budget-conscious, Instantly might be the better choice. However, if you require advanced personalization and integration capabilities and are willing to invest more, Lemlist could be more suitable. Consider your specific requirements, budget, and the level of support you need when making your decision.",
+  "cached_at": "2026-05-28T07:18:58Z",
+  "metadata": {}
+}

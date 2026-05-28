@@ -1,0 +1,9 @@
+{
+  "brand": "Mixpanel",
+  "prompt_id": "IN-04",
+  "llm": "openai",
+  "prompt_text": "Best product analytics that works with Segment and Slack",
+  "response": "When looking for a product analytics tool that integrates well with both Segment and Slack, there are several strong options to consider:\n\n1. **Mixpanel**: Mixpanel is a popular product analytics tool that offers deep insights into user behavior. It integrates seamlessly with Segment, allowing you to easily track events and user data. Mixpanel also provides Slack integration, enabling you to receive alerts and updates directly in your Slack channels.\n\n2. **Amplitude**: Amplitude is another leading product analytics platform known for its powerful analytics capabilities. It works well with Segment for data integration and offers Slack integration to keep your team informed about key metrics and events.\n\n3. **Heap**: Heap automatically captures all user interactions on your site or app, making it easy to analyze user behavior without manual event tracking. It integrates with Segment for data collection and can send notifications and reports to Slack.\n\n4. **PostHog**: PostHog is an open-source product analytics tool that offers a range of features similar to Mixpanel and Amplitude. It can be integrated with Segment and also supports Slack notifications for real-time updates.\n\n5. **Pendo**: Pendo focuses on product usage analytics and user feedback. It integrates with Segment to streamline data collection and can send insights and alerts to Slack to keep your team updated.\n\nEach of these tools has its own strengths, so the best choice depends on your specific needs, such as the depth of analytics required, budget, and team preferences.",
+  "cached_at": "2026-05-27T19:13:00Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "LeadIQ",
+  "prompt_id": "UC-04",
+  "llm": "anthropic",
+  "prompt_text": "How can a SDR manager or sales ops lead capture prospect data from LinkedIn more efficiently?",
+  "response": "# Efficient LinkedIn Prospect Data Capture\n\n## Automation Tools\n- **Native LinkedIn APIs** - Build direct integrations for scalable data pulls\n- **Scraping tools** (Clay, Apollo, Hunter) - Extract prospect info at scale, though watch for ToS compliance\n- **Zapier/Make** - Connect LinkedIn to your CRM automatically when actions occur\n- **Browser extensions** (Dripify, LinkedHelper) - One-click data capture while browsing\n\n## Structured Workflows\n\n**At the campaign level:**\n- Use LinkedIn's native lead gen forms (pre-filled fields reduce manual entry)\n- Set up automated routing rules so data hits your CRM immediately\n- Create prospect lists directly in LinkedIn, then batch-export\n\n**For SDR efficiency:**\n- Build saved search filters for your ICP, then sync periodically\n- Use LinkedIn's \"Sales Navigator\" for better filtering than free version\n- Establish data enrichment workflows (Clearbit, ZoomInfo) post-capture\n\n## Process Optimization\n- **Deduplication** - Flag duplicates before they reach your CRM (saves follow-up waste)\n- **Validation** - Check email formats and bounce-prone domains upfront\n- **Role mapping** - Auto-tag by job title to route to right reps\n- **Timestamp data** - Track when prospects entered the funnel for velocity analysis\n\n## Trade-offs to Consider\n- **Manual + API** hybrid often works better than pure automation (catches edge cases)\n- LinkedIn's spam detection gets stricter—quality matters more than volume\n- GDPR/privacy compliance becomes critical at scale\n\nWhat's your current bottleneck—volume, data quality, or integration speed?",
+  "cached_at": "2026-05-27T18:44:22Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Instantly",
+  "prompt_id": "IN-05",
+  "llm": "openai",
+  "prompt_text": "sales engagement tools with native HubSpot integration",
+  "response": "There are several sales engagement tools that offer native integration with HubSpot, allowing for seamless data synchronization and enhanced functionality. Here are some popular options:\n\n1. **Salesloft**: This tool provides a comprehensive sales engagement platform that integrates directly with HubSpot, helping to streamline communication and automate sales processes.\n\n2. **Outreach**: Known for its robust features, Outreach integrates with HubSpot to enhance sales productivity through automated workflows and detailed analytics.\n\n3. **Groove**: Groove offers a native integration with HubSpot, focusing on improving sales efficiency with features like email tracking, meeting scheduling, and workflow automation.\n\n4. **Apollo.io**: This platform combines sales engagement with a vast database of contacts and companies, integrating with HubSpot to provide enriched data and streamlined outreach.\n\n5. **Aircall**: A cloud-based phone system that integrates with HubSpot, Aircall enhances sales engagement by providing call tracking, recording, and analytics directly within HubSpot.\n\n6. **Vidyard**: A video platform that integrates with HubSpot, Vidyard allows sales teams to create personalized video messages and track engagement directly from within HubSpot.\n\nThese tools can help enhance your sales processes by leveraging HubSpot's CRM capabilities along with their own unique features.",
+  "cached_at": "2026-05-28T07:19:24Z",
+  "metadata": {}
+}

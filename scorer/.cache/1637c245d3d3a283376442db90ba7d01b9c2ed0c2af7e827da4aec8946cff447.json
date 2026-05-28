@@ -1,0 +1,9 @@
+{
+  "brand": "Ashby",
+  "prompt_id": "IN-04",
+  "llm": "perplexity",
+  "prompt_text": "Best ATS that works with Slack and LinkedIn",
+  "response": "If you want the **best ATS with both Slack and LinkedIn support**, **Greenhouse** is the strongest overall choice based on the results provided. It has broad integrations, including **Slack**, **LinkedIn**, and major HRIS tools, and LinkedIn Recruiter System Connect is specifically available for Greenhouse, along with systems like Lever, Workable, and iCIMS.[4][1]\n\nA few practical options, depending on your use case:\n\n- **Greenhouse** — best all-around if you want deep integrations and a mature recruiting workflow.[4][1]\n- **Lever** — a strong alternative if you want LinkedIn Recruiter System Connect plus ATS/CRM-style recruiting workflows.[1]\n- **Workable** — good if LinkedIn integration matters and you want a more accessible ATS.[1]\n- **iCIMS** — enterprise-friendly option with LinkedIn Recruiter System Connect support.[1]\n\nFor a more team-focused setup, **BambooHR** has Slack-related functionality, but the provided results do not show the same level of LinkedIn recruiting integration depth as Greenhouse.[5]\n\nIf you want, I can narrow this down to the **best ATS for startups, SMBs, or enterprise teams** and rank the top 3 for your exact use case.",
+  "cached_at": "2026-05-28T06:41:24Z",
+  "metadata": {}
+}

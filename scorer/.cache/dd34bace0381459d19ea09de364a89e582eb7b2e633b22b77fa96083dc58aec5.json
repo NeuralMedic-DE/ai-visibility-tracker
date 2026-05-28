@@ -1,0 +1,9 @@
+{
+  "brand": "Mixpanel",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is Mixpanel better than PostHog for analyze funnel conversion rates?",
+  "response": "# Mixpanel vs PostHog for Funnel Analysis\n\nBoth handle funnel conversion analysis well, but with different strengths:\n\n## **Mixpanel's advantages for funnels:**\n- More mature funnel visualization and drill-down capabilities\n- Stronger historical data (better for long-term trend analysis)\n- More polished UX for complex funnel queries\n- Better at cohort-based funnel analysis\n\n## **PostHog's advantages for funnels:**\n- **Session replay integration** – see *why* users drop off, not just that they do\n- Better for **product engineers** (easier implementation, no separate SDK)\n- More transparent pricing (no per-event costs)\n- Growing funnel features that are increasingly competitive\n\n## **Practical consideration:**\nThe \"better\" choice depends on your needs:\n- **Choose Mixpanel if:** You need sophisticated funnel analysis and have budget\n- **Choose PostHog if:** You want session replay + funnels together, or prefer engineer-friendly setup\n\n**Quick test:** Try PostHog's free tier for funnel analysis. If session replay doesn't add value and you need advanced segmentation, Mixpanel might be worth the cost.\n\nWhat's your main use case – are you looking to diagnose *where* users drop off or *why*?",
+  "cached_at": "2026-05-27T19:14:18Z",
+  "metadata": {}
+}

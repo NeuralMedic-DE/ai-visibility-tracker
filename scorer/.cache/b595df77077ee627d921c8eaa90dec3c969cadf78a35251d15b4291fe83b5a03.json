@@ -1,0 +1,9 @@
+{
+  "brand": "Stonly",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Stonly integrate with Intercom?",
+  "response": "# Stonly and Intercom Integration\n\nYes, **Stonly integrates with Intercom**. This integration allows you to embed Stonly guides directly within Intercom, enabling customers to access self-service support content without leaving the Intercom chat interface.\n\n## Key capabilities typically include:\n\n- **Embedding guides** in Intercom conversations\n- **Triggering guides** based on customer interactions\n- **Reducing support tickets** by providing instant answers\n- **Seamless handoff** between self-service and live chat when needed\n\nHowever, for the most current details about:\n- Specific features available\n- Setup requirements\n- Pricing considerations\n- Available plan tiers that support this integration\n\nI'd recommend checking:\n1. **Stonly's official integration documentation**\n2. **Intercom's app marketplace**\n3. **Contacting Stonly's support team directly**\n\nIntegration details can change, so verifying with their current documentation will ensure you have the latest information.",
+  "cached_at": "2026-05-28T08:22:05Z",
+  "metadata": {}
+}

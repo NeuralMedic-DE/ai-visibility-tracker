@@ -1,0 +1,9 @@
+{
+  "brand": "Langfuse",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is Langfuse better than Helicone for run automated evaluations on LLM outputs to measure and improve quality over time?",
+  "response": "# Langfuse vs Helicone for LLM Evaluations\n\nNeither is definitively \"better\" — they serve different primary purposes:\n\n## Langfuse's Strengths for Evaluations\n- **Built-in evaluation framework** with scoring/grading workflows\n- **Native support** for custom evaluation functions\n- **Better structured** evaluation result tracking and visualization\n- **More flexible** for defining custom quality metrics\n- Good for iterative experimentation and quality improvement workflows\n\n## Helicone's Approach\n- **Primarily a logging/monitoring platform** (traces, costs, latency)\n- **Limited native evaluation features** compared to Langfuse\n- Focuses on observability rather than evaluation-as-a-first-class feature\n- Better for production monitoring than systematic quality improvement\n\n## The Practical Difference\nIf your main goal is **automated evaluations to measure and improve quality over time**, Langfuse is the more purpose-built choice.\n\nHowever, consider:\n- **Langfuse** is better if you need robust evaluation workflows, custom metrics, and quality dashboards\n- **Helicone** is better if you primarily need production monitoring with evaluations as a secondary feature\n- Many teams use **both** (Helicone for production observability, Langfuse for evaluation-driven development)\n\n**Bottom line:** For your specific use case (automated evaluations → quality improvement), Langfuse is the better fit, though you might want to evaluate both with your actual use case.",
+  "cached_at": "2026-05-28T07:56:17Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Nudge Security",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Nudge Security integrate with Okta?",
+  "response": "Yes. **Nudge Security integrates with Okta** for both **SSO/provisioning** and a deeper **API-based “Okta connected app” integration**.\n\nKey points:\n\n- Okta’s integration catalog lists **“Integrate Nudge Security with Okta”**, noting that Nudge Security supports **Okta SSO** and can be added to enable **authentication and provisioning capabilities** (SAML/OIDC, SCIM, etc.).[1][3]  \n- Nudge Security’s support docs describe an **Okta connected app** that uses an **API token** to integrate Nudge Security and Okta so they can share data and perform actions (e.g., posture monitoring, risk findings, remediation).[4]  \n- Nudge Security positions this as an **Okta security posture management** capability, continuously monitoring Okta for misconfigurations, inactive privileged accounts, weak or missing MFA, risky OAuth integrations and API tokens, and other identity risks.[2][5][6]\n\nSo you can integrate Nudge Security with Okta both as an identity app (SSO/provisioning) and as a security/posture management integration via API.",
+  "cached_at": "2026-05-28T08:40:28Z",
+  "metadata": {}
+}

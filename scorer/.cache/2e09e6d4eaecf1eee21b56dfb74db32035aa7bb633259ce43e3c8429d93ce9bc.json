@@ -1,0 +1,9 @@
+{
+  "brand": "Close",
+  "prompt_id": "CD-03",
+  "llm": "openai",
+  "prompt_text": "Which CRM software should a head of sales at a 20-person startup use?",
+  "response": "Choosing the right CRM software for a 20-person startup depends on several factors, including your budget, specific needs, and the complexity of your sales processes. Here are a few popular CRM options that are well-suited for small to medium-sized businesses:\n\n1. **HubSpot CRM**: HubSpot offers a free CRM that is user-friendly and integrates well with other tools. It's great for startups due to its ease of use and scalability. The free version includes basic features, and you can upgrade to paid plans for more advanced capabilities.\n\n2. **Pipedrive**: Known for its intuitive interface and sales-focused features, Pipedrive is a great option for startups looking to streamline their sales processes. It offers visual sales pipelines and is relatively affordable.\n\n3. **Zoho CRM**: Zoho provides a comprehensive suite of tools at a competitive price. It's highly customizable and offers a range of features that can grow with your business.\n\n4. **Salesforce Essentials**: While Salesforce is known for its enterprise-level solutions, Salesforce Essentials is designed for small businesses. It provides robust features and integrations, though it might have a steeper learning curve than some other options.\n\n5. **Freshsales**: Part of the Freshworks suite, Freshsales offers a user-friendly interface with AI-based lead scoring, built-in phone, email, and more. It's a good choice for startups looking for an all-in-one solution.\n\nWhen selecting a CRM, consider factors such as ease of use, integration capabilities with your existing tools, scalability, and customer support. It's often helpful to take advantage of free trials to see which CRM best fits your team's workflow and needs.",
+  "cached_at": "2026-05-27T17:28:17Z",
+  "metadata": {}
+}

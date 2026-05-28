@@ -1,0 +1,9 @@
+{
+  "brand": "Rho",
+  "prompt_id": "AL-05",
+  "llm": "openai",
+  "prompt_text": "Open source or affordable finance tools instead of Mercury",
+  "response": "If you're looking for open-source or affordable finance tools as alternatives to Mercury, here are some options you might consider:\n\n1. **GnuCash**: An open-source personal and small-business financial-accounting software. It offers features such as double-entry accounting, scheduled transactions, and financial reports.\n\n2. **Wave**: A free, cloud-based accounting software designed for small businesses. It offers features like invoicing, accounting, and receipt scanning.\n\n3. **Odoo**: An open-source suite of business applications that includes accounting. It can be customized and scaled according to your needs.\n\n4. **Manager**: A free accounting software for small businesses. It offers desktop versions for Windows, Mac, and Linux, as well as a cloud version for a fee.\n\n5. **KMyMoney**: An open-source personal finance manager for KDE, which supports various financial tasks like budgeting and tracking investments.\n\n6. **Zoho Books**: An affordable accounting software for small businesses, offering features like invoicing, expense tracking, and financial reporting.\n\n7. **Xero**: While not open-source, Xero offers affordable pricing plans for small businesses and includes features like invoicing, bank reconciliation, and financial reporting.\n\n8. **ERPNext**: An open-source ERP system that includes accounting features. It's suitable for businesses looking for a comprehensive business management solution.\n\nThese tools vary in their features and capabilities, so it's a good idea to evaluate them based on your specific needs and preferences.",
+  "cached_at": "2026-05-28T07:12:30Z",
+  "metadata": {}
+}

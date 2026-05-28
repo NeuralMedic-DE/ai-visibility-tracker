@@ -1,0 +1,9 @@
+{
+  "brand": "Render",
+  "prompt_id": "CD-02",
+  "llm": "anthropic",
+  "prompt_text": "Top modern cloud hosting platform for web services and databases tools in 2025",
+  "response": "# Top Modern Cloud Hosting Platforms in 2025\n\n## **1. AWS (Amazon Web Services)**\n- **Best for:** Enterprise scale, comprehensive services\n- **Strengths:** Largest service catalog, global infrastructure, AI/ML tools\n- **Database:** RDS, DynamoDB, Aurora\n- **Market share:** ~32%\n\n## **2. Microsoft Azure**\n- **Best for:** Enterprise integration, hybrid clouds\n- **Strengths:** Seamless Microsoft ecosystem, AI services, compliance\n- **Database:** Azure SQL, Cosmos DB, PostgreSQL\n- **Growing:** Strong AI/Copilot integration\n\n## **3. Google Cloud Platform (GCP)**\n- **Best for:** Data analytics, AI/ML, startups\n- **Strengths:** BigQuery, Vertex AI, competitive pricing\n- **Database:** Cloud SQL, Firestore, Spanner\n- **Advantage:** Best-in-class analytics\n\n## **4. DigitalOcean**\n- **Best for:** Developers, startups, simplicity\n- **Strengths:** User-friendly, affordable, great documentation\n- **Database:** Managed PostgreSQL, MySQL, Redis\n- **Sweet spot:** Mid-scale applications\n\n## **5. Vercel**\n- **Best for:** Frontend/full-stack web apps\n- **Strengths:** Zero-config deployment, edge functions, Next.js native\n- **Database:** Postgres integration via partnerships\n\n## **6. Railway / Render**\n- **Best for:** Developers seeking simplicity\n- **Strengths:** Easy deployment, modern UX\n- **Database:** Built-in Postgres support\n\n## **Key Trends (2025)**\n✅ AI/ML integration (Claude, GPT APIs)\n✅ Serverless & edge computing\n✅ Cost optimization tools\n✅ Enhanced security & compliance\n\n**Which to choose?** Depends on scale, budget, and existing tech stack.",
+  "cached_at": "2026-05-27T21:35:54Z",
+  "metadata": {}
+}

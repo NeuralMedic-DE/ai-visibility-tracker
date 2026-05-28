@@ -1,0 +1,9 @@
+{
+  "brand": "Customer.io",
+  "prompt_id": "CD-04",
+  "llm": "perplexity",
+  "prompt_text": "Best marketing automation platforms for send behavior-triggered emails and push notifications at scale",
+  "response": "For **behavior-triggered emails at scale**, **ActiveCampaign** is the strongest overall pick in the results because multiple reviews call out its **automation capability** and rate it the best marketing automation tool overall.[1][3] For **ecommerce-focused** teams, **Omnisend** is highlighted as the better fit.[1]\n\nIf you specifically need **push notifications** as well as email, the search results are thinner on direct product comparisons, but the best-supported shortlist from these results is:\n\n- **ActiveCampaign** — best overall for advanced automation and triggered workflows.[1][3]\n- **Omnisend** — best for ecommerce-triggered messaging.[1]\n- **Mailchimp** — noted for managing email, social, website, and **SMS** together, which can help if you want broader multichannel orchestration, though push notifications are not explicitly confirmed in the results.[8]\n- **GetResponse** — described as a fully featured automation tool with strong automation in list management.[2]\n\nA practical way to choose:\n- Choose **ActiveCampaign** if your main need is **complex behavior-based email automation**.[1][3]\n- Choose **Omnisend** if you run **ecommerce** and want lifecycle automations tied to shopper behavior.[1]\n- Choose **Mailchimp** if you want a simpler multichannel stack and can work within its channel set.[8]\n- Choose **GetResponse** if list automation and general campaign automation are the priority.[2]\n\nThe results do **not clearly verify push-notification support** for these tools, so if push notifications are a hard requirement, I’d treat that as a separate filter to confirm in vendor documentation before deciding.",
+  "cached_at": "2026-05-28T07:14:38Z",
+  "metadata": {}
+}

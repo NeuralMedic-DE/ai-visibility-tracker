@@ -1,0 +1,1035 @@
+{
+  "run_date": "2026-05-30",
+  "total_brands": 100,
+  "active_llms": [
+    "openai",
+    "anthropic",
+    "perplexity"
+  ],
+  "elapsed_seconds": 10834.2,
+  "concurrency": 4,
+  "dry_run": false,
+  "total_cost_usd": 25.3433,
+  "cost_breakdown": {
+    "perplexity": {
+      "requests": 1875,
+      "input_tokens": 40777,
+      "output_tokens": 1599707,
+      "cost_usd": 1.6405
+    },
+    "anthropic": {
+      "requests": 1875,
+      "input_tokens": 46923,
+      "output_tokens": 1064449,
+      "cost_usd": 16.1075
+    },
+    "openai": {
+      "requests": 1875,
+      "input_tokens": 89494,
+      "output_tokens": 737153,
+      "cost_usd": 7.5953
+    }
+  },
+  "brands": [
+    {
+      "brand": "Vercel",
+      "url": "vercel.com",
+      "avs": 54.8,
+      "avs_per_llm": {
+        "openai": 64.0,
+        "anthropic": 44.4,
+        "perplexity": 56.0
+      }
+    },
+    {
+      "brand": "Prefect",
+      "url": "prefect.io",
+      "avs": 46.8,
+      "avs_per_llm": {
+        "openai": 54.4,
+        "anthropic": 36.8,
+        "perplexity": 49.2
+      }
+    },
+    {
+      "brand": "Mixpanel",
+      "url": "mixpanel.com",
+      "avs": 46.0,
+      "avs_per_llm": {
+        "openai": 55.2,
+        "anthropic": 38.0,
+        "perplexity": 44.8
+      }
+    },
+    {
+      "brand": "Retool",
+      "url": "retool.com",
+      "avs": 46.0,
+      "avs_per_llm": {
+        "openai": 46.0,
+        "anthropic": 39.6,
+        "perplexity": 52.4
+      }
+    },
+    {
+      "brand": "Gainsight",
+      "url": "gainsight.com",
+      "avs": 45.9,
+      "avs_per_llm": {
+        "openai": 54.4,
+        "anthropic": 44.4,
+        "perplexity": 38.8
+      }
+    },
+    {
+      "brand": "Zapier",
+      "url": "zapier.com",
+      "avs": 45.6,
+      "avs_per_llm": {
+        "openai": 53.2,
+        "anthropic": 38.0,
+        "perplexity": 45.6
+      }
+    },
+    {
+      "brand": "Amplitude",
+      "url": "amplitude.com",
+      "avs": 45.3,
+      "avs_per_llm": {
+        "openai": 50.0,
+        "anthropic": 40.8,
+        "perplexity": 45.2
+      }
+    },
+    {
+      "brand": "Customer.io",
+      "url": "customer.io",
+      "avs": 45.2,
+      "avs_per_llm": {
+        "openai": 47.6,
+        "anthropic": 40.4,
+        "perplexity": 47.6
+      }
+    },
+    {
+      "brand": "Vanta",
+      "url": "vanta.com",
+      "avs": 44.9,
+      "avs_per_llm": {
+        "openai": 45.2,
+        "anthropic": 40.0,
+        "perplexity": 49.6
+      }
+    },
+    {
+      "brand": "Hightouch",
+      "url": "hightouch.com",
+      "avs": 44.7,
+      "avs_per_llm": {
+        "openai": 45.6,
+        "anthropic": 39.6,
+        "perplexity": 48.8
+      }
+    },
+    {
+      "brand": "Pipedrive",
+      "url": "pipedrive.com",
+      "avs": 44.5,
+      "avs_per_llm": {
+        "openai": 43.2,
+        "anthropic": 41.6,
+        "perplexity": 48.8
+      }
+    },
+    {
+      "brand": "RudderStack",
+      "url": "rudderstack.com",
+      "avs": 44.3,
+      "avs_per_llm": {
+        "openai": 56.0,
+        "anthropic": 36.4,
+        "perplexity": 40.4
+      }
+    },
+    {
+      "brand": "Totango",
+      "url": "totango.com",
+      "avs": 43.5,
+      "avs_per_llm": {
+        "openai": 46.8,
+        "anthropic": 39.6,
+        "perplexity": 44.0
+      }
+    },
+    {
+      "brand": "Plausible",
+      "url": "plausible.io",
+      "avs": 43.1,
+      "avs_per_llm": {
+        "openai": 48.8,
+        "anthropic": 39.6,
+        "perplexity": 40.8
+      }
+    },
+    {
+      "brand": "ChartMogul",
+      "url": "chartmogul.com",
+      "avs": 42.0,
+      "avs_per_llm": {
+        "openai": 44.4,
+        "anthropic": 38.0,
+        "perplexity": 43.6
+      }
+    },
+    {
+      "brand": "Fivetran",
+      "url": "fivetran.com",
+      "avs": 41.9,
+      "avs_per_llm": {
+        "openai": 43.6,
+        "anthropic": 45.2,
+        "perplexity": 36.8
+      }
+    },
+    {
+      "brand": "Baremetrics",
+      "url": "baremetrics.com",
+      "avs": 41.2,
+      "avs_per_llm": {
+        "openai": 42.8,
+        "anthropic": 36.0,
+        "perplexity": 44.8
+      }
+    },
+    {
+      "brand": "Weights & Biases",
+      "url": "wandb.ai",
+      "avs": 40.5,
+      "avs_per_llm": {
+        "openai": 44.0,
+        "anthropic": 40.0,
+        "perplexity": 37.6
+      }
+    },
+    {
+      "brand": "Raycast",
+      "url": "raycast.com",
+      "avs": 40.4,
+      "avs_per_llm": {
+        "openai": 37.6,
+        "anthropic": 34.4,
+        "perplexity": 49.2
+      }
+    },
+    {
+      "brand": "Workable",
+      "url": "workable.com",
+      "avs": 40.3,
+      "avs_per_llm": {
+        "openai": 34.0,
+        "anthropic": 46.0,
+        "perplexity": 40.8
+      }
+    },
+    {
+      "brand": "ActiveCampaign",
+      "url": "activecampaign.com",
+      "avs": 40.1,
+      "avs_per_llm": {
+        "openai": 39.6,
+        "anthropic": 36.4,
+        "perplexity": 44.4
+      }
+    },
+    {
+      "brand": "Intercom",
+      "url": "intercom.com",
+      "avs": 40.1,
+      "avs_per_llm": {
+        "openai": 40.8,
+        "anthropic": 44.8,
+        "perplexity": 34.8
+      }
+    },
+    {
+      "brand": "Neon",
+      "url": "neon.tech",
+      "avs": 40.0,
+      "avs_per_llm": {
+        "openai": 26.8,
+        "anthropic": 38.0,
+        "perplexity": 55.2
+      }
+    },
+    {
+      "brand": "Metabase",
+      "url": "metabase.com",
+      "avs": 39.9,
+      "avs_per_llm": {
+        "openai": 37.2,
+        "anthropic": 36.8,
+        "perplexity": 45.6
+      }
+    },
+    {
+      "brand": "Pendo",
+      "url": "pendo.io",
+      "avs": 39.1,
+      "avs_per_llm": {
+        "openai": 36.8,
+        "anthropic": 37.2,
+        "perplexity": 43.2
+      }
+    },
+    {
+      "brand": "LangChain",
+      "url": "langchain.com",
+      "avs": 38.8,
+      "avs_per_llm": {
+        "openai": 37.6,
+        "anthropic": 38.4,
+        "perplexity": 40.4
+      }
+    },
+    {
+      "brand": "Paddle",
+      "url": "paddle.com",
+      "avs": 38.5,
+      "avs_per_llm": {
+        "openai": 35.6,
+        "anthropic": 38.4,
+        "perplexity": 41.6
+      }
+    },
+    {
+      "brand": "Chargebee",
+      "url": "chargebee.com",
+      "avs": 38.4,
+      "avs_per_llm": {
+        "openai": 50.4,
+        "anthropic": 26.8,
+        "perplexity": 38.0
+      }
+    },
+    {
+      "brand": "Airbyte",
+      "url": "airbyte.com",
+      "avs": 37.6,
+      "avs_per_llm": {
+        "openai": 28.0,
+        "anthropic": 36.4,
+        "perplexity": 48.4
+      }
+    },
+    {
+      "brand": "Supermetrics",
+      "url": "supermetrics.com",
+      "avs": 36.9,
+      "avs_per_llm": {
+        "openai": 41.6,
+        "anthropic": 35.2,
+        "perplexity": 34.0
+      }
+    },
+    {
+      "brand": "Sentry",
+      "url": "sentry.io",
+      "avs": 36.3,
+      "avs_per_llm": {
+        "openai": 44.0,
+        "anthropic": 32.4,
+        "perplexity": 32.4
+      }
+    },
+    {
+      "brand": "Help Scout",
+      "url": "helpscout.com",
+      "avs": 36.1,
+      "avs_per_llm": {
+        "openai": 41.6,
+        "anthropic": 30.0,
+        "perplexity": 36.8
+      }
+    },
+    {
+      "brand": "Drata",
+      "url": "drata.com",
+      "avs": 35.9,
+      "avs_per_llm": {
+        "openai": 37.2,
+        "anthropic": 31.2,
+        "perplexity": 39.2
+      }
+    },
+    {
+      "brand": "n8n",
+      "url": "n8n.io",
+      "avs": 35.7,
+      "avs_per_llm": {
+        "openai": 37.6,
+        "anthropic": 26.0,
+        "perplexity": 43.6
+      }
+    },
+    {
+      "brand": "PostHog",
+      "url": "posthog.com",
+      "avs": 35.6,
+      "avs_per_llm": {
+        "openai": 29.6,
+        "anthropic": 36.0,
+        "perplexity": 41.2
+      }
+    },
+    {
+      "brand": "FullStory",
+      "url": "fullstory.com",
+      "avs": 35.3,
+      "avs_per_llm": {
+        "openai": 38.0,
+        "anthropic": 34.4,
+        "perplexity": 33.6
+      }
+    },
+    {
+      "brand": "Lattice",
+      "url": "lattice.com",
+      "avs": 35.1,
+      "avs_per_llm": {
+        "openai": 36.8,
+        "anthropic": 33.6,
+        "perplexity": 34.8
+      }
+    },
+    {
+      "brand": "Copper",
+      "url": "copper.com",
+      "avs": 34.9,
+      "avs_per_llm": {
+        "openai": 39.2,
+        "anthropic": 24.4,
+        "perplexity": 41.2
+      }
+    },
+    {
+      "brand": "Apollo.io",
+      "url": "apollo.io",
+      "avs": 34.7,
+      "avs_per_llm": {
+        "openai": 27.6,
+        "anthropic": 40.4,
+        "perplexity": 36.0
+      }
+    },
+    {
+      "brand": "Rippling",
+      "url": "rippling.com",
+      "avs": 33.7,
+      "avs_per_llm": {
+        "openai": 27.6,
+        "anthropic": 38.4,
+        "perplexity": 35.2
+      }
+    },
+    {
+      "brand": "Make",
+      "url": "make.com",
+      "avs": 33.6,
+      "avs_per_llm": {
+        "openai": 34.0,
+        "anthropic": 37.6,
+        "perplexity": 29.2
+      }
+    },
+    {
+      "brand": "Linear",
+      "url": "linear.app",
+      "avs": 33.3,
+      "avs_per_llm": {
+        "openai": 23.6,
+        "anthropic": 36.0,
+        "perplexity": 40.4
+      }
+    },
+    {
+      "brand": "Personio",
+      "url": "personio.com",
+      "avs": 33.2,
+      "avs_per_llm": {
+        "openai": 36.8,
+        "anthropic": 30.8,
+        "perplexity": 32.0
+      }
+    },
+    {
+      "brand": "LlamaIndex",
+      "url": "llamaindex.ai",
+      "avs": 33.2,
+      "avs_per_llm": {
+        "openai": 27.6,
+        "anthropic": 36.8,
+        "perplexity": 35.2
+      }
+    },
+    {
+      "brand": "ChurnZero",
+      "url": "churnzero.com",
+      "avs": 32.8,
+      "avs_per_llm": {
+        "openai": 39.2,
+        "anthropic": 15.2,
+        "perplexity": 44.0
+      }
+    },
+    {
+      "brand": "Semgrep",
+      "url": "semgrep.com",
+      "avs": 32.8,
+      "avs_per_llm": {
+        "openai": 20.8,
+        "anthropic": 39.2,
+        "perplexity": 38.4
+      }
+    },
+    {
+      "brand": "Vitally",
+      "url": "vitally.io",
+      "avs": 31.3,
+      "avs_per_llm": {
+        "openai": 16.8,
+        "anthropic": 35.2,
+        "perplexity": 42.0
+      }
+    },
+    {
+      "brand": "Doppler",
+      "url": "doppler.com",
+      "avs": 31.1,
+      "avs_per_llm": {
+        "openai": 27.6,
+        "anthropic": 28.0,
+        "perplexity": 37.6
+      }
+    },
+    {
+      "brand": "Ashby",
+      "url": "ashby.com",
+      "avs": 31.1,
+      "avs_per_llm": {
+        "openai": 18.0,
+        "anthropic": 39.2,
+        "perplexity": 36.0
+      }
+    },
+    {
+      "brand": "Instantly",
+      "url": "instantly.ai",
+      "avs": 29.6,
+      "avs_per_llm": {
+        "openai": 18.4,
+        "anthropic": 30.8,
+        "perplexity": 39.6
+      }
+    },
+    {
+      "brand": "Lemlist",
+      "url": "lemlist.com",
+      "avs": 29.3,
+      "avs_per_llm": {
+        "openai": 24.0,
+        "anthropic": 36.8,
+        "perplexity": 27.2
+      }
+    },
+    {
+      "brand": "Brevo",
+      "url": "brevo.com",
+      "avs": 28.9,
+      "avs_per_llm": {
+        "openai": 11.6,
+        "anthropic": 39.2,
+        "perplexity": 36.0
+      }
+    },
+    {
+      "brand": "Secureframe",
+      "url": "secureframe.com",
+      "avs": 28.7,
+      "avs_per_llm": {
+        "openai": 31.6,
+        "anthropic": 26.8,
+        "perplexity": 27.6
+      }
+    },
+    {
+      "brand": "Workato",
+      "url": "workato.com",
+      "avs": 28.4,
+      "avs_per_llm": {
+        "openai": 22.0,
+        "anthropic": 24.4,
+        "perplexity": 38.8
+      }
+    },
+    {
+      "brand": "UserVoice",
+      "url": "uservoice.com",
+      "avs": 28.3,
+      "avs_per_llm": {
+        "openai": 29.6,
+        "anthropic": 24.4,
+        "perplexity": 30.8
+      }
+    },
+    {
+      "brand": "Reply.io",
+      "url": "reply.io",
+      "avs": 28.1,
+      "avs_per_llm": {
+        "openai": 24.8,
+        "anthropic": 23.6,
+        "perplexity": 36.0
+      }
+    },
+    {
+      "brand": "Planhat",
+      "url": "planhat.com",
+      "avs": 28.1,
+      "avs_per_llm": {
+        "openai": 23.2,
+        "anthropic": 32.8,
+        "perplexity": 28.4
+      }
+    },
+    {
+      "brand": "Front",
+      "url": "front.com",
+      "avs": 28.1,
+      "avs_per_llm": {
+        "openai": 27.2,
+        "anthropic": 27.6,
+        "perplexity": 29.6
+      }
+    },
+    {
+      "brand": "Mosaic",
+      "url": "mosaic.tech",
+      "avs": 27.7,
+      "avs_per_llm": {
+        "openai": 16.0,
+        "anthropic": 34.4,
+        "perplexity": 32.8
+      }
+    },
+    {
+      "brand": "Drip",
+      "url": "drip.com",
+      "avs": 26.5,
+      "avs_per_llm": {
+        "openai": 26.4,
+        "anthropic": 20.8,
+        "perplexity": 32.4
+      }
+    },
+    {
+      "brand": "Apify",
+      "url": "apify.com",
+      "avs": 26.3,
+      "avs_per_llm": {
+        "openai": 22.0,
+        "anthropic": 34.8,
+        "perplexity": 22.0
+      }
+    },
+    {
+      "brand": "Render",
+      "url": "render.com",
+      "avs": 25.7,
+      "avs_per_llm": {
+        "openai": 20.0,
+        "anthropic": 34.4,
+        "perplexity": 22.8
+      }
+    },
+    {
+      "brand": "Langfuse",
+      "url": "langfuse.com",
+      "avs": 25.7,
+      "avs_per_llm": {
+        "openai": 15.6,
+        "anthropic": 24.0,
+        "perplexity": 37.6
+      }
+    },
+    {
+      "brand": "Matillion",
+      "url": "matillion.com",
+      "avs": 25.3,
+      "avs_per_llm": {
+        "openai": 28.4,
+        "anthropic": 17.2,
+        "perplexity": 30.4
+      }
+    },
+    {
+      "brand": "HiBob",
+      "url": "hibob.com",
+      "avs": 25.2,
+      "avs_per_llm": {
+        "openai": 20.8,
+        "anthropic": 16.0,
+        "perplexity": 38.8
+      }
+    },
+    {
+      "brand": "Comet ML",
+      "url": "comet.com",
+      "avs": 24.4,
+      "avs_per_llm": {
+        "openai": 33.2,
+        "anthropic": 20.8,
+        "perplexity": 19.2
+      }
+    },
+    {
+      "brand": "Mailmodo",
+      "url": "mailmodo.com",
+      "avs": 24.1,
+      "avs_per_llm": {
+        "openai": 19.2,
+        "anthropic": 26.8,
+        "perplexity": 26.4
+      }
+    },
+    {
+      "brand": "Sprinto",
+      "url": "sprinto.com",
+      "avs": 23.7,
+      "avs_per_llm": {
+        "openai": 18.0,
+        "anthropic": 16.0,
+        "perplexity": 37.2
+      }
+    },
+    {
+      "brand": "Helicone",
+      "url": "helicone.ai",
+      "avs": 23.5,
+      "avs_per_llm": {
+        "openai": 15.2,
+        "anthropic": 26.0,
+        "perplexity": 29.2
+      }
+    },
+    {
+      "brand": "Planetscale",
+      "url": "planetscale.com",
+      "avs": 23.1,
+      "avs_per_llm": {
+        "openai": 20.8,
+        "anthropic": 20.4,
+        "perplexity": 28.0
+      }
+    },
+    {
+      "brand": "Leapsome",
+      "url": "leapsome.com",
+      "avs": 22.8,
+      "avs_per_llm": {
+        "openai": 25.2,
+        "anthropic": 15.6,
+        "perplexity": 27.6
+      }
+    },
+    {
+      "brand": "Braintrust",
+      "url": "braintrust.dev",
+      "avs": 22.8,
+      "avs_per_llm": {
+        "openai": 13.2,
+        "anthropic": 24.0,
+        "perplexity": 31.2
+      }
+    },
+    {
+      "brand": "Encharge",
+      "url": "encharge.io",
+      "avs": 22.1,
+      "avs_per_llm": {
+        "openai": 15.2,
+        "anthropic": 17.6,
+        "perplexity": 33.6
+      }
+    },
+    {
+      "brand": "Maxio",
+      "url": "maxio.com",
+      "avs": 21.9,
+      "avs_per_llm": {
+        "openai": 13.6,
+        "anthropic": 21.2,
+        "perplexity": 30.8
+      }
+    },
+    {
+      "brand": "Charlie HR",
+      "url": "charliehr.com",
+      "avs": 21.7,
+      "avs_per_llm": {
+        "openai": 31.6,
+        "anthropic": 14.4,
+        "perplexity": 19.2
+      }
+    },
+    {
+      "brand": "Numeric",
+      "url": "numeric.io",
+      "avs": 21.5,
+      "avs_per_llm": {
+        "openai": 19.6,
+        "anthropic": 17.2,
+        "perplexity": 27.6
+      }
+    },
+    {
+      "brand": "Userlist",
+      "url": "userlist.com",
+      "avs": 21.3,
+      "avs_per_llm": {
+        "openai": 17.6,
+        "anthropic": 16.8,
+        "perplexity": 29.6
+      }
+    },
+    {
+      "brand": "June.so",
+      "url": "june.so",
+      "avs": 20.4,
+      "avs_per_llm": {
+        "openai": 22.0,
+        "anthropic": 18.0,
+        "perplexity": 21.2
+      }
+    },
+    {
+      "brand": "Close",
+      "url": "close.com",
+      "avs": 20.0,
+      "avs_per_llm": {
+        "openai": 18.4,
+        "anthropic": 14.8,
+        "perplexity": 26.8
+      }
+    },
+    {
+      "brand": "Amplemarket",
+      "url": "amplemarket.com",
+      "avs": 19.7,
+      "avs_per_llm": {
+        "openai": 18.8,
+        "anthropic": 15.2,
+        "perplexity": 25.2
+      }
+    },
+    {
+      "brand": "Salesflare",
+      "url": "salesflare.com",
+      "avs": 19.5,
+      "avs_per_llm": {
+        "openai": 22.0,
+        "anthropic": 14.0,
+        "perplexity": 22.4
+      }
+    },
+    {
+      "brand": "Finaloop",
+      "url": "finaloop.com",
+      "avs": 18.8,
+      "avs_per_llm": {
+        "openai": 16.8,
+        "anthropic": 12.0,
+        "perplexity": 27.6
+      }
+    },
+    {
+      "brand": "Pilot",
+      "url": "pilot.com",
+      "avs": 18.7,
+      "avs_per_llm": {
+        "openai": 18.8,
+        "anthropic": 14.0,
+        "perplexity": 23.2
+      }
+    },
+    {
+      "brand": "Rho",
+      "url": "rho.co",
+      "avs": 18.7,
+      "avs_per_llm": {
+        "openai": 15.6,
+        "anthropic": 11.6,
+        "perplexity": 28.8
+      }
+    },
+    {
+      "brand": "LeadIQ",
+      "url": "leadiq.com",
+      "avs": 18.5,
+      "avs_per_llm": {
+        "openai": 21.2,
+        "anthropic": 12.0,
+        "perplexity": 22.4
+      }
+    },
+    {
+      "brand": "Klipfolio",
+      "url": "klipfolio.com",
+      "avs": 18.4,
+      "avs_per_llm": {
+        "openai": 17.6,
+        "anthropic": 13.2,
+        "perplexity": 24.4
+      }
+    },
+    {
+      "brand": "Nudge Security",
+      "url": "nudgesecurity.com",
+      "avs": 18.4,
+      "avs_per_llm": {
+        "openai": 15.2,
+        "anthropic": 14.0,
+        "perplexity": 26.0
+      }
+    },
+    {
+      "brand": "Portkey",
+      "url": "portkey.ai",
+      "avs": 18.3,
+      "avs_per_llm": {
+        "openai": 12.4,
+        "anthropic": 14.8,
+        "perplexity": 27.6
+      }
+    },
+    {
+      "brand": "SafeBase",
+      "url": "safebase.io",
+      "avs": 18.3,
+      "avs_per_llm": {
+        "openai": 16.4,
+        "anthropic": 14.4,
+        "perplexity": 24.0
+      }
+    },
+    {
+      "brand": "Teamtailor",
+      "url": "teamtailor.com",
+      "avs": 18.1,
+      "avs_per_llm": {
+        "openai": 13.6,
+        "anthropic": 12.8,
+        "perplexity": 28.0
+      }
+    },
+    {
+      "brand": "Checkly",
+      "url": "checklyhq.com",
+      "avs": 18.0,
+      "avs_per_llm": {
+        "openai": 17.2,
+        "anthropic": 22.0,
+        "perplexity": 14.8
+      }
+    },
+    {
+      "brand": "Nutshell",
+      "url": "nutshell.com",
+      "avs": 17.9,
+      "avs_per_llm": {
+        "openai": 16.8,
+        "anthropic": 15.6,
+        "perplexity": 21.2
+      }
+    },
+    {
+      "brand": "Attio",
+      "url": "attio.com",
+      "avs": 17.6,
+      "avs_per_llm": {
+        "openai": 14.8,
+        "anthropic": 15.6,
+        "perplexity": 22.4
+      }
+    },
+    {
+      "brand": "Stonly",
+      "url": "stonly.com",
+      "avs": 16.9,
+      "avs_per_llm": {
+        "openai": 19.6,
+        "anthropic": 9.6,
+        "perplexity": 21.6
+      }
+    },
+    {
+      "brand": "Humaans",
+      "url": "humaans.io",
+      "avs": 16.5,
+      "avs_per_llm": {
+        "openai": 16.8,
+        "anthropic": 13.6,
+        "perplexity": 19.2
+      }
+    },
+    {
+      "brand": "Folk",
+      "url": "folk.app",
+      "avs": 16.4,
+      "avs_per_llm": {
+        "openai": 16.4,
+        "anthropic": 14.4,
+        "perplexity": 18.4
+      }
+    },
+    {
+      "brand": "Vellum",
+      "url": "vellum.ai",
+      "avs": 15.9,
+      "avs_per_llm": {
+        "openai": 15.2,
+        "anthropic": 13.6,
+        "perplexity": 18.8
+      }
+    },
+    {
+      "brand": "Conveyor",
+      "url": "conveyor.com",
+      "avs": 15.7,
+      "avs_per_llm": {
+        "openai": 13.6,
+        "anthropic": 14.0,
+        "perplexity": 19.6
+      }
+    },
+    {
+      "brand": "Grip Security",
+      "url": "grip.security",
+      "avs": 15.3,
+      "avs_per_llm": {
+        "openai": 14.0,
+        "anthropic": 10.4,
+        "perplexity": 21.6
+      }
+    },
+    {
+      "brand": "Anecdotes",
+      "url": "anecdotes.ai",
+      "avs": 15.1,
+      "avs_per_llm": {
+        "openai": 20.4,
+        "anthropic": 10.0,
+        "perplexity": 14.8
+      }
+    }
+  ]
+}

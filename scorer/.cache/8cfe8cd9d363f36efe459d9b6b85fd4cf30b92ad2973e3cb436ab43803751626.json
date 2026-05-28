@@ -1,0 +1,9 @@
+{
+  "brand": "Planetscale",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Aurora vs alternatives: what should I switch to?",
+  "response": "# Evaluating Aurora and Alternatives\n\nI'd give better advice with more context. What's driving your consideration?\n\n**Common switching reasons:**\n\n- **Cost** – Aurora's pricing can be high at scale\n  - *Alternatives:* PostgreSQL (self-hosted), MySQL, DynamoDB, Firestore\n  \n- **Complexity/operational burden** – Want less to manage\n  - *Alternatives:* Firestore, DynamoDB, or Aurora Serverless\n  \n- **Lock-in concerns** – AWS dependency\n  - *Alternatives:* Self-hosted Postgres, Supabase, PlanetScale\n  \n- **Query patterns** – Wrong tool for your workload\n  - *Alternatives:* Document DB, graph DB, data warehouse depending on needs\n\n**Quick decision tree:**\n\n| If you need... | Consider |\n|---|---|\n| Cheap relational DB | Self-hosted Postgres/MySQL |\n| Serverless + low ops | DynamoDB or Firestore |\n| Postgres but less lock-in | Supabase, Neon, or self-hosted |\n| Cost with Postgres compatibility | PlanetScale (MySQL) |\n| Data warehouse queries | Redshift, BigQuery, Snowflake |\n\n**What matters most to you?** Cost, operational overhead, specific features, or vendor independence? That'll narrow it down significantly.",
+  "cached_at": "2026-05-28T06:15:37Z",
+  "metadata": {}
+}

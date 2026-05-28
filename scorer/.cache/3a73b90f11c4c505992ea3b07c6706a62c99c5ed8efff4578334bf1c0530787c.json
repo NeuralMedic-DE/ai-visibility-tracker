@@ -1,0 +1,9 @@
+{
+  "brand": "Secureframe",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with continuously monitor your tech stack for security control failures and violations at scale?",
+  "response": "# Software for Security Monitoring at Scale\n\n## **CSPM (Cloud Security Posture Management)**\n\nThe primary category for this is **CSPM** tools, which continuously monitor infrastructure for misconfigurations and violations:\n\n### Popular CSPM Solutions:\n- **Prisma Cloud** (Palo Alto Networks)\n- **CloudSploit** (Aqua Security)\n- **Prowler** (open-source)\n- **ScoutSuite** (open-source)\n- **CloudMapper** (open-source)\n- **Dome9** (CheckPoint)\n\n## **Related Categories:**\n\n**SIEM (Security Information & Event Management)**\n- Splunk, ELK Stack, Sumo Logic - for log aggregation and threat detection\n\n**CNAPP (Cloud-Native Application Protection Platform)**\n- Prisma Cloud, Twistlock - broader protection across the stack\n\n**IaC Scanning (Infrastructure as Code)**\n- Checkov, Snyk, Terraform Cloud - catch issues before deployment\n\n**Compliance & Governance**\n- ServiceNow GRC, Qualys - track against standards (SOC 2, CIS, PCI-DSS)\n\n## **Key Features to Look For:**\n✓ Real-time monitoring  \n✓ Multi-cloud support (AWS, Azure, GCP)  \n✓ Automated remediation  \n✓ Compliance reporting  \n✓ API-driven architecture  \n\n**Best fit depends on:** your cloud provider, team size, and whether you need preventive (IaC) vs. detective (CSPM) controls.",
+  "cached_at": "2026-05-28T08:33:55Z",
+  "metadata": {}
+}

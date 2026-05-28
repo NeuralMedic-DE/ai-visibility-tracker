@@ -1,0 +1,9 @@
+{
+  "brand": "Ashby",
+  "prompt_id": "IN-02",
+  "llm": "openai",
+  "prompt_text": "Ashby LinkedIn integration: how does it work?",
+  "response": "Ashby's LinkedIn integration is designed to streamline the recruiting process by connecting Ashby's applicant tracking system (ATS) with LinkedIn's vast professional network. Here's how it typically works:\n\n1. **Job Posting:** Recruiters can post job openings directly from Ashby to LinkedIn. This ensures that job listings reach a wide audience of potential candidates on LinkedIn.\n\n2. **Candidate Sourcing:** Recruiters can use LinkedIn to search for potential candidates and then import their profiles directly into Ashby. This helps in building a candidate pipeline efficiently.\n\n3. **Profile Syncing:** The integration allows for syncing candidate information between LinkedIn and Ashby. This means that any updates to a candidate's LinkedIn profile can be reflected in Ashby, ensuring that recruiters have the most current information.\n\n4. **InMail and Messaging:** Recruiters can send LinkedIn InMails or messages directly from Ashby, allowing for seamless communication with candidates without having to switch platforms.\n\n5. **LinkedIn Recruiter System Connect (RSC):** If enabled, this feature allows for deeper integration, such as viewing LinkedIn profile insights directly within Ashby, and tracking candidate interactions across both platforms.\n\n6. **Analytics and Reporting:** The integration can provide insights and analytics on the effectiveness of LinkedIn as a sourcing channel, helping recruiters refine their strategies.\n\nOverall, the integration aims to enhance the efficiency of the recruitment process by leveraging LinkedIn's network while managing workflows within Ashby.",
+  "cached_at": "2026-05-28T06:39:32Z",
+  "metadata": {}
+}

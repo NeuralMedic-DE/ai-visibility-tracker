@@ -1,0 +1,9 @@
+{
+  "brand": "Raycast",
+  "prompt_id": "IN-04",
+  "llm": "anthropic",
+  "prompt_text": "Best productivity that works with Slack and GitHub",
+  "response": "# Best Productivity Tools for Slack + GitHub\n\n## Top Integrated Options\n\n### **1. GitHub in Slack (Native)**\n- **Free, official integration**\n- Subscribe to repos, get notifications, preview PRs\n- Run workflows from Slack\n- Best for: Teams already using both platforms\n\n### **2. Gitkraken (Workflows)**\n- Deep GitHub integration in Slack\n- Automatic PR notifications and status updates\n- Great UI for managing PRs from Slack\n- Freemium model\n\n### **3. Linear**\n- Modern issue tracking designed for Slack/GitHub integration\n- Cleaner than GitHub issues for many teams\n- Works seamlessly with both platforms\n- Better for project management workflows\n\n### **4. Zapier + Make (Automation)**\n- Connect GitHub events to Slack automatically\n- Create custom workflows\n- Flexible but requires more setup\n- Good for: Complex workflows\n\n## Recommendations by Use Case\n\n**For Code Reviews:**\n- GitHub Slack app + Gitkraken\n\n**For Project Management:**\n- Linear + Slack (syncs with GitHub repos)\n\n**For Team Notifications:**\n- Native GitHub + Slack integration (configure filters well)\n\n**For Automation:**\n- Zapier for simple workflows\n- GitHub Actions → Slack webhooks for advanced needs\n\n## Quick Setup Priority\n1. Native GitHub Slack app (free)\n2. Add Linear if you need better issue tracking\n3. Use Zapier for anything custom\n\n**What's your main workflow?** (code reviews, project tracking, notifications?) I can give more specific recommendations.",
+  "cached_at": "2026-05-28T06:25:29Z",
+  "metadata": {}
+}

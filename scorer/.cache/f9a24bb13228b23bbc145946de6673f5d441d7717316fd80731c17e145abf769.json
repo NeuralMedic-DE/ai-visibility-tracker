@@ -1,0 +1,9 @@
+{
+  "brand": "LlamaIndex",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to Haystack",
+  "response": "# Cheaper Alternatives to Haystack\n\n## **Open-Source/Self-Hosted Options** (Free-Lowest Cost)\n\n| Tool | Cost | Best For |\n|------|------|----------|\n| **LangChain** | Free | RAG pipelines, LLM chaining |\n| **LlamaIndex** | Free | Document indexing & retrieval |\n| **Ollama** | Free | Local LLMs |\n| **Milvus** | Free | Vector database |\n| **Weaviate** | Free tier available | Vector search |\n| **Qdrant** | Free tier available | Vector DB |\n\n## **Affordable Cloud Solutions**\n\n| Tool | Cost | Best For |\n|------|------|----------|\n| **Chroma** | Free | Simple vector embedding |\n| **Pinecone** | $0-100+/mo | Managed vector DB |\n| **Supabase** | $0-50+/mo | PostgreSQL + pgvector |\n| **MongoDB Atlas** | $0-57+/mo | Document + vector search |\n| **SingleStoreDB** | Free tier | Vector + structured data |\n\n## **DIY Approaches** (Cheapest)\n\n- **PostgreSQL + pgvector** (~$5-15/mo hosting)\n- **Elasticsearch** (~$10-30/mo)\n- **SQLite + local embeddings** (free)\n- **AWS S3 + Lambda + DynamoDB** (pay-per-use)\n\n## **Key Comparison Factors**\n\n- **Self-hosted**: Lower recurring costs, higher setup effort\n- **Vector DBs**: Usually cheaper than Haystack's enterprise plans\n- **Hybrid approach**: Combine free tools (LangChain + free vector DB)\n\n**What's your main use case?** (RAG, search, embeddings?) I can recommend more specific alternatives.",
+  "cached_at": "2026-05-28T07:42:19Z",
+  "metadata": {}
+}

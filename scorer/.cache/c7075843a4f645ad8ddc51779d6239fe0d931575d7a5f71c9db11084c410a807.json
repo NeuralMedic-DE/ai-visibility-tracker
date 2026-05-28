@@ -1,0 +1,9 @@
+{
+  "brand": "Workato",
+  "prompt_id": "AL-05",
+  "llm": "anthropic",
+  "prompt_text": "Open source or affordable automation tools instead of Boomi",
+  "response": "# Open Source & Affordable Automation Alternatives to Boomi\n\n## **Open Source Options**\n\n### **Apache NiFi**\n- Visual data routing and transformation\n- Web-based UI for building data flows\n- Enterprise-grade reliability\n- Free, active community\n- Best for: Data pipeline automation\n\n### **Zapier Alternative: n8n**\n- Self-hosted workflow automation\n- 400+ integrations\n- Lower cost than cloud-only tools\n- Good UI for non-technical users\n- Free self-hosted version available\n\n### **Make (formerly Integromat) - Open Source Components**\n- Affordable SaaS option (~$10-99/month)\n- Visual workflow builder\n- Free tier available\n- Better pricing than Boomi\n- Easier learning curve\n\n### **Apache Airflow**\n- Workflow orchestration platform\n- Python-based, highly customizable\n- Strong for scheduled jobs\n- Steep learning curve (developer-focused)\n- Best for: Data engineers\n\n## **Budget-Friendly SaaS**\n\n| Tool | Starting Price | Best For |\n|------|---|---|\n| **Zapier** | Free tier, ~$20-800/mo | Quick integrations |\n| **Make** | Free, ~$10-99/mo | Visual automation |\n| **Parabola** | ~$100-500/mo | No-code flows |\n| **Microsoft Power Automate** | ~$5-15/user/mo | Microsoft ecosystem |\n| **Integromat (Make)** | Free-$99/mo | Budget-conscious teams |\n\n## **For Specific Use Cases**\n\n- **ETL/Data:** Talend Open Studio, Pentaho\n- **API Integration:** Postman, Insomnia\n- **Workflow:** Temporal, Prefect\n- **Microservices:** Docker + custom scripts\n\n**What's your primary use case?** That'll help narrow recommendations.",
+  "cached_at": "2026-05-28T09:13:32Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Vitally",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "ChurnZero vs alternatives: what should I switch to?",
+  "response": "# ChurnZero Alternatives: Key Comparisons\n\nWhether you should switch depends on your specific needs, but here are strong alternatives:\n\n## **Best Overall Replacements**\n\n**Gainsight PX** (formerly Apptio)\n- Strongest product analytics + engagement tools\n- Better for self-serve/PLG products\n- Pricier; steeper learning curve\n\n**Totango**\n- Similar feature set to ChurnZero\n- Slightly better forecasting/predictive analytics\n- Comparable pricing\n\n**Planhat**\n- Purpose-built for SaaS CS\n- Strong integration ecosystem\n- Lighter weight, faster implementation\n\n## **By Use Case**\n\n| Need | Consider |\n|------|----------|\n| **Product usage tracking** | Gainsight PX, Amplitude |\n| **Ease of use** | Planhat, HubSpot Service Hub |\n| **Tight budgets** | HubSpot, Vitally (SMB-focused) |\n| **Enterprise features** | Gainsight PX, Totango |\n| **Usage + automation** | Vitally, ChartMogul + Intercom |\n\n## **Honest Questions Before Switching**\n\n- Is it actually a ChurnZero limitation, or a configuration/adoption issue?\n- What specific feature are you missing?\n- Is switching cost/time worth the gain?\n\n**Most switches fail because companies repeat the same implementation mistakes.** What's driving your consideration?",
+  "cached_at": "2026-05-28T08:09:26Z",
+  "metadata": {}
+}

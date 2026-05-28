@@ -1,0 +1,9 @@
+{
+  "brand": "Drip",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to Mailchimp",
+  "response": "# Cheaper Mailchimp Alternatives\n\n## Free or Freemium Options\n\n**Brevo (Sendinblue)**\n- Free tier: 300 emails/day, unlimited contacts\n- Good for basic automation and SMS\n\n**Mailerlite**\n- Free up to 1,000 subscribers\n- More generous free features than Mailchimp\n- Strong automation for the price\n\n**Sender**\n- Free up to 2,500 subscribers\n- Includes SMS and push notifications\n\n**Klaviyo**\n- Free up to 500 contacts\n- Best for e-commerce (better than Mailchimp for that use case)\n\n## Budget-Friendly Paid Plans\n\n**Convertkit**\n- Starting ~$25/month\n- Ideal for creators/bloggers\n\n**AWeber**\n- Starting ~$20/month\n- Competitive automation features\n\n**ActiveCampaign**\n- Starting ~$15/month\n- Strong CRM + automation integration\n\n**Omnisend**\n- Starting ~$25/month\n- E-commerce focused\n\n## Key Considerations\n\n- **List size**: Mailchimp charges based on subscribers; some alternatives don't\n- **Features needed**: Automation, SMS, landing pages vary by platform\n- **Industry**: E-commerce, agencies, and nonprofits have specialized cheaper options\n\n**Recommendation**: Most small businesses save money with **Mailerlite** or **Brevo** if you're under 5,000 subscribers.\n\nWhat's your primary use case?",
+  "cached_at": "2026-05-28T07:32:54Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Hightouch",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Hightouch vs Census: which is better?",
+  "response": "# Hightouch vs Census\n\nBoth are strong reverse-ETL platforms, but they differ in approach:\n\n## **Hightouch**\n**Strengths:**\n- More intuitive UI, easier to learn\n- Lower pricing (better for budget-conscious teams)\n- Strong for standard use cases (CRM syncs, email lists)\n- Good documentation and community\n\n**Weaknesses:**\n- Less sophisticated for complex transformations\n- Smaller integration ecosystem\n- Fewer advanced features\n\n## **Census**\n**Strengths:**\n- More powerful transformation engine (SQL-based)\n- Larger integration library (~300+)\n- Better for complex, nuanced data work\n- Superior data governance features\n- More flexible activation patterns\n\n**Weaknesses:**\n- Steeper learning curve\n- Higher pricing\n- Overkill for simpler use cases\n\n## **Quick decision guide:**\n\nChoose **Hightouch** if you:\n- Want something quick to implement\n- Have straightforward sync needs\n- Care about cost efficiency\n\nChoose **Census** if you:\n- Need complex transformations\n- Require extensive integrations\n- Prioritize advanced features/governance\n- Have resources to learn the platform\n\n**Bottom line:** Neither is universally \"better\"—it depends on your team's technical depth, budget, and use case complexity. Many teams successfully use either one.\n\nWhat's your primary use case? That would help narrow it down.",
+  "cached_at": "2026-05-28T09:05:17Z",
+  "metadata": {}
+}

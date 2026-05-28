@@ -1,0 +1,9 @@
+{
+  "brand": "Drata",
+  "prompt_id": "UC-05",
+  "llm": "perplexity",
+  "prompt_text": "What software helps with reduce audit preparation time with continuously automated controls testing at scale?",
+  "response": "Software that helps **reduce audit preparation time** with **continuously automated controls testing at scale** includes **Vanta**, **RegScale**, **Hyperproof**, and **Scrut**.[1][2][3][5]\n\n- **Vanta** offers automated, continuous controls monitoring, automated evidence collection, and audit workflow support; it also claims customers can spend **82% less time per framework and attestation-related audit** and reduce audit completion times by **50%**.[1]\n- **RegScale** provides a **Continuous Controls Monitoring (CCM)** platform with compliance-as-code, continuous audit-readiness, and automated artifact generation; it highlights faster audit prep and response time and reduced effort for SOC 2 Type 2 and FedRAMP-related work.[2]\n- **Hyperproof** emphasizes **continuous controls monitoring** plus automated control testing, automated evidence collection, and reporting; it says automated testing reduces manual controls testing burden and supports high-frequency monitoring.[3]\n- **Scrut** includes an automated controls testing module that runs recurring checks, generates ready-to-use test results for auditors, and is positioned to improve audit readiness and reduce manual effort.[5]\n\nIf you want the **best fit for a specific framework** like SOC 2, ISO 27001, FedRAMP, or CMMC, I can narrow this to the strongest option by use case.",
+  "cached_at": "2026-05-28T08:30:22Z",
+  "metadata": {}
+}

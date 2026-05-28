@@ -1,0 +1,9 @@
+{
+  "brand": "Mosaic",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Planful vs alternatives: what should I switch to?",
+  "response": "# Planful Alternatives: Key Considerations\n\nRather than just listing options, here's how to decide:\n\n## Why you might leave Planful\n- **Cost** - it's premium-priced\n- **Complexity** - steeper learning curve\n- **Scale mismatch** - overkill for smaller teams\n- **Specific gaps** - missing features for your use case\n\n## Where to look\n\n**If you want simpler/cheaper:**\n- Anaplan (Salesforce) - similar but integrated ecosystem\n- Jedox - more technical, flexible\n- Host Analytics - mid-market sweet spot\n- Vena - good UX for finance teams\n\n**If you want lightweight:**\n- Mosaic, Causal, or Pigment - modern, cleaner interfaces\n- Google Sheets + add-ons - DIY but functional\n- Excel + Power Query - if you're comfortable there\n\n**If you want specialized:**\n- NetSuite Planning - if already using ERP\n- Adaptive Insights - cloud-native, simpler than Planful\n- Unit Economics - if SaaS metrics focused\n\n## Questions to ask first\n1. What's actually broken about Planful for you?\n2. What's your team size and technical skill?\n3. Do you need multi-entity consolidation or forecasting only?\n4. What's your true budget range?\n\nMost switches fail because people chase features rather than fixing the core problem. What's driving your search?",
+  "cached_at": "2026-05-28T07:10:10Z",
+  "metadata": {}
+}

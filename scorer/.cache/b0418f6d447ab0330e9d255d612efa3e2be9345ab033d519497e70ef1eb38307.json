@@ -1,0 +1,9 @@
+{
+  "brand": "Planhat",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Planhat integrate with Salesforce?",
+  "response": "# Planhat and Salesforce Integration\n\nYes, Planhat does integrate with Salesforce. The integration allows you to:\n\n- **Sync customer data** between Planhat and Salesforce\n- **Align sales and customer success** operations\n- **Manage accounts and contacts** across both platforms\n- **Track customer health and engagement** metrics\n\n## Key Features\nThe integration typically supports:\n- Two-way data synchronization\n- Account and opportunity tracking\n- Contact management\n- Custom field mapping\n\nFor the most current details about specific capabilities, setup requirements, or any updates to the integration, I'd recommend:\n- Checking Planhat's official documentation\n- Visiting the Salesforce AppExchange\n- Contacting Planhat's support team directly\n\nIs there a specific aspect of the Planhat-Salesforce integration you'd like to know more about?",
+  "cached_at": "2026-05-28T08:12:17Z",
+  "metadata": {}
+}

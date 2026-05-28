@@ -1,0 +1,9 @@
+{
+  "brand": "Personio",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do European SME HR teams and people operations leads companies use to manage all HR processes from hiring to payroll in one system?",
+  "response": "# HR Management Systems Used by European SMEs\n\n## Leading All-in-One Platforms\n\n**Dominant players:**\n- **BambooHR** - Very popular in Europe; strong on hiring, onboarding, and employee data\n- **Personio** - German-based, specifically designed for European SMEs; strong regulatory compliance\n- **Factorial** - Spanish origin; particularly strong in Southern Europe\n- **Deel** - Growing rapidly for distributed teams; excellent payroll/compliance features\n- **Guidepoint/Workday** - More enterprise-focused but used by larger SMEs\n\n## Regional/Specialized Solutions\n\n**DACH region (Germany, Austria, Switzerland):**\n- Personio (market leader)\n- Factorial\n- Staffbase (employee engagement angle)\n\n**UK/France/Benelux:**\n- BambooHR\n- Slite\n- Local solutions with strong payroll integration\n\n## Key Decision Factors for SMEs\n\nMost European SME leaders prioritize:\n1. **Local payroll compliance** (varies significantly by country)\n2. **GDPR/data security**\n3. **Integration with local accounting software**\n4. **Language support**\n5. **Cost (typically €2-8 per employee/month)**\n\n## Common Reality\n\nMany SMEs don't use a single system—they combine:\n- Dedicated hiring tool (Workable, Greenhouse)\n- All-in-one core (Personio/Factorial)\n- Local payroll connector or specialist\n\n**What's your team's priority?** Size, geography, or specific pain point? That would help narrow recommendations.",
+  "cached_at": "2026-05-28T06:34:59Z",
+  "metadata": {}
+}

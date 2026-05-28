@@ -1,0 +1,9 @@
+{
+  "brand": "Copper",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with track project and sales stages at scale?",
+  "response": "# Project & Sales Stage Management Software\n\nHere are the most popular options at scale:\n\n## **Sales Pipeline Management**\n- **Salesforce** – Industry standard CRM with robust pipeline tracking\n- **HubSpot CRM** – User-friendly, good free tier, scales well\n- **Pipedrive** – Visual pipeline, sales-focused\n- **Close** – Lightweight, sales automation focused\n\n## **Project Management**\n- **Monday.com** – Flexible, visual workflows\n- **Asana** – Task and project tracking\n- **Jira** – Technical/agile teams\n- **Smartsheet** – Enterprise-scale, spreadsheet-like interface\n\n## **Hybrid Solutions** (Projects + Sales)\n- **Salesforce** – Most comprehensive for enterprise\n- **Microsoft Dynamics 365** – Tight Office 365 integration\n- **Zoho CRM** – Affordable, extensive features\n\n## **Key Considerations**\n- **Scale needed**: Startups vs. enterprise\n- **Integration**: With your existing tools\n- **Budget**: Varies widely ($0-$300+/user/month)\n- **Complexity**: Simple workflows vs. advanced automation\n\n**Most popular for scaling**: Salesforce (sales) + Asana/Monday (projects), or HubSpot as an all-in-one alternative for mid-market.\n\nWhat's your primary use case—sales, projects, or both?",
+  "cached_at": "2026-05-27T18:24:09Z",
+  "metadata": {}
+}

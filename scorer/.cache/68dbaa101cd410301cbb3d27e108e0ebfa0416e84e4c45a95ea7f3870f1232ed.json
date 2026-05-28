@@ -1,0 +1,9 @@
+{
+  "brand": "Zapier",
+  "prompt_id": "UC-05",
+  "llm": "perplexity",
+  "prompt_text": "What software helps with build multi-step automations that run on triggers from any app in your stack at scale?",
+  "response": "The best fit for **multi-step automations** triggered by apps in your stack at scale is **Relay.app** or **Trigger.dev**, depending on whether you want no-code/low-code workflows or code-first automation.[1][2]\n\n- **Relay.app** is designed for workflows that start from a **trigger** and run through **multiple steps**, including app actions, AI, branching, and loops, with visual inspection and fine-grained app permissions.[2]\n- **Trigger.dev** is built for **long-running workflows** and **AI agents** in TypeScript, with retries, queues, observability, and elastic scaling, which makes it well-suited for automation at scale.[1]\n\nIf you want a more classic no-code automation tool, **Make.com** is also commonly used for **multi-step scenarios** built from triggers and multiple actions.[3]\n\nIf you want, I can also compare **Relay.app vs Make vs Zapier vs Trigger.dev** for your specific stack and use case.",
+  "cached_at": "2026-05-28T08:52:50Z",
+  "metadata": {}
+}

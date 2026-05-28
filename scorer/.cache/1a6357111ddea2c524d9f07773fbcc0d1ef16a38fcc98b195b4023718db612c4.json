@@ -1,0 +1,9 @@
+{
+  "brand": "FullStory",
+  "prompt_id": "IN-04",
+  "llm": "openai",
+  "prompt_text": "Best product analytics that works with Segment and Amplitude",
+  "response": "If you're looking for product analytics tools that integrate well with both Segment and Amplitude, there are several options you might consider:\n\n1. **Mixpanel**: Mixpanel is a powerful product analytics tool that provides in-depth insights into user behavior. It integrates seamlessly with Segment, allowing you to send data collected through Segment to Mixpanel for analysis.\n\n2. **Heap**: Heap automatically captures all user interactions with your product, providing a comprehensive view of user behavior. It also integrates with Segment, making it easy to funnel data into Heap for analysis.\n\n3. **Google Analytics**: While not as specialized as some other tools, Google Analytics can be integrated with Segment and used alongside Amplitude for a broader view of user behavior and marketing analytics.\n\n4. **Looker**: Looker is a business intelligence tool that can be used to analyze data from Segment and Amplitude. It provides powerful data visualization and exploration capabilities.\n\n5. **Tableau**: Tableau can be used to visualize and analyze data from Segment and Amplitude. It offers robust data visualization features that can help you understand complex datasets.\n\nEach of these tools has its strengths, so the best choice depends on your specific needs, such as the depth of analysis required, ease of use, and budget.",
+  "cached_at": "2026-05-27T20:45:05Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Leapsome",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best HR for fast-growing companies with performance-driven cultures?",
+  "response": "# HR Approaches for Fast-Growing, Performance-Driven Companies\n\n## Key priorities\n\n**Talent acquisition & retention**\n- Rapid hiring without sacrificing quality (structured interviews, clear role definitions)\n- Competitive comp packages + equity incentives to compete for top talent\n- Strong onboarding to reduce time-to-productivity\n\n**Clear performance management**\n- Transparent, frequent feedback (quarterly or more)\n- Explicit goal-setting (OKRs work well at scale)\n- Direct tie between performance and compensation/advancement\n- Low tolerance for underperformance, managed exits\n\n**Culture & values**\n- Codify culture early—it becomes diluted as you scale\n- Hire for cultural fit + capability\n- Empower managers to reinforce values\n\n**Scalable systems**\n- Invest in HRIS/people analytics early\n- Document processes before chaos sets in\n- Build career ladders so high performers see growth\n\n## Common pitfalls to avoid\n\n- Letting culture \"happen\" rather than actively shaping it\n- Hiring too fast without clear competency frameworks\n- Burning out top performers through unrealistic expectations\n- Poor manager training (inexperienced managers destroy culture)\n\n## Reality check\n\nThe \"best\" approach depends on your industry, founder philosophy, and growth stage. What works for a SaaS startup differs from a consulting firm.\n\n**What's your specific context?** That'd help me give more targeted advice.",
+  "cached_at": "2026-05-28T06:36:57Z",
+  "metadata": {}
+}

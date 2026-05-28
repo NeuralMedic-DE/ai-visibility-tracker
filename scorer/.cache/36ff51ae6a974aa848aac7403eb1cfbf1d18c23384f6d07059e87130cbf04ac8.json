@@ -1,0 +1,9 @@
+{
+  "brand": "Instantly",
+  "prompt_id": "CM-02",
+  "llm": "anthropic",
+  "prompt_text": "Instantly vs Mailshake pricing and features",
+  "response": "# Instantly vs Mailshake: Pricing & Features\n\n## Pricing Comparison\n\n| Feature | Instantly | Mailshake |\n|---------|-----------|-----------|\n| **Free Plan** | Yes (limited) | Yes (limited) |\n| **Starter** | $25-60/mo | $49/mo |\n| **Pro** | $120-300/mo | $99/mo |\n| **Enterprise** | Custom | Custom |\n\n## Key Features\n\n### Instantly\n✅ **Strengths:**\n- Built-in email deliverability tools\n- Warm-up functionality (inbox placement)\n- LinkedIn outreach integration\n- Unlimited email accounts\n- AI-powered sequences\n- Better for cold email at scale\n\n❌ **Limitations:**\n- Steeper learning curve\n- Fewer templates\n\n### Mailshake\n✅ **Strengths:**\n- User-friendly interface\n- Excellent templates library\n- Strong automation workflows\n- Better for beginners\n- Good email tracking & analytics\n- Faster setup\n\n❌ **Limitations:**\n- Limited warm-up features\n- Fewer integrations\n- Less scalable for cold email\n\n## Best For\n\n**Choose Instantly if:**\n- Running large cold email campaigns\n- Need email warm-up/deliverability\n- Want LinkedIn integration\n- Budget allows more advanced platform\n\n**Choose Mailshake if:**\n- New to email outreach\n- Want ease of use\n- Prefer lower cost\n- Need quick setup\n\n---\n\nWould you like a deeper dive into any specific feature or integration?",
+  "cached_at": "2026-05-28T07:18:59Z",
+  "metadata": {}
+}

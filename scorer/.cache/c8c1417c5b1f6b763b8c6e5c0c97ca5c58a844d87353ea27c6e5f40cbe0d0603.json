@@ -1,0 +1,9 @@
+{
+  "brand": "Finaloop",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I automate e-commerce bookkeeping with real-time P&L and inventory COGS without spending a lot on software?",
+  "response": "# Low-Cost E-Commerce Bookkeeping Automation\n\n## Quick wins with existing tools\n\n**Spreadsheet + API approach**\n- Google Sheets + Zapier ($20-30/mo) to auto-pull sales, refunds, shipping\n- Use IMPORTDATA() or built-in connectors for platforms like Shopify, WooCommerce\n- Create formulas for COGS calculation (inventory weighted average or FIFO)\n- Schedule monthly P&L updates automatically\n\n**Free/cheap integrations**\n- Most payment processors (Stripe, Square) export to CSV automatically\n- Many accounting packages offer free tiers for smaller volumes (Wave, Zoho Books free plan)\n- Inventory tools like Stocky (Shopify) sync cost data\n\n## Real-time P&L without expensive software\n\n1. **Separate sheet tabs**: Sales, COGS, Operating Expenses\n2. **Live formulas** pulling from transaction feeds\n3. **Monthly reconciliation ritual** (2-3 hours) to catch discrepancies\n4. Monthly is usually sufficient—true real-time rarely justifies the cost\n\n## COGS tracking (the harder part)\n\n- **Use your platform's built-in cost field** (Shopify Product COGS, WooCommerce custom fields)\n- **Manual import**: Export inventory list with unit costs monthly, auto-calculate\n- **Warehouse management lite**: Inventory Lab (free tier) or Sellfy tracks this\n- Accept that this requires some manual data entry unless you go full ERP ($$$)\n\n## Reality check\n\nBeyond ~$2-5K monthly revenue, you'll hit friction. That's when dedicated software ($100-300/mo) usually pays for itself in time saved.\n\n**What's your current monthly volume and platforms?** That changes the recommendation significantly.",
+  "cached_at": "2026-05-28T07:07:38Z",
+  "metadata": {}
+}

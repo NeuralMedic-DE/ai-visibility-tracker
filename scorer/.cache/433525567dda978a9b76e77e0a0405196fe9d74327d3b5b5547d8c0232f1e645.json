@@ -1,0 +1,9 @@
+{
+  "brand": "Teamtailor",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Lever vs alternatives: what should I switch to?",
+  "response": "# Choosing an Alternative to Lever\n\nWithout knowing your specific needs, here are the main contenders depending on your use case:\n\n## **ATS/Recruiting Focus**\n- **Greenhouse** – Stronger structured interview workflows, better for large teams\n- **iCIMS** – Enterprise-grade, good compliance features\n- **Ashby** – Modern, developer-friendly, growing fast\n- **Workable** – Simpler, better value for SMBs\n\n## **HRIS/Broader HR**\n- **BambooHR** – Best all-in-one for small-medium companies\n- **Rippling** – Device management + HR combined\n- **Guidepoint** – Strong for mid-market\n\n## **Quick Comparison Factors**\n| What matters | Best choice |\n|---|---|\n| Budget | Workable, Ashby |\n| Simplicity | BambooHR |\n| Enterprise needs | Greenhouse, iCIMS |\n| Integration ecosystem | Rippling |\n| Modern UX | Ashby, Workable |\n\n## **Questions to clarify before switching:**\n- Team size and growth trajectory?\n- Just recruiting or full HR suite needed?\n- Budget constraints?\n- Integration requirements (payroll, benefits, etc.)?\n- Deal-breaker issues with Lever?\n\nWhat's driving the switch? That'll help me give more specific advice.",
+  "cached_at": "2026-05-28T06:41:54Z",
+  "metadata": {}
+}

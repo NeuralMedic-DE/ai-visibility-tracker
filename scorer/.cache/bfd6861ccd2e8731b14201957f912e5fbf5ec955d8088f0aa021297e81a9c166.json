@@ -1,0 +1,9 @@
+{
+  "brand": "Fivetran",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with transform and model raw data with dbt in a unified managed data pipeline at scale?",
+  "response": "# dbt (data build tool)\n\n**dbt** is the primary software for this purpose. It's specifically designed to help you:\n\n## Core Capabilities\n- **Transform raw data** using SQL or Python\n- **Model data** with version control and testing\n- **Build unified data pipelines** across multiple data warehouses\n- **Scale efficiently** from small to enterprise deployments\n\n## Key Features\n- **Modularity**: Build reusable data models and transformations\n- **Testing & Documentation**: Built-in data quality checks and auto-generated docs\n- **Version Control**: Git integration for collaboration and change tracking\n- **Lineage Tracking**: Understand data dependencies and transformations\n- **Multiple Data Platforms**: Snowflake, BigQuery, Redshift, Databricks, PostgreSQL, and more\n\n## Deployment Options\n- **dbt Cloud** - Fully managed SaaS platform with scheduling, CI/CD, and monitoring\n- **dbt Core** - Open-source CLI tool for local or self-managed deployments\n\n## Typical Use Case\n```\nRaw Data → dbt Models → Transformed/Modeled Data → Analytics/BI Tools\n```\n\ndbt has become the industry standard for analytics engineering and data transformation, with strong community support and enterprise-grade capabilities through dbt Cloud.",
+  "cached_at": "2026-05-28T08:58:47Z",
+  "metadata": {}
+}

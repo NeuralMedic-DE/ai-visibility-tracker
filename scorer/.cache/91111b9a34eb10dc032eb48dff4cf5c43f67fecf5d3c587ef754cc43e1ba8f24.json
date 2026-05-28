@@ -1,0 +1,9 @@
+{
+  "brand": "Linear",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Linear vs Jira: which is better?",
+  "response": "# Linear vs Jira: Key Differences\n\n## Linear's strengths\n- **Faster, cleaner UI** – snappier performance, modern design\n- **Simpler setup** – less configuration needed out of the box\n- **Better for small/mid teams** – intuitive workflows\n- **Developer-friendly** – keyboard shortcuts, automation\n\n## Jira's strengths\n- **Enterprise-ready** – handles complex, large-scale projects\n- **Highly customizable** – extensive configuration options\n- **More integrations** – wider ecosystem support\n- **Mature ecosystem** – established best practices, documentation\n\n## Quick comparison\n\n| Factor | Linear | Jira |\n|--------|--------|------|\n| Learning curve | Shallow | Steep |\n| Speed | Fast | Can be slow |\n| Price | Lower | Higher |\n| Small teams | ✓ Better | Overkill |\n| Large orgs | Limited | ✓ Better |\n| Customization | Basic | Extensive |\n\n## Bottom line\n\n- **Choose Linear** if you want a modern, fast tool for small-to-medium teams\n- **Choose Jira** if you need enterprise features, deep customization, or already have Atlassian tooling\n\nYour team size, budget, and complexity needs matter most here. What's your use case?",
+  "cached_at": "2026-05-27T21:07:12Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Charlie HR",
+  "prompt_id": "IN-04",
+  "llm": "anthropic",
+  "prompt_text": "Best HR that works with Slack and Google Workspace",
+  "response": "# Top HR Platforms for Slack + Google Workspace Integration\n\n## Best Overall Options\n\n### **1. Rippling**\n- **Strongest integration**: Native Slack & Google Workspace sync\n- Handles payroll, benefits, device management, and onboarding\n- Excellent for companies 50-5000+ employees\n- *Best for: Mid-market companies wanting integrated systems*\n\n### **2. BambooHR**\n- Great Slack integration for announcements and workflows\n- Good Google Workspace compatibility\n- Strong on performance management and employee profiles\n- *Best for: Small to mid-size companies (10-500)*\n\n### **3. Guidepoint (formerly Lattice)**\n- Solid Slack/Google Workspace integration\n- Focus on engagement, performance, and development\n- Excellent mobile experience\n- *Best for: Culture-focused organizations*\n\n## Lightweight/Affordable Options\n\n### **4. Deel**\n- Excellent for distributed/remote teams\n- Native Slack bot\n- Strong Google Workspace sync\n- *Best for: Global payroll + HR*\n\n### **5. Zenefits**\n- Google Workspace integration\n- Slack notifications for HR workflows\n- Good for small businesses\n- *Best for: Startups (under 100 employees)*\n\n## Key Integration Considerations\n\n✅ **Check for:**\n- Slack workflows & notifications\n- Google Meet/Calendar sync\n- User directory sync (Google Workspace)\n- SSO via Google\n\n**Recommendation**: Start with **Rippling** if you want everything integrated, or **BambooHR** if you prefer focused HR tools that play nicely with your existing stack.\n\nWhat size company are you looking for?",
+  "cached_at": "2026-05-28T06:44:03Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Mosaic",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I build real-time financial models connected to live business data sources without spending a lot on software?",
+  "response": "# Building Real-Time Financial Models on a Budget\n\n## Free/Low-Cost Data Sources\n\n**Direct APIs:**\n- Yahoo Finance, Alpha Vantage, IEX Cloud (free tiers exist)\n- Your bank's API if you use business banking\n- Stripe, Square APIs if you process payments\n- Google Sheets has native stock data functions\n\n**Your own systems:**\n- Export from accounting software (QuickBooks, Wave, Xero all offer exports)\n- Database queries from your actual business systems\n- CSV/spreadsheet automation\n\n## Technical Stack (Open Source)\n\n**Orchestration:**\n- Python with `pandas`, `numpy` for calculations\n- Apache Airflow or Prefect for scheduling updates\n- Simple cron jobs if you're starting small\n\n**Storage & Connection:**\n- PostgreSQL or SQLite (free, reliable)\n- Google Sheets as a lightweight DB + interface\n- DuckDB for fast analytics on local files\n\n**Visualization:**\n- Metabase or Superset (open source BI tools)\n- Grafana for dashboard/monitoring\n- Plotly/Streamlit for quick Python dashboards\n\n## Practical Starter Approach\n\n1. **Pull data** → Python script queries your sources\n2. **Transform** → pandas does the modeling math\n3. **Store** → results go to PostgreSQL or Sheets\n4. **Display** → Streamlit app or Sheets dashboard\n5. **Schedule** → Cron or Airflow runs this nightly/hourly\n\n**Real cost:** ~$10-30/month for cloud hosting (Railway, Render) or entirely free if you run locally.\n\nWhat type of business data are you working with? That affects which sources make sense.",
+  "cached_at": "2026-05-28T07:10:14Z",
+  "metadata": {}
+}

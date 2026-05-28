@@ -1,0 +1,9 @@
+{
+  "brand": "n8n",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which automation software should a Technical Ops Lead or Developer wanting self-hosted automation use?",
+  "response": "# Self-Hosted Automation Software Options\n\n## Best Overall Options\n\n**Apache Airflow**\n- Most mature, widely used in enterprises\n- Strong for data pipelines and scheduled workflows\n- Steep learning curve, requires Python knowledge\n- Best if: You need production-grade reliability and have engineering resources\n\n**Temporal**\n- Excellent for complex, long-running workflows\n- Strong fault tolerance and retry logic\n- More developer-friendly than Airflow\n- Best if: Building microservices or handling distributed workflows\n\n## Lighter-Weight Alternatives\n\n**Prefect** (open-source version)\n- More intuitive than Airflow\n- Better UX for modern Python developers\n- Good balance of power and ease-of-use\n\n**Dagster**\n- Strong asset-oriented approach\n- Great for data engineering\n- Growing community\n\n**Rundeck**\n- Lower barrier to entry\n- Job scheduling and execution focus\n- Less code-heavy\n\n## Simple/Minimal Options\n\n- **Jenkins** - overkill for pure automation, but option if already used\n- **Cron + scripts** - fine for simple cases, doesn't scale well\n- **Dask** - if primarily distributed computing\n\n## Key Decision Factors\n\n| Factor | Choose |\n|--------|--------|\n| **Learning curve matters most** | Prefect or Rundeck |\n| **Complex, long-running tasks** | Temporal |\n| **Data pipeline focus** | Airflow or Dagster |\n| **Team size/DevOps expertise** | Temporal or Prefect |\n\n**What's your primary use case?** That would help narrow it down further.",
+  "cached_at": "2026-05-28T08:55:53Z",
+  "metadata": {}
+}

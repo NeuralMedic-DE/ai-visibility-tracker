@@ -1,0 +1,9 @@
+{
+  "brand": "Raycast",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is Raycast better than Spotlight for search documentation code snippets and teammates without leaving the keyboard?",
+  "response": "# Raycast vs Spotlight for Developer Workflows\n\n**Raycast is significantly better for your use case.** Here's why:\n\n## Key Advantages of Raycast\n\n**Search capabilities**\n- Searches code repositories, documentation, and project files directly\n- Can index local codebases (with extensions)\n- Supports fuzzy searching across multiple data sources\n- Built-in snippet management with syntax highlighting\n\n**Teammate discovery**\n- Integrates with Slack, GitHub, Linear, and other team tools\n- Can search team members' recent activity, PRs, or calendar availability\n- Accessible entirely from keyboard\n\n**Developer-specific features**\n- Clipboard history with code formatting\n- Quick access to frequently used commands\n- Custom script extensions (Node.js, Swift, etc.)\n- Window management and system automation\n\n## Spotlight's Limitations\n\n- Primarily searches local files and apps\n- No integration with code repositories or team tools\n- Not designed for developer workflows\n- Limited customization for technical use cases\n\n## The Tradeoff\n\nRaycast requires some setup (installing extensions, configuring integrations) but becomes a powerful productivity multiplier once configured. Spotlight works immediately but won't solve your specific needs.\n\n**Bottom line:** If you want to stay keyboard-centric while searching code and finding teammates, Raycast is purpose-built for this. Spotlight won't get you there.",
+  "cached_at": "2026-05-28T06:25:11Z",
+  "metadata": {}
+}

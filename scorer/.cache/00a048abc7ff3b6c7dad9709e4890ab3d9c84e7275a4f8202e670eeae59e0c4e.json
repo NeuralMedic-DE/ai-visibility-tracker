@@ -1,0 +1,9 @@
+{
+  "brand": "Mosaic",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Mosaic integrate with NetSuite?",
+  "response": "# Mosaic and NetSuite Integration\n\nYes, **Mosaic integrates with NetSuite**. Mosaic is a financial planning and analysis (FP&A) platform that connects to various ERP systems, including NetSuite, to:\n\n- **Pull financial data** from NetSuite into Mosaic for analysis and planning\n- **Enable consolidated reporting** across multiple entities\n- **Support forecasting and budgeting** based on actual NetSuite data\n- **Streamline data workflows** between systems\n\n## Integration Details\n\nThe integration typically allows you to:\n- Access real-time or near-real-time financial data\n- Automate data synchronization\n- Build plans and forecasts based on actual results\n\n## Recommendation\n\nFor the most current and specific details about:\n- Integration capabilities\n- Setup requirements\n- Data sync frequency\n- Supported data types\n\nI'd recommend checking:\n- **Mosaic's official documentation** or integration marketplace\n- **NetSuite's SuiteCloud Partner Ecosystem**\n- Contacting **Mosaic's sales or support team** directly\n\nIs there a specific aspect of the integration you're interested in learning more about?",
+  "cached_at": "2026-05-28T07:10:23Z",
+  "metadata": {}
+}

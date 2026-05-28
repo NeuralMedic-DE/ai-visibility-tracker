@@ -1,0 +1,9 @@
+{
+  "brand": "Customer.io",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Customer.io Stripe integration: how does it work?",
+  "response": "# Customer.io Stripe Integration Overview\n\n## How It Works\n\nCustomer.io connects to Stripe to sync customer and transaction data, enabling you to:\n\n### 1. **Automatic Data Sync**\n- Customer details flow from Stripe → Customer.io\n- Subscription and payment events trigger automations\n- No manual data entry required\n\n### 2. **Event Triggers**\nCommon events that activate workflows:\n\n- **Subscription events**: Created, updated, canceled, past due\n- **Payment events**: Successful charge, failed payment, refund\n- **Invoice events**: Invoice created, payment attempts\n- **Customer events**: New customer, metadata changes\n\n### 3. **Customer Attributes**\nAvailable in Customer.io from Stripe:\n\n- Subscription status & history\n- Lifetime value\n- Payment method information\n- Invoice data\n- Custom metadata\n\n## Setup Process\n\n1. **Connect your accounts**\n   - Go to Customer.io integrations → Stripe\n   - Authorize the connection (OAuth)\n\n2. **Choose what to sync**\n   - Select which events to track\n   - Define customer attributes to import\n\n3. **Build automations**\n   - Create campaigns triggered by payment events\n   - Example: Email when subscription renews or payment fails\n\n## Common Use Cases\n\n- **Dunning flows** → Automated recovery for failed payments\n- **Renewal reminders** → Notify before subscription renews\n- **Churn campaigns** → Win-back sequences when canceling\n- **Upsell workflows** → Target by subscription tier or spend\n- **Onboarding** → Trigger post-purchase sequences\n\n## Limitations\n\n- One-way sync (Stripe → Customer.io) by default\n- Limited to data Stripe exposes\n- Requires some manual configuration\n\nWould you like help setting this up or designing a specific workflow?",
+  "cached_at": "2026-05-28T07:15:05Z",
+  "metadata": {}
+}

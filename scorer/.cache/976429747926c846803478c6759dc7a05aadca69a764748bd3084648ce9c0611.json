@@ -1,0 +1,9 @@
+{
+  "brand": "ChurnZero",
+  "prompt_id": "AL-05",
+  "llm": "openai",
+  "prompt_text": "Open source or affordable customer success tools instead of Vitally",
+  "response": "If you're looking for open source or affordable alternatives to Vitally for customer success management, here are a few options you might consider:\n\n1. **Open Source Options:**\n   - **SuiteCRM**: An open-source CRM that can be customized to include customer success features. It offers a range of modules for managing customer relationships.\n   - **Odoo**: An open-source suite of business applications that includes CRM features. It can be tailored to support customer success initiatives.\n\n2. **Affordable SaaS Options:**\n   - **HubSpot CRM**: Offers a free tier with basic CRM functionalities and paid plans for more advanced features. It's widely used for managing customer relationships and success.\n   - **Zoho CRM**: Provides affordable pricing plans and includes features that can support customer success management.\n   - **Freshdesk**: Primarily a helpdesk solution, but it includes features for customer support and success, with affordable pricing tiers.\n   - **Intercom**: While not open source, it offers various pricing plans and is popular for customer engagement and support, which are key aspects of customer success.\n\n3. **Other Tools:**\n   - **Canny**: While focused on feedback management, it can be a useful tool for understanding customer needs and driving success through product improvements.\n   - **Trello or Asana**: Project management tools like these can be adapted to manage customer success initiatives, especially for smaller teams.\n\nWhen selecting a tool, consider the specific features you need, such as customer health scoring, onboarding management, or customer feedback collection, and evaluate whether the tool can integrate with your existing systems.",
+  "cached_at": "2026-05-28T08:06:47Z",
+  "metadata": {}
+}

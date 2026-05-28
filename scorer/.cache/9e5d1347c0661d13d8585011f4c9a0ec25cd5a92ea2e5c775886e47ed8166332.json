@@ -1,0 +1,9 @@
+{
+  "brand": "Zapier",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect apps and automate repetitive workflows without writing any code without spending a lot on software?",
+  "response": "# Free/Cheap No-Code Automation Options\n\n## Best Free Platforms\n\n**Zapier Free Tier**\n- Up to 100 tasks/month\n- Connects 1000+ apps\n- Good for basic automation\n\n**Make (formerly Integromat)**\n- 1,000 operations/month free\n- More visual, easier to learn\n- Good for complex workflows\n\n**IFTTT**\n- Totally free for personal use\n- Super simple (\"if this, then that\")\n- Best for straightforward triggers\n\n**Automzapier/n8n (Self-hosted)**\n- Free open-source option\n- Requires basic server knowledge but no coding\n- Unlimited automation potential\n\n## Budget-Friendly Alternatives\n\n- **Slack workflows** - Free built-in automation for Slack\n- **Google Sheets + Apps Script** - Free, surprisingly powerful\n- **Notion automations** - Free with Notion\n- **Microsoft Power Automate** - Free tier available\n\n## Smart Approach\n\n1. **Start free** - test your workflow with Zapier or Make free tiers\n2. **If you hit limits**, upgrade the cheapest plan (~$10-20/month) or switch platforms\n3. **Combine tools** - use each platform's strength (Zapier for simple connections, Make for complex logic)\n\n## Red Flags to Avoid\n- Paying before testing\n- Tools with no free trial\n- Overly complicated interfaces\n\n**What apps are you trying to connect?** That'll help narrow down the best fit.",
+  "cached_at": "2026-05-28T08:51:17Z",
+  "metadata": {}
+}

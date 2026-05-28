@@ -1,0 +1,9 @@
+{
+  "brand": "Chargebee",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to Recurly",
+  "response": "# Cheaper Alternatives to Recurly\n\n## Budget-Friendly Options\n\n### **Stripe Billing**\n- **Cost:** Varies by usage (2.9% + $0.30 per transaction)\n- **Pros:** Strong API, developer-friendly, transparent pricing\n- **Best for:** SaaS, subscriptions, flexible billing\n\n### **Chargebee**\n- **Cost:** Starts ~$99/month, scales with volume\n- **Pros:** Competitive pricing, good features for mid-market\n- **Best for:** Growing subscriptions\n\n### **Chargify**\n- **Cost:** Similar to Chargebee (~$99+/month)\n- **Pros:** Dedicated support, mature platform\n- **Best for:** Established subscription businesses\n\n## Ultra-Budget Options\n\n| Platform | Starting Price | Best For |\n|----------|---|---|\n| **Paddle** | Free (28% fee) | Digital products |\n| **SendOwl** | Free plan | Micro-businesses |\n| **FastSpring** | 8.9% + fees | Small SaaS |\n| **2Checkout** | ~$99/month | Flexible billing |\n\n## Open-Source (Self-Hosted)\n\n- **Medusa** - Free, headless commerce\n- **Chatwoot Billing** - Minimal cost alternative\n- **Kill Bill** - Complex, developer-intensive\n\n## Quick Comparison\n\nChoose based on:\n- **Transaction volume** (percentage vs. flat fees)\n- **Support needs** (self-service vs. managed)\n- **Integration requirements**\n- **International expansion** (payment methods)\n\nWhat's your primary use case? That would help narrow recommendations.",
+  "cached_at": "2026-05-28T06:50:38Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Pilot",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do venture-backed and bootstrapped startups needing clean financials companies use to get accurate books and financial statements managed by real accountants?",
+  "response": "# Tools for Startup Financial Management\n\n## Full-Service Accounting Platforms\n\n**QuickBooks Online** - Still the standard for startups\n- Real accountant access built in\n- Integrates with most banking/payment systems\n- Good for both bootstrapped and VC-backed companies\n\n**Xero** - Growing alternative\n- Strong international support\n- Better UI than QB for many users\n- Similar accountant collaboration features\n\n## Hybrid Models (Software + Accountant)\n\n**Bench** - Popular for bootstrapped startups\n- Software + human bookkeeper combo\n- Monthly fixed price (~$200-600)\n- Good for companies not yet needing a full-time CFO\n\n**Pilot** - Targets growth-stage startups\n- Dedicated accountants + software\n- More expensive but handles complexity\n- Better for VC-backed companies with multiple entities/cap tables\n\n**Bookkeeper Launch, Merlo, Heaton** - Similar hybrid models at different price points\n\n## For VC-Backed Specifically\n\n**Carta** - Cap table management + financial planning\n- Essential if you have complex equity structures\n- Integrates accounting data\n\n**Runway** - Financial modeling and forecasting\n- Works alongside traditional accounting\n- VC-focused feature set\n\n## The Reality Check\n\nMost startups end up with:\n1. **Accounting software** (QB/Xero) + a **part-time fractional CFO/bookkeeper** (often $1-3K/month)\n2. **Annual CPA** for tax returns and audit prep\n\nWhat's your current stage? That significantly changes which combo makes sense.",
+  "cached_at": "2026-05-28T07:02:42Z",
+  "metadata": {}
+}

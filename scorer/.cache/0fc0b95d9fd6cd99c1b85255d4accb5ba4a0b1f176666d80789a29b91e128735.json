@@ -1,0 +1,9 @@
+{
+  "brand": "ChurnZero",
+  "prompt_id": "IN-05",
+  "llm": "openai",
+  "prompt_text": "customer success tools with native Salesforce integration",
+  "response": "There are several customer success tools that offer native Salesforce integration, allowing for seamless data flow and enhanced functionality. Here are some popular ones:\n\n1. **Gainsight**: Gainsight is a leading customer success platform that integrates natively with Salesforce. It provides features like health scoring, customer journey mapping, and automated workflows.\n\n2. **Totango**: Totango offers a customer success platform that integrates with Salesforce to provide insights into customer engagement and health, enabling proactive management of customer relationships.\n\n3. **ChurnZero**: ChurnZero is designed to help SaaS companies reduce churn and increase customer success. It integrates with Salesforce to provide real-time customer data and insights.\n\n4. **ClientSuccess**: This tool focuses on managing customer relationships and improving retention. It integrates with Salesforce to provide a comprehensive view of customer interactions and success metrics.\n\n5. **Natero**: Natero combines customer success and product analytics, offering native Salesforce integration to help teams understand customer behavior and improve retention strategies.\n\n6. **Strikedeck**: Strikedeck provides a customer success automation platform that integrates with Salesforce, offering features like customer health scoring, playbooks, and automated workflows.\n\nThese tools can help you leverage Salesforce data to enhance customer success initiatives, improve customer retention, and drive growth.",
+  "cached_at": "2026-05-28T08:07:01Z",
+  "metadata": {}
+}

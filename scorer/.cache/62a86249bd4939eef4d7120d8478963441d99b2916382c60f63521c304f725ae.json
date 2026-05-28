@@ -1,0 +1,9 @@
+{
+  "brand": "Vellum",
+  "prompt_id": "UC-03",
+  "llm": "perplexity",
+  "prompt_text": "What tools do AI product teams building and iterating on LLM-powered product features companies use to test and compare prompts systematically across multiple LLM providers?",
+  "response": "AI product teams commonly use **prompt evaluation and experimentation platforms** to test prompts against multiple LLM providers, compare outputs, and track regressions systematically. The most explicitly mentioned tool in the results is **Promptfoo**, which is described as supporting prompt comparison across providers such as **OpenAI, Anthropic, Ollama**, and others, with testing focused on quality, speed, cost, and regression detection.[1][2]\n\nOther tools in this space include **Opik**, which is described as a more general LLM evaluation framework for testing across different tasks, and broader evaluation/monitoring platforms such as **DeepEval, RAGAS, Langfuse, Arize, Braintrust, Patronus, Rhesis, and Agenta**.[2][3][8]\n\nIn practice, teams usually look for tools that support:\n- **A/B testing prompts**\n- **Comparing models/providers**\n- **Automated evals with test cases or datasets**\n- **Regression detection over time**\n- **CI/CD or YAML-based workflows**\n- **Production monitoring and debugging**[2][3][4][8]\n\nIf you want the shortest answer: **Promptfoo is the clearest example of a tool used to systematically test and compare prompts across multiple LLM providers**, while **Opik, Langfuse, Braintrust, Arize, DeepEval, RAGAS, Patronus, and Agenta** are also used depending on whether the team wants prompt testing, observability, RAG evaluation, or production monitoring.[1][2][3][4][8]",
+  "cached_at": "2026-05-28T07:46:24Z",
+  "metadata": {}
+}

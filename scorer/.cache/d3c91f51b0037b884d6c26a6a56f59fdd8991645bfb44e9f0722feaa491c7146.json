@@ -1,0 +1,9 @@
+{
+  "brand": "Vanta",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with collect audit evidence and manage vendor risk from a single compliance dashboard at scale?",
+  "response": "A software solution that helps with collecting audit evidence and managing vendor risk from a single compliance dashboard at scale is **Vanta**. Vanta is designed to automate security monitoring, streamline compliance processes, and manage vendor risk efficiently. It provides a centralized platform for tracking compliance status, collecting necessary audit evidence, and ensuring that vendor risks are managed effectively. Other similar platforms include **LogicGate**, **OneTrust**, and **AuditBoard**, which also offer comprehensive compliance and risk management features.",
+  "cached_at": "2026-05-28T08:26:41Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Stonly",
+  "prompt_id": "IN-03",
+  "llm": "openai",
+  "prompt_text": "How do I connect Stonly with Intercom?",
+  "response": "To connect Stonly with Intercom, you can follow these general steps:\n\n1. **Log in to Stonly**: Start by logging into your Stonly account.\n\n2. **Access Integrations**: Navigate to the settings or integrations section within Stonly. This is usually found in the dashboard or account settings.\n\n3. **Select Intercom Integration**: Look for the Intercom integration option. Stonly provides a direct integration with Intercom, so it should be listed among the available integrations.\n\n4. **Authenticate with Intercom**: You will need to authenticate your Intercom account. This typically involves logging into your Intercom account through a pop-up window or providing an API key. Follow the prompts to allow Stonly to access your Intercom data.\n\n5. **Configure the Integration**: Once authenticated, you may have options to configure how Stonly interacts with Intercom. This could include setting up how guides are displayed within Intercom or how user data is shared between the two platforms.\n\n6. **Test the Integration**: After setting up the integration, test it to ensure that Stonly guides are appearing correctly within Intercom and that any data sharing is functioning as expected.\n\n7. **Save and Finalize**: Make sure to save any changes or settings you have configured.\n\nIf you encounter any issues during this process, consult the help documentation provided by Stonly or Intercom, or reach out to their support teams for assistance.",
+  "cached_at": "2026-05-28T08:22:05Z",
+  "metadata": {}
+}

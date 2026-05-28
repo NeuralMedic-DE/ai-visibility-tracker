@@ -1,0 +1,9 @@
+{
+  "brand": "Totango",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Totango integrate with Salesforce?",
+  "response": "Yes. **Totango has a native, bidirectional integration with Salesforce.**\n\n- Totango can **connect to Salesforce via an OAuth-based “Salesforce” connector**, allowing you to create integration jobs that import Salesforce data (accounts, users, opportunities, usage, etc.) into Totango on a schedule or one-time basis.[1][3]  \n- You can also **write data back from Totango into Salesforce in real time**, so Salesforce users see customer health and key success signals inside CRM.[2]  \n- Totango provides a **Salesforce app (via AppExchange)** that embeds Totango insights directly inside the Salesforce UI, letting licensed Totango users access Totango from a Salesforce tab.[6][8]  \n\nIf you tell me your use case (e.g., syncing accounts, showing health scores in Salesforce, or pushing tasks), I can outline the specific integration pieces you’d need.",
+  "cached_at": "2026-05-28T08:16:26Z",
+  "metadata": {}
+}

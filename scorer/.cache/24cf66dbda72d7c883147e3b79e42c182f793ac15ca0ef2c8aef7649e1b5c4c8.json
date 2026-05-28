@@ -1,0 +1,9 @@
+{
+  "brand": "FullStory",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect FullStory with Segment?",
+  "response": "# Connecting FullStory with Segment\n\nHere's how to set up the integration:\n\n## 1. **Get Your FullStory API Credentials**\n- Log in to FullStory\n- Go to **Settings > Integrations > API**\n- Generate an API key (you'll need this)\n\n## 2. **Add FullStory as a Destination in Segment**\n- Log into your Segment workspace\n- Go to **Catalog > Destinations**\n- Search for and select **FullStory**\n- Click **Add Destination**\n\n## 3. **Configure the Connection**\n- Select the source data you want to send (web, mobile, or server)\n- Add your FullStory API credentials\n- Configure any event/property mappings as needed\n- Save your settings\n\n## 4. **Enable and Test**\n- Toggle the destination to **Enabled**\n- Send test events through Segment\n- Verify they appear in FullStory\n\n## What Gets Sent\n- User identification data\n- Custom events and properties\n- Session information\n- Page views (depending on source)\n\n## Tips\n- Ensure your Segment source is properly configured first\n- Test with a development environment before going live\n- Check that user IDs match between platforms for consistency\n- Review Segment and FullStory documentation for any recent updates\n\n**Need help?** Both platforms have detailed docs—check Segment's integration guide or FullStory's API documentation if you run into issues.",
+  "cached_at": "2026-05-27T20:47:49Z",
+  "metadata": {}
+}

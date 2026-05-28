@@ -1,0 +1,9 @@
+{
+  "brand": "Salesflare",
+  "prompt_id": "AL-05",
+  "llm": "openai",
+  "prompt_text": "Open source or affordable CRM tools instead of HubSpot",
+  "response": "If you're looking for open source or more affordable CRM alternatives to HubSpot, there are several options you can consider:\n\n1. **Open Source CRMs:**\n   - **SuiteCRM**: A popular open source CRM that offers a wide range of features similar to those found in paid solutions. It's highly customizable and can be tailored to fit your specific business needs.\n   - **Odoo**: While Odoo is a full suite of business applications, it includes a robust CRM module. The Community version is open source and free to use, though you might need to pay for additional apps or support.\n   - **EspoCRM**: A lightweight and open source CRM that is easy to use and customize. It offers essential CRM functionalities and can be extended with additional features.\n\n2. **Affordable CRMs:**\n   - **Zoho CRM**: Offers a free version for up to 3 users with basic features. Paid plans are competitively priced and provide a wide range of functionalities.\n   - **Freshsales (by Freshworks)**: Known for its user-friendly interface and affordability. It offers a free plan with basic features and reasonably priced paid plans.\n   - **Agile CRM**: Provides a free plan for up to 10 users, which includes essential CRM features. Paid plans are affordable and offer more advanced capabilities.\n   - **Pipedrive**: While not open source, Pipedrive is known for its simplicity and effectiveness, with pricing that is often more affordable than HubSpot.\n\nThese options can provide you with the CRM functionalities you need without the higher costs associated with some of the more premium platforms like HubSpot.",
+  "cached_at": "2026-05-27T18:11:41Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Nudge Security",
+  "prompt_id": "AL-01",
+  "llm": "perplexity",
+  "prompt_text": "Alternatives to Zluri for IT and security teams at mid-market companies managing SaaS sprawl",
+  "response": "For **mid-market IT and security teams** dealing with **SaaS sprawl**, the strongest Zluri alternatives in the results are **Torii**, **BetterCloud**, **Lumos**, and **BalkanID**, with the best choice depending on whether you want *SaaS management*, *IT automation*, or *identity governance*.[1][3][6][8]\n\n- **Torii** is the closest direct alternative if your priority is **SaaS discovery, usage visibility, renewals, and cost control** for IT, Finance, Procurement, and Security teams.[1][2][3]\n- **BetterCloud** is a strong option if your team wants **SaaS management plus automation**; it is repeatedly listed among top Zluri alternatives for SaaS management.[3][8]\n- **Lumos** fits teams looking for **SaaS-focused access visibility and lightweight governance**, sitting between SaaS management and identity governance.[1]\n- **BalkanID** is better if the main need is **risk-based access reviews and compliance**, rather than SaaS spend optimization or procurement workflows.[1]\n- **ConductorOne** is worth considering when you want **identity governance for security and IT teams** rather than just app visibility.[6]\n\nA practical way to choose:\n\n| Need | Better fit |\n|---|---|\n| Discover shadow IT, manage licenses, reduce SaaS waste | **Torii**[1][2][3] |\n| Automate SaaS admin workflows | **BetterCloud**[3][8] |\n| Access visibility and lightweight governance | **Lumos**[1] |\n| Risk-based access reviews and audit support | **BalkanID**[1] |\n| Broader identity governance for IT/security | **ConductorOne**[6] |\n\nIf you want, I can narrow this to the **best 3 by use case** or create a **feature-by-feature comparison** against Zluri.",
+  "cached_at": "2026-05-28T08:39:21Z",
+  "metadata": {}
+}

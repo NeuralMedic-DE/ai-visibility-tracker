@@ -1,0 +1,9 @@
+{
+  "brand": "Leapsome",
+  "prompt_id": "IN-05",
+  "llm": "perplexity",
+  "prompt_text": "HR tools with native Slack integration",
+  "response": "If you want **HR tools with native Slack integration**, the strongest documented examples in the results are **BambooHR**, **Recognize**, **WorkTango**, **Lattice**, **Zenefits**, **Simple Poll**, and **Asanify**.[1][2][3]\n\nA quick comparison of the clearest HR-focused options mentioned:\n\n| Tool | Native Slack use case |\n|---|---|\n| **BambooHR** | Employee directory, Who’s Out, time-off balance lookups, time-off requests, manager approval notifications.[1][4][5] |\n| **Recognize** | Employee recognition, work anniversaries, rewards, and surveys/feedback in Slack.[2] |\n| **WorkTango** | Real-time employee feedback and pulse surveys, plus recognition.[2] |\n| **Lattice** | Performance reviews, goals, feedback, and surveys within Slack.[2] |\n| **Zenefits** | Time and attendance, benefits, and payroll management from Slack.[2] |\n| **Simple Poll** | Quick polls for feedback collection in Slack.[2] |\n| **Asanify** | HR workflows through Slack for different user types.[3] |\n\nIf your main need is **core HR admin tasks** like PTO requests and employee lookup, **BambooHR** is the best-supported native Slack integration in the results.[1][4][5] If you want **engagement features** such as recognition, surveys, or celebrations, tools like **Recognize** and **WorkTango** are better fits.[1][2]\n\nIf you want, I can also turn this into a **shortlist by use case**:\n- **PTO/time-off**\n- **Onboarding**\n- **Employee recognition**\n- **Pulse surveys**\n- **Performance management**\n- **Payroll/benefits**",
+  "cached_at": "2026-05-28T06:38:58Z",
+  "metadata": {}
+}

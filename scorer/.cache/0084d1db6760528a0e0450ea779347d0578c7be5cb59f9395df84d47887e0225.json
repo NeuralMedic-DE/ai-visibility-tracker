@@ -1,0 +1,9 @@
+{
+  "brand": "Humaans",
+  "prompt_id": "IN-04",
+  "llm": "anthropic",
+  "prompt_text": "Best HR that works with Slack and Google Workspace",
+  "response": "# Best HR Tools for Slack & Google Workspace\n\n## **Top Recommendations**\n\n### **1. Rippling** ⭐ Best Overall\n- **Why it works**: Native Slack & Google Workspace integration\n- **Key features**: HRIS, payroll, benefits, device management, onboarding\n- **Best for**: Mid to large companies wanting an all-in-one platform\n- **Cost**: Mid-to-premium pricing\n\n### **2. BambooHR**\n- **Why it works**: Deep Google Workspace integration, excellent Slack bot\n- **Key features**: Time tracking, performance management, applicant tracking\n- **Best for**: SMBs to mid-market, ease of use focused\n- **Cost**: Very affordable\n\n### **3. Guidepoint** (Workbabel)\n- **Why it works**: Built specifically for Slack/Google Workspace stacks\n- **Key features**: Onboarding, surveys, HR automation\n- **Best for**: Companies already invested in Google ecosystem\n- **Cost**: Competitive\n\n### **4. ADP Workforce Now**\n- **Why it works**: Enterprise HRIS with solid Slack integration\n- **Key features**: Full payroll, compliance, analytics\n- **Best for**: Large enterprises, compliance-heavy needs\n- **Cost**: Premium\n\n## **Quick Comparison**\n\n| Tool | Best For | Slack | Google Workspace | Price |\n|------|----------|-------|------------------|-------|\n| Rippling | All-in-one | ⭐⭐⭐ | ⭐⭐⭐ | $$$ |\n| BambooHR | SMB | ⭐⭐⭐ | ⭐⭐⭐ | $$ |\n| Guidepoint | Google-first | ⭐⭐⭐ | ⭐⭐⭐⭐ | $$ |\n\n**What's your company size?** That'll help narrow it down further.",
+  "cached_at": "2026-05-28T06:48:24Z",
+  "metadata": {}
+}

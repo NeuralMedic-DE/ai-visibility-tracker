@@ -1,0 +1,284 @@
+{
+  "run_date": "2026-05-28",
+  "total_brands": 25,
+  "active_llms": [
+    "openai",
+    "anthropic",
+    "perplexity"
+  ],
+  "elapsed_seconds": 14158.7,
+  "dry_run": false,
+  "total_cost_usd": 7.4937,
+  "cost_breakdown": {
+    "anthropic": {
+      "requests": 625,
+      "input_tokens": 13315,
+      "output_tokens": 313617,
+      "cost_usd": 4.7442
+    },
+    "openai": {
+      "requests": 562,
+      "input_tokens": 25117,
+      "output_tokens": 217742,
+      "cost_usd": 2.2402
+    },
+    "perplexity": {
+      "requests": 575,
+      "input_tokens": 10750,
+      "output_tokens": 498568,
+      "cost_usd": 0.5093
+    }
+  },
+  "brands": [
+    {
+      "brand": "Vercel",
+      "url": "vercel.com",
+      "avs": 54.8,
+      "avs_per_llm": {
+        "openai": 64.0,
+        "anthropic": 44.4,
+        "perplexity": 56.0
+      }
+    },
+    {
+      "brand": "Mixpanel",
+      "url": "mixpanel.com",
+      "avs": 46.0,
+      "avs_per_llm": {
+        "openai": 55.2,
+        "anthropic": 38.0,
+        "perplexity": 44.8
+      }
+    },
+    {
+      "brand": "Retool",
+      "url": "retool.com",
+      "avs": 46.0,
+      "avs_per_llm": {
+        "openai": 46.0,
+        "anthropic": 39.6,
+        "perplexity": 52.4
+      }
+    },
+    {
+      "brand": "Amplitude",
+      "url": "amplitude.com",
+      "avs": 45.3,
+      "avs_per_llm": {
+        "openai": 50.0,
+        "anthropic": 40.8,
+        "perplexity": 45.2
+      }
+    },
+    {
+      "brand": "Pipedrive",
+      "url": "pipedrive.com",
+      "avs": 44.5,
+      "avs_per_llm": {
+        "openai": 43.2,
+        "anthropic": 41.6,
+        "perplexity": 48.8
+      }
+    },
+    {
+      "brand": "Plausible",
+      "url": "plausible.io",
+      "avs": 43.1,
+      "avs_per_llm": {
+        "openai": 48.8,
+        "anthropic": 39.6,
+        "perplexity": 40.8
+      }
+    },
+    {
+      "brand": "Metabase",
+      "url": "metabase.com",
+      "avs": 39.9,
+      "avs_per_llm": {
+        "openai": 37.2,
+        "anthropic": 36.8,
+        "perplexity": 45.6
+      }
+    },
+    {
+      "brand": "Pendo",
+      "url": "pendo.io",
+      "avs": 39.1,
+      "avs_per_llm": {
+        "openai": 36.8,
+        "anthropic": 37.2,
+        "perplexity": 43.2
+      }
+    },
+    {
+      "brand": "Supermetrics",
+      "url": "supermetrics.com",
+      "avs": 36.9,
+      "avs_per_llm": {
+        "openai": 41.6,
+        "anthropic": 35.2,
+        "perplexity": 34.0
+      }
+    },
+    {
+      "brand": "Sentry",
+      "url": "sentry.io",
+      "avs": 36.3,
+      "avs_per_llm": {
+        "openai": 44.0,
+        "anthropic": 32.4,
+        "perplexity": 32.4
+      }
+    },
+    {
+      "brand": "PostHog",
+      "url": "posthog.com",
+      "avs": 35.6,
+      "avs_per_llm": {
+        "openai": 29.6,
+        "anthropic": 36.0,
+        "perplexity": 41.2
+      }
+    },
+    {
+      "brand": "FullStory",
+      "url": "fullstory.com",
+      "avs": 35.3,
+      "avs_per_llm": {
+        "openai": 38.0,
+        "anthropic": 34.4,
+        "perplexity": 33.6
+      }
+    },
+    {
+      "brand": "Copper",
+      "url": "copper.com",
+      "avs": 34.9,
+      "avs_per_llm": {
+        "openai": 39.2,
+        "anthropic": 24.4,
+        "perplexity": 41.2
+      }
+    },
+    {
+      "brand": "Apollo.io",
+      "url": "apollo.io",
+      "avs": 34.7,
+      "avs_per_llm": {
+        "openai": 27.6,
+        "anthropic": 40.4,
+        "perplexity": 36.0
+      }
+    },
+    {
+      "brand": "Linear",
+      "url": "linear.app",
+      "avs": 33.3,
+      "avs_per_llm": {
+        "openai": 23.6,
+        "anthropic": 36.0,
+        "perplexity": 40.4
+      }
+    },
+    {
+      "brand": "Render",
+      "url": "render.com",
+      "avs": 25.7,
+      "avs_per_llm": {
+        "openai": 20.0,
+        "anthropic": 34.4,
+        "perplexity": 22.8
+      }
+    },
+    {
+      "brand": "June.so",
+      "url": "june.so",
+      "avs": 20.4,
+      "avs_per_llm": {
+        "openai": 22.0,
+        "anthropic": 18.0,
+        "perplexity": 21.2
+      }
+    },
+    {
+      "brand": "Close",
+      "url": "close.com",
+      "avs": 20.0,
+      "avs_per_llm": {
+        "openai": 18.4,
+        "anthropic": 14.8,
+        "perplexity": 26.8
+      }
+    },
+    {
+      "brand": "Amplemarket",
+      "url": "amplemarket.com",
+      "avs": 19.7,
+      "avs_per_llm": {
+        "openai": 18.8,
+        "anthropic": 15.2,
+        "perplexity": 25.2
+      }
+    },
+    {
+      "brand": "Salesflare",
+      "url": "salesflare.com",
+      "avs": 19.5,
+      "avs_per_llm": {
+        "openai": 22.0,
+        "anthropic": 14.0,
+        "perplexity": 22.4
+      }
+    },
+    {
+      "brand": "LeadIQ",
+      "url": "leadiq.com",
+      "avs": 18.5,
+      "avs_per_llm": {
+        "openai": 21.2,
+        "anthropic": 12.0,
+        "perplexity": 22.4
+      }
+    },
+    {
+      "brand": "Klipfolio",
+      "url": "klipfolio.com",
+      "avs": 18.4,
+      "avs_per_llm": {
+        "openai": 17.6,
+        "anthropic": 13.2,
+        "perplexity": 24.4
+      }
+    },
+    {
+      "brand": "Nutshell",
+      "url": "nutshell.com",
+      "avs": 17.9,
+      "avs_per_llm": {
+        "openai": 16.8,
+        "anthropic": 15.6,
+        "perplexity": 21.2
+      }
+    },
+    {
+      "brand": "Attio",
+      "url": "attio.com",
+      "avs": 17.6,
+      "avs_per_llm": {
+        "openai": 14.8,
+        "anthropic": 15.6,
+        "perplexity": 22.4
+      }
+    },
+    {
+      "brand": "Folk",
+      "url": "folk.app",
+      "avs": 16.4,
+      "avs_per_llm": {
+        "openai": 16.4,
+        "anthropic": 14.4,
+        "perplexity": 18.4
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Front",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Front vs Zendesk: which is better?",
+  "response": "# Front vs Zendesk: Quick Comparison\n\n**Front** is better if you want:\n- Lightweight, intuitive interface\n- Strong email collaboration features\n- Faster implementation\n- Lower cost for small teams\n- Better for teams that live in email\n\n**Zendesk** is better if you need:\n- Full omnichannel support (chat, phone, social, etc.)\n- Advanced automation and workflows\n- Enterprise-grade scalability\n- Extensive app ecosystem\n- More sophisticated reporting\n\n## Key Differences\n\n| Factor | Front | Zendesk |\n|--------|-------|---------|\n| **Learning curve** | Easier | Steeper |\n| **Email focus** | Excellent | Secondary |\n| **Pricing** | Generally lower | Higher for enterprise |\n| **Channels** | 3-4 main ones | 6+ |\n| **Customization** | Moderate | Extensive |\n\n## Consider your needs:\n- **Small, email-heavy team** → Front\n- **Multi-channel support, complex workflows** → Zendesk\n- **Growing company needing flexibility** → Zendesk\n- **Simplicity + collaboration** → Front\n\nWhat's your main use case? That would help narrow it down further.",
+  "cached_at": "2026-05-28T08:16:56Z",
+  "metadata": {}
+}

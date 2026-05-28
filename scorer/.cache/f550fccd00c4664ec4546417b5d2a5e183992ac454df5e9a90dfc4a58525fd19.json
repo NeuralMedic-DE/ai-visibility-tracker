@@ -1,0 +1,9 @@
+{
+  "brand": "Help Scout",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I manage shared team email inboxes and live chat without a ticket-based system without spending a lot on software?",
+  "response": "# Low-Cost Shared Inbox Management\n\n## Free/Cheap Options\n\n**Gmail + Google Workspace basics**\n- Shared inboxes (~$6-12/user/month for the suite)\n- Labels and filters for routing\n- Simple but lacks formal ticketing\n\n**Spreadsheet-based tracking**\n- Google Sheets or Airtac as a lightweight ticket log\n- Manual but functional for small teams\n- Add Zapier ($20-30/mo) to auto-log emails\n\n**Slack + native integrations**\n- Forward emails to Slack channels\n- Use threads to organize conversations\n- Free tier has limits, but workable\n\n**Built-in chat options**\n- **Crisp Chat** or **Chatwoot** (open source, self-hosted free)\n- **Tawk.to** (free tier genuinely functional)\n- Basic but covers live chat without tickets\n\n## Practical Workflow\n\n1. **One shared email address** with clear internal naming convention (ticket #, customer name)\n2. **Simple rules**: auto-label by topic, assign to team members via filters\n3. **Shared document** tracking status (investigating → resolved)\n4. **Daily standup** or async status update in Slack\n\n## The honest limitation\n\nWithout *some* system, you'll hit problems around 5-8 simultaneous conversations. If you're there, even a $15-20/mo tool (Help Scout, HelpCrunch) pays for itself in lost confusion.\n\n**What's your team size and chat volume?** That'll help narrow realistic options.",
+  "cached_at": "2026-05-28T08:19:32Z",
+  "metadata": {}
+}

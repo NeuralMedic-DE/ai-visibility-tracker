@@ -1,0 +1,9 @@
+{
+  "brand": "Rho",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Rho integrate with NetSuite?",
+  "response": "Yes. **Rho has a native, built-in integration with NetSuite** that lets you sync Rho transactions and bills directly into NetSuite.\n\nKey points:\n\n- Rho offers a **custom-built NetSuite integration** that posts all Rho transaction and bill data—card spend, banking, and AP—directly into NetSuite for automated accounting.[2]  \n- You can **sync all transactions directly to your NetSuite general ledger**, eliminating most manual data entry.[1][3]  \n- The integration supports both **Single-Subsidiary and Multi-Subsidiary (OneWorld) NetSuite accounts**.[2]  \n- Rho imports NetSuite data like **chart of accounts, departments, locations, vendors, customers, and classifications**, and lets you set **mapping rules** so Rho transactions are coded to the right ledgers in NetSuite.[2]  \n- You can choose to **sync individual transactions or bulk sync** from Rho to NetSuite via the Accounting tab in Rho.[2]",
+  "cached_at": "2026-05-28T07:13:58Z",
+  "metadata": {}
+}

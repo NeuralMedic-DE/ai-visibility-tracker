@@ -1,0 +1,9 @@
+{
+  "brand": "RudderStack",
+  "prompt_id": "CD-01",
+  "llm": "openai",
+  "prompt_text": "What is the best customer data platform for data and engineering teams building warehouse-first customer data infrastructure?",
+  "response": "For data and engineering teams focusing on building a warehouse-first customer data infrastructure, **RudderStack** is often considered one of the best customer data platforms. RudderStack is designed to integrate seamlessly with modern data warehouses like Snowflake, BigQuery, and Redshift, allowing teams to centralize their customer data and perform complex analyses directly within their existing data infrastructure.\n\nRudderStack offers features such as:\n\n1. **Event Streaming**: It can collect and route event data from various sources to your data warehouse in real-time.\n2. **Warehouse-first Approach**: It emphasizes a warehouse-first architecture, meaning it treats your data warehouse as the primary source of truth, which is ideal for engineering teams.\n3. **Open Source**: RudderStack is open-source, providing flexibility and transparency for customization and integration.\n4. **Developer-friendly**: It provides robust APIs and SDKs that are easy for engineering teams to work with and integrate into their existing systems.\n\nOther platforms like **Segment** and **Fivetran** also offer strong capabilities for customer data management and integration with data warehouses, but RudderStack's warehouse-first approach and open-source nature make it particularly appealing for engineering-focused teams.",
+  "cached_at": "2026-05-28T09:07:40Z",
+  "metadata": {}
+}

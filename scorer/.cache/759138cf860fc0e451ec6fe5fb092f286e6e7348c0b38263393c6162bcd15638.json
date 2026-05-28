@@ -1,0 +1,9 @@
+{
+  "brand": "Klipfolio",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Klipfolio with Google Analytics?",
+  "response": "# Connecting Klipfolio to Google Analytics\n\nHere's the standard process:\n\n## Step-by-Step Setup\n\n1. **Log into Klipfolio** and go to your dashboard\n\n2. **Add a new data source**\n   - Click \"Connect Data\" or the \"+\" button\n   - Search for \"Google Analytics\"\n\n3. **Authorize the connection**\n   - Select \"Google Analytics\"\n   - Click \"Connect\" or \"Authorize\"\n   - You'll be redirected to Google's login page\n   - Sign in with your Google account\n   - Grant Klipfolio permission to access your Analytics data\n   - Accept and return to Klipfolio\n\n4. **Select your property**\n   - Choose the Google Analytics account\n   - Select the property/view you want to connect\n   - Click \"Create Connection\"\n\n5. **Add metrics to your dashboard**\n   - Create a new component or edit an existing one\n   - Select your Google Analytics data source\n   - Choose the metrics and dimensions you want to visualize\n\n## Troubleshooting Tips\n\n- **Verify permissions**: Make sure your Google account has access to the Analytics property\n- **Check API**: Google Analytics API must be enabled in your Google Cloud project\n- **Re-authenticate**: If connection fails, try disconnecting and reconnecting\n- **Use the right view**: Select the correct Analytics view for your data\n\nNeed help with a specific step or error message?",
+  "cached_at": "2026-05-27T20:28:50Z",
+  "metadata": {}
+}

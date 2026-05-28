@@ -1,0 +1,9 @@
+{
+  "brand": "Apollo.io",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "ZoomInfo vs alternatives: what should I switch to?",
+  "response": "# ZoomInfo Alternatives: Key Considerations\n\nBefore switching, consider what's driving your decision:\n\n## If cost is the main issue\n- **Hunter.io** or **RocketReach** – cheaper for basic email finding\n- **Apollo.io** – competitive pricing with decent data quality\n- **Clearbit** – more expensive but strong on company intel\n\n## If data quality concerns you\n- **Apollo.io** – solid verification rates, good UI\n- **Lusha** – strong international coverage\n- **Clay** – integrates multiple data sources, newer approach\n\n## If you need specific features\n- **LinkedIn Sales Navigator** – best for relationship mapping (but limited exports)\n- **Seamless.ai** – strong on intent signals, real-time verification\n- **6sense** or **Demandbase** – if you need account-based marketing data\n\n## If you're in tech/startups\n- **Pitchbook** or **Crunchbase** – better for that ecosystem\n- **AngelList** – for early-stage companies\n\n## Real talk\n- Most alternatives have similar data quality issues (all buy from overlapping sources)\n- Switching costs: data migration, team retraining, integration setup\n- Consider negotiating your ZoomInfo contract first – they often have flexibility\n\n**What's your main pain point?** (cost, data quality, missing features?) That'd help narrow down what actually makes sense for you.",
+  "cached_at": "2026-05-27T18:04:37Z",
+  "metadata": {}
+}

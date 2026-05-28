@@ -1,0 +1,9 @@
+{
+  "brand": "Intercom",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to Drift",
+  "response": "# Cheaper Alternatives to Drift\n\n## Live Chat & Messaging\n- **Intercom** - Similar features, often more affordable\n- **Zendesk Chat** - Basic plan starts lower\n- **Tidio** - Budget-friendly with AI chatbot\n- **Crisp** - Pay-as-you-go pricing\n- **LiveChat** - Competitive pricing for small teams\n- **Freshchat** - Lower entry cost, Freshworks ecosystem\n\n## AI Chatbot-First Options\n- **Chatbase** - Affordable AI chatbots\n- **Landbot** - No-code builder, cheaper plans\n- **ManyChat** - Great for multi-channel (SMS, WhatsApp)\n- **Voiceflow** - Design-focused, scalable pricing\n\n## Open Source/Self-Hosted\n- **Chatwoot** - Free, open-source alternative\n- **Botpress** - Self-hosted option available\n- **Rasa** - Developer-friendly, customizable\n\n## Browser-Based Chat Widgets\n- **Acquire** - Affordable live chat\n- **JivoChat** - Free and paid tiers\n- **Olark** - Simple pricing model\n\n## Best For Different Needs\n| Use Case | Pick |\n|----------|------|\n| **Startups** | Tidio, JivoChat |\n| **High volume** | Intercom, Zendesk |\n| **AI priority** | Chatbase, Botpress |\n| **Budget-conscious** | Chatwoot (free), Crisp |\n\n**Tip:** Most offer free trials—test 2-3 before committing.",
+  "cached_at": "2026-05-28T08:01:43Z",
+  "metadata": {}
+}

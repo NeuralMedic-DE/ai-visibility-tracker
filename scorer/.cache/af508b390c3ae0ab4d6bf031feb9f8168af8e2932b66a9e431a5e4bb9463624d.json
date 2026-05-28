@@ -1,0 +1,9 @@
+{
+  "brand": "Rho",
+  "prompt_id": "AL-01",
+  "llm": "openai",
+  "prompt_text": "Alternatives to Brex for finance teams at venture-backed startups managing spend and AP",
+  "response": "For venture-backed startups looking for alternatives to Brex for managing spend and accounts payable (AP), there are several options available. Here are a few popular ones:\n\n1. **Ramp**: Ramp offers corporate cards with spend management features and integrates with various accounting software. It provides real-time insights and automated expense reporting.\n\n2. **Divvy**: Divvy combines expense management software with corporate cards, allowing companies to set budgets, track spending, and automate expense reports.\n\n3. **Airbase**: Airbase provides a comprehensive spend management platform that includes corporate cards, bill payments, and expense reimbursements. It is designed to streamline AP processes and offers robust reporting features.\n\n4. **Teampay**: Teampay focuses on distributed spend management, providing a platform that integrates with existing financial systems to manage purchasing and expenses with real-time visibility and control.\n\n5. **Expensify**: While primarily known for expense reporting, Expensify also offers corporate cards and integrates with accounting systems to help manage spend.\n\n6. **Bill.com**: Bill.com specializes in automating accounts payable and receivable processes, making it easier to manage invoices and payments.\n\n7. **Coupa**: Coupa offers a comprehensive business spend management platform that includes procurement, invoicing, and expense management solutions.\n\nEach of these platforms has its own strengths and features, so it's important to evaluate them based on your specific needs, such as integration capabilities, ease of use, and pricing.",
+  "cached_at": "2026-05-28T07:12:24Z",
+  "metadata": {}
+}

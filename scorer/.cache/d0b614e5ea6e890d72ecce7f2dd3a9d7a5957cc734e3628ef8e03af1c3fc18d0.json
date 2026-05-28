@@ -1,0 +1,9 @@
+{
+  "brand": "Nutshell",
+  "prompt_id": "CD-04",
+  "llm": "anthropic",
+  "prompt_text": "Best CRM platforms for manage leads and track pipeline progress",
+  "response": "# Best CRM Platforms for Lead Management & Pipeline Tracking\n\n## **Top Overall Options**\n\n### **HubSpot CRM**\n- **Best for:** Startups and growing businesses\n- Free tier with robust features\n- Intuitive pipeline visualization\n- Strong automation and email integration\n- **Cost:** Free–$3,200+/month\n\n### **Salesforce**\n- **Best for:** Enterprise-level operations\n- Highly customizable and scalable\n- Advanced reporting and AI features\n- Steep learning curve\n- **Cost:** $165–$500+/month per user\n\n### **Pipedrive**\n- **Best for:** Sales-focused teams\n- Visual pipeline management (drag-and-drop)\n- Deal-focused workflow\n- Excellent mobile app\n- **Cost:** $14–$99/month\n\n## **Budget-Friendly Options**\n\n| Platform | Price | Strengths |\n|----------|-------|-----------|\n| **Monday.com** | $99–$599/month | Flexible, visual workflows |\n| **Zoho CRM** | Free–$55/month | Affordable, comprehensive |\n| **Freshsales** | $15–$115/month | User-friendly, good support |\n\n## **Key Features to Compare**\n\n✅ Pipeline visualization  \n✅ Lead scoring & qualification  \n✅ Automation workflows  \n✅ Integration ecosystem  \n✅ Mobile accessibility  \n✅ Reporting & analytics  \n✅ Customer support quality  \n\n## **Selection Tips**\n\n- **Small teams:** HubSpot Free or Pipedrive\n- **Growing sales:** Zoho CRM or Freshsales\n- **Enterprise:** Salesforce\n- **Budget priority:** Monday.com or Zoho\n\n**What's your team size and budget?** This would help narrow recommendations further.",
+  "cached_at": "2026-05-27T18:32:52Z",
+  "metadata": {}
+}

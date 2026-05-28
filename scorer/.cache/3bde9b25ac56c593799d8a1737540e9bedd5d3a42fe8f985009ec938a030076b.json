@@ -1,0 +1,9 @@
+{
+  "brand": "Maxio",
+  "prompt_id": "AL-03",
+  "llm": "anthropic",
+  "prompt_text": "Best billing alternatives for finance teams at B2B SaaS companies with complex pricing teams on a budget",
+  "response": "# Budget-Friendly Billing Solutions for Complex B2B SaaS\n\n## Top Alternatives by Use Case\n\n### **Best for Usage-Based Pricing**\n- **Stigg** - Purpose-built for complex pricing, free tier covers most mid-market needs\n- **Metronome** - Strong usage metering, competitive pricing\n- **Orb** - Usage-based specialist, good free trial\n\n### **Best for Cost Efficiency**\n- **Stripe Billing** - Most affordable baseline, mature feature set\n- **Chargify** - Mid-market sweet spot, transparent pricing\n- **Zuora** - Pricey but powerful; negotiate aggressively for budget constraints\n\n### **Best for Fast Implementation**\n- **Chargebee** - Shorter setup time, good documentation\n- **Recurly** - Solid alternative to Chargebee\n- **Paddle** - Lower operational overhead (handles compliance)\n\n---\n\n## Money-Saving Strategies\n\n| Approach | Impact | Notes |\n|----------|--------|-------|\n| **Custom Stripe integration** | Save 50-70% | Higher engineering cost, suits technical teams |\n| **Hybrid approach** | Save 30-40% | Stripe + Stigg (usage metering only) |\n| **Negotiate annual contracts** | Save 15-25% | Most vendors offer discounts |\n| **Delay until $2M+ ARR** | Save 100% | DIY works until complexity is unavoidable |\n\n---\n\n## Red Flags to Avoid\n\n- ❌ Per-API-call pricing (scales unpredictably)\n- ❌ Mandatory implementation services\n- ❌ Long-term contracts with small companies\n- ❌ Hidden reconciliation/reporting fees\n\n**What's your current ARR and pricing model?** That dramatically changes the recommendation.",
+  "cached_at": "2026-05-28T06:52:54Z",
+  "metadata": {}
+}

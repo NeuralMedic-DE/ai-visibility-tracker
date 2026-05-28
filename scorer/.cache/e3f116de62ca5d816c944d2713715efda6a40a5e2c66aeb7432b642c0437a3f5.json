@@ -1,0 +1,9 @@
+{
+  "brand": "Weights & Biases",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I track ML experiments and compare model performance across training runs without spending a lot on software?",
+  "response": "# Budget-Friendly ML Experiment Tracking\n\n## Free/Self-Hosted Options\n\n**MLflow** (most popular)\n- Free, open-source, minimal setup\n- Logs parameters, metrics, artifacts, models\n- Web UI for comparison across runs\n- Works locally or self-hosted\n- Integrates with most frameworks\n\n```python\nimport mlflow\n\nmlflow.set_experiment(\"my_project\")\nwith mlflow.start_run():\n    mlflow.log_param(\"lr\", 0.001)\n    mlflow.log_metric(\"accuracy\", 0.95)\n    mlflow.log_model(model, \"model\")\n```\n\n**Weights & Biases (W&B)**\n- Free tier includes most features you need\n- Excellent UI, good for collaboration\n- Generous free limits (~100GB storage)\n- Limitations: team features, report hosting\n\n**Neptune**\n- Similar to W&B, free tier available\n- Good for individual projects\n\n## Lightweight Alternatives\n\n**Simple CSV/JSON logging**\n- Just write results to a file\n- Load and compare with pandas\n- Good for quick projects, but doesn't scale\n\n**Git + DVC** (Data Version Control)\n- Track code + data + metrics together\n- Free if using GitHub\n- Steeper learning curve\n\n## My Recommendation\n\nStart with **MLflow** if you want:\n- Zero cost at scale\n- Full control\n- Self-hosting option\n\nUse **W&B free tier** if you want:\n- Polished UI\n- Easier setup\n- Don't mind some limitations\n\nWhat's your setup—are you running experiments locally or on cloud infrastructure?",
+  "cached_at": "2026-05-28T07:37:44Z",
+  "metadata": {}
+}

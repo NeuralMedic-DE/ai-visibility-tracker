@@ -1,0 +1,9 @@
+{
+  "brand": "Workato",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do enterprise operations and IT teams at mid-to-large companies companies use to automate complex enterprise workflows connecting 1000 plus business applications?",
+  "response": "# Enterprise Workflow Automation Tools\n\nEnterprise IT teams typically use a combination of platforms, organized by approach:\n\n## **Integration Platform-as-a-Service (iPaaS)**\n- **MuleSoft** (Salesforce) - market leader for complex integrations\n- **Dell Boomi** - strong for multi-cloud scenarios\n- **Workato** - growing, good for both IT and business users\n- **Celigo** - focused on NetSuite and Salesforce\n- **Informatica** - strong in data integration\n\n## **Enterprise Automation Platforms**\n- **UiPath** - RPA leader with workflow orchestration\n- **Automation Anywhere** - comprehensive automation suite\n- **Blue Prism** - traditional RPA\n- **ServiceNow** - workflow automation + ITSM integration\n\n## **Low-Code/No-Code Platforms**\n- **Microsoft Power Automate** - tight Office 365 integration\n- **Zapier/Make.com** - lighter-weight but limited for enterprise scale\n- **Appian** - low-code development platform\n\n## **Traditional Enterprise Middleware**\n- **TIBCO** - established but legacy-heavy\n- **IBM Integration Bus** - mature but declining adoption\n- **Apache/open-source** (Camel, Kafka) - for custom builds\n\n## **Key Selection Factors**\n- **API coverage** (pre-built connectors for your app stack)\n- **Scalability** (volume, latency requirements)\n- **Hybrid/multi-cloud support**\n- **Governance and compliance** controls\n- **Support for different patterns** (APIs, batch, real-time, RPA)\n\nMost large enterprises use **3-5 complementary tools** rather than a single platform. What specific workflow patterns are you trying to address?",
+  "cached_at": "2026-05-28T09:13:37Z",
+  "metadata": {}
+}

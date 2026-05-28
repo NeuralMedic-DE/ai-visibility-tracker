@@ -1,0 +1,9 @@
+{
+  "brand": "Langfuse",
+  "prompt_id": "CM-05",
+  "llm": "openai",
+  "prompt_text": "Is Langfuse better than Helicone for run automated evaluations on LLM outputs to measure and improve quality over time?",
+  "response": "Both Langfuse and Helicone are tools designed to help with monitoring and evaluating the performance of language models, but they have different focuses and features. \n\n**Langfuse** is primarily focused on providing a platform for logging, monitoring, and evaluating LLM outputs. It offers features for tracking model performance over time, analyzing outputs, and running automated evaluations. If your primary goal is to conduct detailed evaluations and improve model quality through comprehensive analysis, Langfuse might be more suited to your needs.\n\n**Helicone**, on the other hand, is more focused on providing observability and analytics for LLMs. It helps you understand how your models are being used and can provide insights into performance metrics and usage patterns. While it does offer some evaluation capabilities, its strengths lie in monitoring and analytics rather than in-depth automated evaluations.\n\nIf your primary objective is to run automated evaluations to measure and improve the quality of LLM outputs over time, Langfuse might be the better choice due to its focus on evaluation and improvement. However, if you also need strong observability and usage analytics, you might consider using Helicone in conjunction with other tools or exploring its capabilities further to see if it meets your needs.",
+  "cached_at": "2026-05-28T07:56:13Z",
+  "metadata": {}
+}

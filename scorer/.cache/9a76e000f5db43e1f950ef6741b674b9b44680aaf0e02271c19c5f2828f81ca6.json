@@ -1,0 +1,9 @@
+{
+  "brand": "Numeric",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I streamline month-end close with automated checklists and reconciliations without spending a lot on software?",
+  "response": "# Low-Cost Month-End Close Automation\n\n## Free/Cheap Foundations\n\n**Spreadsheet-based systems** (Excel/Google Sheets)\n- Build dynamic checklists with conditional formatting (red/green status)\n- Create reconciliation templates with built-in formulas\n- Use data validation dropdowns for consistent inputs\n- Link sheets to auto-pull closing data\n\n**Free tools to layer in:**\n- **Google Forms** → auto-populate reconciliation templates\n- **IFTTT/Zapier free tier** → trigger reminders, log completions\n- **Slack webhooks** → send status updates without leaving chat\n\n## Quick Wins (Minimal Setup)\n\n1. **Standardize the checklist**\n   - List every task in dependency order\n   - Assign owners and deadlines\n   - Build one template, reuse monthly\n\n2. **Automate data pulls**\n   - Bank feeds (most banks offer free APIs or CSV exports)\n   - Accounting software often has free tiers (Wave, ZipBooks) with export options\n   - Set up recurring exports to feed reconciliation sheets\n\n3. **Simple alerts**\n   - Conditional formatting flags incomplete items\n   - Calendar reminders for bottleneck tasks\n   - Owner initials + dates create accountability\n\n## What Actually Requires Money\n\n- True ERP integration or mid-market accounting software ($100-500/mo)\n- Custom API development\n- Staff time to build first version\n\n**Start with a spreadsheet for 2-3 months** to identify your actual pain points—you might find 80% of the value in $0 of software.\n\nWhat's your current bottleneck—data gathering, reconciliations, or coordination?",
+  "cached_at": "2026-05-28T07:05:07Z",
+  "metadata": {}
+}

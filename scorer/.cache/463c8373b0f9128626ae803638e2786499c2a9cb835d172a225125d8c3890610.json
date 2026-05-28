@@ -1,0 +1,9 @@
+{
+  "brand": "Close",
+  "prompt_id": "CM-03",
+  "llm": "anthropic",
+  "prompt_text": "Close vs Pipedrive for early-stage startups",
+  "response": "# Close vs Pipedrive: Early-Stage Comparison\n\n## **Close**\n**Best if you want:** Simplicity + phone/email built-in\n\n| Pros | Cons |\n|------|------|\n| Built-in calling & SMS (no extra tools) | Higher learning curve initially |\n| Better for inside sales teams | Less affordable at scale |\n| Strong automation workflows | Smaller marketplace/integrations |\n| Transparent, simple pricing | Fewer reporting options |\n\n**Pricing:** ~$29-99/user/month  \n**Sweet spot:** Teams doing high-volume outreach (10-20 person sales teams)\n\n---\n\n## **Pipedrive**\n**Best if you want:** Visual simplicity + flexibility\n\n| Pros | Cons |\n|------|------|\n| Intuitive kanban board (easiest to adopt) | Calling/SMS costs extra |\n| Great free plan for 1-2 people | Requires more integrations |\n| Excellent value at scale | Mobile app less feature-rich |\n| Strong marketplace of apps | Can get complex quickly |\n\n**Pricing:** Free ($0), then ~$14-99/user/month  \n**Sweet spot:** 1-5 person teams or those wanting visual pipeline management\n\n---\n\n## **Quick Decision Matrix**\n\n| Factor | Winner |\n|--------|--------|\n| Fastest to implement | Pipedrive |\n| Best free plan | Pipedrive |\n| Inside sales focus | Close |\n| Budget-conscious | Pipedrive |\n| Phone-heavy process | Close |\n| Mobile-first team | Close |\n\n**My take for early-stage:** Start with **Pipedrive's free plan**. It's impossible to mess up and you'll know in 2 weeks if you need it.\n\nWhat's your primary sales motion (outbound calls, email sequences, meetings)?",
+  "cached_at": "2026-05-27T17:50:18Z",
+  "metadata": {}
+}

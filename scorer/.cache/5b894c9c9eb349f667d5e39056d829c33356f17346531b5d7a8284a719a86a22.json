@@ -1,0 +1,9 @@
+{
+  "brand": "Pilot",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Pilot vs Bench: which is better?",
+  "response": "# It depends on your context:\n\n## **Pilot** is better for:\n- **Testing before full rollout** – validate an idea with real users/data first\n- **Risk management** – catch problems on a smaller scale\n- **Learning** – gather feedback to refine before scaling\n- **Limited resources** – cheaper to run initially\n\n## **Bench** (testing environment) is better for:\n- **Speed** – faster iteration without production concerns\n- **Safety** – experiment without affecting real users\n- **Cost control** – no real-world consequences\n- **Controlled conditions** – isolate variables systematically\n\n## **The real answer:**\nMost teams use **both in sequence**:\n1. **Bench** → develop and test thoroughly\n2. **Pilot** → validate in real conditions with actual users\n3. **Full rollout** → implement based on pilot results\n\nWhat's your specific scenario? (Product launch, software feature, process change, etc.) That would help me give a more targeted recommendation.",
+  "cached_at": "2026-05-28T07:02:23Z",
+  "metadata": {}
+}

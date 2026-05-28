@@ -1,0 +1,9 @@
+{
+  "brand": "June.so",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to PostHog",
+  "response": "# Cheaper Alternatives to PostHog\n\n## **Free/Open-Source Options**\n\n| Tool | Best For | Cost |\n|------|----------|------|\n| **Plausible Analytics** | Privacy-focused web analytics | $9-20/month |\n| **Fathom Analytics** | Simple site analytics | $14-74/month |\n| **Matomo (Self-hosted)** | Full control over data | Free (self-hosted) |\n| **Open Web Analytics** | Lightweight self-hosted | Free |\n| **Mixpanel (Free tier)** | Event tracking | Free up to 1K users |\n\n## **Budget-Friendly Paid Tools**\n\n| Tool | Key Features | Starting Price |\n|------|--------------|-----------------|\n| **Amplitude** | Product analytics | Free tier available |\n| **LogRocket** | Session replay + analytics | $99+/month |\n| **Heap Analytics** | Auto-capture events | $99+/month |\n| **Segment** | Data routing | Free tier available |\n| **Simple Analytics** | Privacy-first | $19+/month |\n\n## **Self-Hosted Alternatives**\n\n- **Umami** - Lightweight, GDPR-compliant\n- **GoAccess** - Real-time log analysis\n- **Piwik PRO** - Enterprise Matomo alternative\n- **Tracker.js** - Minimal JavaScript analytics\n\n## **When to Consider Each**\n\n- **Budget-conscious startups**: Plausible, Fathom, or Umami\n- **Need event tracking**: Mixpanel free tier, Amplitude\n- **Privacy-critical**: Plausible, Simple Analytics\n- **Full control needed**: Matomo self-hosted, Umami\n\n**Tip**: Many tools offer free tiers—test before committing. PostHog's main advantage is its all-in-one approach, so consider whether you truly need all its features.",
+  "cached_at": "2026-05-27T19:57:43Z",
+  "metadata": {}
+}

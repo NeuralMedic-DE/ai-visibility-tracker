@@ -1,0 +1,9 @@
+{
+  "brand": "Instantly",
+  "prompt_id": "IN-05",
+  "llm": "perplexity",
+  "prompt_text": "sales engagement tools with native HubSpot integration",
+  "response": "If you want **sales engagement tools with native HubSpot integration**, the most commonly cited options in the HubSpot ecosystem include **Outreach, Apollo, Kixie, GetAccept, Vidyard, Aircall, Ring.io, and SMSFactor**.[2][4][5][6]\n\nA few examples of what these integrations do:\n\n- **Outreach**: synchronizes sequences, prospects, calls, and email activity with HubSpot.[5]\n- **Apollo**: offers data enrichment, sequence sync, and engagement tracking in HubSpot.[5]\n- **Kixie**: natively integrates with HubSpot and can add automated calls and texts to workflows.[1]\n- **GetAccept**: provides sales engagement and e-signature features inside HubSpot, via a Chrome extension.[6]\n- **Vidyard**: syncs video engagement into HubSpot so reps can track views and use that data for follow-up.[2][3]\n- **Aircall**: brings a cloud phone system into HubSpot and syncs call activity.[6]\n- **Ring.io** and **SMSFactor**: are listed in HubSpot’s sales engagement app marketplace.[2]\n\nIf you want the shortest practical shortlist, I’d start with:\n\n- **Outreach** for sequence-heavy outbound teams.[5]\n- **Apollo** for teams that want engagement plus enrichment in one tool.[5]\n- **Kixie** for calling/texting automation inside HubSpot workflows.[1]\n- **GetAccept** for sales engagement combined with document workflow and e-signature.[6]\n- **Vidyard** for video-based outreach and engagement tracking.[2][3]\n\nHubSpot’s App Marketplace confirms there are many native sales engagement apps available, including products built to automatically enroll contacts into sequences and sync outreach activity back into HubSpot.[2]\n\nIf you want, I can turn this into a **comparison table** by use case, price tier, or outbound vs. inbound sales motion.",
+  "cached_at": "2026-05-28T07:20:52Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Plausible",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to Mixpanel",
+  "response": "# Cheaper Alternatives to Mixpanel\n\n## **Free & Freemium Options**\n\n| Tool | Best For | Free Tier |\n|------|----------|-----------|\n| **Plausible Analytics** | Privacy-focused web analytics | Limited free version |\n| **Fathom Analytics** | Simple website tracking | 100 pageviews/month free |\n| **Open Web Analytics** | Self-hosted, open-source | Completely free |\n| **Matomo** | Privacy-friendly, self-hosted | Free community edition |\n| **Simple Analytics** | GDPR-compliant tracking | Free tier available |\n\n## **Budget-Friendly Paid Options**\n\n| Tool | Starting Price | Ideal For |\n|------|----------------|-----------|\n| **Amplitude** | Free tier → ~$995/mo | Product analytics, mobile apps |\n| **Segment** | Free tier → ~$120/mo | Data collection & routing |\n| **Heap** | $399/mo+ | Automatic event capture |\n| **PostHog** | Free/self-hosted → $450+/mo | Open-source, product analytics |\n| **Hotjar** | $39/mo | Session replay + heatmaps |\n| **Metabase** | Free/self-hosted → ~$300/mo | Analytics dashboards |\n\n## **Open-Source (DIY)**\n\n- **PostHog** - Most feature-complete\n- **Plausible** - Lightweight analytics\n- **Umami** - Simple, privacy-focused\n- **Countly** - Mobile & web tracking\n\n## **Quick Recommendation**\n\n- **Tight budget?** → Matomo (self-hosted) or PostHog\n- **Product focused?** → Amplitude's free tier\n- **Privacy concern?** → Plausible or Simple Analytics\n- **Just starting?** → Fathom or Hotjar\n\nWhat's your main use case? That'll help narrow it down further.",
+  "cached_at": "2026-05-27T20:17:58Z",
+  "metadata": {}
+}

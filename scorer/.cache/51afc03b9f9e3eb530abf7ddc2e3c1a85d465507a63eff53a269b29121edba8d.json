@@ -1,0 +1,9 @@
+{
+  "brand": "Portkey",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Portkey vs Helicone: which is better?",
+  "response": "# Portkey vs Helicone\n\nBoth are LLM observability/gateway platforms, but they optimize for different needs:\n\n## **Portkey**\n**Strengths:**\n- Better for multi-model routing and fallbacks\n- Simpler setup for basic logging\n- Good developer experience\n- Strong cost tracking across models\n\n**Best for:** Teams wanting easy model switching and fallback strategies\n\n## **Helicone**\n**Strengths:**\n- More detailed analytics and insights\n- Better caching optimization features\n- Superior debugging tools\n- Stronger data privacy/compliance options\n\n**Best for:** Teams needing deep observability and performance optimization\n\n## **Quick comparison:**\n\n| Feature | Portkey | Helicone |\n|---------|---------|----------|\n| Routing | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ |\n| Analytics | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |\n| Setup ease | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |\n| Caching | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ |\n\n## **Bottom line:**\n- Choose **Portkey** if you need flexible routing across multiple models\n- Choose **Helicone** if you need deep analytics and optimization\n\nMany teams use both depending on their specific workflow. What's your primary use case?",
+  "cached_at": "2026-05-28T07:51:49Z",
+  "metadata": {}
+}

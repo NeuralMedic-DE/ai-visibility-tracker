@@ -1,0 +1,9 @@
+{
+  "brand": "Zapier",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with build multi-step automations that run on triggers from any app in your stack at scale?",
+  "response": "Zapier is a popular software that helps with building multi-step automations that run on triggers from any app in your stack at scale. It allows you to connect different applications and automate workflows without needing to write code. Other similar tools include Integromat (now Make), Microsoft Power Automate, and Tray.io, which also offer robust automation capabilities and can handle complex workflows across various applications.",
+  "cached_at": "2026-05-28T08:51:18Z",
+  "metadata": {}
+}

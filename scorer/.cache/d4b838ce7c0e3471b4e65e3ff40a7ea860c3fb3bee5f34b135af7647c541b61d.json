@@ -1,0 +1,9 @@
+{
+  "brand": "Baremetrics",
+  "prompt_id": "CD-04",
+  "llm": "openai",
+  "prompt_text": "Best SaaS analytics platforms for track subscription metrics and MRR from Stripe in real time",
+  "response": "To track subscription metrics and Monthly Recurring Revenue (MRR) from Stripe in real-time, several SaaS analytics platforms can be highly effective. Here are some of the best options:\n\n1. **Baremetrics**: Known for its ease of use and comprehensive dashboard, Baremetrics provides real-time insights into MRR, churn, customer lifetime value, and other key metrics. It integrates seamlessly with Stripe.\n\n2. **ChartMogul**: This platform offers robust analytics for subscription businesses, including MRR, churn, and cohort analysis. It also integrates well with Stripe and provides real-time data.\n\n3. **ProfitWell**: ProfitWell offers free and premium analytics tools that focus on subscription metrics. It provides real-time insights into MRR, churn, and other critical KPIs, with a strong integration with Stripe.\n\n4. **Metorik**: While primarily known for WooCommerce analytics, Metorik also supports Stripe and offers detailed subscription metrics, including MRR, customer segmentation, and more.\n\n5. **KPI Sense**: This platform is designed for SaaS businesses and provides detailed financial and subscription analytics. It integrates with Stripe to offer real-time insights into MRR and other key metrics.\n\n6. **SaaSOptics**: SaaSOptics is a financial operations platform that provides detailed subscription analytics, including MRR, ARR, and churn. It integrates with Stripe and offers real-time data.\n\nEach of these platforms has unique features and pricing models, so it's worth exploring them to see which best fits your specific needs and budget.",
+  "cached_at": "2026-05-28T06:57:19Z",
+  "metadata": {}
+}

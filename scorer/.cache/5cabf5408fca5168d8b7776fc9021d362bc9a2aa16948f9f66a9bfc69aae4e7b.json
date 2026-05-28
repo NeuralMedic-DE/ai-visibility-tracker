@@ -1,0 +1,9 @@
+{
+  "brand": "Workable",
+  "prompt_id": "CM-02",
+  "llm": "anthropic",
+  "prompt_text": "Workable vs Greenhouse pricing and features",
+  "response": "# Workable vs Greenhouse: Pricing & Features Comparison\n\n## **Pricing**\n\n| Aspect | Workable | Greenhouse |\n|--------|----------|-----------|\n| **Model** | Per-seat + usage-based | Custom enterprise pricing |\n| **Starting Price** | ~$99-299/month | Contact for quote |\n| **Scalability** | Scales affordably for SMBs | Better for large enterprises |\n\n---\n\n## **Core Features**\n\n### **Workable**\n✅ **Strengths:**\n- Intuitive, easy-to-use interface\n- Strong job posting distribution\n- Good resume parsing & screening\n- Affordable for small-mid teams\n- Mobile-friendly\n- Built-in collaboration tools\n\n❌ **Gaps:**\n- Limited advanced analytics\n- Less customizable workflow\n- Fewer integrations vs Greenhouse\n\n### **Greenhouse**\n✅ **Strengths:**\n- Powerful analytics & reporting\n- Highly customizable hiring workflows\n- Extensive third-party integrations\n- Advanced candidate scorecards\n- Structured interview guides\n- Superior data insights\n\n❌ **Gaps:**\n- Steep learning curve\n- Expensive for small companies\n- Overkill for basic hiring needs\n\n---\n\n## **Best For**\n\n| **Choose Workable If...** | **Choose Greenhouse If...** |\n|---------------------------|---------------------------|\n| Growing SMB (50-500 employees) | Enterprise (500+ employees) |\n| Need budget-friendly option | Need advanced analytics |\n| Want ease-of-use | Want deep customization |\n| Hiring <100 positions/year | High-volume, complex hiring |\n\n---\n\n## **Bottom Line**\n\n**Workable** = Better value for small-medium businesses\n**Greenhouse** = Better for large companies needing sophisticated hiring intelligence\n\nWould you like details on specific features or integration options?",
+  "cached_at": "2026-05-28T06:45:55Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Charlie HR",
+  "prompt_id": "IN-03",
+  "llm": "openai",
+  "prompt_text": "How do I connect Charlie HR with Slack?",
+  "response": "To connect CharlieHR with Slack, you typically need to follow these steps:\n\n1. **Log in to CharlieHR**: Start by logging into your CharlieHR account.\n\n2. **Access Integrations**: Navigate to the settings or integrations section of CharlieHR. This is usually found in the main menu or under your account settings.\n\n3. **Find Slack Integration**: Look for the Slack integration option. This might be listed under available integrations or apps.\n\n4. **Authorize the Connection**: Click on the Slack integration option, and you will be prompted to authorize the connection between CharlieHR and Slack. You may need to log into your Slack account if you aren't already logged in.\n\n5. **Grant Permissions**: Follow the prompts to grant CharlieHR the necessary permissions to access your Slack workspace. This typically includes permissions to post messages, access channels, and view user information.\n\n6. **Configure Settings**: Once authorized, you may have options to configure how CharlieHR interacts with Slack. This could include selecting which channels to post updates in or setting up notifications for specific events.\n\n7. **Test the Integration**: After setting up, it's a good idea to test the integration to ensure everything is working as expected. You can do this by triggering an event in CharlieHR that should send a notification to Slack.\n\nIf you encounter any issues, check the help or support section of CharlieHR for more detailed instructions or troubleshooting tips. Additionally, ensure you have the necessary permissions in both CharlieHR and Slack to set up integrations.",
+  "cached_at": "2026-05-28T06:43:56Z",
+  "metadata": {}
+}

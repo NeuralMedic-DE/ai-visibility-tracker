@@ -1,0 +1,9 @@
+{
+  "brand": "Raycast",
+  "prompt_id": "AL-04",
+  "llm": "openai",
+  "prompt_text": "Alfred vs alternatives: what should I switch to?",
+  "response": "Alfred is a popular productivity application for macOS that provides features like app launching, clipboard history, file searching, and automation through workflows. If you're considering switching from Alfred, there are several alternatives you might explore, each with its own strengths:\n\n1. **Spotlight**: Built into macOS, Spotlight is a powerful search tool that can find files, launch applications, and perform quick calculations. It's not as feature-rich as Alfred but is a solid option for basic needs.\n\n2. **Raycast**: Raycast is a newer alternative that offers a clean interface and a growing library of extensions. It focuses on speed and simplicity, with features like app launching, script execution, and integrations with other tools.\n\n3. **LaunchBar**: Similar to Alfred, LaunchBar offers a wide range of features including file searching, clipboard management, and automation. It has a steeper learning curve but is highly customizable.\n\n4. **Butler**: Butler is another macOS productivity tool that can launch applications, manage bookmarks, and automate tasks. It’s quite versatile, though its interface is less modern than some alternatives.\n\n5. **Quicksilver**: An older but still capable tool, Quicksilver is open-source and offers a variety of plugins for extending its functionality. It’s a bit less polished than Alfred but still effective for many users.\n\nWhen deciding which tool to switch to, consider what features you use most in Alfred and whether the alternative supports those needs. Also, think about the user interface and ease of use, as these can significantly impact your productivity.",
+  "cached_at": "2026-05-28T06:25:17Z",
+  "metadata": {}
+}

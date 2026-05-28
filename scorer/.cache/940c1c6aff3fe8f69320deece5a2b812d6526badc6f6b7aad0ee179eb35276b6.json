@@ -1,0 +1,9 @@
+{
+  "brand": "Teamtailor",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with automate candidate communication throughout the entire hiring process at scale?",
+  "response": "# Software for Automated Candidate Communication\n\nHere are the leading solutions:\n\n## **Applicant Tracking Systems (ATS) with Built-in Automation**\n- **Greenhouse** - Strong automation workflows, interview scheduling\n- **Workday** - Enterprise-level with extensive communication features\n- **Lever** - Candidate-focused communication tools\n- **iCIMS** - Comprehensive automation across hiring stages\n\n## **Dedicated Recruitment Automation Platforms**\n- **Bullhorn** - Staffing-focused communication automation\n- **JazzHR** - SMB-friendly with email workflows\n- **SmartRecruiters** - Multi-channel communication capabilities\n\n## **Communication-First Tools**\n- **HireEZ** (formerly HireSweet) - Outreach and engagement\n- **Paradox** - AI chatbot for candidate interactions\n- **Fetcher** - Automated sourcing + communication\n\n## **Key Features to Look For**\n✓ Email workflows & templates  \n✓ SMS notifications  \n✓ Interview scheduling automation  \n✓ Rejection/offer letter templates  \n✓ Multi-stage communication sequences  \n✓ Personalization at scale  \n✓ Integration with calendar systems\n\n## **Pro Tip**\nMost modern ATS platforms handle basic automation. Choosing depends on your company size, budget, and whether you need specialized recruitment vs. general HR features.\n\n**What's your hiring volume and team size?** That would help narrow recommendations further.",
+  "cached_at": "2026-05-28T06:42:04Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Baremetrics",
+  "prompt_id": "IN-03",
+  "llm": "openai",
+  "prompt_text": "How do I connect Baremetrics with Stripe?",
+  "response": "To connect Baremetrics with Stripe, follow these steps:\n\n1. **Sign Up or Log In to Baremetrics:**\n   - If you don't have a Baremetrics account, go to the Baremetrics website and sign up for an account.\n   - If you already have an account, simply log in.\n\n2. **Access the Integrations Section:**\n   - Once logged in, navigate to the integrations section. This is typically found in the dashboard or settings menu.\n\n3. **Select Stripe as Your Integration:**\n   - In the integrations section, look for Stripe and select it as the platform you want to connect with Baremetrics.\n\n4. **Authorize Baremetrics to Access Your Stripe Account:**\n   - You will be redirected to Stripe’s website to authorize the connection. Log in to your Stripe account if prompted.\n   - Grant Baremetrics the necessary permissions to access your Stripe data. This usually involves clicking an \"Authorize\" or \"Connect\" button.\n\n5. **Complete the Setup:**\n   - Once authorized, you will be redirected back to Baremetrics.\n   - Baremetrics will begin importing your Stripe data, which may take some time depending on the amount of data.\n\n6. **Verify the Connection:**\n   - After the import is complete, verify that your Stripe data is appearing correctly in Baremetrics.\n   - Check your dashboard and reports to ensure everything is functioning as expected.\n\nIf you encounter any issues during the process, Baremetrics support can provide assistance.",
+  "cached_at": "2026-05-28T06:57:43Z",
+  "metadata": {}
+}

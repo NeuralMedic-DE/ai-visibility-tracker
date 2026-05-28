@@ -1,0 +1,9 @@
+{
+  "brand": "Pendo",
+  "prompt_id": "CD-03",
+  "llm": "perplexity",
+  "prompt_text": "Which product analytics software should a VP Product or Product Ops Manager use?",
+  "response": "For a **VP Product** or **Product Ops Manager**, the best default choice is usually **Amplitude** or **Mixpanel**; both are widely used for **behavioral product analytics** and self-serve analysis of user engagement and journeys.[5][7][8]\n\nIf you want a more practical recommendation by use case:\n\n- **Amplitude**: best when you need **deep journey analysis**, retention/cohort analysis, and broad product decision support at scale.[5][7]\n- **Mixpanel**: best when you want **event-centric analytics** with a strong self-serve workflow for teams that need quick answers from product usage data.[5][8]\n- **Pendo**: best if you want product analytics plus **in-app guidance/adoption** tooling in one platform.[5]\n- **Heap**: best if your team wants easier capture of user behavior data without as much manual event setup, while still doing product analytics.[8]\n- **Google Analytics**: useful as a baseline for **traffic and acquisition behavior**, but it is not as product-specific as Amplitude, Mixpanel, or Pendo.[2][1]\n\nFor a **VP Product**, I would prioritize **Amplitude** if the main goal is strategic product decision-making from usage patterns, or **Pendo** if the role also owns product adoption and in-app activation.[5] For a **Product Ops Manager**, **Mixpanel** or **Amplitude** are typically the most operationally useful because they support repeatable analysis, funnels, cohorts, and stakeholder reporting.[5][7][8]\n\nIf you want, I can also give you a **shortlist by company stage**:\n- **Startup**\n- **Mid-market**\n- **Enterprise**",
+  "cached_at": "2026-05-27T19:49:43Z",
+  "metadata": {}
+}

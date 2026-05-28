@@ -1,0 +1,9 @@
+{
+  "brand": "Personio",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which HR software should a HR Director or People Ops Lead at a European SME use?",
+  "response": "# HR Software for European SMEs\n\nThe best choice depends on your specific needs, but here are the most relevant options:\n\n## Top Tier (Most Popular for European SMEs)\n\n**Personio** (Germany-based)\n- Built for EU compliance (GDPR, local labor laws)\n- Covers recruitment, onboarding, payroll, performance\n- 500-5,000 employee sweet spot\n- Intuitive interface, strong support\n\n**BambooHR**\n- Simple, employee-focused\n- Good for 50-500 person companies\n- May require local payroll add-ons\n- Strong reporting\n\n**Breathe HR** (UK-based)\n- Excellent for compliance\n- Strong on absence/leave management\n- Scalable to mid-market\n- Good value\n\n## Specialized/Budget Options\n\n- **Factorial** – All-in-one, affordable, growing in EU\n- **Deel** – If you have remote/international staff\n- **Workable** – If recruitment is your priority\n\n## Key Questions to Ask First\n\n1. **How many employees?** (50 vs 500+ changes recommendations)\n2. **Do you need integrated payroll?** (varies by country)\n3. **Remote/distributed team?**\n4. **Current biggest pain point?** (recruitment, compliance, absence management)\n5. **Budget constraints?**\n\n**For most European SMEs, Personio or Breathe HR are the safest choices**—they understand local complexity without overcomplicating things.\n\nWhat's your team size and primary challenge?",
+  "cached_at": "2026-05-28T06:34:33Z",
+  "metadata": {}
+}

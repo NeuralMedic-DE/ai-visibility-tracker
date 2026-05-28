@@ -1,0 +1,9 @@
+{
+  "brand": "Mosaic",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to Anaplan",
+  "response": "# Cheaper Alternatives to Anaplan\n\n## **Cloud-Based Planning Platforms**\n\n### **Mid-Range Options ($5K-$50K/year)**\n- **Adaptive Insights (Workiva)** - Strong FP&A focus, often 30-40% cheaper\n- **Workday Financials Planning** - Good if you use Workday ecosystem\n- **Jedox** - Excellent value, strong modeling capabilities\n- **Pigment** - Modern UX, competitive pricing for smaller teams\n- **OneStream** - Better for mid-market, stronger financial consolidation\n\n## **Spreadsheet Alternatives**\n\n### **Enhanced Excel/Google Sheets**\n- **Planful** (formerly Host Analytics) - Better budget management\n- **Vena** - Excel-based, lower cost than Anaplan\n- **Mosaic** - Lightweight, good for small teams\n- **Wdesk** (Workiva) - Document collaboration + planning\n\n## **Best for Specific Needs**\n\n| Use Case | Alternative | Est. Cost |\n|----------|-------------|-----------|\n| **Startups** | Mosaic, Float | $200-2K/mo |\n| **FP&A** | Planful, Datarails | $2-5K/mo |\n| **Manufacturing** | Domo, Solver | $3-8K/mo |\n| **Small teams** | Vena, Wdesk | $1-3K/mo |\n\n## **Key Considerations**\n- **Implementation cost** often exceeds software licensing\n- Trial multiple platforms (most offer free trials)\n- Consider your team's Excel dependency\n- Check integration needs with your ERP/GL system\n\n**What's your primary use case?** That would help narrow recommendations.",
+  "cached_at": "2026-05-28T07:10:08Z",
+  "metadata": {}
+}

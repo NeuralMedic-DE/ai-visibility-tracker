@@ -1,0 +1,9 @@
+{
+  "brand": "Metabase",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I build dashboards and reports without writing SQL without spending a lot on software?",
+  "response": "# Free/Cheap Dashboard Options\n\n## **No-Code Tools**\n\n**Google Sheets + Data Studio**\n- Free tier covers most needs\n- Connect Sheets to Data Studio for dashboards\n- Great for smaller datasets\n\n**Metabase**\n- Open-source, free to self-host\n- Simple UI, no SQL needed (though SQL available)\n- Works with most databases\n\n**Apache Superset**\n- Free, open-source\n- More polished than Metabase\n- Requires basic technical setup\n\n## **Budget-Friendly SaaS**\n\n**Looker Studio** (formerly Google Data Studio)\n- Completely free\n- Limited to ~1M rows per dataset\n- Good for basic dashboards\n\n**Grafana**\n- Free tier available\n- Originally for monitoring but works for dashboards\n- Self-hosted option is free\n\n**Retool**\n- Free tier for internal tools\n- Drag-and-drop interface\n- Can connect to most data sources\n\n## **Budget Tips**\n\n- Start with **Google Sheets** if data is already there\n- Use **Metabase** if you have a database and want to self-host\n- Combine free tier tools (Sheets + Data Studio is legitimately powerful)\n- Check if your data source (Shopify, HubSpot, etc.) has built-in reporting\n\n## **Reality Check**\n\nWhat's your data source? That determines the best path—spreadsheets behave very differently from databases.",
+  "cached_at": "2026-05-27T20:08:39Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Doppler",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Doppler integrate with GitHub?",
+  "response": "# Doppler and GitHub Integration\n\nYes, **Doppler integrates with GitHub** in several ways:\n\n## Main Integration Methods\n\n1. **GitHub Actions** - Doppler provides an official action that allows you to fetch secrets directly in your CI/CD workflows\n   - Authenticate and pull secrets during build/deployment\n   - Commonly used for deploying applications\n\n2. **GitHub Sync** - You can sync Doppler secrets to GitHub repository secrets or environments\n\n3. **Native Support** - Doppler is designed to work seamlessly with GitHub's environments and secrets management\n\n## Common Use Cases\n\n- Injecting secrets during GitHub Actions workflows\n- Keeping repository secrets in sync with Doppler\n- Managing environment-specific secrets for deployments\n\n## Getting Started\n\nYou'd typically:\n- Set up a Doppler project and service token\n- Use the official `dopplerhq/cli-action` in your workflow\n- Reference secrets in your deployment steps\n\nFor the most current implementation details and setup instructions, I'd recommend checking Doppler's official documentation or their GitHub repository, as integration features can be updated.\n\nAre you looking to set up a specific workflow or integration scenario?",
+  "cached_at": "2026-05-28T06:20:38Z",
+  "metadata": {}
+}

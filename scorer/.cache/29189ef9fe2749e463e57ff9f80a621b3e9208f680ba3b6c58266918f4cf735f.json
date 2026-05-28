@@ -1,0 +1,9 @@
+{
+  "brand": "Raycast",
+  "prompt_id": "AL-03",
+  "llm": "anthropic",
+  "prompt_text": "Best productivity alternatives for Mac-based developer and design teams at tech companies teams on a budget",
+  "response": "# Budget-Friendly Productivity Tools for Mac Teams\n\n## Project Management\n- **Plane** – Open-source Jira alternative (free/self-hosted)\n- **OpenProject** – Free tier covers basics\n- **Focalboard** – Open-source Asana/Monday.com alternative\n- **Taiga** – Agile project management, free tier available\n\n## Communication\n- **Mattermost** – Self-hosted Slack alternative (free)\n- **Rocket.Chat** – Similar, open-source option\n- **Zulip** – Thread-based, free tier\n- **Discord** – Generous free tier, widely adopted in tech\n\n## Design Collaboration\n- **Penpot** – Open-source Figma alternative\n- **Excalidraw** – Free whiteboarding/diagramming\n- **Wireflow** – Free user flow tool\n- **LibreOffice Draw** – Free, built-in\n\n## Code/Documentation\n- **Obsidian** – One-time $50 purchase (exceptional value)\n- **HackMD** – Free markdown collaboration\n- **Notion** – Free tier (limited but functional)\n- **GitBook** – Free tier for small teams\n\n## Developer-Specific\n- **Linear** – Newer, cleaner Jira (paid but reasonable)\n- **Gitea** – Self-hosted Git service (free)\n- **Plane** – Engineering-focused project management\n\n## Money-Saving Tips\n- Use **free GitHub features** (Projects, Discussions)\n- Self-host open-source tools on existing infrastructure\n- Negotiate annual plans (often 20-30% cheaper)\n- Check if tools offer **startup/nonprofit discounts**\n\n**Most impactful free combo:** GitHub Projects + Discord + Penpot covers ~80% of needs.\n\nWhat's your team's primary bottleneck?",
+  "cached_at": "2026-05-28T06:25:16Z",
+  "metadata": {}
+}

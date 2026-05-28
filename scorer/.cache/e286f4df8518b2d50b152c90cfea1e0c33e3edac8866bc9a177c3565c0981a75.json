@@ -1,0 +1,9 @@
+{
+  "brand": "Zapier",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Zapier Slack integration: how does it work?",
+  "response": "# Zapier Slack Integration Overview\n\nZapier connects Slack to hundreds of apps through automated workflows called \"Zaps.\" Here's how it works:\n\n## Basic Structure\n\n**Trigger → Action(s)**\n- **Trigger**: An event in Slack (or another connected app) that starts the automation\n- **Action**: What happens next in Slack or elsewhere\n\n## Common Use Cases\n\n### Slack as a Trigger\n- New message in channel → Creates task in Asana\n- Slack reaction added → Saves message to Notion\n- New user joins workspace → Sends welcome email\n\n### Slack as an Action\n- New form submission → Posts to Slack channel\n- Calendar event created → Sends Slack reminder\n- Database record updated → Notifies team in Slack\n\n## How to Set It Up\n\n1. **Connect apps** - Authorize Zapier to access your Slack workspace\n2. **Choose trigger** - Select the event that starts the workflow\n3. **Configure settings** - Specify which channel, keywords, etc.\n4. **Add action(s)** - Define what happens next\n5. **Test & activate** - Run a test, then turn on the Zap\n\n## Key Features\n\n| Feature | Benefit |\n|---------|---------|\n| **Multi-step Zaps** | Chain multiple actions together |\n| **Filters** | Only trigger under certain conditions |\n| **Formatting** | Customize message content with data |\n| **2-way sync** | Real-time data flow between apps |\n\n## Pricing\n- **Free tier**: Limited operations\n- **Paid**: Unlimited Zaps and executions\n\n**Need help with a specific integration?** Let me know which apps you want to connect!",
+  "cached_at": "2026-05-28T08:51:25Z",
+  "metadata": {}
+}

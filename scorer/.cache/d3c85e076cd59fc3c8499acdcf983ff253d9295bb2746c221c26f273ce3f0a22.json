@@ -1,0 +1,9 @@
+{
+  "brand": "Workable",
+  "prompt_id": "IN-05",
+  "llm": "openai",
+  "prompt_text": "ATS tools with native LinkedIn integration",
+  "response": "There are several Applicant Tracking Systems (ATS) that offer native integration with LinkedIn, allowing for seamless recruitment processes. Some of these include:\n\n1. **LinkedIn Talent Hub**: As LinkedIn's own ATS, it naturally offers the deepest integration with LinkedIn's features, including access to LinkedIn's vast network of professionals and the ability to manage the entire hiring process within the platform.\n\n2. **Greenhouse**: This ATS provides robust LinkedIn integration, allowing recruiters to source candidates directly from LinkedIn, view LinkedIn profiles within the Greenhouse interface, and use LinkedIn Recruiter System Connect (RSC) for enhanced functionality.\n\n3. **Lever**: Lever offers integration with LinkedIn Recruiter, enabling users to access LinkedIn profiles, send InMails, and synchronize candidate data between LinkedIn and Lever.\n\n4. **Jobvite**: Known for its comprehensive recruiting features, Jobvite integrates with LinkedIn to streamline candidate sourcing and management, allowing recruiters to leverage LinkedIn's network effectively.\n\n5. **SmartRecruiters**: This platform integrates with LinkedIn to allow recruiters to post jobs directly to LinkedIn and access LinkedIn profiles, enhancing the ability to find and engage with potential candidates.\n\n6. **iCIMS**: iCIMS provides integration with LinkedIn, enabling recruiters to import candidate profiles and use LinkedIn's sourcing tools within the iCIMS platform.\n\nThese integrations typically facilitate easier job postings, candidate sourcing, and profile management, helping recruiters to streamline their hiring processes by leveraging LinkedIn's extensive professional network.",
+  "cached_at": "2026-05-28T06:46:16Z",
+  "metadata": {}
+}

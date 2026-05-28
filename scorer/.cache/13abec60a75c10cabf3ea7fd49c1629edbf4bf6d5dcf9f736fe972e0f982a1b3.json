@@ -1,0 +1,9 @@
+{
+  "brand": "Raycast",
+  "prompt_id": "CD-02",
+  "llm": "anthropic",
+  "prompt_text": "Top developer productivity launcher for Mac power users tools in 2025",
+  "response": "# Top Developer Productivity Launchers for Mac (2025)\n\n## **Best Overall**\n\n### **Raycast**\n- **Why it leads:** AI-integrated command palette with extensions ecosystem\n- **Key features:**\n  - Native AI commands (built-in Claude integration)\n  - 1000+ community extensions\n  - Window management, clipboard history, snippet management\n  - Script commands (Bash/AppleScript)\n- **Best for:** Developers wanting modern, extensible launcher\n\n---\n\n## **Runner-Ups by Category**\n\n### **Most Customizable**\n**Alfred**\n- Powerful workflows and scripting\n- Deep Mac integration\n- Powerpack required (~$45 one-time)\n- Mature, stable, extensive documentation\n\n### **Lightweight & Fast**\n**LaunchBar**\n- Instant indexing across system\n- Smart abbreviations\n- Less resource-heavy\n- Smaller learning curve than Alfred\n\n### **AI-Focused**\n**Cursor** (if counting code editors with launcher features)\n- For developers who want launcher + editor unified\n\n---\n\n## **Essential Power User Features in 2025**\n\n| Feature | Raycast | Alfred | LaunchBar |\n|---------|---------|--------|-----------|\n| AI Integration | ✅ Native | ⚠️ Limited | ⚠️ Limited |\n| Extensions | ✅ 1000+ | ✅ Robust | ⚠️ Smaller |\n| Free Tier | ✅ Strong | ❌ Limited | ⚠️ Limited |\n| Learning Curve | ⚠️ Medium | ⚠️ Steep | ✅ Easy |\n\n---\n\n## **My Recommendation**\n\n**Raycast** (2025) = Best entry point for modern developers\n- Free tier is genuinely useful\n- Active development & AI features\n- Lower barrier to mastery than Alfred\n\n**Alfred** = Choose if you need maximum customization or legacy workflows\n\nWould you like specific setup recommendations or extension suggestions?",
+  "cached_at": "2026-05-28T06:25:01Z",
+  "metadata": {}
+}

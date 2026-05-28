@@ -1,0 +1,9 @@
+{
+  "brand": "Secureframe",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which compliance software should a Security Lead or CISO at a mid-market SaaS company use?",
+  "response": "# Compliance Software for Mid-Market SaaS\n\nThe best choice depends heavily on your **specific regulations and maturity level**. Here's a practical breakdown:\n\n## If you need a flexible, general platform\n- **Vanta** or **Drata** - Most popular for mid-market SaaS\n  - Handle SOC 2, ISO 27001, GDPR, HIPAA, etc.\n  - Automate evidence collection\n  - Good UX for non-compliance specialists\n  - ~$3-10K/month depending on scope\n\n## If you're compliance-heavy (healthcare, finance)\n- **Hyperproof** - Strong for complex audit trails\n- **AuditBoard** - Better for larger audit programs\n- **Workiva** - If you need serious reporting capabilities\n\n## If you're just starting\n- **OneTrust** - Broader governance/privacy focus (may be overkill initially)\n- **Secureframe** - Simpler entry point than Vanta for smaller teams\n\n## Real talk for your decision:\n1. **What's your primary compliance need?** (SOC 2, ISO, GDPR, HIPAA, etc.)\n2. **How integrated should this be with your tech stack?** (Some integrate better with specific tools)\n3. **Do you have 1-2 compliance staff, or are you outsourcing?** (Affects ease-of-use importance)\n4. **What's your audit timeline?** (Immediate need vs. building over 18 months)\n\n**For most mid-market SaaS:** Vanta or Drata as a first choice, then evaluate specifics. Get trials—the differences matter more than the features list.\n\nWhat's your primary compliance driver?",
+  "cached_at": "2026-05-28T08:33:21Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Neon",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which database software should a Backend Engineer Lead at a startup use?",
+  "response": "# Database Choice for Backend Engineer Lead at Startup\n\nThe \"best\" choice depends heavily on your specific context, but here's a practical framework:\n\n## Start with PostgreSQL\n**Default recommendation** for most startups:\n- Excellent reliability and feature set\n- Strong community and tooling\n- Handles relational + JSON data\n- Cost-effective to scale\n- Won't pigeonhole you early on\n\n## Consider alternatives based on your needs:\n\n**MongoDB/NoSQL** if:\n- Highly unstructured data\n- Rapid schema evolution needed\n- Horizontal scaling is critical from day one\n\n**Redis** if:\n- Real-time features (caching, sessions, leaderboards)\n- Use as *complement* to PostgreSQL, not replacement\n\n**Specialized databases**:\n- Time-series data → TimescaleDB, InfluxDB\n- Search → Elasticsearch\n- Analytics → Snowflake, DuckDB\n\n## Key startup considerations:\n- **Team expertise** (what you already know matters)\n- **Managed services** (use AWS RDS, Vercel Postgres, etc. vs. self-hosting)\n- **Scaling timeline** (premature optimization wastes time)\n- **Cost at early stage** (free/cheap tiers available for most)\n\n## Leadership perspective:\nPick something that lets your team move fast *without* creating technical debt. Avoid chasing buzzwords—boring databases are stable databases.\n\n**What's your startup building?** That context would help narrow it down further.",
+  "cached_at": "2026-05-28T06:17:33Z",
+  "metadata": {}
+}

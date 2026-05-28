@@ -1,0 +1,9 @@
+{
+  "brand": "Mixpanel",
+  "prompt_id": "AL-02",
+  "llm": "openai",
+  "prompt_text": "Cheaper alternatives to PostHog",
+  "response": "If you're looking for cheaper alternatives to PostHog for product analytics, you might consider the following options:\n\n1. **Plausible Analytics**: A simple, privacy-focused analytics tool that is easy to use and offers straightforward pricing.\n\n2. **Matomo**: An open-source analytics platform that can be self-hosted for free, with paid cloud-hosted options. It provides a comprehensive set of analytics features.\n\n3. **Fathom Analytics**: A privacy-first analytics tool that offers simple and clear insights with straightforward pricing.\n\n4. **GoAccess**: An open-source, real-time web log analyzer and interactive viewer that runs in a terminal in *nix systems or through your browser.\n\n5. **Simple Analytics**: Focuses on providing simple, privacy-friendly analytics without using cookies or tracking personal data.\n\n6. **Ackee**: A self-hosted, Node.js-based analytics tool that is open-source and focuses on privacy.\n\n7. **Umami**: Another open-source, self-hosted analytics solution that is privacy-focused and easy to set up.\n\nThese alternatives vary in terms of features, ease of use, and privacy focus, so the best choice will depend on your specific needs and technical capabilities.",
+  "cached_at": "2026-05-27T19:11:51Z",
+  "metadata": {}
+}

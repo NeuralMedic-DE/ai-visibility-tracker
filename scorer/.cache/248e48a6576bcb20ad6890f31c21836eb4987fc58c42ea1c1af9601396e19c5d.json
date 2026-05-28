@@ -1,0 +1,9 @@
+{
+  "brand": "Apollo.io",
+  "prompt_id": "CD-01",
+  "llm": "perplexity",
+  "prompt_text": "What is the best CRM for SDR teams at B2B companies?",
+  "response": "For **SDR teams at B2B companies**, the strongest default choice is **Close CRM** because it is built for outbound motions and specifically includes **email sequences, a power dialer, and activity-based reporting** without needing extra add-ons.[1][3]\n\nIf your team needs a broader all-in-one CRM, **HubSpot** is the most common alternative because it combines CRM, sales, and marketing features, but it is usually less outbound-native than Close for SDR workflows.[3][5]\n\nA practical shortlist looks like this:\n\n- **Close** — best for outbound SDR teams and call/email-heavy workflows.[1][3]\n- **Salesforce + Outreach** — best for enterprise teams that need deep customization and advanced engagement automation.[1]\n- **HubSpot** — best for teams that want an integrated platform with strong ease of use and cross-functional tooling.[3][5]\n- **Pipedrive** — best for smaller teams that want a simple visual pipeline and lower starting price.[1][4]\n\nIf you want the single best answer for a typical SDR team at a B2B company, **Close** is the best fit from the sources provided.[1][3]",
+  "cached_at": "2026-05-27T18:05:48Z",
+  "metadata": {}
+}

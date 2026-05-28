@@ -1,0 +1,9 @@
+{
+  "brand": "Rho",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Rho Stripe integration: how does it work?",
+  "response": "# Rho Stripe Integration\n\nRho is a **financial data aggregation platform** that connects to Stripe to provide enhanced visibility into business finances. Here's how it works:\n\n## Basic Flow\n\n```\nStripe Account → Rho API → Dashboard/Analytics\n     ↓\n  (transaction data, payouts, customers, etc.)\n```\n\n## Key Components\n\n### 1. **Authentication**\n- You authorize Rho to access your Stripe account via OAuth\n- Rho securely stores API credentials (never sees your password)\n- Permissions are scoped to specific data types\n\n### 2. **Data Sync**\n- Rho pulls transaction history from Stripe\n- Syncs payouts, charges, refunds, and customer data\n- Updates occur periodically (typically real-time or near real-time)\n\n### 3. **What Data is Accessible**\n- Transaction history\n- Payout schedules and status\n- Revenue analytics\n- Customer information\n- Disputes and chargebacks\n- Fee breakdowns\n\n## Common Use Cases\n\n| Use Case | Benefit |\n|----------|---------|\n| **Accounting** | Auto-reconcile Stripe revenue |\n| **Cash Flow** | Track payout timing |\n| **Analytics** | Dashboard view of sales trends |\n| **Lending** | Provide revenue data to lenders |\n| **Reporting** | Generate financial reports |\n\n## Integration Steps\n\n1. Connect Stripe account (OAuth flow)\n2. Grant necessary permissions\n3. Rho syncs historical data\n4. Access data via dashboard or API\n\n## Security Notes\n- OAuth means Rho never stores your Stripe password\n- You can revoke access anytime in Stripe settings\n- Data is encrypted in transit and at rest\n\nNeed help with a specific aspect?",
+  "cached_at": "2026-05-28T07:12:45Z",
+  "metadata": {}
+}

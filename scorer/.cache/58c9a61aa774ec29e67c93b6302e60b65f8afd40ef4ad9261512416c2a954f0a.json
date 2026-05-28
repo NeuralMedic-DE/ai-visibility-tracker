@@ -1,0 +1,9 @@
+{
+  "brand": "Nudge Security",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Nudge Security Google Workspace integration: how does it work?",
+  "response": "# Nudge Security Google Workspace Integration\n\n## Overview\nNudge Security provides visibility and control over SaaS applications and user behavior within Google Workspace environments. Here's how it typically works:\n\n## Core Functionality\n\n**Data Collection**\n- Connects to Google Workspace APIs to analyze user activity across apps and services\n- Monitors integrations, permissions, and data flows between Google Workspace and third-party applications\n- Tracks which apps have access to company data and user accounts\n\n**Key Monitoring Areas**\n- **OAuth/Third-party app permissions** – identifies risky or unnecessary access grants\n- **User behavior** – detects unusual activity patterns or potential shadow IT usage\n- **Data exposure** – shows where sensitive information is being shared or stored\n- **Compliance status** – tracks adherence to organizational policies\n\n## Integration Process\n\n1. **Authorization** – Admin grants Nudge read-only access to Workspace audit logs and APIs\n2. **Data ingestion** – Platform pulls audit data and application metadata\n3. **Analysis** – AI/ML identifies risks and policy violations\n4. **Reporting** – Dashboards display findings and recommendations\n\n## Key Benefits\n\n- Reduce SaaS-related security risks\n- Improve visibility into app ecosystem\n- Automated remediation of common issues\n- Compliance reporting and audit trails\n\n## Important Note\nFor current details, check Nudge Security's official documentation, as integration capabilities and features evolve regularly.\n\n**Need specific information about setup or a particular use case?**",
+  "cached_at": "2026-05-28T08:38:58Z",
+  "metadata": {}
+}

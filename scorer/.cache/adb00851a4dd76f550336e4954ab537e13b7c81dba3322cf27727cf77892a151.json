@@ -1,0 +1,9 @@
+{
+  "brand": "Anecdotes",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which compliance software should a GRC Lead or Compliance Manager at an enterprise tech company use?",
+  "response": "# GRC Software for Enterprise Tech Companies\n\nThe best choice depends on your specific needs, but here are the top contenders:\n\n## Full-Suite GRC Platforms\n- **ServiceNow GRC** – Strongest for large enterprises; integrates with existing ServiceNow instances\n- **AuditBoard** – Excellent for audit management and controls testing; strong UX\n- **Workiva** – Best for complex risk and regulatory reporting needs\n- **LogicGate** – Good balance of functionality and usability for mid-to-large enterprises\n\n## Compliance-Focused\n- **Drata** – Great for SOC 2, ISO 27001, and continuous compliance\n- **Vanta** – Strong for security compliance automation (SOC 2, ISO, HIPAA)\n- **OneTrust** – Leader in privacy and data governance compliance\n\n## Risk & Controls\n- **MetricStream** – Deep controls and policy management\n- **Archer** (RSA) – Mature, widely adopted, but heavier implementation\n\n## Key Considerations for Tech Companies\n\n**Prioritize:**\n- API/integration capabilities (your tech stack is complex)\n- Automation features (fewer manual workarounds)\n- Multi-framework support (you likely need SOC 2, ISO 27001, etc.)\n- Scalability as you grow\n- Strong audit trails for external audits\n\n**Quick recommendation:** Start with **Drata** or **Vanta** if you're focused on security/compliance automation, or **AuditBoard** if controls and audit management are your priority.\n\nWhat's your primary compliance focus—security, privacy, or general risk?",
+  "cached_at": "2026-05-28T08:35:55Z",
+  "metadata": {}
+}

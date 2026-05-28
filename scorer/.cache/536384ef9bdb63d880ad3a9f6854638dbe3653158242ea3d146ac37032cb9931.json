@@ -1,0 +1,9 @@
+{
+  "brand": "LeadIQ",
+  "prompt_id": "IN-02",
+  "llm": "openai",
+  "prompt_text": "LeadIQ LinkedIn integration: how does it work?",
+  "response": "LeadIQ's LinkedIn integration is designed to streamline the process of capturing and managing lead information directly from LinkedIn. Here's how it generally works:\n\n1. **Browser Extension**: LeadIQ typically offers a browser extension (often for Chrome) that integrates with LinkedIn. Once installed, this extension allows you to capture lead information while browsing LinkedIn profiles.\n\n2. **Capturing Leads**: When you view a LinkedIn profile, the LeadIQ extension can extract relevant information such as name, job title, company, and contact details. This information can then be saved directly into your LeadIQ account.\n\n3. **Enrichment**: LeadIQ often enriches the captured data with additional information, such as email addresses and phone numbers, which may not be directly available on LinkedIn.\n\n4. **CRM Integration**: The captured and enriched data can be seamlessly integrated into your CRM system (like Salesforce, HubSpot, etc.), allowing for easy management and follow-up.\n\n5. **List Building**: You can build lists of leads directly from LinkedIn searches or individual profiles, making it easier to organize and prioritize your outreach efforts.\n\n6. **Compliance**: LeadIQ typically ensures compliance with data protection regulations, such as GDPR, by providing options to manage and delete data as needed.\n\nThis integration helps sales and marketing teams efficiently gather and manage lead information, reducing manual data entry and improving the accuracy of their lead databases.",
+  "cached_at": "2026-05-27T18:42:00Z",
+  "metadata": {}
+}

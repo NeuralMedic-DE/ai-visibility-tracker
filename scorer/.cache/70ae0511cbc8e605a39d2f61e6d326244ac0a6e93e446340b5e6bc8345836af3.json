@@ -1,0 +1,9 @@
+{
+  "brand": "HiBob",
+  "prompt_id": "AL-05",
+  "llm": "anthropic",
+  "prompt_text": "Open source or affordable HR tools instead of Personio",
+  "response": "# HR Tools Alternatives to Personio\n\n## **Open Source Options**\n\n### **OrangeHRM**\n- Free community edition + paid cloud hosting\n- Core HR, leave management, recruitment, performance tracking\n- Self-hosted or SaaS\n- Good for small-medium businesses\n- Active community support\n\n### **Frappe/ERPNext**\n- Completely open source ERP with HR module\n- Comprehensive: payroll, attendance, recruitment, onboarding\n- Requires technical setup (but good documentation)\n- No vendor lock-in\n\n## **Affordable SaaS Alternatives**\n\n### **Budget-Friendly**\n- **Guidepoint HCM** - Simple, clean interface, ~$3-5/user/month\n- **Zoho People** - Part of Zoho ecosystem, excellent value, integrations\n- **BambooHR** - Starts ~$99/month, strong core features\n- **Workday** - Premium but offers free trial\n- **Deel** - Strong for distributed teams, payroll-focused\n\n### **Ultra-Budget**\n- **Breathe HR** - £3-5/employee/month\n- **Factorial** - €2.50-5/employee/month\n- **Humaans** - Simple, modern, ~$5/user/month\n\n## **Spreadsheet + Tool Stacks**\nMany startups use:\n- **Airtable** or **Notion** (base data)\n- **Zapier/Make** (automation)\n- **Stripe/Wise** (payroll APIs)\n- **Slack** integrations\n- **Total cost**: $50-200/month\n\n## **Key Questions**\n- Team size?\n- Main pain point (payroll, leave, recruitment)?\n- Budget range?\n- Self-hosted vs. cloud?\n\nWould any of these fit your needs better?",
+  "cached_at": "2026-05-28T06:32:33Z",
+  "metadata": {}
+}

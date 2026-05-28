@@ -1,0 +1,9 @@
+{
+  "brand": "Numeric",
+  "prompt_id": "IN-05",
+  "llm": "openai",
+  "prompt_text": "finance tools with native NetSuite integration",
+  "response": "There are several finance tools that offer native integration with NetSuite, allowing businesses to streamline their financial processes and improve efficiency. Here are some popular ones:\n\n1. **Expensify**: A tool for expense management that integrates with NetSuite to automate the expense reporting process.\n\n2. **Bill.com**: Facilitates accounts payable and receivable processes with seamless integration into NetSuite for efficient bill management.\n\n3. **FloQast**: Provides accounting workflow automation and helps with the financial close process, integrating directly with NetSuite.\n\n4. **Tipalti**: An accounts payable automation solution that integrates with NetSuite to manage global payments and compliance.\n\n5. **Adaptive Insights**: Offers budgeting, forecasting, and reporting tools with native NetSuite integration for enhanced financial planning.\n\n6. **BlackLine**: Provides solutions for financial close management, reconciliation, and accounting automation, integrating with NetSuite to streamline these processes.\n\n7. **Avalara**: A tax compliance tool that integrates with NetSuite to automate sales tax calculations and filing.\n\nThese tools help enhance the functionality of NetSuite by providing specialized features for different aspects of financial management, ensuring data consistency and reducing manual effort.",
+  "cached_at": "2026-05-28T07:05:13Z",
+  "metadata": {}
+}

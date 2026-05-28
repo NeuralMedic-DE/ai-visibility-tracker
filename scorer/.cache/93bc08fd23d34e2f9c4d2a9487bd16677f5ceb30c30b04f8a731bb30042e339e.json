@@ -1,0 +1,9 @@
+{
+  "brand": "LlamaIndex",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does LlamaIndex integrate with OpenAI?",
+  "response": "Yes. LlamaIndex has **first‑class, official integration with OpenAI’s API** and even uses OpenAI models as the default in many examples.\n\nKey points:\n\n- There is a dedicated package **`llama-index-llms-openai`** that provides the `OpenAI` LLM class for use inside LlamaIndex.[6]  \n  - Install: `pip install llama-index-llms-openai`.[6]  \n  - Example usage:  \n    ```python\n    from llama_index.llms.openai import OpenAI\n\n    llm = OpenAI(model=\"gpt-3.5-turbo\")\n    resp = llm.complete(\"Paul Graham is \")\n    print(resp)\n    ```[6]\n\n- The official LlamaIndex starter tutorial uses **OpenAI’s `gpt-3.5-turbo` as the default chat model** and **`text-embedding-ada-002` as the default embedding model**, assuming `OPENAI_API_KEY` is set in your environment.[7]\n\n- LlamaIndex can also work with **Azure OpenAI**; Microsoft documents LlamaIndex using Azure OpenAI for LLM calls and embeddings in production scenarios.[2][5]\n\n- Internally, LlamaIndex components (e.g., `VectorStoreIndex`) can be configured to call OpenAI for both **chat/completions** and **embeddings**, and there are examples and tutorials showing Q&A systems built with “OpenAI API + LlamaIndex.”[4][5]\n\nSo if you have an OpenAI (or Azure OpenAI) API key, you can plug it directly into LlamaIndex and use OpenAI models for all LLM and embedding operations.",
+  "cached_at": "2026-05-28T07:44:09Z",
+  "metadata": {}
+}

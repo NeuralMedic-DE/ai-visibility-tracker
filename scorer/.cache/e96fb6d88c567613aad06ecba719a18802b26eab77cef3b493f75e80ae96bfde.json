@@ -1,0 +1,9 @@
+{
+  "brand": "Copper",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Copper Slack integration: how does it work?",
+  "response": "# Copper Slack Integration Overview\n\nCopper (a CRM platform) integrates with Slack to streamline sales workflows. Here's how it works:\n\n## Key Features\n\n### 1. **Activity Notifications**\n- Get Slack alerts for important CRM events (new leads, deals updated, tasks due)\n- Customize notification settings to reduce noise\n- Real-time updates without leaving Slack\n\n### 2. **Lead & Deal Management**\n- View Copper lead/deal details directly in Slack\n- Update opportunities and contact info from messages\n- Create new leads or tasks through Slack commands\n\n### 3. **Commands & Actions**\nCommon workflows include:\n- `/copper` commands to search contacts, create tasks, log activities\n- Quick updates on deal status\n- Task reminders and follow-up notifications\n\n### 4. **Message Threading**\n- Link conversations to CRM records\n- Keep deal-related discussions organized\n- Preserve communication history in Copper\n\n## Setup Process\n\n1. **Install** the Copper app in your Slack workspace\n2. **Authenticate** your Copper account\n3. **Configure** notification preferences and channels\n4. **Set permissions** for team members\n\n## Benefits\n\n✅ Less context-switching between tools  \n✅ Team collaboration on deals in real-time  \n✅ Faster response times to leads  \n✅ Better record-keeping of communications  \n\n## Limitations\n\n- Some complex CRM operations still require the main app\n- Notification overload possible if not configured carefully\n- Team adoption depends on workflow fit\n\nWould you like details on specific use cases or setup troubleshooting?",
+  "cached_at": "2026-05-27T18:24:17Z",
+  "metadata": {}
+}

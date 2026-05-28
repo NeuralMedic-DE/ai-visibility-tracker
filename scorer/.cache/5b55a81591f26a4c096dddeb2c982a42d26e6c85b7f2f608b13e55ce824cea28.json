@@ -1,0 +1,9 @@
+{
+  "brand": "Folk",
+  "prompt_id": "IN-04",
+  "llm": "anthropic",
+  "prompt_text": "Best CRM that works with Gmail and Notion",
+  "response": "# Best CRM Options for Gmail + Notion Integration\n\n## Top Picks\n\n### **1. HubSpot** (Best Overall)\n- **Gmail integration:** Native sync, email tracking, snippets\n- **Notion integration:** Via Zapier/Make (solid workflows)\n- **Why:** Most robust features, free tier available\n- **Downside:** More complex than some alternatives\n\n### **2. Pipedrive**\n- **Gmail integration:** Email sync, templates, tracking\n- **Notion integration:** Works well via automation tools\n- **Why:** Intuitive UI, sales-focused, affordable\n- **Best for:** Small sales teams\n\n### **3. Clay** (Modern Alternative)\n- **Gmail integration:** Direct email sync\n- **Notion integration:** Native integration available\n- **Why:** Built for modern workflows, data-enrichment focused\n- **Best for:** Startups, tech-savvy teams\n\n### **4. Airtable**\n- **Gmail integration:** Via Zapier, Make, or native add-ons\n- **Notion integration:** Can sync with Zapier\n- **Why:** Highly flexible, works as lightweight CRM\n- **Best for:** Teams wanting database flexibility\n\n## Quick Comparison\n\n| Tool | Gmail | Notion | Ease | Price |\n|------|-------|--------|------|-------|\n| HubSpot | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | Free-$$$$ |\n| Pipedrive | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ | $-$$$ |\n| Clay | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | $-$$ |\n| Airtable | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | $-$$$ |\n\n**Need a specific recommendation?** Let me know your team size and primary use case!",
+  "cached_at": "2026-05-27T18:54:35Z",
+  "metadata": {}
+}

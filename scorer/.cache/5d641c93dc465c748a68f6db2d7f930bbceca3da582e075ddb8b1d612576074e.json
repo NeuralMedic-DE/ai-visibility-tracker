@@ -1,0 +1,9 @@
+{
+  "brand": "Close",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Close with Slack?",
+  "response": "# Connecting Close with Slack\n\nHere's how to set up the integration:\n\n## Basic Steps\n\n1. **In Close:**\n   - Go to **Settings** → **Integrations** (or **Apps**)\n   - Look for **Slack** in the available integrations\n   - Click to enable it\n\n2. **Authorize Slack:**\n   - You'll be redirected to Slack to authorize the connection\n   - Select your Slack workspace\n   - Approve the permissions Close is requesting\n\n3. **Configure Settings:**\n   - Choose which Close notifications you want in Slack\n   - Select which Slack channels should receive them\n   - Set any additional preferences\n\n## What You Can Do\n\nOnce connected, you can typically:\n- Receive notifications about lead activities\n- Get alerts for calls, emails, and tasks\n- Post updates directly to Slack channels\n- Create Close tasks from Slack messages\n\n## Troubleshooting\n\n- Make sure you have admin access in both Close and Slack\n- Check that your Slack workspace isn't blocking the integration\n- Verify permissions are fully approved\n\n**Note:** Steps may vary slightly depending on your Close plan and current interface updates.\n\nFor the most current instructions, I'd recommend checking Close's official documentation or contacting their support team, as interfaces can change.",
+  "cached_at": "2026-05-27T17:51:42Z",
+  "metadata": {}
+}

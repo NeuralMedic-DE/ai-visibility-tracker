@@ -1,0 +1,9 @@
+{
+  "brand": "Hightouch",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Hightouch integrate with Salesforce?",
+  "response": "Yes, Hightouch does integrate with Salesforce. Hightouch is a data activation platform that allows you to sync data from your data warehouse to various SaaS tools, including Salesforce. This integration enables you to keep your Salesforce data up-to-date with the latest information from your data warehouse, allowing for more accurate and timely insights and actions.",
+  "cached_at": "2026-05-28T09:05:36Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Raycast",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which productivity software should a Developer Productivity Lead or CTO at a tech company use?",
+  "response": "# Productivity Software for Dev Leaders/CTOs\n\n## Core Categories\n\n**Project & Team Management**\n- Jira/Linear (engineering-focused)\n- Asana/Monday.com (broader visibility)\n- GitHub Projects (if your team lives in GitHub)\n\n**Communication**\n- Slack (async + real-time)\n- Discord (more dev-friendly alternative)\n\n**Documentation**\n- Confluence, Notion, or GitBook (for architecture decisions, runbooks)\n- GitHub Wiki (if keeping it close to code)\n\n## What Matters Most at This Level\n\nRather than generic tools, prioritize:\n\n1. **Engineering metrics dashboards** - Velocity, deployment frequency, incident data\n2. **Calendar + async communication** - You'll have lots of 1:1s and async context-setting\n3. **Decision logging** - ADRs (Architecture Decision Records) in version control\n4. **Incident/on-call management** - PagerDuty, OpsGenie, or similar\n5. **Simple note-taking** - Obsidian or Apple Notes (for personal thinking)\n\n## The Real Answer\n\nThe \"best\" tool depends on:\n- What your team already uses\n- Whether you need better reporting/visibility\n- How much overhead you can tolerate\n\nMany CTOs find that **fewer tools** (3-4) used deeply beat having 10+ disconnected platforms.\n\n**What's your team currently using?** That context would help me suggest something more specific.",
+  "cached_at": "2026-05-28T06:25:03Z",
+  "metadata": {}
+}

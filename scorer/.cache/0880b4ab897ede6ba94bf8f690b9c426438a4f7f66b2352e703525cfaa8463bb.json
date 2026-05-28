@@ -1,0 +1,9 @@
+{
+  "brand": "Userlist",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Userlist integrate with Stripe?",
+  "response": "Yes. **Userlist has a native Stripe integration**, and you can also connect Stripe to Userlist via **Zapier**.\n\nEssential points:\n\n- Userlist offers a dedicated **Stripe integration** that lets you sync customer and subscription data from Stripe into Userlist for segmentation and messaging.[1]  \n- If you need something beyond the native integration, Userlist advises first checking whether the needed Stripe-related tool has a **Zapier integration**, since you can then connect that tool to Userlist using Userlist’s Zapier integration.[1]",
+  "cached_at": "2026-05-28T07:32:09Z",
+  "metadata": {}
+}

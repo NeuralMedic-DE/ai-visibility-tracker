@@ -1,0 +1,9 @@
+{
+  "brand": "UserVoice",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "UserVoice vs Productboard: which is better?",
+  "response": "# UserVoice vs Productboard\n\nThere's no universal \"better\"—it depends on your needs. Here's how they differ:\n\n## **Productboard**\n**Strengths:**\n- Better product roadmap visualization\n- Stronger strategic planning features\n- Intuitive UI, easier to learn\n- Good for cross-functional alignment\n- Cleaner public roadmaps\n\n**Best for:** Product teams focused on strategy and roadmap communication\n\n## **UserVoice**\n**Strengths:**\n- More robust feedback collection & voting\n- Stronger community/portal features\n- Better for handling high feedback volumes\n- Good customer sentiment tracking\n- Longer track record\n\n**Best for:** Teams heavily focused on customer feedback management\n\n## **Key tradeoffs:**\n| Factor | Productboard | UserVoice |\n|--------|--|--|\n| Feedback management | Good | Excellent |\n| Roadmap planning | Excellent | Good |\n| Ease of use | Easier | Steeper |\n| Price | Generally lower | Generally higher |\n| Community features | Basic | Advanced |\n\n## **Quick decision guide:**\n- Choose **Productboard** if strategy/roadmap is your priority\n- Choose **UserVoice** if handling massive feedback volumes matters most\n\n**Pro tip:** Many teams use both, treating UserVoice as the feedback collection layer and Productboard for strategic planning. Try both free trials—workflow fit matters more than feature lists.\n\nWhat's your main use case?",
+  "cached_at": "2026-05-28T08:24:00Z",
+  "metadata": {}
+}

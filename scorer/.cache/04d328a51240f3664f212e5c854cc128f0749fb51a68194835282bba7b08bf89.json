@@ -1,0 +1,9 @@
+{
+  "brand": "Sentry",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to Bugsnag",
+  "response": "# Cheaper Alternatives to Bugsnag\n\n## Free/Open Source Options\n\n1. **Sentry**\n   - Generous free tier (5k events/month)\n   - Self-hosted option available\n   - Similar feature set to Bugsnag\n   - Good community support\n\n2. **Rollbar**\n   - Free tier available\n   - Pay-as-you-grow pricing\n   - Good for small teams\n\n3. **Graylog**\n   - Open source log management\n   - Self-hosted (free)\n   - Requires more setup\n\n4. **Elastic Stack (ELK)**\n   - Open source\n   - Self-hosted\n   - Steeper learning curve but very powerful\n\n## Budget-Friendly SaaS\n\n5. **LogRocket**\n   - Similar pricing to competitors\n   - Better for frontend focus\n   - Free tier available\n\n6. **Airbrake**\n   - Competitive pricing\n   - Simple interface\n   - Good documentation\n\n7. **Scout APM**\n   - Application performance monitoring\n   - Transparent pricing\n   - Smaller projects often cheaper\n\n8. **Datadog**\n   - Higher volume? Can be cheaper at scale\n   - More comprehensive monitoring\n\n## DIY/In-House\n\n9. **Custom solution** with:\n   - Sentry (self-hosted)\n   - ELK Stack\n   - Your own infrastructure\n\n## Recommendation\n\nFor most teams, **Sentry** offers the best balance of features, ease of use, and cost. Start with the free tier and upgrade only when needed.\n\nWhat's your primary use case? (frontend/backend/both) I can give more targeted suggestions.",
+  "cached_at": "2026-05-27T21:17:44Z",
+  "metadata": {}
+}

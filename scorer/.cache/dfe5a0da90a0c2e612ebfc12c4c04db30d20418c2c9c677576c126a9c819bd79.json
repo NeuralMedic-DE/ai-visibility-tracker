@@ -1,0 +1,9 @@
+{
+  "brand": "Customer.io",
+  "prompt_id": "IN-03",
+  "llm": "perplexity",
+  "prompt_text": "How do I connect Customer.io with Segment?",
+  "response": "To connect **Customer.io with Segment**, you usually choose one of two directions: **Segment → Customer.io** to send Segment event/data into Customer.io, or **Customer.io → Segment** to send Customer.io events out to Segment.[3][2]\n\n- **If you want Segment data to flow into Customer.io**: in Customer.io, go to **Settings > Integrations**, open **Segment Destination**, click **Configure Segment**, select the **Workspace** and **Source**, then allow access.[3]\n- **If you want Customer.io data to flow into Segment**: in Segment, go to **Connections > Add Source**, choose **Customer.io**, copy the **Write Key**, then in Customer.io go to **Integrations** and open **Segment Source**, paste the key, and connect.[2]\n- Customer.io says the newer **Destination Actions** integration is generally preferred for sending data from Segment into Customer.io; the older classic Segment destination is in **maintenance mode**.[3]\n- After setup, you can turn on the events/destinations you want and verify data in Segment’s debugger or Customer.io event views.[2][3]\n\nIf you tell me which direction you need, I can give you the exact step-by-step setup for that path.",
+  "cached_at": "2026-05-28T07:16:18Z",
+  "metadata": {}
+}

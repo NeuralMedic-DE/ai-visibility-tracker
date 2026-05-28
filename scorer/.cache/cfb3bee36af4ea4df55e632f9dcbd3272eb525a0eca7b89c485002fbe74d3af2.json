@@ -1,0 +1,9 @@
+{
+  "brand": "Stonly",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Stonly vs Guru: which is better?",
+  "response": "# Stonly vs Guru\n\nBoth are solid knowledge management platforms, but they serve slightly different needs:\n\n## **Stonly** is better if you want:\n- **Interactive guides** with conditional logic and branching\n- Focus on **reducing support tickets** through self-service\n- Simple, clean UI for creating step-by-step content\n- Good **widget embeds** for websites\n- Lower cost entry point\n\n## **Guru** is better if you want:\n- **Enterprise-scale** knowledge management\n- AI-powered search and content recommendations\n- Seamless integration with your existing tools (Slack, Teams, etc.)\n- Content verification and \"staleness\" alerts\n- Sophisticated permission/access controls\n\n## **Key differences:**\n| Aspect | Stonly | Guru |\n|--------|---------|------|\n| **Best for** | Customer self-service | Internal team knowledge |\n| **Complexity** | Simpler | More robust/complex |\n| **Price** | Budget-friendly | Enterprise pricing |\n| **AI features** | Basic | Advanced |\n\n## **Bottom line:**\n- Choose **Stonly** if you're focused on customer support automation\n- Choose **Guru** if you need comprehensive internal knowledge management\n\nWhat's your main use case? That would help narrow it down further.",
+  "cached_at": "2026-05-28T08:21:43Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Mixpanel",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I track user engagement and feature adoption without spending a lot on software?",
+  "response": "# Budget-Friendly Engagement Tracking\n\n## Free or Cheap Built-Ins\n- **Google Analytics 4** – solid for web behavior, free tier is generous\n- **Mixpanel/Amplitude free plans** – event tracking focused on adoption patterns\n- **Hotjar** – heatmaps and session recording (limited free tier)\n- **Your own database** – if you have basic infrastructure, log events yourself\n\n## DIY Approach (Cheapest)\nTrack what matters by logging directly:\n- Feature clicks/views (add timestamps to your DB)\n- User segments (new vs. returning, power users)\n- Feature completion rates (did they finish the flow?)\n- Time-to-adoption (how long before they tried feature X?)\n\nExport to **Google Sheets or lightweight BI tools** (Metabase is free/self-hosted).\n\n## What Actually Moves the Needle\nRather than tracking everything, focus on:\n- **Activation** – % reaching key milestone in first week\n- **Feature-specific usage** – which features matter to retention?\n- **Cohort trends** – group users by signup date, see patterns\n- **Churn signals** – inactivity threshold before they leave\n\n## Reality Check\nThe temptation is to collect everything. Start with 3-5 key metrics tied to your business goal instead. Most free tools break down when you overload them anyway.\n\nWhat's your main business model – SaaS, mobile, web product? That shapes what's worth tracking.",
+  "cached_at": "2026-05-27T19:14:56Z",
+  "metadata": {}
+}

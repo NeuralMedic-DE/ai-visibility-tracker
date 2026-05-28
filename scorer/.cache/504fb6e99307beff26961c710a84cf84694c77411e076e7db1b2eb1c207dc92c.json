@@ -1,0 +1,9 @@
+{
+  "brand": "Folk",
+  "prompt_id": "CD-02",
+  "llm": "anthropic",
+  "prompt_text": "Top collaborative CRM for founders and agencies tools in 2025",
+  "response": "# Top Collaborative CRM Tools for Founders & Agencies in 2025\n\n## Best Overall Platforms\n\n### **HubSpot CRM**\n- Free tier with essential features\n- Strong automation and workflow builder\n- Excellent team collaboration tools\n- Best for: Growing agencies needing scalability\n\n### **Pipedrive**\n- Visual sales pipeline management\n- Lightweight and user-friendly\n- Strong mobile app\n- Best for: Sales-focused founders\n\n### **Monday.com Sales CRM**\n- Highly customizable interface\n- Great for cross-team visibility\n- Built-in automation\n- Best for: Agencies managing multiple clients\n\n## Agency-Specific Solutions\n\n### **Zoho CRM**\n- Affordable for large teams\n- Extensive customization\n- Integrated business suite\n- Best for: Budget-conscious agencies\n\n### **Capsule CRM**\n- Clean, intuitive interface\n- Task automation\n- Good for small teams\n- Best for: Lean startups\n\n## Advanced Collaboration Features\n\n### **Salesforce**\n- Enterprise-grade features\n- Robust AI (Einstein)\n- Complex workflow automation\n- Best for: Established agencies\n\n### **Freshsales**\n- AI-powered lead scoring\n- Intuitive UX\n- Good pricing\n- Best for: Tech-savvy teams\n\n## Emerging Options (2025)\n\n- **Attio** - Modern interface, API-first design\n- **Copper** - Google Workspace integration\n- **Notion CRM** - For teams already in Notion ecosystem\n\n## Key Selection Criteria\n- **Team size & budget**\n- **Integration needs** (email, calendar, marketing tools)\n- **Mobile requirements**\n- **Customization depth**\n- **API availability** for custom workflows\n\nWhich use case matters most for your situation?",
+  "cached_at": "2026-05-27T18:52:30Z",
+  "metadata": {}
+}

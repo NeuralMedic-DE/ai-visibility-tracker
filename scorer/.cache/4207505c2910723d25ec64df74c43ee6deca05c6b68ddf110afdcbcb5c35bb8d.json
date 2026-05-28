@@ -1,0 +1,9 @@
+{
+  "brand": "Supermetrics",
+  "prompt_id": "UC-04",
+  "llm": "anthropic",
+  "prompt_text": "How can a marketing analyst or head of marketing pull marketing data from all ad platforms into spreadsheets more efficiently?",
+  "response": "# Efficient Ways to Pull Marketing Data into Spreadsheets\n\n## **Automated Integration Tools** (Best for scale)\n- **Google Data Studio** - Free, connects multiple platforms, refreshes automatically\n- **Supermetrics** - Pulls from 90+ platforms directly into Sheets/Excel\n- **Zapier/Make** - Creates workflows between platforms and spreadsheets\n- **Improvado** - Enterprise option with scheduled automated pulls\n\n## **Native Platform Features**\n- **Google Ads Editor** - Download campaign data directly\n- **Meta Ads Manager** - Export reports as CSV/Excel\n- **LinkedIn Campaign Manager** - Built-in export functions\n- **HubSpot** - Automated report scheduling via email\n- Each platform usually has batch export or API access\n\n## **API Approaches** (Most flexible but technical)\n- Use platform APIs directly (Google Ads API, Facebook Marketing API, etc.)\n- Python scripts with `requests` library for periodic pulls\n- Requires some technical setup but highly customizable\n\n## **Hybrid Strategy** (What most teams use)\n1. **High-priority metrics** → Automated tools (daily updates)\n2. **Supplemental data** → Manual exports (weekly/monthly)\n3. **One source of truth** → Centralized dashboard (reduces spreadsheet chaos)\n\n## **Quick Wins to Start**\n- Set up one automated connector first\n- Create a standardized data dictionary\n- Schedule pulls during off-peak hours\n- Use templates to standardize formatting\n\n**What platforms are you currently using?** That would help recommend the most practical solution for your stack.",
+  "cached_at": "2026-05-27T20:38:11Z",
+  "metadata": {}
+}

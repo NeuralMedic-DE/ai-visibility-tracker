@@ -1,0 +1,9 @@
+{
+  "brand": "Customer.io",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best marketing automation for product-led growth and lifecycle marketing teams at SaaS companies?",
+  "response": "# Best Marketing Automation for PLG & Lifecycle Marketing\n\n## Top Tier Options\n\n**HubSpot**\n- Strongest all-around for lifecycle workflows\n- Excellent free tier to grow into\n- Native CRM + email + landing pages\n- Best for teams wanting single platform\n\n**Klaviyo**\n- Superior email/SMS segmentation\n- Event-driven automation (critical for PLG)\n- Strong analytics on engagement\n- Best for email-first strategies\n\n**Iterable**\n- Built for sophisticated multi-channel campaigns\n- Excellent for retention/churn workflows\n- Strong personalization engine\n- Best for high-volume transactional needs\n\n## PLG-Specific Considerations\n\n**What matters most:**\n- **Product event tracking** (not just email opens)\n- **Flexible segmentation** based on user behavior\n- **In-app messaging** integration\n- **API-first architecture** for custom workflows\n\n**Strong specialized options:**\n- **Segment/Twilio CDP** — best for data plumbing\n- **Mixpanel/Amplitude** (with Journeys) — when analytics is primary\n- **Customer.io** — lightweight, event-focused, great API\n\n## My Honest Take\n\nFor most growing SaaS companies:\n\n1. **Start with HubSpot** if building from scratch (easiest, adequate)\n2. **Upgrade to Klaviyo** if email/SMS is core to retention\n3. **Add Segment** if you need sophisticated cross-platform event routing\n\nAvoid choosing based on features you *might* need. Start lean, instrument product events properly, then expand.\n\n**What's your current tech stack?** That might change the recommendation.",
+  "cached_at": "2026-05-28T07:14:28Z",
+  "metadata": {}
+}

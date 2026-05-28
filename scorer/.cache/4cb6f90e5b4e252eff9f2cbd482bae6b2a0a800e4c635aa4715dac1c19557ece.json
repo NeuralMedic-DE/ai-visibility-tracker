@@ -1,0 +1,9 @@
+{
+  "brand": "Sentry",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Datadog vs alternatives: what should I switch to?",
+  "response": "# Datadog vs Alternatives: Key Considerations\n\n## Why people consider switching\n- **Cost** (biggest complaint)\n- Complexity for smaller teams\n- Vendor lock-in concerns\n- Overkill for simple monitoring needs\n\n## Good alternatives by use case\n\n### **Cost-conscious, full-featured**\n- **Grafana Cloud** – open-source ecosystem, pay-as-you-go\n- **New Relic** – competitive pricing, strong APM\n- **Elastic Stack** – self-hosted option, lower per-unit costs\n\n### **Lightweight/Specific needs**\n- **Prometheus + Grafana** – metrics-only, self-hosted, free\n- **Sentry** – error tracking (not full monitoring)\n- **Honeycomb** – high-cardinality observability (different model)\n\n### **Enterprise alternatives**\n- **Splunk** – log-heavy, expensive but powerful\n- **Dynatrace** – AI-driven, premium pricing\n- **Sumo Logic** – cloud-native focus\n\n## Before switching, consider:\n\n| Factor | Questions |\n|--------|-----------|\n| **Real cost** | What features do you *actually* use? Could tiering down work? |\n| **Migration effort** | Switching costs (time, config, training) |\n| **Feature gaps** | Does the alternative handle your core use cases? |\n| **Team expertise** | Are they familiar with the new stack? |\n\n## Honest take\n**Don't switch just for cost**—switching is expensive. Audit your Datadog usage first. Often teams can reduce bills 30-50% by:\n- Adjusting retention policies\n- Filtering unnecessary data\n- Right-sizing custom metrics\n\n**Do switch if**: You're genuinely outgrowing Datadog's model or hitting hard limits.\n\nWhat's your main pain point? That'd help narrow it down.",
+  "cached_at": "2026-05-27T21:17:55Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Mailmodo",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with improve email engagement with interactive elements that convert inside the inbox at scale?",
+  "response": "# Email Engagement & Interactive Software\n\nSeveral platforms excel at interactive inbox experiences:\n\n## **Specialized Interactive Email Platforms**\n- **Dyspatch** - Drag-and-drop builder with AMP for Email support\n- **Stripo** - Interactive elements (carousels, forms, countdowns)\n- **Mailmodo** - Forms and surveys directly in email\n- **Google AMP for Email** - Native interactive elements in Gmail/Yahoo Mail\n\n## **Marketing Automation with Interactive Features**\n- **HubSpot** - Interactive content + email workflows\n- **Klaviyo** - Known for ecommerce engagement at scale\n- **Iterable** - Dynamic content personalization\n- **Sailthru** - AI-driven personalization + interactivity\n\n## **Key Interactive Elements That Convert**\n- Countdown timers\n- Product carousels\n- Click-to-reveal content\n- Accordion menus\n- Rating/review forms\n- Buy buttons (where supported)\n\n## **Important Caveat**\n**AMP for Email support is limited** — only Gmail, Yahoo Mail, and a few others support interactive elements. Standard email clients require fallback content. This limits scale depending on your audience.\n\n**For actual scale**, consider:\n- Hybrid approaches (interactivity for supported clients, strong static fallbacks)\n- Testing conversion lift before major investment\n- Checking your audience's email client breakdown\n\nWhat's your primary goal — engagement metrics, conversions, or data collection?",
+  "cached_at": "2026-05-28T07:35:26Z",
+  "metadata": {}
+}

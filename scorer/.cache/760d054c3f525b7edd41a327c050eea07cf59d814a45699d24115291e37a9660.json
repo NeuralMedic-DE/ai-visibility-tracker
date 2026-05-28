@@ -1,0 +1,9 @@
+{
+  "brand": "Conveyor",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Conveyor integrate with Salesforce?",
+  "response": "Yes, Conveyor does integrate with Salesforce. This integration allows you to streamline workflows by connecting Conveyor's document and information management capabilities with Salesforce's CRM functionalities. This can help in automating data transfer, enhancing customer data management, and improving overall efficiency in handling customer-related documents. You would typically set up this integration through the respective platforms' integration settings or by using third-party tools that facilitate such connections.",
+  "cached_at": "2026-05-28T08:46:23Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Amplemarket",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Amplemarket integrate with Salesforce?",
+  "response": "# Amplemarket and Salesforce Integration\n\nYes, **Amplemarket does integrate with Salesforce**. The integration allows you to:\n\n- Sync contacts and leads between Amplemarket and Salesforce\n- Log activities and interactions directly to Salesforce\n- Manage your outreach campaigns while keeping Salesforce updated\n- Access Amplemarket's prospecting data within your Salesforce workflow\n\n## How to Set It Up\n\nThe integration is typically available through:\n- Direct API connections\n- Native integrations in app marketplaces\n- Custom webhooks\n\nFor the most current details on setup, features, and any requirements, I'd recommend:\n1. Checking Amplemarket's official documentation\n2. Visiting Salesforce's AppExchange\n3. Contacting Amplemarket's support team\n\nIs there a specific aspect of the integration you'd like to know more about?",
+  "cached_at": "2026-05-27T19:04:37Z",
+  "metadata": {}
+}

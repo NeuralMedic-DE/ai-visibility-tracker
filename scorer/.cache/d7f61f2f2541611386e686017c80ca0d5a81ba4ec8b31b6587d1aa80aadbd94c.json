@@ -1,0 +1,9 @@
+{
+  "brand": "June.so",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect June.so with Segment?",
+  "response": "# Connecting June.so with Segment\n\nHere's how to set up the integration:\n\n## 1. **Get Your June.so API Key**\n- Log in to your [June.so dashboard](https://june.so)\n- Go to **Settings** → **API Keys**\n- Copy your API key\n\n## 2. **Configure in Segment**\n- Log in to your [Segment workspace](https://app.segment.com)\n- Navigate to **Catalog** and search for \"June\"\n- Click on the June destination\n- Click **Configure June**\n\n## 3. **Add Your June API Key**\n- Select the source you want to connect (your website or app)\n- Paste your June.so API key in the destination settings\n- Save your configuration\n\n## 4. **Map Events (if needed)**\n- Configure any event mappings if required\n- Enable the destination\n\n## 5. **Test the Connection**\n- Send a test event through Segment\n- Verify it appears in your June.so dashboard\n\n## Key Points\n- Make sure your Segment source is actively sending data\n- Events will start flowing to June.so automatically\n- Check June.so's [documentation](https://june.so/docs) for any specific requirements\n\n**Having issues?** Check that:\n- Your API key is correct and active\n- Your Segment source is enabled\n- Both services have active subscriptions\n\nNeed more help? Contact [June.so support](https://june.so/support) or Segment's support team.",
+  "cached_at": "2026-05-27T19:58:48Z",
+  "metadata": {}
+}

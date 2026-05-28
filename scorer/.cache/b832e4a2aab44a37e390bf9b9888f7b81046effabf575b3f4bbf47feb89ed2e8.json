@@ -1,0 +1,9 @@
+{
+  "brand": "Conveyor",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best security for sales and security teams at B2B SaaS companies dealing with security reviews?",
+  "response": "# Security Best Practices for B2B SaaS Sales & Security Reviews\n\n## For Security Teams\n\n**Documentation & Standardization**\n- Create a security questionnaire template (SOC 2, ISO 27001 aligned)\n- Build a security posture document covering: architecture, data handling, compliance certifications\n- Establish clear review SLAs and response protocols\n\n**Efficiency Systems**\n- Use a portal (Drata, Vanta) to automate questionnaire responses\n- Implement a secure document sharing system (not email)\n- Create tiered responses for different customer risk levels\n\n**Knowledge Management**\n- Document common questions with standard answers\n- Train sales team on which security claims are actually differentiators\n- Maintain audit logs of what was shared with whom\n\n## For Sales Teams\n\n**Preparation**\n- Understand your actual security posture (don't oversell)\n- Learn to translate technical capabilities into business impact\n- Know what you *can't* claim without evidence\n\n**During Reviews**\n- Involve security team early—never negotiate security features alone\n- Use the standardized materials, don't improvise\n- Flag unusual requests or unreasonable demands\n\n## Core Principle\n\n**The best security is alignment between what you claim, what you've documented, and what actually exists in your product.** Mismatches become liabilities.\n\nWhat specific pain point in your reviews are you trying to solve?",
+  "cached_at": "2026-05-28T08:46:03Z",
+  "metadata": {}
+}

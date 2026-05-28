@@ -1,0 +1,9 @@
+{
+  "brand": "Copper",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with track project and sales stages at scale?",
+  "response": "To track projects and sales stages at scale, you can use Customer Relationship Management (CRM) software and project management tools. Here are some popular options:\n\n1. **Salesforce**: A leading CRM platform that offers extensive features for managing sales processes, customer interactions, and project tracking.\n\n2. **HubSpot CRM**: A user-friendly CRM that provides tools for managing sales pipelines, tracking customer interactions, and automating marketing efforts.\n\n3. **Pipedrive**: A sales-focused CRM that helps manage sales pipelines and track deals through various stages.\n\n4. **Zoho CRM**: Offers a comprehensive suite of tools for managing sales, marketing, and customer support, along with project management features.\n\n5. **Trello**: A project management tool that uses boards and cards to help teams organize tasks and track project progress.\n\n6. **Asana**: A project management platform that allows teams to track work, manage projects, and collaborate effectively.\n\n7. **Monday.com**: A flexible work operating system that helps teams manage projects, workflows, and sales pipelines.\n\n8. **Microsoft Dynamics 365**: A suite of business applications that includes CRM and ERP capabilities, ideal for managing sales and projects at scale.\n\n9. **ClickUp**: A versatile project management tool that offers features for task management, time tracking, and sales pipeline management.\n\n10. **Smartsheet**: A platform for work management and automation that can be used to track projects and sales processes.\n\nThese tools vary in terms of features, scalability, and pricing, so it's important to evaluate them based on your specific needs and business size.",
+  "cached_at": "2026-05-27T18:21:48Z",
+  "metadata": {}
+}

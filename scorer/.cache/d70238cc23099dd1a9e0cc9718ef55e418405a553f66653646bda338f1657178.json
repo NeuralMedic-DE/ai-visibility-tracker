@@ -1,0 +1,9 @@
+{
+  "brand": "Paddle",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to FastSpring",
+  "response": "# Cheaper Alternatives to FastSpring\n\n## **Free/Low-Cost Options**\n\n| Platform | Best For | Starting Price |\n|----------|----------|-----------------|\n| **Gumroad** | Digital products, creators | Free (10% fee) |\n| **Lemonsqueezy** | Digital products, SaaS | Free (8.5% fee) |\n| **SendOwl** | Digital downloads | Free (5% fee + $0.50) |\n| **Paddle** | SaaS, software | ~2% + $0.50 per transaction |\n| **Stripe** | Custom integration | 2.9% + $0.30 |\n\n## **By Use Case**\n\n### **Digital Products Only**\n- **Gumroad** - Simplest, most creator-friendly\n- **Lemonsqueezy** - Better affiliate support\n- **SendOwl** - Good for email delivery\n\n### **SaaS/Subscriptions**\n- **Stripe Billing** - Most flexible, developer-friendly\n- **Paddle** - All-in-one with VAT handling\n- **Recurly** - Subscription-focused\n\n### **Physical + Digital**\n- **WooCommerce** - Self-hosted, full control\n- **Shopify** - Best all-around, but pricier\n- **Big Cartel** - Affordable for small shops\n\n## **Key Considerations**\n\n- **Transaction fees** matter more than platform fees at scale\n- **Payment methods** supported vary by region\n- **Tax/VAT handling** complexity differs significantly\n- **Integrations** needed (email, analytics, etc.)\n\n**What are you selling?** The best choice depends heavily on your product type and geography.",
+  "cached_at": "2026-05-28T06:59:59Z",
+  "metadata": {}
+}

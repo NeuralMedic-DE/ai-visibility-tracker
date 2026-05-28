@@ -1,0 +1,9 @@
+{
+  "brand": "Charlie HR",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Charlie HR Google Workspace integration: how does it work?",
+  "response": "# Charlie HR & Google Workspace Integration\n\n## Core Functionality\n\nThe integration connects Charlie HR (HR management software) with Google Workspace, enabling:\n\n### **Key Features**\n- **Directory Sync**: Employee data syncs between Charlie HR and Google Contacts/Directory\n- **User Account Management**: Auto-create/update Google Workspace accounts based on Charlie HR records\n- **Single Sign-On (SSO)**: Authenticate using Google accounts through SAML\n- **Email Integration**: Gmail access for employees with synced profiles\n- **Groups Management**: Automatically create and manage Google Groups based on departments/teams\n\n## How It Works\n\n```\nCharlie HR Database\n        ↓\n    API Connection\n        ↓\nGoogle Workspace Tenant\n(Contacts, Users, Groups, Gmail)\n```\n\n### **Setup Process**\n1. Enable integration in Charlie HR settings\n2. Authenticate with Google Workspace admin account\n3. Configure sync rules (which fields/users to sync)\n4. Map Charlie HR fields to Google Workspace fields\n5. Run initial sync + set automatic recurring syncs\n\n## Common Use Cases\n\n- ✅ Automatic employee onboarding in Google Workspace\n- ✅ Directory updates when employee info changes\n- ✅ Offboarding (disable accounts, remove from groups)\n- ✅ Organizing Google Groups by department\n- ✅ Reducing manual data entry\n\n## Requirements\n\n- Active Charlie HR subscription\n- Google Workspace admin access\n- API permissions enabled\n- Proper field mapping configuration\n\n**Need specifics about setup or troubleshooting?** Let me know!",
+  "cached_at": "2026-05-28T06:44:03Z",
+  "metadata": {}
+}

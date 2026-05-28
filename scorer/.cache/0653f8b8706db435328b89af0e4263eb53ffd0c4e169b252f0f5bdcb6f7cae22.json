@@ -1,0 +1,9 @@
+{
+  "brand": "Fivetran",
+  "prompt_id": "IN-05",
+  "llm": "openai",
+  "prompt_text": "data integration tools with native Snowflake integration",
+  "response": "There are several data integration tools that offer native integration with Snowflake, allowing you to easily connect, transform, and load data into Snowflake. Here are some popular ones:\n\n1. **Fivetran**: Provides automated data integration, offering connectors that can easily sync data from various sources into Snowflake.\n\n2. **Stitch**: A simple, powerful ETL service for businesses of all sizes, Stitch supports native integration with Snowflake.\n\n3. **Matillion**: A cloud-native data integration tool that offers ETL/ELT capabilities with deep integration into Snowflake.\n\n4. **Talend**: Offers a suite of data integration and management tools, including native connectors for Snowflake.\n\n5. **Informatica**: Provides comprehensive data integration solutions with Snowflake connectors for seamless data movement.\n\n6. **DBT (Data Build Tool)**: While primarily a transformation tool, DBT works well with Snowflake for transforming data within the warehouse.\n\n7. **Alteryx**: Offers data preparation, blending, and analytics capabilities with Snowflake integration.\n\n8. **SnapLogic**: Provides an integration platform as a service (iPaaS) with connectors for Snowflake.\n\n9. **Qlik**: Offers data integration and analytics solutions with native support for Snowflake.\n\n10. **AWS Glue**: A fully managed ETL service that can connect to Snowflake for data processing and transformation.\n\nThese tools vary in terms of features, pricing, and complexity, so the best choice depends on your specific needs and existing infrastructure.",
+  "cached_at": "2026-05-28T08:58:48Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Langfuse",
+  "prompt_id": "IN-05",
+  "llm": "openai",
+  "prompt_text": "AI tooling tools with native LangChain integration",
+  "response": "LangChain is a popular framework for building applications with language models, and several AI tooling tools have native integration with it. Some of these tools include:\n\n1. **Pinecone**: A vector database that integrates with LangChain to manage and query vector embeddings efficiently.\n\n2. **Weaviate**: Another vector database that supports LangChain integration, allowing for semantic search and other operations on vector data.\n\n3. **Chroma**: An open-source embedding database that can be used with LangChain for storing and retrieving vector embeddings.\n\n4. **Milvus**: A vector database system that integrates with LangChain, useful for handling large-scale vector data and performing similarity searches.\n\n5. **Qdrant**: A vector similarity search engine that works with LangChain to provide fast and scalable vector search capabilities.\n\n6. **Redis**: With its vector similarity search capabilities, Redis can be used alongside LangChain for efficient data retrieval.\n\nThese integrations help developers build more robust and scalable applications by leveraging the strengths of both LangChain and these specialized tools.",
+  "cached_at": "2026-05-28T07:56:32Z",
+  "metadata": {}
+}

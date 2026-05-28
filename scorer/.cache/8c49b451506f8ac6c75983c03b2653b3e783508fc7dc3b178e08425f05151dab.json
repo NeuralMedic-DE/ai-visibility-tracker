@@ -1,0 +1,9 @@
+{
+  "brand": "Salesflare",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best CRM for small B2B teams and agencies?",
+  "response": "# Best CRM Options for Small B2B Teams\n\n## Top Picks\n\n**HubSpot CRM** (Free → Paid)\n- Strong free tier with solid features\n- Excellent onboarding and documentation\n- Good for sales + marketing alignment\n- Best if: You want an all-in-one platform\n\n**Pipedrive** ($$)\n- Visual sales pipeline focus\n- Intuitive for sales-driven teams\n- Strong automation at lower price points\n- Best if: Sales pipeline management is your priority\n\n**Zoho CRM** ($)\n- Very affordable, highly customizable\n- Good for agencies managing multiple clients\n- Broad feature set\n- Best if: Budget is tight but you need flexibility\n\n## Others Worth Considering\n\n- **Copper** - Great for Google Workspace integration\n- **Close** - Built for aggressive outbound sales\n- **Capsule** - Simple, relationship-focused\n- **Monday.com CRM** - If you're already in their ecosystem\n\n## Key Questions to Ask Yourself\n\n1. **Primary use case?** (Pipeline management vs. relationship tracking vs. deal forecasting)\n2. **Team size & growth plans?** (Pricing scales differently)\n3. **Integration needs?** (Email, calendar, accounting software?)\n4. **Technical capacity?** (Simple vs. heavily customizable)\n\nMost offer free trials—I'd recommend testing 2-3 with your actual workflow before deciding. The \"best\" CRM is usually the one your team will actually use consistently.\n\nWhat's your main pain point right now?",
+  "cached_at": "2026-05-27T18:12:59Z",
+  "metadata": {}
+}

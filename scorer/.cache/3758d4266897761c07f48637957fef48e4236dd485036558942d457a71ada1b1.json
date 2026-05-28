@@ -1,0 +1,9 @@
+{
+  "brand": "SafeBase",
+  "prompt_id": "AL-05",
+  "llm": "anthropic",
+  "prompt_text": "Open source or affordable security tools instead of Whistic",
+  "response": "# Open Source & Affordable Security Assessment Tools\n\n## Open Source Alternatives\n\n### Comprehensive Platforms\n- **OpenSCAP** - Vulnerability scanning & compliance (NIST, CIS)\n- **Vuls** - Agentless vulnerability scanner\n- **Wazuh** - Security monitoring & posture management\n- **TheHive** - Incident response & case management\n- **Graylog** - Log management & security analytics\n\n### Specific Functions\n- **Nessus Essentials** - Free vulnerability scanner (limited scope)\n- **OpenVAS** - Full vulnerability assessment\n- **Lynis** - Security auditing tool\n- **OWASP ZAP** - Application security testing\n\n## Lightweight/Affordable SaaS\n\n| Tool | Best For | Price |\n|------|----------|-------|\n| **Vanta** | Compliance automation | ~$1.5k/mo |\n| **Drata** | SOC 2, ISO automation | ~$2k/mo |\n| **Secureframe** | Quick compliance | ~$1.5k/mo |\n| **Sprinto** | Mid-market compliance | Custom |\n| **OneTrust** | Privacy/compliance | Scalable |\n\n## Hybrid Approach\n- Use **open source** tools for scanning/monitoring\n- Layer with **affordable** SaaS for specific compliance needs\n- Build custom dashboards (Python/Grafana)\n\n**Key consideration:** Open source requires more setup/maintenance but has zero licensing costs.\n\nWhat's your primary use case—vulnerability management, compliance, or general posture?",
+  "cached_at": "2026-05-28T08:43:36Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Neon",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Neon GitHub integration: how does it work?",
+  "response": "# Neon GitHub Integration Overview\n\nNeon's GitHub integration streamlines PostgreSQL database management by connecting your repositories to Neon projects. Here's how it works:\n\n## Key Features\n\n### 1. **Automatic Branching**\n- Creates database branches automatically when you open pull requests\n- Branch names typically match your Git branch names\n- Each PR gets an isolated database environment for testing\n\n### 2. **Database Environments Per PR**\n```\nMain branch → Production database\nFeature branch → Isolated test database\n```\n\n### 3. **GitHub Actions Integration**\nYou can use Neon with GitHub Actions to:\n- Run migrations automatically\n- Execute tests against branch-specific databases\n- Deploy with environment-specific connection strings\n\n### 4. **Connection Management**\n```javascript\n// GitHub Actions example\n- name: Connect to Neon DB\n  env:\n    DATABASE_URL: ${{ secrets.NEON_DATABASE_URL }}\n  run: npm test\n```\n\n## Setup Steps\n\n1. **Authenticate GitHub** in Neon dashboard\n2. **Select repository** to connect\n3. **Configure branching policy**\n   - Auto-create branches from PRs\n   - Set branch retention rules\n4. **Add GitHub secrets** for database URLs\n5. **Use in CI/CD** pipelines\n\n## Benefits\n\n✅ **Isolation** - Each PR has its own test database  \n✅ **Safety** - No production data exposed  \n✅ **Automation** - Reduces manual setup  \n✅ **Cost** - Automatic cleanup of branch databases  \n\n## Common Use Cases\n\n- Testing schema changes before merging\n- Integration testing with real PostgreSQL\n- Preview environments for stakeholders\n\nWould you like details on setting this up for a specific framework?",
+  "cached_at": "2026-05-28T06:18:05Z",
+  "metadata": {}
+}

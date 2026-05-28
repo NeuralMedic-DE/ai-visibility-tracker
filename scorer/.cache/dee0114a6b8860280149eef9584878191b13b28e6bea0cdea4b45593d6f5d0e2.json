@@ -1,0 +1,9 @@
+{
+  "brand": "Folk",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which CRM software should a founder or BD lead at an early-stage startup use?",
+  "response": "# CRM for Early-Stage Startups\n\n**Best options depend on your specific situation:**\n\n## If you're pre-product or very early (< $100K ARR)\n- **Spreadsheet first** (Google Sheets/Airtable) — honestly, this is often smarter than paying for CRM overhead\n- **Notion** — free, flexible, good enough for tracking relationships\n- Start here to validate that CRM complexity is actually your bottleneck\n\n## If you're actively selling ($100K-$1M ARR)\n- **Hubspot Free** — solid default choice. Free tier is genuinely useful, paid tier ($45/mo) is reasonable\n- **Pipedrive** — simpler than Hubspot, better deal pipeline visualization ($15/mo)\n- **Close** — lightweight, good if your sales cycle is straightforward\n\n## What actually matters\n- **Does it integrate with your email?** (huge time-saver)\n- **Can you set it up in 2 hours?** (not 2 weeks)\n- **Will you actually use it?** (better to have 80% adoption of Sheets than 20% adoption of enterprise CRM)\n- **Can you export your data?** (avoid vendor lock-in)\n\n## My take\nAs a founder/BD lead early on: **Use Airtable or Pipedrive**. They're lightweight, you'll actually maintain them, and they scale as you grow. Don't optimize for a problem (complex sales process) you don't have yet.\n\nWhat's your current revenue/stage? That would help narrow it down.",
+  "cached_at": "2026-05-27T18:52:36Z",
+  "metadata": {}
+}

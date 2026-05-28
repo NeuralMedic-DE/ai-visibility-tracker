@@ -1,0 +1,9 @@
+{
+  "brand": "Supermetrics",
+  "prompt_id": "UC-03",
+  "llm": "openai",
+  "prompt_text": "What tools do digital marketing agencies and in-house marketing teams companies use to pull marketing data from all ad platforms into spreadsheets?",
+  "response": "Digital marketing agencies and in-house marketing teams often use a variety of tools to aggregate marketing data from multiple ad platforms into spreadsheets. Some popular tools include:\n\n1. **Supermetrics**: This tool integrates with platforms like Google Ads, Facebook Ads, LinkedIn Ads, and more, allowing users to pull data directly into Google Sheets, Excel, or Google Data Studio.\n\n2. **Funnel.io**: Funnel.io collects data from various marketing platforms and can export it to Google Sheets, Excel, or data warehouses for further analysis.\n\n3. **Zapier**: While not specifically designed for marketing data, Zapier can automate the process of pulling data from different platforms and sending it to Google Sheets or other applications.\n\n4. **Improvado**: This platform aggregates data from numerous marketing channels and can export it to spreadsheets, BI tools, or data warehouses.\n\n5. **Adverity**: Adverity provides data integration and visualization solutions, allowing users to pull data from various sources into spreadsheets or other reporting tools.\n\n6. **Google Data Studio**: While primarily a visualization tool, it can connect to various data sources and export data to Google Sheets.\n\n7. **CData**: CData offers connectors that allow users to pull data from various marketing platforms into Excel.\n\nThese tools help streamline the process of data collection and reporting, making it easier for marketing teams to analyze performance across different channels.",
+  "cached_at": "2026-05-27T20:35:35Z",
+  "metadata": {}
+}

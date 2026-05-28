@@ -1,0 +1,9 @@
+{
+  "brand": "Vellum",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to Braintrust",
+  "response": "# Cheaper Alternatives to Braintrust\n\n## **Freelance Platforms**\n- **Upwork** - Lower fees (5-20%), massive talent pool\n- **Fiverr** - Gig-based, competitive pricing\n- **PeoplePerHour** - 20% platform fee, global freelancers\n- **Toptal** - Similar vetting to Braintrust but more competitive rates\n- **Gun.io** - Dev-focused, lower costs than Braintrust\n\n## **Direct Hiring**\n- **LinkedIn** - Find talent directly, negotiate rates\n- **GitHub** - Discover developers by their work\n- **Twitter/X** - Source tech talent directly\n- **Angel List** - Hire startups and early-stage talent\n\n## **Niche Platforms**\n- **Moonlight** - Dev/designers with lower commission (10%)\n- **Contra** - Creator-first platform, minimal fees\n- **Dwell** - AI-matched talent\n- **Koala Inspector** - Vetted freelancers at lower rates\n\n## **Cost Comparison**\n| Platform | Fee Model |\n|----------|-----------|\n| Braintrust | 10% take rate |\n| Upwork | 5-20% |\n| Toptal | 15% + monthly fee |\n| Fiverr | 20% |\n| Direct hiring | 0% |\n\n## **Best For Budget**\n- **Minimum cost**: Direct sourcing via LinkedIn/GitHub\n- **Balance**: Upwork with clear vetting\n- **Dev talent**: Gun.io or Moonlight\n\n**Key tip**: Higher platform fees often mean better vetting—factor quality into your decision.",
+  "cached_at": "2026-05-28T07:44:54Z",
+  "metadata": {}
+}

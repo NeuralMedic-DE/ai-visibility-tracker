@@ -1,0 +1,9 @@
+{
+  "brand": "Attio",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Attio Zapier integration: how does it work?",
+  "response": "# Attio Zapier Integration Overview\n\n## How It Works\n\nAttio integrates with Zapier to connect with 6,000+ apps without custom coding. Here's the basic flow:\n\n### Core Concept\n- **Zapier acts as a bridge** between Attio and other apps\n- **Triggers** = events in Attio or external apps that start automation\n- **Actions** = what happens in Attio as a result\n\n## Common Use Cases\n\n| Trigger | Action | Benefit |\n|---------|--------|---------|\n| New contact created in Attio | Add to email list (Mailchimp, etc.) | Auto-sync leads |\n| Form submission (Typeform, etc.) | Create Attio record | Capture data automatically |\n| Slack message | Create Attio record | Turn conversations into tasks |\n| New deal stage | Send Slack notification | Keep team updated |\n\n## How to Set Up\n\n1. **Open Zapier** and create a new Zap\n2. **Select Attio as trigger or action** (depending on direction)\n3. **Authenticate** your Attio account\n4. **Configure** which records/fields to use\n5. **Test & activate** the workflow\n\n## Key Capabilities\n\n✅ Create/update records in Attio  \n✅ Trigger workflows based on Attio events  \n✅ Map fields between systems  \n✅ Filter & condition workflows  \n✅ Use multi-step automations\n\n## Limitations\n\n- Depends on Zapier's rate limits\n- Real-time vs. scheduled syncing differs by plan\n- Custom field mapping may require testing\n\n**Need specifics?** What's the integration you're trying to set up?",
+  "cached_at": "2026-05-27T17:55:12Z",
+  "metadata": {}
+}

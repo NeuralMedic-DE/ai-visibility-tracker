@@ -1,0 +1,9 @@
+{
+  "brand": "Finaloop",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Finaloop integrate with Shopify?",
+  "response": "Yes, Finaloop integrates with Shopify. This integration allows businesses to streamline their financial operations by automatically syncing their Shopify sales data with Finaloop's accounting platform. This helps in maintaining accurate financial records and simplifies bookkeeping processes.",
+  "cached_at": "2026-05-28T07:07:37Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Raycast",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best productivity for Mac-based developer and design teams at tech companies?",
+  "response": "# High-Productivity Setup for Mac Teams\n\n## Core Tools & Infrastructure\n\n**Development Environment**\n- VS Code or JetBrains IDEs with consistent configs (dotfiles repos)\n- iTerm2 + Zsh for terminal workflows\n- Git workflow standardization (GitHub/GitLab)\n- Docker for environment parity\n\n**Collaboration**\n- Slack + threads (reduces email)\n- Linear or Jira for lightweight issue tracking\n- Figma for design (works seamlessly on Mac)\n- GitHub Projects or similar for sprint planning\n\n## Team Practices That Actually Work\n\n**Async-First**\n- Written documentation over meetings\n- Decision logs in repos\n- Recorded demos instead of live walkthroughs\n- Clear PR review expectations (24-48hr windows)\n\n**Design-Dev Integration**\n- Design tokens in shared packages\n- Component libraries (Storybook)\n- Design handoff via Figma tokens or comparable\n- Early dev input on feasibility\n\n**Developer Experience**\n- One-command setup scripts\n- Fast CI/CD pipelines\n- Local development that mirrors production\n- Clear debugging tools\n\n## What Actually Boosts Productivity\n\n1. **Reduce meeting time** (aim for <20% of workweek)\n2. **Minimize context-switching** (focused work blocks)\n3. **Automate repetitive tasks** (linting, formatting pre-commit)\n4. **Clear ownership** (reduces coordination overhead)\n5. **Regular retros** (adapt tools to your actual workflow)\n\n**The biggest lever:** Removing blockers matters more than any single tool.\n\nWhat specific bottlenecks is your team experiencing?",
+  "cached_at": "2026-05-28T06:25:01Z",
+  "metadata": {}
+}

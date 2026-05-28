@@ -1,0 +1,9 @@
+{
+  "brand": "Drip",
+  "prompt_id": "AL-05",
+  "llm": "anthropic",
+  "prompt_text": "Open source or affordable marketing automation tools instead of Mailchimp",
+  "response": "# Open Source & Affordable Marketing Automation Alternatives\n\n## **Free/Self-Hosted Options**\n\n### **Mautic**\n- Open-source marketing automation platform\n- Email, SMS, landing pages, lead scoring\n- Host on your own server or use cloud\n- Great for small teams with technical resources\n\n### **OpenEMM**\n- Free, open-source email marketing\n- List management, segmentation, automation\n- Requires self-hosting and setup knowledge\n\n### **ListMonk**\n- Lightweight, open-source newsletter tool\n- Clean UI, very affordable self-hosting\n- Good for email campaigns (not full automation)\n\n---\n\n## **Budget-Friendly SaaS**\n\n### **Brevo** (formerly Sendinblue)\n- **Free plan**: 300 emails/day, unlimited contacts\n- SMS, landing pages, CRM basics\n- ~$20/month for automation features\n- EU-based, strong GDPR compliance\n\n### **ActiveCampaign**\n- Starts ~$15/month (basic email)\n- Automation, CRM, landing pages\n- Better value than Mailchimp at lower tiers\n\n### **HubSpot Free**\n- Email, basic automation, CRM\n- No contact limits\n- Good entry point before paid tiers\n\n### **Klaviyo** (if e-commerce focused)\n- Free for up to 250 contacts\n- Strong for SMS + email workflows\n- Pay-per-contact model\n\n---\n\n## **Other Solid Options**\n\n- **ConvertKit** - Creators/bloggers (~$29/mo)\n- **Moosend** - Affordable automation (~$10/mo start)\n- **GetResponse** - All-in-one (~$15/mo)\n\n**What's your main use case?** That helps narrow down the best fit.",
+  "cached_at": "2026-05-28T07:33:01Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Supermetrics",
+  "prompt_id": "CD-02",
+  "llm": "openai",
+  "prompt_text": "Top marketing data pipeline tool for agencies and in-house teams tools in 2025",
+  "response": "As of 2025, several marketing data pipeline tools are popular among agencies and in-house teams for their ability to efficiently manage and analyze data. Here are some of the top tools:\n\n1. **Fivetran**: Known for its ease of use and automated data integration capabilities, Fivetran continues to be a favorite for its ability to seamlessly connect various data sources to a central warehouse.\n\n2. **Segment**: This tool is widely used for customer data management, allowing teams to collect, clean, and control customer data across different platforms.\n\n3. **Supermetrics**: Particularly popular among marketing teams, Supermetrics excels in pulling data from various marketing platforms into tools like Google Sheets, Excel, and data warehouses.\n\n4. **Hevo Data**: An intuitive platform that offers real-time data integration without the need for coding, making it accessible for teams without extensive technical expertise.\n\n5. **Airbyte**: An open-source data integration platform that has gained traction for its flexibility and community-driven connector development.\n\n6. **Stitch**: Part of the Talend family, Stitch is known for its simplicity and efficiency in moving data from various sources to data warehouses.\n\n7. **Matillion**: This tool is favored for its cloud-native data transformation capabilities, particularly for teams using AWS, Google Cloud, or Snowflake.\n\nThese tools are selected based on their ability to handle large volumes of data, ease of use, integration capabilities, and support for a wide range of data sources. The choice of tool often depends on specific business needs, existing tech stack, and budget considerations.",
+  "cached_at": "2026-05-27T20:33:44Z",
+  "metadata": {}
+}

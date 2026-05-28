@@ -1,0 +1,9 @@
+{
+  "brand": "Zapier",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Make vs alternatives: what should I switch to?",
+  "response": "# Make Alternatives: What to Consider\n\nYour best option depends on your use case. Here are the main contenders:\n\n## **If you want something similar but modern:**\n- **Just** (Rust) – Cleaner syntax, better error messages\n- **Task** (Go) – Simple, cross-platform friendly\n- **Taskfile** (Go) – YAML-based, easier to read\n\n## **If you're doing CI/CD:**\n- **GitHub Actions, GitLab CI, etc.** – Purpose-built for this\n- **Ansible** – If you need infrastructure automation\n\n## **If you need full build systems:**\n- **Meson** – Modern, faster, better for compiled projects\n- **Bazel** – Complex projects, great for monorepos\n- **CMake** – Still standard for C/C++\n\n## **If you like Make but want better scripting:**\n- **Gradle** (JVM-based) – Powerful task runner\n- **npm scripts** – Fine for Node projects\n- **Python tools** – Poetry, invoke, or plain scripts\n\n## **Quick decision tree:**\n- Sticking with Make? → Probably fine; it's not going anywhere\n- Need readable syntax? → **Task** or **Just**\n- Building C/C++? → **CMake** or **Meson**\n- Quick ad-hoc tasks? → Shell scripts or **Just**\n- Running in CI? → Use your platform's native tools\n\n**Most honest take:** Make isn't perfect, but switching has real costs. Unless you're hitting specific pain points, sometimes the devil you know beats learning a new tool.\n\nWhat's driving your search?",
+  "cached_at": "2026-05-28T08:51:14Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Humaans",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with automate onboarding and offboarding workflows with zero manual effort at scale?",
+  "response": "There are several software solutions designed to automate onboarding and offboarding workflows with minimal manual effort. Some popular options include:\n\n1. **BambooHR**: Offers automated onboarding checklists and workflows to streamline the process for new hires.\n\n2. **Workday**: Provides comprehensive HR solutions, including automated onboarding and offboarding processes.\n\n3. **Rippling**: Allows you to automate the entire employee lifecycle, from onboarding to offboarding, with integrations across various apps and services.\n\n4. **Gusto**: Primarily known for payroll, Gusto also offers onboarding features that automate paperwork and compliance tasks.\n\n5. **Sapling**: Specializes in automating HR processes, including onboarding and offboarding, with customizable workflows.\n\n6. **Zenefits**: Offers an integrated platform that automates HR processes, including onboarding and offboarding.\n\n7. **Breezy HR**: Focuses on recruitment but also provides onboarding automation features to help new hires get started smoothly.\n\nThese tools typically integrate with other systems, such as payroll and IT, to ensure a seamless transition for employees joining or leaving the organization.",
+  "cached_at": "2026-05-28T06:48:19Z",
+  "metadata": {}
+}

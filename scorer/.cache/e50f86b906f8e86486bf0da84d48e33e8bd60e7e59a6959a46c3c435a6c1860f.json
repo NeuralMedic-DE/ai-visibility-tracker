@@ -1,0 +1,9 @@
+{
+  "brand": "Secureframe",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Secureframe integrate with GitHub?",
+  "response": "Yes, Secureframe integrates with GitHub. This integration helps automate the process of collecting evidence for compliance audits by monitoring your GitHub repositories for security and compliance-related activities. It can track things like access controls, branch protection rules, and other security settings to ensure they meet compliance requirements.",
+  "cached_at": "2026-05-28T08:33:45Z",
+  "metadata": {}
+}

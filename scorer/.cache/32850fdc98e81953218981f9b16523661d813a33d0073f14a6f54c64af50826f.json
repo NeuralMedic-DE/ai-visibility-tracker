@@ -1,0 +1,9 @@
+{
+  "brand": "Mixpanel",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with analyze funnel conversion rates at scale?",
+  "response": "To analyze funnel conversion rates at scale, you can use a variety of software tools that offer robust analytics and reporting features. Here are some popular options:\n\n1. **Google Analytics**: A widely used tool that provides detailed insights into website traffic and user behavior, including funnel visualization and conversion tracking.\n\n2. **Mixpanel**: Offers advanced analytics for tracking user interactions and conversion funnels, with a focus on product analytics.\n\n3. **Amplitude**: Specializes in product analytics and provides detailed funnel analysis to help understand user behavior and conversion rates.\n\n4. **Adobe Analytics**: Part of the Adobe Experience Cloud, it offers comprehensive analytics capabilities, including conversion funnel analysis.\n\n5. **Heap**: Automatically captures all user interactions and provides tools for analyzing conversion funnels without requiring manual event tracking setup.\n\n6. **Kissmetrics**: Focuses on customer engagement and behavior, providing detailed funnel reports to optimize conversion rates.\n\n7. **Hotjar**: While primarily known for heatmaps and session recordings, it also offers funnel analysis features to understand where users drop off.\n\n8. **Pendo**: Provides insights into user behavior and product usage, including funnel analysis to improve conversion rates.\n\nThese tools vary in terms of features, pricing, and complexity, so the best choice will depend on your specific needs, budget, and technical expertise.",
+  "cached_at": "2026-05-27T19:12:40Z",
+  "metadata": {}
+}

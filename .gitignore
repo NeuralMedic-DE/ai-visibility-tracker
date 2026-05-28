@@ -39,3 +39,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .env.local.from-workspace-root
+
+# local dev data (may contain emails)
+data/waitlist-local.json

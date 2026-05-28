@@ -1,0 +1,9 @@
+{
+  "brand": "Vercel",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Netlify vs alternatives: what should I switch to?",
+  "response": "# Netlify Alternatives: Key Considerations\n\n## Main reasons people consider switching:\n- **Cost** (pricing increases, especially for functions)\n- **Performance** issues in specific regions\n- **Build time limits** (15 min on free tier)\n- **Vendor lock-in** concerns\n\n## Strong alternatives by use case:\n\n### **Best overall replacement: Vercel**\n- Similar DX, arguably better Next.js support\n- Comparable pricing, generous free tier\n- Excellent edge functions\n- *Caveat: also has cost concerns at scale*\n\n### **Best for cost-consciousness: Cloudflare Pages**\n- Free tier is genuinely free (no build time limits)\n- Fast, global CDN included\n- Workers for serverless (affordable)\n- *Downside: less polished UX, smaller ecosystem*\n\n### **Best for control: Self-hosted options**\n- **Railway, Render, Fly.io** — simple deployment, transparent pricing\n- **VPS + Docker** — full control, lowest marginal cost at scale\n- *Tradeoff: more DevOps overhead*\n\n### **Best for static sites only: GitHub Pages**\n- Free, integrated with repos\n- Limited (no serverless functions)\n\n## Quick decision matrix:\n\n| Priority | Recommendation |\n|----------|---|\n| Best DX | Vercel |\n| Cost-conscious | Cloudflare Pages |\n| Full control | Railway/Render |\n| Lowest cost at scale | Self-hosted VPS |\n| Avoid switching | Usually Netlify stays competitive for typical projects |\n\n**Real talk:** Most Netlify users don't actually need to switch. Is there a specific pain point driving this?",
+  "cached_at": "2026-05-27T21:27:51Z",
+  "metadata": {}
+}

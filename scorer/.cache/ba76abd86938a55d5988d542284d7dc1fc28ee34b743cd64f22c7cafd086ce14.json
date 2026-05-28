@@ -1,0 +1,9 @@
+{
+  "brand": "Doppler",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to AWS Secrets Manager",
+  "response": "# Cheaper Alternatives to AWS Secrets Manager\n\n## 1. **HashiCorp Vault**\n- **Cost**: Self-hosted (free) or Vault Cloud ($0.50/secret/month)\n- **Best for**: Organizations wanting full control\n- **Pros**: Comprehensive, multi-cloud, excellent audit logging\n- **Cons**: Operational overhead, steeper learning curve\n\n## 2. **Kubernetes Secrets** (if using K8s)\n- **Cost**: Free (included with K8s)\n- **Best for**: Container-native workloads\n- **Pros**: Native integration, no external dependency\n- **Cons**: Limited encryption by default, less flexible\n\n## 3. **Doppler**\n- **Cost**: Free tier (50 configs), paid starts ~$7/user/month\n- **Best for**: Developer-first teams\n- **Pros**: Great UX, CLI tools, fast setup\n- **Cons**: Smaller ecosystem than Vault\n\n## 4. **1Password Business**\n- **Cost**: ~$3.99/person/month\n- **Best for**: Team credential sharing\n- **Pros**: User-friendly, excellent security\n- **Cons**: Not specifically designed for applications\n\n## 5. **Infisical**\n- **Cost**: Self-hosted free, Cloud ~$6/month\n- **Best for**: Budget-conscious teams\n- **Pros**: Open-source, affordable, easy deployment\n- **Cons**: Newer, smaller community\n\n## 6. **Azure Key Vault** (if on Azure)\n- **Cost**: ~$0.03 per 10K operations\n- **Best for**: Azure-native stacks\n- **Pros**: Very cheap, tight Azure integration\n- **Cons**: Azure lock-in\n\n## Cost Comparison (Monthly, 1000 secrets)\n| Service | Est. Cost |\n|---------|-----------|\n| AWS Secrets Manager | $400-600 |\n| Vault Cloud | $500+ |\n| Doppler | $7-30 |\n| Infisical | $0-6 |\n| Azure Key Vault | ~$3-10 |\n\n**Pro tip**: For most small/medium teams, **Doppler** or **Infisical** offer the best balance of features and cost.",
+  "cached_at": "2026-05-28T06:20:29Z",
+  "metadata": {}
+}

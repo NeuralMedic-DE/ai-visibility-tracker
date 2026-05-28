@@ -1,0 +1,9 @@
+{
+  "brand": "Attio",
+  "prompt_id": "AL-03",
+  "llm": "anthropic",
+  "prompt_text": "Best CRM alternatives for B2B startups teams on a budget",
+  "response": "# Best CRM Alternatives for Budget-Conscious B2B Startups\n\n## Free & Freemium Options\n\n**HubSpot CRM**\n- Truly free tier (no expiration)\n- Contact management, basic automation, pipeline tracking\n- Great for early-stage teams\n- Scales up as you grow\n\n**Zoho CRM**\n- Free plan for up to 3 users\n- India-based, very affordable pricing\n- Solid feature set even at lower tiers\n- Good API for custom integrations\n\n**Pipedrive**\n- Free for solo founders\n- Low-cost paid plans ($15/user/month)\n- Pipeline-focused interface\n- Excellent user experience\n\n## Open Source Options\n\n**ERPNext**\n- Completely free and open source\n- Full ERP + CRM capabilities\n- Self-hosted (requires some technical setup)\n- Good for teams comfortable with DevOps\n\n**Odoo**\n- Free community edition\n- More complex, steeper learning curve\n- Extensive customization possible\n- Better for technical co-founders\n\n## Lightweight Alternatives\n\n**Clay**\n- Prospecting + relationship management\n- Free tier available\n- Excellent for outbound B2B sales\n- Strong data enrichment features\n\n**Monica**\n- Open source personal CRM\n- Lightweight, privacy-focused\n- Better for relationship tracking than sales\n- Minimal setup required\n\n## Budget Decision Framework\n\n| Need | Best Choice |\n|------|-------------|\n| **Quick start** | HubSpot CRM |\n| **Multiple users** | Zoho CRM |\n| **Sales-focused** | Pipedrive |\n| **Tech-savvy team** | ERPNext |\n| **Outbound B2B** | Clay |\n\n**Pro tip:** Start with free tiers, avoid over-investing before product-market fit. Most offer easy data export if you need to switch.\n\nWhat's your team size and primary use case?",
+  "cached_at": "2026-05-27T17:54:25Z",
+  "metadata": {}
+}

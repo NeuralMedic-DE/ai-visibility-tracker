@@ -1,0 +1,9 @@
+{
+  "brand": "Folk",
+  "prompt_id": "CD-05",
+  "llm": "anthropic",
+  "prompt_text": "Recommended CRM tools for startup founders and agency leads companies",
+  "response": "# Top CRM Tools for Startups & Agencies\n\n## **Best Overall Value**\n\n### **HubSpot Free/Starter**\n- Free tier covers essentials (contacts, deals, basic automation)\n- Excellent for agencies managing client relationships\n- Strong learning resources\n- Scales well as you grow\n\n### **Pipedrive**\n- Sales-pipeline focused\n- Intuitive visual interface\n- Affordable ($14/user/month)\n- Great for founders prioritizing deals\n\n---\n\n## **Best for Agencies**\n\n### **Agile CRM**\n- Built for service businesses\n- Project management + CRM\n- Affordable pricing (~$9.99/user/month)\n\n### **Zoho CRM**\n- Highly customizable\n- Excellent value for multiple users\n- Strong integration ecosystem\n- Free tier available\n\n---\n\n## **Best for Growth-Stage Startups**\n\n### **Salesforce Essentials**\n- Professional features without enterprise bloat\n- $165/user/month but feature-rich\n- Strong scalability\n\n### **Notion CRM Templates**\n- Minimal cost ($10/month)\n- Highly customizable\n- Good for small teams wanting flexibility\n\n---\n\n## **Best for Simplicity**\n\n### **Streak**\n- Operates inside Gmail (no new interface to learn)\n- Pipeline management + email tracking\n- $49+/month\n\n### **Monday.com Sales**\n- Visual, flexible workspace\n- Strong automation\n- Excellent UI/UX\n\n---\n\n## **Quick Selection Guide**\n\n| **If you prioritize...** | **Best choice** |\n|---|---|\n| Budget | HubSpot Free, Notion |\n| Sales pipeline | Pipedrive |\n| Agency workflows | Agile CRM, Zoho |\n| Simplicity | Streak |\n| Customization | Zoho, Notion |\n| Scalability | HubSpot, Salesforce |\n\n**Pro tip:** Most offer free trials—test 2-3 before committing.",
+  "cached_at": "2026-05-27T18:52:47Z",
+  "metadata": {}
+}

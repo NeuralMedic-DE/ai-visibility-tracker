@@ -1,0 +1,9 @@
+{
+  "brand": "Render",
+  "prompt_id": "AL-02",
+  "llm": "openai",
+  "prompt_text": "Cheaper alternatives to Railway",
+  "response": "If you're looking for cheaper alternatives to traveling by railway, here are a few options you might consider:\n\n1. **Bus Services**: Long-distance bus services are often more affordable than trains. Companies like Greyhound, Megabus, or FlixBus offer competitive pricing.\n\n2. **Carpooling/Ridesharing**: Services like BlaBlaCar allow you to share rides with others traveling in the same direction, which can be cost-effective.\n\n3. **Budget Airlines**: For longer distances, budget airlines might offer cheaper fares than trains, especially if you book in advance.\n\n4. **Bicycle**: For shorter distances, cycling can be a free and healthy alternative.\n\n5. **Hitchhiking**: Though less common and with safety considerations, hitchhiking can be a free way to travel.\n\n6. **Local Public Transport**: In some regions, local buses or trams might offer cheaper alternatives for shorter journeys.\n\n7. **Walking**: For very short distances, walking is obviously the most economical option.\n\nEach of these alternatives has its own pros and cons in terms of cost, convenience, and travel time, so it's worth considering your specific needs and circumstances when choosing the best option.",
+  "cached_at": "2026-05-27T21:34:31Z",
+  "metadata": {}
+}

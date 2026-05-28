@@ -1,0 +1,9 @@
+{
+  "brand": "Mixpanel",
+  "prompt_id": "AL-03",
+  "llm": "anthropic",
+  "prompt_text": "Best product analytics alternatives for product and growth teams at SaaS companies teams on a budget",
+  "response": "# Best Budget-Friendly Product Analytics for SaaS\n\n## Free/Freemium Tiers (Best Bang for Buck)\n\n**Plausible Analytics**\n- Simple, GDPR-compliant alternative to Google Analytics\n- ~$9/mo for small sites\n- Great for top-funnel insights\n\n**PostHog**\n- Open-source option available (self-hosted)\n- Free tier: up to 1M events/month\n- Feature flags, session recording, heatmaps included\n- Best for early-stage teams wanting everything\n\n**Mixpanel**\n- Free tier: 500K tracked users/month\n- Strong funnel & retention analysis\n- Good for mobile + web\n\n**Amplitude**\n- Free tier: 10M events/month\n- Excellent cohort analysis\n- Great learning resources\n\n## Self-Hosted/Open Source (Lowest Cost at Scale)\n\n**Metabase**\n- Free, open-source BI tool\n- Direct database queries\n- Minimal hosting costs (~$20-50/mo)\n- Better for technical teams\n\n**Umami**\n- Lightweight, privacy-focused\n- ~$5-10/mo self-hosted\n- Simple but effective\n\n## Lite/Focused Tools ($100-300/mo)\n\n**Pendo**\n- Feature adoption focus\n- In-app guidance capabilities\n- Freemium available\n\n**Hotjar**\n- Heatmaps + session recording\n- Cheaper than full suites\n- $99/mo entry level\n\n**Segment + open-source warehouse**\n- Consolidate data from multiple sources\n- Lower cost long-term\n\n## Budget Strategy\n\n1. **Start free** (PostHog/Amplitude) while validating metrics\n2. **Layer in** specific tools as budget grows (session recording, heatmaps)\n3. **Consider data warehouse** (Snowflake free tier) + open BI once you hit scaling issues\n\n**What's your current stack?** Happy to recommend specifics.",
+  "cached_at": "2026-05-27T19:14:39Z",
+  "metadata": {}
+}

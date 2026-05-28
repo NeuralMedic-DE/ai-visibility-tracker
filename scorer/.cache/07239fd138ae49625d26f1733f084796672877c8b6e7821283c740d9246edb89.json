@@ -1,0 +1,9 @@
+{
+  "brand": "Mailmodo",
+  "prompt_id": "IN-04",
+  "llm": "openai",
+  "prompt_text": "Best marketing automation that works with Zapier and HubSpot",
+  "response": "When looking for marketing automation tools that integrate well with both Zapier and HubSpot, there are several options to consider. Here are some of the best ones:\n\n1. **ActiveCampaign**: Known for its robust automation capabilities, ActiveCampaign integrates seamlessly with both Zapier and HubSpot. It offers features like email marketing, CRM, and sales automation.\n\n2. **Mailchimp**: While primarily an email marketing tool, Mailchimp offers automation features and integrates with Zapier and HubSpot. It's a good option for small to medium-sized businesses.\n\n3. **Marketo**: A powerful marketing automation platform that can be connected to HubSpot and Zapier, Marketo is suitable for larger enterprises looking for advanced features.\n\n4. **Pardot**: Salesforce's Pardot is another strong contender for B2B marketing automation. It integrates with HubSpot via Zapier and offers comprehensive automation tools.\n\n5. **Drip**: Ideal for e-commerce businesses, Drip offers personalized marketing automation and integrates with both Zapier and HubSpot.\n\n6. **GetResponse**: This platform offers email marketing, landing pages, and automation features. It integrates with Zapier and can be connected to HubSpot for enhanced functionality.\n\n7. **Autopilot**: Known for its visual automation interface, Autopilot integrates with Zapier and can be connected to HubSpot for streamlined marketing processes.\n\nWhen choosing a marketing automation tool, consider your specific needs, budget, and the level of integration you require with HubSpot and Zapier. Each of these tools offers unique features that can complement your marketing strategy.",
+  "cached_at": "2026-05-28T07:35:19Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Airbyte",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Airbyte vs Fivetran: which is better?",
+  "response": "# Airbyte vs Fivetran\n\nNeither is universally \"better\"—it depends on your priorities:\n\n## **Airbyte strengths**\n- **Open source** (free core, optional cloud)\n- **Lower cost** for large-scale operations\n- **Customizable** connectors (build your own)\n- **Self-hosted** option for data control\n- Growing ecosystem\n\n## **Fivetran strengths**\n- **Fully managed** (minimal setup/maintenance)\n- **Extensive pre-built connectors** (~500+)\n- **Better UI/UX** for non-technical users\n- **Reliability track record** (established enterprise player)\n- Strong support and documentation\n\n## **Key tradeoffs**\n\n| Factor | Airbyte | Fivetran |\n|--------|---------|----------|\n| **Cost** | Lower | Higher |\n| **Ease of use** | Steeper learning curve | More intuitive |\n| **Setup time** | Longer | Faster |\n| **Control** | More | Less |\n| **Connectors** | Growing | Mature |\n\n## **Choose Airbyte if:**\n- Budget is tight\n- You need custom connectors\n- You want data sovereignty\n- You have technical resources\n\n## **Choose Fivetran if:**\n- You want hands-off simplicity\n- You need enterprise support\n- You use standard data sources\n- Speed to value matters most\n\n**Reality**: Many teams use both for different use cases. What's your main data integration need?",
+  "cached_at": "2026-05-28T09:03:14Z",
+  "metadata": {}
+}

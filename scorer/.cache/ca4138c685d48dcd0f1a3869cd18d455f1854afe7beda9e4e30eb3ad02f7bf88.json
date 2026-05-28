@@ -1,0 +1,9 @@
+{
+  "brand": "ActiveCampaign",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I build automated email marketing and CRM workflows without a developer without spending a lot on software?",
+  "response": "# Budget-Friendly Automation Without Code\n\n## Free/Cheap Platforms with Good Automation\n\n**Brevo (formerly Sendinblue)**\n- Free tier: 300 emails/day, basic automation\n- Pay-as-you-go (~€20/month for small lists)\n- Drag-and-drop workflow builder, decent segmentation\n\n**Mailchimp**\n- Free up to 500 contacts\n- Built-in automation (welcome series, abandoned cart)\n- Simple conditional logic without coding\n\n**HubSpot Free**\n- CRM + email + basic workflows\n- Limited to 1 user, but solid for solopreneurs\n- More powerful than you'd expect\n\n## Lower-Cost Alternatives\n\n**Klaviyo** (~$20/month)\n- Better automation than Mailchimp\n- Good for e-commerce workflows\n- Free tier available (limited)\n\n**Active Campaign** (~$15/month)\n- More advanced segmentation/automation\n- Better CRM features than competitors at this price\n\n## DIY Approach (Cheapest)\n\nCombine specialized tools:\n- **Airtable** ($12/month) as your \"database\"\n- **Zapier** (~$20/month) to connect everything\n- **Gmail** + **Mailchimp** for sending\n\nThis lets you build custom workflows but requires more setup thinking.\n\n## What Actually Matters\n\nStart simple: **one welcome sequence + one re-engagement campaign**. Most struggling automation isn't about missing features—it's about poor data or unclear goals.\n\nWhat's your main use case? (E-commerce, leads, retention?) That changes the best choice significantly.",
+  "cached_at": "2026-05-28T07:23:39Z",
+  "metadata": {}
+}

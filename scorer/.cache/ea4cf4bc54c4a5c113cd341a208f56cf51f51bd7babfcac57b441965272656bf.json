@@ -1,0 +1,9 @@
+{
+  "brand": "Amplitude",
+  "prompt_id": "AL-02",
+  "llm": "openai",
+  "prompt_text": "Cheaper alternatives to Pendo",
+  "response": "If you're looking for cheaper alternatives to Pendo for product analytics and user feedback, here are some options you might consider:\n\n1. **Mixpanel**: Offers robust analytics and is often more affordable for smaller teams or startups. It focuses on user behavior tracking and provides insights into user engagement.\n\n2. **Amplitude**: Known for its strong analytics capabilities, Amplitude can be a cost-effective choice for startups and smaller businesses, especially with its free tier for basic usage.\n\n3. **Heap**: Provides automatic data capture and is user-friendly. It offers a free plan with limited features, which can be a good starting point for smaller teams.\n\n4. **Hotjar**: While primarily a tool for heatmaps and session recordings, Hotjar also offers user feedback and survey features at a lower price point.\n\n5. **Userpilot**: Focuses on user onboarding and product adoption with a pricing model that can be more affordable for smaller companies.\n\n6. **Appcues**: Similar to Pendo in terms of onboarding and user engagement features, Appcues can be a more budget-friendly option depending on your needs.\n\n7. **WalkMe**: Offers digital adoption solutions that can be tailored to fit different budgets, though it might be more focused on larger enterprises.\n\n8. **Chameleon**: Provides in-product guidance and user engagement tools with flexible pricing options.\n\nWhen choosing an alternative, consider the specific features you need, such as user onboarding, feedback collection, or detailed analytics, and compare pricing plans to find the best fit for your budget and requirements.",
+  "cached_at": "2026-05-27T19:22:05Z",
+  "metadata": {}
+}

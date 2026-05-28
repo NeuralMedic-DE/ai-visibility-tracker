@@ -1,0 +1,9 @@
+{
+  "brand": "Paddle",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Paddle vs Stripe: which is better?",
+  "response": "# Paddle vs Stripe: Quick Comparison\n\n**Choose Paddle if you want:**\n- Simpler setup (fewer compliance headaches)\n- Built-in subscription management\n- Global payment handling (they handle taxes, VAT)\n- Less developer work needed\n- Better for SaaS/digital products\n\n**Choose Stripe if you want:**\n- Maximum flexibility & customization\n- Lower fees (potentially)\n- Broader ecosystem & integrations\n- More advanced features for complex needs\n- Better documentation for developers\n\n## Key Differences\n\n| Factor | Paddle | Stripe |\n|--------|--------|--------|\n| **Setup** | Faster | More involved |\n| **Fees** | Higher (~2.4-5%) | Lower (~1.4-2.9%) |\n| **Tax handling** | Automatic | Manual |\n| **Learning curve** | Easier | Steeper |\n\n## The Real Answer\nIt depends on your situation:\n- **Early-stage SaaS founders?** → Paddle (less ops work)\n- **Technical team, specific needs?** → Stripe\n- **High volume, cost-sensitive?** → Stripe\n- **Want to minimize friction?** → Paddle\n\nMany teams actually use both—Paddle for SaaS subscriptions, Stripe for other payment types.\n\nWhat's your specific use case? That would help narrow it down.",
+  "cached_at": "2026-05-28T06:59:47Z",
+  "metadata": {}
+}

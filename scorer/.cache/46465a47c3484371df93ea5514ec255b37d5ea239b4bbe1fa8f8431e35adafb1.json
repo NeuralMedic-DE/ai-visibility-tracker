@@ -1,0 +1,9 @@
+{
+  "brand": "Attio",
+  "prompt_id": "IN-04",
+  "llm": "anthropic",
+  "prompt_text": "Best CRM that works with Slack and Zapier",
+  "response": "# Best CRMs for Slack + Zapier Integration\n\n## **Top Recommendations**\n\n### **1. HubSpot** (Best Overall)\n- **Native integrations** with both Slack and Zapier\n- Free and paid tiers available\n- Excellent automation capabilities\n- Best for: Small to mid-size teams\n\n### **2. Pipedrive**\n- Seamless Slack notifications for deals/activities\n- Strong Zapier support\n- Intuitive pipeline management\n- Best for: Sales-focused teams\n\n### **3. Salesforce**\n- Enterprise-grade with deep integration ecosystem\n- Robust Slack integration + Zapier compatible\n- Highly customizable\n- Best for: Large organizations\n\n### **4. Zoho CRM**\n- Budget-friendly option\n- Solid Slack and Zapier support\n- Good automation workflows\n- Best for: Cost-conscious teams\n\n### **5. Freshsales**\n- Clean interface\n- Strong Slack integration\n- Good Zapier automation\n- Best for: SMBs\n\n## **Key Integration Features to Look For**\n✅ Real-time Slack notifications  \n✅ Two-way data sync via Zapier  \n✅ Lead/deal updates to Slack channels  \n✅ Custom workflow automation  \n✅ Contact sync capabilities  \n\n## **Quick Comparison**\n| CRM | Slack | Zapier | Price |\n|-----|-------|--------|-------|\n| HubSpot | Native | Native | Free-$3,200 |\n| Pipedrive | Native | Native | $14-$99 |\n| Salesforce | Native | Native | $75-$330 |\n| Zoho | Native | Native | $20-$65 |\n\n**My top pick:** **HubSpot** for most teams (best free tier + integrations).\n\nWhat's your team size and primary use case?",
+  "cached_at": "2026-05-27T17:55:21Z",
+  "metadata": {}
+}

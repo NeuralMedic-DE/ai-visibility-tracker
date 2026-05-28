@@ -1,0 +1,9 @@
+{
+  "brand": "Lattice",
+  "prompt_id": "IN-04",
+  "llm": "openai",
+  "prompt_text": "Best HR that works with Slack and Google Workspace",
+  "response": "When looking for an HR tool that integrates well with Slack and Google Workspace, there are several options to consider. Here are a few popular ones:\n\n1. **BambooHR**: This is a comprehensive HR software that offers integration with both Slack and Google Workspace. It provides features for managing employee data, tracking time off, and onboarding.\n\n2. **Gusto**: Known for its payroll capabilities, Gusto also offers HR features and integrates with Google Workspace. While its Slack integration is more limited, it can still be useful for notifications and updates.\n\n3. **Zenefits**: Zenefits provides a wide range of HR functionalities, including benefits administration and compliance. It integrates with Google Workspace and offers some Slack integration features.\n\n4. **Rippling**: Rippling is another robust HR platform that integrates seamlessly with both Slack and Google Workspace. It offers features for payroll, benefits, and employee management.\n\n5. **Namely**: This HR platform is designed for mid-sized companies and offers integrations with both Slack and Google Workspace. It includes features for HR, payroll, and benefits administration.\n\nEach of these tools offers different strengths, so the best choice depends on your specific needs, such as the size of your organization, the specific HR functions you require, and your budget.",
+  "cached_at": "2026-05-28T06:30:11Z",
+  "metadata": {}
+}

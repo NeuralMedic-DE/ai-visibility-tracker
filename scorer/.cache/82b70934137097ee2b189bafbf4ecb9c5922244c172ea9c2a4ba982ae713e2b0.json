@@ -1,0 +1,9 @@
+{
+  "brand": "Salesflare",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with track email opens and follow-ups at scale?",
+  "response": "# Email Tracking & Follow-up Software\n\n## Popular options:\n\n**All-in-one platforms:**\n- **HubSpot** - comprehensive CRM with open tracking, sequences, and analytics\n- **Salesforce** - enterprise-grade with Pardot/Marketing Cloud\n- **Pipedrive** - sales-focused with activity tracking\n\n**Specialized email tools:**\n- **Lemlist** - built for cold outreach with open tracking and automation\n- **Outreach** - sales engagement platform with detailed analytics\n- **Apollo.io** - prospecting + sequence automation\n- **Mailshake** - simpler cold email campaigns with tracking\n\n**Lightweight options:**\n- **Mailtrack** - Gmail/Outlook plugin for basic open tracking\n- **Yesware** - minimal email enhancement\n- **Streak** - CRM directly in Gmail\n\n## Key features to compare:\n- Open/click tracking accuracy\n- Automated follow-up sequences\n- A/B testing capabilities\n- Integration with your CRM\n- Pricing (per user, per contact, or flat rate)\n- Deliverability (important for cold email)\n\n**For cold email at scale:** Lemlist, Apollo, or Outreach tend to excel.\n**For sales teams:** HubSpot or Salesforce integrations are industry standard.\n**On a budget:** Gmail plugins like Mailtrack are quick wins.\n\nWhat's your main use case—sales outreach, customer engagement, or something else?",
+  "cached_at": "2026-05-27T18:14:44Z",
+  "metadata": {}
+}

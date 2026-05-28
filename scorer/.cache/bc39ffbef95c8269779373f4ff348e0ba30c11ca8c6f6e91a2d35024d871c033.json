@@ -1,0 +1,9 @@
+{
+  "brand": "Planhat",
+  "prompt_id": "IN-04",
+  "llm": "perplexity",
+  "prompt_text": "Best customer success that works with Salesforce and Stripe",
+  "response": "If you need the **best customer success tool that works with both Salesforce and Stripe**, the strongest options in the results are **ChurnZero** and **Accord**. ChurnZero explicitly lists both **Salesforce** and **Stripe** among its integrations, while Accord lists **Salesforce** but the results do not show Stripe support in the same source.[1]\n\nA practical shortlist from the results:\n\n- **ChurnZero** — best fit if **Stripe integration** is a hard requirement, because the cited source lists both **Salesforce** and **Stripe** integrations.[1]\n- **Accord** — strong customer success/revenue workflow tool with **Salesforce** integration and adoption by teams at companies including Stripe, but the result does **not** confirm a Stripe integration.[1]\n- **Salesforce-based customer success stacks** — Salesforce itself supports customer success workflows and service tooling, but the result set here does not show native Stripe integration for those offerings.[2][5][8]\n\nIf your use case is specifically **customer success plus billing/revenue data from Stripe**, **ChurnZero** is the clearest match from the provided results.[1]\n\nIf you want, I can also narrow this down by:\n- **team size**,\n- **budget**,\n- **B2B SaaS vs. services**,\n- or give you a **2–3 tool comparison** focused on Salesforce + Stripe.",
+  "cached_at": "2026-05-28T08:14:01Z",
+  "metadata": {}
+}

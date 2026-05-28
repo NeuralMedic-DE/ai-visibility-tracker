@@ -1,0 +1,9 @@
+{
+  "brand": "HiBob",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do mid-market companies with distributed global workforces companies use to manage employee records and run payroll across multiple countries?",
+  "response": "# Tools for Global Multi-Country Payroll & HR\n\nMid-market companies typically use a combination of these categories:\n\n## Integrated HR/Payroll Platforms\n- **ADP Workforce Now** – Strong in 140+ countries, widely used for mid-market\n- **Workday** – Premium option with deep multi-country capabilities\n- **BambooHR** – Growing payroll features, lighter weight\n- **Gusto** – Good for US-heavy teams expanding internationally\n\n## Specialized Multi-Country Payroll\n- **Deel** – Purpose-built for global contractor/employee payroll\n- **Rippling** – HR + IT + payroll, strong international compliance\n- **Papaya Global** – Dedicated global payroll platform\n- **Remote** – Employee benefits and payroll across borders\n\n## Common Hybrid Approaches\n- **Central HR system** (Workday, BambooHR) + **local payroll processors** for tax/compliance complexity\n- **Payroll aggregators** (Immediate, Safeguard) that coordinate with local providers\n\n## Key Selection Factors\n- **Compliance complexity** – Tax rules vary wildly by country\n- **Headcount distribution** – 50 people in one country vs. 5 each in 10 countries changes the math\n- **Budget** – Enterprise systems ($15-50K+/year) vs. mid-market ($5-15K)\n- **Local partner access** – Some countries require local payroll processors anyway\n\n**Real constraint:** No single system handles *all* countries perfectly. Most companies eventually use a primary platform + local specialist payroll providers for complex jurisdictions.\n\nWhat's your distribution look like? That usually determines the best fit.",
+  "cached_at": "2026-05-28T06:32:37Z",
+  "metadata": {}
+}

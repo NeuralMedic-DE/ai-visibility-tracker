@@ -1,0 +1,9 @@
+{
+  "brand": "ChurnZero",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with give CSMs a unified view of every account's engagement risk and health at scale?",
+  "response": "Software that helps Customer Success Managers (CSMs) gain a unified view of every account's engagement, risk, and health at scale typically falls under the category of Customer Success Platforms. Some popular options include:\n\n1. **Gainsight**: Provides a comprehensive view of customer health, engagement, and risk, allowing CSMs to manage customer relationships effectively.\n\n2. **Totango**: Offers real-time insights into customer health and engagement, helping CSMs identify risks and opportunities.\n\n3. **ChurnZero**: Focuses on reducing churn by providing detailed customer health scores and engagement metrics.\n\n4. **ClientSuccess**: Delivers insights into customer engagement and health, enabling proactive management of customer relationships.\n\n5. **HubSpot Service Hub**: While primarily a CRM, it includes features for tracking customer engagement and health.\n\nThese platforms typically integrate with other systems like CRM and support tools to provide a holistic view of customer interactions and status.",
+  "cached_at": "2026-05-28T08:06:54Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Folk",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do startup founders and agency leads companies use to manage investor and partner relationships?",
+  "response": "# Tools for Managing Investor & Partner Relationships\n\n## CRM & Relationship Management\n- **Pipedrive, HubSpot, Salesforce** – Track interactions, deal stages, and follow-ups\n- **Affinity** – Purpose-built for investor relations; maps relationship networks\n- **Clay** – Enriches contact data and automates relationship workflows\n- **Notion/Airtable** – Custom databases when you want flexibility over polish\n\n## Communication & Scheduling\n- **Calendly** – Reduces back-and-forth on meeting times\n- **Gmail/Outlook filters + labels** – Surprisingly effective for organizing investor threads\n- **Slack** – Quick updates for active relationships\n- **Loom** – Async video updates (more personal than text)\n\n## Deal & Document Management\n- **DocSend** – Secure document sharing with analytics (who read what, when)\n- **Carta** – Cap table management and investor dashboards\n- **PandaDoc** – Template-based agreements and signatures\n- **Google Drive/SharePoint** – Basics, but lacks tracking\n\n## Intelligence & Research\n- **LinkedIn Sales Navigator** – Mapping networks and finding warm intros\n- **Crunchbase Pro** – Investor profiles and funding intelligence\n- **Apollo/Hunter** – Finding contact info quickly\n- **Twitter/newsletter archives** – Understand what people actually care about\n\n## Notes & Memory\n- **Notion databases** – Investment thesis, partner preferences, vesting schedules\n- **Obsidian + sync** – For founder-centric note-taking\n- **AI assistants** – ChatGPT/Claude to draft emails and summarize calls\n\n**The pattern:** Most successful founders layer 3-4 tools rather than forcing one platform to do everything.\n\nWhat's your biggest friction point right now?",
+  "cached_at": "2026-05-27T18:54:07Z",
+  "metadata": {}
+}

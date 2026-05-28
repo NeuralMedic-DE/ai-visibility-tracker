@@ -1,0 +1,9 @@
+{
+  "brand": "Encharge",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to Intercom",
+  "response": "# Cheaper Alternatives to Intercom\n\n## Live Chat & Customer Support\n- **Drift** - Conversational marketing focus, free tier available\n- **Zendesk Chat** - Simple, scalable, integrates with Zendesk suite\n- **Crisp** - Affordable, good for small businesses\n- **Tawk.to** - Free option with optional paid upgrades\n- **Freshchat** - Part of Freshworks ecosystem, competitive pricing\n- **Tidio** - Budget-friendly with chatbots included\n\n## Self-Hosted Options\n- **Chatwoot** - Open-source, full control over data\n- **Mattermost** - Internal + customer communication\n- **Rocket.Chat** - Highly customizable, self-hosted option\n\n## AI-Powered Alternatives\n- **HubSpot Service Hub** - Free tier covers basics\n- **Gorgias** - E-commerce focused, often cheaper\n- **Segment** - Better for large-scale operations\n\n## Budget Tools for Startups\n- **WhatsApp Business API** - Direct messaging, minimal cost\n- **Slack** (with bots) - If you already use it\n- **Typeform** + automation - For passive support\n\n## Comparison Tips\n- **Volume matters**: Intercom gets expensive with high conversations\n- **Feature needs**: Some alternatives focus on specific industries\n- **Integration requirements**: Check compatibility with your stack\n- **Contract flexibility**: Look for month-to-month vs annual\n\n**Best value starter**: Tawk.to (free) or Crisp ($25-99/mo)\n\nWhat's your primary use case?",
+  "cached_at": "2026-05-28T07:28:20Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Close",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with manage follow-ups automatically at scale?",
+  "response": "There are several software solutions designed to help manage follow-ups automatically at scale. Here are a few popular options:\n\n1. **HubSpot**: HubSpot offers a comprehensive CRM platform that includes automated follow-up features. You can set up workflows to automatically send emails, assign tasks, and more.\n\n2. **Salesforce**: Salesforce provides robust automation tools through its CRM platform, allowing you to create automated follow-up sequences and manage customer interactions at scale.\n\n3. **Mailchimp**: Known primarily for email marketing, Mailchimp also offers automation features that can help with follow-up emails based on user behavior and other triggers.\n\n4. **ActiveCampaign**: This platform combines email marketing, marketing automation, and CRM tools to help automate follow-ups and manage customer relationships effectively.\n\n5. **Zoho CRM**: Zoho offers a range of automation tools within its CRM to help manage follow-ups, including email automation and task assignments.\n\n6. **Pipedrive**: Pipedrive includes automation features that allow you to set up follow-up reminders and automate email sequences.\n\n7. **Outreach**: Specifically designed for sales teams, Outreach provides automation features to manage follow-ups and streamline communication processes.\n\n8. **Sendinblue**: This platform offers marketing automation tools that can be used to set up follow-up sequences based on user actions and other criteria.\n\nThese tools vary in features and pricing, so it's important to evaluate them based on your specific needs and the scale at which you need to operate.",
+  "cached_at": "2026-05-27T17:31:44Z",
+  "metadata": {}
+}

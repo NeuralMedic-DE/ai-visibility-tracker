@@ -1,0 +1,9 @@
+{
+  "brand": "Stonly",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Guru vs alternatives: what should I switch to?",
+  "response": "# Guru Alternatives – What to Consider\n\nWithout knowing your specific pain points, here are common switches:\n\n## If you want **better search/knowledge discovery:**\n- **Notion** – more flexible, better organization\n- **Confluence** – stronger for team collaboration\n- **Document360** – cleaner knowledge base UI\n\n## If you want **lower cost:**\n- **Slite** – simpler, cheaper\n- **Nuclino** – lightweight wiki alternative\n- **Obsidian** (self-hosted) – free but requires setup\n\n## If you want **better AI integration:**\n- **Notion AI** or **ChatGPT plugins**\n- **Vertex AI Search** (Google)\n- **Custom solutions** with GPT APIs\n\n## If you want **easier onboarding:**\n- **Slite** – most intuitive\n- **Notion** – huge community support\n- **Confluence** – if you're already in Atlassian\n\n## Key questions to ask first:\n- What frustrates you most about Guru? (outdated content? UX? cost? search?)\n- Team size & budget?\n- Do you need AI features?\n- Integration requirements?\n\n**Most common switch:** Guru → Notion (if flexibility matters) or Guru → Confluence (if you need enterprise features)\n\nWhat's your main frustration with Guru? That would help narrow it down.",
+  "cached_at": "2026-05-28T08:21:55Z",
+  "metadata": {}
+}

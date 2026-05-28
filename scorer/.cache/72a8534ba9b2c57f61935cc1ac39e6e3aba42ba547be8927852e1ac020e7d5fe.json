@@ -1,0 +1,9 @@
+{
+  "brand": "LeadIQ",
+  "prompt_id": "CM-02",
+  "llm": "anthropic",
+  "prompt_text": "LeadIQ vs Apollo.io pricing and features",
+  "response": "# LeadIQ vs Apollo.io: Pricing & Features\n\n## **Pricing Overview**\n\n| Feature | LeadIQ | Apollo.io |\n|---------|--------|----------|\n| **Free Plan** | Yes (limited) | Yes (limited) |\n| **Starter** | ~$45/month | ~$49/month |\n| **Professional** | ~$99/month | ~$199/month |\n| **Enterprise** | Custom | Custom |\n| **Data Credits** | Some plans included | Varies by plan |\n\n## **Key Features Comparison**\n\n### **LeadIQ Strengths**\n- **Email finder** - High accuracy email discovery\n- **LinkedIn integration** - Direct LinkedIn prospecting\n- **Lead sequencing** - Built-in automation\n- **Sales engagement** - Email tracking & templates\n- **Browser extension** - Works with LinkedIn/company websites\n\n### **Apollo.io Strengths**\n- **Larger database** - 250M+ contacts globally\n- **Phone numbers** - Included in most plans\n- **CRM integration** - Works with Salesforce, HubSpot, Pipedrive\n- **Email sequences** - Automated multi-touch campaigns\n- **More affordable entry point** - Lower base pricing\n\n## **Data Quality**\n\n| Metric | LeadIQ | Apollo.io |\n|--------|--------|----------|\n| **Email Accuracy** | ~95% | ~90-92% |\n| **B2B Contacts** | 80M+ | 250M+ |\n| **Phone Accuracy** | Limited | Better coverage |\n\n## **Best For**\n\n**Choose LeadIQ if:**\n- LinkedIn-focused prospecting\n- Need high email accuracy\n- Want lightweight, simple interface\n\n**Choose Apollo.io if:**\n- Need phone numbers\n- Want larger contact database\n- Need robust CRM integrations\n- Budget-conscious\n\n## **Bottom Line**\n- **LeadIQ**: Better for quality-focused LinkedIn sellers\n- **Apollo.io**: Better value for comprehensive B2B prospecting\n\n*Pricing changes frequently—check current rates on their websites.*",
+  "cached_at": "2026-05-27T18:43:07Z",
+  "metadata": {}
+}

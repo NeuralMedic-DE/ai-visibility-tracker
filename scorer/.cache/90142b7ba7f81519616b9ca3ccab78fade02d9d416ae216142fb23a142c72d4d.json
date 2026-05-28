@@ -1,0 +1,9 @@
+{
+  "brand": "Neon",
+  "prompt_id": "IN-02",
+  "llm": "perplexity",
+  "prompt_text": "Neon GitHub integration: how does it work?",
+  "response": "Neon’s GitHub integration connects a Neon project to a GitHub repository so Neon can set up the GitHub-side credentials for you and enable GitHub Actions to manage database branches automatically.[1][2]\n\nIn practice, it works like this:\n\n- The integration links your Neon project to a specific GitHub repo and automatically creates the required `NEON_API_KEY` secret and `NEON_PROJECT_ID` variable in that repo.[1]\n- Once those credentials exist, GitHub Actions in your workflow can authenticate to Neon and call Neon’s branch-management actions.[1][2]\n- Those actions are used to **create**, **delete**, and **manage** Neon database branches as part of CI/CD.[1]\n- This is commonly used to make an isolated database branch for each pull request, run tests against it, and clean it up afterward.[1]\n\nIf you do **not** use the integration, you can set it up manually by creating a Neon API key yourself and adding it to GitHub as the `NEON_API_KEY` secret, then adding your Neon project ID as `NEON_PROJECT_ID`.[1][2]\n\nSo the short version is: **GitHub integration = automatic credential setup + database branching in GitHub Actions**.[1][2]\n\n",
+  "cached_at": "2026-05-28T06:19:48Z",
+  "metadata": {}
+}

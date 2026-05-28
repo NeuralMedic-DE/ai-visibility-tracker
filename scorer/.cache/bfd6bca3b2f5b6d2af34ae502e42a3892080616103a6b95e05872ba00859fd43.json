@@ -1,0 +1,9 @@
+{
+  "brand": "Instantly",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best sales engagement for SDR teams and growth hackers running high-volume cold email campaigns?",
+  "response": "# Best Sales Engagement Practices for High-Volume Cold Email\n\n## Core Strategy Principles\n\n**Segmentation over volume**\n- Divide lists by industry, company size, or role rather than blasting everyone\n- Higher open/response rates from targeted micro-segments justify smaller batches\n- Quality signals matter more than raw numbers for deliverability\n\n**Sequence design**\n- 5-7 touch cadence over 2-3 weeks (email + LinkedIn + call)\n- Vary subject lines and messaging angles across touches\n- Space touches enough to avoid spam folder clustering\n\n## Tactical Elements\n\n**Subject line testing**\n- Short, curiosity-driven (35-50 chars) typically outperforms salesy ones\n- Personalization (name, company) helps but test against non-personalized baselines\n- Ask questions rather than statements\n\n**Copy structure**\n- Lead with *their* problem/opportunity (not your product)\n- One specific call-to-action (usually a meeting or brief conversation)\n- Keep it short—3-5 sentences works better than longer copy for cold audiences\n\n**Multi-channel coordination**\n- LinkedIn outreach before/after email for recognition\n- Strategic follow-up calls after 2-3 emails maximizes response\n- Track which sequence stage creates most conversions\n\n## Measurement That Matters\n\nFocus on:\n- **Reply rate** (not just opens)\n- **Meeting-to-opportunity conversion** \n- **Cost per qualified conversation**\n\nNot just volume metrics, which can hide low-quality engagement.\n\nWhat specific metric are you struggling with most?",
+  "cached_at": "2026-05-28T07:18:54Z",
+  "metadata": {}
+}

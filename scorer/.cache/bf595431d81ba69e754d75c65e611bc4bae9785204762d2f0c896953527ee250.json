@@ -1,0 +1,9 @@
+{
+  "brand": "Weights & Biases",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Weights & Biases integrate with PyTorch?",
+  "response": "Yes. **Weights & Biases (W&B) has a first‑class integration with PyTorch** for experiment tracking, logging, and model management.[4][5]\n\nTo use it in plain PyTorch, you typically:\n\n1. **Install and log in:**\n```bash\npip install wandb\n```\n```python\nimport wandb\nwandb.login()\n```\n[4][5]\n\n2. **Initialize a run and config:**\n```python\nwandb.init(project=\"my-pytorch-project\")\nwandb.config.update({\"lr\": 1e-3, \"batch_size\": 64})\n```\n[4][5]\n\n3. **Log metrics inside your training loop:**\n```python\nfor epoch in range(num_epochs):\n    # ... forward, loss, backward, step ...\n    wandb.log({\"train_loss\": loss.item(), \"epoch\": epoch})\n```\n[4][5]\n\nThis integration lets you log **metrics, gradients, models, system stats, and datasets** directly from standard PyTorch code.[2][4][5] \n\nIf you use higher‑level wrappers like **PyTorch Lightning**, there is also a dedicated `WandbLogger` you can pass to the `Trainer` for seamless logging.[1]",
+  "cached_at": "2026-05-28T07:39:06Z",
+  "metadata": {}
+}

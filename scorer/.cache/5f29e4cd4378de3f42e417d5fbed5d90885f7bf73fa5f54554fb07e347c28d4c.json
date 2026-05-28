@@ -1,0 +1,9 @@
+{
+  "brand": "Pilot",
+  "prompt_id": "CM-02",
+  "llm": "anthropic",
+  "prompt_text": "Pilot vs QuickBooks pricing and features",
+  "response": "# Pilot vs QuickBooks: Comparison\n\n## **Pricing**\n\n| Feature | Pilot | QuickBooks |\n|---------|-------|-----------|\n| **Starting Price** | ~$500/month (managed service) | $15-$120/month (self-service) |\n| **Model** | Flat-fee, all-inclusive | Tiered subscription |\n| **What's Included** | Bookkeeping + accounting | Accounting software only |\n\n## **Key Differences**\n\n### **Pilot**\n✅ **Strengths:**\n- Full-service bookkeeping (data entry, reconciliation)\n- Dedicated accountant/team\n- Fixed monthly fee (no surprises)\n- Tax-ready books\n- Better for outsourcing\n\n❌ **Weaknesses:**\n- Much higher cost\n- Less real-time control\n- Overkill for simple businesses\n\n### **QuickBooks**\n✅ **Strengths:**\n- Affordable & scalable pricing\n- Real-time access & control\n- Extensive integrations\n- Self-service flexibility\n- Industry standard\n\n❌ **Weaknesses:**\n- Requires learning/training\n- Data entry is your responsibility\n- Support quality varies by tier\n- Can get expensive with add-ons\n\n## **Best For**\n\n| Choose Pilot if: | Choose QuickBooks if: |\n|---|---|\n| Growing company (prefer outsourcing) | DIY accounting |\n| Overwhelmed by bookkeeping | Small/solopreneur budget |\n| Want compliance guidance | Need software flexibility |\n| Have complex books | Want full control |\n\n**Middle Ground:** QuickBooks + bookkeeper/CPA ($150-300/month)\n\nWhat's your business size/stage?",
+  "cached_at": "2026-05-28T07:02:25Z",
+  "metadata": {}
+}

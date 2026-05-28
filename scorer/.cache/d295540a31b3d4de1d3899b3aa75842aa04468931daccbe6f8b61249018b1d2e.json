@@ -1,0 +1,9 @@
+{
+  "brand": "Pilot",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Pilot with Stripe?",
+  "response": "# Connecting Pilot with Stripe\n\nI'd be happy to help, but I need a bit more context. \"Pilot\" could refer to several things:\n\n1. **Pilot (by Deel)** - their accounting/bookkeeping software\n2. **Your own application** - if you're building something\n3. **Another specific platform** - if you can clarify\n\n## General approach for most integrations:\n\n1. **Get your Stripe API keys**\n   - Go to Stripe Dashboard → Developers → API keys\n   - Copy your publishable and secret keys\n\n2. **Access the integration settings**\n   - Look for \"Integrations,\" \"Connected Accounts,\" or \"Payment Methods\"\n   - Find Stripe in the available options\n\n3. **Authorize the connection**\n   - Usually involves clicking \"Connect\" and approving via Stripe\n   - Paste API keys if manual setup is required\n\n4. **Configure what syncs**\n   - Transactions, payments, customer data, etc.\n\n---\n\n**Can you clarify which Pilot product you're using?** That way I can give you specific step-by-step instructions.",
+  "cached_at": "2026-05-28T07:02:48Z",
+  "metadata": {}
+}

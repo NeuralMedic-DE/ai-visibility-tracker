@@ -1,0 +1,9 @@
+{
+  "brand": "Secureframe",
+  "prompt_id": "AL-05",
+  "llm": "anthropic",
+  "prompt_text": "Open source or affordable compliance tools instead of Drata",
+  "response": "# Alternatives to Drata for Compliance\n\n## Open Source Options\n\n### **Compliance Frameworks & Documentation**\n- **OpenComply** - Open-source compliance management\n- **Compliance Kit** - Framework templates for SOC 2, ISO 27001\n- **Hyperledger Indy** - Identity/compliance infrastructure\n- **OWASP** projects - Security compliance resources (free)\n\n### **Evidence Collection**\n- **Vanta Alternative**: Self-hosted audit logging\n  - ELK Stack (Elasticsearch, Logstash, Kibana)\n  - Prometheus + Grafana for monitoring\n  - Custom Python/Node scripts for evidence gathering\n\n### **Policy Management**\n- **Gitbook** - Free tier for hosting policies\n- **Obsidian** + GitHub - Document control\n- **Wiki.js** - Self-hosted wiki\n\n---\n\n## Affordable Commercial Tools\n\n| Tool | Price | Best For |\n|------|-------|----------|\n| **Vanta** | $800+/mo | SOC 2, ISO 27001 (more expensive than Drata) |\n| **Secureframe** | $1,200+/mo | Similar to Drata but pricier |\n| **Tugboat Logic** | $500+/mo | Lighter-weight compliance |\n| **OneTrust** | Enterprise | Large organizations |\n| **AuditBoard** | Mid-market | Broader GRC |\n\n---\n\n## Budget-Friendly Approach\n\n**Hybrid DIY + Tools:**\n1. **Free tier tools**: Google Workspace (audit logs), AWS CloudTrail\n2. **Spreadsheets** - Airtable ($12/mo) or Notion ($10/mo) for control matrices\n3. **Zapier** ($25/mo) - Automate evidence collection\n4. **Checklist templates** - Build on GitHub/Notion\n5. **Hire auditor annually** ($5-15K) vs. continuous platform ($800+/mo)\n\n**Best for startups**: Manual approach + Notion until you hit $10M ARR, then invest in Drata.\n\nWhat's your specific compliance need (SOC 2, HIPAA, ISO)?",
+  "cached_at": "2026-05-28T08:33:46Z",
+  "metadata": {}
+}

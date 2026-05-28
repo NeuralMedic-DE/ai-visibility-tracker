@@ -1,0 +1,9 @@
+{
+  "brand": "Comet ML",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best MLOps for data science and ML engineering teams at analytics-driven companies?",
+  "response": "# Best MLOps Approaches for Analytics-Driven Companies\n\nThe \"best\" MLOps depends on your maturity level and constraints, but here's a practical framework:\n\n## **For Most Analytics Companies: Balanced Approach**\n\n### Core Stack\n- **Experiment tracking**: MLflow or Weights & Biases (lightweight, integrates with notebooks)\n- **Model registry**: DVC or native MLflow (versioning + reproducibility)\n- **Orchestration**: Airflow or Prefect (handles both pipelines and retraining)\n- **Monitoring**: Evidently AI or WhyLabs (data/model drift detection)\n- **Feature store**: Optional initially—Tecton or Feast if you have >5 models sharing features\n\n### Why This Works\n- ✅ Bridges data teams and ML engineers\n- ✅ Scales from 2-3 models to dozens\n- ✅ Not over-engineered for analytics use cases\n- ✅ Reasonable operational overhead\n\n---\n\n## **Quick Decision Tree**\n\n| Scenario | Best Approach |\n|----------|--------------|\n| <5 models, early stage | MLflow + GitHub Actions + basic monitoring |\n| 5-20 models, some scale | Airflow + MLflow + feature store lite (DVC) |\n| >20 models, complex deps | Kubeflow/Databricks + centralized feature store |\n| Rapid experimentation focus | Weights & Biases + cloud-native (SageMaker/Vertex) |\n\n---\n\n## **Common Pitfalls to Avoid**\n\n❌ Building complex infrastructure before you have the problem  \n❌ Separating data engineering and ML ops workflows  \n❌ Ignoring monitoring in favor of automation  \n❌ Choosing tools without considering your team's DevOps maturity\n\n---\n\n**What's your current scale?** That would help me give more specific recommendations.",
+  "cached_at": "2026-05-28T07:53:59Z",
+  "metadata": {}
+}

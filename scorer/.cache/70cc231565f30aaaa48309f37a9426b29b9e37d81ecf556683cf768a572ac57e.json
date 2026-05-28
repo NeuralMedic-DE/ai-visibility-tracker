@@ -1,0 +1,9 @@
+{
+  "brand": "Klipfolio",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to Tableau",
+  "response": "# Cheaper Alternatives to Tableau\n\n## **Free/Open-Source**\n- **Apache Superset** - Web-based visualization, SQL querying\n- **Metabase** - Simple BI tool, good for non-technical users\n- **Grafana** - Real-time dashboards (better for monitoring)\n- **Apache Zeppelin** - Data exploration and visualization\n\n## **Low-Cost Commercial**\n- **Power BI** ($10-20/user/month) - Microsoft's answer, integrates well with Excel/Azure\n- **Looker Studio** (Free) - Google's free dashboard tool\n- **QlikView/Qlik Sense** - Competitive pricing, associative engine\n- **Sisense** - Mid-market alternative, reasonable pricing\n- **Domo** - Cloud-based, modern interface\n\n## **Specialized/Niche**\n- **Mode Analytics** - SQL-focused analysts\n- **Periscope Data** - Data team collaboration\n- **Chartio** - Simple data exploration\n- **Klipboard** - Real-time dashboards\n\n## **Quick Comparison**\n\n| Tool | Cost | Best For | Learning Curve |\n|------|------|----------|-----------------|\n| Power BI | $ | Microsoft ecosystems | Low |\n| Metabase | Free | Small teams | Very Low |\n| Superset | Free | Developers | Medium |\n| QlikSense | $$ | Complex analysis | Medium |\n\n**Key question:** What's your primary need? (reporting, real-time dashboards, exploratory analysis?) This will narrow down the best option significantly.",
+  "cached_at": "2026-05-27T20:27:45Z",
+  "metadata": {}
+}

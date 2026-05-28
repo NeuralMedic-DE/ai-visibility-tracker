@@ -1,0 +1,9 @@
+{
+  "brand": "n8n",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Zapier vs alternatives: what should I switch to?",
+  "response": "# Zapier Alternatives: What to Consider\n\n## Strong replacements depend on your needs:\n\n**For simplicity & visual workflows:**\n- **Make** (formerly Integromat) — more flexible visual builder, better free tier\n- **n8n** — open-source option, self-hosted control\n- **Automation.cloud** — clean UI, good value\n\n**For specific use cases:**\n- **IFTTT** — simple, consumer-focused (not for complex business workflows)\n- **Integromat/Make** — handles complex multi-step automation better than Zapier\n- **Slack/native tools** — if you're mostly automating within one ecosystem\n\n**For developers/technical teams:**\n- **n8n** — self-hosted, more customization\n- **Temporal** or **Apache Airflow** — enterprise-grade\n- **Custom APIs** — if you need full control\n\n## Why people actually leave Zapier:\n\n1. **Cost** — pricing scales aggressively with tasks\n2. **Complexity limits** — fewer steps/conditions than Make\n3. **Speed** — slower execution than some alternatives\n4. **Transparency** — pricing feels opaque\n\n## Smart approach:\n\n- **Try Make first** — best general alternative\n- **Run a cost comparison** with your actual usage\n- **Test execution speed** if that matters for your workflows\n- **Check integration coverage** — your specific apps matter most\n\nWhat's driving your consideration? (Cost, features, specific integration?) That'll help narrow it down.",
+  "cached_at": "2026-05-28T08:56:13Z",
+  "metadata": {}
+}

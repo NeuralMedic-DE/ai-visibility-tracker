@@ -1,0 +1,9 @@
+{
+  "brand": "Matillion",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Matillion integrate with Snowflake?",
+  "response": "Yes. **Matillion has a native, deep integration with Snowflake** and even offers a product specifically called **Matillion ETL for Snowflake**.[2][3]\n\nMatillion is described as being **“purpose-built for Snowflake”**, using Snowflake’s compute engine for in-database processing and integrating with Snowflake-specific features such as Zero Copy Clone and Object Tagging.[1][2] It allows you to:\n\n- **Connect to Snowflake and run ELT/ETL jobs directly against it**, with Matillion generating and executing SQL in your Snowflake warehouse.[3][4]  \n- **Deploy via the Snowflake Marketplace** and run Matillion fully inside your Snowflake account for tight security and performance.[2]  \n- **Build no‑code/low‑code pipelines that load and transform data in Snowflake**, using a large library of connectors and transformations.[2][4][6]\n\nSnowflake itself lists Matillion as an official technology partner for moving, transforming, and orchestrating data pipelines on Snowflake.[7]",
+  "cached_at": "2026-05-28T09:02:35Z",
+  "metadata": {}
+}

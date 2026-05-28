@@ -1,0 +1,9 @@
+{
+  "brand": "Retool",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which internal tooling software should a VP Engineering or CTO at a growing startup use?",
+  "response": "# Internal Tooling for Engineering Leadership\n\nThe answer depends heavily on your constraints, but here's a practical framework:\n\n## Start with what you have\n- **Existing infrastructure** (AWS, GCP, etc.) - leverage built-in dashboards\n- **Current stack** - if you're already on certain platforms, extend them first\n\n## Most common effective choices:\n\n**Lightweight/Quick wins:**\n- **Retool** or **Budibase** - low-code internal dashboards, fastest time-to-value\n- **Metabase** - if you mainly need data visibility\n- **Linear/Jira** - for engineering workflows (not pure tooling, but essential)\n\n**When you need more:**\n- **Temporal** - workflow orchestration (if handling complex async tasks)\n- **PagerDuty** - incident management (worth it once on-call is real)\n- **Grafana/DataDog** - observability (don't skip this)\n\n**Process/collaboration:**\n- **Notion** or **Confluence** - runbooks, documentation\n- **Slack** - automation via workflows for routine tasks\n\n## The real answer:\n\nAt a growing startup, avoid over-engineering. Instead:\n\n1. **Identify your top 3 pain points** (on-call chaos? Deploy visibility? Team workflows?)\n2. **Choose 1-2 tools that solve those** rather than one platform that does everything\n3. **Default to your existing stack first** - integration costs are real\n4. **Avoid custom-built internal tools** until you're >50 engineers and have dedicated infra/tooling team\n\nWhat specific problems are you trying to solve?",
+  "cached_at": "2026-05-27T20:56:07Z",
+  "metadata": {}
+}

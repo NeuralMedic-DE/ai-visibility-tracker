@@ -1,0 +1,9 @@
+{
+  "brand": "Sentry",
+  "prompt_id": "IN-02",
+  "llm": "perplexity",
+  "prompt_text": "Sentry Slack integration: how does it work?",
+  "response": "Sentry’s Slack integration works by connecting your Sentry organization to a Slack workspace, then letting Sentry send alerts, issue notifications, and even some debugging actions into Slack channels or DMs.[3][2]\n\nThe basic flow is:\n\n- **Install the integration** in Sentry under **Settings > Integrations > Slack**, then click **Add Workspace** and authorize the Slack workspace.[3]\n- **Choose where alerts go** by setting alert rules to send notifications to a specific Slack **channel** or **person**.[3][1]\n- **Link identities for personal notifications** with `/sentry link` in Slack so Sentry can map your Slack user to your Sentry account.[3]\n- **Enable team notifications** in a channel with `/sentry link team [organization_slug]` so that team-level alerts can post there.[3]\n- **Add Sentry to private channels** if needed by inviting the bot or adding the app to the channel.[3][6]\n\nOnce configured, Sentry can post notifications when alert conditions are met, such as “new issue has more than 100 events within an hour,” and you can optionally send a test notification before saving the rule.[1][3]\n\nWhat you get in Slack includes more than simple alerts: Sentry says notifications can include issue context, related pull requests or commits, and actions like assigning, resolving, or ignoring issues directly from the message.[2][8] Sentry also documents Seer Agent support, where you can mention `@sentry` in Slack to start an investigation or ask for help without leaving Slack.[2][3]\n\nIf you want, I can also give you:\n- a **step-by-step setup guide**\n- how to **send alerts to a private channel**\n- how to **configure personal vs team notifications**",
+  "cached_at": "2026-05-27T21:23:04Z",
+  "metadata": {}
+}

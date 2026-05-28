@@ -1,0 +1,9 @@
+{
+  "brand": "Raycast",
+  "prompt_id": "AL-05",
+  "llm": "openai",
+  "prompt_text": "Open source or affordable productivity tools instead of Spotlight",
+  "response": "If you're looking for open-source or affordable productivity tools that can serve as alternatives to Spotlight on macOS, here are some options you might consider:\n\n1. **Alfred**: While not open-source, Alfred offers a free version with powerful search capabilities. It allows you to search your Mac and the web, and you can extend its functionality with workflows in the paid Powerpack version.\n\n2. **Raycast**: A free productivity tool that offers a powerful command bar for macOS. It allows you to search your computer, manage tasks, and even control apps with keyboard shortcuts.\n\n3. **Ueli**: An open-source, cross-platform launcher that provides a simple and efficient way to search your computer and perform various tasks. It's customizable and supports plugins.\n\n4. **LaunchBar**: Another alternative that, while not open-source, offers a free trial and is a powerful productivity tool for macOS. It provides quick access to applications, documents, and more.\n\n5. **Cerebro**: An open-source productivity app that works as a search tool and application launcher. It offers plugins to extend its functionality and is available for macOS, Windows, and Linux.\n\n6. **Espanso**: An open-source text expander that can boost productivity by allowing you to create shortcuts for frequently used text and commands.\n\nThese tools can enhance your productivity by providing quick access to files, applications, and web searches, similar to what Spotlight offers, but with additional features and customization options.",
+  "cached_at": "2026-05-28T06:25:16Z",
+  "metadata": {}
+}

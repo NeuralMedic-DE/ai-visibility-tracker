@@ -1,0 +1,9 @@
+{
+  "brand": "n8n",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with build complex LLM-powered automations with code nodes and custom business logic at scale?",
+  "response": "To build complex LLM-powered automations with code nodes and custom business logic at scale, you might consider using platforms like:\n\n1. **LangChain**: This is a framework specifically designed for developing applications powered by language models. It allows you to chain together different components to create complex workflows and integrate with various data sources and APIs.\n\n2. **Airflow**: While not specifically for LLMs, Apache Airflow is a powerful platform for orchestrating complex workflows and can be used to manage and automate tasks, including those involving language models.\n\n3. **Prefect**: Similar to Airflow, Prefect is a workflow management system that allows you to build, run, and monitor data pipelines at scale. It can be customized to include LLM components.\n\n4. **n8n**: This is a workflow automation tool that supports custom code nodes. It can be extended to incorporate LLMs and other complex business logic.\n\n5. **Zapier or Integromat (Make)**: These are automation platforms that allow you to connect different services and automate workflows. They can be extended with custom code to integrate LLMs.\n\n6. **AWS Step Functions**: If you're using AWS, Step Functions can help you coordinate multiple AWS services into serverless workflows, which can include LLMs if integrated with AWS's AI services.\n\nThese platforms can help you manage and scale your automations, providing the flexibility to incorporate custom business logic and code nodes as needed.",
+  "cached_at": "2026-05-28T08:56:14Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Semgrep",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Semgrep with GitHub?",
+  "response": "# Connecting Semgrep with GitHub\n\nThere are several ways to integrate Semgrep with GitHub:\n\n## 1. **GitHub Action (Recommended)**\n\nThe easiest method for CI/CD integration:\n\n### Setup Steps:\n1. Create `.github/workflows/semgrep.yml` in your repo:\n\n```yaml\nname: Semgrep\non:\n  push:\n    branches: [main, develop]\n  pull_request: {}\n\njobs:\n  semgrep:\n    runs-on: ubuntu-latest\n    container:\n      image: returntocorp/semgrep\n    steps:\n      - uses: actions/checkout@v3\n      - run: semgrep ci\n        env:\n          SEMGREP_APP_TOKEN: ${{ secrets.SEMGREP_APP_TOKEN }}\n```\n\n2. Get your app token:\n   - Go to [semgrep.dev](https://semgrep.dev)\n   - Sign up/login with GitHub\n   - Navigate to **Settings** → **Tokens**\n   - Copy your token\n\n3. Add token to GitHub:\n   - Go to your repo **Settings** → **Secrets and variables** → **Actions**\n   - Create new secret `SEMGREP_APP_TOKEN`\n   - Paste your token\n\n## 2. **Semgrep AppConfig (Web Dashboard)**\n\n1. Visit [semgrep.dev/apps](https://semgrep.dev/apps)\n2. Click **Install GitHub App**\n3. Authorize Semgrep to access your repos\n4. Select which repositories to monitor\n5. Semgrep will automatically scan on push/PR\n\n## 3. **Manual CLI Integration**\n\n```bash\nsemgrep ci --json > results.json\n```\n\nThen use GitHub API to post results.\n\n---\n\n**Which method works best for you?** The GitHub Action or web app approach are most common.",
+  "cached_at": "2026-05-28T08:49:02Z",
+  "metadata": {}
+}

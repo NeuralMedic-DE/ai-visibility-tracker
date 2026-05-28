@@ -1,0 +1,9 @@
+{
+  "brand": "Baremetrics",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I track subscription metrics and MRR from Stripe in real time without spending a lot on software?",
+  "response": "# Low-Cost Stripe Metrics Tracking\n\n## Free/Cheap Options\n\n**Stripe Dashboard itself**\n- Surprisingly capable for basic MRR viewing\n- Go to Dashboard > Billing > Subscriptions to see active counts\n- Use Reports section for basic revenue trends\n- Zero cost, but limited filtering\n\n**Google Sheets + Stripe API**\n- Use `IMPORTDATA` or Apps Script to pull subscription data\n- Write a script that queries Stripe's API hourly/daily\n- Track MRR, churn, expansion revenue in a spreadsheet\n- Cost: Free (requires basic coding)\n- [Sample script template](https://github.com/stripe/stripe-apps) exists in Stripe's repo\n\n**Lightweight Tools Under $50/mo**\n- **Metabase** (self-hosted free version) - connect to Stripe, build dashboards\n- **Plausible** or **Fathom** - primarily analytics but have Stripe integrations\n- **Zapier + Google Sheets** - automate data collection (~$20/mo for Zapier)\n\n## DIY Approach (Best for Engineers)\n\n1. **Set up a Cron job** that calls Stripe API daily\n2. **Store raw data** in a simple database (Firebase free tier, PlanetScale free tier)\n3. **Build a dashboard** with lightweight tools:\n   - Simple HTML/JS dashboard\n   - Metabase (free self-hosted)\n   - Observable/Jupyter notebooks\n\n## What to Track Minimally\n\n- Active subscriptions count\n- MRR (sum of active subscription amounts)\n- Churn rate (canceled this period)\n- New subscriptions\n- Expansion (upgrades)\n\n**Reality check**: If you're under $5k MRR, the Stripe dashboard + a spreadsheet is often enough. Once you hit scale, the $100-300/mo tools (Baremetrics, Chartmogul) become worth it.\n\nWhat's your current MRR range? That'll help narrow down what actually matters.",
+  "cached_at": "2026-05-28T06:57:41Z",
+  "metadata": {}
+}

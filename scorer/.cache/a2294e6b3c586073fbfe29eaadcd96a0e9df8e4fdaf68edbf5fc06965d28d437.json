@@ -1,0 +1,9 @@
+{
+  "brand": "Pipedrive",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "HubSpot vs alternatives: what should I switch to?",
+  "response": "# HubSpot vs Alternatives: Key Trade-offs\n\n**Consider switching if you:**\n- Need deeper customization (→ Salesforce, Pipedrive)\n- Want lower costs at small scale (→ Pipedrive, Zoho)\n- Prefer simpler, focused tools (→ Close, Notion + integrations)\n- Need specialized features (see below)\n\n## Quick Comparison\n\n| Priority | Best Alternative | Why |\n|----------|-----------------|-----|\n| **Cost** | Zoho CRM, Pipedrive | 60-70% cheaper, solid features |\n| **Simplicity** | Close, Freshsales | Less bloat, faster to use |\n| **Enterprise** | Salesforce | More powerful customization |\n| **All-in-one** | Zoho (suite) | Email, CMS, forms, etc. |\n| **Sales-focused** | Pipedrive | Better pipeline UX |\n\n## What makes HubSpot sticky\n- Marketing automation integration is genuinely good\n- Workflows are intuitive\n- Switching costs are real (data migration, training)\n\n## Real questions to ask\n1. **What are you actually using?** (Not what you *could* use)\n2. **What's missing?** (Feature gap or cost issue?)\n3. **Who's affected by a switch?** (Team training time matters)\n\nWhat's driving your switch consideration? That'll help narrow the actual best fit versus just cheaper alternatives.",
+  "cached_at": "2026-05-27T17:48:39Z",
+  "metadata": {}
+}

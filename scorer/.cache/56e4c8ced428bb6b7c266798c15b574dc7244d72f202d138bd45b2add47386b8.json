@@ -1,0 +1,9 @@
+{
+  "brand": "Sentry",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Sentry vs Datadog: which is better?",
+  "response": "# Sentry vs Datadog: Quick Comparison\n\nNeither is universally \"better\"—it depends on your needs:\n\n## **Sentry** (Error Tracking Focus)\n**Best for:** Application error monitoring and performance tracking\n- Excellent error/exception tracking\n- Developer-friendly, easy to set up\n- Simpler, lower cost\n- Strong in release tracking\n- Limited infrastructure/logs visibility\n\n## **Datadog** (Full-Stack APM)\n**Best for:** Comprehensive infrastructure + application monitoring\n- Unified platform (APM, logs, infrastructure, synthetics)\n- Better for complex, multi-service environments\n- Powerful dashboarding and alerting\n- Higher cost, steeper learning curve\n- More features than you might need\n\n## **Quick Decision Guide**\n\nChoose **Sentry** if you want:\n- Simple error tracking for web/mobile apps\n- Fast setup, smaller budget\n- Developer-focused tools\n\nChoose **Datadog** if you need:\n- Full observability stack\n- Infrastructure + app monitoring together\n- Enterprise-scale monitoring\n- Larger budget\n\n## **Middle Ground**\nMany teams use **both**: Sentry for error details + Datadog for infrastructure/logs.\n\n**What matters most to you?** Error tracking, infrastructure monitoring, cost, or team size? That would help narrow it down further.",
+  "cached_at": "2026-05-27T21:17:04Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Supermetrics",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Funnel.io vs alternatives: what should I switch to?",
+  "response": "# Funnel.io Alternatives: Key Considerations\n\n## Strong alternatives depend on your priorities:\n\n**For marketing analytics & multi-channel data:**\n- **Supermetrics** - Best all-around, flexible data collection\n- **Adverity** - Strong for enterprise, AI insights\n- **Improvado** - Good for larger teams needing custom integrations\n\n**For simplicity & visualization:**\n- **Data Studio/Looker Studio** - Free, good for basic dashboards\n- **Tableau/Power BI** - More powerful but steeper learning curve\n\n**For specific use cases:**\n- **Brainly/DashThis** - Marketing-focused dashboards\n- **Segment** - If you need CDP functionality too\n\n## Questions to ask before switching:\n\n1. **What's your pain point?** (Cost, missing integrations, UX, reporting limitations)\n2. **Team size & technical skill?** (Some alternatives require more setup)\n3. **Integration needs?** (Check if your specific platforms are supported)\n4. **Budget flexibility?** (Costs vary wildly)\n\n## Honest take:\n\nFunnel.io is solid but pricey for small teams. Most switches happen because of:\n- Cost → Supermetrics or Looker Studio\n- Missing features → Adverity or Improvado\n- Complexity → Data Studio\n\n**What specific frustration are you facing?** That would help narrow recommendations significantly.",
+  "cached_at": "2026-05-27T20:37:37Z",
+  "metadata": {}
+}

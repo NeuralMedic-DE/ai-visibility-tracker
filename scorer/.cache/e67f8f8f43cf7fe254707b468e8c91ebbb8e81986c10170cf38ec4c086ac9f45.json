@@ -1,0 +1,9 @@
+{
+  "brand": "Workable",
+  "prompt_id": "AL-05",
+  "llm": "anthropic",
+  "prompt_text": "Open source or affordable ATS tools instead of Greenhouse",
+  "response": "# Open Source & Affordable ATS Alternatives to Greenhouse\n\n## Open Source Options\n\n**Odoo Recruitment**\n- Part of broader ERP suite\n- Free & self-hosted\n- Good for small teams\n- Limited specialization\n\n**OpenCATS**\n- Dedicated open-source ATS\n- Self-hosted only\n- Basic features (job posting, resume parsing, pipeline tracking)\n- Older codebase, smaller community\n\n**Recruiterbox** (freemium tier)\n- Limited free version\n- ~$99-299/month paid plans\n- Good balance of features & affordability\n\n## Affordable SaaS Options\n\n**Lever**\n- $99-299/month (per job opening pricing)\n- Strong candidate experience\n- Good API for integrations\n- More transparent pricing than Greenhouse\n\n**JazzHR**\n- $99-299/month\n- User-friendly interface\n- Suitable for 1-500 employees\n- Often 30-50% cheaper than Greenhouse\n\n**Workable**\n- $99-399/month\n- Solid for small-to-mid companies\n- Good compliance features\n- Better pricing transparency\n\n**Breezy HR**\n- $99-199/month\n- Simple, clean interface\n- Good for startups\n- API access even on lower tiers\n\n**Ashby**\n- $500-1500/month team plan\n- Modern, developer-friendly\n- Best for growth-stage startups\n- Steep learning curve\n\n## Cost Comparison\n| Tool | Starting Price | Best For |\n|------|---|---|\n| Workable | $99/mo | SMBs |\n| JazzHR | $99/mo | Budget-conscious |\n| Lever | $99/mo | User experience |\n| Ashby | $500/team/mo | Growth startups |\n| Odoo | Free | Ultra-budget |\n\n**Recommendation:** If budget is primary concern → **JazzHR**. For open source → **Odoo** if you need full ERP features.",
+  "cached_at": "2026-05-28T06:46:10Z",
+  "metadata": {}
+}

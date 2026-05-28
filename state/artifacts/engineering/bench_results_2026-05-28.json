@@ -1,0 +1,43 @@
+{
+  "benchmark_date": "2026-05-28",
+  "config": {
+    "brands": 5,
+    "brand_names": [
+      "Close",
+      "Attio",
+      "Plausible",
+      "Linear",
+      "Ashby"
+    ],
+    "llms": [
+      "openai",
+      "anthropic",
+      "perplexity"
+    ],
+    "prompts_per_brand": 25,
+    "total_simulated_calls": 375,
+    "simulate_latency_s": 0.5,
+    "concurrency": 4,
+    "effective_caps": {
+      "openai": 4,
+      "anthropic": 4,
+      "perplexity": 2
+    }
+  },
+  "timings": {
+    "sequential_s": 188.935,
+    "async_s": 32.614,
+    "expected_sequential_s": 187.5,
+    "expected_async_s": 32.5,
+    "speedup_x": 5.79,
+    "target_met_3x": true
+  },
+  "projection_100_brands": {
+    "total_calls": 7500,
+    "avg_call_s": 1.8,
+    "sequential_hours": 3.75,
+    "async_hours": 0.65,
+    "under_5h_target": true
+  },
+  "rate_limit_warnings": 0
+}

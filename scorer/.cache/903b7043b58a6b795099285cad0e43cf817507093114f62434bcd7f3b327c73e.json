@@ -1,0 +1,9 @@
+{
+  "brand": "Rippling",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Rippling Google Workspace integration: how does it work?",
+  "response": "# Rippling Google Workspace Integration\n\n## Overview\nRippling syncs with Google Workspace to centralize employee data and access management. Here's how it works:\n\n## Key Functions\n\n### **User Management**\n- Automatically provisions new Google accounts when employees join\n- Deprovisioning: removes access and disables accounts when employees leave\n- Syncs employee data (name, email, department, etc.) between systems\n- Manages group memberships and distribution lists\n\n### **Data Synchronization**\n- Two-way sync keeps employee records consistent\n- Updates to employee info in Rippling flow to Google Workspace\n- Changes in Google Workspace organizational structure can reflect in Rippling\n\n### **Access Control**\n- Single source of truth for who has access to what\n- Integrates with Rippling's broader access management\n- Can enforce policies across Google and other connected apps\n\n### **Device Management**\n- Mobile device management (MDM) can enforce Google Workspace security policies\n- Device compliance requirements synchronized\n\n## Setup Requirements\n- Google Workspace admin access\n- Rippling account with admin permissions\n- OAuth authorization between platforms\n- Configuration of field mappings and sync settings\n\n## Common Use Cases\n- Onboarding automation (Gmail, Drive access)\n- Offboarding workflows\n- Department/team restructuring\n- Cross-system identity governance\n\n## Limitations\n- Depends on both systems being available\n- Custom fields may require manual mapping\n- Some legacy Google Workspace features may not sync\n\nWould you like details on any specific aspect of the integration?",
+  "cached_at": "2026-05-28T06:27:53Z",
+  "metadata": {}
+}

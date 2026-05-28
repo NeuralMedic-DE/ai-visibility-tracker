@@ -1,0 +1,9 @@
+{
+  "brand": "Baremetrics",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with forecast revenue and identify at-risk customers before they churn at scale?",
+  "response": "# Revenue Forecasting & Churn Prevention Software\n\n## Dedicated Platforms\n\n**Predictive Analytics/Revenue Intelligence:**\n- **Salesforce Einstein** - AI-driven forecasting built into CRM\n- **Gainsight** - Customer success platform with churn prediction\n- **Totango** - Health scoring and at-risk customer alerts\n- **6sense** - Account-based revenue intelligence\n- **Predictive** - Purpose-built for B2B churn/expansion\n\n**Data & BI Tools:**\n- **Tableau/Power BI** - With predictive modeling capabilities\n- **Looker** - Embedded ML for trend analysis\n- **Amplitude/Mixpanel** - Product usage patterns → churn signals\n\n## Key Capabilities to Look For\n\n- **Health scores** - Automated risk indicators from usage, support, financials\n- **Behavioral signals** - Declining engagement, feature adoption, support tickets\n- **Revenue modeling** - Forecast based on historical patterns and cohorts\n- **Alerting** - Real-time notifications for at-risk accounts\n- **Integration** - Works with your existing CRM/data warehouse\n\n## Implementation Approaches\n\n- **CRM-native** (Salesforce, HubSpot) - Easier setup if already using\n- **Standalone + integrations** - More specialized, requires data pipeline\n- **Custom models** - Using Python/SQL if you have data science resources\n\n**Best fit depends on:** company size, data maturity, industry vertical, and whether you need both forecasting *and* intervention workflows.\n\nWhat's your current tech stack?",
+  "cached_at": "2026-05-28T06:57:46Z",
+  "metadata": {}
+}

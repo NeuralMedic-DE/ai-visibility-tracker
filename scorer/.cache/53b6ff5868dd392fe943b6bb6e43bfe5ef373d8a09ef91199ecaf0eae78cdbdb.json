@@ -1,0 +1,9 @@
+{
+  "brand": "Instantly",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Instantly with HubSpot?",
+  "response": "# Connecting Instantly with HubSpot\n\nHere's how to set up the integration:\n\n## Basic Steps\n\n1. **Log into Instantly**\n   - Go to your Instantly dashboard\n   - Navigate to **Integrations** or **Settings**\n\n2. **Find HubSpot Integration**\n   - Look for HubSpot in the available integrations list\n   - Click to select it\n\n3. **Authorize HubSpot**\n   - Click \"Connect\" or \"Authorize\"\n   - You'll be redirected to HubSpot\n   - Log in with your HubSpot credentials\n   - Grant Instantly permission to access your HubSpot account\n\n4. **Configure Settings**\n   - Choose what data to sync (contacts, deals, activities, etc.)\n   - Map fields between platforms\n   - Set sync preferences and frequency\n\n5. **Save & Test**\n   - Confirm your settings\n   - Run a test sync to verify it's working\n\n## What You Can Do\n\n- Automatically add leads from Instantly campaigns to HubSpot\n- Log email opens and clicks in HubSpot\n- Sync contact information and engagement data\n- Create or update HubSpot contacts from Instantly\n\n## Need Help?\n\n- Check **Instantly's support documentation** for current setup guides\n- Contact **Instantly support** if you encounter issues\n- Verify you have admin access to both accounts\n\nWould you like help with a specific part of the setup?",
+  "cached_at": "2026-05-28T07:19:29Z",
+  "metadata": {}
+}

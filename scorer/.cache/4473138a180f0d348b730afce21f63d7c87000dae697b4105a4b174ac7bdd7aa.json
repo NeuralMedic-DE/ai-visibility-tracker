@@ -1,0 +1,9 @@
+{
+  "brand": "Nudge Security",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Nudge Security with Okta?",
+  "response": "# Connecting Nudge Security with Okta\n\nHere's how to integrate Nudge Security with Okta:\n\n## Prerequisites\n- Admin access to both Nudge Security and Okta\n- Okta organization URL\n\n## Steps\n\n### 1. **In Nudge Security**\n- Navigate to **Settings** → **Integrations**\n- Look for **Okta** and click **Connect**\n- You'll be provided with a redirect URI (copy this)\n\n### 2. **In Okta**\n- Go to **Admin Console**\n- Navigate to **Applications** → **Applications**\n- Click **Create App Integration**\n- Select **OAuth 2.0 Authorization Code Flow** (or OIDC if prompted)\n- Configure the app:\n  - **App name**: Nudge Security\n  - **Redirect URIs**: Paste the URI from Nudge\n  - **Sign-out redirect URIs**: Add your Nudge sign-out URL\n\n### 3. **Get Credentials**\n- From your Okta app, copy:\n  - **Client ID**\n  - **Client Secret**\n  - **Okta Domain** (e.g., `https://your-domain.okta.com`)\n\n### 4. **Complete Nudge Setup**\n- Return to Nudge and enter:\n  - Client ID\n  - Client Secret\n  - Okta organization URL\n- Click **Connect/Authorize**\n\n## Verify Connection\n- Test by logging in with Okta SSO\n- Confirm user sync is working in Nudge\n\n**Need help?** Check Nudge's official documentation or contact their support team for the most current instructions.",
+  "cached_at": "2026-05-28T08:38:57Z",
+  "metadata": {}
+}

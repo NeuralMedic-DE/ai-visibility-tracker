@@ -1,0 +1,9 @@
+{
+  "brand": "Plausible",
+  "prompt_id": "CM-02",
+  "llm": "anthropic",
+  "prompt_text": "Plausible vs Mixpanel pricing and features",
+  "response": "# Plausible vs Mixpanel: Pricing & Features Comparison\n\n## **Pricing**\n\n| Aspect | Plausible | Mixpanel |\n|--------|-----------|----------|\n| **Model** | Flat-rate plans | Usage-based + tiers |\n| **Starter** | $20/month | Free (limited) |\n| **Mid-tier** | $200/month | $999+/month |\n| **Enterprise** | Custom | Custom |\n| **Free trial** | 30 days | Yes, limited |\n\n## **Key Features**\n\n### **Plausible**\n✅ **Best for:** Simple, privacy-focused analytics\n- Website traffic analytics\n- No cookies required\n- GDPR/CCPA compliant by default\n- Real-time data\n- Simple dashboard\n- **Limited:** No advanced segmentation\n\n### **Mixpanel**\n✅ **Best for:** Product analytics & user behavior\n- Event tracking & funnel analysis\n- Cohort building & segmentation\n- User retention metrics\n- A/B testing\n- Advanced segmentation\n- Requires more implementation\n\n## **Quick Decision Matrix**\n\n| Choose **Plausible** if you want: | Choose **Mixpanel** if you want: |\n|---|---|\n| Simple website analytics | Deep product behavior insights |\n| Privacy-first approach | Advanced user segmentation |\n| Low cost, flat pricing | Detailed funnel/retention analysis |\n| Fast setup | Enterprise features |\n\n## **Bottom Line**\n- **Plausible**: Lightweight, affordable, privacy-focused\n- **Mixpanel**: Powerful, complex, for product teams with bigger budgets\n\nNeed help deciding based on your specific use case?",
+  "cached_at": "2026-05-27T20:17:21Z",
+  "metadata": {}
+}

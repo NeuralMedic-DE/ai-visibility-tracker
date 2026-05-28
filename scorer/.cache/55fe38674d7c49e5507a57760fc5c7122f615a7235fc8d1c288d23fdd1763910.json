@@ -1,0 +1,9 @@
+{
+  "brand": "HiBob",
+  "prompt_id": "UC-05",
+  "llm": "perplexity",
+  "prompt_text": "What software helps with automate onboarding workflows and org chart updates at scale at scale?",
+  "response": "For **automating onboarding workflows at scale**, the strongest options in your results are **Jira Service Management**, **Rippling**, **Workday HCM**, **HR Cloud**, and **Docubee**.[1][2][4][3]\n\nIf you also need **org chart updates** as part of the same system, **Trainual** is the clearest match in the provided results because it explicitly includes **org chart and role mapping** alongside onboarding and training.[2]\n\nA practical shortlist by use case:\n\n- **Jira Service Management** — best for workflow automation across HR tasks like approvals, equipment provisioning, and access requests, with customizable workflows that reduce manual effort.[1]\n- **Rippling** — best for HR and IT onboarding automation in one system, including payroll and device setup.[2]\n- **Workday HCM** — best for large, complex enterprises and global teams that need onboarding tied to broader workforce management.[2]\n- **HR Cloud** — best if you want onboarding automation built for very large teams, with role-based workflows and scaling claims up to 50,000 employees.[4]\n- **Docubee** — best for document-heavy onboarding workflows, e-signatures, routing, reminders, and automated form handling.[3]\n- **Trainual** — best if org structure and role mapping matter, since it combines onboarding with **org chart** support.[2]\n\nIf you want, I can turn this into a **vendor comparison table** for “best for onboarding automation + org chart updates” based on team size, HR/IT scope, and enterprise complexity.",
+  "cached_at": "2026-05-28T06:34:10Z",
+  "metadata": {}
+}

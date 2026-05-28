@@ -1,0 +1,9 @@
+{
+  "brand": "Apollo.io",
+  "prompt_id": "CD-04",
+  "llm": "openai",
+  "prompt_text": "Best CRM platforms for build targeted prospect lists",
+  "response": "When looking for CRM platforms that excel in building targeted prospect lists, it's important to consider features like lead segmentation, data enrichment, and integration capabilities. Here are some of the best CRM platforms for this purpose:\n\n1. **HubSpot CRM**: Offers robust lead management and segmentation tools, along with marketing automation features. Its free version is quite comprehensive, and it integrates well with other tools.\n\n2. **Salesforce**: Known for its extensive customization options and powerful analytics, Salesforce can help build detailed prospect lists and offers a wide range of integrations.\n\n3. **Zoho CRM**: Provides excellent lead management and segmentation features, along with AI-driven insights to help target the right prospects.\n\n4. **Pipedrive**: Focuses on sales pipeline management with easy-to-use features for tracking and segmenting leads. It also offers integrations with various marketing tools.\n\n5. **Freshsales**: Part of the Freshworks suite, it offers AI-powered lead scoring and segmentation, making it easier to build targeted lists.\n\n6. **Insightly**: Combines CRM with project management features and offers tools for lead routing and segmentation.\n\n7. **Copper**: Designed for G Suite users, it integrates seamlessly with Google apps and offers features for managing and segmenting leads effectively.\n\n8. **Nimble**: Known for its social CRM capabilities, Nimble helps in building prospect lists by integrating social media insights with traditional CRM data.\n\nEach of these platforms has unique strengths, so the best choice depends on your specific needs, budget, and existing tech stack.",
+  "cached_at": "2026-05-27T18:00:43Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Personio",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best HR for European SME HR teams and people operations leads?",
+  "response": "# Best HR Tools for European SMEs\n\nThe \"best\" depends on your specific needs, but here are top contenders:\n\n## **All-in-One Platforms**\n- **BambooHR** – Strong on core HR, intuitive, good GDPR compliance\n- **Personio** – Built for European SMEs, excellent compliance, strong support\n- **Workday** – Premium option if scaling fast\n- **Sage HR** – Budget-friendly, UK-focused\n\n## **By Priority**\n\n**For Compliance & GDPR focus:**\n- Personio, BambooHR, or local providers\n\n**For Best User Experience:**\n- BambooHR, Rippling (if comfortable with US-based)\n\n**For Budget Constraints:**\n- Sage HR, Factorial, Breathe\n\n**For Growing Teams:**\n- Personio, Workday, ADP\n\n## **Key Criteria for European SMEs**\n- GDPR & local labor law compliance\n- Multi-language & multi-currency support\n- Good support/onboarding (you may be solo)\n- Integration with payroll/accounting systems\n- Mobile-friendly for dispersed teams\n\n## **Real Talk**\nMost 10-50 person teams find **BambooHR or Personio** hit the sweet spot. Personio edges ahead if EU compliance is your biggest concern; BambooHR if you want simpler functionality.\n\n**What size team are you supporting?** That would help narrow it down further.",
+  "cached_at": "2026-05-28T06:34:34Z",
+  "metadata": {}
+}

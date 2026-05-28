@@ -1,0 +1,9 @@
+{
+  "brand": "Airbyte",
+  "prompt_id": "IN-03",
+  "llm": "perplexity",
+  "prompt_text": "How do I connect Airbyte with Postgres?",
+  "response": "To connect **Airbyte with Postgres**, create a **Postgres source** in Airbyte, enter your database host, port, database name, username, and password, choose an SSL mode, and then test the connection.[1]\n\nThe minimum setup is:\n\n- Create a **dedicated read-only Postgres user** with permissions to replicate data.[1]\n- In Airbyte, go to **Sources** and select **Postgres**.[1]\n- Enter the **hostname**, **port**, and **database name**.[1]\n- Optionally specify the **schemas** to sync; if you leave this blank, Airbyte discovers all available schemas.[1]\n- Enter the **username** and **password** for the Postgres user you created.[1]\n- Choose an **SSL mode** such as `require` or `verify-ca`.[1]\n- Select **Standard (xmin)** as the replication method for typical setups.[1]\n- Click **Set up source** and let Airbyte test the connection.[1]\n\nIf you use **Airbyte Cloud**, you also need to **allow inbound traffic from Airbyte IPs** in your Postgres/network configuration.[1]\n\nIf you want, I can also give you:\n- a **step-by-step Airbyte UI walkthrough**\n- the **exact Postgres permissions** to create the read-only user\n- a **Docker/local Postgres example**",
+  "cached_at": "2026-05-28T09:04:48Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Pendo",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Pendo Zendesk integration: how does it work?",
+  "response": "# Pendo-Zendesk Integration Overview\n\n## How It Works\n\nThe integration connects your product analytics (Pendo) with your support platform (Zendesk) to create a seamless customer support experience.\n\n### Key Functionalities\n\n**1. Ticket Context in Pendo**\n- View Zendesk tickets directly within Pendo analytics\n- See support issues tied to user behavior and feature usage\n- Understand when customers encountered problems in your product\n\n**2. Product Data in Zendesk**\n- Access Pendo analytics within support tickets\n- View customer's product usage history\n- See which features they've used and when\n\n**3. Two-Way Information Flow**\n- Support agents can correlate tickets with product events\n- Product teams can see real user issues affecting customers\n- Faster issue resolution with complete context\n\n## Common Use Cases\n\n- **Support agents** → Diagnose issues faster using feature usage data\n- **Product teams** → Identify bugs or UX problems from support tickets\n- **Customer success** → Proactive outreach based on product issues\n- **Bug tracking** → Link support issues to product anomalies\n\n## Setup Requirements\n\n- Active Pendo and Zendesk accounts\n- Admin access to both platforms\n- API connectivity/integration configuration\n- User data mapping (email matching between systems)\n\n## Benefits\n\n✓ Reduced support ticket resolution time\n✓ Better visibility into product issues\n✓ Improved customer experience\n✓ Stronger alignment between support and product teams\n\n**Note:** Integration features may vary depending on your Pendo and Zendesk subscription tiers. Check your platform documentation for current capabilities.",
+  "cached_at": "2026-05-27T19:48:58Z",
+  "metadata": {}
+}

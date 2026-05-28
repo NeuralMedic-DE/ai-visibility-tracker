@@ -1,0 +1,9 @@
+{
+  "brand": "Lattice",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do mid-market companies building high-performance cultures companies use to run continuous performance reviews and set company-wide OKRs?",
+  "response": "# Tools Mid-Market Companies Use for Performance & OKRs\n\n## Performance Review Platforms\n\n**General purpose (most popular):**\n- **Lattice** - strong on continuous feedback, goal tracking, and calibration\n- **15Five** - lightweight, focuses on weekly check-ins and continuous feedback\n- **Betterworks** - built specifically around OKRs + performance integration\n- **Bamboo HR** - simpler, good for smaller mid-market companies\n\n**Specialized continuous feedback:**\n- **Culture Amp** - heavier on engagement/surveys, lighter on goal tracking\n- **Peakon** - similar to Culture Amp\n\n## OKR-Specific Tools\n\n**Dedicated OKR platforms:**\n- **15Five** (also does performance)\n- **Gtmhub** - enterprise-grade, strong analytics\n- **7geese** - Canadian, good UI, integrated reviews + OKRs\n- **Ally** - lightweight, good for distributed teams\n- **Perdoo** - clean interface, popular with European mid-market\n\n**Spreadsheet alternative:**\n- Many companies still use **Sheets/Excel** + project management tools (Asana, Monday)\n\n## Reality Check\n\n**Most effective setups actually combine:**\n1. A goal-tracking tool (dedicated OKR platform or general HR platform)\n2. A lightweight feedback/check-in tool (often separate from formal reviews)\n3. Calendar reminders for quarterly planning and check-ins\n\nThe tool matters less than the *cadence and discipline* around actually using it. Many companies succeed with basic tools because execution matters more than sophistication.\n\nWhat's your main pain point—goal alignment, review frequency, or something else?",
+  "cached_at": "2026-05-28T06:30:11Z",
+  "metadata": {}
+}

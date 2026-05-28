@@ -1,0 +1,9 @@
+{
+  "brand": "Humaans",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which HR software should a People Ops Lead or HR Manager at a startup use?",
+  "response": "# HR Software for Startup People Ops\n\nThe best choice depends on your startup's size and needs, but here's a practical framework:\n\n## **Early Stage (1-50 people)**\n- **Guidepoint** or **Rippling** - All-in-one (payroll, benefits, onboarding)\n- **Bamboo HR** - Simple, affordable, good for culture-building features\n- **Deel** - If you have remote/international team members\n\n**Why**: You need simplicity and integration, not complexity\n\n## **Growth Stage (50-300 people)**\n- **Rippling** - Strongest all-in-one option; excellent integrations\n- **Workday** - If you need robust analytics and future scaling\n- **BambooHR + Guidepoint** - More modular approach\n\n## **Key decision factors**\n\n| Consideration | What to prioritize |\n|---|---|\n| **International hiring** | Deel, Remote, Rippling |\n| **Complex benefits** | Rippling, Workday |\n| **Culture-focused** | BambooHR, Namely |\n| **Budget tight** | BambooHR, Guidepoint |\n| **Tech integration priority** | Rippling, Workday |\n\n## **Honest takes**\n- **Rippling** is winning for startups (best UX + integrations)\n- **BambooHR** punches above its price point for 50-150 person companies\n- Avoid over-engineering early—you'll migrate systems anyway as you grow\n\n**What's your current headcount?** That would help narrow it down further.",
+  "cached_at": "2026-05-28T06:47:51Z",
+  "metadata": {}
+}

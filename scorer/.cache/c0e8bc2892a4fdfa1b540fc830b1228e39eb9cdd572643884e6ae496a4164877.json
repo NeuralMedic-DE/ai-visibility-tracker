@@ -1,0 +1,9 @@
+{
+  "brand": "Instantly",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with warm up email accounts and manage deliverability automatically at scale at scale?",
+  "response": "There are several software tools designed to help with warming up email accounts and managing email deliverability at scale. These tools typically automate the process of gradually increasing email sending volume and improving sender reputation to ensure better deliverability. Here are a few popular options:\n\n1. **Lemwarm (part of Lemlist)**: Lemwarm is a feature within Lemlist that helps automate the email warm-up process. It gradually increases the number of emails sent from your account and engages with them to improve deliverability.\n\n2. **Warmbox**: Warmbox automates the warm-up process by sending emails from your account to other Warmbox users and interacting with them to improve your sender reputation.\n\n3. **Mailwarm**: Mailwarm connects to your email account and sends emails to a network of real users who will open, reply, and mark them as important, helping to improve deliverability.\n\n4. **Warmup Inbox**: This tool automates the warm-up process by sending emails to a network of inboxes that engage with your emails, helping to establish a positive sender reputation.\n\n5. **GMass**: While primarily an email marketing tool, GMass offers features for warming up Gmail accounts and improving deliverability.\n\n6. **Folderly**: Folderly provides email warm-up and deliverability optimization services, helping to improve sender reputation and inbox placement.\n\nThese tools typically offer features like automated email sending, engagement (opens, replies, etc.), and analytics to track progress. It's important to choose a tool that fits your specific needs and integrates well with your email service provider.",
+  "cached_at": "2026-05-28T07:19:19Z",
+  "metadata": {}
+}

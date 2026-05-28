@@ -1,0 +1,9 @@
+{
+  "brand": "HiBob",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does HiBob integrate with Slack?",
+  "response": "Yes. **HiBob (Bob) has a built-in, native integration with Slack.**[2][7]\n\nUsing the official **Bob–Slack integration**, you can:\n- Get a **daily digest** in Slack (who’s out, birthdays, anniversaries)[2][9]  \n- Receive **event notifications and shoutouts**, including new joiner announcements[2][9]  \n- Use **/bob Slack commands** for quick HR queries (e.g., who’s out, when someone returns)[2][7][9]  \n- **Review and approve time-off requests** directly in Slack and handle basic time management like clock in/out[2][7]  \n\nYou enable it from **Bob → Settings → Integrations → Slack**, then authorize the Bob Slack app in your Slack workspace (Slack admin approval required).[2][4]",
+  "cached_at": "2026-05-28T06:34:13Z",
+  "metadata": {}
+}

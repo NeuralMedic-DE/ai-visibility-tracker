@@ -1,0 +1,9 @@
+{
+  "brand": "Front",
+  "prompt_id": "AL-03",
+  "llm": "anthropic",
+  "prompt_text": "Best customer operations alternatives for customer ops support and account management teams at growing companies teams on a budget",
+  "response": "# Budget-Friendly Customer Operations Tools for Growing Companies\n\n## Core Platforms (All-in-One)\n\n**Frontdesk** / **Zendesk** (scaled)\n- Zendesk is pricey but essential; Frontdesk offers lightweight alternative\n- CRM + ticketing + knowledge base in one\n\n**HubSpot Free/Starter**\n- Generous free tier for small teams\n- Deal pipeline + basic automation + email tracking\n- Scales affordably\n\n## Specialized Budget Tools\n\n### Ticketing & Support\n- **Plane** or **Zulip** (open-source, self-hosted)\n- **Freshdesk** (cheaper than Zendesk, good feature parity)\n- **Gorgias** (if you're e-commerce focused)\n\n### Account Management & CRM\n- **Pipedrive** ($15/user, sales-focused)\n- **Less Annoying CRM** (flat $15/user)\n- **Streak** (if you're Gmail-native)\n- **Copper** (lightweight, Gmail integration)\n\n### Knowledge Base & Documentation\n- **Slite** or **Notion** (as free KB alternative)\n- **GitBook** (if technical docs)\n\n## Communication & Automation\n- **Slack** + free integrations (better than expensive helpdesk for SMBs)\n- **n8n** or **Zapier** (free tier for basic automation)\n- **IFTTT** (simple workflows)\n\n## Financial Considerations\n\n**Typical budget breakdown for 2-3 person ops team:**\n- Primary platform: $50-100/mo\n- Automation: $20-50/mo\n- Communication: $100-150/mo (Slack)\n- **Total: ~$200-300/mo vs. $500+ for enterprise stacks**\n\n## My Recommendation for Startups\n\n**Start with:** HubSpot Free + Slack + Zapier free tier\n**When cash allows:** Add Freshdesk or Gorgias (depends on channel mix)\n\nWhat's your company size and main support channels? That changes recommendations significantly.",
+  "cached_at": "2026-05-28T08:17:08Z",
+  "metadata": {}
+}

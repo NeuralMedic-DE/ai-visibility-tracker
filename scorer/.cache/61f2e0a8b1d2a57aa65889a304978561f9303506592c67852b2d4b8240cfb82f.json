@@ -1,0 +1,9 @@
+{
+  "brand": "Drata",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Drata Okta integration: how does it work?",
+  "response": "# Drata-Okta Integration Overview\n\n## How It Works\n\nThe integration connects **Okta** (identity and access management) with **Drata** (compliance automation platform) to streamline security and compliance monitoring.\n\n### Key Flows\n\n**1. User & Access Data Sync**\n- Okta sends user provisioning, authentication, and access information to Drata\n- Includes user creation/deletion, role assignments, and group memberships\n- Helps Drata verify access controls for compliance frameworks (SOC 2, ISO 27001, etc.)\n\n**2. Automated Evidence Collection**\n- Drata pulls logs and configuration data from Okta\n- Captures MFA enforcement, password policies, session management settings\n- Auto-populates compliance controls related to identity management\n\n**3. Control Mapping**\n- Maps Okta capabilities to compliance requirements\n- Examples: MFA policies → access control requirements, audit logs → monitoring controls\n\n## Setup Process\n\n1. **Authentication**: Connect via OAuth or API token in Drata\n2. **Permissions**: Grant Okta read access scopes needed\n3. **Configuration**: Select data types to sync\n4. **Testing**: Verify connection and data flow\n\n## Benefits\n\n✅ Reduces manual evidence gathering  \n✅ Real-time access control monitoring  \n✅ Automated control testing  \n✅ Audit-ready documentation  \n✅ Faster compliance reporting\n\n## What It Covers\n\n- User access reviews\n- MFA compliance\n- Privileged access management\n- Authentication policies\n- Audit trail requirements\n\nWould you like details on setup, specific compliance frameworks, or troubleshooting?",
+  "cached_at": "2026-05-28T08:29:07Z",
+  "metadata": {}
+}

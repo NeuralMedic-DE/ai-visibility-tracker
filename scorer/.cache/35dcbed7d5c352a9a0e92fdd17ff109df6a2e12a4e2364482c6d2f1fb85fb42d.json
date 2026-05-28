@@ -1,0 +1,9 @@
+{
+  "brand": "Totango",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with scale CS operations across thousands of accounts with automated plays at scale?",
+  "response": "# Software for Scaled CS Operations\n\nSeveral platforms excel at automating CS plays across large account bases:\n\n## **Primary Players**\n\n**Gainsight** (Salesforce-owned)\n- Purpose-built for CS at scale\n- Playbooks for automated workflows\n- Health scoring and risk detection\n- Strong for enterprise accounts\n\n**Totango**\n- Multi-tenant SaaS CSM platform\n- Automation rules and workflows\n- Segment-based plays\n- Good for mid-market to enterprise\n\n**Planhat**\n- Real-time playbooks and automations\n- Health score automation\n- Portfolio management at scale\n- Growing in popularity\n\n**ClientSuccess**\n- Workflow automation for repetitive plays\n- Template-based playbooks\n- Activity tracking across accounts\n\n## **Alternative Approaches**\n\n- **Hubspot Service Hub** - solid for SMB, moderate automation\n- **Outreach/Salesloft** - primarily sales-focused but with CS features\n- **Zapier + Slack + your CRM** - DIY automation for simpler workflows\n- **Custom Salesforce builds** - if you have engineering resources\n\n## **Key Capabilities to Look For**\n\n- Segment-based playbook triggers\n- Automated workflow execution\n- Health score-based actions\n- Integration with your tech stack\n- Audit trails for compliance\n\n**Best fit depends on**: your account volume, ACV, technical resources, and existing tech stack.\n\nWhat's your current account volume and primary pain point—onboarding, retention, or expansion?",
+  "cached_at": "2026-05-28T08:14:41Z",
+  "metadata": {}
+}

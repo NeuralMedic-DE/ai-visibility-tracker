@@ -1,0 +1,9 @@
+{
+  "brand": "Apollo.io",
+  "prompt_id": "AL-01",
+  "llm": "anthropic",
+  "prompt_text": "Alternatives to ZoomInfo for SDR teams at B2B companies",
+  "response": "# ZoomInfo Alternatives for SDR Teams\n\n## **Direct Competitors (Full-Stack)**\n- **Apollo.io** - Most popular alternative; similar pricing, strong outreach automation\n- **Hunter.io** - Excellent email finding; integrates with most CRMs\n- **Clearbit** - Best for firmographic data; good API for enrichment\n- **Lusha** - Strong in EMEA; competitive pricing with phone numbers\n\n## **By Specific Need**\n\n### **Email/Phone Finding**\n- **RocketReach** - Extensive B2B database\n- **Snov.io** - Budget-friendly with browser extension\n- **EmailFinder/Bulk Email Finder** - Simple, cost-effective for basics\n\n### **Firmographic Data**\n- **Dun & Bradstreet** - Most authoritative company data\n- **PredictiveIntent/6sense** - Buying signals (premium)\n- **LinkedIn Sales Navigator** - Underrated for research + outreach\n\n### **Outreach Automation**\n- **Outreach.io** - Purpose-built for sales engagement\n- **Salesloft** - Cadences, dialing, analytics\n- **Lemlist** - Creative cold email focus\n\n## **Budget Options**\n- **Clay** - Workflow-based enrichment (pay per use)\n- **Seamless.ai** - Aggressive pricing; good phone coverage\n- **AeroLeads** - Chrome extension; minimal monthly cost\n\n## **Key Questions to Ask**\n1. What's your tech stack? (Check native integrations first)\n2. Database quality matter more than features?\n3. Email finding vs. phone number priority?\n4. Need built-in sequencing or external tools?\n\n**Most common swap**: Apollo for mid-market teams balancing cost and features.\n\nWhat's your primary use case?",
+  "cached_at": "2026-05-27T18:04:19Z",
+  "metadata": {}
+}

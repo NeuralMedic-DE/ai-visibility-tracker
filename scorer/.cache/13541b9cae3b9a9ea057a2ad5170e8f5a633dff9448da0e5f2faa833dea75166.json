@@ -1,0 +1,9 @@
+{
+  "brand": "Plausible",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Plausible vs Google Analytics: which is better?",
+  "response": "# Plausible vs Google Analytics\n\nNeither is objectively \"better\"—it depends on your priorities:\n\n## **Plausible** (better if you prioritize)\n- **Privacy** – No cookies, GDPR/CCPA compliant by default\n- **Simplicity** – Faster setup, fewer overwhelming features\n- **Data ownership** – You fully own your data\n- **Lightweight** – Minimal performance impact\n- **Fair pricing** – Flat-rate plans, no surprise costs\n\n**Trade-off:** Limited features, smaller feature set, less integrations\n\n## **Google Analytics** (better if you need)\n- **Advanced features** – Complex funnels, custom events, attribution modeling\n- **Integrations** – Seamlessly connects with Google Ads, Search Console, etc.\n- **Depth** – Powerful segmentation and exploration tools\n- **Cost** – Free tier is genuinely free\n- **Ecosystem** – More third-party tools support it\n\n**Trade-off:** Requires privacy disclaimers, steeper learning curve, privacy concerns, data sharing with Google\n\n## **Quick decision framework**\n\nChoose **Plausible** if you're a small business or indie creator focused on high-level metrics and privacy.\n\nChoose **Google Analytics** (or **GA4**) if you run ads, need advanced attribution, or want free comprehensive analytics.\n\n**Middle ground?** Matomo (self-hosted analytics) offers privacy + power.\n\nWhat's your main use case?",
+  "cached_at": "2026-05-27T20:17:16Z",
+  "metadata": {}
+}

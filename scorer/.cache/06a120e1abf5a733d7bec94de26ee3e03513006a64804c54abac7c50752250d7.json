@@ -1,0 +1,9 @@
+{
+  "brand": "Sprinto",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Sprinto with GitHub?",
+  "response": "# Connecting Sprinto with GitHub\n\nI don't have specific documentation for Sprinto's GitHub integration in my current knowledge base. However, here are the general steps that typically apply to such integrations:\n\n## General Approach\n\n1. **Log in to Sprinto** and navigate to Settings or Integrations\n2. **Find the GitHub integration option** (usually under \"Connected Apps\" or \"Integrations\")\n3. **Click \"Connect\" or \"Authorize\"** - this will redirect you to GitHub\n4. **Grant permissions** - review and authorize the requested permissions\n5. **Confirm the connection** in Sprinto\n\n## What to Check\n\n- **Required permissions**: The integration likely needs access to repositories, commits, or code\n- **GitHub account**: Use your GitHub account that has access to the relevant repositories\n- **Organization access**: If using GitHub Organization, you may need to approve the app installation\n\n## If You Need Help\n\nSince Sprinto integrations can vary by version/plan, I'd recommend:\n\n- **Check Sprinto's help docs** or knowledge base\n- **Contact Sprinto support** directly - they can provide current, accurate instructions\n- **Look for in-app help** - many integrations have tooltips or guided setup wizards\n\n**Is there a specific aspect of the GitHub integration you're trying to accomplish?** That would help me provide more targeted guidance.",
+  "cached_at": "2026-05-28T08:31:35Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Neon",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Neon vs Supabase: which is better?",
+  "response": "# Neon vs Supabase\n\nBoth are excellent PostgreSQL platforms, but they serve slightly different priorities:\n\n## **Neon** ✅ Best for:\n- **Serverless PostgreSQL focus** — optimized for scale-to-zero\n- **Cost efficiency** — generous free tier, pay-as-you-go\n- **Database isolation** — better for multi-tenant apps\n- **Branching** — great dev/test workflow features\n- **Simplicity** — PostgreSQL without extra abstractions\n\n## **Supabase** ✅ Best for:\n- **Full backend stack** — PostgreSQL + Auth + Storage + Realtime\n- **Quick MVPs** — ready-made features reduce development time\n- **Firebase alternative** — if you want that ecosystem feel\n- **Built-in tools** — REST API, vector search, edge functions\n- **Integrated workflows** — less tool-switching\n\n## **Quick Comparison**\n\n| Feature | Neon | Supabase |\n|---------|------|----------|\n| PostgreSQL | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |\n| Auth | ❌ | ✅ Built-in |\n| Storage | ❌ | ✅ Built-in |\n| Real-time | ❌ | ✅ Built-in |\n| Serverless scaling | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ |\n| Pricing | 💰 | 💰 Similar |\n\n## **Choose Neon if:**\nYou need a pure, serverless PostgreSQL database with excellent scaling.\n\n## **Choose Supabase if:**\nYou want a full backend platform with auth/storage/realtime included.\n\n**You could also use both:** Neon for the database + Supabase's auth elsewhere, but that's overkill for most projects.\n\nWhat's your use case?",
+  "cached_at": "2026-05-28T06:17:38Z",
+  "metadata": {}
+}

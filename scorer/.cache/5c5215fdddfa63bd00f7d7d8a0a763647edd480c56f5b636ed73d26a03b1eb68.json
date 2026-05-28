@@ -1,0 +1,9 @@
+{
+  "brand": "Amplemarket",
+  "prompt_id": "IN-03",
+  "llm": "perplexity",
+  "prompt_text": "How do I connect Amplemarket with Salesforce?",
+  "response": "You connect **Amplemarket to Salesforce via Amplemarket’s native Salesforce CRM integration** from inside Amplemarket. The high‑level",
+  "cached_at": "2026-05-27T19:09:49Z",
+  "metadata": {}
+}

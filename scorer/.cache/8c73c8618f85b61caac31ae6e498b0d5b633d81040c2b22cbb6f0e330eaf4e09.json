@@ -1,0 +1,9 @@
+{
+  "brand": "LlamaIndex",
+  "prompt_id": "CM-02",
+  "llm": "perplexity",
+  "prompt_text": "LlamaIndex vs Haystack pricing and features",
+  "response": "There is **no standard public pricing difference** between **LlamaIndex** and **Haystack** for the core frameworks: both are generally open-source libraries, so the main cost is typically your own infrastructure, model/API usage, and developer time rather than a framework license fee.[1][2][5]\n\nOn **features**, the frameworks differ more clearly:\n\n| Aspect | **Haystack** | **LlamaIndex** |\n|---|---|---|\n| Primary focus | Search systems, document retrieval, question answering, pipeline workflows.[1] | Data indexing and retrieval for RAG, especially structuring unstructured data for LLMs.[1] |\n| Architecture | More **opinionated** and pipeline-based; easier to standardize and follow a guided flow.[1][2] | More **flexible** and modular; gives developers more freedom but requires more decisions.[2] |\n| Typical strengths | Hybrid retrieval, search-centric QA, built-in retrievers/readers/document stores.[1] | Data ingestion, indexing, and retrieval-optimized preparation for LLMs.[1] |\n| Ecosystem style | Smaller, more curated component set.[2] | Larger, more active ecosystem with more integrations and packages.[2] |\n| Best fit | Teams building search-heavy, structured retrieval pipelines.[1] | Teams building custom RAG systems or working heavily at the data layer.[1][2] |\n\nA practical way to think about it: **Haystack** is usually the stronger choice when the product is centered on **search and retrieval pipelines**, while **LlamaIndex** is often better when the main challenge is **getting data into a form LLMs can query effectively**.[1][2]\n\nIf you want, I can also give you a **“which should I pick?” recommendation** for a specific use case, such as chatbot, enterprise search, or RAG over PDFs.",
+  "cached_at": "2026-05-28T07:42:35Z",
+  "metadata": {}
+}

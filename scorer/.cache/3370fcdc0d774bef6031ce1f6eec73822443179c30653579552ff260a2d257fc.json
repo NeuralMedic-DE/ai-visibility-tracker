@@ -1,0 +1,9 @@
+{
+  "brand": "Leapsome",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I run quarterly performance cycles and 360-degree feedback reviews without spending a lot on software?",
+  "response": "# Low-Cost Quarterly Performance & 360 Feedback Setup\n\n## Free/Cheap Tools\n\n**Google Forms or Typeform** for surveys\n- Create 360 feedback templates, compile results manually into a shared doc\n- Takes maybe 2-3 hours per cycle to aggregate\n\n**Spreadsheet templates**\n- Goal-tracking and self-assessment templates in Google Sheets\n- One person can manage rollup if under ~50 people\n\n**Simple structure** that minimizes admin:\n- Manager + 3-4 peer feedback sources (set list, not customized per person)\n- Standard questions across the board\n- One feedback \"due date\" per quarter\n\n## Process Tips to Keep It Lean\n\n1. **Standardize heavily** — same questions for everyone reduces complexity\n2. **Limit raters** — 5-6 feedback sources per person, not 10-15\n3. **Stagger by department** if you're large, rather than company-wide\n4. **Use 1-2 coordinators** to compile and anonymize; don't make it a committee\n5. **Keep the review conversation simple** — manager + employee + written summary, not multi-meeting theater\n\n## Watch Out For\n\n- Spreadsheet versions becoming unmaintainable fast (lock down editing)\n- Manual anonymization errors—be very careful with small teams\n- Time creep if you keep tweaking templates\n\nFor under 100 people, this honestly takes 40-60 hours per cycle in admin work. Beyond that, you'll probably save money with basic software ($2-5/person/month).\n\nWhat's your headcount and biggest pain point right now?",
+  "cached_at": "2026-05-28T06:37:17Z",
+  "metadata": {}
+}

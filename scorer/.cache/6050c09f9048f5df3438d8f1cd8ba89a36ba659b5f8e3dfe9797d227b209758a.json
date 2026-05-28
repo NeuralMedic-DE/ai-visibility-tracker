@@ -1,0 +1,9 @@
+{
+  "brand": "Linear",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Jira vs alternatives: what should I switch to?",
+  "response": "# Jira Alternatives Worth Considering\n\nThe answer depends on what's frustrating you about Jira. Here are the main contenders:\n\n## If you want **simplicity & speed**\n- **Linear** – sleek, fast, dev-focused; great for small teams\n- **GitHub Issues** – free if you're already on GitHub; good for OSS/technical teams\n- **Plane** – open-source, clean UI; self-hostable option\n\n## If you need **flexibility & customization**\n- **Taiga** – open-source, visual planning\n- **OpenProject** – robust, self-hostable alternative\n- **Noco DB** – spreadsheet-like interface with workflows\n\n## If you want **all-in-one** (like Jira Cloud)\n- **Asana** – strong on timeline/calendar views\n- **Monday.com** – flexible, good for mixed teams\n- **Notion** – if you want to consolidate tools\n\n## If you're **enterprise-focused**\n- **Azure DevOps** – if locked into Microsoft ecosystem\n- **Atlassian alternatives** that integrate better (Smartsheet, etc.)\n\n## Quick decision framework\n\nAsk yourself:\n1. **Cost** – Jira expensive for you? (Linear, GitHub Issues cheaper)\n2. **Complexity** – Overwhelmed by features? (Linear, Plane)\n3. **Self-hosted** – Need control? (OpenProject, Taiga)\n4. **Team type** – Developers only, or mixed? (Linear for dev; Asana for general)\n\n**What specifically bothers you about Jira?** That would help narrow it down—pricing, UI, bloat, or something else?",
+  "cached_at": "2026-05-27T21:08:06Z",
+  "metadata": {}
+}

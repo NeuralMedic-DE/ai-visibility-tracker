@@ -1,0 +1,9 @@
+{
+  "brand": "HiBob",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which HR software should a HR Manager or People Ops Lead at a global company use?",
+  "response": "# HR Software for Global Companies\n\nThe best choice depends on your specific needs, but here are top options by use case:\n\n## **All-in-One Platforms** (Best for most global companies)\n- **Workday** – Strong for multinational payroll, compliance, analytics; expensive but comprehensive\n- **SuccessFactors** – Talent management focus; integrates well with other enterprise software\n- **BambooHR** – More affordable, user-friendly; works well for mid-size global teams\n\n## **By Priority:**\n\n**If payroll/compliance is critical:**\n- Workday, ADP Workforce Now, or Rippling\n\n**If talent management matters most:**\n- SuccessFactors, Lattice, or 15Five\n\n**If you want simplicity + affordability:**\n- BambooHR, Guidepoint, or Monday.com\n\n**If you're hybrid/remote-focused:**\n- Rippling (good IT + HR integration), Deel (for contractors/payroll)\n\n## **Key Considerations for Global Ops:**\n- Multi-currency & multi-language support\n- Local payroll compliance (varies hugely by country)\n- Time zone-friendly features\n- Integration capabilities with existing systems\n- Total cost of ownership (implementation is often expensive)\n\n## **Reality Check**\nMost large global companies use **Workday** because it handles complex payroll and compliance, though smaller ones often start with **BambooHR** and scale up.\n\nWhat's your company size and main pain point? That would help narrow it down.",
+  "cached_at": "2026-05-28T06:32:14Z",
+  "metadata": {}
+}

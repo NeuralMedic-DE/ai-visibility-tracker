@@ -1,0 +1,9 @@
+{
+  "brand": "Front",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with automate customer communication workflows with intelligent routing rules and macros at scale?",
+  "response": "There are several software solutions that can help automate customer communication workflows with intelligent routing rules and macros at scale. Some popular options include:\n\n1. **Zendesk**: Offers automation features, including triggers and macros, to streamline customer support workflows and route tickets to the appropriate agents.\n\n2. **Freshdesk**: Provides tools for automating repetitive tasks, setting up intelligent routing rules, and using canned responses to improve efficiency.\n\n3. **Salesforce Service Cloud**: Allows for the creation of automated workflows with its Process Builder and Flow features, enabling intelligent routing and macros.\n\n4. **HubSpot Service Hub**: Includes automation capabilities for ticket routing and management, as well as the ability to create macros for common responses.\n\n5. **Intercom**: Offers automation tools for customer communication, including bots and workflows that can route conversations based on predefined rules.\n\n6. **Help Scout**: Provides automation features like workflows and saved replies to help manage customer inquiries efficiently.\n\nThese platforms typically offer a range of customization options to tailor the automation to your specific business needs.",
+  "cached_at": "2026-05-28T08:17:18Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Plausible",
+  "prompt_id": "CD-01",
+  "llm": "perplexity",
+  "prompt_text": "What is the best web analytics for privacy-conscious SaaS founders and developers?",
+  "response": "For **privacy-conscious SaaS founders and developers**, the strongest all-around choice in the results is **Swetrix** because it is **open-source**, **self-hostable**, **cookieless**, and combines **marketing attribution**, **product event tracking**, and **technical monitoring** in one dashboard.[1][8]\n\nIf you want the best fit by use case:\n\n- **Swetrix** — best overall for SaaS teams that want privacy-first analytics plus deeper product and technical tracking, with self-hosting and full data ownership.[1][8]\n- **Plausible** — best if you want a **lightweight**, **simple**, privacy-friendly alternative focused on core traffic metrics with no cookies or personal-data tracking.[4][5]\n- **Matomo** — best if you need a more **enterprise-style**, feature-rich platform and want to self-host for full control over data.[4][6]\n- **Fathom** — best if you want **minimalist** analytics with a low-friction setup and no cookie banner requirement.[2][4]\n- **Simple Analytics** — another simple privacy-first option, especially if you prefer a clean one-dashboard approach.[7]\n\nFor a SaaS founder specifically, the practical tradeoff is:\n\n- Choose **Swetrix** if you need **event tracking, attribution, user-level product insights, and technical monitoring** without sacrificing privacy.[1]\n- Choose **Plausible** or **Fathom** if you mainly want **clean marketing analytics** and a very simple interface.[4][5]\n- Choose **Matomo** if you need **maximum configurability** and are comfortable with a heavier, more traditional analytics stack.[4][6]\n\nIf you want, I can also give you a **ranked shortlist based on self-hosting, GDPR posture, pricing, and product analytics depth**.",
+  "cached_at": "2026-05-27T20:19:26Z",
+  "metadata": {}
+}

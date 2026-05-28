@@ -1,0 +1,9 @@
+{
+  "brand": "Langfuse",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which AI tooling software should a AI Engineer or LLM Observability Lead building production AI apps use?",
+  "response": "# AI Tooling for Production AI Apps\n\nThe best stack depends on your specific needs, but here's a breakdown by category:\n\n## **LLM Observability & Monitoring**\n- **Langfuse** - Best for tracing, cost tracking, and debugging\n- **Arize** - Strong for model monitoring and drift detection\n- **WhyLabs** - Data quality and model performance monitoring\n- **Datadog/New Relic** - If you want unified infrastructure monitoring\n\n## **Prompt & Model Management**\n- **Prompt.haus** or **LangSmith** - Version control and testing for prompts\n- **Weights & Biases** - Experiment tracking and model comparison\n- **MLflow** - Open-source alternative for model tracking\n\n## **Evaluation & Testing**\n- **Braintrust** - LLM evaluation and comparison\n- **HumanLoop** - Human feedback loops and annotation\n- **Ragas** - RAG evaluation framework (open-source)\n- **DeepEval** - Lightweight LLM testing\n\n## **Development Frameworks**\n- **LangChain/LlamaIndex** - Application building (but consider lightweight alternatives)\n- **Pydantic** - Data validation\n\n## **Infrastructure**\n- **Ray** - Distributed computing\n- **Modal/Replicate** - Serverless deployment\n\n## **Practical Recommendation**\n**Start with:** Langfuse (observability) + LangSmith (prompt management) + your preferred eval tool\n\nThis combination covers the critical path: visibility → iteration → validation\n\nWhat's your primary pain point? That would help narrow it down further.",
+  "cached_at": "2026-05-28T07:56:04Z",
+  "metadata": {}
+}

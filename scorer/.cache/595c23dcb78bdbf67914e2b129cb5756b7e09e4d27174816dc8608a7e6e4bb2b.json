@@ -1,0 +1,9 @@
+{
+  "brand": "Langfuse",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Langfuse vs LangSmith: which is better?",
+  "response": "# Langfuse vs LangSmith: Key Differences\n\nBoth are solid tools for LLM observability, but they have different strengths:\n\n## **LangSmith**\n**Pros:**\n- Deep LangChain/LangGraph integration (native)\n- Polished UI and established ecosystem\n- Strong debugging features\n- Good for LangChain-heavy workflows\n\n**Cons:**\n- Closed source\n- Can be pricey at scale\n- Vendor lock-in risk with LangChain\n- Less flexibility for non-LangChain apps\n\n## **Langfuse**\n**Pros:**\n- Open source (self-hostable)\n- Framework-agnostic (works with any LLM)\n- Better cost efficiency\n- No vendor lock-in\n- Growing community and features\n- More transparent roadmap\n\n**Cons:**\n- Smaller ecosystem (fewer integrations)\n- Less mature than LangSmith\n- Requires more setup for self-hosting\n\n## **Choose Langfuse if:**\n- You want flexibility across multiple frameworks\n- Cost is important\n- You prefer open source\n- You need self-hosting options\n\n## **Choose LangSmith if:**\n- You're heavily invested in LangChain ecosystem\n- You want the most polished UI today\n- Vendor lock-in isn't a concern\n\n**Honest take:** If you're framework-agnostic, Langfuse is increasingly competitive. If you're LangChain-native, LangSmith is still the better fit despite higher costs.\n\nWhat's your primary use case?",
+  "cached_at": "2026-05-28T07:56:10Z",
+  "metadata": {}
+}

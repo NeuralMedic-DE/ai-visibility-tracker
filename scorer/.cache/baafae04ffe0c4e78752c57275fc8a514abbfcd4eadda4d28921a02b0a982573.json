@@ -1,0 +1,9 @@
+{
+  "brand": "Pendo",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to Mixpanel",
+  "response": "# Cheaper Alternatives to Mixpanel\n\n## **Free & Freemium Options**\n\n| Tool | Free Tier | Best For |\n|------|-----------|----------|\n| **Plausible** | Limited free plan | Privacy-focused web analytics |\n| **Fathom Analytics** | Limited free version | Simple, privacy-respecting tracking |\n| **Heap** | Free tier available | Session replay + basic analytics |\n| **Amplitude** | Free plan (limited events) | Product analytics with free tier |\n| **PostHog** | Self-hosted free option | Open-source product analytics |\n\n## **Low-Cost Paid Options**\n\n- **Segment** - Data routing platform (cheaper than Mixpanel for many use cases)\n- **Matomo** - Self-hosted, one-time or low monthly fees\n- **Countly** - Privacy-focused, affordable self-hosted option\n- **Pendo** - Lower pricing tiers than Mixpanel\n- **LogRocket** - Session replay focus, often cheaper for specific needs\n\n## **Budget-Friendly Approach**\n\nConsider combining:\n- **Google Analytics 4** (free) + **Segment** (low-cost pipeline) + **Metabase** (free visualization)\n- **PostHog** (self-hosted, free) for full product analytics\n- **Hotjar** (cheaper) for user behavior\n\n## **Key Questions to Ask**\n- Do you need self-hosted vs. cloud?\n- How many monthly events/users?\n- Do you need session replay?\n- Is real-time data critical?\n\n**What's your primary use case?** I can recommend more specific alternatives.",
+  "cached_at": "2026-05-27T19:47:53Z",
+  "metadata": {}
+}

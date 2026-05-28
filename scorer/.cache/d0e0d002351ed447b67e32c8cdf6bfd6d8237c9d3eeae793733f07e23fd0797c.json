@@ -1,0 +1,9 @@
+{
+  "brand": "Mailmodo",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Mailmodo integrate with Zapier?",
+  "response": "Yes. **Mailmodo has a native integration with Zapier**, and you can use Zapier to connect Mailmodo with thousands of other apps.[1][5]\n\nUsing the integration, you can:[1][2]  \n- **Import contacts into Mailmodo** from other tools  \n- **Export email form submissions** from Mailmodo to your web apps  \n- **Trigger Mailmodo email campaigns** (e.g., from events like new rows in Google Sheets, form submissions, etc.)\n\nTo set it up, you enable Zapier inside Mailmodo (Integrations → Zapier), copy the API key provided there, and then paste that key when connecting Mailmodo as an app in Zapier while building your Zap.[1][2]",
+  "cached_at": "2026-05-28T07:36:47Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Plausible",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Plausible with WordPress?",
+  "response": "# Connecting Plausible with WordPress\n\nHere are the main methods:\n\n## 1. **Using the Official Plausible Plugin** (Easiest)\n- Go to **Plugins > Add New** in WordPress\n- Search for \"Plausible Analytics\"\n- Install and activate the official plugin\n- Go to **Settings > Plausible Analytics**\n- Enter your Plausible domain name\n- Save settings\n\n## 2. **Manual Code Injection**\nIf you prefer not to use a plugin:\n- Log into Plausible and get your tracking script\n- In WordPress, go to **Appearance > Theme File Editor** (or use a code snippets plugin)\n- Add the Plausible script to your theme's `header.php` file\n- Or use a plugin like **Header and Footer Scripts** to avoid editing files directly\n\n## 3. **Using a Code Snippets Plugin**\n- Install **Code Snippets** plugin\n- Create a new snippet and paste your Plausible tracking code\n- Mark it to run everywhere\n\n## Next Steps\n- Verify the connection in Plausible (check for incoming traffic)\n- Go to your Plausible dashboard to view analytics\n- Configure goals, events, or custom tracking as needed\n\n## Tips\n- The official plugin is recommended for easiest setup and updates\n- Make sure you're using your correct Plausible domain\n- Give it a few minutes for data to appear\n\n**Any specific issues you're running into?**",
+  "cached_at": "2026-05-27T20:19:10Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Drip",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Drip integrate with Shopify?",
+  "response": "Yes, Drip integrates with Shopify. This integration allows you to sync your Shopify store data with Drip, enabling you to automate marketing campaigns, segment customers based on their shopping behavior, and personalize communications. By connecting Drip with Shopify, you can enhance your marketing efforts by using customer data to create targeted email campaigns, track customer engagement, and drive sales.",
+  "cached_at": "2026-05-28T07:33:01Z",
+  "metadata": {}
+}

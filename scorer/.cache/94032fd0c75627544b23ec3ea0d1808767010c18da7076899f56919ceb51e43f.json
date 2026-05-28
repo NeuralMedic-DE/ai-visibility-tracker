@@ -1,0 +1,9 @@
+{
+  "brand": "Apollo.io",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Apollo.io integrate with Salesforce?",
+  "response": "# Apollo.io and Salesforce Integration\n\nYes, **Apollo.io does integrate with Salesforce**. The integration allows you to:\n\n- **Sync contacts and leads** between Apollo.io and Salesforce\n- **Push data** from Apollo to your Salesforce CRM\n- **Track email opens and responses** within Salesforce\n- **Manage sequences** and automation across both platforms\n- **Two-way data synchronization** to keep information current\n\n## How to Set It Up\n\nThe integration typically requires:\n1. Connecting your Salesforce account in Apollo's settings\n2. Authenticating with your Salesforce credentials\n3. Configuring which data fields sync between the platforms\n\n## Best for\n\nThis integration is useful if you want to maintain Apollo's prospecting and outreach capabilities while keeping all your pipeline data organized in Salesforce.\n\nFor the most current details on features, setup instructions, or any limitations, I'd recommend checking Apollo.io's official documentation or contacting their support team directly, as integrations can be updated.",
+  "cached_at": "2026-05-27T18:05:24Z",
+  "metadata": {}
+}

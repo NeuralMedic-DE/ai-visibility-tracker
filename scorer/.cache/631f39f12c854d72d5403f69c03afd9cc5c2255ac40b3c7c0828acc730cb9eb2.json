@@ -1,0 +1,9 @@
+{
+  "brand": "Maxio",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Maxio QuickBooks integration: how does it work?",
+  "response": "# Maxio QuickBooks Integration Overview\n\n## How It Works\n\nThe Maxio-QuickBooks integration syncs billing and financial data between platforms:\n\n### **Key Functions**\n\n| Function | Details |\n|----------|---------|\n| **Customer Sync** | QuickBooks customers are pulled into Maxio automatically |\n| **Invoice Sync** | Invoices created in Maxio push to QB as journal entries or line items |\n| **Payment Sync** | Payments recorded in Maxio update QB records |\n| **Chart of Accounts** | QB accounts map to Maxio for proper GL posting |\n| **Real-time Updates** | Changes sync bidirectionally (with some latency) |\n\n### **Data Flow**\n\n```\nMaxio (Subscription Data)\n        ↕\n   (API Connection)\n        ↕\nQuickBooks (Accounting Records)\n```\n\n## Setup Process\n\n1. **Enable integration** in Maxio settings\n2. **Authenticate** with QuickBooks credentials\n3. **Map accounts** (revenue, receivables, taxes, etc.)\n4. **Configure sync rules** (what data flows where)\n5. **Test sync** before full activation\n\n## Common Use Cases\n\n- Automating invoice export to QB\n- Syncing customer payments\n- Maintaining accurate AR aging reports\n- Reducing manual data entry\n\n## Limitations\n\n- Some custom QB fields may not sync\n- Timing delays possible during high-volume periods\n- Account mapping must be done upfront\n\n**Need specifics about your setup?** Let me know your QuickBooks version (Online/Desktop) and Maxio edition.",
+  "cached_at": "2026-05-28T06:53:07Z",
+  "metadata": {}
+}

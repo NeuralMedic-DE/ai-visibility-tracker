@@ -1,0 +1,9 @@
+{
+  "brand": "Encharge",
+  "prompt_id": "CM-05",
+  "llm": "openai",
+  "prompt_text": "Is Encharge better than Intercom for build complex automation flows with a visual drag-and-drop editor?",
+  "response": "When it comes to building complex automation flows with a visual drag-and-drop editor, Encharge is generally considered better suited for this purpose compared to Intercom. Encharge is specifically designed for marketing automation and offers a robust visual flow builder that allows users to create intricate workflows with ease. It provides a wide range of triggers, actions, and conditions that can be visually arranged to automate various marketing tasks and customer journeys.\n\nIntercom, on the other hand, is primarily focused on customer messaging and support. While it does offer some automation capabilities, its visual flow builder is not as advanced or comprehensive as Encharge's when it comes to creating complex marketing automation flows.\n\nTherefore, if your primary goal is to build detailed and complex automation workflows with a visual editor, Encharge would likely be the better choice.",
+  "cached_at": "2026-05-28T07:28:12Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Apollo.io",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Apollo.io integrate with Salesforce?",
+  "response": "Yes. **Apollo.io has a native, bi-directional integration with Salesforce CRM.**[1][7]\n\nKey points about the Apollo–Salesforce integration:\n\n- It is a **bi-directional sync**, meaning you can both **pull data from Salesforce into Apollo** and **push data from Apollo into Salesforce**.[1][3][4]  \n- You can sync **contacts/leads, accounts, opportunities, tasks, calls, emails, meetings, and calendar events** between the two systems.[1][3]  \n- Apollo can **enrich Salesforce records** with its database (e.g., title, industry, company size, revenue, funding, technologies) and automatically keep Salesforce data **updated and de-duplicated**.[1][4][5]  \n- The integration is configured from Apollo’s **Integrations** settings, where Salesforce appears as a connectable CRM.[2][3][7]\n\nIf you tell me your use case (prospecting, activity sync, enrichment, etc.), I can outline exactly how the integration would work for you.",
+  "cached_at": "2026-05-27T18:09:27Z",
+  "metadata": {}
+}

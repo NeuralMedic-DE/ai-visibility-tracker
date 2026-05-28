@@ -1,0 +1,9 @@
+{
+  "brand": "Pilot",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Pilot Gusto integration: how does it work?",
+  "response": "# Pilot Gusto Integration\n\nI don't have specific documentation about a \"Pilot Gusto integration\" in my training data. This could refer to:\n\n## Possible Meanings:\n\n1. **Gusto Payroll Software Integration**\n   - Gusto is a payroll/HR platform\n   - A \"pilot\" integration might be a beta or limited test version\n   - Typically syncs employee, payroll, and tax data\n\n2. **A Specific Product or Service**\n   - Could be industry-specific (aviation, logistics, etc.)\n   - Might be a newer feature or partnership\n\n## To Help You Better:\n\n- **What platform** is this integration for? (Accounting software, HR system, etc.)\n- **What does it connect?** (What two systems integrate?)\n- **What's your use case?** (Payroll, timekeeping, reporting?)\n- **Do you have documentation** or a link?\n\nIf you can share more context, I can provide more targeted guidance on how integrations typically work or help troubleshoot specific steps.",
+  "cached_at": "2026-05-28T07:02:49Z",
+  "metadata": {}
+}

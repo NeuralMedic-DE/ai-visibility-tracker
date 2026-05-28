@@ -1,0 +1,9 @@
+{
+  "brand": "Drata",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to Sprinto",
+  "response": "# Cheaper Alternatives to Sprinto\n\n## **Compliance & Audit Automation**\n\n| Tool | Key Features | Price Range |\n|------|-------------|------------|\n| **Vanta** | SOC 2, ISO 27001, GDPR automation | $500-2000/mo |\n| **Drata** | Compliance monitoring, audit prep | $600-2000/mo |\n| **Secureframe** | Multi-framework automation | $500-1500/mo |\n| **Laika** | Lightweight compliance tool | $200-600/mo |\n\n## **Budget-Friendly Options**\n\n**Open-source/Self-hosted:**\n- **OpenSCAP** - Security compliance scanning (free)\n- **Wazuh** - Security monitoring (free + paid)\n- **Gitleaks** - Secret scanning (free)\n\n**Startup-friendly:**\n- **Workiva** - Simpler compliance workflows (~$300-800/mo)\n- **AuditBoard** - Mid-market pricing (~$400-1200/mo)\n\n## **Best for Different Needs**\n\n- **Early-stage startups**: Laika, open-source tools\n- **Cost-conscious growth**: Drata, Secureframe\n- **Technical teams**: Self-hosted solutions\n- **Full automation**: Vanta (premium but worth it)\n\n## **Cost Reduction Tips**\n\n1. Start with free security tools + spreadsheets\n2. Use industry-specific free templates\n3. Combine single-purpose tools (~$100-200/mo each)\n4. Negotiate annual discounts (often 20-30% off)\n\n**What's your main compliance need?** I can suggest more specific alternatives.",
+  "cached_at": "2026-05-28T08:28:49Z",
+  "metadata": {}
+}

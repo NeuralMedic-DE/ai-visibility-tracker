@@ -1,0 +1,9 @@
+{
+  "brand": "Zapier",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Zapier integrate with Google Sheets?",
+  "response": "# Yes, Zapier integrates with Google Sheets\n\nZapier has a built-in app for Google Sheets that allows you to:\n\n**Common actions:**\n- Create new rows\n- Update existing rows\n- Find or look up specific rows\n- Delete rows\n- Format spreadsheets\n\n**Common triggers:**\n- When a new row is added\n- When a row is updated\n- When a cell changes\n\n**Use cases:**\n- Automatically add form submissions to a spreadsheet\n- Create rows from email attachments\n- Sync data between Google Sheets and other apps (CRM, project management tools, etc.)\n- Send notifications when certain data is added\n\nYou can create \"Zaps\" (automated workflows) that connect Google Sheets with thousands of other apps—for example, saving Slack messages to a spreadsheet or adding new Stripe customers to a sheet automatically.",
+  "cached_at": "2026-05-28T08:51:23Z",
+  "metadata": {}
+}

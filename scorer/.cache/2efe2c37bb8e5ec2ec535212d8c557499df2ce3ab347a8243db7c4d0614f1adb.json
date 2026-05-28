@@ -1,0 +1,9 @@
+{
+  "brand": "RudderStack",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is RudderStack better than mParticle for build a warehouse-first CDP with full data ownership and no per-MTU pricing surprises?",
+  "response": "# RudderStack vs mParticle for Warehouse-First CDPs\n\n**RudderStack has clearer advantages here:**\n\n## RudderStack's strengths for your criteria:\n- **Truly warehouse-first architecture** - data lands in your warehouse first, everything flows from there\n- **Transparent pricing** - flat-rate, no per-MTU/event surprises\n- **Full data ownership** - you control the warehouse, RudderStack is the pipe\n- **Open source option** - self-hosted control if needed\n- **No vendor lock-in** - your data stays yours from day one\n\n## mParticle's model differences:\n- **More hub-centric** - mParticle's platform is the central hub, warehouse is secondary\n- **MTU-based pricing** - can escalate unpredictably with usage\n- **Data flows through their system first** - less \"ownership,\" more \"access\"\n- **Better for multi-channel activation** - if that's your priority\n\n## The key distinction:\nIf your primary goal is **\"warehouse-first with data ownership and cost predictability,\"** RudderStack aligns better with that philosophy. mParticle is stronger if you need sophisticated omnichannel orchestration and don't mind the hub-centric approach.\n\n**Worth considering:** What's your primary use case? If it's mainly analytics/analytics ops, RudderStack wins. If you need complex cross-channel marketing automation, mParticle's capabilities might justify its model despite higher costs.",
+  "cached_at": "2026-05-28T09:07:54Z",
+  "metadata": {}
+}

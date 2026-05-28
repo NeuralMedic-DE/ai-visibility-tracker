@@ -1,0 +1,9 @@
+{
+  "brand": "Vanta",
+  "prompt_id": "IN-05",
+  "llm": "openai",
+  "prompt_text": "compliance tools with native GitHub integration",
+  "response": "There are several compliance tools that offer native GitHub integration, allowing you to seamlessly incorporate compliance checks and monitoring into your development workflow. Here are some popular ones:\n\n1. **Snyk**: Snyk provides security and compliance tools that integrate with GitHub to scan for vulnerabilities in your code, open source dependencies, and container images.\n\n2. **GitHub Advanced Security**: This is a suite of security features built into GitHub, including dependency scanning, secret scanning, and code scanning, which can help with compliance by identifying potential security issues.\n\n3. **SonarQube**: SonarQube offers code quality and security analysis, and it integrates with GitHub to provide continuous inspection of codebases, helping to ensure compliance with coding standards.\n\n4. **FOSSA**: FOSSA is a tool for managing open source license compliance and security. It integrates with GitHub to automatically detect and manage open source dependencies and their licenses.\n\n5. **Checkmarx**: Checkmarx provides static application security testing (SAST) and integrates with GitHub to help identify vulnerabilities and ensure compliance with security standards.\n\n6. **Codacy**: Codacy offers automated code reviews and integrates with GitHub to enforce coding standards, measure technical debt, and ensure compliance with best practices.\n\n7. **WhiteSource**: WhiteSource provides open source security and license compliance management, integrating with GitHub to automatically detect and remediate vulnerabilities and license issues.\n\nThese tools can help streamline the process of maintaining compliance with security and coding standards directly within your GitHub workflows.",
+  "cached_at": "2026-05-28T08:26:47Z",
+  "metadata": {}
+}

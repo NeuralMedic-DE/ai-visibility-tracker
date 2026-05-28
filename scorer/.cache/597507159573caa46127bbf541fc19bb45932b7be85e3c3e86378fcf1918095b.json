@@ -1,0 +1,9 @@
+{
+  "brand": "FullStory",
+  "prompt_id": "CD-04",
+  "llm": "openai",
+  "prompt_text": "Best product analytics platforms for replay user sessions to understand UX friction points",
+  "response": "To understand UX friction points by replaying user sessions, you can consider using the following product analytics platforms:\n\n1. **Hotjar**: Offers session recordings that allow you to see how users interact with your site. It also provides heatmaps and feedback tools to help identify UX issues.\n\n2. **FullStory**: Provides detailed session replays and robust analytics to help you understand user behavior and identify friction points.\n\n3. **Mouseflow**: Offers session replay, heatmaps, and funnel analysis to track user behavior and uncover UX issues.\n\n4. **Crazy Egg**: Known for its heatmaps and session recordings, Crazy Egg helps you visualize user interactions and identify areas of improvement.\n\n5. **Smartlook**: Provides session recordings, heatmaps, and event tracking to analyze user behavior and improve the user experience.\n\n6. **Inspectlet**: Offers session recording, heatmaps, and form analytics to understand how users interact with your site and where they encounter issues.\n\n7. **Lucky Orange**: Combines session recordings, heatmaps, and live chat to provide insights into user behavior and improve UX.\n\nThese platforms can help you identify where users are experiencing friction and provide insights into how to improve the overall user experience.",
+  "cached_at": "2026-05-27T20:43:20Z",
+  "metadata": {}
+}

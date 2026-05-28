@@ -1,0 +1,9 @@
+{
+  "brand": "Planhat",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which customer success software should a CS Director or Account Manager Lead at an enterprise SaaS company use?",
+  "response": "# Top CS Software for Enterprise SaaS Leaders\n\n## Best Overall Options\n\n**Gainsight** (most popular for enterprise)\n- Comprehensive platform covering health scores, forecasting, and playbooks\n- Strong for large teams with complex workflows\n- Best if: You need deep analytics and multi-layer governance\n\n**Vitally**\n- Modern, intuitive interface with excellent mobile experience\n- Strong relationship mapping and workflow automation\n- Best if: You want ease of use without sacrificing power\n\n**Planhat**\n- Strong for multi-stakeholder account mapping\n- Good integration ecosystem\n- Best if: Your deals involve complex buying committees\n\n## By Priority\n\n**If health scoring is critical:** Gainsight or Totango\n**If simplicity matters most:** Vitally or Lessonly\n**If you're heavily data-driven:** Gainsight or Pendo\n**If you want predictive insights:** Gainsight or Strikedeck\n\n## Key Selection Criteria for Your Role\n\n1. **Reporting/Analytics** - Can you build the dashboards you need?\n2. **Workflow automation** - Does it reduce manual admin work?\n3. **Integration with your stack** - Especially Salesforce, data warehouse, billing tools\n4. **Team adoption** - Will AMs actually use it daily, or will it become bloat?\n5. **Scaling** - Can it grow with 50+ person CS org?\n\n**Real talk:** Most enterprises use Gainsight, but it's often overkill. Smaller implementations often prefer Vitally or Planhat. What's your current team size and biggest pain point?",
+  "cached_at": "2026-05-28T08:11:47Z",
+  "metadata": {}
+}

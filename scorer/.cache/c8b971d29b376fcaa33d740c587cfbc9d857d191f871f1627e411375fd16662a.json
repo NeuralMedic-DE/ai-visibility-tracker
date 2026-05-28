@@ -1,0 +1,9 @@
+{
+  "brand": "Retool",
+  "prompt_id": "AL-05",
+  "llm": "openai",
+  "prompt_text": "Open source or affordable internal tooling tools instead of Budibase",
+  "response": "If you're looking for open-source or affordable alternatives to Budibase for internal tooling, there are several options you can consider:\n\n1. **Retool**: While not open-source, Retool offers a free tier for small teams and is known for its ease of use in building internal tools quickly.\n\n2. **Appsmith**: This is an open-source platform for building internal tools. It provides a drag-and-drop interface to create custom applications and integrates with various data sources.\n\n3. **ToolJet**: Another open-source option, ToolJet allows you to build internal tools with a low-code approach. It supports integrations with multiple databases and APIs.\n\n4. **NocoDB**: An open-source platform that turns your database into a smart spreadsheet. It can be used to build internal tools without much coding.\n\n5. **Metabase**: While primarily a business intelligence tool, Metabase is open-source and can be used to create dashboards and simple internal tools with its query builder.\n\n6. **Directus**: An open-source data platform that provides a headless CMS and can be used to build internal tools with a focus on managing database content.\n\n7. **Supabase**: An open-source alternative to Firebase, Supabase can be used to build internal tools with its real-time database, authentication, and storage capabilities.\n\n8. **Forest Admin**: Although not open-source, Forest Admin offers a free tier and provides a powerful interface for creating internal admin panels.\n\nThese tools vary in their capabilities and ease of use, so the best choice will depend on your specific requirements, such as the complexity of the tools you need to build, the data sources you need to integrate with, and your team's technical expertise.",
+  "cached_at": "2026-05-27T20:54:38Z",
+  "metadata": {}
+}

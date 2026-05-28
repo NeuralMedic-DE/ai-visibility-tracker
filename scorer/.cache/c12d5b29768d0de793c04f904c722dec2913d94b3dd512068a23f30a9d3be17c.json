@@ -1,0 +1,9 @@
+{
+  "brand": "UserVoice",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to Aha!",
+  "response": "# Cheaper Alternatives to Aha!\n\n## Free & Low-Cost Options\n\n**Fully Free:**\n- **Trello** – Simple kanban boards, great for basic roadmapping\n- **GitHub Projects** – Good if you're already in GitHub's ecosystem\n- **Plane** – Open-source alternative with roadmapping features\n- **OpenProject** – Free, open-source project management\n\n**Freemium (limited free tier):**\n- **Asana** – Generous free plan, roadmap views available\n- **Monday.com** – Free tier includes basic roadmapping\n- **Jira** – Free for small teams, strong technical focus\n- **Notion** – Highly customizable, DIY roadmapping\n\n## Budget-Friendly Paid Tools\n\n| Tool | Starting Price | Best For |\n|------|---|---|\n| **ProductBoard** | ~$75/mo | Product feedback integration |\n| **Pendo** | ~$1k/mo | In-app analytics + roadmaps |\n| **Roadmunk** | ~$49/mo | Visual roadmaps |\n| **Fibery** | ~$20/user/mo | All-in-one workspace |\n| **Coda** | ~$10/user/mo | Flexible, collaborative |\n\n## What to Consider\n- **Team size** – How many users do you need?\n- **Integration needs** – Jira, Salesforce, Slack, etc.\n- **Complexity** – Simple kanban vs. enterprise-grade roadmapping\n- **Must-have features** – Scoring, stakeholder feedback, timeline views?\n\nWhat's your primary use case? That would help narrow down the best fit.",
+  "cached_at": "2026-05-28T08:24:10Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Personio",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Personio integrate with Slack?",
+  "response": "# Personio and Slack Integration\n\nYes, Personio does integrate with Slack. The integration allows you to:\n\n- **Receive notifications** in Slack about HR events and updates\n- **Access certain HR functions** directly from Slack\n- **Streamline communication** by keeping HR information within your workflow\n\n## Common Use Cases\n- Employee onboarding notifications\n- Leave request approvals\n- Time-off alerts\n- HR announcements\n\nFor the most current details about available features and how to set up the integration, I'd recommend:\n1. Checking Personio's official app marketplace or integrations page\n2. Consulting their documentation\n3. Contacting Personio's support team\n\nIntegration features can evolve, so it's best to verify the current capabilities directly with Personio.",
+  "cached_at": "2026-05-28T06:35:02Z",
+  "metadata": {}
+}

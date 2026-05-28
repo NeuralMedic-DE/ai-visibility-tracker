@@ -1,0 +1,9 @@
+{
+  "brand": "Humaans",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is Humaans better than HiBob for automate onboarding and offboarding workflows with zero manual effort?",
+  "response": "# Humaans vs HiBob for Onboarding/Offboarding Automation\n\nBoth have automation capabilities, but they excel in different ways:\n\n## Humaans\n**Strengths for automation:**\n- Purpose-built for onboarding/offboarding workflows\n- Strong emphasis on automation and task orchestration\n- Good for reducing manual touchpoints\n- Better suited if automation is your primary need\n\n**Limitations:**\n- Narrower HR scope overall\n- May require integration work for full \"zero manual effort\"\n\n## HiBob\n**Strengths:**\n- Broader HR platform (payroll, benefits, performance, etc.)\n- Good workflow automation, but less specialized\n- Better if you need integrated HR beyond onboarding/offboarding\n\n**Limitations:**\n- Onboarding automation isn't its primary focus\n- May require more custom configuration to match Humaans' automation depth\n\n## The Reality Check\n**\"Zero manual effort\" is rarely achieved with either** because:\n- Manager/team input usually required (equipment requests, access approvals)\n- Vendor dependencies (background checks, equipment vendors)\n- Variable company processes need configuration\n\n## Better question to ask:\n- Do you need *just* onboarding/offboarding or broader HR?\n- What % of your process can actually be automated vs. needs human decisions?\n- Which integrations matter most to you?\n\n**For pure onboarding/offboarding automation → Humaans likely wins**\n**For full HR automation + onboarding → HiBob is more versatile**\n\nWhat's your primary use case?",
+  "cached_at": "2026-05-28T06:48:02Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Intercom",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Intercom integrate with Salesforce?",
+  "response": "Yes. **Intercom has a native, two‑way integration with Salesforce**, and there are also third‑party connectors that extend it.[1][3][4]\n\nKey points about the native Intercom–Salesforce integration:\n\n- **Two‑way data sync:** Intercom’s Salesforce app can sync data either *Intercom → Salesforce* or *Salesforce → Intercom* for mapped fields, keeping lead, contact, and account data aligned.[1][3]  \n- **Object mapping:** Intercom records are matched to Salesforce as: **Intercom lead → Salesforce Lead**, **Intercom user → Salesforce Contact**, **Intercom company → Salesforce Account**.[3]  \n- **Sales & marketing use cases:**  \n  - Create Salesforce leads directly from Intercom conversations.[3]  \n  - Use Salesforce data to segment customers and run targeted outbound campaigns from Intercom.[1][4]  \n  - See Intercom conversations inside Salesforce to continue sales where they left off.[1]  \n- **Support use cases:**  \n  - Automatically create and update **Salesforce Cases** from Intercom conversations (one‑way: Intercom → Salesforce).[1][3]  \n  - Send Intercom conversations to Salesforce as tasks.[3]  \n  - Auto‑assign conversations in Intercom based on Salesforce owner or status.[1][3]  \n\nBeyond the native app, tools like **Communicat‑O** and **Skyvia** also offer Salesforce–Intercom integrations for additional workflows or data syncing options.[2][5][6]",
+  "cached_at": "2026-05-28T08:03:24Z",
+  "metadata": {}
+}

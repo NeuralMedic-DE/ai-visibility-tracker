@@ -1,0 +1,9 @@
+{
+  "brand": "Stonly",
+  "prompt_id": "AL-02",
+  "llm": "openai",
+  "prompt_text": "Cheaper alternatives to Confluence",
+  "response": "If you're looking for cheaper alternatives to Confluence for collaboration and documentation, here are some options you might consider:\n\n1. **Notion**: Offers a flexible workspace for note-taking, project management, and collaboration. It has a free tier and affordable paid plans.\n\n2. **Google Workspace**: While not a direct replacement, Google Docs and Google Sites can be used for documentation and collaboration at a lower cost.\n\n3. **Microsoft OneNote**: Part of Microsoft 365, OneNote is a note-taking app that can be used for collaboration and documentation.\n\n4. **Slite**: A collaborative documentation tool designed for teams, offering a clean interface and affordable pricing.\n\n5. **Nuclino**: A lightweight and user-friendly tool for team collaboration and knowledge sharing, with a free version and competitive pricing.\n\n6. **Coda**: Combines documents, spreadsheets, and apps into a single platform, offering flexible pricing options.\n\n7. **Quip**: A Salesforce product that integrates documents, spreadsheets, and chat in one place, with competitive pricing.\n\n8. **Zoho Wiki**: Part of the Zoho suite, it offers a simple and affordable platform for creating and managing wikis.\n\n9. **BookStack**: An open-source platform for creating documentation and wikis, which can be self-hosted for free.\n\n10. **TiddlyWiki**: A highly customizable, open-source wiki platform that can be used for personal or small team documentation.\n\nEach of these tools has its own strengths and weaknesses, so it's a good idea to evaluate them based on your specific needs and budget.",
+  "cached_at": "2026-05-28T08:21:52Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Gainsight",
+  "prompt_id": "AL-05",
+  "llm": "anthropic",
+  "prompt_text": "Open source or affordable customer success tools instead of Totango",
+  "response": "# Open Source & Affordable Customer Success Alternatives to Totango\n\n## Open Source Options\n\n### **Plane** (Free/Self-hosted)\n- Issue tracking + project management foundation\n- Can be adapted for CS workflows\n- GitHub: plane-so/plane\n- Good for: Technical teams wanting full control\n\n### **OpenProject** (Free/Self-hosted)\n- Project management with portfolio features\n- Timeline, Gantt charts, resource planning\n- Open-source community edition\n- Good for: Planning CS initiatives\n\n### **Metabase** (Free/Self-hosted)\n- Analytics & dashboarding\n- Query customer data and create CS dashboards\n- GitHub: metabase/metabase\n- Good for: Health scoring & insights\n\n## Affordable Options\n\n### **Gainsight PX** (Entry tier ~$500-1000/mo)\n- Freemium available\n- In-app engagement + analytics\n- Better value than Totango for smaller companies\n\n### **Vitally** (~$400-800/mo)\n- Lightweight alternative to Totango\n- Customer scorecards, playbooks, dashboards\n- Good UX, simpler feature set\n\n### **Pendo** (Freemium available)\n- In-app analytics & guidance\n- More product-focused than pure CS\n- Free tier for basic usage\n\n### **ChartMogul** (~$99/mo)\n- Focuses on metrics (MRR, churn, LTV)\n- Perfect if you need financial analytics\n- Not a full platform, but powerful for specific use case\n\n## DIY Stack Alternative\n\nCombine these affordable tools:\n- **CRM**: Pipedrive, HubSpot free tier\n- **Analytics**: Metabase + your data warehouse\n- **Communication**: Slack + email automation\n- **Workflows**: Make.com or Zapier\n- **Docs**: Notion for playbooks\n\n**Best for**: Teams under $1M ARR wanting simplicity over features\n\nWhat's your company size/budget? Happy to refine recommendations.",
+  "cached_at": "2026-05-28T08:04:21Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Customer.io",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Customer.io with Segment?",
+  "response": "# Connecting Customer.io with Segment\n\nHere's how to set up the integration:\n\n## In Segment\n\n1. **Go to Catalog** → Search for \"Customer.io\"\n2. **Click the destination**\n3. **Click \"Configure Customer.io\"**\n4. **Select your source** (the data source sending events to Segment)\n5. **Name your connection** (e.g., \"Customer.io\")\n6. **Click \"Create destination\"**\n\n## In Customer.io\n\nYou'll need your API credentials:\n\n1. Log in to Customer.io\n2. Go to **Settings** → **API Credentials**\n3. Copy your:\n   - **Site ID**\n   - **API Key**\n\n## Back in Segment\n\n1. **Paste your Site ID and API Key** into the settings fields\n2. **Configure additional settings** as needed:\n   - Identify traits mapping\n   - Event filtering\n   - Custom field mappings\n3. **Save your settings**\n\n## Test the Connection\n\n- Send a test event from Segment\n- Check Customer.io to verify the data arrived\n- Monitor Segment's debugger for any errors\n\n## Key Points\n\n- **Identify calls** create/update customers in Customer.io\n- **Track calls** send events/behaviors\n- Make sure your source is actively sending data to the destination\n- Double-check API credentials for typos\n\nNeed help with a specific step? Let me know!",
+  "cached_at": "2026-05-28T07:15:07Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Encharge",
+  "prompt_id": "AL-05",
+  "llm": "anthropic",
+  "prompt_text": "Open source or affordable marketing automation tools instead of Intercom",
+  "response": "# Alternative Marketing Automation Tools to Intercom\n\n## **Free/Open Source Options**\n\n### **Mautic**\n- Open-source, self-hosted marketing automation\n- Email campaigns, landing pages, lead scoring\n- No per-contact fees\n- Requires technical setup\n\n### **Listmonk**\n- Lightweight, open-source newsletter tool\n- Low resource requirements\n- Good for email-focused campaigns\n- Self-hosted\n\n### **Odoo**\n- Open-source ERP with marketing module\n- Integrated CRM, sales, inventory\n- Scalable but steeper learning curve\n\n---\n\n## **Affordable SaaS Options**\n\n### **Brevo (formerly Sendinblue)**\n- Free tier: 300 emails/day\n- SMS + email automation\n- Basic CRM features\n- Paid: $20-299/month\n\n### **Mailchimp**\n- Free for up to 500 contacts\n- Email, SMS, landing pages\n- Basic automation workflows\n- Paid: $13+/month\n\n### **HubSpot (Free CRM)**\n- Free tier covers basic marketing automation\n- Email, forms, landing pages\n- Limited workflow automation\n- Paid: $45+/month for advanced features\n\n### **ActiveCampaign**\n- More affordable than Intercom\n- Strong automation workflows\n- CRM + email + sales tools\n- Starts ~$9/month\n\n### **Klaviyo**\n- Great for e-commerce\n- Free: up to 500 contacts\n- Advanced segmentation\n- Paid: $20+/month\n\n### **Omnisend**\n- SMS + email automation\n- Free tier available\n- Good for eCommerce\n- Paid: $25+/month\n\n---\n\n## **Chat/Messaging Alternatives**\n\n- **Tidio** (~$25/month) - Chat + email + CRM\n- **Drift** - Free tier available\n- **Chatwoot** - Open source live chat\n\n**What's your priority?** (Chat, email, CRM, SMS?) I can refine recommendations.",
+  "cached_at": "2026-05-28T07:28:28Z",
+  "metadata": {}
+}

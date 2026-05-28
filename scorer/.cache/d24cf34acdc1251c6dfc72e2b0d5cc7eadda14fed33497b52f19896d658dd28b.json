@@ -1,0 +1,9 @@
+{
+  "brand": "SafeBase",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does SafeBase integrate with Salesforce?",
+  "response": "# SafeBase and Salesforce Integration\n\nI don't have current, definitive information about whether SafeBase directly integrates with Salesforce. SafeBase is a data room and vendor security platform, and integration capabilities can change over time.\n\nTo get an accurate answer, I'd recommend:\n\n1. **Check SafeBase's official documentation** - Their integration page or help center would list current partners\n2. **Contact SafeBase support directly** - They can confirm current Salesforce integration status\n3. **Check Salesforce AppExchange** - If an integration exists, it may be listed there\n\nIf you're looking to connect these tools, SafeBase may support integrations through:\n- APIs\n- Zapier or similar automation platforms\n- Native connectors (if available)\n\nIs there a specific use case you're trying to accomplish? That might help clarify what integration approach would work best for you.",
+  "cached_at": "2026-05-28T08:43:44Z",
+  "metadata": {}
+}

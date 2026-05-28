@@ -1,0 +1,9 @@
+{
+  "brand": "Rippling",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Rippling integrate with Slack?",
+  "response": "Yes, Rippling integrates with Slack. This integration allows you to streamline HR and IT workflows by automating tasks such as onboarding, offboarding, and employee notifications directly within Slack. By connecting Rippling with Slack, you can enhance communication and ensure that important updates and tasks are easily accessible to your team.",
+  "cached_at": "2026-05-28T06:27:42Z",
+  "metadata": {}
+}

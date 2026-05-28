@@ -1,0 +1,9 @@
+{
+  "brand": "Folk",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Folk Notion integration: how does it work?",
+  "response": "# Folk Notion Integration\n\nI don't have specific documentation about a \"Folk Notion integration,\" and this isn't a widely recognized standard integration that I'm familiar with.\n\nCould you clarify what you're asking about? A few possibilities:\n\n## What it might be:\n\n1. **Notion API with a specific tool/service** - If \"Folk Notion\" is a particular app or service, it may use Notion's API to sync data\n\n2. **A custom integration** - It could be a proprietary or lesser-known integration specific to your organization\n\n3. **A different name** - You might be thinking of:\n   - **Folklore** + **Notion**?\n   - A **Folk** (music/artist platform) connection to Notion?\n   - Something else entirely?\n\n## To help you better, please share:\n\n- **What platform/service** is Folk Notion?\n- **What you're trying to do** (sync data, automate workflows, etc.)\n- **Context** where you encountered it\n- **Any documentation links** you have\n\nOnce I understand what you're working with, I can help explain how the integration works or troubleshoot issues!",
+  "cached_at": "2026-05-27T18:54:27Z",
+  "metadata": {}
+}

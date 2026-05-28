@@ -1,0 +1,9 @@
+{
+  "brand": "LangChain",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which AI tooling software should a AI or ML Engineer building production LLM applications use?",
+  "response": "# AI Tooling for Production LLM Applications\n\nHere's a practical breakdown by use case:\n\n## **Core Development & Orchestration**\n- **LangChain / LlamaIndex** - RAG pipelines, agent frameworks, prompt management\n- **LiteLLM** - Unified API across multiple LLM providers (cost control, fallbacks)\n- **Pydantic** - Structured outputs, validation (increasingly essential)\n\n## **Evaluation & Testing**\n- **Ragas** - RAG evaluation (retrieval quality, answer relevance)\n- **LLM-as-Judge** tools (OpenAI Eval, DeepEval) - automated test scoring\n- **Weights & Biases / Neptune** - experiment tracking, comparison\n- **Braintrust** - lightweight eval framework\n\n## **Monitoring & Observability**\n- **Arize / Fiddler / Evidently** - LLM-specific monitoring, drift detection\n- **Langsmith** - debugging, traces, cost tracking (tight LangChain integration)\n- **Grafana / Datadog** - infrastructure monitoring\n\n## **Vector & Data**\n- **Pinecone / Weaviate / Milvus** - vector databases\n- **Postgres + pgvector** - if self-hosted\n- **Apache Spark / dbt** - data pipelines\n\n## **Deployment**\n- **Modal / Baseten** - simple LLM serving\n- **Hugging Face Inference Endpoints** - hosted models\n- **vLLM / Ray Serve** - self-hosted scaling\n- **Together AI / Replicate** - managed endpoints\n\n## **Honest Reality Check**\nThe \"best\" stack depends on your constraints. A lean MVP might use:\n- LangChain + LiteLLM\n- PostgreSQL + pgvector\n- Basic Python logging + Weights & Biases\n- FastAPI for serving\n\nWhat's your specific bottleneck?",
+  "cached_at": "2026-05-28T07:39:32Z",
+  "metadata": {}
+}

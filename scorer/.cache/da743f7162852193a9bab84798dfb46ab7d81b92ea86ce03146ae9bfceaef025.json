@@ -1,0 +1,9 @@
+{
+  "brand": "Planetscale",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which database software should a Head of Backend Engineering at a scaling startup use?",
+  "response": "# Database Choice for a Scaling Startup\n\nThis depends on your specific context, but here's a practical framework:\n\n## Start with pragmatism, not hype\n\n**PostgreSQL** is the safest default for most startups:\n- Proven at scale (handles hundreds of billions of rows)\n- Rich features (JSON, arrays, full-text search, extensions)\n- Strong ecosystem and hiring pool\n- Single tool handles most use cases\n\n## Consider by use case\n\n| Need | Consider |\n|------|----------|\n| **Relational data, standard queries** | PostgreSQL |\n| **Extreme scale, simple schemas** | DynamoDB or Cassandra |\n| **Real-time analytics** | Snowflake, BigQuery, or ClickHouse |\n| **Search/logging** | Elasticsearch, OpenSearch |\n| **Caching layer** | Redis |\n| **Time-series data** | TimescaleDB, InfluxDB, or Prometheus |\n\n## Key questions to ask first\n\n1. **What's your actual scale?** (most startups don't need distributed databases yet)\n2. **What's your team's expertise?** (hiring and maintenance costs matter)\n3. **Are you optimizing for speed-to-market or peak efficiency?**\n4. **What does your data access pattern look like?**\n\n## Real talk on scaling\n\n- Most scaling problems aren't solved by switching databases—they're solved by better queries, caching, and schema design\n- Avoid polyglot persistence until you genuinely need it\n- Your bottleneck at $1M ARR probably isn't your database\n\n**What's your primary data challenge right now?** That would help narrow it down further.",
+  "cached_at": "2026-05-28T06:15:18Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Numeric",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "FloQast vs alternatives: what should I switch to?",
+  "response": "# FloQast Alternatives Comparison\n\nThe right choice depends on your specific needs. Here's a framework:\n\n## **If you want similar functionality, consider:**\n\n**Wdesk (Workiva)**\n- Most direct competitor\n- Stronger for complex consolidations and compliance\n- Better if you need enterprise-scale audit trails\n- *Trade-off:* Steeper learning curve, pricier\n\n**Blackline**\n- Excellent for cash reconciliation and intercompany matching\n- Strong automation capabilities\n- *Trade-off:* Less intuitive UI than FloQast, premium pricing\n\n**OneStream**\n- Better for rolling forecasts and planning alongside close\n- More modern platform feel\n- *Trade-off:* Overkill if you just need close management\n\n## **If you're frustrated with specific FloQast issues:**\n\n- **Clunky interface?** → Wdesk or OneStream feel more modern\n- **High cost?** → Certent or Vanta (if audit-focused)\n- **Limited integrations?** → Workiva, Domo\n- **Poor reporting?** → Consider building on your ERP instead\n\n## **Key questions to ask:**\n\n1. What's the actual pain point (cost, features, usability)?\n2. How complex is your close process?\n3. Do you need consolidation or just task management?\n4. Team size and technical capability?\n\n**Reality check:** Most switches cost 3-6 months of fees in implementation effort. Make sure the new tool truly solves your problem rather than just being \"different.\"\n\nWhat's driving your consideration?",
+  "cached_at": "2026-05-28T07:05:03Z",
+  "metadata": {}
+}

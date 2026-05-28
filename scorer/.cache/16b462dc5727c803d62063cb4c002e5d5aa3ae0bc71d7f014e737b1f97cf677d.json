@@ -1,0 +1,9 @@
+{
+  "brand": "Plausible",
+  "prompt_id": "CD-05",
+  "llm": "openai",
+  "prompt_text": "Recommended web analytics tools for privacy-conscious SaaS founders and developers companies",
+  "response": "For privacy-conscious SaaS founders and developers, selecting web analytics tools that prioritize user privacy is crucial. Here are some recommended tools:\n\n1. **Matomo**: An open-source analytics platform that can be self-hosted, giving you full control over your data. It offers features like GDPR compliance, data anonymization, and the ability to opt-out of tracking.\n\n2. **Plausible Analytics**: A lightweight, open-source analytics tool that focuses on privacy. It doesn’t use cookies and is compliant with GDPR, CCPA, and PECR. It provides simple and clear analytics without tracking personal data.\n\n3. **Fathom Analytics**: A privacy-first analytics tool that doesn’t use cookies and is GDPR-compliant. It offers simple, easy-to-understand analytics while respecting user privacy.\n\n4. **GoAccess**: A real-time web log analyzer and visualizer that can be run on your server. It doesn’t track users and provides insights based on server logs.\n\n5. **Simple Analytics**: Offers privacy-friendly analytics without using cookies or tracking personal data. It provides straightforward insights while ensuring compliance with privacy regulations.\n\n6. **Ackee**: A self-hosted, open-source analytics tool that respects user privacy. It doesn’t use cookies and anonymizes data to ensure compliance with privacy laws.\n\n7. **GoSquared**: Provides a privacy-focused analytics solution with features like data anonymization and compliance with GDPR and other privacy regulations.\n\nWhen choosing a tool, consider factors such as ease of use, the level of control over data, and the specific privacy features that align with your company’s values and regulatory requirements.",
+  "cached_at": "2026-05-27T20:14:48Z",
+  "metadata": {}
+}

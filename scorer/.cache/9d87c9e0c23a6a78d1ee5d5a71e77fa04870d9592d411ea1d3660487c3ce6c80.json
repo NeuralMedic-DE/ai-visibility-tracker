@@ -1,0 +1,9 @@
+{
+  "brand": "Pilot",
+  "prompt_id": "IN-04",
+  "llm": "anthropic",
+  "prompt_text": "Best finance that works with Stripe and Gusto",
+  "response": "# Best Finance Tools for Stripe + Gusto\n\n## Top Recommendations\n\n### **1. Quickbooks Online**\n- **Best overall** for small businesses\n- Native integrations with both Stripe and Gusto\n- Automatic transaction syncing\n- Payroll reconciliation with Gusto data\n- Good reporting and tax prep\n\n### **2. Wave**\n- **Best for cost-conscious** (free tier available)\n- Connects to Stripe for automatic invoicing\n- Integrates with Gusto for payroll tracking\n- Simple P&L and expense tracking\n- Good for freelancers/startups\n\n### **3. Xero**\n- **Best for growth-stage companies**\n- Seamless Stripe integration\n- Gusto payroll sync\n- Advanced reporting\n- Multi-currency support\n- Strong automation features\n\n### **4. Freshbooks**\n- **Best for service businesses**\n- Excellent Stripe payment integration\n- Gusto payroll tracking\n- Time tracking + invoicing\n- Client portal features\n\n### **5. Bench**\n- **Best for hands-off approach**\n- Human bookkeepers + software\n- Handles Stripe/Gusto reconciliation\n- Monthly financial statements\n- Higher cost but less work for you\n\n## Quick Comparison\n\n| Tool | Cost | Best For | Setup |\n|------|------|----------|-------|\n| QB Online | $15-$200/mo | General business | Easy |\n| Wave | Free-$20/mo | Startups | Very easy |\n| Xero | $13-$65/mo | Growing companies | Easy |\n| Freshbooks | $15-$55/mo | Service providers | Easy |\n| Bench | $199-$499/mo | Hands-off | Complex |\n\n**My recommendation:** Start with **QuickBooks Online** or **Wave** depending on your budget and complexity needs.",
+  "cached_at": "2026-05-28T07:02:52Z",
+  "metadata": {}
+}

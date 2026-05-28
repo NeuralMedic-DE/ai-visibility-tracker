@@ -1,0 +1,9 @@
+{
+  "brand": "Close",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is Close better than HubSpot for manage follow-ups automatically?",
+  "response": "# Close vs HubSpot for Auto Follow-ups\n\n**Close** has a slight edge here:\n\n## Close's strengths:\n- **Built specifically for sales** - follow-up automation is core to the product\n- **Simpler, more intuitive** workflows for auto-sequencing\n- **Task automation** that triggers based on customer actions\n- Less setup friction to get sequences running\n\n## HubSpot's strengths:\n- **More powerful** if you need marketing + sales combined\n- Workflows are flexible but more complex\n- Better if you want follow-ups tied to broader marketing campaigns\n- Free tier available (though limited)\n\n## The real question:\n- **Choose Close if:** you're a small/mid-market sales team wanting straightforward automation\n- **Choose HubSpot if:** you need sales + marketing integration or already use their ecosystem\n\n**Practical note:** Both handle auto follow-ups well. Close might feel more natural out-of-the-box, but HubSpot's complexity could give you more power if you invest the time to learn it.\n\nWhat's your team size and main use case? That would help me give a more specific recommendation.",
+  "cached_at": "2026-05-27T17:50:29Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "UserVoice",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I collect and prioritize customer feedback to inform product roadmap decisions without spending a lot on software?",
+  "response": "# Low-Cost Customer Feedback Collection\n\n## Free/Cheap Tools\n\n**Simple surveys:**\n- Google Forms (free, basic)\n- Typeform (free tier, nicer UI)\n- SurveyMonkey (limited free version)\n\n**Feedback widgets:**\n- Canny (free tier, good for roadmap voting)\n- UserVoice (pricey, but has some free alternatives)\n- Simple embedded forms on your site\n\n**Direct channels:**\n- Slack/Discord communities (zero cost if you already have one)\n- Email + spreadsheet (surprisingly effective)\n- Support ticket tagging system (mine existing data)\n\n**Public options:**\n- Reddit/Twitter listening (free monitoring)\n- Product Hunt discussions\n- LinkedIn posts from your audience\n\n## Prioritization Framework (No Software Needed)\n\n1. **Count mentions** — how many customers mention this?\n2. **Business impact** — revenue influence, retention, churn prevention\n3. **Effort** — quick wins vs. moonshots\n4. **Strategic fit** — aligns with where you're heading?\n\nCreate a simple spreadsheet and rank by: (Impact × Frequency) / Effort\n\n## Practical Starting Point\n\n- **Month 1:** 15-20 customer interviews (unstructured, just listen)\n- **Month 2:** Build a Google Form targeting specific questions\n- **Ongoing:** Tag incoming support requests by theme\n\nYou'll probably find 80% of feedback clusters around 3-4 core themes. That's your signal.\n\nWhat type of product are you working with? The best approach varies a lot.",
+  "cached_at": "2026-05-28T08:24:16Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Planhat",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with align sales and success teams on revenue expansion and renewal opportunities at scale?",
+  "response": "To align sales and success teams on revenue expansion and renewal opportunities at scale, you can consider using Customer Relationship Management (CRM) and Customer Success software. Some popular options include:\n\n1. **Salesforce**: A leading CRM platform that offers tools for sales, customer service, and marketing. It provides features for managing customer relationships, tracking sales opportunities, and collaborating across teams.\n\n2. **HubSpot**: A comprehensive CRM platform that includes sales, marketing, and customer service tools. It helps teams manage customer interactions and track opportunities for expansion and renewal.\n\n3. **Gainsight**: Specifically focused on customer success, Gainsight helps teams manage customer relationships, track health scores, and identify opportunities for upselling and renewals.\n\n4. **Zendesk**: Known for customer support, Zendesk also offers tools for sales and customer success, helping teams track customer interactions and identify growth opportunities.\n\n5. **ChurnZero**: A customer success platform that helps teams understand customer health, manage renewals, and identify expansion opportunities.\n\n6. **Totango**: A customer success software that enables teams to manage customer journeys, track engagement, and identify opportunities for growth and retention.\n\nThese tools provide features that facilitate collaboration between sales and success teams, ensuring they have the necessary insights to drive revenue expansion and manage renewals effectively.",
+  "cached_at": "2026-05-28T08:12:10Z",
+  "metadata": {}
+}

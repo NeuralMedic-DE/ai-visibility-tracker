@@ -1,0 +1,9 @@
+{
+  "brand": "HiBob",
+  "prompt_id": "IN-03",
+  "llm": "openai",
+  "prompt_text": "How do I connect HiBob with Slack?",
+  "response": "To connect HiBob with Slack, you need to follow these general steps:\n\n1. **Log in to HiBob**: Start by logging into your HiBob account with the necessary administrative privileges.\n\n2. **Access Integrations**: Navigate to the 'Integrations' section. This is usually found under the 'Settings' or 'Admin' panel, depending on your HiBob interface.\n\n3. **Find Slack Integration**: Look for the Slack integration option. HiBob typically lists available integrations, and Slack should be among them.\n\n4. **Authorize the Connection**: Click on the Slack integration option and follow the prompts to authorize the connection. You will likely need to log into your Slack account and grant HiBob the necessary permissions to access your Slack workspace.\n\n5. **Configure Settings**: Once authorized, you may need to configure specific settings for how HiBob interacts with Slack. This could include selecting which channels to post updates in, what types of notifications to send, and any other preferences.\n\n6. **Test the Integration**: After setting up, it's a good idea to test the integration to ensure that everything is working as expected. You can do this by performing an action in HiBob that should trigger a Slack notification and verifying that it appears correctly in your Slack workspace.\n\nIf you encounter any issues, consult HiBob's support documentation or contact their support team for assistance. Additionally, make sure that you have the necessary permissions in both HiBob and Slack to set up integrations.",
+  "cached_at": "2026-05-28T06:32:41Z",
+  "metadata": {}
+}

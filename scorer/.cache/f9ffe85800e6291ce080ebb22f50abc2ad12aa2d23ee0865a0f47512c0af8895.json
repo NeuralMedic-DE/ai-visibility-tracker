@@ -1,0 +1,9 @@
+{
+  "brand": "ChartMogul",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is ChartMogul better than ProfitWell for analyze cohort retention and forecast subscription revenue growth?",
+  "response": "# ChartMogul vs ProfitWell: Cohort Analysis & Revenue Forecasting\n\nBoth excel at subscription metrics, but have different strengths:\n\n## ChartMogul's advantages:\n- **Cohort analysis**: More granular, flexible cohort segmentation\n- **Visual clarity**: Better-designed cohort retention charts\n- **Custom metrics**: Easier to build tailored retention definitions\n- **Data accuracy**: Generally considered more reliable for complex SaaS scenarios\n\n## ProfitWell's advantages:\n- **Revenue forecasting**: Stronger predictive models built-in\n- **Benchmarking**: Industry comparison data (helpful context)\n- **Simplicity**: Faster setup, less configuration needed\n- **Free tier**: More generous free option\n- **Integrated metrics**: Handles MRR/ARR alongside retention seamlessly\n\n## The nuance:\n- **For cohort retention specifically**: ChartMogul usually wins (more flexibility, clarity)\n- **For revenue forecasting**: ProfitWell has better native tools, though both can forecast\n- ChartMogul requires more manual forecasting work; ProfitWell does more automatically\n\n## My suggestion:\nAsk yourself:\n1. How complex are your cohort needs? (ChartMogul if very custom)\n2. Do you want turnkey forecasting or are you comfortable building models? (ProfitWell vs ChartMogul)\n3. What's your current data quality? (Both assume clean subscription data)\n\nMany teams actually use both—ProfitWell for quick insights and ChartMogul for deeper analysis. What's your primary use case?",
+  "cached_at": "2026-05-28T06:54:55Z",
+  "metadata": {}
+}

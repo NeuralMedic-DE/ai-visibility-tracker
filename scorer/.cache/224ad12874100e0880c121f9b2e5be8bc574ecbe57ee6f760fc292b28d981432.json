@@ -1,0 +1,9 @@
+{
+  "brand": "Attio",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with automate revenue workflows at scale?",
+  "response": "There are several software solutions that can help automate revenue workflows at scale. Some popular options include:\n\n1. **Salesforce Revenue Cloud**: Part of the Salesforce ecosystem, it offers tools for automating revenue processes, including CPQ (Configure, Price, Quote) and billing.\n\n2. **NetSuite ERP**: Provides a comprehensive suite of tools for financial management, including revenue recognition and billing automation.\n\n3. **Zuora**: Specializes in subscription billing and revenue automation, making it ideal for businesses with subscription-based models.\n\n4. **SAP S/4HANA**: Offers extensive capabilities for automating financial processes, including revenue management.\n\n5. **Oracle ERP Cloud**: Provides tools for automating and managing financial processes, including revenue recognition and billing.\n\n6. **Chargebee**: Focuses on subscription management and billing automation, suitable for SaaS and subscription-based businesses.\n\n7. **Intacct by Sage**: Offers robust financial management and automation capabilities, including revenue recognition.\n\nThese platforms can help streamline processes, reduce manual errors, and improve efficiency in managing revenue workflows. The best choice depends on your specific business needs, industry, and existing technology stack.",
+  "cached_at": "2026-05-27T17:52:41Z",
+  "metadata": {}
+}

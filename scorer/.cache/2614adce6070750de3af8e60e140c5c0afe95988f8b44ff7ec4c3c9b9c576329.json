@@ -1,0 +1,9 @@
+{
+  "brand": "Chargebee",
+  "prompt_id": "AL-05",
+  "llm": "anthropic",
+  "prompt_text": "Open source or affordable billing tools instead of Recurly",
+  "response": "# Open Source & Affordable Billing Alternatives to Recurly\n\n## **Open Source Solutions**\n\n### **Medusa** (Commerce Platform)\n- Free, modular, Node.js-based\n- Subscription management capabilities\n- Self-hosted\n- Good for custom workflows\n\n### **Lago** ⭐\n- Open-source metering & billing\n- Usage-based billing focus\n- Modern API-first design\n- Free tier available\n\n### **OpenMeter**\n- Usage metering platform\n- Open source\n- Real-time metering\n- Developer-friendly\n\n### **Metronome**\n- Modern billing infrastructure\n- Flexible pricing models\n- API-driven\n\n## **Affordable Paid Options**\n\n### **Stripe Billing**\n- $0 platform fee (pay per transaction)\n- Excellent documentation\n- Integrates with Stripe Payments\n- Good for startups\n\n### **Paddle** (formerly Paddle Billing)\n- Low transaction fees\n- Global tax/VAT handling\n- Simple interface\n- $25K+ revenue threshold\n\n### **Lemonsqueezy**\n- Creator/indie-friendly pricing\n- Generous free tier\n- Tax handling included\n- 5% + $0.35 per transaction\n\n### **Zuora** (Self-Service)\n- More expensive but flexible\n- Enterprise-grade\n- Pay-as-you-grow\n\n## **Lightweight Alternatives**\n\n| Tool | Best For | Cost |\n|------|----------|------|\n| **Wave** | Invoicing/accounting | Free |\n| **Square Subscriptions** | Simple subscriptions | 2.9% + fees |\n| **WooCommerce Subscriptions** | WordPress | ~$199/year plugin |\n| **Chargify** | Dunning/retention | Moderate |\n\n## **Recommendation**\n- **Startups**: Stripe Billing or Lemonsqueezy\n- **Self-hosted**: Lago (open source)\n- **Usage-based**: OpenMeter or Lago\n- **Simplicity**: Paddle or Lemonsqueezy\n\nWhat's your primary billing model (subscriptions, usage-based, one-time)?",
+  "cached_at": "2026-05-28T06:50:44Z",
+  "metadata": {}
+}

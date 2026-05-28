@@ -1,0 +1,9 @@
+{
+  "brand": "Vitally",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Vitally integrate with Salesforce?",
+  "response": "# Vitally and Salesforce Integration\n\nYes, **Vitally integrates with Salesforce**. The integration allows you to:\n\n- **Sync customer data** between Vitally and Salesforce\n- **Track account health** and activity metrics within Salesforce\n- **Leverage customer insights** from Vitally in your Salesforce workflows\n- **Keep data synchronized** across both platforms\n\n## How to Set It Up\n\nThe integration typically involves:\n1. Connecting your Salesforce instance to Vitally\n2. Configuring which data fields you want to sync\n3. Setting up the direction of data flow (one-way or two-way)\n\nFor specific details about current features, setup instructions, or any limitations, I'd recommend:\n- Checking **Vitally's documentation** or help center\n- Contacting **Vitally's support team** directly\n- Visiting the **Salesforce AppExchange** to see the integration details\n\nIs there a specific aspect of the Vitally-Salesforce integration you'd like to know more about?",
+  "cached_at": "2026-05-28T08:09:35Z",
+  "metadata": {}
+}

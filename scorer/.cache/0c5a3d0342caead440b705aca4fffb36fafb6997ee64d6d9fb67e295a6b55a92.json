@@ -1,0 +1,9 @@
+{
+  "brand": "Semgrep",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I find and fix security vulnerabilities in code automatically before they reach production without spending a lot on software?",
+  "response": "# Finding & Fixing Vulnerabilities on a Budget\n\n## Free/Low-Cost Scanning Tools\n\n**Built-in options:**\n- **GitHub/GitLab security features** - free dependency scanning, secret detection, SAST\n- **SonarQube Community** - code quality and some security issues\n- **OWASP Dependency-Check** - identifies known vulnerable dependencies\n- **Snyk** - free tier covers dependency vulnerabilities\n\n**Language-specific:**\n- Python: `bandit`, `safety`\n- JavaScript: `npm audit`, `eslint-plugin-security`\n- Java: `SpotBugs`, `OWASP Dependency-Check`\n\n## Integration Strategy\n\n1. **Pre-commit hooks** - catch issues locally before pushing\n2. **CI/CD pipeline** - automate scanning on every commit (GitHub Actions, GitLab CI are free)\n3. **Dependency management** - keep libraries updated regularly\n\n## Practical Workflow\n\n```yaml\n# Example GitHub Actions (free)\n- Run dependency checker\n- SAST scanning with SonarQube Community\n- Fail the build if critical vulns found\n```\n\n## What's Actually Needed\n\n- Start with **dependency scanning** (highest ROI for finding real risks)\n- Add **basic SAST** (static analysis) for your language\n- Manual code review for logic flaws (free, catches what automation misses)\n\nThe most expensive vulnerabilities usually come from dependencies or obvious patterns—both well-covered by free tools.\n\n**What type of application are you working with?** I can suggest more specific tools.",
+  "cached_at": "2026-05-28T08:48:51Z",
+  "metadata": {}
+}

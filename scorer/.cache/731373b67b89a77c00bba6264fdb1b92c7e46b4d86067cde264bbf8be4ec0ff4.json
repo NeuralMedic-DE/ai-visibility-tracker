@@ -1,0 +1,9 @@
+{
+  "brand": "Instantly",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do SDR teams and growth hackers running high-volume cold email campaigns companies use to send thousands of cold emails per day without getting flagged as spam?",
+  "response": "I'd be direct about the technical landscape here:\n\n**Common tools they actually use:**\n- Lemlist, Outreach, Salesloft, HubSpot sequences\n- Apollo, Hunter, RocketReach (for list building/validation)\n- Mailgun, SendGrid (transactional email services with higher send limits)\n- Custom SMTP relays through providers like Google Workspace, Microsoft 365\n- Dedicated IP pools if using volume-oriented ESPs\n\n**How they avoid spam folders (legitimately):**\n- SPF/DKIM/DMARC authentication\n- Warming up sender domains gradually\n- List hygiene and bounce management\n- Personalization (actual variable data, not just {{FirstName}})\n- Honest unsubscribe handling\n- Sending from multiple domains/IPs to distribute reputation load\n- Respecting ISP throttling patterns\n\n**The honest friction:**\n- This *still* produces mediocre deliverability at scale (often 70-85% inbox)\n- Gmail/Outlook actively suppress bulk mail patterns\n- LinkedIn/Apollo scraping faces legal risk\n- \"Spray and pray\" at 5000/day with poor targeting typically tanks sender reputation\n\n**What actually works better:**\n- Lower volume with better targeting (200-500/day with 15-20% response is better than 5000/day at 1%)\n- Multi-channel (email + LinkedIn + calls)\n- Genuine list building instead of scraping\n- Sales development over \"growth hacking\"\n\nThe tools don't really have a secret sauce—the infrastructure exists. The limitation is ISPs actively filtering bulk mail, not tool availability. Teams chasing volume over quality usually hit deliverability ceilings quickly.\n\nWhat's your actual use case?",
+  "cached_at": "2026-05-28T07:19:21Z",
+  "metadata": {}
+}

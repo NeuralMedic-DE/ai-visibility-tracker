@@ -1,0 +1,9 @@
+{
+  "brand": "Rippling",
+  "prompt_id": "IN-05",
+  "llm": "anthropic",
+  "prompt_text": "HR tools with native Slack integration",
+  "response": "# HR Tools with Native Slack Integration\n\n## Payroll & Benefits\n- **Gusto** - Payroll, benefits, HR in one platform\n- **Rippling** - Unified workforce management\n- **ADP** - Enterprise payroll solutions\n- **Paychex Flex** - Payroll and HR platform\n\n## Leave & Time Off\n- **Factorial** - HR management with time tracking\n- **Bamboo HR** - HRIS with leave management\n- **Deel** - Global payroll with leave tracking\n- **Lattice** - Performance management with time-off features\n\n## Recruiting & Onboarding\n- **Greenhouse** - Applicant tracking system\n- **Lever** - Hiring platform\n- **BambooHR** - Onboarding workflows\n- **Workable** - HRIS and recruiting\n\n## Engagement & Performance\n- **Lattice** - Performance management and engagement\n- **Culture Amp** - Employee engagement surveys\n- **Officevibe** - Team engagement platform\n- **15Five** - Performance and engagement\n\n## Learning & Development\n- **LinkedIn Learning** - Course platform with Slack alerts\n- **Udemy for Business** - Learning management\n- **Coursera** - Enterprise learning platform\n\n## General HR Platforms\n- **Workday** - Limited native Slack (via API)\n- **SuccessFactors** - Enterprise HR suite\n- **Namely** - Mid-market HRIS\n\n## Popular Slack HR Apps (Native)\n- **Donut** - Team building and recognition\n- **HeyTaco** - Recognition and rewards\n- **Bonusly** - Performance recognition\n- **TinyPulse** - Engagement surveys\n\n**Tip:** Most modern HR tools offer Slack integration either natively or through Zapier/webhooks. Check integrations before choosing.",
+  "cached_at": "2026-05-28T06:27:57Z",
+  "metadata": {}
+}

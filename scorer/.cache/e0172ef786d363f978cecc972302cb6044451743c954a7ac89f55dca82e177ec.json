@@ -1,0 +1,9 @@
+{
+  "brand": "Reply.io",
+  "prompt_id": "CD-01",
+  "llm": "openai",
+  "prompt_text": "What is the best sales engagement for sales teams at B2B SaaS companies running outbound sequences?",
+  "response": "The best sales engagement platform for B2B SaaS companies running outbound sequences often depends on the specific needs and size of the sales team, but some of the most popular and highly regarded options include:\n\n1. **Outreach**: Known for its robust features, Outreach offers advanced automation, analytics, and integration capabilities, making it ideal for scaling outbound efforts and improving engagement.\n\n2. **Salesloft**: This platform provides comprehensive tools for managing sales engagement, including email tracking, call logging, and analytics, which help sales teams optimize their outreach strategies.\n\n3. **HubSpot Sales Hub**: Part of the HubSpot ecosystem, this tool is user-friendly and integrates seamlessly with other HubSpot products, offering email tracking, automation, and CRM capabilities.\n\n4. **Apollo.io**: Apollo offers a combination of sales engagement and lead generation features, with a strong database and tools for sequencing, making it a good choice for teams focused on outbound prospecting.\n\n5. **Reply.io**: Known for its ease of use and affordability, Reply.io provides multi-channel outreach capabilities, including email, calls, and social media, along with automation features.\n\nWhen choosing a sales engagement platform, consider factors such as integration with existing tools, ease of use, scalability, and the specific features that align with your sales strategy. Additionally, it's important to evaluate the platform's ability to provide actionable insights and analytics to continuously improve your outbound sequences.",
+  "cached_at": "2026-05-28T07:20:58Z",
+  "metadata": {}
+}

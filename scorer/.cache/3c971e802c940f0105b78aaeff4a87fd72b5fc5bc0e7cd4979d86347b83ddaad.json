@@ -1,0 +1,9 @@
+{
+  "brand": "Stonly",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to Confluence",
+  "response": "# Cheaper Alternatives to Confluence\n\n## Free & Open-Source\n\n- **Notion** – All-in-one workspace (free tier limited)\n- **MediaWiki** – Wikipedia's wiki engine\n- **BookStack** – Simple, self-hosted documentation\n- **Outline** – Modern wiki for teams\n- **TiddlyWiki** – Lightweight personal wiki\n\n## Low-Cost SaaS\n\n- **Slite** – $5–12/user/month (knowledge base focused)\n- **Nuclino** – $5–10/user/month (collaborative workspace)\n- **GitBook** – Free tier available, docs-focused\n- **Coda** – Free tier, then $10–20/user/month\n- **Tettra** – $8/user/month (knowledge management)\n\n## Developer-Friendly Options\n\n- **GitHub Wiki** – Free with repos\n- **GitLab Wiki** – Free tier available\n- **Docusaurus** – Free, static site generator\n- **MkDocs** – Free, Python-based documentation\n\n## Better for Specific Use Cases\n\n| Use Case | Best Option |\n|----------|-----------|\n| **Simple docs** | Notion, Markdown + GitHub |\n| **Knowledge base** | Slite, Tettra |\n| **Technical docs** | GitBook, Docusaurus |\n| **Self-hosted** | BookStack, MediaWiki |\n| **Team collaboration** | Nuclino, Coda |\n\n## Key Comparison Factors\n- Team size requirements\n- Offline access needed?\n- Self-hosted vs. cloud preference\n- Integration needs (Slack, Jira, etc.)\n\n**What's your main use case?** That would help narrow down the best fit.",
+  "cached_at": "2026-05-28T08:21:54Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Copper",
+  "prompt_id": "UC-03",
+  "llm": "openai",
+  "prompt_text": "What tools do Google Workspace power users companies use to manage client relationships inside Gmail?",
+  "response": "Google Workspace power users often leverage a combination of native features and third-party tools to manage client relationships directly within Gmail. Here are some popular options:\n\n1. **Google Workspace Add-ons**: These are integrations that enhance Gmail's functionality. Some popular CRM add-ons include:\n   - **Copper**: A CRM that integrates directly with Gmail, allowing users to manage contacts, track deals, and automate workflows without leaving the inbox.\n   - **Streak**: A CRM tool that operates within Gmail, enabling users to manage pipelines, track emails, and collaborate with team members.\n\n2. **Google Contacts**: While not a full CRM, Google Contacts can be used to manage and organize client information, which syncs across Google Workspace apps.\n\n3. **Zapier**: This tool can automate workflows between Gmail and other applications, including CRMs like Salesforce, HubSpot, and Zoho CRM, helping to streamline client relationship management.\n\n4. **Gmail Filters and Labels**: Power users often set up filters and labels to automatically sort and categorize emails, making it easier to track client communications.\n\n5. **Google Sheets**: Some users create custom CRM solutions using Google Sheets, leveraging its ability to integrate with Gmail via Google Apps Script or third-party tools like Zapier.\n\n6. **HubSpot CRM**: Offers a Gmail integration that allows users to track emails, manage contacts, and access CRM features directly from their inbox.\n\nThese tools and integrations help users manage client relationships efficiently without needing to switch between multiple platforms.",
+  "cached_at": "2026-05-27T18:21:36Z",
+  "metadata": {}
+}

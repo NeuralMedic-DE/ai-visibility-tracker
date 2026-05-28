@@ -1,0 +1,9 @@
+{
+  "brand": "Finaloop",
+  "prompt_id": "IN-03",
+  "llm": "openai",
+  "prompt_text": "How do I connect Finaloop with Shopify?",
+  "response": "To connect Finaloop with Shopify, you typically need to follow these general steps:\n\n1. **Sign Up for Finaloop**: If you haven't already, create an account with Finaloop. This usually involves providing your business details and setting up your account preferences.\n\n2. **Access Finaloop Dashboard**: Log in to your Finaloop account and navigate to the dashboard where you can manage integrations.\n\n3. **Find Shopify Integration**: Look for the option to connect or integrate with Shopify. This might be under a section labeled \"Integrations\" or \"Connected Apps.\"\n\n4. **Authorize the Connection**: You will likely be prompted to log in to your Shopify account to authorize the connection. This step is necessary to allow Finaloop to access your Shopify data.\n\n5. **Follow On-Screen Instructions**: Complete the setup by following any additional instructions provided by Finaloop. This might include selecting specific data to sync or configuring settings for how the integration should work.\n\n6. **Verify the Connection**: Once the integration is set up, verify that the connection is working correctly. Check if data such as sales, inventory, and customer information is syncing between Shopify and Finaloop.\n\n7. **Contact Support if Needed**: If you encounter any issues, reach out to Finaloop's customer support for assistance.\n\nMake sure to check Finaloop's official documentation or support resources for any specific instructions or updates related to their integration process with Shopify.",
+  "cached_at": "2026-05-28T07:07:44Z",
+  "metadata": {}
+}

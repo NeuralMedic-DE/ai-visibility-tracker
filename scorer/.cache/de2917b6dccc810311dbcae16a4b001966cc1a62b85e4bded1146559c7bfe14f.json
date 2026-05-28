@@ -1,0 +1,9 @@
+{
+  "brand": "Charlie HR",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Charlie HR integrate with Slack?",
+  "response": "Yes. **CharlieHR integrates with Slack**, both for its core HR product and for Charlie Recruit.\n\nKey details:\n\n- The main **CharlieHR–Slack integration** lets you:\n  - Send a **daily Slack digest** with who’s off, temporary working locations, birthdays, and work anniversaries.[2]\n  - Configure **smart notifications** for shout-outs, time off bookings, team member updates, new joiners, onboarding progress, visa expiry reminders, and key dates.[2]\n  - Choose which Slack **channels** receive which updates after a simple “Add to Slack” authentication flow.[2]\n\n- **Charlie Recruit** (their hiring module) has a separate Slack integration:\n  - Sends **notifications** in Slack about key recruiting events and reminders to take action.[1]\n  - Is enabled from Recruit → Settings → Integrations → Slack, then authorizing via Slack’s sign-in.[1]\n\n- CharlieHR’s own materials explicitly promote “Power up Charlie with Slack” and list Slack as an official integration.[2][5]",
+  "cached_at": "2026-05-28T06:45:20Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Userlist",
+  "prompt_id": "IN-04",
+  "llm": "anthropic",
+  "prompt_text": "Best marketing automation that works with Stripe and Segment",
+  "response": "# Best Marketing Automation Platforms for Stripe + Segment\n\n## Top Tier Options\n\n### **1. Klaviyo**\n- **Best for:** E-commerce, email-first strategies\n- **Stripe integration:** Native, seamless\n- **Segment:** Full support\n- **Why it wins:** \n  - Pre-built Stripe flows (abandoned cart, post-purchase)\n  - Advanced segmentation\n  - SMS + email automation\n  - Strong for DTC brands\n\n### **2. mParticle**\n- **Best for:** CDP + Segment power users\n- **Advantages:**\n  - Enterprise-grade data orchestration\n  - Works flawlessly with Segment\n  - Advanced audience activation\n- **Tradeoff:** More expensive, steeper learning curve\n\n### **3. Braze (formerly Appboy)**\n- **Best for:** Multi-channel campaigns (push, email, SMS)\n- **Stripe integration:** Via Segment\n- **Strengths:**\n  - Real-time personalization\n  - Customer journey mapping\n  - Strong mobile capabilities\n\n## Strong Mid-Market Choices\n\n| Platform | Best For | Stripe Support | Price |\n|----------|----------|----------------|-------|\n| **HubSpot** | Sales + Marketing | Native | $$-$$$ |\n| **ActiveCampaign** | SMBs | Zapier/Native | $$ |\n| **Iterable** | Growth teams | Via Segment | $$$ |\n\n## My Recommendation\n\n**For most Stripe + Segment users:** **Klaviyo**\n- Easiest setup\n- Best ROI documentation\n- Strong community\n- Excellent Stripe automation out-of-box\n\n**For complex data needs:** **mParticle** or **Braze**\n\n---\n\n**What's your primary use case?** (e-commerce, SaaS, etc.) Happy to narrow this down further.",
+  "cached_at": "2026-05-28T07:31:06Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Plausible",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Plausible Gatsby integration: how does it work?",
+  "response": "# Gatsby Integration: How It Works\n\nI'd be happy to explain Gatsby integration, but \"Plausible Gatsby integration\" specifically refers to integrating **Plausible Analytics** (privacy-focused analytics) with **Gatsby** (static site generator). Here's how it works:\n\n## Basic Integration Steps\n\n### 1. **Install Plausible Plugin**\n```bash\nnpm install gatsby-plugin-plausible\n```\n\n### 2. **Configure in gatsby-config.js**\n```javascript\nmodule.exports = {\n  plugins: [\n    {\n      resolve: \"gatsby-plugin-plausible\",\n      options: {\n        domain: \"yoursite.com\",\n      },\n    },\n  ],\n}\n```\n\n### 3. **How It Works**\n- The plugin automatically injects Plausible's tracking script into your Gatsby site\n- Tracks page views, events, and user interactions\n- No cookies by default (privacy-compliant)\n- Data appears in your Plausible dashboard\n\n## Key Features\n\n| Feature | Details |\n|---------|---------|\n| **Setup** | Zero-config after plugin install |\n| **Tracking** | Automatic page view tracking |\n| **Events** | Custom event tracking available |\n| **Privacy** | No cookies, GDPR compliant |\n| **Performance** | Lightweight script (~1KB) |\n\n## Custom Events Example\n```javascript\nwindow.plausible(\"SignUp\", { props: { plan: \"premium\" } })\n```\n\n## Why This Combination Works\n- Gatsby = Static/fast site\n- Plausible = Lightweight, privacy-respecting analytics\n- Plugin = Easy integration without manual configuration\n\nIs there a specific aspect of this integration you'd like to dive deeper into?",
+  "cached_at": "2026-05-27T20:19:05Z",
+  "metadata": {}
+}

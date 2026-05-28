@@ -1,0 +1,9 @@
+{
+  "brand": "Sentry",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with monitor application performance and response latency at scale?",
+  "response": "# Application Performance Monitoring (APM) Software\n\nSeveral categories of tools help monitor application performance and latency at scale:\n\n## Enterprise APM Platforms\n- **Datadog** - Comprehensive APM with tracing, infrastructure monitoring, and real user monitoring\n- **New Relic** - Full-stack observability with detailed transaction tracing\n- **Dynatrace** - AI-assisted performance analytics and automatic instrumentation\n- **AppDynamics** - Business-focused APM with topology mapping\n\n## Open-Source Solutions\n- **Prometheus** - Time-series metrics collection (often paired with visualization tools)\n- **Jaeger** - Distributed tracing for microservices\n- **Zipkin** - Distributed tracing system\n- **Grafana** - Visualization and dashboarding (works with various data sources)\n\n## Specialized Tools\n- **Elastic APM** - Part of the Elastic Stack for tracing and performance monitoring\n- **SignalFx/Splunk APM** - Real-time performance insights\n- **Scout** - Lightweight APM focused on response times\n- **Honeycomb** - Event-based observability for complex systems\n\n## Key Features to Look For\n- Distributed tracing across microservices\n- Real User Monitoring (RUM)\n- Custom metrics and dashboards\n- Alert capabilities\n- Infrastructure correlation\n\n**Best choice depends on**: your stack, scale, budget, and whether you prefer managed vs. self-hosted solutions.\n\nWhat's your primary use case or tech stack?",
+  "cached_at": "2026-05-27T21:18:33Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Planetscale",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Planetscale integrate with GitHub?",
+  "response": "Yes. PlanetScale **integrates with GitHub primarily via GitHub Actions**, plus example workflows and tooling around branches and deploy requests.\n\nKey points:\n\n- PlanetScale publishes **official GitHub Actions** (for example, `planetscale/setup-pscale-action`) that install the **`pscale` CLI** in your GitHub Actions workflows so you can automate database tasks from GitHub CI/CD.[1][2]  \n- With these actions you can, directly from GitHub workflows:[1]  \n  - Create **database branches**  \n  - Create **branch passwords** and connect to the database  \n  - Open **deploy requests**  \n  - Comment **schema diffs on pull requests**  \n- The PlanetScale CLI repo also documents how to use the setup action in GitHub Actions, including using service tokens stored as GitHub Secrets to run `pscale` commands in workflows.[2]  \n- PlanetScale’s docs and demo material show a workflow where opening/merging a GitHub pull request triggers GitHub Actions that automatically create and deploy PlanetScale schema changes via branches and deploy requests, tightly integrating database changes into the normal GitHub PR flow.[1][7]  \n\nSo while there is not a “one-click GitHub app” for PlanetScale settings inside the GitHub UI, there is **first‑class CI/CD integration through GitHub Actions** that connects GitHub repos and PRs to PlanetScale databases.",
+  "cached_at": "2026-05-28T06:17:09Z",
+  "metadata": {}
+}

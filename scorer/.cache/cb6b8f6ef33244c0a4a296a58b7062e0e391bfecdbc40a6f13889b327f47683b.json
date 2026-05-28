@@ -1,0 +1,9 @@
+{
+  "brand": "Metabase",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to Looker",
+  "response": "# Cheaper Alternatives to Looker\n\n## Free/Open-Source Options\n\n### **Metabase**\n- Free, self-hosted or cloud\n- User-friendly SQL interface\n- Good for simple dashboards and reports\n- Growing embedded analytics features\n\n### **Apache Superset**\n- Open-source, self-hosted\n- Modern, interactive dashboards\n- SQL query builder\n- Lower learning curve than Looker\n\n### **Grafana**\n- Free tier available\n- Excellent for metrics/monitoring\n- Good for real-time data visualization\n- Limited for business intelligence\n\n## Low-Cost Commercial Options\n\n### **Tableau Public** (Free) / **Tableau Desktop** (~$70/month)\n- Professional visualizations\n- Steeper learning curve than alternatives\n- Limited self-service for Public version\n\n### **Power BI** (~$10-20/user/month)\n- Microsoft ecosystem integration\n- Good for enterprise environments\n- Strong Excel integration\n\n### **Google Data Studio** (Free)\n- Completely free\n- Good for basic dashboards\n- Best if using Google Analytics/Sheets\n\n### **QlikView/Qlik Sense** (Starting ~$30/user/month)\n- Associative analytics\n- Self-service BI\n- Mid-range pricing\n\n## Best For Different Needs\n\n| Use Case | Best Alternative |\n|----------|------------------|\n| Startups/SMB | Metabase, Google Data Studio |\n| Self-hosted preference | Apache Superset |\n| Microsoft environment | Power BI |\n| Real-time monitoring | Grafana |\n| Ease of use | Google Data Studio |\n\nWould you like recommendations based on your specific requirements?",
+  "cached_at": "2026-05-27T20:08:13Z",
+  "metadata": {}
+}

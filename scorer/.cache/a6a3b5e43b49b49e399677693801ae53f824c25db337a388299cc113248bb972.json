@@ -1,0 +1,9 @@
+{
+  "brand": "Lattice",
+  "prompt_id": "UC-03",
+  "llm": "openai",
+  "prompt_text": "What tools do mid-market companies building high-performance cultures companies use to run continuous performance reviews and set company-wide OKRs?",
+  "response": "Mid-market companies aiming to build high-performance cultures often use a variety of tools to facilitate continuous performance reviews and set company-wide OKRs (Objectives and Key Results). Some popular tools include:\n\n1. **Lattice**: Offers performance management features like continuous feedback, 1-on-1s, and goal setting, along with OKR tracking.\n\n2. **15Five**: Provides tools for continuous feedback, performance reviews, and OKR tracking, helping to align individual performance with company goals.\n\n3. **Culture Amp**: Known for its employee engagement surveys, it also offers performance management features and OKR alignment.\n\n4. **Betterworks**: Focuses on OKR management and continuous performance management, helping companies align and track goals across the organization.\n\n5. **Workday**: Offers a comprehensive suite for performance management, including goal setting and continuous feedback, integrated with broader HR functions.\n\n6. **Reflektive**: Provides tools for real-time feedback, performance reviews, and goal management, including OKRs.\n\n7. **7Geese**: Specializes in OKR management and performance reviews, offering tools to align individual and team goals with company objectives.\n\n8. **Leapsome**: Combines performance reviews, OKR management, and employee engagement tools to support high-performance cultures.\n\nThese tools help mid-market companies maintain alignment, transparency, and accountability, fostering a culture of continuous improvement and high performance.",
+  "cached_at": "2026-05-28T06:30:06Z",
+  "metadata": {}
+}

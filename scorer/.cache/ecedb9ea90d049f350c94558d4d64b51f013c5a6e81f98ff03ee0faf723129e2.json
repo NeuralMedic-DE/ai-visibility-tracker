@@ -1,0 +1,9 @@
+{
+  "brand": "Vercel",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to AWS Amplify",
+  "response": "# Cheaper Alternatives to AWS Amplify\n\n## **Backend-as-a-Service (BaaS)**\n\n| Service | Strengths | Cost Model |\n|---------|-----------|-----------|\n| **Firebase** | Real-time DB, auth, hosting, functions | Free tier generous; pay-as-you-go |\n| **Supabase** | Open-source Firebase alternative, PostgreSQL | Free tier; $25/mo starter |\n| **Parse** | Self-hosted option available | Open-source + hosting costs |\n| **Backendless** | Visual development, real-time | Free tier; $99/mo+ plans |\n\n## **By Use Case**\n\n### **Frontend Hosting Only**\n- **Vercel** - Next.js optimized, $20/mo teams\n- **Netlify** - Static + functions, free tier robust\n- **GitHub Pages** - Free (static only)\n- **Cloudflare Pages** - Free workers included\n\n### **Full Stack (Frontend + Backend)**\n- **Firebase** - Most mature free tier\n- **Supabase** - PostgreSQL power at lower cost\n- **Railway** - Simple pricing, $5/mo minimum\n- **Render** - $7/mo for web services\n\n### **Serverless Functions Only**\n- **Vercel Functions** - Included with hosting\n- **Netlify Functions** - Free tier available\n- **AWS Lambda** - Can be cheaper if low usage\n- **Cloudflare Workers** - $5/mo, extremely fast\n\n## **Cost Comparison Example**\nRunning a small app for 100K monthly requests:\n- **AWS Amplify**: ~$30-50/mo\n- **Firebase**: ~$10-20/mo\n- **Supabase**: ~$25/mo\n- **Vercel + Netlify**: ~$0-20/mo\n\n## **Hybrid Approach** ⭐\nCombine services strategically:\n- **Vercel** (frontend) + **Supabase** (database) + **Cloudflare Workers** (functions)\n- **Netlify** + **Firebase** Realtime DB\n\n**Best for cost-conscious teams:** Supabase or Firebase + Vercel/Netlify",
+  "cached_at": "2026-05-27T21:27:36Z",
+  "metadata": {}
+}

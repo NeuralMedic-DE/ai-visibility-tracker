@@ -1,0 +1,9 @@
+{
+  "brand": "Plausible",
+  "prompt_id": "IN-04",
+  "llm": "openai",
+  "prompt_text": "Best web analytics that works with WordPress and Gatsby",
+  "response": "When looking for web analytics tools that work well with both WordPress and Gatsby, consider the following options:\n\n1. **Google Analytics**: This is the most popular web analytics tool and can be easily integrated with both WordPress and Gatsby. For WordPress, you can use plugins like \"Site Kit by Google\" or \"MonsterInsights\" to simplify the integration. For Gatsby, you can use the `gatsby-plugin-google-analytics` to add Google Analytics to your site.\n\n2. **Matomo**: An open-source alternative to Google Analytics, Matomo can be integrated with WordPress using the \"Matomo Analytics\" plugin. For Gatsby, you can use the `gatsby-plugin-matomo` to add Matomo tracking.\n\n3. **Fathom Analytics**: Known for its privacy-focused approach, Fathom can be integrated with WordPress via a plugin or by adding a simple script to your site. For Gatsby, you can use the `gatsby-plugin-fathom` to set up tracking.\n\n4. **Plausible Analytics**: Another privacy-friendly analytics tool, Plausible can be added to WordPress with a plugin or manually. For Gatsby, you can use the `gatsby-plugin-plausible` to integrate it.\n\n5. **Simple Analytics**: This is a privacy-first analytics tool that can be added to WordPress with a plugin or by inserting a script. For Gatsby, you can use a custom script to integrate Simple Analytics.\n\nEach of these tools has its own strengths, so your choice may depend on factors like privacy concerns, ease of use, and the specific features you need.",
+  "cached_at": "2026-05-27T20:16:32Z",
+  "metadata": {}
+}

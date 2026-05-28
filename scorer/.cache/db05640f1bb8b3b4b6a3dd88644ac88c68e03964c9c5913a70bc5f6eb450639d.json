@@ -1,0 +1,9 @@
+{
+  "brand": "Prefect",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Airflow vs alternatives: what should I switch to?",
+  "response": "# Airflow vs Alternatives: A Practical Comparison\n\n## When to stick with Airflow\n- **Complex DAGs** with many dependencies\n- **Large teams** needing shared infrastructure\n- **Established deployments** (switching costs are high)\n- Need for **fine-grained scheduling** and retry logic\n\n## Main alternatives worth considering:\n\n### **Prefect**\n- **Pros**: Better error handling, modern UI, easier local testing\n- **Cons**: Smaller ecosystem, less Stack Overflow help\n- **Best for**: Teams wanting simpler, more Pythonic workflows\n\n### **Dagster**\n- **Pros**: Superior observability, asset-based (not task-based), excellent for data pipelines\n- **Cons**: Steeper learning curve, newer (less battle-tested)\n- **Best for**: Data engineering teams, asset-driven workflows\n\n### **dbt + dbt Cloud**\n- **Pros**: Purpose-built for analytics, simple, low-ops\n- **Cons**: SQL-focused, less flexible for non-dbt work\n- **Best for**: Analytics engineering teams\n\n### **Temporal** (formerly Cadence)\n- **Pros**: Designed for complex, long-running workflows\n- **Cons**: Different paradigm (more code-first)\n- **Best for**: Microservices orchestration, fault tolerance\n\n### **Simple alternatives**\n- **cron + bash**: If workflows are truly simple\n- **GitHub Actions**: For CI/CD-style pipelines\n- **Cloud-native** (Step Functions, Dataflow): If you're AWS/GCP-focused\n\n## Quick decision tree\n```\nSimple batch jobs? → cron / cloud-native scheduler\nAnalytics pipelines? → dbt Cloud or Dagster\nComplex workflows? → Airflow or Temporal\nModern Python stack? → Prefect or Dagster\n```\n\n**What's your use case?** That'll help narrow it down further.",
+  "cached_at": "2026-05-28T09:11:04Z",
+  "metadata": {}
+}

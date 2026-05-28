@@ -1,0 +1,9 @@
+{
+  "brand": "Charlie HR",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with onboard new hires with automated checklists and welcome flows at scale?",
+  "response": "# Onboarding Software with Automated Checklists\n\nSeveral categories of tools excel at this:\n\n## Dedicated Onboarding Platforms\n- **Lattice** - Onboarding module with customizable workflows and checklists\n- **BambooHR** - HR-focused with guided onboarding flows\n- **Workable** - Built-in onboarding after hiring\n- **Guidepoint** - Purpose-built for structured onboarding journeys\n- **Rippling** - Device provisioning + onboarding automation at scale\n\n## HR/HRIS Platforms (with onboarding)\n- **Workday** - Enterprise-grade with workflow automation\n- **SuccessFactors** - Comprehensive onboarding modules\n- **Paychex Flex** - Mid-market focused\n- **ADP Workforce Now** - Integrated HR suite\n\n## Lightweight/No-Code Options\n- **Notion** - Can be templated for onboarding checklists\n- **Asana/Monday.com** - Project management adapted for onboarding\n- **Zapier + Google Forms** - DIY automation for specific flows\n\n## What to Prioritize\nWhen evaluating, consider:\n- **Scale needs** - Can it handle your growth?\n- **Integration** - Connects with your HRIS, email, Slack?\n- **Customization** - Role-specific workflows?\n- **Mobile-friendly** - For remote/distributed teams?\n- **Analytics** - Tracks completion rates and time-to-productivity?\n\nWhat's your company size or specific pain point? That would help narrow recommendations.",
+  "cached_at": "2026-05-28T06:43:58Z",
+  "metadata": {}
+}

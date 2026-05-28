@@ -1,0 +1,9 @@
+{
+  "brand": "Attio",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Attio integrate with Slack?",
+  "response": "Yes, Attio does integrate with Slack. This integration allows you to streamline communication and collaboration by connecting your CRM data with your Slack workspace. You can use this integration to receive notifications, share updates, and manage tasks directly within Slack, enhancing your team's workflow and productivity.",
+  "cached_at": "2026-05-27T17:52:44Z",
+  "metadata": {}
+}

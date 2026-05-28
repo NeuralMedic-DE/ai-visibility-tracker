@@ -1,0 +1,9 @@
+{
+  "brand": "FullStory",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does FullStory integrate with Segment?",
+  "response": "Yes, FullStory integrates with Segment. This integration allows you to send data collected by Segment directly to FullStory. By doing so, you can enhance your analytics capabilities by combining the rich session replay and user interaction data from FullStory with the event tracking and customer data managed by Segment. This integration helps in gaining deeper insights into user behavior and improving the overall user experience on your platform.",
+  "cached_at": "2026-05-27T20:44:53Z",
+  "metadata": {}
+}

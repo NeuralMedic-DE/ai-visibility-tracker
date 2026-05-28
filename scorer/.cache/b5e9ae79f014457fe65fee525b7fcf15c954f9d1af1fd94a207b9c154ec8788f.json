@@ -1,0 +1,9 @@
+{
+  "brand": "Salesflare",
+  "prompt_id": "CD-05",
+  "llm": "anthropic",
+  "prompt_text": "Recommended CRM tools for small B2B teams and agencies companies",
+  "response": "# Best CRM Tools for Small B2B Teams & Agencies\n\n## **Top Tier Options**\n\n### **HubSpot CRM** (Free → Enterprise)\n- Free tier covers core CRM essentials\n- Excellent for agencies managing multiple clients\n- Strong automation & reporting\n- Great learning resources\n\n### **Pipedrive** ($11-99/user/month)\n- Sales-focused, visual pipeline management\n- Affordable for small teams\n- Strong deal tracking\n- Mobile app is solid\n\n### **Zoho CRM** ($18-55/user/month)\n- Feature-rich, competitively priced\n- Good customization\n- Excellent value for budget-conscious teams\n- Solid integrations\n\n---\n\n## **Specialized for Agencies**\n\n### **Agency-Specific Options:**\n- **Agile CRM** - Built for agencies, affordable\n- **Capsule** - Simple, relationship-focused\n- **Close** - Sales-driven, good automation\n\n---\n\n## **Quick Comparison Table**\n\n| Tool | Best For | Starting Price | Learning Curve |\n|------|----------|-----------------|-----------------|\n| HubSpot | All-in-one, free tier | Free | Easy |\n| Pipedrive | Sales teams | $11/user | Easy |\n| Zoho | Features + budget | $18/user | Medium |\n| Monday Sales | Visual workflows | $10/seat | Easy |\n| Copper | Gmail integration | $25/user | Medium |\n\n---\n\n## **Selection Tips**\n\n✅ **Consider:**\n- Team size & growth plans\n- Budget constraints\n- Integration needs (email, marketing, accounting)\n- Mobile requirements\n- Reporting complexity\n\n**Pro tip:** Start with a free trial. Most worth testing:\n1. HubSpot (free tier)\n2. Pipedrive (14-day trial)\n3. Zoho (free tier)\n\nWhat's your primary use case? (Sales, client management, project tracking?) I can narrow recommendations further.",
+  "cached_at": "2026-05-27T18:13:21Z",
+  "metadata": {}
+}

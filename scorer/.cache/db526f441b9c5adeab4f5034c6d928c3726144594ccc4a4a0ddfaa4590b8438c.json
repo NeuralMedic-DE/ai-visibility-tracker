@@ -1,0 +1,9 @@
+{
+  "brand": "Mosaic",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is Mosaic better than Anaplan for run scenario analysis and board reporting without relying on spreadsheets?",
+  "response": "# Mosaic vs. Anaplan for Scenario Analysis & Board Reporting\n\nThis depends heavily on your specific needs, but here's a balanced comparison:\n\n## Anaplan's Strengths\n- **Mature scenario modeling** – built-in scenario management is robust\n- **Connected planning** – integrates financial, operational, and sales planning well\n- **Board-ready outputs** – strong dashboard and reporting capabilities\n- **Established ecosystem** – better third-party integrations (now part of Salesforce)\n\n## Mosaic's Strengths\n- **Simpler implementation** – typically faster to deploy\n- **Cleaner UX** – often easier for non-technical users\n- **Lower total cost** – generally more affordable\n- **Good for smaller-scale scenarios** – effective but may scale less smoothly\n\n## Critical Questions First\nBefore choosing, clarify:\n1. **Scenario complexity** – How many variables? Financial only or cross-functional?\n2. **User base size** – Board members + how many internal planners?\n3. **Integration needs** – What's your ERP/data source?\n4. **Timeline** – Can you wait 6-12 months for Anaplan implementation?\n\n## Honest Take\n**Anaplan** is the safer bet for comprehensive board reporting if budget allows. **Mosaic** works well for mid-market companies with simpler needs and tighter budgets.\n\nNeither truly eliminates spreadsheets entirely—most organizations still use them supplementarily.\n\nWould your use case benefit from me diving deeper into any specific requirement?",
+  "cached_at": "2026-05-28T07:10:01Z",
+  "metadata": {}
+}

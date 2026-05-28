@@ -1,0 +1,9 @@
+{
+  "brand": "Intercom",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Intercom integrate with Salesforce?",
+  "response": "# Intercom and Salesforce Integration\n\nYes, Intercom does integrate with Salesforce. The integration allows you to:\n\n- **Sync customer data** between Intercom and Salesforce\n- **Create and update Salesforce records** from Intercom conversations\n- **View Salesforce information** within Intercom (accounts, contacts, opportunities)\n- **Log interactions** automatically to Salesforce\n\n## How to Set It Up\n\n1. Go to your Intercom Workspace settings\n2. Navigate to **Integrations**\n3. Search for and select **Salesforce**\n4. Follow the authentication steps to connect your Salesforce instance\n\n## Important Notes\n\n- You'll need admin access to both platforms\n- The depth of integration may depend on your Intercom plan\n- You can customize which data fields sync between the systems\n\nFor the most current details on features and setup requirements, I'd recommend checking Intercom's official [integration documentation](https://www.intercom.com/help/en/articles/3539122-salesforce) or contacting their support team, as integration capabilities can be updated.\n\nIs there a specific aspect of the integration you're interested in?",
+  "cached_at": "2026-05-28T08:01:56Z",
+  "metadata": {}
+}

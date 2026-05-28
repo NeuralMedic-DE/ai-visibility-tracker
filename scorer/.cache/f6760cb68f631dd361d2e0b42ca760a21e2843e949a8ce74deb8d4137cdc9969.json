@@ -1,0 +1,9 @@
+{
+  "brand": "Front",
+  "prompt_id": "AL-05",
+  "llm": "anthropic",
+  "prompt_text": "Open source or affordable customer operations tools instead of Help Scout",
+  "response": "# Open Source & Affordable Help Scout Alternatives\n\n## Open Source Options\n\n| Tool | Cost | Best For |\n|------|------|----------|\n| **Zulip** | Free/self-hosted | Team chat + support workflows |\n| **Chatwoot** | Free/self-hosted | Omnichannel messaging (email, chat, social) |\n| **Plane** | Free/self-hosted | Issue tracking + customer projects |\n| **OpenSupports** | Free/self-hosted | Basic ticket system |\n| **Freescout** | Free/self-hosted | Email helpdesk clone |\n\n## Low-Cost Paid Solutions\n\n| Tool | Price | Highlights |\n|------|-------|-----------|\n| **Freshdesk** | $15-165/mo | Feature-rich, good value |\n| **Zendesk** | $19-199/mo | Industry standard, scalable |\n| **Hive** | $15-65/mo | Project + support features |\n| **Groove** | $15-99/mo | Simple, modern design |\n| **Jira Service Management** | $10-665/mo | Dev-friendly, flexible |\n\n## Best Budget-Friendly Picks\n\n**Chatwoot** (self-hosted) — Best overall value\n- Omnichannel support\n- Automation & bots\n- Free deployment option\n\n**Freshdesk** — Best paid alternative\n- Automation & AI features\n- Good reporting\n- Reasonable per-agent pricing\n\n**Zulip** — Best for internal + customer ops\n- Team communication integrated with support\n\n---\n\n**What's your priority?** Omnichannel messaging, automation, team collaboration, or pure cost?",
+  "cached_at": "2026-05-28T08:17:11Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Humaans",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Humaans Google Workspace integration: how does it work?",
+  "response": "# Humaans Google Workspace Integration\n\nI don't have specific details about Humaans' current Google Workspace integration in my training data. However, I can outline how HR/People platforms typically integrate with Google Workspace:\n\n## Common Integration Patterns\n\n**Directory/Identity Sync**\n- Auto-provisioning of users and groups\n- Syncing employee data (names, emails, departments)\n- Deprovisioning when employees leave\n\n**Calendar Integration**\n- Scheduling interviews or meetings\n- Blocking time for HR processes\n- Calendar availability data\n\n**Email/Communication**\n- Distributing documents via Gmail\n- Sending notifications and updates\n- Workflow communications\n\n**Data & Authentication**\n- Single sign-on (SSO) via Google accounts\n- API connections for data flow\n- Permission management through Google Admin\n\n## To Get Accurate Information\n\nFor Humaans specifically, I'd recommend:\n\n1. **Check their documentation** - humaans.com/help or support portal\n2. **Contact Humaans support** - they can confirm current integrations\n3. **Check Google Workspace Marketplace** - if listed there\n4. **Review your Humaans settings** - integration options are usually in admin panels\n\nIs there a specific integration capability you're trying to set up or understand? That might help me give more targeted guidance.",
+  "cached_at": "2026-05-28T06:48:23Z",
+  "metadata": {}
+}

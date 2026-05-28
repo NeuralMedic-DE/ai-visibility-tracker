@@ -1,0 +1,9 @@
+{
+  "brand": "ChartMogul",
+  "prompt_id": "AL-02",
+  "llm": "openai",
+  "prompt_text": "Cheaper alternatives to ProfitWell",
+  "response": "If you're looking for cheaper alternatives to ProfitWell for subscription analytics and revenue management, here are a few options you might consider:\n\n1. **Baremetrics**: Offers similar features for subscription analytics, including dashboards, forecasting, and churn analysis.\n\n2. **ChartMogul**: Provides detailed subscription analytics and reporting, with a focus on metrics like MRR, ARR, and churn.\n\n3. **Chargebee**: While primarily a subscription billing platform, Chargebee also offers analytics and reporting features.\n\n4. **Zoho Subscriptions**: Part of the Zoho suite, it provides subscription management along with basic analytics at a competitive price.\n\n5. **Recurly**: Known for its billing capabilities, Recurly also offers analytics features to track subscription metrics.\n\n6. **Stripe Analytics**: If you're using Stripe for payments, their built-in analytics can provide insights into your revenue and customer behavior.\n\n7. **Metorik**: Designed for WooCommerce, it offers detailed reports and insights into your e-commerce and subscription data.\n\nEach of these tools has its own strengths and pricing models, so it's worth evaluating them based on your specific needs and budget.",
+  "cached_at": "2026-05-28T06:54:59Z",
+  "metadata": {}
+}

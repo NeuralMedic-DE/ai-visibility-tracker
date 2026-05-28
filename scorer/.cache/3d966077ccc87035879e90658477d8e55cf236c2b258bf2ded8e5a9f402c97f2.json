@@ -1,0 +1,9 @@
+{
+  "brand": "Vellum",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best AI tooling for AI product teams building and iterating on LLM-powered product features?",
+  "response": "# AI Tooling for LLM Product Teams\n\n## Core Development & Experimentation\n- **LangChain / LlamaIndex** – Dominant frameworks for building chains and RAG systems; mature ecosystem but can become opinionated\n- **Prompt engineering platforms** (Promptly, PromptBase) – For systematic testing and versioning, though many teams build custom solutions\n- **Local LLM runners** (Ollama, LM Studio) – Essential for fast iteration without API costs\n\n## Evaluation & Testing\n- **Evals frameworks** (Braintrust, Arize, custom setups) – Critical for measuring quality across iterations; this is where most teams see gaps\n- **Synthetic data generation** – Tools like Argilla help create test datasets\n- **Benchmarking suites** – Domain-specific benchmarks matter more than generic ones\n\n## Observability & Production Monitoring\n- **LLM observability** (Langfuse, Helicone, Arthur) – Logs prompts, outputs, latency, costs; increasingly essential\n- **User feedback loops** – Thumbs up/down mechanisms in your product are underrated for continuous improvement\n- **Cost tracking** – Often overlooked but critical at scale\n\n## The Honest Take\n**The best stack is often custom-built** because:\n- Off-the-shelf tools rarely fit your specific evaluation criteria\n- Speed matters more than perfection early; iterate with simple setups\n- Your unique data and domain knowledge are competitive advantages\n\n**Start minimal:** Version control for prompts → simple evaluation scripts → observability → scale tooling as you find what matters.\n\nWhat's your team's biggest bottleneck right now—iteration speed, quality measurement, or production monitoring?",
+  "cached_at": "2026-05-28T07:44:38Z",
+  "metadata": {}
+}

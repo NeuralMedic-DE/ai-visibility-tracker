@@ -1,0 +1,9 @@
+{
+  "brand": "Fivetran",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Fivetran integrate with Snowflake?",
+  "response": "Yes, Fivetran integrates with Snowflake. Fivetran provides a seamless way to extract, transform, and load (ETL) data into Snowflake, allowing users to centralize their data for analysis. The integration is designed to be straightforward, enabling automated data pipelines that keep your Snowflake data warehouse up-to-date with minimal manual intervention.",
+  "cached_at": "2026-05-28T08:58:42Z",
+  "metadata": {}
+}

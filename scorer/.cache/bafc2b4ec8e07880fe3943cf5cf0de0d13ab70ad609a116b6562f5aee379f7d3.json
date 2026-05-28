@@ -1,0 +1,9 @@
+{
+  "brand": "Humaans",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Humaans with Slack?",
+  "response": "# Connecting Humaans with Slack\n\nHere's how to set up the integration:\n\n## Basic Steps\n\n1. **In Humaans:**\n   - Go to **Settings** → **Integrations**\n   - Find **Slack** in the available integrations\n   - Click **Connect**\n\n2. **Authorize Slack:**\n   - You'll be redirected to Slack's authorization page\n   - Log in if needed\n   - Review the permissions Humaans is requesting\n   - Click **Allow** to authorize\n\n3. **Configure Settings:**\n   - Select which Slack workspace to connect (if you have multiple)\n   - Choose your preferences for notifications and data sharing\n   - Save your settings\n\n## Common Features After Connection\n\n- **Notifications** - Get Humaans alerts in Slack\n- **Employee Directory** - Access Humaans data from Slack\n- **Approvals** - Approve requests directly from Slack messages\n- **Updates** - Receive onboarding, offboarding, or workflow updates\n\n## Troubleshooting\n\n- Ensure you have admin access to both Humaans and Slack\n- Check that your Slack workspace has permission to install third-party apps\n- Verify you're using the correct workspace\n\n**Note:** Specific features may vary depending on your Humaans plan. Check your Humaans documentation or contact their support if you encounter issues.",
+  "cached_at": "2026-05-28T06:48:23Z",
+  "metadata": {}
+}

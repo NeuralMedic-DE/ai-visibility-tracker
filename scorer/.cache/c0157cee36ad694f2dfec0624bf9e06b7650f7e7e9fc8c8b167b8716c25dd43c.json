@@ -1,0 +1,9 @@
+{
+  "brand": "Charlie HR",
+  "prompt_id": "UC-03",
+  "llm": "openai",
+  "prompt_text": "What tools do small UK-based companies with 10 to 100 employees companies use to manage employee leave documents and HR admin in one place?",
+  "response": "Small UK-based companies often use HR software solutions that are specifically designed to manage employee leave, documents, and other HR administrative tasks in one place. Some popular tools include:\n\n1. **BambooHR**: Offers features for managing employee data, leave tracking, and document storage. It's user-friendly and suitable for small to medium-sized businesses.\n\n2. **CharlieHR**: A UK-based HR platform tailored for small businesses. It provides tools for managing time off, employee records, and onboarding processes.\n\n3. **Personio**: A comprehensive HR software that covers leave management, payroll, and document management, suitable for small to medium-sized companies.\n\n4. **Sage HR**: Known for its flexibility and ease of use, Sage HR offers modules for leave management, performance reviews, and document management.\n\n5. **BrightHR**: Provides tools for managing holidays, absences, and HR documents, along with additional features like employee well-being support.\n\n6. **Zoho People**: Part of the Zoho suite, this tool offers leave management, time tracking, and employee self-service features.\n\n7. **HR Cloud**: Offers solutions for onboarding, employee engagement, and document management, with a focus on ease of use for small businesses.\n\nThese tools help streamline HR processes, reduce paperwork, and ensure compliance with UK employment laws. When choosing a tool, companies should consider factors like ease of use, scalability, integration capabilities, and cost.",
+  "cached_at": "2026-05-28T06:43:52Z",
+  "metadata": {}
+}

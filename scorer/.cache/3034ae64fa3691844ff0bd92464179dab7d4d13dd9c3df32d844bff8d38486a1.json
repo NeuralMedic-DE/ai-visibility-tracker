@@ -1,0 +1,9 @@
+{
+  "brand": "Folk",
+  "prompt_id": "IN-03",
+  "llm": "openai",
+  "prompt_text": "How do I connect Folk with Gmail?",
+  "response": "To connect Folk with Gmail, follow these steps:\n\n1. **Log into Folk**: Open your web browser and log into your Folk account.\n\n2. **Access Integrations**: Go to the settings or integrations section of Folk. This is usually found in the main menu or under your account settings.\n\n3. **Select Gmail Integration**: Look for the option to connect with Gmail or Google Workspace. This might be listed under email integrations.\n\n4. **Authorize Access**: Click on the Gmail integration option, and you will be prompted to authorize Folk to access your Gmail account. You will need to log into your Google account if you aren't already logged in.\n\n5. **Grant Permissions**: Follow the prompts to grant the necessary permissions. This typically includes access to your contacts and email data.\n\n6. **Confirm Connection**: Once permissions are granted, confirm the connection. Folk should now be able to sync with your Gmail account.\n\n7. **Configure Settings**: After connecting, you may have options to configure how Folk interacts with your Gmail, such as syncing frequency or specific data to import.\n\nIf you encounter any issues, check Folk's support documentation or contact their support team for assistance.",
+  "cached_at": "2026-05-27T18:52:10Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Pipedrive",
+  "prompt_id": "CD-04",
+  "llm": "perplexity",
+  "prompt_text": "Best CRM platforms for manage a visual sales pipeline",
+  "response": "For a **visual sales pipeline**, the strongest options are **Pipedrive**, **HubSpot CRM**, **monday CRM**, and **Pipeline CRM**. Pipedrive is the clearest fit if your priority is a simple drag-and-drop pipeline, while HubSpot is better if you want pipeline management inside a broader free CRM platform.[2][3][6][7][8]\n\n- **Pipedrive** — Best for **sales-focused teams** that want the most intuitive visual deal board; it is specifically described as having a “visual sales pipeline” and “drag-and-drop pipelines.”[2][3]\n- **HubSpot CRM** — Best for teams that want **pipeline tracking plus marketing/sales automation**; HubSpot says its pipeline software helps you organize and track your entire sales cycle in one place.[6]\n- **monday CRM** — Best for teams that like **Kanban-style visual workflows**; monday says you can build custom pipelines and manage the sales cycle in one visual board.[1][7]\n- **Pipeline CRM** — Best for teams that want **easy setup and straightforward CRM tools**; it is positioned as an intuitive sales CRM platform.[8]\n- **Salesforce** — Best for larger teams that need **enterprise-grade pipeline management**, but it is usually more complex than the simpler visual-first tools.[4]\n\nIf you want the **best overall visual pipeline experience**, choose **Pipedrive**.[2][3] If you want a **free starting point** with pipeline tools, **HubSpot** is the strongest option in the provided results.[6] If you want **visual boards plus project tracking**, **monday CRM** is a good fit.[1][7]\n\nIf you want, I can also rank these by **ease of use, pricing, automation, or best fit for small teams vs. enterprise**.",
+  "cached_at": "2026-05-27T17:15:27Z",
+  "metadata": {}
+}

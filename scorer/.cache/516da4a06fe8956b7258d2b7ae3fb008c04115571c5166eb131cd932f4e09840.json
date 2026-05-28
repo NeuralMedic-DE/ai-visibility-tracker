@@ -1,0 +1,9 @@
+{
+  "brand": "Vitally",
+  "prompt_id": "UC-05",
+  "llm": "perplexity",
+  "prompt_text": "What software helps with scale CS operations without adding headcount by automating high-touch playbooks at scale?",
+  "response": "Several **customer success platforms with strong automation and AI** are designed specifically to scale CS operations and run high‑touch playbooks without adding headcount:\n\n- **Gainsight** – Enterprise‑grade CS platform focused on **scaling outcomes without adding headcount** by standardizing and orchestrating workflows, automating journeys, and driving data‑driven Calls-to-Action and Playbooks at scale.[2]  \n- **Planhat** – Combines Customer 360 data, workflows, and **AI‑driven playbook automation** to support high‑touch, mid‑touch, and digital‑led segments; AI monitors health and usage and **triggers playbooks and workflows** so teams can scale without lowering quality.[1]  \n- **Vitally** – CSP with an AI Co‑Pilot that helps **automate entire workflows**, capture insights at scale, and reduce repetitive CS tasks, letting teams deliver high‑touch experiences to more accounts.[3]  \n- **ChurnZero** – Frequently recommended in CS software roundups for mid‑market teams needing robust automation, real‑time analytics, and playbooks to scale CS motions.[3][8]  \n- **Magnify** – Purpose-built for **digital & scale CS**, using AI automation to “transform customer engagement” and **manage post‑sales at scale without increasing headcount**, automating motions for adoption, retention, expansion, and trials.[4]  \n\nIf your priority is *high‑touch playbooks at scale without hiring*, shortlisting **Gainsight, Planhat, Vitally, and Magnify** is a good starting point; they all combine lifecycle playbooks, automation, and AI to extend CS capacity.",
+  "cached_at": "2026-05-28T08:11:10Z",
+  "metadata": {}
+}

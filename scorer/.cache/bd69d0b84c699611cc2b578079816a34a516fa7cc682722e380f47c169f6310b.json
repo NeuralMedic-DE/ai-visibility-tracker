@@ -1,0 +1,9 @@
+{
+  "brand": "Matillion",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Matillion vs Fivetran: which is better?",
+  "response": "# Matillion vs Fivetran: Key Differences\n\nNeither is universally \"better\"—it depends on your needs. Here's how they compare:\n\n## **Fivetran**\n**Strengths:**\n- Extensive pre-built connectors (300+)\n- Faster setup for standard integrations\n- Strong for simple ELT pipelines\n- Better for non-technical users\n\n**Weaknesses:**\n- Limited transformation capabilities\n- Less flexible for complex logic\n- Higher per-connector costs at scale\n\n## **Matillion**\n**Strengths:**\n- Robust built-in transformations\n- More visual, low-code flexibility\n- Better for complex workflows\n- Stronger orchestration features\n\n**Weaknesses:**\n- Smaller connector library (100+)\n- Steeper learning curve\n- Requires more setup for standard integrations\n\n## **Quick Decision Guide**\n\n| Choose **Fivetran** if you want | Choose **Matillion** if you want |\n|---|---|\n| Quick, hands-off data movement | Complex transformations built-in |\n| Minimal engineering lift | More control and customization |\n| Simple connectors | End-to-end ELT in one tool |\n\n## **Bottom Line**\n- **Fivetran**: Better for straightforward replication\n- **Matillion**: Better for transformations and orchestration\n\nYour actual choice should consider your data complexity, team expertise, budget, and specific connectors needed. Try both free trials if possible.\n\nWhat's your primary use case?",
+  "cached_at": "2026-05-28T09:00:32Z",
+  "metadata": {}
+}

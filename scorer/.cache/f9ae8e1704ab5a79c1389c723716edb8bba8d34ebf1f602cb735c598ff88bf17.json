@@ -1,0 +1,9 @@
+{
+  "brand": "Nutshell",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Nutshell integrate with Gmail?",
+  "response": "Yes. **Nutshell has a native, two‑way integration with Gmail/Google Workspace**, plus additional Gmail integrations via Chrome extensions and automation tools.\n\nEssential details:\n\n- **Native Gmail sync in Nutshell**  \n  - You can **connect your Gmail (Google Workspace) account directly in Nutshell** to send and receive email from your Gmail address inside Nutshell.[1][3]  \n  - This is a **two‑way sync**: emails you send/receive in Gmail can appear on contact timelines in Nutshell, and emails sent from Nutshell use your Gmail account.[1][3][6]  \n  - Nutshell creates a **“Nutshell” label in Gmail**; emails with that label automatically sync to your Nutshell account.[1]  \n  - The Gmail/Google Calendar sync is **included on all Nutshell plans**; you just need a Google Workspace account.[3]\n\n- **Nutshell for Gmail Chrome extension (official)**  \n  - A **Chrome extension for Gmail** lets you use key CRM features directly inside Gmail: create contacts and tasks, view scheduled activities, track communication timelines, write notes, see shared emails, and use Nutshell email templates in the Gmail composer.[3]  \n\n- **Third‑party Gmail integrations**  \n  - **AddToCRM Chrome extension**: works inside Gmail to sync conversations, enrich and save contacts directly into Nutshell CRM.[2]  \n  - **Zapier** and **Zoho Flow** also offer connectors to integrate Gmail with Nutshell for workflow automation (e.g., creating contacts or activities from emails).[4][5]\n\nIf you tell me how you use Gmail (personal vs Workspace, browser vs mobile), I can outline the exact setup steps that fit your case.",
+  "cached_at": "2026-05-27T18:38:30Z",
+  "metadata": {}
+}

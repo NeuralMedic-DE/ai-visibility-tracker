@@ -1,0 +1,9 @@
+{
+  "brand": "Klipfolio",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I build KPI dashboards connected to multiple data sources without spending a lot on software?",
+  "response": "# Building Low-Cost KPI Dashboards\n\n## Free/Cheap Tools\n\n**Google Sheets + Data Connectors**\n- Free with Google account\n- Built-in connectors for Google Analytics, Ads, Search Console\n- Use apps like Supermetrics or Data Studio for other sources\n- Good for simple dashboards, limited on scale\n\n**Google Data Studio (now Looker Studio)**\n- Completely free\n- Connects to 100+ data sources\n- Decent visualizations and interactivity\n- Real limitation: slower with large datasets\n\n**Metabase**\n- Open-source, self-hosted (free)\n- Clean interface, good for SQL queries\n- Handles multiple databases well\n- Requires some technical setup\n\n**Grafana**\n- Originally for monitoring, works for business KPIs\n- Open-source version is free\n- Excellent multi-source capability\n- Learning curve steeper\n\n## Budget-Friendly Paid Options\n\n- **Tableau Public** - free tier (public data only)\n- **Power BI** - $10/user/month (often worth it)\n- **Superset** - open-source alternative to Tableau\n\n## Reality Check\n\nYour main hidden costs are:\n- **Time** to set up and maintain connections\n- **Data prep** if sources are messy\n- Hosting (if self-hosted, $5-20/month)\n\n**What's your main data source?** The answer changes the best recommendation significantly.",
+  "cached_at": "2026-05-27T20:28:09Z",
+  "metadata": {}
+}

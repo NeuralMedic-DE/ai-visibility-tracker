@@ -1,0 +1,14 @@
+[
+  {
+    "id": "A-4f2a8c1e",
+    "category": "public_post",
+    "title": "Post 4 AI Visibility Index launch posts (Reddit + Indie Hackers)",
+    "description": "When the leaderboard is live, manually copy-paste and publish the following four posts. Final copy is in state/artifacts/marketing/launch_posts/.\n\n1. r/SEO — state/artifacts/marketing/launch_posts/r_SEO.md\n   Headline: 'We audited how 100 B2B SaaS brands appear (or don't) in ChatGPT, Perplexity, Claude, and Google AI Overviews — here's what we found'\n   Tone: technical/resource-sharing, no selling. Best time: Tue/Wed 9–11 AM EST.\n\n2. r/SaaS — state/artifacts/marketing/launch_posts/r_SaaS.md\n   Headline: 'I checked whether 100 B2B SaaS companies show up when buyers ask ChatGPT/Perplexity/Claude "what tool should I use" — the results are surprising'\n   Tone: business problem framing, light product mention OK. Best time: Mon/Thu 10 AM–12 PM EST.\n\n3. r/SideProject — state/artifacts/marketing/launch_posts/r_SideProject.md\n   Headline: 'I built a free leaderboard showing how 100 SaaS companies rank in AI search (ChatGPT, Perplexity, Claude, Google AIO) — NeuralReach AI Visibility Index'\n   Tone: 'I built X' showcase. Best time: Sat/Sun 10 AM–1 PM EST.\n\n4. Indie Hackers — state/artifacts/marketing/launch_posts/indie_hackers.md\n   Headline: 'Day 0: I launched a free AI Visibility Index for 100 SaaS brands to validate demand for NeuralReach — here's the plan and what I'm tracking'\n   Tone: build-in-public, metrics-honest. Best time: Tue/Wed/Thu 9–11 AM EST.\n\nEach post has 3 pre-written FAQ replies ready for top comments. Replace [URL] with the live leaderboard URL before posting. No accounts or budget required — Reddit and Indie Hackers accounts must be founder's own.",
+    "proposed_by": "marketer",
+    "est_cost_usd": 0.0,
+    "status": "pending",
+    "created_at": "2026-05-27T09:37:36.900978+00:00",
+    "decided_at": "",
+    "decision_note": ""
+  }
+]

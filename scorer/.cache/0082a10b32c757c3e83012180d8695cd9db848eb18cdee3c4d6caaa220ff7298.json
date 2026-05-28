@@ -1,0 +1,9 @@
+{
+  "brand": "Plausible",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which web analytics software should a SaaS founder or marketing manager use?",
+  "response": "# Top Web Analytics Options for SaaS\n\n## Best Overall\n**Google Analytics 4** (Free)\n- Essential baseline; most clients/investors expect it\n- Good for traffic and conversion funnel basics\n- Learning curve, but ubiquitous\n\n## Purpose-Driven Choices\n\n**For product-focused insights:**\n- **Amplitude** or **Mixpanel** — Event tracking, user cohorts, retention analysis\n- Better for understanding *how* users engage, not just traffic\n\n**For conversion optimization:**\n- **Hotjar** — Heatmaps, session recordings, feedback\n- Reveals where users get stuck\n\n**For revenue tracking:**\n- **Segment** (data layer) + your warehouse — Most flexible long-term\n- **Rudderstack** — Open-source alternative\n\n**For simple, clean dashboards:**\n- **Plausible** or **Fathom** — Privacy-focused, easier than GA4\n- Good if you want less complexity\n\n## Practical Recommendation\n\n**Start with:** Google Analytics 4 + Hotjar ($39-99/mo)\n- GA4 gives you credibility and basic data\n- Hotjar fills the gap on user behavior\n- Total: free + under $100/month\n\n**Graduate to:** Add Amplitude ($1k+/mo) when you need deeper product analytics beyond traffic\n\n**Avoid:** Trying to do everything with one tool when starting out. Layer them.\n\nWhat's your current stage and main analytics question?",
+  "cached_at": "2026-05-27T20:16:57Z",
+  "metadata": {}
+}

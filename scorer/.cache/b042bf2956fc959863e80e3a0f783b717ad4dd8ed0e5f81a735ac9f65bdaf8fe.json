@@ -1,0 +1,9 @@
+{
+  "brand": "Neon",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to PlanetScale",
+  "response": "# Cheaper Alternatives to PlanetScale\n\n## Fully Managed Solutions\n\n### **Neon** (Best PostgreSQL alternative)\n- Pay-as-you-go pricing\n- Generous free tier (3 projects, 10GB storage)\n- Auto-scaling compute\n- ~60-70% cheaper than PlanetScale for most workloads\n- Great for Vercel integration\n\n### **Supabase**\n- PostgreSQL-based\n- Free tier: 500MB storage, reasonable limits\n- Built-in auth, real-time, storage\n- More features than PlanetScale in free tier\n- Good for full-stack development\n\n### **Firebase Realtime Database / Firestore**\n- NoSQL approach\n- Generous free tier\n- Pay-per-read/write model\n- Better for specific use cases (real-time apps)\n\n## Self-Hosted / Budget Options\n\n### **Railway**\n- PostgreSQL hosting from $5/month\n- Simple pricing structure\n- Good community support\n- MySQL also available\n\n### **Render**\n- PostgreSQL starter: $7/month\n- Simple, predictable pricing\n- Free tier available\n\n### **AWS RDS Free Tier**\n- 12 months free (generous limits)\n- MySQL, PostgreSQL, MariaDB\n- Cheapest long-term for scaling\n- Steeper learning curve\n\n## Comparison Table\n\n| Provider | Free Tier | Cheapest Paid | Best For |\n|----------|-----------|---------------|----------|\n| **Neon** | 3 projects, 10GB | Pay-as-you-go | PostgreSQL, dev |\n| **Supabase** | 500MB | $25/mo | Full-stack apps |\n| **Railway** | $5 credit | $5/mo | Simple projects |\n| **PlanetScale** | Limited | $29/mo | MySQL, scaling |\n| **AWS RDS** | 12 mo free | $15-30/mo | Enterprise |\n\n**My recommendation:** Start with **Neon** for PostgreSQL or **Supabase** if you need additional features.",
+  "cached_at": "2026-05-28T06:17:48Z",
+  "metadata": {}
+}

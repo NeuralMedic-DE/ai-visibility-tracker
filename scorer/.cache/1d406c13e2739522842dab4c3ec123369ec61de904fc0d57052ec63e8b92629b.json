@@ -1,0 +1,9 @@
+{
+  "brand": "Pipedrive",
+  "prompt_id": "AL-05",
+  "llm": "openai",
+  "prompt_text": "Open source or affordable CRM tools instead of Salesforce",
+  "response": "There are several open-source and affordable CRM tools that can serve as alternatives to Salesforce. Here are some popular options:\n\n1. **HubSpot CRM**: Offers a free version with basic features, and paid plans for more advanced functionality. It's user-friendly and integrates well with other HubSpot tools.\n\n2. **Zoho CRM**: Provides a free plan for up to three users and affordable paid plans. It includes features like lead management, workflow automation, and analytics.\n\n3. **Freshsales by Freshworks**: Offers a free plan with essential features and affordable paid plans. It's known for its ease of use and AI-driven insights.\n\n4. **Bitrix24**: Offers a free version with a wide range of features, including CRM, project management, and communication tools. Paid plans provide additional capabilities and storage.\n\n5. **SuiteCRM**: An open-source CRM that is highly customizable and free to use. It offers features similar to Salesforce, like sales automation, customer support, and marketing tools.\n\n6. **Odoo**: An open-source suite of business applications, including CRM. It's highly modular, allowing you to add other business functions as needed.\n\n7. **Vtiger CRM**: Offers both open-source and cloud versions. The open-source version is free, while the cloud version comes with additional features and support.\n\n8. **EspoCRM**: An open-source CRM that is lightweight and easy to use, with features for sales automation, marketing automation, and customer support.\n\nThese options vary in terms of features, customization, and pricing, so it's a good idea to evaluate them based on your specific business needs.",
+  "cached_at": "2026-05-27T17:12:14Z",
+  "metadata": {}
+}

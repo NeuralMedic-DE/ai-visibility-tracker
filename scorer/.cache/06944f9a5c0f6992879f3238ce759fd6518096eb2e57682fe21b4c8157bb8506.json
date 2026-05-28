@@ -1,0 +1,9 @@
+{
+  "brand": "Help Scout",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which customer support software should a Support Manager or Customer Ops Lead at a customer-first company use?",
+  "response": "# Best Customer Support Software for Support Leaders\n\n**For a customer-first company, prioritize:**\n\n## Top Tier Options\n\n**Zendesk**\n- Most mature ecosystem with strong automation\n- Best for scaling teams and complex workflows\n- Excellent reporting/analytics for leadership\n- Drawback: Can feel overcomplicated for small teams\n\n**Intercom**\n- Best product experience (conversations feel natural)\n- Strong in-app messaging and self-service\n- Good for customer-first philosophy\n- Drawback: Pricier, lighter on advanced ticketing features\n\n**Front**\n- Excellent team collaboration (shared inbox)\n- Strong email integration\n- Great for teams that value communication\n- Drawback: Less robust automation than Zendesk\n\n## Key Questions to Ask Yourself\n\n1. **Scale**: Are you 5 people or 50?\n2. **Channels**: Email-heavy, or omnichannel (chat, social, etc.)?\n3. **Philosophy**: Do you want a helpdesk that *forces* good practices, or flexibility?\n4. **Self-service**: How much do you need knowledge base + AI automation?\n\n## My Take\n\nIf truly **customer-first**, I'd lean toward **Intercom** or **Front** over Zendesk—they feel less \"transactional.\" But **Zendesk** if you need serious scale and automation.\n\nWhat's your current team size and primary support channels? That would help narrow it down.",
+  "cached_at": "2026-05-28T08:19:07Z",
+  "metadata": {}
+}

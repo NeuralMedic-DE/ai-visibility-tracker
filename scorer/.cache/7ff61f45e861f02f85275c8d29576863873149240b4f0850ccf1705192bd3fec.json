@@ -1,0 +1,9 @@
+{
+  "brand": "UserVoice",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do product teams capturing and prioritizing customer feature requests companies use to collect and prioritize customer feedback to inform product roadmap decisions?",
+  "response": "# Tools for Capturing & Prioritizing Customer Feedback\n\n## Dedicated Feedback Platforms\n- **Productboard** – Consolidates feedback, tags themes, integrates with existing tools\n- **Canny** – Public feedback boards with voting and changelog features\n- **Pendo** – In-app feedback collection with product usage analytics\n- **UserVoice** – Community voting on feature requests with customizable portals\n- **Featureupvote** – Simple voting system for prioritization\n\n## Research & Interview Tools\n- **Dovetail** – Qualitative data analysis and synthesis\n- **Typeform/Qualtrics** – Surveys and feedback forms\n- **Calendly/Notion** – User interview scheduling and documentation\n- **Maze** – User testing and concept validation\n\n## Analytics & Behavior Tools\n- **Amplitude/Mixpanel** – Feature usage tracking and user segments\n- **Fullstory** – Session replay and user behavior analysis\n- **Hotjar** – Heatmaps, recordings, and feedback widgets\n\n## Workflow & Organization\n- **Jira/Linear** – Roadmap tracking tied to feedback themes\n- **Slack** – Centralized feedback channels from support/sales\n- **Airtable** – Custom databases for flexible prioritization frameworks\n\n## Prioritization Frameworks (used alongside tools)\n- RICE scoring (Reach, Impact, Confidence, Effort)\n- Value vs. Effort matrices\n- Jobs to be Done alignment\n- Weighted scoring models\n\n**Most effective approach:** Combine 2-3 tools (feedback + analytics + prioritization) rather than relying on one platform.\n\nWhat's your current setup like?",
+  "cached_at": "2026-05-28T08:24:19Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Numeric",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Numeric with NetSuite?",
+  "response": "# Connecting Numeric with NetSuite\n\nI don't have specific documentation about \"Numeric\" and NetSuite integration in my current knowledge base. To help you better, could you clarify:\n\n1. **What is Numeric?** Is it:\n   - A specific accounting/finance software or app?\n   - A custom tool or platform?\n   - A third-party service?\n\n2. **What's your goal?**\n   - Sync financial data?\n   - Automate reporting?\n   - Transfer specific records?\n\n## General NetSuite Integration Approaches\n\nIn the meantime, here are common ways to connect external tools with NetSuite:\n\n- **NetSuite's native connectors** (check NetSuite's integration marketplace)\n- **APIs** - Use NetSuite's REST/SOAP APIs for custom integration\n- **Middleware platforms** - Zapier, Integromat, or similar iPaaS solutions\n- **CSV imports/exports** - Manual or scheduled file transfers\n- **Custom scripts** - SuiteScript for built-in automation\n\n## Next Steps\n\n1. Check the **Numeric documentation** or support site for NetSuite integration instructions\n2. Contact **Numeric's support team** directly\n3. Review **NetSuite's AppExchange** for pre-built integrations\n4. If custom integration needed, consult a NetSuite consultant\n\nCould you provide more details about what Numeric is so I can give more specific guidance?",
+  "cached_at": "2026-05-28T07:05:16Z",
+  "metadata": {}
+}

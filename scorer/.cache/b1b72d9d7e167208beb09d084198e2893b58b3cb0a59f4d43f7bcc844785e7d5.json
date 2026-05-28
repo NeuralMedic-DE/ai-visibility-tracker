@@ -1,0 +1,9 @@
+{
+  "brand": "Pendo",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with track feature adoption and measure NPS at scale?",
+  "response": "To track feature adoption and measure Net Promoter Score (NPS) at scale, you can use a combination of product analytics and customer feedback tools. Here are some popular options:\n\n1. **Mixpanel**: This is a powerful product analytics tool that helps you track user interactions with your product, including feature adoption. It provides insights into user behavior and engagement.\n\n2. **Amplitude**: Similar to Mixpanel, Amplitude offers in-depth analytics on user behavior and feature usage, helping you understand how users are interacting with your product.\n\n3. **Pendo**: Pendo combines product analytics with user feedback tools, allowing you to track feature adoption and collect NPS data directly within your product.\n\n4. **Heap**: Heap automatically captures all user interactions, making it easy to analyze feature adoption without manual event tracking.\n\n5. **SurveyMonkey**: While primarily a survey tool, SurveyMonkey can be used to distribute NPS surveys to your users and analyze the results.\n\n6. **Qualtrics**: This is a comprehensive experience management platform that includes tools for conducting NPS surveys and analyzing customer feedback.\n\n7. **Wootric**: Specifically designed for NPS and customer feedback, Wootric allows you to collect and analyze NPS data at scale.\n\n8. **Gainsight**: Known for customer success management, Gainsight includes features for tracking NPS and understanding customer health.\n\nThese tools can be integrated into your product to provide continuous insights into how users are adopting new features and their overall satisfaction, as measured by NPS.",
+  "cached_at": "2026-05-27T19:45:56Z",
+  "metadata": {}
+}

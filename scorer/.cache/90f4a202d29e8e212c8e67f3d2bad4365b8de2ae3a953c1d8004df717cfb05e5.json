@@ -1,0 +1,9 @@
+{
+  "brand": "Salesflare",
+  "prompt_id": "AL-01",
+  "llm": "openai",
+  "prompt_text": "Alternatives to Pipedrive for small B2B teams and agencies",
+  "response": "If you're looking for alternatives to Pipedrive for small B2B teams and agencies, there are several CRM platforms that might suit your needs. Here are a few options:\n\n1. **HubSpot CRM**: Offers a free tier with robust features, including contact management, deal tracking, and email integration. It's user-friendly and scales well with growing businesses.\n\n2. **Zoho CRM**: Known for its affordability and customization options, Zoho CRM provides a comprehensive set of features, including sales automation, analytics, and AI-driven insights.\n\n3. **Salesforce Essentials**: Tailored for small businesses, Salesforce Essentials offers powerful CRM capabilities with the flexibility to expand as your business grows.\n\n4. **Freshsales**: Part of the Freshworks suite, Freshsales provides an intuitive interface with features like lead scoring, email tracking, and built-in phone capabilities.\n\n5. **Insightly**: Combines CRM with project management features, making it a good choice for agencies that need to manage client projects alongside sales.\n\n6. **Copper**: Designed specifically for G Suite users, Copper integrates seamlessly with Google Workspace, offering a simple and efficient CRM experience.\n\n7. **Agile CRM**: Offers a wide range of features, including marketing automation, web engagement, and customer service tools, all in one platform.\n\n8. **Nimble**: Focuses on social CRM, helping teams build relationships by integrating social media interactions with traditional CRM features.\n\nEach of these platforms offers unique features and pricing models, so it's worth exploring them to see which best fits your team's specific needs and workflows.",
+  "cached_at": "2026-05-27T18:11:20Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Hightouch",
+  "prompt_id": "CD-04",
+  "llm": "openai",
+  "prompt_text": "Best reverse ETL platforms for sync customer data from your data warehouse to CRM and marketing tools automatically",
+  "response": "Reverse ETL platforms are designed to sync data from your data warehouse to various operational tools like CRMs and marketing platforms. Here are some of the best reverse ETL platforms you might consider:\n\n1. **Hightouch**: Known for its ease of use and wide range of integrations, Hightouch allows you to sync data from your data warehouse to various tools without writing any code.\n\n2. **Census**: Offers a robust set of features for syncing data to CRMs, marketing tools, and other SaaS applications. It focuses on data accuracy and real-time syncing.\n\n3. **RudderStack**: While primarily a customer data platform, RudderStack also offers reverse ETL capabilities, allowing you to sync data to various destinations.\n\n4. **Grouparoo**: An open-source option that provides flexibility and control over your data syncing processes. It supports a range of integrations and is developer-friendly.\n\n5. **Polytomic**: Offers a straightforward interface and a variety of integrations, focusing on making data accessible to business teams without requiring engineering resources.\n\n6. **SeekWell**: Allows SQL users to push data directly from their data warehouse to tools like Google Sheets, Slack, and CRMs, making it easy to operationalize data.\n\n7. **Hevo Data**: Provides a no-code platform for data integration, including reverse ETL capabilities, with a focus on real-time data syncing.\n\nWhen choosing a platform, consider factors like the specific integrations you need, ease of use, pricing, and the level of support offered.",
+  "cached_at": "2026-05-28T09:05:12Z",
+  "metadata": {}
+}

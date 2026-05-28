@@ -1,0 +1,9 @@
+{
+  "brand": "Amplitude",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with optimize onboarding and conversion funnels at scale?",
+  "response": "# Software for Optimizing Onboarding & Conversion Funnels\n\n## Funnel Analytics & Optimization\n- **Amplitude** - Product analytics with funnel analysis and cohort tracking\n- **Mixpanel** - Event tracking and funnel visualization\n- **Segment** - Data collection and funnel tracking across tools\n- **Heap** - Automatic event capture without coding\n\n## Onboarding-Specific\n- **Appcues** - In-app guidance, tooltips, and onboarding flows\n- **Pendo** - Product adoption and onboarding experiences\n- **UserGuiding** - Interactive walkthroughs and checklists\n- **Chameleon** - In-product experiences and onboarding\n\n## A/B Testing & Experimentation\n- **Optimizely** - Comprehensive experimentation platform\n- **VWO** - Testing and personalization\n- **LaunchDarkly** - Feature flags and experimentation\n- **Unbounce** - Landing page optimization\n\n## CRM & Email Funnel Tools\n- **HubSpot** - Sales and marketing funnel management\n- **Klaviyo** - Email and SMS funnel automation (e-commerce focus)\n- **Intercom** - Customer communication and onboarding\n\n## All-in-One Platforms\n- **Google Analytics 4** - Free, basic funnel analysis\n- **Mixpanel/Amplitude** - Most comprehensive for product teams\n\n**Key decision factors:** Your product type (B2B vs B2C), technical resources, budget, and whether you need in-product experiences vs. pure analytics.\n\nWhat's your primary use case?",
+  "cached_at": "2026-05-27T19:27:01Z",
+  "metadata": {}
+}

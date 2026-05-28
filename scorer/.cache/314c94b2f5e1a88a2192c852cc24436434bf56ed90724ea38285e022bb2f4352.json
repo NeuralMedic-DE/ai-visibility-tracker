@@ -1,0 +1,9 @@
+{
+  "brand": "Brevo",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best marketing automation for SMB and mid-market marketing teams needing affordable multi-channel tools?",
+  "response": "# Best Marketing Automation for SMBs & Mid-Market\n\n## Top Affordable Options\n\n**HubSpot (Free + Pro tiers)**\n- Strong free CRM with basic automation\n- Scales well as you grow\n- Good email, landing pages, forms\n- Best for: Teams wanting all-in-one with growth runway\n\n**Klaviyo**\n- Email + SMS focus with strong segmentation\n- Affordable per-contact pricing\n- Excellent for e-commerce\n- Best for: Retail/DTC brands\n\n**Mailchimp**\n- Very low entry cost\n- Basic multi-channel (email, ads, SMS)\n- Simplest to learn\n- Best for: Budget-conscious email-first teams\n\n**ActiveCampaign**\n- Great automation workflows\n- CRM + email + SMS bundled\n- Better value than HubSpot at mid-market scale\n- Best for: Teams needing deeper automation\n\n**Brevo (formerly Sendinblue)**\n- Competitive pricing structure\n- Email, SMS, chat included\n- Good for European teams\n- Best for: Multi-channel on tight budgets\n\n## Decision Framework\n\nChoose based on:\n- **Primary channel** (email, SMS, social, ads)\n- **Budget** ($0-500/mo vs $500+/mo)\n- **Technical skill level**\n- **Integration needs** (Shopify, WordPress, etc.)\n\n**What's your primary use case?** That'll help narrow it down further—e-commerce, B2B, agency work, etc. makes a real difference.",
+  "cached_at": "2026-05-28T07:25:41Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Anecdotes",
+  "prompt_id": "IN-03",
+  "llm": "openai",
+  "prompt_text": "How do I connect Anecdotes with GitHub?",
+  "response": "To connect Anecdotes with GitHub, you typically need to follow these general steps:\n\n1. **Access Anecdotes Platform**: Log in to your Anecdotes account. If you don't have an account, you may need to create one.\n\n2. **Navigate to Integrations**: Look for a section in the Anecdotes platform that deals with integrations or connections. This is often found in the settings or administration area.\n\n3. **Select GitHub**: In the integrations section, find and select GitHub from the list of available integrations.\n\n4. **Authenticate GitHub**: You will likely be prompted to authenticate your GitHub account. This usually involves logging into GitHub and authorizing Anecdotes to access your GitHub data. You may need to grant specific permissions for Anecdotes to interact with your repositories.\n\n5. **Configure Integration Settings**: Once authenticated, you may need to configure specific settings for how Anecdotes interacts with your GitHub repositories. This could include selecting which repositories to monitor, setting up webhooks, or defining what data to sync.\n\n6. **Test the Connection**: After setting up the integration, it's a good idea to test it to ensure that data is flowing correctly between GitHub and Anecdotes.\n\n7. **Monitor and Adjust**: Once connected, monitor the integration to ensure it continues to function as expected. You may need to adjust settings or permissions as your needs change.\n\nIf you encounter any issues or need more specific guidance, it's recommended to consult the documentation provided by Anecdotes or reach out to their support team for assistance.",
+  "cached_at": "2026-05-28T08:36:18Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Lemlist",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with automate multi-channel outreach sequences across LinkedIn and email at scale?",
+  "response": "There are several software tools designed to automate multi-channel outreach sequences across LinkedIn and email. Some popular options include:\n\n1. **HubSpot**: Offers a comprehensive CRM with automation features that can help manage multi-channel outreach, including email and LinkedIn.\n\n2. **Salesforce Pardot**: Provides robust marketing automation capabilities, allowing for personalized outreach across multiple channels.\n\n3. **Outreach.io**: Specializes in sales engagement and offers tools to automate and manage outreach sequences across email and LinkedIn.\n\n4. **Apollo.io**: Offers a platform for sales engagement with features for automating outreach across email and LinkedIn.\n\n5. **Lemlist**: Focuses on personalized email outreach but also integrates with LinkedIn for multi-channel campaigns.\n\n6. **Reply.io**: Provides automation for email and LinkedIn outreach, allowing users to create sequences that engage prospects across both channels.\n\n7. **Zopto**: Specifically designed for LinkedIn automation, but can be integrated with email tools for a multi-channel approach.\n\nWhen choosing a tool, consider factors such as ease of use, integration capabilities, pricing, and specific features that align with your outreach strategy.",
+  "cached_at": "2026-05-28T07:17:14Z",
+  "metadata": {}
+}

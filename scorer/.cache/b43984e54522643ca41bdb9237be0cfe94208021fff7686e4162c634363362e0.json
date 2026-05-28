@@ -1,0 +1,9 @@
+{
+  "brand": "Totango",
+  "prompt_id": "UC-03",
+  "llm": "openai",
+  "prompt_text": "What tools do enterprise customer success and CX teams at large SaaS organizations companies use to build modular customer success programs using composable SuccessBLOC templates?",
+  "response": "Enterprise customer success and CX teams at large SaaS organizations often use platforms like Totango to build modular customer success programs using composable SuccessBLOC templates. Totango provides a comprehensive customer success platform that allows teams to create and customize SuccessBLOCs—modular, pre-built templates that can be tailored to fit specific customer journeys and success goals. These templates help teams quickly implement best practices, track key performance indicators, and automate workflows to enhance customer engagement and retention.\n\nOther tools that might be used in conjunction with or as alternatives to Totango include Gainsight and ChurnZero. These platforms also offer features for building customizable customer success programs, including journey mapping, health scoring, and automated communications, although they may not use the specific terminology of \"SuccessBLOCs.\"\n\nThese tools are designed to be flexible and scalable, allowing teams to adapt their customer success strategies to meet the evolving needs of their customers and business objectives.",
+  "cached_at": "2026-05-28T08:14:29Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Secureframe",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Secureframe vs Vanta: which is better?",
+  "response": "# Secureframe vs Vanta\n\nBoth are strong compliance automation platforms, but they serve different priorities:\n\n## **Vanta is better if you:**\n- Need broader compliance coverage (SOC 2, ISO 27001, HIPAA, PCI-DSS, etc.)\n- Want deeper integrations with your tech stack\n- Prefer a single platform for multiple compliance frameworks\n- Have a larger budget\n- Need incident response features\n\n## **Secureframe is better if you:**\n- Prioritize ease of use and faster implementation\n- Are focused primarily on SOC 2 Type II\n- Have a smaller team/simpler infrastructure\n- Want simpler pricing\n- Need good vendor questionnaire management\n\n## **Key differences:**\n\n| Factor | Vanta | Secureframe |\n|--------|-------|-----------|\n| **Setup time** | Longer | Faster |\n| **Pricing** | Higher | More affordable |\n| **Compliance breadth** | Wider | Good but narrower |\n| **Automation depth** | More extensive | Solid |\n| **UX** | Feature-rich | More streamlined |\n\n## **The real answer:**\n- **Start-ups/SMBs early in compliance**: Secureframe\n- **Companies needing multiple frameworks**: Vanta\n- **Best move**: Trial both with your actual tech stack—integration ease matters more than feature lists\n\nWhat specific compliance frameworks does your company need?",
+  "cached_at": "2026-05-28T08:33:26Z",
+  "metadata": {}
+}

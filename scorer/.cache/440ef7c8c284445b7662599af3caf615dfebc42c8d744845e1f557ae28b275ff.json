@@ -1,0 +1,9 @@
+{
+  "brand": "Anecdotes",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Anecdotes integrate with GitHub?",
+  "response": "Yes. **Anecdotes does integrate with GitHub** via a dedicated plugin.\n\nAccording to Anecdotes’ integrations page, GitHub is listed as a supported **“Developer”** integration under their plugins, meaning you can connect Anecdotes to GitHub to collect data for GRC and compliance workflows.[3]",
+  "cached_at": "2026-05-28T08:37:52Z",
+  "metadata": {}
+}

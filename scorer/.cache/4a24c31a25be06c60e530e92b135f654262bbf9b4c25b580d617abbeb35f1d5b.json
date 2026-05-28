@@ -1,0 +1,9 @@
+{
+  "brand": "Lemlist",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best sales engagement for sales teams and growth marketers at B2B companies doing outbound?",
+  "response": "# Best Sales Engagement Practices for B2B Outbound\n\n## Core Framework\n\n**Multi-channel sequencing** beats single-channel every time:\n- **Email** (foundation - scalable, trackable)\n- **LinkedIn** (relationship building, credibility)\n- **Phone** (breakthrough moments)\n- **Personalized content** (show you've done research)\n\n## What Actually Works\n\n**Specificity over scale**\n- Reference their recent funding, hire, product launch, or earnings report\n- Mention a specific pain in *their* industry (not generic problems)\n- This alone typically 2-3x response rates\n\n**Value-first positioning**\n- Lead with insight or useful info, not your pitch\n- Example: \"Saw you hired 3 new SDRs—here's what we learned about onboarding efficiency\" beats \"Want to talk about our platform?\"\n\n**Optimal cadence** (8-10 touches over 3 weeks)\n- Email, wait 2 days → LinkedIn connection + personalized message\n- Email, wait 3 days → LinkedIn message\n- Phone call attempt → Email follow-up\n- Vary timing to avoid spam-folder patterns\n\n## The Highest-ROI Moves\n\n1. **Vertical/use-case focus** - Own one problem deeply rather than being generic\n2. **Landing pages that answer their specific question** - Not homepage redirects\n3. **Sales/marketing alignment** - Marketing provides genuinely useful intel, not just leads\n4. **Persistence with pattern matching** - Track what resonates (title, company size, recent events) and replicate\n\n## Tools that Matter Less Than Approach\n\nThe platform (HubSpot, Salesloft, Outreach) matters ~20%. Your message, targeting, and follow-through matter 80%.\n\n**What's your current biggest friction point?** That'll help narrow down what to optimize first.",
+  "cached_at": "2026-05-28T07:16:51Z",
+  "metadata": {}
+}

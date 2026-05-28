@@ -1,0 +1,9 @@
+{
+  "brand": "Supermetrics",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best marketing analytics for digital marketing agencies and in-house marketing teams?",
+  "response": "# Best Marketing Analytics Tools for Digital Agencies & In-House Teams\n\n## Top Tier Platforms\n\n**Google Analytics 4 (GA4)**\n- Essential baseline (free)\n- Best for: Website traffic, user behavior, conversions\n- Limitation: Doesn't track offline or full customer journey\n\n**HubSpot**\n- Strongest all-in-one option\n- Integrates CRM, email, landing pages, ads\n- Best for: Inbound marketing, lead tracking, attribution\n\n**Mixpanel or Amplitude**\n- Superior product analytics\n- Track user events and cohorts deeply\n- Best for: App-based businesses, behavioral tracking\n\n## By Agency Size/Need\n\n| Use Case | Best Tool |\n|----------|-----------|\n| **Budget-conscious** | GA4 + Google Sheets + Supermetrics |\n| **Full attribution** | Marketo, HubSpot, or Skai |\n| **Multi-channel** | DashThis, Whatagraph, DataBox |\n| **E-commerce** | Littledata, Littledata, or native platforms |\n| **Enterprise** | Adobe Analytics or Marin Software |\n\n## Critical Capabilities\n\n- **Cross-channel attribution** (hardest to get right)\n- **UTM tracking** discipline\n- **Dashboard customization** for clients\n- **API access** for custom reports\n- **Real-time reporting** capabilities\n\n## My Recommendation\n\nStart with **GA4 + HubSpot** if budget allows—it covers 80% of needs. Add specialized tools only when you hit their limitations.\n\nWhat's your specific pain point? (attribution, reporting speed, multi-channel tracking?)",
+  "cached_at": "2026-05-27T20:36:13Z",
+  "metadata": {}
+}

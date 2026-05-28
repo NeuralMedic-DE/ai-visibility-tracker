@@ -1,0 +1,9 @@
+{
+  "brand": "Intercom",
+  "prompt_id": "AL-05",
+  "llm": "openai",
+  "prompt_text": "Open source or affordable customer support tools instead of Drift",
+  "response": "If you're looking for open source or affordable alternatives to Drift for customer support, here are some options you might consider:\n\n1. **Open Source Options:**\n   - **Chatwoot**: An open-source customer engagement suite that provides live chat, email, and social media integration. It's a great option if you want to host your own solution.\n   - **Zammad**: An open-source helpdesk and customer support platform that offers features like ticketing, chat, and phone integration.\n   - **Mibew Messenger**: A simple open-source live chat application that you can integrate into your website.\n\n2. **Affordable Options:**\n   - **Tawk.to**: A free live chat application with premium add-ons. It's a popular choice for businesses looking for a cost-effective solution.\n   - **Freshdesk**: Offers a free tier with basic features and affordable paid plans. It's a comprehensive helpdesk solution with ticketing, chat, and more.\n   - **Zoho Desk**: Part of the Zoho suite, it provides affordable customer support and helpdesk features, with various pricing tiers to suit different needs.\n   - **HelpCrunch**: Offers live chat, email marketing, and more, with affordable pricing plans for small to medium-sized businesses.\n   - **LiveAgent**: Provides a range of customer support tools, including live chat and ticketing, with competitive pricing.\n\nThese tools vary in terms of features and scalability, so it's a good idea to evaluate them based on your specific requirements and budget.",
+  "cached_at": "2026-05-28T08:01:43Z",
+  "metadata": {}
+}

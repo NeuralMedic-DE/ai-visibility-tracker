@@ -1,0 +1,9 @@
+{
+  "brand": "Salesflare",
+  "prompt_id": "IN-02",
+  "llm": "perplexity",
+  "prompt_text": "Salesflare LinkedIn integration: how does it work?",
+  "response": "Salesflare’s LinkedIn integration works mainly through a **Chrome sidebar/extension** that appears inside LinkedIn profiles, company pages, and messages, so you can manage leads without leaving LinkedIn.[1][3][4]\n\nHere’s the basic flow:\n\n- Open a LinkedIn profile, company page, or message thread, and Salesflare loads a sidebar with the related CRM record if it already exists.[1][3]\n- If the person or company is not yet in Salesflare, the sidebar lets you create a new contact or account directly from LinkedIn.[1][3][4]\n- Salesflare pulls in basic data automatically, such as the person’s name from LinkedIn, and may fill in their email if it can be matched.[3]\n- If no email is found, you can use Salesflare’s built-in **email finder** from the sidebar to search for it.[1][3][4]\n- Once added, you can email the lead, assign follow-up tasks, add notes, create opportunities, or send them into an email workflow/sequence from the same interface.[1][3][4]\n\nA typical use case is: view a LinkedIn profile, add the lead to Salesflare, find their business email, then continue outreach or tracking from the sidebar instead of switching tabs.[1][4]\n\nSalesflare also says the LinkedIn integration is included in its CRM plans.[4]\n\nIf you want, I can also explain the difference between Salesflare’s **native LinkedIn sidebar** and a **Zapier-based LinkedIn integration**.[2]",
+  "cached_at": "2026-05-27T18:19:21Z",
+  "metadata": {}
+}

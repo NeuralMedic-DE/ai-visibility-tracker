@@ -1,0 +1,9 @@
+{
+  "brand": "Drip",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do e-commerce brands and direct-to-consumer marketers companies use to automate personalized e-commerce email flows based on purchase behavior?",
+  "response": "# E-Commerce Email Automation Tools & Platforms\n\n## Dedicated E-Commerce Email Platforms\n\n**Klaviyo** (market leader for DTC)\n- Purchase behavior triggers and segmentation\n- Pre-built flow templates (post-purchase, abandoned cart, win-back)\n- Deep Shopify integration\n- Advanced analytics on email revenue\n\n**Omnisend**\n- Multi-channel automation (email, SMS, push)\n- Behavior-triggered flows\n- Strong for smaller/mid-market brands\n\n**Klaviyo alternatives:**\n- Iterable (high-volume, advanced users)\n- Privy (acquisition-focused)\n- Drip (newer competitor)\n\n## General Marketing Automation Platforms\n\n**HubSpot, Marketo, ActiveCampaign**\n- Sophisticated workflow builders\n- Cross-platform automation\n- Better for complex B2B sequences (overkill for many DTC brands)\n\n## Shopify-Native/Integrated Solutions\n\n**Shopify Email, Recharge** (for subscriptions)\n- Native to ecosystem\n- Limited sophistication compared to Klaviyo\n\n## Key Automation Triggers Used\n\n- Abandoned cart/checkout\n- Post-purchase (thank you, upsell, cross-sell)\n- Browse abandonment\n- Customer tier-based flows (VIP, dormant, loyal)\n- Re-engagement campaigns\n- Post-review requests\n\n## Selection Factors\n\n**Klaviyo dominates DTC because it:**\n- Understands e-commerce metrics natively\n- Offers strong ROI transparency\n- Has extensive app ecosystem\n- Scales well as brands grow\n\n**Choose alternatives if you need:** SMS/push integration, lower cost, or specific feature gaps.\n\nWhat's your current setup or use case?",
+  "cached_at": "2026-05-28T07:33:04Z",
+  "metadata": {}
+}

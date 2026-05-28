@@ -1,0 +1,9 @@
+{
+  "brand": "Amplemarket",
+  "prompt_id": "AL-05",
+  "llm": "openai",
+  "prompt_text": "Open source or affordable CRM tools instead of ZoomInfo",
+  "response": "If you're looking for open-source or affordable CRM tools as alternatives to ZoomInfo, here are some options you might consider:\n\n1. **HubSpot CRM**: HubSpot offers a free CRM with a wide range of features, including contact management, email tracking, and sales pipeline management. They also offer paid plans with additional features.\n\n2. **Zoho CRM**: Zoho CRM offers a free plan for up to 3 users, which includes basic CRM functionalities. They also have affordable paid plans that provide more advanced features.\n\n3. **Bitrix24**: Bitrix24 provides a free plan with CRM features, task management, and communication tools. They also offer paid plans with more extensive features.\n\n4. **SuiteCRM**: This is an open-source CRM that offers a comprehensive set of features similar to those of paid CRM systems. It's a great option if you're comfortable with self-hosting and customization.\n\n5. **Odoo**: Odoo offers a suite of business applications, including a CRM module. It's open-source and can be customized to fit your needs, with both free and paid versions available.\n\n6. **Vtiger CRM**: Vtiger offers a free version with essential CRM features and has affordable paid plans for more advanced needs.\n\n7. **Freshsales (by Freshworks)**: Freshsales offers a free plan with basic CRM features and affordable paid plans with more advanced capabilities.\n\nThese tools vary in terms of features, ease of use, and scalability, so it might be worth trying a few to see which one best fits your needs.",
+  "cached_at": "2026-05-27T19:01:11Z",
+  "metadata": {}
+}

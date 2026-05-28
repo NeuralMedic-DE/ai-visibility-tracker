@@ -1,0 +1,9 @@
+{
+  "brand": "Folk",
+  "prompt_id": "IN-02",
+  "llm": "openai",
+  "prompt_text": "Folk Notion integration: how does it work?",
+  "response": "Folk Notion integration allows users to connect their Folk CRM with Notion, enabling seamless data synchronization and workflow management between the two platforms. This integration typically involves setting up automated processes that can transfer information such as contacts, tasks, and notes from Folk to Notion or vice versa. \n\nTo set up the integration, you would generally use a third-party automation tool like Zapier, Make (formerly Integromat), or native integration features if available. These tools allow you to create \"zaps\" or \"scenarios\" that trigger specific actions based on events in either Folk or Notion. For example, you could configure the integration to automatically create a new page in Notion whenever a new contact is added in Folk, or update a database entry in Notion when a contact's details are changed in Folk.\n\nThe integration helps streamline workflows by ensuring that data is consistent and up-to-date across both platforms, reducing the need for manual data entry and improving productivity.",
+  "cached_at": "2026-05-27T18:52:03Z",
+  "metadata": {}
+}

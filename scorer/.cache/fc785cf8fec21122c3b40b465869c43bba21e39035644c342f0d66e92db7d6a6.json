@@ -1,0 +1,9 @@
+{
+  "brand": "Reply.io",
+  "prompt_id": "IN-05",
+  "llm": "openai",
+  "prompt_text": "sales engagement tools with native Salesforce integration",
+  "response": "There are several sales engagement tools that offer native integration with Salesforce, allowing for seamless data synchronization and enhanced functionality. Here are some popular options:\n\n1. **Salesloft**: Known for its robust sales engagement capabilities, Salesloft integrates directly with Salesforce to provide features like email tracking, call logging, and automated workflows.\n\n2. **Outreach**: This platform offers comprehensive sales engagement features, including email sequencing, task automation, and analytics, all integrated with Salesforce to streamline sales processes.\n\n3. **Groove**: Groove is designed specifically for Salesforce users, offering tools for email tracking, meeting scheduling, and workflow automation, with a strong focus on ease of use and integration.\n\n4. **Yesware**: Yesware provides email tracking, templates, and reporting features that integrate with Salesforce, helping sales teams manage their outreach efforts more effectively.\n\n5. **Mixmax**: This tool enhances email communication with features like scheduling, templates, and tracking, and it integrates with Salesforce to keep all interactions in sync.\n\n6. **InsideSales (XANT)**: Known for its AI-driven sales acceleration platform, InsideSales offers native Salesforce integration to help sales teams prioritize leads and improve engagement.\n\n7. **ToutApp**: Part of the Marketo suite, ToutApp provides email tracking, analytics, and sales templates, with Salesforce integration to enhance sales productivity.\n\nThese tools help sales teams improve their engagement strategies by leveraging Salesforce data and automating various aspects of the sales process.",
+  "cached_at": "2026-05-28T07:21:27Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Supermetrics",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Supermetrics vs Funnel.io: which is better?",
+  "response": "# Supermetrics vs Funnel.io\n\nBoth are solid marketing data platforms, but they serve slightly different needs:\n\n## **Supermetrics** — Better for:\n- **Self-service automation** — easier to set up without IT help\n- **Multi-source dashboards** — excels at combining many ad platforms and analytics tools\n- **Spreadsheets & BI tools** — integrates well with Sheets, Excel, Looker, Tableau\n- **Smaller teams** with straightforward workflows\n- **Lower budget** option\n\n## **Funnel.io** — Better for:\n- **Enterprise teams** needing governance and approval workflows\n- **Data quality control** — stronger data validation and error-checking\n- **Complex pipelines** — if you need heavy transformation and cleansing\n- **Compliance requirements** — more robust audit trails\n- **Larger data volumes** — handles scaling better\n\n## **Key differences:**\n| Factor | Supermetrics | Funnel.io |\n|--------|--------------|----------|\n| Setup ease | Faster | Steeper learning curve |\n| Price | Lower | Higher |\n| Support | Self-service heavy | More hands-on |\n| Data prep | Basic | Advanced |\n\n## **Bottom line:**\n- **Choose Supermetrics** if you want quick, easy reporting dashboards\n- **Choose Funnel.io** if you need serious data engineering and governance\n\nWhat's your main use case? That might narrow it down further.",
+  "cached_at": "2026-05-27T20:36:43Z",
+  "metadata": {}
+}

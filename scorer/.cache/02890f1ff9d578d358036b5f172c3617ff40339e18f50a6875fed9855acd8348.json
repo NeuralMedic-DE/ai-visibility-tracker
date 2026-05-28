@@ -1,0 +1,9 @@
+{
+  "brand": "Gainsight",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which customer success software should a VP Customer Success or CS Director at an enterprise SaaS company use?",
+  "response": "# Enterprise CS Software Selection\n\nFor a VP/Director role at enterprise SaaS, prioritize tools that handle **scale, visibility, and strategic reporting**:\n\n## Core Platform (Pick One)\n\n**Gainsight** (market leader)\n- Most mature for enterprise CS ops\n- Strong health scoring and forecasting\n- Best executive dashboards\n- Higher cost, steeper learning curve\n\n**Totango**\n- Solid alternative with good automation\n- Slightly easier implementation\n- Comparable feature set\n\n**ChartMogul** or **Vitally**\n- Lighter weight, faster deployment\n- Better if you want to move quickly\n- Less suitable if you need heavy workflow automation\n\n## Complementary Tools You'll Actually Need\n\n- **Data warehouse** (Snowflake/BigQuery): Enterprise needs custom analytics\n- **Automation/workflow** (Zapier, native integrations): Connects your stack\n- **Engagement platform** (Chorus, Gong): For coaching/training visibility\n- **Survey tool** (Qualtrics or similar): CSAT/NPS at scale\n\n## Real Talk\n\nMost VP/Directors find the *platform choice matters less* than:\n\n1. **Executive buy-in** on a shared operating model\n2. **Data hygiene** (CRM is usually the bottleneck, not CS software)\n3. **Weekly vs. monthly cadences** you'll actually use\n4. **Integration depth** with your existing stack\n\n**Avoid** picking the shiniest tool without mapping how your team will actually *use* it. Enterprise implementations fail on adoption, not features.\n\nWhat's your current tech stack? That often determines the best fit.",
+  "cached_at": "2026-05-28T08:03:57Z",
+  "metadata": {}
+}

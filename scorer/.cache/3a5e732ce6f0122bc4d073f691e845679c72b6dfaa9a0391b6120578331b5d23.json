@@ -1,0 +1,9 @@
+{
+  "brand": "Charlie HR",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Charlie HR integrate with Slack?",
+  "response": "Yes, CharlieHR integrates with Slack. This integration allows teams to receive notifications and updates directly in their Slack channels, making it easier to stay informed about HR-related activities such as time off requests, approvals, and other important updates. You can set up the integration through the CharlieHR platform by following their instructions for connecting with Slack.",
+  "cached_at": "2026-05-28T06:43:52Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Pendo",
+  "prompt_id": "AL-02",
+  "llm": "openai",
+  "prompt_text": "Cheaper alternatives to Mixpanel",
+  "response": "If you're looking for cheaper alternatives to Mixpanel for product analytics, there are several options you might consider:\n\n1. **Google Analytics**: While traditionally used for website analytics, Google Analytics offers event tracking and user behavior insights that can be useful for product analytics.\n\n2. **Amplitude**: Amplitude is a direct competitor to Mixpanel and offers a free tier that might suit smaller projects or startups.\n\n3. **Heap**: Heap automatically captures all user interactions and provides a free plan with basic features, which can be a cost-effective solution for startups.\n\n4. **Pendo**: Pendo offers product analytics along with user feedback and in-app messaging. They have a free plan for startups.\n\n5. **PostHog**: An open-source product analytics tool that can be self-hosted, which can help reduce costs if you have the technical resources to manage it.\n\n6. **Matomo**: Formerly known as Piwik, Matomo is an open-source analytics platform that can be self-hosted, offering flexibility and control over data.\n\n7. **Fathom Analytics**: A privacy-focused analytics tool that is simpler and more affordable, especially for smaller sites or apps.\n\n8. **Simple Analytics**: Offers straightforward analytics without tracking personal data, which can be a more affordable option for basic needs.\n\nEach of these tools has its own strengths and pricing models, so the best choice will depend on your specific needs and budget.",
+  "cached_at": "2026-05-27T19:44:53Z",
+  "metadata": {}
+}

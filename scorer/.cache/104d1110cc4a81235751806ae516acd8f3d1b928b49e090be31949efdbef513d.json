@@ -1,0 +1,9 @@
+{
+  "brand": "Ashby",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with build structured hiring workflows and automate interview scheduling at scale?",
+  "response": "# Software for Structured Hiring & Interview Scheduling\n\n## All-in-One ATS Platforms\n- **Greenhouse** – Strong on structured workflows, scorecards, and automation\n- **Lever** – Good interview coordination and pipeline management\n- **Workable** – Budget-friendly with solid scheduling features\n- **iCIMS** – Enterprise-focused with extensive automation\n\n## Specialized Scheduling Tools\n- **Calendly** – Simple scheduling (basic integrations available)\n- **Doodle** – Group scheduling for panel interviews\n- **Prelude** – Built specifically for interview coordination at scale\n\n## Interview-Focused Platforms\n- **HireEZ** – Sourcing + structured interview workflows\n- **LinkedIn Recruiter** – Native LinkedIn integration with scheduling\n- **Ashby** – Modern interface, strong on workflow customization\n- **Bamboo HR** – SMB-friendly with decent automation\n\n## Key Features to Look For\n✓ Automated scheduling with candidate/interviewer availability  \n✓ Standardized interview templates & scorecards  \n✓ Bulk operations for multiple candidates  \n✓ Calendar integrations (Outlook, Google)  \n✓ Feedback collection & collaboration tools  \n✓ API for custom integrations\n\n## Quick Recommendation\n- **Growing companies (10-100 people)**: Greenhouse or Workable\n- **Enterprises**: Greenhouse or iCIMS\n- **Budget-conscious**: Workable or Ashby\n- **Scheduling-only**: Prelude or Calendly\n\nWhat's your team size and current pain point—volume, consistency, or something else?",
+  "cached_at": "2026-05-28T06:39:36Z",
+  "metadata": {}
+}

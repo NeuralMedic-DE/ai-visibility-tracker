@@ -1,0 +1,9 @@
+{
+  "brand": "Matillion",
+  "prompt_id": "AL-05",
+  "llm": "openai",
+  "prompt_text": "Open source or affordable data integration tools instead of Informatica",
+  "response": "There are several open-source and affordable data integration tools that can serve as alternatives to Informatica. Here are some popular options:\n\n1. **Talend Open Studio**: Talend offers an open-source version of its data integration platform, which provides a wide range of connectors and components for data integration tasks.\n\n2. **Apache Nifi**: This is an open-source data integration tool that supports powerful and scalable directed graphs of data routing, transformation, and system mediation logic.\n\n3. **Pentaho Data Integration (Kettle)**: Part of the Hitachi Vantara suite, Pentaho offers an open-source data integration tool known for its ease of use and extensive capabilities.\n\n4. **Apache Camel**: A versatile open-source integration framework that provides numerous components for integrating various systems.\n\n5. **Airbyte**: An open-source data integration platform that focuses on ELT (Extract, Load, Transform) processes, with a growing number of connectors.\n\n6. **Singer**: An open-source standard for writing scripts that move data, known for its simplicity and flexibility.\n\n7. **Luigi**: Developed by Spotify, Luigi is an open-source Python module that helps build complex pipelines of batch jobs.\n\n8. **Fivetran**: While not open-source, Fivetran offers a more affordable, managed data integration service with a focus on ease of use and reliability.\n\n9. **Stitch**: Another affordable, cloud-based ETL service that provides a simple interface for data integration tasks.\n\nEach of these tools has its own strengths and weaknesses, so the best choice depends on your specific requirements, such as the complexity of your data workflows, the systems you need to integrate, and your budget.",
+  "cached_at": "2026-05-28T09:00:48Z",
+  "metadata": {}
+}

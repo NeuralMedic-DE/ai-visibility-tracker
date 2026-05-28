@@ -1,0 +1,9 @@
+{
+  "brand": "Userlist",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which marketing automation software should a SaaS Lifecycle Marketer or indie SaaS Founder use?",
+  "response": "# Marketing Automation for SaaS: Best Options by Stage\n\n## For Indie Founders (Bootstrap Budget)\n**Tier 1: Free/Cheap**\n- **Brevo** (formerly Sendinblue) - Free tier surprisingly robust\n- **Mailchimp** - Good if you're mainly email-focused\n- **HubSpot Free** - Limited but solid fundamentals\n\n**Tier 2: ~$50-100/month**\n- **ActiveCampaign** - Best value for email + automation + CRM\n- **Klaviyo** - If you need strong e-commerce tracking\n\n## For Scaling SaaS (Growth Stage)\n**Best Overall**\n- **HubSpot** - Most integrated, best for inbound, strong reporting\n- **ActiveCampaign** - More flexible automation, better value than HubSpot\n\n**Specialized Strengths**\n- **ConvertKit/Substack** - If building audience/content-first\n- **Segment + Mixpanel** - For data-driven lifecycle marketing\n- **Intercom** - If customer communication is your main automation need\n\n## The Real Decision Framework\n\nAsk yourself:\n1. **What's your main use case?** (Email nurture vs. multi-channel vs. CRM)\n2. **Technical comfort?** (No-code vs. you can code)\n3. **Integration needs?** (What tools do you already use?)\n4. **Budget trajectory?** (Will costs scale reasonably?)\n\n**My practical take:** Most indie founders should start with **Brevo or HubSpot Free**, then graduate to **ActiveCampaign** at $50-100/mo if they need more sophistication.\n\nWhat's your primary use case right now?",
+  "cached_at": "2026-05-28T07:30:26Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Lattice",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which HR software should a Head of People or VP HR at a growth-stage company use?",
+  "response": "# HR Software for Growth-Stage Companies\n\nThe best choice depends on your specific situation, but here's a practical framework:\n\n## Strong all-around options\n- **Rippling** – Best if you want one integrated platform (payroll, benefits, IT, expense management). Seamless setup, especially if scaling headcount.\n- **Guidepoint** or **BambooHR** – Good balance of core HR + usability without overwhelming features\n\n## If you're optimizing for specific needs\n\n**Prioritizing recruiting/hiring:**\n- Greenhouse (ATS) + separate HRIS\n\n**Prioritizing compliance/international scaling:**\n- Deel or Remote (especially if you have contractors/international staff)\n\n**Prioritizing employee experience:**\n- Lattice or 15Five (performance + engagement)\n\n**Prioritizing simplicity/cost:**\n- BambooHR or even Workable (if primarily focused on recruiting)\n\n## Questions to ask yourself first\n1. **What's your biggest pain point?** (Payroll chaos? Hiring bottleneck? Lack of visibility on retention?)\n2. **How many people now, and projected headcount in 2 years?**\n3. **Do you need international/contractor capabilities?**\n4. **What do you already use?** (Choosing something that integrates with Slack, Salesforce, etc. saves headaches)\n\nAt growth stage, avoid the trap of \"I need to be enterprise-ready.\" You don't yet. Pick something that solves your immediate problem and integrates well.\n\nWhat's your biggest HR challenge right now?",
+  "cached_at": "2026-05-28T06:29:47Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Encharge",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with build complex automation flows with a visual drag-and-drop editor at scale?",
+  "response": "# Software for Complex Automation Flows (Visual, Scalable)\n\n## Enterprise-Grade Solutions\n\n**Zapier**\n- Drag-and-drop workflow builder\n- 6,000+ pre-built integrations\n- Good for SMBs; can get expensive at scale\n\n**Make (formerly Integromat)**\n- Visual flow editor with advanced logic\n- Powerful scenario building\n- Better pricing for complex workflows than Zapier\n\n**n8n**\n- Open-source + cloud option\n- Highly customizable, code-friendly\n- Self-hostable (important for scale)\n\n## Dedicated Low-Code Platforms\n\n**Retool**\n- Internal tool builder with automation\n- Visual + code capabilities\n- Strong for scaling custom needs\n\n**Temporal**\n- Workflow orchestration at scale\n- For developers/complex distributed systems\n- Handles high-volume automation\n\n**Apache Airflow**\n- Open-source, enterprise-grade\n- DAG-based workflow management\n- Used by data teams for large-scale jobs\n\n## Process-Specific\n\n**Blue Prism / UiPath**\n- RPA (Robotic Process Automation)\n- Enterprise-focused, expensive\n- Visual designer with scaling infrastructure\n\n**Prefect / Dagster**\n- Modern data workflow orchestration\n- Better developer experience than Airflow\n\n## Selection Tips\n\n- **Budget-conscious + scalable**: n8n (self-hosted)\n- **Low learning curve**: Zapier/Make\n- **Enterprise/High volume**: Temporal, Airflow\n- **Custom tools needed**: Retool\n\nWhat's your primary use case? (Data pipelines, business process automation, integrations?) That would help narrow recommendations.",
+  "cached_at": "2026-05-28T07:28:42Z",
+  "metadata": {}
+}

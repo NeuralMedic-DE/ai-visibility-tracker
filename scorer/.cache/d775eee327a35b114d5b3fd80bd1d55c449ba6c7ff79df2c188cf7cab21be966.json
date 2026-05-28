@@ -1,0 +1,9 @@
+{
+  "brand": "Teamtailor",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Teamtailor integrate with LinkedIn?",
+  "response": "# Teamtailor and LinkedIn Integration\n\nYes, **Teamtailor does integrate with LinkedIn**. The integration allows you to:\n\n- **Import job postings** to LinkedIn directly from Teamtailor\n- **Source candidates** from LinkedIn profiles\n- **Share job listings** on LinkedIn to reach a wider audience\n- **Pre-fill candidate information** from LinkedIn profiles when they apply\n\nThis helps streamline your recruitment workflow by connecting your applicant tracking system with LinkedIn's large talent pool.\n\nFor the most current details on specific features and setup instructions, I'd recommend checking:\n- Teamtailor's official documentation\n- Their integrations marketplace\n- Contacting their support team directly\n\nAre you looking to set up this integration or wondering about specific functionality?",
+  "cached_at": "2026-05-28T06:42:06Z",
+  "metadata": {}
+}

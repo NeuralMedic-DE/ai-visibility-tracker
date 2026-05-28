@@ -1,0 +1,9 @@
+{
+  "brand": "Gainsight",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Gainsight with Salesforce?",
+  "response": "# Connecting Gainsight to Salesforce\n\nHere's the standard process:\n\n## 1. **Prepare Salesforce**\n- Ensure you have admin access to both systems\n- Note your Salesforce org URL and credentials\n- Verify API access is enabled\n\n## 2. **Access Gainsight Integration Settings**\n- Log into Gainsight as an admin\n- Go to **Admin** → **Connectors**\n- Search for \"Salesforce\"\n\n## 3. **Authorize the Connection**\n- Click **Authenticate** or **Connect**\n- You'll be redirected to Salesforce login\n- Log in with your Salesforce admin account\n- Review and approve the requested permissions\n- Confirm the connection\n\n## 4. **Configure Data Sync**\n- Select which Salesforce objects to sync (Accounts, Contacts, Opportunities, etc.)\n- Choose sync direction (one-way or bi-directional)\n- Map Salesforce fields to Gainsight fields\n- Set sync frequency (usually real-time or scheduled)\n\n## 5. **Test & Deploy**\n- Run a test sync with sample data\n- Verify data appears correctly in Gainsight\n- Enable the connector once confirmed\n\n## Key Considerations\n- **Permissions**: Ensure your Salesforce profile has API access\n- **Field mapping**: Align naming conventions between systems\n- **Data volume**: Large syncs may take time initially\n- **Support**: Check Gainsight's documentation for your specific version\n\nNeed help with a specific step?",
+  "cached_at": "2026-05-28T08:04:32Z",
+  "metadata": {}
+}

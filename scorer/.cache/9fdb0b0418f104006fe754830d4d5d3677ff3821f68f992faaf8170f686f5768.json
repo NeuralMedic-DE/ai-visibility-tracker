@@ -1,0 +1,9 @@
+{
+  "brand": "n8n",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to Make",
+  "response": "# Cheaper Alternatives to Make\n\n## Free/Open-Source Build Tools\n\n| Tool | Best For | Cost |\n|------|----------|------|\n| **GNU Make** | General-purpose builds | Free |\n| **Cmake** | C/C++ projects | Free |\n| **Gradle** | Java/Android | Free |\n| **Maven** | Java projects | Free |\n| **npm/yarn** | JavaScript | Free |\n| **Cargo** | Rust | Free |\n| **Poetry** | Python | Free |\n| **Bazel** | Large projects | Free |\n\n## Language-Specific Package Managers\n- **Python**: setuptools, pip\n- **Ruby**: Rake (Make-like, built-in)\n- **Go**: built-in `go build`\n- **Node.js**: npm scripts\n\n## Lightweight Alternatives\n- **Just** - Simpler than Make (Rust-based)\n- **Task** - YAML-based task runner\n- **Makefile.sh** - Bash scripts instead of Make\n- **Shell scripts** - Direct bash/sh execution\n\n## CI/CD Platforms (Free Tiers)\n- GitHub Actions\n- GitLab CI\n- Jenkins (self-hosted)\n- CircleCI (free tier)\n\n## Key Recommendation\n**For most projects**, your language's native build tool is cheaper (free) than Make and often easier to use.\n\nWhat type of project are you building? I can suggest the best alternative for your specific case.",
+  "cached_at": "2026-05-28T08:56:08Z",
+  "metadata": {}
+}

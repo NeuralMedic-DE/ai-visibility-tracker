@@ -1,0 +1,9 @@
+{
+  "brand": "Prefect",
+  "prompt_id": "IN-02",
+  "llm": "perplexity",
+  "prompt_text": "Prefect Snowflake integration: how does it work?",
+  "response": "The **Prefect Snowflake integration** lets you connect Prefect flows and tasks to Snowflake so you can run SQL and move data as part of an orchestrated Python workflow.[1][3] It works by storing Snowflake connection details in **Prefect blocks** and then loading those blocks inside your flow or task code to create and use a Snowflake connector.[1][3]\n\nHow it works in practice:\n\n- **Install the package** with `pip install prefect-snowflake`.[1][3]\n- **Register the blocks** so they are available in Prefect Cloud or your local Prefect setup.[1][3]\n- Create two kinds of blocks:\n  - **`SnowflakeCredentials`** for authentication.[1]\n  - **`SnowflakeConnector`** for connection details like account, database, schema, and warehouse.[1]\n- In your flow, **load the saved block** and use it to execute queries or fetch results.[1][3]\n\nThe integration supports both **synchronous and asynchronous** query execution in Prefect flows and tasks.[1] For data access, you can use methods such as **`execute`** and **`execute_many`** for running statements, **`fetch_all`** for smaller result sets, and **`fetch_many`** for larger results in chunks.[1][3]\n\nA key operational detail is that `SnowflakeConnector` can be used as a **context manager**, which helps ensure the Snowflake connection and cursors are closed properly when the work is done.[1][3]\n\nIn short: Prefect handles the orchestration, while the Snowflake integration provides a reusable, secure connection layer for executing Snowflake queries inside your workflow code.[1][5]",
+  "cached_at": "2026-05-28T09:12:59Z",
+  "metadata": {}
+}

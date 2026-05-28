@@ -1,0 +1,9 @@
+{
+  "brand": "HiBob",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is HiBob better than Personio for automate onboarding workflows and org chart updates at scale?",
+  "response": "# HiBob vs Personio for Onboarding & Org Charts at Scale\n\nBoth have strengths here, but it depends on your specific needs:\n\n## HiBob's advantages:\n- **Workflow automation**: More flexible automation rules for onboarding tasks\n- **API capabilities**: Generally considered stronger for custom integrations and bulk operations\n- **Org chart updates**: Real-time sync tends to be smoother, especially with frequent changes\n- **Better for complexity**: Handles intricate multi-step workflows better\n\n## Personio's advantages:\n- **Pre-built templates**: More polished out-of-the-box onboarding workflows\n- **Simpler setup**: Easier to configure without technical help\n- **Org chart UX**: More intuitive visual interface for managing hierarchies\n- **Better for standardization**: If you want everyone following the same process\n\n## Key questions to ask yourself:\n\n1. **Scale**: How many people onboarding monthly? Both handle this, but HiBob scales slightly better for automation complexity\n2. **Customization needs**: Need custom logic? HiBob. Need quick deployment? Personio\n3. **Legacy systems**: Many integrations needed? HiBob's API is more robust\n4. **Team tech-savviness**: Personio is easier for non-technical HR teams\n\n**Bottom line**: HiBob typically edges ahead *at scale* for automation flexibility, but Personio wins on ease of use. Your choice should depend on whether you need sophistication (HiBob) or simplicity (Personio).\n\nWhat's your current team size and integration complexity?",
+  "cached_at": "2026-05-28T06:32:22Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Raycast",
+  "prompt_id": "UC-01",
+  "llm": "openai",
+  "prompt_text": "How do I launch apps and run custom workflows from the keyboard instantly without spending a lot on software?",
+  "response": "To launch apps and run custom workflows from the keyboard without spending a lot on software, you can use free or open-source tools that are designed for this purpose. Here are a few options:\n\n1. **Windows:**\n   - **PowerToys Run:** Part of the Microsoft PowerToys suite, this tool allows you to quickly search and launch applications, files, and even execute commands. It's free and integrates well with Windows.\n   - **AutoHotkey:** This is a powerful scripting language for Windows that allows you to create custom keyboard shortcuts and automate repetitive tasks. It's free and highly customizable.\n\n2. **macOS:**\n   - **Alfred (Free Version):** Alfred is a popular productivity application for macOS that allows you to launch apps, search your Mac, and perform various tasks. The free version offers basic app launching and search capabilities.\n   - **Raycast:** A free and modern alternative to Alfred, Raycast offers fast app launching, script execution, and integration with various services.\n\n3. **Linux:**\n   - **Albert:** An open-source launcher for Linux that allows you to quickly launch applications, open files, and run scripts.\n   - **Ulauncher:** Another open-source application launcher for Linux that supports extensions and custom workflows.\n\nThese tools can help you streamline your workflow without the need for expensive software. Each has its own set of features and customization options, so you can choose the one that best fits your needs.",
+  "cached_at": "2026-05-28T06:25:17Z",
+  "metadata": {}
+}

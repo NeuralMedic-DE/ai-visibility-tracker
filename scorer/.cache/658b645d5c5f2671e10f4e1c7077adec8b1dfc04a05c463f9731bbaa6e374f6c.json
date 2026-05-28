@@ -1,0 +1,9 @@
+{
+  "brand": "Pendo",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do enterprise SaaS product teams companies use to guide users through in-app onboarding tours?",
+  "response": "# Enterprise SaaS Onboarding Tools\n\nHere are the main categories and popular solutions:\n\n## **Dedicated Onboarding Platforms**\n- **Appcues** - Most popular for guided tours, checklists, hotspots\n- **Pendo** - Strong in analytics + in-app messaging\n- **WalkMe** - Enterprise-focused with extensive customization\n- **Userguiding** - Cost-effective alternative\n- **Chameleon** - Good for product teams without dev resources\n\n## **Product Analytics Platforms** (with onboarding features)\n- **Amplitude** - Can trigger in-app messages based on user behavior\n- **Mixpanel** - Similar behavioral triggering capabilities\n- **Segment** - Customer data platform that feeds onboarding decisions\n\n## **Messaging & Communication**\n- **Intercom** - Primarily chat-focused but includes tours\n- **Drift** - Conversational onboarding approach\n- **Zendesk Guide** - Help center + light in-app guidance\n\n## **Developer-First / Custom Solutions**\n- **Custom-built** with libraries like Intro.js, Shepherd.js\n- **Feature flagging tools** (LaunchDarkly, Optimizely) for staged rollouts\n\n## **Key Evaluation Criteria**\n- **No-code builder** (critical for non-technical teams)\n- **Analytics integration** (track completion rates, drop-off)\n- **Personalization** (segment users, conditional flows)\n- **Mobile support** (if needed)\n- **API/SDK flexibility** for custom needs\n\nMost enterprise teams use **2-3 tools** in combination—typically a dedicated onboarding tool + analytics platform.\n\nWhat's your specific use case?",
+  "cached_at": "2026-05-27T19:48:34Z",
+  "metadata": {}
+}

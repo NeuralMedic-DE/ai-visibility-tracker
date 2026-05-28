@@ -1,0 +1,9 @@
+{
+  "brand": "Airbyte",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do data engineers at startups and mid-market companies building data pipelines companies use to move data from 300 plus sources to your data warehouse with open-source connectors?",
+  "response": "# Data Pipeline Tools for Multi-Source Integration\n\nFor companies moving data from 300+ sources, the main open-source options are:\n\n## **Leading Open-Source Platforms**\n\n**Airbyte**\n- 400+ pre-built connectors (both open-source and cloud)\n- Low-code connector development\n- Most popular for this scale of sources\n- Active community contributions\n\n**Apache NiFi**\n- Enterprise-grade data routing and transformation\n- Web UI for visual pipeline building\n- Good for complex, conditional workflows\n- Steeper learning curve\n\n**Stitch (by Talend)**\n- Originally open-source, now primarily commercial\n- Still worth mentioning for context\n\n## **Complementary Open-Source Tools**\n\n**dbt** (data build tool)\n- Not a connector tool, but essential post-pipeline\n- Transforms raw data in your warehouse\n- SQL-based, version-controllable transformations\n\n**Apache Kafka**\n- For streaming/event-based pipelines\n- Better for continuous data flow than batch\n\n**Singer.io**\n- Tap-and-target model (simple specification)\n- Large ecosystem of community taps\n\n## **The Reality for 300+ Sources**\n\nMost teams at this scale use **hybrid approaches**:\n- Airbyte for standard sources (SaaS, databases)\n- Custom scripts for proprietary/niche systems\n- dbt for transformation layer\n- Potentially Kafka for high-volume streaming sources\n\n**Key consideration**: Open-source handles connectivity, but you'll likely need engineering resources for maintenance, monitoring, and custom connectors.\n\nWhat's your current bottleneck?",
+  "cached_at": "2026-05-28T09:03:37Z",
+  "metadata": {}
+}

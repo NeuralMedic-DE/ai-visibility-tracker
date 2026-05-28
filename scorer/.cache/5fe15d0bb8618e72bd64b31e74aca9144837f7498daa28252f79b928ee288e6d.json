@@ -1,0 +1,9 @@
+{
+  "brand": "Retool",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with create CRUD apps without full-stack engineering effort at scale?",
+  "response": "# Low-Code/No-Code CRUD Platforms\n\n## Best for Rapid Development at Scale\n\n**Supabase**\n- PostgreSQL backend with auto-generated APIs\n- Real-time capabilities built-in\n- Great for developers who want some control\n- Cost-effective scaling\n\n**Firebase/Google Cloud**\n- Fully managed backend\n- Real-time database with minimal setup\n- Good for rapid prototyping\n- Can get expensive at scale\n\n**Airtable**\n- Visual database with built-in UI\n- Excellent for non-technical users\n- API available for custom frontends\n- Limited scalability for complex apps\n\n## Developer-Friendly Options\n\n**Hasura**\n- Instant GraphQL API from databases\n- Significant time savings on backend\n- Self-hosted or managed\n- Strong for data-heavy applications\n\n**Directus**\n- Headless CMS + data platform\n- Great admin UI out-of-the-box\n- Open-source option available\n- Good middleware capabilities\n\n**Prisma + basic framework**\n- If you want more control: Prisma (ORM) + Next.js/SvelteKit\n- Still reduces boilerplate significantly\n- Scales better than no-code solutions\n\n## For True No-Code\n\n**Bubble, FlutterFlow, WeWeb**\n- Visual builders for full apps\n- Best when you want zero coding\n- Trade-offs in customization\n\n**The Sweet Spot:** Supabase + Next.js/SvelteKit gives you speed without sacrificing control or scalability.\n\nWhat's your use case—are you avoiding coding entirely, or just reducing backend complexity?",
+  "cached_at": "2026-05-27T20:58:01Z",
+  "metadata": {}
+}

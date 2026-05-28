@@ -1,0 +1,9 @@
+{
+  "brand": "Salesflare",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to HubSpot",
+  "response": "# Cheaper Alternatives to HubSpot\n\n## **Free/Freemium Options**\n- **Brevo** (formerly Sendinblue) - Free email marketing + CRM basics\n- **Zoho CRM** - Generous free tier with core features\n- **HubSpot's own free tier** - Email, forms, basic CRM\n- **Pipedrive** - Free plan (limited contacts)\n\n## **Budget-Friendly ($0-50/month)**\n- **ActiveCampaign** - Starts ~$9/month (basic automation)\n- **Freshsales** - Around $12-25/month\n- **Agile CRM** - ~$9-49/month\n- **Copper** - Free + paid plans starting ~$25/month\n\n## **Mid-Range ($50-100/month)**\n- **Salesforce Essentials** - Simplified, affordable option\n- **Streak** - Gmail-native CRM (~$99/month)\n- **Insightly** - ~$29-99/month\n\n## **Comparison Tips**\n- **Evaluate what you actually need** - HubSpot's paid tiers often include features you won't use\n- **Free tiers** are often sufficient for startups\n- **Zoho ecosystem** is particularly cost-effective if you need multiple tools\n- **Consider integration costs** with your existing stack\n\n**What's your primary use case?** (sales, marketing, customer service) I can recommend more specific options.",
+  "cached_at": "2026-05-27T18:14:00Z",
+  "metadata": {}
+}

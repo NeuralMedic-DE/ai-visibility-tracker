@@ -1,0 +1,9 @@
+{
+  "brand": "Matillion",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Matillion integrate with Snowflake?",
+  "response": "Yes, Matillion integrates with Snowflake. Matillion ETL is designed to work seamlessly with Snowflake, allowing users to perform data transformations and load data into Snowflake's cloud data platform. This integration supports a wide range of data transformation and orchestration capabilities, enabling users to efficiently manage their data workflows within the Snowflake environment.",
+  "cached_at": "2026-05-28T09:00:54Z",
+  "metadata": {}
+}

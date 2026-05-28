@@ -1,0 +1,9 @@
+{
+  "brand": "Plausible",
+  "prompt_id": "IN-04",
+  "llm": "perplexity",
+  "prompt_text": "Best web analytics that works with WordPress and Gatsby",
+  "response": "If you want **one analytics tool that works well with both WordPress and Gatsby**, **Google Analytics 4** is the safest default because it has broad support on WordPress and Gatsby, including Gatsby’s official analytics integration guidance and Gatsby plugin support for Google services.[1][2][5]\n\nIf you want a **privacy-friendly alternative**, **Plausible Analytics** is also a strong choice for WordPress, and the same tracking-code approach can be used in WordPress themes; Gatsby also supports adding analytics through plugins or custom tracking code, so Plausible can fit both stacks with a bit more setup than Google Analytics.[1][5]\n\n**Best picks by goal:**\n- **Best overall compatibility:** **Google Analytics 4**.[2][5]\n- **Best privacy-focused option:** **Plausible Analytics**.[1]\n- **Best if you want simple Gatsby integration:** use a **Gatsby analytics plugin** or add the script directly in Gatsby’s analytics setup.[5]\n\nFor a **WordPress + Gatsby** setup specifically, the practical pattern is:\n- Add the tracking script in WordPress via the theme header or a plugin.[1]\n- Add the same analytics in Gatsby using Gatsby’s analytics plugin support or equivalent injection method.[5]\n\nIf you want, I can also recommend the **best choice for your priorities**—for example **privacy, ease of setup, SEO reporting, or free tier**.",
+  "cached_at": "2026-05-27T20:23:35Z",
+  "metadata": {}
+}

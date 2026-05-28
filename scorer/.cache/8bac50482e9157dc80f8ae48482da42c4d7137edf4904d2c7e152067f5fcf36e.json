@@ -1,0 +1,9 @@
+{
+  "brand": "Drata",
+  "prompt_id": "AL-02",
+  "llm": "openai",
+  "prompt_text": "Cheaper alternatives to Sprinto",
+  "response": "If you're looking for cheaper alternatives to Sprinto, which is a platform for automating SOC 2 compliance, there are several options you might consider. These alternatives can vary in terms of features, pricing, and focus on different compliance standards. Here are a few:\n\n1. **Drata**: Drata automates the SOC 2 compliance process and offers integrations with various tools. It is known for its user-friendly interface and comprehensive automation features.\n\n2. **Vanta**: Vanta is another popular choice for automating SOC 2 compliance. It offers continuous monitoring and integrates with many tools to streamline the compliance process.\n\n3. **Secureframe**: Secureframe provides automation for SOC 2, ISO 27001, and other compliance standards. It focuses on simplifying the compliance process with integrations and continuous monitoring.\n\n4. **Tugboat Logic**: Tugboat Logic offers a platform for SOC 2 and other compliance frameworks. It provides tools for policy management, audit readiness, and risk assessment.\n\n5. **Laika**: Laika helps businesses manage SOC 2 compliance with automation and expert support. It offers a range of tools to simplify the compliance process.\n\n6. **Strike Graph**: Strike Graph focuses on simplifying SOC 2 compliance with a customizable approach and automation features.\n\nWhen considering alternatives, it's important to evaluate the specific features you need, the level of support provided, and how well the platform integrates with your existing systems. Pricing can vary based on the size of your organization and the specific features you require, so it may be beneficial to request quotes or demos from these providers to find the best fit for your needs and budget.",
+  "cached_at": "2026-05-28T08:28:48Z",
+  "metadata": {}
+}

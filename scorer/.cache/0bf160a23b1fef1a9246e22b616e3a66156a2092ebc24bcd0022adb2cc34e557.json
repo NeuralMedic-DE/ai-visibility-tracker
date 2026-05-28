@@ -1,0 +1,9 @@
+{
+  "brand": "Leapsome",
+  "prompt_id": "AL-03",
+  "llm": "anthropic",
+  "prompt_text": "Best HR alternatives for fast-growing companies with performance-driven cultures teams on a budget",
+  "response": "# Best HR Alternatives for Budget-Conscious, Fast-Growing Companies\n\n## Low-Cost All-in-One Platforms\n\n**Guidepoint / Lattice** (mid-tier pricing)\n- Performance management, engagement, and goal tracking\n- Better for companies wanting integrated tools without enterprise costs\n- Good OKR capabilities for performance-driven cultures\n\n**Deel or Rippling** (scaling-friendly)\n- Excellent for remote/distributed teams\n- Payroll + HRIS bundled affordably\n- Rippling has strong compliance automation\n\n## Best Specific Tools (Mix & Match Budget Approach)\n\n| Need | Best Budget Option |\n|------|-------------------|\n| **Core HRIS** | Guidepoint, Monday.com HR module, or Bamboo HR lite |\n| **Performance** | 15Five or CultureAmp (freemium options available) |\n| **Recruiting** | Workable, Ashby, or LinkedIn Recruiter Lite |\n| **Engagement** | Officevibe or Bonusly (lightweight, affordable) |\n| **Payroll** | Gusto or Deel |\n\n## Budget Hacks\n\n1. **Spreadsheet + tool combo** — Use AirtTable + Zapier for custom workflows (surprisingly effective for <100 employees)\n2. **Freemium plays** — Notion + Slack + free tiers of Workable/Lever for early stage\n3. **Open-source alternatives** — OrangeHRM (self-hosted, free)\n\n## Red Flags to Avoid\n- Hidden per-employee fees that explode at scale\n- Tools requiring annual commitments before you've tested them\n\n**What's your current team size?** That shapes the best recommendation.",
+  "cached_at": "2026-05-28T06:37:12Z",
+  "metadata": {}
+}

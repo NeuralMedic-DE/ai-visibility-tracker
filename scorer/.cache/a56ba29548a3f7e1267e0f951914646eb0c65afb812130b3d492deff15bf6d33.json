@@ -1,0 +1,9 @@
+{
+  "brand": "ActiveCampaign",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with segment contacts and send personalized campaigns based on behavioral data at scale?",
+  "response": "# Software for Behavioral Segmentation & Personalized Campaigns\n\n## **Top Enterprise Platforms**\n\n### **Marketing Automation**\n- **HubSpot** – Behavioral tracking, dynamic segmentation, personalized workflows\n- **Marketo (Adobe)** – Advanced lead scoring, behavioral triggers, multi-touch campaigns\n- **Pardot (Salesforce)** – B2B-focused behavioral automation\n- **ActiveCampaign** – Behavioral automation and CRM integration at mid-market scale\n\n### **Customer Data Platforms (CDP)**\n- **Segment** – Unifies behavioral data, enables real-time segmentation\n- **Tealium** – Data collection and audience activation across channels\n- **mParticle** – Behavioral data integration and segmentation\n- **Treasure Data** – Enterprise CDP with advanced analytics\n\n### **Email & Campaign Management**\n- **Klaviyo** – E-commerce focused, behavioral triggers, dynamic content\n- **Iterable** – Cross-channel campaigns with detailed behavioral data\n- **Braze** – Multi-channel personalization at scale\n- **SendGrid** – Email with segmentation and dynamic content\n\n## **Key Features to Look For**\n- Real-time behavioral tracking\n- Dynamic segmentation rules\n- Predictive analytics\n- Cross-channel campaign management\n- A/B testing capabilities\n- Integration with your data stack\n\n**Best choice depends on**: your industry, budget, data volume, and existing tech stack.\n\nWhat's your primary use case or company size?",
+  "cached_at": "2026-05-28T07:23:44Z",
+  "metadata": {}
+}

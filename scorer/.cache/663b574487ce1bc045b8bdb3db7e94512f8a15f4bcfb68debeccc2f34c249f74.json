@@ -1,0 +1,9 @@
+{
+  "brand": "Checkly",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Checkly vs Datadog: which is better?",
+  "response": "# Checkly vs Datadog\n\nThere's no universal \"better\"—it depends on your needs:\n\n## **Checkly is better if you want:**\n- **Focused monitoring** - Specialized in API & website uptime/performance\n- **Simpler setup** - Easier to get started quickly\n- **Lower cost** - Generally cheaper for basic monitoring\n- **Developer-friendly** - Good UI, scriptable checks, browser automation\n\n## **Datadog is better if you want:**\n- **Comprehensive observability** - APM, logs, metrics, traces, synthetics all integrated\n- **Enterprise scale** - Better for complex, multi-service environments\n- **Deep integrations** - Connects with virtually everything\n- **Advanced analytics** - More powerful dashboards and alerting\n- **Full-stack visibility** - Infrastructure + application + user experience monitoring\n\n## **Key tradeoff:**\n- **Checkly** = Specialized, simpler, cheaper\n- **Datadog** = All-in-one platform, steeper learning curve, pricier\n\n## **Choose Checkly if:**\nYou mainly need uptime/performance monitoring for APIs/websites\n\n## **Choose Datadog if:**\nYou need comprehensive observability across infrastructure, apps, and logs—and budget allows\n\n**Pro tip:** Some teams use *both*—Checkly for lightweight synthetic monitoring and Datadog for broader observability. Evaluate based on your specific monitoring gaps and budget constraints.\n\nWhat's your main monitoring use case?",
+  "cached_at": "2026-05-28T06:22:41Z",
+  "metadata": {}
+}

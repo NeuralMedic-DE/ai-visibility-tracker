@@ -1,0 +1,9 @@
+{
+  "brand": "Render",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with run background workers and cron jobs reliably in production at scale?",
+  "response": "# Popular Solutions for Background Workers & Cron Jobs\n\n## **Message Queues + Workers**\n- **RabbitMQ** - Robust, mature message broker with excellent reliability\n- **Apache Kafka** - High-throughput, distributed, great for event streaming\n- **Redis** - Simpler alternative for smaller scales; also powers queue libraries\n\n## **Job Queue Frameworks**\n- **Celery** (Python) - Industry standard, works with RabbitMQ/Redis\n- **Bull** (Node.js) - Redis-backed, developer-friendly\n- **Sidekiq** (Ruby) - Redis-based, battle-tested in production\n- **Resque** (Ruby/multi-lang) - Simple Redis job queue\n- **APScheduler** (Python) - Good for scheduled tasks\n\n## **Dedicated Platforms**\n- **AWS SQS + Lambda** - Serverless, managed, scales automatically\n- **Google Cloud Tasks** - Managed task scheduling and queuing\n- **Temporal** - Workflow orchestration, great for complex retry logic\n- **BullMQ** - Modern alternative to Bull with better clustering\n\n## **Cron Job Specific**\n- **APScheduler** (Python)\n- **node-cron** or **node-schedule** (Node.js)\n- **rufus-scheduler** (Ruby)\n- **Quartz** (Java)\n- **Traditional cron** + monitoring tools like **Cronitor** or **Oh Dear**\n\n## **Key Considerations for Production**\n✓ Persistence & durability  \n✓ Retry mechanisms & dead-letter queues  \n✓ Monitoring & alerting  \n✓ Horizontal scaling  \n✓ Deduplication (if needed)  \n\n**Most common production combo:** RabbitMQ/Redis + Celery/Sidekiq + monitoring tool\n\nWhat's your tech stack?",
+  "cached_at": "2026-05-27T21:38:13Z",
+  "metadata": {}
+}

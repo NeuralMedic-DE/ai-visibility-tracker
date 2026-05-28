@@ -1,0 +1,9 @@
+{
+  "brand": "Amplemarket",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with automate multi-channel outreach sequences at scale?",
+  "response": "# Multi-Channel Outreach Automation Tools\n\n## Enterprise-Grade Platforms\n\n**HubSpot** - Workflow automation across email, social, SMS, and ads with strong CRM integration\n\n**Marketo** - B2B-focused marketing automation with sophisticated lead nurturing sequences\n\n**Salesforce Marketing Cloud** - Enterprise solution for coordinated campaigns across channels\n\n## Specialized Outreach Platforms\n\n**Lemlist** - Email + LinkedIn sequences with personalization and deliverability focus\n\n**Instantly** - Affordable multi-channel (email, LinkedIn, Twitter, SMS) with warm-up features\n\n**Outreach** - Sales-focused with email, phone, and task automation at scale\n\n**Apollo** - Email + LinkedIn sequences with built-in prospect database\n\n## Mid-Market Options\n\n**ActiveCampaign** - Good balance of automation, CRM, and ease of use\n\n**GetResponse** - Email marketing with basic multi-channel capabilities\n\n**Klaviyo** - E-commerce focused but strong cross-channel automation\n\n## Key Features to Consider\n\n- Channel coverage (email, LinkedIn, SMS, social)\n- Personalization/variable substitution\n- Deliverability management\n- CRM integration\n- Lead scoring and qualification\n- Analytics and reporting\n- Compliance tools (GDPR, CAN-SPAM)\n\n**What's your primary use case?** (B2B sales, marketing campaigns, customer retention) This would help narrow recommendations—the best choice varies significantly by industry and scale.",
+  "cached_at": "2026-05-27T19:04:34Z",
+  "metadata": {}
+}

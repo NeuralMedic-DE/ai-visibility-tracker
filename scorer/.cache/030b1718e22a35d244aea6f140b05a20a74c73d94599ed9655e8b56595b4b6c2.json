@@ -1,0 +1,9 @@
+{
+  "brand": "Hightouch",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best reverse ETL for RevOps and data teams activating warehouse data in operational tools?",
+  "response": "# Best Reverse ETL Options for RevOps/Data Teams\n\n## Top Tier Options\n\n**Hightouch** and **Census** dominate this space for good reasons:\n\n- **Workflow flexibility**: Both handle complex RevOps use cases (territory assignments, account scoring, lead routing)\n- **Data warehouse native**: Direct connections to Snowflake, BigQuery, Redshift without intermediaries\n- **Operational tool coverage**: Salesforce, HubSpot, Marketo, Outreach, etc.\n- **Governance features**: dbt integration, lineage tracking, approval workflows\n\n**Slight differences:**\n- **Hightouch**: Slightly better UI/UX for less technical users, strong Slack integration\n- **Census**: More sophisticated audience building, better for complex B2B scenarios\n\n## By Use Case\n\n| Use Case | Best Choice |\n|----------|-------------|\n| Territory management | Hightouch or Census |\n| Lead scoring sync | Either (Census edges for real-time) |\n| Account-based marketing | Census |\n| Simple field syncs | Zapier/Make (if you're already in ecosystem) |\n\n## Considerations\n\n**Pick based on:**\n- Your team's SQL/dbt comfort level (both support both paths)\n- Existing vendor relationships\n- Real-time vs. batch needs (most handle both)\n- Budget (Hightouch/Census comparable pricing, ~$1-5k/mo depending on volume)\n\n## Honest Take\n\nFor serious RevOps work, Hightouch or Census are table stakes. The choice between them matters less than proper data governance and modeling upstream.\n\nWhat's your primary activation need? That might narrow it further.",
+  "cached_at": "2026-05-28T09:05:14Z",
+  "metadata": {}
+}

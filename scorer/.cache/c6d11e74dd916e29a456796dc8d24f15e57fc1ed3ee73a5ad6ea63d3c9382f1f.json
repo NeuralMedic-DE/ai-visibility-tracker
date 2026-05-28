@@ -1,0 +1,9 @@
+{
+  "brand": "Raycast",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do Mac-based developer and design teams at tech companies companies use to launch apps and run custom workflows from the keyboard instantly?",
+  "response": "# Mac Developer & Design Tools for Keyboard Launching\n\nThe primary tools for this are:\n\n## **Spotlight & Built-in Options**\n- **Spotlight Search** (Cmd+Space) - macOS native, searches apps and files\n- **Launchpad** - quick app access, though less efficient than alternatives\n\n## **Dedicated Launcher/Productivity Tools**\n- **Alfred** - extremely popular, allows custom workflows, scripts, and automation\n- **Raycast** - modern alternative gaining traction, with extensions and API\n- **LaunchBar** - veteran option with powerful search and actions\n- **Quicksilver** - older but still used, highly customizable\n\n## **Custom Workflow Automation**\n- **Automator** - macOS native tool for workflow automation\n- **Apple Script / JavaScript for Automation** - scripting capabilities\n- **Make** (formerly Zapier) or **n8n** - for connecting services\n- **Keyboard Maestro** - macro automation tool\n\n## **Development-Specific**\n- **iTerm2** with custom shell aliases and scripts\n- **Homebrew** for package management and scripting\n- **VS Code** with command palette (Cmd+Shift+P)\n\n## **Most Common Stack**\nAt tech companies, you'll typically see **Alfred + Keyboard Maestro + custom shell scripts** or **Raycast** as the modern minimalist choice.\n\nAre you looking to set up a specific type of workflow?",
+  "cached_at": "2026-05-28T06:25:21Z",
+  "metadata": {}
+}

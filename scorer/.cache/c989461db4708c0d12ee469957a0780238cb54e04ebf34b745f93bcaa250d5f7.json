@@ -1,0 +1,9 @@
+{
+  "brand": "Folk",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Folk integrate with Gmail?",
+  "response": "Yes, Folk integrates with Gmail. This integration allows you to manage your contacts and communications more effectively by syncing your Gmail contacts with Folk. This can help streamline your workflow by keeping your contact information up-to-date and accessible within the Folk platform.",
+  "cached_at": "2026-05-27T18:51:59Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Instantly",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Instantly vs Lemlist: which is better?",
+  "response": "# Instantly vs Lemlist\n\nBoth are solid cold email platforms, but they suit different needs:\n\n## **Instantly** - Better for:\n- **Volume & speed** - Higher daily sending limits\n- **Budget-conscious users** - Generally cheaper\n- **Simplicity** - Straightforward interface\n- **Warm-up features** - Strong inbox placement focus\n\n## **Lemlist** - Better for:\n- **Personalization** - Superior personalization (dynamic text, images, videos)\n- **Sales teams** - More polished, designed for sales workflows\n- **Campaign intelligence** - Better analytics and lead scoring\n- **Visual campaigns** - Built-in design tools\n- **Sequence complexity** - More advanced automation\n\n## **Quick comparison:**\n\n| Factor | Instantly | Lemlist |\n|--------|-----------|---------|\n| Price | Cheaper | Higher |\n| Personalization | Basic | Advanced |\n| Ease of use | Simple | Moderate |\n| Deliverability | Strong | Strong |\n| Analytics | Standard | Detailed |\n\n**Choose Instantly if:** You want affordability + solid basics\n**Choose Lemlist if:** You want advanced personalization + premium features\n\n**Best approach:** Try both free trials—the right choice depends on your specific workflow and budget.\n\nWhat's your main priority? That might help narrow it down.",
+  "cached_at": "2026-05-28T07:18:58Z",
+  "metadata": {}
+}

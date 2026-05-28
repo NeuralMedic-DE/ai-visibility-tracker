@@ -1,0 +1,9 @@
+{
+  "brand": "Sentry",
+  "prompt_id": "AL-05",
+  "llm": "anthropic",
+  "prompt_text": "Open source or affordable error monitoring tools instead of Bugsnag",
+  "response": "# Error Monitoring Alternatives to Bugsnag\n\n## Free/Open Source\n\n### **Sentry**\n- **Best for:** Developers wanting Bugsnag-like features free\n- **Cost:** Free tier (5k events/month) + paid plans\n- **Highlights:** Self-hostable, great SDK support, issue grouping\n- **Drawback:** Free tier limited; self-hosting requires infrastructure\n\n### **Glitchtip**\n- **Best for:** Budget-conscious teams\n- **Cost:** Free (self-hosted) or hosted version\n- **Highlights:** Sentry-compatible API, lightweight\n- **Note:** Smaller community than Sentry\n\n### **Rollbar**\n- **Best for:** Balanced features vs. cost\n- **Cost:** Free tier (5k events/month) + affordable paid\n- **Highlights:** Good integrations, source maps support\n- **Drawback:** Less generous free tier than Sentry\n\n### **Plane** (Issue tracking alternative)\n- Lightweight, self-hosted option for error tracking\n- Focus on simplicity over advanced features\n\n---\n\n## Budget Options (Not Open Source)\n\n| Tool | Free Tier | Best For |\n|------|-----------|----------|\n| **Airbrake** | Yes (50k errors/mo) | Teams needing reliability focus |\n| **Raygun** | Limited free tier | .NET-heavy environments |\n| **LogRocket** | Yes | Frontend + session replay |\n| **Sematext** | Yes | Infrastructure + error monitoring |\n\n---\n\n## DIY/Minimal Cost\n\n- **ELK Stack** (Elasticsearch, Logstash, Kibana) - self-hosted logging\n- **Grafana** + **Loki** - lightweight log aggregation\n- **Datadog** - expensive but free trial available\n\n---\n\n**My recommendation:** Start with **Sentry's free tier**—it's the closest Bugsnag alternative and covers most needs before you need to pay.",
+  "cached_at": "2026-05-27T21:18:01Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Fivetran",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is Fivetran better than Airbyte for transform and model raw data with dbt in a unified managed data pipeline?",
+  "response": "# Fivetran vs Airbyte for dbt Integration\n\nThis depends on your specific needs, but here's a balanced assessment:\n\n## Fivetran's Strengths\n- **Transformations (dbt)**: Native dbt Cloud integration with built-in orchestration\n- **Polish & support**: More mature, enterprise-grade platform\n- **Connector breadth**: ~600+ pre-built connectors (vs Airbyte's ~350+)\n- **Reliability**: Better uptime track record for critical pipelines\n\n## Airbyte's Strengths\n- **Cost**: Significantly cheaper, especially at scale\n- **Open source**: Self-hosted option gives you control\n- **Flexibility**: Easier to customize and extend\n- **dbt integration**: Works well with dbt, though requires more manual orchestration setup\n- **Transparency**: Open development, active community\n\n## Key Consideration: Your dbt Workflow\n\n**Fivetran wins if you want:**\n- Fully managed end-to-end pipeline (EL + T)\n- Minimal operational overhead\n- Native dbt Cloud orchestration\n\n**Airbyte wins if you prefer:**\n- Building your own orchestration (Airflow, Dagster, etc.)\n- Lower costs with self-hosting\n- More control over the stack\n\n## The Reality\nBoth work with dbt effectively. The choice is more about **operational preferences** (managed vs. DIY) and **budget** than raw capability.\n\n**What's your current architecture and budget range?** That would help narrow down the better fit.",
+  "cached_at": "2026-05-28T08:58:34Z",
+  "metadata": {}
+}

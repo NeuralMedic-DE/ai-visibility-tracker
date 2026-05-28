@@ -6,11 +6,13 @@ import { cn } from "@/lib/cn";
 interface WaitlistFormProps {
   className?: string;
   variant?: "hero" | "compact";
+  /** Pre-fill the brand name field — useful when opening from a specific row */
+  defaultBrandInterest?: string;
 }
 
-export function WaitlistForm({ className, variant = "hero" }: WaitlistFormProps) {
+export function WaitlistForm({ className, variant = "hero", defaultBrandInterest }: WaitlistFormProps) {
   const [email, setEmail] = useState("");
-  const [brandInterest, setBrandInterest] = useState("");
+  const [brandInterest, setBrandInterest] = useState(defaultBrandInterest ?? "");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [message, setMessage] = useState("");
 

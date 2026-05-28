@@ -1,0 +1,9 @@
+{
+  "brand": "Planetscale",
+  "prompt_id": "IN-03",
+  "llm": "perplexity",
+  "prompt_text": "How do I connect Planetscale with GitHub?",
+  "response": "To connect **PlanetScale with GitHub**, the usual approach is to use **GitHub Actions** with the **PlanetScale CLI (`pscale`)**. PlanetScale’s docs say the recommended setup is the `planetscale/setup-pscale-action`, which makes `pscale` available in your workflow, and then you authenticate with **service token** secrets stored in GitHub. [1][2]\n\nA typical setup looks like this:\n\n- Create a **PlanetScale service token** and give it permissions for the database you want to use. [1]\n- Add the token values to your GitHub repository secrets as:\n  - `PLANETSCALE_SERVICE_TOKEN_ID`\n  - `PLANETSCALE_SERVICE_TOKEN` [1]\n- In your workflow, install `pscale` with:\n  ```yaml\n  - name: Setup pscale\n    uses: planetscale/setup-pscale-action@v1\n  ```\n  [1][2]\n- Pass the secrets into the workflow as environment variables before running `pscale` commands. [1]\n- Use `pscale` to automate tasks such as:\n  - listing databases\n  - creating database branches\n  - creating passwords\n  - opening deploy requests\n  - deploying a branch by name [1][2]\n\nFor example, PlanetScale shows this pattern for a command step:\n\n```yaml\n- name: Run pscale command\n  env:\n    PLANETSCALE_SERVICE_TOKEN_ID: ${{ secrets.PLANETSCALE_SERVICE_TOKEN_ID }}\n    PLANETSCALE_SERVICE_TOKEN: ${{ secrets.PLANETSCALE_SERVICE_TOKEN }}\n  run: pscale database list\n```\n[1]\n\nIf your goal is **CI/CD integration**, you can also use GitHub branch names to create matching PlanetScale branches, then generate branch passwords and deploy requests as part of your pipeline. PlanetScale specifically documents this as a common GitHub Actions workflow. [1][2]\n\nIf you want, I can give you a **ready-to-paste GitHub Actions YAML** for PlanetScale.",
+  "cached_at": "2026-05-28T06:17:13Z",
+  "metadata": {}
+}

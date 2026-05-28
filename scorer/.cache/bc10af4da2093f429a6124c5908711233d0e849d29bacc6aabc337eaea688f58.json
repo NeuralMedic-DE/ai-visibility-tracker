@@ -1,0 +1,9 @@
+{
+  "brand": "PostHog",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Mixpanel vs alternatives: what should I switch to?",
+  "response": "# Mixpanel Alternatives: Key Considerations\n\n## When to consider switching\n\n- **Cost concerns** – Mixpanel's pricing scales steeply with events\n- **Overkill for your needs** – You don't need advanced funnel/retention analysis\n- **Data privacy requirements** – Self-hosting or stricter data residency needed\n- **Simpler use cases** – Basic event tracking without complex behavioral analysis\n\n## Strong alternatives by use case\n\n### **Most similar (enterprise-grade)**\n- **Amplitude** – Best if you want comparable features at better unit economics; stronger retention analysis\n- **Segment** – Better if you need a CDP/data hub connecting to multiple tools\n\n### **Simpler & cheaper**\n- **Plausible/Fathom** – Privacy-first, simpler interface, lower cost (but less segmentation)\n- **PostHog** – Open-source option, self-hostable, good for product teams\n- **Heap** – Auto-capture of events reduces implementation overhead\n\n### **For specific needs**\n- **Looker Studio/Metabase** – If you already have raw data; build custom dashboards cheaper\n- **Rudderstack** – If you need CDP features + analytics combined\n- **June.so** – Great for B2B SaaS, simpler interface, strong cohort analysis\n\n## Honest trade-offs\n\n| Why you might stay | Why you might leave |\n|---|---|\n| Unmatched funnel analysis | High cost per event |\n| Mature product | Steep learning curve |\n| Strong integrations | Overkill for simple tracking |\n| | Data residency concerns |\n\n**What's your main pain point with Mixpanel?** That would help narrow it down.",
+  "cached_at": "2026-05-27T19:36:55Z",
+  "metadata": {}
+}

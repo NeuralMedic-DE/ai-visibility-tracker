@@ -1,0 +1,9 @@
+{
+  "brand": "Plausible",
+  "prompt_id": "CD-04",
+  "llm": "openai",
+  "prompt_text": "Best web analytics platforms for track website traffic without cookies or consent banners",
+  "response": "Tracking website traffic without using cookies or requiring consent banners can be challenging due to privacy regulations like the GDPR and CCPA. However, there are some analytics platforms designed to respect user privacy and operate without cookies. Here are a few options:\n\n1. **Plausible Analytics**: Plausible is a simple, open-source, and privacy-friendly analytics tool. It doesn't use cookies and complies with privacy regulations by default. It provides essential metrics without compromising user privacy.\n\n2. **Fathom Analytics**: Fathom is another privacy-focused analytics platform that doesn't use cookies. It offers a straightforward dashboard with essential metrics and is designed to be compliant with privacy laws.\n\n3. **Matomo (formerly Piwik)**: Matomo can be configured to operate without cookies. It is a powerful open-source analytics platform that can be hosted on your own server, giving you full control over your data.\n\n4. **Simple Analytics**: This platform focuses on providing insights without tracking personal data or using cookies. It offers a clean and simple interface, making it easy to understand your website's performance.\n\n5. **GoAccess**: For those comfortable with server logs, GoAccess is a real-time web log analyzer that doesn't rely on cookies. It provides a terminal-based interface and can be a good option for technical users.\n\nThese platforms are designed to respect user privacy and can help you track website traffic without the need for consent banners, as they don't collect personal data or use cookies. However, it's always a good idea to review their compliance with the specific privacy laws applicable to your region.",
+  "cached_at": "2026-05-27T20:14:43Z",
+  "metadata": {}
+}

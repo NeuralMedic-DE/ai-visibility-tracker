@@ -1,0 +1,9 @@
+{
+  "brand": "Salesflare",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Salesflare with Gmail?",
+  "response": "# Connecting Salesflare with Gmail\n\nHere's how to set up the integration:\n\n## Steps to Connect\n\n1. **Log in to Salesflare** and go to your account settings\n2. **Navigate to Integrations** (usually in Settings > Integrations or Apps)\n3. **Find Gmail** in the available integrations\n4. **Click \"Connect\"** or \"Authorize\"\n5. **Sign in with your Gmail account** when prompted\n6. **Grant permissions** - Salesflare will ask permission to access your Gmail account\n7. **Confirm the connection** in Salesflare\n\n## What You Get After Connecting\n\n- **Email tracking** - See when emails are opened and links are clicked\n- **Email sync** - Gmail messages automatically sync to contact records\n- **Two-way sync** - Emails appear in both Gmail and Salesflare\n- **Email logging** - Automatically log emails to relevant deals/contacts\n\n## Troubleshooting Tips\n\n- Ensure you're using a **Gmail business account** (recommended)\n- If using 2-factor authentication, you may need to create an **app-specific password**\n- Check that **pop-up permissions** are enabled in your browser\n- Verify the email account you're connecting owns the Salesflare workspace\n\n## Need More Help?\n\nCheck Salesflare's official documentation or contact their support team if you encounter issues during setup.\n\nIs there a specific feature of the Gmail integration you're trying to set up?",
+  "cached_at": "2026-05-27T18:14:58Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Apify",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Apify integrate with Python?",
+  "response": "Yes. Apify has **official Python support** through both an SDK and an API client.\n\nKey options:\n\n- **Apify SDK for Python (`apify` package)** – for building and running **Apify Actors in Python** (web scraping, automation, storage, etc.). It handles actor lifecycle, local storage emulation, and events, and requires Python ≥ 3.10.[2][5]  \n  - Install:  \n    ```bash\n    pip install apify\n    ```[2][5]\n\n- **Apify API Client for Python (`apify-client` package)** – for accessing the **Apify API from any Python app** without creating Actors.[1][5]  \n  - Install:  \n    ```bash\n    pip install apify-client\n    ```[1][6]\n\n- You can also integrate Apify with other **Python ecosystems**, for example:\n  - **Crawlee for Python** running on the Apify platform via the Apify SDK and CLI.[3]  \n  - **LangChain Python** using `langchain-apify` to run Actors and load datasets into LLM apps.[4]  \n\nIf you tell me your use case (e.g., “run an existing Actor and read its dataset” vs “write a new scraper as a Python Actor”), I can show a minimal code snippet for the best option.",
+  "cached_at": "2026-05-28T08:00:57Z",
+  "metadata": {}
+}

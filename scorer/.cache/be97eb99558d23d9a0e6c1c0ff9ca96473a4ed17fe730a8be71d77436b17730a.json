@@ -1,0 +1,9 @@
+{
+  "brand": "Vitally",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Vitally with Salesforce?",
+  "response": "# Connecting Vitally with Salesforce\n\nHere are the main steps to integrate Vitally with Salesforce:\n\n## 1. **Access Vitally Settings**\n- Log into your Vitally account\n- Navigate to **Settings** → **Integrations**\n\n## 2. **Find Salesforce Integration**\n- Look for the Salesforce integration option\n- Click to initiate the connection\n\n## 3. **Authorize the Connection**\n- You'll be prompted to log into your Salesforce account\n- Grant Vitally the necessary permissions\n- Approve the OAuth connection request\n\n## 4. **Configure Field Mapping**\n- Map Salesforce fields to Vitally fields\n- Decide which data syncs between platforms:\n  - Accounts\n  - Contacts\n  - Opportunities\n  - Custom fields\n\n## 5. **Test the Integration**\n- Verify that data is syncing correctly\n- Check both directions (Salesforce → Vitally and vice versa)\n\n## Tips:\n- Ensure you have admin access in both Vitally and Salesforce\n- Review your field mappings to prevent data conflicts\n- Start with core fields before adding custom fields\n\n## Need More Help?\n- Check Vitally's [help documentation](https://help.vitally.io)\n- Contact Vitally support for specific configuration issues\n- Verify API permissions in your Salesforce org\n\nIs there a specific aspect of the integration you're having trouble with?",
+  "cached_at": "2026-05-28T08:09:39Z",
+  "metadata": {}
+}

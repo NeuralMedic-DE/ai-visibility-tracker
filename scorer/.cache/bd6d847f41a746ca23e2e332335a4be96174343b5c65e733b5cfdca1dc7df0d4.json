@@ -1,0 +1,9 @@
+{
+  "brand": "LangChain",
+  "prompt_id": "AL-02",
+  "llm": "openai",
+  "prompt_text": "Cheaper alternatives to Haystack",
+  "response": "If you're looking for cheaper alternatives to Haystack, which is a tool for managing and organizing digital content, there are several options you might consider depending on your specific needs:\n\n1. **Pocket**: A popular tool for saving articles, videos, and other web content to view later. It offers a free version with basic features.\n\n2. **Raindrop.io**: A versatile bookmarking tool that allows you to save and organize web content. It has a free tier with essential features and a reasonably priced premium version.\n\n3. **Evernote**: While primarily a note-taking app, Evernote allows you to clip web pages and organize them. It offers a free plan with limited features.\n\n4. **Notion**: A highly customizable workspace that can be used for note-taking, project management, and saving web content. Notion offers a free plan with a good range of features.\n\n5. **Instapaper**: Similar to Pocket, Instapaper lets you save articles and other content to read later. It offers a free version with basic functionality.\n\n6. **Diigo**: A social bookmarking tool that allows you to save, tag, and annotate web pages. It has a free plan with basic features.\n\n7. **OneNote**: Microsoft's note-taking app that integrates well with other Microsoft products and allows for web clipping. It is free to use with a Microsoft account.\n\nThese tools vary in terms of features and pricing, so it's a good idea to explore them to see which one best fits your needs.",
+  "cached_at": "2026-05-28T07:39:41Z",
+  "metadata": {}
+}

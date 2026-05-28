@@ -1,0 +1,9 @@
+{
+  "brand": "Planetscale",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Planetscale vs Aurora: which is better?",
+  "response": "# PlanetScale vs Aurora: Key Differences\n\nNeither is universally \"better\"—it depends on your needs:\n\n## **PlanetScale**\n**Best for:**\n- Startups and small teams\n- Simple, serverless workflows\n- Rapid scaling without ops overhead\n- MySQL compatibility preferred\n\n**Strengths:**\n- Truly serverless (pay-per-query)\n- Instant scaling\n- Branch/PR workflow (great for development)\n- Lower baseline costs\n\n**Weaknesses:**\n- Removed online DDL (breaking change)\n- Less mature than Aurora\n- Limited to MySQL\n- Can get expensive at high volumes\n\n## **Aurora**\n**Best for:**\n- Production workloads at scale\n- Teams comfortable with AWS ecosystem\n- Complex queries and reporting\n- Predictable, consistent performance\n\n**Strengths:**\n- High availability built-in\n- PostgreSQL + MySQL options\n- Advanced features (read replicas, backtrack, etc.)\n- Better for complex applications\n\n**Weaknesses:**\n- Requires more operational knowledge\n- Minimum costs higher\n- More complex to set up\n- You manage provisioning\n\n## **Quick Decision Guide**\n- **Early stage startup?** → PlanetScale\n- **Production, scaling fast?** → Aurora\n- **Cost-sensitive?** → PlanetScale (at small scale)\n- **Need Postgres?** → Aurora (PlanetScale is MySQL only)\n- **Hands-off serverless?** → PlanetScale\n- **Need enterprise features?** → Aurora\n\nWhat's your specific use case?",
+  "cached_at": "2026-05-28T06:15:22Z",
+  "metadata": {}
+}

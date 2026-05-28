@@ -1,0 +1,9 @@
+{
+  "brand": "Render",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Heroku vs alternatives: what should I switch to?",
+  "response": "# Heroku Alternatives Comparison\n\n## Best overall replacements\n\n**Railway**\n- Similar dev experience to old Heroku\n- Generous free tier, reasonable pricing\n- Good for side projects and startups\n- GitHub integration, automatic deploys\n\n**Fly.io**\n- Global deployment out of the box\n- Affordable ($0.003/cpu-hour)\n- Great for performance-sensitive apps\n- Slightly steeper learning curve\n\n**Render**\n- Clean, intuitive dashboard\n- Free tier available\n- Auto-deploy from Git\n- Good for straightforward apps\n\n## Specialized options\n\n| Use case | Best choice |\n|----------|------------|\n| **Full control + cost savings** | AWS/DigitalOcean (VPS) |\n| **Containerized apps** | Docker + any cloud (AWS, GCP, DO) |\n| **Serverless** | Vercel, Netlify, AWS Lambda |\n| **Databases included** | PlanetScale, Supabase |\n| **Simplicity** | Railway, Render |\n\n## Decision factors\n\n- **Budget**: Railway/Fly cheaper long-term\n- **Language**: Check support (Node, Python, Go, etc.)\n- **Database needs**: Verify what's included\n- **Team size**: Some have better collab features\n- **Lock-in risk**: All have it somewhat—pick based on exit strategy\n\n## My take\nIf you liked Heroku's simplicity, try **Railway** first. If you need global performance, **Fly.io**. For maximum control and cost efficiency, bite the bullet on **DigitalOcean** or **AWS**.\n\nWhat's your main concern—cost, simplicity, or specific tech stack?",
+  "cached_at": "2026-05-27T21:37:27Z",
+  "metadata": {}
+}

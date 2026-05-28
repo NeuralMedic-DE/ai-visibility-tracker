@@ -1,0 +1,9 @@
+{
+  "brand": "Humaans",
+  "prompt_id": "CD-05",
+  "llm": "anthropic",
+  "prompt_text": "Recommended HR tools for HR teams at startups and scaleups scaling their people ops companies",
+  "response": "# HR Tools for Scaling Startup People Operations\n\n## Core HRIS/People Platforms\n- **Guidepoint, Rippling, Deel** – All-in-one (payroll, benefits, compliance, directory)\n- **Workday** – Enterprise option as you scale past 500 employees\n- **BambooHR, Lattice** – Mid-market focused, strong culture features\n\n## Recruitment & Onboarding\n- **Ashby, Greenhouse** – ATS with strong data/analytics\n- **Workable** – Budget-friendly, good for growing teams\n- **Zappi** – Quick implementation\n- **Notion, Airbase** – DIY onboarding workflows (cost-effective initially)\n\n## Performance & Engagement\n- **15Five, Lattice, Culture Amp** – Goals, feedback, pulse surveys\n- **Officevibe** – Lightweight engagement tracking\n- **Loom** – Async communication/updates\n\n## Compensation & Equity\n- **Pulley, Carta** – Cap table & equity management\n- **Radford** – Benchmarking (pricey but comprehensive)\n- **Payfactors, Salary.com** – Salary data\n\n## Time & Attendance\n- **Clockify, Toggl** – Time tracking\n- **BambooHR** – Integrated absence management\n\n## Key Selection Criteria for Startups\n✓ **Integration ecosystem** (Slack, Google Workspace, accounting tools)  \n✓ **Implementation speed** (weeks, not months)  \n✓ **Compliance automation** (varies by country)  \n✓ **Scalability** (can grow with you)  \n✓ **Cost transparency** (watch per-employee pricing)\n\n**Common mistake:** Over-tooling early. Start with 1-2 core tools, add specialists as you scale.\n\nWhat's your current team size/biggest pain point?",
+  "cached_at": "2026-05-28T06:47:57Z",
+  "metadata": {}
+}

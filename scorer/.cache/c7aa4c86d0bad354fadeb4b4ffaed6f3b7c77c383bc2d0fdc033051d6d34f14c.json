@@ -1,0 +1,9 @@
+{
+  "brand": "Attio",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Attio integrate with Slack?",
+  "response": "Yes. **Attio has a native Slack integration**, and you can also connect Attio and Slack via automation tools like Zapier and Integrately.\n\n**Native Attio ↔ Slack integration**\n\n- Attio provides an official **Slack app** so you can:\n  - **Ask Attio in Slack** via DM or by mentioning `@attio` in channels to research accounts, review pipeline, and surface customer insights directly inside Slack.[2]\n  - **Send automated notifications** (e.g., closed deals, new signups, updates) into specific Slack channels.[2][3][8]\n  - Post **interactive actions** in Slack so teammates can trigger follow-up workflows from within Slack.[2][8]\n\n- To set it up:\n  - In Attio, go to **Workspace settings → Apps and integrations → Slack**, then connect your Slack workspace and click **Allow**.[2][8]\n  - Once connected, invite `@attio` to channels or DMs and mention it to start using it.[2]\n\nAttio’s help docs also list Slack as a native **automation block**, allowing workflows that send messages or prompts to Slack channels as part of Attio automations.[8]\n\n**No-code/automation integrations**\n\n- **Zapier**: Offers prebuilt Attio–Slack “Zaps” so events in Attio (e.g., new deal, new contact, updates) can automatically post messages, reactions, or notifications into Slack channels without code.[1]\n- **Integrately**: Provides 1‑click Attio–Slack workflows for similar automations.[5]\n\nIf you tell me your use case (e.g., “notify a channel when a deal stage changes” or “query CRM data from Slack”), I can outline the exact setup steps using the native integration or an automation tool.",
+  "cached_at": "2026-05-27T17:59:26Z",
+  "metadata": {}
+}

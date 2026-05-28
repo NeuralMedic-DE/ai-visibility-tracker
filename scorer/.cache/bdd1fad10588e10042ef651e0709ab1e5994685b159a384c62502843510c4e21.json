@@ -1,0 +1,9 @@
+{
+  "brand": "Brevo",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which marketing automation software should a Marketing Manager or CMO at a small or mid-market business use?",
+  "response": "# Marketing Automation for SMBs: Key Considerations\n\nRather than a single recommendation, here's how to evaluate options for your situation:\n\n## Best Overall for SMBs\n**HubSpot** - Strong default choice because:\n- Free tier covers basic needs\n- Scales affordably as you grow\n- Excellent integration ecosystem\n- Good onboarding/support\n- CRM + marketing + sales in one platform\n\n## By Specific Needs\n\n**If you prioritize ease of use:**\n- Mailchimp (email-focused, very approachable)\n- Klaviyo (if e-commerce)\n\n**If you need advanced segmentation/personalization:**\n- ActiveCampaign\n- Marketo (steeper learning curve)\n\n**If you want tight CRM integration:**\n- Salesforce Pardot\n- HubSpot (less expensive option)\n\n**If you're budget-conscious:**\n- Brevo (formerly Sendinblue)\n- Klaviyo free tier\n\n## Questions to Ask First\n1. **What's your primary use case?** (Lead nurturing, email, customer retention, e-commerce?)\n2. **What tools do you already use?** (Especially CRM—integration matters)\n3. **Team size and technical comfort?**\n4. **Monthly budget?** ($0–$1k, $1–5k, $5k+?)\n5. **Growth timeline?**\n\n**Best move:** Take free trials of 2–3 options with your actual data. What works best is what your team will actually use consistently.\n\nWhat's your primary marketing challenge right now?",
+  "cached_at": "2026-05-28T07:25:40Z",
+  "metadata": {}
+}

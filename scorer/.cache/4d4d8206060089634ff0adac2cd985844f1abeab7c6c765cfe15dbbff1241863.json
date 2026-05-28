@@ -1,0 +1,9 @@
+{
+  "brand": "Maxio",
+  "prompt_id": "IN-04",
+  "llm": "anthropic",
+  "prompt_text": "Best billing that works with Salesforce and QuickBooks",
+  "response": "# Best Billing Solutions for Salesforce + QuickBooks\n\n## Top Recommendations\n\n### **1. Stripe Billing**\n- **Pros:** Native Salesforce integration, strong QuickBooks sync, excellent documentation\n- **Best for:** SaaS companies, subscription models\n- **Cost:** Usage-based (2.9% + $0.30 per transaction)\n\n### **2. Zuora**\n- **Pros:** Purpose-built for complex subscriptions, bi-directional sync with both platforms\n- **Best for:** Enterprise billing, recurring revenue models\n- **Cost:** Higher ($1,500+/month), but feature-rich\n\n### **3. NetSuite (Oracle)**\n- **Pros:** Complete ERP solution, seamless Salesforce integration, QuickBooks alternative\n- **Best for:** Growing companies ready to replace QuickBooks\n- **Cost:** $1,000-$2,000+/month\n\n### **4. Chargebee**\n- **Pros:** User-friendly, great Salesforce integration, QuickBooks sync\n- **Best for:** Mid-market SaaS/subscription businesses\n- **Cost:** From $99/month\n\n### **5. Clover or Square Billing**\n- **Pros:** Simple setup, good for smaller operations\n- **Best for:** Service-based businesses, retail\n- **Cost:** Low to moderate\n\n## Integration Considerations\n\n| Feature | Priority? | Notes |\n|---------|-----------|-------|\n| **Real-time sync** | High | Prevents double-entry |\n| **Invoice automation** | High | Saves admin time |\n| **Revenue recognition** | Medium | ASC 606 compliance |\n| **Expense tracking** | Medium | QB strength |\n\n## Quick Decision Framework\n\n- **Small business** → Stripe + QuickBooks\n- **Subscription model** → Chargebee or Zuora\n- **Enterprise** → Zuora or NetSuite\n- **Simplicity** → Stripe or Chargebee\n\n**What's your company size and billing model?** That would help narrow it down further.",
+  "cached_at": "2026-05-28T06:53:10Z",
+  "metadata": {}
+}

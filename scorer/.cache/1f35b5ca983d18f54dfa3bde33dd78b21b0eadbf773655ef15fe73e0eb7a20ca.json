@@ -1,0 +1,9 @@
+{
+  "brand": "Totango",
+  "prompt_id": "AL-02",
+  "llm": "openai",
+  "prompt_text": "Cheaper alternatives to ChurnZero",
+  "response": "If you're looking for more affordable alternatives to ChurnZero, which is a customer success platform, there are several options you might consider. Here are a few:\n\n1. **Custify**: Designed for SaaS businesses, Custify offers customer success tools that help reduce churn and increase customer lifetime value. It's known for its user-friendly interface and automation capabilities.\n\n2. **Totango**: This platform provides customer success solutions with a focus on customer engagement and retention. It offers a free version with basic features, which can be a cost-effective option for smaller teams.\n\n3. **ClientSuccess**: Aimed at helping companies manage customer relationships effectively, ClientSuccess offers tools for tracking customer health and engagement. It is generally more affordable than ChurnZero.\n\n4. **Gainsight Essentials**: While Gainsight is a well-known name in customer success, their Essentials package is designed for smaller businesses and offers a more budget-friendly option.\n\n5. **UserIQ**: This platform combines customer success with product analytics, allowing you to understand user behavior and improve engagement. It is often priced competitively for smaller businesses.\n\n6. **Planhat**: Planhat offers a flexible customer success platform with a focus on data-driven insights. It's suitable for businesses looking for a scalable solution.\n\n7. **Natero**: Acquired by Freshworks, Natero offers customer success tools that integrate with CRM systems to provide insights and automation for managing customer relationships.\n\nWhen choosing a platform, consider the specific features you need, such as automation, integrations, and analytics, to ensure the alternative meets your requirements while fitting within your budget.",
+  "cached_at": "2026-05-28T08:14:26Z",
+  "metadata": {}
+}

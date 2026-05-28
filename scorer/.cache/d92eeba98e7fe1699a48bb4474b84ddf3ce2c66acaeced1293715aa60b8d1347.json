@@ -1,0 +1,9 @@
+{
+  "brand": "Klipfolio",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Klipfolio integrate with Google Analytics?",
+  "response": "# Klipfolio and Google Analytics Integration\n\nYes, **Klipfolio integrates with Google Analytics**. You can:\n\n- **Connect your Google Analytics account** directly to Klipfolio\n- **Create dashboards and visualizations** using your Google Analytics data\n- **Pull metrics** like traffic, users, sessions, conversions, and other KPIs\n- **Build custom reports** combining Google Analytics with data from other sources\n\n## How it works:\n1. Add a Google Analytics data source in Klipfolio\n2. Authenticate with your Google account\n3. Select the metrics and dimensions you want to display\n4. Create visualizations and add them to your dashboards\n\nThis makes it useful for marketing teams and analysts who want to monitor website performance alongside other business metrics in a centralized dashboard.\n\nIf you're planning to use this integration, I'd recommend checking Klipfolio's current documentation or support, as platform integrations can change over time.",
+  "cached_at": "2026-05-27T20:28:42Z",
+  "metadata": {}
+}

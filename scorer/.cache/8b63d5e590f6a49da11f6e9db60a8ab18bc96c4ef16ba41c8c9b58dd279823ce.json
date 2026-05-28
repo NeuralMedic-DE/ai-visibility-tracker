@@ -1,0 +1,9 @@
+{
+  "brand": "Maxio",
+  "prompt_id": "AL-02",
+  "llm": "perplexity",
+  "prompt_text": "Cheaper alternatives to Recurly",
+  "response": "The **cheapest Recurly alternatives** in the results are **Zoho Billing / Zoho Subscriptions**, **Stripe Billing**, and **Lago** if you want an open-source option.[5][1][3] Among the sources provided, **Zoho Billing** is explicitly described as “the most budget-friendly option,” starting at **$39/month**.[5]\n\nA practical short list:\n\n- **Zoho Billing / Zoho Subscriptions** — best when cost is the main factor; one source says it starts at **$39/month** and calls it the most budget-friendly option.[5]\n- **Stripe Billing** — often cheaper if you already use Stripe for payments, since it’s part of the Stripe ecosystem and can reduce vendor sprawl.[1][7]\n- **Lago** — offers a **free open-source product**, which can be the lowest software cost if you can handle more implementation work.[1]\n- **Paddle** — worth considering if you want billing plus payment processing and tax compliance in one platform, though it is not presented as the cheapest option in the results.[1][3]\n- **Chargebee / Maxio / Zuora** — common Recurly alternatives, but these are generally positioned more as feature-rich or enterprise tools than low-cost options.[3][4]\n\nIf your main goal is **lowest monthly spend**, **Zoho Billing** is the clearest answer from the search results.[5] If you want, I can also rank these by **cheapest overall**, **best for SaaS**, or **best for usage-based billing**.",
+  "cached_at": "2026-05-28T06:53:29Z",
+  "metadata": {}
+}

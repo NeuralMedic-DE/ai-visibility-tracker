@@ -1,0 +1,9 @@
+{
+  "brand": "Retool",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Retool integrate with PostgreSQL?",
+  "response": "# Yes, Retool integrates with PostgreSQL\n\nRetool has native support for PostgreSQL, making it straightforward to connect to and query PostgreSQL databases.\n\n## Key features:\n\n- **Direct connection**: You can connect directly to PostgreSQL databases from Retool\n- **Query builder**: Write SQL queries or use the visual query builder\n- **Real-time data**: Fetch and display data in real-time\n- **CRUD operations**: Create, read, update, and delete data easily\n- **Connection pooling**: Supports efficient database connections\n\n## How to set it up:\n\n1. Create a new PostgreSQL resource in Retool\n2. Provide connection details (host, port, database name, credentials)\n3. Test the connection\n4. Write SQL queries in your app components\n\n## Common uses:\n\n- Display data in tables and charts\n- Build forms that read from and write to PostgreSQL\n- Create dashboards and internal tools\n- Automate data workflows\n\nPostgreSQL is one of Retool's most popular database integrations, so you'll find good documentation and community support for it.",
+  "cached_at": "2026-05-27T20:58:05Z",
+  "metadata": {}
+}

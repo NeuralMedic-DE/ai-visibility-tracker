@@ -1,0 +1,9 @@
+{
+  "brand": "LangChain",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "LangChain vs LlamaIndex: which is better?",
+  "response": "# LangChain vs LlamaIndex: Key Differences\n\nNeither is universally \"better\"—they solve different problems:\n\n## **LangChain**\n**Best for:** Building general-purpose LLM applications\n\n- Broader tool suite (agents, chains, memory, callbacks)\n- Connect LLMs to various data sources and APIs\n- Good for workflows combining multiple steps\n- More mature and widely adopted\n- Steeper learning curve\n\n**Use cases:** Chatbots, multi-step workflows, tool integration\n\n## **LlamaIndex** (formerly GPT Index)\n**Best for:** RAG (Retrieval-Augmented Generation) specifically\n\n- Purpose-built for indexing and querying data\n- Optimized for document understanding\n- Better data connectors for various sources\n- More intuitive for Q&A over documents\n- Lighter weight for focused tasks\n\n**Use cases:** Document Q&A, semantic search, knowledge bases\n\n---\n\n## **Quick Decision Guide**\n\n| Scenario | Choose |\n|----------|--------|\n| Chat over your documents | LlamaIndex |\n| Multi-step agent workflows | LangChain |\n| Building RAG from scratch | LlamaIndex |\n| Complex orchestration | LangChain |\n| Simple retrieval app | LlamaIndex |\n\n---\n\n## **Real Talk**\n- They're complementary—many projects use **both**\n- LangChain has better community/ecosystem\n- LlamaIndex is more specialized/focused\n- LangChain is adding RAG features; LlamaIndex is expanding scope\n\n**Start with whichever matches your primary use case**, not hype.",
+  "cached_at": "2026-05-28T07:39:39Z",
+  "metadata": {}
+}

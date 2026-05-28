@@ -1,0 +1,9 @@
+{
+  "brand": "Lattice",
+  "prompt_id": "IN-04",
+  "llm": "anthropic",
+  "prompt_text": "Best HR that works with Slack and Google Workspace",
+  "response": "# Best HR Tools for Slack + Google Workspace\n\n## Top Integrated Options\n\n### **1. Lattice**\n- **Best for:** Comprehensive HR + performance management\n- **Slack integration:** Native app, feedback workflows, announcements\n- **Google Workspace:** Calendar sync, Drive integration\n- **Strengths:** Strong performance reviews, engagement, development\n\n### **2. 15Five**\n- **Best for:** Check-ins, feedback, and engagement\n- **Slack integration:** Excellent—check-ins, pulse surveys, notifications\n- **Google Workspace:** Good compatibility\n- **Strengths:** Real-time engagement data, lightweight onboarding\n\n### **3. Guidepoint (formerly 15Five)**\n- **Best for:** Larger organizations\n- **Similar to 15Five** but scaled enterprise features\n\n### **4. Culture Amp**\n- **Best for:** Employee engagement and surveys\n- **Slack integration:** Survey notifications, results sharing\n- **Google Workspace:** Drive integration\n- **Strengths:** Excellent survey capabilities, engagement insights\n\n### **5. Bamboo HR**\n- **Best for:** Small-to-mid sized companies\n- **Slack integration:** Moderate—announcements, time-off requests\n- **Google Workspace:** Directory sync\n- **Strengths:** Affordable, user-friendly, good core HR functions\n\n## Quick Comparison Table\n\n| Tool | Core HR | Slack Integration | Best Size |\n|------|---------|------------------|-----------|\n| Lattice | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | 50-5000 |\n| 15Five | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | 50-1000 |\n| BambooHR | ⭐⭐⭐⭐ | ⭐⭐⭐ | 20-500 |\n| Culture Amp | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | 100-10000 |\n\n## Recommendation\n**Start with Lattice** (best all-around) or **15Five** (best for engagement-focused teams).\n\nWhat's your company size and primary HR need?",
+  "cached_at": "2026-05-28T06:30:22Z",
+  "metadata": {}
+}

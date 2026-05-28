@@ -1,0 +1,9 @@
+{
+  "brand": "Airbyte",
+  "prompt_id": "CD-01",
+  "llm": "perplexity",
+  "prompt_text": "What is the best data integration for data engineers at startups and mid-market companies building data pipelines?",
+  "response": "For **data engineers at startups and mid-market companies building data pipelines**, **Meltano** is the strongest fit among the results because it is explicitly described as *CLI-first*, *open source*, and “ideal for data engineers,” with support for ELT and DataOps workflows.[1]\n\nIf you want the short answer by use case:\n\n- **Best for data engineers:** **Meltano** — CLI-first, open source, and geared toward engineering-led pipeline building.[1]\n- **Best for analyst-led, easy deployment:** **Fivetran** — described as built for analysts and focused on easy deployment of standard pipelines for business use.[1]\n- **Best for enterprise-heavy integration needs:** tools like **Domo**, **Informatica**, **Oracle Data Integrator**, and **Qlik/Talend** appear in enterprise-oriented rankings, but those results are aimed more at large enterprises than startups or mid-market teams.[2]\n\nSo, if your priority is **building and owning data pipelines as a data engineer**, **Meltano** is the best match from the provided sources.[1] If you want a more managed, low-maintenance option and are less focused on engineering control, **Fivetran** is the main alternative in these results.[1]",
+  "cached_at": "2026-05-28T09:03:08Z",
+  "metadata": {}
+}

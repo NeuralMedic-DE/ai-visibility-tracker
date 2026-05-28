@@ -1,0 +1,9 @@
+{
+  "brand": "Airbyte",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I move data from 300 plus sources to your data warehouse with open-source connectors without spending a lot on software?",
+  "response": "# Budget-Friendly Data Integration Approaches\n\n## Open-Source Connector Platforms\n\n**Apache Airflow** (most popular)\n- Orchestrates 300+ data source connections\n- Large community with pre-built operators\n- Free, but requires DevOps/engineering time\n- Good if you have internal technical capacity\n\n**Airbyte** (increasingly favored)\n- 300+ connectors out-of-the-box\n- Self-hosted option is free\n- Lower engineering overhead than Airflow\n- Active open-source community\n- You cover hosting costs only\n\n**Meltano**\n- Built on Airflow/Singer ecosystem\n- CLI-driven, developer-friendly\n- Good for smaller teams\n\n## Realistic Cost Breakdown\n\n| Item | Cost |\n|------|------|\n| Open-source software | Free |\n| Cloud hosting (Airbyte/Airflow) | $200-800/month |\n| Engineering time | **Largest cost** |\n| Data warehouse | Separate (Postgres, BigQuery, etc.) |\n\n## What You Actually Need to Budget For\n\n1. **Internal engineering time** - 1-2 devs for setup/maintenance\n2. **Infrastructure** - Server/cloud costs to *run* the tools\n3. **Data warehouse licensing** - depending on choice\n4. **Monitoring & ops** - keeping pipelines healthy\n\n## Reality Check\n\n**If you have:**\n- Internal engineers → Airbyte self-hosted makes sense\n- No technical team → Open-source might cost more in consulting fees than licensed software\n\n**Hybrid approach:** Use Airbyte Cloud for complex sources, self-host for standard ones.\n\nWhat's your technical capacity like? That determines what actually saves money.",
+  "cached_at": "2026-05-28T09:03:35Z",
+  "metadata": {}
+}

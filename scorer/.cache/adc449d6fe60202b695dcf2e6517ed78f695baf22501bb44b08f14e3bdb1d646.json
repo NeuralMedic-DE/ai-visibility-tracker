@@ -1,0 +1,9 @@
+{
+  "brand": "Nudge Security",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Nudge Security integrate with Okta?",
+  "response": "Yes, Nudge Security integrates with Okta. This integration allows organizations to enhance their security posture by gaining visibility into their SaaS environments and managing access more effectively. By integrating with Okta, Nudge Security can leverage identity and access management data to provide insights and automate security processes.",
+  "cached_at": "2026-05-28T08:38:42Z",
+  "metadata": {}
+}

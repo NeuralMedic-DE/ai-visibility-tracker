@@ -1,0 +1,9 @@
+{
+  "brand": "Rippling",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with manage global workforce compliance and onboarding from one system at scale?",
+  "response": "A popular software solution that helps manage global workforce compliance and onboarding from a single system at scale is **SAP SuccessFactors**. This cloud-based human capital management (HCM) suite offers tools for onboarding, compliance management, and other HR functions, enabling companies to manage their global workforce efficiently.\n\nAnother option is **Workday**, which provides comprehensive HR solutions, including global compliance management and onboarding features. Workday's platform is designed to handle the complexities of managing a diverse and distributed workforce.\n\n**ADP** also offers global HR solutions that include compliance and onboarding functionalities, helping organizations manage their workforce across different regions.\n\nThese platforms are designed to streamline HR processes, ensure compliance with local regulations, and provide a seamless onboarding experience for employees worldwide.",
+  "cached_at": "2026-05-28T06:27:42Z",
+  "metadata": {}
+}

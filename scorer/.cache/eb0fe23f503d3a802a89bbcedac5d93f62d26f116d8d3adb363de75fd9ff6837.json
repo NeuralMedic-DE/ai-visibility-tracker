@@ -1,0 +1,9 @@
+{
+  "brand": "Grip Security",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with prevent data exfiltration through unsanctioned SaaS applications with no agents required at scale?",
+  "response": "# Cloud Access Security Brokers (CASBs)\n\nThe primary category you're describing is **Cloud Access Security Brokers**, which operate as intermediaries between users and SaaS applications. Key players include:\n\n- **Netskope**\n- **Zscaler Cloud Security**\n- **Menlo Security**\n- **Cloudflare**\n- **Forcepoint**\n\n## How They Work (Agentless)\n\nThese typically function through:\n- **Proxy deployment** (forward/reverse)\n- **DNS/URL filtering** at network level\n- **API integrations** with SaaS providers\n- **Traffic inspection** without client-side agents\n\n## Key Capabilities\n\n- Real-time DLP (Data Loss Prevention)\n- Unsanctioned app detection (\"shadow IT\")\n- Granular access controls\n- Data classification and monitoring\n- Compliance policy enforcement\n\n## Alternative Approaches\n\n- **SSE (Secure Service Edge)** platforms\n- **DLP solutions** with cloud modules\n- **API-based monitoring** for SaaS platforms\n- **Network segmentation** tools\n\n## Important Caveats\n\nTruly \"agentless at scale\" has limitations—encrypted traffic, VPNs, and sophisticated exfiltration methods can bypass proxy-based inspection. Most mature deployments use *layered* approaches rather than relying on a single tool.\n\n**What's your primary concern**: shadow IT discovery, DLP enforcement, or compliance visibility?",
+  "cached_at": "2026-05-28T08:41:28Z",
+  "metadata": {}
+}

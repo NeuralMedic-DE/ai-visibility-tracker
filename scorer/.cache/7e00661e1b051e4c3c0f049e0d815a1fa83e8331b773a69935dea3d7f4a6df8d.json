@@ -1,0 +1,9 @@
+{
+  "brand": "Leapsome",
+  "prompt_id": "IN-01",
+  "llm": "anthropic",
+  "prompt_text": "Does Leapsome integrate with Slack?",
+  "response": "# Leapsome and Slack Integration\n\nYes, Leapsome does integrate with Slack. The integration allows you to:\n\n- **Receive notifications** in Slack about feedback, survey responses, and performance review updates\n- **Access Leapsome features** directly within Slack without switching between apps\n- **Streamline workflows** by bringing performance management updates into your communication channel\n\nHowever, I'd recommend:\n1. **Checking Leapsome's current documentation** for the most up-to-date integration details\n2. **Visiting the Slack App Directory** to see the latest capabilities and installation instructions\n3. **Contacting Leapsome support** if you need specific information about setup or available features\n\nIntegration offerings can change, so confirming directly with the platform will give you the most accurate and current information about what's available.",
+  "cached_at": "2026-05-28T06:37:23Z",
+  "metadata": {}
+}

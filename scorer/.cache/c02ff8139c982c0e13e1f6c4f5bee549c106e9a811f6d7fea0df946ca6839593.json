@@ -1,0 +1,9 @@
+{
+  "brand": "Matillion",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to Informatica",
+  "response": "# Cheaper Alternatives to Informatica\n\n## **Open-Source Solutions**\n- **Apache NiFi** - Free, excellent for data routing and transformation\n- **Talend Open Studio** - Free version with enterprise options\n- **Pentaho Community Edition** - Free ETL/BI platform\n- **Apache Airflow** - Workflow orchestration (free, self-hosted)\n\n## **Cloud-Native Options**\n- **dbt (data build tool)** - $0-99/month, modern data transformation\n- **Stitch** - $100-625/month SaaS (now part of Talend)\n- **Airbyte** - Open-source + cloud options, very affordable\n- **Fivetran** - Mid-range pricing ($150-600+/month), strong alternatives\n\n## **Budget-Friendly Commercial Tools**\n- **SSIS** (SQL Server Integration Services) - Included with SQL Server licensing\n- **Alteryx** - Lower cost than Informatica in some tiers\n- **Workato** - Integration platform, competitive pricing\n- **Zapier/Make** - For simpler integration scenarios\n\n## **Selection Tips**\n| Need | Best Option |\n|------|------------|\n| Complex ETL | Apache NiFi, Talend |\n| Cloud data warehouse | dbt, Airbyte |\n| Simple integrations | Zapier, Make |\n| Self-hosted control | Pentaho, Airflow |\n| Scalability focus | Airbyte, dbt |\n\n**Key consideration:** Total cost includes licensing, infrastructure, and maintenance. Open-source tools have lower license costs but require engineering resources.\n\nWhat's your primary use case?",
+  "cached_at": "2026-05-28T09:00:46Z",
+  "metadata": {}
+}

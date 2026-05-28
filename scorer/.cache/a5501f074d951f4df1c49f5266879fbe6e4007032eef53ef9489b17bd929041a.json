@@ -1,0 +1,9 @@
+{
+  "brand": "Amplemarket",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best CRM for outbound sales teams at B2B companies?",
+  "response": "# Best CRMs for B2B Outbound Sales\n\nThere's no single \"best,\" but here are top contenders based on outbound priorities:\n\n## Strong all-around options\n- **HubSpot Sales Hub** – Great balance of ease-of-use, affordability, and outbound features (email sequences, call logging, task automation)\n- **Salesforce** – Most powerful for complex, large-team operations; steep learning curve\n- **Pipedrive** – Intuitive pipeline management; excellent for activity-focused teams\n\n## Built for outbound specifically\n- **Apollo** – Prospecting data + CRM in one; built-in email sequences and cadences\n- **Salesloft** – Industry leader for sales engagement; strong execution tools\n- **Outreach** – Similar to Salesloft; comprehensive workflow automation\n\n## Consider if you prioritize:\n- **Speed & simplicity** → HubSpot or Pipedrive\n- **Prospecting + CRM combo** → Apollo or ZoomInfo\n- **Enterprise scale** → Salesforce\n- **Email sequences/cadences** → Salesloft, Outreach, or HubSpot\n- **Budget-conscious** → HubSpot free/starter or Pipedrive\n\n## Key questions to ask first:\n- Team size and complexity?\n- Do you need built-in prospecting data?\n- Integration needs (email, phone, LinkedIn)?\n- Budget constraints?\n\nWhat's your team size and primary challenge? That would help narrow it down.",
+  "cached_at": "2026-05-27T19:02:35Z",
+  "metadata": {}
+}

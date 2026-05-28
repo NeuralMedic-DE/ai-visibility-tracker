@@ -1,0 +1,9 @@
+{
+  "brand": "June.so",
+  "prompt_id": "UC-01",
+  "llm": "anthropic",
+  "prompt_text": "How do I track user activation and product-qualified leads without spending a lot on software?",
+  "response": "# Low-Cost User Activation & PQL Tracking\n\n## Free/Cheap Core Setup\n\n**Google Sheets + basic tools:**\n- Log signups, first key actions, feature usage in a shared sheet\n- Use Zapier free tier (100 tasks/month) to auto-populate from your app or form tool\n- Track dates, user ID, feature first-used, conversion → costs almost nothing\n\n**What to actually measure:**\n- Activation event (email verified, profile completed, first meaningful action)\n- Days to activation\n- Which features early users try\n- Conversion rate by activation speed\n\n## PQL Signals Without Enterprise Software\n\nUse what you likely already have:\n\n- **Segment users by behavior** in your existing app analytics (Plausible, Fathom, or your platform's built-in analytics)\n- **Spreadsheet scoring**: Create a simple formula (e.g., \"logged in 3+ times last week\" = 1 point, \"used feature X\" = 2 points)\n- **Email/Slack notifications** when users hit certain thresholds (Zapier, IFTTT, or custom webhooks)\n\n## Middle Ground ($50-200/month)\n\n- **Mixpanel** or **Amplitude** free tier covers many SMB needs\n- **Intercom** or **Drift** for chat + basic tracking\n- **Postmark** or **Mailgun** give you event data\n\n## What actually matters first\n\nBefore optimizing tracking, validate that you can answer:\n- Who's activating vs. churning?\n- What's the *one* action that predicts conversion?\n- How fast do PQLs typically convert?\n\nStart manual for 50-100 customers, find the pattern, *then* automate. You'll waste less time on tool setup.\n\nWhat stage are you at—just launching or scaling?",
+  "cached_at": "2026-05-27T19:58:07Z",
+  "metadata": {}
+}

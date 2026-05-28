@@ -1,0 +1,9 @@
+{
+  "brand": "ChartMogul",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "ChartMogul vs Baremetrics: which is better?",
+  "response": "# ChartMogul vs Baremetrics\n\nBoth are solid **subscription analytics platforms**, but they serve different priorities:\n\n## ChartMogul\n**Strengths:**\n- More powerful analytics & deeper insights\n- Better for complex billing scenarios\n- Superior data visualization\n- Stronger API for custom integrations\n- Better for teams that want to dig into metrics\n\n**Best for:** SaaS companies that need detailed cohort analysis and forecasting\n\n## Baremetrics\n**Strengths:**\n- Simpler, more intuitive interface\n- Faster to get value from (easier onboarding)\n- Better dunning/recovery tools\n- Lower pricing overall\n- Good for smaller teams\n\n**Best for:** Early-stage startups that want quick insights without complexity\n\n## Key Differences\n| Feature | ChartMogul | Baremetrics |\n|---------|-----------|------------|\n| Ease of use | Moderate | Very easy |\n| Depth | Deep | Good |\n| Pricing | Higher | Lower |\n| Team size | Mid to enterprise | Startups/SMB |\n\n## Quick decision:\n- **Choose ChartMogul** if you need serious data analysis and can afford it\n- **Choose Baremetrics** if you want simplicity and are price-conscious\n\n**Real talk:** The best choice depends on your specific billing setup and analytical needs. Both integrate with major payment processors. Consider trying free trials since your specific use case matters most.\n\nWhat's your company stage and main analytics priority?",
+  "cached_at": "2026-05-28T06:54:48Z",
+  "metadata": {}
+}

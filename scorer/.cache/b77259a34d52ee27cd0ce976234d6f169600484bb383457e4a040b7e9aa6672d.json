@@ -1,0 +1,9 @@
+{
+  "brand": "Finaloop",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which finance software should a Founder/CEO or Finance Manager at an e-commerce business use?",
+  "response": "# Finance Software for E-Commerce Businesses\n\n## For Founders/CEOs (High-Level Overview)\n\n**Best Options:**\n- **Stripe or Square** – If payment processing is your priority; built-in dashboards\n- **Shopify Plus** – Integrated accounting features if already on Shopify\n- **Quickbooks Online** – Simple, connects to e-commerce platforms, good reporting\n- **Xero** – More global support, cleaner interface, good for scaling\n\n**Why:** Need quick dashboards, cash flow visibility, and minimal setup time.\n\n---\n\n## For Finance Managers (Detailed Control)\n\n**Best Options:**\n- **QuickBooks Online** – Industry standard, extensive integrations, automation\n- **Xero** – Better for multi-currency/international, excellent reconciliation\n- **Netsuite** – Enterprise-level (if revenue >$20M), full suite\n- **Zoho Books** – Budget-friendly, good integrations, growing platform\n\n**Why:** Deeper reporting, tax compliance, detailed reconciliation, audit trails.\n\n---\n\n## Key Considerations\n\n| Factor | Priority |\n|--------|----------|\n| **Integration** | Connects to Shopify, WooCommerce, Stripe, Amazon, social channels |\n| **Automation** | Bank reconciliation, invoice syncing, payment matching |\n| **Multi-channel** | Consolidates multiple sales channels into one system |\n| **Scalability** | Can grow with your business (10K → $10M+ revenue) |\n| **Multi-currency** | If selling internationally |\n\n---\n\n## My Recommendation\n- **Under $2M revenue:** QuickBooks Online or Xero\n- **$2-20M revenue:** Xero or QuickBooks Plus\n- **Above $20M:** NetSuite or custom ERP\n\nWhat's your current revenue/team size? That would help narrow it down.",
+  "cached_at": "2026-05-28T07:07:20Z",
+  "metadata": {}
+}

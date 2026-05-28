@@ -1,0 +1,9 @@
+{
+  "brand": "Numeric",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Numeric QuickBooks integration: how does it work?",
+  "response": "# Numeric QuickBooks Integration\n\nNumeric doesn't have a native, direct integration with QuickBooks. However, here are the **actual ways** to connect them:\n\n## Primary Options\n\n### 1. **Manual Data Export/Import**\n- Export transaction data from Numeric as CSV\n- Import into QuickBooks manually or via QB's import tools\n- Most common but labor-intensive approach\n\n### 2. **Third-Party Integration Platforms**\nUse middleware services like:\n- **Zapier** - automates data sync between apps\n- **Make (formerly Integromat)** - workflow automation\n- **IFTTT** - simple conditional triggers\n- **Custom API connections** - if your QuickBooks version supports it\n\n## Typical Workflow\n```\nNumeric (financial data)\n    ↓\nExport/API call\n    ↓\nThird-party tool or manual process\n    ↓\nQuickBooks (import data)\n```\n\n## What Usually Syncs\n- Transactions\n- Invoices\n- Expense records\n- Customer/vendor data\n\n## Best Practices\n- **Test** with sample data first\n- Check **duplicate prevention** settings\n- Verify **date formats** match between systems\n- Document your process for repeatability\n\n---\n\n**Need specifics?** Let me know:\n- Which QuickBooks version (Online vs Desktop)?\n- What data types need syncing?\n- Your technical comfort level?\n\nThis will help me give more targeted guidance.",
+  "cached_at": "2026-05-28T07:05:16Z",
+  "metadata": {}
+}

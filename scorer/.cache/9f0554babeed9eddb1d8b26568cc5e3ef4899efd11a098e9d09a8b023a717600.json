@@ -1,0 +1,9 @@
+{
+  "brand": "Pipedrive",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do small and mid-size sales teams companies use to manage a visual sales pipeline?",
+  "response": "# Tools for Visual Sales Pipeline Management\n\n## **CRM Platforms (Most Common)**\n- **Salesforce** – Industry standard with robust pipeline views\n- **HubSpot** – User-friendly, good free tier\n- **Pipedrive** – Purpose-built around visual pipeline management\n- **Zoho CRM** – Affordable, feature-rich\n- **Freshsales** – Clean interface, good for SMBs\n\n## **Lightweight/Specialized Options**\n- **Monday.com** – Flexible kanban boards, customizable workflows\n- **Notion** – DIY approach, low cost\n- **Copper** – Lightweight Gmail-integrated CRM\n- **Close** – Sales-focused, simple interface\n- **Streak** – Pipeline management within Gmail\n\n## **Key Features They Offer**\n- Kanban-style drag-and-drop deal cards\n- Deal value and probability tracking\n- Custom pipeline stages\n- Forecasting and reporting\n- Mobile access\n- Integration with email/calendar\n\n## **Selection Tips for SMBs**\n1. **Ease of use** – Team adoption matters more than features\n2. **Price per user** – Look for $30-100/month/person range\n3. **Integration needs** – Email, calendar, payment tools\n4. **Onboarding time** – Faster = quicker ROI\n5. **Mobile access** – Essential for field sales teams\n\nMost teams start with **HubSpot** or **Pipedrive** since they balance functionality with simplicity. What's your team size or specific pain point?",
+  "cached_at": "2026-05-27T17:49:02Z",
+  "metadata": {}
+}

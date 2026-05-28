@@ -1,0 +1,9 @@
+{
+  "brand": "UserVoice",
+  "prompt_id": "CM-01",
+  "llm": "openai",
+  "prompt_text": "UserVoice vs Productboard: which is better?",
+  "response": "Choosing between UserVoice and Productboard depends on your specific needs and priorities for product management and customer feedback.\n\n**UserVoice**:\n- **Strengths**: Primarily focused on collecting and managing customer feedback. It provides tools for creating feedback forums, allowing users to submit ideas, vote on them, and discuss them. It also offers features for customer support and ticketing.\n- **Best for**: Companies that want a strong emphasis on customer feedback and engagement, particularly if they want to integrate support and feedback into one platform.\n\n**Productboard**:\n- **Strengths**: A more comprehensive product management tool that helps prioritize features based on customer feedback, company strategy, and market needs. It offers roadmapping, prioritization frameworks, and integrations with development tools like Jira.\n- **Best for**: Product teams that need a robust tool for product planning and prioritization, with a focus on aligning product decisions with business objectives and customer needs.\n\n**Considerations**:\n- **Integration Needs**: Check which tool integrates better with your existing tech stack.\n- **Team Size and Structure**: Consider the size of your team and how they interact with feedback and product management tools.\n- **Budget**: Pricing can vary, so consider your budget and the value each tool provides for your specific use case.\n\nUltimately, if your primary goal is to gather and manage customer feedback efficiently, UserVoice might be more suitable. If you need a comprehensive product management solution that includes feedback as part of a broader feature prioritization and planning process, Productboard could be the better choice.",
+  "cached_at": "2026-05-28T08:24:01Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Vellum",
+  "prompt_id": "IN-03",
+  "llm": "anthropic",
+  "prompt_text": "How do I connect Vellum with OpenAI?",
+  "response": "# Connecting Vellum with OpenAI\n\nHere's how to set up the integration:\n\n## 1. **Get Your OpenAI API Key**\n- Go to [platform.openai.com](https://platform.openai.com)\n- Navigate to **API keys** section\n- Create a new secret key\n- Copy it (you won't see it again)\n\n## 2. **Add the Key to Vellum**\nIn Vellum:\n- Go to **Settings** → **Integrations** (or **Credentials**)\n- Select **OpenAI**\n- Paste your API key\n- Save\n\n## 3. **Use OpenAI in Your Workflows**\n- Create or edit a workflow\n- Add an **LLM** node\n- Select **OpenAI** as the provider\n- Choose your model (e.g., `gpt-4`, `gpt-3.5-turbo`)\n- Configure parameters (temperature, max tokens, etc.)\n\n## 4. **Test the Connection**\n- Run a test prompt to verify it's working\n- Check your OpenAI usage in the OpenAI dashboard\n\n## Important Notes\n- Keep your API key **private** (use environment variables in production)\n- Monitor your OpenAI usage and costs\n- Ensure you have API credits available\n\n**Need help?** Check Vellum's [documentation](https://docs.vellum.ai) or OpenAI's [API docs](https://platform.openai.com/docs).\n\nIs there a specific step you're stuck on?",
+  "cached_at": "2026-05-28T07:45:11Z",
+  "metadata": {}
+}

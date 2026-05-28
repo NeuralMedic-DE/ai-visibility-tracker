@@ -1,0 +1,9 @@
+{
+  "brand": "Zapier",
+  "prompt_id": "CM-02",
+  "llm": "anthropic",
+  "prompt_text": "Zapier vs n8n pricing and features",
+  "response": "# Zapier vs n8n: Pricing & Features Comparison\n\n## **Pricing**\n\n| Feature | Zapier | n8n |\n|---------|--------|-----|\n| **Free Tier** | Limited (2-step zaps) | Generous (up to 1,000 executions/month) |\n| **Entry Plan** | $19.99/month | Free (self-hosted) or $20/month (cloud) |\n| **Mid-Tier** | $49.99/month | $50/month (cloud) |\n| **Top Tier** | $299+/month | $480/month or self-hosted |\n| **Overage Costs** | Yes, can get expensive | More predictable; self-hosted = unlimited |\n\n## **Key Features**\n\n### **Zapier Strengths**\n✅ 5,000+ pre-built integrations  \n✅ Easiest learning curve (drag & drop)  \n✅ Best for non-technical users  \n✅ Excellent customer support  \n✅ Great marketplace ecosystem  \n✅ No setup required (fully cloud)  \n\n### **n8n Strengths**\n✅ **Self-hosted option** (unlimited executions)  \n✅ More powerful automation logic  \n✅ Better for complex workflows  \n✅ No vendor lock-in potential  \n✅ Lower long-term costs at scale  \n✅ Open-source transparency  \n\n## **When to Choose Each**\n\n**Choose Zapier if:**\n- You want simplicity & speed\n- Budget is smaller/monthly-based\n- You prefer hands-off support\n- Limited technical background\n\n**Choose n8n if:**\n- You need complex workflows\n- Want to self-host/save costs long-term\n- Value data privacy/control\n- Running high-volume automations\n\n## **Bottom Line**\n- **Zapier**: Best for quick, simple integrations ($20-300/month)\n- **n8n**: Better ROI if self-hosting or scaling ($0-480/month + server costs)\n\nWhat's your primary use case? That would help narrow it down.",
+  "cached_at": "2026-05-28T08:51:02Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "Teamtailor",
+  "prompt_id": "AL-05",
+  "llm": "openai",
+  "prompt_text": "Open source or affordable ATS tools instead of Workable",
+  "response": "If you're looking for open source or more affordable alternatives to Workable for an Applicant Tracking System (ATS), here are a few options you might consider:\n\n1. **OpenCATS**: This is an open-source ATS designed for HR and recruiting professionals. It offers features like candidate tracking, resume parsing, and reporting.\n\n2. **Zoho Recruit**: While not open-source, Zoho Recruit offers competitive pricing and a range of features suitable for small to medium-sized businesses. It includes resume management, job posting, and candidate tracking.\n\n3. **Recruity**: An open-source ATS that provides basic features for managing job applications and candidates. It’s suitable for small teams looking for a cost-effective solution.\n\n4. **Breezy HR**: Offers a free plan with basic features, and its paid plans are relatively affordable. Breezy HR includes features like drag-and-drop pipeline management and candidate sourcing.\n\n5. **SmartRecruiters**: Provides a free version with essential features for small teams. It includes job posting, candidate management, and a collaborative hiring process.\n\n6. **JobScore**: Offers a free plan for small teams with basic features like job posting and candidate management. Paid plans add more advanced features.\n\n7. **Crelate Talent**: While not open-source, it offers a reasonably priced solution with features such as candidate tracking, email integration, and reporting.\n\nThese tools vary in terms of features and pricing, so it's a good idea to evaluate them based on your specific needs and budget.",
+  "cached_at": "2026-05-28T06:41:54Z",
+  "metadata": {}
+}

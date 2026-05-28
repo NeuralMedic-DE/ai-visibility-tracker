@@ -1,0 +1,9 @@
+{
+  "brand": "Braintrust",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with run A/B tests across different models and prompt versions to find optimal configurations at scale?",
+  "response": "# A/B Testing Software for LLM Prompts & Models\n\n## Dedicated LLM Testing Platforms\n\n**Specialized tools designed for this:**\n- **Promptfoo** – Open-source framework for comparing prompt/model combinations with automated testing\n- **Braintrust** – Experiment tracking and evaluation for LLM applications\n- **Humanloop** – Prompt management with built-in A/B testing and versioning\n- **LangSmith** (LangChain) – Debugging, testing, and monitoring with experiment tracking\n\n## General ML/Analytics Platforms\n\n- **Weights & Biases** – Experiment tracking that scales to production\n- **MLflow** – Open-source, tracks parameters and metrics across runs\n- **Kubeflow** – Kubernetes-native for large-scale experimentation\n- **Neptune** – Lightweight experiment management\n\n## Custom Solutions Using APIs\n\nCommon approach for scale:\n- **Python libraries**: `langchain`, `llama-index` + custom testing frameworks\n- **Cloud platforms**: AWS SageMaker, GCP Vertex AI (can orchestrate batch testing)\n- **Data warehouses**: Use dbt + Snowflake/BigQuery to log results and analyze statistical significance\n\n## Key Features to Look For\n\n✓ Side-by-side prompt/model comparison  \n✓ Automated evaluation metrics  \n✓ Statistical significance testing  \n✓ Version control for prompts  \n✓ Batch processing at scale  \n✓ Cost tracking per configuration  \n\n**For serious scale**, most teams combine a dedicated tool (like Promptfoo for initial testing) with a data warehouse for statistical analysis.\n\nWhat's your scale and primary concern—speed, cost, or evaluation rigor?",
+  "cached_at": "2026-05-28T07:47:38Z",
+  "metadata": {}
+}

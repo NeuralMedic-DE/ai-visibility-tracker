@@ -1,0 +1,9 @@
+{
+  "brand": "FullStory",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "Hotjar vs alternatives: what should I switch to?",
+  "response": "# Hotjar Alternatives: Key Considerations\n\n**Why you might switch:**\n- Pricing concerns (can get expensive at scale)\n- Need for specific features Hotjar lacks\n- Privacy/data residency requirements\n- Integration gaps with your stack\n\n## Popular alternatives by use case:\n\n**Session Recording + Heatmaps** (most similar)\n- **Clarity** (Microsoft) - free tier is solid, good heatmaps\n- **FullStory** - enterprise-focused, excellent data quality\n- **Smartlook** - good balance of features and cost\n\n**Heatmaps focused**\n- **Crazy Egg** - simpler, better for straightforward heatmap analysis\n- **Microsoft Clarity** - genuinely free, no session limits\n\n**User Testing/Feedback**\n- **Userlytics** - structured testing and feedback\n- **Respondent** - recruit specific user types\n- **Maze** - prototype testing, design-focused\n\n**Analytics-first** (different angle)\n- **Amplitude** - behavioral analytics, deeper segmentation\n- **Mixpanel** - event-driven, great for product teams\n\n## Questions to ask first:\n1. What features do you *actually* use in Hotjar?\n2. What's missing that you need?\n3. Budget vs. current spend?\n4. Any compliance/privacy requirements?\n\nMost people don't need everything Hotjar offers. You might save money switching to something more specialized rather than another all-in-one tool.\n\nWhat's driving your switch consideration?",
+  "cached_at": "2026-05-27T20:46:50Z",
+  "metadata": {}
+}

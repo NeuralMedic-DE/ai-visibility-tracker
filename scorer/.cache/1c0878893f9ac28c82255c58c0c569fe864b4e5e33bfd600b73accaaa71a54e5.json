@@ -1,0 +1,9 @@
+{
+  "brand": "Vercel",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is Vercel better than AWS Amplify for manage preview deployments for every pull request?",
+  "response": "# Vercel vs AWS Amplify for Preview Deployments\n\n**Vercel has a significant advantage here:**\n\n## Vercel's Strengths for PR Previews\n- **Out-of-the-box simplicity** - Preview deployments are built into the core product\n- **Automatic GitHub/GitLab/Bitbucket integration** - Creates preview URLs automatically\n- **Faster feedback loop** - Deploys are typically faster and more optimized\n- **Better defaults** - Preview environment setup requires minimal configuration\n- **Cleaner UX** - Comments on PRs with preview links automatically\n- **Performance monitoring** - Analytics included in preview deployments\n\n## AWS Amplify's Limitations\n- **More setup required** - Preview deployments need additional configuration\n- **Inconsistent experience** - Feels less polished than Vercel's implementation\n- **Slower deployments** - Generally slower than Vercel for this use case\n- **Less elegant integration** - PR comments and notifications require more setup\n\n## When AWS Amplify Might Win\n- You're **already deep in AWS ecosystem** and want unified billing/management\n- You need **complex backend infrastructure** (Lambda, RDS integration)\n- You require **specific compliance/security requirements** tied to AWS\n- You want to **avoid vendor lock-in** to Vercel\n\n## Honest Take\n**For pure preview deployment experience:** Vercel is substantially better and purpose-built for this workflow.\n\n**For full-stack applications with complex backends:** Amplify can work, but you'll spend more time configuring it.\n\nIf preview deployments are a priority, Vercel is the more pragmatic choice.",
+  "cached_at": "2026-05-27T21:27:22Z",
+  "metadata": {}
+}

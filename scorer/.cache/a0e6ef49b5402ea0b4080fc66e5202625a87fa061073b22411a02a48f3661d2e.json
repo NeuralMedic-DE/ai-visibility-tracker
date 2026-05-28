@@ -1,0 +1,9 @@
+{
+  "brand": "Maxio",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Maxio integrate with Salesforce?",
+  "response": "Yes. **Maxio has a native, two‑way integration with Salesforce** that syncs data between the two platforms.\n\nAccording to Maxio’s own integration page, Salesforce and Maxio “work together to automate the order‑to‑cash workflow” with **two‑way data synchronization** of Accounts/Contacts and Maxio Customers, as well as products and pricing via Salesforce Price Books.[3] Maxio’s blog also describes a **native Salesforce integration (v3)** built specifically for B2B SaaS, where selling a subscription in Salesforce automatically activates it in Maxio.[1]  \n\nThe integration is available on **Salesforce Developer, Professional, Enterprise, and Unlimited** editions and works in both Classic and Lightning, including sandbox and production environments.[3] You can find and install it from Salesforce AppExchange under “Maxio previously Chargify V3 for Salesforce.”[7]",
+  "cached_at": "2026-05-28T06:54:13Z",
+  "metadata": {}
+}

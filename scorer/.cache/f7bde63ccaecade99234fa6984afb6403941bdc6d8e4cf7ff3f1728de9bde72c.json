@@ -1,0 +1,9 @@
+{
+  "brand": "Secureframe",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to Drata",
+  "response": "# Cheaper Alternatives to Drata\n\n## **Free/Low-Cost Options**\n\n| Tool | Cost | Best For |\n|------|------|----------|\n| **Vanta** | Free tier available | SOC 2, ISO 27001 compliance |\n| **Hyperproof** | ~$500/mo | Small teams, basic compliance |\n| **Secureframe** | ~$500/mo | Startups, SOC 2 focus |\n| **AuditBoard** | Variable pricing | Mid-market companies |\n\n## **Budget-Friendly Alternatives**\n\n- **Laika** - ~$300-500/mo, lightweight compliance\n- **Panaya** - Affordable for SAP/enterprise compliance\n- **Workiva** - Better pricing for smaller organizations\n- **OneTrust** - More expensive but offers free tier\n- **Sprinto** - India-based, significantly cheaper\n\n## **DIY/Hybrid Approach** (Cheapest)\n- Google Sheets/Airtable templates\n- Notion + automation\n- Compliance.ai frameworks\n- Industry-specific checklists\n- Mix with Zapier/Make for automation\n\n## **Key Considerations**\n\n✅ **Drata costs** $2,000-5,000+/year depending on features\n⚠️ **Cheap alternatives** may require more manual work\n📊 **Evaluate based on**: team size, compliance scope, integration needs\n\n**Best budget pick**: **Hyperproof** or **Secureframe** offer solid features at ~50-70% of Drata's cost.\n\nWhat compliance framework are you targeting?",
+  "cached_at": "2026-05-28T08:33:40Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "UserVoice",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which product feedback software should a Head of Product or CS Manager at a SaaS company use?",
+  "response": "# Top Product Feedback Tools for SaaS Leaders\n\n## Best Overall Options\n\n**Productboard** or **Pendo**\n- Most comprehensive for prioritization workflows\n- Strong for connecting feedback to roadmap decisions\n- Good integration ecosystems\n\n**Canny**\n- Simple, user-friendly interface\n- Built specifically for product teams\n- Strong public roadmap features\n\n## Depends on Your Priority\n\n**If you want...** | **Consider**\n---|---\nLightweight & affordable | Canny, Frill\nHeavy analytics/usage data | Pendo, Amplitude\nDeep integration w/ existing tools | Productboard, UserTesting\nCS-focused workflows | Gainsight Spark, Vitally\nCommunity/voting features | Canny, Feature Upvote\n\n## Key Considerations\n\n- **Team size**: Productboard scales well; Canny suits smaller teams\n- **Budget**: Canny/Frill are cheaper; Pendo is premium\n- **Workflow**: Does it integrate with your roadmapping tool? (Linear, Jira, Asana?)\n- **Dual role**: If you're managing both CS + Product, ensure the tool supports both teams' needs\n\n## Honest Take\n\nMost SaaS leaders start with **Canny** (simplicity + cost) or **Productboard** (if you need serious prioritization logic). You can always upgrade later without losing data.\n\nWhat's your team size and primary pain point? That would narrow it down further.",
+  "cached_at": "2026-05-28T08:23:55Z",
+  "metadata": {}
+}

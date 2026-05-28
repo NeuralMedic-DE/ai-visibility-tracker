@@ -1,0 +1,9 @@
+{
+  "brand": "June.so",
+  "prompt_id": "UC-05",
+  "llm": "openai",
+  "prompt_text": "What software helps with identify accounts likely to churn early at scale?",
+  "response": "There are several software solutions and platforms that can help identify accounts likely to churn early at scale. These tools typically use predictive analytics, machine learning, and data analysis to assess customer behavior and predict churn. Some popular options include:\n\n1. **Salesforce Einstein**: This AI-powered tool integrates with Salesforce CRM to provide predictive insights, including churn predictions, by analyzing customer data.\n\n2. **Gainsight**: A customer success platform that uses data-driven insights to predict churn and help businesses take proactive measures to retain customers.\n\n3. **HubSpot**: Offers predictive lead scoring and customer insights that can help identify potential churn risks.\n\n4. **Zendesk Explore**: Provides analytics and reporting capabilities that can help identify patterns in customer support interactions that may indicate churn risk.\n\n5. **Amplitude**: A product analytics platform that can help identify user behavior patterns and predict churn based on engagement metrics.\n\n6. **Mixpanel**: Offers advanced analytics and insights into user behavior, which can be used to predict and prevent churn.\n\n7. **ChurnZero**: Specifically designed to help SaaS companies reduce churn by providing insights into customer health and engagement.\n\n8. **Totango**: A customer success platform that offers tools for monitoring customer engagement and predicting churn.\n\nThese tools typically require integration with your existing data sources, such as CRM systems, customer support platforms, and product usage data, to provide accurate churn predictions.",
+  "cached_at": "2026-05-27T19:56:05Z",
+  "metadata": {}
+}

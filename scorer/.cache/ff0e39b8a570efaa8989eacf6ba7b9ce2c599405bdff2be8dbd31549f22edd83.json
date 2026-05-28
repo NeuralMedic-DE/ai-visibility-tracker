@@ -1,0 +1,9 @@
+{
+  "brand": "LangChain",
+  "prompt_id": "AL-05",
+  "llm": "perplexity",
+  "prompt_text": "Open source or affordable AI tooling tools instead of Haystack",
+  "response": "If you want **open-source or affordable alternatives to Haystack**, the best-known options are **LlamaIndex**, **LangChain**, and, for lighter orchestration or agent workflows, **Semantic Kernel**; all are widely used frameworks for building LLM apps and RAG-style systems.[1][4]\n\nA practical comparison:\n\n| Tool | Best fit | Cost / openness |\n|---|---|---|\n| **LlamaIndex** | Production RAG and document retrieval pipelines | Open source[1][4] |\n| **LangChain** | Flexible app orchestration and tool calling | Open source[1] |\n| **Semantic Kernel** | Agent framework / developer SDK | Open source, MIT license[4] |\n| **Haystack** | Production-ready RAG and agents | Open source[2] |\n\nIf you want something **cheaper than a hosted platform**, the source list also points to **local and BYOK tools** such as **Continue.dev**, **Cline**, **Aider**, **Open WebUI**, **Ollama**, **LM Studio**, **ChromaDB**, and **LanceDB** for building an inexpensive self-hosted stack.[1]\n\nFor a simple decision:\n- Choose **LlamaIndex** if your main need is **RAG over documents**.[1][4]\n- Choose **LangChain** if you need **more general orchestration and integrations**.[1]\n- Choose **Semantic Kernel** if you want a **framework-style SDK** with a lighter developer focus.[4]\n- Choose **Continue.dev / Cline / Aider + Ollama** if you want an **affordable local coding or agent workflow**.[1]\n\nIf you want, I can also give you a **Haystack vs LlamaIndex vs LangChain** comparison specifically for **RAG, agents, and production deployment**.",
+  "cached_at": "2026-05-28T07:40:54Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "SafeBase",
+  "prompt_id": "CD-03",
+  "llm": "anthropic",
+  "prompt_text": "Which security software should a Sales Ops Lead or Security Manager at a B2B SaaS company use?",
+  "response": "# Security Software for B2B SaaS Sales Ops & Security Leaders\n\nThe right choice depends on your specific needs, but here's a practical breakdown:\n\n## **For Sales Operations:**\n- **Salesforce Shield** or **Salesforce Audit Trail** – native encryption/monitoring if you're on Salesforce\n- **Okta/Azure AD** – identity and access management\n- **Slack Enterprise Grid security features** – if communication is a priority\n- **DocuSign/Box** – document security and compliance\n\n## **For Security Management:**\n- **Endpoint Detection & Response (EDR):** Crowdstrike, Microsoft Defender for Endpoint, Sophos\n- **Identity & Access Management:** Okta, Azure AD, JumpCloud\n- **Vulnerability Management:** Qualys, Tenable, Rapid7\n- **Cloud Security Posture:** Wiz, Snyk, CloudSploit\n- **Data Loss Prevention (DLP):** Microsoft Purview, Forcepoint\n- **SIEM/Log Management:** Datadog, Splunk, ELK Stack\n\n## **Key Considerations:**\n- **Compliance needs** (SOC 2, ISO 27001, HIPAA, GDPR)\n- **Team size** and existing tech stack\n- **Budget** (some solutions offer better ROI for SMBs)\n- **Integration** with existing tools\n- **Ease of use** for non-technical stakeholders\n\n**Most common practical combo:** Okta (IAM) + Crowdstrike (endpoints) + a SIEM tool, scaled by company size.\n\nWhat's your main concern—data security, compliance, or something else?",
+  "cached_at": "2026-05-28T08:43:17Z",
+  "metadata": {}
+}

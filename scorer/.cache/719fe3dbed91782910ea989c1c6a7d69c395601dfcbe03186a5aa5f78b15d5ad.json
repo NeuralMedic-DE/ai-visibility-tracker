@@ -1,0 +1,9 @@
+{
+  "brand": "Personio",
+  "prompt_id": "IN-02",
+  "llm": "anthropic",
+  "prompt_text": "Personio Datev integration: how does it work?",
+  "response": "# Personio-Datev Integration Overview\n\n## How It Works\n\n### **Basic Flow**\nThe integration syncs HR and payroll data between Personio (HR management) and Datev (German accounting/payroll software):\n\n1. **Data Synchronization**\n   - Employee master data (names, addresses, tax info)\n   - Salary components and wages\n   - Time/attendance data\n   - Tax declarations\n\n2. **Direction of Sync**\n   - **One-way**: Personio → Datev (typical for payroll data)\n   - Datev doesn't push data back to Personio automatically\n\n3. **Frequency**\n   - Usually scheduled (daily/weekly) or triggered manually\n   - Data updates occur before payroll processing runs\n\n## Key Data Transferred\n\n| Data Type | Details |\n|-----------|---------|\n| **Employee Data** | ID, name, address, tax class, insurance info |\n| **Salary Info** | Gross/net wages, deductions, benefits |\n| **Time Data** | Hours worked, absences, overtime |\n| **Tax Data** | Tax declarations, social contributions |\n\n## Setup Requirements\n\n- Active accounts on both platforms\n- API integration or direct connector (depending on version)\n- Mapping of fields between systems\n- User permissions configured\n- Proper authentication credentials\n\n## Common Use Cases\n\n✅ Automate payroll data transfer  \n✅ Reduce manual entry errors  \n✅ Keep employee records synchronized  \n✅ Streamline German payroll processing  \n\n## Potential Limitations\n\n⚠️ Manual review still needed for complex scenarios  \n⚠️ Some customizations may require IT support  \n⚠️ Limited to Datev's compatible modules  \n\nWould you like details on setup steps or troubleshooting?",
+  "cached_at": "2026-05-28T06:35:05Z",
+  "metadata": {}
+}

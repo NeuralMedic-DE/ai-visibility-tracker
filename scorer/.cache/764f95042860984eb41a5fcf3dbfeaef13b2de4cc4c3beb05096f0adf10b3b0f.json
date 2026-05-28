@@ -1,0 +1,9 @@
+{
+  "brand": "Pilot",
+  "prompt_id": "CM-05",
+  "llm": "anthropic",
+  "prompt_text": "Is Pilot better than QuickBooks for automate bookkeeping and catch financial errors before they cause problems?",
+  "response": "# Pilot vs QuickBooks for Automation & Error Prevention\n\n**Pilot's strengths:**\n- More hands-on bookkeeping help (actual accountants review transactions)\n- Better at catching categorization errors before they compound\n- Good for businesses that want human oversight built in\n- Proactive problem-spotting through regular reviews\n\n**QuickBooks' strengths:**\n- More automated rules and customization options\n- Faster error detection through dashboards and reports\n- Better for businesses wanting self-service control\n- Scales automation as you grow\n\n## The real answer depends on your situation:\n\n**Choose Pilot if:**\n- You want someone actively monitoring for mistakes\n- You're not confident in bookkeeping yourself\n- Error prevention matters more than independence\n\n**Choose QuickBooks if:**\n- You want to control and review your own books\n- You need flexibility to set up custom automation\n- You prefer lower ongoing costs\n\n**Key caveat:** QuickBooks requires you to actually *use* its features (reports, reconciliation). Automation only prevents errors if you're actively checking for them.\n\nMany growing businesses use both—QuickBooks for daily operations, occasional Pilot review for peace of mind.\n\nWhat's your main concern: catching mistakes, reducing manual work, or both?",
+  "cached_at": "2026-05-28T07:02:30Z",
+  "metadata": {}
+}

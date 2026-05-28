@@ -1,0 +1,9 @@
+{
+  "brand": "June.so",
+  "prompt_id": "CD-01",
+  "llm": "anthropic",
+  "prompt_text": "What is the best product analytics for early-stage B2B SaaS teams?",
+  "response": "# Best Product Analytics for Early-Stage B2B SaaS\n\n## Top Picks by Use Case\n\n**For simplicity + essentials:**\n- **Mixpanel** - Intuitive event tracking, good funnels, reasonable pricing\n- **Amplitude** - Excellent cohort analysis, behavioral insights (free tier is solid)\n\n**For quick setup:**\n- **Segment** - Data collection layer that pipes to multiple tools (reduces switching costs)\n- **PostHog** - Open-source option, self-hostable, all-in-one (product analytics + feature flags)\n\n**For engagement tracking:**\n- **Pendo** - In-app guidance + analytics (good if user onboarding is a priority)\n- **Heap** - Automatic event capture (less instrumentation needed upfront)\n\n## What to Prioritize Early-Stage\n\n1. **Setup speed** - You need answers fast, not perfect data in 3 months\n2. **Affordability** - Most free/cheap tiers suffice until 10K+ users\n3. **Directness** - Can you ask simple questions without engineering help?\n4. **User engagement** - B2B SaaS wins on retention; track activation funnels + usage depth\n\n## Honest Reality Check\n\nFor the first 6 months, **Google Analytics 4 + basic cohort queries in your database** often work fine. Don't over-engineer.\n\nThe real bottleneck isn't the tool—it's knowing *what to measure*. Start with:\n- Feature adoption\n- Time-to-value \n- Churn by cohort\n- Support ticket patterns\n\nWhat's your current user count? That changes the recommendation.",
+  "cached_at": "2026-05-27T19:56:34Z",
+  "metadata": {}
+}

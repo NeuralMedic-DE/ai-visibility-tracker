@@ -1,0 +1,9 @@
+{
+  "brand": "Charlie HR",
+  "prompt_id": "CM-02",
+  "llm": "anthropic",
+  "prompt_text": "Charlie HR vs Breathe pricing and features",
+  "response": "# Charlie HR vs Breathe: Comparison\n\n## Pricing\n\n| Feature | Charlie HR | Breathe |\n|---------|-----------|---------|\n| **Starting Price** | From £3/employee/month | From £3/employee/month |\n| **Setup Fees** | No setup fees | No setup fees |\n| **Free Trial** | 14 days | 14-30 days |\n\n**Note:** Both scale based on employee count; custom pricing for enterprise needs.\n\n---\n\n## Core Features Comparison\n\n### Charlie HR Strengths\n- **Onboarding automation** - Workflow templates for new starters\n- **Document management** - Centralized employee records\n- **Simplicity** - Intuitive interface, quick implementation\n- **Good for SMEs** - Focused, streamlined feature set\n\n### Breathe Strengths\n- **Performance management** - Goal setting, appraisals, 1-to-1s\n- **Absence tracking** - Sophisticated leave management\n- **Integrations** - Broader third-party connections\n- **Customization** - More adaptable workflows\n- **Company culture** - Recognition, peer feedback tools\n\n---\n\n## Feature Checklist\n\n| Feature | Charlie | Breathe |\n|---------|---------|---------|\n| Core HR Admin | ✓ | ✓ |\n| Payroll Integration | ✓ | ✓ |\n| Holiday/Absence | ✓ | ✓✓ |\n| Performance Management | ✓ | ✓✓ |\n| Employee Directory | ✓ | ✓ |\n| Analytics/Reporting | ✓ | ✓ |\n| Document Management | ✓✓ | ✓ |\n| Mobile App | ✓ | ✓ |\n\n---\n\n## Best For\n\n**Charlie HR:** Small businesses (10-100 employees) wanting simple, no-fuss HR administration\n\n**Breathe:** Growing companies (20-500+) prioritizing performance management and absence tracking\n\nWhich specific features matter most to you?",
+  "cached_at": "2026-05-28T06:43:40Z",
+  "metadata": {}
+}

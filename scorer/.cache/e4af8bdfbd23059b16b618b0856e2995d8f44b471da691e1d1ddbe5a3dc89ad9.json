@@ -1,0 +1,9 @@
+{
+  "brand": "Langfuse",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does Langfuse integrate with LangChain?",
+  "response": "Yes—**Langfuse integrates with LangChain**. Langfuse’s documentation says it supports LangChain through **LangChain callbacks** in both **Python and JS/TS**, and it can automatically create nested traces for LangChain runs.[1][2]\n\nIt also supports major LangChain features such as **streaming, LCEL, async, batch(), and invoke()**, and LangChain’s own docs describe Langfuse tracing as a LangChain integration for logging, analysis, and debugging.[1][2]\n\nIf you want, I can also show you the **basic setup code** for Python or JavaScript.",
+  "cached_at": "2026-05-28T07:58:05Z",
+  "metadata": {}
+}

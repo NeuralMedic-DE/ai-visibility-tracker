@@ -1,0 +1,9 @@
+{
+  "brand": "Amplemarket",
+  "prompt_id": "IN-01",
+  "llm": "openai",
+  "prompt_text": "Does Amplemarket integrate with Salesforce?",
+  "response": "Yes, Amplemarket integrates with Salesforce. This integration allows users to seamlessly sync their sales data, manage leads, and automate workflows between Amplemarket and Salesforce, enhancing the efficiency of sales processes.",
+  "cached_at": "2026-05-27T19:02:08Z",
+  "metadata": {}
+}

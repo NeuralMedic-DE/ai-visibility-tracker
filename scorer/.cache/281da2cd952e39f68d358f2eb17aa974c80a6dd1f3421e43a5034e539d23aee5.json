@@ -1,0 +1,9 @@
+{
+  "brand": "Workable",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "Workable vs Lever: which is better?",
+  "response": "# Workable vs Lever\n\nBoth are solid ATS (Applicant Tracking System) platforms, but they serve different needs:\n\n## **Workable**\n**Strengths:**\n- More affordable, especially for smaller teams\n- Simpler, more intuitive interface\n- Good mobile experience\n- Strong reporting and analytics\n- Better for high-volume hiring\n\n**Weaknesses:**\n- Fewer integrations than Lever\n- Less customizable workflows\n- Smaller feature set overall\n\n## **Lever**\n**Strengths:**\n- More comprehensive features\n- Better candidate relationship management (CRM)\n- Stronger integrations ecosystem\n- More customizable pipelines\n- Better for complex hiring workflows\n\n**Weaknesses:**\n- Higher pricing\n- Steeper learning curve\n- Can feel overengineered for small teams\n\n## **Choose Workable if:**\n- You have a smaller budget\n- You want simplicity and speed\n- You're hiring in high volume with straightforward processes\n\n## **Choose Lever if:**\n- You have budget flexibility\n- You need advanced features and customization\n- You want strong CRM capabilities\n- You integrate with many other tools\n\n**Bottom line:** For most small-to-mid companies, Workable offers better value. Lever wins if you need sophisticated features and have the budget.\n\nWhat's your team size and hiring volume? That would help narrow it down further.",
+  "cached_at": "2026-05-28T06:45:55Z",
+  "metadata": {}
+}
