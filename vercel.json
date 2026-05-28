@@ -24,7 +24,7 @@
   ],
   "crons": [
     {
-      "path": "/api/cron/weekly",
+      "path": "/api/cron/weekly-digest",
       "schedule": "0 9 * * 1"
     }
   ],
@@ -39,6 +39,9 @@
       "maxDuration": 10
     },
     "app/api/cron/weekly/route.ts": {
+      "maxDuration": 300
+    },
+    "app/api/cron/weekly-digest/route.ts": {
       "maxDuration": 300
     }
   }

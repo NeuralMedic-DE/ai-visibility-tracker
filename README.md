@@ -88,24 +88,50 @@ supabase db push
 
 ## Transactional email (Resend)
 
-Weekly digest and welcome emails are sent via [Resend](https://resend.com).
+Welcome and weekly digest emails are sent via [Resend](https://resend.com).
+Emails are sent **from the `send.neuralreach.de` subdomain** — this isolates
+the DKIM/SPF records from the founder's `@neuralreach.de` mailbox, so a
+Resend misconfiguration can never hurt deliverability of personal email.
 
 ### Setup
 
-1. Create a Resend account and generate an API key.
-2. Add the domain `neuralreach.de` in the Resend dashboard → **Domains**.
-3. Copy the provided TXT/DKIM/SPF DNS records to your DNS host and click **Verify**.
-4. Set `RESEND_API_KEY` in Vercel environment variables (and `.env.local` locally).
+1. **Create a Resend account** at [resend.com](https://resend.com) and generate an API key
+   with _Sending access_ scoped to `send.neuralreach.de`.
+2. **Add the subdomain** `send.neuralreach.de` in the Resend dashboard → **Domains** →
+   **Add Domain**. Do NOT add `neuralreach.de` directly.
+3. **Copy the DNS records** Resend shows (TXT for DKIM, MX/TXT for SPF, optional DMARC)
+   to your registrar / DNS host for `send.neuralreach.de` and click **Verify**.
+4. **Set `RESEND_API_KEY`** in Vercel environment variables  
+   (Vercel → Project → Settings → Environment Variables → add `RESEND_API_KEY`).  
+   Also add it to `.env.local` for local development.
 
 ### Local development (dry-run mode)
 
-Set `EMAIL_DRY_RUN=1` in `.env.local` (already set). Emails will be printed to
-the console instead of sent — no Resend quota burned during development.
+Set `EMAIL_DRY_RUN=1` in `.env.local` (already the default). Emails are printed
+to the console instead of sent — no Resend quota burned during development.
+
+### Smoke-test the integration
+
+Once the `send.neuralreach.de` domain is verified in Resend **and** the
+`jonas@neuralreach.de` mailbox is live (MX records active), run:
+
+```bash
+npm run test:email
+# or directly:
+npx tsx scripts/test_resend.ts
+```
+
+This sends one test email to `jonas@neuralreach.de` and prints the Resend
+message ID. Check the inbox and the [Resend Logs](https://resend.com/emails)
+dashboard to confirm delivery.
+
+⚠️  **Do not run** `test:email` before the `jonas@neuralreach.de` mailbox exists —
+the send will succeed on Resend's end but bounce at the receiving MTA.
 
 ## Scheduling the weekly cron
 
-The weekly scoring + digest email runs at `POST /api/cron/weekly`, protected by
-`X-Cron-Secret` header matching the `CRON_SECRET` env var.
+The weekly scoring + digest email runs at `POST /api/cron/weekly-digest`,
+protected by `X-Cron-Secret` header matching the `CRON_SECRET` env var.
 
 ### Vercel Cron (recommended)
 
@@ -113,7 +139,7 @@ The `vercel.json` already includes a cron entry at **Monday 09:00 UTC**:
 
 ```json
 "crons": [
-  { "path": "/api/cron/weekly", "schedule": "0 9 * * 1" }
+  { "path": "/api/cron/weekly-digest", "schedule": "0 9 * * 1" }
 ]
 ```
 
@@ -126,7 +152,7 @@ Cron override**, or use a public-facing cron service (below).
 This is the easiest approach and works on Vercel Hobby:
 
 ```
-URL:    https://neuralreach.de/api/cron/weekly
+URL:    https://neuralreach.de/api/cron/weekly-digest
 Method: POST
 Header: X-Cron-Secret: <your CRON_SECRET value>
 Schedule: 0 9 * * 1   (Monday 09:00 UTC)
@@ -152,7 +178,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          curl -sf -X POST https://neuralreach.de/api/cron/weekly \
+          curl -sf -X POST https://neuralreach.de/api/cron/weekly-digest \
             -H "X-Cron-Secret: ${{ secrets.CRON_SECRET }}"
 ```
 
@@ -161,7 +187,7 @@ Store `CRON_SECRET` as a GitHub Actions secret.
 ### Manual test
 
 ```bash
-curl -X POST http://localhost:3000/api/cron/weekly \
+curl -X POST http://localhost:3000/api/cron/weekly-digest \
   -H "X-Cron-Secret: $(grep CRON_SECRET .env.local | cut -d= -f2)"
 ```
 
