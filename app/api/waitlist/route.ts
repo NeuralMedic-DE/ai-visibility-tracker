@@ -8,16 +8,25 @@ import path from "path";
 // this writes sign-ups to data/waitlist-local.json so you never lose leads.
 // In production (NODE_ENV=production), this fallback is skipped entirely.
 
-function saveLocalFallback(email: string, brand_interest: string | null) {
+function saveLocalFallback(
+  email: string,
+  brand_interest: string | null,
+  interested_plan: string | null
+) {
   if (process.env.NODE_ENV === "production") return;
   try {
     const filePath = path.join(process.cwd(), "data", "waitlist-local.json");
-    const existing: Array<{ email: string; brand_interest: string | null; signed_up_at: string }> = fs.existsSync(filePath)
+    const existing: Array<{
+      email: string;
+      brand_interest: string | null;
+      interested_plan: string | null;
+      signed_up_at: string;
+    }> = fs.existsSync(filePath)
       ? JSON.parse(fs.readFileSync(filePath, "utf-8"))
       : [];
     // dedupe
     if (!existing.find((e) => e.email === email)) {
-      existing.push({ email, brand_interest, signed_up_at: new Date().toISOString() });
+      existing.push({ email, brand_interest, interested_plan, signed_up_at: new Date().toISOString() });
       fs.writeFileSync(filePath, JSON.stringify(existing, null, 2));
     }
     console.log("[waitlist] Saved to local fallback:", email);
@@ -29,7 +38,7 @@ function saveLocalFallback(email: string, brand_interest: string | null) {
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const { email, brand_interest } = body;
+    const { email, brand_interest, interested_plan } = body;
 
     if (!email || typeof email !== "string") {
       return NextResponse.json({ error: "Email is required" }, { status: 400 });
@@ -43,6 +52,11 @@ export async function POST(req: NextRequest) {
 
     const normalizedEmail = email.toLowerCase().trim();
     const normalizedBrand = brand_interest?.trim() || null;
+    // Only store known plan values; discard anything unexpected
+    const normalizedPlan =
+      interested_plan === "starter" || interested_plan === "pro"
+        ? interested_plan
+        : null;
 
     const supabase = createAdminClient();
 
@@ -50,6 +64,7 @@ export async function POST(req: NextRequest) {
       {
         email: normalizedEmail,
         brand_interest: normalizedBrand,
+        interested_plan: normalizedPlan,
         signed_up_at: new Date().toISOString(),
       },
       { onConflict: "email" }
@@ -68,7 +83,7 @@ export async function POST(req: NextRequest) {
           error.message?.includes("does not exist") ||
           error.message?.includes("schema cache"))
       ) {
-        saveLocalFallback(normalizedEmail, normalizedBrand);
+        saveLocalFallback(normalizedEmail, normalizedBrand, normalizedPlan);
         return NextResponse.json(
           {
             success: true,

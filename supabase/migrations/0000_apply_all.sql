@@ -276,6 +276,17 @@ do $$ begin
 exception when duplicate_object then null; end $$;
 
 -- ────────────────────────────────────────────────────────────
+-- 0006: interested_plan column on waitlist
+-- ────────────────────────────────────────────────────────────
+
+alter table public.waitlist
+  add column if not exists interested_plan text
+    check (interested_plan in ('starter', 'pro'));
+
+comment on column public.waitlist.interested_plan is
+  'Plan the visitor was viewing when they joined the waitlist. NULL = general sign-up.';
+
+-- ────────────────────────────────────────────────────────────
 -- Verify: list all tables created
 -- ────────────────────────────────────────────────────────────
 select table_name, table_type

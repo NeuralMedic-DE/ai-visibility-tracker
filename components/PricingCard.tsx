@@ -1,5 +1,6 @@
 import { cn } from "@/lib/cn";
 import { CheckoutButton } from "./CheckoutButton";
+import { PricingNotifyForm } from "./PricingNotifyForm";
 
 interface PricingCardProps {
   name: string;
@@ -9,6 +10,16 @@ interface PricingCardProps {
   plan: "starter" | "pro";
   /** Show trial badge */
   showTrial?: boolean;
+  /**
+   * When false: renders a PricingNotifyForm instead of CheckoutButton.
+   * Defaults to false (pre-launch safe). Set to true only after SUBSCRIPTIONS_LIVE=true.
+   */
+  subscriptionsLive?: boolean;
+  /**
+   * Optional 3-bullet "what you get" preview shown when subscriptionsLive=false.
+   * Each string is one bullet. No em-dashes per brand voice guidelines.
+   */
+  subscriptionBullets?: string[];
 }
 
 export function PricingCard({
@@ -18,6 +29,8 @@ export function PricingCard({
   highlighted = false,
   plan,
   showTrial = true,
+  subscriptionsLive = false,
+  subscriptionBullets,
 }: PricingCardProps) {
   return (
     <div
@@ -75,6 +88,42 @@ export function PricingCard({
         </p>
       )}
 
+      {/* "What you get when subscriptions open" preview bullets */}
+      {!subscriptionsLive && subscriptionBullets && subscriptionBullets.length > 0 && (
+        <div className="mt-5">
+          <p
+            className={cn(
+              "text-xs font-semibold uppercase tracking-wide mb-2",
+              highlighted ? "text-brand-300" : "text-gray-400"
+            )}
+          >
+            What you get when subscriptions open
+          </p>
+          <ul className="space-y-1.5">
+            {subscriptionBullets.map((bullet) => (
+              <li key={bullet} className="flex items-start gap-2">
+                <span
+                  className={cn(
+                    "mt-0.5 text-xs shrink-0",
+                    highlighted ? "text-brand-300" : "text-brand-500"
+                  )}
+                >
+                  &#8227;
+                </span>
+                <span
+                  className={cn(
+                    "text-xs leading-relaxed",
+                    highlighted ? "text-brand-200" : "text-gray-600"
+                  )}
+                >
+                  {bullet}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
       <ul className="mt-8 space-y-3 flex-1">
         {features.map((f) => (
           <li key={f} className="flex items-start gap-3">
@@ -99,15 +148,19 @@ export function PricingCard({
       </ul>
 
       <div className="mt-8">
-        <CheckoutButton
-          plan={plan}
-          label={`Start ${name} for $${price}/mo`}
-          className={cn(
-            highlighted
-              ? "bg-white text-brand-600 hover:bg-brand-50"
-              : "bg-brand-600 text-white hover:bg-brand-700"
-          )}
-        />
+        {subscriptionsLive ? (
+          <CheckoutButton
+            plan={plan}
+            label={`Start ${name} for $${price}/mo`}
+            className={cn(
+              highlighted
+                ? "bg-white text-brand-600 hover:bg-brand-50"
+                : "bg-brand-600 text-white hover:bg-brand-700"
+            )}
+          />
+        ) : (
+          <PricingNotifyForm plan={plan} highlighted={highlighted} />
+        )}
       </div>
     </div>
   );

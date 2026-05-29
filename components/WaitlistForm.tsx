@@ -13,6 +13,11 @@ interface WaitlistFormProps {
   theme?: "light" | "dark";
   /** Pre-fill the brand name field — useful when opening from a specific row */
   defaultBrandInterest?: string;
+  /**
+   * Hidden field sent to /api/waitlist — records which plan the visitor was
+   * viewing when they signed up (e.g. from a pricing-page CTA).
+   */
+  interestedPlan?: "starter" | "pro";
 }
 
 export function WaitlistForm({
@@ -20,6 +25,7 @@ export function WaitlistForm({
   variant = "hero",
   theme = "light",
   defaultBrandInterest,
+  interestedPlan,
 }: WaitlistFormProps) {
   const [email, setEmail] = useState("");
   const [brandInterest, setBrandInterest] = useState(defaultBrandInterest ?? "");
@@ -48,7 +54,11 @@ export function WaitlistForm({
       const res = await fetch("/api/waitlist", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, brand_interest: brandInterest }),
+        body: JSON.stringify({
+          email,
+          brand_interest: brandInterest,
+          ...(interestedPlan ? { interested_plan: interestedPlan } : {}),
+        }),
       });
 
       const data = await res.json();

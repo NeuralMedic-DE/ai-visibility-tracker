@@ -3,6 +3,13 @@ import { Nav } from "@/components/Nav";
 import { WaitlistForm } from "@/components/WaitlistForm";
 import { PricingCard } from "@/components/PricingCard";
 
+// ── Server-side feature flag (mirrors /pricing/page.tsx) ─────────────────────
+function isSubscriptionsLive(): boolean {
+  const flagOn = process.env.SUBSCRIPTIONS_LIVE === "true";
+  const dateReached = new Date().toISOString().slice(0, 10) >= "2026-06-04";
+  return flagOn && dateReached;
+}
+
 const STARTER_FEATURES = [
   "25 AI prompts per week",
   "4 LLMs tracked (ChatGPT, Claude, Perplexity, Google AIO)",
@@ -22,6 +29,8 @@ const PRO_FEATURES = [
 ];
 
 export default function HomePage() {
+  const subscriptionsLive = isSubscriptionsLive();
+
   return (
     <div className="min-h-screen bg-white">
       {/* Nav */}
@@ -128,8 +137,21 @@ export default function HomePage() {
             </p>
           </div>
           <div className="grid gap-8 sm:grid-cols-2 max-w-2xl mx-auto">
-            <PricingCard name="Starter" price={39} features={STARTER_FEATURES} plan="starter" />
-            <PricingCard name="Pro" price={89} features={PRO_FEATURES} plan="pro" highlighted />
+            <PricingCard
+              name="Starter"
+              price={39}
+              features={STARTER_FEATURES}
+              plan="starter"
+              subscriptionsLive={subscriptionsLive}
+            />
+            <PricingCard
+              name="Pro"
+              price={89}
+              features={PRO_FEATURES}
+              plan="pro"
+              highlighted
+              subscriptionsLive={subscriptionsLive}
+            />
           </div>
           <p className="mt-8 text-center text-sm text-gray-400">
             <Link href="/pricing" className="underline hover:text-gray-600 transition-colors">
