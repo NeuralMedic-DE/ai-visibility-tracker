@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { Nav } from "@/components/Nav";
 
 export const metadata: Metadata = {
   title: "How We Scored This: Methodology | NeuralReach AI Visibility Index",
@@ -70,35 +71,13 @@ export default function MethodologyPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Nav */}
-      <nav className="border-b border-gray-100 bg-white/80 backdrop-blur sticky top-0 z-50">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="flex h-16 items-center justify-between">
-            <Link href="/" className="text-xl font-bold text-brand-700">
-              NeuralReach
-            </Link>
-            <div className="flex items-center gap-4">
-              <Link
-                href="/leaderboard"
-                className="hidden sm:block text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
-              >
-                AI Visibility Index
-              </Link>
-              <Link
-                href="/pricing"
-                className="hidden sm:block text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
-              >
-                Pricing
-              </Link>
-              <Link
-                href="/#waitlist"
-                className="rounded-lg bg-brand-600 px-4 py-2 text-sm font-semibold text-white hover:bg-brand-700 transition-colors"
-              >
-                Get Early Access
-              </Link>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <Nav
+        links={[
+          { href: "/leaderboard", label: "AI Visibility Index" },
+          { href: "/pricing", label: "Pricing" },
+        ]}
+        cta={{ label: "Get Early Access", href: "/#waitlist" }}
+      />
 
       {/* Hero */}
       <section className="bg-gradient-to-b from-brand-50 to-white py-14 text-center">

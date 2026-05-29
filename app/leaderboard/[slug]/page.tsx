@@ -3,6 +3,7 @@ import path from "path";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { cn } from "@/lib/cn";
+import { Nav } from "@/components/Nav";
 import { WaitlistForm } from "@/components/WaitlistForm";
 
 // ── Data types ────────────────────────────────────────────────────────────────
@@ -171,38 +172,13 @@ export default function BrandDetailPage({
   return (
     <div className="min-h-screen bg-white">
       {/* ── Sticky nav ─────────────────────────────────────── */}
-      <nav className="border-b border-gray-100 bg-white/80 backdrop-blur sticky top-0 z-40">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="flex h-16 items-center justify-between">
-            <Link
-              href="/"
-              className="text-xl font-bold text-brand-700 focus:outline-none focus:ring-2 focus:ring-brand-500 rounded"
-            >
-              NeuralReach
-            </Link>
-            <div className="flex items-center gap-3">
-              <Link
-                href="/leaderboard"
-                className="hidden sm:block text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
-              >
-                Leaderboard
-              </Link>
-              <Link
-                href="/methodology"
-                className="hidden sm:block text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
-              >
-                Methodology
-              </Link>
-              <a
-                href="#get-report"
-                className="rounded-lg bg-brand-600 px-4 py-2 text-sm font-semibold text-white hover:bg-brand-700 transition-colors focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2"
-              >
-                Track my brand
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <Nav
+        links={[
+          { href: "/leaderboard", label: "Leaderboard" },
+          { href: "/methodology", label: "Methodology" },
+        ]}
+        cta={{ label: "Track my brand", href: "#get-report", isAnchor: true }}
+      />
 
       <main>
         {/* ── Breadcrumb ──────────────────────────────────────── */}
@@ -287,19 +263,19 @@ export default function BrandDetailPage({
             <h2 className="text-lg font-bold text-gray-900 mb-6">
               AI Platform Breakdown
             </h2>
-            <div className="grid sm:grid-cols-3 gap-4">
+            <div className="grid sm:grid-cols-3 gap-5 sm:gap-6">
               {llmEntries.map(([llmKey, llm]) => {
                 const score = llm.avs;
                 const label = LLM_LABELS[llmKey] || llm.label;
                 return (
                   <div
                     key={llmKey}
-                    className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm"
+                    className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm"
                   >
-                    <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-3">
+                    <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-4">
                       {label}
                     </p>
-                    <div className="flex items-end justify-between mb-2">
+                    <div className="flex items-end justify-between mb-3">
                       <span
                         className={cn(
                           "text-3xl font-extrabold tabular-nums",
@@ -310,9 +286,9 @@ export default function BrandDetailPage({
                         <span className="text-sm font-normal text-gray-400">/100</span>
                       </span>
                     </div>
-                    <div className="h-2 w-full rounded-full bg-gray-100">
+                    <div className="h-2.5 w-full rounded-full bg-gray-100">
                       <div
-                        className={cn("h-2 rounded-full transition-all", scoreBarColor(score))}
+                        className={cn("h-2.5 rounded-full transition-all", scoreBarColor(score))}
                         style={{ width: `${Math.min(score, 100)}%` }}
                         aria-valuenow={score}
                         aria-valuemin={0}
@@ -321,7 +297,7 @@ export default function BrandDetailPage({
                         aria-label={`${label} score`}
                       />
                     </div>
-                    <p className="mt-2 text-[11px] text-gray-400">
+                    <p className="mt-3 text-xs text-gray-400">
                       {llm.prompts_scored} prompts scored
                     </p>
                   </div>

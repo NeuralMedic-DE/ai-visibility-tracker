@@ -115,7 +115,7 @@ function LoginForm() {
             required
             autoFocus
             autoComplete="email"
-            className="w-full rounded-lg border border-gray-300 px-4 py-2.5 text-sm text-gray-900 placeholder-gray-400 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-200 transition"
+            className="w-full rounded-lg border border-gray-300 px-4 py-3 min-h-[48px] text-sm text-gray-900 placeholder-gray-400 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-200 transition-colors"
           />
         </div>
 
@@ -128,7 +128,7 @@ function LoginForm() {
         <button
           type="submit"
           disabled={loading || !email.trim()}
-          className="w-full rounded-lg bg-brand-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-brand-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+          className="w-full rounded-lg bg-brand-600 px-4 py-3 min-h-[48px] text-sm font-semibold text-white hover:bg-brand-700 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
         >
           {loading ? "Sending…" : "Send magic link"}
         </button>

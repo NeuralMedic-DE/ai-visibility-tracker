@@ -264,7 +264,7 @@ export function LeaderboardTable({
         scope="col"
         aria-sort={active ? (sortDir === "asc" ? "ascending" : "descending") : "none"}
         className={cn(
-          "py-3 text-xs font-semibold uppercase tracking-wide text-gray-500 select-none",
+          "py-3.5 text-xs font-semibold uppercase tracking-wide text-gray-500 select-none",
           thClass
         )}
       >
@@ -302,7 +302,7 @@ export function LeaderboardTable({
             <SortableTh col="name" label="Brand" className="px-3 text-left" />
             <th
               scope="col"
-              className="px-3 py-3 text-left text-xs font-semibold uppercase tracking-wide text-gray-500 hidden sm:table-cell"
+              className="px-3 py-3.5 text-left text-xs font-semibold uppercase tracking-wide text-gray-500 hidden sm:table-cell"
             >
               Category
             </th>
@@ -339,7 +339,7 @@ export function LeaderboardTable({
             </th>
             <th
               scope="col"
-              className="px-3 py-3 text-right text-xs font-semibold uppercase tracking-wide text-gray-500"
+              className="px-3 py-3.5 text-right text-xs font-semibold uppercase tracking-wide text-gray-500"
             >
               <span className="sr-only">Actions</span>
             </th>
@@ -352,22 +352,22 @@ export function LeaderboardTable({
               className="group hover:bg-brand-50/40 transition-colors"
             >
               {/* Rank */}
-              <td className="whitespace-nowrap py-3 pl-4 pr-3 font-medium text-gray-400 tabular-nums">
+              <td className="whitespace-nowrap py-3.5 pl-4 pr-3 font-medium text-gray-400 tabular-nums">
                 {brand.rank}
               </td>
 
               {/* Brand */}
-              <td className="whitespace-nowrap px-3 py-3">
+              <td className="whitespace-nowrap px-3 py-3.5">
                 <div className="flex items-center gap-2">
                   <div className="min-w-0">
                     <Link
                       href={`/leaderboard/${brand.id}`}
-                      className="font-semibold text-gray-900 truncate max-w-[140px] sm:max-w-none hover:text-brand-700 hover:underline focus:outline-none focus:ring-2 focus:ring-brand-400 rounded block"
+                      className="font-semibold text-gray-900 hover:text-brand-700 hover:underline focus:outline-none focus:ring-2 focus:ring-brand-400 rounded block"
                       title={`View ${brand.name} AI visibility report`}
                     >
                       {brand.name}
                     </Link>
-                    <div className="text-xs text-gray-400 truncate max-w-[140px] sm:max-w-none">
+                    <div className="text-xs text-gray-400">
                       {brand.website}
                     </div>
                   </div>
@@ -383,12 +383,12 @@ export function LeaderboardTable({
               </td>
 
               {/* Category */}
-              <td className="whitespace-nowrap px-3 py-3 text-gray-500 hidden sm:table-cell">
+              <td className="whitespace-nowrap px-3 py-3.5 text-gray-500 hidden sm:table-cell">
                 {brand.category}
               </td>
 
               {/* Overall score */}
-              <td className="whitespace-nowrap px-3 py-3 text-center">
+              <td className="whitespace-nowrap px-3 py-3.5 text-center">
                 <span
                   className={cn(
                     "text-sm font-bold tabular-nums",
@@ -403,26 +403,26 @@ export function LeaderboardTable({
               </td>
 
               {/* Per-LLM scores */}
-              <td className="whitespace-nowrap px-3 py-3 text-center hidden md:table-cell">
+              <td className="whitespace-nowrap px-3 py-3.5 text-center hidden md:table-cell">
                 <ScorePill score={brand.scores.chatgpt} />
               </td>
-              <td className="whitespace-nowrap px-3 py-3 text-center hidden md:table-cell">
+              <td className="whitespace-nowrap px-3 py-3.5 text-center hidden md:table-cell">
                 <ScorePill score={brand.scores.claude} />
               </td>
-              <td className="whitespace-nowrap px-3 py-3 text-center hidden md:table-cell">
+              <td className="whitespace-nowrap px-3 py-3.5 text-center hidden md:table-cell">
                 <ScorePill score={brand.scores.perplexity} />
               </td>
-              <td className="whitespace-nowrap px-3 py-3 text-center hidden lg:table-cell">
+              <td className="whitespace-nowrap px-3 py-3.5 text-center hidden lg:table-cell">
                 <ScorePill score={brand.scores.google_aio} />
               </td>
 
               {/* Trend */}
-              <td className="whitespace-nowrap px-3 py-3 text-center hidden sm:table-cell">
+              <td className="whitespace-nowrap px-3 py-3.5 text-center hidden sm:table-cell">
                 <TrendIcon trend={brand.trend} />
               </td>
 
               {/* CTA */}
-              <td className="whitespace-nowrap px-3 py-3 text-right">
+              <td className="whitespace-nowrap px-3 py-3.5 text-right">
                 <Link
                   href={`/leaderboard/${brand.id}`}
                   className="text-xs font-medium text-brand-600 hover:text-brand-800 opacity-0 group-hover:opacity-100 focus:opacity-100 transition-opacity rounded px-2 py-1 hover:bg-brand-50 focus:outline-none focus:ring-2 focus:ring-brand-400"

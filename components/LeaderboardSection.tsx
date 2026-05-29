@@ -200,13 +200,13 @@ export function LeaderboardSection({ brands, note, generatedAt, runDate }: Leade
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
                 placeholder="Search brands, categories…"
-                className="w-full rounded-lg border border-gray-200 pl-9 pr-4 py-2 text-sm focus:border-brand-400 focus:outline-none focus:ring-2 focus:ring-brand-200"
+                className="w-full rounded-lg border border-gray-200 pl-9 pr-4 py-2.5 min-h-[44px] text-sm focus:border-brand-400 focus:outline-none focus:ring-2 focus:ring-brand-200 transition-colors"
                 aria-label="Search brands"
               />
               {search && (
                 <button
                   onClick={() => setSearch("")}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600"
+                  className="absolute right-2 top-1/2 -translate-y-1/2 inline-flex items-center justify-center h-8 w-8 rounded text-gray-400 hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-brand-400 transition-colors"
                   aria-label="Clear search"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="h-3.5 w-3.5">
@@ -225,7 +225,7 @@ export function LeaderboardSection({ brands, note, generatedAt, runDate }: Leade
                 id="category-filter"
                 value={categoryFilter}
                 onChange={(e) => setCategoryFilter(e.target.value)}
-                className="rounded-lg border border-gray-200 px-3 py-2 text-sm focus:border-brand-400 focus:outline-none focus:ring-2 focus:ring-brand-200 bg-white"
+                className="rounded-lg border border-gray-200 px-3 py-2.5 min-h-[44px] text-sm focus:border-brand-400 focus:outline-none focus:ring-2 focus:ring-brand-200 bg-white transition-colors"
               >
                 <option value="all">All categories</option>
                 {categories.map((cat) => (

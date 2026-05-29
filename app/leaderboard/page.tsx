@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { Nav } from "@/components/Nav";
 import { LeaderboardSection } from "@/components/LeaderboardSection";
 import type { BrandScore, BrandGap } from "@/components/LeaderboardTable";
 
@@ -120,39 +121,13 @@ export default function LeaderboardPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* ── Sticky nav ─────────────────────────────────────── */}
-      <nav className="border-b border-gray-100 bg-white/80 backdrop-blur sticky top-0 z-40">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="flex h-16 items-center justify-between">
-            <Link
-              href="/"
-              className="text-xl font-bold text-brand-700 focus:outline-none focus:ring-2 focus:ring-brand-500 rounded"
-            >
-              NeuralReach
-            </Link>
-            <div className="flex items-center gap-3">
-              <Link
-                href="/methodology"
-                className="hidden sm:block text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
-              >
-                Methodology
-              </Link>
-              <Link
-                href="/#pricing"
-                className="hidden sm:block text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
-              >
-                Pricing
-              </Link>
-              {/* Scroll to waitlist — JS-free anchor */}
-              <a
-                href="#waitlist"
-                className="rounded-lg bg-brand-600 px-4 py-2 text-sm font-semibold text-white hover:bg-brand-700 transition-colors focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2"
-              >
-                Get Early Access
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <Nav
+        links={[
+          { href: "/methodology", label: "Methodology" },
+          { href: "/pricing", label: "Pricing" },
+        ]}
+        cta={{ label: "Get Early Access", href: "#waitlist", isAnchor: true }}
+      />
 
       {/* ── All interactive leaderboard content (client island) */}
       <main>

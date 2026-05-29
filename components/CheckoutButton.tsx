@@ -57,7 +57,7 @@ export function CheckoutButton({
         onClick={handleClick}
         disabled={loading}
         className={cn(
-          "rounded-lg px-4 py-2.5 text-sm font-semibold transition-colors",
+          "rounded-lg px-4 py-3 min-h-[48px] text-sm font-semibold transition-colors",
           "disabled:opacity-60 disabled:cursor-not-allowed",
           block && "w-full text-center",
           className

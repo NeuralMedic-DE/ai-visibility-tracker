@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Nav } from "@/components/Nav";
 import { WaitlistForm } from "@/components/WaitlistForm";
 import { PricingCard } from "@/components/PricingCard";
 
@@ -24,41 +25,14 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Nav */}
-      <nav className="border-b border-gray-100 bg-white/80 backdrop-blur sticky top-0 z-50">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="flex h-16 items-center justify-between">
-            <div className="flex items-center gap-2">
-              <span className="text-xl font-bold text-brand-700">NeuralReach</span>
-            </div>
-            <div className="flex items-center gap-4">
-              <Link
-                href="/leaderboard"
-                className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors hidden sm:inline"
-              >
-                AI Visibility Index
-              </Link>
-              <Link
-                href="/pricing"
-                className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
-              >
-                Pricing
-              </Link>
-              <Link
-                href="/methodology"
-                className="hidden sm:block text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
-              >
-                Methodology
-              </Link>
-              <a
-                href="#waitlist"
-                className="rounded-lg bg-brand-600 px-4 py-2 text-sm font-semibold text-white hover:bg-brand-700 transition-colors"
-              >
-                Get Early Access
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <Nav
+        links={[
+          { href: "/leaderboard", label: "AI Visibility Index" },
+          { href: "/pricing", label: "Pricing" },
+          { href: "/methodology", label: "Methodology" },
+        ]}
+        cta={{ label: "Get Early Access", href: "#waitlist", isAnchor: true }}
+      />
 
       {/* Hero */}
       <section className="relative overflow-hidden bg-gradient-to-b from-brand-50 to-white py-20 sm:py-28">
@@ -174,7 +148,7 @@ export default function HomePage() {
           <p className="text-brand-200 mb-8 text-lg">
             Join 200+ B2B SaaS founders tracking their AI search visibility.
           </p>
-          <WaitlistForm variant="compact" className="max-w-sm mx-auto" />
+          <WaitlistForm variant="compact" theme="dark" className="max-w-sm mx-auto" />
         </div>
       </section>
 
@@ -186,9 +160,11 @@ export default function HomePage() {
             <p className="text-xs text-gray-400">
               © 2026 NeuralMedic / NeuralReach. All rights reserved.
             </p>
-            <div className="flex gap-4 text-xs text-gray-400">
-              <Link href="/leaderboard" className="hover:text-gray-600">AI Visibility Index</Link>
-              <a href="mailto:hello@neuralreach.de" className="hover:text-gray-600">Contact</a>
+            <div className="flex flex-wrap gap-4 text-xs text-gray-400">
+              <Link href="/leaderboard" className="hover:text-gray-600 transition-colors">AI Visibility Index</Link>
+              <Link href="/pricing" className="hover:text-gray-600 transition-colors">Pricing</Link>
+              <Link href="/methodology" className="hover:text-gray-600 transition-colors">Methodology</Link>
+              <a href="mailto:hello@neuralreach.de" className="hover:text-gray-600 transition-colors">Contact</a>
             </div>
           </div>
         </div>

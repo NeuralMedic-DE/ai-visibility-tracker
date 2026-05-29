@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Nav } from "@/components/Nav";
 import { PricingCard } from "@/components/PricingCard";
 import { CheckoutButton } from "@/components/CheckoutButton";
 import type { Metadata } from "next";
@@ -44,35 +45,13 @@ export default function PricingPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Nav */}
-      <nav className="border-b border-gray-100 bg-white/80 backdrop-blur sticky top-0 z-50">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="flex h-16 items-center justify-between">
-            <Link href="/" className="flex items-center gap-2">
-              <span className="text-xl font-bold text-brand-700">NeuralReach</span>
-            </Link>
-            <div className="flex items-center gap-4">
-              <Link
-                href="/leaderboard"
-                className="hidden sm:block text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
-              >
-                AI Visibility Index
-              </Link>
-              <Link
-                href="/methodology"
-                className="hidden sm:block text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
-              >
-                Methodology
-              </Link>
-              <Link
-                href="/#waitlist"
-                className="rounded-lg bg-brand-600 px-4 py-2 text-sm font-semibold text-white hover:bg-brand-700 transition-colors"
-              >
-                Get Early Access
-              </Link>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <Nav
+        links={[
+          { href: "/leaderboard", label: "AI Visibility Index" },
+          { href: "/methodology", label: "Methodology" },
+        ]}
+        cta={{ label: "Get Early Access", href: "/#waitlist" }}
+      />
 
       {/* Hero */}
       <section className="bg-gradient-to-b from-brand-50 to-white py-16 text-center">
@@ -213,13 +192,13 @@ export default function PricingPage() {
               plan="starter"
               label="Start Starter for $39/mo"
               block={false}
-              className="rounded-xl bg-white px-8 py-3 text-sm font-bold text-brand-600 hover:bg-brand-50 transition-colors"
+              className="rounded-xl bg-white px-8 py-3 min-h-[48px] text-sm font-bold text-brand-600 hover:bg-brand-50 transition-colors focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-brand-600"
             />
             <CheckoutButton
               plan="pro"
               label="Start Pro for $89/mo"
               block={false}
-              className="rounded-xl border border-brand-400 px-8 py-3 text-sm font-bold text-white hover:bg-brand-700 transition-colors"
+              className="rounded-xl border border-brand-400 px-8 py-3 min-h-[48px] text-sm font-bold text-white hover:bg-brand-700 transition-colors focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-brand-600"
             />
           </div>
           <p className="mt-4 text-xs text-brand-300">

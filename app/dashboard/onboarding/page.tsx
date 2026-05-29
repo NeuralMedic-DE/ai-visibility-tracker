@@ -162,7 +162,7 @@ export default function OnboardingPage() {
                   value={brandName}
                   onChange={(e) => setBrandName(e.target.value)}
                   placeholder="e.g. Acme Corp"
-                  className="w-full rounded-lg border border-gray-300 px-3.5 py-2.5 text-sm text-gray-900 placeholder-gray-400 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-200"
+                  className="w-full rounded-lg border border-gray-300 px-3.5 py-3 min-h-[44px] text-sm text-gray-900 placeholder-gray-400 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-200 transition-colors"
                 />
               </div>
 
@@ -181,7 +181,7 @@ export default function OnboardingPage() {
                   value={brandUrl}
                   onChange={(e) => setBrandUrl(e.target.value)}
                   placeholder="https://acmecorp.com"
-                  className="w-full rounded-lg border border-gray-300 px-3.5 py-2.5 text-sm text-gray-900 placeholder-gray-400 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-200"
+                  className="w-full rounded-lg border border-gray-300 px-3.5 py-3 min-h-[44px] text-sm text-gray-900 placeholder-gray-400 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-200 transition-colors"
                 />
               </div>
 
@@ -200,7 +200,7 @@ export default function OnboardingPage() {
                   value={category}
                   onChange={(e) => setCategory(e.target.value)}
                   placeholder="e.g. CRM, project management tool, HR software"
-                  className="w-full rounded-lg border border-gray-300 px-3.5 py-2.5 text-sm text-gray-900 placeholder-gray-400 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-200"
+                  className="w-full rounded-lg border border-gray-300 px-3.5 py-3 min-h-[44px] text-sm text-gray-900 placeholder-gray-400 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-200 transition-colors"
                 />
                 <p className="mt-1 text-xs text-gray-400">
                   Helps us craft better prompts. We&apos;ll infer it from your
@@ -223,7 +223,7 @@ export default function OnboardingPage() {
                   value={segment}
                   onChange={(e) => setSegment(e.target.value)}
                   placeholder="e.g. B2B SaaS startups, mid-market e-commerce, enterprise HR teams"
-                  className="w-full rounded-lg border border-gray-300 px-3.5 py-2.5 text-sm text-gray-900 placeholder-gray-400 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-200"
+                  className="w-full rounded-lg border border-gray-300 px-3.5 py-3 min-h-[44px] text-sm text-gray-900 placeholder-gray-400 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-200 transition-colors"
                 />
               </div>
 
