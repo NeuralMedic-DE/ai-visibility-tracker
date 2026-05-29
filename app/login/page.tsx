@@ -94,7 +94,7 @@ function LoginForm() {
           Sign in to NeuralReach
         </h1>
         <p className="text-gray-500 text-sm">
-          We&apos;ll email you a magic link — no password needed.
+          We&apos;ll email you a magic link. No password needed.
         </p>
       </div>
 
@@ -130,7 +130,7 @@ function LoginForm() {
           disabled={loading || !email.trim()}
           className="w-full rounded-lg bg-brand-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-brand-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
         >
-          {loading ? "Sending…" : "Send magic link →"}
+          {loading ? "Sending…" : "Send magic link"}
         </button>
       </form>
 
@@ -140,7 +140,7 @@ function LoginForm() {
           href="/pricing"
           className="text-brand-600 hover:underline underline-offset-2"
         >
-          View pricing →
+          View pricing
         </Link>
       </p>
     </>

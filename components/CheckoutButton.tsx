@@ -21,8 +21,8 @@ export function CheckoutButton({
   const [error, setError] = useState<string | null>(null);
 
   const defaultLabel = plan === "starter"
-    ? "Start Starter — $39/mo"
-    : "Start Pro — $89/mo";
+    ? "Start Starter for $39/mo"
+    : "Start Pro for $89/mo";
 
   async function handleClick() {
     setLoading(true);
@@ -46,7 +46,7 @@ export function CheckoutButton({
       // Redirect to Stripe Checkout
       window.location.href = data.url;
     } catch {
-      setError("Network error — please try again.");
+      setError("Network error. Please try again.");
       setLoading(false);
     }
   }

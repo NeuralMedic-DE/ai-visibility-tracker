@@ -6,11 +6,11 @@ import { LeaderboardSection } from "@/components/LeaderboardSection";
 import type { BrandScore, BrandGap } from "@/components/LeaderboardTable";
 
 export const metadata: Metadata = {
-  title: "AI Visibility Index — Top 100 B2B SaaS Brands | NeuralReach",
+  title: "AI Visibility Index: Top 100 B2B SaaS Brands | NeuralReach",
   description:
-    "See how the top B2B SaaS brands rank for AI search visibility across ChatGPT, Claude, and Perplexity. Free leaderboard — all scores measured with real API calls.",
+    "See how the top B2B SaaS brands rank for AI search visibility across ChatGPT, Claude, and Perplexity. Free leaderboard: all scores measured with real API calls.",
   openGraph: {
-    title: "AI Visibility Index — Top 100 B2B SaaS Brands",
+    title: "AI Visibility Index: Top 100 B2B SaaS Brands",
     description:
       "Ranked by how often they appear in AI recommendations across 3 platforms and 25 prompts. All scores verified via live API calls.",
     type: "website",

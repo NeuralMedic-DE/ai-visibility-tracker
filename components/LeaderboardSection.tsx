@@ -170,7 +170,7 @@ export function LeaderboardSection({ brands, note, generatedAt, runDate }: Leade
               </svg>
             </button>
             <p className="mt-2 text-xs text-gray-400">
-              Free — we score 25 real AI prompts across 4 platforms
+              Free: 25 real AI prompts scored across 4 platforms
             </p>
           </div>
         </div>
@@ -289,8 +289,8 @@ export function LeaderboardSection({ brands, note, generatedAt, runDate }: Leade
             Not on the list? Track your brand.
           </h2>
           <p className="text-gray-600 mb-8">
-            Get weekly AI visibility reports for your B2B SaaS — and see
-            exactly how you compare to competitors.
+            Get weekly AI visibility reports for your B2B SaaS. See exactly
+            how you compare to competitors.
           </p>
           <WaitlistForm variant="compact" className="max-w-sm mx-auto" />
         </div>

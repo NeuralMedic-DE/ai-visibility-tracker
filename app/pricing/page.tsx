@@ -4,7 +4,7 @@ import { CheckoutButton } from "@/components/CheckoutButton";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Pricing — NeuralReach",
+  title: "Pricing | NeuralReach",
   description:
     "Simple, transparent pricing for AI search visibility tracking. Start with a 14-day free trial.",
 };
@@ -55,7 +55,7 @@ export default function PricingPage() {
                 href="/leaderboard"
                 className="hidden sm:block text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
               >
-                AI Visibility Index →
+                AI Visibility Index
               </Link>
               <Link
                 href="/methodology"
@@ -171,7 +171,7 @@ export default function PricingPage() {
             {[
               {
                 q: "Does the free trial require a credit card?",
-                a: "Yes — Stripe collects your card upfront, but nothing is charged until day 15. You can cancel at any time before then.",
+                a: "Yes. Stripe collects your card upfront, but nothing is charged until day 15. You can cancel at any time before then.",
               },
               {
                 q: "What counts as an AI prompt?",
@@ -211,13 +211,13 @@ export default function PricingPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <CheckoutButton
               plan="starter"
-              label="Start Starter — $39/mo"
+              label="Start Starter for $39/mo"
               block={false}
               className="rounded-xl bg-white px-8 py-3 text-sm font-bold text-brand-600 hover:bg-brand-50 transition-colors"
             />
             <CheckoutButton
               plan="pro"
-              label="Start Pro — $89/mo"
+              label="Start Pro for $89/mo"
               block={false}
               className="rounded-xl border border-brand-400 px-8 py-3 text-sm font-bold text-white hover:bg-brand-700 transition-colors"
             />

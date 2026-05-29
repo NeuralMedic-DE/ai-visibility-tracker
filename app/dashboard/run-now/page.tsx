@@ -69,7 +69,7 @@ export default function RunNowPage() {
               href="/dashboard"
               className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
             >
-              ← Dashboard
+              Dashboard
             </Link>
           </div>
         </div>
@@ -130,7 +130,7 @@ export default function RunNowPage() {
               </h1>
               <p className="text-gray-500 text-sm leading-relaxed mb-2">
                 You can run one scan every 12 hours. Your brand was saved
-                successfully — check back for your results.
+                successfully. Check back for your results.
               </p>
               {retryAfter && (
                 <p className="text-xs text-gray-400 mb-6">
@@ -142,7 +142,7 @@ export default function RunNowPage() {
                 href="/dashboard"
                 className="inline-flex items-center rounded-lg bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-brand-700 transition-colors"
               >
-                Go to dashboard →
+                Go to dashboard
               </Link>
             </>
           )}
@@ -168,7 +168,7 @@ export default function RunNowPage() {
                 href="/dashboard"
                 className="inline-flex items-center rounded-lg bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-brand-700 transition-colors"
               >
-                Go to dashboard →
+                Go to dashboard
               </Link>
             </>
           )}

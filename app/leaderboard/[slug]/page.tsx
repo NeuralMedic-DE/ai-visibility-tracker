@@ -71,11 +71,11 @@ export async function generateMetadata({
     };
   }
   return {
-    title: `${brand.brand} AI Visibility Score — Rank #${brand.rank} of ${brand.total_brands} | NeuralReach`,
+    title: `${brand.brand} AI Visibility Score, Rank #${brand.rank} of ${brand.total_brands} | NeuralReach`,
     description: `${brand.brand} scored ${brand.avs_brand.toFixed(1)}/100 for AI search visibility across ChatGPT, Claude, and Perplexity (${brand.prompts_scored * 3} real API prompts run on ${brand.run_date}).`,
     openGraph: {
       title: `${brand.brand} AI Visibility Score: ${brand.avs_brand.toFixed(1)}/100`,
-      description: `Rank #${brand.rank} of ${brand.total_brands} B2B SaaS brands. See exactly which AI prompts ${brand.brand} is missing — and what to fix.`,
+      description: `Rank #${brand.rank} of ${brand.total_brands} B2B SaaS brands. See exactly which AI prompts ${brand.brand} is missing and what to fix.`,
       type: "website",
     },
   };
@@ -153,7 +153,7 @@ export default function BrandDetailPage({
             href="/leaderboard"
             className="text-brand-600 hover:text-brand-800 underline"
           >
-            ← Back to leaderboard
+            Back to leaderboard
           </Link>
         </div>
       </div>
@@ -254,7 +254,7 @@ export default function BrandDetailPage({
                     {brand.url}
                   </a>
                   {brand.category_long && (
-                    <> &mdash; {brand.category_long}</>
+                    <> &middot; {brand.category_long}</>
                   )}
                 </p>
               </div>
@@ -342,7 +342,7 @@ export default function BrandDetailPage({
           <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
             <div className="mb-6">
               <h2 className="text-lg font-bold text-gray-900">
-                Visibility Gaps — Where {brand.brand} Is Missing
+                Visibility Gaps: Where {brand.brand} Is Missing
               </h2>
               <p className="mt-1 text-sm text-gray-500">
                 These are prompts where buyers couldn&apos;t find {brand.brand} in AI search results.
@@ -408,10 +408,10 @@ export default function BrandDetailPage({
 
             <p className="mt-4 text-xs text-gray-400">
               Gap prompts are selected by counting how many AI platforms failed to mention{" "}
-              {brand.brand} — prompts where all 3 platforms missed the brand are the highest
+              Prompts where all 3 platforms missed {brand.brand} are the highest
               priority gaps.{" "}
               <Link href="/leaderboard" className="underline hover:text-gray-600">
-                Back to full leaderboard →
+                Back to full leaderboard
               </Link>
             </p>
           </div>
@@ -457,7 +457,7 @@ export default function BrandDetailPage({
               NeuralReach
             </p>
             <h2 className="text-2xl font-extrabold text-gray-900 mb-3">
-              Track {brand.brand}&apos;s AI Visibility — Weekly
+              Track {brand.brand}&apos;s AI Visibility, Updated Weekly
             </h2>
             <p className="text-gray-600 mb-8 text-sm sm:text-base">
               Get weekly reports showing exactly how {brand.brand} appears across ChatGPT,

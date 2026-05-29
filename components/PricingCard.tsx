@@ -71,7 +71,7 @@ export function PricingCard({
             highlighted ? "text-brand-200" : "text-green-600 font-medium"
           )}
         >
-          14-day free trial — no credit card billed until day 15
+          14-day free trial. No credit card billed until day 15.
         </p>
       )}
 
@@ -101,7 +101,7 @@ export function PricingCard({
       <div className="mt-8">
         <CheckoutButton
           plan={plan}
-          label={`Start ${name} — $${price}/mo`}
+          label={`Start ${name} for $${price}/mo`}
           className={cn(
             highlighted
               ? "bg-white text-brand-600 hover:bg-brand-50"

@@ -1,12 +1,15 @@
+import { readdir, readFile } from "fs/promises";
+import path from "path";
 import { redirect } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import SignOutButton from "@/components/SignOutButton";
+import AutoRefresh from "@/components/AutoRefresh";
 
 export const metadata: Metadata = {
-  title: "Dashboard — NeuralReach",
+  title: "Dashboard | NeuralReach",
   description: "Your NeuralReach account dashboard.",
 };
 
@@ -37,6 +40,28 @@ const LLM_LABELS: Record<string, string> = {
   google: "Google AI",
 };
 
+/** Why each gap category matters (shown as the "fix context" under gap prompts) */
+const GAP_CONTEXT: Record<
+  string,
+  { why: string; fix: string; fixLabel: string }
+> = {
+  use_case: {
+    why: "Use-case prompts reach buyers at the exact moment they need your solution — the highest-converting prompt type in AI search.",
+    fix: "Create or expand a dedicated use-case page for this scenario with concrete outcomes, customer stories, and FAQPage schema markup.",
+    fixLabel: "Create use-case page",
+  },
+  category_discovery: {
+    why: "Category discovery queries drive early-funnel awareness. Missing here means you're invisible before buyers even reach the consideration stage.",
+    fix: "Publish a comprehensive category guide or 'best tools for X' page that establishes topical authority in this space. Add SoftwareApplication schema.",
+    fixLabel: "Improve category authority",
+  },
+  alternatives: {
+    why: "Alternative searches capture switching-intent demand at its peak — buyers are actively evaluating. Visibility here closes deals against incumbents.",
+    fix: "Build a dedicated '[Your Brand] vs [Competitor]' or 'Alternatives to X' page with factual, structured comparisons.",
+    fixLabel: "Build comparison page",
+  },
+};
+
 // ── Types ───────────────────────────────────────────────────────────────────
 
 type Customer = {
@@ -57,11 +82,22 @@ type TrackedBrand = {
   category: string | null;
 };
 
+/** Shape written by scorer/run_for_customer.py into customer_scoring_runs.gap_prompts JSONB */
 type GapPrompt = {
   prompt_id: string;
   prompt_text: string;
-  category: string;
-  llms_missed: string[];
+  /** Category written by scorer: "use_case" | "category_discovery" | "alternatives" */
+  category?: string;
+  /** Alternate field name that may appear from brand JSON imports */
+  prompt_category?: string;
+  /** LLMs that missed this prompt (scorer format) */
+  llms_missed?: string[];
+  /** Alternate field name from brand JSON */
+  llms_missing?: string[];
+  /** Count field from brand JSON */
+  llms_missing_count?: number;
+  /** Explanation from brand JSON (not present in scorer output) */
+  why_it_matters?: string;
 };
 
 type ScoringRun = {
@@ -73,6 +109,42 @@ type ScoringRun = {
   fix_report_md: string | null;
   created_at: string;
 };
+
+type IndexRank = { rank: number; total: number };
+
+// ── Server helpers ──────────────────────────────────────────────────────────
+
+/**
+ * Computes where a given AVS score would rank in the public 100-brand index.
+ * Reads brand JSON files from disk — server component only.
+ */
+async function computeIndexRank(avs: number): Promise<IndexRank> {
+  try {
+    const brandsDir = path.join(process.cwd(), "data", "brands");
+    const files = await readdir(brandsDir);
+    const jsonFiles = files.filter((f) => f.endsWith(".json"));
+    const scores = await Promise.all(
+      jsonFiles.map(async (f) => {
+        const raw = await readFile(path.join(brandsDir, f), "utf-8");
+        const data = JSON.parse(raw) as { avs_brand?: number };
+        return typeof data.avs_brand === "number" ? data.avs_brand : 0;
+      })
+    );
+    const aboveCount = scores.filter((s) => s > avs).length;
+    return { rank: aboveCount + 1, total: scores.length };
+  } catch {
+    // Fail gracefully — rank display is non-critical
+    return { rank: 0, total: 100 };
+  }
+}
+
+/** Days until next weekly report. Run is weekly; returns null if overdue. */
+function daysUntilNextReport(runDate: string): number {
+  const next = new Date(runDate);
+  next.setDate(next.getDate() + 7);
+  const msLeft = next.getTime() - Date.now();
+  return Math.max(0, Math.ceil(msLeft / (1_000 * 60 * 60 * 24)));
+}
 
 // ── Page ────────────────────────────────────────────────────────────────────
 
@@ -109,11 +181,9 @@ export default async function DashboardPage({
 
   // 3. Check whether this is a brand-new paying customer (≤ 5 min ago).
   const isNewlyCreated = customer
-    ? new Date(customer.created_at).getTime() >
-      Date.now() - 5 * 60 * 1000
+    ? new Date(customer.created_at).getTime() > Date.now() - 5 * 60 * 1_000
     : false;
-  const showSuccessView =
-    params.checkout === "success" && isNewlyCreated;
+  const showSuccessView = params.checkout === "success" && isNewlyCreated;
 
   // 4. Trial days remaining.
   let trialDaysLeft: number | null = null;
@@ -122,7 +192,7 @@ export default async function DashboardPage({
     customer.trial_ends_at
   ) {
     const ms = new Date(customer.trial_ends_at).getTime() - Date.now();
-    trialDaysLeft = Math.max(0, Math.ceil(ms / (1000 * 60 * 60 * 24)));
+    trialDaysLeft = Math.max(0, Math.ceil(ms / (1_000 * 60 * 60 * 24)));
   }
 
   // 5. Load tracked brand (if table exists; gracefully absent).
@@ -141,7 +211,9 @@ export default async function DashboardPage({
   if (customer) {
     const { data: runRow } = await admin
       .from("customer_scoring_runs")
-      .select("id, run_date, avs_brand, per_llm, gap_prompts, fix_report_md, created_at")
+      .select(
+        "id, run_date, avs_brand, per_llm, gap_prompts, fix_report_md, created_at"
+      )
       .eq("customer_id", customer.id)
       .order("run_date", { ascending: false })
       .limit(1)
@@ -149,9 +221,14 @@ export default async function DashboardPage({
     latestRun = runRow as ScoringRun | null;
   }
 
-  // 7. Billing portal link.
-  const billingLink =
-    process.env.STRIPE_CANCELLATION_LINK ?? "/pricing";
+  // 7. Compute index rank (server-side fs read, only when we have results).
+  let indexRank: IndexRank = { rank: 0, total: 100 };
+  if (latestRun) {
+    indexRank = await computeIndexRank(Number(latestRun.avs_brand));
+  }
+
+  // 8. Billing portal link.
+  const billingLink = process.env.STRIPE_CANCELLATION_LINK ?? "/pricing";
 
   const statusInfo =
     STATUS_CONFIG[customer?.subscription_status ?? "none"] ??
@@ -160,7 +237,7 @@ export default async function DashboardPage({
 
   const isRunning = params.running === "1";
 
-  // ── Render ────────────────────────────────────────────────────────────────
+  // ── Render ─────────────────────────────────────────────────────────────────
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Nav */}
@@ -198,6 +275,7 @@ export default async function DashboardPage({
             billingLink={billingLink}
             trackedBrand={trackedBrand}
             latestRun={latestRun}
+            indexRank={indexRank}
             isRunning={isRunning}
           />
         )}
@@ -260,7 +338,7 @@ function SuccessView({ email }: { email: string }) {
           {
             emoji: "📊",
             title: "Get your visibility score",
-            desc: "Your report shows where AI search mentions (or ignores) your brand — and what to fix.",
+            desc: "Your report shows where AI search mentions (or ignores) your brand, and what to fix.",
           },
           {
             emoji: "💳",
@@ -285,7 +363,7 @@ function SuccessView({ email }: { email: string }) {
           href="/dashboard/onboarding"
           className="rounded-lg bg-brand-600 px-6 py-2.5 text-sm font-semibold text-white hover:bg-brand-700 transition-colors"
         >
-          Add my brand →
+          Add my brand
         </Link>
         <Link
           href="/leaderboard"
@@ -317,7 +395,7 @@ function NoSubscriptionView({ email }: { email: string }) {
       <div className="rounded-2xl bg-white ring-1 ring-gray-200 p-6 mb-6 text-sm text-gray-600 text-left">
         <p>
           If you just subscribed, it can take a minute for your account to
-          activate — try refreshing in a moment.
+          activate. Try refreshing in a moment.
         </p>
         <p className="mt-2">
           Think this is a mistake? Email us at{" "}
@@ -334,13 +412,13 @@ function NoSubscriptionView({ email }: { email: string }) {
         href="/pricing"
         className="rounded-lg bg-brand-600 px-6 py-2.5 text-sm font-semibold text-white hover:bg-brand-700 transition-colors inline-block"
       >
-        Subscribe →
+        Subscribe
       </Link>
     </div>
   );
 }
 
-/** Main account view for active/trialing customers */
+/** Main account view — dispatches to the three brand-tracking states */
 function AccountView({
   email,
   customer,
@@ -350,6 +428,7 @@ function AccountView({
   billingLink,
   trackedBrand,
   latestRun,
+  indexRank,
   isRunning,
 }: {
   email: string;
@@ -360,6 +439,7 @@ function AccountView({
   billingLink: string;
   trackedBrand: TrackedBrand | null;
   latestRun: ScoringRun | null;
+  indexRank: IndexRank;
   isRunning: boolean;
 }) {
   return (
@@ -370,40 +450,44 @@ function AccountView({
         <p className="text-sm text-gray-400 mt-1">{email}</p>
       </div>
 
-      {/* Scoring in-progress banner */}
-      {isRunning && (
+      {/* Re-scan in-progress banner (only relevant on state C when user re-triggered) */}
+      {isRunning && latestRun && (
         <div className="rounded-xl bg-blue-50 border border-blue-200 px-5 py-4 flex items-start gap-3">
           <span className="text-xl shrink-0">⚙️</span>
           <div>
             <p className="text-sm font-semibold text-blue-800">
-              Scoring in progress…
+              New scan in progress…
             </p>
             <p className="text-xs text-blue-600 mt-0.5">
-              We&apos;re querying ChatGPT, Claude, Perplexity, and Google AI
-              Overviews for your brand. This takes a few minutes — refresh the
-              page to see your results.
+              We&apos;re re-querying ChatGPT, Claude, Perplexity, and Google AI
+              Overviews for your brand. Your previous results are shown below.
+              Refresh the page to check for updated scores.
             </p>
           </div>
         </div>
       )}
 
-      {/* Brand Tracker — main section */}
+      {/*
+       * ─────────────────────────────────────────────────────────
+       *  STATE A: No tracked brand → friendly empty state
+       *  STATE B: Brand saved, no results yet → generating
+       *  STATE C: Has scoring results → full report
+       * ─────────────────────────────────────────────────────────
+       */}
       {!trackedBrand ? (
-        /* No brand set up yet */
-        <OnboardingCTA />
-      ) : latestRun ? (
-        /* Has results — show them */
+        <EmptyState />
+      ) : !latestRun ? (
+        <GeneratingState brandName={trackedBrand.brand_name} />
+      ) : (
         <ScoringResults
           brand={trackedBrand}
           run={latestRun}
+          indexRank={indexRank}
           isPro={customer.plan === "pro"}
         />
-      ) : (
-        /* Brand saved but no runs yet */
-        <RunNowCTA brandName={trackedBrand.brand_name} />
       )}
 
-      {/* Subscription card */}
+      {/* Subscription card — always visible */}
       <div className="rounded-2xl bg-white ring-1 ring-gray-200 p-6">
         <h2 className="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-4">
           Subscription
@@ -424,8 +508,7 @@ function AccountView({
           </span>
           {trialDaysLeft !== null && (
             <span className="text-sm font-medium text-blue-700">
-              {trialDaysLeft} day{trialDaysLeft !== 1 ? "s" : ""} left in
-              trial
+              {trialDaysLeft} day{trialDaysLeft !== 1 ? "s" : ""} left in trial
             </span>
           )}
         </div>
@@ -436,11 +519,7 @@ function AccountView({
               Renews{" "}
               {new Date(customer.current_period_end).toLocaleDateString(
                 "en-US",
-                {
-                  year: "numeric",
-                  month: "long",
-                  day: "numeric",
-                }
+                { year: "numeric", month: "long", day: "numeric" }
               )}
             </p>
           )}
@@ -451,84 +530,213 @@ function AccountView({
           rel="noopener noreferrer"
           className="inline-flex items-center rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 transition-colors"
         >
-          Manage billing →
+          Manage billing
         </a>
       </div>
     </div>
   );
 }
 
-// ── Onboarding CTA (no brand yet) ────────────────────────────────────────────
+// ── STATE A: Empty state (no tracked brand) ──────────────────────────────────
 
-function OnboardingCTA() {
+function EmptyState() {
   return (
-    <div className="rounded-2xl bg-white ring-1 ring-brand-200 p-6">
-      <div className="flex items-start gap-4">
-        <div className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-brand-100 shrink-0 mt-0.5">
-          <span className="text-xl" aria-hidden="true">
+    <div className="rounded-2xl bg-white ring-1 ring-brand-200 overflow-hidden">
+      {/* Top accent band */}
+      <div className="h-1.5 bg-gradient-to-r from-brand-500 to-brand-400" />
+
+      <div className="p-8">
+        {/* Icon */}
+        <div className="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-brand-50 border border-brand-100 mb-5">
+          <span className="text-3xl" aria-hidden="true">
             🎯
           </span>
         </div>
-        <div className="flex-1 min-w-0">
-          <h2 className="text-base font-semibold text-gray-900 mb-1">
-            Set up your brand tracker
-          </h2>
-          <p className="text-sm text-gray-500 mb-4 leading-relaxed">
-            Add your brand name, website, and up to 3 competitors. We&apos;ll
-            run 25 AI prompts across ChatGPT, Claude, Perplexity, and Google
-            AI Overviews and show you how visible you are.
-          </p>
-          <Link
-            href="/dashboard/onboarding"
-            className="inline-flex items-center rounded-lg bg-brand-600 px-4 py-2 text-sm font-semibold text-white hover:bg-brand-700 transition-colors"
+
+        <h2 className="text-xl font-bold text-gray-900 mb-2">
+          Add your brand to start tracking
+        </h2>
+        <p className="text-sm text-gray-500 mb-6 leading-relaxed max-w-md">
+          Find out exactly where your brand appears — or doesn&apos;t — when
+          buyers search AI tools like ChatGPT, Claude, and Perplexity. It takes
+          under two minutes to set up.
+        </p>
+
+        {/* Feature list */}
+        <ul className="space-y-2.5 mb-8">
+          {[
+            {
+              icon: "📡",
+              text: "25 buyer-intent prompts across 4 AI platforms",
+            },
+            {
+              icon: "📊",
+              text: "AI Visibility Score (AVS) benchmarked against 100 B2B SaaS brands",
+            },
+            {
+              icon: "🔧",
+              text: "Top 3 gap prompts with concrete fixes to close the gap",
+            },
+            {
+              icon: "📬",
+              text: "Weekly automated re-scoring — no manual work required",
+            },
+          ].map(({ icon, text }) => (
+            <li key={text} className="flex items-center gap-3 text-sm text-gray-700">
+              <span className="text-base shrink-0" aria-hidden="true">
+                {icon}
+              </span>
+              {text}
+            </li>
+          ))}
+        </ul>
+
+        {/* CTA */}
+        <Link
+          href="/dashboard/onboarding"
+          className="inline-flex items-center gap-2 rounded-lg bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-brand-700 transition-colors shadow-sm"
+        >
+          <span>Add your brand to start tracking</span>
+          <svg
+            className="h-4 w-4"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={2}
+            stroke="currentColor"
+            aria-hidden="true"
           >
-            Add your brand to start tracking →
-          </Link>
-        </div>
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+            />
+          </svg>
+        </Link>
+
+        <p className="mt-4 text-xs text-gray-400">
+          Setup takes under 2 minutes · First scan completes in ~10 minutes
+        </p>
       </div>
     </div>
   );
 }
 
-// ── Run Now CTA (brand saved but no runs) ────────────────────────────────────
+// ── STATE B: Generating (brand saved, no results yet) ────────────────────────
 
-function RunNowCTA({ brandName }: { brandName: string }) {
+function GeneratingState({ brandName }: { brandName: string }) {
   return (
-    <div className="rounded-2xl bg-white ring-1 ring-gray-200 p-6">
-      <div className="flex items-start gap-4">
-        <div className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-green-100 shrink-0 mt-0.5">
-          <span className="text-xl" aria-hidden="true">
-            🔍
-          </span>
+    <div className="rounded-2xl bg-white ring-1 ring-gray-200 p-8">
+      {/* Animated icon area */}
+      <div className="flex flex-col items-center text-center mb-6">
+        <div className="relative inline-flex h-16 w-16 items-center justify-center mb-5">
+          {/* Pulsing rings */}
+          <span className="absolute inset-0 rounded-full bg-blue-100 animate-ping opacity-40" />
+          <span className="absolute inset-1 rounded-full bg-blue-100 animate-ping opacity-30 animation-delay-150" />
+          <div className="relative inline-flex h-16 w-16 items-center justify-center rounded-full bg-blue-100">
+            <svg
+              className="h-8 w-8 text-blue-600 animate-spin"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <circle
+                className="opacity-25"
+                cx="12"
+                cy="12"
+                r="10"
+                stroke="currentColor"
+                strokeWidth="4"
+              />
+              <path
+                className="opacity-75"
+                fill="currentColor"
+                d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+              />
+            </svg>
+          </div>
         </div>
-        <div className="flex-1 min-w-0">
-          <h2 className="text-base font-semibold text-gray-900 mb-1">
-            {brandName} is ready to scan
-          </h2>
-          <p className="text-sm text-gray-500 mb-4 leading-relaxed">
-            Your brand is saved. Run your first AI visibility scan to see how
-            ChatGPT, Claude, Perplexity, and Google AI Overviews respond when
-            buyers look for tools like yours.
-          </p>
-          <Link
-            href="/dashboard/run-now"
-            className="inline-flex items-center rounded-lg bg-brand-600 px-4 py-2 text-sm font-semibold text-white hover:bg-brand-700 transition-colors"
-          >
-            Run my first scan now →
-          </Link>
-          <Link
-            href="/dashboard/onboarding"
-            className="ml-3 text-sm text-gray-500 hover:text-gray-700 underline underline-offset-2 transition-colors"
-          >
-            Edit brand
-          </Link>
+
+        <h2 className="text-xl font-bold text-gray-900 mb-2">
+          Your first report is generating
+        </h2>
+        <p className="text-sm text-gray-500 mb-1 leading-relaxed max-w-sm">
+          Usually <strong className="text-gray-700">6–12 minutes</strong>. We&apos;re
+          querying ChatGPT, Claude, Perplexity, and Google AI Overviews using 25
+          buyer-intent prompts for{" "}
+          <strong className="text-gray-700">{brandName}</strong>.
+        </p>
+        <p className="text-sm text-gray-500 mb-6">
+          We&apos;ll email you when it&apos;s ready.
+        </p>
+
+        {/* Progress steps */}
+        <div className="w-full max-w-sm rounded-xl bg-gray-50 border border-gray-100 p-4 text-left space-y-3 mb-6">
+          {[
+            { label: "Generating 25 prompts", done: true },
+            { label: "Querying 4 AI platforms", done: true },
+            { label: "Scoring mentions & gaps", done: false },
+            { label: "Building your report", done: false },
+          ].map(({ label, done }) => (
+            <div key={label} className="flex items-center gap-3">
+              <div
+                className={`h-5 w-5 rounded-full flex items-center justify-center shrink-0 ${
+                  done
+                    ? "bg-green-100"
+                    : "bg-blue-100 animate-pulse"
+                }`}
+              >
+                {done ? (
+                  <svg
+                    className="h-3 w-3 text-green-600"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={3}
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M4.5 12.75l6 6 9-13.5"
+                    />
+                  </svg>
+                ) : (
+                  <div className="h-2 w-2 rounded-full bg-blue-500" />
+                )}
+              </div>
+              <span
+                className={`text-sm ${
+                  done ? "text-gray-500 line-through" : "text-gray-700"
+                }`}
+              >
+                {label}
+              </span>
+            </div>
+          ))}
         </div>
+
+        {/* Auto-refresh client component */}
+        <AutoRefresh intervalMs={30_000} label="Checking for results" />
+      </div>
+
+      {/* Fallback / manual trigger */}
+      <div className="border-t border-gray-100 pt-4 text-center">
+        <p className="text-xs text-gray-400 mb-2">
+          Scan not triggered yet?
+        </p>
+        <Link
+          href="/dashboard/run-now"
+          className="text-xs font-medium text-brand-600 hover:text-brand-700 underline underline-offset-2 transition-colors"
+        >
+          Trigger scan manually →
+        </Link>
       </div>
     </div>
   );
 }
 
-// ── AVS score color helper ────────────────────────────────────────────────────
+// ── AVS colour / label helpers ────────────────────────────────────────────────
 
 function avsColor(score: number): string {
   if (score >= 60) return "text-green-600";
@@ -549,15 +757,24 @@ function avsLabel(score: number): string {
   return "Very Low";
 }
 
-// ── Scoring Results view ──────────────────────────────────────────────────────
+/** Ordinal suffix: 1 → "st", 2 → "nd", 3 → "rd", 4+ → "th" */
+function ordinal(n: number): string {
+  const s = ["th", "st", "nd", "rd"];
+  const v = n % 100;
+  return n + (s[(v - 20) % 10] || s[v] || s[0]);
+}
+
+// ── STATE C: Scoring results ──────────────────────────────────────────────────
 
 function ScoringResults({
   brand,
   run,
+  indexRank,
   isPro,
 }: {
   brand: TrackedBrand;
   run: ScoringRun;
+  indexRank: IndexRank;
   isPro: boolean;
 }) {
   const avs = Number(run.avs_brand);
@@ -566,14 +783,18 @@ function ScoringResults({
     month: "long",
     day: "numeric",
   });
+  const daysLeft = daysUntilNextReport(run.run_date);
+  const hasRank = indexRank.rank > 0;
 
   return (
     <div className="space-y-5">
-      {/* Brand header + overall AVS */}
+      {/* ── Brand header + overall AVS + index rank ── */}
       <div className="rounded-2xl bg-white ring-1 ring-gray-200 p-6">
         <div className="flex items-start justify-between mb-5">
           <div>
-            <h2 className="text-lg font-bold text-gray-900">{brand.brand_name}</h2>
+            <h2 className="text-lg font-bold text-gray-900">
+              {brand.brand_name}
+            </h2>
             <a
               href={brand.brand_url}
               target="_blank"
@@ -583,23 +804,65 @@ function ScoringResults({
               {brand.brand_url}
             </a>
           </div>
+
+          {/* AVS score + rank */}
           <div className="text-right">
             <p className={`text-4xl font-extrabold ${avsColor(avs)}`}>
               {avs.toFixed(1)}
             </p>
             <p className="text-xs text-gray-400">/ 100 AVS</p>
-            <p className={`text-xs font-medium mt-0.5 ${avsColor(avs)}`}>
+            <p className={`text-xs font-semibold mt-0.5 ${avsColor(avs)}`}>
               {avsLabel(avs)}
             </p>
+            {hasRank && (
+              <p className="text-xs text-gray-500 mt-1">
+                {ordinal(indexRank.rank)} of {indexRank.total} brands
+              </p>
+            )}
           </div>
         </div>
 
+        {/* Index rank progress bar */}
+        {hasRank && (
+          <div className="mb-5">
+            <div className="flex items-center justify-between mb-1.5">
+              <span className="text-xs font-medium text-gray-500">
+                Rank vs AI Visibility Index
+              </span>
+              <span className="text-xs font-semibold text-gray-700">
+                #{indexRank.rank} / {indexRank.total}
+              </span>
+            </div>
+            <div className="w-full h-2 rounded-full bg-gray-100 overflow-hidden">
+              <div
+                className={`h-2 rounded-full transition-all ${avsBgColor(avs)}`}
+                style={{
+                  width: `${Math.round(
+                    ((indexRank.total - indexRank.rank + 1) / indexRank.total) *
+                      100
+                  )}%`,
+                }}
+              />
+            </div>
+            <p className="text-[10px] text-gray-400 mt-1">
+              {indexRank.rank <= indexRank.total / 4
+                ? "Top quartile — strong AI visibility"
+                : indexRank.rank <= indexRank.total / 2
+                ? "Above median — room to improve"
+                : indexRank.rank <= (indexRank.total * 3) / 4
+                ? "Below median — significant gaps"
+                : "Bottom quartile — urgent action needed"}
+            </p>
+          </div>
+        )}
+
         <p className="text-xs text-gray-400 mb-5">
-          Run on {runDate} · 25 prompts × 4 AI models
+          Run on {runDate} · 25 prompts × {Object.keys(run.per_llm).length} AI
+          models
         </p>
 
         {/* Per-LLM bars */}
-        <div className="space-y-3">
+        <div className="space-y-3 mb-5">
           <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide">
             Per-AI Score
           </p>
@@ -626,12 +889,29 @@ function ScoringResults({
           })}
         </div>
 
-        <div className="mt-5 flex gap-3">
+        {/* Next report indicator */}
+        <div className="rounded-lg bg-gray-50 border border-gray-100 px-4 py-3 flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <span className="text-sm" aria-hidden="true">
+              📅
+            </span>
+            <span className="text-xs text-gray-600">
+              {daysLeft === 0
+                ? "Next report is generating today"
+                : daysLeft === 1
+                ? "Next report tomorrow"
+                : `Next report in ${daysLeft} days`}
+            </span>
+          </div>
+          <span className="text-xs text-gray-400">Weekly · automated</span>
+        </div>
+
+        <div className="mt-4 flex gap-3">
           <Link
             href="/dashboard/run-now"
             className="inline-flex items-center rounded-lg border border-gray-300 px-3 py-1.5 text-xs font-medium text-gray-700 hover:bg-gray-50 transition-colors"
           >
-            Re-run scan
+            Re-run scan now
           </Link>
           <Link
             href="/dashboard/onboarding"
@@ -642,52 +922,81 @@ function ScoringResults({
         </div>
       </div>
 
-      {/* Top 3 gap prompts */}
+      {/* ── Top 3 gap prompts with fixes ── */}
       {run.gap_prompts && run.gap_prompts.length > 0 && (
         <div className="rounded-2xl bg-white ring-1 ring-gray-200 p-6">
           <h3 className="text-sm font-semibold text-gray-700 mb-1">
             Top Visibility Gaps
           </h3>
-          <p className="text-xs text-gray-400 mb-4">
+          <p className="text-xs text-gray-400 mb-5">
             Prompts where AI models didn&apos;t mention{" "}
-            <strong>{brand.brand_name}</strong>
+            <strong>{brand.brand_name}</strong> — with actionable fixes
           </p>
-          <div className="space-y-3">
-            {run.gap_prompts.map((gap, idx) => (
-              <div
-                key={gap.prompt_id}
-                className="rounded-lg border border-gray-100 bg-gray-50 px-4 py-3"
-              >
-                <div className="flex items-start gap-3">
-                  <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-red-100 text-red-600 text-xs font-bold shrink-0 mt-0.5">
-                    {idx + 1}
-                  </span>
-                  <div className="flex-1 min-w-0">
-                    <p className="text-sm text-gray-800 font-medium leading-snug">
-                      &quot;{gap.prompt_text}&quot;
-                    </p>
-                    <div className="flex flex-wrap gap-1 mt-1.5">
-                      <span className="inline-flex items-center rounded-full bg-gray-200 text-gray-600 px-2 py-0.5 text-[10px] font-medium uppercase tracking-wide">
-                        {gap.category?.replace("_", " ")}
+          <div className="space-y-4">
+            {run.gap_prompts.slice(0, 3).map((gap, idx) => {
+              // Normalise field names between scorer output and brand JSON
+              const category =
+                gap.category ?? gap.prompt_category ?? "use_case";
+              const llmsMissed = gap.llms_missed ?? gap.llms_missing ?? [];
+              const ctx = GAP_CONTEXT[category] ?? GAP_CONTEXT["use_case"];
+              const whyItMatters = gap.why_it_matters ?? ctx.why;
+
+              return (
+                <div
+                  key={gap.prompt_id ?? idx}
+                  className="rounded-xl border border-gray-100 bg-gray-50 overflow-hidden"
+                >
+                  {/* Gap header */}
+                  <div className="px-4 py-3">
+                    <div className="flex items-start gap-3">
+                      <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-red-100 text-red-600 text-xs font-bold shrink-0 mt-0.5">
+                        {idx + 1}
                       </span>
-                      {gap.llms_missed?.map((llm) => (
-                        <span
-                          key={llm}
-                          className="inline-flex items-center rounded-full bg-red-100 text-red-700 px-2 py-0.5 text-[10px] font-medium"
-                        >
-                          missed by {LLM_LABELS[llm] ?? llm}
-                        </span>
-                      ))}
+                      <div className="flex-1 min-w-0">
+                        <p className="text-sm text-gray-800 font-medium leading-snug">
+                          &quot;{gap.prompt_text}&quot;
+                        </p>
+                        <div className="flex flex-wrap gap-1 mt-2">
+                          <span className="inline-flex items-center rounded-full bg-gray-200 text-gray-600 px-2 py-0.5 text-[10px] font-medium uppercase tracking-wide">
+                            {category.replace(/_/g, " ")}
+                          </span>
+                          {llmsMissed.map((llm) => (
+                            <span
+                              key={llm}
+                              className="inline-flex items-center rounded-full bg-red-100 text-red-700 px-2 py-0.5 text-[10px] font-medium"
+                            >
+                              missed by {LLM_LABELS[llm] ?? llm}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Why it matters + fix */}
+                  <div className="border-t border-gray-100 bg-white px-4 py-3 space-y-2">
+                    <p className="text-xs text-gray-500 leading-relaxed">
+                      <span className="font-semibold text-gray-700">
+                        Why it matters:{" "}
+                      </span>
+                      {whyItMatters}
+                    </p>
+                    <div className="flex items-start gap-2">
+                      <span className="text-xs shrink-0 mt-0.5">🔧</span>
+                      <p className="text-xs text-gray-700 leading-relaxed">
+                        <span className="font-semibold">Fix: </span>
+                        {ctx.fix}
+                      </p>
                     </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       )}
 
-      {/* Fix Report — Pro only */}
+      {/* ── Fix Report — Pro only ── */}
       {isPro && run.fix_report_md ? (
         <div className="rounded-2xl bg-white ring-1 ring-gray-200 p-6">
           <div className="flex items-center gap-2 mb-4">
@@ -717,18 +1026,18 @@ function ScoringResults({
             </div>
             <div className="flex-1 min-w-0">
               <h3 className="text-base font-semibold text-gray-900 mb-1">
-                Get your AI Fix Report
+                Get your full AI Fix Report
               </h3>
               <p className="text-sm text-gray-500 mb-4 leading-relaxed">
-                Pro includes an AI-generated Fix Report: concrete schema
-                markup, content gaps, and entity-authority recommendations
-                tailored to your top visibility gaps.
+                Pro includes an AI-generated Fix Report: concrete schema markup,
+                content gaps, and entity-authority recommendations written
+                specifically for your brand and top visibility gaps.
               </p>
               <Link
                 href="/pricing"
                 className="inline-flex items-center rounded-lg bg-purple-600 px-4 py-2 text-sm font-semibold text-white hover:bg-purple-700 transition-colors"
               >
-                Upgrade to Pro →
+                Upgrade to Pro
               </Link>
             </div>
           </div>

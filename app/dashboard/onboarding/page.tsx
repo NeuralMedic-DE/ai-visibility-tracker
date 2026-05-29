@@ -111,7 +111,7 @@ export default function OnboardingPage() {
               href="/dashboard"
               className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
             >
-              ← Back to dashboard
+              Back to dashboard
             </Link>
           </div>
         </div>
@@ -304,7 +304,7 @@ export default function OnboardingPage() {
                 disabled={isSubmitting || !brandName.trim() || !brandUrl.trim()}
                 className="w-full rounded-lg bg-brand-600 px-4 py-3 text-sm font-semibold text-white hover:bg-brand-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
               >
-                {isSubmitting ? "Saving…" : "Save and run first scan →"}
+                {isSubmitting ? "Saving…" : "Save and run first scan"}
               </button>
             </form>
           </div>

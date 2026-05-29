@@ -232,26 +232,26 @@ export function BrandDetailPanel({ brand, onClose }: BrandDetailPanelProps) {
             <div className="flex items-start gap-2 mb-1">
               <span className="text-base" aria-hidden="true">🚀</span>
               <h3 className="text-sm font-bold text-brand-900">
-                Track {brand.name} live — and fix the gaps
+                Track {brand.name} live and fix the gaps
               </h3>
             </div>
             <p className="text-xs text-brand-700 mb-4 leading-relaxed">
               Start a NeuralReach Pro trial to run real AI prompts for{" "}
               <strong>{brand.name}</strong>, compare up to 3 competitors, and
-              get actionable schema &amp; content fixes — weekly.
+              get actionable schema &amp; content fixes, weekly.
             </p>
 
             {/* Primary: start Pro trial */}
             <CheckoutButton
               plan="pro"
-              label="Start Pro trial — $89/mo"
+              label="Start Pro trial for $89/mo"
               className="bg-brand-600 text-white hover:bg-brand-700 mb-2"
             />
 
             {/* Secondary: Starter */}
             <CheckoutButton
               plan="starter"
-              label="Or try Starter for $39/mo →"
+              label="Or try Starter for $39/mo"
               className="bg-transparent text-brand-700 hover:text-brand-900 underline text-xs py-1 px-0"
             />
 

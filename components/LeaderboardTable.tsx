@@ -149,8 +149,8 @@ function DataSourcePill({ dataSource }: { dataSource?: string }) {
   const runDate = isVerified ? dataSource.replace("verified_", "") : null;
 
   const tooltip = isVerified
-    ? `Live API score — scored ${runDate} via real queries to OpenAI, Anthropic & Perplexity`
-    : "Research-based estimate — pending live API scoring in a future run";
+    ? `Live API score, scored ${runDate} via real queries to OpenAI, Anthropic & Perplexity`
+    : "Research-based estimate. Pending live API scoring in a future run.";
 
   return (
     <span
@@ -293,7 +293,7 @@ export function LeaderboardTable({
     >
       <table className="min-w-full divide-y divide-gray-200 text-sm">
         <caption className="sr-only">
-          AI Visibility Index — Top 100 B2B SaaS brands ranked by AI search
+          AI Visibility Index: Top 100 B2B SaaS brands ranked by AI search
           presence across ChatGPT, Claude, Perplexity, and Google AI Overviews.
         </caption>
         <thead className="bg-gray-50">
@@ -428,7 +428,7 @@ export function LeaderboardTable({
                   className="text-xs font-medium text-brand-600 hover:text-brand-800 opacity-0 group-hover:opacity-100 focus:opacity-100 transition-opacity rounded px-2 py-1 hover:bg-brand-50 focus:outline-none focus:ring-2 focus:ring-brand-400"
                   aria-label={`View AI visibility report for ${brand.name}`}
                 >
-                  View →
+                  View details
                 </Link>
               </td>
             </tr>

@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "How We Scored This — Methodology | NeuralReach AI Visibility Index",
+  title: "How We Scored This: Methodology | NeuralReach AI Visibility Index",
   description:
     "Full methodology behind the AI Visibility Index: 25 canonical prompts, 3 LLMs scored via live API calls, the AVS formula, and what Verified means.",
 };
@@ -13,7 +13,7 @@ const PROMPT_CATEGORIES = [
     label: "Category Discovery",
     count: 5,
     description:
-      `Generic "what's best for X" queries — the prompts most buyers fire first. Example: "What is the best CRM for B2B SaaS?"`,
+      `Generic "what's best for X" queries. These are the prompts most buyers fire first. Example: "What is the best CRM for B2B SaaS?"`,
   },
   {
     id: "CM",
@@ -81,7 +81,7 @@ export default function MethodologyPage() {
                 href="/leaderboard"
                 className="hidden sm:block text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
               >
-                AI Visibility Index →
+                AI Visibility Index
               </Link>
               <Link
                 href="/pricing"
@@ -110,7 +110,7 @@ export default function MethodologyPage() {
             How we scored this
           </h1>
           <p className="mt-4 text-lg text-gray-600 max-w-xl mx-auto">
-            Every score in the index is derived from real API calls — no
+            Every score in the index is derived from real API calls. No
             estimates, no scraped proxies. Here&rsquo;s exactly what we did.
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-3 text-sm">
@@ -173,7 +173,7 @@ export default function MethodologyPage() {
           </h2>
           <p className="text-gray-600 mb-6 leading-relaxed">
             We fire each prompt against three platforms via their official APIs.
-            Responses are captured verbatim and scored independently — no
+            Responses are captured verbatim and scored independently. No
             human editing.
           </p>
           <div className="space-y-4">
@@ -200,7 +200,7 @@ export default function MethodologyPage() {
 
           <div className="mt-6 rounded-xl bg-amber-50 ring-1 ring-amber-200 p-5">
             <p className="text-sm font-semibold text-amber-800 mb-1">
-              Google AI Overviews — not in this run
+              Google AI Overviews: not in this run
             </p>
             <p className="text-sm text-amber-700 leading-relaxed">
               Our data model includes a Google AIO slot, but live AI Overview
@@ -225,7 +225,7 @@ export default function MethodologyPage() {
           {/* Step 1 */}
           <div className="mb-6">
             <h3 className="font-semibold text-gray-900 mb-2">
-              Step 1 — Per-prompt raw score (0–10)
+              Step 1: Per-prompt raw score (0–10)
             </h3>
             <p className="text-sm text-gray-600 mb-3 leading-relaxed">
               For every (prompt × LLM) pair we parse the response and award
@@ -274,7 +274,7 @@ export default function MethodologyPage() {
           {/* Step 2 */}
           <div className="mb-6">
             <h3 className="font-semibold text-gray-900 mb-2">
-              Step 2 — Per-LLM AVS
+              Step 2: Per-LLM AVS
             </h3>
             <p className="text-sm text-gray-600 leading-relaxed">
               The 25 raw scores for a given LLM are averaged and multiplied
@@ -288,7 +288,7 @@ export default function MethodologyPage() {
           {/* Step 3 */}
           <div>
             <h3 className="font-semibold text-gray-900 mb-2">
-              Step 3 — Composite AVS
+              Step 3: Composite AVS
             </h3>
             <p className="text-sm text-gray-600 leading-relaxed">
               The composite score on the leaderboard is the simple mean of all
@@ -313,7 +313,7 @@ export default function MethodologyPage() {
             score was interpolated, extrapolated, or carried forward from a
             prior run. An <em>Estimated</em> label would appear if a brand
             partially failed (e.g., a provider rate-limit caused some prompts to
-            be skipped) and we back-filled with a prior result — that did not
+            be skipped) and we back-filled with a prior result. That did not
             happen in this run.
           </p>
         </section>
@@ -325,7 +325,7 @@ export default function MethodologyPage() {
           </h2>
           <ul className="space-y-3 text-gray-600 text-sm leading-relaxed">
             <li className="flex gap-2">
-              <span className="text-gray-400 shrink-0">—</span>
+              <span className="text-gray-400 shrink-0">·</span>
               <span>
                 <strong>25 prompts is a proxy, not a census.</strong> Real buyer
                 behaviour spans thousands of query variants. Our prompt set is
@@ -335,7 +335,7 @@ export default function MethodologyPage() {
               </span>
             </li>
             <li className="flex gap-2">
-              <span className="text-gray-400 shrink-0">—</span>
+              <span className="text-gray-400 shrink-0">·</span>
               <span>
                 <strong>LLM outputs are non-deterministic.</strong> Re-running
                 the same prompt against the same model on the same day can
@@ -344,7 +344,7 @@ export default function MethodologyPage() {
               </span>
             </li>
             <li className="flex gap-2">
-              <span className="text-gray-400 shrink-0">—</span>
+              <span className="text-gray-400 shrink-0">·</span>
               <span>
                 <strong>Scores decay.</strong> LLM training data and real-time
                 web indices change continuously. The numbers shown reflect the
@@ -352,7 +352,7 @@ export default function MethodologyPage() {
               </span>
             </li>
             <li className="flex gap-2">
-              <span className="text-gray-400 shrink-0">—</span>
+              <span className="text-gray-400 shrink-0">·</span>
               <span>
                 <strong>Sentiment is LLM-assisted.</strong> We classify the
                 sentiment of each brand mention using a lightweight model
@@ -371,15 +371,15 @@ export default function MethodologyPage() {
             </h2>
             <p className="text-sm text-gray-600">
               The full leaderboard shows every brand&rsquo;s composite AVS, per-LLM
-              breakdown, and top gap prompts — sourced directly from the scoring
-              run.
+              breakdown, and top gap prompts. All data comes directly from the
+              scoring run.
             </p>
           </div>
           <Link
             href="/leaderboard"
             className="shrink-0 rounded-lg bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-brand-700 transition-colors text-center"
           >
-            View AI Visibility Index →
+            View AI Visibility Index
           </Link>
         </section>
 
