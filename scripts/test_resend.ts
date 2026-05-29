@@ -66,8 +66,10 @@ import { Resend } from "resend";
 
 // ── Config ────────────────────────────────────────────────────────────────────
 
+// ⚠️  Change TO_ADDRESS to "moritz@rmb.dev" for deliverability probes until
+//     jonas@neuralreach.de mailbox has live MX records (see T-bbf10de1).
 const TO_ADDRESS = "jonas@neuralreach.de";
-const FROM_ADDRESS = "NeuralReach <hello@send.neuralreach.de>";
+const FROM_ADDRESS = "NeuralReach <no-reply@send.neuralreach.de>";
 const SUBJECT = "[NeuralReach] Resend integration test ✅";
 
 // ── Main ──────────────────────────────────────────────────────────────────────
