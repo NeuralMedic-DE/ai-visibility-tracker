@@ -1,3 +1,5 @@
+import fs from "fs";
+import path from "path";
 import Link from "next/link";
 import { Nav } from "@/components/Nav";
 import { WaitlistForm } from "@/components/WaitlistForm";
@@ -8,6 +10,30 @@ function isSubscriptionsLive(): boolean {
   const flagOn = process.env.SUBSCRIPTIONS_LIVE === "true";
   const dateReached = new Date().toISOString().slice(0, 10) >= "2026-06-04";
   return flagOn && dateReached;
+}
+
+// ── Leaderboard meta (build-time snapshot, same source as /leaderboard) ──────
+function getLeaderboardMeta(): {
+  runDate: string;
+  totalBrands: number;
+  totalLLMCalls: number;
+} {
+  try {
+    const filePath = path.join(process.cwd(), "data", "leaderboard.json");
+    const raw = fs.readFileSync(filePath, "utf-8");
+    const data = JSON.parse(raw) as {
+      run_date: string;
+      total_brands: number;
+      active_llms: string[];
+    };
+    return {
+      runDate: data.run_date,
+      totalBrands: data.total_brands,
+      totalLLMCalls: data.total_brands * 25 * data.active_llms.length,
+    };
+  } catch {
+    return { runDate: "2026-05-30", totalBrands: 100, totalLLMCalls: 7500 };
+  }
 }
 
 const STARTER_FEATURES = [
@@ -30,6 +56,12 @@ const PRO_FEATURES = [
 
 export default function HomePage() {
   const subscriptionsLive = isSubscriptionsLive();
+  const { runDate, totalBrands, totalLLMCalls } = getLeaderboardMeta();
+  const formattedDate = new Date(runDate + "T00:00:00Z").toLocaleDateString(
+    "en-US",
+    { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" },
+  );
+  const llmCallsFormatted = totalLLMCalls.toLocaleString("en-US");
 
   return (
     <div className="min-h-screen bg-white">
@@ -71,6 +103,17 @@ export default function HomePage() {
             </Link>
           </div>
           <p className="mt-4 text-sm text-gray-400">No credit card required. 2-minute setup.</p>
+
+          {/* Credibility strip — pulled from same data/leaderboard.json the /leaderboard page uses */}
+          <p className="mt-5 flex flex-wrap justify-center items-center gap-x-3 gap-y-1 text-xs text-gray-400">
+            <span>{totalBrands} B2B SaaS brands</span>
+            <span aria-hidden="true" className="text-gray-300">·</span>
+            <span>{llmCallsFormatted} real LLM calls</span>
+            <span aria-hidden="true" className="text-gray-300">·</span>
+            <span>refreshed weekly</span>
+            <span aria-hidden="true" className="text-gray-300">·</span>
+            <span>last update {formattedDate}</span>
+          </p>
         </div>
       </section>
 
