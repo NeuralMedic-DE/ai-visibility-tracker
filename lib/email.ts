@@ -21,12 +21,12 @@ function getResend(): Resend {
   return _resend;
 }
 
-// Transactional emails are sent from the isolated send.neuralreach.de subdomain.
+// Transactional emails are sent from the isolated mail.neuralreach.de subdomain.
 // DKIM/SPF records for that subdomain are independent of the founder mailbox
 // (@neuralreach.de), so deliverability problems on one side don't bleed into
-// the other. Add send.neuralreach.de (NOT neuralreach.de) as a domain in
+// the other. Add mail.neuralreach.de (NOT neuralreach.de) as a domain in
 // Resend and copy the provided DNS records to your registrar.
-export const FROM_ADDRESS = "NeuralReach <hello@send.neuralreach.de>";
+export const FROM_ADDRESS = "NeuralReach <hello@mail.neuralreach.de>";
 export const SUPPORT_EMAIL = "support@neuralreach.de";
 
 export interface EmailPayload {

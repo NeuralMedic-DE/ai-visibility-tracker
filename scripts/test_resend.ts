@@ -2,7 +2,7 @@
  * scripts/test_resend.ts
  *
  * Sends one test email via Resend to confirm the API key and the
- * send.neuralreach.de sending domain are correctly configured.
+ * mail.neuralreach.de sending domain are correctly configured.
  *
  * Usage:
  *   npx tsx scripts/test_resend.ts
@@ -11,8 +11,8 @@
  *
  * Prerequisites:
  *   1. RESEND_API_KEY must be set in .env.local (get it from resend.com/api-keys)
- *   2. The domain send.neuralreach.de must be added + verified in the Resend
- *      dashboard (Resend → Domains → Add Domain → enter send.neuralreach.de).
+ *   2. The domain mail.neuralreach.de must be added + verified in the Resend
+ *      dashboard (Resend → Domains → Add Domain → enter mail.neuralreach.de).
  *      Copy the DKIM/SPF/DMARC records to your DNS host and click Verify.
  *   3. The receiving mailbox jonas@neuralreach.de must exist and have MX records
  *      pointing to a live mail server.
@@ -69,7 +69,7 @@ import { Resend } from "resend";
 // ⚠️  Change TO_ADDRESS to "moritz@rmb.dev" for deliverability probes until
 //     jonas@neuralreach.de mailbox has live MX records (see T-bbf10de1).
 const TO_ADDRESS = "jonas@neuralreach.de";
-const FROM_ADDRESS = "NeuralReach <no-reply@send.neuralreach.de>";
+const FROM_ADDRESS = "NeuralReach <no-reply@mail.neuralreach.de>";
 const SUBJECT = "[NeuralReach] Resend integration test ✅";
 
 // ── Main ──────────────────────────────────────────────────────────────────────
@@ -81,7 +81,7 @@ async function main() {
     console.error(
       "\n[test_resend] ❌  RESEND_API_KEY is missing or placeholder.\n" +
         "  1. Go to https://resend.com/api-keys and create a key with\n" +
-        '     "Sending access" for the domain send.neuralreach.de.\n' +
+        '     "Sending access" for the domain mail.neuralreach.de.\n' +
         "  2. Add  RESEND_API_KEY=re_xxxx  to .env.local\n" +
         "  3. Re-run this script.\n"
     );
@@ -111,7 +111,7 @@ async function main() {
       <h2 style="color:#0f172a;margin:0 0 16px;">NeuralReach &mdash; Resend integration test</h2>
       <p style="color:#374151;">
         If you can read this, the <strong>Resend API key</strong> and the
-        <strong>send.neuralreach.de</strong> sending domain are correctly wired. &#x1F389;
+        <strong>mail.neuralreach.de</strong> sending domain are correctly wired. &#x1F389;
       </p>
       <table style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;
                     padding:16px;margin-top:16px;" width="100%">
@@ -132,7 +132,7 @@ async function main() {
     text: [
       "NeuralReach — Resend integration test",
       "",
-      "If you can read this, the Resend API key and the send.neuralreach.de",
+      "If you can read this, the Resend API key and the mail.neuralreach.de",
       "sending domain are correctly wired.",
       "",
       `Sent at: ${now}`,
@@ -148,8 +148,8 @@ async function main() {
     console.error(JSON.stringify(error, null, 2));
     console.error(
       "\nCommon causes:\n" +
-        "  • send.neuralreach.de not yet verified in Resend → add + verify the domain\n" +
-        "  • API key has wrong scope → needs 'Sending access' for send.neuralreach.de\n" +
+        "  • mail.neuralreach.de not yet verified in Resend → add + verify the domain\n" +
+        "  • API key has wrong scope → needs 'Sending access' for mail.neuralreach.de\n" +
         "  • Resend API unreachable → check network / firewall\n"
     );
     process.exit(1);
