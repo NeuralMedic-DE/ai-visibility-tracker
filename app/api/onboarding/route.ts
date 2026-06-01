@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { getCustomerByUser } from "@/lib/customer";
+import { reportError, reportMessage } from "@/lib/error-reporter";
 
 // ── POST /api/onboarding ──────────────────────────────────────────────────────
 // Auth-protected. Saves brand info for a newly-onboarding customer, queues a
@@ -139,7 +140,11 @@ export async function POST(request: NextRequest) {
   );
 
   if (brandErr) {
-    console.error("[onboarding] tracked_brands upsert error:", brandErr);
+    reportError(brandErr, {
+      route: "onboarding",
+      step: "tracked_brands_upsert",
+      customerId: customer.id,
+    });
     return NextResponse.json({ error: brandErr.message }, { status: 500 });
   }
 
@@ -159,11 +164,25 @@ export async function POST(request: NextRequest) {
 
   if (jobErr) {
     if (jobErr.code === "23505") {
+      // Unique violation: a concurrent submission already queued a job. Treat as success.
       console.info(
         `[onboarding] scoring_jobs duplicate blocked (23505) for customer ${customer.id} — job already queued`
       );
     } else {
-      console.warn("[onboarding] scoring_jobs insert warning:", jobErr.message);
+      // Job insert failed for an unexpected reason. The brand was saved, so we
+      // still redirect the user to /dashboard, but we surface the error so it
+      // can be investigated (previously this was silently swallowed).
+      reportError(jobErr, {
+        route: "onboarding",
+        step: "scoring_jobs_insert",
+        customerId: customer.id,
+        note: "Brand saved but scoring job was NOT queued — user will see spinner with no scan",
+      });
+      reportMessage(
+        `Scoring job not queued for customer ${customer.id} after onboarding (${jobErr.message})`,
+        "error",
+        { route: "onboarding", customerId: customer.id }
+      );
     }
   }
 

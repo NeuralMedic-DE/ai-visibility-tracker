@@ -7,7 +7,7 @@ import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { getCustomerByUser } from "@/lib/customer";
 import SignOutButton from "@/components/SignOutButton";
-import AutoRefresh from "@/components/AutoRefresh";
+import ScanProgress from "@/components/ScanProgress";
 
 export const metadata: Metadata = {
   title: "Dashboard | NeuralReach",
@@ -112,6 +112,12 @@ type ScoringRun = {
 };
 
 type IndexRank = { rank: number; total: number };
+
+type ScoringJob = {
+  id: string;
+  status: string;
+  created_at: string;
+};
 
 // ── Server helpers ──────────────────────────────────────────────────────────
 
@@ -221,13 +227,28 @@ export default async function DashboardPage({
     latestRun = runRow as ScoringRun | null;
   }
 
-  // 7. Compute index rank (server-side fs read, only when we have results).
+  // 7. Load latest scoring job — only needed for State B (brand tracked, no run yet).
+  //    We use this to detect stuck / failed jobs and surface them to the user
+  //    instead of showing an infinite spinner.
+  let latestJob: ScoringJob | null = null;
+  if (customer && trackedBrand && !latestRun) {
+    const { data: jobRow } = await admin
+      .from("scoring_jobs")
+      .select("id, status, created_at")
+      .eq("customer_id", customer.id)
+      .order("created_at", { ascending: false })
+      .limit(1)
+      .maybeSingle();
+    latestJob = jobRow as ScoringJob | null;
+  }
+
+  // 8. Compute index rank (server-side fs read, only when we have results).
   let indexRank: IndexRank = { rank: 0, total: 100 };
   if (latestRun) {
     indexRank = await computeIndexRank(Number(latestRun.avs_brand));
   }
 
-  // 8. Billing portal link.
+  // 9. Billing portal link.
   const billingLink = process.env.STRIPE_CANCELLATION_LINK ?? "/pricing";
 
   const statusInfo =
@@ -275,6 +296,7 @@ export default async function DashboardPage({
             billingLink={billingLink}
             trackedBrand={trackedBrand}
             latestRun={latestRun}
+            latestJob={latestJob}
             indexRank={indexRank}
             isRunning={isRunning}
           />
@@ -428,6 +450,7 @@ function AccountView({
   billingLink,
   trackedBrand,
   latestRun,
+  latestJob,
   indexRank,
   isRunning,
 }: {
@@ -439,6 +462,7 @@ function AccountView({
   billingLink: string;
   trackedBrand: TrackedBrand | null;
   latestRun: ScoringRun | null;
+  latestJob: ScoringJob | null;
   indexRank: IndexRank;
   isRunning: boolean;
 }) {
@@ -477,7 +501,18 @@ function AccountView({
       {!trackedBrand ? (
         <EmptyState />
       ) : !latestRun ? (
-        <GeneratingState brandName={trackedBrand.brand_name} />
+        // State B: brand tracked but no results yet.
+        // ScanProgress handles spinner, auto-refresh, timeout detection,
+        // and failure/retry UI when the scan stalls or fails.
+        <ScanProgress
+          brandName={trackedBrand.brand_name}
+          jobStatus={
+            latestJob
+              ? (latestJob.status as "pending" | "running" | "failed")
+              : "no_job"
+          }
+          jobCreatedAt={latestJob?.created_at ?? null}
+        />
       ) : (
         <ScoringResults
           brand={trackedBrand}
@@ -621,120 +656,7 @@ function EmptyState() {
   );
 }
 
-// ── STATE B: Generating (brand saved, no results yet) ────────────────────────
-
-function GeneratingState({ brandName }: { brandName: string }) {
-  return (
-    <div className="rounded-2xl bg-white ring-1 ring-gray-200 p-8">
-      {/* Animated icon area */}
-      <div className="flex flex-col items-center text-center mb-6">
-        <div className="relative inline-flex h-16 w-16 items-center justify-center mb-5">
-          {/* Pulsing rings */}
-          <span className="absolute inset-0 rounded-full bg-blue-100 animate-ping opacity-40" />
-          <span className="absolute inset-1 rounded-full bg-blue-100 animate-ping opacity-30 animation-delay-150" />
-          <div className="relative inline-flex h-16 w-16 items-center justify-center rounded-full bg-blue-100">
-            <svg
-              className="h-8 w-8 text-blue-600 animate-spin"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              aria-hidden="true"
-            >
-              <circle
-                className="opacity-25"
-                cx="12"
-                cy="12"
-                r="10"
-                stroke="currentColor"
-                strokeWidth="4"
-              />
-              <path
-                className="opacity-75"
-                fill="currentColor"
-                d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
-              />
-            </svg>
-          </div>
-        </div>
-
-        <h2 className="text-xl font-bold text-gray-900 mb-2">
-          Your first report is generating
-        </h2>
-        <p className="text-sm text-gray-500 mb-1 leading-relaxed max-w-sm">
-          Usually <strong className="text-gray-700">6–12 minutes</strong>. We&apos;re
-          querying ChatGPT, Claude, Perplexity, and Google AI Overviews using 25
-          buyer-intent prompts for{" "}
-          <strong className="text-gray-700">{brandName}</strong>.
-        </p>
-        <p className="text-sm text-gray-500 mb-6">
-          We&apos;ll email you when it&apos;s ready.
-        </p>
-
-        {/* Progress steps */}
-        <div className="w-full max-w-sm rounded-xl bg-gray-50 border border-gray-100 p-4 text-left space-y-3 mb-6">
-          {[
-            { label: "Generating 25 prompts", done: true },
-            { label: "Querying 4 AI platforms", done: true },
-            { label: "Scoring mentions & gaps", done: false },
-            { label: "Building your report", done: false },
-          ].map(({ label, done }) => (
-            <div key={label} className="flex items-center gap-3">
-              <div
-                className={`h-5 w-5 rounded-full flex items-center justify-center shrink-0 ${
-                  done
-                    ? "bg-green-100"
-                    : "bg-blue-100 animate-pulse"
-                }`}
-              >
-                {done ? (
-                  <svg
-                    className="h-3 w-3 text-green-600"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth={3}
-                    stroke="currentColor"
-                    aria-hidden="true"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M4.5 12.75l6 6 9-13.5"
-                    />
-                  </svg>
-                ) : (
-                  <div className="h-2 w-2 rounded-full bg-blue-500" />
-                )}
-              </div>
-              <span
-                className={`text-sm ${
-                  done ? "text-gray-500 line-through" : "text-gray-700"
-                }`}
-              >
-                {label}
-              </span>
-            </div>
-          ))}
-        </div>
-
-        {/* Auto-refresh client component */}
-        <AutoRefresh intervalMs={30_000} label="Checking for results" />
-      </div>
-
-      {/* Fallback / manual trigger */}
-      <div className="border-t border-gray-100 pt-4 text-center">
-        <p className="text-xs text-gray-400 mb-2">
-          Scan not triggered yet?
-        </p>
-        <Link
-          href="/dashboard/run-now"
-          className="text-xs font-medium text-brand-600 hover:text-brand-700 underline underline-offset-2 transition-colors"
-        >
-          Trigger scan manually →
-        </Link>
-      </div>
-    </div>
-  );
-}
+// ── STATE B: now handled by <ScanProgress> client component in ScanProgress.tsx
 
 // ── AVS colour / label helpers ────────────────────────────────────────────────
 

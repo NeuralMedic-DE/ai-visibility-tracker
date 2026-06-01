@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { getCustomerByUser } from "@/lib/customer";
+import { reportError } from "@/lib/error-reporter";
 
 // ── POST /api/tracked-brands ──────────────────────────────────────────────────
 // Auth-protected. Upserts a tracked_brands row for the signed-in customer.
@@ -89,7 +90,11 @@ export async function POST(request: NextRequest) {
     );
 
   if (upsertErr) {
-    console.error("[tracked-brands] upsert error:", upsertErr);
+    reportError(upsertErr, {
+      route: "tracked-brands",
+      step: "upsert",
+      customerId: customer.id,
+    });
     return NextResponse.json({ error: upsertErr.message }, { status: 500 });
   }
 
@@ -123,7 +128,7 @@ export async function GET(_request: NextRequest) {
     .maybeSingle();
 
   if (error) {
-    console.error("[tracked-brands GET] error:", error);
+    reportError(error, { route: "tracked-brands", step: "GET" });
     return NextResponse.json({ error: error.message }, { status: 500 });
   }
 

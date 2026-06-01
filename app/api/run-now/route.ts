@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { getCustomerByUser } from "@/lib/customer";
+import { reportError } from "@/lib/error-reporter";
 
 // ── POST /api/run-now ─────────────────────────────────────────────────────────
 // Auth-protected. Enqueues a scoring_jobs row (status=pending) for the signed-in
@@ -146,7 +147,11 @@ export async function POST(_request: NextRequest) {
     .gte("created_at", startOfMonth);
 
   if (countErr) {
-    console.error("[run-now] Monthly count query failed:", countErr.message);
+    reportError(countErr, {
+      route: "run-now",
+      step: "monthly_count",
+      customerId: customer.id,
+    });
     // Non-fatal: allow the run rather than blocking on a count failure
   } else {
     const plan = customer.plan ?? "starter";
@@ -197,7 +202,11 @@ export async function POST(_request: NextRequest) {
         { status: 429 }
       );
     }
-    console.error("[run-now] Failed to insert scoring_jobs row:", jobErr);
+    reportError(jobErr, {
+      route: "run-now",
+      step: "scoring_jobs_insert",
+      customerId: customer.id,
+    });
     return NextResponse.json(
       { error: "Failed to queue scoring job. Please try again." },
       { status: 500 }

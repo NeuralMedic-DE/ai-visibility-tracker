@@ -12,6 +12,7 @@
     "db:verify": "node --env-file=.env.local scripts/verify-schema.mjs"
   },
   "dependencies": {
+    "@sentry/nextjs": "^9.0.0",
     "@stripe/stripe-js": "^4.8.0",
     "@supabase/ssr": "^0.5.1",
     "@supabase/supabase-js": "^2.45.4",
