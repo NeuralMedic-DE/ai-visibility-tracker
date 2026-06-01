@@ -2,7 +2,7 @@
 -- NeuralReach — CONSOLIDATED MIGRATION (apply ALL at once)
 -- Purpose: emergency / fresh-DB restore via Supabase Dashboard SQL Editor.
 --          NOT used by supabase CLI (use `pnpm db:migrate` for that).
--- Covers migrations 0001 through 0008.
+-- Covers migrations 0001 through 0010.
 -- Safe to re-run: all statements use IF NOT EXISTS / OR REPLACE.
 -- ============================================================
 
@@ -349,6 +349,79 @@ comment on column public.scoring_jobs.trigger is
 create index if not exists scoring_jobs_weekly_done
   on public.scoring_jobs (trigger, status, finished_at)
   where trigger = 'weekly' and status = 'done';
+
+-- ────────────────────────────────────────────────────────────
+-- 0009: user_id binding — customers → auth.users
+-- ────────────────────────────────────────────────────────────
+
+alter table public.customers
+  add column if not exists user_id uuid
+    references auth.users(id) on delete set null;
+
+create unique index if not exists customers_user_id_unique
+  on public.customers (user_id)
+  where user_id is not null;
+
+comment on column public.customers.user_id is
+  'FK to auth.users.id. Set at checkout via Stripe client_reference_id. '
+  'NULL for legacy rows; lazy-linked on first dashboard load.';
+
+-- Update RLS to use auth.uid() (immutable, fast, not spoofable)
+drop policy if exists "tracked_brands_own_select" on public.tracked_brands;
+do $$ begin
+  create policy "tracked_brands_own_select" on public.tracked_brands
+    for select using (
+      customer_id in (
+        select id from public.customers
+        where user_id = auth.uid()
+      )
+    );
+exception when duplicate_object then null; end $$;
+
+drop policy if exists "scoring_runs_own_select" on public.customer_scoring_runs;
+do $$ begin
+  create policy "scoring_runs_own_select" on public.customer_scoring_runs
+    for select using (
+      customer_id in (
+        select id from public.customers
+        where user_id = auth.uid()
+      )
+    );
+exception when duplicate_object then null; end $$;
+
+drop policy if exists "scoring_jobs_own_select" on public.scoring_jobs;
+do $$ begin
+  create policy "scoring_jobs_own_select" on public.scoring_jobs
+    for select using (
+      customer_id in (
+        select id from public.customers
+        where user_id = auth.uid()
+      )
+    );
+exception when duplicate_object then null; end $$;
+
+-- ────────────────────────────────────────────────────────────
+-- 0010: Enforce lowercase emails at DB level (H4 hardening)
+-- ────────────────────────────────────────────────────────────
+
+update public.customers
+   set email = lower(trim(email))
+ where email <> lower(trim(email));
+
+do $$
+begin
+  if not exists (
+    select 1
+      from pg_constraint
+     where conname  = 'customers_email_lowercase'
+       and conrelid = 'public.customers'::regclass
+  ) then
+    alter table public.customers
+      add constraint customers_email_lowercase
+      check (email = lower(trim(email)));
+  end if;
+end
+$$;
 
 -- ────────────────────────────────────────────────────────────
 -- Verify: list all tables created

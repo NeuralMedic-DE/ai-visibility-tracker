@@ -60,8 +60,14 @@ export async function POST(req: NextRequest) {
       case "checkout.session.completed": {
         const session = event.data.object as Stripe.Checkout.Session;
 
-        const email =
+        // H4 — normalize email once at source so every downstream usage
+        // (DB upserts, email sends, log lines) is guaranteed lowercase+trimmed.
+        // Stripe can return mixed-case from customer_details.email when the
+        // buyer types their address in the Stripe Checkout form.
+        const emailRaw =
           session.customer_details?.email || session.customer_email;
+        const email = emailRaw ? emailRaw.trim().toLowerCase() : null;
+
         const customerId = session.customer as string | null;
         const subscriptionId = session.subscription as string | null;
         const plan = (session.metadata?.plan as "starter" | "pro") ?? "starter";
@@ -120,7 +126,7 @@ export async function POST(req: NextRequest) {
           const { error: bindErr } = await supabase
             .from("customers")
             .update({ user_id: supabaseUserId })
-            .eq("email", email.toLowerCase())
+            .eq("email", email)
             .is("user_id", null);
 
           if (bindErr) {
@@ -134,7 +140,7 @@ export async function POST(req: NextRequest) {
             .upsert(
               {
                 user_id: supabaseUserId,
-                email: email.toLowerCase(),
+                email,
                 stripe_customer_id: customerId ?? undefined,
                 stripe_subscription_id: subscriptionId ?? undefined,
                 plan,
@@ -152,7 +158,7 @@ export async function POST(req: NextRequest) {
             .from("customers")
             .upsert(
               {
-                email: email.toLowerCase(),
+                email,
                 stripe_customer_id: customerId ?? undefined,
                 stripe_subscription_id: subscriptionId ?? undefined,
                 plan,
@@ -203,7 +209,7 @@ export async function POST(req: NextRequest) {
             // Look up customer by user_id (preferred) or email
             const updateQuery = supabaseUserId
               ? supabase.from("customers").update({ welcome_email_id: welcomeEmailId }).eq("user_id", supabaseUserId)
-              : supabase.from("customers").update({ welcome_email_id: welcomeEmailId }).eq("email", email.toLowerCase());
+              : supabase.from("customers").update({ welcome_email_id: welcomeEmailId }).eq("email", email);
 
             const { error: updateEmailIdErr } = await updateQuery;
             if (updateEmailIdErr) {

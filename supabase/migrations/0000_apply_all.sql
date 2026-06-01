@@ -376,6 +376,33 @@ do $$ begin
 exception when duplicate_object then null; end $$;
 
 -- ────────────────────────────────────────────────────────────
+-- 0010: Enforce lowercase emails at DB level (H4 hardening)
+-- ────────────────────────────────────────────────────────────
+-- Belt-and-suspenders guard: prevents a future code regression
+-- from silently storing a mixed-case email address.
+
+-- Back-fill any pre-existing mixed-case rows (should be zero)
+update public.customers
+   set email = lower(trim(email))
+ where email <> lower(trim(email));
+
+-- Idempotent: only add the constraint if it doesn't already exist
+do $$
+begin
+  if not exists (
+    select 1
+      from pg_constraint
+     where conname  = 'customers_email_lowercase'
+       and conrelid = 'public.customers'::regclass
+  ) then
+    alter table public.customers
+      add constraint customers_email_lowercase
+      check (email = lower(trim(email)));
+  end if;
+end
+$$;
+
+-- ────────────────────────────────────────────────────────────
 -- Verify: list all tables created
 -- ────────────────────────────────────────────────────────────
 select table_name, table_type
