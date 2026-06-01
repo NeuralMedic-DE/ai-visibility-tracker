@@ -127,6 +127,8 @@ export async function POST(req: NextRequest) {
         );
 
         // ── Send welcome email ────────────────────────────────────────────
+        // FROM: NeuralReach <hello@mail.neuralreach.de>  (transactional subdomain)
+        // ReplyTo: jonas@neuralreach.de  (founder inbox — "CEO email" pattern)
         const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? "https://neuralreach.de";
         const tmpl = welcomeEmail({ appUrl });
         const { id: welcomeEmailId, error: emailErr } = await sendEmail({
@@ -134,6 +136,7 @@ export async function POST(req: NextRequest) {
           subject: tmpl.subject,
           html: tmpl.html,
           text: tmpl.text,
+          replyTo: "jonas@neuralreach.de",
         });
 
         if (emailErr) {

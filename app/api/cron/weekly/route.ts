@@ -169,6 +169,11 @@ export async function POST(req: NextRequest) {
     reason?: string;
   }> = [];
 
+  // Cutoff date for the "last_scored_at >6 days ago" guard (YYYY-MM-DD)
+  const cutoffDate = new Date(Date.now() - 6 * 24 * 60 * 60 * 1000)
+    .toISOString()
+    .split("T")[0];
+
   // 3. Process each customer sequentially
   for (const customer of customers as CustomerRow[]) {
     const { id: customerId, email, plan } = customer;
@@ -193,7 +198,31 @@ export async function POST(req: NextRequest) {
       continue;
     }
 
-    // 3b. Run the scorer
+    // 3b. Guard: skip if already scored within the last 6 days.
+    //     This prevents double-sends on cron retries or manual re-runs.
+    //     "last_scored_at" is derived from the latest customer_scoring_runs.run_date.
+    const { data: recentRun } = await supabase
+      .from("customer_scoring_runs")
+      .select("run_date")
+      .eq("customer_id", customerId)
+      .order("run_date", { ascending: false })
+      .limit(1)
+      .maybeSingle();
+
+    if (recentRun && recentRun.run_date >= cutoffDate) {
+      console.log(
+        `[cron/weekly] Customer ${customerId} (${email}) last scored ${recentRun.run_date} — within 6-day window, skipping`
+      );
+      results.push({
+        customerId,
+        email,
+        status: "skipped",
+        reason: `last_scored_at=${recentRun.run_date} is within 6 days`,
+      });
+      continue;
+    }
+
+    // 3c. Run the scorer
     console.log(
       `[cron/weekly] Running scorer for customer ${customerId} (${email}, brand: ${trackedBrand.brand_name})`
     );
@@ -218,7 +247,7 @@ export async function POST(req: NextRequest) {
       continue;
     }
 
-    // 3c. Fetch latest 2 scoring runs (for delta calculation)
+    // 3d. Fetch latest 2 scoring runs (for delta calculation)
     const { data: runs, error: runsErr } = await supabase
       .from("customer_scoring_runs")
       .select("id, customer_id, run_date, avs_brand, per_llm, gap_prompts")
@@ -244,7 +273,7 @@ export async function POST(req: NextRequest) {
 
     const prevAvsBrand = previousRun?.avs_brand ?? null;
 
-    // 3d. Build + send the weekly digest email
+    // 3e. Build + send the weekly digest email
     const tmpl = weeklyDigestEmail({
       appUrl,
       brandName: trackedBrand.brand_name as string,
@@ -263,7 +292,7 @@ export async function POST(req: NextRequest) {
       text: tmpl.text,
     });
 
-    // 3e. Log the send (success or failure)
+    // 3f. Log the send (success or failure)
     await supabase.from("email_log").insert({
       customer_id: customerId,
       email_type: "weekly_digest",
