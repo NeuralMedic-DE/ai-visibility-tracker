@@ -1,9 +1,44 @@
 import fs from "fs";
 import path from "path";
 import Link from "next/link";
+import type { Metadata } from "next";
 import { Nav } from "@/components/Nav";
 import { WaitlistForm } from "@/components/WaitlistForm";
 import { PricingCard } from "@/components/PricingCard";
+
+export const metadata: Metadata = {
+  title:
+    "NeuralReach: AI Search Visibility Tracker for B2B SaaS | Track Your Brand in ChatGPT, Perplexity & Google AI Overviews",
+  description:
+    "Track how your B2B SaaS brand appears in ChatGPT, Claude, Perplexity & Google AI Overviews. Weekly GEO/AEO reports, competitor benchmarks, and schema + content fixes to close your AI visibility gap.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "NeuralReach: AI Search Visibility Tracker for B2B SaaS",
+    description:
+      "Know exactly how ChatGPT, Claude, Perplexity and Google AI Overviews describe your brand. Get weekly reports and fixes.",
+    type: "website",
+  },
+};
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "NeuralReach",
+  url: "https://www.neuralreach.de",
+  description:
+    "AI search visibility tracker for B2B SaaS. Track your brand in ChatGPT, Perplexity, Claude, and Google AI Overviews.",
+  potentialAction: {
+    "@type": "SearchAction",
+    target: {
+      "@type": "EntryPoint",
+      urlTemplate:
+        "https://www.neuralreach.de/leaderboard?q={search_term_string}",
+    },
+    "query-input": "required name=search_term_string",
+  },
+};
 
 // ── Server-side feature flag (mirrors /pricing/page.tsx) ─────────────────────
 function isSubscriptionsLive(): boolean {
@@ -65,6 +100,10 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
       {/* Nav */}
       <Nav
         links={[

@@ -7,9 +7,13 @@ import { LeaderboardSection } from "@/components/LeaderboardSection";
 import type { BrandScore, BrandGap } from "@/components/LeaderboardTable";
 
 export const metadata: Metadata = {
-  title: "AI Visibility Index: Top 100 B2B SaaS Brands | NeuralReach",
+  title:
+    "AI Visibility Index: Top 100 B2B SaaS Brands Ranked | NeuralReach",
   description:
-    "See how the top B2B SaaS brands rank for AI search visibility across ChatGPT, Claude, and Perplexity. Free leaderboard: all scores measured with real API calls.",
+    "See how 100 B2B SaaS brands rank for AI search visibility across ChatGPT, Claude, and Perplexity. Free leaderboard: all scores verified via live API calls. Track your brand in AI search with GEO/AEO scoring.",
+  alternates: {
+    canonical: "/leaderboard",
+  },
   openGraph: {
     title: "AI Visibility Index: Top 100 B2B SaaS Brands",
     description:
@@ -115,11 +119,70 @@ function getLeaderboardData(): {
 
 // ── Page ──────────────────────────────────────────────────────────────────────
 
+const BASE_URL = "https://www.neuralreach.de";
+
 export default function LeaderboardPage() {
   const { brands, note, generated_at, run_date } = getLeaderboardData();
 
+  // Build Dataset + ItemList JSON-LD from live brand data
+  const datasetSchema = {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    name: "AI Visibility Index by NeuralReach",
+    description:
+      "100 B2B SaaS brands scored for AI search visibility across ChatGPT (GPT-4o), Claude (Haiku 4.5), and Perplexity (Sonar Pro), using 25 buyer-intent prompts per brand via live API calls.",
+    url: `${BASE_URL}/leaderboard`,
+    creator: {
+      "@type": "Organization",
+      name: "NeuralReach",
+      url: BASE_URL,
+    },
+    datePublished: run_date,
+    dateModified: run_date,
+    variableMeasured: "AI Visibility Score (AVS)",
+    measurementTechnique:
+      "Live API calls to OpenAI GPT-4o, Anthropic Claude Haiku 4.5, and Perplexity Sonar Pro",
+    license: "https://creativecommons.org/licenses/by/4.0/",
+    keywords: [
+      "AI search visibility",
+      "AI visibility tracker",
+      "GEO",
+      "AEO",
+      "generative engine optimization",
+      "answer engine optimization",
+      "B2B SaaS",
+      "ChatGPT visibility",
+      "Perplexity visibility",
+    ],
+  };
+
+  const itemListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "AI Visibility Index: Top 100 B2B SaaS Brands",
+    description:
+      "Ranked by AI Visibility Score (AVS) — how consistently each brand surfaces in ChatGPT, Claude, and Perplexity recommendations across 25 buyer-intent prompts.",
+    url: `${BASE_URL}/leaderboard`,
+    numberOfItems: brands.length,
+    itemListElement: brands.map((brand) => ({
+      "@type": "ListItem",
+      position: brand.rank,
+      name: brand.name,
+      url: `${BASE_URL}/leaderboard/${brand.id}`,
+      description: `${brand.name} AI Visibility Score: ${brand.overall_score}/100 (Rank #${brand.rank} in ${brand.category})`,
+    })),
+  };
+
   return (
     <div className="min-h-screen bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(datasetSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+      />
       {/* ── Sticky nav ─────────────────────────────────────── */}
       <Nav
         links={[

@@ -60,6 +60,8 @@ function getBrandDetail(slug: string): BrandDetail | null {
 
 // ── Metadata ──────────────────────────────────────────────────────────────────
 
+const BASE_URL = "https://www.neuralreach.de";
+
 export async function generateMetadata({
   params,
 }: {
@@ -72,8 +74,11 @@ export async function generateMetadata({
     };
   }
   return {
-    title: `${brand.brand} AI Visibility Score, Rank #${brand.rank} of ${brand.total_brands} | NeuralReach`,
-    description: `${brand.brand} scored ${brand.avs_brand.toFixed(1)}/100 for AI search visibility across ChatGPT, Claude, and Perplexity (${brand.prompts_scored * 3} real API prompts run on ${brand.run_date}).`,
+    title: `${brand.brand} AI Visibility Score: ${brand.avs_brand.toFixed(1)}/100 — Rank #${brand.rank} of ${brand.total_brands} | NeuralReach`,
+    description: `${brand.brand} scores ${brand.avs_brand.toFixed(1)}/100 for AI search visibility in ChatGPT, Claude & Perplexity (${brand.prompts_scored * 3} live API prompts, run ${brand.run_date}). See visibility gaps + GEO/AEO fix recommendations.`,
+    alternates: {
+      canonical: `/leaderboard/${params.slug}`,
+    },
     openGraph: {
       title: `${brand.brand} AI Visibility Score: ${brand.avs_brand.toFixed(1)}/100`,
       description: `Rank #${brand.rank} of ${brand.total_brands} B2B SaaS brands. See exactly which AI prompts ${brand.brand} is missing and what to fix.`,
@@ -169,12 +174,81 @@ export default function BrandDetailPage({
 
   const llmEntries = Object.entries(brand.llm_details);
 
+  const brandPageUrl = `${BASE_URL}/leaderboard/${brand.slug}`;
+
+  // Build structured data for this brand page
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: BASE_URL,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "AI Visibility Index",
+        item: `${BASE_URL}/leaderboard`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: brand.brand,
+        item: brandPageUrl,
+      },
+    ],
+  };
+
+  const brandDatasetSchema = {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    name: `${brand.brand} AI Visibility Score Data`,
+    description: `AI search visibility scores for ${brand.brand} across ChatGPT (GPT-4o), Claude (Haiku 4.5), and Perplexity (Sonar Pro). Measured via ${brand.prompts_scored * 3} live API prompts across 5 buyer-intent categories on ${brand.run_date}. Composite AVS: ${brand.avs_brand.toFixed(1)}/100, Rank #${brand.rank} of ${brand.total_brands} B2B SaaS brands.`,
+    url: brandPageUrl,
+    creator: {
+      "@type": "Organization",
+      name: "NeuralReach",
+      url: BASE_URL,
+    },
+    datePublished: brand.run_date,
+    dateModified: brand.run_date,
+    about: {
+      "@type": "Organization",
+      name: brand.brand,
+      url: `https://${brand.url}`,
+    },
+    variableMeasured: "AI Visibility Score (AVS)",
+    measurementTechnique:
+      "Live API calls to OpenAI GPT-4o, Anthropic Claude Haiku 4.5, and Perplexity Sonar Pro",
+    keywords: [
+      `${brand.brand} AI visibility`,
+      `${brand.brand} ChatGPT`,
+      `${brand.brand} Perplexity`,
+      `${brand.brand} AI search`,
+      "AEO",
+      "GEO",
+      brand.category,
+    ],
+  };
+
   return (
     <div className="min-h-screen bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(brandDatasetSchema) }}
+      />
       {/* ── Sticky nav ─────────────────────────────────────── */}
       <Nav
         links={[
           { href: "/leaderboard", label: "Leaderboard" },
+          { href: "/pricing", label: "Pricing" },
           { href: "/methodology", label: "Methodology" },
         ]}
         cta={{ label: "Track my brand", href: "#get-report", isAnchor: true }}
@@ -443,6 +517,15 @@ export default function BrandDetailPage({
             <WaitlistForm variant="compact" className="max-w-sm mx-auto" defaultBrandInterest={brand.brand} />
             <p className="mt-3 text-xs text-gray-400">
               Free to join · No credit card · We&apos;ll notify you when {brand.brand}&apos;s next report is ready
+            </p>
+            <p className="mt-4 text-sm text-gray-500">
+              Ready to track your own brand?{" "}
+              <Link
+                href="/pricing"
+                className="text-brand-600 hover:text-brand-800 font-medium underline underline-offset-2"
+              >
+                See pricing →
+              </Link>
             </p>
           </div>
         </section>

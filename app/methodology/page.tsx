@@ -3,9 +3,13 @@ import type { Metadata } from "next";
 import { Nav } from "@/components/Nav";
 
 export const metadata: Metadata = {
-  title: "How We Scored This: Methodology | NeuralReach AI Visibility Index",
+  title:
+    "How We Score AI Search Visibility: Methodology | NeuralReach AI Visibility Index",
   description:
-    "Full methodology behind the AI Visibility Index: 25 canonical prompts, 3 LLMs scored via live API calls, the AVS formula, and what Verified means.",
+    "Full methodology for the AI Visibility Index: 25 buyer-intent prompts, 3 LLMs scored live (ChatGPT GPT-4o, Claude Haiku 4.5, Perplexity Sonar Pro), the AVS formula, and what Verified means.",
+  alternates: {
+    canonical: "/methodology",
+  },
 };
 
 const PROMPT_CATEGORIES = [
@@ -67,9 +71,70 @@ const LLMS = [
   },
 ];
 
+const methodologyFaqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "What is an AI Visibility Score (AVS)?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The AI Visibility Score (AVS) is a 0–100 composite score measuring how prominently a brand appears across LLM responses. It is computed from 25 buyer-intent prompts sent to ChatGPT, Claude, and Perplexity via live API calls, scoring each response on rank position (0–6 pts), sentiment (+2/0/−2 pts), and URL citation (+1 pt).",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How many prompts are used per brand?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Each brand is evaluated against 25 prompt templates across five buyer-intent categories: Category Discovery (5), Comparison (5), Alternatives (5), Use Case (5), and Integration (5). Templates are filled with brand-specific variables before being sent to each LLM.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Which AI models are included in the AI Visibility Index?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The current index includes three LLMs: ChatGPT (GPT-4o), Claude (Haiku 4.5), and Perplexity (Sonar Pro). Google AI Overviews is in our roadmap but was not included in this run.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What does Verified mean on the leaderboard?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Verified means all 75 scores (25 prompts × 3 LLMs) were obtained through live API calls made on the run date shown. No score was interpolated, extrapolated, or carried forward from a prior run.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How often is the AI Visibility Index updated?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The public leaderboard is re-scored weekly. LLM outputs are non-deterministic and training data changes continuously, so scores are a weekly snapshot. Subscribers on NeuralReach receive a fresh report every week for their tracked brands.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How is AEO and GEO measured for B2B SaaS brands?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "We measure Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO) by querying ChatGPT, Claude, and Perplexity with 25 buyer-intent prompts per brand. Each response is scored for brand mention rank, sentiment, and URL citation. The composite AI Visibility Score (AVS) captures how consistently a brand surfaces in AI-generated recommendations.",
+      },
+    },
+  ],
+};
+
 export default function MethodologyPage() {
   return (
     <div className="min-h-screen bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(methodologyFaqSchema),
+        }}
+      />
       {/* Nav */}
       <Nav
         links={[

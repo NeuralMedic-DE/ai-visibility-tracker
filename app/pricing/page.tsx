@@ -7,9 +7,13 @@ import { WaitlistForm } from "@/components/WaitlistForm";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Pricing | NeuralReach",
+  title:
+    "Pricing — AI Visibility Tracker for B2B SaaS | NeuralReach",
   description:
-    "Simple, transparent pricing for AI search visibility tracking. Start with a 14-day free trial.",
+    "Track your brand in ChatGPT, Claude, Perplexity & Google AI Overviews. Starter $39/mo (25 AI prompts, 4 LLMs, 1 brand). Pro $89/mo (100 prompts, competitor tracking). 14-day free trial.",
+  alternates: {
+    canonical: "/pricing",
+  },
 };
 
 // ── Server-side feature flag ──────────────────────────────────────────────────
@@ -72,6 +76,63 @@ const COMPARISON = [
   { feature: "Priority support", starter: "No", pro: "Yes" },
 ];
 
+// ── Structured data ───────────────────────────────────────────────────────────
+
+const pricingFaqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "Does the free trial require a credit card?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. Stripe collects your card upfront, but nothing is charged until day 15. You can cancel at any time before then.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What counts as an AI prompt?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Each question we send to ChatGPT, Claude, Perplexity, or Google AI Overviews on your brand's behalf is one prompt. Starter runs 25/week across all 4 LLMs; Pro runs up to 100.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Can I upgrade from Starter to Pro later?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. You can upgrade anytime from your account settings and you'll only be billed the prorated difference.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What happens if I cancel NeuralReach?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Your subscription stays active until the end of the current billing period, then stops. You won't be charged again.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do you offer refunds?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "We offer a full refund within 7 days of your first charge if you're not satisfied. Email hello@neuralreach.de.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How much does AI search visibility tracking cost?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "NeuralReach offers two plans: Starter at $39/month (25 AI prompts/week, 4 LLMs, 1 brand) and Pro at $89/month (100 prompts/week, competitor tracking, on-demand scans). Both include a 14-day free trial.",
+      },
+    },
+  ],
+};
+
 // ── Page ──────────────────────────────────────────────────────────────────────
 
 export default function PricingPage() {
@@ -79,6 +140,10 @@ export default function PricingPage() {
 
   return (
     <div className="min-h-screen bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(pricingFaqSchema) }}
+      />
       {/* Nav */}
       <Nav
         links={[
