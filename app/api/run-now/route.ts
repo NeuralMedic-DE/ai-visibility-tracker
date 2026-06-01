@@ -1,13 +1,14 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
-import { spawn } from "child_process";
-import path from "path";
 
 // ── POST /api/run-now ─────────────────────────────────────────────────────────
-// Auth-protected. Triggers run_for_customer.py for the signed-in customer.
+// Auth-protected. Enqueues a scoring_jobs row (status=pending) for the signed-in
+// customer. The always-on worker service (Railway/Fly/Render) picks up the job
+// and runs the Python scorer out-of-band.
+//
 // Rate limit: 1 run per customer per 12 hours.
-// Returns 202 Accepted immediately; scoring runs in background subprocess.
+// Returns 202 Accepted immediately; scoring results appear on /dashboard when done.
 
 export async function POST(_request: NextRequest) {
   // 1. Verify session
@@ -63,6 +64,31 @@ export async function POST(_request: NextRequest) {
     Date.now() - 12 * 60 * 60 * 1000
   ).toISOString();
 
+  // 5a. Block if there's already a pending or running job in the queue
+  const { data: activeJob } = await admin
+    .from("scoring_jobs")
+    .select("id, status, created_at")
+    .eq("customer_id", customer.id)
+    .in("status", ["pending", "running"])
+    .gte("created_at", twelveHoursAgo)
+    .order("created_at", { ascending: false })
+    .limit(1)
+    .maybeSingle();
+
+  if (activeJob) {
+    return NextResponse.json(
+      {
+        error:
+          activeJob.status === "running"
+            ? "Scoring is already in progress. Please check back shortly."
+            : "A scoring job is already queued. Please wait a few minutes.",
+        job_status: activeJob.status,
+      },
+      { status: 429 }
+    );
+  }
+
+  // 5b. Block if a completed run was created within the last 12 hours
   const { data: recentRun } = await admin
     .from("customer_scoring_runs")
     .select("id, created_at")
@@ -84,36 +110,29 @@ export async function POST(_request: NextRequest) {
     );
   }
 
-  // 6. Fire-and-forget: spawn Python scorer subprocess
-  //    We run from the workspace root so relative imports work.
-  const workspaceRoot = path.resolve(process.cwd());
+  // 6. Enqueue a scoring job (trigger=manual, worker picks it up)
+  const { error: jobErr } = await admin.from("scoring_jobs").insert({
+    customer_id: customer.id,
+    status: "pending",
+    trigger: "manual",
+  });
 
-  try {
-    const proc = spawn(
-      "python3",
-      ["-m", "scorer.run_for_customer", "--customer-id", customer.id],
-      {
-        detached: true,
-        stdio: ["ignore", "ignore", "ignore"],
-        cwd: workspaceRoot,
-        env: {
-          ...process.env,
-          // Ensure Python can find .env.local values
-          PYTHONUNBUFFERED: "1",
-        },
-      }
+  if (jobErr) {
+    console.error("[run-now] Failed to insert scoring_jobs row:", jobErr);
+    return NextResponse.json(
+      { error: "Failed to queue scoring job. Please try again." },
+      { status: 500 }
     );
-    proc.unref();
-  } catch (spawnErr) {
-    console.error("[run-now] Failed to spawn scorer subprocess:", spawnErr);
-    // Don't fail the request — the subprocess attempt is best-effort for now.
-    // In production this would queue a job. Log and continue.
   }
+
+  console.info(
+    `[run-now] Scoring job enqueued for customer ${customer.id} (brand: ${brand.brand_name})`
+  );
 
   return NextResponse.json(
     {
       success: true,
-      message: `Scoring started for ${brand.brand_name}`,
+      message: `Scoring queued for ${brand.brand_name}. Results will appear on your dashboard within ~5 minutes.`,
     },
     { status: 202 }
   );

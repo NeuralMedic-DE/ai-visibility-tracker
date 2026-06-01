@@ -1,0 +1,19 @@
+{
+  "name": "neuralreach-worker",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Always-on scoring worker for NeuralReach — polls scoring_jobs and runs the Python scorer.",
+  "scripts": {
+    "start": "tsx index.ts",
+    "dev": "tsx watch index.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "dotenv": "^16.4.5",
+    "tsx": "^4.22.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,33 @@
+# Railway deployment config for the NeuralReach Scoring Worker.
+#
+# HOW TO DEPLOY ON RAILWAY:
+#   1. Create a new service in your Railway project.
+#   2. Connect this repo (or set source to the same GitHub repo as the Next.js app).
+#   3. Set the root directory to "." (repo root) — the Dockerfile needs access to scorer/.
+#   4. Railway auto-detects this file; otherwise set:
+#        Dockerfile path  : worker/Dockerfile
+#        Build context    : . (repo root)
+#   5. Add all required env vars in the Railway service settings:
+#        NEXT_PUBLIC_SUPABASE_URL
+#        SUPABASE_SERVICE_ROLE_KEY
+#        OPENAI_API_KEY
+#        ANTHROPIC_API_KEY
+#        PERPLEXITY_API_KEY
+#        SERPAPI_KEY
+#   6. Deploy. The worker starts immediately and polls every 30 seconds.
+#
+# SCALING: This config runs a single worker replica. For >20 customers,
+# increase replicas — the optimistic-lock claim in worker/index.ts prevents
+# duplicate job processing.
+
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "worker/Dockerfile"
+buildContext = "."
+
+[deploy]
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 10
+
+# Optional: set WORKER_POLL_INTERVAL_MS / WORKER_SCORER_TIMEOUT_MS here
+# or via Railway env vars UI.

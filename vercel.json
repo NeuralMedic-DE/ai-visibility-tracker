@@ -24,8 +24,12 @@
   ],
   "crons": [
     {
-      "path": "/api/cron/weekly-digest",
+      "path": "/api/cron/weekly",
       "schedule": "0 9 * * 1"
+    },
+    {
+      "path": "/api/cron/weekly-digest",
+      "schedule": "0 10 * * 1"
     }
   ],
   "functions": {
@@ -38,11 +42,17 @@
     "app/api/waitlist/route.ts": {
       "maxDuration": 10
     },
+    "app/api/onboarding/route.ts": {
+      "maxDuration": 10
+    },
+    "app/api/run-now/route.ts": {
+      "maxDuration": 10
+    },
     "app/api/cron/weekly/route.ts": {
-      "maxDuration": 300
+      "maxDuration": 30
     },
     "app/api/cron/weekly-digest/route.ts": {
-      "maxDuration": 300
+      "maxDuration": 60
     }
   }
 }

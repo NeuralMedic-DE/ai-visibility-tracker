@@ -1,8 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
-import { spawn } from "child_process";
-import path from "path";
 
 // ── POST /api/onboarding ──────────────────────────────────────────────────────
 // Auth-protected. Saves brand info for a newly-onboarding customer, queues a
@@ -159,34 +157,13 @@ export async function POST(request: NextRequest) {
     console.warn("[onboarding] scoring_jobs insert warning:", jobErr.message);
   }
 
-  // ── 8. Fire-and-forget scorer subprocess ──────────────────────────────────
-  // Best-effort: spawn the Python scorer in the background so the user sees
-  // results as quickly as possible. The subprocess writes to
-  // customer_scoring_runs when it completes. If it fails, the pending
-  // scoring_jobs row can be picked up by the weekly cron.
-  const workspaceRoot = path.resolve(process.cwd());
-  try {
-    const proc = spawn(
-      "python3",
-      ["-m", "scorer.run_for_customer", "--customer-id", customer.id],
-      {
-        detached: true,
-        stdio: ["ignore", "ignore", "ignore"],
-        cwd: workspaceRoot,
-        env: {
-          ...process.env,
-          PYTHONUNBUFFERED: "1",
-        },
-      }
-    );
-    proc.unref();
-    console.info(
-      `[onboarding] scorer subprocess spawned for customer ${customer.id}`
-    );
-  } catch (spawnErr) {
-    // Non-fatal — the pending scoring_jobs row will be picked up by cron.
-    console.warn("[onboarding] scorer spawn warning:", spawnErr);
-  }
+  // ── 8. Scoring is handled by the always-on worker service ────────────────
+  // The scoring_jobs row inserted above (status=pending) will be picked up
+  // by the worker (Railway/Fly/Render) which runs python3 scorer.run_for_customer
+  // out-of-band. Results appear on /dashboard once the worker completes.
+  console.info(
+    `[onboarding] scoring_jobs row enqueued for customer ${customer.id}`
+  );
 
   // ── 9. Respond with redirect target ───────────────────────────────────────
   return NextResponse.json(
