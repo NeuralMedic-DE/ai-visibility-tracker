@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test:email": "tsx scripts/test_resend.ts"
+    "test:email": "tsx scripts/test_resend.ts",
+    "db:migrate": "supabase db push --project-ref unrfdcxkmelafypuyruk",
+    "db:verify": "node --env-file=.env.local scripts/verify-schema.mjs"
   },
   "dependencies": {
     "@stripe/stripe-js": "^4.8.0",

@@ -1,0 +1,77 @@
+name: DB Migrate
+
+# Runs on every push to main that touches migrations or this workflow file.
+# Applies any pending Supabase migrations to the production database BEFORE
+# Vercel picks up the same commit and deploys the new code.
+#
+# Required GitHub secrets (Settings → Secrets → Actions):
+#   SUPABASE_ACCESS_TOKEN  — your personal token from https://supabase.com/dashboard/account/tokens
+#   (project ref is hardcoded below — it is not a secret)
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'supabase/migrations/**'
+      - '.github/workflows/db-migrate.yml'
+  workflow_dispatch:   # allow manual trigger from GitHub Actions UI
+
+jobs:
+  migrate:
+    name: Push migrations → production
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Supabase CLI
+        uses: supabase/setup-cli@v1
+        with:
+          version: latest
+
+      - name: Push pending migrations
+        # supabase db push compares supabase/migrations/ against the remote
+        # supabase_migrations.schema_migrations table and applies only the
+        # pending ones.  All our migrations are idempotent (IF NOT EXISTS /
+        # ADD COLUMN IF NOT EXISTS) so the very first run is safe even if
+        # migrations were previously applied manually.
+        run: |
+          supabase db push \
+            --project-ref unrfdcxkmelafypuyruk \
+            --password "$SUPABASE_DB_PASSWORD"
+        env:
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+          # DB password is only needed when --linked mode is used; for project-ref
+          # mode the access token is sufficient for most operations.
+          # Add SUPABASE_DB_PASSWORD secret if the CLI prompts for it.
+          SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
+
+      - name: Verify schema (quick probe)
+        # Lightweight REST check — confirms all 9 tables respond 200 via PostgREST.
+        # Uses the anon key (public read is enough for a HEAD check).
+        run: |
+          SUPA_URL="https://unrfdcxkmelafypuyruk.supabase.co"
+          SUPA_KEY="${{ secrets.SUPABASE_ANON_KEY }}"
+          FAILED=0
+          for TABLE in customers tracked_brands customer_scoring_runs waitlist brands scores runs scoring_jobs email_log; do
+            CODE=$(curl -s -o /dev/null -w "%{http_code}" \
+              "${SUPA_URL}/rest/v1/${TABLE}?limit=1&select=id" \
+              -H "apikey: ${SUPA_KEY}" \
+              -H "Authorization: Bearer ${SUPA_KEY}")
+            if [ "$CODE" = "200" ]; then
+              echo "✅  $TABLE"
+            else
+              echo "❌  $TABLE (HTTP $CODE)"
+              FAILED=1
+            fi
+          done
+          if [ "$FAILED" = "1" ]; then
+            echo "One or more tables missing — migration may have failed."
+            exit 1
+          fi
+        env:
+          # Add SUPABASE_ANON_KEY secret: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+          # (anon key from .env.local — safe for CI, no write access)

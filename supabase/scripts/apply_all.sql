@@ -1,7 +1,8 @@
 -- ============================================================
 -- NeuralReach — CONSOLIDATED MIGRATION (apply ALL at once)
--- Run this in Supabase Dashboard → SQL Editor if starting fresh.
--- Combines migrations 0001 through 0005 in order.
+-- Purpose: emergency / fresh-DB restore via Supabase Dashboard SQL Editor.
+--          NOT used by supabase CLI (use `pnpm db:migrate` for that).
+-- Covers migrations 0001 through 0008.
 -- Safe to re-run: all statements use IF NOT EXISTS / OR REPLACE.
 -- ============================================================
 
@@ -333,6 +334,21 @@ create index if not exists scoring_jobs_customer_status
 create index if not exists scoring_jobs_pending
   on public.scoring_jobs (status, created_at)
   where status = 'pending';
+
+-- ────────────────────────────────────────────────────────────
+-- 0008: scoring_jobs.trigger column
+-- ────────────────────────────────────────────────────────────
+
+alter table public.scoring_jobs
+  add column if not exists trigger text not null default 'manual'
+    check (trigger in ('manual', 'weekly'));
+
+comment on column public.scoring_jobs.trigger is
+  'Source of the scoring request: ''manual'' (run-now or onboarding) or ''weekly'' (cron enqueue).';
+
+create index if not exists scoring_jobs_weekly_done
+  on public.scoring_jobs (trigger, status, finished_at)
+  where trigger = 'weekly' and status = 'done';
 
 -- ────────────────────────────────────────────────────────────
 -- Verify: list all tables created
