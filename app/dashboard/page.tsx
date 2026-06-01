@@ -5,6 +5,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { getCustomerByUser } from "@/lib/customer";
 import SignOutButton from "@/components/SignOutButton";
 import AutoRefresh from "@/components/AutoRefresh";
 
@@ -163,19 +164,18 @@ export default async function DashboardPage({
     data: { user },
   } = await supabase.auth.getUser();
 
-  if (!user?.email) {
+  if (!user?.id || !user.email) {
     redirect("/login");
   }
 
-  // 2. Load customer row via admin client (RLS: service_role only).
+  // 2. Load customer row by user_id (fast path) with lazy-link fallback.
+  //    Uses admin client internally — bypasses RLS safely.
   const admin = createAdminClient();
-  const { data: customerRaw } = await admin
-    .from("customers")
-    .select(
-      "id, email, plan, subscription_status, trial_ends_at, current_period_end, created_at"
-    )
-    .eq("email", user.email)
-    .maybeSingle();
+  const customerRaw = await getCustomerByUser(
+    user.id,
+    user.email,
+    "id, email, plan, subscription_status, trial_ends_at, current_period_end, created_at"
+  );
 
   const customer = customerRaw as Customer | null;
 

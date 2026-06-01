@@ -32,8 +32,16 @@ export function CheckoutButton({
       const res = await fetch("/api/checkout", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
+        // No email needed — the server reads user.email from the session cookie
         body: JSON.stringify({ plan }),
       });
+
+      // 401 = user is not signed in → redirect to login then back to pricing
+      if (res.status === 401) {
+        const returnTo = encodeURIComponent("/pricing");
+        window.location.href = `/login?next=${returnTo}`;
+        return;
+      }
 
       const data = await res.json();
 

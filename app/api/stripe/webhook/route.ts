@@ -66,6 +66,12 @@ export async function POST(req: NextRequest) {
         const subscriptionId = session.subscription as string | null;
         const plan = (session.metadata?.plan as "starter" | "pro") ?? "starter";
 
+        // client_reference_id is the Supabase auth user UUID (set by /api/checkout
+        // when the user is authenticated before checkout). May be null for legacy
+        // sessions created before the register-first flow was deployed.
+        const supabaseUserId =
+          (session.client_reference_id as string | null) ?? null;
+
         if (!email) {
           console.error(
             "[webhook] checkout.session.completed — no email found, session:",
@@ -97,21 +103,68 @@ export async function POST(req: NextRequest) {
           }
         }
 
-        const { error: upsertErr } = await supabase
-          .from("customers")
-          .upsert(
-            {
-              email,
-              stripe_customer_id: customerId ?? undefined,
-              stripe_subscription_id: subscriptionId ?? undefined,
-              plan,
-              subscription_status: subscriptionStatus,
-              trial_ends_at: trialEndsAt,
-              current_period_end: currentPeriodEnd,
-              updated_at: new Date().toISOString(),
-            },
-            { onConflict: "email" }
-          );
+        // ── Upsert strategy ────────────────────────────────────────────────
+        // New flow (supabaseUserId present): register-first, bind by UUID.
+        //   Step A: if a legacy row exists for this email without a user_id,
+        //           bind the user_id now (handles customers who existed before
+        //           this migration).
+        //   Step B: upsert by user_id (immutable — survives email changes).
+        //
+        // Legacy flow (no supabaseUserId): fall back to email-keyed upsert.
+        // ──────────────────────────────────────────────────────────────────
+
+        let upsertErr: { message: string } | null = null;
+
+        if (supabaseUserId) {
+          // Step A: bind user_id to any existing email-only row
+          const { error: bindErr } = await supabase
+            .from("customers")
+            .update({ user_id: supabaseUserId })
+            .eq("email", email.toLowerCase())
+            .is("user_id", null);
+
+          if (bindErr) {
+            // Non-fatal; row may not exist yet — that's fine, step B will insert
+            console.warn("[webhook] Step-A bind warning:", bindErr.message);
+          }
+
+          // Step B: upsert by user_id (conflict on customers_user_id_unique index)
+          const { error } = await supabase
+            .from("customers")
+            .upsert(
+              {
+                user_id: supabaseUserId,
+                email: email.toLowerCase(),
+                stripe_customer_id: customerId ?? undefined,
+                stripe_subscription_id: subscriptionId ?? undefined,
+                plan,
+                subscription_status: subscriptionStatus,
+                trial_ends_at: trialEndsAt,
+                current_period_end: currentPeriodEnd,
+                updated_at: new Date().toISOString(),
+              },
+              { onConflict: "user_id" }
+            );
+          upsertErr = error;
+        } else {
+          // Legacy fallback: upsert by email
+          const { error } = await supabase
+            .from("customers")
+            .upsert(
+              {
+                email: email.toLowerCase(),
+                stripe_customer_id: customerId ?? undefined,
+                stripe_subscription_id: subscriptionId ?? undefined,
+                plan,
+                subscription_status: subscriptionStatus,
+                trial_ends_at: trialEndsAt,
+                current_period_end: currentPeriodEnd,
+                updated_at: new Date().toISOString(),
+              },
+              { onConflict: "email" }
+            );
+          upsertErr = error;
+        }
 
         if (upsertErr) {
           console.error("[webhook] DB upsert failed:", upsertErr);
@@ -123,7 +176,7 @@ export async function POST(req: NextRequest) {
         }
 
         console.log(
-          `[webhook] ✅ Customer ${email} → plan=${plan}, status=${subscriptionStatus}`
+          `[webhook] ✅ Customer ${email} (user_id=${supabaseUserId ?? "legacy"}) → plan=${plan}, status=${subscriptionStatus}`
         );
 
         // ── Send welcome email ────────────────────────────────────────────
@@ -147,10 +200,12 @@ export async function POST(req: NextRequest) {
 
           // Persist message_id in customers row (best-effort)
           if (welcomeEmailId) {
-            const { error: updateEmailIdErr } = await supabase
-              .from("customers")
-              .update({ welcome_email_id: welcomeEmailId })
-              .eq("email", email);
+            // Look up customer by user_id (preferred) or email
+            const updateQuery = supabaseUserId
+              ? supabase.from("customers").update({ welcome_email_id: welcomeEmailId }).eq("user_id", supabaseUserId)
+              : supabase.from("customers").update({ welcome_email_id: welcomeEmailId }).eq("email", email.toLowerCase());
+
+            const { error: updateEmailIdErr } = await updateQuery;
             if (updateEmailIdErr) {
               console.warn("[webhook] Could not write welcome_email_id:", updateEmailIdErr);
             }

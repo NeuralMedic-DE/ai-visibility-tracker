@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { getCustomerByUser } from "@/lib/customer";
 
 // ── POST /api/run-now ─────────────────────────────────────────────────────────
 // Auth-protected. Enqueues a scoring_jobs row (status=pending) for the signed-in
@@ -17,19 +18,18 @@ export async function POST(_request: NextRequest) {
     data: { user },
   } = await supabase.auth.getUser();
 
-  if (!user?.email) {
+  if (!user?.id || !user.email) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  // 2. Load customer
-  const admin = createAdminClient();
-  const { data: customer, error: customerErr } = await admin
-    .from("customers")
-    .select("id, subscription_status, plan")
-    .eq("email", user.email)
-    .maybeSingle();
+  // 2. Load customer by user_id (with lazy-link fallback for legacy rows)
+  const customer = await getCustomerByUser(
+    user.id,
+    user.email,
+    "id, subscription_status, plan"
+  );
 
-  if (customerErr || !customer) {
+  if (!customer) {
     return NextResponse.json(
       { error: "No active subscription found" },
       { status: 403 }
@@ -44,6 +44,8 @@ export async function POST(_request: NextRequest) {
       { status: 403 }
     );
   }
+
+  const admin = createAdminClient();
 
   // 4. Check that a tracked brand exists
   const { data: brand } = await admin

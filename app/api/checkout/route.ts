@@ -1,21 +1,45 @@
 import { NextRequest, NextResponse } from "next/server";
 import { stripe, PLANS } from "@/lib/stripe";
+import { createClient } from "@/lib/supabase/server";
 
 type PlanKey = keyof typeof PLANS;
 
 export async function POST(req: NextRequest) {
+  // ── 1. Require an authenticated session ────────────────────────────────────
+  // Users must register/log in before subscribing so we can bind their
+  // Supabase user_id (immutable UUID) to the Stripe customer record.
+  const supabase = createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  if (!user?.id || !user.email) {
+    return NextResponse.json(
+      { error: "Please sign in before subscribing." },
+      { status: 401 }
+    );
+  }
+
+  // ── 2. Validate plan ───────────────────────────────────────────────────────
+  let plan: PlanKey;
   try {
     const body = await req.json();
-    const { plan, email } = body;
+    plan = body?.plan as PlanKey;
+  } catch {
+    return NextResponse.json({ error: "Invalid request body" }, { status: 400 });
+  }
 
-    if (!plan || !["starter", "pro"].includes(plan)) {
-      return NextResponse.json({ error: "Invalid plan" }, { status: 400 });
-    }
+  if (!plan || !["starter", "pro"].includes(plan)) {
+    return NextResponse.json({ error: "Invalid plan" }, { status: 400 });
+  }
 
-    const selectedPlan = PLANS[plan as PlanKey];
-    const appUrl = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
+  const selectedPlan = PLANS[plan];
+  const appUrl = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
 
-    // Create Stripe checkout session
+  // ── 3. Create Stripe Checkout session ─────────────────────────────────────
+  // client_reference_id = auth user UUID → webhook writes this to customers.user_id
+  // customer_email      = pre-fills the Stripe checkout form
+  try {
     const session = await stripe.checkout.sessions.create({
       mode: "subscription",
       payment_method_types: ["card"],
@@ -25,9 +49,11 @@ export async function POST(req: NextRequest) {
           quantity: 1,
         },
       ],
-      customer_email: email || undefined,
+      // Bind auth identity so the webhook can link by UUID, not email
+      client_reference_id: user.id,
+      customer_email: user.email,
       success_url: `${appUrl}/dashboard?checkout=success&session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `${appUrl}/?checkout=cancelled`,
+      cancel_url: `${appUrl}/pricing?checkout=cancelled`,
       metadata: {
         plan,
       },
@@ -35,6 +61,7 @@ export async function POST(req: NextRequest) {
         trial_period_days: 14,
         metadata: {
           plan,
+          supabase_user_id: user.id,
         },
       },
     });

@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { getCustomerByUser } from "@/lib/customer";
 
 // ── POST /api/onboarding ──────────────────────────────────────────────────────
 // Auth-protected. Saves brand info for a newly-onboarding customer, queues a
@@ -21,7 +22,7 @@ export async function POST(request: NextRequest) {
     data: { user },
   } = await supabase.auth.getUser();
 
-  if (!user?.email) {
+  if (!user?.id || !user.email) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
@@ -94,18 +95,12 @@ export async function POST(request: NextRequest) {
     .filter(Boolean)
     .map(normaliseDomain);
 
-  // ── 5. Look up customer row ────────────────────────────────────────────────
-  const admin = createAdminClient();
-  const { data: customer, error: customerErr } = await admin
-    .from("customers")
-    .select("id, subscription_status")
-    .eq("email", user.email)
-    .maybeSingle();
-
-  if (customerErr) {
-    console.error("[onboarding] customer lookup error:", customerErr);
-    return NextResponse.json({ error: "Database error" }, { status: 500 });
-  }
+  // ── 5. Look up customer row by user_id (lazy-link fallback for legacy rows) ─
+  const customer = await getCustomerByUser(
+    user.id,
+    user.email,
+    "id, subscription_status"
+  );
 
   if (!customer) {
     return NextResponse.json(
@@ -124,6 +119,8 @@ export async function POST(request: NextRequest) {
       { status: 403 }
     );
   }
+
+  const admin = createAdminClient();
 
   // ── 6. Upsert tracked_brands (one row per customer) ────────────────────────
   // competitor_domains are stored as a JSON array of bare domain strings.

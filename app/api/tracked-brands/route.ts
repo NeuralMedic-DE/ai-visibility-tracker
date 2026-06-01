@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { getCustomerByUser } from "@/lib/customer";
 
 // ── POST /api/tracked-brands ──────────────────────────────────────────────────
 // Auth-protected. Upserts a tracked_brands row for the signed-in customer.
@@ -14,7 +15,7 @@ export async function POST(request: NextRequest) {
     data: { user },
   } = await supabase.auth.getUser();
 
-  if (!user?.email) {
+  if (!user?.id || !user.email) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
@@ -48,18 +49,12 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: "Max 3 competitors allowed" }, { status: 400 });
   }
 
-  // 3. Look up customer row (by email — customers are keyed on email)
-  const admin = createAdminClient();
-  const { data: customer, error: customerErr } = await admin
-    .from("customers")
-    .select("id, subscription_status")
-    .eq("email", user.email)
-    .maybeSingle();
-
-  if (customerErr) {
-    console.error("[tracked-brands] customer lookup error:", customerErr);
-    return NextResponse.json({ error: "Database error" }, { status: 500 });
-  }
+  // 3. Look up customer row by user_id (with lazy-link fallback for legacy rows)
+  const customer = await getCustomerByUser(
+    user.id,
+    user.email,
+    "id, subscription_status"
+  );
 
   if (!customer) {
     return NextResponse.json(
@@ -78,6 +73,7 @@ export async function POST(request: NextRequest) {
   }
 
   // 5. Upsert tracked_brands row (one per customer)
+  const admin = createAdminClient();
   const { error: upsertErr } = await admin
     .from("tracked_brands")
     .upsert(
@@ -109,21 +105,17 @@ export async function GET(_request: NextRequest) {
     data: { user },
   } = await supabase.auth.getUser();
 
-  if (!user?.email) {
+  if (!user?.id || !user.email) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const admin = createAdminClient();
-  const { data: customer } = await admin
-    .from("customers")
-    .select("id")
-    .eq("email", user.email)
-    .maybeSingle();
+  const customer = await getCustomerByUser(user.id, user.email, "id");
 
   if (!customer) {
     return NextResponse.json({ brand: null });
   }
 
+  const admin = createAdminClient();
   const { data: brand, error } = await admin
     .from("tracked_brands")
     .select("*")
