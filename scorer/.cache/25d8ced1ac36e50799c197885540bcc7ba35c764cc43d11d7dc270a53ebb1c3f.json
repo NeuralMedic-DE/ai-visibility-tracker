@@ -1,9 +1,0 @@
-{
-  "brand": "Close",
-  "prompt_id": "CD-01",
-  "llm": "openai",
-  "prompt_text": "What is the best CRM for early-stage startups?",
-  "response": "The best CRM for early-stage startups often depends on the specific needs and budget of the startup. However, some popular options that are frequently recommended include:\n\n1. **HubSpot CRM**: Offers a free version with a wide range of features, making it ideal for startups. It is user-friendly and integrates well with other tools.\n\n2. **Zoho CRM**: Known for its affordability and scalability, Zoho CRM offers a free plan for up to 3 users and has a suite of tools that can grow with your business.\n\n3. **Pipedrive**: Focused on sales pipeline management, Pipedrive is intuitive and easy to use, making it a good choice for startups focused on sales.\n\n4. **Freshsales**: Part of the Freshworks suite, Freshsales offers a free plan and is known for its ease of use and AI-driven insights.\n\n5. **Airtable**: While not a traditional CRM, Airtable can be customized to function as one and is great for startups that need flexibility.\n\n6. **Trello with CRM Power-Ups**: For startups looking for a simple, visual way to manage customer relationships, Trello can be adapted with CRM power-ups.\n\nWhen choosing a CRM, consider factors like ease of use, integration capabilities, scalability, and cost. It's often beneficial to start with a free plan or trial to see how well the CRM fits your startup's workflow.",
-  "cached_at": "2026-05-27T17:28:03Z",
-  "metadata": {}
-}

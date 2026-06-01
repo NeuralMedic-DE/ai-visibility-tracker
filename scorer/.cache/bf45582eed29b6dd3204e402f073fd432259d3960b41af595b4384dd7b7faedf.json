@@ -1,9 +1,0 @@
-{
-  "brand": "Nutshell",
-  "prompt_id": "CM-03",
-  "llm": "anthropic",
-  "prompt_text": "Nutshell vs HubSpot for small and mid-size B2B sales teams",
-  "response": "# Nutshell vs HubSpot: Quick Comparison\n\n## **Nutshell**\n**Best for:** Budget-conscious teams wanting simplicity\n\n**Strengths:**\n- Lower cost ($25-75/user/month)\n- Easier onboarding & less overwhelming\n- Good contact management & pipeline tracking\n- All-in-one (CRM + email + calls in basic plan)\n- Faster implementation\n\n**Weaknesses:**\n- Fewer integrations & advanced features\n- Limited marketing automation\n- Less robust analytics/reporting\n- Smaller ecosystem of add-ons\n\n---\n\n## **HubSpot**\n**Best for:** Growth-focused teams needing scalability\n\n**Strengths:**\n- Excellent free tier (good for small teams)\n- Tight CRM + marketing + service integration\n- Superior reporting & forecasting\n- Large app marketplace\n- Strong documentation & community\n- Better for multi-team coordination\n\n**Weaknesses:**\n- Steeper learning curve\n- Costs escalate quickly ($50-3,200+/month for enterprise)\n- Can feel bloated for basic needs\n- Per-contact pricing at higher tiers\n\n---\n\n## **Decision Framework**\n\n| Factor | Choose Nutshell | Choose HubSpot |\n|--------|---|---|\n| **Budget** | Under $500/mo | Can spend more |\n| **Team size** | 2-15 people | Any size |\n| **Tech comfort** | Lower | Higher |\n| **Growth trajectory** | Stable | Rapid |\n| **Marketing needs** | Light | Heavy |\n\n**Hybrid tip:** Many teams start with HubSpot's free tier, then migrate to Nutshell if costs become prohibitive.\n\nWhat's your team size and primary pain point?",
-  "cached_at": "2026-05-27T18:33:11Z",
-  "metadata": {}
-}

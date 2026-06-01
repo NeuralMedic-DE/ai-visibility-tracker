@@ -1,9 +1,0 @@
-{
-  "brand": "Numeric",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with improve financial reporting accuracy and reduce close cycle time at scale?",
-  "response": "# Software for Financial Reporting Accuracy & Close Cycle Optimization\n\n## Key Categories\n\n### **Accounting Automation Platforms**\n- **Workiva** – Consolidation, disclosure management, audit workflows\n- **OneStream** – Planning, consolidation, and reporting in one platform\n- **Anaplan** (SAP) – Financial planning and consolidation at scale\n- **Trintech** – Close process automation and reconciliation management\n\n### **General Ledger & Accounting Suites**\n- **NetSuite** – Cloud-based ERP with strong GL and consolidation\n- **SAP S/4HANA** – Enterprise-grade GL and financial close\n- **Oracle Financials Cloud** – Comprehensive close automation\n- **Microsoft Dynamics 365** – Mid-market to enterprise solutions\n\n### **Specialized Close & Reconciliation Tools**\n- **BlackLine** – Close automation, reconciliation, variance analysis\n- **Certent** – Reconciliation and cash management\n- **FloQast** – Checklist-based close management\n\n### **Data Integration & Quality**\n- **Talend** – ETL for clean financial data\n- **Informatica** – Master data management and data quality\n- **MuleSoft** – API-led integration for data consistency\n\n## What These Address\n✓ Automate routine reconciliations  \n✓ Reduce manual journal entries  \n✓ Improve data accuracy with validation rules  \n✓ Accelerate consolidation processes  \n✓ Enable real-time reporting visibility\n\n**Best choice depends on:** Current ERP, company size, complexity of consolidations, and budget.",
-  "cached_at": "2026-05-28T07:05:12Z",
-  "metadata": {}
-}

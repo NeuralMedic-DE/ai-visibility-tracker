@@ -1,9 +1,0 @@
-{
-  "brand": "Pendo",
-  "prompt_id": "UC-03",
-  "llm": "openai",
-  "prompt_text": "What tools do enterprise SaaS product teams companies use to guide users through in-app onboarding tours?",
-  "response": "Enterprise SaaS product teams often use a variety of tools to guide users through in-app onboarding tours. Some of the popular tools include:\n\n1. **WalkMe**: A digital adoption platform that provides in-app guidance and engagement tools to help users learn how to use software effectively.\n\n2. **Pendo**: Offers product analytics, in-app messaging, and user feedback tools, including features for creating onboarding tours and guides.\n\n3. **Appcues**: Specializes in user onboarding and product adoption, allowing teams to build in-app experiences like tours, tooltips, and modals without coding.\n\n4. **Userpilot**: Provides a platform for creating personalized in-app experiences, including onboarding flows, product tours, and feature adoption prompts.\n\n5. **Intercom**: Known for customer messaging, Intercom also offers product tours and in-app messaging to help onboard and engage users.\n\n6. **Chameleon**: Focuses on user onboarding and engagement with features for building product tours, tooltips, and surveys.\n\n7. **Whatfix**: A digital adoption platform that enables the creation of in-app guidance and training content to improve user onboarding and engagement.\n\n8. **Tour My App**: Offers tools to create interactive tours and walkthroughs to guide users through software applications.\n\nThese tools help SaaS companies improve user onboarding, reduce churn, and enhance user engagement by providing interactive and contextual guidance directly within the application.",
-  "cached_at": "2026-05-27T19:45:45Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Encharge",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Customer.io vs alternatives: what should I switch to?",
-  "response": "# Customer.io Alternatives: Key Comparisons\n\n## If you're considering switching, here's what matters:\n\n**For cost-sensitive teams:**\n- **Klaviyo** – Better email/SMS ROI, built-in ecommerce features\n- **Braze** – More affordable than Customer.io at scale\n- **Iterable** – Lower per-user pricing model\n\n**For simplicity:**\n- **HubSpot** – All-in-one, easier onboarding (but less sophisticated automation)\n- **Segment** – If you need better CDP/data layer integration\n- **Mailchimp** – Solid basic automation at lower price point\n\n**For power users:**\n- **mParticle** – Superior data control and integration\n- **Treasure Data** – Enterprise CDP alternative\n- **Mixpanel** – If analytics is your weak point with Customer.io\n\n## What to evaluate first:\n\n1. **What's frustrating you now?** (pricing, features, UX, integrations, support)\n2. **Your company size** – Pricing models vary wildly by scale\n3. **Current tech stack** – Switching costs go beyond software\n4. **Migration effort** – How much customer data/journeys to transfer?\n\n**Red flag for switching:** Churn risk. Rebuilding automations takes time. Make sure the gap is real.\n\nWhat's driving your consideration? That'll help narrow down what actually makes sense for your situation.",
-  "cached_at": "2026-05-28T07:28:25Z",
-  "metadata": {}
-}

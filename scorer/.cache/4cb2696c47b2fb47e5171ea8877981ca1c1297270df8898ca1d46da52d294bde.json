@@ -1,9 +1,0 @@
-{
-  "brand": "Sprinto",
-  "prompt_id": "IN-03",
-  "llm": "openai",
-  "prompt_text": "How do I connect Sprinto with GitHub?",
-  "response": "To connect Sprinto with GitHub, you typically need to follow these steps:\n\n1. **Access Sprinto Dashboard:**\n   - Log in to your Sprinto account and navigate to the dashboard.\n\n2. **Integration Settings:**\n   - Look for an \"Integrations\" or \"Settings\" section within the Sprinto dashboard. This is where you can manage and configure third-party integrations.\n\n3. **Select GitHub Integration:**\n   - In the integrations section, find and select the option for GitHub. This will usually be listed among other available integrations.\n\n4. **Authenticate with GitHub:**\n   - You will be prompted to authenticate with your GitHub account. This typically involves logging into GitHub and authorizing Sprinto to access your repositories. Make sure you have the necessary permissions to authorize this integration.\n\n5. **Configure Access:**\n   - Once authenticated, you may need to configure which repositories or organizations Sprinto can access. Choose the appropriate repositories you want Sprinto to monitor or interact with.\n\n6. **Set Permissions:**\n   - Ensure that Sprinto has the necessary permissions to perform the actions you require, such as reading repository data or accessing commit information.\n\n7. **Finalize Setup:**\n   - Complete the integration setup by saving your settings. Sprinto should now be connected to your GitHub account, and you can start using its features with your GitHub repositories.\n\nIf you encounter any issues during this process, consult Sprinto's support documentation or contact their support team for assistance. Additionally, the exact steps may vary slightly depending on updates to the Sprinto platform or GitHub's integration process.",
-  "cached_at": "2026-05-28T08:31:31Z",
-  "metadata": {}
-}

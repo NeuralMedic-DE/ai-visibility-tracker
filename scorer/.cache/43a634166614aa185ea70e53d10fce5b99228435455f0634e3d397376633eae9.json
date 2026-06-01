@@ -1,9 +1,0 @@
-{
-  "brand": "Userlist",
-  "prompt_id": "CM-02",
-  "llm": "anthropic",
-  "prompt_text": "Userlist vs Customer.io pricing and features",
-  "response": "# Userlist vs Customer.io: Comparison\n\n## Pricing\n\n| Feature | Userlist | Customer.io |\n|---------|----------|-------------|\n| **Free Tier** | Yes (up to 1,000 contacts) | Yes (up to 10,000 contacts) |\n| **Starting Price** | ~$99/month | ~$15/month |\n| **Pricing Model** | Per contact/subscriber | Per contact (more gradual scaling) |\n| **Contact Limit** | Scales with plan | Scales with plan |\n\n## Core Features\n\n### **Userlist**\n- ✅ Product-led onboarding tools\n- ✅ In-app messaging\n- ✅ Segmentation & behavioral targeting\n- ✅ Email campaigns\n- ✅ User dashboards\n- ✅ Zapier integration\n- ⚠️ Limited SMS/push options\n\n### **Customer.io**\n- ✅ Comprehensive email & SMS marketing\n- ✅ Advanced automation workflows\n- ✅ Push notifications\n- ✅ In-app messaging\n- ✅ Detailed analytics & reporting\n- ✅ Extensive app integrations\n- ✅ Predictive analytics\n- ✅ More customization options\n\n## Key Differences\n\n| Aspect | Userlist | Customer.io |\n|--------|----------|------------|\n| **Best For** | Product-led growth (PLG) companies | Overall customer engagement |\n| **Learning Curve** | Simple, intuitive | Steeper, more powerful |\n| **Automation** | Good | Excellent |\n| **Customer Support** | Standard | Strong |\n| **Scalability** | Good for startups | Enterprise-ready |\n\n## Quick Decision Guide\n\n**Choose Userlist if you:**\n- Focus on product-led growth\n- Need simple onboarding automation\n- Have < 10K users\n- Want affordability with core features\n\n**Choose Customer.io if you:**\n- Need advanced marketing automation\n- Require SMS + email + push integration\n- Want sophisticated segmentation\n- Plan to scale to enterprise\n\nWould you like details on specific features or integration capabilities?",
-  "cached_at": "2026-05-28T07:30:35Z",
-  "metadata": {}
-}

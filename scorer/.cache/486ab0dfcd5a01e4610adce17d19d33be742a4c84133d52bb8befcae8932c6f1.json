@@ -1,9 +1,0 @@
-{
-  "brand": "Amplitude",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Amplitude integrate with Segment?",
-  "response": "# Amplitude and Segment Integration\n\nYes, **Amplitude integrates with Segment**. Here are the key details:\n\n## How it works:\n- **Segment as a data source**: You can send data from Segment to Amplitude\n- **Two-way sync**: Data flows from Segment into Amplitude for analytics\n- **Pre-built connector**: Segment offers a native Amplitude destination\n\n## Common use cases:\n- Consolidate event data from multiple sources into Amplitude\n- Use Segment to collect events and forward them to Amplitude\n- Leverage Segment's data collection SDKs with Amplitude's analytics\n\n## Setup:\nThe integration is typically set up through:\n1. Segment's catalog of destinations\n2. Amplitude's integration marketplace\n3. API connections if you need custom configurations\n\n## Note:\nIntegration details and capabilities can change, so I'd recommend:\n- Checking **Segment's documentation** for current Amplitude destination specs\n- Reviewing **Amplitude's integrations page** for the latest setup requirements\n\nIs there a specific aspect of the integration you'd like to know more about?",
-  "cached_at": "2026-05-27T19:27:04Z",
-  "metadata": {}
-}

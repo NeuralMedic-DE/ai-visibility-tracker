@@ -1,9 +1,0 @@
-{
-  "brand": "Amplemarket",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best CRM that works with Salesforce and LinkedIn",
-  "response": "# Best CRMs That Integrate With Salesforce & LinkedIn\n\n## Top Recommendations\n\n### **Salesforce Native Solutions** (Most Seamless)\n- **Salesforce Sales Cloud** - Built-in LinkedIn Sales Navigator integration\n- **Slack** - Integrates with both (communication layer)\n- Best if: You're already committed to Salesforce ecosystem\n\n### **Best Third-Party Options**\n\n| CRM | Strengths | Best For |\n|-----|-----------|----------|\n| **HubSpot** | Easy LinkedIn integration, good UI, strong automation | SMBs and growing teams |\n| **Pipedrive** | Simple, visual pipeline, good integrations | Sales-focused teams |\n| **Apollo.io** | Native LinkedIn data, B2B prospecting | Outbound/prospecting |\n| **Clay** | Advanced enrichment, multi-channel outbound | Account-based sales |\n\n## Key Integration Benefits to Look For\n✅ Auto-sync LinkedIn activity to Salesforce records\n✅ Pull prospect data from LinkedIn into Salesforce\n✅ Social selling features built-in\n✅ Two-way data sync (not one-direction only)\n\n## My Top Pick\n**HubSpot** or **Pipedrive** if you want Salesforce-level CRM with easier setup and strong LinkedIn integration out of the box.\n\n**What's your team size and primary use case?** (prospecting, account management, etc.) I can refine this further.",
-  "cached_at": "2026-05-27T19:04:51Z",
-  "metadata": {}
-}

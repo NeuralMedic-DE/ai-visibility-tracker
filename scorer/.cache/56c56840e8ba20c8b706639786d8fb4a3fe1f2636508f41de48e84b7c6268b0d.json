@@ -1,9 +1,0 @@
-{
-  "brand": "Folk",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "HubSpot vs alternatives: what should I switch to?",
-  "response": "# HubSpot Alternatives: Key Trade-offs\n\n## If you want **lower cost**\n- **Pipedrive** – simpler, pipeline-focused, ~50% cheaper\n- **Zoho CRM** – full-featured, aggressive pricing\n- **Freshsales** – lightweight alternative\n\n## If you need **better specific functions**\n- **Salesforce** – enterprise scale, customization (but pricier, steeper learning curve)\n- **Monday.com/HubSpot workflows** – superior automation/project management\n- **Klaviyo** – if marketing automation is your main need\n\n## If you prioritize **ease of use**\n- **Pipedrive** – dead simple UI\n- **Copper** – built for Gmail users\n- **Notion** or **Airtable** – if you're not enterprise-heavy\n\n## Real questions to ask before switching:\n\n1. **What's actually broken?** (pricing, specific features, support)\n2. **Migration cost** – time, data loss risk, training\n3. **Integration needs** – what else do you use daily?\n4. **Team size/complexity** – some alternatives don't scale well\n\n**Honest take:** HubSpot's biggest weakness is pricing creep. Most alternatives are cheaper but have trade-offs in polish, ecosystem, or feature depth. Many teams switch for cost, then miss the integration ease.\n\nWhat's driving your consideration? That matters more than the tool itself.",
-  "cached_at": "2026-05-27T18:53:42Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Fivetran",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I replicate data from 400 plus sources to your data warehouse automatically without spending a lot on software?",
-  "response": "# Low-Cost Data Replication Strategies\n\n## Open-Source/Free Tools\n\n**Apache Airflow** (most popular)\n- Orchestrates data pipelines at scale\n- Free, widely supported, handles 400+ sources easily\n- Steep learning curve but very capable\n- Host on cheap cloud instances\n\n**Airbyte** (gaining traction)\n- 400+ pre-built connectors for common sources\n- Open-source version is free\n- Handles extraction and basic transformation\n- Lower barrier to entry than Airflow\n\n**dbt** (transformation layer)\n- Free for core tool\n- Transforms data once it's in your warehouse\n- Works with Airflow/Airbyte\n\n## Budget-Friendly Implementation\n\n1. **Start with connectors you already have**\n   - Most databases have native export tools\n   - Cloud platforms (AWS, GCP, Azure) offer free tier data movement\n\n2. **Use cloud-native options**\n   - AWS Glue (cheaper than enterprise tools)\n   - Google Cloud Dataflow (free tier available)\n   - Still significantly cheaper than commercial ETL\n\n3. **Custom scripts for simpler sources**\n   - Python/Node.js scripts run on cheap VMs\n   - Cron jobs for scheduling\n   - Only viable for <50 sources realistically\n\n## Reality Check\n\n- **400 sources** means you probably need Airflow + Airbyte combo\n- Hosting costs ($20-100/month) matter more than software costs\n- One engineer's time > any software license\n\nWhat types of sources are you connecting? (APIs, databases, files, SaaS?)",
-  "cached_at": "2026-05-28T08:58:43Z",
-  "metadata": {}
-}

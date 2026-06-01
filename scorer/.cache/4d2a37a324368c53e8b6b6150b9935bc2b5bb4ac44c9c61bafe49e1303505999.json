@@ -1,9 +1,0 @@
-{
-  "brand": "Drata",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable compliance tools instead of Sprinto",
-  "response": "# Open Source & Affordable Compliance Tools\n\n## **Low-Cost / Free Alternatives**\n\n### **General Compliance & Documentation**\n- **Compliance.ai** - Free tier for compliance tracking\n- **OpenSCAP** - Open source security compliance framework\n- **Auditable** - Lightweight audit trail tool\n- **Drata** - ~$600/mo (cheaper than Sprinto's ~$1000+)\n\n### **SOC 2 / ISO 27001**\n- **Vanta** - ~$800/mo (cheaper competitor)\n- **Secureframe** - Similar pricing to Sprinto\n- **Tugboat Logic** - Mid-market alternative\n- **Laika** - Focused on smaller companies\n\n### **Open Source Options**\n- **OpenAudit** - IT asset & compliance auditing\n- **Snyk** - Free security/compliance scanning\n- **Trivy** - Vulnerability scanner\n- **Prowler** - AWS/Cloud compliance scanner\n- **Cloud Custodian** - Policy-as-code for cloud\n\n## **Build-Your-Own Approach**\n- **Spreadsheets + Checklists** - Notion, Airtable templates\n- **GitHub Issues** - Track compliance tasks\n- **Simple Risk Register** - Google Sheets templates\n- **Document storage** - Confluence, Wiki.js\n\n## **Key Considerations**\n| Aspect | Open Source | Affordable SaaS |\n|--------|------------|-----------------|\n| Setup time | High | Low |\n| Maintenance | High | Managed |\n| Cost | Free | $300-800/mo |\n| Audit-ready reports | Manual | Automated |\n\n**Best hybrid approach:** Use free scanners + affordable SaaS for audit reports if budget allows.",
-  "cached_at": "2026-05-28T08:28:55Z",
-  "metadata": {}
-}

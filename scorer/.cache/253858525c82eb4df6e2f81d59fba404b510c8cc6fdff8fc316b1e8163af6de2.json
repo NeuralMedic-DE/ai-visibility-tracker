@@ -1,9 +1,0 @@
-{
-  "brand": "Instantly",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Lemlist vs alternatives: what should I switch to?",
-  "response": "# Lemlist vs Alternatives\n\n**Why you might want to switch:**\n- Pricing jumped significantly (now more enterprise-focused)\n- Limited warm-up features compared to dedicated tools\n- Reporting could be more granular\n\n## Strong alternatives by use case:\n\n### **Cold email focused**\n- **Instantly** – Similar feature set, often cheaper, solid deliverability\n- **Smartlead** – Strong automation, better warm-up included, good value\n- **Apollo** – Better database, integrations, but pricier\n\n### **Warm-up dedicated**\n- **Lemwarm** (actually owned by Lemlist) – If just warming up\n- **GMass** – Integrated with Gmail, simpler\n- **Mailmodo** – Good for forms + warm-up combo\n\n### **All-in-one CRM alternative**\n- **HubSpot** – If you want full CRM + email (pricier but comprehensive)\n- **Pipedrive** – Better for sales pipeline, less email-focused\n\n## Practical question to narrow it down:\n\n1. **What's your main bottleneck?** (deliverability, cost, features, integrations?)\n2. **How many accounts/sequences** are you running?\n3. **Do you need warm-up or just sending?**\n\nMost people switching find **Instantly** or **Smartlead** offer the best Lemlist replacement for the price. \n\nWhat's driving your consideration to switch?",
-  "cached_at": "2026-05-28T07:19:13Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Retool",
-  "prompt_id": "IN-03",
-  "llm": "openai",
-  "prompt_text": "How do I connect Retool with PostgreSQL?",
-  "response": "To connect Retool with a PostgreSQL database, follow these steps:\n\n1. **Log in to Retool**: Access your Retool account by logging in at [retool.com](https://retool.com).\n\n2. **Navigate to Resources**: Once logged in, go to the \"Resources\" tab, which is typically found in the left-hand sidebar.\n\n3. **Add a New Resource**: Click on the \"Create new\" button or \"Add\" button, and select \"Resource\" from the dropdown menu.\n\n4. **Select PostgreSQL**: In the list of resource types, choose \"PostgreSQL.\"\n\n5. **Configure the Connection**:\n   - **Resource Name**: Give your PostgreSQL connection a name that you can easily identify.\n   - **Host**: Enter the hostname or IP address of your PostgreSQL server.\n   - **Port**: Enter the port number your PostgreSQL server is using (default is 5432).\n   - **Database Name**: Specify the name of the database you want to connect to.\n   - **Username and Password**: Enter the credentials for a user that has access to the database.\n   - **SSL**: If your PostgreSQL server requires SSL, enable this option and provide the necessary SSL certificates if required.\n\n6. **Test the Connection**: After entering the details, use the \"Test Connection\" button to ensure that Retool can successfully connect to your PostgreSQL database.\n\n7. **Save the Resource**: If the connection test is successful, click \"Create resource\" or \"Save\" to finalize the setup.\n\nOnce connected, you can start using this PostgreSQL resource in your Retool applications to query data, build interfaces, and interact with your database.",
-  "cached_at": "2026-05-27T20:55:36Z",
-  "metadata": {}
-}

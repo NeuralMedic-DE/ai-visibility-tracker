@@ -1,9 +1,0 @@
-{
-  "brand": "Stonly",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Stonly integrate with Intercom?",
-  "response": "Yes. Stonly offers a **native integration with Intercom**, and you can also connect the two via Zapier.\n\nKey points:\n\n- Stonly has a built-in **Intercom integration** listed in its help center, allowing you to:\n  - **Launch Intercom Messenger from the Stonly widget**.[3][2]  \n  - **Use Stonly as a knowledge base inside Intercom**, so agents can see and use Stonly’s step‑by‑step guides directly in the Intercom workspace.[3][5]  \n  - Receive **Stonly session context as a private note in Intercom Messenger**, giving agents a URL showing what the user viewed in Stonly.[2]\n\n- Independently of the native app, you can also **integrate Stonly and Intercom through Zapier** to automate workflows (e.g., sync data, trigger actions between the two tools).[1]\n\nSo if you are using Intercom for support or messaging, you can embed Stonly guides, surface them to agents, and pass context between the two systems.",
-  "cached_at": "2026-05-28T08:23:24Z",
-  "metadata": {}
-}

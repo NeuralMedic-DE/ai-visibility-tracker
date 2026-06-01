@@ -1,9 +1,0 @@
-{
-  "brand": "Rho",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best finance for finance teams at venture-backed startups managing spend and AP?",
-  "response": "# Best Finance Tools for VC-Backed Startup Finance Teams\n\nFor spend management and AP specifically, here's what works best:\n\n## Top Integrated Solutions\n\n**Ramp** or **Brex**\n- Designed specifically for startups\n- Corporate cards + spend management + AP in one platform\n- Real-time visibility into spending\n- Good approval workflows and policy enforcement\n- Strong onboarding for early-stage teams\n\n**Divvy** (now part of Bill.com)\n- Similar all-in-one approach\n- Slightly more mid-market friendly as you scale\n\n## If You Want Best-of-Breed\n\n**For AP specifically:**\n- **Bill.com** - Strong AP automation, vendor management, good integrations\n- **Tipalti** - Better for multi-entity/international complexity\n\n**For spend management:**\n- **Divvy** or **Ramp** cards alone (before needing full AP platform)\n- **Navan** if travel/expense management is major cost center\n\n## Key Selection Criteria for Startups\n\n1. **Does it integrate with your accounting software?** (QBO, NetSuite, etc.)\n2. **Can you automate 3-way matching?** (PO → receipt → invoice)\n3. **Multi-currency/entity support?** (if planning to expand)\n4. **Ease of vendor onboarding** - critical for scaling\n5. **CFO/board reporting** built-in\n\n## Honest Take\n\nMost VC-backed startups start with **Ramp or Brex** for cards + basic spend visibility, then add **Bill.com** as AP complexity grows. It's less \"perfect\" than a single platform, but the flexibility wins out.\n\nWhat's your current setup?",
-  "cached_at": "2026-05-28T07:12:13Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Reply.io",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Reply.io integrate with Salesforce?",
-  "response": "# Reply.io and Salesforce Integration\n\nYes, **Reply.io does integrate with Salesforce**. The integration allows you to:\n\n- **Sync data** between Reply.io and Salesforce\n- **Log emails and activities** automatically to Salesforce records\n- **Create and update leads/contacts** from Reply.io campaigns\n- **Track engagement** within your Salesforce CRM\n\n## Key Features:\n- Two-way synchronization\n- Automatic activity logging\n- Lead and contact management\n- Campaign tracking and reporting\n\nFor the most current details on setup requirements and available features, I'd recommend checking Reply.io's documentation or contacting their support team, as integrations can be updated or modified over time.",
-  "cached_at": "2026-05-28T07:21:30Z",
-  "metadata": {}
-}

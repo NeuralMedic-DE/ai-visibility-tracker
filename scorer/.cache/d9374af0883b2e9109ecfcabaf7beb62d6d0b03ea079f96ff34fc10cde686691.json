@@ -1,9 +1,0 @@
-{
-  "brand": "Customer.io",
-  "prompt_id": "CM-01",
-  "llm": "anthropic",
-  "prompt_text": "Customer.io vs Braze: which is better?",
-  "response": "# Customer.io vs Braze: Key Differences\n\nNeither is universally \"better\"—it depends on your needs:\n\n## **Customer.io advantages**\n- **Simpler setup** - faster onboarding for smaller teams\n- **Lower cost** - generally cheaper at smaller scales\n- **Email-focused** - excellent for email automation\n- **Developer-friendly** - strong API and integration support\n- **Better for**: Early-stage startups, lean teams, email-heavy use cases\n\n## **Braze advantages**\n- **Enterprise-ready** - more robust for complex, large-scale operations\n- **Omnichannel** - stronger mobile push, SMS, web, and in-app messaging\n- **AI features** - better predictive analytics and optimization\n- **Advanced segmentation** - more sophisticated audience targeting\n- **Better for**: Large enterprises, mobile-first companies, multi-channel campaigns\n\n## **Quick comparison**\n\n| Factor | Customer.io | Braze |\n|--------|-------------|-------|\n| **Pricing** | Lower | Higher |\n| **Ease of use** | Easier | More complex |\n| **Scale** | Mid-market | Enterprise |\n| **Omnichannel** | Limited | Comprehensive |\n| **Learning curve** | Gentler | Steeper |\n\n## **Bottom line**\n- **Choose Customer.io** if you're smaller, budget-conscious, or email-focused\n- **Choose Braze** if you need sophisticated omnichannel, enterprise support, or heavy mobile usage\n\nWhat's your primary use case? That would help narrow it down.",
-  "cached_at": "2026-05-28T07:14:32Z",
-  "metadata": {}
-}

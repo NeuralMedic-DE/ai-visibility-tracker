@@ -1,9 +1,0 @@
-{
-  "brand": "Apify",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to Playwright",
-  "response": "# Cheaper Alternatives to Playwright\n\n## Free/Open-Source Options\n\n### **Puppeteer**\n- Free, Node.js library by Google\n- Good for Chrome/Chromium automation\n- Limited to single browser engine\n- Smaller community than Playwright\n\n### **Selenium**\n- Completely free, language-agnostic\n- Supports multiple browsers (Chrome, Firefox, Safari, Edge)\n- More mature but slower than Playwright\n- Larger community, abundant resources\n\n### **Cypress**\n- Free for open-source/local development\n- Excellent DX for testing\n- Limited to Chromium-based browsers\n- Better for end-to-end testing than web scraping\n\n### **jsdom / Cheerio**\n- Ultra-lightweight for Node.js\n- No browser overhead\n- Limited JavaScript execution\n- Great for static HTML parsing\n\n---\n\n## Budget-Friendly Paid Services\n\n| Service | Starting Price | Best For |\n|---------|-----------------|----------|\n| **BrowserStack** | $5-15/month | Cross-browser testing |\n| **LambdaTest** | $5/month | Cloud testing |\n| **Browserless.io** | $20/month | Headless browser APIs |\n| **ScraperAPI** | $29/month | Web scraping |\n\n---\n\n## Cost Comparison Tips\n\n1. **Self-host** Selenium/Puppeteer = lowest cost\n2. **Use Playwright free tier** for basic needs\n3. **Cloud services** = better for occasional/heavy usage\n4. **Evaluate actual usage** before choosing paid tiers\n\n**What's your specific use case?** That would help recommend the best option.",
-  "cached_at": "2026-05-28T07:59:00Z",
-  "metadata": {}
-}

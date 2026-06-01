@@ -1,9 +1,0 @@
-{
-  "brand": "Rippling",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with manage global workforce compliance and onboarding from one system at scale?",
-  "response": "# Global Workforce Compliance & Onboarding Platforms\n\nSeveral enterprise solutions excel at managing this at scale:\n\n## **Market Leaders**\n\n**Workday**\n- Integrated HCM with global compliance built-in\n- Handles multi-country payroll, tax, and labor laws\n- Strong onboarding workflows\n\n**SAP SuccessFactors**\n- Enterprise-grade global workforce management\n- Compliance automation across jurisdictions\n- Scalable to thousands of employees\n\n**ADP Workforce Now / GlobalView**\n- Multi-country payroll and compliance\n- Global onboarding templates\n- Strong in HR service delivery\n\n## **Specialized Platforms**\n\n**BambooHR** / **Guidepoint**\n- Mid-market friendly\n- Good for distributed teams\n- Onboarding + compliance focus\n\n**Rippling**\n- Modern, developer-friendly\n- Covers IT provisioning + HR + compliance\n- Growing global coverage\n\n**Remote / Deel**\n- Designed for distributed/global teams\n- Contractor + employee management\n- Compliance per country\n\n## **Selection Factors**\n\n- **Company size** (SMB vs Enterprise)\n- **Countries of operation** (coverage varies)\n- **Integration needs** (payroll, HRIS, IT systems)\n- **Budget** (ranges from $5K-$500K+ annually)\n\n**What's your scale and primary geography?** That would help narrow recommendations.",
-  "cached_at": "2026-05-28T06:27:48Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Totango",
-  "prompt_id": "CD-02",
-  "llm": "openai",
-  "prompt_text": "Top composable customer success platform for enterprise SaaS companies tools in 2025",
-  "response": "While I can't predict the future or provide information specifically about 2025, I can share some insights into current trends and leading platforms in the composable customer success space for enterprise SaaS companies. As of the latest information available, some of the top platforms include:\n\n1. **Gainsight**: Known for its robust customer success management capabilities, Gainsight offers a comprehensive suite of tools for customer health scoring, lifecycle management, and analytics.\n\n2. **ChurnZero**: This platform focuses on reducing churn and improving customer engagement through real-time customer health scores and automated workflows.\n\n3. **Totango**: Totango provides a modular approach to customer success, allowing companies to customize their customer success operations with various \"SuccessBLOCs\" tailored to specific business outcomes.\n\n4. **ClientSuccess**: This tool emphasizes simplicity and ease of use, offering features for managing customer relationships, tracking customer health, and automating workflows.\n\n5. **Planhat**: Planhat offers a flexible and customizable platform that integrates with various other tools, providing insights and automation to drive customer success.\n\n6. **Strikedeck**: Known for its automation capabilities, Strikedeck helps manage customer relationships and improve retention through data-driven insights.\n\nThese platforms are designed to be composable, meaning they can integrate with other tools and systems within an enterprise's tech stack, allowing for a tailored approach to customer success. As the industry evolves, new players may emerge, and existing platforms will likely continue to innovate to meet the changing needs of SaaS companies.",
-  "cached_at": "2026-05-28T08:14:12Z",
-  "metadata": {}
-}

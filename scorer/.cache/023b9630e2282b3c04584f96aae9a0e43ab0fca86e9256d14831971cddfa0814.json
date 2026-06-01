@@ -1,9 +1,0 @@
-{
-  "brand": "Grip Security",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Grip Security integrate with Okta?",
-  "response": "Yes, Grip Security integrates with Okta. This integration allows organizations to enhance their security posture by combining Grip Security's capabilities with Okta's identity and access management features. By integrating the two, you can gain better visibility and control over user access and application usage, helping to secure your organization's digital environment.",
-  "cached_at": "2026-05-28T08:41:22Z",
-  "metadata": {}
-}

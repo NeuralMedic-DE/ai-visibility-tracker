@@ -1,9 +1,0 @@
-{
-  "brand": "Attio",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Salesforce vs alternatives: what should I switch to?",
-  "response": "# Salesforce Alternatives: Key Considerations\n\nBefore switching, honestly assess whether the problem is Salesforce itself or implementation/usage:\n\n## If cost is the main issue:\n- **HubSpot** – simpler, cheaper for smaller teams; less powerful customization\n- **Pipedrive** – sales-focused, intuitive, ~40% cheaper\n- **Freshsales** – affordable with good AI features\n\n## If complexity/usability bothers you:\n- **Monday.com** – visual, flexible, easier learning curve\n- **Notion** – if you want lightweight CRM within a broader tool\n- **Zoho CRM** – feature-rich but less bloated than Salesforce\n\n## If you need deep customization:\n- **Microsoft Dynamics 365** – comparable power, different ecosystem\n- **Sugarcrm** – open-source option for technical teams\n\n## Real talk:\n- Switching has **hidden costs**: data migration, retraining, lost productivity, custom integrations\n- Salesforce's complexity often comes from trying to do *everything*—sometimes you're just using 20% of features\n- Consider whether a **different implementation** (better admin, cleaner config) might solve your issues first\n\n**Key questions to ask:**\n- What specifically frustrates you? (cost, UX, features you don't need, features you need that are missing?)\n- How dependent are your integrations on Salesforce?\n- What's your team size and technical sophistication?\n\nWhat's driving the switch consideration?",
-  "cached_at": "2026-05-27T17:54:30Z",
-  "metadata": {}
-}

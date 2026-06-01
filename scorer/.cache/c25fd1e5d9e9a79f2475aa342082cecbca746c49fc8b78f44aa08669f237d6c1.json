@@ -1,9 +1,0 @@
-{
-  "brand": "Rippling",
-  "prompt_id": "CM-02",
-  "llm": "anthropic",
-  "prompt_text": "Rippling vs BambooHR pricing and features",
-  "response": "# Rippling vs BambooHR: Pricing & Features Comparison\n\n## Pricing Structure\n\n| Aspect | Rippling | BambooHR |\n|--------|----------|----------|\n| **Model** | Per-employee/month | Per-employee/month |\n| **Base Cost** | $8-15/employee/month | $6-13/employee/month |\n| **Typical Range** | $100-500+/month | $99-500+/month |\n| **Modules** | All-in-one platform | Core + add-ons |\n| **Custom Pricing** | Yes (enterprise) | Yes (enterprise) |\n\n---\n\n## Core Features Comparison\n\n### **Rippling** (All-In-One Focus)\n✅ HRIS, Payroll, Benefits, IT Management  \n✅ Device management (laptops, phones)  \n✅ Integrated SSO & security  \n✅ Expense management  \n✅ More expensive for HRIS-only needs  \n✅ Better for tech-heavy companies\n\n### **BambooHR** (HRIS-Focused)\n✅ Core HR & talent management  \n✅ Applicant tracking (ATS)  \n✅ Performance management  \n✅ Time & attendance  \n✅ More affordable entry-level  \n✅ Better for smaller companies\n\n---\n\n## Key Differences\n\n| Feature | Rippling | BambooHR |\n|---------|----------|----------|\n| Payroll | Built-in | Integration only |\n| IT/Device Mgmt | Yes | No |\n| ATS | No | Yes |\n| Benefits Admin | Built-in | Integration only |\n| Ease of Setup | Moderate | Easy |\n| Best For | Mid-size + tech | Small-medium |\n\n---\n\n## Bottom Line\n\n- **Choose Rippling** if you want an integrated platform handling HR, IT, and payroll\n- **Choose BambooHR** if you need affordable, user-friendly HRIS with room to add tools\n\nWhat's your company size or primary need?",
-  "cached_at": "2026-05-28T06:27:29Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "RudderStack",
-  "prompt_id": "AL-02",
-  "llm": "openai",
-  "prompt_text": "Cheaper alternatives to mParticle",
-  "response": "If you're looking for alternatives to mParticle that might be more cost-effective, consider the following options:\n\n1. **Segment**: Segment is a popular customer data platform that offers a range of features similar to mParticle. It provides a free tier for small projects, which might be suitable depending on your needs.\n\n2. **RudderStack**: RudderStack is an open-source alternative to mParticle and Segment. It offers a free tier and is generally considered to be more cost-effective, especially for companies that can manage their own infrastructure.\n\n3. **Heap**: Heap offers a different approach by automatically capturing all user interactions. It can be a more affordable choice depending on your specific requirements and usage.\n\n4. **Mixpanel**: While primarily an analytics platform, Mixpanel offers some data integration capabilities that might suit your needs at a lower cost.\n\n5. **Amplitude**: Similar to Mixpanel, Amplitude focuses on product analytics but also provides integrations that might serve as a cheaper alternative for certain use cases.\n\n6. **Snowplow**: Snowplow is another open-source option that provides a high degree of customization and control, which can be more cost-effective for businesses that have the technical expertise to manage it.\n\n7. **Klaviyo**: If your focus is on e-commerce, Klaviyo offers customer data and marketing automation features that might be a good fit.\n\nWhen considering alternatives, it's important to evaluate the specific features you need, as well as the pricing structure, to ensure that the solution is both cost-effective and suitable for your business requirements.",
-  "cached_at": "2026-05-28T09:07:59Z",
-  "metadata": {}
-}

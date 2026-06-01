@@ -1,9 +1,0 @@
-{
-  "brand": "Prefect",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Prefect integrate with Python?",
-  "response": "# Yes, Prefect Integrates with Python\n\nPrefect is **built for Python** and integrates deeply with it:\n\n## Key Integration Points\n\n1. **Python-Native Framework**\n   - Written in Python\n   - All workflows are defined using Python code\n   - Use standard Python syntax and libraries\n\n2. **Decorators for Workflows**\n   ```python\n   from prefect import flow, task\n   \n   @task\n   def my_task():\n       return \"Hello\"\n   \n   @flow\n   def my_flow():\n       result = my_task()\n       return result\n   ```\n\n3. **Python Ecosystem Support**\n   - Works with popular libraries (pandas, numpy, requests, etc.)\n   - Compatible with Python virtual environments\n   - Supports async/await patterns\n\n4. **Dynamic Workflows**\n   - Create workflows programmatically\n   - Conditional logic, loops, and branching in Python\n   - Full access to Python's features\n\n5. **Task/Flow Definition**\n   - Simple decorators to convert functions into tasks and flows\n   - No special DSL required—just Python\n\n## Versions\nPrefect 2.x and 3.x are the current versions with excellent Python support.\n\n**In short**: If you work with Python, Prefect is designed to integrate seamlessly into your workflow automation needs.",
-  "cached_at": "2026-05-28T09:11:17Z",
-  "metadata": {}
-}

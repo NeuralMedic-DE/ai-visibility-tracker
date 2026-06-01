@@ -1,9 +1,0 @@
-{
-  "brand": "Helicone",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Helicone integrate with OpenAI?",
-  "response": "# Helicone and OpenAI Integration\n\nYes, **Helicone does integrate with OpenAI**. In fact, OpenAI is one of Helicone's primary supported platforms.\n\n## How it works:\n\n- **Drop-in replacement**: You can use Helicone as a proxy by changing your API endpoint from OpenAI's to Helicone's with minimal code changes\n- **API key forwarding**: You provide your OpenAI API key to Helicone, which then forwards requests to OpenAI\n- **Full observability**: Helicone logs and tracks all requests, responses, costs, latencies, and token usage\n\n## Basic setup example:\n\n```python\n# Instead of: https://api.openai.com/v1\n# Use: https://oai.helicone.ai/v1\n\nimport openai\nopenai.api_base = \"https://oai.helicone.ai/v1\"\nopenai.api_key = \"your-openai-key\"\n```\n\n## Benefits:\n\n- Monitor API usage and costs\n- Track performance metrics\n- Debug requests and responses\n- Analyze model behavior\n\nHelicone also integrates with other LLM providers like Anthropic, Azure OpenAI, and others, but OpenAI is definitely a core integration.",
-  "cached_at": "2026-05-28T07:49:52Z",
-  "metadata": {}
-}

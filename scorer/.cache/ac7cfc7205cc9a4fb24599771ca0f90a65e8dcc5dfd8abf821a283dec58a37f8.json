@@ -1,9 +1,0 @@
-{
-  "brand": "Intercom",
-  "prompt_id": "CM-02",
-  "llm": "anthropic",
-  "prompt_text": "Intercom vs Drift pricing and features",
-  "response": "# Intercom vs Drift: Pricing & Features\n\n## Pricing Overview\n\n| Aspect | Intercom | Drift |\n|--------|----------|-------|\n| **Starting Price** | $39/month | $500/month |\n| **Free Plan** | Yes (limited) | No |\n| **Best For** | Startups to mid-market | Growth-stage companies |\n\n## Feature Comparison\n\n### Intercom\n\n**Strengths:**\n- Live chat & messaging\n- AI chatbot (built-in)\n- Email campaigns\n- In-app messaging\n- Customer data platform\n- More affordable entry point\n\n**Weaknesses:**\n- Can get expensive at scale\n- Steeper learning curve\n- Limited video/call features\n\n### Drift\n\n**Strengths:**\n- Video & voice calls\n- Account-based marketing (ABM)\n- Conversational AI\n- Sales acceleration\n- Real-time visitor tracking\n- Better for B2B\n\n**Weaknesses:**\n- Higher starting cost\n- Fewer automation options\n- Less suitable for smaller teams\n\n## Quick Decision Guide\n\n**Choose Intercom if you:**\n- Need affordability\n- Want comprehensive customer engagement\n- Prefer DIY implementation\n- Need omnichannel messaging\n\n**Choose Drift if you:**\n- Focus on B2B/enterprise sales\n- Want video conferencing built-in\n- Need ABM capabilities\n- Have higher budget\n\n## Bottom Line\n**Intercom** = Better for startups and broad customer communication  \n**Drift** = Better for sales-driven, B2B companies\n\nWould you like details on specific features or pricing tiers?",
-  "cached_at": "2026-05-28T08:01:34Z",
-  "metadata": {}
-}

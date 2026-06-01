@@ -1,9 +1,0 @@
-{
-  "brand": "Zapier",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to n8n",
-  "response": "# Cheaper Alternatives to n8n\n\n## **Free/Open-Source Options**\n\n| Tool | Cost | Best For |\n|------|------|----------|\n| **Zapier Free** | Free (basic) | Simple workflows, popular apps |\n| **IFTTT** | Free (basic) | Simple if-this-then-that automation |\n| **Make (Integromat)** | Free tier available | Visual automation, good UI |\n| **Node-RED** | Free, self-hosted | Technical users, IoT workflows |\n| **Apache Airflow** | Free, self-hosted | Complex data pipelines |\n| **Huginn** | Free, self-hosted | Lightweight automation agent |\n\n## **Budget-Friendly Paid Options**\n\n| Tool | Starting Price | Notes |\n|------|-----------------|-------|\n| **Make** | ~$10/mo | More affordable than n8n |\n| **Zapier** | $20/mo | Industry standard, limited free tier |\n| **Integromat** | $9.99/mo | Budget-friendly automation |\n| **Parabola** | Custom pricing | More visual, enterprise-focused |\n| **Botsify** | Free-$99/mo | Simple workflow builder |\n\n## **Self-Hosted/Open-Source (Best Value)**\n\n- **n8n Self-Hosted** (Free) - Deploy n8n yourself to avoid licensing costs\n- **Mattermost Workflows** - Built-in automation, free\n- **Automatisch** - n8n alternative, open-source\n- **Activepieces** - Modern, lightweight, free tier\n\n## **Best Budget Strategy**\n\n1. **Start free** → IFTTT or Make free tier\n2. **Need more power** → Self-host n8n or use Automatisch\n3. **Team scaling** → Move to paid when necessary\n\n**What's your use case?** I can recommend the best fit.",
-  "cached_at": "2026-05-28T08:51:12Z",
-  "metadata": {}
-}

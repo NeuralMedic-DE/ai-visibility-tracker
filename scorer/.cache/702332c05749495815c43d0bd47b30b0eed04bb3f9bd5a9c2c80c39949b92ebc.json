@@ -1,9 +1,0 @@
-{
-  "brand": "Matillion",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Matillion integrate with Snowflake?",
-  "response": "# Yes, Matillion integrates with Snowflake\n\nMatillion has **native, built-in support** for Snowflake and can:\n\n## Key Integration Capabilities\n- **Extract data** from various sources into Snowflake\n- **Transform data** within Snowflake using Matillion's visual pipeline builder\n- **Load data** from Snowflake to other destinations\n- **Manage Snowflake objects** like tables, schemas, and databases\n\n## How It Works\n- Matillion provides **Snowflake-specific components** in its ETL/ELT interface\n- You can build data pipelines without writing SQL (though SQL is also supported)\n- Leverages Snowflake's cloud computing power for transformations\n- Uses Snowflake's native features like clustering and partitioning\n\n## Popular for\n- Cloud data warehouse automation\n- Reducing time-to-value for Snowflake implementations\n- Simplifying ELT (Extract, Load, Transform) workflows\n\nThis is one of Matillion's primary use cases, making it a popular choice for organizations using Snowflake for their data platform.",
-  "cached_at": "2026-05-28T09:01:00Z",
-  "metadata": {}
-}

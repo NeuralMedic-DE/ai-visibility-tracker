@@ -1,9 +1,0 @@
-{
-  "brand": "Vitally",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best customer success that works with Salesforce and HubSpot",
-  "response": "# Top Customer Success Platforms for Salesforce & HubSpot\n\n## **Best Overall Options**\n\n### **1. Gainsight**\n- **Strengths**: Purpose-built for customer success, deep CRM integrations\n- **Salesforce**: Native integration, Einstein CRM compatibility\n- **HubSpot**: Full sync available\n- **Best for**: Enterprise teams with complex CS needs\n\n### **2. Totango**\n- **Strengths**: AI-powered health scoring, strong analytics\n- **Integrations**: Native connectors for both platforms\n- **Best for**: Data-driven CS programs at scale\n\n### **3. Vitally**\n- **Strengths**: Modern UI, real-time collaboration\n- **Integrations**: Seamless Salesforce & HubSpot sync\n- **Best for**: Mid-market companies valuing ease of use\n\n## **Strong Alternatives**\n\n| Platform | Salesforce | HubSpot | Best For |\n|----------|-----------|---------|----------|\n| **Planhat** | ✅ Native | ✅ Native | Product-led growth |\n| **Compass** | ✅ Strong | ✅ Strong | Expansion revenue |\n| **Catalyst** | ✅ Yes | ✅ Yes | Smaller teams |\n| **ClientSuccess** | ✅ Yes | ✅ Yes | Retention-focused |\n\n## **Selection Tips**\n- **Check real-time sync capabilities** (not just one-way)\n- **Verify data field mapping** for your specific use case\n- **Test during trials** with your actual CRM setup\n- **Consider**: Team size, budget, and CS maturity level\n\nWhat's your team size and primary CS focus? That would help narrow recommendations.",
-  "cached_at": "2026-05-28T08:09:45Z",
-  "metadata": {}
-}

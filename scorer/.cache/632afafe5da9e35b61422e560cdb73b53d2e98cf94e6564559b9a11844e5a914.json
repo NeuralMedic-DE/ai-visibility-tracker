@@ -1,9 +1,0 @@
-{
-  "brand": "Front",
-  "prompt_id": "AL-05",
-  "llm": "openai",
-  "prompt_text": "Open source or affordable customer operations tools instead of Help Scout",
-  "response": "If you're looking for open-source or affordable alternatives to Help Scout for customer operations, there are several options you can consider:\n\n1. **Open Source Options:**\n   - **osTicket**: A widely used open-source support ticket system. It offers features like ticket filtering, customizable ticket views, and automated responses.\n   - **Zammad**: A web-based, open-source helpdesk and support ticket system with features such as chat, phone, and social media integration.\n   - **UVdesk**: An open-source helpdesk system that supports ticket management, knowledge base, and e-commerce integrations.\n\n2. **Affordable Options:**\n   - **Freshdesk**: Offers a free tier with basic features and affordable paid plans. It includes ticketing, collaboration tools, and automation.\n   - **Zoho Desk**: Provides a free plan for up to three agents, with features like ticket management, automation, and reporting.\n   - **LiveAgent**: Offers a free plan with limited features and affordable paid plans that include live chat, ticketing, and call center support.\n   - **Kayako**: Provides a simple and affordable helpdesk solution with features like live chat, shared inbox, and customer self-service.\n\nThese tools vary in terms of features and pricing, so it's a good idea to evaluate them based on your specific needs and budget.",
-  "cached_at": "2026-05-28T08:17:11Z",
-  "metadata": {}
-}

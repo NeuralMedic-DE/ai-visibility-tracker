@@ -1,9 +1,0 @@
-{
-  "brand": "Nutshell",
-  "prompt_id": "CM-01",
-  "llm": "perplexity",
-  "prompt_text": "Nutshell vs HubSpot: which is better?",
-  "response": "**Neither is universally better**: **HubSpot** is better for teams that need a broader all-in-one platform with stronger marketing automation, integrations, and scaling across sales/marketing/service, while **Nutshell** is better for teams that want a simpler, more affordable CRM focused on sales pipeline management and ease of use.[1][2][3][4]\n\n- **Choose HubSpot** if you need:\n  - **Advanced marketing automation** and complex workflows.[1][2]\n  - **Deep integrations** with other tools and a larger ecosystem.[1][3]\n  - A platform that can grow into a full sales + marketing + service stack.[1][3]\n\n- **Choose Nutshell** if you need:\n  - **Lower, more predictable pricing** with unlimited contacts/storage on paid plans.[1][2][4]\n  - **Simplicity and fast setup** for a small sales team.[2][3][5]\n  - Strong **pipeline management** and sales automation without extra platform complexity.[1][4]\n\nA practical rule: **HubSpot wins on power and breadth; Nutshell wins on simplicity and value**.[1][2][3][4] G2 also indicates HubSpot Sales Hub has stronger overall user satisfaction than Nutshell, but that does not automatically make it the better fit for smaller or budget-conscious teams.[6]\n\nIf you want, I can also give you a **best choice by company size** (solo, small business, mid-market, enterprise) or a **feature-by-feature comparison table**.",
-  "cached_at": "2026-05-27T18:35:46Z",
-  "metadata": {}
-}

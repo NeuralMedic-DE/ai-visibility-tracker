@@ -1,9 +1,0 @@
-{
-  "brand": "ChartMogul",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Baremetrics vs alternatives: what should I switch to?",
-  "response": "# Baremetrics Alternatives: Key Comparison\n\nWithout knowing your specific pain points, here's how major alternatives stack up:\n\n## **If you want simpler analytics:**\n- **Paddle** – Better for SaaS with complex pricing/subscriptions\n- **Stripe Billing** – Native if you're already on Stripe; limited reporting\n- **Chargebee** – Strong billing focus, good metrics dashboards\n\n## **If cost is the issue:**\n- **Plaid** – Cheaper data aggregation\n- **Native dashboard** in Stripe/Shopify – Free but basic\n- **Metabase** – Open-source, DIY analytics (requires setup)\n\n## **If you need better UX/usability:**\n- **Profitwell** (now Paddle Analytics) – Cleaner interface, free tier\n- **Chartmogul** – Excellent cohort analysis and retention metrics\n\n## **If you want all-in-one:**\n- **HubSpot** – CRM + analytics, pricier but unified\n- **Shopify** – Good if that's your platform\n\n## **Better questions to ask first:**\n- What's actually missing from Baremetrics for you?\n- Are you paying for features you don't use?\n- Do you need custom integrations?\n- Is it dashboard design, specific metrics, or pricing?\n\n**My take:** Most people who leave Baremetrics either go to their payment processor's native tools (simpler) or Chartmogul (better analytics). Rarely a complete waste – often just overkill for their needs.\n\nWhat's driving your switch?",
-  "cached_at": "2026-05-28T06:55:02Z",
-  "metadata": {}
-}

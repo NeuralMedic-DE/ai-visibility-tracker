@@ -1,9 +1,0 @@
-{
-  "brand": "Pipedrive",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best CRM for small and mid-size sales teams?",
-  "response": "# Top CRM Options for Small-to-Mid Sales Teams\n\nThe \"best\" depends on your priorities, but here are the strongest contenders:\n\n## **Hubspot CRM** (often the top pick)\n- Free tier with solid features\n- Excellent for teams scaling up\n- Great automation and reporting\n- Intuitive interface\n\n## **Pipedrive**\n- Sales-focused (not marketing-heavy)\n- Strong pipeline visualization\n- Affordable pricing\n- Good for deal-driven teams\n\n## **Salesforce Essentials**\n- Solid option if you want to grow into a larger platform\n- Better customization than competitors\n- Higher cost but more powerful\n\n## **Zoho CRM**\n- Very affordable\n- Flexible and customizable\n- Good integration options\n- Can feel complex to set up\n\n## **Monday Sales CRM**\n- Modern, clean interface\n- Good automation\n- Works well if you use Monday for other tools\n\n## Key Questions to Ask Yourself\n\n- **Budget**: Are you looking for free/cheap or willing to invest?\n- **Complexity**: Do you need basic features or heavy customization?\n- **Integrations**: What other tools must it connect with?\n- **Team size**: Will you grow significantly in 2-3 years?\n\n**For most SMBs starting out**: HubSpot or Pipedrive are solid starting points. Try their free trials first—user experience matters more than feature lists.\n\nWhat matters most to your team?",
-  "cached_at": "2026-05-27T17:47:22Z",
-  "metadata": {}
-}

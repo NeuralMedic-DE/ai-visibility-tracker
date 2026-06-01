@@ -1,9 +1,0 @@
-{
-  "brand": "Amplitude",
-  "prompt_id": "IN-04",
-  "llm": "openai",
-  "prompt_text": "Best product analytics that works with Segment and Salesforce",
-  "response": "When looking for a product analytics tool that integrates well with both Segment and Salesforce, you have several options. Here are some of the top choices:\n\n1. **Mixpanel**: Mixpanel is a popular product analytics tool that offers robust integration with Segment. It allows you to track user interactions and analyze user behavior effectively. Mixpanel also provides integration capabilities with Salesforce, enabling you to combine product analytics with CRM data.\n\n2. **Amplitude**: Amplitude is another leading product analytics platform known for its powerful features and ease of use. It integrates seamlessly with Segment, allowing you to import data easily. Amplitude also offers integration with Salesforce, helping you align product analytics with customer relationship management.\n\n3. **Heap**: Heap automatically captures all user interactions on your site or app, providing comprehensive analytics without the need for manual event tracking. It integrates well with Segment for data collection and can also be connected to Salesforce for enhanced customer insights.\n\n4. **Pendo**: Pendo is a product experience platform that provides analytics, user feedback, and in-app guidance. It integrates with Segment for data collection and can connect with Salesforce to sync customer data and insights.\n\n5. **Gainsight PX**: Gainsight PX offers product analytics, user engagement, and feedback tools. It integrates with Segment to gather data and with Salesforce to enhance customer data and insights.\n\nEach of these tools has its own strengths, so the best choice depends on your specific needs, such as the depth of analytics required, ease of integration, and budget.",
-  "cached_at": "2026-05-27T19:24:37Z",
-  "metadata": {}
-}

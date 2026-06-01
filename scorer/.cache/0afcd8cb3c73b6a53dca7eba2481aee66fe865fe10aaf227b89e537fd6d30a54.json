@@ -1,9 +1,0 @@
-{
-  "brand": "Rippling",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which HR software should a VP HR or Chief People Officer at a scaling company use?",
-  "response": "# HR Software for VP/CPO at Scaling Companies\n\nThe best choice depends on your specific priorities, but here's a practical framework:\n\n## **Top Tier Options**\n\n**Workday** (if budget allows)\n- Most comprehensive for growing companies\n- Strong financials integration, analytics, compliance\n- Best for companies planning significant future scale\n- Downside: expensive, implementation-heavy\n\n**BambooHR or Paychex Flex**\n- Sweet spot for mid-market (100-1000 employees)\n- Good balance of features and usability\n- Faster implementation than Workday\n- Better value proposition\n\n## **Key Selection Criteria**\n\n1. **Your biggest pain point**\n   - Payroll chaos? → Guidepoint, Rippling\n   - Talent/performance management? → Lattice, 15Five\n   - Compliance complexity? → Workday, ADP\n   - Culture/engagement? → Culture Amp, Officevibe\n\n2. **Company size trajectory**\n   - Currently 50-150: BambooHR, Rippling\n   - Currently 150-500: Workday, Guidepoint\n   - Hypergrowth (50 to 500 in 3 years): Rippling, Workday\n\n3. **Integration needs**\n   - If Finance/Legal deeply involved: Workday\n   - Otherwise: most modern platforms integrate adequately\n\n## **Honest Take**\n\nMost scaling companies do best with **point solutions + strong integration** rather than trying to be an all-in-one. Many successful CPOs use BambooHR for HRIS + Lattice for performance + Guidepoint for talent marketplace.\n\nWhat's your biggest current HR headache?",
-  "cached_at": "2026-05-28T06:27:22Z",
-  "metadata": {}
-}

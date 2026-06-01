@@ -1,9 +1,0 @@
-{
-  "brand": "Checkly",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Checkly integrate with GitHub?",
-  "response": "Yes, Checkly integrates with GitHub. This integration allows you to manage your Checkly checks and configurations using your GitHub repositories. By connecting Checkly with GitHub, you can automate workflows, track changes, and collaborate more effectively with your team. This integration is particularly useful for maintaining version control and deploying updates to your monitoring configurations directly from your GitHub repository.",
-  "cached_at": "2026-05-28T06:23:05Z",
-  "metadata": {}
-}

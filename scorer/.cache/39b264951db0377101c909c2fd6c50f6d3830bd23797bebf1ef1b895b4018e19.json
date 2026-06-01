@@ -1,9 +1,0 @@
-{
-  "brand": "Mosaic",
-  "prompt_id": "IN-02",
-  "llm": "anthropic",
-  "prompt_text": "Mosaic Salesforce integration: how does it work?",
-  "response": "# Mosaic Salesforce Integration Overview\n\n## Core Functionality\n\n**Mosaic** (a data platform/BI tool) integrates with Salesforce to enable:\n\n- **Direct data access** to Salesforce objects (Accounts, Contacts, Opportunities, etc.)\n- **Real-time or scheduled syncing** of Salesforce data\n- **Unified analytics** combining Salesforce with other data sources\n- **Dashboard creation** without leaving the platform\n\n## How It Works\n\n### 1. **Authentication**\n- OAuth 2.0 connection through Salesforce API\n- Credentials securely stored in Mosaic\n\n### 2. **Data Ingestion**\n- Pulls data via Salesforce REST/SOAP APIs\n- Can be incremental (changes only) or full refresh\n- Typically scheduled daily or on-demand\n\n### 3. **Data Transformation**\n- Creates queryable tables from Salesforce objects\n- Joins with other data sources\n- Cleans and standardizes data\n\n### 4. **Analytics & Visualization**\n- Build dashboards and reports\n- Create custom metrics (pipeline analysis, forecast accuracy, etc.)\n- Share insights across teams\n\n## Common Use Cases\n\n| Use Case | Benefit |\n|----------|---------|\n| Sales pipeline tracking | Real-time visibility across deals |\n| Revenue forecasting | Combine CRM data with historical trends |\n| Sales performance | Rep/team analytics across systems |\n| Customer analytics | 360° customer view with product/usage data |\n\n## Key Setup Steps\n\n1. Authorize Mosaic in Salesforce\n2. Select objects to sync\n3. Configure refresh schedule\n4. Map fields and create datasets\n5. Build visualizations\n\nWould you like details on setup, specific use cases, or troubleshooting?",
-  "cached_at": "2026-05-28T07:10:27Z",
-  "metadata": {}
-}

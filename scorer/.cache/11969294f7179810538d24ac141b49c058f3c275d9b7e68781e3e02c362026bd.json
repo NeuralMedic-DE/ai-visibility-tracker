@@ -1,9 +1,0 @@
-{
-  "brand": "Pipedrive",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with track deals and forecast revenue at scale?",
-  "response": "To track deals and forecast revenue at scale, businesses often use Customer Relationship Management (CRM) software. Some popular CRM platforms that offer these capabilities include:\n\n1. **Salesforce**: Known for its robust features, Salesforce offers extensive tools for managing sales pipelines, tracking deals, and forecasting revenue. It can be customized to fit various business needs and scales well for large enterprises.\n\n2. **HubSpot**: HubSpot CRM provides tools for tracking deals and forecasting revenue with an easy-to-use interface. It integrates well with other HubSpot marketing and service tools.\n\n3. **Microsoft Dynamics 365**: This CRM solution offers comprehensive sales management tools, including deal tracking and revenue forecasting, and integrates seamlessly with other Microsoft products.\n\n4. **Zoho CRM**: Zoho offers a scalable CRM solution with features for deal management and revenue forecasting, suitable for businesses of all sizes.\n\n5. **Pipedrive**: Known for its user-friendly interface, Pipedrive focuses on sales pipeline management and provides forecasting tools to help predict revenue.\n\n6. **SugarCRM**: This platform offers customizable CRM solutions with strong capabilities for tracking deals and forecasting revenue.\n\n7. **Freshsales**: Part of the Freshworks suite, Freshsales provides tools for managing sales pipelines and forecasting revenue, with an emphasis on ease of use.\n\nThese platforms typically offer various integrations and analytics tools to help businesses manage their sales processes more effectively and make data-driven decisions.",
-  "cached_at": "2026-05-27T17:12:56Z",
-  "metadata": {}
-}

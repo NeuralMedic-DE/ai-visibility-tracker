@@ -1,9 +1,0 @@
-{
-  "brand": "Close",
-  "prompt_id": "IN-05",
-  "llm": "openai",
-  "prompt_text": "CRM tools with native Slack integration",
-  "response": "There are several CRM tools that offer native Slack integration, allowing teams to streamline communication and manage customer relationships more effectively. Here are some popular CRM tools with native Slack integration:\n\n1. **Salesforce**: Salesforce offers a robust integration with Slack, enabling users to receive notifications, update records, and collaborate on deals directly within Slack channels.\n\n2. **HubSpot**: HubSpot's Slack integration allows users to receive notifications about new leads, track deals, and manage tasks without leaving Slack.\n\n3. **Zoho CRM**: Zoho CRM integrates with Slack to provide real-time updates on leads, deals, and other CRM activities. Users can also create and update records directly from Slack.\n\n4. **Pipedrive**: Pipedrive's Slack integration helps sales teams stay updated on deal progress and receive notifications about important activities and milestones.\n\n5. **Copper**: Copper, which is designed to work seamlessly with Google Workspace, offers Slack integration to keep teams informed about CRM updates and facilitate communication.\n\n6. **Freshsales**: Freshsales integrates with Slack to provide notifications about leads, contacts, and deals, helping teams stay on top of their sales activities.\n\n7. **Insightly**: Insightly's Slack integration allows users to receive updates on projects, tasks, and CRM records, ensuring that teams are always informed.\n\nThese integrations typically allow for notifications, updates, and sometimes the ability to perform certain CRM actions directly from Slack, enhancing productivity and collaboration.",
-  "cached_at": "2026-05-27T17:33:08Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Drip",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Drip integrate with Shopify?",
-  "response": "# Drip and Shopify Integration\n\nYes, **Drip does integrate with Shopify**. The integration allows you to:\n\n- **Sync customer data** between Shopify and Drip\n- **Track purchases** and ecommerce events\n- **Create automated workflows** based on shopping behavior (abandoned carts, purchases, etc.)\n- **Segment customers** by purchase history or other behaviors\n- **Send targeted emails** to customers based on their shopping activity\n\n## How to Set It Up\n\nThe integration is typically available through:\n1. Drip's app marketplace\n2. Shopify's app store\n3. Direct connection via API\n\nFor the most current details on setup and features, I'd recommend checking:\n- **Drip's official documentation** or support\n- **Shopify's app store listing** for Drip\n\nIs there a specific aspect of the integration you're interested in?",
-  "cached_at": "2026-05-28T07:33:09Z",
-  "metadata": {}
-}

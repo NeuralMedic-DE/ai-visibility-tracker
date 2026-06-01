@@ -1,9 +1,0 @@
-{
-  "brand": "Prefect",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Prefect integrate with Python?",
-  "response": "Yes, Prefect integrates seamlessly with Python. Prefect is a workflow orchestration tool that is designed to work well with Python, allowing you to define, schedule, and monitor workflows using Python code. You can create tasks and flows using Python functions and leverage Prefect's features to manage dependencies, retries, logging, and more. This integration makes it easy for Python developers to incorporate Prefect into their data engineering and automation workflows.",
-  "cached_at": "2026-05-28T09:11:13Z",
-  "metadata": {}
-}

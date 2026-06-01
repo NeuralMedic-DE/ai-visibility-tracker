@@ -1,9 +1,0 @@
-{
-  "brand": "Baremetrics",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which SaaS analytics software should a Early-stage SaaS Founder or solo developer use?",
-  "response": "# Best SaaS Analytics for Early-Stage Founders\n\n## Top Picks by Priority\n\n**For Product Analytics (user behavior):**\n- **Mixpanel** - Excellent event tracking, affordable starter tier\n- **Amplitude** - Free tier is generous, good for understanding user journeys\n- **Plausible** - Privacy-focused, simpler than Google Analytics\n\n**For Business Metrics (revenue/growth):**\n- **Baremetrics** - Purpose-built for SaaS, integrates with payment processors\n- **ProfitWell** - Free tier covers essentials, acquired by Paddle\n\n**For Simple Website/Traffic:**\n- **Google Analytics 4** - Free, overkill for some but comprehensive\n- **Fathom** - Privacy-first, simpler UX, affordable\n\n## My Recommendation for Solo Founders\n\n**Start with a 2-tier approach:**\n\n1. **Plausible or GA4** (~$10-30/mo or free)\n   - Website traffic and basic user flow\n\n2. **Baremetrics** (free or ~$25/mo)\n   - MRR, churn, LTV tracking connected to your payment processor\n\nThis covers your critical metrics without overwhelming you.\n\n## Reality Check\n- Don't overthink this early on—**one tool is enough initially**\n- Track: Users → Signups → Paying Customers → Churn\n- Add complexity only when you have product-market fit\n- Many tools offer free tiers; try before committing\n\n**What's your primary pain point?** Revenue tracking, user behavior, or general metrics? That'll help narrow it further.",
-  "cached_at": "2026-05-28T06:57:18Z",
-  "metadata": {}
-}

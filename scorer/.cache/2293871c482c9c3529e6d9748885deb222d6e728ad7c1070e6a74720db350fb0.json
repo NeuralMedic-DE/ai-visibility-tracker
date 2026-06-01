@@ -1,9 +1,0 @@
-{
-  "brand": "Nutshell",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I manage leads and track pipeline progress without spending a lot on software?",
-  "response": "# Low-Cost Lead Management Options\n\n## Free/Cheap Tools\n\n**Spreadsheets (Google Sheets)**\n- Works for small pipelines (<50 active leads)\n- Add basic tracking: contact info, stage, follow-up date, value\n- Use conditional formatting to flag overdue items\n- Shareable if you have a team\n\n**Simple CRM platforms**\n- Airtable (free tier is generous)\n- HubSpot CRM (truly free, no catch)\n- Pipedrive (14-day free trial, reasonable paid tier)\n- Zoho CRM (freemium with limits)\n\n**Built into what you likely have**\n- Gmail/Outlook contacts + calendar reminders\n- Notion (if you're already using it)\n\n## What Actually Matters\n\nTracking these fields for each lead:\n- Contact details\n- Where they are in your process\n- Next action + date\n- Deal value (if applicable)\n- Last contact date\n\n**The habit matters more than the tool.** Most people abandon fancy software but consistently use spreadsheets they built themselves.\n\n## My Take\n\nStart with Google Sheets for <20 leads. Graduate to Airtable or HubSpot CRM once spreadsheets feel slow. You probably don't need to pay until you have a real team or 100+ active leads.\n\nWhat's your current process, and how many leads are we talking about?",
-  "cached_at": "2026-05-27T18:33:56Z",
-  "metadata": {}
-}

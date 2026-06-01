@@ -1,9 +1,0 @@
-{
-  "brand": "Userlist",
-  "prompt_id": "IN-02",
-  "llm": "openai",
-  "prompt_text": "Userlist Segment integration: how does it work?",
-  "response": "Userlist's integration with Segment allows you to seamlessly sync user data between the two platforms. Here's how it typically works:\n\n1. **Setup**: First, you need to have accounts with both Userlist and Segment. In Segment, you set up Userlist as a destination for your data.\n\n2. **Data Collection**: Segment collects data from your applications or websites. This data can include user events, traits, and other relevant information.\n\n3. **Data Transformation**: Segment processes and formats this data into a standardized structure that can be easily consumed by Userlist.\n\n4. **Data Sync**: Once Userlist is set up as a destination in Segment, the data is automatically sent from Segment to Userlist. This includes user profiles, events, and any other relevant data points.\n\n5. **Userlist Utilization**: In Userlist, you can use this data to create user segments, automate messaging, and analyze user behavior. This helps in personalizing communication and improving user engagement.\n\n6. **Real-time Updates**: The integration ensures that data is updated in real-time or near real-time, allowing you to act on the most current user information.\n\nBy integrating Userlist with Segment, you streamline your data flow, reduce manual data entry, and enhance your ability to engage with users based on their behavior and attributes.",
-  "cached_at": "2026-05-28T07:30:52Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Render",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is Render better than Railway for run background workers and cron jobs reliably in production?",
-  "response": "# Render vs Railway for Background Workers & Cron Jobs\n\nNeither has a clear advantage—it depends on your priorities:\n\n## **Render**\n**Strengths:**\n- More mature/stable platform (longer track record)\n- Better cron job UI and visibility\n- Explicit background worker tier (separate from web services)\n- More detailed logging/monitoring built-in\n\n**Weaknesses:**\n- Pricier (background workers start at $7-12/month)\n- Less flexible deployment options\n- Smaller community\n\n## **Railway**\n**Strengths:**\n- Better pricing ($5 minimum, more flexible)\n- Simpler deployment (just push to Git)\n- Good for testing/side projects\n- More generous free tier historically\n\n**Weaknesses:**\n- Less mature platform (more outages reported)\n- Cron jobs handled via code (APScheduler, node-cron, etc.) rather than platform features\n- Less built-in observability\n- Smaller team = slower support\n\n## **Reality Check**\n\nFor **production reliability**, both are adequate for small-to-medium workloads, but:\n\n- **Render** feels more \"enterprise-ready\" for mission-critical jobs\n- **Railway** is fine if you're okay managing more yourself and want lower costs\n\n**Better alternatives if reliability is critical:**\n- AWS (SQS + Lambda or EC2)\n- Fly.io (similar pricing to Railway, slightly more stable)\n- Heroku (pricier, but battle-tested)\n\nWhat's your expected job volume and failure tolerance?",
-  "cached_at": "2026-05-27T21:36:55Z",
-  "metadata": {}
-}

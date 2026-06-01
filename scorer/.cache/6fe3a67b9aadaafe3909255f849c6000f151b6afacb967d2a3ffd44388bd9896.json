@@ -1,9 +1,0 @@
-{
-  "brand": "Pilot",
-  "prompt_id": "CM-04",
-  "llm": "anthropic",
-  "prompt_text": "Compare Pilot and Bench for get accurate books and financial statements managed by real accountants",
-  "response": "# Pilot vs. Bench: Accounting Software Comparison\n\n## **Pilot**\n\n### Strengths\n- **True accounting oversight**: Each client paired with a dedicated CPA/bookkeeper\n- **Financial statements**: Monthly P&L and balance sheets included\n- **Tax prep**: Accountants prepare tax returns or provide detailed data\n- **Hands-off**: You submit receipts; they handle bookkeeping\n- **Better for growth**: Scales with your business complexity\n\n### Weaknesses\n- **Higher cost**: $500–$2,500+ monthly depending on complexity\n- **Less real-time**: Monthly reporting vs. continuous access\n- **Longer setup**: Takes time to onboard accountants\n\n---\n\n## **Bench**\n\n### Strengths\n- **Lower cost**: $125–$595/month (more budget-friendly)\n- **Real-time access**: Cloud-based platform with live updates\n- **Hybrid approach**: Software + bookkeeper support (not full CPA)\n- **Good for startups**: Affordable while maintaining accuracy\n- **Self-service option**: Access platform anytime\n\n### Weaknesses\n- **Limited tax support**: Doesn't include tax preparation\n- **Not full accounting**: Bookkeeping-focused, not CPA-level\n- **Less personalization**: More standardized service\n\n---\n\n## **Quick Decision Guide**\n\n| Need | Best Choice |\n|------|-------------|\n| **Full accounting + tax prep** | **Pilot** |\n| **Budget-conscious bookkeeping** | **Bench** |\n| **Real-time platform access** | **Bench** |\n| **Hands-off, expert oversight** | **Pilot** |\n| **Startup/small business** | **Bench** |\n| **Complex financials** | **Pilot** |\n\nBoth ensure real accountants handle your books—the difference is depth and involvement level.",
-  "cached_at": "2026-05-28T07:02:28Z",
-  "metadata": {}
-}

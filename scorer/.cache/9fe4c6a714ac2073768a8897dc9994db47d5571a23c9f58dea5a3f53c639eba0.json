@@ -1,9 +1,0 @@
-{
-  "brand": "Customer.io",
-  "prompt_id": "IN-03",
-  "llm": "openai",
-  "prompt_text": "How do I connect Customer.io with Segment?",
-  "response": "To connect Customer.io with Segment, you'll need to follow these steps:\n\n1. **Log in to Segment:**\n   - Go to your Segment account and log in.\n\n2. **Navigate to Destinations:**\n   - In the Segment dashboard, click on the \"Destinations\" tab.\n\n3. **Add a New Destination:**\n   - Click on \"Add Destination\" and search for \"Customer.io\" in the search bar.\n\n4. **Select Customer.io:**\n   - Click on the Customer.io tile to start the integration process.\n\n5. **Configure the Destination:**\n   - You will be prompted to enter your Customer.io Site ID and API Key. You can find these in your Customer.io account under \"Settings\" > \"API Credentials.\"\n\n6. **Complete the Setup:**\n   - After entering the necessary credentials, follow any additional prompts to complete the setup. This might include specifying which data you want to send to Customer.io.\n\n7. **Test the Integration:**\n   - Once set up, it's a good idea to test the integration to ensure that data is being sent correctly from Segment to Customer.io.\n\n8. **Monitor and Adjust:**\n   - Monitor the data flow and make any necessary adjustments in Segment or Customer.io to ensure the integration meets your needs.\n\nBy following these steps, you should be able to successfully connect Customer.io with Segment, allowing you to send data between the two platforms efficiently.",
-  "cached_at": "2026-05-28T07:14:55Z",
-  "metadata": {}
-}

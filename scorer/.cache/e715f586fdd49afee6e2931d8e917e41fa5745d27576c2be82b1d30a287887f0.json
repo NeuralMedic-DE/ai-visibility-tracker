@@ -1,9 +1,0 @@
-{
-  "brand": "Userlist",
-  "prompt_id": "IN-03",
-  "llm": "openai",
-  "prompt_text": "How do I connect Userlist with Stripe?",
-  "response": "To connect Userlist with Stripe, you'll need to follow these general steps:\n\n1. **Sign in to Userlist**: Log in to your Userlist account.\n\n2. **Access Integrations**: Navigate to the integrations section in Userlist. This is usually found in the settings or a dedicated integrations tab.\n\n3. **Select Stripe**: Look for Stripe in the list of available integrations and select it.\n\n4. **Authenticate with Stripe**: You will be prompted to authenticate your Stripe account. This typically involves logging into your Stripe account and granting Userlist permission to access your Stripe data.\n\n5. **Configure the Integration**: Once authenticated, you may need to configure specific settings for the integration. This could include selecting which Stripe events you want to track in Userlist, such as customer creation, subscription updates, or payment failures.\n\n6. **Test the Integration**: After setting up, it's a good idea to test the integration to ensure that data is being correctly sent from Stripe to Userlist. You can do this by performing a test transaction in Stripe and checking if the corresponding data appears in Userlist.\n\n7. **Review and Save**: Once everything is set up and tested, save your integration settings.\n\nFor detailed instructions, it's always a good idea to refer to the official documentation provided by Userlist, as they will have the most up-to-date and specific guidance for their platform. If you encounter any issues, Userlist's support team can also be a helpful resource.",
-  "cached_at": "2026-05-28T07:30:55Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Stonly",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I create interactive step-by-step guides that walk users through complex workflows without spending a lot on software?",
-  "response": "# Low-Cost Interactive Guide Options\n\n## Free or Cheap Tools\n\n**Screen recording + annotations**\n- Loom (free tier: 25 min/month)\n- OBS Studio (completely free, steeper learning curve)\n- ScreenFlow or Camtasia (one-time purchase, ~$100)\n- Captures video + lets you add clickable hotspots or text overlays\n\n**Slide-based approaches**\n- Google Slides or Canva (free)\n- Add numbered steps, screenshots, and simple animations\n- Works well for workflows that don't need interactivity\n\n**Lightweight interactive tools**\n- Descript (free tier available) - embeds transcripts and chapters\n- Notion (free) - create collapsible step-by-step pages\n- Typeform or Google Forms (free) - branch logic guides users down different paths\n\n## DIY Hybrid Approach\n\n1. **Screenshot + simple markup** (Snagit free trial, or built-in tools)\n2. **Paste into Google Docs/Slides**\n3. **Add numbered callouts and brief explanations**\n4. **Link sections together** with bookmarks for navigation\n\n## What Actually Works\n\nThe format matters less than clarity. Users often prefer:\n- Short videos (2-3 min max) over long documentation\n- Clear before/after screenshots\n- One decision point per step\n\nWhat type of workflow are you documenting? That'd help narrow down what's overkill vs. sufficient.",
-  "cached_at": "2026-05-28T08:22:00Z",
-  "metadata": {}
-}

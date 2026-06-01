@@ -1,9 +1,0 @@
-{
-  "brand": "Planetscale",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Planetscale with GitHub?",
-  "response": "# Connecting PlanetScale with GitHub\n\nHere are the main ways to integrate PlanetScale with GitHub:\n\n## 1. **GitHub Actions Integration** (Most Common)\n\n### Using PlanetScale CLI\n```bash\n# Install PlanetScale CLI\nbrew install planetscale/tap/pscale\n\n# Login to PlanetScale\npscale auth login\n\n# Create a service token\npscale service-token create\n```\n\n### Add to GitHub Secrets\n1. Go to your GitHub repo → **Settings** → **Secrets and variables** → **Actions**\n2. Add these secrets:\n   - `PLANETSCALE_TOKEN` - your service token\n   - `PLANETSCALE_TOKEN_ID` - your token ID\n\n### Example GitHub Actions Workflow\n```yaml\nname: Deploy with PlanetScale\n\non: [push]\n\njobs:\n  deploy:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v3\n      \n      - name: Run migrations\n        env:\n          PLANETSCALE_TOKEN: ${{ secrets.PLANETSCALE_TOKEN }}\n          PLANETSCALE_TOKEN_ID: ${{ secrets.PLANETSCALE_TOKEN_ID }}\n        run: |\n          npm install -g planetscale/pscale\n          pscale deploy-request create mydb --token=$PLANETSCALE_TOKEN\n```\n\n## 2. **Connect via PlanetScale Dashboard**\n\n1. Go to **PlanetScale Dashboard**\n2. Select your database\n3. Go to **Settings** → **Integrations**\n4. Click **Connect to GitHub**\n5. Authorize the PlanetScale app\n\n## 3. **Environment Variables**\n\nAdd your PlanetScale connection string to GitHub:\n```yaml\nDATABASE_URL: ${{ secrets.DATABASE_URL }}\n```\n\n---\n\n**Which approach are you trying to set up?** That will help me provide more specific guidance!",
-  "cached_at": "2026-05-28T06:15:52Z",
-  "metadata": {}
-}

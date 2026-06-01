@@ -1,9 +1,0 @@
-{
-  "brand": "Lattice",
-  "prompt_id": "IN-02",
-  "llm": "anthropic",
-  "prompt_text": "Lattice Google Workspace integration: how does it work?",
-  "response": "# Lattice Google Workspace Integration\n\n## Overview\nLattice (now part of Lattice.com's people platform) integrates with Google Workspace to streamline HR workflows and data synchronization.\n\n## Key Features\n\n### **Directory & User Management**\n- **Single Sign-On (SSO)** via Google accounts\n- Automatic user provisioning/deprovisioning\n- Syncs employee data from Google Directory\n- Reduces manual data entry\n\n### **Calendar Integration**\n- Books meetings for 1:1s, reviews, and feedback sessions\n- Syncs with Google Calendar automatically\n- Reduces scheduling conflicts\n- Sends calendar invites to participants\n\n### **Email Integration**\n- Gmail integration for notifications and alerts\n- Sends performance review reminders\n- Delivers feedback prompts and survey invitations\n- Enables email-based actions in some workflows\n\n### **Data Synchronization**\n- Pulls organization structure from Google Directory\n- Updates employee information (departments, managers, titles)\n- Maintains data accuracy across platforms\n- Bi-directional syncing capabilities\n\n## Setup Process\n\n1. **Enable integration** in Lattice admin settings\n2. **Authorize** Google Workspace account\n3. **Configure** which data to sync\n4. **Map** Google Directory fields to Lattice\n5. **Test** and activate integration\n\n## Common Use Cases\n\n- Automating performance review cycles\n- Scheduling 1:1 meetings\n- Syncing organizational changes\n- Sending timely notifications\n- Managing feedback workflows\n\n## Benefits\n✓ Reduced manual work  \n✓ Better data consistency  \n✓ Improved user adoption  \n✓ Seamless workflow experience\n\nWould you like details on a specific aspect?",
-  "cached_at": "2026-05-28T06:30:18Z",
-  "metadata": {}
-}

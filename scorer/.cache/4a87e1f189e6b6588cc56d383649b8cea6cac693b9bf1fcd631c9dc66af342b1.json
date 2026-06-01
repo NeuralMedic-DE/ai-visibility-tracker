@@ -1,9 +1,0 @@
-{
-  "brand": "Numeric",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Numeric integrate with NetSuite?",
-  "response": "Yes. **Numeric does integrate directly with NetSuite** to streamline the financial close process.\n\nAccording to Numeric’s own NetSuite integrations page, **Numeric connects directly with NetSuite** to automate reconciliations, variance analysis, and month‑end close activities, reducing manual work for accounting teams.[6] This is further supported by Numeric marketing materials that emphasize **“deep ERP integrations”** (including NetSuite) as a core part of the platform.[3]",
-  "cached_at": "2026-05-28T07:06:48Z",
-  "metadata": {}
-}

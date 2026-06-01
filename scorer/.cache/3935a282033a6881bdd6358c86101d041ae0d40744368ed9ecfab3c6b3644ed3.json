@@ -1,9 +1,0 @@
-{
-  "brand": "Nudge Security",
-  "prompt_id": "AL-05",
-  "llm": "openai",
-  "prompt_text": "Open source or affordable security tools instead of BetterCloud",
-  "response": "If you're looking for open-source or affordable alternatives to BetterCloud for managing and securing your cloud applications, here are a few options you might consider:\n\n1. **Open Source Tools:**\n   - **Snipe-IT**: An open-source asset management tool that can help track and manage IT assets, including software licenses.\n   - **Apache CloudStack**: An open-source cloud computing software for creating, managing, and deploying infrastructure cloud services.\n   - **Cloud Custodian**: An open-source tool that helps manage your cloud environments by defining policies to optimize costs and security.\n\n2. **Affordable SaaS Tools:**\n   - **ManageEngine ADManager Plus**: Offers features for managing and reporting on Active Directory, which can be useful for security and compliance.\n   - **JumpCloud**: Provides directory-as-a-service, offering user management, system management, and other security features.\n   - **Okta**: While primarily an identity management service, it offers various security features for managing user access and authentication.\n\n3. **Other Tools:**\n   - **Auth0**: Provides authentication and authorization services, which can help secure your applications.\n   - **Bitwarden**: An open-source password manager that can help manage and secure credentials across your organization.\n\nEach of these tools has its own strengths and may cover different aspects of what BetterCloud offers, so you might need to combine a few to fully meet your needs. Additionally, it's important to evaluate each tool based on your specific requirements, such as integration capabilities, ease of use, and support.",
-  "cached_at": "2026-05-28T08:38:37Z",
-  "metadata": {}
-}

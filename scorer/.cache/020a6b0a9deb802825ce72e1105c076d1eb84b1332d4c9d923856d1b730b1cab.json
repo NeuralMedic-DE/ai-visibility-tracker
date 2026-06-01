@@ -1,9 +1,0 @@
-{
-  "brand": "Grip Security",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to Obsidian",
-  "response": "# Cheaper Alternatives to Obsidian\n\n## Free Options\n\n**Notion**\n- All-in-one workspace (notes, databases, wikis)\n- Excellent linking and organization\n- Free tier is quite generous\n- Steeper learning curve\n\n**Logseq**\n- Open-source, privacy-focused\n- Outliner-based with backlinks\n- Free forever\n- Similar to Obsidian's philosophy\n\n**Joplin**\n- Open-source note app\n- Supports markdown\n- Free with optional sync\n- Good for local storage\n\n**Dendron**\n- Free VS Code extension\n- Strong hierarchical organization\n- Built on open standards\n- Better for developers\n\n## Freemium/Cheap Options\n\n**Roam Research**\n- $15/month (similar to Obsidian's sync cost)\n- Cloud-based with powerful linking\n- Better for research/knowledge work\n\n**Foam** (free)\n- VS Code extension\n- Markdown-based linking\n- Lightweight alternative\n\n**TiddlyWiki** (free)\n- Single HTML file wiki\n- Highly customizable\n- Older interface but powerful\n\n## Budget Summary\n- **Need free?** → Logseq or Joplin\n- **Willing to pay $5-10/month?** → Notion\n- **Already use VS Code?** → Dendron or Foam\n- **Want similar to Obsidian?** → Logseq\n\nWhat's your main use case? That would help narrow recommendations.",
-  "cached_at": "2026-05-28T08:41:17Z",
-  "metadata": {}
-}

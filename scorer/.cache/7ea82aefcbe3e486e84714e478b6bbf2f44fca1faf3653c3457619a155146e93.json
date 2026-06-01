@@ -1,9 +1,0 @@
-{
-  "brand": "HiBob",
-  "prompt_id": "IN-05",
-  "llm": "anthropic",
-  "prompt_text": "HR tools with native Slack integration",
-  "response": "# HR Tools with Native Slack Integration\n\n## Core HR Platforms\n\n### **BambooHR**\n- Employee directory & profiles\n- Time off request workflows\n- Performance management\n- Payroll notifications\n- Customizable bot commands\n\n### **Workday**\n- Employee records management\n- Benefits enrollment\n- Time tracking approvals\n- Learning updates\n- Company announcements\n\n### **Guidepoint**\n- Employee surveys\n- 360 feedback\n- Performance metrics\n- Training notifications\n\n## Specialized Tools\n\n### **Time & Attendance**\n- **Deputy** - Shift scheduling, time clock\n- **Clockify** - Time tracking, timesheets\n- **Toggl Track** - Time tracking with approvals\n- **Harvest** - Time & expense tracking\n\n### **Recruitment**\n- **Lever** - Candidate updates, hiring notifications\n- **Workable** - Job postings, applicant updates\n- **Greenhouse** - Interview scheduling, offers\n\n### **Benefits & Payroll**\n- **Justworks** - Payroll alerts, compliance updates\n- **Catch** - Tax withholding notifications\n\n### **Wellness & Engagement**\n- **15Five** - Check-ins, feedback loops\n- **Officevibe** - Pulse surveys, mood tracking\n- **Bonusly** - Recognition & rewards\n- **Culture Amp** - Employee engagement surveys\n\n### **Learning & Development**\n- **Mattermost Learning** - Course notifications\n- **LinkedIn Learning** - Course recommendations\n\n## Features to Look For\n✓ Notifications for key HR events\n✓ Approval workflows\n✓ Two-way information sync\n✓ Custom slash commands\n✓ Privacy & compliance controls\n✓ Team-specific channels\n\nWould you like specific recommendations based on your company size or use case?",
-  "cached_at": "2026-05-28T06:32:45Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Pendo",
-  "prompt_id": "CM-05",
-  "llm": "openai",
-  "prompt_text": "Is Pendo better than Mixpanel for track feature adoption and measure NPS?",
-  "response": "When deciding between Pendo and Mixpanel for tracking feature adoption and measuring NPS, it's important to consider the specific strengths of each tool:\n\n1. **Pendo**:\n   - **Feature Adoption**: Pendo is specifically designed for product teams to understand how users interact with their software. It provides detailed insights into feature usage, user journeys, and in-app behavior, making it very effective for tracking feature adoption.\n   - **NPS Measurement**: Pendo has built-in capabilities for collecting user feedback, including NPS surveys. This makes it convenient for teams that want an integrated solution for both product analytics and user feedback.\n\n2. **Mixpanel**:\n   - **Feature Adoption**: Mixpanel is a robust analytics tool that focuses on tracking user interactions and behaviors. It provides powerful segmentation and funnel analysis, which can be useful for understanding feature adoption, though it may require more setup compared to Pendo.\n   - **NPS Measurement**: Mixpanel does not natively support NPS surveys. You would need to integrate with another tool or use custom solutions to collect NPS data.\n\nIn summary, if your primary focus is on understanding feature adoption and you also want to measure NPS within the same platform, Pendo might be the better choice. However, if you need advanced analytics capabilities and are willing to use additional tools for NPS, Mixpanel could be a strong contender. Ultimately, the best choice depends on your specific needs, existing tool ecosystem, and team preferences.",
-  "cached_at": "2026-05-27T19:44:40Z",
-  "metadata": {}
-}

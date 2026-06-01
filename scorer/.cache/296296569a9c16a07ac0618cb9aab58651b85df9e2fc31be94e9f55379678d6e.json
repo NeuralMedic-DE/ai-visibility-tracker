@@ -1,9 +1,0 @@
-{
-  "brand": "June.so",
-  "prompt_id": "IN-04",
-  "llm": "perplexity",
-  "prompt_text": "Best product analytics that works with Segment and HubSpot",
-  "response": "If you need a **product analytics** tool that works well with both **Segment** and **HubSpot**, the strongest default choice is usually **Amplitude** or **Mixpanel**. Both are widely used product analytics platforms, and product analytics tools are commonly connected to data sources like Segment, while HubSpot already provides built-in analytics and tracking for marketing and behavioral data.[2][1]\n\nA practical way to choose is:\n\n- **Amplitude** — best if you want deeper behavioral analysis, funnels, retention, and experimentation-oriented product analytics.[2]\n- **Mixpanel** — best if you want fast event-based analysis, self-serve dashboards, and straightforward product usage tracking.[2]\n- **HubSpot** — best if your priority is marketing and CRM analytics rather than dedicated product analytics, since its analytics are built into the platform and tied to its tracking code and workflows.[1]\n\nWhat matters for your stack:\n\n- **Segment** is typically used as the event collection layer, so the product analytics tool should accept events from Segment and support clean event schemas.[2]\n- **HubSpot** is more of a customer platform than a pure product analytics tool, so the best setup is usually **Segment → product analytics tool → HubSpot** for syncing product behavior into CRM and lifecycle workflows.[1][2]\n\nIf you want one recommendation without more context: **Amplitude** is the safest “best overall” pick for product analytics in a Segment + HubSpot stack.[2]\n\nIf you want, I can also give you a **short comparison table of Amplitude vs Mixpanel vs PostHog vs Heap** specifically for **Segment + HubSpot** compatibility.",
-  "cached_at": "2026-05-27T20:04:02Z",
-  "metadata": {}
-}

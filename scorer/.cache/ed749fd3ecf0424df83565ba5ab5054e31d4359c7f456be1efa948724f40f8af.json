@@ -1,9 +1,0 @@
-{
-  "brand": "Chargebee",
-  "prompt_id": "CM-01",
-  "llm": "anthropic",
-  "prompt_text": "Chargebee vs Stripe Billing: which is better?",
-  "response": "# Chargebee vs Stripe Billing: Key Comparison\n\nNeither is universally \"better\"—it depends on your needs. Here's how they stack up:\n\n## **Chargebee Strengths**\n- **Subscription expertise**: Purpose-built for recurring billing; more mature feature set\n- **Flexibility**: Better for complex billing scenarios (usage-based, tiered pricing, multi-currency)\n- **Integrations**: Broader native integrations with accounting/analytics tools\n- **Support**: Dedicated customer support included at lower tiers\n- **No payment processing fee** (only subscription management)\n\n## **Stripe Billing Strengths**\n- **Simplicity**: Easier to implement if you already use Stripe Payments\n- **Unified platform**: Single dashboard for payments + billing\n- **Cost**: Potentially cheaper for straightforward use cases (no separate subscription fee)\n- **Ecosystem**: Seamless with Stripe's other products (Connect, Radar, etc.)\n- **Developer experience**: Strong API documentation\n\n## **Choose Chargebee if:**\n- Complex billing needs (usage metering, dunning, revenue recognition)\n- Multiple payment gateways preferred\n- You want dedicated support\n- Prefer pure subscription management\n\n## **Choose Stripe Billing if:**\n- Relatively simple recurring billing\n- Already invested in Stripe\n- Want everything in one platform\n- Building a startup MVP\n\n**Hybrid option**: Many companies use Chargebee + Stripe Payments together for the best of both worlds.\n\nWhat's your specific use case? That would help narrow it down further.",
-  "cached_at": "2026-05-28T06:50:28Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Vercel",
-  "prompt_id": "IN-03",
-  "llm": "openai",
-  "prompt_text": "How do I connect Vercel with GitHub?",
-  "response": "To connect Vercel with GitHub, follow these steps:\n\n1. **Sign in to Vercel**: Go to [Vercel's website](https://vercel.com) and sign in to your account. If you don't have an account, you can create one using your GitHub credentials.\n\n2. **Create a New Project**:\n   - Once logged in, click on the \"New Project\" button on your Vercel dashboard.\n\n3. **Import from GitHub**:\n   - You will be prompted to import a project from a Git repository. Click on the \"Import Git Repository\" button.\n   - If this is your first time connecting GitHub to Vercel, you will be asked to authorize Vercel to access your GitHub account. Click \"Authorize Vercel\" to proceed.\n\n4. **Select a Repository**:\n   - After authorization, you will see a list of your GitHub repositories. Select the repository you want to deploy on Vercel.\n\n5. **Configure Project Settings**:\n   - Vercel will automatically detect the framework and settings for your project. You can review and adjust these settings if necessary.\n   - Click \"Deploy\" to start the deployment process.\n\n6. **Deployment**:\n   - Vercel will begin building and deploying your project. Once the deployment is complete, you will receive a live URL for your project.\n\n7. **Automatic Deployments**:\n   - After connecting your GitHub repository to Vercel, any push to the main branch (or the branch you specified) will trigger an automatic deployment.\n\nBy following these steps, you can easily connect Vercel with GitHub and deploy your projects seamlessly.",
-  "cached_at": "2026-05-27T21:26:00Z",
-  "metadata": {}
-}

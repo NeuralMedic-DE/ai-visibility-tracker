@@ -1,9 +1,0 @@
-{
-  "brand": "Pipedrive",
-  "prompt_id": "IN-02",
-  "llm": "anthropic",
-  "prompt_text": "Pipedrive Zapier integration: how does it work?",
-  "response": "# Pipedrive Zapier Integration Overview\n\n## How It Works\n\nZapier acts as a bridge between Pipedrive and 1000+ other apps, automating workflows without custom coding.\n\n### Basic Flow\n1. **Trigger** - Something happens in Pipedrive (e.g., deal won, contact added)\n2. **Action** - Zapier automatically performs an action in another app (e.g., create Slack message, add Google Sheet row)\n3. **Data flows** - Information syncs between platforms automatically\n\n## Common Use Cases\n\n| Trigger | Action | Result |\n|---------|--------|--------|\n| Deal stage changed | Create Google Calendar event | Automatic scheduling |\n| New contact added | Send welcome email (Gmail/Mailchimp) | Auto-follow-up |\n| Deal won | Create invoice (QuickBooks/Stripe) | Billing automation |\n| Activity logged | Post to Slack | Team notification |\n\n## Key Triggers Available\n- Deal created/won/lost\n- Contact/organization added\n- Activity completed\n- Note added\n- Custom events\n\n## Key Actions Available\n- Create/update records\n- Send notifications\n- Add data to spreadsheets\n- Create tasks in other tools\n- Send emails\n\n## Setup Steps\n\n1. **Connect Pipedrive account** to Zapier (requires API token)\n2. **Choose trigger** from Pipedrive\n3. **Select action app** and specify what happens\n4. **Map fields** (match Pipedrive data to destination app)\n5. **Test & activate** the Zap\n\n## Pros & Cons\n\n**Advantages:**\n- No coding required\n- Quick setup (minutes)\n- Affordable ($20-99/month typically)\n\n**Limitations:**\n- Mostly one-directional\n- Delay of ~1-5 minutes for updates\n- Complex logic requires higher Zapier tiers\n\nWould you like help with a specific integration scenario?",
-  "cached_at": "2026-05-27T17:49:22Z",
-  "metadata": {}
-}

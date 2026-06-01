@@ -1,9 +1,0 @@
-{
-  "brand": "Paddle",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best billing that works with Stripe and PayPal",
-  "response": "# Best Billing Solutions for Stripe & PayPal\n\n## Top Tier Options\n\n### **Stripe Billing** (Native)\n- **Best for:** Startups to mid-market\n- **Pros:** Native Stripe integration, excellent docs, subscriptions, invoicing\n- **Cons:** Limited PayPal support (workaround only)\n- **Cost:** 2.9% + $0.30 per transaction\n\n### **Recurly**\n- **Best for:** SaaS & subscriptions\n- **Pros:** Excellent both Stripe + PayPal, dunning management, revenue recognition\n- **Cons:** Higher cost, steeper learning curve\n- **Cost:** From $99/month + transaction fees\n\n### **Chargify**\n- **Best for:** Growing SaaS companies\n- **Pros:** Native dual payment support, good analytics, metered billing\n- **Cons:** Pricing not transparent upfront\n- **Cost:** From $65/month + transaction fees\n\n### **Zuora**\n- **Best for:** Enterprise\n- **Pros:** Powerful, handles complex billing, both gateways\n- **Cons:** Expensive, complex\n- **Cost:** Custom enterprise pricing\n\n## Budget-Friendly\n\n### **Paddle**\n- Global revenue operations platform\n- Both Stripe & PayPal\n- Handles VAT/tax automatically\n- Great for digital products\n\n### **Lemon Squeezy**\n- Lightweight, developer-friendly\n- Both payment methods\n- Good for indie developers\n\n## Quick Decision Tree\n\n| Need | Best Choice |\n|------|---|\n| Simple subscriptions | Stripe Billing + PayPal plugin |\n| Advanced subscriptions | Recurly or Chargify |\n| Global/tax complexity | Paddle |\n| Indie product | Lemon Squeezy |\n| Enterprise | Zuora |\n\n**What's your use case?** I can give more specific recommendations.",
-  "cached_at": "2026-05-28T07:00:21Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Prefect",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with migrate from Airflow to a modern lightweight orchestration platform without rewrites at scale?",
-  "response": "# Migration Tools for Airflow to Modern Platforms\n\n## Purpose-Built Migration Solutions\n\n**Astronomer's Airflow-to-Astro migration tools**\n- Automated DAG conversion and validation\n- Handles dependencies, variables, connections\n- Supports phased migration (some DAGs on new platform)\n- Best if moving to Astro specifically\n\n**Prefect's migration utilities**\n- Converts Airflow operators to Prefect tasks\n- Maintains scheduling logic\n- Less manual rewriting than starting fresh\n- Good for medium-scale migrations\n\n## Platform-Native Approaches\n\n**Cloud-native options** (often least rewrite):\n- **Google Cloud Composer** → **Dataflow/Cloud Workflows** (preserves some Airflow syntax)\n- **AWS MWAA** → **AWS Step Functions** (AWS-native APIs)\n- **Azure Data Factory** (visual/code hybrid)\n\n## Best Practices for Scale\n\n1. **Incremental migration**\n   - Move non-critical DAGs first\n   - Run both in parallel during transition\n   - Use adapters/bridges where possible\n\n2. **Abstract your operators**\n   - Wrap Airflow operators in custom classes\n   - Easier to swap underlying implementations later\n\n3. **Consider hybrid approaches**\n   - Keep Airflow for complex legacy DAGs\n   - New workflows on lightweight platform\n   - Use Airflow as an orchestrator calling external jobs\n\n## Reality Check\n\nMost large-scale migrations still require 20-40% rewriting. Choose your target platform first—migration ease varies significantly between destinations.\n\nWhat's your current DAG complexity and target platform?",
-  "cached_at": "2026-05-28T09:11:15Z",
-  "metadata": {}
-}

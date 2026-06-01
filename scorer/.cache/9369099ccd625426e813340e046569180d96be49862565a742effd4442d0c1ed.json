@@ -1,9 +1,0 @@
-{
-  "brand": "Userlist",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to Customer.io",
-  "response": "# Cheaper Alternatives to Customer.io\n\n## Budget-Friendly Options\n\n### **Email Marketing Focused**\n- **Mailchimp** - Free tier up to 500 contacts; $20-$350/month paid\n- **Brevo (Sendinblue)** - 300 emails/day free; $20-$340/month paid\n- **ConvertKit** - $25-$79/month (creator-focused)\n- **ActiveCampaign** - $15-$229/month (more features at lower tiers)\n\n### **SMS/Multi-Channel**\n- **Twilio SendGrid** - $14.95-$119.95/month (email + SMS)\n- **MessageBird** - Pay-as-you-go SMS starting at $0.01-0.08/message\n- **Bandwidth** - SMS/voice pay-as-you-go (no monthly minimum)\n\n### **Automation & CRM**\n- **HubSpot** - Free CRM + email; paid from $50/month\n- **Klaviyo** - Free up to 250 contacts; $20-$1,200+/month at scale\n- **Omnisend** - $20-$335/month (good for ecommerce)\n- **Drip** - $19-$745/month\n\n### **Budget/DIY Options**\n- **Mailgun** - $0.50 per 1000 emails (no minimum)\n- **Amazon SES** - $0.10 per 1000 emails\n- **Firebase** - Free tier available\n\n## Selection Tips\n- **Cost priority**: Mailchimp, Brevo, or AWS SES\n- **Feature parity**: ActiveCampaign or HubSpot\n- **Specific needs**: Check integrations first\n\nWhat's your primary use case? That would help narrow it down.",
-  "cached_at": "2026-05-28T07:30:44Z",
-  "metadata": {}
-}

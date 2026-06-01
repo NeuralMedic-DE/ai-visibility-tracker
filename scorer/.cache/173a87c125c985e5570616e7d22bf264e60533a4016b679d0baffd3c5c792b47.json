@@ -1,9 +1,0 @@
-{
-  "brand": "LangChain",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with chain together LLM calls tool use and memory for complex AI agent workflows at scale?",
-  "response": "To manage complex AI agent workflows that involve chaining together large language model (LLM) calls, tool use, and memory, several software frameworks and libraries can be particularly helpful:\n\n1. **LangChain**: This is a popular framework designed specifically for building applications with LLMs. It provides tools for chaining LLM calls, integrating external tools and APIs, and managing memory and state across interactions.\n\n2. **Haystack**: Developed by deepset, Haystack is an open-source framework that supports building search systems and conversational AI applications. It allows for the integration of LLMs, tool use, and memory management.\n\n3. **OpenAI Function Calling**: OpenAI's API supports function calling, which can be used to chain LLM outputs with specific functions, enabling more structured interactions and tool use.\n\n4. **LlamaIndex (formerly GPT Index)**: This library is designed to help with the indexing and retrieval of information for LLMs, which can be useful for managing memory and context in complex workflows.\n\n5. **Rasa**: While traditionally focused on dialogue management, Rasa can be extended to incorporate LLMs and manage complex conversational workflows with memory and tool integration.\n\nThese tools and frameworks can help you design and deploy AI agents capable of handling complex tasks by effectively managing the sequence of operations, memory, and integration with external systems.",
-  "cached_at": "2026-05-28T07:39:51Z",
-  "metadata": {}
-}

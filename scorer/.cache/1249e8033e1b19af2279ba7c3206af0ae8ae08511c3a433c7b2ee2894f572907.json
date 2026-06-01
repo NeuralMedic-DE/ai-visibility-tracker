@@ -1,9 +1,0 @@
-{
-  "brand": "Pipedrive",
-  "prompt_id": "IN-05",
-  "llm": "perplexity",
-  "prompt_text": "CRM tools with native Slack integration",
-  "response": "If you want **CRM tools with native Slack integration**, the strongest, directly documented option in the results is **Salesforce**. Salesforce describes its Slack experience as **CRM in Slack** and says it is a *native, conversational CRM* built into Slack, with features like record alerts, viewing and sending Salesforce records, and adding Slack messages to CRM records.[1][4]\n\nOther CRM platforms mentioned in Slack’s own integrations pages include **HubSpot** and **Zoho**, which Slack lists as CRM platforms that can be linked with Slack for customer data and lead/deal updates.[2][4]\n\nA practical short list from the results is:\n\n- **Salesforce** — native CRM experience in Slack, including Salesforce channels, record alerts, and two-way record/message actions.[1][4]\n- **HubSpot** — listed by Slack as a CRM that integrates with Slack.[2][4]\n- **Zoho** — listed by Slack as a CRM that integrates with Slack.[4]\n- **Agile CRM** — has a Slack integration for collaboration and workflow updates, though the result reads more like an add-on integration than a deeply native Slack CRM experience.[3]\n\nIf you want, I can also narrow this to:\n- **best native Slack CRM for sales teams**\n- **best CRM for customer support in Slack**\n- **CRM tools that work inside Slack without code**",
-  "cached_at": "2026-05-27T17:27:57Z",
-  "metadata": {}
-}

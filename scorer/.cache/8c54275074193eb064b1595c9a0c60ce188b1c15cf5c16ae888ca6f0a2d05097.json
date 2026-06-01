@@ -1,9 +1,0 @@
-{
-  "brand": "Encharge",
-  "prompt_id": "AL-02",
-  "llm": "openai",
-  "prompt_text": "Cheaper alternatives to Intercom",
-  "response": "If you're looking for cheaper alternatives to Intercom for customer communication and support, there are several options available that offer similar features at a lower cost. Here are a few:\n\n1. **Tawk.to**: A free live chat application that allows you to monitor and chat with visitors on your website.\n\n2. **Freshdesk**: Offers a comprehensive customer support platform with a free tier and affordable paid plans. It includes ticketing, automation, and reporting features.\n\n3. **Zendesk**: While not always cheaper, Zendesk offers a range of plans that can be cost-effective depending on your needs, especially if you only require basic features.\n\n4. **Drift**: Known for its conversational marketing and sales platform, Drift can be a cost-effective choice for businesses focusing on lead generation.\n\n5. **Crisp**: Offers live chat, email, and other communication tools with a free tier and affordable paid plans.\n\n6. **LiveChat**: Provides a straightforward live chat solution with various pricing plans that can be more affordable than Intercom.\n\n7. **HelpCrunch**: Combines live chat, email marketing, and automation tools at a competitive price.\n\n8. **Olark**: Offers simple live chat features with a focus on ease of use and affordability.\n\n9. **Chatra**: Provides live chat and chatbots with a free plan and reasonably priced premium options.\n\n10. **Userlike**: Offers live chat software with a focus on customer messaging and integration capabilities.\n\nWhen choosing an alternative, consider the specific features you need, such as live chat, email integration, automation, or CRM capabilities, and compare the pricing plans to find the best fit for your business.",
-  "cached_at": "2026-05-28T07:28:22Z",
-  "metadata": {}
-}

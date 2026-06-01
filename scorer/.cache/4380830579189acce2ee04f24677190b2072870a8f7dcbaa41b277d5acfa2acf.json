@@ -1,9 +1,0 @@
-{
-  "brand": "Make",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Make integrate with Google Sheets?",
-  "response": "Yes, Make (formerly known as Integromat) integrates with Google Sheets. You can use Make to automate workflows involving Google Sheets, such as creating, updating, or retrieving data from spreadsheets. This integration allows you to connect Google Sheets with various other apps and services supported by Make, enabling complex automation scenarios without needing to write code.",
-  "cached_at": "2026-05-28T08:53:43Z",
-  "metadata": {}
-}

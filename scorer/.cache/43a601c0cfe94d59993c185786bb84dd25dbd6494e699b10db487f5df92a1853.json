@@ -1,9 +1,0 @@
-{
-  "brand": "Linear",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is Linear better than Asana for manage product roadmaps and coordinate releases?",
-  "response": "# Linear vs Asana for Roadmaps & Releases\n\n**Linear excels at:**\n- Developer-focused workflows (issue tracking, sprints, git integration)\n- Speed and lightweight experience\n- Cleaner UI for technical teams\n- Better for agile/iterative planning\n\n**Asana excels at:**\n- Cross-functional visibility (marketing, design, engineering, product)\n- Timeline/Gantt views for release planning\n- Portfolio-level roadmapping\n- Flexible customization for non-technical stakeholders\n\n## For product roadmaps specifically:\n**Asana likely wins** if you need:\n- High-level dependency mapping across teams\n- Executive reporting and milestone tracking\n- Non-technical team involvement\n\n**Linear works better** if:\n- Your roadmap is mainly engineering-driven\n- You want lightweight planning without bloat\n- You're coordinating releases through sprints/cycles\n\n## The real question:\n- **Who's using it?** If marketing/product leads need input, Asana's easier. If it's mostly engineers, Linear's simpler.\n- **Release complexity?** Multi-team dependencies favor Asana. Straightforward releases favor Linear.\n\nMany teams actually use **both** — Linear for development execution, Asana (or Productboard) for roadmap visibility.\n\nWhat's your team structure? That usually determines the better fit.",
-  "cached_at": "2026-05-27T21:07:42Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Ashby",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which ATS software should a Head of Talent or Recruiting Manager at a Series B+ company use?",
-  "response": "# ATS Selection for Series B+ Companies\n\nHere's a practical framework rather than a single answer, since the right choice depends on your situation:\n\n## Best overall for this stage\n**Greenhouse** or **Lever**\n- Purpose-built for scaling recruiting teams\n- Strong candidate experience (reduces drop-off)\n- Good balance of features, integrations, and support\n- Can grow with you through Series C/D without major changes\n\n## If you prioritize specific needs:\n\n**Speed/simplicity first:** Ashby\n- Modern interface, faster implementation\n- Growing rapidly (though smaller customer base)\n- Good for 10-30 person recruiting teams\n\n**Large volume/RPO:** iCIMS or SmashFly\n- Enterprise features without enterprise-only pricing\n- Better at high-volume hiring\n\n**Budget-conscious:** Workable or JazzHR\n- 60-70% of the cost of Greenhouse\n- Adequate features for Series B scope\n- Trade-off: less elegant, fewer integrations\n\n**Specialized roles:** Lever or Greenhouse\n- Better sourcing/pipeline tools for competitive hiring\n\n## Key questions to ask yourself:\n- Hiring volume? (10/month vs 100/month changes the answer)\n- How many recruiting team members?\n- Heavy on sourcers vs. pure recruiting coordinators?\n- Integration needs (Slack, Salesforce, etc.)?\n- Do you need strong analytics/reporting?\n\nMost Series B companies succeed with **Greenhouse or Lever**—they're not overkill but grow with you, which matters at your stage.\n\nWhat's your hiring volume/team size?",
-  "cached_at": "2026-05-28T06:39:11Z",
-  "metadata": {}
-}

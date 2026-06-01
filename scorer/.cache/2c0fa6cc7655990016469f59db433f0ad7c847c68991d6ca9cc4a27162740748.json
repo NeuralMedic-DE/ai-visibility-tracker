@@ -1,9 +1,0 @@
-{
-  "brand": "Close",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to HubSpot",
-  "response": "# Budget-Friendly HubSpot Alternatives\n\n## **Free & Low-Cost Platforms**\n\n### **Completely Free**\n- **Brevo (formerly Sendinblue)** - Email marketing, SMS, basic CRM\n- **Zoho CRM** - Free tier for up to 3 users\n- **HubSpot's Free Plan** - Actually quite robust for small teams\n- **Capsule CRM** - Simple, free option for basic contact management\n- **Pipedrive** - Limited free version, strong on sales pipeline\n\n### **Pay-as-You-Grow**\n- **Freshworks CRM** - Affordable, ~$15-55/user/month\n- **ActiveCampaign** - Email + automation, starts around $10/month\n- **Keap** - Good for small business, ~$25-120/month\n- **Vtiger** - Open-source option, ~$12-25/user/month\n\n## **By Use Case**\n\n**Email Marketing Focus**\n- Mailchimp, Brevo, ConvertKit\n\n**Sales Pipeline**\n- Pipedrive, Monday.com, Insightly\n\n**Project-Based Services**\n- Notion, Monday.com, Asana (with CRM features)\n\n**All-in-One (like HubSpot)**\n- Zoho (best value), Freshworks, ActiveCampaign\n\n## **Money-Saving Tips**\n- Start with free tiers, upgrade only when needed\n- Use open-source solutions (Odoo, Vtiger)\n- Combine best-of-breed tools (cheaper than all-in-one)\n\nWhat's your main use case? That would help narrow down the best fit.",
-  "cached_at": "2026-05-27T17:50:41Z",
-  "metadata": {}
-}

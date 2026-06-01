@@ -1,9 +1,0 @@
-{
-  "brand": "Retool",
-  "prompt_id": "IN-03",
-  "llm": "perplexity",
-  "prompt_text": "How do I connect Retool with PostgreSQL?",
-  "response": "To connect **Retool with PostgreSQL**, you create a PostgreSQL resource in Retool, enter your database connection details, and test the connection. Retool says it connects directly to PostgreSQL using secure credentials or cloud-native authentication, and once connected you can query and manage data in the app builder or with SQL.[2]\n\n- In Retool, go to **Resources** and choose **Create new**.[1]\n- Select **PostgreSQL** as the resource type.[1]\n- Enter the **host**, **port**, **database name**, **username**, and **password**.[1]\n- Click **Test connection** to verify that Retool can reach your database.[1]\n- If the test succeeds, save the resource and use it in your Retool app to run SQL queries and display results in tables, charts, or forms.[1][2]\n\nIf you are using **Supabase PostgreSQL** or another hosted Postgres service, you can usually paste the connection string or fill in the same fields manually, then add any required password and test the connection.[6]\n\nIf you want, I can also give you:\n- a **step-by-step setup for Retool Cloud**\n- a **self-hosted Retool + PostgreSQL** setup\n- a **troubleshooting checklist** for connection errors",
-  "cached_at": "2026-05-27T21:02:56Z",
-  "metadata": {}
-}

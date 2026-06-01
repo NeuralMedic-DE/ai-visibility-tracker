@@ -1,9 +1,0 @@
-{
-  "brand": "Plausible",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Plausible integrate with WordPress?",
-  "response": "# Plausible and WordPress Integration\n\nYes, Plausible integrates with WordPress, though the method depends on your setup:\n\n## **WordPress.com**\n- Plausible has a built-in integration available directly in WordPress.com settings\n- You can connect your site with just a few clicks\n\n## **Self-hosted WordPress**\nFor self-hosted WordPress sites, you have options:\n\n1. **Via Plugin** - There are community-created plugins that help integrate Plausible analytics\n2. **Manual Installation** - Add Plausible's tracking script directly to your WordPress theme (header.php or via a custom code plugin)\n3. **Using a Code Snippet Plugin** - Tools like Code Snippets can help you add the tracking code without editing theme files\n\n## **Key Points**\n- The integration is straightforward for WordPress.com users\n- Self-hosted sites require a bit more manual setup but it's still relatively simple\n- Plausible is designed as a privacy-friendly alternative to Google Analytics\n\nI'd recommend checking Plausible's current documentation or WordPress plugin repository for the latest integration options, as these may have been updated since my last knowledge update.",
-  "cached_at": "2026-05-27T20:19:00Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Conveyor",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with build a security profile that accelerates enterprise procurement and security diligence at scale?",
-  "response": "# Software for Enterprise Security Procurement & Diligence\n\nSeveral solutions help streamline security profiles and accelerate procurement:\n\n## Dedicated Platforms\n\n**Security Questionnaire/Assessment Tools:**\n- **Aptible** - Security compliance automation\n- **OnDo** - Vendor security assessment platform\n- **Vanta** - Continuous compliance and audit automation\n- **Drata** - Compliance automation for vendors and buyers\n- **Secureframe** - SOC 2, ISO 27001 automation\n\n**Vendor Risk Management:**\n- **Prevalent** - Vendor risk and third-party management\n- **BitSight** - Security ratings and vendor monitoring\n- **Qualys VMDR** - Vulnerability management for vendor assessment\n- **SecurityScorecard** - Continuous security ratings\n\n## Industry-Specific Solutions\n\n- **TrustRadius** - Crowdsourced vendor reviews with security data\n- **G2** - Includes security certifications in profiles\n- **Shared Assessments** - Standardized questionnaires (CAIQ)\n\n## Process Automation\n\n- **Workato**, **Zapier** - Integrate security data across platforms\n- **Jira Service Management** - Custom procurement workflows\n- **ServiceNow** - Enterprise vendor management modules\n\n## Key Features to Look For\n\n- Automated questionnaire generation\n- Compliance mapping (SOC 2, ISO 27001, HIPAA, etc.)\n- Pre-built security profiles\n- Integration with existing procurement systems\n- Continuous monitoring capabilities\n\nWhat's your primary use case—vendor assessment, internal compliance, or both?",
-  "cached_at": "2026-05-28T08:46:28Z",
-  "metadata": {}
-}

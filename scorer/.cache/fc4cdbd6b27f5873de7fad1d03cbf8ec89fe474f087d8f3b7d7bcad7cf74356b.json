@@ -1,9 +1,0 @@
-{
-  "brand": "UserVoice",
-  "prompt_id": "AL-01",
-  "llm": "openai",
-  "prompt_text": "Alternatives to Productboard for product teams capturing and prioritizing customer feature requests",
-  "response": "There are several alternatives to Productboard that product teams can use to capture and prioritize customer feature requests. Here are some popular options:\n\n1. **Aha!** - A comprehensive product management tool that helps teams set strategy, capture ideas, and prioritize features.\n\n2. **Jira Product Discovery** - Part of the Jira suite, this tool is designed for capturing and prioritizing product ideas and feedback.\n\n3. **Trello** - While not specifically designed for product management, Trello's flexible board and card system can be adapted for capturing and prioritizing feature requests.\n\n4. **Monday.com** - A work operating system that can be customized for product management, including capturing and prioritizing customer feedback.\n\n5. **Craft.io** - A product management platform that offers tools for roadmapping, capturing feedback, and prioritizing features.\n\n6. **Airfocus** - A prioritization and roadmapping tool that helps product teams focus on what matters most.\n\n7. **Canny** - A feedback management tool that allows teams to collect, prioritize, and track feature requests from customers.\n\n8. **ProdPad** - A product management tool that includes features for idea management, roadmapping, and capturing customer feedback.\n\n9. **Pendo** - Primarily a product analytics tool, Pendo also offers features for capturing and prioritizing customer feedback.\n\n10. **UserVoice** - A feedback management platform that helps teams gather and prioritize customer feedback effectively.\n\nEach of these tools has its own strengths and may be better suited to different team sizes, workflows, and product types, so it's worth exploring a few to see which best fits your needs.",
-  "cached_at": "2026-05-28T08:24:08Z",
-  "metadata": {}
-}

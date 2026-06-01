@@ -1,9 +1,0 @@
-{
-  "brand": "Pipedrive",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best CRM that works with Slack and Zapier",
-  "response": "# Top CRMs for Slack + Zapier Integration\n\n## Best Overall: **HubSpot**\n- **Native Slack app** with real-time notifications\n- **Zapier certified** with 500+ workflows\n- Free tier available\n- Excellent documentation\n\n## Best for Teams: **Pipedrive**\n- Strong **Slack integration** (activity updates, notifications)\n- **Zapier native connection** (2-way sync)\n- Visual sales pipeline\n- Mid-market pricing\n\n## Best for Simplicity: **Salesforce**\n- **Official Slack integration** (deeply integrated)\n- Extensive Zapier support\n- Enterprise-grade features\n- Higher cost\n\n## Best for Startups: **Notion + CRM layers**\n- Works great with both **Slack and Zapier**\n- Highly customizable\n- Very affordable\n- Steeper learning curve\n\n## Best Value: **Zoho CRM**\n- Native Slack bot\n- **Excellent Zapier automation** options\n- Very affordable\n- Feature-rich\n\n## Key Consideration\n**Check before choosing:**\n- Do you need 2-way sync or one-way notifications?\n- How many Zapier workflows do you need?\n- What's your budget?\n\n**My recommendation:** Start with **HubSpot** (free tier lets you test) or **Pipedrive** if you want better sales-focused features at lower cost.\n\nWhat's your main use case—sales, support, or marketing?",
-  "cached_at": "2026-05-27T17:49:31Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Sentry",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Sentry integrate with GitHub?",
-  "response": "Yes. **Sentry has a first‑class integration with GitHub** that you can enable directly from Sentry.\n\nKey points:\n\n- You can connect a **GitHub organization or user account** to your Sentry organization so Sentry can use your repositories.[9]\n- The integration supports:\n  - **Linking errors to commits and authors** likely responsible.[2]\n  - **Creating and linking GitHub Issues** from Sentry issues.[2]\n  - **Marking Sentry issues resolved via GitHub commits** (e.g., via commit messages).[2]\n  - **Single sign-on (SSO) with GitHub** for Sentry (optional, via integration permissions).[1][2]\n  - **Code mapping**, so Sentry can show and link to the exact source files in GitHub from stack traces.[3]\n  - Pull‑request–related features, such as bringing Sentry context into PRs, if the GitHub integration is installed.[5]\n\nHow you enable it (high level):\n\n- In Sentry: go to **Settings → Integrations → GitHub** and install/configure the GitHub app from there.[3][4]\n- In GitHub: authorize the **Sentry GitHub App** for your org or selected repositories and grant the requested permissions.[2][3]\n- Optionally set up **code mappings** in Sentry so stack traces map to the correct GitHub repo/branch.[3]\n\nFor self‑hosted Sentry, you can also configure a GitHub App manually and add its credentials in `config.yml` / `sentry.conf.py` as documented in the Sentry developer docs.[1]",
-  "cached_at": "2026-05-27T21:22:59Z",
-  "metadata": {}
-}

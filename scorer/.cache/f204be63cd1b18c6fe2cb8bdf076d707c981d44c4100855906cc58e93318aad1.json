@@ -1,9 +1,0 @@
-{
-  "brand": "Intercom",
-  "prompt_id": "CD-03",
-  "llm": "perplexity",
-  "prompt_text": "Which customer support software should a VP Customer Success or Head of Support at a B2B SaaS company use?",
-  "response": "For a **VP Customer Success** or **Head of Support** at a B2B SaaS company, the best choice is usually **Front** if you need a modern, collaborative **customer operations** platform, or **Zendesk** if you want the most established, broad-purpose support desk with deep ticketing and automation. Front is explicitly positioned for *complex B2B environments* and emphasizes shared context, omnichannel workflows, and automation; TeamSupport is also purpose-built for **B2B SaaS** support teams; and G2 users commonly recommend **Freshdesk**, **Zoho Desk**, **HubSpot Service Hub**, and **Fin by Intercom** depending on budget and maturity.[3][1][2]\n\nIf I had to narrow it down by operating model:\n\n- **Best overall for B2B SaaS support + cross-functional collaboration:** **Front**.[3]\n- **Best if you want B2B-specific support software:** **TeamSupport**.[1]\n- **Best if you already run on HubSpot:** **HubSpot Service Hub**.[2]\n- **Best for AI-heavy automation and fast scaling:** **Fin by Intercom**.[2]\n- **Best budget-friendly options:** **Freshdesk** or **Zoho Desk**.[2]\n\nWhat matters most for a VP Customer Success / Head of Support in B2B SaaS is usually not just ticketing, but:\n- **Omnichannel support**\n- **Automation for routing and prioritization**\n- **Shared customer context across teams**\n- **Knowledge base/self-service**\n- **Reporting and collaboration**[3]\n\nSo the practical recommendation is:\n\n- Choose **Front** if you want support to operate as a *customer operations layer* across support, success, and other teams.[3]\n- Choose **Zendesk** if you want a more traditional, widely adopted help desk with broad ecosystem support and you expect support at scale.",
-  "cached_at": "2026-05-28T08:01:31Z",
-  "metadata": {}
-}

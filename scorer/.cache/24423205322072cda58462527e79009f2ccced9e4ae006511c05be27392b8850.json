@@ -1,9 +1,0 @@
-{
-  "brand": "Render",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Render integrate with GitHub?",
-  "response": "Yes. **Render integrates directly with GitHub** for both authentication and deployments.\n\nKey points:\n\n- You can **sign up / sign in to Render using your GitHub account** and authorize Render to access your repositories.[5]  \n- When you create a service on Render, you **link it to a GitHub repo and branch**; Render then automatically rebuilds and redeploys whenever you push or merge to that branch (auto-deploys).[2]  \n- Auto-deploys and CI-gated deploys support **GitHub checks/GitHub Actions**, so Render can wait for GitHub-based CI to pass before deploying.[2]  \n- There is an official **Render GitHub App** in the GitHub Apps directory, used to connect Render with your GitHub org or account.[8]  \n- You can also use **GitHub Actions marketplace actions** to trigger or track deployments to Render from GitHub workflows.[3][6]",
-  "cached_at": "2026-05-27T21:42:29Z",
-  "metadata": {}
-}

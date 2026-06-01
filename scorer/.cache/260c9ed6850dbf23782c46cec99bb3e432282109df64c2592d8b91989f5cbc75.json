@@ -1,9 +1,0 @@
-{
-  "brand": "Reply.io",
-  "prompt_id": "IN-02",
-  "llm": "anthropic",
-  "prompt_text": "Reply.io HubSpot integration: how does it work?",
-  "response": "# Reply.io HubSpot Integration Overview\n\n## How It Works\n\nThe integration connects Reply.io's cold email automation with HubSpot's CRM, enabling:\n\n### **Data Synchronization**\n- **Contact sync**: Contacts from Reply.io campaigns flow into HubSpot as leads/contacts\n- **Two-way updates**: Email activity (opens, clicks, replies) syncs back to HubSpot contact records\n- **Deal tracking**: Pipeline stages can be updated based on campaign engagement\n\n### **Key Features**\n\n| Function | Benefit |\n|----------|---------|\n| **Automated lead capture** | Contacts added to campaigns auto-populate HubSpot |\n| **Activity logging** | Email opens, clicks, replies tracked in contact timeline |\n| **List synchronization** | Sync HubSpot lists to Reply.io for targeting |\n| **Workflow triggers** | HubSpot workflows can trigger based on campaign responses |\n\n## Setup Process\n\n1. **Authenticate** both platforms via API keys/OAuth\n2. **Map fields** between Reply.io and HubSpot\n3. **Select sync preferences** (which data, direction, frequency)\n4. **Test** the connection\n5. **Enable** automated sync\n\n## Common Use Cases\n\n- Route qualified replies automatically into sales workflows\n- Build HubSpot lists from campaign respondents\n- Track ROI of cold email campaigns in your CRM\n- Create closed-loop reporting on outreach efforts\n\n## Potential Limitations\n\n- One-way syncs on some data types\n- May require custom setup for complex workflows\n- Sync frequency varies by plan tier\n\nWould you like details on specific integration aspects?",
-  "cached_at": "2026-05-28T07:21:33Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Neon",
-  "prompt_id": "IN-05",
-  "llm": "openai",
-  "prompt_text": "database tools with native Vercel integration",
-  "response": "Vercel is a popular platform for deploying front-end applications, and it offers integrations with several database tools to streamline development workflows. Here are some database tools that have native or seamless integration with Vercel:\n\n1. **PlanetScale**: A serverless database platform built on Vitess, which is designed for scaling MySQL. PlanetScale offers a Vercel integration that allows you to easily connect your Vercel projects to a PlanetScale database.\n\n2. **Supabase**: An open-source Firebase alternative that provides a Postgres database with real-time capabilities. Supabase can be integrated with Vercel to provide a backend for your applications.\n\n3. **Neon**: A serverless Postgres database that is designed for modern cloud applications. Neon offers integration with Vercel, allowing you to connect your applications to a Postgres database with ease.\n\n4. **Upstash**: A serverless database for Redis and Kafka. Upstash provides integration with Vercel, enabling you to use Redis or Kafka as part of your Vercel-deployed applications.\n\n5. **Fauna**: A distributed database that provides a GraphQL API. Fauna can be integrated with Vercel to provide a scalable backend for your applications.\n\n6. **MongoDB Atlas**: While not a native integration, MongoDB Atlas can be easily connected to Vercel applications by using environment variables to store your MongoDB connection string.\n\nThese integrations typically involve setting up environment variables in your Vercel project to securely store database connection details and using the respective database client libraries in your application code. This allows you to build full-stack applications with a seamless deployment experience on Vercel.",
-  "cached_at": "2026-05-28T06:18:03Z",
-  "metadata": {}
-}

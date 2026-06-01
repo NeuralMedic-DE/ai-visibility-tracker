@@ -1,9 +1,0 @@
-{
-  "brand": "Mixpanel",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Mixpanel integrate with Segment?",
-  "response": "Yes, Mixpanel integrates with Segment. Segment can be used as a data source to send event data directly to Mixpanel. This allows you to collect data through Segment and then analyze it in Mixpanel without needing to implement separate tracking for each platform. To set up the integration, you typically need to configure Mixpanel as a destination within your Segment account, following the instructions provided by both Segment and Mixpanel to ensure data is correctly mapped and sent.",
-  "cached_at": "2026-05-27T19:12:43Z",
-  "metadata": {}
-}

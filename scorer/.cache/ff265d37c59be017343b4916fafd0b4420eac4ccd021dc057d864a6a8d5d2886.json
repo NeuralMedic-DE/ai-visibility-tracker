@@ -1,9 +1,0 @@
-{
-  "brand": "Leapsome",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Leapsome with Slack?",
-  "response": "# Connecting Leapsome with Slack\n\nHere's how to set up the integration:\n\n## Basic Steps\n\n1. **In Leapsome:**\n   - Go to **Settings** → **Integrations**\n   - Find and select **Slack**\n   - Click **Connect** or **Authorize**\n\n2. **In Slack:**\n   - You'll be redirected to Slack's authorization page\n   - Select the workspace you want to connect\n   - Review the permissions Leapsome is requesting\n   - Click **Allow** or **Authorize**\n\n3. **Complete the setup:**\n   - Return to Leapsome to confirm the connection\n   - Choose which Slack channels to receive notifications in (if prompted)\n\n## Common Uses\n\nOnce connected, you can typically:\n- Receive notifications about feedback and surveys\n- Share survey results to Slack channels\n- Get reminders about pending actions\n- View performance updates\n\n## Troubleshooting\n\n- **Not seeing the option?** Ensure you're an admin in both Leapsome and Slack\n- **Permission issues?** Check that your Slack workspace allows third-party integrations\n- **Still stuck?** Check Leapsome's help documentation or contact their support team\n\n---\n\n**Note:** Steps may vary slightly depending on your Leapsome plan and which features you're using. For the most current instructions, I'd recommend checking Leapsome's official documentation or support resources.",
-  "cached_at": "2026-05-28T06:37:26Z",
-  "metadata": {}
-}

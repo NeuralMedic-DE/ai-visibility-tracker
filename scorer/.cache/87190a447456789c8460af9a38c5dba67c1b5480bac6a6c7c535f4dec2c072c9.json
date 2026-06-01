@@ -1,9 +1,0 @@
-{
-  "brand": "Copper",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Copper integrate with Google Workspace?",
-  "response": "Yes. Copper is **built specifically for Google Workspace** and offers deep, native integrations with core apps like **Gmail, Google Calendar, Google Contacts, Google Drive, Google Sheets, and Forms**.[1][4][8]\n\nKey points about the integration:\n\n- **Native Google Workspace CRM**: Copper describes itself as “the only CRM made for Google Workspace” and is a *Recommended for Google Workspace* app.[4][6]  \n- **Gmail integration**: Copper lives in your Gmail inbox so you can add leads, view and update records, and track conversations without leaving Gmail.[1][4][6]  \n- **Calendar & Contacts sync**: It automatically synchronizes data between Copper and **Google Calendar** and **Google Contacts**, so meetings and contacts stay in sync.[1][4][8]  \n- **Drive integration**: Copper connects with **Google Drive**, letting you find and attach files to records directly from your Workspace environment.[1][4][8]  \n- **Google Sheets add-on**: There is a Copper add-on for **Google Sheets** that pulls in leads, opportunities, people, and companies from Copper for reporting and analysis.[2]  \n\nIf you are working primarily in Google Workspace, Copper is designed to operate *inside* that ecosystem rather than as a separate, standalone tool.[1][4][6]",
-  "cached_at": "2026-05-27T18:28:56Z",
-  "metadata": {}
-}

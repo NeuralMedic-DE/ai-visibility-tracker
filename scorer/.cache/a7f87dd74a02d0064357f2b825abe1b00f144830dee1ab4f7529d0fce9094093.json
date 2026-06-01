@@ -1,9 +1,0 @@
-{
-  "brand": "Teamtailor",
-  "prompt_id": "CD-02",
-  "llm": "perplexity",
-  "prompt_text": "Top employer branding and ATS platform for modern talent teams tools in 2025",
-  "response": "For **modern talent teams in 2025**, the strongest *all-in-one* options in the results are **iCIMS** for end-to-end talent acquisition and internal mobility, and **Greenhouse** for structured, scalable hiring; for smaller or startup teams, **HomeRun** stands out for **employer branding** and career-site experiences.[2][3][1]\n\nA practical way to think about the market from these results:\n\n| Tool | Best fit | What it’s known for |\n|---|---|---|\n| **iCIMS** | Enterprise / large talent teams | Unified talent platform with ATS, CRM, and internal mobility tools.[2] |\n| **Greenhouse** | Mid-market to enterprise | Structured hiring and high-quality recruiting at scale.[3] |\n| **HomeRun** | Startups / creative teams | Strong **employer branding** and career-site support, plus ATS workflows.[1] |\n| **Workday** | Large organizations | Cloud HCM + ATS in one system.[6] |\n| **ClearCompany** | Teams wanting talent management + analytics | End-to-end acquisition and analytics.[6] |\n| **Zoho Recruit / JazzHR / Workable** | SMBs | More affordable, easier-to-use ATS options.[4][5] |\n\nIf your priority is specifically **employer branding + ATS**, the clearest signal in the results is **HomeRun** because it is explicitly described as strong in employer branding and career-site capabilities.[1] If your priority is a broader **modern talent stack**, **iCIMS** is the most clearly positioned as a unified platform across ATS, CRM, and internal mobility.[2]\n\nIf you want, I can turn this into a **shortlist by company size** or a **feature-by-feature comparison** for employer branding, automation, analytics, and integrations.",
-  "cached_at": "2026-05-28T06:41:36Z",
-  "metadata": {}
-}

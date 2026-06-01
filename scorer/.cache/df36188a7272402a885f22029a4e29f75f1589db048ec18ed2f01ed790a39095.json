@@ -1,9 +1,0 @@
-{
-  "brand": "Totango",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Totango with Salesforce?",
-  "response": "# Connecting Totango with Salesforce\n\nHere's how to set up the integration:\n\n## Basic Steps\n\n1. **In Totango:**\n   - Go to **Settings** → **Integrations**\n   - Search for and select **Salesforce**\n   - Click **Connect**\n\n2. **Authorize Salesforce:**\n   - You'll be redirected to log in to your Salesforce account\n   - Review and approve the permissions Totango requests\n   - You'll be redirected back to Totango to confirm\n\n3. **Configure Field Mapping:**\n   - Map Totango fields to Salesforce objects (Accounts, Contacts, Opportunities)\n   - Select which data syncs in each direction\n   - Choose sync frequency (real-time or scheduled)\n\n4. **Test the Connection:**\n   - Run a test sync to verify data flows correctly\n   - Check that fields are mapping properly\n\n## Key Considerations\n\n- **Permissions**: Ensure your Salesforce user has admin access\n- **Duplicate handling**: Decide how to handle duplicate records\n- **Sync direction**: Determine if data is one-way or two-way\n- **Custom fields**: Map any custom Salesforce fields you want to sync\n\n## Need Help?\n\n- Check [Totango's documentation](https://support.totango.com)\n- Contact Totango support if you encounter issues\n- Verify your Salesforce API limits aren't exceeded\n\nDo you need help with specific field mappings or troubleshooting?",
-  "cached_at": "2026-05-28T08:14:46Z",
-  "metadata": {}
-}

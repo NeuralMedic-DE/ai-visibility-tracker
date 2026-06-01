@@ -1,9 +1,0 @@
-{
-  "brand": "Instantly",
-  "prompt_id": "CM-01",
-  "llm": "perplexity",
-  "prompt_text": "Instantly vs Lemlist: which is better?",
-  "response": "**It depends on your use case:** **Instantly** is usually better for **high-volume cold email** and agencies that want **flat-fee pricing, unlimited inboxes, and stronger deliverability-focused tooling**.[1][2][4] **Lemlist** is usually better if you need **true multichannel outreach** like **email + LinkedIn + WhatsApp/calls** and more advanced personalization inside one sequence.[2][3][4]\n\n- Choose **Instantly** if you want:\n  - **Email-first** outreach at scale with simpler setup.[2][3][4]\n  - **Unlimited email accounts/inboxes** on outreach plans and more predictable costs as you grow.[1][2]\n  - Deliverability automation and a more agency-friendly pricing model.[1][3][4]\n\n- Choose **Lemlist** if you want:\n  - **Multichannel sequences** beyond email.[2][3][4]\n  - Stronger **personalization** options, including image personalization and more complex logic.[2]\n  - A broader outreach platform rather than a cold-email-only tool.[3][4]\n\n- Pricing is a key difference:\n  - **Instantly** uses **flat-fee** outreach pricing, with some sources describing plans starting around **$37/month**.[1]\n  - **Lemlist** is **per-seat**, with sources citing starting prices around **$59–$69 per user/month**, which can scale up quickly for larger teams.[1][2][7]\n\n- If you care most about **lead database size**, some comparisons say **Lemlist** has the larger database, while Instantly’s database is described as smaller but paired with credit-based enrichment/search.[3][6]\n\nIf you want the shortest answer: **Instantly is better for scalable cold email; Lemlist is better for multichannel outbound and richer personalization.**[2][4]",
-  "cached_at": "2026-05-28T07:19:14Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Vanta",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which compliance software should a CISO or Engineering Lead at a startup seeking compliance certification use?",
-  "response": "# Compliance Software for Startup CISOs/Engineering Leads\n\nThe best choice depends on your **target certification** and stage, but here's a practical framework:\n\n## By Certification Type\n\n**SOC 2 Type II** (most common for startups)\n- **Vanta** or **Drata** - Purpose-built, automation-heavy, reasonable pricing\n- **Workato** - If you need workflow automation alongside compliance\n\n**ISO 27001/27002**\n- **Vanta**, **Drata**, or **Secureframe** - All handle this well\n- More document-heavy than SOC 2\n\n**HIPAA/HITRUST** (healthcare)\n- **Vanta** or **Secureframe** - Strong healthcare focus\n- More specialized; higher complexity\n\n**GDPR/Data Privacy**\n- **OneTrust** or **TrustArc** - Though pricier\n- Often overkill for early-stage startups\n\n## Practical Startup Considerations\n\n| Factor | Recommendation |\n|--------|---|\n| **Budget** | Vanta/Drata (~$3-8k/year initially) |\n| **Time-to-cert** | Vanta (faster automation) |\n| **Engineering effort** | Drata (less API integration work) |\n| **Flexibility** | Secureframe (customization) |\n\n## Red Flags to Avoid\n- Overly complex platforms (OneTrust is enterprise-grade)\n- Products requiring heavy manual documentation\n- Vendors without clear pricing\n\n**Pro tip:** Most vendors offer pilots. Start with **Vanta or Drata**, validate which fits your engineering culture, *then* commit. Your existing tooling (AWS, GitHub, Okta, etc.) integration matters more than you'd think.\n\nWhat's your target certification?",
-  "cached_at": "2026-05-28T08:26:20Z",
-  "metadata": {}
-}

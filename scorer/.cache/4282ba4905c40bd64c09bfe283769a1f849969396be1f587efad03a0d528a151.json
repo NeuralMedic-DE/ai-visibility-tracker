@@ -1,9 +1,0 @@
-{
-  "brand": "Amplemarket",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable CRM tools instead of ZoomInfo",
-  "response": "# Open Source & Affordable CRM Alternatives to ZoomInfo\n\n## Open Source Options\n\n**HubSpot CRM (Free tier)**\n- Contact management, deal tracking, basic automation\n- Limited but genuinely useful free version\n- scalable paid plans\n\n**Odoo**\n- Fully open source, self-hosted option\n- CRM + accounting + inventory integrated\n- Steep learning curve but highly customizable\n\n**SuiteCRM**\n- Fork of SugarCRM, community-driven\n- Enterprise-grade features at no cost\n- Requires technical setup\n\n**Corteza**\n- Modern, low-code open source platform\n- Self-hosted, good for custom workflows\n- Growing community\n\n## Budget-Friendly Commercial Options\n\n**Pipedrive**\n- ~$15-99/month per user\n- Excellent sales pipeline visualization\n- Affordable for small teams\n\n**Freshsales**\n- ~$12-79/month per user\n- Good contact management + lead scoring\n- Simple UI\n\n**Zoho CRM**\n- Free for 1-3 users, then $20-65/month\n- Integrated ecosystem (mail, books, desk)\n- More affordable at scale\n\n**Monday.com / Notion**\n- Not pure CRMs but work well for pipeline management\n- $10-24/month starting\n\n## Best For B2B Prospecting Specifically\nIf you need ZoomInfo's *data enrichment*:\n- **Hunter.io** (email finding)\n- **Apollo.io** (affordable prospecting platform)\n- **Clearbit** (company data)\n\n**What's your primary use case?** That'll help narrow down the best fit.",
-  "cached_at": "2026-05-27T19:03:59Z",
-  "metadata": {}
-}

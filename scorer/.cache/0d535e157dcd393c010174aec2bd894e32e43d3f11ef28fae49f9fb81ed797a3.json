@@ -1,9 +1,0 @@
-{
-  "brand": "Close",
-  "prompt_id": "IN-03",
-  "llm": "perplexity",
-  "prompt_text": "How do I connect Close with Slack?",
-  "response": "There are two common ways to “connect Close with Slack”: **automation via Close + Slack** or **external collaboration via Slack Connect**. If you mean linking the apps so events in Close trigger Slack messages, the simplest path is **Zapier**; if you mean messaging people outside your company, use **Slack Connect**.[1][4][7]\n\n- **To automate Close with Slack using Zapier:** choose a trigger in Close (for example, a new opportunity, task, contact, or activity report) and then choose an action in Slack, such as posting a channel message or adding a reaction.[1]\n- **To set it up:** create a Zapier account, select **Close** as the trigger app and **Slack** as the action app, connect both accounts, choose the event and channel/message behavior, then turn the Zap on.[1]\n- **If you want a no-code alternative:** Integrately also offers a Close + Slack integration with one-click setup.[2]\n- **If you mean Slack Connect instead:** create a channel or direct message in Slack, send the invite to the external person or organization, and wait for them to accept; channel sharing may require a paid Slack plan.[4][7][8]\n\nIf you want, I can give you the exact steps for either:\n- **Close → Slack automations**\n- **Slack Connect with a client/vendor**",
-  "cached_at": "2026-05-27T17:42:35Z",
-  "metadata": {}
-}

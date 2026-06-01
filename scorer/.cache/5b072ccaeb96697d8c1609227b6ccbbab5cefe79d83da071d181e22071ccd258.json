@@ -1,9 +1,0 @@
-{
-  "brand": "June.so",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Mixpanel vs alternatives: what should I switch to?",
-  "response": "# Analytics Alternatives to Mixpanel\n\n## Best overall replacements\n\n**Amplitude**\n- Similar product analytics focus\n- Stronger cohort analysis and experimentation\n- Better free tier ($0-995/mo)\n- *Downside: Steeper learning curve*\n\n**PostHog**\n- Open source + self-hosted option (cost advantage)\n- Built-in session replay, feature flags, A/B testing\n- More transparent pricing\n- *Downside: Smaller community than Mixpanel*\n\n**Segment (CDP alternative)**\n- If you want to move beyond analytics to customer data\n- Routes data to multiple tools\n- *Downside: Doesn't replace Mixpanel alone—complements it*\n\n## Budget-conscious options\n\n**Plausible / Fathom Analytics**\n- Much cheaper ($20-100/mo)\n- Privacy-focused, GDPR-friendly\n- *Downside: Simpler feature set, better for content sites than apps*\n\n**Heap**\n- Auto-captures interactions (less setup)\n- Good for smaller teams\n- *Downside: Pricier, less customizable*\n\n## Key questions to ask yourself\n\n1. **Why switch?** (cost, complexity, missing features?)\n2. **What do you actually use?** (Most Mixpanel users only touch 20% of features)\n3. **Self-hosted vs. cloud?** (PostHog wins here)\n4. **Need session replay/heatmaps?** (PostHog, Heap)\n\n**Honest take:** Mixpanel is often over-purchased. Many teams could save money by consolidating tools or choosing something simpler.\n\nWhat's driving your consideration?",
-  "cached_at": "2026-05-27T19:57:55Z",
-  "metadata": {}
-}

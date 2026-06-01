@@ -1,9 +1,0 @@
-{
-  "brand": "Mailmodo",
-  "prompt_id": "IN-02",
-  "llm": "anthropic",
-  "prompt_text": "Mailmodo HubSpot integration: how does it work?",
-  "response": "# Mailmodo HubSpot Integration Overview\n\n## How It Works\n\nThe Mailmodo-HubSpot integration allows you to **sync form responses directly into HubSpot**, automating data flow between the two platforms.\n\n### Key Capabilities\n\n**Data Sync:**\n- Form submissions automatically populate HubSpot contacts/companies\n- Creates or updates existing records based on email addresses\n- Maps form fields to HubSpot properties\n- Supports custom properties\n\n**Contact Management:**\n- New respondents become HubSpot contacts\n- Responses update existing contact records\n- Organizes contacts by submission data\n\n**Workflow Integration:**\n- Trigger HubSpot workflows based on form submissions\n- Use responses to segment contacts\n- Enable automated follow-ups\n\n## Setup Process\n\n1. **Connect accounts** - Authorize Mailmodo to access your HubSpot workspace\n2. **Map fields** - Link your form fields to HubSpot contact/company properties\n3. **Configure sync** - Choose which forms sync and how data transfers\n4. **Test** - Submit a test form to verify proper data mapping\n5. **Activate** - Enable sync for live form responses\n\n## Common Use Cases\n\n- Lead capture forms → HubSpot CRM\n- Survey responses → Contact enrichment\n- Event signups → Automated nurture workflows\n- Feedback collection → Customer data records\n\n## Limitations to Consider\n\n- Typically one-way sync (Mailmodo → HubSpot)\n- Field mapping must be set up for each form\n- May require HubSpot contacts/deals features\n\n**Need specific setup help?** Check Mailmodo's documentation or HubSpot's app marketplace listing for current integration details.",
-  "cached_at": "2026-05-28T07:35:34Z",
-  "metadata": {}
-}

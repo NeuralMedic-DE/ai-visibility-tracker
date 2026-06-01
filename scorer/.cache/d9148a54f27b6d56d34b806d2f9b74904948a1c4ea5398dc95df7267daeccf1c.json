@@ -1,9 +1,0 @@
-{
-  "brand": "Neon",
-  "prompt_id": "CD-03",
-  "llm": "perplexity",
-  "prompt_text": "Which database software should a Backend Engineer Lead at a startup use?",
-  "response": "For a **Backend Engineer Lead at a startup**, the safest default choice is **PostgreSQL**, usually through a managed platform like **Supabase** or **Neon** if you want faster setup and less operations overhead.[1][2]\n\nIf you need a more opinionated startup stack, **Supabase** is the strongest “all-in-one” option because it bundles PostgreSQL with authentication, Row Level Security, storage, real-time features, and edge functions.[1] If your priority is *just* managed relational database infrastructure with a more traditional cloud setup, services like **Amazon RDS** or **Amazon Aurora** are commonly recommended for startups, especially in AWS-heavy environments.[3]\n\nA practical decision rule is:\n\n- **Choose Supabase** if you want the backend platform and database in one place.[1]\n- **Choose Neon** if you want serverless PostgreSQL and branching for development workflows.[1]\n- **Choose Amazon RDS/Aurora** if your team already runs on AWS and wants a standard managed relational database.[3]\n- **Choose PlanetScale** if you need MySQL/Postgres compatibility and reliability-focused scale.[1]\n\nFor most startups, especially early-stage product teams, **PostgreSQL** is the best core database choice because it is open-source, widely supported, and flexible for both SaaS and general backend workloads.[1][2]",
-  "cached_at": "2026-05-28T06:17:43Z",
-  "metadata": {}
-}

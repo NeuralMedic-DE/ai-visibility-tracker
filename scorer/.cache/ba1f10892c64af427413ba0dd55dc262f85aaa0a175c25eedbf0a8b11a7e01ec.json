@@ -1,9 +1,0 @@
-{
-  "brand": "LeadIQ",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable CRM tools instead of Apollo.io",
-  "response": "# Open Source & Affordable CRM Alternatives to Apollo.io\n\n## **Free/Open Source Options**\n\n### **Odoo CRM**\n- Fully open source, self-hosted or cloud\n- Complete ERP suite (inventory, accounting, etc.)\n- Good for small teams\n- Steep learning curve\n\n### **Frappe/ERPNext**\n- Open source, built on Python\n- Free self-hosted version\n- CRM + accounting + HR\n- Better for technical teams\n\n### **Plane** (Project-focused)\n- Open source, GitHub-based\n- More for project management than traditional CRM\n- Good for developer/tech-heavy teams\n\n### **HubSpot Free Plan**\n- Actually free (not open source)\n- Contact management, email tracking, basic automation\n- Limitations: 1 user, basic features\n- Good entry point\n\n## **Affordable Paid Options**\n\n| Tool | Price | Best For |\n|------|-------|----------|\n| **Pipedrive** | $14-99/user/mo | Sales pipelines, simplicity |\n| **Freshsales** | $18-79/user/mo | Growing teams, automation |\n| **Zoho CRM** | $18-55/user/mo | Integrated ecosystem (email, docs, etc.) |\n| **Monday.com** | $99+/mo | Visual workflow, flexibility |\n| **Close.com** | $99+/mo | Sales focus, calling built-in |\n\n## **Best for Apollo.io Replacement Specifically**\n\n**Freshsales** or **Zoho CRM** — both offer:\n- Email tracking & sequences\n- Lead scoring\n- Multi-channel outreach\n- Affordable pricing\n- Good integrations\n\nWhat's your main use case? That'll help narrow it down.",
-  "cached_at": "2026-05-27T18:43:55Z",
-  "metadata": {}
-}

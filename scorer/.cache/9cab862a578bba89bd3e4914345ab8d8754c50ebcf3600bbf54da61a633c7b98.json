@@ -1,9 +1,0 @@
-{
-  "brand": "Braintrust",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with run A/B tests across different models and prompt versions to find optimal configurations at scale?",
-  "response": "There are several software tools and platforms that can help you run A/B tests across different models and prompt versions to find optimal configurations at scale. Some of the popular ones include:\n\n1. **Optimizely**: A leading experimentation platform that allows you to run A/B tests and optimize digital experiences across web, mobile, and other channels.\n\n2. **Google Optimize**: A free tool that integrates with Google Analytics to help you run A/B tests and personalize your website content.\n\n3. **Adobe Target**: Part of Adobe Experience Cloud, it offers robust A/B testing and personalization capabilities to optimize customer experiences.\n\n4. **VWO (Visual Website Optimizer)**: A comprehensive platform for A/B testing, multivariate testing, and conversion optimization.\n\n5. **LaunchDarkly**: Primarily a feature management platform, it also supports A/B testing and experimentation to help you optimize feature rollouts.\n\n6. **Split.io**: A feature flagging and experimentation platform that allows you to test different versions of your features and measure their impact.\n\n7. **AB Tasty**: Offers A/B testing, personalization, and experimentation tools to optimize user experiences across digital touchpoints.\n\nThese tools typically provide features like traffic segmentation, statistical analysis, and reporting to help you make data-driven decisions. Depending on your specific needs, such as integration with existing systems or the scale of your operations, you might choose one over the others.",
-  "cached_at": "2026-05-28T07:47:32Z",
-  "metadata": {}
-}

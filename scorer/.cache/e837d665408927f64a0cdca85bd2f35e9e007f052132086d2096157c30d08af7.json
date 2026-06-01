@@ -1,9 +1,0 @@
-{
-  "brand": "Rippling",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I automate HR payroll benefits and IT provisioning in a single platform without spending a lot on software?",
-  "response": "# Budget-Friendly HR Automation Options\n\n## Low-Cost Platforms to Consider\n\n**Spreadsheet + Automation Tools** (cheapest start)\n- Google Sheets + Zapier or Make.com to connect systems\n- Build intake forms → auto-populate spreadsheets → trigger notifications\n- Works surprisingly well for small teams (<50 people)\n\n**All-in-One HR Platforms** (mid-range)\n- **Rippling** ($8-15/employee/month) - handles payroll, benefits, and IT provisioning in one place\n- **BambooHR** + integration layer for IT tasks\n- **Deel** - strong for payroll/benefits with some IT features\n\n**Open-Source / Self-Hosted** (lowest cost, higher effort)\n- **OpenHRM** or **Odoo** (free, but requires technical setup)\n- You host it; IT team manages it\n\n## The Practical Hybrid Approach\n\n1. **Pick your anchor tool** - probably an HR platform that does payroll + benefits well\n2. **Use free/cheap connectors** - Zapier (100 tasks free/month) or Make to link it to:\n   - Your IT systems (Okta, Active Directory, Slack)\n   - Communication tools (email, Slack notifications)\n3. **Automate the repeatable parts first** - new hire workflows typically save the most time\n\n## Quick Reality Check\n- How many employees?\n- Are you managing payroll in-house or outsourcing?\n- What IT systems do you currently use?\n\nThese details matter a lot for which path makes sense. The all-in-one approach typically saves money vs. piecing things together—but only if you'll actually use all the features.",
-  "cached_at": "2026-05-28T06:27:44Z",
-  "metadata": {}
-}

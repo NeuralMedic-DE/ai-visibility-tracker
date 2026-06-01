@@ -1,9 +1,0 @@
-{
-  "brand": "Pilot",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Pilot integrate with Stripe?",
-  "response": "Yes. **Pilot does integrate with Stripe.**\n\nAccording to Pilot’s official integrations page, **Stripe** is listed as one of the supported “Payment & Money Transfer” integrations alongside providers like PayPal, Square, and Shopify.[3]  \n\nStripe also lists **Pilot** in its own partner ecosystem directory, indicating an official relationship between the two products.[4]",
-  "cached_at": "2026-05-28T07:04:13Z",
-  "metadata": {}
-}

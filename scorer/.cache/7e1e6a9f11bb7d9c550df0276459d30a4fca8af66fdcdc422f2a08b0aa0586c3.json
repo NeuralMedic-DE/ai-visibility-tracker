@@ -1,9 +1,0 @@
-{
-  "brand": "Leapsome",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which HR software should a People Ops Lead or Head of HR at a fast-growing startup use?",
-  "response": "# HR Software for Fast-Growing Startups\n\nThe best choice depends on your specific priorities, but here's a practical framework:\n\n## If you want **all-in-one simplicity**\n- **Rippling** or **Guidepoint** – handle payroll, benefits, compliance, and devices in one system\n- Good if you're tired of tool sprawl and want integrated workflows\n\n## If you prioritize **ease of use + growth flexibility**\n- **BambooHR** – strongest for mid-market, strong reporting, scales well\n- **Deel** – excellent if you have international/remote employees\n\n## If you're **very early** (under 50 people)\n- **Guidepoint** or even **Ashby** (if you're also hiring heavily)\n- Lower overhead, won't overkill your needs\n\n## If **compliance/audit trails matter** (regulated industry)\n- **Rippling** – most robust\n- **BambooHR** – solid alternative\n\n## Honest trade-offs to consider:\n- **Rippling**: Most powerful, but steeper learning curve and pricier\n- **BambooHR**: Best balance of power/usability, but doesn't handle payroll directly in all regions\n- **Guidepoint**: Very user-friendly, growing fast, but smaller ecosystem\n- **Deel**: Best for distributed teams, weaker on domestic US HR workflows\n\n**My suggestion**: Talk to 2-3 vendors about your specific pain points (hiring velocity? International growth? Compliance needs?). The \"best\" system is the one that solves *your* bottleneck right now.\n\nWhat's your biggest HR headache currently?",
-  "cached_at": "2026-05-28T06:36:59Z",
-  "metadata": {}
-}

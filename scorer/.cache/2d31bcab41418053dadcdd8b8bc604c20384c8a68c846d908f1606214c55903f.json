@@ -1,9 +1,0 @@
-{
-  "brand": "Sentry",
-  "prompt_id": "UC-05",
-  "llm": "perplexity",
-  "prompt_text": "What software helps with monitor application performance and response latency at scale?",
-  "response": "Software that helps with **monitoring application performance and response latency at scale** is typically called **Application Performance Monitoring (APM)** software, often paired with **network performance monitoring** or **synthetic monitoring** tools.[2][7]\n\nExamples from the results include:\n\n- **SolarWinds Server & Application Monitor (SAM)** — built for server and application response-time monitoring, with application templates, alerting on baseline deviations, and scalability for multi-environment monitoring.[1]\n- **Keysight Hawkeye** — synthetic network performance monitoring that measures user experience in real time and tracks response times across distributed infrastructure.[2]\n- **Keysight Eggplant Monitoring** — synthetic APM that simulates user interactions and measures load times, download speeds, and latency.[2]\n- **Retrace** — monitors application metrics, HTTP checks, response times, status codes, errors, logs, and server performance.[3]\n- **Datadog** — described as a SaaS platform designed to monitor cloud-scale applications.[5]\n\nIf you want, I can also narrow this to the **best options for cloud-native systems, microservices, or enterprise on-prem environments**.",
-  "cached_at": "2026-05-27T21:22:52Z",
-  "metadata": {}
-}

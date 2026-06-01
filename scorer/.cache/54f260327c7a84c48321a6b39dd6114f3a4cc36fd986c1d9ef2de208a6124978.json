@@ -1,9 +1,0 @@
-{
-  "brand": "Plausible",
-  "prompt_id": "CD-04",
-  "llm": "anthropic",
-  "prompt_text": "Best web analytics platforms for track website traffic without cookies or consent banners",
-  "response": "# Privacy-First Web Analytics Platforms\n\n## Top Cookie-Free Options\n\n### **Plausible Analytics**\n- Server-side tracking, no cookies needed\n- GDPR/CCPA compliant by default\n- Clean dashboard, essential metrics\n- ~$20/month starting price\n\n### **Fathom Analytics**\n- Similar to Plausible, European-based\n- No cookies, no personal data stored\n- Simple interface\n- ~$14/month\n\n### **Simple Analytics**\n- GDPR-compliant, cookie-free\n- Privacy-focused Dutch company\n- Good for small sites\n- ~$20/month\n\n### **Heap**\n- Session recording + analytics\n- Can work without cookies\n- More enterprise-focused\n- Freemium model available\n\n### **GoAccess**\n- Open-source, self-hosted option\n- Analyze logs directly\n- One-time setup cost\n- Free\n\n### **Pirsch**\n- German privacy tool\n- No cookie consent needed\n- GDPR compliant\n- Affordable pricing\n\n## What You Get Without Cookies\n\n✅ Page views, sessions, referrers\n✅ Geographic location (approximate)\n✅ Device/browser info\n✅ Conversion tracking\n✅ Goal monitoring\n\n❌ Cross-domain tracking (limited)\n❌ User identification across sites\n❌ Detailed behavioral patterns\n\n## Implementation Tips\n\n- Use **hashed IP addresses** instead of full IPs\n- Rely on **first-party server-side tracking**\n- Focus on **aggregate data** rather than individuals\n- Still check your jurisdiction's regulations\n\n**Most realistic choice for SMBs:** Plausible or Fathom offer the best balance of features, ease, and compliance.",
-  "cached_at": "2026-05-27T20:17:02Z",
-  "metadata": {}
-}

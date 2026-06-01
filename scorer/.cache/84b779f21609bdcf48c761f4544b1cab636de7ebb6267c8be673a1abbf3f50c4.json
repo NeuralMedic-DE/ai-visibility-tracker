@@ -1,9 +1,0 @@
-{
-  "brand": "Totango",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Totango integrate with Salesforce?",
-  "response": "Yes, Totango integrates with Salesforce. This integration allows you to sync customer data between the two platforms, enabling you to leverage Salesforce data within Totango for customer success management. This can help in tracking customer health, managing accounts, and enhancing customer engagement strategies.",
-  "cached_at": "2026-05-28T08:14:33Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Copper",
-  "prompt_id": "CD-01",
-  "llm": "openai",
-  "prompt_text": "What is the best CRM for Google Workspace power users?",
-  "response": "For Google Workspace power users, Copper is often considered one of the best CRM options. It is specifically designed to integrate seamlessly with Google Workspace (formerly G Suite), offering native integration with Gmail, Google Calendar, Google Drive, and other Google apps. This integration allows users to manage their customer relationships directly from their Google Workspace environment without needing to switch between different platforms.\n\nCopper automatically logs emails and interactions, syncs with Google Calendar for scheduling, and allows users to manage tasks and projects with ease. Its user-friendly interface and automation features make it a popular choice for teams that rely heavily on Google Workspace for their daily operations.",
-  "cached_at": "2026-05-27T18:20:00Z",
-  "metadata": {}
-}

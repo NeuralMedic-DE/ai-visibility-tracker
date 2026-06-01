@@ -1,9 +1,0 @@
-{
-  "brand": "Grip Security",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Nudge Security vs alternatives: what should I switch to?",
-  "response": "# Nudge Security Alternatives\n\nI'd need more context about your specific needs, but here are the main contenders:\n\n## If you're leaving Nudge for...\n\n**Better SaaS app governance:**\n- **Veza** - More comprehensive identity/access mapping\n- **Saviynt** - Stronger for enterprise scale\n- **Delinea** - Better secret management focus\n\n**Broader cloud security:**\n- **Lacework** - CNAPP with better cloud workload coverage\n- **Wiz** - Simpler UX, faster onboarding\n- **Orca Security** - Good agentless scanning\n\n**Identity/access focused:**\n- **Okta Identity Governance** - If you're already in their ecosystem\n- **Cloudentity** - Better for fine-grained access control\n\n## Key questions to ask yourself:\n\n1. **What's the main pain point?** (Shadow IT detection? Overprivileged accounts? Compliance reporting?)\n2. **Your stack?** (Microsoft 365-heavy vs. mixed SaaS?)\n3. **Scale?** (SMB vs. enterprise?)\n4. **Integration needs?** (SIEM, SOAR, ticketing?)\n\n**What specifically dissatisfies you with Nudge?** That'll help narrow it down—the best alternative depends heavily on whether it's cost, features, UX, or integration issues.",
-  "cached_at": "2026-05-28T08:41:21Z",
-  "metadata": {}
-}

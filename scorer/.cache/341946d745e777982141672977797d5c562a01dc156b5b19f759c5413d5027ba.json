@@ -1,9 +1,0 @@
-{
-  "brand": "Instantly",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best sales engagement that works with HubSpot and Clay",
-  "response": "# Best Sales Engagement Tools for HubSpot + Clay\n\n## Top Recommendations\n\n### **1. Outreach.io** (Best Overall)\n- **Native HubSpot integration** with two-way sync\n- **Clay integration** via Zapier or API\n- Cadences, email tracking, call recording\n- Advanced analytics and ROI tracking\n- **Best for:** Enterprise teams wanting full engagement stack\n\n### **2. Salesloft**\n- Deep HubSpot integration (CRM sync, activity logging)\n- Clay compatible via webhooks/API\n- Conversation intelligence, call recording\n- Cadence automation\n- **Best for:** Call-focused teams\n\n### **3. Apollo.io**\n- Built-in HubSpot sync\n- Works with Clay's data enrichment\n- Email sequences, calling, SMS\n- Lower price point (~$49-99/user)\n- **Best for:** SMBs and fast-growing startups\n\n### **4. lemlist**\n- Native HubSpot integration\n- Clay syncs directly into lemlist\n- Hyper-personalization focus\n- Email + LinkedIn outreach\n- **Best for:** Personalization-first teams\n\n## HubSpot + Clay Specific Setup\n\n**Optimal workflow:**\n1. **Clay** enriches leads with intent data & firmographics\n2. **Push to HubSpot** (custom objects or standard fields)\n3. **Engagement tool** pulls from HubSpot → runs campaigns\n4. Activities loop back to HubSpot for visibility\n\n## Budget-Friendly Option\n- **HubSpot Sales Hub** ($50+) + **Clay** + **Zapier**\n- Use sequences in HubSpot natively\n\n**What's your priority:** Calling, email personalization, or budget?",
-  "cached_at": "2026-05-28T07:19:33Z",
-  "metadata": {}
-}

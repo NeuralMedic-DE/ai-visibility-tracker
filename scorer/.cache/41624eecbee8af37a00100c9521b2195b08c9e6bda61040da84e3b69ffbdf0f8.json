@@ -1,9 +1,0 @@
-{
-  "brand": "Matillion",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Matillion with Snowflake?",
-  "response": "# Connecting Matillion with Snowflake\n\nHere's a step-by-step guide:\n\n## 1. **Gather Snowflake Credentials**\nYou'll need:\n- **Account identifier** (e.g., `xy12345.us-east-1`)\n- **Username** and **password**\n- **Warehouse name**\n- **Database name**\n- **Schema name**\n- **Role** (optional, but recommended)\n\n## 2. **In Matillion UI**\n\n### Create a New Connection:\n1. Go to **Administration** → **Connections**\n2. Click **Create Connection**\n3. Select **Snowflake** as the connection type\n4. Fill in the required fields:\n   - Connection Name\n   - Account Identifier\n   - Username\n   - Password\n   - Warehouse\n   - Database\n   - Schema\n   - Role\n\n### 5. **Test the Connection**\n- Click **Test Connection** to verify\n- Save if successful\n\n## 3. **Use in Jobs**\nOnce connected, you can:\n- Create **Data Exchange** jobs\n- Use **Snowflake Query** components\n- Load data from/to Snowflake\n- Transform data in your pipelines\n\n## Important Notes:\n- ✅ Use a **dedicated service account** (not personal credentials)\n- ✅ Ensure the user has appropriate **Snowflake role permissions**\n- ✅ Consider using **key pair authentication** for production (more secure than password)\n- ✅ Test connectivity from your Matillion environment to Snowflake\n\n**Need help with a specific step or authentication method?**",
-  "cached_at": "2026-05-28T09:01:04Z",
-  "metadata": {}
-}

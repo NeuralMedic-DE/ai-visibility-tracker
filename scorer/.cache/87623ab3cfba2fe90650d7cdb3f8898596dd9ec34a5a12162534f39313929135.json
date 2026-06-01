@@ -1,9 +1,0 @@
-{
-  "brand": "Amplemarket",
-  "prompt_id": "IN-05",
-  "llm": "openai",
-  "prompt_text": "CRM tools with native Salesforce integration",
-  "response": "There are several CRM tools that offer native integration with Salesforce, allowing for seamless data synchronization and enhanced functionality. Some of the popular ones include:\n\n1. **HubSpot CRM**: Offers native integration with Salesforce, enabling users to sync contacts, leads, and other data between the two platforms.\n\n2. **Pardot**: A marketing automation tool by Salesforce that integrates natively with Salesforce CRM, providing features like lead nurturing, email marketing, and ROI reporting.\n\n3. **Marketo**: Provides a robust integration with Salesforce, allowing for advanced marketing automation and lead management capabilities.\n\n4. **Zoho CRM**: Offers native integration with Salesforce, facilitating data synchronization and enhanced customer relationship management.\n\n5. **Mailchimp**: While primarily an email marketing tool, Mailchimp integrates with Salesforce to sync contact and campaign data.\n\n6. **Slack**: Now owned by Salesforce, Slack offers native integration to enhance team collaboration and streamline communication directly within Salesforce.\n\n7. **Outreach**: A sales engagement platform that integrates with Salesforce to help streamline sales processes and improve productivity.\n\n8. **Gong.io**: Provides conversational analytics and integrates with Salesforce to offer insights into sales calls and meetings.\n\nThese tools can help enhance the capabilities of Salesforce by providing additional features and functionalities tailored to specific business needs.",
-  "cached_at": "2026-05-27T19:02:29Z",
-  "metadata": {}
-}

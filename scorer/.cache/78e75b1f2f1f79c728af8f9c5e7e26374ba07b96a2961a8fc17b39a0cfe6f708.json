@@ -1,9 +1,0 @@
-{
-  "brand": "Folk",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Folk integrate with Gmail?",
-  "response": "Yes — **folk does integrate with Gmail**. Folk’s integrations page says it supports Gmail, and that emails and meetings from Gmail can sync into folk CRM and appear linked to the right contact.[4]\n\nIt also appears to support Gmail in a few ways:\n- **Native Gmail sync** for conversations, contacts, and activities.[4][5]\n- A **Gmail-focused CRM extension** (“folkX”) that lets you capture contacts and add notes from inside Gmail.[5][6]\n- **Automation via Zapier** for workflows between Gmail and folk.[2][3]\n\nIf you want, I can also tell you whether it supports **two-way sync**, **email tracking**, or **sending emails from Gmail through folk**.",
-  "cached_at": "2026-05-27T18:58:42Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "June.so",
-  "prompt_id": "CD-01",
-  "llm": "perplexity",
-  "prompt_text": "What is the best product analytics for early-stage B2B SaaS teams?",
-  "response": "For **early-stage B2B SaaS teams**, the best default choice is usually **Mixpanel or PostHog**: Mixpanel is strongest if you want fast setup and clear product metrics, while PostHog is attractive if you want a startup-friendly stack with a free tier and broader experimentation tools.[1][2]\n\nIf you want a simple decision rule:\n\n- **Mixpanel** — best for **quick insights** and teams that want to answer product questions fast without heavy implementation.[1]\n- **PostHog** — best for **budget-conscious early-stage teams** that want behavioral analytics and a free/startup-friendly option.[2]\n- **Amplitude** — best once you need **deeper behavioral analysis** and more scalable analytics, though it is often better suited to companies past the very earliest stage.[1][6]\n- **Pendo** — best if your priority is **in-app onboarding, feature adoption, and user guidance** rather than analytics alone.[1]\n\nFor early-stage B2B SaaS, the practical priority is usually **ease of use, rapid implementation, and a small set of core metrics** like activation, retention, feature adoption, and churn.[1][3][5] Metabase’s B2B SaaS metrics guide emphasizes building a dashboard around the key product and revenue metrics first, then drilling into the laggards rather than trying to instrument everything at once.[3]\n\nIf you want the shortest answer: **choose Mixpanel if you want the best general-purpose product analytics tool; choose PostHog if cost and startup flexibility matter most.**[1][2]",
-  "cached_at": "2026-05-27T19:59:05Z",
-  "metadata": {}
-}

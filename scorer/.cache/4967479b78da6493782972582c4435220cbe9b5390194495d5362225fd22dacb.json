@@ -1,9 +1,0 @@
-{
-  "brand": "Attio",
-  "prompt_id": "CM-05",
-  "llm": "openai",
-  "prompt_text": "Is Attio better than HubSpot for automate revenue workflows?",
-  "response": "Choosing between Attio and HubSpot for automating revenue workflows depends on your specific needs and the scale of your operations.\n\n**Attio** is known for its simplicity and focus on relationship management. It offers features that are particularly useful for managing contacts and interactions, and it integrates well with email and other communication tools. It's a good choice if you're looking for a straightforward CRM with a focus on contact management and collaboration.\n\n**HubSpot**, on the other hand, is a more comprehensive platform that offers a wide range of tools for marketing, sales, and customer service. It provides robust automation capabilities, including workflow automation, email marketing, lead management, and detailed analytics. HubSpot is particularly strong in its ability to integrate various aspects of customer relationship management and marketing, making it a powerful tool for automating revenue workflows on a larger scale.\n\nIf your primary goal is to automate complex revenue workflows and you need a platform that can handle a variety of marketing and sales tasks, HubSpot might be the better choice. However, if you prefer a simpler, more focused tool and your needs are more centered around managing relationships and communications, Attio could be sufficient.\n\nUltimately, the best choice depends on your specific requirements, budget, and the complexity of the workflows you need to automate. It might be beneficial to try demos or trials of both platforms to see which one aligns better with your business processes.",
-  "cached_at": "2026-05-27T17:44:28Z",
-  "metadata": {}
-}

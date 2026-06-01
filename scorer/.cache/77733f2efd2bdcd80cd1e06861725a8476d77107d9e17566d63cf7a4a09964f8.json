@@ -1,9 +1,0 @@
-{
-  "brand": "Close",
-  "prompt_id": "IN-05",
-  "llm": "anthropic",
-  "prompt_text": "CRM tools with native Slack integration",
-  "response": "# CRM Tools with Native Slack Integration\n\n## Top Options\n\n### **Salesforce**\n- **Slack for Salesforce** app (native integration)\n- View records, log activities, send updates without leaving Slack\n- Einstein AI features in Slack\n- Best for: Enterprise teams\n\n### **HubSpot**\n- Built-in Slack integration\n- Get notifications, manage tasks, log calls\n- Sync contacts and deals\n- Best for: Mid-market, startups\n\n### **Pipedrive**\n- Native Slack app\n- Activity notifications, deal updates, activity logging\n- Quick call/email logging from Slack\n- Best for: Sales-focused teams\n\n### **Freshsales**\n- Integrated Slack bot\n- Contact info lookup, lead assignments\n- Activity notifications\n- Best for: SMBs\n\n### **Zoho CRM**\n- Native Slack integration\n- Record updates, task management\n- Event notifications\n- Best for: Budget-conscious teams\n\n### **Microsoft Dynamics 365**\n- Slack integration via Teams or direct connection\n- Enterprise-grade features\n- Best for: Microsoft ecosystem users\n\n### **Copper** (by HubSpot)\n- Gmail-native CRM with Slack support\n- Best for: Gmail-heavy teams\n\n## Key Integration Features to Look For\n✅ Real-time notifications  \n✅ Activity logging from Slack  \n✅ Record lookups  \n✅ Task/deal management  \n✅ Custom workflows  \n✅ Two-way sync  \n\n**What's your team size or use case?** This helps narrow down the best fit.",
-  "cached_at": "2026-05-27T17:51:52Z",
-  "metadata": {}
-}

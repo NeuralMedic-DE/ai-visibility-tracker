@@ -1,9 +1,0 @@
-{
-  "brand": "Nutshell",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which CRM software should a sales manager at an SMB use?",
-  "response": "# CRM Selection for SMB Sales Managers\n\nThe best choice depends on your specific needs, but here's a practical framework:\n\n## Top contenders for SMBs:\n\n**HubSpot CRM** (free tier available)\n- Most user-friendly for smaller teams\n- Good free version, affordable paid tiers\n- Strong for sales pipeline management\n\n**Pipedrive**\n- Built specifically for sales processes\n- Intuitive visual pipeline\n- Good mobile app\n\n**Zoho CRM**\n- Very affordable\n- Flexible customization\n- Good automation capabilities\n\n**Microsoft Dynamics 365 Sales**\n- If you use Outlook/Microsoft ecosystem already\n- Integrates seamlessly with Teams, Excel\n\n## Key questions to ask first:\n\n1. **Team size & budget?** (impacts affordability)\n2. **What's your main pain point?** (pipeline visibility, forecasting, lead tracking)\n3. **Integration needs?** (accounting software, email, existing tools)\n4. **How technical is your team?** (ease of adoption matters)\n5. **Mobile requirements?** (field sales vs. office-based)\n\n## Quick recommendation:\nStart with **HubSpot's free tier** to test the basics—minimal commitment, and you can upgrade if it works. For slightly more advanced needs at low cost, **Pipedrive** is excellent.\n\nWhat specific challenges are you trying to solve with a CRM?",
-  "cached_at": "2026-05-27T18:32:47Z",
-  "metadata": {}
-}

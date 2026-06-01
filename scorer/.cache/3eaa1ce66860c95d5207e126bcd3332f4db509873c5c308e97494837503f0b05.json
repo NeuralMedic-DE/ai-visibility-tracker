@@ -1,9 +1,0 @@
-{
-  "brand": "Neon",
-  "prompt_id": "UC-03",
-  "llm": "perplexity",
-  "prompt_text": "What tools do developer teams building SaaS and AI applications companies use to spin up serverless Postgres databases instantly with auto-suspend?",
-  "response": "Developer teams building SaaS and AI applications commonly use **Neon** and **Amazon Aurora Serverless** to spin up serverless Postgres databases quickly with **auto-suspend / scale-to-zero** behavior.[4][1]\n\n- **Neon** is built for serverless Postgres: it advertises that inactive databases “pause on their own,” can “spin up in milliseconds,” and supports API-based fleet management, which is especially relevant for codegen and agent platforms.[4]\n- **Amazon Aurora Serverless v2** also supports PostgreSQL and can automatically pause when configured with a minimum capacity of **0 ACUs** and an idle timeout, resuming when connections arrive.[1]\n- For teams using infrastructure-as-code, **Terraform** is a common way to provision Aurora Serverless with auto-pause settings.[2]\n\nIf you want the shortest practical answer: **Neon is the most directly aligned tool for instant serverless Postgres with auto-suspend, while Aurora Serverless is the main AWS-native alternative.[4][1]**",
-  "cached_at": "2026-05-28T06:19:31Z",
-  "metadata": {}
-}

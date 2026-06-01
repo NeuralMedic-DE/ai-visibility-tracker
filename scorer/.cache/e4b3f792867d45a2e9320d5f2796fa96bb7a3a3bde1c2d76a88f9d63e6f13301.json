@@ -1,9 +1,0 @@
-{
-  "brand": "Retool",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is Retool better than Budibase for create CRUD apps without full-stack engineering effort?",
-  "response": "# Retool vs Budibase for CRUD Apps\n\nBoth are solid low-code platforms, but they have different strengths:\n\n## **Retool** (Better for rapid CRUD)\n- **Faster initial setup** - connects to databases immediately with auto-generated UI\n- **Richer component library** - more polished out-of-the-box\n- **Better for internal tools** - especially if you have complex data relationships\n- **Smoother for quick iterations** - UI building feels more intuitive\n- **Downside**: Pricing scales with usage; can get expensive\n\n## **Budibase** (Better for flexibility)\n- **Self-hostable** - no vendor lock-in concerns\n- **More extensible** - easier to customize beyond drag-and-drop\n- **Better for user-facing apps** - design feels less \"internal tool\"\n- **Cheaper** - especially at scale\n- **Downside**: Takes slightly longer to get functional, steeper learning curve\n\n## **Quick Decision Framework**\n\nChoose **Retool** if you need:\n- CRUD in 1-2 hours\n- Complex queries/relationships\n- Internal team tools\n\nChoose **Budibase** if you need:\n- Self-hosting/data sovereignty\n- Custom branding\n- Long-term cost control\n\n## **Reality Check**\nBoth eliminate most full-stack work. The real friction point isn't the tool—it's unclear requirements. Spend 30 mins clarifying your data structure before picking either.\n\nHave you picked a database yet? That often matters more than the platform choice.",
-  "cached_at": "2026-05-27T20:56:55Z",
-  "metadata": {}
-}

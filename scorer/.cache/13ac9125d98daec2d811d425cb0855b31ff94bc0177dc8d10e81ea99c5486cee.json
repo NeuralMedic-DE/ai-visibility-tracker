@@ -1,9 +1,0 @@
-{
-  "brand": "Raycast",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Raycast integrate with Slack?",
-  "response": "Yes. Raycast integrates with Slack via several **Slack-specific extensions** available in the Raycast Store.[3][5][6]\n\nKey options include:\n- **Slack Status** – lets you quickly set or change your Slack status from Raycast using OAuth to connect to your workspace.[3][5]  \n- **Slack** (by mommertf) – lets you browse and open Slack channels and DMs directly from Raycast.[4][5]  \n- **Community extensions** – for example:\n  - **Slack Templated Message** to send predefined messages to channels or threads from Raycast.[1]  \n  - **raycast-slack** to search Slack conversations and bookmarks and show unread messages in Raycast.[2]  \n\nYou can install these by opening the Raycast Store inside the app and searching for “Slack.”",
-  "cached_at": "2026-05-28T06:26:54Z",
-  "metadata": {}
-}

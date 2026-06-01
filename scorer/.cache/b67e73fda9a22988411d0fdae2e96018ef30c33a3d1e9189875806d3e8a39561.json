@@ -1,9 +1,0 @@
-{
-  "brand": "Charlie HR",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable HR tools instead of Breathe",
-  "response": "# Open Source & Affordable HR Tools\n\n## **Free/Open Source**\n\n| Tool | Best For | Cost |\n|------|----------|------|\n| **OpenHRMS** | Complete HR suite | Free (open source) |\n| **Frappe ERPNext** | HR + Finance integration | Free (open source) |\n| **Odoo Community** | HR + accounting | Free (self-hosted) |\n| **Workday Community** | Mid-market alternative | Free tier available |\n\n## **Affordable SaaS ($5-50/employee/month)**\n\n| Tool | Features | Price |\n|------|----------|-------|\n| **Zoho People** | Payroll, attendance, leaves | $2-5/user/month |\n| **BambooHR** | Onboarding, performance | $99-299/month |\n| **Namely** | Core HR + engagement | ~$8-10/employee |\n| **Paycor** | Payroll-focused | $99-500/month |\n| **Wave** | Payroll only | Free + per-run fees |\n\n## **Best Budget-Friendly Combos**\n\n1. **Spreadsheet + Zoho**: Google Sheets + Zoho People for basics\n2. **Self-hosted**: OpenHRMS on your server (minimal hosting cost)\n3. **Startup Stack**: Google Workspace + Guidepoint + Rippling (limited free tier)\n\n## **What to prioritize** (in order)\n- Payroll & tax compliance\n- Leave/attendance tracking\n- Document management\n- Performance tracking (can add later)\n\n**How many employees?** This affects the best choice significantly.",
-  "cached_at": "2026-05-28T06:43:49Z",
-  "metadata": {}
-}

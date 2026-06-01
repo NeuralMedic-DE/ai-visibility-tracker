@@ -1,9 +1,0 @@
-{
-  "brand": "Neon",
-  "prompt_id": "CM-02",
-  "llm": "anthropic",
-  "prompt_text": "Neon vs PlanetScale pricing and features",
-  "response": "# Neon vs PlanetScale Comparison\n\n## Pricing\n\n| Feature | Neon | PlanetScale |\n|---------|------|-----------|\n| **Free Tier** | 5 GB storage, 20 GB bandwidth/month | 5 GB storage, unlimited API reads |\n| **Pay-as-you-go** | $0.3/GB storage + $0.09/GB compute | $0.8/million reads, $1/million writes |\n| **Dedicated Plan** | $15-200+/month | $39-200+/month |\n| **Storage** | Cheaper per GB | More expensive per GB |\n| **Compute** | Charged separately | Included (first tier) |\n\n## Key Features\n\n### Neon\n✅ **Strengths:**\n- PostgreSQL (not MySQL)\n- Branching (dev/staging databases)\n- Point-in-time recovery\n- Auto-scaling compute\n- Better for complex queries\n- Lower storage costs\n- Generous free tier\n\n❌ **Weaknesses:**\n- Smaller ecosystem\n- Less mature than PlanetScale\n\n### PlanetScale\n✅ **Strengths:**\n- MySQL 8.0 compatible\n- Horizontal sharding ready\n- Instant clone/branch (via Vitess)\n- Strong for large-scale apps\n- Better for read-heavy workloads\n- No connection limits\n\n❌ **Weaknesses:**\n- More expensive storage\n- Less suitable for complex analytical queries\n\n## Quick Decision Guide\n\n| Choose **Neon** if | Choose **PlanetScale** if |\n|---|---|\n| You need PostgreSQL | You need MySQL |\n| Storage-heavy app | Query-heavy app (reads) |\n| Dev/staging branching | Horizontal scaling needed |\n| Budget-conscious | Already on MySQL ecosystem |\n\n**Both excel at serverless, auto-scaling databases.** Choice depends mainly on SQL dialect preference and workload type.",
-  "cached_at": "2026-05-28T06:17:38Z",
-  "metadata": {}
-}

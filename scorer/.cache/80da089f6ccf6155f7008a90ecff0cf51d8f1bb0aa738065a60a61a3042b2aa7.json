@@ -1,9 +1,0 @@
-{
-  "brand": "Anecdotes",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with build a unified compliance program that spans multiple regulatory frameworks simultaneously at scale?",
-  "response": "To build a unified compliance program that spans multiple regulatory frameworks simultaneously at scale, you can consider using Governance, Risk, and Compliance (GRC) software. Some popular GRC platforms that can help with this include:\n\n1. **RSA Archer**: Offers a comprehensive suite of solutions for managing risk, compliance, and governance across various frameworks.\n\n2. **ServiceNow GRC**: Provides tools for risk management, policy and compliance management, and audit management, allowing for integration across multiple regulatory requirements.\n\n3. **SAP GRC**: Offers solutions for access control, process control, and risk management, helping organizations manage compliance across different frameworks.\n\n4. **MetricStream**: Provides a platform for integrated risk management and compliance, supporting multiple regulatory frameworks.\n\n5. **LogicGate**: Offers a flexible platform that can be tailored to manage various compliance requirements and frameworks.\n\n6. **OneTrust**: Known for its privacy management capabilities, it also offers solutions for broader compliance management across different regulations.\n\nThese platforms typically offer features such as automated compliance tracking, risk assessment, policy management, and reporting, which can help streamline the process of managing compliance across multiple regulatory frameworks.",
-  "cached_at": "2026-05-28T08:36:14Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Lattice",
-  "prompt_id": "AL-05",
-  "llm": "openai",
-  "prompt_text": "Open source or affordable HR tools instead of 15Five",
-  "response": "If you're looking for open-source or affordable HR tools as alternatives to 15Five, here are a few options you might consider:\n\n1. **Open Source Options:**\n   - **OrangeHRM:** This is a popular open-source HR management tool that offers features like personnel information management, leave management, time and attendance tracking, and more.\n   - **Sentrifugo:** A free and open-source HR software that provides modules such as performance appraisal, employee self-service, leave management, and time tracking.\n\n2. **Affordable Options:**\n   - **BambooHR:** While not open-source, BambooHR offers a range of HR features at a competitive price, including applicant tracking, onboarding, and performance management.\n   - **Zoho People:** Part of the Zoho suite, this tool offers HR management features at an affordable price, including attendance tracking, leave management, and performance appraisals.\n   - **Gusto:** Primarily known for payroll, Gusto also offers HR features such as employee onboarding and benefits administration at a reasonable cost.\n   - **Freshteam by Freshworks:** Offers a free plan for small teams and includes features like applicant tracking, employee information management, and time-off management.\n\nThese tools provide a variety of HR functionalities that can help manage your HR processes efficiently without the higher cost associated with some premium solutions.",
-  "cached_at": "2026-05-28T06:30:02Z",
-  "metadata": {}
-}

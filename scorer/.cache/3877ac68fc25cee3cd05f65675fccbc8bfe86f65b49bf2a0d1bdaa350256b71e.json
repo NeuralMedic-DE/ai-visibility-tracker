@@ -1,9 +1,0 @@
-{
-  "brand": "Customer.io",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best marketing automation that works with Segment and Stripe",
-  "response": "# Best Marketing Automation Platforms for Segment + Stripe\n\n## Top Recommendations\n\n### 1. **Braze** (Best Overall)\n- **Why it's best**: Native Segment and Stripe integrations, real-time customer data\n- **Strengths**: Advanced segmentation, omnichannel (email, SMS, push, in-app)\n- **Best for**: E-commerce, subscription businesses\n- **Cost**: $500-2,000+/month\n\n### 2. **Klaviyo**\n- **Why it works**: Seamless Stripe sync, email + SMS specialization\n- **Strengths**: Built for e-commerce, excellent template builder, strong deliverability\n- **Best for**: Direct-to-consumer brands, SMBs\n- **Cost**: Free-$1,200+/month (based on contacts)\n\n### 3. **mParticle**\n- **Why it works**: Customer data platform + automation, integrates both platforms\n- **Strengths**: Real-time data syncing, audience segmentation\n- **Best for**: Larger companies needing CDP functionality\n- **Cost**: Custom pricing\n\n### 4. **HubSpot**\n- **Why it works**: All-in-one CRM with Segment/Stripe connectors\n- **Strengths**: Lead nurturing, sales integration, user-friendly\n- **Best for**: B2B, growing companies\n- **Cost**: $50-3,200+/month\n\n## Quick Comparison Table\n\n| Platform | Stripe Native | Segment Native | Best Feature | Price |\n|----------|---|---|---|---|\n| Braze | ✅ | ✅ | Omnichannel | $$$$ |\n| Klaviyo | ✅ Excellent | Via API | Email/SMS | $-$$$ |\n| mParticle | ✅ | ✅ | CDP | $$$$ |\n| HubSpot | ✅ | ✅ | All-in-one | $$$ |\n\n## My Recommendation\n**For most businesses: Klaviyo** (if email/SMS focused) or **Braze** (if you need full omnichannel)\n\nWhat's your primary use case? That'll help narrow it down further.",
-  "cached_at": "2026-05-28T07:15:10Z",
-  "metadata": {}
-}

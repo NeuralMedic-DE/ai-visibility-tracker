@@ -1,9 +1,0 @@
-{
-  "brand": "Amplemarket",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Amplemarket with Salesforce?",
-  "response": "# Connecting Amplemarket with Salesforce\n\nHere's how to set up the integration:\n\n## Basic Steps\n\n1. **Log into Amplemarket**\n   - Go to your account settings or integrations section\n   - Look for \"Connected Apps\" or \"Integrations\"\n\n2. **Find the Salesforce Integration**\n   - Search for or select Salesforce from available integrations\n   - Click \"Connect\" or \"Authorize\"\n\n3. **Authenticate with Salesforce**\n   - You'll be redirected to Salesforce login\n   - Log in with your Salesforce admin credentials\n   - Grant Amplemarket permission to access your Salesforce instance\n   - Confirm the authorization scopes\n\n4. **Configure Sync Settings**\n   - Choose which data to sync (contacts, leads, accounts, etc.)\n   - Set sync direction (one-way or two-way)\n   - Map fields between Amplemarket and Salesforce\n   - Select sync frequency\n\n5. **Test the Connection**\n   - Run a test sync to verify everything works\n   - Check that data appears correctly in both platforms\n\n## Important Notes\n\n- You'll need **admin access** in both Amplemarket and Salesforce\n- Data mapping typically happens automatically, but verify field matches\n- Check your Salesforce API limits if syncing large volumes\n\n**For detailed, current instructions**, I'd recommend checking:\n- Amplemarket's help documentation or support site\n- Your Salesforce admin settings for app authorization\n\nDo you need help with a specific step?",
-  "cached_at": "2026-05-27T19:04:46Z",
-  "metadata": {}
-}

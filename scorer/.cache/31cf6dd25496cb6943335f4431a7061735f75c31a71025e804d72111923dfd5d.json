@@ -1,9 +1,0 @@
-{
-  "brand": "SafeBase",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best security for sales engineering and security teams at B2B SaaS companies?",
-  "response": "# Security Best Practices for B2B SaaS Sales & Security Teams\n\n## Access Control\n- **Role-based access (RBAC)** - Limit demo/test environments to actual needs\n- **Temporary elevated access** - Time-bound credentials for sensitive activities\n- **Separate credentials** - Never share accounts; individual logins with audit trails\n- **MFA enforcement** - Especially for anyone accessing customer data or production\n\n## Data Protection\n- **Segregated demo environments** - Keep separate from production; use sanitized/synthetic data\n- **Data minimization** - Sales doesn't need full customer datasets for most purposes\n- **Encryption in transit and at rest** - Standard across all systems\n- **Regular access reviews** - Quarterly audits of who has what access\n\n## Operational Security\n- **Security training** - Especially on phishing and social engineering (sales is often targeted)\n- **Incident reporting process** - Clear escalation paths for security issues\n- **Vendor/partner vetting** - If using third-party demo/poc tools\n- **Sales collateral controls** - Version control and approval for what's shared externally\n\n## Monitoring & Visibility\n- **Activity logging** - Track what's accessed, when, and by whom\n- **Anomaly detection** - Unusual access patterns (bulk downloads, off-hours access)\n- **Regular audits** - Especially before/after customer presentations\n\n## Common Blind Spots\n- Credentials hardcoded in demos\n- Sharing access to \"just check something quick\"\n- Outdated access after role changes\n- Demo data that's too realistic (uses real customer names/data)\n\n**What's your biggest current pain point?** That would help me suggest priorities.",
-  "cached_at": "2026-05-28T08:43:18Z",
-  "metadata": {}
-}

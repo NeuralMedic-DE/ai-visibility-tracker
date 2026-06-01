@@ -1,9 +1,0 @@
-{
-  "brand": "ChurnZero",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which customer success software should a CS Manager or Head of Customer Success at a SaaS company use?",
-  "response": "# Top Customer Success Software for CS Leaders\n\nThe best choice depends on your specific needs, but here are the leading options:\n\n## **Best Overall Platforms**\n- **Gainsight** - Most comprehensive; strong analytics, playbooks, and executive dashboards\n- **Totango** - Excellent for health scoring and predictive churn; good scalability\n- **Vitally** - Modern, intuitive interface; great for mid-market SaaS\n- **Planhat** - Strong relationship mapping and revenue analytics\n\n## **By Use Case**\n\n**For scaling teams:**\n- Gainsight, Totango (robust workflow automation)\n\n**For data-driven decisions:**\n- Vitally, Gainsight (best dashboards and analytics)\n\n**For smaller teams:**\n- Vitally, Planhat (easier onboarding, less bloat)\n\n**For expansion revenue focus:**\n- Totango, Planhat (strong upsell/cross-sell tracking)\n\n## **Key Evaluation Criteria**\n- Does it integrate with your CRM/billing system?\n- How's the learning curve for your team?\n- Can it handle your customer volume?\n- What's the onboarding timeline?\n- Does it support your specific CS workflows?\n\n## **Budget Reality**\nMost enterprise-grade platforms start $10K-50K+/year. Smaller alternatives exist (HubSpot, Zendesk) but lack CS-specific features.\n\n**My suggestion:** Request demos from 2-3 options, run a pilot with your top choice for 30-60 days. Different solutions fit different maturity levels.\n\nWhat size is your customer base?",
-  "cached_at": "2026-05-28T08:06:28Z",
-  "metadata": {}
-}

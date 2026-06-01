@@ -1,9 +1,0 @@
-{
-  "brand": "Lattice",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with develop employee skills and track engagement scores over time at scale?",
-  "response": "# Learning & Development Platforms at Scale\n\nSeveral categories of software serve this purpose:\n\n## **Dedicated L&D Platforms**\n- **Cornerstone OnDemand** - Comprehensive skills tracking, learning paths, and analytics\n- **SAP SuccessFactors** - Enterprise-grade with skills intelligence\n- **Workday Learning** - Integrated with HR and talent management\n- **LinkedIn Learning** - Content library with user engagement tracking\n\n## **Specialized Skills Management**\n- **Degreed** - Skills mapping, learning recommendations, and engagement metrics\n- **Fuel50** - Internal mobility with skills-based career pathing\n- **Lattice** - Performance management + engagement tracking\n- **15Five** - Engagement and development with reporting\n\n## **Learning Experience Platforms (LXPs)**\n- **Axonify** - Microlearning with engagement analytics\n- **Docebo** - Scalable with AI-powered recommendations\n- **EdCast** - Personalized learning experiences\n\n## **Key Features to Look For**\n- Skills gap analysis and progress tracking\n- Engagement dashboards and benchmarking\n- Integration with your HRIS\n- Scalability for your workforce size\n- Reporting on ROI/business impact\n\n**Your choice depends on:** company size, budget, existing systems, and whether you need content creation tools or mainly tracking/analytics.\n\nWhat's your approximate organization size? That would help narrow recommendations.",
-  "cached_at": "2026-05-28T06:30:14Z",
-  "metadata": {}
-}

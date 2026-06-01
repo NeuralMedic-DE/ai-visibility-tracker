@@ -1,9 +1,0 @@
-{
-  "brand": "Pendo",
-  "prompt_id": "CD-04",
-  "llm": "openai",
-  "prompt_text": "Best product analytics platforms for guide users through in-app onboarding tours",
-  "response": "When looking for product analytics platforms that also offer features to guide users through in-app onboarding tours, you might want to consider the following options:\n\n1. **Mixpanel**: Primarily an analytics tool, Mixpanel offers features for tracking user interactions and can be integrated with other tools to create in-app onboarding experiences.\n\n2. **Amplitude**: Known for its robust analytics capabilities, Amplitude can be used alongside other tools to help design and measure the effectiveness of onboarding tours.\n\n3. **Pendo**: This platform combines product analytics with in-app messaging and guides, making it a strong choice for creating onboarding tours directly within the app.\n\n4. **Appcues**: Specializes in user onboarding and product adoption, allowing you to create in-app tours and measure their effectiveness with integrated analytics.\n\n5. **WalkMe**: Offers digital adoption solutions that include in-app guidance and analytics to help users navigate and understand your product.\n\n6. **Userpilot**: Focuses on user onboarding and product adoption with features for creating interactive guides and analyzing user behavior.\n\n7. **Heap**: Provides comprehensive analytics and can be paired with other onboarding tools to track and optimize user onboarding experiences.\n\n8. **Chameleon**: Offers in-app messaging and tours with analytics to help guide users through onboarding processes.\n\nThese platforms vary in their primary focus, so it's important to evaluate them based on your specific needs for analytics and onboarding capabilities.",
-  "cached_at": "2026-05-27T19:43:47Z",
-  "metadata": {}
-}

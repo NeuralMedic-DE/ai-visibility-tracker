@@ -1,9 +1,0 @@
-{
-  "brand": "Lattice",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to 15Five",
-  "response": "# Cheaper Alternatives to 15Five\n\n## Free/Freemium Options\n- **Google Forms/Microsoft Forms** - Basic feedback collection (free)\n- **Lattice** - Starts lower; similar features\n- **Culture Amp** - More affordable for small teams\n- **Peakon** - Competitive pricing on engagement\n\n## Budget-Friendly Platforms\n- **Officevibe** - Lower cost, good for SMBs\n- **Ally** - Simple, affordable check-in tool\n- **Small Improvements** - Lower tier pricing available\n- **Reflektive** - More affordable entry point\n- **Motivosity** - Lighter-weight alternative\n\n## DIY/Hybrid Approaches\n- **Slack + custom workflows** - Use existing tools creatively\n- **Airtable** - Build custom feedback systems ($20/user/month)\n- **Notion** - Team templates for feedback tracking (free/cheap)\n\n## What to Compare\n- Per-user cost vs. flat rate\n- Number of check-ins needed\n- Integration requirements\n- Analytics depth needed\n- Team size\n\n**Pro tip:** Many cheaper alternatives work well if you only need basic 1:1s and feedback, not the full 360 performance review suite that 15Five offers.\n\nWhat specific features are most important to you? That would help narrow recommendations.",
-  "cached_at": "2026-05-28T06:30:02Z",
-  "metadata": {}
-}

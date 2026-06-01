@@ -1,9 +1,0 @@
-{
-  "brand": "Planhat",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable customer success tools instead of ChurnZero",
-  "response": "# Alternative Customer Success Tools\n\n## Open Source Options\n\n### **Plane** (Project Management focus)\n- Self-hosted issue tracking & project management\n- Good for managing customer requests and timelines\n- Free & open source\n\n### **Chatwoot** (Support + Engagement)\n- Omnichannel customer communication platform\n- Self-hosted option available\n- Email, chat, social media integration\n- Open source core\n\n### **Odoo** (Full business suite)\n- CRM + customer management module\n- Open source with self-hosted option\n- Requires setup but highly customizable\n\n---\n\n## Affordable/Freemium Alternatives\n\n### **HubSpot** (Generous free tier)\n- Free CRM with basic automation\n- Email tracking, simple workflows\n- Scales affordably for small teams\n\n### **Intercom** (Mid-range pricing)\n- Customer messaging + product tours\n- Automation & segmentation\n- Better price-to-feature than ChurnZero for many\n\n### **Totango** (SMB-focused)\n- More affordable than ChurnZero\n- Health scoring, engagement automation\n- Flexible pricing model\n\n### **Gainsight PX** (Product-embedded)\n- Lighter alternative to full CS platform\n- In-app guidance & analytics focus\n- Lower entry cost\n\n### **Copper** (lightweight)\n- Lightweight CRM with automation\n- Lower cost, simpler interface\n- Good for smaller CS teams\n\n---\n\n## DIY/Spreadsheet Enhanced\n\n- **Airtable** + **Zapier** = build custom CS workflows\n- **Notion** + integrations for tracking\n- **Google Sheets** + automation for small teams\n\n**What's your team size and key priorities?** That'd help narrow down best fits.",
-  "cached_at": "2026-05-28T08:12:08Z",
-  "metadata": {}
-}

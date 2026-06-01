@@ -1,9 +1,0 @@
-{
-  "brand": "Amplitude",
-  "prompt_id": "IN-05",
-  "llm": "perplexity",
-  "prompt_text": "product analytics tools with native Segment integration",
-  "response": "If you want **product analytics tools with native Segment integration**, the strongest commonly cited options include **Amplitude**, **Mixpanel**, **Heap**, **Pendo**, and **FullStory**; these tools are frequently discussed as part of the broader product-analytics ecosystem, and at least some publicly document direct Segment connectivity or are described as integrating with Segment in ecosystem roundups.[3][4][9]\n\nA few practical notes:\n\n- **Amplitude** is a top-tier product analytics platform and is often used alongside Segment for event collection and downstream analysis.[1][3]\n- **Mixpanel** is one of the most widely used product analytics tools and is commonly evaluated in the same category as Amplitude and Heap.[3][4]\n- **Heap** is typically grouped with Amplitude and Mixpanel as a vertically integrated product analytics SaaS tool.[4]\n- **Pendo** offers product analytics plus in-app engagement, and its ecosystem materials position it among major product analytics tools.[2]\n- **FullStory** is explicitly described as integrating with **Segment** in a product-analytics roundup.[9]\n\nIf you need the list narrowed to **tools that explicitly advertise a native Segment integration page**, I can give you a tighter shortlist and separate **true native integrations** from **CDP/warehouse-based setups**.",
-  "cached_at": "2026-05-27T19:32:11Z",
-  "metadata": {}
-}

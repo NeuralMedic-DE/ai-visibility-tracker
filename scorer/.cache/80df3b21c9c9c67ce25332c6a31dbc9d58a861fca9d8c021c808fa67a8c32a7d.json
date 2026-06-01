@@ -1,9 +1,0 @@
-{
-  "brand": "Baremetrics",
-  "prompt_id": "UC-03",
-  "llm": "anthropic",
-  "prompt_text": "What tools do early-stage SaaS founders and indie developers on Stripe companies use to track subscription metrics and MRR from Stripe in real time?",
-  "response": "# Tools for Tracking Stripe Subscription Metrics\n\n## Built-in Stripe Options\n- **Stripe Dashboard** - Basic metrics, but limited real-time insights and poor for comparisons\n- **Stripe Sigma** - SQL queries against your data (steep learning curve)\n- **Stripe Reports** - Limited preset reports, not real-time\n\n## Popular Third-Party Dashboards\n\n**Dedicated Stripe Analytics:**\n- **Baremetrics** - Most popular for indie hackers; MRR, churn, cohort analysis, forecasting\n- **Paddle Analytics** - Focused on metrics; good retention insights\n- **Metriql** - Open-source option for technical founders\n- **Chartmogul** - Enterprise-grade but pricey; strong cohort analysis\n\n**General Business Intelligence:**\n- **Mixpanel/Amplitude** - If you're already tracking events\n- **Tableau/Looker** - Overkill early-stage, but powerful\n\n## Lightweight/DIY Approaches\n- **Zapier + Sheets** - Pipe Stripe webhooks to Google Sheets (free, minimal)\n- **Make (Integromat)** - Similar to Zapier, sometimes more flexible\n- **Custom Slack bots** - Quick alerts on key metrics\n- **Retool** - Build internal tools quickly without much code\n\n## What Most Indie Founders Actually Use\n**Baremetrics** dominates this segment because it:\n- Requires zero setup/coding\n- Provides the specific metrics indies care about\n- Has a free tier for early-stage companies\n\nThe honest answer: most start with Stripe's dashboard, graduate to Baremetrics around $500-1000 MRR, then potentially move to ChartMogul or build custom solutions at higher ARR.\n\nWhat's your current MRR range?",
-  "cached_at": "2026-05-28T06:57:44Z",
-  "metadata": {}
-}

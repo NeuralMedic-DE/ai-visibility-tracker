@@ -1,9 +1,0 @@
-{
-  "brand": "Drip",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with build revenue-generating workflows for cart abandonment and win-back campaigns at scale?",
-  "response": "To build revenue-generating workflows for cart abandonment and win-back campaigns at scale, you can use marketing automation platforms like:\n\n1. **Klaviyo**: Known for its powerful email and SMS marketing automation, Klaviyo allows you to create personalized workflows for cart abandonment and win-back campaigns with ease.\n\n2. **ActiveCampaign**: Offers advanced automation features that enable you to design complex workflows for engaging customers who have abandoned their carts or need to be re-engaged.\n\n3. **HubSpot**: Provides comprehensive marketing automation tools that can help you create and manage workflows for cart abandonment and win-back campaigns, along with detailed analytics.\n\n4. **Mailchimp**: While traditionally an email marketing platform, Mailchimp has expanded its automation capabilities to include workflows for cart abandonment and customer re-engagement.\n\n5. **Omnisend**: Specializes in e-commerce marketing automation, making it a great choice for creating targeted workflows for cart abandonment and win-back campaigns.\n\n6. **Drip**: Focuses on e-commerce businesses and offers robust automation features to create personalized workflows aimed at recovering lost sales and re-engaging customers.\n\nThese platforms typically integrate with e-commerce platforms like Shopify, WooCommerce, and Magento, allowing you to seamlessly track customer behavior and trigger automated workflows based on specific actions.",
-  "cached_at": "2026-05-28T07:33:01Z",
-  "metadata": {}
-}

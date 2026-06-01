@@ -1,9 +1,0 @@
-{
-  "brand": "Sentry",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Sentry integrate with GitHub?",
-  "response": "Yes, Sentry integrates with GitHub. This integration allows you to link Sentry issues to GitHub issues or pull requests, enabling better tracking and collaboration. You can also use it to automatically create GitHub issues from Sentry errors, and view commit data in Sentry to help identify when and where a bug was introduced. Additionally, Sentry can comment on GitHub pull requests with information about new or resolved issues related to the changes in the pull request. To set up the integration, you typically need to authorize Sentry to access your GitHub account and repositories.",
-  "cached_at": "2026-05-27T21:16:04Z",
-  "metadata": {}
-}

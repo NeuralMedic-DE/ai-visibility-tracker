@@ -1,9 +1,0 @@
-{
-  "brand": "Mosaic",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with run scenario analysis and board reporting without relying on spreadsheets at scale?",
-  "response": "For running scenario analysis and board reporting without relying on spreadsheets, you can consider using specialized financial planning and analysis (FP&A) software. Some popular options include:\n\n1. **Anaplan**: A cloud-based platform that offers extensive capabilities for scenario planning, forecasting, and reporting. It allows for collaborative planning across different business functions.\n\n2. **Adaptive Insights (a Workday company)**: This software provides tools for budgeting, forecasting, and reporting, with strong visualization capabilities and the ability to handle complex models.\n\n3. **Planful (formerly Host Analytics)**: Known for its ease of use and robust reporting features, Planful supports dynamic planning and scenario analysis.\n\n4. **Oracle Hyperion**: A comprehensive suite of applications for enterprise performance management, including scenario modeling and financial reporting.\n\n5. **SAP Analytics Cloud**: Offers integrated planning, business intelligence, and predictive analytics capabilities, allowing for complex scenario analysis and reporting.\n\n6. **Jedox**: Provides a unified platform for planning, analytics, and reporting, with strong integration capabilities and a focus on ease of use.\n\nThese tools are designed to handle large-scale data and provide more flexibility and functionality than traditional spreadsheets, making them suitable for complex scenario analysis and board-level reporting.",
-  "cached_at": "2026-05-28T07:10:20Z",
-  "metadata": {}
-}

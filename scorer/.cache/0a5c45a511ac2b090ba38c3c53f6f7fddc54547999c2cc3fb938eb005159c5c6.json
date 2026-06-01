@@ -1,9 +1,0 @@
-{
-  "brand": "PostHog",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is PostHog better than Amplitude for track feature flags and run A/B experiments?",
-  "response": "# PostHog vs Amplitude for Feature Flags & A/B Testing\n\n**PostHog is likely better for this specific use case.** Here's why:\n\n## PostHog's Strengths\n- **Integrated stack**: Feature flags + A/B testing + product analytics in one platform (less context switching)\n- **Self-hostable**: Better for privacy-sensitive applications\n- **Developer-friendly**: Simpler implementation, good documentation\n- **Cost**: Generally cheaper, especially at scale\n- **Flag evaluation**: Local evaluation reduces latency\n\n## Amplitude's Strengths\n- **Mature A/B testing**: More sophisticated experiment design and statistical analysis\n- **Analytics focus**: Deeper user behavior insights (if that's a priority)\n- **Enterprise features**: Better for large organizations with complex needs\n\n## Key Considerations\n\n| Factor | PostHog | Amplitude |\n|--------|---------|-----------|\n| **Ease of setup** | ✓ Easier | More complex |\n| **Flag + experiment integration** | ✓ Better | Separate tools |\n| **Learning curve** | ✓ Gentler | Steeper |\n| **Self-hosting** | ✓ Yes | No |\n| **Experiment sophistication** | Good | ✓ Better |\n\n## Bottom Line\nIf you primarily need **feature flags + A/B testing together**, PostHog is the stronger choice. If you need **advanced experimentation analytics** alongside general product analytics, Amplitude might justify the added complexity.\n\nWhat's your main priority—ease of use, cost, or analytical depth?",
-  "cached_at": "2026-05-27T19:36:30Z",
-  "metadata": {}
-}

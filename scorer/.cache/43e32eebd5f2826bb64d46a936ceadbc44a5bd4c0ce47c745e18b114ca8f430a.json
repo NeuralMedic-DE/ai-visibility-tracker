@@ -1,9 +1,0 @@
-{
-  "brand": "Personio",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I manage all HR processes from hiring to payroll in one system without spending a lot on software?",
-  "response": "# Budget-Friendly HR Management Options\n\n## Free or Low-Cost Platforms\n\n**All-in-one systems:**\n- **Gusto** - starts ~$40/month, handles payroll, benefits, onboarding\n- **Rippling** - strong automation, tiered pricing\n- **BambooHR** - reasonable mid-market pricing with decent features\n\n**Build-your-own approach (cheapest):**\n- Google Workspace + Sheets templates (hiring tracker, employee directory)\n- Airtable ($0-20/month) - surprisingly powerful for custom HR workflows\n- Open-source options like OrangeHRM (self-hosted, free)\n\n## Reality Check\n\n**Where you'll spend regardless:**\n- Payroll processing has compliance costs (harder to fully DIY)\n- Employment law varies by location\n- Time investment can exceed software savings\n\n**Smart hybrid approach:**\n- Free/cheap tools for: hiring, onboarding, scheduling, benefits admin\n- Outsource only: payroll processing (~$30-100/month depending on size)\n- This often beats full software costs\n\n## Before Choosing\n\n- How many employees?\n- Do you have payroll compliance expertise?\n- What's eating your time most right now?\n\nThe cheapest solution isn't always the least expensive overall if it requires constant manual work. What's your biggest pain point currently?",
-  "cached_at": "2026-05-28T06:34:54Z",
-  "metadata": {}
-}

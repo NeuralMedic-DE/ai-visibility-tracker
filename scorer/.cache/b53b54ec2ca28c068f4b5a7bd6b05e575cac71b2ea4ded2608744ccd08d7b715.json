@@ -1,9 +1,0 @@
-{
-  "brand": "Hightouch",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Census vs alternatives: what should I switch to?",
-  "response": "# Choosing a Data Integration Tool\n\nThe best alternative depends on your specific needs. Here's a quick framework:\n\n## If you want **lower cost**:\n- **Stitch** or **Fivetran** - more affordable than Census for simpler use cases\n- **Airbyte** - open-source option (self-hosted = cheaper)\n\n## If you need **reverse ETL** (your original use case):\n- **Hightouch** - direct Census competitor, often comparable pricing\n- **mParticle** - strong for customer data activation\n- **Segment** - broader CDP with reverse ETL capabilities\n\n## If you want **flexibility**:\n- **Airbyte** - highly customizable, good for engineers\n- **dbt** + custom tools - max control, requires more dev work\n\n## If you prioritize **ease of use**:\n- **Zapier/Make** - simpler workflows, limited scale\n- **Fivetran** - very user-friendly UI\n\n## Key questions to ask:\n1. What's your budget?\n2. Do you need reverse ETL or just forward sync?\n3. How many integrations/destinations?\n4. How technical is your team?\n5. What's your data volume?\n\n**Most common Census switchers go to Hightouch** (most similar product) or **Airbyte** (cost + control).\n\nWhat's driving your consideration? That would help narrow it down.",
-  "cached_at": "2026-05-28T09:05:33Z",
-  "metadata": {}
-}

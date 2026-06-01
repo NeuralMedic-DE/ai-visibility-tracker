@@ -1,9 +1,0 @@
-{
-  "brand": "Comet ML",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Comet ML integrate with Python?",
-  "response": "Yes, Comet ML integrates with Python. It provides a Python SDK that allows you to easily track, log, and visualize machine learning experiments directly from your Python scripts or Jupyter notebooks. You can use it to log metrics, parameters, datasets, and more, which helps in monitoring and optimizing your machine learning models.",
-  "cached_at": "2026-05-28T07:54:24Z",
-  "metadata": {}
-}

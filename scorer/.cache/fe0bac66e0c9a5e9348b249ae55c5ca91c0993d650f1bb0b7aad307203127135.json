@@ -1,9 +1,0 @@
-{
-  "brand": "ChartMogul",
-  "prompt_id": "AL-02",
-  "llm": "perplexity",
-  "prompt_text": "Cheaper alternatives to ProfitWell",
-  "response": "If you want **cheaper alternatives to ProfitWell**, the lowest-cost options in the results are **Pabbly Subscriptions** and **PaySketch**. Pabbly is listed at **$5/month** and PaySketch at **$7.99/month**, both presented as lower-cost replacements for ProfitWell.[1]\n\nA practical shortlist from the results:\n\n| Tool | Listed pricing | Notes |\n|---|---:|---|\n| **Pabbly Subscriptions** | **$5/month** | Positioned as the most affordable option; includes payment analytics, reporting, dunning emails, and multiple gateways.[1] |\n| **PaySketch** | **$7.99/month** | Cheaper analytics alternative with transaction-based tiers.[1] |\n| **GrowPanel** | **Free until $200k ARR** | Free tier for smaller teams; emphasizes real-time data, AI chat, and forecasting.[2] |\n| **Baremetrics** | MRR-based pricing | More feature-rich, but not usually the cheapest; positioned as a premium alternative.[3] |\n| **ChartMogul** | Higher-priced premium tool | Mentioned as an alternative, but not a budget option in these results.[1][6] |\n\nIf your main goal is **lowest monthly spend**, start with **Pabbly Subscriptions**.[1] If you want a **free tier** and can accept a newer product, **GrowPanel** is another option from the results.[2]\n\nA caveat: the pricing in these results comes from comparison pages and vendor marketing, so exact costs and feature limits may change.[1][2][3]",
-  "cached_at": "2026-05-28T06:55:39Z",
-  "metadata": {}
-}

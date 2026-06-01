@@ -1,9 +1,0 @@
-{
-  "brand": "Nudge Security",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable security tools instead of BetterCloud",
-  "response": "# Open Source & Affordable Security Alternatives to BetterCloud\n\n## Open Source Options\n\n### **Workspace Administration**\n- **OpenLDAP** - Directory services and user management\n- **Nextcloud** - Self-hosted file sync with admin controls\n- **Synapse** - Open communication platform with governance\n- **Keycloak** - Identity and access management\n\n### **Security & Compliance**\n- **Wazuh** - Security monitoring and threat detection\n- **Osquery** - Endpoint visibility\n- **Grafana + Prometheus** - Infrastructure monitoring\n- **OpenSCAP** - Compliance scanning\n\n### **Data Protection**\n- **CryptPad** - Encrypted collaborative tools\n- **Joplin** - Encrypted note-taking\n- **Veracrypt** - Full-disk encryption\n\n---\n\n## Affordable Commercial Tools\n\n| Tool | Focus | Price Range |\n|------|-------|-------------|\n| **Okta** | IAM/SSO | $2-4/user/mo |\n| **JumpCloud** | Directory + SSO | $20-35/user/mo |\n| **Kolide** | Device compliance | $4-8/device/mo |\n| **Cloudflare Zero Trust** | Security posture | $20-200/mo |\n| **Halo Security** | SaaS security | $500-2000/mo |\n| **Panther Labs** | Log analysis | Free tier available |\n\n---\n\n## DIY Approach (Most Affordable)\n\nCombine open-source tools:\n1. **Google Workspace API** + custom scripts\n2. **Splunk Free** (500MB/day logging)\n3. **Snyk Community** (vulnerability scanning)\n4. **OWASP ZAP** (security testing)\n\n**Best for:** Small teams with technical staff\n\nWhat's your primary use case—compliance, endpoint management, or SaaS visibility?",
-  "cached_at": "2026-05-28T08:38:46Z",
-  "metadata": {}
-}

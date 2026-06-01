@@ -1,9 +1,0 @@
-{
-  "brand": "RudderStack",
-  "prompt_id": "UC-03",
-  "llm": "perplexity",
-  "prompt_text": "What tools do data and engineering teams building warehouse-first customer data infrastructure companies use to collect track and route customer event data to all your analytics and marketing tools?",
-  "response": "Teams building **warehouse-first customer data infrastructure** typically use a **customer data infrastructure (CDI) tool** or a **composable CDP** to collect first-party event data into the warehouse, then use that warehouse data to route events to downstream analytics and marketing tools.[2][3]\n\nThe main tool categories are:\n\n- **SDKs / event tracking libraries** for web, mobile, or server-side apps to capture actions like page views, logins, purchases, and clicks.[2]\n- **Warehouse-native event collection tools** such as **Hightouch Events**, which store events directly in the data warehouse.[2]\n- **Composable CDPs / packaged CDPs** such as **Segment**, which collect events and then dispatch them to configured destinations.[2]\n- **Open-source event pipelines** such as **Snowplow**, which provide trackers for web, mobile, server, and IoT and support schema-controlled collection.[2]\n- **ELT/ETL and CDI stacks**, where CDI is used for primary first-party event data and ELT tools handle secondary or third-party sources.[3]\n\nFor the “route customer event data to all your analytics and marketing tools” part, the common pattern is:\n\n- collect events from product surfaces with an SDK or tracker,\n- centralize them in the warehouse,\n- resolve identities and build audiences there,\n- activate those audiences or events into downstream tools.[2][3]\n\nIf you want, I can also give you a **modern warehouse-first stack by category** for teams using Snowflake, BigQuery, or Redshift.",
-  "cached_at": "2026-05-28T09:09:32Z",
-  "metadata": {}
-}

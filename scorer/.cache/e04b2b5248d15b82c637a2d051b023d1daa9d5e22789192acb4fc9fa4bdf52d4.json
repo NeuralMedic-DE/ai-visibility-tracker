@@ -1,9 +1,0 @@
-{
-  "brand": "RudderStack",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which customer data platform software should a Data or Growth Engineer or Head of Data at an engineering-led company use?",
-  "response": "# Best CDPs for Engineering-Led Companies\n\nFor technical teams prioritizing **flexibility, customization, and control**, here are the top considerations:\n\n## **Best Overall for Engineers**\n\n**Segment** (now Twilio)\n- Strong developer experience with SDKs/APIs\n- Warehouse-first architecture (data lives in your DW)\n- Flexible, code-based event tracking\n- Good for teams wanting to own their data pipeline\n\n## **Open-Source/Self-Hosted**\n\n**Rudderstack**\n- Open-source alternative to Segment\n- Full control, can self-host\n- Strong for privacy-conscious orgs\n- Good API/SDK support\n\n## **If You Already Use a Data Warehouse**\n\n**dbt Cloud + Reverse ETL** (Hightouch, Census)\n- Not a traditional CDP, but often *better* for engineers\n- Build identity/segmentation in SQL (dbt)\n- Push audiences to tools via reverse ETL\n- Maximum control, minimal black boxes\n\n## **If You Want Simplicity + Power**\n\n**mParticle**\n- Server-side first (good for backend engineers)\n- Strong consent/compliance handling\n- Flexible identity resolution\n- Less \"martech\" than traditional CDPs\n\n## **Key Questions to Ask**\n\n- Do you want to own the data warehouse? → Segment, Rudderstack\n- Can you wait for API-first adoption? → Rudderstack, mParticle\n- Do you have strong SQL skills? → Skip CDP, use dbt + reverse ETL\n- How important is real-time? → Segment, mParticle\n\n**Hot take**: Many engineering teams are moving *away* from CDPs toward dbt + reverse ETL. More control, clearer data lineage, SQL > UI.\n\nWhat's your current data stack?",
-  "cached_at": "2026-05-28T09:07:42Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Conveyor",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I automate security questionnaire responses so sales deals do not get stuck in security review without spending a lot on software?",
-  "response": "# Low-Cost Security Questionnaire Automation\n\n## Quick Wins (Minimal/Free)\n\n**Document your answers once**\n- Create a master document answering common questions (ISO certifications, data handling, encryption, etc.)\n- Use a simple shared template in Google Docs or Notion\n- Reference it for each questionnaire\n\n**Build a FAQ spreadsheet**\n- List 50-100 common questions your buyers ask\n- Add your standard answers\n- Makes responses faster and consistent\n- Share across sales team\n\n**Browser automation basics**\n- Grammarly or similar tools can auto-fill repeated fields\n- Some questionnaires let you paste full responses\n\n## Mid-Range Options ($50-500/month)\n\n**Template approach with minimal tools**\n- Airtable base with question→answer mapping\n- Set up email templates sales can customize quickly\n- Still mostly manual but organized\n\n**Open-source/self-hosted**\n- Some teams use Zapier's free tier creatively\n- Simple scripts (Python/Google Apps Script) to populate PDFs\n\n## What Actually Works Best\n\nRather than pure automation, focus on **preparation**:\n1. **Have your story ready** - what you say matters more than speed\n2. **Pre-fill what's allowed** - most platforms let bulk uploads\n3. **Assign one person** to handle these (often cheaper than software)\n4. **Push back on custom questionnaires** - \"Can you use our security brief instead?\"\n\n## Red Flag\n\nFully automating answers without review risks compliance disasters and lost deals when answers are wrong.\n\n**What's your typical deal cycle look like?** That affects which approach actually saves time.",
-  "cached_at": "2026-05-28T08:46:23Z",
-  "metadata": {}
-}

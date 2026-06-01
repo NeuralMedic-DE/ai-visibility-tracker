@@ -1,9 +1,0 @@
-{
-  "brand": "Gainsight",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Gainsight integrate with Salesforce?",
-  "response": "Yes, Gainsight integrates with Salesforce. Gainsight is designed to work seamlessly with Salesforce, allowing users to leverage customer data from Salesforce to enhance customer success management. This integration enables businesses to access and analyze customer information, track customer health, and manage customer relationships more effectively.",
-  "cached_at": "2026-05-28T08:04:23Z",
-  "metadata": {}
-}

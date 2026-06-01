@@ -42,3 +42,10 @@ next-env.d.ts
 
 # local dev data (may contain emails)
 data/waitlist-local.json
+
+# HAR / browser session captures — may contain auth tokens
+*.har
+
+# Python bytecode and scorer LLM-response cache
+**/__pycache__/
+scorer/.cache/

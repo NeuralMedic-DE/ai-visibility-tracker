@@ -1,9 +1,0 @@
-{
-  "brand": "Charlie HR",
-  "prompt_id": "UC-03",
-  "llm": "anthropic",
-  "prompt_text": "What tools do small UK-based companies with 10 to 100 employees companies use to manage employee leave documents and HR admin in one place?",
-  "response": "# HR Management Tools for Small UK Companies\n\nHere are the most popular integrated solutions for this size:\n\n## Market Leaders\n\n**Personio**\n- Purpose-built for SMEs (10-500 employees)\n- Strong UK presence; handles statutory requirements\n- Centralized leave management, payroll integration, document storage\n- Widely used in this exact employee range\n\n**BambooHR**\n- Employee directory + leave + documents\n- Simple interface, good for basic needs\n- Less UK-specific than Personio\n\n**Breathe HR**\n- UK-based alternative\n- Leave management, absence tracking, document storage\n- Simpler/cheaper than Personio\n\n## Budget Options\n\n**Factorial** - Covers leave, payroll, time tracking; competitive pricing\n\n**HiBob** - Modern interface; good for growing companies with culture focus\n\n## Lighter-Weight Solutions\n\n**HRweb** or **Zoho People** - If you want leave management specifically without full HR suite\n\n## Key Considerations\n\n- **UK compliance**: Ensure it handles statutory leave, holiday accrual, and SSP correctly\n- **Payroll integration**: Does it connect to your payroll provider?\n- **Cost**: Usually £2-8 per employee/month at your scale\n- **Implementation**: How much setup/training needed?\n\nMost companies in your range start with **Personio** or **BambooHR** — they strike the best balance between features, ease of use, and cost.\n\nWhat's your current pain point with leave management?",
-  "cached_at": "2026-05-28T06:43:54Z",
-  "metadata": {}
-}

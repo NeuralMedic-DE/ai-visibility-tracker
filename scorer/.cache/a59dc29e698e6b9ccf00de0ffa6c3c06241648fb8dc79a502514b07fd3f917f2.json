@@ -1,9 +1,0 @@
-{
-  "brand": "Instantly",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which sales engagement software should a SDR Manager or Growth Marketer doing outbound use?",
-  "response": "# Best Sales Engagement Software for SDRs & Outbound\n\nThe top choices depend on your priorities:\n\n## **Best Overall**\n**Outreach** or **Salesloft**\n- Most feature-complete for cadence management\n- Strong analytics and coaching tools\n- Higher price point ($1-2k+/seat/year)\n- Best if: You have budget and want enterprise capabilities\n\n## **Best for Lean Teams/Budget**\n**Apollo.io** or **Hunter.io** + Sequences\n- Lower cost ($50-300/month per user)\n- Solid prospecting + basic automation\n- Good enough for most outbound motions\n- Best if: Bootstrapped or under 5-person SDR team\n\n## **Best for Simplicity**\n**Yesware** or **Groove**\n- Email sequencing focused\n- Minimal learning curve\n- ~$100-200/month per user\n- Best if: You just need to send sequences at scale\n\n## **Best for LinkedIn Outreach**\n**LinkedIn Sales Navigator** + **Dex** or **Instantly**\n- Specialized for LinkedIn messaging\n- Best if: Your outbound is LinkedIn-first\n\n## **Decision Framework**\nAsk yourself:\n- **Budget available?** → Outreach/Salesloft\n- **Starting out?** → Apollo or Hunter\n- **Email-only campaigns?** → Yesware\n- **LinkedIn-heavy?** → Dex or Instantly\n- **Need visibility & reporting?** → Outreach or Apollo\n\nWhat's your team size and primary channel (email/LinkedIn)?",
-  "cached_at": "2026-05-28T07:18:55Z",
-  "metadata": {}
-}

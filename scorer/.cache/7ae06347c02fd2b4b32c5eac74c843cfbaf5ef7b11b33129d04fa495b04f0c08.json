@@ -1,9 +1,0 @@
-{
-  "brand": "LeadIQ",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect LeadIQ with Salesforce?",
-  "response": "# Connecting LeadIQ with Salesforce\n\nHere's the general process:\n\n## 1. **Install the LeadIQ Extension**\n   - Add LeadIQ to your browser (Chrome, LinkedIn, etc.)\n   - Sign in with your LeadIQ account\n\n## 2. **Access Integration Settings**\n   - Open LeadIQ and go to **Settings**\n   - Look for **Integrations** or **CRM Connections**\n\n## 3. **Select Salesforce**\n   - Choose Salesforce from the available CRM options\n   - Click \"Connect\" or \"Authorize\"\n\n## 4. **Authorize Access**\n   - You'll be redirected to Salesforce\n   - Log in to your Salesforce account\n   - Grant LeadIQ permission to access your Salesforce data\n   - Approve the connection\n\n## 5. **Configure Your Settings**\n   - Map data fields (if needed)\n   - Set default values for lead capture\n   - Choose which objects to sync\n\n## 6. **Test the Connection**\n   - Capture a test lead to ensure it flows into Salesforce correctly\n\n## Tips\n- Ensure you have admin access in both LeadIQ and Salesforce\n- Check that your Salesforce user permissions allow third-party integrations\n- Verify your org allows API access\n\n**Need help?** Check LeadIQ's support documentation or contact their support team for the most current instructions.",
-  "cached_at": "2026-05-27T18:44:40Z",
-  "metadata": {}
-}

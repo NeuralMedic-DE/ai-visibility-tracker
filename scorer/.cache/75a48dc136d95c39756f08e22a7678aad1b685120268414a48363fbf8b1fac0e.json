@@ -1,9 +1,0 @@
-{
-  "brand": "Rho",
-  "prompt_id": "CM-01",
-  "llm": "anthropic",
-  "prompt_text": "Rho vs Brex: which is better?",
-  "response": "# Rho vs Brex: Key Differences\n\n**Brex** (larger, more established):\n- Better for scaling startups with higher spending\n- Stronger rewards and benefits\n- More integrations and features\n- Easier approval for companies with revenue\n\n**Rho** (newer, more streamlined):\n- Simpler, faster approval process\n- Lower minimum requirements\n- Better for early-stage/pre-revenue companies\n- Cleaner UX, less bloated features\n\n## Quick comparison:\n\n| Factor | Brex | Rho |\n|--------|------|-----|\n| **Approval** | Revenue-based | More flexible |\n| **Rewards** | Higher % | Lower % |\n| **Complexity** | Feature-rich | Minimal |\n| **Best for** | Established startups | Early-stage companies |\n\n## Better choice depends on:\n- **Choose Brex if**: You have revenue, high spend, want premium benefits\n- **Choose Rho if**: You're early-stage, want simplicity, prefer quick approval\n\nBoth are solid fintech solutions. Your specific needs (stage, spend level, integration requirements) matter more than picking a \"winner.\"\n\nWhat's your main priority—approval speed, rewards, or specific features?",
-  "cached_at": "2026-05-28T07:12:18Z",
-  "metadata": {}
-}

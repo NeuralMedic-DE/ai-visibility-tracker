@@ -1,9 +1,0 @@
-{
-  "brand": "Planhat",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to ChurnZero",
-  "response": "# Cheaper Alternatives to ChurnZero\n\n## Budget-Friendly Options\n\n### **Gainsight PX**\n- Lower entry price point than ChurnZero\n- Strong product analytics and feature adoption tracking\n- Good for mid-market companies\n\n### **Totango**\n- Competitive pricing with flexible plans\n- Decent health scoring and automation\n- Better for companies scaling customer success\n\n### **Planhat**\n- More affordable for smaller teams\n- Simple interface with core CSM features\n- Good value for early-stage companies\n\n### **Vitally**\n- Mid-range pricing\n- Modern UI/UX\n- Strong collaboration features\n\n## Super Budget Options\n\n**Free/Freemium Tiers:**\n- **HubSpot** (Service Hub) - robust free tier\n- **Intercom** - primarily for communication but has CS tools\n- **Segment** - if you mainly need data tracking\n\n## DIY/Hybrid Approach\n- **Spreadsheets + Slack** integrations\n- **Mixpanel** + **Airtable** + **Zapier**\n- Custom dashboards in **Tableau** or **Looker**\n\n## Key Considerations\n- **Team size**: Smaller teams need simpler tools\n- **Use case**: Some tools excel at specific features\n- **Integration needs**: Check existing stack compatibility\n- **Contract terms**: Watch for hidden fees\n\n**What's your budget range and primary use case?** That would help narrow down the best option.",
-  "cached_at": "2026-05-28T08:12:02Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Folk",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best CRM for startup founders and agency leads?",
-  "response": "# Best CRMs for Startup Founders & Agency Leads\n\n**Top picks depend on your priorities:**\n\n## For Simplicity & Speed\n- **HubSpot Free/Pro** – Intuitive, great onboarding, marketing + sales in one place\n- **Pipedrive** – Pipeline-focused, visual sales tracking, affordable\n\n## For Customization & Scale\n- **Salesforce** – Powerful but steeper learning curve; better as you grow\n- **Monday.com CRM** – Visual, flexible, good for collaborative teams\n\n## For Agencies Specifically\n- **Dubsado** or **Honeybook** – Built for service-based businesses, invoicing included\n- **Pipefy** – Strong workflow automation for project-heavy work\n- **Zoho CRM** – Very affordable, good feature set\n\n## Budget-Conscious\n- **HubSpot Free tier** – Legitimately useful without paying\n- **Freshsales** – Affordable, lighter weight than Salesforce\n\n## Key Questions to Ask Yourself\n1. **How many contacts/deals?** (determines pricing tier)\n2. **Do you need project management too?** (some CRMs bundle it)\n3. **Integration needs?** (email, calendar, tools you use daily)\n4. **Team size now vs. in 6 months?**\n\n**My honest take:** Start with **HubSpot Free or Pipedrive** unless you have specific needs. You'll learn what you actually need before overpaying for features you won't use.\n\nWhat's your main use case—sales pipeline, client relationship tracking, or something else?",
-  "cached_at": "2026-05-27T18:52:25Z",
-  "metadata": {}
-}

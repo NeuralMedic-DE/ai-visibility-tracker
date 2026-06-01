@@ -1,9 +1,0 @@
-{
-  "brand": "Charlie HR",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which HR software should a HR Manager or SMB Founder in the UK use?",
-  "response": "# HR Software for UK HR Managers & SMB Founders\n\nHere are the best options by use case:\n\n## **All-in-One Solutions** (Recommended for most SMBs)\n- **Guidepoint** - Affordable, strong for smaller teams (under 50)\n- **BrightHR** - Very UK-focused, popular with SMBs, includes payroll\n- **Breathe HR** - Clean interface, good for growing companies\n- **Factorial** - Modern UX, reasonable pricing\n\n## **If You Need Strong Payroll Integration**\n- **Sage HR** - Trusted name, good payroll links\n- **ADP Workforce Now** - Enterprise-grade but scalable\n- **Paychex Flex** - Solid payroll + HR combo\n\n## **Budget-Conscious**\n- **Zenefits** - Freemium model available\n- **Deel** - Great if you have remote/international staff\n- **Wave** (for super basic needs)\n\n## **For Legal/Compliance-Heavy Roles**\n- **BrightHR** or **Breathe HR** - Strong on UK-specific employment law updates\n\n## **Key Things to Check**\n✓ UK employment law compliance (crucial)\n✓ Payroll integration (RTI, PAYE)\n✓ Your team size & growth plans\n✓ Integration with existing systems\n✓ Data security certifications\n\n**My pick for most UK SMBs:** Start with **BrightHR** or **Breathe HR** — they balance cost, features, and UK-specific needs well.\n\nWhat's your company size? That would help narrow it further.",
-  "cached_at": "2026-05-28T06:43:34Z",
-  "metadata": {}
-}

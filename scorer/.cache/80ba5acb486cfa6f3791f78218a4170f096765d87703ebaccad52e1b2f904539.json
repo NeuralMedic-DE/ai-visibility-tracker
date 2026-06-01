@@ -1,9 +1,0 @@
-{
-  "brand": "Stonly",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Stonly integrate with Intercom?",
-  "response": "Yes, Stonly does integrate with Intercom. This integration allows you to enhance your customer support by embedding interactive guides and tutorials directly within Intercom's chat interface. This can help provide users with self-service options and improve the overall support experience. You can set up the integration through Stonly's platform by following their provided instructions.",
-  "cached_at": "2026-05-28T08:22:02Z",
-  "metadata": {}
-}

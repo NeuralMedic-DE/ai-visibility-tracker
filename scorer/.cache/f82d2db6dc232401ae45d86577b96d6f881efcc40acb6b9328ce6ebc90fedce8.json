@@ -1,9 +1,0 @@
-{
-  "brand": "Salesflare",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best CRM that works with Gmail and LinkedIn",
-  "response": "# Best CRMs for Gmail + LinkedIn Integration\n\n## Top Picks\n\n**HubSpot CRM**\n- Seamless Gmail integration (sidebar, email tracking)\n- Native LinkedIn Sales Navigator sync\n- Free tier available\n- Excellent for sales teams\n\n**Pipedrive**\n- Gmail email tracking and templates\n- LinkedIn integration for lead syncing\n- Clean, sales-focused interface\n- Great mobile app\n\n**Salesforce**\n- Enterprise-grade solution\n- Strong Gmail/LinkedIn ecosystem\n- LinkedIn Sales Cloud add-on\n- Best for larger teams\n\n**Zoho CRM**\n- Affordable pricing\n- Solid Gmail integration\n- LinkedIn lead syncing\n- Good automation features\n\n**Apollo.io** (newer option)\n- Purpose-built for Gmail + LinkedIn workflows\n- Email finder and outreach tools\n- Chrome extension is excellent\n- Growing alternative for sales teams\n\n## Key Features to Look For\n- **Gmail sidebar** (view/track emails without leaving Gmail)\n- **Email tracking** (open/click rates)\n- **LinkedIn data sync** (auto-populate contact info)\n- **Chrome extension** (easy data capture)\n- **Email templates** and sequences\n\n## My Recommendation\n**HubSpot** for most users—best balance of functionality, integration quality, and free tier. **Apollo** if you want something specifically optimized for this workflow.\n\nWhat's your team size or primary use case? That would help narrow it down further.",
-  "cached_at": "2026-05-27T18:15:03Z",
-  "metadata": {}
-}

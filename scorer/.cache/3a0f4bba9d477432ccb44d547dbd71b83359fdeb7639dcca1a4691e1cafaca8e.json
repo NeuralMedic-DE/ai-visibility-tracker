@@ -1,9 +1,0 @@
-{
-  "brand": "Nutshell",
-  "prompt_id": "IN-05",
-  "llm": "openai",
-  "prompt_text": "CRM tools with native Gmail integration",
-  "response": "There are several CRM tools that offer native integration with Gmail, allowing you to manage customer relationships directly from your inbox. Here are some popular options:\n\n1. **HubSpot CRM**: HubSpot offers a Gmail integration that allows you to track emails, log interactions, and manage your CRM directly from your Gmail account. It also provides access to contact details and CRM features without leaving your inbox.\n\n2. **Salesforce**: Salesforce's Gmail integration, known as Salesforce Inbox, enables you to view and update CRM data, track emails, and access Salesforce features directly from Gmail.\n\n3. **Zoho CRM**: Zoho CRM offers a Gmail add-on that lets you view CRM information, add leads, and manage customer interactions from your Gmail interface.\n\n4. **Pipedrive**: Pipedrive provides a Gmail integration that allows you to sync emails, manage contacts, and track sales activities directly from your inbox.\n\n5. **Copper**: Copper is designed specifically for G Suite users and integrates seamlessly with Gmail. It allows you to manage contacts, track emails, and automate workflows without leaving Gmail.\n\n6. **Nimble**: Nimble offers a Smart Contacts App that integrates with Gmail, allowing you to access contact details, manage interactions, and update CRM information directly from your inbox.\n\nThese tools help streamline your workflow by integrating CRM functionalities into your Gmail, making it easier to manage customer relationships and sales processes.",
-  "cached_at": "2026-05-27T18:32:27Z",
-  "metadata": {}
-}

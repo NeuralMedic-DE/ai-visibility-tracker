@@ -1,9 +1,0 @@
-{
-  "brand": "Nutshell",
-  "prompt_id": "IN-05",
-  "llm": "anthropic",
-  "prompt_text": "CRM tools with native Gmail integration",
-  "response": "# CRM Tools with Native Gmail Integration\n\n## Top Options\n\n### **HubSpot**\n- Native Gmail sidebar extension\n- Email tracking and logging\n- Contact sync from Gmail contacts\n- Email templates and automation\n- Free tier available\n\n### **Salesforce**\n- Salesforce for Gmail extension\n- Email-to-Salesforce (Email2Case)\n- Contact and calendar sync\n- Activity tracking\n- Enterprise-grade features\n\n### **Pipedrive**\n- Gmail add-on for desktop/mobile\n- Automatic email logging\n- Deal tracking from email\n- Contact management\n- Affordable pricing\n\n### **Zoho CRM**\n- Gmail extension with sidebar\n- Automatic email capture\n- Contact enrichment\n- Email templates\n- Free and paid plans\n\n### **Freshsales**\n- Gmail integration via extension\n- Email tracking and templates\n- Contact profiles in sidebar\n- Lead scoring\n- Good value for price\n\n### **Insightly**\n- Native Gmail add-on\n- Email thread tracking\n- Project and deal management\n- Mobile integration\n- Affordable pricing\n\n## Key Integration Features to Look For\n- ✅ Email logging (automatic/manual)\n- ✅ Contact syncing\n- ✅ Email tracking/open rates\n- ✅ Sidebar access\n- ✅ Email templates\n- ✅ Calendar sync\n- ✅ Attachment handling\n\n## Budget Considerations\n- **Free:** HubSpot (basic), Zoho CRM\n- **Budget:** Pipedrive, Insightly, Freshsales\n- **Enterprise:** Salesforce, HubSpot Pro\n\nWould you like specific comparisons or details on any of these?",
-  "cached_at": "2026-05-27T18:34:42Z",
-  "metadata": {}
-}

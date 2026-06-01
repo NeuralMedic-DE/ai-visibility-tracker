@@ -1,9 +1,0 @@
-{
-  "brand": "Encharge",
-  "prompt_id": "IN-02",
-  "llm": "anthropic",
-  "prompt_text": "Encharge Segment integration: how does it work?",
-  "response": "# Encharge Segment Integration\n\n## Overview\nThe Encharge-Segment integration allows you to sync audience data and customer information between the two platforms, enabling better segmentation and targeted marketing automation.\n\n## How It Works\n\n### Data Flow Direction\n- **Segment → Encharge**: Audience traits, events, and user properties flow into Encharge\n- **Encharge → Segment**: Encharge segments and campaign interactions can be sent back to Segment\n\n### Key Components\n\n**1. Setup & Connection**\n- Add Encharge as a destination in Segment\n- Authenticate with your Encharge account\n- Configure which data to send\n\n**2. Data Synced**\n- **User traits**: Email, name, custom attributes\n- **Events**: Custom events triggered by user actions\n- **Audiences**: Segment audiences automatically create segments in Encharge\n\n**3. Use Cases**\n- Trigger email campaigns based on Segment events\n- Build segments in Encharge using Segment audience data\n- Unify customer data across your martech stack\n- Create targeted automation workflows\n\n### Basic Workflow\n```\nUser Action → Segment collects data → Data sent to Encharge \n→ Triggers Encharge automation → Campaign executed\n```\n\n## Common Configuration\n- Select which Segment events to forward\n- Map user IDs (email, external ID, etc.)\n- Choose sync frequency\n- Test with sample data\n\n## Benefits\n✓ Centralized customer data  \n✓ Advanced segmentation  \n✓ Coordinated campaigns  \n✓ Real-time activation  \n\n**Need specific setup help?** Let me know what you're trying to accomplish.",
-  "cached_at": "2026-05-28T07:28:37Z",
-  "metadata": {}
-}

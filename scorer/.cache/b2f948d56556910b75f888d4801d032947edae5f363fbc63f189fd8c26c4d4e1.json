@@ -1,9 +1,0 @@
-{
-  "brand": "Attio",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best CRM for B2B startups?",
-  "response": "# Best CRMs for B2B Startups\n\nThe \"best\" depends on your needs, but here are top contenders:\n\n## **Hubspot CRM**\n- Free tier is genuinely useful (no credit card needed)\n- Scales well as you grow\n- Strong integration ecosystem\n- Good for sales + marketing alignment\n\n## **Pipedrive**\n- Intuitive visual pipeline management\n- Affordable pricing\n- Less overwhelming than competitors\n- Great if sales process is your priority\n\n## **Salesforce**\n- Industry standard, especially for enterprise\n- Steep learning curve and cost\n- Best if you need enterprise features from day one\n\n## **Freshsales**\n- Budget-friendly\n- Good AI features\n- Solid automation\n- Underrated option\n\n## **Monday CRM**\n- Visual, intuitive interface\n- Good for teams that like flexibility\n- Newer, still evolving\n\n## **My suggestion for most startups:**\nStart with **Hubspot's free tier** to validate the tool fits your workflow, then upgrade or switch as your needs clarify. This minimizes upfront costs while you're still figuring out your sales process.\n\n**Key questions to ask yourself:**\n- How many users do you need?\n- What's your average deal size/sales cycle?\n- Do you need heavy customization?\n- What tools do you already use?\n\nWhat's your main priority in a CRM?",
-  "cached_at": "2026-05-27T17:53:16Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Raycast",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Alfred vs alternatives: what should I switch to?",
-  "response": "# Evaluating Alfred Alternatives\n\nI'd help you think through this, but it depends on what matters most to you. What's driving the switch?\n\n**Common reasons people leave Alfred:**\n- Cost (one-time vs. subscription)\n- Specific missing features\n- Performance on newer Macs\n- Preference for open-source\n- Switching ecosystems (Mac to Windows)\n\n**Popular alternatives:**\n\n| Tool | Best for | Trade-off |\n|------|----------|-----------|\n| **Spotlight** | Built-in, free | Much simpler |\n| **Raycast** | Developers, extensions | Subscription model |\n| **Wunderbucket** | Mac app launching | More minimal |\n| **UctoX 2** | Power users | Smaller community |\n| **Everything** (Windows) | File search speed | Windows only |\n\n**Questions to ask:**\n- What Alfred features do you actually use? (search, clipboard, workflows?)\n- What's bothering you about it?\n- Budget flexibility?\n- How deep do you customize?\n\nIf you tell me what you're looking for or what frustrates you about Alfred, I can give more targeted advice. Sometimes the \"best\" alternative is just Alfred with better settings.\n\nWhat's the main issue?",
-  "cached_at": "2026-05-28T06:25:15Z",
-  "metadata": {}
-}

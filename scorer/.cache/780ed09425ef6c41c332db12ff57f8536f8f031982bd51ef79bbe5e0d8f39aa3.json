@@ -1,9 +1,0 @@
-{
-  "brand": "LeadIQ",
-  "prompt_id": "IN-05",
-  "llm": "openai",
-  "prompt_text": "CRM tools with native Salesforce integration",
-  "response": "There are several CRM tools and applications that offer native integration with Salesforce, enhancing its functionality and allowing seamless data exchange. Here are some popular ones:\n\n1. **Pardot**: A marketing automation tool by Salesforce that integrates natively to help with lead generation, nurturing, and tracking.\n\n2. **Tableau**: A powerful analytics platform that integrates with Salesforce to provide advanced data visualization and business intelligence capabilities.\n\n3. **Slack**: After Salesforce's acquisition of Slack, it offers native integration to facilitate communication and collaboration directly within Salesforce.\n\n4. **DocuSign**: This tool integrates with Salesforce to streamline the process of sending, signing, and managing contracts and agreements.\n\n5. **Conga Composer**: It allows users to create documents, presentations, and reports using Salesforce data, with seamless integration.\n\n6. **Zoom**: Offers integration with Salesforce for scheduling and managing video meetings directly from the CRM.\n\n7. **LinkedIn Sales Navigator**: Provides integration to help sales teams connect with prospects and customers directly from Salesforce.\n\n8. **Mailchimp**: Integrates with Salesforce to synchronize marketing data and manage email campaigns more effectively.\n\n9. **QuickBooks**: Offers integration to manage accounting and financial data alongside customer information in Salesforce.\n\n10. **HubSpot**: While HubSpot is a standalone CRM, it offers integration with Salesforce to align marketing and sales efforts.\n\nThese tools enhance Salesforce's capabilities by adding specialized features for marketing, analytics, communication, document management, and more.",
-  "cached_at": "2026-05-27T18:42:27Z",
-  "metadata": {}
-}

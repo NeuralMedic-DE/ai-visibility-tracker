@@ -1,9 +1,0 @@
-{
-  "brand": "Rippling",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Rippling integrate with Slack?",
-  "response": "# Rippling and Slack Integration\n\nYes, Rippling does integrate with Slack. The integration allows for:\n\n- **Automated notifications** - Slack messages about HR and IT workflows\n- **Workflow approvals** - Approve requests directly from Slack\n- **Employee onboarding** - Notifications and updates related to new hires\n- **IT provisioning alerts** - Updates about device and access provisioning\n\nHowever, the depth and specific features of this integration may vary depending on your Rippling plan and Slack workspace setup.\n\nFor the most current and detailed information about the Slack integration's specific capabilities, I'd recommend:\n- Checking Rippling's app marketplace or integration documentation\n- Contacting Rippling support directly\n- Visiting the Slack App Directory to see the official Rippling app listing\n\nIs there a specific workflow or use case you're looking to integrate?",
-  "cached_at": "2026-05-28T06:27:51Z",
-  "metadata": {}
-}

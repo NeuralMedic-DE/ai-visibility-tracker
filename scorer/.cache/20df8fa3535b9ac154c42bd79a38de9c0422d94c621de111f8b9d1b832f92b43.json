@@ -1,9 +1,0 @@
-{
-  "brand": "Lemlist",
-  "prompt_id": "IN-05",
-  "llm": "openai",
-  "prompt_text": "sales engagement tools with native HubSpot integration",
-  "response": "There are several sales engagement tools that offer native integration with HubSpot, allowing you to streamline your sales processes and enhance your CRM capabilities. Here are a few popular ones:\n\n1. **Outreach**: Outreach is a comprehensive sales engagement platform that integrates with HubSpot to help automate and optimize sales workflows, improve communication, and increase productivity.\n\n2. **Salesloft**: Salesloft provides a robust platform for managing sales engagement, including email tracking, call logging, and analytics. Its integration with HubSpot allows for seamless data synchronization and enhanced sales processes.\n\n3. **Apollo.io**: Apollo.io offers a sales engagement suite with features like email automation, lead generation, and analytics. Its integration with HubSpot helps in maintaining a unified database and streamlining outreach efforts.\n\n4. **Aircall**: Aircall is a cloud-based phone system that integrates with HubSpot to provide seamless call management and logging, enhancing communication and tracking within the CRM.\n\n5. **Chorus.ai**: Chorus.ai is a conversation intelligence platform that integrates with HubSpot to analyze sales calls and meetings, providing insights and improving sales team performance.\n\n6. **Vidyard**: Vidyard offers video messaging and hosting solutions that integrate with HubSpot, enabling personalized video communication and tracking within your sales processes.\n\nThese tools can help you enhance your sales engagement strategies by leveraging HubSpot's CRM capabilities alongside their specialized features.",
-  "cached_at": "2026-05-28T07:17:18Z",
-  "metadata": {}
-}

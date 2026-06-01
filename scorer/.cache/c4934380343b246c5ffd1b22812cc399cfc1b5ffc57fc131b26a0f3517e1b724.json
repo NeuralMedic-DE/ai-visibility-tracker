@@ -1,9 +1,0 @@
-{
-  "brand": "Gainsight",
-  "prompt_id": "IN-05",
-  "llm": "perplexity",
-  "prompt_text": "customer success tools with native Salesforce integration",
-  "response": "Here are **customer success tools with native Salesforce integration** that are explicitly described as Salesforce-native or deeply Salesforce-integrated in the search results:\n\n- **Revenue.io** — described as **Salesforce native**, with all data and workflows living inside Salesforce, automatic activity capture, guided selling sequences in Salesforce, and real-time AI guidance in context.[1]\n- **Salesforce CRM** — Salesforce itself supports customer success workflows through its CRM platform, with built-in integration capabilities and native AI/automation across customer touchpoints.[2]\n- **SurveyVista** — offers a **native Salesforce integration** for customer success use cases, including centralized dashboards and automated processes using customer feedback and CRM data.[4]\n- **Cloud Coach Customer Success** — mentioned in the YouTube result as a **Salesforce-native product** for building customer success processes in Salesforce.[5]\n- **Userpilot** — the search result says it has **deep, native bi-directional sync** with Salesforce, including CRM activity logging and customer success workflows.[8]\n\nIf you want, I can turn this into a **shortlist by use case** such as **customer health scoring, onboarding, renewals, feedback management, or CS automation**.",
-  "cached_at": "2026-05-28T08:06:23Z",
-  "metadata": {}
-}

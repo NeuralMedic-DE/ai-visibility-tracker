@@ -1,9 +1,0 @@
-{
-  "brand": "Apollo.io",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Apollo.io with Salesforce?",
-  "response": "# Connecting Apollo.io with Salesforce\n\nHere are the main methods:\n\n## 1. **Built-in Integration (Recommended)**\n- Log in to Apollo.io\n- Go to **Settings → Integrations**\n- Find **Salesforce** and click **Connect**\n- Authorize Apollo to access your Salesforce account\n- Select which data to sync (contacts, companies, opportunities, etc.)\n\n## 2. **What You Can Sync**\n- **One-way**: Export Apollo leads/contacts to Salesforce\n- **Two-way**: Sync updates between both platforms\n- Custom field mapping options\n- Automatic or manual sync scheduling\n\n## 3. **Key Setup Steps**\n1. Ensure you have admin access in both Apollo and Salesforce\n2. Grant necessary permissions during authorization\n3. Configure field mapping (Apollo fields → Salesforce fields)\n4. Test with a small batch first\n5. Set sync frequency preferences\n\n## 4. **Alternative: Zapier**\nIf direct integration isn't available for your needs:\n- Use Zapier as a middleware\n- Create automated workflows between the two apps\n- More customization options but slightly more complex\n\n## 5. **Common Issues**\n- **Insufficient permissions**: Ensure admin access\n- **Field mismatches**: Verify custom fields are properly mapped\n- **Duplicate contacts**: Set up deduplication rules\n\n**Would you like specific help with any of these steps, or do you need troubleshooting?**",
-  "cached_at": "2026-05-27T18:05:34Z",
-  "metadata": {}
-}

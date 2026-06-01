@@ -1,9 +1,0 @@
-{
-  "brand": "Nudge Security",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with manage SaaS sprawl and enforce security policies without blocking employee productivity at scale?",
-  "response": "# Managing SaaS Sprawl at Scale\n\n## Core Categories of Solutions\n\n**SaaS Management Platforms (SMPs)**\n- Observe, control, and optimize SaaS usage\n- Examples: Okta, Cisco Cloudlock, Netskope, Forcepoint\n- Track shadow IT, license waste, and usage patterns\n\n**Cloud Access Security Brokers (CASBs)**\n- Monitor and control data movement between users and cloud apps\n- Enforce DLP policies without blocking workflows\n- Examples: Netskope, Zscaler, Palo Alto Networks, Microsoft Defender for Cloud Apps\n\n**Identity & Access Management (IAM)**\n- Centralized authentication and authorization\n- Conditional access policies based on risk\n- Examples: Okta, Azure AD, Ping Identity\n\n## Productivity-Focused Approaches\n\n**Adaptive enforcement** rather than hard blocks:\n- Risk-based policies (allow known devices/locations, challenge suspicious activity)\n- Contextual access (require MFA only when needed, not always)\n- Graduated responses instead of outright denial\n\n**Application integration platforms** (Zapier, Make) can reduce sprawl by consolidating workflows—fewer tools needed overall.\n\n## Key Considerations\n\n- **API-first discovery** catches both approved and shadow apps\n- **User behavior analytics** identifies risky activity without false positives\n- **Integration with your existing stack** (SSO, DLP, HR systems) reduces friction\n- **Policies as code** allows rapid, consistent updates\n\nWhat's your biggest pain point—visibility, cost control, or security enforcement?",
-  "cached_at": "2026-05-28T08:38:53Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Metabase",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable business intelligence tools instead of Looker",
-  "response": "# Open Source & Affordable BI Alternatives to Looker\n\n## **Best Open Source Options**\n\n### **Apache Superset**\n- Free, actively maintained by Apache Foundation\n- Cloud-native, easy deployment\n- Good for dashboards and data exploration\n- Limited advanced analytics\n- Best for: Teams with data engineering resources\n\n### **Metabase**\n- Simple, user-friendly interface\n- Free version + affordable paid tiers\n- No-code dashboard builder\n- Works well with most databases\n- Best for: Small-to-medium teams, quick setup\n\n### **Apache Druid + Grafana**\n- Druid: real-time analytics database\n- Grafana: visualization layer\n- Powerful for time-series data\n- Steeper learning curve\n- Best for: Real-time monitoring, DevOps use cases\n\n### **Tableau Open Source (Vega-Lite)**\n- Lightweight visualization library\n- Good for custom applications\n- More development-focused\n- Best for: Custom embedded analytics\n\n---\n\n## **Affordable Paid Alternatives**\n\n| Tool | Starting Price | Best For |\n|------|---|---|\n| **Google Data Studio** | Free | Beginners, quick reports |\n| **Microsoft Power BI** | $10/user/month | Microsoft ecosystem integration |\n| **Qlik Sense** | ~$30/user/month | Complex data relationships |\n| **Sisense** | Custom pricing | Embedded analytics, large datasets |\n| **Perplexity/Mode Analytics** | Free-$2k/month | Collaborative SQL analytics |\n\n---\n\n## **Lightweight Self-Hosted Options**\n\n- **Grafana** – monitoring dashboards ($0-paid)\n- **ELK Stack** – log/data visualization\n- **Metabase** – best ease-of-use ratio\n- **Apache Zeppelin** – notebook-style analytics\n\n**What's your main use case?** That'll help narrow down the best fit.",
-  "cached_at": "2026-05-27T20:08:34Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "UserVoice",
-  "prompt_id": "AL-02",
-  "llm": "openai",
-  "prompt_text": "Cheaper alternatives to Aha!",
-  "response": "If you're looking for cheaper alternatives to Aha! for product management and roadmapping, here are a few options you might consider:\n\n1. **Trello**: A flexible project management tool that uses boards, lists, and cards. It's great for visualizing tasks and can be adapted for product roadmapping.\n\n2. **Asana**: Offers task management features and can be used to create project timelines and roadmaps. It has a free tier with basic features.\n\n3. **Jira**: Primarily used for software development, Jira offers roadmapping features and integrates well with other Atlassian products. It's often more affordable for smaller teams.\n\n4. **Monday.com**: A work operating system that allows you to build custom workflows. It offers templates for product roadmaps and has a tiered pricing model.\n\n5. **ClickUp**: A versatile tool that combines task management, docs, goals, and more. It offers a free plan with many features and paid plans at competitive prices.\n\n6. **Productboard**: Specifically designed for product management, it offers roadmapping and prioritization features at a lower cost than Aha!.\n\n7. **Roadmunk**: Focused on roadmapping, it provides visualization tools and collaboration features at a more affordable price point.\n\n8. **Notion**: A highly customizable workspace that can be used for roadmapping among many other things. It has a free plan and is very flexible.\n\nThese tools vary in terms of features and pricing, so it's worth exploring each to see which best fits your specific needs and budget.",
-  "cached_at": "2026-05-28T08:24:08Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Lattice",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with develop employee skills and track engagement scores over time at scale?",
-  "response": "There are several software solutions designed to help develop employee skills and track engagement scores over time at scale. Some popular options include:\n\n1. **Workday**: Offers comprehensive human capital management (HCM) solutions, including talent management and employee engagement tracking.\n\n2. **SAP SuccessFactors**: Provides tools for performance management, learning and development, and employee engagement analytics.\n\n3. **Cornerstone OnDemand**: Focuses on learning and development, performance management, and provides insights into employee engagement.\n\n4. **15Five**: Specializes in continuous performance management and employee engagement, offering tools for feedback, recognition, and development.\n\n5. **Qualtrics EmployeeXM**: Offers employee experience management solutions, including engagement surveys and analytics.\n\n6. **Lattice**: Provides performance management and employee engagement tools, including feedback, goal setting, and engagement surveys.\n\n7. **Culture Amp**: Focuses on employee engagement, performance, and development with tools for surveys, feedback, and analytics.\n\nThese platforms typically offer features like learning management systems (LMS), performance reviews, feedback mechanisms, and analytics dashboards to help organizations manage and improve employee skills and engagement effectively.",
-  "cached_at": "2026-05-28T06:30:09Z",
-  "metadata": {}
-}

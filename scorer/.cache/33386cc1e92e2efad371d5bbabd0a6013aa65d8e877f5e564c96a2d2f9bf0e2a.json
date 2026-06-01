@@ -1,9 +1,0 @@
-{
-  "brand": "n8n",
-  "prompt_id": "IN-02",
-  "llm": "perplexity",
-  "prompt_text": "n8n Postgres integration: how does it work?",
-  "response": "The **n8n Postgres integration** works by letting a workflow connect directly to a PostgreSQL database and run SQL operations such as **SELECT, INSERT, UPDATE, and DELETE** from inside visual nodes.[1][4] In practice, you add a Postgres node, authenticate with database credentials, and then use the node’s query action to read, write, or modify data as part of an automated workflow.[1][3]\n\nHere’s the basic flow:\n\n- **Connect n8n to Postgres** using host, port, database name, username, and password; SSL may be required for managed databases such as AWS RDS or Supabase.[1][2]\n- **Add a trigger** such as Cron, webhook, manual trigger, or another app event to start the workflow.[3][6][7]\n- **Run SQL in the Postgres node** to fetch data, insert new rows, update records, or delete rows.[1][3][4]\n- **Pass results to later nodes** so downstream steps can branch, transform data, or send notifications based on query output.[1]\n- **Use parameters from previous nodes** in your SQL to make queries dynamic and reduce SQL injection risk.[1]\n\nA common use case is inserting generated or incoming data into a table on a schedule: one n8n workflow example uses a Cron trigger, a Function node to generate sensor data, and a Postgres node to insert that data into the database.[3] Another example shows n8n using Postgres as chat memory in Supabase, where the node checks the table and then writes conversation data into it.[2]\n\nIf you want, I can also show:\n- a **sample n8n Postgres workflow**\n- the **exact credential fields**\n- or how to use **Postgres with Supabase in n8n**",
-  "cached_at": "2026-05-28T08:57:55Z",
-  "metadata": {}
-}

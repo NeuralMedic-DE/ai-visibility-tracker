@@ -1,9 +1,0 @@
-{
-  "brand": "Close",
-  "prompt_id": "UC-03",
-  "llm": "anthropic",
-  "prompt_text": "What tools do early-stage startups companies use to track sales pipeline?",
-  "response": "# Sales Pipeline Tools for Early-Stage Startups\n\n## **Free/Low-Cost CRM Platforms**\n- **HubSpot Free** – Pipeline views, basic automation, solid reporting\n- **Pipedrive** – Visual pipeline management, affordable paid tiers\n- **Zoho CRM** – Free tier covers basics; good for bootstrapped teams\n- **Freshsales** – Competitive pricing with decent pipeline features\n\n## **Spreadsheet-Based Solutions**\n- **Google Sheets/Excel** – Many founders start here with custom templates\n- **Airtable** – Bridges spreadsheets and databases; flexible and visual\n\n## **Lightweight/Specialized Tools**\n- **Close** – Built specifically for sales tracking (sales-first focus)\n- **Notion** – Good for early teams wanting custom workflows\n- **Monday.com** – Visual project/pipeline management\n\n## **Key Decision Factors**\n\n| Factor | Why It Matters |\n|--------|---|\n| **Cost** | Budget constraints in early stages |\n| **Ease of setup** | Speed matters; avoid lengthy implementations |\n| **Learning curve** | Team bandwidth is limited |\n| **Integrations** | Email, calendar, communication tools |\n| **Scalability** | Can you grow into it or switch later? |\n\n## **Reality Check**\nMost early-stage teams either:\n1. **Start with spreadsheets** (free, flexible, but manual)\n2. **Jump to HubSpot Free** (structure without cost)\n3. **Use Pipedrive** (if they want sales-focused UI from day one)\n\n**Pro tip:** Don't over-invest in tools early. Consistent use of a simple system beats perfect software used inconsistently.\n\nWhat stage are you at?",
-  "cached_at": "2026-05-27T17:51:17Z",
-  "metadata": {}
-}

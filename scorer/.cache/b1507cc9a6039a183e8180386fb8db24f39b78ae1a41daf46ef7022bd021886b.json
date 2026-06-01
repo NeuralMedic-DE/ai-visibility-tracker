@@ -1,9 +1,0 @@
-{
-  "brand": "UserVoice",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does UserVoice integrate with Salesforce?",
-  "response": "Yes. **UserVoice provides a native Salesforce integration**, and you can also connect the two via third‑party iPaaS tools.\n\nKey points:\n\n- UserVoice has an official **Salesforce Feedback & Opportunity Sidebar** integration for Salesforce Lightning and Classic, available on Salesforce **Enterprise and Unlimited** editions.[4]  \n  - You install a **UserVoice Connector package** in Salesforce, configure an access token from UserVoice, and then add the **UserVoice_Feedback** component to Opportunity pages.[4]  \n  - A custom **“UserVoice Feedback” object** in Salesforce is populated from UserVoice in a **one‑way sync** (data flows from UserVoice into Salesforce, not back).[4]  \n\n- Salesforce’s own docs also describe a **UserVoice connector in Account Engagement (Pardot)** to pull UserVoice suggestions and tickets into prospect records.[5]  \n\n- If you need broader or custom data flows, third‑party integration platforms like **Integrate.io** and **Skyvia** explicitly support **Salesforce–UserVoice integrations** for syncing data in one or both directions.[1][2]",
-  "cached_at": "2026-05-28T08:25:46Z",
-  "metadata": {}
-}

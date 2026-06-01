@@ -1,9 +1,0 @@
-{
-  "brand": "Drip",
-  "prompt_id": "IN-03",
-  "llm": "openai",
-  "prompt_text": "How do I connect Drip with Shopify?",
-  "response": "To connect Drip with Shopify, follow these steps:\n\n1. **Log in to Drip**: Go to your Drip account and log in.\n\n2. **Navigate to Integrations**: In the Drip dashboard, click on your account name in the top right corner and select \"Integrations\" from the dropdown menu.\n\n3. **Find Shopify**: In the integrations list, locate Shopify. You can use the search bar to find it quickly.\n\n4. **Connect Shopify**: Click on the \"Connect\" button next to Shopify. This will redirect you to the Shopify login page.\n\n5. **Log in to Shopify**: Enter your Shopify store credentials to log in.\n\n6. **Authorize the Connection**: Once logged in, you will be asked to authorize Drip to access your Shopify store. Review the permissions and click \"Install App\" or \"Authorize\" to proceed.\n\n7. **Configure Settings**: After authorization, you will be redirected back to Drip. Here, you can configure your integration settings, such as selecting which customer data to sync and setting up any specific workflows or automations you want to use.\n\n8. **Test the Integration**: Ensure everything is working correctly by testing the integration. You can do this by creating a test order in Shopify and checking if the data appears in Drip.\n\nOnce these steps are completed, your Drip account should be successfully connected to your Shopify store, allowing you to automate email marketing and manage customer data effectively.",
-  "cached_at": "2026-05-28T07:33:04Z",
-  "metadata": {}
-}

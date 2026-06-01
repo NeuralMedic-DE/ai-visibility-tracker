@@ -1,9 +1,0 @@
-{
-  "brand": "Raycast",
-  "prompt_id": "CM-02",
-  "llm": "anthropic",
-  "prompt_text": "Raycast vs Spotlight pricing and features",
-  "response": "# Raycast vs Spotlight: Pricing & Features Comparison\n\n## Pricing\n\n| Feature | Raycast | Spotlight |\n|---------|---------|-----------|\n| **Base Cost** | Free | Free (built-in) |\n| **Pro Plan** | $8/month or $80/year | N/A |\n| **Business Plan** | $15/month (team billing) | N/A |\n\n## Key Features\n\n### Raycast\n✅ **Strengths:**\n- Advanced command palette with 400+ built-in commands\n- API & extensions marketplace\n- AI features (Pro: Claude, GPT-4)\n- Window management & system control\n- Clipboard history & snippets\n- Team collaboration features (Pro)\n- Cross-platform extensibility\n- Workflow automation\n- Custom scripts & integrations\n\n❌ **Limitations:**\n- Paid features require Pro subscription\n- Steeper learning curve\n- Smaller ecosystem than alternatives\n\n### Spotlight\n✅ **Strengths:**\n- Native macOS integration\n- Zero cost (included with macOS)\n- Fast & lightweight\n- Minimal setup required\n- Handles web searches well\n\n❌ **Limitations:**\n- Limited customization\n- No extensions/plugins\n- Basic functionality only\n- No automation capabilities\n- No AI features\n- macOS-only\n\n## Quick Verdict\n\n| Use Case | Best Choice |\n|----------|------------|\n| **Budget-conscious** | Spotlight |\n| **Power users** | Raycast |\n| **Advanced automation** | Raycast |\n| **Minimal setup** | Spotlight |\n| **AI integration** | Raycast |\n\n**Choose Raycast if** you want extensibility, AI, and automation.  \n**Choose Spotlight if** you need basic searching without extra cost.",
-  "cached_at": "2026-05-28T06:25:07Z",
-  "metadata": {}
-}

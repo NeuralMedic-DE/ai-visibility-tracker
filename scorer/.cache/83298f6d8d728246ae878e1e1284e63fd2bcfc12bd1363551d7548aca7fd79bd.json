@@ -1,9 +1,0 @@
-{
-  "brand": "Pendo",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Amplitude vs alternatives: what should I switch to?",
-  "response": "# Alternatives to Amplitude\n\nYour best options depend on what matters most:\n\n## **For product analytics (similar scope)**\n- **Mixpanel** – Strong event tracking, slightly better UX, good for mobile\n- **Segment** – Better data infrastructure if you need multi-tool routing\n- **PostHog** – Open-source, self-hostable, privacy-focused, simpler pricing\n\n## **If cost is the issue**\n- **Plausible/Fathom** – Much cheaper, simpler (but less powerful)\n- **PostHog** – Self-hosted = predictable costs\n- **Heap** – Automatic event capture (less setup)\n\n## **If you need something broader**\n- **Google Analytics 4** – Free, basic but improving\n- **Matomo** – Privacy-focused alternative to GA\n- **Hotjar** – If you care more about session replay/heatmaps\n\n## **Key trade-offs**\n\n| What you're trading | Consider |\n|---|---|\n| Cost savings | PostHog, Plausible |\n| Simplicity | PostHog, Heap |\n| Privacy/Control | PostHog self-hosted, Matomo |\n| Ecosystem integrations | Segment |\n| Mobile focus | Mixpanel |\n\n**My take:** PostHog is the strongest direct replacement—it's catching up fast and you control your data. Mixpanel if you want analytics-specific polish without as much of a learning curve.\n\nWhat's driving the switch? (pricing, features, privacy?) That'd help narrow it down.",
-  "cached_at": "2026-05-27T19:48:06Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Vellum",
-  "prompt_id": "CD-04",
-  "llm": "openai",
-  "prompt_text": "Best AI tooling platforms for test and compare prompts systematically across multiple LLM providers",
-  "response": "When looking to test and compare prompts systematically across multiple large language model (LLM) providers, several AI tooling platforms can help streamline this process. Here are some of the best options:\n\n1. **PromptLayer**: This platform allows you to track and manage your prompts across different LLMs. It provides a way to log and analyze prompt performance, making it easier to compare results across models.\n\n2. **LangChain**: While primarily a framework for building applications with LLMs, LangChain supports integrations with multiple LLM providers and can be used to systematically test and compare prompts by creating standardized workflows.\n\n3. **Gradio**: Although primarily a tool for building machine learning demos, Gradio can be adapted to create interfaces that allow you to test prompts across different models and visualize the results side-by-side.\n\n4. **OpenAI's Evals**: This is a framework provided by OpenAI for evaluating LLMs. It allows you to create custom evaluations and compare different models' performances on specific tasks or prompts.\n\n5. **LLM Lab**: This tool is designed specifically for testing prompts across different LLMs. It provides features for systematic testing and comparison, making it easier to evaluate prompt effectiveness.\n\n6. **Prompt Engineering Platforms**: Some platforms focus on optimizing and testing prompts, such as PromptPerfect, which can be used in conjunction with other tools to compare prompt performance across different models.\n\nThese platforms can help you systematically test and compare prompts, providing insights into which LLMs perform best for your specific use cases.",
-  "cached_at": "2026-05-28T07:44:37Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Lemlist",
-  "prompt_id": "IN-03",
-  "llm": "openai",
-  "prompt_text": "How do I connect Lemlist with HubSpot?",
-  "response": "To connect Lemlist with HubSpot, you can use the native integration provided by Lemlist. Here’s a step-by-step guide on how to set it up:\n\n1. **Log into Lemlist:**\n   - Start by logging into your Lemlist account.\n\n2. **Access Integrations:**\n   - Go to the \"Settings\" section in your Lemlist dashboard.\n   - Click on \"Integrations\" from the menu options.\n\n3. **Select HubSpot:**\n   - Find HubSpot in the list of available integrations and click on it.\n\n4. **Authorize Lemlist:**\n   - You will be redirected to HubSpot’s authorization page.\n   - Log into your HubSpot account if you aren’t already logged in.\n   - Authorize Lemlist to access your HubSpot data by following the on-screen instructions.\n\n5. **Configure the Integration:**\n   - Once authorized, you can configure how you want the integration to work. This might include selecting which contacts or lists to sync, setting up triggers, and defining actions.\n\n6. **Test the Integration:**\n   - After setting up, it’s a good idea to test the integration to ensure everything is working as expected. You can do this by sending test data from Lemlist to HubSpot and checking if it appears correctly.\n\n7. **Use the Integration:**\n   - With the integration set up, you can now start using Lemlist to send personalized email campaigns and automatically update or manage your contacts in HubSpot based on their interactions.\n\nIf you encounter any issues during the setup, check Lemlist’s support documentation or contact their support team for assistance. Additionally, ensure that you have the necessary permissions in both Lemlist and HubSpot to set up integrations.",
-  "cached_at": "2026-05-28T07:17:17Z",
-  "metadata": {}
-}

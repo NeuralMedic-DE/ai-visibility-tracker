@@ -1,9 +1,0 @@
-{
-  "brand": "Salesflare",
-  "prompt_id": "CD-03",
-  "llm": "openai",
-  "prompt_text": "Which CRM software should a founder or solo sales rep at a startup use?",
-  "response": "For a founder or solo sales rep at a startup, it's important to choose a CRM that is easy to use, cost-effective, and scalable as the business grows. Here are a few CRM options that are well-suited for startups:\n\n1. **HubSpot CRM**: HubSpot offers a free CRM that is user-friendly and integrates well with other tools. It provides essential features like contact management, deal tracking, and email integration, making it a great choice for startups.\n\n2. **Zoho CRM**: Zoho offers a range of pricing plans, including a free version with basic features. It's known for its flexibility and customization options, which can be beneficial as your startup grows.\n\n3. **Pipedrive**: Known for its intuitive interface and sales pipeline management, Pipedrive is great for solo sales reps who need to focus on deal tracking and closing. It offers affordable pricing plans and is easy to set up.\n\n4. **Salesforce Essentials**: While Salesforce is known for its robust features, Salesforce Essentials is designed for small businesses and startups. It offers a simplified version of Salesforce’s powerful CRM capabilities.\n\n5. **Airtable**: While not a traditional CRM, Airtable can be customized to function as one. It’s highly flexible and can be adapted to meet the specific needs of a startup.\n\n6. **Freshsales**: Part of the Freshworks suite, Freshsales offers a user-friendly interface and AI-based lead scoring, which can be very helpful for solo sales reps managing leads.\n\nWhen choosing a CRM, consider factors such as ease of use, integration capabilities with other tools you use, scalability, and cost. Most of these CRMs offer free trials, so you can test them out to see which one best fits your needs.",
-  "cached_at": "2026-05-27T18:10:33Z",
-  "metadata": {}
-}

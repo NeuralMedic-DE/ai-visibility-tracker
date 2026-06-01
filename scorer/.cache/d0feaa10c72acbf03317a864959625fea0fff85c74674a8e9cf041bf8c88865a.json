@@ -1,9 +1,0 @@
-{
-  "brand": "Sprinto",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is Sprinto better than Drata for automate compliance checks and manage risk registries in a single platform?",
-  "response": "# Sprinto vs Drata: Compliance & Risk Management\n\nBoth are solid platforms, but they have different strengths:\n\n## Sprinto's advantages\n- **Risk registry management** is more comprehensive and intuitive\n- Better suited for organizations needing detailed risk tracking alongside compliance\n- Stronger in non-SOC 2 frameworks (ISO 27001, GDPR, etc.)\n- More affordable, especially for smaller teams\n\n## Drata's advantages\n- **Automation** is generally more mature and robust\n- Better integrations with common SaaS tools (Slack, GitHub, etc.)\n- Stronger in SOC 2 Type II (especially for startups)\n- More polished user interface\n\n## Key considerations\n\n**Choose Sprinto if:**\n- Risk registry management is a priority\n- You need multiple compliance frameworks\n- Budget is constrained\n\n**Choose Drata if:**\n- You want maximum automation of evidence collection\n- You're primarily targeting SOC 2\n- You want seamless integrations with your existing stack\n\n## Reality check\nNeither platform is perfect for both areas. Drata leans more toward automation; Sprinto offers better balance with risk management. Some organizations use both or supplement with dedicated risk management tools.\n\n**What's your primary use case?** (SOC 2, risk-heavy, multi-framework?) That would help clarify which fits better.",
-  "cached_at": "2026-05-28T08:31:11Z",
-  "metadata": {}
-}

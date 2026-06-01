@@ -1,9 +1,0 @@
-{
-  "brand": "Mailmodo",
-  "prompt_id": "CM-01",
-  "llm": "anthropic",
-  "prompt_text": "Mailmodo vs Customer.io: which is better?",
-  "response": "# Mailmodo vs Customer.io\n\nBoth serve different primary purposes, so \"better\" depends on your needs:\n\n## **Mailmodo**\n**Best for:** Email marketing with interactive elements\n- Strengths:\n  - AMP for email (interactive forms, surveys, carousels in inbox)\n  - Simpler, more affordable\n  - Good for lead capture and feedback collection\n- Limitations:\n  - Narrower feature set\n  - Smaller integration ecosystem\n  - Less robust automation\n\n## **Customer.io**\n**Best for:** Customer journey automation and lifecycle marketing\n- Strengths:\n  - Advanced segmentation and automation\n  - SMS + email + push notifications\n  - Better data unification\n  - Stronger integrations\n- Limitations:\n  - Steeper learning curve\n  - Higher pricing at scale\n  - Overkill for simple email campaigns\n\n## **Quick decision guide:**\n- Choose **Mailmodo** if you want interactive emails and simple campaigns\n- Choose **Customer.io** if you need sophisticated multi-channel automation and customer data integration\n\n**Other considerations:** Budget, current tools, team size, and whether you need omnichannel marketing (not just email).\n\nWhat's your main use case? That would help narrow it down further.",
-  "cached_at": "2026-05-28T07:35:02Z",
-  "metadata": {}
-}

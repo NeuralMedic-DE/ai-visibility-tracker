@@ -1,9 +1,0 @@
-{
-  "brand": "Workato",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I automate complex enterprise workflows connecting 1000 plus business applications without spending a lot on software?",
-  "response": "# Low-Cost Enterprise Workflow Automation\n\n## Open-Source Platforms (Best Budget Options)\n\n**Apache Airflow** - DAG-based workflow orchestration\n- Free, scalable, widely adopted\n- Steep learning curve but powerful\n- Good for data pipelines and scheduled tasks\n\n**n8n** - Visual workflow builder\n- Self-hosted (save licensing costs)\n- 1000+ integrations pre-built\n- Lower barrier to entry than Airflow\n\n**Zapier alternative: Make (formerly Integromat)**\n- Cheaper than Zapier at scale\n- Visual interface, generous free tier\n- ~$10-100/month vs Zapier's higher pricing\n\n## Hybrid Approach (Recommended)\n\n1. **Use your existing tools' native automation**\n   - Most enterprise apps (Salesforce, SAP, etc.) have built-in workflow engines\n   - Often overlooked, already paid for\n\n2. **API-first strategy**\n   - Build custom connectors between apps using their APIs\n   - Less code than you'd think with modern frameworks\n   - One developer can handle significant scale\n\n3. **iPaaS with constraints**\n   - Zapier/Make for 20% of workflows (complex stuff)\n   - In-house/open-source for the rest\n   - Hybrid = 40-50% cost savings\n\n## Reality Check\n\n- 1000+ apps = you probably have **200-300 active integrations max**\n- Focus automation on 80/20 workflows first\n- Document everything; it compounds savings\n\nWhat type of applications dominate your stack? (ERP, CRM, logistics?) That changes the recommendation significantly.",
-  "cached_at": "2026-05-28T09:13:32Z",
-  "metadata": {}
-}

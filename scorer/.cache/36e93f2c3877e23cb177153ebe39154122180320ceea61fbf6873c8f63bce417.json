@@ -1,9 +1,0 @@
-{
-  "brand": "Copper",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Copper with Google Workspace?",
-  "response": "# Connecting Copper with Google Workspace\n\nHere's how to set up the integration:\n\n## Basic Setup Steps\n\n1. **Open Copper** and go to **Settings** → **Integrations**\n2. Find **Google Workspace** in the available integrations\n3. Click **Connect** or **Authorize**\n4. You'll be redirected to Google to grant permissions\n5. **Sign in** with your Google Workspace account\n6. **Review permissions** and click **Allow**\n7. Return to Copper to confirm the connection\n\n## What This Integration Enables\n\n- **Email sync** - Emails appear automatically in contact records\n- **Calendar integration** - See Copper activities in Google Calendar\n- **Contact sync** - Two-way sync of contacts between platforms\n- **Gmail sidebar** - Access Copper directly from Gmail\n\n## Troubleshooting Tips\n\n- Ensure you're using a **Google Workspace admin account** for authorization\n- Check that **third-party app access** isn't blocked in your Google admin console\n- Clear browser cache if you encounter login issues\n- Make sure you have **appropriate permissions** in both Copper and Google Workspace\n\n## Support\n\nIf you run into issues:\n- Check [Copper's help documentation](https://support.copper.com)\n- Contact **Copper support** directly for account-specific issues\n- Review Google Workspace's app security settings\n\nNeed help with a specific feature after connecting?",
-  "cached_at": "2026-05-27T18:24:22Z",
-  "metadata": {}
-}

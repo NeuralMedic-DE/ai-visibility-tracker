@@ -1,9 +1,0 @@
-{
-  "brand": "Apify",
-  "prompt_id": "UC-03",
-  "llm": "anthropic",
-  "prompt_text": "What tools do data engineers and developers needing reliable structured web data companies use to extract data from any website with ready-made scrapers or custom code actors?",
-  "response": "# Web Data Extraction Tools for Developers\n\n## Established Platforms\n\n**Apify**\n- Pre-built \"actors\" (ready-made scrapers) for popular websites\n- Custom JavaScript/Python actor development\n- Cloud-based execution and scheduling\n- Strong for e-commerce, real estate, and job listings\n\n**ScrapingBee**\n- Handles JavaScript-heavy sites\n- Simple API-based approach\n- Built-in proxy rotation\n- Good for quick implementations\n\n**Bright Data (formerly Luminati)**\n- Enterprise-grade with massive proxy network\n- Both ready-made and custom solutions\n- Advanced residential proxies\n- Higher cost, better for large-scale operations\n\n## Developer-Friendly Options\n\n**Cheerio + Node.js / BeautifulSoup + Python**\n- Lightweight parsing libraries\n- Full control, steeper learning curve\n- Free and open-source\n\n**Selenium / Puppeteer / Playwright**\n- Handle JavaScript-rendered content\n- Browser automation approach\n- Good for complex interactions\n\n**Octoparse**\n- Visual builder for non-coders\n- Cloud execution available\n- Mix of pre-built and custom workflows\n\n## Key Considerations\n\n- **JavaScript rendering**: Does the target site need it?\n- **Scale**: Volume of data and frequency needed?\n- **Maintenance**: How often does target site structure change?\n- **Legal/ethical**: Check robots.txt and terms of service\n- **IP blocking**: Whether you need proxy rotation\n\nWhat's your primary use case? That would help recommend the best fit.",
-  "cached_at": "2026-05-28T07:59:09Z",
-  "metadata": {}
-}

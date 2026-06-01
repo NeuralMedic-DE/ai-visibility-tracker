@@ -1,9 +1,0 @@
-{
-  "brand": "UserVoice",
-  "prompt_id": "CD-05",
-  "llm": "anthropic",
-  "prompt_text": "Recommended product feedback tools for product teams capturing and prioritizing customer feature requests companies",
-  "response": "# Top Product Feedback Tools for Feature Request Management\n\n## **Dedicated Feedback Platforms**\n\n### **Best Overall**\n- **Canny** - Purpose-built for feedback management; excellent prioritization, voting, and changelog features\n- **Productboard** - Comprehensive roadmap + feedback integration; powerful insight clustering\n- **Upvoty** - Lightweight, affordable alternative with clean voting interface\n\n### **User Research Focused**\n- **Pendo** - In-app feedback, analytics, and user segmentation combined\n- **Apptio** - Advanced analytics with feedback collection\n- **Dovetail** - Specialized in synthesizing qualitative feedback at scale\n\n## **Communication-Based Tools**\n\n- **Slack** - Integrates feedback from team channels and discussions\n- **Discord** - Good for community-driven feature requests\n- **Feature Upvote** - Lightweight Slack integration option\n\n## **Survey & Feedback Collection**\n\n- **Typeform** - Beautiful feedback forms and surveys\n- **SurveySparrow** - Mobile-first feedback collection\n- **Qualtrics** - Enterprise-level feedback analytics\n\n## **Roadmap & Prioritization**\n\n- **Roadmunk** - Integrated feedback + roadmap visualization\n- **Aha!** - Feature-rich with portfolio management\n- **ProductPlan** - Intuitive roadmap with feedback linking\n\n## **Key Selection Criteria**\n\n✅ **Voting/prioritization system**  \n✅ **Integration capabilities** (Slack, Jira, CRM)  \n✅ **Changelog/release notes features**  \n✅ **User segmentation & filtering**  \n✅ **Analytics & reporting**  \n✅ **Budget & team size fit**\n\n**Budget range**: Free-$500+/month depending on features and scale\n\nWhich specific challenges are you facing?",
-  "cached_at": "2026-05-28T08:24:01Z",
-  "metadata": {}
-}

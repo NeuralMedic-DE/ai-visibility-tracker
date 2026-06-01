@@ -1,9 +1,0 @@
-{
-  "brand": "RudderStack",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best customer data platform that works with Segment and Snowflake",
-  "response": "# Top CDPs Compatible with Segment & Snowflake\n\n## **Best Overall: Segment Itself**\n- **Native integration** - already built-in\n- Combines data collection + activation\n- Strong for companies wanting an all-in-one solution\n- Good documentation and support\n\n## **Best Data Warehouse-Native Options**\n\n### **1. dbt + Semantic Layer (Free/Affordable)**\n- Use dbt to transform Segment data in Snowflake\n- Build customer models directly in your warehouse\n- Cost-effective if you have analytics eng resources\n- Popular with data-forward teams\n\n### **2. Hightouch** ⭐ *Top Pick*\n- Purpose-built for warehouse-native CDP patterns\n- Reads customer data directly from Snowflake\n- Excellent Segment integration\n- Strong reverse ETL for activation\n- Pricing: Usage-based, transparent\n\n### **3. Census**\n- Similar to Hightouch - warehouse-native\n- Native Snowflake + Segment support\n- Good for teams wanting source-of-truth in warehouse\n- Strong activation capabilities\n\n## **Enterprise Options**\n\n- **Treasure Data** - robust, enterprise-grade\n- **Amperity** - AI-powered identity resolution\n- **mParticle** - mobile + web focus\n\n## **Quick Decision Framework**\n\n| Need | Best Choice |\n|------|-------------|\n| Simple, all-in-one | Segment |\n| Cost-conscious | dbt + free tools |\n| Warehouse-native CDP | Hightouch or Census |\n| Enterprise with budget | Treasure Data |\n\n**My recommendation**: Start with **Hightouch** if you want a dedicated CDP that treats Snowflake as the source of truth, or stick with **Segment** if you prefer a simpler, integrated platform.\n\nWhat's your use case—activation, analytics, or both?",
-  "cached_at": "2026-05-28T09:08:20Z",
-  "metadata": {}
-}

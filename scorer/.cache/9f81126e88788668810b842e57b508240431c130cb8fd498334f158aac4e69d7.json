@@ -1,9 +1,0 @@
-{
-  "brand": "Apify",
-  "prompt_id": "AL-02",
-  "llm": "openai",
-  "prompt_text": "Cheaper alternatives to Playwright",
-  "response": "If you're looking for cheaper or free alternatives to Playwright for browser automation and testing, here are a few options:\n\n1. **Selenium**: An open-source tool that supports multiple programming languages and browsers. It's widely used and has a large community.\n\n2. **Puppeteer**: A Node.js library developed by Google that provides a high-level API to control Chrome or Chromium over the DevTools Protocol. It's free and well-suited for headless browser automation.\n\n3. **Cypress**: Although primarily a testing framework, Cypress is open-source and offers a free tier. It's particularly popular for end-to-end testing of web applications.\n\n4. **TestCafe**: An open-source framework for end-to-end testing that doesn't require browser plugins. It supports modern JavaScript and TypeScript.\n\n5. **WebDriverIO**: A popular open-source testing utility for Node.js that works with Selenium WebDriver and can automate browser interactions.\n\n6. **Nightwatch.js**: A Node.js-based end-to-end testing solution that uses the W3C WebDriver API to perform commands and assertions on DOM elements.\n\nEach of these tools has its own strengths and weaknesses, so the best choice depends on your specific needs, such as language preference, ease of use, community support, and specific features you might require.",
-  "cached_at": "2026-05-28T07:58:54Z",
-  "metadata": {}
-}

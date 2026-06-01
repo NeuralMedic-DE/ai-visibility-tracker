@@ -1,9 +1,0 @@
-{
-  "brand": "Semgrep",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best security for application security and DevSecOps teams at technology companies?",
-  "response": "# Best Security Practices for AppSec & DevSecOps Teams\n\n## Foundation Essentials\n\n**Shift-Left Security**\n- Integrate security into development from day one, not as an afterthought\n- Automate security scanning in CI/CD pipelines\n- Provide developers with secure coding training and tools\n\n**Supply Chain Security**\n- Dependency scanning (SCA - Software Composition Analysis)\n- Container image scanning\n- Verify third-party components and libraries\n- SBOM (Software Bill of Materials) tracking\n\n## Technical Controls\n\n**Code & Artifact Security**\n- SAST (Static Application Security Testing)\n- DAST (Dynamic Application Security Testing)\n- Secret management (no hardcoded credentials)\n- Code review automation with security focus\n\n**Infrastructure & Deployment**\n- Infrastructure-as-Code scanning\n- Container orchestration hardening (Kubernetes policies)\n- Least-privilege access and RBAC\n- Vulnerability management for OS/runtime dependencies\n\n## Organizational Structure\n\n**Best practices:**\n- Embed AppSec engineers within development teams\n- Create clear escalation paths for findings\n- Balance security with developer velocity\n- Establish metrics (MTTR, vulnerability trends)\n\n## Cultural & Process\n\n- **Threat modeling** in design phase\n- **Security champion** programs\n- Blameless incident response\n- Regular security training\n- Automated compliance checking (SAST/DAST in pipelines)\n\n**What's your specific context?** (team size, tech stack, maturity level) I can provide more targeted recommendations.",
-  "cached_at": "2026-05-28T08:48:27Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "LeadIQ",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I capture prospect data from LinkedIn without spending a lot on software?",
-  "response": "Here are practical low-cost approaches:\n\n**Manual/Free methods:**\n- LinkedIn Sales Navigator free trial (limited but functional)\n- Save prospect profiles, note details in a spreadsheet as you browse\n- Use LinkedIn's built-in search filters to identify your target audience\n- Screenshot profiles + OCR tools (free versions available) to extract text\n- Export connection lists if you have them (CSV format)\n\n**Minimal-cost tools:**\n- Hunter.io or RocketReach free tiers (find emails for leads you identify)\n- Phantombuster (free plan exists, though limited)\n- Make.com automation scenarios (can pull basic LinkedIn data legally)\n- Google Sheets + simple browser extensions for manual data capture\n\n**Important caveats:**\n- LinkedIn's terms of service restrict scraping—doing it manually or via their official tools is safer than third-party scrapers\n- Most free tools have usage limits\n- Data quality varies; manual verification is often needed\n\n**More sustainable approach:**\nInstead of bulk capture, consider:\n- Building a targeted list manually (10-20 high-quality prospects)\n- Using LinkedIn to vet them, then finding contact info another way\n- Focusing on warm outreach rather than cold volume\n\nWhat's your actual goal—building a one-time list, or ongoing lead generation? That might suggest a better path than trying to scrape LinkedIn.",
-  "cached_at": "2026-05-27T18:44:00Z",
-  "metadata": {}
-}

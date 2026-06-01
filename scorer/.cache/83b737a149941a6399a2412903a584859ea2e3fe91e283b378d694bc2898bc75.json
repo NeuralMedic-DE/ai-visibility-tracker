@@ -1,9 +1,0 @@
-{
-  "brand": "ActiveCampaign",
-  "prompt_id": "IN-03",
-  "llm": "openai",
-  "prompt_text": "How do I connect ActiveCampaign with Shopify?",
-  "response": "To connect ActiveCampaign with Shopify, you can follow these steps:\n\n1. **Log in to ActiveCampaign:**\n   - Go to your ActiveCampaign account and log in.\n\n2. **Access Integrations:**\n   - Click on \"Apps\" in the left sidebar to access the integrations page.\n\n3. **Find Shopify:**\n   - In the search bar, type \"Shopify\" to find the Shopify integration.\n\n4. **Set Up the Integration:**\n   - Click on the Shopify integration option and then click \"Add app\" or \"Connect account\" to start the setup process.\n\n5. **Log in to Shopify:**\n   - You will be prompted to log in to your Shopify account. Enter your Shopify store URL and log in.\n\n6. **Authorize the Integration:**\n   - Once logged in, you will be asked to authorize the connection between ActiveCampaign and Shopify. Review the permissions and click \"Install app\" or \"Authorize\" to proceed.\n\n7. **Configure the Integration:**\n   - After authorization, you can configure the integration settings. This may include selecting which data to sync, such as customers, orders, and products, and setting up any automation triggers or tags.\n\n8. **Save and Test:**\n   - Save your settings and test the integration to ensure data is syncing correctly between Shopify and ActiveCampaign.\n\nOnce set up, ActiveCampaign will start syncing data from your Shopify store, allowing you to use this information for email marketing, automation, and more.",
-  "cached_at": "2026-05-28T07:23:42Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "ActiveCampaign",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does ActiveCampaign integrate with Shopify?",
-  "response": "Yes. **ActiveCampaign has a native, two-way integration with Shopify** that you can set up directly from either ActiveCampaign or the Shopify app store.[1][4][9]\n\nActive details:\n\n- ActiveCampaign provides a built-in **Shopify integration (CXA / Deep Data)** that sends order, product, customer, and abandoned cart data from Shopify to ActiveCampaign for both logged-in customers and guests.[1][3][7]  \n- The integration is **two-way**: it syncs store tags from Shopify and applies tags like **“Shopify-customer”** in ActiveCampaign, and it can send contact data back to Shopify in line with Shopify’s Terms of Service.[3][1]  \n- You connect it by going to **Settings → Integrations → Add an Integration → Shopify** in ActiveCampaign, then approving the app in your Shopify admin.[1][2][7]  \n- There is also an official **“ActiveCampaign Marketing” app** in the Shopify app store that links your Shopify store to your ActiveCampaign account.[8][9]\n\nSo if you are using Shopify and ActiveCampaign, you can integrate them without any third-party connector.",
-  "cached_at": "2026-05-28T07:25:15Z",
-  "metadata": {}
-}

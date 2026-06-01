@@ -1,9 +1,0 @@
-{
-  "brand": "LeadIQ",
-  "prompt_id": "AL-05",
-  "llm": "openai",
-  "prompt_text": "Open source or affordable CRM tools instead of Apollo.io",
-  "response": "There are several open-source and affordable CRM tools you can consider as alternatives to Apollo.io. Here are some options:\n\n1. **HubSpot CRM**: HubSpot offers a free CRM with a wide range of features, including contact management, email tracking, and sales pipeline management. They also offer paid plans with additional features.\n\n2. **Zoho CRM**: Zoho offers a free version of their CRM for up to 3 users, which includes basic features. They also have affordable paid plans with more advanced capabilities.\n\n3. **Bitrix24**: Bitrix24 provides a free CRM solution with features like task management, document sharing, and communication tools. They also offer paid plans for additional features and more users.\n\n4. **SuiteCRM**: This is an open-source CRM that you can customize to fit your needs. It offers features like sales automation, customer support, and marketing automation.\n\n5. **Odoo**: Odoo offers a free open-source version with a variety of business applications, including CRM. It's highly customizable and can be tailored to your specific needs.\n\n6. **Vtiger CRM**: Vtiger offers a free version with essential CRM features and has affordable paid plans for more advanced functionality.\n\n7. **Freshsales (by Freshworks)**: Freshsales offers a free plan with basic CRM features and has affordable pricing for more advanced features.\n\n8. **Agile CRM**: Agile CRM offers a free plan for up to 10 users, which includes features like contact management, email tracking, and marketing automation.\n\nEach of these tools has its own strengths and may cater to different business needs, so it's a good idea to explore them further to see which one aligns best with your requirements.",
-  "cached_at": "2026-05-27T18:40:50Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Drata",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Vanta vs alternatives: what should I switch to?",
-  "response": "# Vanta Alternatives: Key Considerations\n\nBefore switching, I'd ask:\n\n**What's driving the change?**\n- Cost concerns?\n- Missing specific compliance frameworks?\n- Poor UX/integration experience?\n- Need for different features?\n\nThe \"best\" alternative really depends on your needs.\n\n## Main competitors:\n\n| Tool | Strength | Trade-off |\n|------|----------|----------|\n| **Drata** | SOC 2 automation, strong UX | Less comprehensive than Vanta |\n| **Laika** | Lower cost, good compliance | Smaller feature set |\n| **Secureframe** | Flexible frameworks, good for startups | Lighter automation |\n| **Hyperproof** | GRC platform breadth | More complex, steeper learning curve |\n| **OneTrust** | Enterprise-grade, many frameworks | Expensive, overkill for early stage |\n\n## Real talk:\n\n- **Switching costs are real** — data migration, team retraining, potential compliance gaps during transition\n- **Vanta is hard to beat on automation** if that's your priority\n- **Cheaper ≠ Better** — evaluate ROI vs. your time savings\n\n**What's your main pain point with Vanta?** That context would help narrow recommendations.",
-  "cached_at": "2026-05-28T08:28:55Z",
-  "metadata": {}
-}

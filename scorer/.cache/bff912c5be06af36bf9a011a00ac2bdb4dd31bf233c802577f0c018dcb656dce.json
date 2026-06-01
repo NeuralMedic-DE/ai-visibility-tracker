@@ -1,9 +1,0 @@
-{
-  "brand": "Mailmodo",
-  "prompt_id": "UC-03",
-  "llm": "openai",
-  "prompt_text": "What tools do SaaS growth marketers and email marketing leads wanting higher engagement companies use to send interactive AMP emails with embedded forms and survey widgets?",
-  "response": "To send interactive AMP emails with embedded forms and survey widgets, SaaS growth marketers and email marketing leads often use the following tools:\n\n1. **Stripo**: Stripo offers an AMP email builder that allows marketers to create interactive emails with elements like forms, carousels, and surveys without needing to code.\n\n2. **Mailmodo**: Mailmodo is specifically designed for creating and sending AMP emails. It provides templates and tools to embed forms, surveys, and other interactive elements directly into emails.\n\n3. **AWeber**: AWeber supports AMP for email, allowing marketers to create dynamic and interactive content within their emails, such as forms and surveys.\n\n4. **SendGrid**: SendGrid supports AMP emails and provides the necessary tools and documentation to help marketers implement interactive elements in their campaigns.\n\n5. **Litmus**: While primarily an email testing and analytics platform, Litmus offers resources and guidance on creating AMP emails, helping marketers ensure their interactive content renders correctly across different email clients.\n\n6. **Gmail AMP for Email**: For those who want to implement AMP directly, Google provides resources and documentation to help developers create AMP emails that can be sent through Gmail and other compatible email clients.\n\nThese tools help marketers enhance engagement by providing interactive experiences directly within the email, reducing friction for users and increasing the likelihood of interaction.",
-  "cached_at": "2026-05-28T07:35:14Z",
-  "metadata": {}
-}

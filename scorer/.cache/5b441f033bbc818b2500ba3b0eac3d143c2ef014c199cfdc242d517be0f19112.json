@@ -1,9 +1,0 @@
-{
-  "brand": "UserVoice",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with close the feedback loop with customers when their requested features ship at scale?",
-  "response": "# Software for Closing the Feedback Loop at Scale\n\nHere are the most effective tools:\n\n## **Customer Notification Platforms**\n- **LaunchDarkly** - Feature flags + customer communication\n- **Amplitude** - Product analytics with in-app messaging\n- **Intercom** - In-app messages, email campaigns, and product tours\n- **Appcues** - Onboarding and feature announcement tools\n\n## **Product Feedback Management**\n- **Productboard** - Tracks feature requests through to shipped product\n- **Aha!** - Connects customer feedback to roadmap to release\n- **Canny** - Customer feedback board with built-in changelog\n- **Zendesk/Jira** - Can integrate feedback to development pipeline\n\n## **Changelog & Announcement Tools**\n- **Changelog.so** - Dedicated changelog with notification system\n- **Beamer** - In-app notifications for feature announcements\n- **Pendo** - Analytics + in-app messaging tied to deployments\n\n## **Key Capabilities to Look For**\n- **Segmentation** - Notify only users who requested the feature\n- **Multi-channel** - Email, in-app, changelog, Slack\n- **Analytics** - Track if users engage with announcements\n- **Automation** - Trigger notifications based on feature flags/rollouts\n- **Integration** - Connect to your product, CRM, and analytics tools\n\n**Best approach:** Combine a **feature management** tool (LaunchDarkly) with an **announcement** tool (Intercom/Beamer) to notify the right users exactly when features are available to them.\n\nWhat's your current stack?",
-  "cached_at": "2026-05-28T08:24:20Z",
-  "metadata": {}
-}

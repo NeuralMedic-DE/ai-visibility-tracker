@@ -1,9 +1,0 @@
-{
-  "brand": "Brevo",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Brevo with WordPress?",
-  "response": "# Connecting Brevo with WordPress\n\nHere are the main methods:\n\n## 1. **Using a Plugin (Easiest)**\n\n### Brevo Official Plugin\n- Go to **Plugins > Add New** in WordPress\n- Search for \"Brevo\"\n- Install and activate the official **Brevo plugin**\n- Click **Connect to Brevo** and authorize with your Brevo account\n- Configure your email settings\n\n### Alternative Plugins\n- **WPForms** (forms + email marketing)\n- **MonsterInsights** (for analytics integration)\n- **Mailchimp for WordPress** (if using both services)\n\n## 2. **Manual Integration via API**\n\nIf you need custom integration:\n- Get your **API key** from Brevo (Settings > API & SMTP)\n- Use Brevo's REST API documentation\n- Implement via custom code or a developer\n\n## 3. **SMTP Configuration**\n\nTo send emails through Brevo:\n- Brevo Account > SMTP & API\n- Copy SMTP credentials\n- Add to your WordPress email settings using a plugin like **WP Mail SMTP** or **Easy WP SMTP**\n\n## 4. **Contact Form Integration**\n\n- Use **Contact Form 7**, **WPForms**, or **Gravity Forms**\n- Connect to Brevo to capture leads\n- Automatically add subscribers to your lists\n\n## Quick Start\n1. Install Brevo plugin\n2. Connect your Brevo account\n3. Configure email templates\n4. Test sending an email\n\nWhich method interests you most?",
-  "cached_at": "2026-05-28T07:26:13Z",
-  "metadata": {}
-}

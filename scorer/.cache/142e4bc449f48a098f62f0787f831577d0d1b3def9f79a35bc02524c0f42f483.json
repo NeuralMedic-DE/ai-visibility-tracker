@@ -1,9 +1,0 @@
-{
-  "brand": "Drip",
-  "prompt_id": "IN-05",
-  "llm": "anthropic",
-  "prompt_text": "marketing automation tools with native Shopify integration",
-  "response": "# Marketing Automation Tools with Native Shopify Integration\n\n## Top Tier Solutions\n\n### **Klaviyo**\n- **Best for:** Email marketing & SMS campaigns\n- **Key features:**\n  - Pre-built email flows (abandoned cart, welcome series)\n  - Behavioral segmentation\n  - SMS marketing\n  - Advanced analytics\n- **Pricing:** Free tier available; paid from ~$20/month\n\n### **Omnisend**\n- **Best for:** Multi-channel marketing\n- **Key features:**\n  - Email, SMS, push notifications, social ads\n  - Automation workflows\n  - Behavioral triggers\n- **Pricing:** Free tier; premium from ~$25/month\n\n### **Privy**\n- **Best for:** Email list building & conversion\n- **Key features:**\n  - Popups & sign-up forms\n  - Email sequences\n  - SMS marketing\n- **Pricing:** Free basic plan available\n\n## Mid-Market Solutions\n\n| Tool | Strength | Price Range |\n|------|----------|------------|\n| **Attentive** | SMS/loyalty focus | $250-5K+/month |\n| **Klaviyo** | Advanced segmentation | $20-1,250/month |\n| **Gorgias** | Customer service + marketing | $10-300/month |\n| **Judge.me** | Reviews + marketing | Free-$199/month |\n\n## Advanced Platforms\n\n### **HubSpot**\n- Enterprise CRM with marketing hub\n- Pricing: $45-3,200+/month\n\n### **Segment/mParticle**\n- Customer data platforms (CDP)\n- For complex multi-channel needs\n\n## Selection Criteria\n\n✅ **Consider:**\n- Customer list size\n- Channel needs (email, SMS, push, social)\n- Budget constraints\n- Integration depth required\n- Reporting sophistication\n\n**Quick recommendation:** Start with **Klaviyo** or **Omnisend** for most Shopify stores (excellent native integration + affordability).\n\nWhat's your primary marketing focus?",
-  "cached_at": "2026-05-28T07:33:20Z",
-  "metadata": {}
-}

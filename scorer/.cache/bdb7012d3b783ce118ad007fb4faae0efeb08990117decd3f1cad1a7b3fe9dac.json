@@ -1,9 +1,0 @@
-{
-  "brand": "Baremetrics",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Baremetrics integrate with Stripe?",
-  "response": "Yes, Baremetrics integrates with Stripe. Baremetrics is a subscription analytics and insights tool that can connect directly to your Stripe account to provide you with detailed metrics and insights about your subscription business. This integration allows you to track key performance indicators such as MRR (Monthly Recurring Revenue), ARR (Annual Recurring Revenue), churn rate, and more.",
-  "cached_at": "2026-05-28T06:57:40Z",
-  "metadata": {}
-}

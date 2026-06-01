@@ -1,9 +1,0 @@
-{
-  "brand": "Portkey",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which AI tooling software should a AI Engineer or Platform Lead managing production LLM infrastructure use?",
-  "response": "# AI Tooling for Production LLM Infrastructure\n\nThe answer depends on your specific needs, but here are the key categories and top options:\n\n## **Observability & Monitoring**\n- **Langsmith** (LangChain) - Good for tracing LLM chains and debugging\n- **Arize, WhyLabs** - ML monitoring with LLM-specific features\n- **Datadog, New Relic** - General infrastructure monitoring\n- **Helicone, OpenAI Evals** - LLM-specific performance tracking\n\n## **Model Serving & Inference**\n- **vLLM** - High-throughput LLM serving, open-source\n- **TensorRT-LLM** - NVIDIA's optimized inference engine\n- **Ray Serve** - Distributed model serving\n- **Anyscale** - Production Ray implementation\n- **Together AI, Replicate** - Managed alternatives\n\n## **Prompt & Config Management**\n- **Prompt flow (Microsoft)** - Visual workflow builder\n- **Langsmith Playground** - Iteration and testing\n- **Weights & Biases** - Experiment tracking\n\n## **Cost & Token Management**\n- **Inferable, Scope** - Token usage optimization\n- **Litellm** - Unified API across providers, fallbacks\n\n## **Evaluation & Quality**\n- **Ragas, DeepEval** - RAG evaluation\n- **Braintrust** - Evals and monitoring combined\n\n## **My Recommendation**\n**Start with:**\n1. **Langsmith** (observability + debugging)\n2. **vLLM or Ray Serve** (depending on scale)\n3. **Arize or WhyLabs** (production monitoring)\n\nThen layer in specialized tools based on your pain points.\n\nWhat's your primary concern—cost, latency, quality, or reliability?",
-  "cached_at": "2026-05-28T07:51:43Z",
-  "metadata": {}
-}

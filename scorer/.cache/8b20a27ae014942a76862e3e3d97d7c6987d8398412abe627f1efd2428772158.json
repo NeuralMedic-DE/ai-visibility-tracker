@@ -1,9 +1,0 @@
-{
-  "brand": "Stonly",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which knowledge management software should a CS Lead or Knowledge Base Manager at a SaaS company use?",
-  "response": "# Knowledge Management Software for SaaS Companies\n\nThe best choice depends on your specific needs, but here are top options by use case:\n\n## **Best Overall for SaaS**\n- **Notion** – Flexible, affordable, great for internal wikis and documentation\n- **Confluence** – Industry standard for technical teams; integrates with Jira\n- **GitBook** – Modern, designed for product/technical documentation\n\n## **By Primary Need**\n\n**Internal Knowledge Base (team-focused)**\n- Notion, Confluence, or Slite\n- Good for onboarding, processes, best practices\n\n**Customer-Facing Knowledge Base**\n- Zendesk Guide, Intercom, Help Scout\n- Built for self-service support, search optimization, analytics\n\n**Technical/API Documentation**\n- GitBook, ReadTheDocs, or Mintlify\n- Version control integration, developer-focused\n\n**Hybrid (internal + customer-facing)**\n- Confluence + Zendesk\n- Notion + custom portal\n- Slite (smaller teams)\n\n## **Key Questions to Ask**\n1. **Internal, customer-facing, or both?** (This is the biggest decision)\n2. Team size and technical proficiency?\n3. Integration needs (Slack, Jira, support tools)?\n4. Budget constraints?\n5. Content volume and complexity?\n\n**For most growing SaaS companies**: Notion (internal) + a dedicated support knowledge base tool (customer-facing) is a practical, cost-effective combo.\n\nWhat's your main use case?",
-  "cached_at": "2026-05-28T08:21:39Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "TestBrand",
-  "prompt_id": "UC-01",
-  "llm": "google",
-  "prompt_text": "How do I manage ai visibility tracking workflows without spending a lot on software?",
-  "response": "NO_AI_OVERVIEW",
-  "cached_at": "2026-06-01T15:00:25Z",
-  "metadata": {}
-}

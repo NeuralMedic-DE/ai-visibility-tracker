@@ -1,9 +1,0 @@
-{
-  "brand": "Ashby",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with build structured hiring workflows and automate interview scheduling at scale?",
-  "response": "There are several software solutions designed to help with building structured hiring workflows and automating interview scheduling at scale. Some popular options include:\n\n1. **Greenhouse**: This is a comprehensive recruiting software that offers tools for structured hiring, interview scheduling, and candidate management. It helps streamline the hiring process and improve collaboration among hiring teams.\n\n2. **Lever**: Lever provides an applicant tracking system (ATS) that includes features for structured hiring and automated interview scheduling. It integrates with various calendar systems to facilitate seamless interview coordination.\n\n3. **Workable**: Workable offers a robust platform for managing the entire hiring process, including structured workflows and automated scheduling. It also provides tools for sourcing candidates and collaborating with hiring teams.\n\n4. **BambooHR**: While primarily an HR software, BambooHR includes features for applicant tracking and interview scheduling, making it easier to manage hiring workflows.\n\n5. **SmartRecruiters**: This platform provides tools for structured hiring, interview scheduling, and candidate relationship management, aiming to enhance the efficiency of the recruitment process.\n\n6. **iCIMS**: iCIMS offers a suite of recruiting solutions, including tools for building structured hiring workflows and automating interview scheduling, helping organizations manage their talent acquisition processes effectively.\n\nThese platforms typically integrate with calendar applications like Google Calendar and Outlook, making it easier to schedule interviews and manage the recruitment process efficiently.",
-  "cached_at": "2026-05-28T06:39:30Z",
-  "metadata": {}
-}

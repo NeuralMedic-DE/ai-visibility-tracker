@@ -1,9 +1,0 @@
-{
-  "brand": "ActiveCampaign",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which marketing automation software should a VP Marketing or Marketing Manager at a small to mid-market business use?",
-  "response": "# Marketing Automation for SMB Marketing Leaders\n\nThe best choice depends on your specific needs, but here's a practical breakdown:\n\n## **Best Overall for SMBs**\n- **HubSpot** – Most balanced. Good free tier, scales well, strong CRM integration, excellent support\n- **Klaviyo** – If email/SMS-driven (especially e-commerce)\n- **ActiveCampaign** – Good automation depth at mid-market prices\n\n## **By Priority**\n\n**If budget is tight:**\n- HubSpot free or Mailchimp\n- Brevo (formerly Sendinblue)\n\n**If you need sophisticated workflows:**\n- ActiveCampaign\n- HubSpot Professional+\n\n**If you're e-commerce focused:**\n- Klaviyo (email dominance)\n- Shopify built-ins + Klaviyo\n\n**If you want simplicity:**\n- Constant Contact\n- ConvertKit (content-focused)\n\n## **Key Questions to Ask**\n\n1. What's your primary channel? (email, SMS, social, ads)\n2. What's your team size? (affects complexity needs)\n3. How much integration with existing tools do you need? (CRM, analytics, etc.)\n4. What's the budget? ($0-300/mo changes options significantly)\n\n## **My Practical Recommendation**\nStart with **HubSpot** if you want everything integrated, or **Klaviyo/ActiveCampaign** if you have a specific use case. Most SMB leaders find HubSpot the least regrettable choice—it grows with you without massive switching costs later.\n\nWhat's your primary marketing channel or biggest pain point right now?",
-  "cached_at": "2026-05-28T07:23:15Z",
-  "metadata": {}
-}

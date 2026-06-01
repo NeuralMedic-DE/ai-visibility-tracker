@@ -1,9 +1,0 @@
-{
-  "brand": "Customer.io",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with build complex automation workflows based on real product usage events at scale?",
-  "response": "To build complex automation workflows based on real product usage events at scale, you can consider using software like:\n\n1. **Zapier**: While primarily known for connecting apps and automating workflows, Zapier can handle complex automations with conditional logic and multi-step workflows.\n\n2. **Integromat (now Make)**: This platform allows for intricate automation scenarios with a visual editor, making it easier to map out complex workflows based on various triggers and conditions.\n\n3. **Tray.io**: Known for its flexibility and scalability, Tray.io offers a powerful platform for building complex, automated workflows that can handle large volumes of data and events.\n\n4. **n8n**: An open-source workflow automation tool that allows you to create complex workflows with a wide range of integrations and custom logic.\n\n5. **Apache NiFi**: A robust data integration tool that can automate data flows and handle complex event processing at scale.\n\n6. **Airflow**: While primarily a workflow management platform for data engineering, it can be adapted for complex automation tasks involving data and event-driven processes.\n\nThese tools provide the necessary features to handle complex workflows and can scale according to your needs, depending on the specific requirements of your product and the events you need to process.",
-  "cached_at": "2026-05-28T07:14:52Z",
-  "metadata": {}
-}

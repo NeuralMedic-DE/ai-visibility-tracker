@@ -1,9 +1,0 @@
-{
-  "brand": "Teamtailor",
-  "prompt_id": "IN-02",
-  "llm": "openai",
-  "prompt_text": "Teamtailor Slack integration: how does it work?",
-  "response": "Teamtailor's Slack integration allows you to streamline your recruitment process by sending notifications directly to your Slack channels. Here's how it typically works:\n\n1. **Setup**: First, you need to integrate Teamtailor with Slack. This is usually done through the Teamtailor platform, where you can find the integration settings. You may need to authorize the connection between Teamtailor and Slack.\n\n2. **Notifications**: Once integrated, you can configure which types of notifications you want to receive in Slack. Common notifications include new candidate applications, interview scheduling, candidate status updates, and other recruitment-related activities.\n\n3. **Channels**: You can choose specific Slack channels where these notifications will be sent. This allows your team to stay updated on recruitment activities without having to constantly check the Teamtailor platform.\n\n4. **Collaboration**: The integration facilitates better collaboration among team members by allowing them to discuss candidates and recruitment processes directly within Slack.\n\n5. **Customization**: Depending on the integration's capabilities, you might be able to customize the types of notifications and the information included in each message.\n\nBy integrating Teamtailor with Slack, you can enhance communication and ensure that your team is always informed about the latest developments in your hiring process.",
-  "cached_at": "2026-05-28T06:42:00Z",
-  "metadata": {}
-}

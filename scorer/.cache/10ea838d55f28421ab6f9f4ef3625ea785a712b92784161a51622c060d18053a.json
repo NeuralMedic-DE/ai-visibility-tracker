@@ -1,9 +1,0 @@
-{
-  "brand": "Leapsome",
-  "prompt_id": "CM-01",
-  "llm": "anthropic",
-  "prompt_text": "Leapsome vs Lattice: which is better?",
-  "response": "# Leapsome vs Lattice\n\nBoth are solid performance management platforms, but they serve slightly different needs:\n\n## Leapsome\n**Better for:**\n- Smaller to mid-size companies\n- Teams wanting simplicity and ease of use\n- Organizations prioritizing employee development/learning\n- Lower budgets\n\n**Strengths:**\n- Intuitive interface\n- Strong feedback/survey tools\n- Good mobile experience\n- More affordable\n\n## Lattice\n**Better for:**\n- Growth-stage and enterprise companies\n- Complex organizational structures\n- Companies needing advanced analytics/reporting\n- Comprehensive talent management\n\n**Strengths:**\n- Deeper integration ecosystem\n- More customization options\n- Better for succession planning\n- Stronger data analytics\n\n## Key differences:\n| Factor | Leapsome | Lattice |\n|--------|----------|---------|\n| **Complexity** | Simpler | More robust |\n| **Price** | Lower | Higher |\n| **Company size** | SMB focus | Enterprise focus |\n| **Learning tools** | Stronger | Standard |\n\n**Bottom line:** Choose **Leapsome** if you want user-friendly, affordable, development-focused tools. Choose **Lattice** if you need enterprise-grade features and advanced analytics.\n\nWhat's your company size and main priorities? That would help narrow it down.",
-  "cached_at": "2026-05-28T06:37:02Z",
-  "metadata": {}
-}

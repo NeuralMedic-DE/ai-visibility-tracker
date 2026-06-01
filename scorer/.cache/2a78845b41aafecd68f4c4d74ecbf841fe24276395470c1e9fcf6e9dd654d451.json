@@ -1,9 +1,0 @@
-{
-  "brand": "Charlie HR",
-  "prompt_id": "IN-05",
-  "llm": "openai",
-  "prompt_text": "HR tools with native Slack integration",
-  "response": "There are several HR tools that offer native Slack integration to streamline communication and improve workflow efficiency. Here are some popular ones:\n\n1. **BambooHR**: Offers integration with Slack to provide notifications and reminders about HR tasks, time-off requests, and approvals.\n\n2. **Gusto**: Integrates with Slack to send reminders and updates about payroll, benefits, and employee onboarding.\n\n3. **Workday**: Provides a Slack integration that allows employees to access HR information, submit time-off requests, and receive notifications directly within Slack.\n\n4. **Zenefits**: Offers Slack integration for notifications about HR tasks, benefits, and employee management.\n\n5. **Namely**: Integrates with Slack to provide updates and reminders about HR activities, including time-off requests and company announcements.\n\n6. **Lattice**: Offers Slack integration for performance management, allowing managers and employees to give feedback and receive updates directly in Slack.\n\n7. **Officevibe**: Provides Slack integration to facilitate employee engagement surveys and feedback collection.\n\n8. **Leapsome**: Integrates with Slack to streamline performance reviews, feedback, and goal tracking.\n\nThese tools help HR teams enhance communication and efficiency by leveraging Slack's capabilities for real-time updates and interactions.",
-  "cached_at": "2026-05-28T06:43:56Z",
-  "metadata": {}
-}

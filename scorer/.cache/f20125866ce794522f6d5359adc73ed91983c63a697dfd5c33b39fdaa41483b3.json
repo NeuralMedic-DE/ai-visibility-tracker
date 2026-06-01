@@ -1,9 +1,0 @@
-{
-  "brand": "Lemlist",
-  "prompt_id": "IN-04",
-  "llm": "openai",
-  "prompt_text": "Best sales engagement that works with HubSpot and Salesforce",
-  "response": "When looking for a sales engagement platform that integrates well with both HubSpot and Salesforce, you might consider the following options:\n\n1. **Outreach**: Outreach is a popular sales engagement platform that offers robust integrations with both HubSpot and Salesforce. It provides features like automated sequences, email tracking, and advanced analytics to help sales teams increase their efficiency and effectiveness.\n\n2. **Salesloft**: Salesloft is another leading sales engagement tool that integrates seamlessly with Salesforce and has capabilities to connect with HubSpot. It offers features such as cadence automation, email tracking, and call logging, which help streamline sales processes.\n\n3. **Groove**: Groove is designed specifically for Salesforce users but also offers integration capabilities with HubSpot. It provides tools for email tracking, meeting scheduling, and workflow automation, making it a strong choice for teams using both CRM systems.\n\n4. **Mixmax**: Mixmax integrates with both Salesforce and HubSpot, offering features like email tracking, scheduling, and automation. It's particularly useful for teams looking to enhance their email communication and productivity.\n\n5. **Yesware**: Yesware integrates with Salesforce and can be used alongside HubSpot to provide email tracking, templates, and reporting features. It's a good option for teams focusing on email outreach and engagement.\n\nEach of these platforms has its own strengths, so the best choice will depend on your specific needs, such as the size of your sales team, the complexity of your sales processes, and your budget. It's a good idea to explore demos or trials to see which platform aligns best with your requirements.",
-  "cached_at": "2026-05-28T07:17:18Z",
-  "metadata": {}
-}

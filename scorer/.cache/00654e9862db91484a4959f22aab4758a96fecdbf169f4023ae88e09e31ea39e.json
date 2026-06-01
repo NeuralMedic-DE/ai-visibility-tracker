@@ -1,9 +1,0 @@
-{
-  "brand": "Helicone",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Helicone integrate with OpenAI?",
-  "response": "Yes. **Helicone integrates directly with OpenAI** by acting as an OpenAI‑compatible proxy/gateway that you call instead of the normal OpenAI endpoint.[2][5][4]\n\nEssential points:\n\n- **Direct OpenAI integration:** Helicone has a dedicated **OpenAI integration** for JS/TS and Python, listed as a main integration in their docs.[2]  \n- **How it works:** You keep using the **OpenAI SDK and API format**, but change the `baseURL` to Helicone and provide a Helicone API key so Helicone can **proxy and log your OpenAI requests**.[2][5][4]  \n  ```ts\n  import OpenAI from \"openai\";\n\n  const openai = new OpenAI({\n    apiKey: process.env.OPENAI_API_KEY,\n    baseURL: \"https://oai.helicone.ai/v1\", // Helicone proxy for OpenAI\n    // or use headers:\n    // defaultHeaders: { \"Helicone-Auth\": `Bearer ${process.env.HELICONE_API_KEY}` },\n  });\n  ```[2][5]\n- **Observability and analytics:** By routing OpenAI traffic through Helicone, you get **logs, spend, latency, and usage insights** without changing your request shape.[2][4][7]  \n- **Realtime support:** Helicone also supports the **OpenAI Realtime API** through a Helicone WebSocket gateway (`wss://api.helicone.ai/v1/gateway/oai/realtime?...`).[1]  \n- **Gateway for multiple providers:** Beyond plain proxying, the **Helicone AI Gateway** lets you use the OpenAI SDK to access **OpenAI and many other providers via one OpenAI‑compatible endpoint**.[3][6][8]",
-  "cached_at": "2026-05-28T07:51:10Z",
-  "metadata": {}
-}

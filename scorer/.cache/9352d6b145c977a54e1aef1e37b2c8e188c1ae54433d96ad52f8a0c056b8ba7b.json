@@ -1,9 +1,0 @@
-{
-  "brand": "LlamaIndex",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does LlamaIndex integrate with OpenAI?",
-  "response": "Yes, LlamaIndex (formerly known as GPT Index) integrates with OpenAI. It is designed to work with language models, including those provided by OpenAI, to help structure and query large datasets effectively. You can use LlamaIndex to build applications that leverage OpenAI's models for tasks such as information retrieval, question answering, and more.",
-  "cached_at": "2026-05-28T07:42:23Z",
-  "metadata": {}
-}

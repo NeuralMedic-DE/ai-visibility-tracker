@@ -1,9 +1,0 @@
-{
-  "brand": "Planhat",
-  "prompt_id": "UC-05",
-  "llm": "perplexity",
-  "prompt_text": "What software helps with align sales and success teams on revenue expansion and renewal opportunities at scale?",
-  "response": "**CRM software** is the main software category that helps align sales and customer success teams on **renewal** and **expansion** opportunities at scale, because it gives both teams a shared system of record for customer interactions, pipelines, renewals, and expansion signals.[8]\n\nFor this use case, the most relevant software capabilities are:\n\n- **A shared CRM** to centralize account history, deal stages, customer interactions, and renewal/expansion indicators so sales and CS work from the same data.[8]\n- **Revenue enablement platforms** to align marketing, sales, and customer success around a shared revenue process and common goals.[4][7]\n- **Customer success platforms** that surface churn risk and expansion opportunities, often using predictive or AI-powered insights.[2]\n- **Conversation intelligence / workflow tools** that capture customer signals and sync them into CRM and collaboration tools like Slack for real-time visibility.[3]\n\nIf you want the single best answer in practice, it is usually a **CRM plus a customer success platform** working together, because CRM provides the system of record while CS software helps teams identify and act on renewal and upsell opportunities.[3][8]",
-  "cached_at": "2026-05-28T08:13:43Z",
-  "metadata": {}
-}

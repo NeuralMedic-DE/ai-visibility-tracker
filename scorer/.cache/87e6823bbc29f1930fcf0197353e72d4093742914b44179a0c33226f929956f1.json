@@ -1,9 +1,0 @@
-{
-  "brand": "ChartMogul",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to ProfitWell",
-  "response": "# Cheaper Alternatives to ProfitWell\n\n## Free/Low-Cost Options\n\n**Completely Free:**\n- **Stripe Dashboard** – Basic metrics if you use Stripe\n- **Spreadsheets + Zapier** – DIY approach for tracking\n- **Baremetrics Lite** – Limited free tier\n- **ChartMogul Free** – Entry-level subscription analytics\n\n**Under $50/month:**\n- **Baremetrics** – Starts ~$50\n- **Paddle Analytics** – Built-in if using Paddle for payments\n- **Metronome** – Billing + analytics\n- **Zuora** – Has lower-tier plans\n\n## Feature-Specific Alternatives\n\n| Need | Solution | Cost |\n|------|----------|------|\n| **Basic MRR tracking** | Spreadsheet + Zapier | $30-50 |\n| **Churn analysis** | Amplitude (free tier) | Free/$50+ |\n| **Cohort analysis** | Mixpanel | Free/$999+ |\n| **Revenue reports** | Native payment processor | Free |\n| **Forecasting** | Tableau/Looker | $70+ |\n\n## Hybrid Approach (Most Cost-Effective)\n\n1. **Payment processor native dashboards** (free)\n2. **Google Sheets** + custom formulas\n3. **Zapier** for data piping ($29-50)\n4. **Metabase** for visualization (free, self-hosted)\n\n## What to Consider\n- Do you need real-time data or monthly reports?\n- How many revenue streams do you have?\n- Is customization important?\n\n**What's your main use case?** That'll help narrow down the best option for your situation.",
-  "cached_at": "2026-05-28T06:54:59Z",
-  "metadata": {}
-}

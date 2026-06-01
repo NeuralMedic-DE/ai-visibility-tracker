@@ -1,9 +1,0 @@
-{
-  "brand": "Brevo",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to ActiveCampaign",
-  "response": "# Cheaper Alternatives to ActiveCampaign\n\n## Budget-Friendly Options\n\n### **Brevo (formerly Sendinblue)**\n- **From:** Free plan available\n- **Best for:** Email marketing + SMS\n- **Strengths:** Generous free tier, affordable automation, unlimited contacts on some plans\n\n### **Mailchimp**\n- **From:** Free plan\n- **Best for:** Small businesses and startups\n- **Strengths:** Simple automation, good free tier, user-friendly\n\n### **HubSpot**\n- **From:** Free plan + paid tiers\n- **Best for:** CRM + marketing combo\n- **Strengths:** Powerful free CRM, scalable, excellent support\n\n### **ConvertKit**\n- **From:** Free - $25+/month\n- **Best for:** Creators and bloggers\n- **Strengths:** Simple automation, subscriber-focused\n\n## Mid-Range Alternatives\n\n### **Klaviyo**\n- **From:** $20-30/month\n- **Best for:** E-commerce focused\n- **Strengths:** Advanced segmentation, strong SMS capabilities\n\n### **GetResponse**\n- **From:** ~$15/month\n- **Best for:** Complete marketing platform\n- **Strengths:** Affordable automation, landing pages, webinars\n\n### **Zoho CRM**\n- **From:** $12-65/month\n- **Best for:** CRM-first businesses\n- **Strengths:** Budget-friendly, feature-rich, integrations\n\n### **MailerLite**\n- **From:** Free plan\n- **Best for:** Creators and agencies\n- **Strengths:** Excellent value, drag-and-drop editor, affordable\n\n## Key Comparison Factors\n- Contact limits vs. pricing\n- Automation complexity you need\n- Integration requirements\n- Scalability potential\n\n**What's your primary use case?** I can recommend more specific options.",
-  "cached_at": "2026-05-28T07:25:58Z",
-  "metadata": {}
-}

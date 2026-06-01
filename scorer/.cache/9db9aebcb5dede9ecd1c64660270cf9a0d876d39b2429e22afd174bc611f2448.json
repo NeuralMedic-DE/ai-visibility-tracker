@@ -1,9 +1,0 @@
-{
-  "brand": "Ashby",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I manage the full recruiting funnel from sourcing to offer letter without spending a lot on software?",
-  "response": "# Low-Cost Recruiting Funnel Management\n\n## Free/Cheap Essentials\n\n**Job posting & sourcing**\n- LinkedIn (organic, no ads needed)\n- Indeed free posting\n- Industry-specific boards (often free or cheap)\n- Your own careers page\n- Referral program (lowest CAC)\n\n**Candidate tracking**\n- Spreadsheet with pipeline stages (sourcing → screening → interview → offer)\n- Google Forms for initial applications\n- Airtable free tier (better than spreadsheets, still free)\n- Notion (free, customizable)\n\n**Communication**\n- Gmail + templates for bulk outreach\n- Slack for interview coordination\n- Google Meet/Zoom free for interviews\n\n**Organization**\n- Calendar sharing (Google Calendar) to reduce back-and-forth\n- Google Docs for scorecards/feedback\n- Shared folders for interview notes\n\n## Workflow Tips\n\n1. **Create a simple scoring system** in your spreadsheet (skills match, culture fit, etc.)\n2. **Set up email templates** for common messages (screening rejection, interview confirmation, offer)\n3. **Batch communication** — reach out to candidates on a schedule\n4. **Use automation** — Gmail filters, Zapier free tier if you need LinkedIn → spreadsheet\n\n## When to Consider Paid Options\n\nOnly when:\n- Hiring >20 roles/year consistently\n- You're losing candidates to process friction\n- Manual work becomes clearly unsustainable\n\nWhat stage are you at? That matters for how to prioritize.",
-  "cached_at": "2026-05-28T06:39:30Z",
-  "metadata": {}
-}

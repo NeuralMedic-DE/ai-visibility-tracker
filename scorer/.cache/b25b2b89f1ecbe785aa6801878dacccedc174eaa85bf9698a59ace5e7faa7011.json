@@ -1,9 +1,0 @@
-{
-  "brand": "Brevo",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with manage contacts and automate marketing workflows from a single platform at scale?",
-  "response": "A software that helps manage contacts and automate marketing workflows from a single platform at scale is HubSpot. HubSpot offers a comprehensive suite of tools for customer relationship management (CRM), email marketing, social media management, and marketing automation, all integrated into one platform. Other similar platforms include Salesforce Marketing Cloud, Marketo, and ActiveCampaign, which also provide robust features for managing contacts and automating marketing processes.",
-  "cached_at": "2026-05-28T07:26:03Z",
-  "metadata": {}
-}

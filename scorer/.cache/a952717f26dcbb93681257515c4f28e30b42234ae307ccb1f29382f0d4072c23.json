@@ -1,9 +1,0 @@
-{
-  "brand": "Drata",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with reduce audit preparation time with continuously automated controls testing at scale?",
-  "response": "# Software for Continuous Audit & Control Testing\n\nSeveral categories of tools can reduce audit prep time through automated, continuous testing:\n\n## Dedicated Continuous Audit Platforms\n- **Domo** - Real-time monitoring and automated testing dashboards\n- **Workiva** - Integrated reporting and continuous controls monitoring\n- **Anaplan** - Connected planning with audit trail capabilities\n- **Alteryx** - Data preparation and automated workflow testing at scale\n\n## Governance, Risk & Compliance (GRC) Platforms\n- **Archer** (RSA) - Continuous risk monitoring and control testing\n- **Enablon** - EHS and compliance automation\n- **AuditBoard** - Cloud-based audit management with continuous monitoring\n- **LogicGate** - Risk and audit workflow automation\n\n## Data Analytics & Testing\n- **ACL Analytics** - Automated audit testing and data analytics\n- **IDEA** - Continuous audit analytics\n- **SAS Audit Analytics** - Large-scale data testing and monitoring\n\n## ERP-Native Solutions\n- **SAP Analytics Cloud** - Real-time control monitoring\n- **Oracle Enterprise Governance, Risk & Compliance**\n- **Microsoft Purview** - Compliance and governance automation\n\n## Key Features to Look For\n- Automated rule-based testing\n- Real-time dashboards\n- Integration with existing systems\n- Scalability across multiple data sources\n- Exception reporting and alerting\n\n**Best fit depends on:** your current tech stack, audit scope, and complexity of controls being tested.",
-  "cached_at": "2026-05-28T08:29:01Z",
-  "metadata": {}
-}

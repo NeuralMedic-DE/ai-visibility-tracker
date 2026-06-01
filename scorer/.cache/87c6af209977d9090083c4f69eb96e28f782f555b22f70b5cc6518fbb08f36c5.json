@@ -1,9 +1,0 @@
-{
-  "brand": "Supermetrics",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Supermetrics integrate with Google Analytics?",
-  "response": "Yes, Supermetrics integrates with Google Analytics. It allows you to pull data from Google Analytics into various platforms like Google Sheets, Excel, Google Data Studio, and other reporting tools. This integration helps in automating data collection and creating comprehensive reports and dashboards.",
-  "cached_at": "2026-05-27T20:35:48Z",
-  "metadata": {}
-}

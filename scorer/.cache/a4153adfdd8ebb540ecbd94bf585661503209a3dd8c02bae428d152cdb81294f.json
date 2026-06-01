@@ -1,9 +1,0 @@
-{
-  "brand": "Doppler",
-  "prompt_id": "AL-05",
-  "llm": "openai",
-  "prompt_text": "Open source or affordable secrets management tools instead of AWS Secrets Manager",
-  "response": "There are several open source and affordable secrets management tools you can consider as alternatives to AWS Secrets Manager:\n\n1. **HashiCorp Vault**: An open-source tool that provides a comprehensive solution for managing secrets and protecting sensitive data. It supports dynamic secrets, data encryption, and access control policies.\n\n2. **Bitwarden**: Primarily known as a password manager, Bitwarden also offers features for managing secrets and can be self-hosted, providing an affordable option for small teams.\n\n3. **CyberArk Conjur**: An open-source tool designed for managing secrets and privileged access in DevOps environments. It integrates well with various CI/CD tools and cloud platforms.\n\n4. **Doppler**: Offers a free tier with basic features for managing secrets across environments and teams. It's designed to be easy to use and integrate with existing workflows.\n\n5. **Sealed Secrets (by Bitnami)**: An open-source project that allows you to encrypt Kubernetes secrets into a format that can be safely stored in version control.\n\n6. **SOPS (Secrets OPerationS)**: A tool by Mozilla that encrypts files containing secrets using AWS KMS, GCP KMS, Azure Key Vault, or PGP, making it suitable for managing secrets in a GitOps workflow.\n\n7. **KeePassXC**: A community-driven port of the KeePass password manager, which can be used to manage secrets and credentials locally.\n\n8. **Ansible Vault**: Part of Ansible, it allows you to encrypt sensitive data within Ansible projects, making it useful for managing secrets in infrastructure as code.\n\nThese tools vary in features, complexity, and integrations, so the best choice will depend on your specific requirements and environment.",
-  "cached_at": "2026-05-28T06:20:23Z",
-  "metadata": {}
-}

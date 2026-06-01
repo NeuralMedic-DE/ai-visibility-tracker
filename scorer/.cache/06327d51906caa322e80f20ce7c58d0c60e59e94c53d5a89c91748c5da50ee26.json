@@ -1,9 +1,0 @@
-{
-  "brand": "ChartMogul",
-  "prompt_id": "CD-01",
-  "llm": "perplexity",
-  "prompt_text": "What is the best SaaS analytics for founders and finance teams at subscription SaaS businesses?",
-  "response": "For **founders and finance teams at subscription SaaS businesses**, the strongest single-purpose choice is usually **ChartMogul** or **Baremetrics** for subscription revenue analytics, while **Stripe Sigma** is often the best fit if your team wants finance-grade reporting directly from Stripe data.[1][2][5]\n\n- **ChartMogul** is built for subscription analytics and focuses on real-time **MRR, ARR, churn, and expansion** reporting by integrating with billing/payment systems like Stripe and Recurly.[1]\n- **Baremetrics** is another leading option for SaaS revenue analytics, with support for many subscription-specific metrics and a strong focus on understanding revenue movement.[5]\n- **Stripe Sigma** is especially useful for finance teams because it speeds up reporting and helps them **reconcile revenue, fees, payouts, cash flow, and live MRR/ARR** without stitching together CSV exports.[2]\n\nIf you want the simplest recommendation by team type:\n\n| Team need | Best fit | Why |\n|---|---|---|\n| Founder visibility into growth and churn | **ChartMogul** | Clear subscription analytics and real-time SaaS metrics.[1] |\n| Finance reporting and reconciliation | **Stripe Sigma** | Built for finance workflows, reconciliation, and reporting accuracy.[2] |\n| Broad SaaS revenue metric tracking | **Baremetrics** | Strong subscription-focused metric coverage.[5] |\n\nIf you already use **Stripe as your billing system**, Stripe Sigma is the most finance-oriented option in the results.[2] If your priority is a dedicated SaaS analytics layer for recurring revenue metrics, ChartMogul is the clearest fit.[1]",
-  "cached_at": "2026-05-28T06:54:42Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Apollo.io",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best CRM that works with Salesforce and HubSpot",
-  "response": "# Best CRM Integration Platforms\n\n## Top Options:\n\n### **Zapier**\n- Connects 1000+ apps including Salesforce & HubSpot\n- Pre-built workflows or custom automation\n- Good for basic to moderate needs\n- **Cost**: Free to $99+/month\n\n### **Make (Integromat)**\n- Powerful automation engine\n- Advanced data mapping and conditional logic\n- Strong for complex workflows\n- **Cost**: Free to enterprise pricing\n\n### **Workato**\n- Enterprise-grade integration platform\n- Deep Salesforce/HubSpot integration\n- Good for large organizations\n- **Cost**: High (enterprise pricing)\n\n### **Boomi**\n- Integration Platform as a Service (iPaaS)\n- Reliable for complex sync scenarios\n- Strong security features\n- **Cost**: Enterprise tier\n\n### **Celigo**\n- Specialized in business process automation\n- Pre-built Salesforce/HubSpot connectors\n- Good for mid-market companies\n- **Cost**: Mid-range\n\n## Quick Recommendation:\n\n**For most users**: **Zapier** (easiest to use, lowest cost to start)\n\n**For complex automation**: **Make** (more flexible, better workflow logic)\n\n**For enterprises**: **Workato** (most powerful, best support)\n\nWhat's your specific use case? That would help narrow it down further.",
-  "cached_at": "2026-05-27T18:05:38Z",
-  "metadata": {}
-}

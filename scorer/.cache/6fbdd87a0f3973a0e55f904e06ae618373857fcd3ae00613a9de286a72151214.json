@@ -1,9 +1,0 @@
-{
-  "brand": "ActiveCampaign",
-  "prompt_id": "CM-01",
-  "llm": "anthropic",
-  "prompt_text": "ActiveCampaign vs Klaviyo: which is better?",
-  "response": "# ActiveCampaign vs Klaviyo\n\nNeither is universally \"better\"—it depends on your priorities. Here's the breakdown:\n\n## **Klaviyo Wins For:**\n- **Email/SMS marketing** (their core strength)\n- **E-commerce focus** (especially Shopify)\n- **Ease of use** (faster setup)\n- **Pre-built templates** (email/SMS)\n- **Better deliverability** reputation\n\n## **ActiveCampaign Wins For:**\n- **Broader CRM features** (sales pipelines, contact management)\n- **Automation complexity** (more advanced workflows)\n- **B2B use cases**\n- **Cost** (cheaper at higher volumes)\n- **Integration flexibility** (webhooks, custom fields)\n\n## **Key Differences**\n\n| Factor | Klaviyo | ActiveCampaign |\n|--------|---------|----------------|\n| **Pricing model** | Per contact | Per contact |\n| **Best for** | D2C/e-commerce | B2B/diverse businesses |\n| **Learning curve** | Shallow | Steeper |\n| **Email features** | Excellent | Good |\n\n## **Quick Decision Guide**\n- **Choose Klaviyo if:** You're e-commerce-focused and want intuitive email/SMS\n- **Choose ActiveCampaign if:** You need deeper CRM features or advanced automation\n\n**Pro tip:** Consider your actual use case. For pure email marketing, Klaviyo excels. For integrated sales+marketing, ActiveCampaign is stronger.\n\nWhat's your main use case?",
-  "cached_at": "2026-05-28T07:23:19Z",
-  "metadata": {}
-}

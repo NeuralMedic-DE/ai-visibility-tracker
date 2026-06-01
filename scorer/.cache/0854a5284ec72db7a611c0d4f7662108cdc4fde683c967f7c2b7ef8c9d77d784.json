@@ -1,9 +1,0 @@
-{
-  "brand": "UserVoice",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Productboard vs alternatives: what should I switch to?",
-  "response": "# Productboard Alternatives: Key Considerations\n\nRather than just naming competitors, here's how to evaluate what fits your needs:\n\n## Common reasons people leave Productboard\n- **Cost** – pricing scales steeply with users/features\n- **Complexity** – steep learning curve for smaller teams\n- **Feature bloat** – can feel over-engineered for simple workflows\n- **Roadmap visualization** – some find it rigid or hard to customize\n\n## Viable alternatives by use case\n\n**If you want simpler + cheaper:**\n- **Asana, Monday.com** – better for general project/product management\n- **Linear** – excellent for technical product teams\n- **Coda** – flexible, great for customization\n\n**If you want specialized feedback collection:**\n- **Canny** – lighter weight, better UX for public feedback\n- **Uservoice** – established, good community engagement\n- **Slite** – knowledge-focused, less product roadmap-specific\n\n**If you want all-in-one:**\n- **Jira Product Discovery** – if already in Atlassian ecosystem\n- **Aha!** – more powerful but pricier (may not actually save money)\n\n## Questions to ask yourself first\n1. What specifically frustrates you? (pricing, UX, missing features?)\n2. What's your team size and technical comfort level?\n3. Do you need public feedback, internal planning, or both?\n4. How integrated does it need to be with your other tools?\n\n**What's your main pain point?** That'll help narrow realistic options.",
-  "cached_at": "2026-05-28T08:24:13Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Mailmodo",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with improve email engagement with interactive elements that convert inside the inbox at scale?",
-  "response": "To improve email engagement with interactive elements that convert inside the inbox at scale, you can consider using the following software solutions:\n\n1. **Stripo**: Stripo offers a drag-and-drop email builder with interactive elements like carousels, accordions, and countdown timers that can be embedded directly into emails.\n\n2. **Litmus**: While primarily known for email testing and analytics, Litmus also provides tools to create and test interactive email elements to ensure they work across different email clients.\n\n3. **BEE Free**: BEE Free is an email design tool that allows you to create interactive emails with ease. It has a variety of templates and design options to enhance engagement.\n\n4. **Mailchimp**: Mailchimp provides a range of interactive email features and integrations that can help boost engagement, such as personalized content and dynamic elements.\n\n5. **ActiveCampaign**: Known for its automation capabilities, ActiveCampaign also supports interactive email features and personalization to increase engagement.\n\n6. **AMP for Email**: This is a technology rather than a standalone software, but many email service providers are starting to support AMP for Email, which allows for highly interactive and dynamic content directly within the email.\n\nThese tools can help you design and deploy interactive emails that engage recipients and drive conversions, all while ensuring compatibility across various email clients.",
-  "cached_at": "2026-05-28T07:35:15Z",
-  "metadata": {}
-}

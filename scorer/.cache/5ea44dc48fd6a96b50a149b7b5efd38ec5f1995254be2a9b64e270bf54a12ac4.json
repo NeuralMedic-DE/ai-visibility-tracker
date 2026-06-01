@@ -1,9 +1,0 @@
-{
-  "brand": "RudderStack",
-  "prompt_id": "IN-05",
-  "llm": "openai",
-  "prompt_text": "customer data platform tools with native Segment integration",
-  "response": "If you're looking for Customer Data Platform (CDP) tools with native Segment integration, here are a few options you might consider:\n\n1. **Twilio Segment**: As the original platform, Segment itself acts as a comprehensive CDP, offering native integrations with a wide range of tools and services.\n\n2. **Amplitude**: This analytics platform integrates seamlessly with Segment, allowing you to analyze customer data and gain insights into user behavior.\n\n3. **Braze**: A customer engagement platform that integrates with Segment to help you deliver personalized marketing messages across various channels.\n\n4. **Iterable**: This growth marketing platform offers native integration with Segment, enabling you to create targeted campaigns based on customer data.\n\n5. **Mixpanel**: Known for its product analytics capabilities, Mixpanel integrates with Segment to help you track and analyze user interactions.\n\n6. **Customer.io**: A marketing automation platform that integrates with Segment to help you send targeted emails and messages based on user behavior.\n\n7. **HubSpot**: While primarily a CRM, HubSpot offers marketing, sales, and service tools that can integrate with Segment for a more comprehensive view of customer interactions.\n\n8. **Salesforce Marketing Cloud**: This platform offers robust marketing automation and analytics capabilities and can integrate with Segment for enhanced customer data management.\n\nThese tools can help you leverage Segment's capabilities to manage and analyze customer data more effectively, enabling better decision-making and personalized customer experiences.",
-  "cached_at": "2026-05-28T09:08:12Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Vitally",
-  "prompt_id": "CD-02",
-  "llm": "openai",
-  "prompt_text": "Top customer success platform for B2B SaaS product and CS teams tools in 2025",
-  "response": "While I can't predict the future, as of my last update, several customer success platforms are highly regarded in the B2B SaaS space. These platforms are likely to continue evolving and could be top contenders in 2025:\n\n1. **Gainsight**: Known for its comprehensive features that help manage customer relationships, track health scores, and automate customer success processes.\n\n2. **ChurnZero**: Offers tools to understand customer usage patterns, automate engagement, and reduce churn, making it a favorite among SaaS companies.\n\n3. **Totango**: Provides a modular approach to customer success, allowing teams to customize their workflows and track customer journeys effectively.\n\n4. **ClientSuccess**: Focuses on simplifying customer success management with features for tracking customer health, managing renewals, and enhancing customer relationships.\n\n5. **HubSpot Service Hub**: Part of the HubSpot ecosystem, it integrates well with other HubSpot tools and offers features for customer feedback, ticketing, and knowledge base management.\n\n6. **Zendesk**: While primarily known for support, Zendesk has expanded its offerings to include customer success features that integrate well with its support tools.\n\nThese platforms are likely to continue innovating and adapting to the needs of B2B SaaS companies. It's important to evaluate them based on your specific needs, such as integration capabilities, scalability, and specific features that align with your customer success strategy.",
-  "cached_at": "2026-05-28T08:09:07Z",
-  "metadata": {}
-}

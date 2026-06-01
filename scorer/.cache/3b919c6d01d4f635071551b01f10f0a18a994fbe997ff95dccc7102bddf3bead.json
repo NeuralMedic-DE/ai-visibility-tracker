@@ -1,9 +1,0 @@
-{
-  "brand": "Folk",
-  "prompt_id": "IN-05",
-  "llm": "perplexity",
-  "prompt_text": "CRM tools with native Gmail integration",
-  "response": "If you want **CRM tools with native Gmail integration**, the strongest options in the results are **Streak**, **Copper**, **NetHunt CRM**, and **i CRM for Gmail**.[4][6][2][1]\n\n- **Streak**: fully embedded in Gmail, with pipeline and deal management directly inside your inbox.[4][7]\n- **Copper**: built for Google Workspace, with Gmail, Calendar, Drive, and contact syncing; it also lets you add contacts directly from Gmail.[6]\n- **NetHunt CRM**: described as a Gmail-native CRM that works fully inside Gmail and supports automated workflows and follow-ups.[2][3]\n- **i CRM for Gmail**: a Google Workspace add-on that displays inside Gmail in browsers and the Gmail mobile app.[1]\n\nA useful way to distinguish them is by *how native* the Gmail experience is:\n\n| Tool | Gmail integration style | Best fit |\n|---|---|---|\n| Streak | Fully embedded inside Gmail | Teams that want to manage pipelines without leaving inbox[4][7] |\n| NetHunt CRM | Fully embedded / Gmail-native | Teams wanting deeper CRM workflows inside Gmail[2][3] |\n| Copper | Native Google Workspace integration with Gmail sidebar/workflow sync | Google Workspace teams needing broader email + calendar + drive sync[6] |\n| i CRM for Gmail | Gmail add-on inside Gmail | Users who want a CRM that lives in Gmail and works on mobile too[1] |\n\nIf you want, I can also narrow this to:\n- **best free Gmail CRM**\n- **best for small teams**\n- **best for Google Workspace**\n- **best for sales pipelines only**",
-  "cached_at": "2026-05-27T18:59:20Z",
-  "metadata": {}
-}

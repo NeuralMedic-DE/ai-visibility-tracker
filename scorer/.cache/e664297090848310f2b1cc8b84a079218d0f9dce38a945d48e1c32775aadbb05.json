@@ -1,9 +1,0 @@
-{
-  "brand": "Front",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Front integrate with Salesforce?",
-  "response": "# Front and Salesforce Integration\n\nYes, **Front integrates with Salesforce**, though the level of integration depends on your setup:\n\n## Direct Integration\nFront offers a native Salesforce integration that allows you to:\n- View Salesforce contact and account information within Front\n- Link conversations to Salesforce records\n- Create Salesforce tasks from Front messages\n- Log activities to Salesforce\n\n## How to Set It Up\nThe integration typically requires:\n1. Installing the Front app/connector in Salesforce\n2. Authenticating your Salesforce account in Front\n3. Configuring which data syncs between platforms\n\n## Alternative: Zapier/Third-party Tools\nIf you need deeper automation, you can also connect Front and Salesforce through:\n- **Zapier** - Create custom workflows between the two systems\n- **Make (formerly Integromat)** - For more advanced automations\n\n## Best Approach\nI'd recommend:\n1. **Checking Front's current integration docs** - integrations can change or expand\n2. **Contacting Front support** - they can confirm what's available for your specific plan\n3. **Testing** in a sandbox environment first\n\nIs there a specific workflow you're trying to automate between Front and Salesforce?",
-  "cached_at": "2026-05-28T08:17:20Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Salesflare",
-  "prompt_id": "IN-02",
-  "llm": "openai",
-  "prompt_text": "Salesflare LinkedIn integration: how does it work?",
-  "response": "Salesflare's LinkedIn integration is designed to help users streamline their sales processes by leveraging LinkedIn data. Here's how it typically works:\n\n1. **Contact and Company Information**: Salesflare can pull contact and company information from LinkedIn profiles. This is useful for automatically populating your CRM with relevant data, reducing manual data entry.\n\n2. **Email and Social Media Tracking**: Salesflare can track interactions such as emails and social media engagements. While it doesn't directly track LinkedIn messages, it can help you keep a comprehensive view of your interactions with contacts.\n\n3. **LinkedIn Sidebar**: Salesflare offers a sidebar that can be used alongside LinkedIn. This sidebar allows you to view and update CRM information directly while browsing LinkedIn profiles, making it easier to add new leads or update existing contact information.\n\n4. **Lead Generation**: By using LinkedIn as a source of leads, you can easily add potential contacts to Salesflare. The integration helps in capturing lead information and tracking their engagement over time.\n\n5. **Seamless Workflow**: The integration aims to create a seamless workflow between LinkedIn and Salesflare, allowing sales teams to efficiently manage and nurture their leads without switching between platforms.\n\nOverall, Salesflare's LinkedIn integration is designed to enhance productivity by automating data entry and providing easy access to CRM features while using LinkedIn.",
-  "cached_at": "2026-05-27T18:12:40Z",
-  "metadata": {}
-}

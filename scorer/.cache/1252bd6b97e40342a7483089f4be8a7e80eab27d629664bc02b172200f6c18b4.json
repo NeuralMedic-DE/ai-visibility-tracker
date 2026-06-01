@@ -1,9 +1,0 @@
-{
-  "brand": "FullStory",
-  "prompt_id": "CM-01",
-  "llm": "anthropic",
-  "prompt_text": "FullStory vs Hotjar: which is better?",
-  "response": "# FullStory vs Hotjar\n\nThere's no universal \"better\" choice—it depends on your priorities:\n\n## **FullStory excels at:**\n- **Session replay** with technical debugging (console logs, network activity)\n- **Root cause analysis** for technical issues\n- **Enterprise-grade** security and compliance\n- Teams needing deep technical troubleshooting\n\n**Best for:** Engineers, technical teams, complex web apps\n\n## **Hotjar excels at:**\n- **User behavior** (heatmaps, scroll maps, click analysis)\n- **Survey & feedback** tools built-in\n- **Affordability** at smaller scales\n- **Ease of use** for non-technical stakeholders\n\n**Best for:** UX/product teams, conversion optimization, budget-conscious startups\n\n## **Quick comparison:**\n\n| Feature | FullStory | Hotjar |\n|---------|-----------|--------|\n| Session replay | ✅ Advanced | ✅ Good |\n| Heatmaps | ✅ Basic | ✅ Excellent |\n| Surveys | ❌ No | ✅ Yes |\n| Pricing (starting) | ~$500+/mo | ~$32/mo |\n| Learning curve | Steeper | Easier |\n\n## **Choose FullStory if:**\nYou need detailed technical debugging and can afford enterprise pricing.\n\n## **Choose Hotjar if:**\nYou want affordable behavior analytics and built-in user feedback tools.\n\n**Consider:** Many teams use *both*—Hotjar for UX insights and FullStory for technical debugging.\n\nWhat's your main use case?",
-  "cached_at": "2026-05-27T20:45:51Z",
-  "metadata": {}
-}

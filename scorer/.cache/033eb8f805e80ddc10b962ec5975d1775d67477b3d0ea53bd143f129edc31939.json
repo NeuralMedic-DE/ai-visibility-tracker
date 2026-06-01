@@ -1,9 +1,0 @@
-{
-  "brand": "Charlie HR",
-  "prompt_id": "CD-01",
-  "llm": "openai",
-  "prompt_text": "What is the best HR for small UK-based companies with 10 to 100 employees?",
-  "response": "For small UK-based companies with 10 to 100 employees, several HR software options are well-suited to meet their needs. Here are some of the top choices:\n\n1. **BambooHR**: Known for its user-friendly interface, BambooHR offers features like employee records management, time-off tracking, and performance management. It's particularly popular among small to medium-sized businesses.\n\n2. **CharlieHR**: Specifically designed for small UK businesses, CharlieHR provides tools for managing employee data, time-off requests, and onboarding processes. It also offers compliance support tailored to UK regulations.\n\n3. **Personio**: This is a comprehensive HR solution that includes features for recruiting, onboarding, payroll, and performance management. It's scalable and suitable for growing companies.\n\n4. **BrightHR**: BrightHR offers a range of features including absence management, document storage, and shift scheduling. It's designed to be simple and effective for small businesses.\n\n5. **Cezanne HR**: Cezanne HR is a flexible and modular HR system that can be tailored to the needs of small to medium-sized businesses. It includes modules for core HR, performance, recruitment, and more.\n\n6. **Zoho People**: Part of the Zoho suite, Zoho People provides a range of HR functionalities such as leave management, time tracking, and performance appraisals. It's cost-effective and integrates well with other Zoho products.\n\nEach of these options offers different strengths, so the best choice will depend on the specific needs and budget of your company. It's advisable to take advantage of free trials or demos to see which software aligns best with your business processes.",
-  "cached_at": "2026-05-28T06:43:33Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Portkey",
-  "prompt_id": "IN-02",
-  "llm": "openai",
-  "prompt_text": "Portkey Anthropic integration: how does it work?",
-  "response": "Portkey Anthropic integration likely refers to the integration of Portkey, a tool or platform, with Anthropic, a company known for its work in AI and machine learning. While specific details about this integration are not publicly detailed, such integrations typically involve connecting systems to leverage the strengths of both platforms.\n\nIn general, such an integration might work by allowing Portkey to utilize Anthropic's AI models or capabilities to enhance its own functionalities. This could involve using Anthropic's AI for natural language processing, decision-making, or other advanced computational tasks within the Portkey environment.\n\nTo understand the exact workings of this integration, you would need to refer to official documentation or announcements from the companies involved, as they would provide specific details about the features, capabilities, and technical requirements of the integration.",
-  "cached_at": "2026-05-28T07:52:07Z",
-  "metadata": {}
-}

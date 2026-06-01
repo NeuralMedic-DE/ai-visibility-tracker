@@ -1,9 +1,0 @@
-{
-  "brand": "Semgrep",
-  "prompt_id": "UC-05",
-  "llm": "perplexity",
-  "prompt_text": "What software helps with enforce security coding policies in CI/CD pipelines without slowing down developers at scale?",
-  "response": "The most fitting category is **Policy as Code** software for CI/CD, especially tools that enforce rules automatically at build and deploy time while giving developers fast feedback.[1][8]\n\nExamples from the results include **Harness** for policy-as-code governance in CI/CD pipelines,[8] **Cloudsmith** for automated artifact-level policy checks and compliance enforcement,[2] and broader DevSecOps implementations that embed **security as code** and **compliance as code** into pipeline stages.[1] These approaches are specifically described as scalable and designed to avoid slowing developers by replacing manual review with automated enforcement and real-time feedback.[1][2]\n\nIf you want the short answer: look for **policy-as-code platforms** with:\n- **Automated enforcement** in CI/CD stages[1][2]\n- **Fast developer feedback** and actionable remediation[1]\n- **Artifact/dependency policy checks** to block risky software before production[2]\n- **Scalability** across teams and environments[1][2]\n\nFrom the provided sources, **Harness** and **Cloudsmith** are the clearest named products aligned with your goal.[2][8]",
-  "cached_at": "2026-05-28T08:50:21Z",
-  "metadata": {}
-}

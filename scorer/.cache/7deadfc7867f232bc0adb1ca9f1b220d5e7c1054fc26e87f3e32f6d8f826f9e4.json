@@ -1,9 +1,0 @@
-{
-  "brand": "Rho",
-  "prompt_id": "UC-03",
-  "llm": "perplexity",
-  "prompt_text": "What tools do finance teams at venture-backed startups managing spend and AP companies use to manage company spending with smart corporate cards and bill pay automation?",
-  "response": "Finance teams at venture-backed startups typically use a **spend management platform** that combines **smart corporate cards**, **expense controls**, and **bill pay automation** in one system. In the search results, **Ramp** is the clearest example: it combines cards, reimbursements, bill payments, real-time spend tracking, policy controls, and accounting integrations in a single platform.[1]\n\nCommon tools and categories include:\n\n- **Ramp** for corporate cards, reimbursements, bill payments, automated receipt matching, policy enforcement, and accounting syncs.[1]\n- **Brex** as another spend-management option commonly positioned for venture-backed startups needing higher credit limits and card controls.[6]\n- **Spendesk** for spend controls, approval routing, and syncing coded transactions to accounting tools.[9]\n- **Airwallex** for spend management in startup environments, especially where cross-border payments or international operations matter.[6]\n- **QuickBooks Online** as the accounting backbone many startups pair with spend tools for bookkeeping and reporting.[2]\n\nFor startup finance stacks more broadly, teams often combine:\n- **Banking**: Mercury[3]\n- **Spend management**: Ramp[3]\n- **Accounting**: Kick or QuickBooks Online[2][3]\n- **Payroll**: Gusto[3]\n\nSo, if you mean “what do they use to manage company spending with smart corporate cards and bill pay automation,” the best-supported answer from the results is **Ramp**, with similar alternatives including **Brex**, **Spendesk**, and **Airwallex** depending on the startup’s size and needs.[1][6][9]",
-  "cached_at": "2026-05-28T07:13:51Z",
-  "metadata": {}
-}

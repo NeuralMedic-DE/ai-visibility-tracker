@@ -1,9 +1,0 @@
-{
-  "brand": "Make",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Make with Google Sheets?",
-  "response": "# Connecting Make with Google Sheets\n\nHere's how to set up the integration:\n\n## 1. **Create a Make Account**\n- Go to [make.com](https://make.com)\n- Sign up or log in\n\n## 2. **Create a New Scenario**\n- Click \"Create a new scenario\"\n- Search for \"Google Sheets\" in the app list\n\n## 3. **Add a Google Sheets Module**\nChoose what you want to do:\n- **Read** – Get data from a sheet\n- **Write** – Add/update rows\n- **Search** – Find specific data\n- **Clear** – Remove data\n\n## 4. **Authorize Google Sheets**\n- Click \"Add\" next to the Google Sheets module\n- Click the connection button (usually \"Create a connection\")\n- You'll be redirected to Google to grant permissions\n- Approve access to your Google account\n- Return to Make\n\n## 5. **Configure the Module**\n- Select your spreadsheet\n- Choose the sheet/tab\n- Set up your specific action (which columns, what data, etc.)\n\n## 6. **Test & Activate**\n- Click \"Run once\" to test\n- If successful, activate your scenario\n\n## Tips\n- Use **webhooks** to trigger automation from other apps\n- **Schedule** scenarios to run automatically\n- Test with sample data first\n\nNeed help with a specific action (like appending rows or reading data)?",
-  "cached_at": "2026-05-28T08:53:57Z",
-  "metadata": {}
-}

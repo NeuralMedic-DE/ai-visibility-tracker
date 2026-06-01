@@ -1,9 +1,0 @@
-{
-  "brand": "Lemlist",
-  "prompt_id": "UC-03",
-  "llm": "anthropic",
-  "prompt_text": "What tools do sales teams and growth marketers at B2B companies doing outbound companies use to send personalized cold email campaigns at scale with AI-powered personalization?",
-  "response": "# B2B Cold Email Tools with AI Personalization\n\nHere are the main categories and specific tools sales/growth teams use:\n\n## **All-in-One Outbound Platforms**\n- **Instantly.ai** - AI email writer, built-in deliverability, sequences\n- **Apollo.io** - Database + sequencing + AI compose features\n- **Outreach** - Enterprise-focused with AI-assisted messaging\n- **Salesloft** - AI cadences and message recommendations\n- **HubSpot Sales Hub** - Basic AI features, good for HubSpot ecosystem users\n\n## **Email + Database Combos**\n- **Hunter.io** + email tool - Find emails, then personalize at scale\n- **RocketReach** + sequencer - Similar workflow\n- **ZeroBounce** - Email verification before sending\n\n## **Pure Sequencing/Outreach**\n- **Lemlist** - Strong on personalization (dynamic fields, social proof), clean UI\n- **Woodpecker** - Solid sequencing, good personalization variables\n- **Smartlead** - Focus on deliverability + sequences\n- **Dripify/LinkedIn automation** - For LinkedIn + email combos\n\n## **AI-First Options**\n- **Hyperise** - Screenshots with personalized images at scale\n- **Seventh Sense** - AI send-time optimization\n- **Clearbit** - Company intent data + personalization enrichment\n\n## **Key Features Most Teams Need**\n- Email verification/warm-up\n- Multi-channel sequencing (email + LinkedIn + calls)\n- Built-in or 3rd-party CRM sync\n- A/B testing\n- Deliverability monitoring\n\n**Most popular combo:** Apollo/Hunter → Lemlist or Instantly for execution\n\nWhat specific use case matters most to you—lead generation, partnerships, recruitment?",
-  "cached_at": "2026-05-28T07:17:20Z",
-  "metadata": {}
-}

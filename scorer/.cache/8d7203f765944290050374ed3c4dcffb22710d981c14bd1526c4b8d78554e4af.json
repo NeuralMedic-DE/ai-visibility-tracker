@@ -1,9 +1,0 @@
-{
-  "brand": "Leapsome",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best HR that works with Slack and BambooHR",
-  "response": "# Best HR Solutions Integrating with Slack & BambooHR\n\n## Top Picks\n\n### **1. BambooHR + Slack (Native Integration)**\n- **Direct connection** - BambooHR has built-in Slack integration\n- **Features:**\n  - Birthdays/anniversaries announcements\n  - Time-off notifications\n  - Performance review reminders\n  - Document signing in Slack\n  - Directory lookups\n\n### **2. Workato/Zapier (Third-Party Connectors)**\n- Bridges BambooHR and Slack for custom workflows\n- **Good for:**\n  - Automated notifications\n  - Data syncing between platforms\n  - Custom approval processes\n\n## Recommended Integration Stack\n\n| Platform | Role | Why |\n|----------|------|-----|\n| **BambooHR** | Core HRIS | Best-in-class for SMBs, great Slack UX |\n| **Slack** | Communication hub | Real-time HR notifications & self-service |\n| **Workato/Zapier** | Automation layer | Custom workflows |\n\n## Alternative All-in-One Options\n\n- **Guidepoint** - HR + Slack-first design\n- **Workday** - Enterprise alternative (pricier)\n- **Rippling** - Modern, good integrations\n\n## Pro Tips\n✅ Use Slack for **time-off requests** & **approvals**  \n✅ Automate **onboarding checklists** through the integration  \n✅ Keep **sensitive data in BambooHR**, use Slack for notifications only\n\n**For most SMBs:** BambooHR + Slack's native integration handles 80% of needs at reasonable cost.\n\nWhat's your company size/main HR focus?",
-  "cached_at": "2026-05-28T06:37:28Z",
-  "metadata": {}
-}

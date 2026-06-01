@@ -1,9 +1,0 @@
-{
-  "brand": "Nutshell",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to Salesforce",
-  "response": "# Affordable Salesforce Alternatives\n\n## **Free/Low-Cost Options**\n\n| Tool | Best For | Price |\n|------|----------|-------|\n| **HubSpot CRM** | Small businesses, startups | Free tier + paid plans |\n| **Zoho CRM** | SMBs, budget-conscious teams | Free plan, $14-55/user/month |\n| **Pipedrive** | Sales teams, pipelines | $14-99/user/month |\n| **Monday.com CRM** | Visual workflows, flexibility | $14-99/user/month |\n| **Freshsales** | Multichannel support, automation | $15-99/user/month |\n\n## **Free Alternatives**\n\n- **Insightly** - Free tier with basic CRM features\n- **Agile CRM** - Free plan up to 10 users\n- **Capsule** - Simplicity-focused, free tier available\n- **Bitrix24** - Freemium with generous free tier\n\n## **For Specific Needs**\n\n- **E-commerce**: WooCommerce integrations\n- **Nonprofits**: Donorbox, Network for Good\n- **Startups**: HubSpot Free, Insightly\n- **Self-hosted**: Odoo, ERPNext (open-source)\n\n## **Key Comparison Factors**\n\n- Scalability of free tier\n- Automation capabilities\n- Integration options\n- Support quality\n- Learning curve\n\n**Tip**: Most offer free trials—test 2-3 options with your actual workflows before committing.\n\nWhat's your main use case? That would help narrow recommendations further.",
-  "cached_at": "2026-05-27T18:33:33Z",
-  "metadata": {}
-}

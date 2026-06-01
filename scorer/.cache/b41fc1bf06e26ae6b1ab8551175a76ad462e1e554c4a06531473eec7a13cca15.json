@@ -1,9 +1,0 @@
-{
-  "brand": "Checkly",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Checkly integrate with GitHub?",
-  "response": "# Checkly and GitHub Integration\n\nYes, **Checkly integrates with GitHub** in several ways:\n\n## Key Integrations\n\n1. **GitHub Actions** - You can trigger Checkly monitoring checks from GitHub Actions workflows\n\n2. **Git Sync** - Checkly supports syncing your monitoring code (checks) with a GitHub repository, allowing you to:\n   - Version control your checks\n   - Manage checks as code (Infrastructure as Code approach)\n   - Use pull requests for check updates\n\n3. **Status Checks** - Checkly can report check results back to GitHub as status checks on pull requests and commits\n\n4. **Webhooks** - You can use GitHub webhooks to trigger Checkly checks or integrate with GitHub events\n\n## Use Cases\n\n- Automated testing of deployments via GitHub Actions\n- Managing monitoring configurations in version control\n- Blocking deployments if monitoring checks fail\n- CI/CD pipeline integration\n\nFor the most current and detailed integration options, I'd recommend checking [Checkly's official documentation](https://www.checklyhq.com/docs/) or their GitHub integration guide, as these features may have been updated.",
-  "cached_at": "2026-05-28T06:23:10Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Lattice",
-  "prompt_id": "IN-05",
-  "llm": "anthropic",
-  "prompt_text": "HR tools with native Slack integration",
-  "response": "# HR Tools with Native Slack Integration\n\n## **Comprehensive HR Platforms**\n\n### **Lattice**\n- Performance management, engagement surveys, goals\n- Two-way Slack sync for feedback and recognition\n- Pulse surveys directly in Slack\n- $$ (mid-market pricing)\n\n### **15Five**\n- OKRs, 1-on-1s, continuous feedback\n- Slack reminders for check-ins and updates\n- Recognition through Slack\n- $$\n\n### **Officevibe**\n- Employee engagement and pulse surveys\n- Slack-based pulse surveys and results\n- Sentiment analysis from Slack data\n- $$\n\n## **Specialized Tools**\n\n### **Bonusly**\n- Recognition and rewards platform\n- Native Slack commands for peer recognition\n- Lightweight, easy adoption\n- $ (most affordable)\n\n### **HiBob**\n- Modern HR information system\n- Slack for birthdays, anniversaries, updates\n- Employee directory sync\n- $$$\n\n### **Workday**\n- Enterprise HR suite\n- Slack integration for notifications and approvals\n- $$$$ (enterprise)\n\n### **Bamboo HR**\n- Mid-market HR platform\n- Slack reminders for time-off, updates\n- $$\n\n## **Specialized Use Cases**\n\n| Use Case | Tools |\n|----------|-------|\n| **Onboarding** | Guidepoint, Rippling |\n| **Learning** | TalentLMS, Coursera for Business |\n| **Scheduling** | Deputy, When I Work |\n| **Time Tracking** | Toggl, Harvest |\n| **Surveys** | Qualtrics, Typeform |\n\n## **Selection Tips**\n\n✅ Verify \"native\" integration (not just webhooks)  \n✅ Check which direction data syncs  \n✅ Test Slack permission requirements  \n✅ Confirm frequency of updates  \n✅ Review notification customization options\n\n**What's your primary HR need?** I can recommend more specific options.",
-  "cached_at": "2026-05-28T06:30:23Z",
-  "metadata": {}
-}

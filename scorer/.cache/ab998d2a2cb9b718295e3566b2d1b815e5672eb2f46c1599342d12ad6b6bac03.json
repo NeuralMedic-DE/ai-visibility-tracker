@@ -1,9 +1,0 @@
-{
-  "brand": "Finaloop",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Finaloop integrate with Shopify?",
-  "response": "# Finaloop and Shopify Integration\n\nI don't have current information about whether Finaloop integrates with Shopify. To get an accurate answer, I'd recommend:\n\n1. **Check Finaloop's official website** - Look for their integrations or app marketplace page\n2. **Visit Shopify's App Store** - Search for Finaloop to see if they offer an official app\n3. **Contact Finaloop directly** - Their support team can confirm integration capabilities and what features are available\n\nIf you're evaluating Finaloop for your Shopify store, it's worth clarifying what specific functionality you need (accounting, inventory management, etc.) so you can verify compatibility with their current offerings.\n\nIs there a particular use case or feature you're looking to integrate?",
-  "cached_at": "2026-05-28T07:07:47Z",
-  "metadata": {}
-}

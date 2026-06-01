@@ -1,9 +1,0 @@
-{
-  "brand": "Sprinto",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with automate compliance checks and manage risk registries in a single platform at scale?",
-  "response": "# Compliance & Risk Management Platforms\n\nSeveral enterprise platforms excel at automating compliance checks and managing risk registries at scale:\n\n## Established Leaders\n- **ServiceNow** - Comprehensive GRC (Governance, Risk, Compliance) module with workflow automation\n- **AuditBoard** - Strong in audit management and risk assessment automation\n- **MetricStream** - Integrated risk, compliance, and audit management\n- **Archer** (RSA) - Enterprise risk and compliance intelligence platform\n- **LogicGate** - Risk and compliance automation with customizable workflows\n\n## Specialized Solutions\n- **Domo** - Risk analytics and monitoring dashboards\n- **Workiva** - Complex compliance reporting and documentation\n- **Anaplan** (SAP) - Risk planning and scenario modeling\n- **OneTrust** - Focused on privacy and regulatory compliance automation\n\n## Mid-Market Options\n- **Compliance.ai** - Document management with AI-powered monitoring\n- **Vanta** - Continuous compliance automation for SOC 2, ISO 27001, etc.\n- **Panorays** - Supply chain risk management\n\n## Selection Factors to Consider\n- **Integration needs** - ERP, finance, HR system compatibility\n- **Regulatory focus** - Industry-specific (financial, healthcare, tech)\n- **Scale requirements** - Multi-entity/geography support\n- **Automation depth** - Control testing vs. monitoring vs. reporting\n- **Implementation timeline** - Rapid deployment vs. full customization\n\n**What's your specific compliance focus?** (industry, regulations, organization size) That would help narrow down the best fit.",
-  "cached_at": "2026-05-28T08:31:29Z",
-  "metadata": {}
-}

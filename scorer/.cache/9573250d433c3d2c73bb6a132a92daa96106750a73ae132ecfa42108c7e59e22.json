@@ -1,9 +1,0 @@
-{
-  "brand": "Customer.io",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with build complex automation workflows based on real product usage events at scale?",
-  "response": "# Software for Complex Automation Workflows at Scale\n\nSeveral categories of tools excel at building automation workflows based on product usage events:\n\n## **Event-Driven Automation Platforms**\n\n- **Zapier** - Connects apps with trigger-action workflows; good for mid-scale automation\n- **Make (formerly Integromat)** - More complex scenario building with advanced logic\n- **n8n** - Open-source, self-hosted alternative with powerful workflow capabilities\n\n## **Customer Data & Activation Platforms**\n\n- **Segment** - Captures user events and routes to destinations\n- **mParticle** - Enterprise CDP for event collection and activation\n- **Amplitude** - Analytics + activation based on user behavior\n- **Mixpanel** - Product analytics with behavioral automation\n- **Braze** - Customer engagement platform with event-triggered campaigns\n\n## **Stream Processing & Real-time Platforms**\n\n- **Apache Kafka** - Handles massive event volumes at scale\n- **Apache Flink** - Real-time stream processing\n- **Kstream/Kafka Streams** - Event stream processing\n- **AWS EventBridge** - Serverless event routing at scale\n\n## **Internal Workflow Automation**\n\n- **Temporal** - Orchestrates complex, long-running workflows\n- **Prefect** or **Airflow** - Workflow orchestration (often for data pipelines)\n\n## **Best Choice Depends On:**\n- **Scale requirements** (events/second)\n- **Latency needs** (real-time vs. batch)\n- **Technical resources** (managed vs. self-hosted)\n- **Integration ecosystem** needed\n\nWhat's your specific use case or scale? That would help narrow recommendations.",
-  "cached_at": "2026-05-28T07:15:01Z",
-  "metadata": {}
-}

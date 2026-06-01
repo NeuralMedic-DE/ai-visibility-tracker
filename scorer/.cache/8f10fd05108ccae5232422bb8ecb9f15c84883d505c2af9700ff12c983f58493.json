@@ -1,9 +1,0 @@
-{
-  "brand": "Sentry",
-  "prompt_id": "AL-05",
-  "llm": "openai",
-  "prompt_text": "Open source or affordable error monitoring tools instead of Bugsnag",
-  "response": "There are several open-source and affordable error monitoring tools you can consider as alternatives to Bugsnag:\n\n1. **Sentry**: Sentry is a popular open-source error tracking tool that provides real-time error monitoring and aggregation. It supports multiple languages and frameworks and offers both a free tier and paid plans for additional features.\n\n2. **Rollbar**: Rollbar offers real-time error monitoring and supports various programming languages. While it is a commercial product, it provides a free tier with basic features, making it a cost-effective option for smaller projects.\n\n3. **Airbrake**: Airbrake provides error monitoring and performance insights. It offers a free plan for small projects and startups, along with paid plans for more extensive use.\n\n4. **Errbit**: Errbit is an open-source error catcher that's compatible with the Airbrake API. You can host it yourself, which makes it a cost-effective solution if you have the resources to manage your own infrastructure.\n\n5. **Raygun**: Raygun provides error, crash, and performance monitoring. It offers a free trial and competitive pricing for small to medium-sized applications.\n\n6. **LogRocket**: While primarily a frontend monitoring tool, LogRocket also provides error tracking features. It offers a free plan with limited features and paid plans for more comprehensive monitoring.\n\n7. **GlitchTip**: GlitchTip is an open-source error tracking tool that is compatible with the Sentry SDKs. It can be self-hosted or used as a service with affordable pricing.\n\nThese tools offer various features and pricing models, so you can choose one based on your specific needs and budget.",
-  "cached_at": "2026-05-27T21:15:32Z",
-  "metadata": {}
-}

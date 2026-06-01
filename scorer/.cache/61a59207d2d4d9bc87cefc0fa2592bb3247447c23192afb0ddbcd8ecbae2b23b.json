@@ -1,9 +1,0 @@
-{
-  "brand": "Nutshell",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with automate email drip campaigns at scale?",
-  "response": "# Email Drip Campaign Automation Software\n\n## Market Leaders\n- **HubSpot** – Excellent free tier, strong automation workflows\n- **Klaviyo** – Best for e-commerce; sophisticated segmentation\n- **ActiveCampaign** – Powerful automation with CRM integration\n- **Mailchimp** – User-friendly, good for beginners\n- **ConvertKit** – Creator-focused with automation\n\n## Enterprise-Grade Options\n- **Marketo** (Adobe) – Complex B2B campaigns\n- **Pardot** (Salesforce) – Deep CRM integration\n- **Campaign Monitor** – Design-focused automation\n\n## Key Features to Look For\n- **Conditional logic** – Branch campaigns based on user behavior\n- **Segmentation** – Target specific audiences automatically\n- **Personalization tokens** – Dynamic content insertion\n- **A/B testing** – Optimize open/click rates\n- **Deliverability** – Strong authentication (SPF, DKIM)\n- **API/integrations** – Connect with your tech stack\n\n## Quick Comparison by Use Case\n- **Startups/SMB** → HubSpot or Mailchimp\n- **E-commerce** → Klaviyo\n- **B2B** → ActiveCampaign or Marketo\n- **Creators** → ConvertKit\n\nWhat's your specific use case? That would help narrow recommendations further.",
-  "cached_at": "2026-05-27T18:34:20Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Folk",
-  "prompt_id": "CM-02",
-  "llm": "anthropic",
-  "prompt_text": "Folk vs Attio pricing and features",
-  "response": "# Folk vs Attio Pricing & Features\n\n## Folk\n\n### Pricing\n- **Free plan** available\n- **Paid tiers**: Start around $50-$100/month\n- Per-seat pricing model\n\n### Key Features\n- AI-powered relationship intelligence\n- Contact management with rich profiles\n- Activity tracking & insights\n- Integrations with email, calendar, LinkedIn\n- Deal pipeline management\n- Lightweight, mobile-friendly interface\n- Good for sales relationship intelligence\n\n---\n\n## Attio\n\n### Pricing\n- **Free plan** available\n- **Paid plans**: Custom pricing (starts ~$60-$150+/month)\n- Flexible per-user or usage-based options\n- Free tier offers solid functionality\n\n### Key Features\n- Highly customizable CRM platform\n- No-code database & workflow builder\n- Rich relationship mapping\n- Powerful integrations ecosystem\n- Custom objects and fields\n- Advanced automation\n- Better for complex, tailored implementations\n\n---\n\n## Quick Comparison\n\n| Feature | Folk | Attio |\n|---------|------|-------|\n| **Ease of Setup** | Very easy | Moderate (more customization) |\n| **Customization** | Limited | Extensive |\n| **Best For** | Sales teams needing relationship intel | Teams wanting flexible, custom CRM |\n| **Learning Curve** | Shallow | Steeper |\n| **Mobile Experience** | Strong | Good |\n\n**Choose Folk** if you want quick deployment and AI-driven insights.\n**Choose Attio** if you need customization and workflow automation.\n\nNeed specifics on particular features?",
-  "cached_at": "2026-05-27T18:52:57Z",
-  "metadata": {}
-}

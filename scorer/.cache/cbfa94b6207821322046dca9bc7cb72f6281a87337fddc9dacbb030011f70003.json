@@ -1,9 +1,0 @@
-{
-  "brand": "Salesflare",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Salesflare integrate with Gmail?",
-  "response": "Yes, Salesflare integrates with Gmail. The integration allows you to automatically log emails, track email opens and clicks, and manage your contacts directly from your Gmail account. This makes it easier to keep all your communication and sales data in one place, streamlining your workflow.",
-  "cached_at": "2026-05-27T18:12:36Z",
-  "metadata": {}
-}

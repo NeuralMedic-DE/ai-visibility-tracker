@@ -1,9 +1,0 @@
-{
-  "brand": "Amplitude",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Amplitude integrate with Segment?",
-  "response": "Yes. **Amplitude integrates with Segment**, and Amplitude’s docs specifically describe a Segment-to-Amplitude connection using Segment’s **Amplitude (Actions)** destination.[1] Amplitude also notes that you can send data to Amplitude through Segment sources and, if needed, use Amplitude SDKs alongside Segment’s libraries for client-side bundled integration.[1]\n\nA few practical details from the docs:\n\n- **Segment’s Amplitude (Actions)** destination is the current integration Amplitude focuses on; the older **Amplitude (Classic)** destination is limited to security fixes and bug fixes.[1]\n- You can **send events and users from Segment to Amplitude** by connecting a Segment source to the Amplitude destination and validating events in Amplitude.[1]\n- On web and mobile, Segment can work with Amplitude SDKs as well, including options for **JavaScript**, **iOS**, and **Android** integrations.[1]\n- Amplitude’s troubleshooting docs also mention that session tracking is available when using the Segment Actions integration with newer Segment libraries like **Analytics.js 2.0, Swift, or Kotlin**.[4]\n\nIf you want, I can also explain **how the integration works** or **which direction the data flows** between Segment and Amplitude.",
-  "cached_at": "2026-05-27T19:31:39Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Metabase",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with share data insights with non-technical stakeholders at scale?",
-  "response": "# Software for Sharing Data Insights at Scale\n\n## Best-in-Class Options\n\n**Business Intelligence Platforms**\n- **Tableau** – Drag-and-drop dashboards, strong visualization, easy sharing\n- **Power BI** – Excellent Excel integration, cost-effective, strong within Microsoft ecosystems\n- **Looker** – Embedded analytics, data modeling flexibility\n- **Qlik Sense** – Associative engine helps users explore without coding\n\n**Self-Service Analytics**\n- **Sisense** – Low-code, handles large datasets well\n- **Domo** – Cloud-native, strong mobile experience\n- **Microsoft 365** (Excel, Power BI integration) – Familiar to most organizations\n\n## Key Features to Prioritize\n\n✓ **Interactive dashboards** – No coding required to explore  \n✓ **Mobile-friendly** – Access anywhere  \n✓ **Role-based access** – Control who sees what  \n✓ **Automated alerts** – Notify stakeholders of key changes  \n✓ **Collaboration tools** – Comments, annotations, sharing workflows  \n✓ **Performance at scale** – Handle large datasets smoothly\n\n## Other Considerations\n\n- **Integration needs** – Does it connect to your data sources?\n- **Learning curve** – How quickly can non-technical users adopt?\n- **Cost model** – Per-user licensing vs. concurrent vs. flat fee\n- **Governance** – Can you maintain data accuracy and security?\n\n**Which appeals most to your organization's tech stack and culture?**",
-  "cached_at": "2026-05-27T20:09:12Z",
-  "metadata": {}
-}

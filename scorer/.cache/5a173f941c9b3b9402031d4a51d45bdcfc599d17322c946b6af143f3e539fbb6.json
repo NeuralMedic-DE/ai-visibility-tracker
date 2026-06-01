@@ -1,9 +1,0 @@
-{
-  "brand": "Workato",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with connect SAP Salesforce and legacy enterprise systems without custom integration code at scale?",
-  "response": "# Integration Platforms for SAP, Salesforce & Legacy Systems\n\n## Leading iPaaS Solutions\n\n**MuleSoft Anypoint Platform**\n- Salesforce's native integration tool\n- Strong pre-built connectors for SAP, legacy systems\n- API-first, low-code design\n- Best for: Salesforce-centric environments\n\n**Boomi AtomSphere**\n- Extensive SAP integration templates\n- Good for hybrid cloud/on-premise scenarios\n- Intuitive visual workflow builder\n- Best for: Quick deployment, SMB to enterprise scale\n\n**Talend**\n- Robust data integration and master data management\n- Strong legacy system connectors\n- Unified platform for data + integration\n- Best for: Complex data transformations\n\n**Informatica Intelligent Cloud Services**\n- Enterprise-grade reliability\n- Deep SAP expertise\n- Advanced governance features\n- Best for: Regulated industries, large-scale operations\n\n## Cloud-Native Alternatives\n\n- **Dell Boomi** - Pre-packaged connectors\n- **Zapier/Make** - Lighter workflows (limited enterprise features)\n- **Software AG webMethods** - Complex enterprise scenarios\n\n## Key Selection Criteria\n\n- **Connector maturity** - Check SAP/legacy system coverage\n- **Scalability** - Message volume, transaction throughput\n- **Deployment** - Cloud, hybrid, or on-premise needs\n- **Compliance** - Data residency, security requirements\n- **Cost model** - Transaction-based vs. subscription\n\n**Most common choice for this stack**: MuleSoft or Boomi, depending on whether Salesforce-native integration is a priority.\n\nWhat's your primary pain point—data sync frequency, system count, or compliance needs?",
-  "cached_at": "2026-05-28T09:13:37Z",
-  "metadata": {}
-}

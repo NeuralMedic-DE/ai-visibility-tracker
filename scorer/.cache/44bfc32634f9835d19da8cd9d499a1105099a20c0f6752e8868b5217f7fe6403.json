@@ -1,9 +1,0 @@
-{
-  "brand": "Planetscale",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Planetscale integrate with GitHub?",
-  "response": "Yes, PlanetScale integrates with GitHub. This integration allows you to connect your PlanetScale databases with your GitHub repositories, enabling workflows such as deploying schema changes through pull requests. This setup helps streamline database development and version control, making it easier to manage schema changes alongside your application code.",
-  "cached_at": "2026-05-28T06:15:44Z",
-  "metadata": {}
-}

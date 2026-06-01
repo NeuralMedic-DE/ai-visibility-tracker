@@ -1,9 +1,0 @@
-{
-  "brand": "Ashby",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Ashby integrate with Slack?",
-  "response": "# Ashby and Slack Integration\n\nYes, Ashby does integrate with Slack. This integration allows you to:\n\n- **Receive notifications** in Slack about candidate activity and hiring pipeline updates\n- **Post job openings** to Slack channels\n- **Streamline communication** between your hiring team by keeping updates in Slack\n\nHowever, I'd recommend checking Ashby's current documentation or contacting their support team directly for the most up-to-date details on:\n- Specific features available in the integration\n- Setup instructions\n- Any recent changes or new capabilities\n\nIs there a particular workflow or notification type you're looking to set up?",
-  "cached_at": "2026-05-28T06:39:38Z",
-  "metadata": {}
-}

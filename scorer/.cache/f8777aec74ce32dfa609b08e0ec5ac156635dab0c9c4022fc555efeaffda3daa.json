@@ -1,9 +1,0 @@
-{
-  "brand": "Checkly",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with catch regressions in staging before they ever reach production at scale?",
-  "response": "There are several types of software and tools that can help catch regressions in staging before they reach production. Here are some popular ones:\n\n1. **Continuous Integration/Continuous Deployment (CI/CD) Tools**: Tools like Jenkins, GitLab CI, Travis CI, and CircleCI automate the testing process. They can run your test suite every time code is pushed, helping catch regressions early.\n\n2. **Automated Testing Frameworks**: Frameworks such as Selenium, Cypress, JUnit, and TestNG allow you to write automated tests that can be run in staging environments to ensure new changes do not break existing functionality.\n\n3. **Static Code Analysis Tools**: Tools like SonarQube, ESLint, and Pylint analyze your code for potential errors and code smells that could lead to regressions.\n\n4. **Monitoring and Observability Tools**: Tools like New Relic, Datadog, and Prometheus can be used in staging to monitor application performance and detect anomalies that might indicate regressions.\n\n5. **Feature Flagging Tools**: Tools like LaunchDarkly and Feature Toggles allow you to enable or disable features in staging environments, making it easier to test new features without affecting the entire application.\n\n6. **Regression Testing Tools**: Specialized tools like Applitools and BackstopJS focus on visual regression testing, ensuring that UI changes do not introduce visual bugs.\n\nBy integrating these tools into your development workflow, you can significantly reduce the risk of regressions making it to production.",
-  "cached_at": "2026-05-28T06:23:06Z",
-  "metadata": {}
-}

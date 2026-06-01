@@ -1,9 +1,0 @@
-{
-  "brand": "Secureframe",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Secureframe integrate with GitHub?",
-  "response": "# Secureframe and GitHub Integration\n\nYes, **Secureframe integrates with GitHub**. The integration allows Secureframe to:\n\n- **Access repository data** to assess code security and compliance\n- **Review commit history and access controls** for audit purposes\n- **Monitor configuration** related to security policies\n- **Support compliance frameworks** by documenting GitHub's role in your development infrastructure\n\n## Common Use Cases\n\n- SOC 2, ISO 27001, and other compliance audits\n- Security posture assessment of your development environment\n- Access control and change management documentation\n\nHowever, the depth and specific capabilities of the integration can vary depending on your Secureframe plan and which compliance frameworks you're implementing.\n\n**For the most current details**, I'd recommend:\n- Checking Secureframe's official integration documentation\n- Contacting their support team directly, as integrations and features can be updated\n\nAre you looking to use this for a specific compliance framework?",
-  "cached_at": "2026-05-28T08:33:56Z",
-  "metadata": {}
-}

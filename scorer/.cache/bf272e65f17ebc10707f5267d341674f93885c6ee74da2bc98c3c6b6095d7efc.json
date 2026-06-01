@@ -1,9 +1,0 @@
-{
-  "brand": "Folk",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I manage investor and partner relationships without spending a lot on software?",
-  "response": "Here are practical, low-cost approaches:\n\n**Spreadsheets & docs**\n- Google Sheets for tracking interactions, deal status, commitments\n- Shared docs for meeting notes everyone can access\n- Simple templates reduce setup time\n\n**Free/cheap tools**\n- Gmail + calendar (you probably have these)\n- Slack or WhatsApp for group updates\n- Airtable free tier (more structured than sheets)\n- Notion (free version works fine)\n\n**Basic structure that matters more than software**\n- Regular cadence (monthly check-ins, quarterly updates)\n- One person owns the relationship log\n- Consistent email/call schedule\n- Clear next steps after each interaction\n\n**What actually builds relationships**\n- Showing up reliably (more important than fancy CRM)\n- Being transparent about progress and setbacks\n- Asking for input on decisions\n- Remembering personal details\n\n**When you'd actually need paid software**\n- Managing 100+ relationships\n- Needing automated reporting to many people\n- Coordinating complex funding rounds\n- Multiple team members handling investors\n\nFor most early-stage situations, organized consistency beats a $200/month CRM every time. People invest in people they trust—that comes from regular, honest communication, not tool sophistication.\n\nWhat's your current scale? That'd help me suggest what setup makes sense.",
-  "cached_at": "2026-05-27T18:53:53Z",
-  "metadata": {}
-}

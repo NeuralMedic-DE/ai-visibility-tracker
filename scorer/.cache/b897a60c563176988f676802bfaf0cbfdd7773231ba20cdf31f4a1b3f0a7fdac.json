@@ -1,9 +1,0 @@
-{
-  "brand": "Pilot",
-  "prompt_id": "IN-05",
-  "llm": "openai",
-  "prompt_text": "finance tools with native Stripe integration",
-  "response": "There are several finance tools and platforms that offer native Stripe integration, allowing you to manage payments, invoicing, and financial data seamlessly. Here are some popular ones:\n\n1. **QuickBooks Online**: QuickBooks offers native integration with Stripe, enabling businesses to sync transactions and manage their accounting with ease.\n\n2. **Xero**: Xero provides a Stripe integration that allows businesses to accept payments online and reconcile them automatically within the accounting software.\n\n3. **FreshBooks**: FreshBooks integrates with Stripe to facilitate online payments and automate invoicing, making it easier for small businesses to manage their finances.\n\n4. **Wave**: Wave offers a Stripe integration for payment processing, allowing small businesses to accept credit card payments directly from their invoices.\n\n5. **Zoho Books**: Zoho Books integrates with Stripe to streamline payment processing and financial management for businesses.\n\n6. **Chargebee**: Chargebee is a subscription billing platform that integrates with Stripe to manage recurring billing and subscription management.\n\n7. **Recurly**: Recurly offers subscription management and billing solutions with native Stripe integration, ideal for businesses with recurring revenue models.\n\n8. **Baremetrics**: Baremetrics provides analytics and insights for businesses using Stripe, offering detailed metrics and financial data visualization.\n\nThese tools help businesses leverage Stripe's payment processing capabilities while managing their financial operations efficiently.",
-  "cached_at": "2026-05-28T07:02:46Z",
-  "metadata": {}
-}

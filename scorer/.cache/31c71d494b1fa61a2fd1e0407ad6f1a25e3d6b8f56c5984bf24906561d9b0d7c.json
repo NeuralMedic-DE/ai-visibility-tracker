@@ -1,9 +1,0 @@
-{
-  "brand": "Conveyor",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best security that works with Salesforce and HubSpot",
-  "response": "# Best Security Solutions for Salesforce & HubSpot\n\n## **Native Security Features** (Built-in)\n\n### Salesforce\n- **Field-level security** - Control who sees what data\n- **Role-based access control** - Permission sets & profiles\n- **IP whitelisting** - Restrict login locations\n- **Two-factor authentication** - MFA built-in\n- **Shield Encryption** - Platform & field encryption\n\n### HubSpot\n- **User roles & permissions** - Granular access control\n- **Two-factor authentication** - Standard MFA\n- **SSO integration** - SAML/OAuth support\n- **IP allowlisting** - Enterprise feature\n- **Audit logs** - Activity tracking\n\n---\n\n## **Third-Party Solutions**\n\n| Solution | Best For | Key Features |\n|----------|----------|--------------|\n| **Okta** | Enterprise SSO | SAML, MFA, conditional access |\n| **Auth0** | Custom integrations | Flexible authentication, MFA |\n| **Duo Security** | MFA enforcement | Push notifications, hardware keys |\n| **Cloudflare** | DDoS & WAF | API protection, bot management |\n| **CyberArk** | Credential management | Privileged access, secrets vault |\n\n---\n\n## **Recommended Approach**\n\n**For most teams:**\n1. **Enable native security** first (MFA, SSO, role-based access)\n2. **Add SSO provider** like Okta or Entra ID\n3. **Use identity governance** tools for admin accounts\n4. **Implement audit logging** (both platforms support this)\n\n**For regulated industries:**\n- Add encryption layer (Salesforce Shield + external vault)\n- Use CASB (Cloud Access Security Broker) like Netskope\n- Implement DLP (Data Loss Prevention)\n\n**What's your use case?** (team size, industry, compliance needs) I can give more specific recommendations.",
-  "cached_at": "2026-05-28T08:46:35Z",
-  "metadata": {}
-}

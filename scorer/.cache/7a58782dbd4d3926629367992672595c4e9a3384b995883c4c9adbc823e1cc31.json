@@ -1,9 +1,0 @@
-{
-  "brand": "Klipfolio",
-  "prompt_id": "IN-02",
-  "llm": "perplexity",
-  "prompt_text": "Klipfolio HubSpot integration: how does it work?",
-  "response": "Klipfolio integrates with **HubSpot** mainly by pulling HubSpot data into Klipfolio dashboards and metrics through **API connections** or **pre-built HubSpot content**.[1][4][6]\n\n- **Custom API connection:** You connect Klipfolio to specific HubSpot API endpoints in the Connector Gallery, authenticate your HubSpot account, and then write or configure the query that pulls the data you want.[1]\n- **Pre-built visuals/metrics:** Klipfolio also offers pre-built HubSpot dashboards, visualizations, and PowerMetrics that you can add and then customize, which reduces manual setup.[1][4][6]\n- **Data flow:** HubSpot returns data in JSON, Klipfolio stores it as a data source, and you then use that source to build charts, klips, or dashboards.[1]\n- **Automation/refresh:** For more complex setups, data can be fetched from HubSpot on a schedule and pushed into Klipfolio via the Klipfolio API so dashboards stay updated.[2]\n- **Alternative no-code route:** Third-party automation tools like Zapier can also move data between HubSpot and Klipfolio using triggers and actions, such as “New Company” in HubSpot and “Add to Data Source” in Klipfolio.[3]\n\nIn practice, the integration works like this: **authenticate HubSpot**, **choose either a pre-built metric or a custom API query**, **map the returned data into a Klipfolio data source**, and then **use that source to visualize and combine HubSpot data with other business data**.[1][4][6]",
-  "cached_at": "2026-05-27T20:33:03Z",
-  "metadata": {}
-}

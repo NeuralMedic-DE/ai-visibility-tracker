@@ -1,9 +1,0 @@
-{
-  "brand": "Sentry",
-  "prompt_id": "AL-02",
-  "llm": "openai",
-  "prompt_text": "Cheaper alternatives to Bugsnag",
-  "response": "If you're looking for cheaper alternatives to Bugsnag for error monitoring and reporting, consider the following options:\n\n1. **Sentry**: Offers a robust error tracking system with a free tier and affordable paid plans. It's widely used and supports multiple platforms.\n\n2. **Rollbar**: Provides real-time error tracking with a free tier for small projects and reasonably priced plans for larger needs.\n\n3. **Airbrake**: Offers error monitoring with a focus on simplicity and ease of use, with competitive pricing.\n\n4. **Raygun**: Provides error, crash, and performance monitoring with flexible pricing plans.\n\n5. **LogRocket**: While primarily a session replay tool, it includes error tracking features and can be a cost-effective solution for frontend applications.\n\n6. **Honeybadger**: Focuses on simplicity and reliability, with straightforward pricing and a free trial.\n\n7. **TrackJS**: Specializes in JavaScript error tracking with a simple pricing model and a free trial.\n\nEach of these tools has its own strengths and pricing structures, so it's worth evaluating them based on your specific needs and budget.",
-  "cached_at": "2026-05-27T21:15:16Z",
-  "metadata": {}
-}

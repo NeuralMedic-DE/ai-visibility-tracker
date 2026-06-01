@@ -1,9 +1,0 @@
-{
-  "brand": "Charlie HR",
-  "prompt_id": "CM-01",
-  "llm": "anthropic",
-  "prompt_text": "Charlie HR vs BambooHR: which is better?",
-  "response": "# Charlie HR vs BambooHR\n\nBoth are solid HR platforms, but they serve different needs:\n\n## **BambooHR**\n**Strengths:**\n- More established (longer track record)\n- Better for mid-to-large companies\n- Stronger reporting and analytics\n- More integrations available\n- Better performance management features\n\n**Weaknesses:**\n- Higher cost\n- More complex interface\n- Overkill for very small teams\n\n## **Charlie HR**\n**Strengths:**\n- Simpler, cleaner interface\n- Better for small/growing teams (under 200 people)\n- More affordable\n- Easier onboarding\n- Strong in UK/EU (GDPR-focused)\n\n**Weaknesses:**\n- Fewer advanced features\n- Fewer integrations\n- Less robust reporting\n- Smaller company means less support infrastructure\n\n## **Quick Decision Guide**\n\nChoose **Charlie HR** if you:\n- Have <100 employees\n- Want simplicity over features\n- Operate in UK/Europe\n- Have a tight budget\n\nChoose **BambooHR** if you:\n- Have 50+ employees (scales better)\n- Need advanced reporting/analytics\n- Want extensive integrations\n- Can justify higher costs\n\n**Bottom line:** It often comes down to company size and whether you need simplicity (Charlie) or features (BambooHR).\n\nWhat size is your team? That would help narrow it down.",
-  "cached_at": "2026-05-28T06:43:38Z",
-  "metadata": {}
-}

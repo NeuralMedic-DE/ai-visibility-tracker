@@ -1,9 +1,0 @@
-{
-  "brand": "ChartMogul",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable SaaS analytics tools instead of ProfitWell",
-  "response": "# Analytics Tools to Replace ProfitWell\n\n## Open Source Options\n\n**Metabase**\n- Self-hosted or cloud\n- SQL-based analytics dashboard\n- Great for custom metrics\n- Free tier available\n\n**Superset (Apache)**\n- Modern data visualization\n- Self-hosted\n- Supports multiple databases\n- Strong community\n\n**Plausible Analytics**\n- Privacy-focused, GDPR compliant\n- $9-20/month (much cheaper)\n- Google Analytics alternative\n- Simpler than ProfitWell for basic tracking\n\n## Affordable SaaS (ProfitWell Alternatives)\n\n**Baremetrics** (~$99/mo)\n- Purpose-built for subscription metrics\n- Closest direct competitor\n- MRR, churn, LTV tracking\n\n**ChartMogul** (~$99/mo)\n- Subscription analytics focused\n- Multi-currency support\n- Good integrations (Stripe, Zuora, etc.)\n\n**Dash** by Paddle (~$50-100/mo)\n- Lightweight alternative\n- Payment processor native\n\n## Hybrid Approaches\n\n- **Stripe Sigma** (free with Stripe)\n  - SQL queries on your payment data\n  - Limited but powerful\n\n- **Google Sheets + Zapier**\n  - Free/cheap for basic metrics\n  - Good for bootstrapped startups\n\n- **Segment + Mixpanel** (free tiers available)\n  - Event tracking alternative\n\n**Best for most?** Superset (free, self-hosted) or **ChartMogul** (affordable, subscription-focused).\n\nWhat's your primary need—MRR tracking, churn analysis, or general metrics?",
-  "cached_at": "2026-05-28T06:55:04Z",
-  "metadata": {}
-}

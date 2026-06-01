@@ -1,9 +1,0 @@
-{
-  "brand": "Finaloop",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to QuickBooks",
-  "response": "# Cheaper QuickBooks Alternatives\n\n## Free Options\n- **Wave** – Invoicing, expense tracking, basic reporting (best free choice)\n- **ZipBooks** – Free tier with limited features\n- **Zoho Books** – Free for 1 user with up to 1,000 invoices/year\n\n## Budget-Friendly ($0-$20/month)\n- **Square Online** – Good for retail/service businesses\n- **Freshbooks** – Starts around $15/month for freelancers\n- **Stripe Billing** – Minimal fees, good for SaaS\n\n## Mid-Range ($20-$50/month)\n- **Xero** – Around $13-20/month; strong for UK/AU businesses\n- **Zoho Books** – $20-$40/month paid tiers\n- **Manager.io** – Desktop software, one-time fee option\n\n## Specialized Alternatives\n- **GnuCash** – Open-source, self-hosted, free\n- **Invoice Ninja** – Invoice-focused, $10+/month\n- **Wave** (for growth) – Free with add-ons available\n\n## Key Considerations\n- **Business size** – Solo freelancers vs. multi-user teams\n- **Features needed** – Invoicing, payroll, inventory, forecasting\n- **Integration requirements** – Bank connections, payment processors\n- **Learning curve** – Some free options have steeper curves\n\n**Best overall value:** Wave (free) or Zoho Books (affordable scaling)\n\nWhat's your main use case?",
-  "cached_at": "2026-05-28T07:07:31Z",
-  "metadata": {}
-}

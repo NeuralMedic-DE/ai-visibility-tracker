@@ -1,9 +1,0 @@
-{
-  "brand": "Metabase",
-  "prompt_id": "AL-02",
-  "llm": "openai",
-  "prompt_text": "Cheaper alternatives to Looker",
-  "response": "If you're looking for cheaper alternatives to Looker for business intelligence and data analytics, here are some options you might consider:\n\n1. **Metabase**: An open-source business intelligence tool that is user-friendly and allows you to create dashboards and visualizations without much technical expertise.\n\n2. **Tableau Public**: While Tableau's full version can be expensive, Tableau Public offers a free version with some limitations. It's great for creating public dashboards and visualizations.\n\n3. **Google Data Studio**: A free tool that integrates well with other Google services and allows you to create interactive dashboards and reports.\n\n4. **Power BI**: Offered by Microsoft, Power BI has a free version with basic features and a Pro version that is relatively affordable compared to Looker.\n\n5. **Redash**: An open-source tool that supports a wide range of data sources and is designed for data visualization and dashboard creation.\n\n6. **Zoho Analytics**: Offers a range of pricing plans, including a free tier, and provides robust data visualization and reporting capabilities.\n\n7. **Qlik Sense**: Offers a free version for personal use and is known for its associative data model, which allows for flexible data exploration.\n\n8. **Apache Superset**: An open-source data exploration and visualization platform that is highly customizable and scalable.\n\nThese tools vary in terms of features, ease of use, and integration capabilities, so it's important to evaluate them based on your specific needs and technical requirements.",
-  "cached_at": "2026-05-27T20:05:31Z",
-  "metadata": {}
-}

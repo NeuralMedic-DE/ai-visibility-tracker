@@ -1,9 +1,0 @@
-{
-  "brand": "Charlie HR",
-  "prompt_id": "AL-05",
-  "llm": "openai",
-  "prompt_text": "Open source or affordable HR tools instead of Breathe",
-  "response": "If you're looking for open source or affordable HR tools as alternatives to Breathe, here are some options you might consider:\n\n1. **OrangeHRM**: This is a popular open-source HR management tool that offers a range of features such as personnel information management, leave management, and time and attendance tracking. It also has a paid version with additional features.\n\n2. **Sentrifugo**: Another open-source HR software, Sentrifugo provides features like performance appraisal, employee self-service, and leave management. It's highly customizable to fit various organizational needs.\n\n3. **Zoho People**: While not open-source, Zoho People is an affordable HR solution that offers features like leave management, time tracking, and employee self-service. It has a free tier for small teams and scalable pricing for larger organizations.\n\n4. **Bitrix24**: This tool offers a free version with basic HR functionalities, including employee directory, time management, and task management. It also provides paid plans with more advanced features.\n\n5. **IceHRM**: Available in both open-source and cloud versions, IceHRM offers features like leave management, attendance tracking, and employee information management.\n\n6. **Factorial HR**: A user-friendly and affordable HR software that provides features such as time tracking, document management, and performance reviews.\n\n7. **Freshteam by Freshworks**: An affordable HR software solution that includes applicant tracking, employee onboarding, and time-off management. It offers a free plan for small teams.\n\nThese tools can help manage HR tasks efficiently while being budget-friendly or open-source, providing flexibility for customization.",
-  "cached_at": "2026-05-28T06:43:47Z",
-  "metadata": {}
-}

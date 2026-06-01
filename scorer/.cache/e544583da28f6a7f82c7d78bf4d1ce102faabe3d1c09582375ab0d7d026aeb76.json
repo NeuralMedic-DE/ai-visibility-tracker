@@ -1,9 +1,0 @@
-{
-  "brand": "Secureframe",
-  "prompt_id": "IN-02",
-  "llm": "anthropic",
-  "prompt_text": "Secureframe AWS integration: how does it work?",
-  "response": "# Secureframe AWS Integration Overview\n\n## How It Works\n\nSecureframe integrates with AWS to automate security and compliance monitoring through these main mechanisms:\n\n### **1. AWS Account Connection**\n- You authorize Secureframe via **IAM role assumption** (cross-account access)\n- Secureframe gets read-only permissions to scan your AWS resources\n- No credentials are shared—uses AWS's native STS (Security Token Service)\n\n### **2. Automated Resource Scanning**\nSecureframe continuously monitors:\n- **EC2 instances** (security groups, patches, encryption)\n- **S3 buckets** (public access, versioning, encryption)\n- **RDS databases** (encryption, backups, access controls)\n- **IAM policies** (overly permissive roles, unused credentials)\n- **CloudTrail logs** (audit trails, compliance events)\n- **VPC configurations** (network security settings)\n\n### **3. Compliance Mapping**\nAutomatically maps findings to:\n- SOC 2\n- ISO 27001\n- HIPAA\n- PCI-DSS\n- GDPR\n- Other frameworks\n\n### **4. Evidence Collection**\n- Gathers screenshots and logs as audit evidence\n- Builds compliance documentation automatically\n- Tracks remediation over time\n\n## Setup Steps (Basic)\n\n1. **Create IAM role** in AWS with Secureframe-provided policy\n2. **Authorize in Secureframe dashboard** via role ARN\n3. **Select frameworks** you need to comply with\n4. **Review findings** and remediate issues\n5. **Generate reports** for auditors\n\n## Key Benefits\n✓ Real-time visibility  \n✓ Reduced manual audits  \n✓ Faster compliance  \n✓ Automated evidence collection  \n\nNeed help with specific AWS compliance requirements?",
-  "cached_at": "2026-05-28T08:34:00Z",
-  "metadata": {}
-}

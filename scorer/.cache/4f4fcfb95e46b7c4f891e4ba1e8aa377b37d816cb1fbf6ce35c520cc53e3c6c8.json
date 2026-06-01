@@ -1,9 +1,0 @@
-{
-  "brand": "Chargebee",
-  "prompt_id": "IN-05",
-  "llm": "openai",
-  "prompt_text": "billing tools with native Salesforce integration",
-  "response": "There are several billing tools that offer native integration with Salesforce, allowing for seamless management of billing processes directly within the Salesforce environment. Here are some popular options:\n\n1. **Salesforce Billing**: Part of the Salesforce Revenue Cloud, Salesforce Billing is a native solution that extends the capabilities of Salesforce CPQ (Configure, Price, Quote) to include invoicing, payments, and revenue recognition.\n\n2. **Zuora**: While not entirely native, Zuora integrates closely with Salesforce and is a leading subscription management platform. It offers robust billing, invoicing, and revenue management features.\n\n3. **Chargent**: This is a native Salesforce app that provides payment processing and billing solutions. It supports various payment gateways and offers features like automated billing and recurring payments.\n\n4. **FinancialForce**: Built on the Salesforce platform, FinancialForce offers comprehensive billing and revenue management solutions. It integrates seamlessly with Salesforce CRM and other Salesforce applications.\n\n5. **Conga Billing**: Part of the Conga Suite, Conga Billing integrates with Salesforce to automate billing processes, manage subscriptions, and handle complex pricing models.\n\n6. **Aria Systems**: Aria provides cloud-based billing and monetization solutions that integrate with Salesforce, offering support for complex billing scenarios and subscription management.\n\nThese tools vary in terms of features, pricing, and complexity, so it's important to evaluate them based on your specific business needs and Salesforce setup.",
-  "cached_at": "2026-05-28T06:50:57Z",
-  "metadata": {}
-}

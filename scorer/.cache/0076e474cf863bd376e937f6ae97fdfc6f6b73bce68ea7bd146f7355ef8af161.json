@@ -1,9 +1,0 @@
-{
-  "brand": "LeadIQ",
-  "prompt_id": "UC-05",
-  "llm": "perplexity",
-  "prompt_text": "What software helps with sync contacts and activities to CRM at scale?",
-  "response": "For **syncing contacts and activities to a CRM at scale**, the strongest options in the results are **HubSpot CRM**, **Streak**, **Atio**, **Pipedrive**, and **Salesforce**-class tools, depending on how much automation and customization you need.[4][3][1]\n\n- **HubSpot CRM** is a strong fit if you want automatic **two-way data sync**, contact management, activity logging, and a large app ecosystem for integrations.[4]\n- **Atio** is positioned as a flexible CRM with **email and calendar sync**, data enrichment, and **workflows** for automating operations at scale.[1]\n- **Streak** is useful if your team lives in Gmail, because it integrates directly with Gmail and supports contact management, activity tracking, and team collaboration.[3]\n- **Pipedrive** is highlighted as a sales CRM with advanced pipeline software, which can be paired with integrations for broader sync needs.[3]\n- **Salesforce** is not described in detail in the results, but it is referenced as a major business CRM destination that personal CRM tools can push contacts into.[2]\n\nIf your main need is **scale + automation**, the clearest match from the sources is **HubSpot**, because it explicitly offers **contact management**, **task/activity tracking**, and **two-way data sync** with many third-party apps.[4] If your workflow is more email- and calendar-centric, **Atio** is the better fit from the provided results because it emphasizes **email/calendar sync**, **data enrichment**, and workflow automation.[1]\n\nIf you want, I can narrow this down to:\n- **best for enterprise**\n- **best for sales teams**\n- **best for event/contact capture**\n- **best for Gmail/Google Workspace users**",
-  "cached_at": "2026-05-27T18:49:01Z",
-  "metadata": {}
-}

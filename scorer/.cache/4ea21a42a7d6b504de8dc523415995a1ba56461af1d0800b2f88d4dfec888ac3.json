@@ -1,9 +1,0 @@
-{
-  "brand": "Encharge",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is Encharge better than Intercom for build complex automation flows with a visual drag-and-drop editor?",
-  "response": "# Encharge vs Intercom for Automation Flows\n\n**Encharge is generally the stronger choice** for complex automation with visual editors.\n\n## Key Differences\n\n**Encharge's Strengths:**\n- Purpose-built automation platform with advanced drag-and-drop workflows\n- More sophisticated conditional logic and branching\n- Better suited for complex multi-step sequences\n- Stronger focus on marketing automation workflows\n\n**Intercom's Limitations:**\n- Automation is a secondary feature (messaging is primary)\n- Simpler, more linear workflow builder\n- Better for basic trigger-response automation\n- Less powerful conditional capabilities\n\n## When Each Works Better\n\n| Need | Better Choice |\n|------|---|\n| Complex, multi-step sequences | Encharge |\n| Conditional branching & logic | Encharge |\n| Basic conversation automation | Either (Intercom sufficient) |\n| Customer messaging focus | Intercom |\n| Integrated help desk + chat | Intercom |\n\n## Other Considerations\n\n- **Integration ecosystem**: Intercom connects to more tools natively\n- **Cost**: Intercom typically more expensive if you're only using automation\n- **Learning curve**: Encharge's interface is more automation-focused\n\n**Bottom line**: If advanced automation flows are your priority, Encharge is the better fit. If you need integrated customer communication (chat + help desk + some automation), Intercom might justify its higher cost.\n\nWhat's your primary use case?",
-  "cached_at": "2026-05-28T07:28:16Z",
-  "metadata": {}
-}

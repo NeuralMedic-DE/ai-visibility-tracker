@@ -1,9 +1,0 @@
-{
-  "brand": "Humaans",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Humaans integrate with Slack?",
-  "response": "# Humaans and Slack Integration\n\nI don't have current information about whether Humaans specifically integrates with Slack. To get an accurate answer, I'd recommend:\n\n1. **Checking Humaans' official website** - Look for their integrations page or documentation\n2. **Contacting Humaans support directly** - They can confirm current integrations\n3. **Checking Slack's App Directory** - Search for Humaans to see if an official app exists\n\nIf you're considering using these tools together, it's worth verifying the current capabilities directly with the provider, as integration offerings can change.\n\nIs there something specific you're trying to accomplish with these tools? I might be able to suggest alternatives or workarounds.",
-  "cached_at": "2026-05-28T06:48:19Z",
-  "metadata": {}
-}

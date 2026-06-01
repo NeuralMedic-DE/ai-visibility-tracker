@@ -1,9 +1,0 @@
-{
-  "brand": "Raycast",
-  "prompt_id": "IN-02",
-  "llm": "anthropic",
-  "prompt_text": "Raycast GitHub integration: how does it work?",
-  "response": "# Raycast GitHub Integration Overview\n\nRaycast's GitHub integration provides quick access to GitHub data directly from your command palette. Here's how it works:\n\n## Core Functionality\n\n**Authentication**\n- Connects via OAuth with your GitHub account\n- Stores credentials securely in Raycast's encrypted storage\n- No need to manually manage tokens\n\n**Primary Features**\n\n1. **Search & Browse**\n   - Search repositories, issues, pull requests\n   - View recent activity and notifications\n   - Quick access to your repos and starred repos\n\n2. **Issue & PR Management**\n   - Create new issues/PRs\n   - View details, comments, and status\n   - Update labels, assignees, and milestones\n   - Open issues/PRs in GitHub without leaving Raycast\n\n3. **Quick Actions**\n   - Create gists\n   - Access trending repos\n   - View user profiles\n   - Copy repo links\n\n## How to Use\n\n```\n1. Open Raycast (Cmd+Space)\n2. Search \"GitHub\" or relevant command\n3. First time: authenticate via GitHub OAuth\n4. Browse/search results instantly\n5. Hit Enter to open in GitHub or perform action\n```\n\n## Technical Details\n\n- Uses **GitHub REST API v3** (some features may use GraphQL)\n- Queries execute in real-time with caching for performance\n- Commands are scriptable and customizable\n\n## Common Commands\n\n- `Search GitHub` - Find repos/issues\n- `Create GitHub Issue` - New issue in your repo\n- `My Issues` - Your assigned issues\n- `My Pull Requests` - Your open PRs\n- `Notifications` - GitHub notifications\n\n**Installation**: Available by default in Raycast—just enable in extensions.\n\nNeed help with a specific GitHub workflow?",
-  "cached_at": "2026-05-28T06:25:27Z",
-  "metadata": {}
-}

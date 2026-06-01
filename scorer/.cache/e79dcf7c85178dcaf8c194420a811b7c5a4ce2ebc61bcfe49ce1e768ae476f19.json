@@ -1,9 +1,0 @@
-{
-  "brand": "Conveyor",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Conveyor with Salesforce?",
-  "response": "# Connecting Conveyor with Salesforce\n\nHere are the main approaches to integrate Conveyor with Salesforce:\n\n## 1. **Native Salesforce Connector** (If Available)\n- Check if your Conveyor platform has a built-in Salesforce connector\n- Look in your integration/app marketplace\n- Usually requires minimal setup\n\n## 2. **OAuth 2.0 Authentication**\n- Create a **Connected App** in Salesforce\n- Grant permissions (API access, etc.)\n- Authenticate Conveyor to access your Salesforce instance\n- Store your credentials securely\n\n## 3. **API Integration**\n- Use Salesforce REST API or SOAP API\n- Configure Conveyor to make API calls to Salesforce\n- Map your data fields appropriately\n\n## 4. **Middleware Solutions**\n- Use Zapier, Make (formerly Integromat), or similar\n- Create automated workflows between Conveyor and Salesforce\n- Useful for simple data syncing\n\n## 5. **Webhooks**\n- Set up webhooks to trigger actions between systems\n- Send data from Conveyor to Salesforce automatically\n\n## Key Steps:\n1. Identify what data you want to sync\n2. Generate Salesforce API credentials/Connected App keys\n3. Configure authentication in Conveyor\n4. Map fields and set up sync rules\n5. Test the connection\n\n**Could you clarify which \"Conveyor\" product you're using?** (e.g., a specific platform, workflow tool, or custom system?) That would help me provide more specific instructions.",
-  "cached_at": "2026-05-28T08:46:32Z",
-  "metadata": {}
-}

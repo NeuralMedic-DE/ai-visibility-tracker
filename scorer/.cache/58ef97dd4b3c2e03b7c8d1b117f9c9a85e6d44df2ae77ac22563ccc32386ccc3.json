@@ -1,9 +1,0 @@
-{
-  "brand": "Customer.io",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which marketing automation software should a VP Marketing or Head of Lifecycle Marketing at a SaaS company use?",
-  "response": "# Top Marketing Automation Choices for SaaS Leaders\n\n## Best Overall for SaaS\n**HubSpot** and **Marketo** are the industry standards, but the right choice depends on your specific needs:\n\n### If you prioritize...\n\n**Ease of use & integrated CRM**\n- HubSpot (best for mid-market, fastest ROI)\n- Good if: You want one platform for email, CRM, analytics\n\n**Enterprise scale & sophistication**\n- Marketo (now Adobe) or Salesforce Marketing Cloud\n- Good if: Complex workflows, large team, heavy customization needs\n\n**Product-led growth models**\n- Segment, Pendo, or Amplitude (+ email tool like Klaviyo)\n- Good if: In-app messaging and behavioral data matter most\n\n**Land-and-expand/usage-based monetization**\n- Gainsight + email automation layer\n- Good if: Retention and expansion metrics are primary\n\n## Key Questions to Ask Yourself\n1. **What's your ACV?** (Lower ACV = HubSpot; Higher = Marketo/Salesforce)\n2. **Who owns lifecycle?** (You or product/ops teams?)\n3. **How integrated does it need to be with your data stack?** (CDP focus or standalone?)\n4. **Do you need heavy sales-marketing alignment?** (Affects Salesforce integration needs)\n\n## Reality Check\nMany successful SaaS companies use **multiple tools** — a core automation platform + best-of-breed for specific functions (analytics, surveys, etc.). The \"one platform\" rarely beats point solutions.\n\nWhat's your company size and ACV? That would help narrow it down.",
-  "cached_at": "2026-05-28T07:14:27Z",
-  "metadata": {}
-}

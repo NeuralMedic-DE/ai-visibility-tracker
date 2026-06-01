@@ -1,9 +1,0 @@
-{
-  "brand": "Zapier",
-  "prompt_id": "IN-02",
-  "llm": "openai",
-  "prompt_text": "Zapier Slack integration: how does it work?",
-  "response": "Zapier's Slack integration allows you to automate tasks between Slack and other apps without needing to write any code. Here's how it generally works:\n\n1. **Connect Slack to Zapier**: First, you need to connect your Slack account to Zapier. This involves authorizing Zapier to access your Slack workspace, which you can do through the Zapier platform.\n\n2. **Create a Zap**: A \"Zap\" is an automated workflow that consists of a trigger and one or more actions. You can create a Zap that starts with a trigger event in Slack, or you can have Slack as the action that follows a trigger from another app.\n\n3. **Set a Trigger**: Choose a trigger event in Slack, such as a new message in a channel, a new mention, or a new reaction added to a message. This event will start the Zap.\n\n4. **Define an Action**: After the trigger, define what action should occur. This could be sending a message to a Slack channel, updating a profile, or creating a new channel, among other options. You can also choose actions in other apps that should occur when something happens in Slack.\n\n5. **Customize the Workflow**: You can customize the details of the trigger and action, such as specifying which Slack channel to monitor or which message to send.\n\n6. **Test and Activate the Zap**: Once you've set up the trigger and action, you can test the Zap to ensure it works as expected. After testing, you can activate the Zap to start automating your workflow.\n\nZapier's Slack integration is highly flexible, allowing you to connect Slack with thousands of other apps to streamline communication and automate repetitive tasks.",
-  "cached_at": "2026-05-28T08:51:18Z",
-  "metadata": {}
-}

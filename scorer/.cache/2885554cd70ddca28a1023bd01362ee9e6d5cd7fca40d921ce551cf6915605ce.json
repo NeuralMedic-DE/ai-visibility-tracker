@@ -1,9 +1,0 @@
-{
-  "brand": "Doppler",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Doppler integrate with GitHub?",
-  "response": "Yes. **Doppler has multiple, first‑class integrations with GitHub**, especially around GitHub Actions and secret management.\n\nKey ways Doppler integrates with GitHub:\n\n- **GitHub Actions secrets management**  \n  - Doppler can **sync secrets directly into GitHub Secrets** via the Doppler↔GitHub sync integration, so your Actions workflows can use them like any other repository/organization secret.[1]  \n  - Alternatively, you can store a **Doppler service token** in GitHub Secrets and then use the **Doppler CLI** or the **“Fetch Doppler Secrets” GitHub Action** to pull secrets at runtime and inject them as environment variables in your workflow.[1][4]\n\n- **GitHub Marketplace integrations**  \n  - **Doppler app / secrets manager** listing on GitHub Marketplace describes it as a **universal secrets manager** with support for GitHub Actions and production environments.[3]  \n  - **Fetch Doppler Secrets** GitHub Action lets you authenticate with Doppler (via service token or service account/OIDC) and inject secrets as env vars for later steps.[4]\n\n- **GitHub secret scanning partnership**  \n  - GitHub has an official **secret scanning integration for Doppler tokens**: when Doppler tokens are detected in public repos, GitHub forwards them to Doppler so they can be revoked and users notified.[2]\n\n- **Supporting tooling on GitHub**  \n  - Doppler maintains an official **CLI** and a **CLI GitHub Action** to install it in workflows, plus other tooling repos under the `DopplerHQ` org on GitHub.[5][6]\n\nIf you tell me your use case (e.g., “use Doppler secrets in a specific GitHub Actions workflow”), I can outline the exact steps and example YAML.",
-  "cached_at": "2026-05-28T06:22:08Z",
-  "metadata": {}
-}

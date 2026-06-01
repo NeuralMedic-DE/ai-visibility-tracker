@@ -1,9 +1,0 @@
-{
-  "brand": "Vellum",
-  "prompt_id": "CM-01",
-  "llm": "openai",
-  "prompt_text": "Vellum vs LangSmith: which is better?",
-  "response": "Choosing between Vellum and LangSmith depends on your specific needs, as they serve different purposes.\n\n**Vellum** is primarily a tool for authors to format and publish books. It is known for its ease of use, allowing writers to create professional-looking eBooks and print books without needing extensive technical knowledge. If your focus is on book formatting and publishing, Vellum is likely the better choice.\n\n**LangSmith**, on the other hand, is a tool designed for developers and businesses working with language models. It provides features for building, testing, and deploying applications that use natural language processing. If you're working on projects that involve AI and language models, LangSmith would be more suitable.\n\nIn summary, choose Vellum if you're focused on book publishing, and LangSmith if you're working with language model applications.",
-  "cached_at": "2026-05-28T07:44:40Z",
-  "metadata": {}
-}

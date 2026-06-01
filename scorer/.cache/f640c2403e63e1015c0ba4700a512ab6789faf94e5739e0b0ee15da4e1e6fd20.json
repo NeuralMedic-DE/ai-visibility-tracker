@@ -1,9 +1,0 @@
-{
-  "brand": "PostHog",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best product analytics for developer-led product teams?",
-  "response": "# Best Product Analytics for Developer-Led Teams\n\n**Top contenders:**\n\n## **1. Amplitude** (strongest overall)\n- SQL-like query language engineers appreciate\n- Event-based tracking with flexible schema\n- Strong cohort analysis and funnel tools\n- Good for tracking technical metrics (API usage, latency)\n- Steeper learning curve but powerful\n\n## **2. Mixpanel**\n- Intuitive UI that developers and PMs both use\n- Strong real-time capabilities\n- Good balance of power and usability\n- Solid for tracking user behavior across product\n\n## **3. PostHog** (best for developer culture)\n- Open source option (self-hosted)\n- Built by engineers, for engineers\n- Session recordings + product analytics combined\n- No data sampling on free tier\n- Great if you value transparency and control\n\n## **4. Segment + warehouse** (most flexible)\n- Collect events once, analyze everywhere\n- Send to Amplitude, Mixpanel, or data warehouse\n- Reduces engineering burden long-term\n- Better for complex tracking needs\n\n## **Key considerations for dev teams:**\n\n- **API-first setup** — can engineers instrument tracking themselves?\n- **SQL access** — do you want raw query capabilities?\n- **Self-hosted option** — for data privacy/control?\n- **Documentation** — will your team actually use it?\n\n**My take:** If your team values engineering autonomy → **PostHog**. If you want power + adoption → **Amplitude**. If you're unsure → **Mixpanel** (lowest barrier to entry).\n\nWhat's your team size and what metrics matter most?",
-  "cached_at": "2026-05-27T19:35:31Z",
-  "metadata": {}
-}

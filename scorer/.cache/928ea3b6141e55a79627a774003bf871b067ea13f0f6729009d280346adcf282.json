@@ -1,9 +1,0 @@
-{
-  "brand": "Totango",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable customer success tools instead of ChurnZero",
-  "response": "# Open Source & Affordable Customer Success Alternatives\n\n## **Open Source Options**\n\n| Tool | Best For | Features |\n|------|----------|----------|\n| **Mattermost** | Team communication | Slack alternative, self-hosted |\n| **Plane** | Project management | Issue tracking, roadmaps |\n| **Chatwoot** | Customer support | Multi-channel messaging, live chat |\n| **Odoo** | Integrated CRM | Full ERP + CRM capabilities |\n\n## **Affordable SaaS Tools**\n\n### **Direct ChurnZero Alternatives**\n- **Gainsight** (mid-market) - $2K+/month\n- **Totango** - Similar feature set, better pricing tiers\n- **Ambyint** - Lightweight, $500-1K/month range\n- **Catalyst** - Emerging, more affordable\n\n### **Budget-Friendly Stackable Solutions**\n- **HubSpot Free/Starter** ($50-800/month) - Basic CS features\n- **Intercom** ($39+/month) - Customer messaging + basic tracking\n- **Calendly/Chili Piper** - Scheduling automation\n- **Tableau/Metabase** - Free/cheap analytics\n- **Slack + Zapier** - DIY automation layer\n\n## **Lightweight Approaches**\n- **Notion** + CSV imports (nearly free)\n- **Airtable** ($20/user/month) - Flexible database\n- **Google Sheets + Apps Script** - Minimal cost\n\n## **Key Questions**\n1. What specific CS functions matter most? (health scoring, renewals, engagement tracking?)\n2. Team size?\n3. Integration requirements?\n\n**What's your primary use case?** That'll help narrow recommendations.",
-  "cached_at": "2026-05-28T08:14:35Z",
-  "metadata": {}
-}

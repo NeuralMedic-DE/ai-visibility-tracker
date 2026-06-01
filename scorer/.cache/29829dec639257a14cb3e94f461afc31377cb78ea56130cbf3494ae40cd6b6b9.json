@@ -1,9 +1,0 @@
-{
-  "brand": "Lemlist",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Lemlist with HubSpot?",
-  "response": "# Connecting Lemlist with HubSpot\n\nHere's how to integrate these two platforms:\n\n## Step-by-Step Setup\n\n### In Lemlist:\n1. Go to **Settings** → **Integrations**\n2. Find **HubSpot** in the available integrations\n3. Click **Connect**\n4. You'll be redirected to HubSpot to authorize the connection\n5. Log in and grant Lemlist permission to access your HubSpot account\n6. Confirm and return to Lemlist\n\n### Configuration Options:\nAfter connecting, you can typically set up:\n- **Two-way sync** of contacts and lead data\n- **Automatic updates** when emails are opened/clicked\n- **Lead scoring** based on engagement\n- **Custom field mapping** between platforms\n\n## What Gets Synced:\n- Contact information\n- Email engagement metrics (opens, clicks)\n- Campaign performance data\n- Custom properties (depending on your setup)\n\n## Tips:\n- Ensure you have admin access in both accounts\n- Test with a small contact list first\n- Check field mapping to avoid duplicates\n- Review HubSpot's contact limits if syncing large lists\n\n## Troubleshooting:\nIf you have connection issues:\n- Clear browser cache\n- Check that you have proper permissions in HubSpot\n- Verify your HubSpot subscription level supports integrations\n\nNeed help with a specific step?",
-  "cached_at": "2026-05-28T07:17:25Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Secureframe",
-  "prompt_id": "IN-03",
-  "llm": "openai",
-  "prompt_text": "How do I connect Secureframe with GitHub?",
-  "response": "To connect Secureframe with GitHub, you'll need to follow these general steps:\n\n1. **Log into Secureframe:**\n   - Access your Secureframe account by logging in with your credentials.\n\n2. **Navigate to Integrations:**\n   - Once logged in, go to the integrations section. This is typically found in the dashboard or settings menu.\n\n3. **Select GitHub Integration:**\n   - Look for GitHub in the list of available integrations. Click on it to start the connection process.\n\n4. **Authorize Secureframe:**\n   - You will be redirected to GitHub to authorize Secureframe. You may need to log into your GitHub account if you aren't already.\n   - Review the permissions that Secureframe is requesting. These usually include access to your repositories and organization details.\n   - Click \"Authorize\" to grant the necessary permissions.\n\n5. **Configure the Integration:**\n   - After authorization, you may need to configure specific settings within Secureframe, such as selecting which repositories or organizations to monitor.\n\n6. **Verify the Connection:**\n   - Once set up, ensure that the integration is working correctly by checking if Secureframe is pulling the necessary data from GitHub.\n\n7. **Adjust Permissions if Necessary:**\n   - Depending on your security policies, you might need to adjust the permissions granted to Secureframe in GitHub to align with your organization's requirements.\n\nIf you encounter any issues during this process, consult Secureframe's support documentation or contact their support team for assistance.",
-  "cached_at": "2026-05-28T08:33:49Z",
-  "metadata": {}
-}

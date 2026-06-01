@@ -1,9 +1,0 @@
-{
-  "brand": "Apollo.io",
-  "prompt_id": "CD-04",
-  "llm": "anthropic",
-  "prompt_text": "Best CRM platforms for build targeted prospect lists",
-  "response": "# Best CRM Platforms for Building Targeted Prospect Lists\n\n## Top Tier Options\n\n### **HubSpot**\n- **Strengths**: Free tier with core features, excellent lead scoring, built-in email tools\n- **Best for**: Growing businesses, all-in-one needs\n- **Prospect features**: Contact segmentation, workflow automation\n\n### **Salesforce**\n- **Strengths**: Most customizable, enterprise-grade, extensive integrations\n- **Best for**: Large teams, complex sales processes\n- **Prospect features**: Advanced filtering, AI-powered insights\n\n### **Pipedrive**\n- **Strengths**: Visual pipeline, intuitive, strong deal tracking\n- **Best for**: Sales teams prioritizing pipeline management\n- **Prospect features**: Custom fields, bulk actions, activity tracking\n\n## Specialized for Prospecting\n\n### **Apollo.io**\n- Real-time B2B database with 250M+ contacts\n- Email verification, sequences, cadences\n- Affordable for high-volume prospecting\n\n### **Clay**\n- Enriches prospect data from 75+ sources\n- Custom segmentation, automated workflows\n- Great for data-driven targeting\n\n### **ZoomInfo**\n- Premier B2B contact database\n- Intent data, buying signals\n- Higher cost but comprehensive\n\n## Budget-Friendly\n\n- **Freshsales**: Good free tier, basic prospecting\n- **Zoho CRM**: Affordable, surprisingly feature-rich\n- **Streak**: Gmail-native, lightweight\n\n## Selection Criteria\n\nChoose based on:\n1. **Budget** (free vs. paid)\n2. **Database size** (internal vs. integrated)\n3. **Integration needs** (email, calendar, tools)\n4. **Team size** and complexity\n5. **Data enrichment** requirements\n\nWhat's your team size and primary use case?",
-  "cached_at": "2026-05-27T18:03:33Z",
-  "metadata": {}
-}

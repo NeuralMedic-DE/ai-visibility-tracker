@@ -1,9 +1,0 @@
-{
-  "brand": "LlamaIndex",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect LlamaIndex with OpenAI?",
-  "response": "# Connecting LlamaIndex with OpenAI\n\nHere's a quick setup guide:\n\n## 1. **Install Required Packages**\n```bash\npip install llama-index openai\n```\n\n## 2. **Set Your OpenAI API Key**\n```python\nimport os\nos.environ[\"OPENAI_API_KEY\"] = \"your-api-key-here\"\n```\n\nOr use a `.env` file with python-dotenv:\n```python\nfrom dotenv import load_dotenv\nload_dotenv()\n```\n\n## 3. **Basic Usage**\n\n```python\nfrom llama_index.llms.openai import OpenAI\nfrom llama_index.core import Settings\n\n# Set OpenAI as the LLM\nllm = OpenAI(model=\"gpt-4\", temperature=0.7)\nSettings.llm = llm\n\n# Now use LlamaIndex with OpenAI\nfrom llama_index.core import VectorStoreIndex, SimpleDirectoryReader\n\ndocuments = SimpleDirectoryReader(\"./data\").load_data()\nindex = VectorStoreIndex.from_documents(documents)\nquery_engine = index.as_query_engine()\nresponse = query_engine.query(\"Your question here\")\nprint(response)\n```\n\n## 4. **Optional: Configure Embeddings**\n```python\nfrom llama_index.embeddings.openai import OpenAIEmbedding\n\nSettings.embed_model = OpenAIEmbedding(model=\"text-embedding-3-small\")\n```\n\n## Key Points\n- Ensure your API key is valid and has sufficient credits\n- Models available: `gpt-4`, `gpt-4-turbo`, `gpt-3.5-turbo`, etc.\n- Check [LlamaIndex docs](https://docs.llamaindex.ai/) for advanced configurations\n\nAny specific use case you're working on?",
-  "cached_at": "2026-05-28T07:42:39Z",
-  "metadata": {}
-}

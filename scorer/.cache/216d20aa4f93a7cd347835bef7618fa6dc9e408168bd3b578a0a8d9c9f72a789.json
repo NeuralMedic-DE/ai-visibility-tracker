@@ -1,9 +1,0 @@
-{
-  "brand": "Conveyor",
-  "prompt_id": "AL-02",
-  "llm": "perplexity",
-  "prompt_text": "Cheaper alternatives to Drata",
-  "response": "If you want **cheaper alternatives to Drata**, the most directly cited lower-cost options in the results are **SecureSlate**, **Comp AI**, **Scytale**, **Sprinto**, **Secureframe**, **Thoropass**, and **Hyperproof**.[3][1][2][4]\n\n- **SecureSlate**: positioned as the cheaper option for SMBs, with a listed annual price of **$2,388** for one framework versus Drata’s **$15,000** in the comparison shown.[3]\n- **Comp AI**: claims Drata typically costs **$20K–$80K/year** and says its pricing is more transparent, with audit and pen test bundled rather than extra.[1]\n- **Scytale**: described as a Drata alternative with pricing that starts around **$7,000/year** for startups and smaller businesses, scaling upward with more complexity.[2]\n- **Sprinto**: listed among top Drata alternatives in 2026, though the provided result does not include a specific price point.[4]\n- **Secureframe**: also listed as a top alternative in the Sprinto result, but no price is shown in the snippet.[4]\n- **Thoropass**: listed as a top alternative in the Sprinto result, but the snippet does not give pricing.[4]\n- **Hyperproof**: listed as a top alternative in the Sprinto result, with no pricing shown in the snippet.[4]\n\nA practical way to choose is:\n- If you want the **lowest clearly stated price** in the results, start with **SecureSlate**.[3]\n- If you want a **bundled compliance automation + audit/pentest** style offering, look at **Comp AI**.[1]\n- If you want a more established compliance platform with **broader framework support**, compare **Scytale** and **Sprinto**.[2][4]\n\nIf you want, I can turn this into a **ranked shortlist by budget** or a **feature-by-feature comparison against Drata**.",
-  "cached_at": "2026-05-28T08:47:03Z",
-  "metadata": {}
-}

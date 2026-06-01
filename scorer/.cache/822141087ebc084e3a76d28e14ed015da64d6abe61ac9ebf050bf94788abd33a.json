@@ -1,9 +1,0 @@
-{
-  "brand": "Workable",
-  "prompt_id": "AL-03",
-  "llm": "anthropic",
-  "prompt_text": "Best ATS alternatives for HR teams at SMB and mid-market companies hiring at scale teams on a budget",
-  "response": "# Top ATS Alternatives for Budget-Conscious Scale-Up Hiring\n\n## **Best Overall Value**\n\n### **Workable**\n- Strong mid-market sweet spot ($99-500+/mo)\n- Unlimited job postings, decent integrations\n- Cleaner UX than legacy systems\n- Good for teams hiring 50-500/year\n\n### **Lever**\n- More polished interface, better candidate experience\n- $99+/mo, scales well\n- Strong collaboration tools for hiring teams\n- Good for data-driven hiring\n\n## **Budget-First Options**\n\n### **Greenhouse** (entry tier)\n- ~$200+/mo for SMB\n- More enterprise-ready as you grow\n- Better onboarding than legacy ATS\n\n### **Talentpools**\n- Lightweight, affordable ($50-150/mo range)\n- Good for simple workflows\n- Limited integration ecosystem\n\n### **Breezy HR**\n- $99-400+/mo\n- Includes CRM + basic HR features\n- Good mobile experience\n\n## **Free/Freemium Strategies**\n\n### **Ashby**\n- Free tier for <5 open roles\n- ~$400/mo paid (pricier but very modern)\n- Best product design\n\n### **JazzHR**\n- Affordable entry point (~$39/mo)\n- Basic but functional\n- Good for <50 hires/year\n\n## **Realistic Budget Path for Scale**\n\n**Year 1:** Bamboo HR (~$99/mo) + free job board posting\n**Year 2:** Upgrade to Workable (~$200/mo) + native integrations\n**Year 3:** Evaluate Lever/Greenhouse as needs mature\n\n**Hidden wins:** Most underrated = **Workable** for your scenario—best price/feature ratio for 30-200 hires annually.\n\nWhat's your current hiring volume/team size?",
-  "cached_at": "2026-05-28T06:46:05Z",
-  "metadata": {}
-}

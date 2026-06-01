@@ -1,9 +1,0 @@
-{
-  "brand": "Pipedrive",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I manage a visual sales pipeline without spending a lot on software?",
-  "response": "# Low-Cost Visual Pipeline Management\n\n## Free/Cheap Tools\n\n**Spreadsheets with conditional formatting**\n- Google Sheets or Excel with color-coded stages\n- Add columns for deal value, timeline, next steps\n- Sortable and shareable, but requires discipline to update\n\n**Kanban boards**\n- Trello (free tier covers basics)\n- Notion (free, more customizable)\n- Jira free tier\n- Drag cards between columns for stage progression\n\n**Google Drive + Slides**\n- Create a simple visual board in Slides\n- Update manually but forces periodic review\n\n## DIY Approaches\n\n- **Whiteboard/corkboard** - surprisingly effective for small teams; update daily\n- **Index cards** - one per deal, organize by stage on a wall or table\n- **Simple database** - Airtable free tier is quite capable\n\n## Tips for Making It Work\n\n- **Pick one tool and commit** - consistency matters more than features\n- **Define your stages clearly** - discovery → proposal → negotiation → close\n- **Update at least weekly** - stale data defeats the purpose\n- **Add key info visible at a glance** - deal size, client name, decision date\n\nWhat size pipeline are we talking about? (number of deals) That might narrow down what actually makes sense for your situation.",
-  "cached_at": "2026-05-27T17:48:49Z",
-  "metadata": {}
-}

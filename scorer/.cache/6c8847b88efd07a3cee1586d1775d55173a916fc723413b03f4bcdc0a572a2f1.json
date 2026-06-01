@@ -1,9 +1,0 @@
-{
-  "brand": "Workato",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best automation for enterprise operations and IT teams at mid-to-large companies?",
-  "response": "# Best Automation for Enterprise Operations & IT Teams\n\nThe answer depends on your specific needs, but here's a practical framework:\n\n## **Core Priorities (in order)**\n\n1. **Incident & Change Management**\n   - Alert aggregation and auto-remediation\n   - Runbook automation for common issues\n   - Change deployment pipelines\n   - *Tools: PagerDuty, Opsgenie, ServiceNow*\n\n2. **Infrastructure Provisioning**\n   - IaC (Terraform, Ansible, CloudFormation)\n   - Container orchestration (Kubernetes)\n   - Network/security policy automation\n   - *Avoids manual config drift & security gaps*\n\n3. **Monitoring & Observability**\n   - Auto-scaling policies\n   - Anomaly detection\n   - Log/metric aggregation\n   - *Tools: Datadog, New Relic, Prometheus*\n\n4. **Compliance & Security**\n   - Patch management automation\n   - Access provisioning/deprovisioning\n   - Vulnerability scanning\n   - *Reduces human error, audit burden*\n\n5. **Backup & Disaster Recovery**\n   - Automated testing of backups\n   - Failover automation\n   - Data retention policies\n\n## **Implementation Reality**\n\n- **Start small**: Pick the highest-pain, lowest-complexity process first\n- **Build gradually**: Each automation builds institutional knowledge\n- **Hybrid approach**: Orchestration platforms (ServiceNow, Rundeck) often tie everything together better than point solutions\n- **Skills matter**: Automation requires platform expertise—invest in training or hiring\n\nWhat's your biggest operational pain point right now? That usually reveals where to start.",
-  "cached_at": "2026-05-28T09:13:11Z",
-  "metadata": {}
-}

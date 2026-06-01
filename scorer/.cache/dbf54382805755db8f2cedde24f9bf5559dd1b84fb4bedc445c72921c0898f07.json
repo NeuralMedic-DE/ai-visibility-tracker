@@ -1,9 +1,0 @@
-{
-  "brand": "Ashby",
-  "prompt_id": "IN-02",
-  "llm": "anthropic",
-  "prompt_text": "Ashby LinkedIn integration: how does it work?",
-  "response": "# Ashby LinkedIn Integration: How It Works\n\n## Core Functionality\n\n**Ashby** (an ATS/recruiting platform) integrates with LinkedIn to streamline hiring workflows:\n\n### 1. **Candidate Sourcing**\n- Pull candidate profiles directly from LinkedIn\n- Search and filter candidates by skills, experience, location, etc.\n- Create candidate records in Ashby from LinkedIn profiles with one click\n\n### 2. **Resume Parsing**\n- Automatically extracts data from LinkedIn profiles\n- Populates candidate fields (work history, skills, education)\n- Reduces manual data entry\n\n### 3. **Direct Messaging**\n- Send InMail or connection requests to candidates through LinkedIn\n- Track messaging activity within Ashby\n- Maintain conversation history\n\n### 4. **Job Posting**\n- Sync job openings from Ashby to LinkedIn\n- Reach LinkedIn's job posting audience\n- Track applicants from LinkedIn within your pipeline\n\n## Setup Requirements\n\n- Ashby account with appropriate permissions\n- LinkedIn Recruiter account (for advanced features) or standard LinkedIn account\n- API credentials properly configured\n- OAuth connection between platforms\n\n## Key Benefits\n\n✓ Unified candidate database  \n✓ Reduced manual data entry  \n✓ Seamless workflow between platforms  \n✓ Better candidate discovery  \n✓ Improved recruitment speed\n\n---\n\n**Note:** Integration capabilities may vary depending on your Ashby plan and LinkedIn account type. Check Ashby's documentation for current supported features.",
-  "cached_at": "2026-05-28T06:39:40Z",
-  "metadata": {}
-}

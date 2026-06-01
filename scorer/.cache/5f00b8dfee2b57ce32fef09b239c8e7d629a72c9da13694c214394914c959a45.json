@@ -1,9 +1,0 @@
-{
-  "brand": "Salesflare",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with track email opens and follow-ups at scale?",
-  "response": "There are several software solutions that can help you track email opens and manage follow-ups at scale. Here are a few popular options:\n\n1. **Mailchimp**: Known for its email marketing capabilities, Mailchimp provides tracking for email opens, clicks, and other engagement metrics. It also offers automation features for follow-ups.\n\n2. **HubSpot**: HubSpot's email marketing tool includes tracking for email opens and clicks, along with CRM integration for managing follow-ups and customer interactions at scale.\n\n3. **Salesforce Pardot**: This is a marketing automation solution that offers email tracking, lead scoring, and automated follow-up capabilities.\n\n4. **Sendinblue**: Offers email tracking, automation, and CRM features, making it easy to manage follow-ups based on user engagement.\n\n5. **ActiveCampaign**: Provides email tracking and advanced automation features, allowing for personalized follow-ups based on user behavior.\n\n6. **Yesware**: A tool specifically designed for sales teams, Yesware integrates with Gmail and Outlook to track email opens and manage follow-ups.\n\n7. **Mixmax**: This tool integrates with Gmail and offers email tracking, scheduling, and automation features to streamline follow-up processes.\n\n8. **Outreach**: A sales engagement platform that provides email tracking and automation to help manage follow-ups efficiently.\n\nThese tools vary in terms of features, pricing, and integration capabilities, so it's important to evaluate them based on your specific needs and the scale at which you plan to operate.",
-  "cached_at": "2026-05-27T18:12:33Z",
-  "metadata": {}
-}

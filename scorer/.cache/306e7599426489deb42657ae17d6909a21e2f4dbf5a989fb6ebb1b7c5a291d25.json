@@ -1,9 +1,0 @@
-{
-  "brand": "Nutshell",
-  "prompt_id": "CM-02",
-  "llm": "anthropic",
-  "prompt_text": "Nutshell vs Salesforce pricing and features",
-  "response": "# Nutshell vs Salesforce: Pricing & Features\n\n## **Pricing**\n\n| Factor | Nutshell | Salesforce |\n|--------|----------|-----------|\n| **Starting Price** | ~$20/user/month | ~$165/user/month (Sales Cloud) |\n| **Setup Costs** | Minimal | Can be substantial |\n| **Scalability** | Affordable as you grow | Expensive at scale |\n| **Best For** | Small-mid teams (budget-conscious) | Large enterprises |\n\n## **Key Features Comparison**\n\n### **Nutshell**\n✅ **Strengths:**\n- Lead management & scoring\n- Email integration & tracking\n- Simple automation\n- Intuitive interface\n- All-in-one solution (CRM + basic marketing)\n- Fast implementation\n\n❌ **Limitations:**\n- Fewer customization options\n- Limited third-party integrations\n- Less advanced reporting\n- Smaller app marketplace\n\n### **Salesforce**\n✅ **Strengths:**\n- Highly customizable\n- Extensive API & app ecosystem\n- Advanced analytics & AI (Einstein)\n- Enterprise-grade security\n- Multiple cloud solutions (Commerce, Service, etc.)\n- Powerful automation\n\n❌ **Limitations:**\n- Steep learning curve\n- Expensive implementation\n- Can be overkill for small teams\n- Requires specialized admins/developers\n\n## **Quick Decision Guide**\n\n| Choose **Nutshell** if you need: | Choose **Salesforce** if you need: |\n|--------------------------------|--------------------------------|\n| Simplicity & speed to deploy | Complex custom workflows |\n| Budget-friendly option | Enterprise scale |\n| Quick wins for small sales teams | Multiple cloud solutions |\n| Minimal training | Advanced AI/analytics |\n\n**Bottom line:** Nutshell wins on value and ease; Salesforce wins on power and flexibility.",
-  "cached_at": "2026-05-27T18:33:06Z",
-  "metadata": {}
-}

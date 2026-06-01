@@ -1,9 +1,0 @@
-{
-  "brand": "Totango",
-  "prompt_id": "AL-05",
-  "llm": "openai",
-  "prompt_text": "Open source or affordable customer success tools instead of ChurnZero",
-  "response": "If you're looking for open-source or more affordable alternatives to ChurnZero for customer success management, here are a few options you might consider:\n\n1. **Custify**: While not open-source, Custify is a more affordable customer success platform that offers features like customer health scoring, task management, and automation.\n\n2. **Gainsight Essentials**: This is a more affordable version of Gainsight's customer success platform, designed for smaller teams or businesses with fewer resources.\n\n3. **UserGuiding**: Primarily a user onboarding tool, UserGuiding can help with customer success by ensuring users are effectively guided through your product, which can reduce churn.\n\n4. **Totango**: Offers a free tier with basic features that can be useful for small teams or startups. It includes customer health monitoring and engagement tracking.\n\n5. **Freshsuccess (formerly Natero)**: Part of the Freshworks suite, this tool offers customer success features at a more affordable price point compared to some of the larger platforms.\n\n6. **Open-source CRM tools**: While not specifically for customer success, open-source CRM platforms like SuiteCRM or Odoo can be customized to include customer success features with some development effort.\n\n7. **HubSpot Service Hub**: While not open-source, HubSpot offers a free tier with customer service and success features that can be expanded with paid plans as needed.\n\nThese tools vary in terms of features and pricing, so it's worth evaluating them based on your specific needs and budget.",
-  "cached_at": "2026-05-28T08:14:27Z",
-  "metadata": {}
-}

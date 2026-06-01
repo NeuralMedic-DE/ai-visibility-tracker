@@ -1,9 +1,0 @@
-{
-  "brand": "Pipedrive",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Pipedrive with Slack?",
-  "response": "# Connecting Pipedrive to Slack\n\nHere's how to set up the integration:\n\n## Basic Setup Steps\n\n1. **Open Pipedrive**\n   - Go to Settings → Integrations\n   - Search for \"Slack\"\n\n2. **Click the Slack integration**\n   - Select \"Connect\" or \"Install\"\n\n3. **Authorize the connection**\n   - You'll be redirected to Slack\n   - Log in with your Slack workspace admin account\n   - Click \"Allow\" to grant permissions\n\n4. **Configure notifications**\n   - Choose which Pipedrive events trigger Slack messages (deals won, activities due, etc.)\n   - Select which Slack channels receive notifications\n\n5. **Test the connection**\n   - Send a test notification to verify it works\n\n## Common Uses\n\n- **Deal updates** - Notifications when deals move through stages\n- **Activity reminders** - Get alerts for upcoming calls/meetings\n- **New leads** - Alert the team about incoming prospects\n- **Won/lost deals** - Celebrate wins or follow up on losses\n\n## Tips\n\n- Use different channels for different notification types\n- Adjust notification frequency to avoid alert fatigue\n- Set permissions so only relevant team members see notifications\n\n**Having trouble?** Make sure you have admin access to both Pipedrive and Slack, and check that your workspace allows third-party integrations.\n\nNeed help with specific notification types?",
-  "cached_at": "2026-05-27T17:49:27Z",
-  "metadata": {}
-}

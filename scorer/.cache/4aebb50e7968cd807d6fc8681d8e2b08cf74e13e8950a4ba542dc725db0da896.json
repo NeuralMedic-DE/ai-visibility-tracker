@@ -1,9 +1,0 @@
-{
-  "brand": "Lattice",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Leapsome vs alternatives: what should I switch to?",
-  "response": "# Leapsome Alternatives: Key Comparisons\n\nYour choice depends on what you're prioritizing:\n\n## **If you want simpler feedback tools:**\n- **Culture Amp** - stronger analytics, better for large orgs\n- **Officevibe** - lightweight, pulse surveys focused\n- **Lattice** - more modern UX, good integrations\n\n## **If you need performance management:**\n- **Workday** - enterprise-grade, comprehensive\n- **SuccessFactors** - similar scope, established\n- **BambooHR** - better for SMBs, simpler setup\n\n## **If cost matters:**\n- **Small Improvements** - cheaper for small teams\n- **Peakon** - decent mid-market pricing\n- **15Five** - competitive for growth companies\n\n## **Questions to clarify first:**\n1. **What's driving the switch?** (cost, missing features, usability)\n2. **Company size?** (solutions vary widely)\n3. **What do you use most?** (1:1s, surveys, goals, reviews)\n4. **Integration needs?** (Slack, HR systems, etc.)\n\n## **Quick reality check:**\nMost alternatives have similar core features. The difference is usually in:\n- UI/ease of use\n- Reporting depth\n- Customer support quality\n- Pricing structure\n\nWhat specific problems are you facing with Leapsome? That would help narrow down a better fit.",
-  "cached_at": "2026-05-28T06:30:03Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Braintrust",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable AI tooling tools instead of PromptFoo",
-  "response": "# Open Source & Affordable AI Testing Alternatives to PromptFoo\n\n## **Open Source Options**\n\n### **1. LangSmith** (Freemium)\n- LangChain's native observability platform\n- Free tier with limited runs\n- Excellent for LangChain workflows\n- Tracing, testing, evaluation\n- **Best for:** LangChain users\n\n### **2. Braintrust** (Open Source + Cloud)\n- Open-source evaluation framework\n- Self-hostable\n- Python/Node SDKs\n- Cost-effective cloud tier\n- **Best for:** Custom evaluations\n\n### **3. Ragas** (Open Source)\n- Python library for LLM evaluation\n- RAG-specific metrics\n- Zero cost, self-hosted\n- Active community\n- **Best for:** RAG systems\n\n### **4. DeepEval** (Open Source)\n- LLM evaluation framework\n- Hallucination, toxicity, bias checks\n- Self-hostable\n- **Best for:** Quality assurance\n\n### **5. Phoenix by Arize** (Open Source)\n- LLM observability\n- Retrieval evaluation\n- Self-hosted option\n- **Best for:** Production monitoring\n\n## **Affordable Alternatives**\n\n| Tool | Price | Best For |\n|------|-------|----------|\n| **Weights & Biases** | Free tier + $9/month | Experiment tracking |\n| **Wandb Weave** | Freemium | LLM chains, evals |\n| **Baserun** | Free tier | Debugging, testing |\n| **Confident AI** | Free tier | Evaluation pipelines |\n| **Assert AI** | Pay-as-you-go | Production testing |\n\n## **DIY Approach** (Cheapest)\n```python\n# Use these libraries directly\n- openai/anthropic SDK\n- pandas for analysis\n- unittest/pytest for tests\n- Custom evaluation scripts\n```\n\n**What's your primary use case?** (e.g., RAG testing, prompt optimization, production monitoring) I can give more specific recommendations.",
-  "cached_at": "2026-05-28T07:47:28Z",
-  "metadata": {}
-}

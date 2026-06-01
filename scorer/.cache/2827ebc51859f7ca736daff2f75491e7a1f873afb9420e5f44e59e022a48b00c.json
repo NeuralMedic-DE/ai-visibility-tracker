@@ -1,9 +1,0 @@
-{
-  "brand": "Supermetrics",
-  "prompt_id": "IN-02",
-  "llm": "anthropic",
-  "prompt_text": "Supermetrics Facebook Ads integration: how does it work?",
-  "response": "# Supermetrics Facebook Ads Integration\n\n## How It Works\n\n### 1. **Connection Process**\n- You authenticate your Facebook Ads account via OAuth\n- Supermetrics requests permission to access your ad data\n- Connection is secured and stored encrypted\n\n### 2. **Data Flow**\n```\nFacebook Ads Account \n    ↓\nSupermetrics API\n    ↓\nYour destination (Google Sheets, Data Studio, etc.)\n```\n\n### 3. **Data You Can Pull**\n- Campaign performance metrics\n- Ad set data\n- Individual ad performance\n- Spend, impressions, clicks, conversions\n- Custom columns and breakdowns\n- Historical data\n\n### 4. **Destination Options**\n- **Google Sheets** - Direct data insertion\n- **Google Data Studio** - For dashboards\n- **BigQuery** - Data warehouse\n- **Looker Studio** - Advanced reporting\n- **Excel** - Via cloud storage\n\n## Key Features\n\n| Feature | Details |\n|---------|---------|\n| **Scheduling** | Automatic daily/weekly/monthly refreshes |\n| **Customization** | Choose metrics, dimensions, date ranges |\n| **Multi-account** | Consolidate data from multiple ad accounts |\n| **Dimensions** | Campaign, ad set, ad, country, device, etc. |\n\n## Common Use Cases\n- Centralized reporting dashboards\n- Multi-channel performance analysis\n- Automated client reports\n- Data warehousing for analysis\n\n## Setup Steps\n1. Install Supermetrics connector\n2. Click \"Connect Account\"\n3. Select Facebook Ads\n4. Authorize access\n5. Configure metrics & dimensions\n6. Schedule refresh frequency\n7. Deploy to your destination\n\nWould you like details on specific configuration or troubleshooting?",
-  "cached_at": "2026-05-27T20:38:24Z",
-  "metadata": {}
-}

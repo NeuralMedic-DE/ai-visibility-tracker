@@ -1,9 +1,0 @@
-{
-  "brand": "Airbyte",
-  "prompt_id": "IN-05",
-  "llm": "openai",
-  "prompt_text": "data integration tools with native Postgres integration",
-  "response": "There are several data integration tools that offer native integration with PostgreSQL. Here are some popular ones:\n\n1. **Talend**: Talend provides a suite of open-source and commercial products for data integration and transformation, with native connectors for PostgreSQL.\n\n2. **Apache Nifi**: An open-source data integration tool that supports real-time data flows, with built-in processors for PostgreSQL.\n\n3. **Informatica**: Offers robust data integration capabilities with native support for PostgreSQL, suitable for enterprise-level applications.\n\n4. **Fivetran**: A fully managed data pipeline service that provides native connectors for PostgreSQL, making it easy to sync data into your data warehouse.\n\n5. **Stitch**: A simple, extensible ETL service that supports PostgreSQL as both a source and a destination.\n\n6. **Airbyte**: An open-source data integration platform with a growing number of connectors, including native support for PostgreSQL.\n\n7. **Matillion**: A cloud-native data integration tool that provides connectors for PostgreSQL, often used in conjunction with cloud data warehouses.\n\n8. **Pentaho**: Part of the Hitachi Vantara suite, Pentaho offers data integration and analytics with support for PostgreSQL.\n\n9. **Hevo Data**: A no-code data pipeline platform that supports PostgreSQL as a source and destination.\n\n10. **DBT (Data Build Tool)**: While primarily a transformation tool, DBT works well with PostgreSQL for transforming data within the database.\n\nThese tools vary in terms of features, pricing, and complexity, so the best choice depends on your specific use case and requirements.",
-  "cached_at": "2026-05-28T09:03:42Z",
-  "metadata": {}
-}

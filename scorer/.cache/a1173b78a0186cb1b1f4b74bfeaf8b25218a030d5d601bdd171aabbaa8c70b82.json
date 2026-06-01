@@ -1,9 +1,0 @@
-{
-  "brand": "Retool",
-  "prompt_id": "UC-04",
-  "llm": "anthropic",
-  "prompt_text": "How can a VP Engineering or CTO at a growing startup build internal dashboards and admin panels quickly more efficiently?",
-  "response": "# Quick Internal Dashboard & Admin Panel Building\n\n## Fastest Approaches\n\n**Low-code platforms** are usually the sweet spot for startups:\n- **Retool** - Purpose-built for internal tools, connects to any DB/API, takes hours not weeks\n- **Budibase** - Open-source alternative, self-hostable\n- **Bubble** - More visual, slower for data-heavy dashboards\n- **AirData/Nocodb** - If you just need database UIs without custom logic\n\n**When to use code** (not low-code):\n- You have existing engineering bandwidth with nothing critical blocking them\n- The tool needs deep customization or performance optimization\n- You're building something you'll reuse 10+ times\n\n## Decision Framework\n\n| Need | Best Option |\n|------|------------|\n| Quick CRUD interface | Low-code platform |\n| Real-time metrics dashboard | Low-code + embedded analytics library |\n| Complex workflows | Low-code with custom JS/APIs |\n| Public-facing tool later | Build custom now (migration costs) |\n\n## Concrete Time Savers\n\n1. **Template over template** - Retool/Budibase have SQL/REST templates; use them\n2. **Connect directly to production DB** (in staging first) - no ETL layer needed for internal tools\n3. **Embrace limited polish** - internal users tolerate rough UX if it's functional\n4. **Use your existing auth** - skip building auth, integrate with your identity provider\n\n## The Real Question\n\nWhat's consuming your engineering time more—building the dashboard, or answering \"can you pull that data?\" questions? If it's the latter, even a basic low-code tool pays for itself in weeks.\n\nWhat's the primary use case you're solving for?",
-  "cached_at": "2026-05-27T20:57:56Z",
-  "metadata": {}
-}

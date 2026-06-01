@@ -1,9 +1,0 @@
-{
-  "brand": "Airbyte",
-  "prompt_id": "AL-05",
-  "llm": "openai",
-  "prompt_text": "Open source or affordable data integration tools instead of Stitch",
-  "response": "There are several open-source and affordable data integration tools you can consider as alternatives to Stitch:\n\n1. **Apache NiFi**: An open-source data integration tool that supports data routing, transformation, and system mediation logic. It has a user-friendly web-based interface for designing data flows.\n\n2. **Talend Open Studio**: A widely-used open-source data integration tool that provides a graphical development environment. It supports a broad range of data sources and integration scenarios.\n\n3. **Apache Airflow**: While primarily an orchestration tool, Airflow can be used to manage complex data workflows and integrate with various data sources through custom operators.\n\n4. **Pentaho Data Integration (Kettle)**: An open-source tool that offers a suite of data integration capabilities, including ETL (Extract, Transform, Load) processes.\n\n5. **Fivetran**: While not open-source, Fivetran offers a more affordable pricing model compared to Stitch and provides automated data integration with a focus on ease of use.\n\n6. **Hevo Data**: A cloud-based data integration platform that offers a free tier and supports real-time data integration with a variety of sources.\n\n7. **Meltano**: An open-source data integration tool built on top of Singer, which is also open-source. Meltano provides a framework for building, running, and orchestrating ELT pipelines.\n\n8. **Singer**: An open-source standard for writing scripts that move data, known as \"taps\" and \"targets.\" It allows you to create custom data integration pipelines.\n\nThese tools vary in terms of features, ease of use, and community support, so it's a good idea to evaluate them based on your specific requirements and technical expertise.",
-  "cached_at": "2026-05-28T09:03:28Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Pilot",
-  "prompt_id": "CM-01",
-  "llm": "perplexity",
-  "prompt_text": "Pilot vs Bench: which is better?",
-  "response": "**Neither is universally “better” — Pilot is better for growing startups that need accrual accounting and more advanced support, while Bench is better for smaller, simpler businesses that want lower-cost cash-basis bookkeeping.** Bench is generally cheaper, while Pilot offers more flexibility, including accrual accounting and QuickBooks Online rather than a proprietary system.[1][2][4]\n\n- **Choose Bench** if you are a small business, freelancer, or service business with straightforward books and you want the lower starting price.[1][2][3]\n- **Choose Pilot** if you are a startup, venture-backed company, or business expecting more complexity, since it supports accrual accounting and deeper finance support.[2][4][5]\n- **Choose Pilot** if data portability matters, because Pilot uses QuickBooks Online, while Bench uses proprietary software.[2][4]\n- **Choose Bench** if budget is the main factor, since its starting price is lower than Pilot’s.[1][2][4]\n\nIf you want, I can also give you a **Bench vs Pilot decision table** based on your company size, revenue, and accounting needs.",
-  "cached_at": "2026-05-28T07:02:45Z",
-  "metadata": {}
-}

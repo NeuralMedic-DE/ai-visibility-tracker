@@ -1,9 +1,0 @@
-{
-  "brand": "Paddle",
-  "prompt_id": "CM-02",
-  "llm": "anthropic",
-  "prompt_text": "Paddle vs FastSpring pricing and features",
-  "response": "# Paddle vs FastSpring Comparison\n\n## **Pricing Structure**\n\n| Feature | Paddle | FastSpring |\n|---------|--------|-----------|\n| **Transaction Fees** | 5% + $0.50 (or custom) | 8.9% + $0.95 (or custom for high volume) |\n| **Setup Costs** | None | None |\n| **Minimum** | No minimum | No minimum |\n| **Currency Support** | 135+ currencies | 190+ currencies |\n\n## **Key Features**\n\n### **Paddle**\n✅ **Strengths:**\n- Lower baseline fees\n- Native SaaS subscription tools\n- Excellent recurring billing\n- Built-in affiliate management\n- Good for software/digital products\n- Strong developer API\n\n❌ **Weaknesses:**\n- Less flexible for physical goods\n- Fewer payment methods in some regions\n- Can be pricey for high-volume sellers\n\n### **FastSpring**\n✅ **Strengths:**\n- Handles physical + digital products equally well\n- More payment methods (PayPal, Klarna, etc.)\n- Better for international sales (190+ currencies)\n- Flexible for mixed business models\n- Advanced fulfillment options\n\n❌ **Weaknesses:**\n- Higher transaction fees\n- Steeper learning curve\n- Less specialized in SaaS\n\n## **Best For**\n\n- **Paddle**: SaaS companies, software licensing, subscription models\n- **FastSpring**: E-commerce, mixed digital/physical, global reach needs\n\n## **Bottom Line**\n\nChoose **Paddle** for SaaS/subscriptions at lower cost. Choose **FastSpring** for flexibility across product types and global markets.\n\nNeed help evaluating for your specific use case?",
-  "cached_at": "2026-05-28T06:59:49Z",
-  "metadata": {}
-}

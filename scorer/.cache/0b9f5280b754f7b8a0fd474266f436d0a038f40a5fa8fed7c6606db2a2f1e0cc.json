@@ -1,9 +1,0 @@
-{
-  "brand": "Apollo.io",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to Outreach",
-  "response": "# Cheaper Alternatives to Outreach\n\n## Sales Engagement Platforms\n\n| Tool | Price | Best For |\n|------|-------|----------|\n| **HubSpot Sales Hub** | Free - $120/user/mo | All-in-one CRM + engagement |\n| **Salesloft** | $15-50/user/mo | Mid-market sales teams |\n| **Apollo.io** | $49-249/mo (flat rate) | Lead generation + outreach |\n| **Lemlist** | $25-99/mo | Email sequences & personalization |\n| **Instantly** | $25-300/mo | Cold email at scale |\n\n## Email-Focused Tools\n\n- **Mailshake** - $49-299/mo\n- **Yesware** - $12-60/user/mo\n- **Close** - $29-99/user/mo (includes CRM)\n- **Reply.io** - $50-480/mo\n\n## Open-Source / Budget Options\n\n- **Mautic** - Self-hosted (free)\n- **Openemu** - Community-driven alternatives\n- **Zapier + basic CRM** - DIY automation setup\n\n## Key Decision Factors\n\n✓ **Self-hosted** = cheaper but requires IT support\n✓ **Flat-rate vs per-user** = better for large teams\n✓ **Feature overlap** with existing tools (CRM, email, etc.)\n✓ **Integration needs** with your tech stack\n\n**Most common winner:** HubSpot or Apollo.io for cost + functionality balance\n\nWhat's your team size and primary use case?",
-  "cached_at": "2026-05-27T18:04:24Z",
-  "metadata": {}
-}

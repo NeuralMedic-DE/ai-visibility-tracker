@@ -1,9 +1,0 @@
-{
-  "brand": "Linear",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable project management tools instead of Asana",
-  "response": "# Budget-Friendly Project Management Alternatives\n\n## **Free & Open-Source**\n\n### **Plane**\n- Self-hosted or cloud option\n- Issues, cycles, modules, views\n- Clean UI similar to linear\n- Open source (GitHub)\n\n### **OpenProject**\n- Gantt charts, kanban, agile\n- Robust free version\n- Self-hosted available\n- Good for complex projects\n\n### **Taiga**\n- Agile/scrum focused\n- Kanban + sprints\n- Open source\n- Community-driven\n\n### **Focalboard**\n- Trello/Asana alternative\n- Self-hosted\n- Multiple view types\n- MIT licensed\n\n## **Affordable Commercial**\n\n### **Monday.com** (cheaper tiers)\n- Starts ~$10/month\n- Highly customizable\n\n### **ClickUp**\n- Free plan quite generous\n- $5-9/month paid tiers\n- Covers most use cases\n\n### **Notion**\n- Free for personal use\n- $8/month for teams\n- More flexible\n\n### **Jira (Free)**\n- Good for technical teams\n- Cloud free tier available\n\n### **Trello**\n- $5-10/month\n- Simple, visual\n- Good for small teams\n\n## **Best By Use Case**\n- **Startups**: Plane or ClickUp free\n- **Self-hosted**: OpenProject, Taiga\n- **Agile teams**: Focalboard, OpenProject\n- **Budget conscious**: Notion or Jira free\n\n**What's your team size and main use case?** That helps narrow it down further.",
-  "cached_at": "2026-05-27T21:08:11Z",
-  "metadata": {}
-}

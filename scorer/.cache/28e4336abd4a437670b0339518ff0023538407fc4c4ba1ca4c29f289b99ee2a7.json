@@ -1,9 +1,0 @@
-{
-  "brand": "UserVoice",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is UserVoice better than Aha! for close the feedback loop with customers when their requested features ship?",
-  "response": "# UserVoice vs Aha! for Feedback Loop Closure\n\nBoth have relevant features, but they're actually **better suited for different parts of the process**:\n\n## UserVoice's Strengths\n- **Direct notification system** - Voters on ideas automatically get notified when status changes\n- **Simpler feedback collection** - Easier for non-technical customers to submit and vote\n- **Built-in communication** - Comments and updates happen in the same place where ideas live\n- **Lower learning curve** - Good if your primary goal is closing the loop with collected feedback\n\n## Aha!'s Strengths\n- **More comprehensive** - Handles ideation through product development to launch\n- **Better visibility into roadmap** - Customers see *where* their request fits in the bigger picture\n- **Release management features** - Stronger for coordinating multi-feature releases and announcements\n- **Sophisticated segmentation** - Notify specific customer groups about relevant releases\n\n## The Real Consideration\n\nThe better choice depends on:\n- **Are you managing ideas from customers?** → UserVoice often simpler\n- **Are you running a full product development process?** → Aha! typically more complete\n- **How much do customers care about *when*?** → Aha! roadmap visibility is stronger here\n\n**Many teams use both** - UserVoice for collection/voting, Aha! for development/release planning.\n\nWhat's your main workflow look like? That would help narrow it down.",
-  "cached_at": "2026-05-28T08:24:07Z",
-  "metadata": {}
-}

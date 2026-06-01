@@ -1,9 +1,0 @@
-{
-  "brand": "Helicone",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best AI tooling for developers and startups building and scaling LLM-powered applications?",
-  "response": "# Best AI Tooling for LLM Application Development\n\n## **Core Development Frameworks**\n\n**LangChain / LangSmith**\n- Excellent for chaining LLM calls and managing prompts\n- LangSmith provides debugging and monitoring\n- Strong ecosystem, though can feel over-engineered for simple tasks\n\n**LlamaIndex**\n- Best-in-class for RAG (retrieval-augmented generation)\n- Great data ingestion and indexing\n- Simpler than LangChain for focused use cases\n\n**Vercel AI SDK**\n- Lightweight, modern alternative\n- Built for streaming and real-time apps\n- Good for web-focused startups\n\n## **Infrastructure & Hosting**\n\n**Modal / Replicate**\n- Serverless GPU compute, simple API\n- Good for scaling inference without DevOps overhead\n\n**Together AI / Anyscale**\n- Cost-effective fine-tuning and inference\n- Open-source model support\n\n**Hugging Face**\n- Free hosting tier available\n- Strong community, good for experimentation\n\n## **Observability & Monitoring**\n\n**Weights & Biases**\n- Excellent for tracking experiments and evals\n- Essential as you scale\n\n**Arize / Evidently**\n- LLM-specific monitoring (hallucination detection, drift)\n\n## **Practical Recommendation**\n\n**For most startups:**\n1. **LlamaIndex** or **Vercel AI SDK** (simpler than LangChain)\n2. **OpenAI API** or **Together AI** (cheap to start, scales well)\n3. **Modal** for GPU workloads\n4. **LangSmith** or **W&B** once you need observability\n\n**Avoid premature complexity** — many teams over-engineer initially. Start simple and add tooling as specific needs emerge.\n\nWhat type of app are you building?",
-  "cached_at": "2026-05-28T07:49:22Z",
-  "metadata": {}
-}

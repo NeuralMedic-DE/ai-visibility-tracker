@@ -1,9 +1,0 @@
-{
-  "brand": "Reply.io",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Lemlist vs alternatives: what should I switch to?",
-  "response": "# Lemlist vs Alternatives: What to Consider\n\n## Key Decision Factors\n\n**Why you might leave Lemlist:**\n- Pricing (can get expensive at scale)\n- Limiting warm-up features\n- Limited CRM depth\n- Occasional deliverability issues\n\n## Strong Alternatives by Use Case\n\n### **For Cold Email + Sales Ops**\n- **Instantly** – Better warm-up, similar pricing, stronger deliverability\n- **Smartlead** – Cheapest option, solid automation, growing features\n- **Apollo** – Richer data, better for enterprise, higher cost\n\n### **For Email Only (Budget)**\n- **Mailmodo** or **Brevo** – Basic cold email, very cheap\n\n### **For All-in-One (CRM + Email)**\n- **HubSpot** – Better CRM, pricier, overkill if you just need cold email\n- **Pipedrive** – Good middle ground, affordable\n\n### **For Personalization at Scale**\n- **Reply.io** – Strong video/GIF personalization, good sequences\n- **Outreach** – Enterprise-grade, expensive\n\n## Honest Take\n\n**Don't switch if:**\n- Your campaigns are working well (switching costs time)\n- You've got warm-up dialed in\n- You're under $100/month spend\n\n**Do switch if:**\n- Deliverability has tanked consistently\n- You need better CRM functionality\n- Pricing is killing your margins\n- You want stronger AI personalization\n\n**What's your main pain point with Lemlist?** That'll help narrow it down—each alternative has different strengths.",
-  "cached_at": "2026-05-28T07:21:18Z",
-  "metadata": {}
-}

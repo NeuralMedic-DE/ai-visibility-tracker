@@ -1,9 +1,0 @@
-{
-  "brand": "TestBrand",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which AI visibility tracking software should a head of growth use?",
-  "response": "# AI Visibility Tracking for Growth Leaders\n\nThe best choice depends on your specific priorities, but here's how to think about it:\n\n## By Use Case\n\n**Product analytics** (user behavior, funnels, conversion):\n- Amplitude, Mixpanel, or Heap\n- Best if you're optimizing growth loops and user journeys\n\n**Website/marketing attribution**:\n- Google Analytics 4, Segment, or Littledata\n- Best if you need to connect marketing spend to outcomes\n\n**Customer data platform** (unified user profiles):\n- Segment, mParticle, or Rudderstack\n- Best if you need to sync data across tools\n\n**AI-specific metrics** (if testing AI features):\n- Custom dashboards in your primary analytics tool, or specialized tools like Pendo/LaunchDarkly\n- Best for feature adoption and A/B testing\n\n## Practical Recommendation\n\nMost growth heads start with **your product analytics tool + Google Analytics 4**, then layer in a CDP if you're managing complex multi-channel campaigns.\n\n**Questions to clarify first:**\n- What are you trying to track? (user engagement, revenue attribution, feature adoption?)\n- Which tools do you already own?\n- Do you need real-time dashboards or historical analysis?\n\nWhat's your main growth challenge right now? That would help narrow it down.",
-  "cached_at": "2026-06-01T14:59:54Z",
-  "metadata": {}
-}

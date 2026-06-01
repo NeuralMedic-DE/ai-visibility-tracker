@@ -1,9 +1,0 @@
-{
-  "brand": "Planhat",
-  "prompt_id": "IN-04",
-  "llm": "openai",
-  "prompt_text": "Best customer success that works with Salesforce and Stripe",
-  "response": "When looking for a customer success platform that integrates well with both Salesforce and Stripe, you have a few good options. Here are some of the top platforms to consider:\n\n1. **Gainsight**: Known for its robust customer success features, Gainsight offers strong integration capabilities with Salesforce. It can also connect with Stripe to help you track customer payments and financial data alongside customer success metrics.\n\n2. **Totango**: This platform provides a comprehensive suite of customer success tools and integrates with Salesforce. Totango can also be connected with Stripe to help manage customer lifecycle and payment data.\n\n3. **ChurnZero**: ChurnZero is designed to help SaaS companies reduce churn and increase customer success. It integrates with Salesforce and can be connected with Stripe to provide a unified view of customer interactions and payment history.\n\n4. **ClientSuccess**: This platform focuses on customer success management and offers integration with Salesforce. While it may not have a direct integration with Stripe, you can often use middleware solutions like Zapier to connect them.\n\n5. **Zendesk**: While primarily known as a customer support platform, Zendesk offers customer success features and integrates with Salesforce. It can also be connected with Stripe to manage customer payment information.\n\nWhen choosing a platform, consider your specific needs, such as the depth of integration required, ease of use, and the specific customer success features that are most important to your business.",
-  "cached_at": "2026-05-28T08:12:15Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Encharge",
-  "prompt_id": "UC-03",
-  "llm": "openai",
-  "prompt_text": "What tools do SaaS marketing leads and growth engineers building lifecycle flows companies use to trigger emails based on specific user actions in your SaaS product?",
-  "response": "To trigger emails based on specific user actions in a SaaS product, SaaS marketing leads and growth engineers typically use a combination of the following tools:\n\n1. **Customer Relationship Management (CRM) Systems**: Tools like Salesforce or HubSpot can track user interactions and trigger emails based on user behavior.\n\n2. **Marketing Automation Platforms**: Platforms such as Marketo, Pardot, or ActiveCampaign allow for complex automation workflows, including email triggers based on user actions.\n\n3. **Customer Engagement Platforms**: Intercom, Braze, and Iterable are popular for sending targeted messages and emails based on user behavior.\n\n4. **Product Analytics Tools**: Tools like Mixpanel, Amplitude, or Heap can track user actions and integrate with email marketing platforms to trigger emails.\n\n5. **Email Marketing Services**: Services like Mailchimp, SendGrid, or Mailgun can be used in conjunction with other tools to send triggered emails.\n\n6. **Customer Data Platforms (CDPs)**: Segment or mParticle can aggregate user data from multiple sources and trigger emails through integrations with other platforms.\n\n7. **Workflow Automation Tools**: Zapier or Integromat (now Make) can connect different apps and services, allowing for email triggers based on specific conditions or events.\n\nThese tools are often used in combination to create a comprehensive lifecycle email strategy that is responsive to user behavior and tailored to enhance user engagement and retention.",
-  "cached_at": "2026-05-28T07:28:26Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Maxio",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Maxio integrate with Salesforce?",
-  "response": "Yes, Maxio does integrate with Salesforce. This integration allows users to synchronize data between the two platforms, enabling more efficient management of customer information, billing, and financial data. It helps streamline processes such as invoicing, subscription management, and revenue recognition by leveraging the capabilities of both Maxio and Salesforce. If you are considering this integration, it's a good idea to check the specific features and setup instructions provided by Maxio or consult their support for detailed guidance.",
-  "cached_at": "2026-05-28T06:52:53Z",
-  "metadata": {}
-}

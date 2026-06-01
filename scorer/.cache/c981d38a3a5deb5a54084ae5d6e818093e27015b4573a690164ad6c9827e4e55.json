@@ -1,9 +1,0 @@
-{
-  "brand": "Baremetrics",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best SaaS analytics for early-stage SaaS founders and indie developers on Stripe?",
-  "response": "# Best SaaS Analytics for Early-Stage Founders on Stripe\n\n## Top Picks\n\n**Stripe Dashboard (Free)**\n- Surprisingly capable for early stage\n- Real-time revenue, churn, customer breakdown\n- Native Stripe data, zero setup friction\n- Limitation: Basic UI, limited custom reporting\n\n**Chartmogul** (Most popular choice)\n- Purpose-built for SaaS metrics (MRR, ARR, churn, LTV)\n- Automatic Stripe sync\n- Fair pricing for early stage (~$99/month)\n- Best for: Founders who want polish + actionable metrics\n\n**Metabase** (Best value)\n- Open-source or cloud version (~$50/month)\n- Connect directly to your database\n- Highly customizable dashboards\n- Best for: Technical founders who want flexibility\n\n**Plaid + Custom Dashboard**\n- Lightweight + cost-effective\n- Build exactly what you need\n- Best for: Developers comfortable with code\n\n## My Recommendation\n\n**Start with:** Stripe Dashboard + Metabase\n- Free to understand your baseline metrics\n- Metabase later when you need custom reporting\n\n**When to upgrade:** Once you hit $1-2K MRR and need cohort analysis or detailed churn tracking → Chartmogul\n\n## Key Metrics to Track Early\n- MRR/ARR growth\n- Customer acquisition cost\n- Churn rate\n- Customer lifetime value\n\nWhat's your current MRR and main analytics pain point? That'd help narrow it down further.",
-  "cached_at": "2026-05-28T06:57:18Z",
-  "metadata": {}
-}

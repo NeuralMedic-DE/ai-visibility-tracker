@@ -1,9 +1,0 @@
-{
-  "brand": "Reply.io",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with use AI to personalize messages and continuously find new qualified prospects at scale?",
-  "response": "# AI-Powered Sales Prospecting & Personalization Tools\n\nSeveral categories of software excel at this:\n\n## Dedicated Prospecting Platforms\n- **Apollo.io** - AI-powered outreach with built-in email sequencing and lead scoring\n- **Hunter.io** - Email finder + personalization at scale\n- **Outreach** - Enterprise-grade sales engagement with AI\n- **Salesloft** - AI-driven cadences and prospect insights\n\n## AI Sales Intelligence Platforms\n- **ZoomInfo** - Lead database with AI-powered targeting\n- **6sense** - Account-based marketing with predictive analytics\n- **Clearbit** - Real-time company/contact data enrichment\n- **Dripify/Reply.io** - Multi-channel outreach with AI personalization\n\n## General CRM + AI Tools\n- **HubSpot** - Built-in AI prospecting and personalization\n- **Pipedrive** - AI-powered lead recommendations\n- **Salesforce** - Einstein AI for lead scoring\n\n## Key Features to Look For\n✓ AI-powered lead qualification & scoring  \n✓ Automatic personalization (dynamic variables, AI copywriting)  \n✓ Multi-channel delivery (email, LinkedIn, SMS)  \n✓ Continuous prospect database updates  \n✓ Built-in warm outreach sequencing  \n\n**Best choice depends on:** budget, team size, industry, and whether you prioritize email vs. LinkedIn vs. multi-channel outreach.\n\nWhat's your primary outreach channel?",
-  "cached_at": "2026-05-28T07:21:28Z",
-  "metadata": {}
-}

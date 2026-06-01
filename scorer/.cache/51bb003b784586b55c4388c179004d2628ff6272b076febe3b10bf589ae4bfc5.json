@@ -1,9 +1,0 @@
-{
-  "brand": "Intercom",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is Intercom better than Drift for automate support workflows and deflect tickets with AI-powered chatbots?",
-  "response": "# Intercom vs Drift for AI Support Automation\n\nBoth are strong, but they serve slightly different strengths:\n\n## Intercom's Advantages\n- **More mature AI**: Longer track record with AI-powered resolution\n- **Better ticket deflection**: Stronger at resolving issues without handoff\n- **Broader platform**: Includes marketing/sales messaging alongside support\n- **Workflow flexibility**: Robust automation builder for complex scenarios\n\n## Drift's Advantages\n- **Faster implementation**: Quicker to set up conversational flows\n- **Sales-focused**: Better if you need sales + support integration\n- **Real-time engagement**: Stronger at live chat + chatbot hybrid\n- **Simpler UI**: Easier learning curve for basic automation\n\n## For Your Specific Need (Automation + Ticket Deflection)\n**Intercom edges ahead** because:\n- Its AI is specifically tuned for resolving support issues autonomously\n- Better at understanding intent and routing/resolving complex tickets\n- More sophisticated handoff logic to humans when needed\n\n**However**, consider:\n- Your team's technical comfort (Drift is more straightforward)\n- Whether you need sales messaging too (Intercom wins)\n- Budget constraints (pricing differs significantly)\n- Integration needs with your existing stack\n\n**Best approach**: Request demos focused specifically on ticket deflection metrics. Ask each vendor for case studies matching your industry—real-world deflection rates vary significantly.\n\nWhat's your main use case—customer support, sales, or both?",
-  "cached_at": "2026-05-28T08:01:39Z",
-  "metadata": {}
-}

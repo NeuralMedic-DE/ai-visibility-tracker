@@ -1,9 +1,0 @@
-{
-  "brand": "Mixpanel",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which product analytics software should a VP Product or head of growth use?",
-  "response": "# Product Analytics Tools for VP Product/Head of Growth\n\nThe best choice depends on your priorities, but here are the top contenders:\n\n## Best Overall Options\n\n**Amplitude or Mixpanel**\n- Strong cohort analysis and funnel visualization\n- Good for understanding user behavior patterns\n- Amplitude edges slightly for retention/churn analysis\n\n**Heap**\n- Requires minimal instrumentation (auto-captures events)\n- Faster time-to-insight if engineering is a bottleneck\n- Good if you want to explore retroactively\n\n## By Use Case\n\n**If you prioritize:**\n- **User retention & churn** → Amplitude\n- **Product engagement & features** → Mixpanel\n- **Quick setup, less engineering lift** → Heap\n- **Deep SQL querying** → Mode or Looker\n- **Mobile app focus** → AppsFlyer or Branch\n- **Early stage/budget-conscious** → Plausible or Fathom (smaller scale) or even Google Analytics 4 (free)\n\n## Key Questions to Ask\n\n1. How much engineering resources do you have for instrumentation?\n2. Are you more B2B or B2C? (affects what metrics matter)\n3. Do you need predictive analytics or just descriptive?\n4. What's your current data stack? (should integrate smoothly)\n5. How technical is your product leadership team?\n\n**Most common VP Product choice:** Amplitude—balances ease of use with analytical depth and strong retention metrics.\n\nWhat's your primary focus area? That would help narrow it further.",
-  "cached_at": "2026-05-27T19:13:25Z",
-  "metadata": {}
-}

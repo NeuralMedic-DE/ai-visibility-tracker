@@ -1,9 +1,0 @@
-{
-  "brand": "Langfuse",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with run automated evaluations on LLM outputs to measure and improve quality over time at scale?",
-  "response": "# LLM Evaluation Software & Platforms\n\nHere are the main categories of tools for automated LLM evaluation at scale:\n\n## Dedicated LLM Evaluation Platforms\n- **Langsmith** - Evaluations, tracing, and monitoring (by Langchain)\n- **Weights & Biases** - Experiment tracking with LLM evals\n- **Ragas** - RAG-specific evaluation framework\n- **DeepEval** - Open-source framework for LLM testing\n- **Arize** - ML observability with LLM eval capabilities\n- **Braintrust** - Evaluation and monitoring for production LLMs\n\n## Frameworks & Libraries\n- **LLM-as-a-Judge** approaches (using Claude/GPT-4 to evaluate outputs)\n- **Prompty** - Microsoft's evaluation framework\n- **OpenAI Evals** - Open-source evaluation harness\n- **EleutherAI's LM Evaluation Harness** - Benchmark-focused\n\n## Key Evaluation Metrics They Support\n- **Accuracy/Correctness** (exact match, semantic similarity)\n- **Relevance** (RAG/retrieval quality)\n- **Toxicity/Safety**\n- **Hallucination detection**\n- **Latency/Cost tracking**\n- **Custom metrics** via LLM judges or rules\n\n## Typical Workflow\n1. Define evaluation criteria\n2. Run queries against your LLM\n3. Score outputs (automatically or via LLM judges)\n4. Track metrics over versions/iterations\n5. Debug failures and iterate\n\n**For most teams**, Langsmith or Weights & Biases provide the most integrated experience. **For RAG systems specifically**, Ragas is purpose-built.\n\nWhat's your specific use case? That would help narrow recommendations.",
-  "cached_at": "2026-05-28T07:56:34Z",
-  "metadata": {}
-}

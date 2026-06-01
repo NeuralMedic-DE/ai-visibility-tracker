@@ -1,9 +1,0 @@
-{
-  "brand": "Instantly",
-  "prompt_id": "IN-02",
-  "llm": "openai",
-  "prompt_text": "Instantly Clay integration: how does it work?",
-  "response": "Instantly's integration with Clay allows users to seamlessly connect their email outreach efforts with Clay's data enrichment capabilities. Here's a general overview of how this integration typically works:\n\n1. **Data Enrichment**: Clay provides data enrichment services, which means it can pull in additional information about your leads or contacts from various sources. This can include details like company size, industry, social media profiles, and more.\n\n2. **Syncing Contacts**: When you integrate Instantly with Clay, you can automatically sync your contact lists from Instantly to Clay. This allows you to enrich your contact data without manual data entry.\n\n3. **Enhanced Targeting**: With enriched data, you can create more targeted and personalized email campaigns in Instantly. This can improve your outreach effectiveness by allowing you to tailor your messaging based on the enriched data.\n\n4. **Automation**: The integration can automate the process of updating and maintaining your contact lists. As new data becomes available or as your contact list changes, the integration ensures that both platforms are kept up to date.\n\n5. **Improved Analytics**: By combining Instantly's email performance metrics with Clay's enriched data, you can gain deeper insights into your outreach efforts. This can help in refining your strategies and improving engagement rates.\n\nOverall, the integration is designed to streamline your workflow, enhance the quality of your contact data, and improve the effectiveness of your email marketing campaigns. For specific setup instructions or features, it's best to refer to the documentation provided by Instantly and Clay, as integration details can vary based on updates and specific use cases.",
-  "cached_at": "2026-05-28T07:19:21Z",
-  "metadata": {}
-}

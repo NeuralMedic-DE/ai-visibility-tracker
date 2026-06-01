@@ -1,9 +1,0 @@
-{
-  "brand": "Mailmodo",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to Mailchimp",
-  "response": "# Cheaper Mailchimp Alternatives\n\n## **Free/Low-Cost Tiers**\n\n| Service | Free Plan | Best For |\n|---------|-----------|----------|\n| **Brevo (formerly Sendinblue)** | 300 emails/day unlimited contacts | Growing businesses |\n| **Mailerite** | Up to 1,000 subscribers | Simplicity & automation |\n| **ConvertKit** | Free tier available | Content creators |\n| **Moosend** | Up to 500 contacts free | Automation-focused |\n| **ActiveCampaign** | Free limited version | CRM + email combo |\n\n## **Budget-Friendly Paid Options**\n\n- **HubSpot** - $45/month (more features than Mailchimp's paid tier)\n- **Klaviyo** - $20/month (e-commerce focused)\n- **Constant Contact** - $20/month (user-friendly)\n- **GetResponse** - $15/month (good automation)\n\n## **Ultra-Cheap**\n\n- **Substack** - Free (best for newsletters)\n- **Beehiiv** - Free (newsletter-specific)\n- **EmailOctopus** - Uses your own SendGrid/AWS account (pay-as-you-go)\n\n## **Why Switch?**\n- Mailchimp raised prices significantly\n- Better automation in lower tiers elsewhere\n- More transparent pricing\n- Better support for specific use cases (ecommerce, newsletters, etc.)\n\n**What's your main use case?** (newsletters, ecommerce, automation?) I can narrow it down further.",
-  "cached_at": "2026-05-28T07:35:12Z",
-  "metadata": {}
-}

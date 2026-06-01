@@ -1,9 +1,0 @@
-{
-  "brand": "Attio",
-  "prompt_id": "CD-04",
-  "llm": "anthropic",
-  "prompt_text": "Best CRM platforms for manage customer relationships",
-  "response": "# Best CRM Platforms for Managing Customer Relationships\n\n## **Top Enterprise Solutions**\n\n### **Salesforce**\n- Industry-leading platform with extensive customization\n- Strong reporting and analytics\n- High cost; steeper learning curve\n- Best for: Large enterprises\n\n### **HubSpot CRM**\n- User-friendly, intuitive interface\n- Free tier available for basic features\n- Excellent integration ecosystem\n- Best for: Growing businesses, marketing-focused teams\n\n### **Microsoft Dynamics 365**\n- Deep integration with Office 365\n- Strong AI capabilities\n- Good for existing Microsoft users\n- Best for: Enterprise organizations\n\n## **Mid-Market Options**\n\n### **Pipedrive**\n- Visual sales pipeline management\n- Affordable pricing\n- Mobile-friendly\n- Best for: Sales teams\n\n### **Zoho CRM**\n- Cost-effective with good features\n- Customizable workflows\n- Strong automation\n- Best for: Budget-conscious businesses\n\n### **Freshsales**\n- Modern interface, easy to use\n- AI-powered lead scoring\n- Integrated phone/email\n- Best for: Small to mid-size companies\n\n## **Specialized Solutions**\n\n| Platform | Best For |\n|----------|----------|\n| **Monday.com** | Project management-focused teams |\n| **ActiveCampaign** | Marketing automation + CRM |\n| **Copper** | Google Workspace users |\n| **Nutshell** | Sales teams needing simplicity |\n\n## **Selection Criteria**\n\n✓ Business size & budget  \n✓ Industry-specific needs  \n✓ Integration requirements  \n✓ Team size & technical skill  \n✓ Scalability needs  \n\n**Pro tip:** Most offer free trials—test 2-3 options before committing.\n\nWhat's your business size? That would help narrow recommendations.",
-  "cached_at": "2026-05-27T17:53:35Z",
-  "metadata": {}
-}

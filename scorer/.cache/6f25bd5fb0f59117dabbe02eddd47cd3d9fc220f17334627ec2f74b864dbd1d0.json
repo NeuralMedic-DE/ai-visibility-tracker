@@ -1,9 +1,0 @@
-{
-  "brand": "FullStory",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best product analytics for product and UX teams at mid-market SaaS companies?",
-  "response": "# Best Product Analytics for Mid-Market SaaS\n\nThe \"best\" depends on your specific needs, but here's how I'd break it down:\n\n## Top Contenders\n\n**Amplitude or Mixpanel**\n- Most popular for product teams\n- Strong event tracking and cohort analysis\n- Good learning resources\n- Amplitude edges ahead for retention/lifecycle analysis\n\n**Heap**\n- Easier implementation (auto-captures interactions)\n- Great for teams without strong analytics ops\n- Less setup burden upfront\n\n**Posthog**\n- Open-source option (self-hostable)\n- Good cost efficiency at scale\n- Growing feature parity with enterprise tools\n- Best if you have engineering resources\n\n**Segment/mParticle + downstream tool**\n- If you need multi-tool flexibility\n- Higher complexity but more powerful\n\n## How to Choose\n\n**Pick Amplitude/Mixpanel if:**\n- You want battle-tested best practices\n- Your team needs strong cohort + retention analysis\n- You're okay with more upfront setup\n\n**Pick Heap if:**\n- You want faster time-to-insight\n- Limited analytics ops resources\n- You don't want to instrument every event\n\n**Pick Posthog if:**\n- Cost is a constraint\n- You have engineering buy-in\n- You want full data control\n\n## Honest Reality\nMost mid-market teams succeed with **Amplitude + product sense** over a fancier tool. The tool matters less than having clear questions and disciplined analysis.\n\n**What's your current bottleneck—implementation, analysis, or something else?** That would help narrow it down.",
-  "cached_at": "2026-05-27T20:45:15Z",
-  "metadata": {}
-}

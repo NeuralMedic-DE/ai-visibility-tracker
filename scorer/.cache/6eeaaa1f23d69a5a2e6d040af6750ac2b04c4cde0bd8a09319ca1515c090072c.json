@@ -1,9 +1,0 @@
-{
-  "brand": "UserVoice",
-  "prompt_id": "CD-01",
-  "llm": "perplexity",
-  "prompt_text": "What is the best product feedback for product teams capturing and prioritizing customer feature requests?",
-  "response": "The **best product feedback approach** for product teams is a system that **captures feature requests from multiple channels, consolidates them in one place, groups them by theme, and prioritizes them based on user impact, business alignment, and effort**.[1][2]\n\nWhat makes this approach effective is that it treats feature requests as **feedback, not commitments**, and focuses on the **underlying problem** rather than the exact feature users ask for.[1] Good feedback systems also help teams quantify demand using signals like **frequency, user segment, account value, and timeliness** so they do not overreact to the loudest requests.[2]\n\nFor product teams specifically, the strongest workflow is:\n\n- **Collect** requests from support tickets, interviews, sales, social media, and in-app feedback.[1][2]\n- **Centralize** them in one repository so they can be analyzed together.[2]\n- **Categorize** them by theme or product area to identify patterns.[1]\n- **Investigate the underlying need** behind each request, not just the requested solution.[1]\n- **Prioritize** by expected user and business impact, alignment with product strategy, and implementation effort.[1][2]\n- **Close the loop** by acknowledging requests, explaining decisions, and updating users when work is planned or shipped.[2]\n\nIf you want the short answer: the best product feedback process for feature requests is **centralized, multi-channel, theme-based, and strategy-driven prioritization**.[1][2]",
-  "cached_at": "2026-05-28T08:23:54Z",
-  "metadata": {}
-}

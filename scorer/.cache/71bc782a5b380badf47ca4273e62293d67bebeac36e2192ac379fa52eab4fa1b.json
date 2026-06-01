@@ -1,9 +1,0 @@
-{
-  "brand": "Pilot",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best finance for venture-backed and bootstrapped startups needing clean financials?",
-  "response": "# Best Finance Solutions for Startups\n\n## For Venture-Backed Startups\n\n**Dedicated accounting firms** (e.g., Kruze Consulting, Carta's accounting services)\n- Built for VC workflows and reporting requirements\n- Understand compliance, cap tables, and investor expectations\n- Higher cost but worth it for fundraising readiness\n\n**Software + Outsourced hybrid** (Quickbooks/Guidepoint + bookkeeper)\n- More scalable than full-service\n- Still maintains VC-ready standards\n\n## For Bootstrapped Startups\n\n**DIY + Accounting Software**\n- **Wave** (free, reasonable features)\n- **Quickbooks Online** (small business tier ~$30-50/month)\n- Manageable if founder handles it initially\n\n**Outsourced bookkeeping** (when cash-flowing)\n- Belay, Bookminders, or local bookkeepers\n- Often $300-800/month—better ROI than founder time\n- Scales better than DIY as you grow\n\n## Universal Best Practices\n\n1. **Separate business and personal finances immediately** (even if bootstrapped)\n2. **Real-time tracking** beats year-end scrambles\n3. **Get ahead of tax requirements** early—much cheaper to prevent than fix\n4. **Choose software that integrates** with your banking and tools\n\n**Key question**: What's your runway and complexity level? That determines whether you need outside help *now* or can DIY another 6 months.",
-  "cached_at": "2026-05-28T07:02:19Z",
-  "metadata": {}
-}

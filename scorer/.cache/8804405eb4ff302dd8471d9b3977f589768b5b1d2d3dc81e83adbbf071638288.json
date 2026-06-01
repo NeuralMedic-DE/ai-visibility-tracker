@@ -1,9 +1,0 @@
-{
-  "brand": "Anecdotes",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Anecdotes integrate with GitHub?",
-  "response": "# Anecdotes and GitHub Integration\n\nI don't have specific information about a product called \"Anecdotes\" or its GitHub integration capabilities in my current knowledge base.\n\nTo find this information, I'd recommend:\n\n1. **Check the official website** - Look for documentation or integration pages\n2. **Visit the GitHub repository** - If Anecdotes is open source, search GitHub directly\n3. **Review documentation** - Most tools list integrations in their docs\n4. **Contact support** - Reach out to the Anecdotes team directly\n\nCould you provide more context about which \"Anecdotes\" product you're asking about? (For example, is it a note-taking app, analytics tool, documentation platform, etc.?) That would help me give you a more accurate answer.",
-  "cached_at": "2026-05-28T08:36:27Z",
-  "metadata": {}
-}

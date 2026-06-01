@@ -1,9 +1,0 @@
-{
-  "brand": "Semgrep",
-  "prompt_id": "AL-02",
-  "llm": "openai",
-  "prompt_text": "Cheaper alternatives to SonarQube",
-  "response": "If you're looking for cheaper alternatives to SonarQube for static code analysis, there are several options available that might fit your needs:\n\n1. **CodeClimate**: Offers a free tier for open-source projects and competitive pricing for private repositories. It provides code quality and maintainability insights.\n\n2. **ESLint**: A popular open-source tool for identifying and fixing problems in JavaScript code. It's free and highly customizable.\n\n3. **PMD**: An open-source static code analyzer for Java, JavaScript, Salesforce.com Apex, and other languages. It's free and widely used in the Java community.\n\n4. **Checkstyle**: Another free and open-source tool, primarily for Java, that helps developers adhere to coding standards.\n\n5. **FindBugs/SpotBugs**: An open-source tool for Java that analyzes bytecode to identify potential bugs. SpotBugs is the successor to FindBugs.\n\n6. **Brakeman**: A free, open-source static analysis tool specifically for Ruby on Rails applications.\n\n7. **Bandit**: A tool designed to find common security issues in Python code, available for free.\n\n8. **Flake8**: A Python tool that checks the style guide enforcement and linting, combining PyFlakes, pycodestyle, and Ned Batchelder’s McCabe script.\n\n9. **Codacy**: Offers a free plan for open-source projects and provides automated code reviews for various programming languages.\n\n10. **Hound CI**: Provides automated code review with comments on style violations in GitHub pull requests. It has a free plan for open-source projects.\n\nThese tools vary in terms of language support, features, and integration capabilities, so the best choice will depend on your specific requirements and the languages you are working with.",
-  "cached_at": "2026-05-28T08:48:44Z",
-  "metadata": {}
-}

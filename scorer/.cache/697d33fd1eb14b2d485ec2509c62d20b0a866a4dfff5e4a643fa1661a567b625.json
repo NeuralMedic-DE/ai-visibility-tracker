@@ -1,9 +1,0 @@
-{
-  "brand": "Hightouch",
-  "prompt_id": "IN-05",
-  "llm": "openai",
-  "prompt_text": "reverse ETL tools with native Salesforce integration",
-  "response": "Reverse ETL tools are designed to move data from a data warehouse back into operational systems, such as Salesforce, to make it actionable for business teams. Here are some reverse ETL tools that offer native Salesforce integration:\n\n1. **Hightouch**: Hightouch provides a user-friendly interface to sync data from your warehouse to Salesforce and other SaaS tools. It supports native integration with Salesforce, allowing you to map fields easily and manage data flows.\n\n2. **Census**: Census offers reverse ETL capabilities with a strong focus on Salesforce integration. It allows you to sync customer data from your warehouse to Salesforce, ensuring that your sales and marketing teams have the most up-to-date information.\n\n3. **Grouparoo**: Grouparoo is an open-source reverse ETL tool that can connect to Salesforce. It allows you to define data models and sync data from your warehouse to Salesforce without writing code.\n\n4. **Hevo Data**: Hevo Data provides a no-code platform for data integration, including reverse ETL capabilities. It supports Salesforce integration, enabling you to move data seamlessly from your warehouse to Salesforce.\n\n5. **RudderStack**: RudderStack offers reverse ETL features with support for Salesforce. It allows you to sync customer data from your warehouse to Salesforce to improve customer engagement and sales processes.\n\nThese tools typically provide features like data transformation, scheduling, and monitoring to ensure that data is accurately and efficiently moved from your data warehouse to Salesforce.",
-  "cached_at": "2026-05-28T09:05:41Z",
-  "metadata": {}
-}

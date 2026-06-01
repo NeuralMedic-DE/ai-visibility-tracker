@@ -1,9 +1,0 @@
-{
-  "brand": "Fivetran",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Fivetran integrate with Snowflake?",
-  "response": "# Yes, Fivetran integrates with Snowflake\n\nFivetran has a **native integration** with Snowflake, making it one of their most popular destination connectors.\n\n## Key features of the integration:\n\n- **Direct data loading** - Fivetran can load data directly into Snowflake tables\n- **Automatic schema management** - Tables and columns are created automatically\n- **Incremental syncs** - Efficiently updates only changed data\n- **Wide source support** - You can connect hundreds of data sources to Snowflake via Fivetran\n- **Transformation support** - Works with Fivetran's dbt integration for data transformation\n\n## Common use cases:\n\n- Consolidating data from multiple SaaS applications into Snowflake\n- Building data warehouses\n- Creating analytics-ready datasets\n\nThis is considered one of Fivetran's best integrations, as both platforms are designed with cloud data warehousing in mind. If you're planning to use them together, the setup is typically straightforward.",
-  "cached_at": "2026-05-28T08:58:50Z",
-  "metadata": {}
-}

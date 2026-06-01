@@ -1,9 +1,0 @@
-{
-  "brand": "Gainsight",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with track product adoption and identify at-risk accounts before they churn at scale?",
-  "response": "To track product adoption and identify at-risk accounts before they churn at scale, you can use Customer Success Management (CSM) software. Some popular options include:\n\n1. **Gainsight**: Offers comprehensive tools for tracking customer health, product adoption, and identifying at-risk accounts with predictive analytics.\n\n2. **Totango**: Provides customer success solutions with features for monitoring customer engagement and health scores to prevent churn.\n\n3. **ChurnZero**: Focuses on real-time customer health scoring and engagement tracking to help identify and manage at-risk accounts.\n\n4. **HubSpot Service Hub**: Includes tools for customer feedback, support, and tracking engagement metrics to enhance customer retention.\n\n5. **Salesforce Customer 360**: Offers a unified view of customer interactions, helping to track product usage and identify potential churn risks.\n\nThese platforms typically provide analytics, customer journey mapping, and automated alerts to help customer success teams proactively manage accounts and improve retention.",
-  "cached_at": "2026-05-28T08:04:23Z",
-  "metadata": {}
-}

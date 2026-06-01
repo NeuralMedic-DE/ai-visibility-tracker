@@ -1,9 +1,0 @@
-{
-  "brand": "Stonly",
-  "prompt_id": "IN-02",
-  "llm": "anthropic",
-  "prompt_text": "Stonly Zendesk integration: how does it work?",
-  "response": "# Stonly Zendesk Integration Overview\n\n## How It Works\n\nThe Stonly-Zendesk integration connects interactive guides and documentation directly into your Zendesk support environment, enabling agents to:\n\n### **Core Functionality**\n\n1. **Embed Guides in Tickets**\n   - Display Stonly guides within Zendesk ticket sidebars\n   - Agents quickly share solutions with customers without leaving Zendesk\n   - Reduces context-switching and speeds up resolution\n\n2. **Agent Assistance**\n   - Search and recommend relevant guides to agents\n   - Suggest appropriate Stonly content based on ticket topics\n   - Help agents find answers faster\n\n3. **Customer Self-Service**\n   - Embed guides in customer-facing help center\n   - Reduce support tickets by enabling customers to self-serve\n   - Decrease support volume overall\n\n## Key Features\n\n| Feature | Benefit |\n|---------|---------|\n| **Smart Search** | Finds relevant guides based on keywords |\n| **One-Click Sharing** | Agents share solutions directly in tickets |\n| **Embedded Experiences** | Interactive guides within Zendesk interface |\n| **Analytics** | Track guide usage and effectiveness |\n\n## Setup Requirements\n\n- Active Stonly account\n- Zendesk Support (Professional or higher)\n- Integration app installed from Zendesk marketplace\n- Basic configuration of guide mapping\n\n## Main Benefits\n\n✅ **Faster resolution times**  \n✅ **Improved first-contact resolution**  \n✅ **Better agent knowledge access**  \n✅ **Reduced support costs**  \n✅ **Enhanced customer experience**\n\nWould you like details on setup, specific use cases, or troubleshooting?",
-  "cached_at": "2026-05-28T08:22:10Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "June.so",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best product analytics that works with Segment and HubSpot",
-  "response": "# Best Product Analytics Tools for Segment + HubSpot\n\n## Top Recommendations\n\n### **1. Amplitude**\n- **Why it's best for this stack:** Deep product analytics with strong Segment integration\n- **HubSpot connection:** Native integration for CRM data correlation\n- **Strengths:** Cohort analysis, user journeys, behavioral segmentation\n- **Best for:** Growth-focused teams needing advanced funnel analysis\n\n### **2. Mixpanel**\n- **Direct Segment integration:** Excellent native support\n- **HubSpot sync:** Good bidirectional data flow\n- **Strengths:** Real-time product analytics, retention curves, A/B testing\n- **Best for:** User engagement and retention focus\n\n### **3. Heap**\n- **Segment integration:** Strong support\n- **HubSpot mapping:** Clean CRM data integration\n- **Strengths:** Autocapture (no instrumentation needed), session replay\n- **Best for:** Teams wanting fast implementation without dev work\n\n### **4. Pendo**\n- **Segment support:** Solid integration\n- **HubSpot connection:** Works via Segment\n- **Strengths:** In-app analytics + guides, feedback collection\n- **Best for:** SaaS with embedded feature adoption needs\n\n## Quick Comparison\n\n| Tool | Setup Speed | Depth | HubSpot Integration | Cost |\n|------|-------------|-------|-------------------|------|\n| Amplitude | Medium | Deepest | ⭐⭐⭐⭐ | $$$ |\n| Mixpanel | Medium | Very Deep | ⭐⭐⭐⭐ | $$ |\n| Heap | Fast | Deep | ⭐⭐⭐ | $$ |\n| Pendo | Medium | Deep | ⭐⭐⭐ | $$$ |\n\n**My pick:** **Amplitude** if you need the most sophisticated analysis; **Mixpanel** for best value.\n\nWhat's your primary use case?",
-  "cached_at": "2026-05-27T19:58:53Z",
-  "metadata": {}
-}

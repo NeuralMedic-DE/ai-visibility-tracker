@@ -1,9 +1,0 @@
-{
-  "brand": "Teamtailor",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is Teamtailor better than Workable for automate candidate communication throughout the entire hiring process?",
-  "response": "# Teamtailor vs Workable for Candidate Communication\n\nBoth have strengths here, but they emphasize different things:\n\n## Teamtailor's Advantages\n- **Career site focus** - Built for creating engaging employer brands that attract candidates\n- **Candidate experience** - Emphasizes modern, mobile-friendly application experiences\n- **Email templates** - Solid automation for common communication touchpoints\n- **Simpler workflows** - Easier to set up basic automation sequences\n\n## Workable's Advantages\n- **More sophisticated automation** - Better conditional workflows and triggers\n- **Integration depth** - More third-party integrations for expanding automation capabilities\n- **Scalability** - Better handles complex, multi-stage communication for large volumes\n- **Analytics** - Superior tracking of communication effectiveness\n\n## Key Consideration\n**\"Better\" depends on your needs:**\n- If you want modern, candidate-friendly communication with a polished experience → **Teamtailor**\n- If you need robust, complex automation across a large hiring operation → **Workable**\n\n## Honest Take\nNeither is dramatically superior for communication automation specifically. Workable is slightly more powerful if you need advanced workflows, but Teamtailor's communication feels more modern and candidate-centric.\n\n**What matters most:** your company size, hiring volume, and whether you prioritize ease-of-use or advanced customization.\n\nWhat's your main use case?",
-  "cached_at": "2026-05-28T06:41:49Z",
-  "metadata": {}
-}

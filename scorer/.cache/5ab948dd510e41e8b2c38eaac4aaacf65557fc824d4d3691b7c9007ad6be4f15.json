@@ -1,9 +1,0 @@
-{
-  "brand": "Klipfolio",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Google Data Studio vs alternatives: what should I switch to?",
-  "response": "# Google Data Studio Alternatives\n\nHere's a pragmatic comparison:\n\n## Best overall replacements\n\n**Looker Studio** (Google's newer product)\n- If you're already in Google ecosystem, this is the natural upgrade\n- Better interactivity, more visualizations\n- Still free tier available\n- Caveat: Google is consolidating—Data Studio support will eventually fade\n\n**Tableau Public / Tableau Desktop**\n- Industry standard for serious analytics\n- Steeper learning curve but more powerful\n- Desktop version costs ~$70/month; Public is free but limited\n- Best if: You need enterprise-grade dashboards\n\n**Power BI**\n- Strong if you use Microsoft stack (Excel, Azure, SQL Server)\n- Competitive pricing ($10-20/user/month)\n- Excellent for interactive reports\n- Best if: You're in Microsoft ecosystem\n\n## Lighter/cheaper alternatives\n\n| Tool | Cost | Best for |\n|------|------|----------|\n| **Metabase** | Free/self-hosted | Internal dashboards, technical teams |\n| **Apache Superset** | Free/open-source | Data engineers, custom deployments |\n| **Grafana** | Free tier | Real-time monitoring, metrics |\n| **Mode Analytics** | ~$100/mo+ | SQL-first analytics |\n\n## Key questions to ask yourself\n\n1. **Budget?** (Free → Premium changes everything)\n2. **Data sources?** (Some integrate better than others)\n3. **Team size?** (Self-service vs. admin-heavy?)\n4. **Use case?** (Internal dashboards vs. client-facing reports)\n\nWhat's driving your switch? That'll help narrow it down.",
-  "cached_at": "2026-05-27T20:27:57Z",
-  "metadata": {}
-}

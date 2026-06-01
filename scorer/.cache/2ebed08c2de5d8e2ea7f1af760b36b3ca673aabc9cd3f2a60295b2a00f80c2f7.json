@@ -1,9 +1,0 @@
-{
-  "brand": "n8n",
-  "prompt_id": "CD-03",
-  "llm": "perplexity",
-  "prompt_text": "Which automation software should a Technical Ops Lead or Developer wanting self-hosted automation use?",
-  "response": "For a **Technical Ops Lead** or **Developer** who wants **self-hosted automation**, the strongest general-purpose pick from these results is **n8n**: it is explicitly recommended for no-code workflow automation in a developer-focused self-hosting guide, and it is a common starting point for self-hosted automation use cases.[3]\n\nIf you want alternatives based on the kind of automation you need:\n\n- **StackStorm** if you want *ops-focused, event-driven automation* for auto-remediation, security responses, troubleshooting, and deployments; it is described as “IFTTT for Ops” and includes rules, workflows, integrations, and ChatOps.[2]\n- **Kestra** if you want *code-first workflow orchestration* for scheduled, event-driven workflows and data pipelines such as ETL/ELT.[2]\n- **Activepieces** if you want *open-source no-code workflow automation*; it is presented as a top open-source workflow automation tool in 2026.[7]\n- **FlowForge** if your automation is centered on *Node-RED* and you want to deploy and manage those applications in a scalable, secure way for teams.[2]\n\nA practical way to choose:\n\n- Choose **n8n** for the broadest “glue everything together” automation use case.[3]\n- Choose **StackStorm** for production ops and incident-response automation.[2]\n- Choose **Kestra** for engineering-led orchestration and pipeline workflows.[2]\n- Choose **Activepieces** if you want a newer no-code alternative.[7]\n\nIf you want, I can also rank these by **best for DevOps**, **best for no-code**, or **best for code-first workflows**.",
-  "cached_at": "2026-05-28T08:55:57Z",
-  "metadata": {}
-}

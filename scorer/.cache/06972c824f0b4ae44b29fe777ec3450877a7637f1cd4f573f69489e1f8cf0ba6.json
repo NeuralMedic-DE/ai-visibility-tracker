@@ -1,9 +1,0 @@
-{
-  "brand": "Drip",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best marketing automation for e-commerce brands and direct-to-consumer marketers?",
-  "response": "# Best Marketing Automation for E-commerce & D2C\n\nThere's no single \"best\"—it depends on your scale and needs. Here's a practical breakdown:\n\n## **Top Tier (Most Popular for D2C)**\n\n**Klaviyo**\n- Built for e-commerce (Shopify integration is seamless)\n- Exceptional email & SMS segmentation\n- Strong product recommendation features\n- Best-in-class for abandoned cart workflows\n- *Downside: Can get expensive at scale*\n\n**Omnisend**\n- Great all-rounder for smaller/mid-size brands\n- Multi-channel (email, SMS, push, in-app)\n- Solid automation templates\n- More affordable than Klaviyo\n\n## **Strong Alternatives**\n\n**HubSpot**\n- Best if you want a full CRM ecosystem\n- Free tier available\n- Better for those doing content marketing too\n- Slightly steeper learning curve\n\n**Braze / mParticle**\n- For brands prioritizing customer data & personalization\n- More sophisticated but complex\n- Better at cross-channel orchestration\n\n## **Budget-Friendly**\n\n**Drip** or **ConvertKit** (if content-focused)\n- Simpler, lower cost\n- Adequate automation\n\n## **Key Questions to Ask First**\n\n- What's your monthly email volume?\n- Do you need SMS/push notifications?\n- How sophisticated should segmentation be?\n- What's your budget?\n\n**My honest take:** Most growing D2C brands start with Klaviyo or Omnisend, then graduate to Braze or HubSpot as they scale. What's your current setup?",
-  "cached_at": "2026-05-28T07:32:38Z",
-  "metadata": {}
-}

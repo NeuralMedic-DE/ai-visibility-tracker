@@ -1,9 +1,0 @@
-{
-  "brand": "Secureframe",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Secureframe integrate with GitHub?",
-  "response": "Yes. **Secureframe does integrate with GitHub** as one of its monitored developer tools.\n\n- Secureframe’s integrations page states it connects with “hundreds of the tools you're already using” for automated evidence collection and continuous monitoring, which includes developer platforms like **GitHub**.[6]  \n- A G2 user describes using Secureframe by “plug[ging] in your tools (AWS, GCP, **GitHub**, HR, devices etc),” after which Secureframe continuously monitors these inputs and auto-gathers evidence for compliance.[8]  \n- Secureframe also has a listing on the **GitHub Marketplace**, indicating an official integration point between Secureframe and GitHub.[5]\n\nIn practice, this integration is used to pull repository and activity data from GitHub into Secureframe to support SOC 2, ISO 27001, and similar compliance workflows.",
-  "cached_at": "2026-05-28T08:35:20Z",
-  "metadata": {}
-}

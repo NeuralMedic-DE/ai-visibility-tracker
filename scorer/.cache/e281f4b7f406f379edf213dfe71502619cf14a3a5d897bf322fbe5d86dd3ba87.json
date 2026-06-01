@@ -1,9 +1,0 @@
-{
-  "brand": "PostHog",
-  "prompt_id": "IN-02",
-  "llm": "openai",
-  "prompt_text": "PostHog Slack integration: how does it work?",
-  "response": "PostHog's Slack integration allows you to receive notifications and updates directly in your Slack workspace, making it easier to stay informed about important events and metrics without leaving Slack. Here's how it typically works:\n\n1. **Installation**: You need to set up the Slack integration within your PostHog account. This usually involves navigating to the \"Integrations\" section in PostHog and selecting Slack from the list of available integrations.\n\n2. **Authorization**: You'll be prompted to authorize PostHog to access your Slack workspace. This involves granting the necessary permissions so that PostHog can send messages to your Slack channels.\n\n3. **Configuration**: Once authorized, you can configure the integration to specify which events or alerts you want to receive in Slack. This might include notifications for specific user actions, feature flags, or anomalies in your data.\n\n4. **Channel Selection**: You can choose which Slack channels should receive the notifications. This allows you to direct different types of alerts to different teams or channels based on relevance.\n\n5. **Customization**: Some integrations allow for further customization, such as setting thresholds for alerts or formatting the messages in a way that suits your team's workflow.\n\n6. **Usage**: After setup, PostHog will start sending notifications to the specified Slack channels based on your configuration. This allows your team to quickly react to important changes or insights without having to constantly monitor the PostHog dashboard.\n\nBy integrating Slack with PostHog, teams can streamline their workflow and ensure that important analytics and events are communicated promptly and efficiently.",
-  "cached_at": "2026-05-27T19:35:06Z",
-  "metadata": {}
-}

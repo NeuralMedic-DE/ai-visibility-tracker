@@ -1,9 +1,0 @@
-{
-  "brand": "Baremetrics",
-  "prompt_id": "UC-03",
-  "llm": "openai",
-  "prompt_text": "What tools do early-stage SaaS founders and indie developers on Stripe companies use to track subscription metrics and MRR from Stripe in real time?",
-  "response": "Early-stage SaaS founders and indie developers often use a variety of tools to track subscription metrics and MRR (Monthly Recurring Revenue) from Stripe in real time. Some popular tools include:\n\n1. **Baremetrics**: Provides real-time subscription analytics and insights directly from Stripe. It offers metrics like MRR, ARR, churn rate, and more.\n\n2. **ChartMogul**: A subscription analytics platform that integrates with Stripe to provide detailed insights into MRR, churn, LTV (Lifetime Value), and other key metrics.\n\n3. **ProfitWell**: Offers free subscription analytics and insights, focusing on metrics like MRR, churn, and retention, with additional features for pricing optimization and retention strategies.\n\n4. **Stripe Dashboard**: While not as detailed as some third-party tools, the Stripe Dashboard itself provides basic subscription metrics and financial reports.\n\n5. **Metorik**: Primarily known for WooCommerce analytics, Metorik also offers integration with Stripe to track subscription metrics and other business insights.\n\n6. **FirstOfficer**: A specialized tool for SaaS analytics that integrates with Stripe to provide detailed subscription metrics, cohort analysis, and financial forecasting.\n\nThese tools help founders and developers gain a better understanding of their business performance, make informed decisions, and optimize their growth strategies.",
-  "cached_at": "2026-05-28T06:57:40Z",
-  "metadata": {}
-}

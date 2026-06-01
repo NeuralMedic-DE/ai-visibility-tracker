@@ -1,9 +1,0 @@
-{
-  "brand": "Front",
-  "prompt_id": "CM-01",
-  "llm": "perplexity",
-  "prompt_text": "Front vs Zendesk: which is better?",
-  "response": "**Zendesk is generally better for larger, process-heavy support operations, while Front is better for smaller or cross-functional teams that want a shared inbox and faster collaboration.** The best choice depends on whether you value **structured ticketing and advanced automation** or **conversation-first teamwork and simplicity**.[1][3]\n\n- **Choose Zendesk** if you need:\n  - **Complex workflows**, SLAs, escalation rules, and deeper automation.[1][3]\n  - **Stronger reporting/analytics** and a more mature ticketing model.[1][7]\n  - A larger **integration marketplace** and enterprise-scale support operations.[1][5]\n  - A more complete setup for **high-volume, process-driven** teams.[1][3]\n\n- **Choose Front** if you need:\n  - A **shared inbox** that feels like email and makes collaboration easier.[1][3]\n  - Faster adoption and a simpler day-to-day experience for agents.[1][2]\n  - Better fit for **B2B**, customer success, account management, or teams where multiple people collaborate on the same conversation.[3][8]\n  - A tool that emphasizes **speed, transparency, and human conversation** over formal ticketing.[1][3]\n\n- **Main trade-off:**\n  - **Front** is typically easier to use and more collaborative, but it is less strong for very large, complex support environments.[1][3]\n  - **Zendesk** is more powerful and scalable, but can feel heavier and more complex to implement and manage.[1][2][3]\n\nIf you want a simple rule: **Front for collaborative shared-inbox support; Zendesk for scalable ticket-based support.**[1][3]",
-  "cached_at": "2026-05-28T08:17:19Z",
-  "metadata": {}
-}

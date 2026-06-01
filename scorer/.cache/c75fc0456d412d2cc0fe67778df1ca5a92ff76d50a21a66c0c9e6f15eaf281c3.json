@@ -1,9 +1,0 @@
-{
-  "brand": "Neon",
-  "prompt_id": "UC-03",
-  "llm": "openai",
-  "prompt_text": "What tools do developer teams building SaaS and AI applications companies use to spin up serverless Postgres databases instantly with auto-suspend?",
-  "response": "Developer teams building SaaS and AI applications often use tools like **Neon** and **Supabase** to spin up serverless Postgres databases with features such as instant provisioning and auto-suspend. These platforms offer a serverless architecture that automatically scales resources and can suspend inactive databases to optimize costs. Additionally, they provide a developer-friendly experience with features like built-in authentication, real-time capabilities, and integration with various development tools and frameworks.",
-  "cached_at": "2026-05-28T06:17:52Z",
-  "metadata": {}
-}

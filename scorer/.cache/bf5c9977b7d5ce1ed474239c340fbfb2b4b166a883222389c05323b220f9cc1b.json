@@ -1,9 +1,0 @@
-{
-  "brand": "Personio",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable HR tools instead of BambooHR",
-  "response": "# Affordable HR Alternatives to BambooHR\n\n## Open Source Options\n\n### **Odoo HR**\n- Free, comprehensive module within Odoo suite\n- Employee database, leave management, payroll, recruitment\n- Requires self-hosting; steeper learning curve\n- Good for organizations with technical support\n\n### **OrangeHRM**\n- Open source & commercial versions\n- Leave, attendance, recruitment, performance management\n- Self-hosted option available\n- Active community\n\n### **ERPNext**\n- Free and open source\n- HR, payroll, recruitment, employee lifecycle\n- Includes accounting integration\n- Requires hosting setup\n\n---\n\n## Budget-Friendly Paid Tools\n\n| Tool | Starting Price | Best For |\n|------|---|---|\n| **Zoho People** | ~$1/employee/month | Growing companies; integrates with Zoho ecosystem |\n| **BrightHire** | Free-$5/user/month | Small teams; simple tracking |\n| **Lattice** | ~$11/user/month | Performance management focus |\n| **Guidepoint** | ~$6/user/month | Small business needs |\n| **Deel** | Free-$10/employee/month | Remote/global teams |\n\n---\n\n## Lightweight Alternatives\n\n- **Airtable** + custom templates (very customizable)\n- **Google Workspace** + Sheets (minimal but functional)\n- **Notion** (growing HR template ecosystem)\n- **Monday.com** (workflow-based)\n\n**What matters most to you?** (payroll, remote teams, compliance, etc.) I can narrow recommendations further.",
-  "cached_at": "2026-05-28T06:34:53Z",
-  "metadata": {}
-}

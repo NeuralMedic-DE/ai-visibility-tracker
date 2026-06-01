@@ -1,9 +1,0 @@
-{
-  "brand": "Totango",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I build modular customer success programs using composable SuccessBLOC templates without spending a lot on software?",
-  "response": "# Building Modular Customer Success Programs on a Budget\n\n## Start with Free/Low-Cost Foundations\n\n**Document templates over software**\n- Use Google Docs/Sheets or Notion as your template library\n- Create reusable checklists for onboarding, check-ins, offboarding\n- Share via simple folder structure rather than paying for specialized platforms\n\n**Spreadsheet-based tracking**\n- Build customer health scorecards in Excel/Sheets\n- Track engagement metrics, NPS, usage—no fancy tool needed\n- Link to your CRM manually if necessary\n\n## The Composable Approach (No Expensive Platform Required)\n\n**Break into blocks:**\n1. **Onboarding block** → template + timeline\n2. **Engagement block** → email sequences, check-in cadence\n3. **Expansion block** → feature adoption playbooks\n4. **Retention block** → at-risk intervention protocols\n\n**Wire them together with:**\n- Slack for notifications/routing\n- Zapier/Make for lightweight automation\n- Your existing CRM (HubSpot free, Pipedrive, etc.)\n\n## Practical Assembly\n\n- Use Loom for video templates (embed in docs)\n- Standardize email templates in Gmail/Outlook\n- Create decision trees in Miro/Lucidchart (free tiers available)\n- Track milestones with Google Calendar + reminders\n\n## The Reality Check\n\nWithout buying specialized CS software, you're trading automation for flexibility and cost. This works if:\n- Team is <10 people\n- Customers <100\n- You're willing to do manual handoffs\n\nWhat's your team size and customer volume? That'll determine whether a cheap tool like Totango Lite or Gainsight (cheaper tier) makes sense, or if DIY templates genuinely work.",
-  "cached_at": "2026-05-28T08:14:37Z",
-  "metadata": {}
-}

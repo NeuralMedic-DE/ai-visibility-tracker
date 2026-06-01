@@ -1,9 +1,0 @@
-{
-  "brand": "Reply.io",
-  "prompt_id": "AL-01",
-  "llm": "anthropic",
-  "prompt_text": "Alternatives to Lemlist for sales teams at B2B SaaS companies running outbound sequences",
-  "response": "# Lemlist Alternatives for B2B SaaS Outbound\n\n## **Direct Competitors (Full-Featured)**\n\n### **Apollo.io**\n- Largest B2B database (250M+ contacts)\n- Built-in calling, email sequencing, CRM\n- Strong for cold outbound at scale\n- Better pricing for large teams\n\n### **Outreach**\n- Enterprise-focused, robust workflows\n- Advanced attribution and deal tracking\n- Higher price point, steeper learning curve\n- Best for mature RevOps teams\n\n### **Salesloft**\n- Strong cadence/sequence builder\n- Excellent forecasting and analytics\n- Good for sales coaching workflows\n- Premium pricing\n\n### **HubSpot Sales Hub**\n- All-in-one option (CRM + sequences)\n- Easier setup, lower barrier to entry\n- Free tier available\n- Less specialized than dedicated tools\n\n## **Niche/Specialized Options**\n\n| Tool | Best For | Key Differentiator |\n|------|----------|-------------------|\n| **Instantly.ai** | High-volume cold email | Unlimited mailboxes, warm-up included |\n| **Smartlead** | Email deliverability focus | AI-powered sequencing |\n| **Yesware** | Email tracking + sequences | Gmail/Outlook native integration |\n| **Woodpecker** | SMB-friendly pricing | Simple, affordably scaled |\n| **Dripify** | LinkedIn-first outbound | LinkedIn automation + email combo |\n\n## **Selection Framework**\n\n**Choose based on:**\n- **Team size** (1-3 vs. 50+ reps)\n- **Primary channel** (email, LinkedIn, calls, or mix)\n- **CRM dependency** (standalone vs. integrated)\n- **International needs** (deliverability in your markets)\n- **Budget** ($500-$5K+ MRR)\n\n**What specific priorities matter most for your team?** (volume, personalization, compliance, analytics, etc.)",
-  "cached_at": "2026-05-28T07:21:14Z",
-  "metadata": {}
-}

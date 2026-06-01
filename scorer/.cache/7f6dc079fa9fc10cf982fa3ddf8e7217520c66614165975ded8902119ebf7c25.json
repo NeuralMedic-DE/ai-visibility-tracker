@@ -1,9 +1,0 @@
-{
-  "brand": "Teamtailor",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best ATS for mid-market companies with active employer branding programs?",
-  "response": "# Best ATS for Mid-Market Companies with Active Employer Branding\n\n**Workable** and **Lever** are strong contenders here, as they specifically emphasize the employer brand experience:\n\n## Top Picks\n\n**Lever**\n- Strong candidate experience/branding focus built-in\n- Career page customization tools\n- Good integrations with employer branding platforms\n- Reasonable pricing for mid-market\n\n**Workable**\n- Solid employer branding features\n- Flexible career site customization\n- Strong sourcing + branding alignment\n- Good balance of features and cost\n\n## Other Solid Options\n\n**Greenhouse**\n- More robust for structured hiring, less focused on branding\n- Better if you also need advanced analytics\n- Premium pricing\n\n**Bamboo HR** (with recruiting module)\n- More HR-platform focused but works well if you want integrated HRIS\n- Easier if you're already in their ecosystem\n\n## Key Features to Prioritize\n\n- **Career page customization** (critical for employer brand)\n- **Candidate experience/journey tracking**\n- **Sourcing integrations** (with LinkedIn, job boards)\n- **Mobile responsiveness**\n- **Reporting on employer brand metrics**\n\n## Worth Considering\n\nWhat's your current tech stack? And is employer branding equally important across all roles, or concentrated in certain areas? That might shift the recommendation—some tools excel at volume hiring while others shine at niche/senior roles.",
-  "cached_at": "2026-05-28T06:41:37Z",
-  "metadata": {}
-}

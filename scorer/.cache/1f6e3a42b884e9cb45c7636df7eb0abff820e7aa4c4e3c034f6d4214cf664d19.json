@@ -1,9 +1,0 @@
-{
-  "brand": "Front",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to Help Scout",
-  "response": "# Cheaper Alternatives to Help Scout\n\n## Budget-Friendly Options\n\n### **Free/Freemium**\n- **Zendesk** - Free tier available; scales affordably\n- **Freshdesk** - Free plan for up to 1 agent; good value as you grow\n- **Mailchimp** - Free email support tools\n- **Chatwoot** - Open-source, fully free option\n- **Plane** - Free project/issue tracking\n- **Zulip** - Open-source team chat\n\n### **Under $50/month**\n- **Groove** - Simple, affordable ticketing\n- **Helpjuice** - Knowledge base focused ($48/month)\n- **Kayako** - Entry-level plans around $40\n- **Jira Service Management** - $10-20/month base cost\n\n### **Lower Mid-Range ($50-150/month)**\n- **Intercom** - More affordable for small teams\n- **Front** - Shared inbox alternative\n- **Gorgias** - Good for e-commerce\n- **Tidio** - Combines chat + ticketing\n\n## Special Considerations\n- **Self-hosted**: Osticket, Tuleap (lowest ongoing cost)\n- **Slack-first**: Use Slack + integrations to minimize tools\n- **Alternatives by feature**: Notion (knowledge base), Discord (community support)\n\n**Tip:** Help Scout's main value is ease of use. If you prioritize cost over UX, Freshdesk or Zendesk offer better economies of scale.\n\nWhat's your primary use case? I can narrow down recommendations.",
-  "cached_at": "2026-05-28T08:17:06Z",
-  "metadata": {}
-}

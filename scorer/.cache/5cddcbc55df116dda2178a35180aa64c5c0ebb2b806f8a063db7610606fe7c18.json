@@ -1,9 +1,0 @@
-{
-  "brand": "Conveyor",
-  "prompt_id": "CM-01",
-  "llm": "openai",
-  "prompt_text": "Conveyor vs SafeBase: which is better?",
-  "response": "Choosing between Conveyor and SafeBase depends on your specific needs and use cases, as both tools serve different purposes related to security and compliance.\n\n**Conveyor** is a platform designed to streamline security reviews and assessments. It helps companies automate the process of responding to security questionnaires, making it easier to manage and share security documentation with customers. If your primary need is to handle security questionnaires efficiently and improve the process of sharing security information with clients, Conveyor might be the better choice.\n\n**SafeBase**, on the other hand, focuses on building trust with customers by providing a centralized platform for sharing security and compliance information. It allows companies to create a security portal where they can showcase their security posture, certifications, and compliance status. If your goal is to enhance transparency and build trust with customers by providing them easy access to your security and compliance information, SafeBase could be more suitable.\n\nUltimately, the decision should be based on your organization's priorities, whether it's automating security assessments or enhancing customer trust through transparency. It might also be helpful to consider factors such as ease of use, integration capabilities, and pricing when making your decision.",
-  "cached_at": "2026-05-28T08:46:06Z",
-  "metadata": {}
-}

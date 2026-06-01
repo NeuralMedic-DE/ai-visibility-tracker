@@ -1,9 +1,0 @@
-{
-  "brand": "TestBrand",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does TestBrand integrate with Slack?",
-  "response": "I don't have any information about TestBrand or its integrations with Slack in my knowledge base.\n\nTo find out if TestBrand integrates with Slack, I'd recommend:\n\n1. **Checking their official website** - Look for an integrations or features page\n2. **Contacting their support team** - They can give you the most accurate answer\n3. **Checking the Slack App Directory** - Search for TestBrand to see if they have an official app\n4. **Looking at their documentation** - API or help docs often list available integrations\n\nCould you provide more context about what TestBrand is? That might help me give you better guidance.",
-  "cached_at": "2026-06-01T15:00:18Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Make",
-  "prompt_id": "IN-04",
-  "llm": "openai",
-  "prompt_text": "Best automation that works with Google Sheets and HubSpot",
-  "response": "To automate workflows between Google Sheets and HubSpot, you can use several tools and integrations. Here are some of the best options:\n\n1. **Zapier**: Zapier is a popular automation tool that allows you to create \"Zaps\" to connect Google Sheets and HubSpot. You can automate tasks such as adding new rows in Google Sheets when a new contact is added in HubSpot or updating HubSpot contacts when a Google Sheet is updated.\n\n2. **Integromat (now Make)**: Similar to Zapier, Make allows you to create complex workflows between Google Sheets and HubSpot. It offers a visual interface to design your automation and can handle more complex logic and data manipulation.\n\n3. **HubSpot's Native Integration**: HubSpot offers some native integrations with Google Sheets. For example, you can export reports or lists directly from HubSpot to Google Sheets, which can be useful for data analysis and reporting.\n\n4. **Coupler.io**: This tool allows you to automate data imports from HubSpot to Google Sheets. It can be scheduled to run at regular intervals, ensuring your data is always up-to-date.\n\n5. **Automate.io**: This platform also provides automation capabilities between Google Sheets and HubSpot, allowing you to create workflows that sync data between the two services.\n\nEach of these tools has its strengths, so the best choice depends on your specific needs, such as the complexity of the workflows, budget, and ease of use.",
-  "cached_at": "2026-05-28T08:53:46Z",
-  "metadata": {}
-}

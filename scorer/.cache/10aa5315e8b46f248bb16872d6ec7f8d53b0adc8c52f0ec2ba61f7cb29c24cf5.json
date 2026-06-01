@@ -1,9 +1,0 @@
-{
-  "brand": "Reply.io",
-  "prompt_id": "CM-01",
-  "llm": "perplexity",
-  "prompt_text": "Reply.io vs Lemlist: which is better?",
-  "response": "**Neither is universally better; the better choice depends on your outbound strategy.** In general, **Lemlist** is better for highly personalized, creative cold outreach, while **Reply.io** is better for broader **sales engagement**, automation, and multichannel workflows.[1][2][4]\n\n- **Choose Lemlist** if you want:\n  - Strong **email personalization** and visually creative outreach, including custom images/videos and dynamic landing pages.[1][3]\n  - A tool that feels more **human** and is a good fit for smaller teams, agencies, or lower-volume campaigns.[1][4]\n  - Simpler cold outreach focused primarily on email with some multichannel touches.[1][3]\n\n- **Choose Reply.io** if you want:\n  - A more complete **sales engagement platform** with stronger automation and workflow logic.[1][2][4]\n  - Broader **multichannel outreach** such as email, LinkedIn, calls, SMS, and possibly WhatsApp depending on setup.[1][3]\n  - Better fit for larger teams or systems that need team mailbox management, routing, and deeper CRM/integration support.[1]\n\nA practical rule: if your main goal is to make each message feel tailored and memorable, pick **Lemlist**; if your goal is to run structured outbound at scale across multiple channels, pick **Reply.io**.[1][4]\n\nIf you want, I can also give you a **feature-by-feature comparison table** or a **recommendation based on your use case**.",
-  "cached_at": "2026-05-28T07:21:16Z",
-  "metadata": {}
-}

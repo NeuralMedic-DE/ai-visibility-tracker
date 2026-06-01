@@ -1,9 +1,0 @@
-{
-  "brand": "Copper",
-  "prompt_id": "UC-04",
-  "llm": "anthropic",
-  "prompt_text": "How can a agency owner or consultant manage client relationships inside Gmail more efficiently?",
-  "response": "# Managing Client Relationships in Gmail\n\n## Organization Systems\n\n**Labels & Filters**\n- Create labels by client, project status, or priority\n- Set up auto-filters (e.g., all client emails auto-label)\n- Use nested labels (Client/Project/Deliverables) for hierarchy\n\n**Stars & Priority Markers**\n- Star urgent or high-value client emails\n- Create a custom star system for status tracking\n\n## Workflow Efficiency\n\n**Templates & Canned Responses**\n- Build email templates for common client scenarios (onboarding, invoices, status updates)\n- Save time on repetitive messaging\n\n**Gmail Features to Leverage**\n- **Scheduled send** – Send emails at optimal times\n- **Snooze** – Resurface emails when action is needed\n- **Search operators** – Quick filtering (from:client@email.com label:ProjectX)\n\n## Visibility & Follow-up\n\n**Gmail-Native Tools**\n- Set reminders on client emails needing response\n- Use task integration to track action items\n\n## Better Alternative\n\n**Honestly?** Gmail alone has limits for serious client management. Consider:\n- **HubSpot CRM, Pipedrive, or Keap** – Purpose-built for agency workflows\n- **Gmail integrations** – Tools like Streak or Front layer CRM features on top of Gmail\n\n**Bottom line:** Gmail works for light management, but if you're juggling multiple clients, a dedicated CRM with email integration saves more time than Gmail optimization.\n\nWhat's your biggest pain point right now—follow-ups, organization, or something else?",
-  "cached_at": "2026-05-27T18:24:04Z",
-  "metadata": {}
-}

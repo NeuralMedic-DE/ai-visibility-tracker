@@ -1,9 +1,0 @@
-{
-  "brand": "ChartMogul",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with analyze cohort retention and forecast subscription revenue growth at scale?",
-  "response": "There are several software solutions that can help analyze cohort retention and forecast subscription revenue growth at scale. Some popular options include:\n\n1. **Mixpanel**: This is a powerful analytics tool that provides insights into user behavior, cohort analysis, and retention metrics. It helps in understanding how different user groups engage over time.\n\n2. **Amplitude**: Similar to Mixpanel, Amplitude offers in-depth cohort analysis and retention tracking. It allows businesses to understand user journeys and predict future behaviors.\n\n3. **Looker**: A business intelligence tool that can be used to create custom dashboards and reports for cohort analysis and revenue forecasting. It integrates with various data sources for comprehensive insights.\n\n4. **ChartMogul**: Specifically designed for subscription businesses, ChartMogul provides analytics on MRR (Monthly Recurring Revenue), ARR (Annual Recurring Revenue), churn rates, and cohort retention.\n\n5. **Baremetrics**: This tool offers subscription analytics and insights, including cohort analysis, forecasting, and revenue metrics. It integrates with various payment platforms to provide real-time data.\n\n6. **ProfitWell**: Focused on subscription businesses, ProfitWell provides detailed retention and churn analysis, as well as revenue forecasting capabilities.\n\n7. **Google Analytics**: While not as specialized as some other tools, Google Analytics can be configured to track cohort retention and user engagement metrics, especially when integrated with other data sources.\n\nEach of these tools has its strengths, so the best choice depends on your specific needs, budget, and the complexity of your data.",
-  "cached_at": "2026-05-28T06:55:11Z",
-  "metadata": {}
-}

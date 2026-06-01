@@ -1,9 +1,0 @@
-{
-  "brand": "Linear",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Linear integrate with GitHub?",
-  "response": "Yes. Linear has an **official GitHub integration** that syncs issues, pull requests, commits, comments, status, and assignee updates between Linear and GitHub.[1][2][4]\n\nIt also supports features like:\n- linking Linear issues to PRs and commits[1][4]\n- automatically moving issues based on PR activity[1][2]\n- syncing GitHub issues into Linear, including one-way or two-way issue sync depending on configuration[1][4]\n- reviewing pull requests directly in Linear with Diffs[1]\n\nLinear’s docs say the integration is set up at the **organization level** and can be configured by connecting GitHub repos to Linear.[4]",
-  "cached_at": "2026-05-27T21:13:12Z",
-  "metadata": {}
-}

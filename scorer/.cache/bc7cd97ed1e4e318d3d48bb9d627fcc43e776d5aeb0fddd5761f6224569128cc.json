@@ -1,9 +1,0 @@
-{
-  "brand": "Chargebee",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Chargebee integrate with Salesforce?",
-  "response": "Yes, Chargebee integrates with Salesforce. This integration allows businesses to sync customer and subscription data between Chargebee and Salesforce, enabling better management of billing and customer relationships. It helps streamline processes such as invoicing, payment collection, and customer relationship management by providing a unified view of customer data across both platforms.",
-  "cached_at": "2026-05-28T06:50:50Z",
-  "metadata": {}
-}

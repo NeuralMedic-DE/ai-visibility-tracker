@@ -1,9 +1,0 @@
-{
-  "brand": "Nudge Security",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I discover all SaaS apps used across your company without deploying agents without spending a lot on software?",
-  "response": "# Low-Cost SaaS Discovery Methods (No Agents)\n\n## Network-Based Approaches\n\n**DNS/proxy logs** (cheapest)\n- Review firewall or proxy logs for domain queries\n- Look for known SaaS domains\n- Tools: Parse logs with grep/awk, or use free tier of Splunk/ELK\n- Caveat: Only captures what goes through your network infrastructure\n\n**Network traffic analysis**\n- Monitor SSL/TLS certificate requests\n- Check DNS queries to SaaS providers\n- Zeek (free) can classify traffic by application\n\n## Human-Centered (Free)\n\n- **IT ticket system audit** - search for app requests, access issues, account resets\n- **Email review** - search for confirmation emails from SaaS vendors (finance or ops teams)\n- **Expense reports & credit cards** - SaaS subscriptions leave paper trails\n- **Survey employees** - simple Google Form asking what tools they use\n- **Slack/Teams search** - look for sign-up links, complaints, onboarding messages\n- **Cloud provider bills** - AWS/Azure/GCP spend analysis shows app usage\n\n## Hybrid (Minimal Cost)\n\n**Free SaaS discovery tools:**\n- Netskope Cloud Confidence Index (some free features)\n- SecurityScorecard (limited free tier)\n- Open source: Zeek + Suricata for traffic classification\n\n**Budget option:**\n- Cloudflare Teams free tier logs DNS queries\n- Attempt to get logs from existing tools you own (proxy, EDR, cloud provider)\n\n## Reality Check\nWithout agents/proxies, you'll catch ~60-70% of usage. The biggest gap: apps on personal devices or over cellular. That's where the survey approach fills in.\n\nWhat infrastructure do you currently have access to (firewall, proxy, cloud provider)?",
-  "cached_at": "2026-05-28T08:38:48Z",
-  "metadata": {}
-}

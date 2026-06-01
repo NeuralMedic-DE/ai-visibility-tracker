@@ -1,9 +1,0 @@
-{
-  "brand": "Pilot",
-  "prompt_id": "IN-04",
-  "llm": "openai",
-  "prompt_text": "Best finance that works with Stripe and Gusto",
-  "response": "If you're looking for financial tools that integrate well with both Stripe and Gusto, you might consider the following options:\n\n1. **QuickBooks Online**: QuickBooks integrates with both Stripe and Gusto, allowing you to manage your accounting, payroll, and payment processing in one place. It can automatically import transactions from Stripe and sync payroll data from Gusto.\n\n2. **Xero**: Xero is another popular accounting software that integrates with both Stripe and Gusto. It offers features for invoicing, bank reconciliation, and financial reporting, and can streamline your financial management by syncing data across these platforms.\n\n3. **Wave**: While Wave is more limited in its direct integrations compared to QuickBooks and Xero, it does offer integration with Stripe for payment processing. For payroll, you might need to use a third-party connector to sync data from Gusto.\n\n4. **Zapier**: If direct integrations are not available, you can use Zapier to create custom workflows between Stripe, Gusto, and your chosen financial software. Zapier allows you to automate data transfer and streamline processes between these platforms.\n\nThese tools can help you manage your finances efficiently by integrating payment processing and payroll data, reducing manual entry and improving accuracy.",
-  "cached_at": "2026-05-28T07:02:46Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "SafeBase",
-  "prompt_id": "UC-03",
-  "llm": "anthropic",
-  "prompt_text": "What tools do sales engineering and security teams at B2B SaaS companies companies use to automate security questionnaire responses to unblock enterprise sales deals?",
-  "response": "# Security Questionnaire Automation Tools\n\nSales and security teams use several categories of tools:\n\n## Purpose-Built Platforms\n\n**Dedicated solutions:**\n- **Secureframe** - Automates questionnaire responses, maintains compliance evidence\n- **OneTrust** - Comprehensive compliance/security posture management\n- **Drata** - Continuous compliance automation\n- **Vanta** - Real-time compliance monitoring with questionnaire integration\n- **Armo** - Security posture automation\n- **Sprinto** - Compliance automation for various frameworks\n\n## General Approach\n\nMost effective setups combine:\n\n1. **Evidence aggregation** - Centralizing security controls, certifications, audit reports, and test results\n2. **Response templates** - Pre-built answers mapped to common frameworks (SOC 2, ISO 27001, HIPAA, etc.)\n3. **Dynamic population** - Auto-filling questionnaires from source data\n4. **Version control** - Managing updates across multiple customer versions\n\n## Manual/DIY Approaches\n\nMany smaller teams still use:\n- **Shared documents** (Google Workspace, Notion) with templated responses\n- **Spreadsheet-based tracking** of Q&A patterns\n- **Airtable/custom databases** mapped to questionnaire fields\n- **GitBook/wikis** for internal knowledge bases\n\n## Key Challenge\n\nThe real blocker isn't usually the tool—it's having **accurate, current security documentation**. Teams often need 3-6 months of investment building this foundation before automation becomes truly efficient.\n\n**What's your current bottleneck?** That would help narrow recommendations.",
-  "cached_at": "2026-05-28T08:43:42Z",
-  "metadata": {}
-}

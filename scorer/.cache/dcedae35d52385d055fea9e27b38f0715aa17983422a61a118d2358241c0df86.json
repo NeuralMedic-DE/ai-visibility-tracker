@@ -1,9 +1,0 @@
-{
-  "brand": "Teamtailor",
-  "prompt_id": "IN-03",
-  "llm": "openai",
-  "prompt_text": "How do I connect Teamtailor with LinkedIn?",
-  "response": "To connect Teamtailor with LinkedIn, you typically need to integrate the two platforms to streamline your recruitment process. Here’s a general guide on how you can do this:\n\n1. **LinkedIn Recruiter Integration**:\n   - If you have a LinkedIn Recruiter account, you can integrate it with Teamtailor to manage candidates more efficiently.\n   - Go to your Teamtailor account settings and look for the integration options.\n   - Find LinkedIn Recruiter in the list of available integrations.\n   - Follow the prompts to authorize and connect your LinkedIn Recruiter account with Teamtailor.\n\n2. **Job Posting on LinkedIn**:\n   - You can post jobs directly from Teamtailor to LinkedIn.\n   - When creating a job listing in Teamtailor, look for the option to share or post on LinkedIn.\n   - Follow the instructions to publish your job listing on LinkedIn.\n\n3. **LinkedIn Apply Button**:\n   - Enable the LinkedIn Apply button on your Teamtailor career site to allow candidates to apply using their LinkedIn profiles.\n   - This can usually be done in the job application settings within Teamtailor.\n\n4. **Candidate Import**:\n   - You can manually import candidates from LinkedIn to Teamtailor by using LinkedIn’s export features or by directly adding candidates you find on LinkedIn to your Teamtailor database.\n\n5. **API and Third-Party Tools**:\n   - If you need more advanced integration, consider using third-party tools or APIs that can help sync data between Teamtailor and LinkedIn.\n\nMake sure you have the necessary permissions and accounts to perform these integrations. If you encounter any issues, consult the support documentation of both Teamtailor and LinkedIn or reach out to their customer support for assistance.",
-  "cached_at": "2026-05-28T06:42:02Z",
-  "metadata": {}
-}

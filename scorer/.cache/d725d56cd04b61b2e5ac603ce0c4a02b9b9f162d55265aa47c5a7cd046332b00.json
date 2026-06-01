@@ -1,9 +1,0 @@
-{
-  "brand": "Teamtailor",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I build a beautiful careers site and track all applicants in one place without spending a lot on software?",
-  "response": "# Budget-Friendly Careers Site + Applicant Tracking\n\n## Free/Cheap Site Builders\n- **Carrd** (~$20/year) - Dead simple, looks polished\n- **Webflow** (free tier available) - More design flexibility\n- **Notion** (free) - Surprisingly functional for small teams\n- **GitHub Pages + template** (free) - If you're technical\n\n## Applicant Tracking Options\n\n**Spreadsheet-based (free but manual):**\n- Google Sheets with forms - applicants fill a form, auto-populates a tracker\n- Add filters, status columns (applied/interview/rejected), notes\n- Works fine for <50 applicants/month\n\n**Low-cost ATS ($0-50/month):**\n- **Airtable** (free tier) - More powerful than sheets, still simple\n- **Lever** - Free plan includes basic tracking\n- **Workable** - Starts ~$99 but has smaller plans\n- **SmartRecruiters** - Freemium model\n\n**Hybrid approach (probably best for you):**\n1. Build careers page with Carrd or Webflow\n2. Use Google Forms → Google Sheets for initial applications\n3. Move promising candidates to Airtable for pipeline tracking\n4. Send emails directly from sheets/Airtable\n\n## Key features to prioritize\n- Email notifications when forms submit\n- Pipeline status visibility (screening → interview → offer)\n- Simple way to add notes\n- Export candidate data\n\nWhat's your expected application volume? That matters for which tool actually makes sense.",
-  "cached_at": "2026-05-28T06:41:59Z",
-  "metadata": {}
-}

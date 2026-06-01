@@ -1,9 +1,0 @@
-{
-  "brand": "Braintrust",
-  "prompt_id": "IN-02",
-  "llm": "openai",
-  "prompt_text": "Braintrust Anthropic integration: how does it work?",
-  "response": "Braintrust's integration with Anthropic likely involves incorporating Anthropic's AI capabilities into Braintrust's platform to enhance its functionality. Anthropic is known for developing advanced AI models, so this integration could involve using these models to improve various aspects of Braintrust's operations, such as automating tasks, enhancing user interactions, or providing more intelligent data analysis.\n\nThe integration might work by embedding Anthropic's AI models into Braintrust's existing infrastructure, allowing the platform to leverage AI for specific use cases. This could include natural language processing for better communication, predictive analytics for market trends, or other AI-driven features that enhance the overall user experience on Braintrust.\n\nThe specific details of how this integration works would depend on the technical implementation and the goals of the collaboration between Braintrust and Anthropic.",
-  "cached_at": "2026-05-28T07:47:34Z",
-  "metadata": {}
-}

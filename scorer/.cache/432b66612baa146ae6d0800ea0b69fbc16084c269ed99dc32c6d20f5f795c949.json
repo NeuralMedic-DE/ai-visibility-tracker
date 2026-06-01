@@ -1,9 +1,0 @@
-{
-  "brand": "Nutshell",
-  "prompt_id": "CD-05",
-  "llm": "anthropic",
-  "prompt_text": "Recommended CRM tools for small and mid-size B2B sales teams companies",
-  "response": "# Best CRM Tools for Small-to-Mid B2B Sales Teams\n\n## **Top Recommendations**\n\n### **HubSpot CRM** ⭐ Best Overall\n- Free tier available (generous limits)\n- Intuitive interface, minimal learning curve\n- Strong automation & reporting\n- Excellent integrations\n- *Best for: Teams prioritizing ease of use*\n\n### **Pipedrive**\n- Sales-focused pipeline management\n- Visual deal tracking\n- Affordable pricing\n- Great mobile app\n- *Best for: Pipeline-driven sales processes*\n\n### **Zoho CRM**\n- Very affordable, powerful features\n- Extensive customization\n- Good mobile experience\n- Strong automation\n- *Best for: Budget-conscious teams wanting depth*\n\n### **Salesforce Essentials**\n- Enterprise-grade reliability\n- Scalable as you grow\n- Robust AI features (Einstein)\n- Higher cost barrier\n- *Best for: Teams expecting rapid growth*\n\n### **Close**\n- Built specifically for sales teams\n- Built-in calling & email\n- Excellent reporting\n- Strong customer support\n- *Best for: High-velocity sales teams*\n\n---\n\n## **Decision Framework**\n\n| Priority | Best Choice |\n|----------|------------|\n| Budget | Zoho, HubSpot Free |\n| Simplicity | HubSpot, Pipedrive |\n| Pipeline focus | Pipedrive, Close |\n| Customization | Zoho, Salesforce |\n| Growth potential | Salesforce, HubSpot |\n\n**Pro tip:** Most offer free trials—test 2-3 with your team before committing.\n\nWhat's your team size and primary pain point?",
-  "cached_at": "2026-05-27T18:32:57Z",
-  "metadata": {}
-}

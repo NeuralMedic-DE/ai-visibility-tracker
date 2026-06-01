@@ -1,9 +1,0 @@
-{
-  "brand": "PostHog",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to Amplitude",
-  "response": "# Cheaper Alternatives to Amplitude\n\n## Most Similar (Product Analytics)\n- **Mixpanel** - Event-based analytics, good free tier\n- **Heap** - Auto-capture events, lower pricing for smaller teams\n- **Plausible** - Privacy-focused, simpler, ~$20-116/month\n- **Matomo** - Open-source option, self-hosted for free\n- **PostHog** - Open-source, generous free tier, transparent pricing\n\n## Lower-Cost Options\n- **Segment** - Data collection layer (different use case, but often cheaper combined)\n- **Fathom Analytics** - Simple, privacy-first, $14-349/month\n- **Cabin Analytics** - Lightweight alternative, $9+/month\n- **Simple Analytics** - Privacy-focused, €19+/month\n\n## Context-Dependent\n- **Google Analytics 4** - Free, less powerful but sufficient for many\n- **Metabase** - Free/open-source for internal dashboards\n- **Rudderstack** - Open-source CDP, self-host for free\n\n## Key Cost Factors\n| Factor | Impact |\n|--------|--------|\n| Monthly events | Biggest driver |\n| Team size | Usually per-seat fees |\n| Data retention | Can be expensive |\n| Custom integrations | May add cost |\n\n## Best Choice Depends On:\n- **Events/month volume** - PostHog wins if <10M\n- **Budget priority** - Plausible/Fathom if under $100/mo needed\n- **Self-hosting preference** - Matomo/PostHog open-source\n- **Simplicity** - Plausible/Fathom easier than Amplitude\n\nWhat's your primary use case or event volume?",
-  "cached_at": "2026-05-27T19:36:43Z",
-  "metadata": {}
-}

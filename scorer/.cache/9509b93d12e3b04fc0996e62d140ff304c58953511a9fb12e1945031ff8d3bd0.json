@@ -1,9 +1,0 @@
-{
-  "brand": "Rippling",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Rippling integrate with Slack?",
-  "response": "Yes. **Rippling has a native integration with Slack** that you can set up from the Rippling App Shop, and many teams use it to manage Slack users and channels directly from Rippling.[3][5]\n\nKey capabilities of the native Rippling–Slack integration include:  \n- **Automatic Slack account provisioning and deprovisioning** when employees join or leave, based on data in Rippling.[1]  \n- **Automatic assignment to Slack channels and user groups** driven by attributes in Rippling (role, department, etc.).[1][3]  \n- **Daily sync of Slack channels and user groups** into Rippling, with on‑demand sync available.[3]  \n- **Single Sign-On (SSO)** so employees log into Slack via Rippling.[1]  \n- **Workflow-based Slack messages** (e.g., send a Slack message when a job title changes) using Rippling’s Workflow Studio.[1][5]\n\nIn addition to the native integration, third-party tools like **Harriet** and **Aragorn** can also connect Rippling data into Slack for things like payslips, PTO management, or custom automations.[2][4]",
-  "cached_at": "2026-05-28T06:29:21Z",
-  "metadata": {}
-}

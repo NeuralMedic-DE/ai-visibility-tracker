@@ -1,9 +1,0 @@
-{
-  "brand": "Workable",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is Workable better than Greenhouse for screen and evaluate candidates with AI-powered scoring tools?",
-  "response": "# Workable vs Greenhouse: AI Scoring Capabilities\n\nBoth have AI features, but they excel in different areas:\n\n## Workable's Strengths\n- **More affordable** AI scoring option\n- Straightforward candidate matching against job requirements\n- Good for high-volume screening (faster initial filtering)\n- Simpler setup and learning curve\n\n## Greenhouse's Strengths\n- **More sophisticated** structured interview scoring\n- Better predictive analytics for hiring outcomes\n- Integrates deeply with their entire hiring workflow\n- Stronger bias detection and fairness reporting\n- More customizable scoring criteria\n\n## Key Difference\n- **Workable** = better for resume/application screening at scale\n- **Greenhouse** = better for interview evaluation and predicting job performance\n\n## Consider Your Needs\nAsk yourself:\n- Do you need heavy volume screening? → Workable advantage\n- Do you want predictive quality of hire? → Greenhouse advantage\n- What's your budget? → Workable is cheaper\n- How important is reducing bias? → Greenhouse has more robust tools\n\n**Bottom line:** \"Better\" depends on your hiring process. If you're mainly screening applications, Workable works well. If you're optimizing entire hiring decisions and have budget, Greenhouse offers more advanced capabilities.\n\nWhat's your primary use case—high-volume screening or quality assessment?",
-  "cached_at": "2026-05-28T06:45:59Z",
-  "metadata": {}
-}

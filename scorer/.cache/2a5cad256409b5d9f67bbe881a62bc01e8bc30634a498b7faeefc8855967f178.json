@@ -1,9 +1,0 @@
-{
-  "brand": "Metabase",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Metabase integrate with PostgreSQL?",
-  "response": "Yes, Metabase integrates with PostgreSQL. You can connect Metabase to a PostgreSQL database to visualize and analyze your data. Metabase supports connecting to PostgreSQL out of the box, allowing you to run queries, create dashboards, and generate reports using your PostgreSQL data. To set it up, you'll need the connection details such as the host, port, database name, username, and password for your PostgreSQL instance.",
-  "cached_at": "2026-05-27T20:06:29Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Vitally",
-  "prompt_id": "IN-03",
-  "llm": "openai",
-  "prompt_text": "How do I connect Vitally with Salesforce?",
-  "response": "To connect Vitally with Salesforce, you typically need to follow these steps:\n\n1. **Access Vitally Integrations:**\n   - Log in to your Vitally account.\n   - Navigate to the settings or integrations section where you can manage connections with other platforms.\n\n2. **Select Salesforce Integration:**\n   - Look for Salesforce in the list of available integrations and select it.\n\n3. **Authenticate with Salesforce:**\n   - You will be prompted to log in to your Salesforce account. Ensure you have the necessary permissions to authorize third-party applications.\n   - Follow the prompts to grant Vitally access to your Salesforce data.\n\n4. **Configure the Integration:**\n   - Once authenticated, you may need to configure the integration settings. This could include selecting which Salesforce objects (such as Leads, Contacts, or Accounts) you want to sync with Vitally.\n   - Set up any field mappings to ensure data is correctly transferred between the two platforms.\n\n5. **Test the Connection:**\n   - After configuration, test the integration to ensure data is syncing as expected. Check that updates in Salesforce reflect in Vitally and vice versa.\n\n6. **Monitor and Maintain:**\n   - Regularly monitor the integration to ensure it continues to function correctly. Make adjustments as needed based on changes in your Salesforce setup or business processes.\n\nIf you encounter any issues or need more detailed guidance, consult the support documentation provided by Vitally or reach out to their customer support for assistance.",
-  "cached_at": "2026-05-28T08:09:41Z",
-  "metadata": {}
-}

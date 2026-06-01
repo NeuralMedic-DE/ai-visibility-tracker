@@ -1,9 +1,0 @@
-{
-  "brand": "Copper",
-  "prompt_id": "IN-02",
-  "llm": "openai",
-  "prompt_text": "Copper Slack integration: how does it work?",
-  "response": "Copper's Slack integration allows users to connect their Copper CRM with Slack to streamline communication and enhance productivity. Here's how it typically works:\n\n1. **Installation**: First, you need to install the Copper app from the Slack App Directory. This usually requires authorization from both Slack and Copper to allow them to communicate with each other.\n\n2. **Authentication**: Once installed, you'll need to authenticate your Copper account within Slack. This involves logging into your Copper account and granting the necessary permissions for Slack to access your Copper data.\n\n3. **Notifications**: The integration allows you to receive notifications in Slack for various activities in Copper. For example, you can get alerts when a lead is assigned to you, when a task is due, or when there are updates to opportunities or projects.\n\n4. **Commands and Actions**: You can use specific commands in Slack to interact with Copper. This might include creating new leads, updating records, or fetching information from your Copper CRM directly within Slack.\n\n5. **Collaboration**: The integration facilitates collaboration by allowing team members to discuss Copper records within Slack channels or direct messages. You can share information about leads, opportunities, or tasks with your team without leaving Slack.\n\n6. **Customization**: Depending on your needs, you can customize which notifications you receive and how they are delivered. This ensures that you only get relevant updates and can focus on what's important.\n\nOverall, the Copper Slack integration is designed to help teams work more efficiently by combining the communication capabilities of Slack with the CRM functionalities of Copper.",
-  "cached_at": "2026-05-27T18:21:56Z",
-  "metadata": {}
-}

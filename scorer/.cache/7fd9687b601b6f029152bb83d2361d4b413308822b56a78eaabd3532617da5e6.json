@@ -1,9 +1,0 @@
-{
-  "brand": "Help Scout",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with build a self-service knowledge base that reduces inbound support volume at scale?",
-  "response": "There are several software solutions available that can help you build a self-service knowledge base to reduce inbound support volume. Here are some popular options:\n\n1. **Zendesk Guide**: Part of the Zendesk suite, it allows you to create a branded help center with FAQs, articles, and community forums.\n\n2. **Freshdesk**: Offers a knowledge base feature that lets you create and organize support articles, FAQs, and guides.\n\n3. **Help Scout**: Provides a Docs feature that allows you to build a customer-facing knowledge base with articles and search functionality.\n\n4. **Confluence**: Developed by Atlassian, it's a powerful tool for creating and managing internal and external knowledge bases.\n\n5. **Zoho Desk**: Includes a knowledge base module to create and manage articles, FAQs, and other resources for self-service.\n\n6. **Intercom**: Offers an Articles feature that allows you to create a help center with searchable articles and guides.\n\n7. **Document360**: A dedicated knowledge base software that provides robust features for creating, managing, and publishing self-service content.\n\n8. **Guru**: Focuses on capturing and sharing knowledge within teams, which can also be used to create a public knowledge base.\n\n9. **Notion**: While primarily a collaboration tool, it can be used to create a simple and effective knowledge base.\n\n10. **Helpjuice**: Specializes in knowledge base software with advanced search capabilities and analytics.\n\nThese tools typically offer features like content categorization, search functionality, analytics, and integration with other support tools to help you effectively manage and scale your self-service support.",
-  "cached_at": "2026-05-28T08:19:29Z",
-  "metadata": {}
-}

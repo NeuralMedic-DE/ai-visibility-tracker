@@ -1,9 +1,0 @@
-{
-  "brand": "Rho",
-  "prompt_id": "UC-03",
-  "llm": "openai",
-  "prompt_text": "What tools do finance teams at venture-backed startups managing spend and AP companies use to manage company spending with smart corporate cards and bill pay automation?",
-  "response": "Finance teams at venture-backed startups often use a combination of tools to manage company spending and automate accounts payable (AP) processes. Some popular solutions include:\n\n1. **Brex**: Offers smart corporate cards with expense management features tailored for startups, providing real-time visibility into spending and integration with accounting software.\n\n2. **Ramp**: Provides corporate cards with built-in spend management and automation features, helping startups control expenses and streamline financial operations.\n\n3. **Airbase**: A comprehensive spend management platform that combines corporate cards, bill payments, and expense reimbursements, offering automation and real-time insights.\n\n4. **Divvy**: Offers a spend management platform with corporate cards, allowing for budget tracking, expense management, and seamless integration with accounting systems.\n\n5. **Bill.com**: Specializes in automating accounts payable and receivable processes, making it easier to manage bill payments and cash flow.\n\n6. **Expensify**: Provides expense management solutions that integrate with corporate cards and accounting software, simplifying the process of tracking and reporting expenses.\n\nThese tools help startups manage their finances more efficiently by providing real-time data, automating routine tasks, and integrating with existing accounting systems like QuickBooks, Xero, or NetSuite.",
-  "cached_at": "2026-05-28T07:12:36Z",
-  "metadata": {}
-}

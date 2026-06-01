@@ -1,9 +1,0 @@
-{
-  "brand": "Nutshell",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable CRM tools instead of Salesforce",
-  "response": "# Open Source & Affordable CRM Alternatives\n\n## **Open Source (Free to Self-Host)**\n\n### **SuiteCRM**\n- Fork of SugarCRM, fully open source\n- Contact, lead, and opportunity management\n- Customizable workflows and modules\n- Self-hosted (hosting costs apply)\n\n### **Odoo**\n- Modular ERP with strong CRM module\n- Sales, marketing, customer service integrated\n- Community edition is free\n- More powerful for growing businesses\n\n### **ERPNext**\n- Lightweight, easy to set up\n- Good for small teams\n- All-in-one business tool\n- Active community support\n\n### **HubSpot Free**\n- Technically freemium, not open source\n- Solid free tier with contacts, deals, pipelines\n- Good starter option before paid plans\n\n---\n\n## **Affordable Paid SaaS**\n\n| Tool | Price | Best For |\n|------|-------|----------|\n| **Pipedrive** | $15+/user/month | Sales pipeline focus |\n| **Zoho CRM** | $18+/user/month | Small-mid businesses |\n| **HubSpot** | $50+/month (paid) | Growing companies |\n| **Freshsales** | $19+/user/month | Simplicity + affordability |\n| **Agile CRM** | $9.99+/user/month | Budget-conscious teams |\n\n---\n\n## **What to Consider**\n- **Team size** (per-user pricing adds up)\n- **Self-hosting vs. cloud** (open source requires more IT)\n- **Integration needs**\n- **Mobile requirements**\n\n**Best free starting point?** HubSpot Free or SuiteCRM if you want to self-host.\n\nWhat's your team size or budget range?",
-  "cached_at": "2026-05-27T18:33:51Z",
-  "metadata": {}
-}

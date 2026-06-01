@@ -1,9 +1,0 @@
-{
-  "brand": "Rho",
-  "prompt_id": "AL-02",
-  "llm": "openai",
-  "prompt_text": "Cheaper alternatives to Mercury",
-  "response": "If you're looking for cheaper alternatives to mercury for specific applications, here are a few options:\n\n1. **Thermometers**: \n   - **Alcohol Thermometers**: These use alcohol dyed with a color for visibility and are suitable for many temperature measurement applications.\n   - **Digital Thermometers**: These provide electronic readings and are widely used in medical and industrial settings.\n\n2. **Barometers**:\n   - **Aneroid Barometers**: These do not use any liquid and are based on mechanical changes in a sealed, flexible metal chamber.\n\n3. **Switches and Relays**:\n   - **Solid-State Relays**: These use semiconductor devices to switch electrical circuits and are often more reliable and faster than mercury switches.\n   - **Reed Switches**: These are magnetically operated and can replace mercury tilt switches in many applications.\n\n4. **Dental Amalgams**:\n   - **Composite Resins**: These are tooth-colored materials used for dental fillings and are mercury-free.\n   - **Glass Ionomer Cement**: Another alternative for dental fillings that releases fluoride and is mercury-free.\n\n5. **Lighting**:\n   - **LEDs (Light Emitting Diodes)**: These are energy-efficient and mercury-free alternatives to fluorescent lighting.\n\n6. **Laboratory Uses**:\n   - **Digital Pressure Sensors**: These can replace mercury manometers for pressure measurements.\n   - **Electronic Balances**: These can replace mercury-based balances for precise weight measurements.\n\nWhen choosing an alternative, consider the specific requirements of your application, such as accuracy, environmental impact, and cost-effectiveness.",
-  "cached_at": "2026-05-28T07:12:24Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Amplitude",
-  "prompt_id": "UC-03",
-  "llm": "anthropic",
-  "prompt_text": "What tools do mid-market to enterprise product teams companies use to analyze product usage and user behavior?",
-  "response": "# Product Analytics Tools for Mid-Market & Enterprise\n\n## Category Leaders\n\n**Amplitude & Mixpanel**\n- Event-based analytics with strong cohort analysis\n- Self-serve dashboards; Amplitude leans more enterprise\n- Good for tracking user journeys and funnel analysis\n\n**Segment + downstream tools**\n- Data collection layer that feeds into multiple platforms\n- Gives flexibility but requires integration work\n- Often paired with Redshift/Snowflake for custom analysis\n\n## Specialized Use Cases\n\n**Retention/Engagement Focus**\n- Retention.tech, Vitally (focuses on account health)\n- Pendo (in-app behavior + product analytics)\n\n**Feature Usage**\n- Heap (auto-captures events, no tagging required)\n- Contentsquare (formerly Contentsquare)\n- Pendo, LaunchDarkly (for feature flags + usage)\n\n**Data Warehouse Native**\n- Looker, Tableau, Mode Analytics\n- Build custom dashboards on raw data (Snowflake/Redshift)\n- More engineering effort but maximum flexibility\n\n## Practical Setup (Common)\n\nMany enterprise teams use **layered approaches**:\n1. Segment/mParticle for collection\n2. Amplitude or Mixpanel for product insights\n3. Warehouse + BI tool for custom deep-dives\n4. Pendo/Appcues for in-app behavior\n\n## Key Selection Criteria\n\n- **Event volume pricing** (scales with usage)\n- **Integration ease** (IT/engineering requirements)\n- **Retention/cohort analysis** quality\n- **Custom event taxonomy** flexibility\n\nWhat specific use case matters most to your team—retention, feature adoption, or something else?",
-  "cached_at": "2026-05-27T19:26:50Z",
-  "metadata": {}
-}

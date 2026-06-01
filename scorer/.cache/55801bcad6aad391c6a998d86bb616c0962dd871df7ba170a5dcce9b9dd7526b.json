@@ -1,9 +1,0 @@
-{
-  "brand": "PostHog",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I self-host product analytics without third-party services without spending a lot on software?",
-  "response": "# Self-Hosted Product Analytics on a Budget\n\n## Lightweight Options\n\n**Plausible Analytics or Fathom clones (DIY)**\n- Use open-source alternatives like Matomo or Open Web Analytics\n- Deploy on cheap VPS ($5-10/month) via Docker\n- Minimal resource overhead\n\n**Simple log-based approach**\n- Parse server logs + basic dashboards (lightweight SQL queries)\n- Use something like Goaccess for quick visual summaries\n- Costs: just your server\n\n## Practical Stack\n\n**Storage + Processing:**\n- PostgreSQL (free) on your server\n- ClickHouse if you need serious scale (overkill initially)\n\n**Visualization:**\n- Grafana (free tier) - connects to your DB\n- Metabase (self-hosted, free) - easier UI\n- Apache Superset - lighter weight alternative\n\n**Event Collection:**\n- Lightweight JS tracker you build yourself (~100 lines)\n- Or use Segment's self-hosted collector (heavier setup)\n\n## Reality Check\n\n- **Initial investment**: 1-2 days development, ~$5-15/month hosting\n- **Maintenance burden**: You own monitoring, backups, schema changes\n- **Scale limitation**: DIY solutions get messy past ~100K events/day\n\n## When to Skip This\n\nIf you need multi-user access, sophisticated funnel analysis, or attribution modeling—the engineering cost of building it usually exceeds paying Mixpanel/Amplitude.\n\nWhat's your traffic volume and main analytics needs? That affects which approach makes sense.",
-  "cached_at": "2026-05-27T19:37:07Z",
-  "metadata": {}
-}

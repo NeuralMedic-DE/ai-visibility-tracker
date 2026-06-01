@@ -1,9 +1,0 @@
-{
-  "brand": "TestBrand",
-  "prompt_id": "CD-03",
-  "llm": "google",
-  "prompt_text": "Which AI visibility tracking software should a head of growth use?",
-  "response": "NO_AI_OVERVIEW",
-  "cached_at": "2026-06-01T14:59:53Z",
-  "metadata": {}
-}

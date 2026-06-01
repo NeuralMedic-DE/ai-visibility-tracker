@@ -1,9 +1,0 @@
-{
-  "brand": "Ashby",
-  "prompt_id": "CM-02",
-  "llm": "anthropic",
-  "prompt_text": "Ashby vs Greenhouse pricing and features",
-  "response": "# Ashby vs Greenhouse: Pricing & Features Comparison\n\n## **Pricing**\n\n| Feature | Ashby | Greenhouse |\n|---------|-------|-----------|\n| **Model** | Usage-based | Per-seat + add-ons |\n| **Starting Cost** | ~$800-1,500/month | ~$4,000-6,000+/month |\n| **Scaling** | Grows with hires | Grows with team seats |\n| **Transparency** | Public pricing | Custom quotes |\n\n## **Core Features**\n\n### **Ashby**\n✅ Built-in sourcing & outreach tools  \n✅ LinkedIn integration (native)  \n✅ Pipeline automation  \n✅ More modern, AI-first UX  \n✅ Lower learning curve  \n✅ Better for startups/scale-ups  \n\n### **Greenhouse**\n✅ Longer track record (established)  \n✅ Extensive integrations marketplace  \n✅ Advanced reporting & analytics  \n✅ Better for enterprise compliance  \n✅ Strong interview scheduling  \n✅ Preferred by larger orgs  \n\n## **Key Differences**\n\n| Aspect | Ashby | Greenhouse |\n|--------|-------|-----------|\n| **Best for** | Fast-growing, budget-conscious | Enterprise, compliance-heavy |\n| **Setup time** | Faster | More complex |\n| **Customization** | Good | Excellent |\n| **Support** | Responsive | More formal |\n| **User experience** | Modern, intuitive | Functional, dense |\n\n## **Bottom Line**\n\n- **Choose Ashby** if you're a startup/scaleup prioritizing cost & ease of use\n- **Choose Greenhouse** if you need enterprise features & have budget for training\n\n*Pricing as of 2024 – verify current rates directly*\n\nWhat's your company size/stage? Happy to give more specific advice.",
-  "cached_at": "2026-05-28T06:39:15Z",
-  "metadata": {}
-}

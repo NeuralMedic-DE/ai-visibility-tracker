@@ -1,9 +1,0 @@
-{
-  "brand": "FullStory",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable product analytics tools instead of Mouseflow",
-  "response": "# Alternatives to Mouseflow\n\n## Open Source Options\n\n### **Matomo**\n- Self-hosted web analytics platform\n- Session recordings, heatmaps, form analytics\n- Full data ownership\n- Free self-hosted version available\n- **Cost:** Free (self-hosted) or ~$19/month (cloud)\n\n### **Posthog**\n- Product analytics + session replay + feature flags\n- Open source core with cloud option\n- Better for technical teams\n- **Cost:** Free tier generous, self-hosted free\n\n### **Plausible Analytics**\n- Privacy-focused, lightweight analytics\n- Open source codebase\n- GDPR-compliant\n- **Cost:** $10-20/month (no free tier)\n\n---\n\n## Affordable Paid Tools\n\n| Tool | Session Replay | Heatmaps | Price | Best For |\n|------|---|---|---|---|\n| **Hotjar** | ✓ | ✓ | $39/mo | Small teams, easy setup |\n| **LogRocket** | ✓ | ✓ | $99/mo | Dev teams, error tracking |\n| **Clarity** | ✓ | ✓ | Free | Budget-conscious |\n| **FullStory** | ✓ | ✓ | $250+/mo | Enterprise-grade |\n| **Smartlook** | ✓ | ✓ | $20/mo | Budget option |\n\n---\n\n## Budget Pick: **Microsoft Clarity**\n- Completely free\n- Session replay + heatmaps + form analytics\n- No credit card required\n- Limited but functional\n\n**Best overall:** Posthog (free tier with powerful features) or Matomo (if you want full control)\n\nWhat's your primary use case?",
-  "cached_at": "2026-05-27T20:46:55Z",
-  "metadata": {}
-}

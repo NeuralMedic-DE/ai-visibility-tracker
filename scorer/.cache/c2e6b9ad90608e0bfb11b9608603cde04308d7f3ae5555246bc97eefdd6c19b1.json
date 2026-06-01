@@ -1,9 +1,0 @@
-{
-  "brand": "Plausible",
-  "prompt_id": "AL-01",
-  "llm": "openai",
-  "prompt_text": "Alternatives to Google Analytics for privacy-conscious SaaS founders and developers",
-  "response": "For privacy-conscious SaaS founders and developers looking for alternatives to Google Analytics, there are several options that prioritize user privacy and data protection. Here are some popular choices:\n\n1. **Matomo**: An open-source analytics platform that can be self-hosted, giving you full control over your data. It offers many features similar to Google Analytics but with a strong focus on privacy.\n\n2. **Plausible Analytics**: A lightweight, open-source analytics tool that is privacy-friendly and easy to use. It doesn’t use cookies and complies with GDPR, CCPA, and PECR.\n\n3. **Fathom Analytics**: A privacy-first analytics tool that doesn’t use cookies and is compliant with privacy laws. It offers a simple dashboard and focuses on essential metrics.\n\n4. **Simple Analytics**: Provides a straightforward analytics solution without tracking personal data or using cookies. It’s designed to be privacy-friendly and easy to implement.\n\n5. **GoAccess**: An open-source, real-time web log analyzer and interactive viewer that runs in a terminal or through a web browser. It’s a good option for those who prefer log-based analytics.\n\n6. **Ackee**: A self-hosted, Node.js-based analytics tool that respects user privacy. It doesn’t use cookies and offers a simple interface for tracking essential metrics.\n\n7. **Umami**: Another open-source, self-hosted analytics solution that is privacy-focused and easy to set up. It provides a clean interface and essential analytics without tracking personal data.\n\nThese tools offer varying levels of customization, ease of use, and privacy features, so you can choose one that best fits your needs and technical capabilities.",
-  "cached_at": "2026-05-27T20:15:21Z",
-  "metadata": {}
-}

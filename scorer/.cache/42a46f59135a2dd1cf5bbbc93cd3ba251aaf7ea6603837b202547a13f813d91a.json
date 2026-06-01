@@ -1,9 +1,0 @@
-{
-  "brand": "Brevo",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with manage contacts and automate marketing workflows from a single platform at scale?",
-  "response": "# Marketing Automation & CRM Platforms\n\nSeveral software solutions excel at managing contacts and automating marketing workflows at scale:\n\n## **Top Platforms**\n\n**HubSpot**\n- Integrated CRM + marketing automation\n- Contact management, email workflows, lead scoring\n- Strong free tier available\n\n**Marketo (Adobe)**\n- Enterprise-grade automation\n- Advanced segmentation and personalization\n- Complex workflow capabilities\n\n**Salesforce Marketing Cloud**\n- Scalable for large organizations\n- Multi-channel campaign automation\n- Deep CRM integration\n\n**Klaviyo**\n- Excellent for e-commerce\n- Email + SMS automation\n- Strong segmentation features\n\n**Active Campaign**\n- Mid-market focused\n- CRM + marketing automation + sales tools\n- Good value proposition\n\n**Mailchimp**\n- Beginner-friendly\n- Basic automation workflows\n- Good for small to medium businesses\n\n## **Key Features to Look For**\n- Centralized contact database\n- Visual workflow builders\n- Lead scoring and segmentation\n- Multi-channel automation (email, SMS, social)\n- Reporting and analytics\n- Integration capabilities\n\n**Your best choice depends on:**\n- Company size and budget\n- Industry (B2B vs. e-commerce)\n- Workflow complexity needed\n- Integration requirements\n\nWhat's your primary use case or company size? That would help narrow down the best fit.",
-  "cached_at": "2026-05-28T07:26:09Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Grip Security",
-  "prompt_id": "UC-03",
-  "llm": "anthropic",
-  "prompt_text": "What tools do security teams at enterprise companies managing SaaS risk and exposure companies use to identify risky and unmanaged SaaS app usage across your entire organization?",
-  "response": "# SaaS Risk & Exposure Management Tools\n\nEnterprise security teams typically use a layered approach with these categories of tools:\n\n## Network & Traffic Analysis\n- **Cloud Access Security Brokers (CASBs)**: Netskope, Zscaler, Forcepoint\n- **DNS/Proxy logs**: Reveal shadow IT and risky domains\n- **Network TAPs**: Capture east-west traffic for analysis\n\n## Endpoint Detection\n- **EDR platforms**: Crowdstrike, Sentinel One, Microsoft Defender\n- **Browser extensions**: Monitor SaaS logins and file transfers\n- **Agent-based tools**: Track app installations and usage patterns\n\n## Identity & Access Layer\n- **SSO/IdP logs**: Okta, Azure AD—shows all federated logins\n- **SIEM ingestion**: Centralize identity events\n- **Privileged Access Management (PAM)**: Track admin access to SaaS apps\n\n## Dedicated SaaS Security Platforms\n- **Adaptive Shield, Orca Security, Obsidian Security**: Monitor for misconfigurations\n- **SailPoint, Okta**: Identity governance and access reviews\n- **Wiz, Prisma Cloud**: Multi-cloud visibility\n\n## Data-Centric Tools\n- **DLP solutions**: Forcepoint, Symantec—prevent sensitive data exfiltration\n- **Cloud storage discovery**: Detect data in unapproved apps\n\n## Best Practice Approach\nMost mature teams combine **SSO/IdP logs + CASB + EDR** as the foundation, then layer in specialized SaaS security platforms for deeper governance.\n\nWhat's your current visibility gap—discovery, risk assessment, or access control?",
-  "cached_at": "2026-05-28T08:41:27Z",
-  "metadata": {}
-}

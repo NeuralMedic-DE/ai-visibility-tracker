@@ -1,9 +1,0 @@
-{
-  "brand": "Vellum",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is Vellum better than Braintrust for manage and version prompts for production LLM-powered product features?",
-  "response": "# Vellum vs Braintrust for Prompt Management\n\nBoth are solid, but they optimize for different priorities:\n\n## Vellum's strengths\n- **Prompt versioning & testing**: More mature UI for A/B testing variants\n- **Production monitoring**: Better observability of prompt performance in prod\n- **Workflow simplicity**: Easier onboarding if you just need prompt management\n- **Integration breadth**: Works well with multiple LLM providers out of the box\n\n## Braintrust's strengths\n- **Evaluation-first approach**: Built around testing/evals at scale (stronger here)\n- **Cost tracking**: More granular visibility into LLM spend per prompt\n- **Developer experience**: Generally lighter weight, faster to get running\n- **Open source ethos**: More transparent, some tools available locally\n\n## The real answer\n**\"Better\" depends on your setup:**\n\n- Choose **Vellum** if you need robust production monitoring and version control is your main pain point\n- Choose **Braintrust** if you're doing heavy experimentation/evaluation work before pushing to prod\n- Both handle basic versioning fine—you won't regret either choice\n\n**The harder question**: Do you actually need a specialized tool? Some teams get by with git + a lightweight wrapper, or use their LLM provider's native versioning. Only go specialized if you're managing many prompts or frequent A/B tests.\n\nWhat's your main workflow pain point right now?",
-  "cached_at": "2026-05-28T07:44:50Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Drata",
-  "prompt_id": "CM-01",
-  "llm": "anthropic",
-  "prompt_text": "Drata vs Vanta: which is better?",
-  "response": "# Drata vs Vanta\n\nBoth are solid compliance automation platforms. Here's how they compare:\n\n## **Drata** (Stronger for...)\n- **Pricing**: Generally more affordable, better for smaller companies\n- **SOC 2 focus**: Streamlined SOC 2 Type II process\n- **Ease of use**: Simpler interface, easier onboarding\n- **Startups**: Better suited for early-stage companies\n\n## **Vanta** (Stronger for...)\n- **Breadth of compliance**: Covers more frameworks (SOC 2, ISO 27001, HIPAA, GDPR, etc.)\n- **Scale**: Better for larger enterprises with complex needs\n- **Continuous monitoring**: More robust automated evidence gathering\n- **Integrations**: Deeper integration ecosystem\n- **Brand recognition**: Larger market presence\n\n## **Key decision factors:**\n1. **Compliance needs**: Need just SOC 2, or multiple frameworks?\n2. **Company size**: Early-stage (Drata) or established (Vanta)?\n3. **Budget**: Tighter budget (Drata) or flexibility (Vanta)?\n4. **Integration complexity**: Simple stack (Drata) or complex (Vanta)?\n\n**Bottom line**: Drata for lean startups focused on SOC 2; Vanta for growing companies needing broader compliance coverage.\n\nWhat's your main compliance requirement?",
-  "cached_at": "2026-05-28T08:28:38Z",
-  "metadata": {}
-}

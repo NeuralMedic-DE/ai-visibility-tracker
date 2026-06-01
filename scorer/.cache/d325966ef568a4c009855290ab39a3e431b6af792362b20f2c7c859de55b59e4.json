@@ -1,9 +1,0 @@
-{
-  "brand": "PostHog",
-  "prompt_id": "IN-03",
-  "llm": "openai",
-  "prompt_text": "How do I connect PostHog with GitHub?",
-  "response": "To connect PostHog with GitHub, you can follow these steps:\n\n1. **Log in to PostHog**: First, make sure you are logged into your PostHog account.\n\n2. **Navigate to Integrations**: Go to the 'Project Settings' in your PostHog dashboard. From there, find and click on 'Integrations'.\n\n3. **Find GitHub Integration**: Look for the GitHub integration in the list of available integrations.\n\n4. **Configure the Integration**: Click on the GitHub integration to start the configuration process. You will need to authorize PostHog to access your GitHub account. This usually involves logging into GitHub and granting the necessary permissions.\n\n5. **Set Up Webhooks (if necessary)**: Depending on what you want to achieve with the integration, you might need to set up webhooks in your GitHub repository to send data to PostHog. This can include events like push notifications, pull requests, etc.\n\n6. **Test the Integration**: Once set up, test the integration to ensure that data is being sent from GitHub to PostHog as expected.\n\n7. **Adjust Settings as Needed**: You can usually configure what specific data or events you want to track from GitHub within the PostHog integration settings.\n\nBy following these steps, you should be able to successfully connect PostHog with GitHub and start tracking relevant data and events. If you encounter any issues, refer to the PostHog documentation or support for more detailed guidance.",
-  "cached_at": "2026-05-27T19:35:12Z",
-  "metadata": {}
-}

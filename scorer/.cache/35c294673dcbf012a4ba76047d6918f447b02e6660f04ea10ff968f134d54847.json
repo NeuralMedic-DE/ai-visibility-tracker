@@ -1,9 +1,0 @@
-{
-  "brand": "Render",
-  "prompt_id": "IN-05",
-  "llm": "openai",
-  "prompt_text": "cloud infrastructure tools with native GitHub integration",
-  "response": "There are several cloud infrastructure tools that offer native GitHub integration, allowing you to streamline your development and deployment processes. Here are some popular ones:\n\n1. **GitHub Actions**: While not a cloud infrastructure tool per se, GitHub Actions is a CI/CD tool that integrates directly with GitHub repositories. It can be used to automate workflows, including deploying to cloud services.\n\n2. **Terraform**: Terraform by HashiCorp can be integrated with GitHub for version control of your infrastructure as code. You can use GitHub Actions to trigger Terraform deployments.\n\n3. **AWS CloudFormation**: AWS provides GitHub integration through AWS CodePipeline, which can automatically deploy CloudFormation templates from a GitHub repository.\n\n4. **Azure DevOps**: Azure DevOps has native integration with GitHub, allowing you to build CI/CD pipelines that deploy to Azure services.\n\n5. **Google Cloud Build**: Google Cloud Build can be triggered by changes in a GitHub repository, enabling you to automate the deployment of your infrastructure on Google Cloud Platform.\n\n6. **Pulumi**: Pulumi allows you to define infrastructure using familiar programming languages and integrates with GitHub for version control and CI/CD workflows.\n\n7. **Ansible**: Ansible can be integrated with GitHub to manage infrastructure as code, and you can use GitHub Actions to trigger Ansible playbooks.\n\n8. **Jenkins**: While not exclusively a cloud tool, Jenkins can be integrated with GitHub for CI/CD purposes, and it can deploy to various cloud platforms.\n\nThese tools facilitate the management of cloud infrastructure by leveraging GitHub for version control and automation, making it easier to implement DevOps practices.",
-  "cached_at": "2026-05-27T21:35:43Z",
-  "metadata": {}
-}

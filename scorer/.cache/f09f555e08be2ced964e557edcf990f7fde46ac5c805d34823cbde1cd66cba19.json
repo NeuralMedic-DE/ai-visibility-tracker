@@ -1,9 +1,0 @@
-{
-  "brand": "Nutshell",
-  "prompt_id": "IN-04",
-  "llm": "openai",
-  "prompt_text": "Best CRM that works with Gmail and Mailchimp",
-  "response": "When looking for a CRM that integrates well with both Gmail and Mailchimp, there are several options to consider. Here are some of the best CRMs that offer seamless integration with these platforms:\n\n1. **HubSpot CRM**: HubSpot offers a free CRM that integrates smoothly with Gmail, allowing you to track emails, manage contacts, and schedule meetings directly from your inbox. It also connects with Mailchimp, enabling you to synchronize contact lists and manage email campaigns.\n\n2. **Zoho CRM**: Zoho CRM provides integration with Gmail through its Zoho Mail add-on, allowing you to manage emails and contacts efficiently. It also integrates with Mailchimp, facilitating the synchronization of contact lists and campaign management.\n\n3. **Pipedrive**: Pipedrive offers a Gmail integration that allows you to track emails and manage contacts directly from your inbox. It also connects with Mailchimp, making it easy to sync contacts and manage email campaigns.\n\n4. **Salesforce**: Salesforce has robust integration capabilities with Gmail through its Salesforce Inbox feature, which helps in managing emails and contacts. It also integrates with Mailchimp, allowing for seamless data synchronization and campaign management.\n\n5. **Copper**: Copper is designed to work within Gmail, providing a native experience for managing contacts and tracking emails. It also integrates with Mailchimp, allowing you to sync contacts and manage email marketing efforts.\n\nThese CRMs offer strong integration capabilities with both Gmail and Mailchimp, making them excellent choices for businesses looking to streamline their email and marketing efforts.",
-  "cached_at": "2026-05-27T18:32:20Z",
-  "metadata": {}
-}

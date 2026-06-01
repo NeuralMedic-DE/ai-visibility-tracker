@@ -1,9 +1,0 @@
-{
-  "brand": "PostHog",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does PostHog integrate with GitHub?",
-  "response": "Yes. PostHog can integrate with GitHub, but not as a single built‑in “GitHub app” toggle; instead, it connects via several workflows and tools.\n\nKey options:\n\n- **Continuous AI / automation workflows:** You can use the **PostHog Mission Control / MCP** setup together with **GitHub CLI** and GitHub Actions to automatically create and manage GitHub issues based on PostHog analytics and session data.[2]  \n- **Custom automation using APIs:** PostHog exposes APIs and personal API keys that you can combine with GitHub’s API (or `gh` CLI) to build flows such as:\n  - Creating GitHub issues from PostHog-identified bugs or UX problems[2]  \n  - Running scheduled analysis and opening issues via GitHub Actions that call PostHog[2]  \n- **Open-source GitHub repos:** PostHog itself is heavily GitHub-centric (all core code and SDKs are on GitHub), which makes it easy to fork, extend, or script integrations around it.[1][5][7]\n\nIn practice, if you need PostHog ↔ GitHub integration, you will typically:\n\n1. Use PostHog’s API / MCP to pull analytics and errors.[2]  \n2. Use GitHub CLI or API to create or update issues, often orchestrated by GitHub Actions or another automation tool.[2]  \n\nSo: PostHog does integrate with GitHub, but via APIs, CLIs, and automation workflows rather than a single out‑of‑the‑box “GitHub integration” switch in the PostHog UI.",
-  "cached_at": "2026-05-27T19:42:36Z",
-  "metadata": {}
-}

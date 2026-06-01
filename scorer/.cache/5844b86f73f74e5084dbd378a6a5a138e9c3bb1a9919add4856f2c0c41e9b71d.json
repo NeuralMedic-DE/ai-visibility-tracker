@@ -1,9 +1,0 @@
-{
-  "brand": "Plausible",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Plausible integrate with WordPress?",
-  "response": "Yes. **Plausible has an official WordPress plugin and full integration with WordPress.**[1][2][3]\n\nKey points:\n\n- Plausible provides an **official WordPress plugin** that automatically adds the tracking code, handles event tracking, and lets you view stats inside your WordPress admin.[1][2][3]  \n- You can install it directly from the **Plugins → Add New** screen in WordPress by searching for **“Plausible Analytics”** and then installing and activating the official plugin.[2][3]  \n- The plugin supports **WooCommerce revenue tracking, form tracking, author/category stats, custom events, and proxy mode**, and is the **recommended setup** for WordPress sites.[1][2][3]  \n- Alternatively, you can integrate Plausible manually by inserting their tracking snippet into your theme’s header, but this is not necessary if you use the plugin.[1][6]",
-  "cached_at": "2026-05-27T20:23:16Z",
-  "metadata": {}
-}

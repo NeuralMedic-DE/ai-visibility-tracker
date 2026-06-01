@@ -1,9 +1,0 @@
-{
-  "brand": "Apollo.io",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Apollo.io integrate with Salesforce?",
-  "response": "Yes, Apollo.io integrates with Salesforce. This integration allows users to sync contacts, leads, and other data between Apollo.io and Salesforce, streamlining workflows and ensuring that both platforms have up-to-date information. This can help sales and marketing teams manage their customer relationships more effectively.",
-  "cached_at": "2026-05-27T18:02:50Z",
-  "metadata": {}
-}

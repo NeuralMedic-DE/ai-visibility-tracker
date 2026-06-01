@@ -1,9 +1,0 @@
-{
-  "brand": "Paddle",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable billing tools instead of FastSpring",
-  "response": "# Billing & Payment Processing Alternatives to FastSpring\n\n## Open Source Solutions\n\n### **Stripe + Self-Hosted UI**\n- **Cost:** Stripe fees (2.9% + $0.30) + hosting\n- **Best for:** Custom control, SaaS billing\n- **Tools:** Stripe Billing API, open-source dashboards\n- https://stripe.com/billing\n\n### **Medusa**\n- **Cost:** Free, open source\n- **Features:** Full ecommerce/subscription platform\n- **Use case:** Digital products, subscriptions, recurring billing\n- https://medusajs.com\n\n### **Saleor**\n- **Cost:** Free, open source\n- **Features:** GraphQL-based, modern architecture\n- **Good for:** Digital/physical products\n- https://saleor.io\n\n### **Invoice Ninja**\n- **Cost:** Free self-hosted or affordable cloud\n- **Features:** Invoicing, recurring billing, client portal\n- https://www.invoiceninja.com\n\n## Budget-Friendly Commercial Tools\n\n| Tool | Monthly Base | Best For |\n|------|-------------|----------|\n| **Gumroad** | Free (takes 10%) | Digital products, simple checkout |\n| **Lemonsqueezy** | Free (takes 8-10%) | Digital products, affiliates |\n| **SendOwl** | Free plan available | Digital goods, courses |\n| **Paddle** | No monthly fee | SaaS, subscriptions, global |\n| **Chargify** | $65/mo | Subscription billing |\n| **Zuora** | Custom pricing | Enterprise subscriptions |\n\n## Lightweight DIY Options\n\n- **WooCommerce** + Stripe (WordPress-based)\n- **Shopify** ($39/mo) - simpler than FastSpring for many\n- **Square Online** ($29/mo)\n\n**What's your main use case?** (SaaS subscriptions, digital products, physical goods?)",
-  "cached_at": "2026-05-28T07:00:04Z",
-  "metadata": {}
-}

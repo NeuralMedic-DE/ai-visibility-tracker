@@ -1,9 +1,0 @@
-{
-  "brand": "Make",
-  "prompt_id": "AL-05",
-  "llm": "openai",
-  "prompt_text": "Open source or affordable automation tools instead of n8n",
-  "response": "If you're looking for open-source or affordable automation tools as alternatives to n8n, here are some options you might consider:\n\n1. **Node-RED**: An open-source flow-based development tool for visual programming, ideal for wiring together hardware devices, APIs, and online services.\n\n2. **Huginn**: Another open-source tool that allows you to create agents to automate tasks and workflows. It's somewhat similar to IFTTT but self-hosted.\n\n3. **Integromat (now Make)**: While not open-source, Make offers a free tier and affordable pricing plans. It provides a visual platform to connect apps and automate workflows.\n\n4. **Zapier**: Although not open-source, Zapier offers a free tier with limited tasks and is widely used for automating workflows between different web applications.\n\n5. **Automate.io**: Offers a free plan with basic features and is a cost-effective alternative for automating tasks across various apps.\n\n6. **Apache NiFi**: An open-source data automation tool that supports powerful and scalable directed graphs of data routing, transformation, and system mediation logic.\n\n7. **Baserow**: While primarily a no-code database tool, it can be used to automate workflows and is open-source.\n\n8. **Parabola**: Offers a free plan and is designed for automating repetitive tasks and workflows, particularly for data processing.\n\nEach of these tools has its own strengths and ideal use cases, so the best choice will depend on your specific needs and technical requirements.",
-  "cached_at": "2026-05-28T08:53:36Z",
-  "metadata": {}
-}

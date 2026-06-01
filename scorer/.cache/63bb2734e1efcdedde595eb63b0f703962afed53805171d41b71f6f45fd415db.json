@@ -1,9 +1,0 @@
-{
-  "brand": "ChartMogul",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best SaaS analytics for founders and finance teams at subscription SaaS businesses?",
-  "response": "# Top SaaS Analytics Platforms for Subscription Businesses\n\n## Best Overall Options\n\n**Baremetrics** - Strong choice for founders\n- Focused specifically on subscription metrics (MRR, ARR, churn, LTV)\n- Clean dashboards that don't require finance expertise\n- Direct integrations with Stripe, Shopify, etc.\n- Affordable for early-stage companies\n\n**Profitwell** (now Paddle Analytics)\n- Deep subscription-specific metrics\n- Cohort analysis and benchmarking\n- Free tier available\n- Strong at predicting revenue trends\n\n## For More Advanced Finance Teams\n\n**ChartMogul**\n- Best-in-class retention/churn analysis\n- Powerful segmentation capabilities\n- Good for multi-currency/multi-product companies\n- Higher pricing tier\n\n**Lattice** or **Tableau**\n- More customizable for complex needs\n- Better if you need enterprise-level dashboards\n- Steeper learning curve\n\n## What to Prioritize\n\nAsk yourself:\n- Do you need **just the essentials** (MRR, churn, LTV)? → Baremetrics\n- Do you want **benchmarking + cohort analysis**? → Profitwell\n- Do you need **deep retention analysis**? → ChartMogul\n- Are you building **complex financial models**? → Custom BI tool\n\n**Reality check:** Most early-stage founders are best served by something simple and integrated with their payment processor rather than overly complex analytics.\n\nWhat stage is your business at? That would help narrow it down further.",
-  "cached_at": "2026-05-28T06:54:43Z",
-  "metadata": {}
-}

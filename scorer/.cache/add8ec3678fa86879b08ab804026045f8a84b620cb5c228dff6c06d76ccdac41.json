@@ -1,9 +1,0 @@
-{
-  "brand": "Drip",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which marketing automation software should a E-commerce Marketing Lead or Head of CRM at a DTC brand use?",
-  "response": "# Best Marketing Automation Software for DTC E-commerce\n\n## Top Tier for DTC Brands\n\n**Klaviyo**\n- Best overall for DTC e-commerce\n- Superior email/SMS segmentation\n- Native Shopify/WooCommerce integration\n- Strong for retention-focused campaigns\n- Excellent customer data platform capabilities\n\n**Omnisend**\n- Affordable Klaviyo alternative\n- Strong SMS + email automation\n- Good for growing brands ($0-50M ARR)\n- Solid integrations with major platforms\n\n## By Use Case\n\n**If you need deep customer insights:**\n- **mParticle** or **Segment** (CDP-focused)\n\n**If SMS is equally important to email:**\n- **Klaviyo** or **Attentive**\n\n**If you're budget-conscious:**\n- **Omnisend**, **Drip**, or **ConvertKit**\n\n**If you want Salesforce-level complexity:**\n- **HubSpot** (if you have resources to implement)\n\n**If you need social + email automation:**\n- **Klaviyo** (recent improvements) or **ActiveCampaign**\n\n## Key Evaluation Criteria for Your Role\n- Pre-built ecommerce templates\n- Abandonment cart/post-purchase automation\n- Audience segmentation sophistication\n- SMS capabilities\n- Reporting dashboard quality\n- API/integration flexibility\n\n**Most common choice:** Klaviyo dominates the DTC space for good reason—it's built for exactly this use case.\n\nWhat's your current brand size/revenue? That would help narrow recommendations further.",
-  "cached_at": "2026-05-28T07:32:37Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Zapier",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best automation that works with Google Sheets and Slack",
-  "response": "# Best Google Sheets + Slack Automations\n\n## Top Tools\n\n### **1. Zapier** (Most Versatile)\n**Best for:** Complex multi-step workflows\n- Create Slack notifications when rows are added/modified\n- Post Slack messages to Google Sheets\n- Conditional logic and formatting\n- **Cost:** Free tier available; $19.99+/month for advanced\n- **Ease:** Moderate learning curve\n\n### **2. Make (formerly Integromat)**\n**Best for:** Visual workflow builders\n- Real-time syncing between Sheets & Slack\n- More complex scenarios than Zapier\n- **Cost:** Free tier; $9.99+/month\n- **Ease:** Steeper learning curve but powerful\n\n### **3. Google Apps Script** (Free!)\n**Best for:** Budget-conscious teams\n- Native to Google Sheets\n- Triggers: onEdit, onOpen, time-based\n- Limited but sufficient for basic needs\n- **Cost:** Free\n- **Ease:** Requires some JavaScript knowledge\n\n---\n\n## Most Common Use Cases\n\n| Use Case | Tool | Setup Time |\n|----------|------|-----------|\n| Alert on new rows | Zapier/Apps Script | 5 min |\n| Daily summary digest | Zapier/Make | 15 min |\n| Form responses → Sheet → Slack | Zapier | 10 min |\n| Real-time data sync | Make | 20 min |\n| Approval workflows | Zapier | 20 min |\n\n---\n\n## Quick Start Recommendation\n\n**For beginners:** Start with **Zapier** (easiest UI)  \n**For power users:** Use **Google Apps Script** (free + flexible)  \n**For complex workflows:** Try **Make** (more robust)\n\n**What's your specific use case?** I can provide exact setup steps.",
-  "cached_at": "2026-05-28T08:51:28Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Neon",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Neon with Vercel?",
-  "response": "# Connecting Neon with Vercel\n\nHere's how to set up a Neon PostgreSQL database with Vercel:\n\n## 1. **Create a Neon Project**\n- Go to [neon.tech](https://neon.tech) and sign up\n- Create a new project\n- Copy your connection string (it looks like: `postgresql://user:password@host/dbname`)\n\n## 2. **Add to Vercel Environment Variables**\n\n### Option A: Via Vercel Dashboard\n1. Go to your Vercel project → **Settings** → **Environment Variables**\n2. Add a new variable (e.g., `DATABASE_URL`)\n3. Paste your Neon connection string\n4. Select which environments it applies to (Development, Preview, Production)\n5. Click **Save and Deploy**\n\n### Option B: Via `vercel` CLI\n```bash\nvercel env add DATABASE_URL\n# Paste your Neon connection string when prompted\n```\n\n## 3. **Update Your Code**\n\nAccess the connection string in your application:\n\n**Node.js/Next.js:**\n```javascript\nconst connectionString = process.env.DATABASE_URL;\n```\n\n**Example with postgres client:**\n```javascript\nimport { sql } from '@vercel/postgres';\n\nexport async function GET() {\n  const result = await sql`SELECT * FROM users`;\n  return Response.json(result);\n}\n```\n\n## 4. **Redeploy**\n```bash\nvercel redeploy\n```\n\n## Tips\n- Use **pooling connections** in Neon for serverless (recommended)\n- Test locally with `.env.local` first\n- Keep your connection string private\n- Use different Neon branches for dev/prod if needed\n\nNeed help with a specific framework?",
-  "cached_at": "2026-05-28T06:18:04Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Reply.io",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with use AI to personalize messages and continuously find new qualified prospects at scale?",
-  "response": "There are several software platforms that use AI to personalize messages and find new qualified prospects at scale. Some popular ones include:\n\n1. **HubSpot**: Offers AI-driven tools for marketing automation, including personalized email campaigns and lead scoring to identify qualified prospects.\n\n2. **Salesforce Pardot**: Uses AI to personalize marketing efforts and automate lead generation and nurturing processes.\n\n3. **Marketo Engage**: Provides AI-powered marketing automation to personalize customer interactions and identify potential leads.\n\n4. **Outreach**: Uses AI to optimize sales engagement, personalize communication, and identify new prospects.\n\n5. **Drift**: Offers conversational AI to personalize interactions with website visitors and qualify leads in real-time.\n\n6. **Conversica**: Uses AI to engage with leads through personalized email conversations, helping to qualify and nurture them.\n\n7. **ActiveCampaign**: Provides AI-driven marketing automation to personalize messaging and automate lead scoring.\n\nThese platforms typically integrate with CRM systems and other marketing tools to streamline workflows and enhance the effectiveness of sales and marketing efforts.",
-  "cached_at": "2026-05-28T07:21:23Z",
-  "metadata": {}
-}

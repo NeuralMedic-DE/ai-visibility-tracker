@@ -1,9 +1,0 @@
-{
-  "brand": "LeadIQ",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which CRM software should a SDR manager or sales ops lead use?",
-  "response": "# CRM Options for SDR Managers & Sales Ops Leads\n\nThe \"best\" depends on your setup, but here are the top contenders:\n\n## **Primary CRMs**\n\n**Salesforce**\n- Industry standard, most integrations\n- Customizable for complex SDR workflows\n- Steeper learning curve & cost\n- Best if: Enterprise or complex sales motion\n\n**HubSpot**\n- Easier to set up and use\n- Good free tier for smaller teams\n- Strong native automation\n- Best if: Mid-market or growing teams\n\n**Pipedrive**\n- Pipeline-focused (great for SDR work)\n- Intuitive UI, faster implementation\n- Better pricing than Salesforce\n- Best if: You want simplicity without sacrificing power\n\n## **Key Evaluation Criteria**\n\nFor SDR management specifically, prioritize:\n- **Cadence/automation tools** - native or integrated (Outreach, Salesloft, Apollo)\n- **Activity tracking** - calls, emails, meetings logged easily\n- **Team visibility** - dashboards for manager oversight\n- **Integration ecosystem** - email, phone, LinkedIn, enrichment tools\n- **Reporting** - SDR-specific metrics (dials, conversations, qualified meetings)\n\n## **Quick Take**\n\n- **Growing teams (< 50 SDRs):** HubSpot or Pipedrive\n- **Enterprise:** Salesforce\n- **Speed/implementation:** Pipedrive or HubSpot\n\nWhat's your team size and current stack? That would help narrow it down.",
-  "cached_at": "2026-05-27T18:42:46Z",
-  "metadata": {}
-}

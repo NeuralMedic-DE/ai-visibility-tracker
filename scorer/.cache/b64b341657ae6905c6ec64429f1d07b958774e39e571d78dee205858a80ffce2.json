@@ -1,9 +1,0 @@
-{
-  "brand": "Amplemarket",
-  "prompt_id": "UC-03",
-  "llm": "anthropic",
-  "prompt_text": "What tools do outbound sales teams at B2B companies companies use to find and contact ideal prospects automatically?",
-  "response": "# Key Tools for Outbound B2B Sales Automation\n\n## Prospecting & Data Enrichment\n- **Hunter.io, RocketReach, Clearbit** – Find business emails and contact details\n- **Apollo.io, ZoomInfo, Lusha** – Comprehensive databases with verification\n- **LinkedIn Sales Navigator** – Account-based prospecting with filters\n\n## Outreach Automation\n- **Outreach.io, Salesloft** – Multi-channel cadences (email, calls, tasks)\n- **Lemlist, Instantly** – Personalized email sequences at scale\n- **Clay, 6sense** – Account intelligence + automated outreach workflows\n\n## List Building & Targeting\n- **Datagon, Seamless.ai** – Build lists based on company/person criteria\n- **Terminus, Demandbase** – Account-based marketing + targeting\n- **Cognism, Apollo** – Built-in lead generation with filters\n\n## Email Verification\n- **NeverBounce, Bulk Email Checker** – Reduce bounce rates before sending\n\n## CRM Integration\nMost tools plug into **Salesforce, HubSpot, Pipedrive** to log activities automatically\n\n## Reality Check\nThese tools excel at **finding and reaching** prospects, but effectiveness depends on:\n- Quality of targeting (GTM fit, not just list size)\n- Personalization beyond template variables\n- Timing and message relevance\n- Follow-up strategy\n\nMany teams combine 2-3 tools rather than relying on one platform.\n\nWhat's your current bottleneck—finding contacts, reaching them, or conversion?",
-  "cached_at": "2026-05-27T19:04:22Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Supermetrics",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is Supermetrics better than Fivetran for automate marketing reporting across all channels?",
-  "response": "# Supermetrics vs Fivetran for Marketing Reporting\n\nThey actually solve different problems, so it depends on your specific needs:\n\n## **Supermetrics**\n**Better for:** Multi-channel marketing reporting\n- Native connectors to 100+ marketing platforms (Google Ads, Meta, LinkedIn, etc.)\n- Built for marketers—dashboard and spreadsheet automation\n- Faster setup for marketing-specific use cases\n- Lower learning curve\n\n## **Fivetran**\n**Better for:** Enterprise data infrastructure\n- Cloud data warehouse focus (Snowflake, BigQuery, Redshift)\n- Handles complex data pipelines and transformations\n- Better for organizations needing centralized data governance\n- Steeper setup but more flexible long-term\n\n## **For your scenario (cross-channel marketing reporting):**\n\n**Choose Supermetrics if you want:**\n- Quick implementation\n- Reports/dashboards in Google Sheets, Data Studio, Looker\n- Marketing-focused features\n\n**Choose Fivetran if you:**\n- Already use a data warehouse\n- Need sophisticated data modeling\n- Have a data engineering team\n- Want one platform for all data sources (not just marketing)\n\n## **Real talk**\nMany teams use **both**: Fivetran for infrastructure, Supermetrics for reporting layer. But if you're starting fresh with just marketing reporting needs, Supermetrics is the faster path.\n\nWhat's your current data setup like? That would help narrow it down.",
-  "cached_at": "2026-05-27T20:37:09Z",
-  "metadata": {}
-}

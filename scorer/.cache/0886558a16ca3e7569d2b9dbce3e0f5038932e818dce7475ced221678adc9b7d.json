@@ -1,9 +1,0 @@
-{
-  "brand": "SafeBase",
-  "prompt_id": "IN-04",
-  "llm": "perplexity",
-  "prompt_text": "Best security that works with Salesforce and HubSpot",
-  "response": "The **best security setup** for Salesforce and HubSpot is to use a **dedicated integration user** with **minimal permissions** and **OAuth-based authentication** instead of sharing an admin login.[1][2] This reduces over-permissioning, makes auditing easier, and helps prevent sync failures caused by password changes or security-policy updates.[1]\n\n- **Use a dedicated integration user** for each connection rather than a human admin account.[1]\n- Give that user **only the permissions the integration needs**.[1]\n- Prefer **OAuth 2.0** or Salesforce’s **JWT Bearer flow** for passwordless authentication where supported.[1][2]\n- Keep credentials in a **secure password manager** if any secrets still need to be stored.[1]\n- If you have multiple systems, use **one integration user per integration** to isolate issues and improve auditability.[1]\n\nIf you want the strongest practical option, the native HubSpot–Salesforce connector plus a dedicated integration user is usually the safest baseline because it avoids unnecessary custom code while still supporting controlled sync between the two systems.[2] If you need stricter governance, add SSO, field-level permission limits, audit logging, and periodic access reviews on top of that setup.[1][3]\n\nIf you want, I can also recommend the **best security tool category** for this setup, such as an **iPaaS**, **SSO/identity layer**, or **secrets manager**.",
-  "cached_at": "2026-05-28T08:45:48Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Pendo",
-  "prompt_id": "AL-01",
-  "llm": "anthropic",
-  "prompt_text": "Alternatives to Amplitude for enterprise SaaS product teams",
-  "response": "# Alternatives to Amplitude for Enterprise SaaS\n\n## **Premium/Enterprise-Tier Options**\n\n### **Mixpanel**\n- Strong event-based analytics and user segmentation\n- Excellent retention/funnel analysis\n- Better real-time capabilities than Amplitude\n- Good for engagement-focused products\n- *Trade-off: Steeper learning curve*\n\n### **Heap**\n- Automatic event capture (no instrumentation needed)\n- Good for teams wanting less technical overhead\n- Solid retroactive analysis capabilities\n- *Trade-off: Less flexible than event-based systems*\n\n### **Segment + downstream tools**\n- Customer data platform approach\n- Sends data to multiple analytics/marketing tools\n- Maximum flexibility and control\n- *Trade-off: Requires building your own stack*\n\n## **Specialized Alternatives**\n\n| Tool | Best For | Key Strength |\n|------|----------|--------------|\n| **Looker/Tableau** | BI-heavy teams | Custom dashboarding & SQL queries |\n| **Metabase** | Self-hosted preference | Open-source, cost-effective |\n| **Plausible** | Privacy-first needs | GDPR-compliant, simpler |\n| **June** | Revenue metrics | B2B SaaS-specific features |\n| **Posthog** | Full control | Open-source product analytics |\n\n## **Decision Factors**\n\n- **Data ownership**: PostHog, self-hosted options\n- **Real-time dashboards**: Mixpanel\n- **Low instrumentation**: Heap\n- **BI integration**: Looker, Tableau\n- **Budget constraints**: Metabase, PostHog\n- **B2B focus**: June, Amplitude (still solid for this)\n\n**What's your main pain point with Amplitude?** That would help narrow recommendations.",
-  "cached_at": "2026-05-27T19:47:48Z",
-  "metadata": {}
-}

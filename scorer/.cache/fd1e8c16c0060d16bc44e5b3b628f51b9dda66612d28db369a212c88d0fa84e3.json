@@ -1,9 +1,0 @@
-{
-  "brand": "Render",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Render with GitHub?",
-  "response": "# Connecting Render with GitHub\n\nHere's how to link your Render account with GitHub:\n\n## 1. **Sign In to Render**\n- Go to [render.com](https://render.com) and log in (or create an account)\n\n## 2. **Connect Your GitHub Account**\n- In the Render dashboard, click your **Account** (bottom left)\n- Select **Connected Services** or **GitHub**\n- Click **Connect GitHub**\n- You'll be redirected to GitHub to authorize Render\n- Click **Authorize** to grant Render access to your repositories\n\n## 3. **Deploy from GitHub**\nOnce connected, you can:\n- Click **New +** → **Web Service** (or other service type)\n- Select **GitHub** as the source\n- Choose your repository and branch\n- Configure your service settings\n- Click **Create Web Service**\n\n## 4. **Optional: Grant Repository Access**\nIf you want Render to access private repos:\n- Go to GitHub Settings → **Applications** → **Authorized OAuth Apps**\n- Find Render and click it\n- Click **Grant** next to specific repositories (if using selective permissions)\n\n## 5. **Enable Auto-Deploy (Optional)**\nRender can automatically redeploy when you push to GitHub:\n- This is usually enabled by default\n- Check your service's **Settings** → **Deploy** to confirm\n\n---\n\n**Pro tip:** Once connected, any push to your selected branch will trigger an automatic deployment!\n\nNeed help with a specific service type?",
-  "cached_at": "2026-05-27T21:38:30Z",
-  "metadata": {}
-}

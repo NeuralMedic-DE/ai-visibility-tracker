@@ -1,9 +1,0 @@
-{
-  "brand": "Ashby",
-  "prompt_id": "IN-05",
-  "llm": "openai",
-  "prompt_text": "ATS tools with native Slack integration",
-  "response": "There are several Applicant Tracking Systems (ATS) that offer native Slack integration, allowing teams to streamline their recruitment processes and improve communication. Here are a few popular ones:\n\n1. **Greenhouse**: Greenhouse offers a Slack integration that allows teams to receive notifications about candidate updates, interview schedules, and feedback requests directly in Slack channels.\n\n2. **Lever**: Lever's Slack integration enables users to receive alerts about new candidates, interview reminders, and feedback requests. It also allows for easy sharing of candidate profiles within Slack.\n\n3. **Breezy HR**: Breezy HR provides a Slack integration that helps teams stay updated on candidate progress, interview schedules, and feedback collection directly within Slack.\n\n4. **Workable**: Workable's integration with Slack allows teams to receive notifications about new applications, interview schedules, and candidate feedback, helping to keep everyone in the loop.\n\n5. **Recruitee**: Recruitee offers a Slack integration that sends notifications about new candidates, interview updates, and feedback requests, facilitating seamless communication among hiring teams.\n\nThese integrations typically help streamline the recruitment process by keeping all team members informed and reducing the need to switch between different platforms.",
-  "cached_at": "2026-05-28T06:39:33Z",
-  "metadata": {}
-}

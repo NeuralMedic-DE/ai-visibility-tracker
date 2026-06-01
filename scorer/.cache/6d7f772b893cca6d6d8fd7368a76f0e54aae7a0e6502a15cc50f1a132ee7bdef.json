@@ -1,9 +1,0 @@
-{
-  "brand": "Nudge Security",
-  "prompt_id": "IN-05",
-  "llm": "openai",
-  "prompt_text": "security tools with native Okta integration",
-  "response": "There are several security tools that offer native integration with Okta, allowing for seamless identity and access management. Here are some popular ones:\n\n1. **Palo Alto Networks**: Their security platform integrates with Okta for identity-based security policies and user authentication.\n\n2. **Splunk**: This tool can integrate with Okta to provide insights into user activities and security events.\n\n3. **Cisco Duo**: Offers multi-factor authentication and integrates with Okta to enhance security for user logins.\n\n4. **Zscaler**: Provides cloud security solutions that integrate with Okta for user authentication and access control.\n\n5. **CyberArk**: Their privileged access management solutions can integrate with Okta to manage and secure privileged accounts.\n\n6. **Proofpoint**: Offers email security solutions that can integrate with Okta for identity-based threat protection.\n\n7. **AWS IAM Identity Center (formerly AWS SSO)**: Integrates with Okta to provide single sign-on and access management for AWS resources.\n\n8. **Slack**: Integrates with Okta for secure user authentication and single sign-on capabilities.\n\n9. **ServiceNow**: Offers integration with Okta for streamlined user provisioning and access management.\n\n10. **Box**: A cloud content management platform that integrates with Okta for secure access and collaboration.\n\nThese integrations typically enhance security by leveraging Okta's identity management capabilities, providing a unified approach to managing user identities and access across various platforms and services.",
-  "cached_at": "2026-05-28T08:38:47Z",
-  "metadata": {}
-}

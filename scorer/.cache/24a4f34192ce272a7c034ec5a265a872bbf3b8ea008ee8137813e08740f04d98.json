@@ -1,9 +1,0 @@
-{
-  "brand": "Raycast",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to Spotlight",
-  "response": "# Cheaper Alternatives to Spotlight\n\n## Free Options\n- **Alfred (Free tier)** - Similar launcher with decent features\n- **Everything** (Windows) - Ultra-fast file search\n- **Ulauncher** (Linux) - Lightweight app launcher\n- **Cerebro** - Cross-platform launcher with plugins\n\n## Affordable/One-time Purchase\n- **Alfred** ($29) - More powerful than free version\n- **LaunchBar** ($30) - macOS alternative with automation\n- **Quick Search Bar** ($10-15) - Simpler macOS option\n\n## Subscription-based (Budget)\n- **Raycast** (Free/~$10/month) - Modern alternative with workflows\n- **Wox** - Free, open-source for Windows\n- **Synapse** - Free Windows alternative\n\n## Integrated Options\n- **Windows Search** - Built-in (improving in recent versions)\n- **GNOME Activities** - Free on Linux\n- **KDE Krunner** - Free on Linux\n\n## Best Value\n- **Raycast** (free tier) offers excellent features without cost\n- **Alfred free version** strikes good balance\n- **Everything** if you just need fast file search\n\n**What's your OS and primary use case?** That would help narrow down the best option for you.",
-  "cached_at": "2026-05-28T06:25:15Z",
-  "metadata": {}
-}

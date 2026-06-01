@@ -1,9 +1,0 @@
-{
-  "brand": "Planhat",
-  "prompt_id": "CM-02",
-  "llm": "anthropic",
-  "prompt_text": "Planhat vs ChurnZero pricing and features",
-  "response": "# Planhat vs ChurnZero: Pricing & Features\n\n## Pricing Overview\n\n| Aspect | Planhat | ChurnZero |\n|--------|---------|-----------|\n| **Model** | Usage-based + per-feature | Per seat (user-based) |\n| **Entry Point** | ~$500-1,000/mo | ~$1,000+/mo |\n| **Scaling** | Increases with MRR tracked | Increases with team seats |\n| **Custom** | Yes | Yes |\n\n---\n\n## Key Features Comparison\n\n### Planhat\n✅ **Strengths:**\n- Strong playbook automation\n- Integrated NPS/survey tools\n- Health scoring dashboard\n- Real-time notifications\n- Lower cost for small/mid teams\n- Timeline view for customer journey\n\n❌ **Gaps:**\n- Smaller marketplace of integrations\n- Less mature reporting\n- Smaller user community\n\n### ChurnZero\n✅ **Strengths:**\n- Deeper Salesforce integration\n- Comprehensive reporting & dashboards\n- Larger app ecosystem\n- Multi-tenant account support\n- Longer track record (established 2013)\n- White-label options\n\n❌ **Gaps:**\n- Per-seat model gets expensive\n- Higher baseline cost\n- Steeper learning curve\n\n---\n\n## Decision Framework\n\n**Choose Planhat if:**\n- Budget-conscious\n- Want quick implementation\n- Need strong automation\n- Team < 10 users\n\n**Choose ChurnZero if:**\n- Heavy Salesforce user\n- Need advanced reporting\n- Building internal accountability\n- Enterprise requirements\n- Willing to pay for maturity\n\nBoth excel at CS automation—your choice depends on **team size, budget, and integration depth needed**.",
-  "cached_at": "2026-05-28T08:11:52Z",
-  "metadata": {}
-}

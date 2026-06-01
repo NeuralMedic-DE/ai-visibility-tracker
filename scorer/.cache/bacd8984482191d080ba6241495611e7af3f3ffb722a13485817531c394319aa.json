@@ -1,9 +1,0 @@
-{
-  "brand": "Plausible",
-  "prompt_id": "AL-02",
-  "llm": "openai",
-  "prompt_text": "Cheaper alternatives to Mixpanel",
-  "response": "If you're looking for cheaper alternatives to Mixpanel for product analytics, consider the following options:\n\n1. **Google Analytics**: While traditionally used for web analytics, it can be configured to track events and user interactions, and it's free for most use cases.\n\n2. **Amplitude**: Offers a free tier with basic analytics features, and it's known for its user-friendly interface and strong event tracking capabilities.\n\n3. **Heap**: Provides automatic event tracking without requiring manual instrumentation, with a free tier available for smaller projects.\n\n4. **PostHog**: An open-source product analytics tool that you can host yourself, which can be a cost-effective solution if you have the technical resources.\n\n5. **Plausible Analytics**: A privacy-friendly, simple analytics tool that can be more affordable, especially for smaller websites.\n\n6. **Matomo**: An open-source analytics platform that can be self-hosted, offering a more privacy-focused alternative to traditional analytics tools.\n\n7. **Fathom Analytics**: A privacy-first analytics tool that is simple to use and offers straightforward pricing.\n\n8. **Simple Analytics**: Focuses on privacy and simplicity, providing basic analytics features at a lower cost.\n\nEach of these tools has its own strengths and weaknesses, so the best choice depends on your specific needs, such as the level of detail you require, your budget, and your technical capabilities.",
-  "cached_at": "2026-05-27T20:15:26Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Hightouch",
-  "prompt_id": "AL-02",
-  "llm": "openai",
-  "prompt_text": "Cheaper alternatives to Omnata",
-  "response": "If you're looking for cheaper alternatives to Omnata, which I assume is a product or service in a specific category, it would be helpful to know what Omnata specifically refers to. However, if Omnata is related to software, data integration, or business tools, here are some general alternatives that might be more budget-friendly:\n\n1. **Zapier** - A popular tool for automating workflows between different apps and services.\n2. **Integromat (now Make)** - Offers automation and integration services similar to Zapier, often at a lower cost.\n3. **IFTTT (If This Then That)** - Provides simple automation between apps and devices.\n4. **Microsoft Power Automate** - Part of the Microsoft Power Platform, it offers automation solutions, especially for users within the Microsoft ecosystem.\n5. **Tray.io** - Offers a flexible platform for automating complex processes.\n6. **Automate.io** - Another tool for connecting apps and automating workflows, often at competitive pricing.\n\nIf Omnata refers to something else, such as a specific product in a different category, please provide more details so I can offer more targeted alternatives.",
-  "cached_at": "2026-05-28T09:05:24Z",
-  "metadata": {}
-}

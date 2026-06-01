@@ -1,9 +1,0 @@
-{
-  "brand": "Leapsome",
-  "prompt_id": "IN-03",
-  "llm": "openai",
-  "prompt_text": "How do I connect Leapsome with Slack?",
-  "response": "To connect Leapsome with Slack, follow these steps:\n\n1. **Log in to Leapsome**: Start by logging into your Leapsome account.\n\n2. **Access Integrations**: Go to the \"Settings\" section, which you can usually find in the bottom left corner of the Leapsome interface. From there, navigate to the \"Integrations\" tab.\n\n3. **Select Slack**: In the integrations list, find and select Slack.\n\n4. **Authorize Integration**: Click on the option to connect Slack. You will be redirected to Slack's authorization page.\n\n5. **Choose Workspace**: If prompted, select the Slack workspace you want to connect with Leapsome.\n\n6. **Authorize Access**: Review the permissions that Leapsome is requesting and click \"Allow\" to authorize the integration.\n\n7. **Configure Notifications**: Once connected, you can configure which notifications you want to receive in Slack, such as feedback requests, survey reminders, or goal updates.\n\nAfter completing these steps, Leapsome should be successfully integrated with your Slack workspace, allowing you to receive notifications and updates directly in Slack.",
-  "cached_at": "2026-05-28T06:37:18Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Amplemarket",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Apollo.io vs alternatives: what should I switch to?",
-  "response": "# Apollo.io Alternatives Worth Considering\n\n**If you're frustrated with Apollo specifically, here's what matters:**\n\n## Best for different needs:\n\n**Hunter.io**\n- Stronger email finding accuracy\n- Better for bulk prospecting\n- Simpler interface, lower learning curve\n\n**Clearbit**\n- Superior data quality on existing contacts\n- Better for enrichment vs. cold outreach\n- Pricier but more reliable\n\n**ZoomInfo**\n- Most comprehensive B2B database\n- Enterprise-focused\n- Expensive but industry standard\n\n**Lemlist / Instantly**\n- Better email deliverability\n- Built-in warm-up features\n- Good if deliverability is your main pain point\n\n**RocketReach**\n- Solid middle ground on price/quality\n- Good mobile app\n- Decent accuracy for direct dials\n\n## Real talk:\n\nBefore switching, clarify what's actually broken:\n- **Bad data quality?** → Hunter or Clearbit\n- **Poor email deliverability?** → Lemlist/Instantly\n- **Too expensive?** → Hunter or RocketReach\n- **Clunky workflow?** → Check if it's the tool or your process\n\nMost alternatives have similar limitations—no platform is perfect. Sometimes the issue is implementation rather than the tool itself.\n\n**What's your main frustration with Apollo?** That'd help narrow down the actual best fit.",
-  "cached_at": "2026-05-27T19:03:54Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Plausible",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best web analytics for privacy-conscious SaaS founders and developers?",
-  "response": "# Best Privacy-Conscious Web Analytics Options\n\n## Top Tier (GDPR/privacy-first)\n\n**Plausible Analytics**\n- Simple, cookieless tracking\n- No personal data stored\n- GDPR compliant by default\n- ~$20/month starting\n- Great for small-to-mid SaaS\n\n**Fathom Analytics**\n- Similar to Plausible, very privacy-focused\n- Straightforward dashboard\n- Server-side processing only\n- ~$19/month\n\n**Simple Analytics**\n- EU-based, strong privacy stance\n- No cookies needed\n- Clean UI, good for developers\n- ~€20/month\n\n## Self-Hosted Options\n\n**Plausible Community Edition**\n- Self-host the open-source version\n- Full control, one-time setup cost\n- Good if you have infrastructure\n\n**Matomo**\n- Most feature-rich self-hosted option\n- Can be fully cookieless\n- Larger learning curve\n- Free open-source version available\n\n## Key Considerations\n\n- **Consent management**: Privacy-first tools eliminate cookie consent banner friction\n- **Cost vs. features**: Plausible/Fathom prioritize simplicity over exhaustive metrics\n- **Data residency**: Some founders prefer EU-based providers (Simple Analytics)\n- **Extensibility**: Self-hosted options offer more customization\n\n## My Take\n\nFor most SaaS founders: **Plausible** hits the sweet spot of privacy, simplicity, and affordability. You get legitimate analytics without the compliance headaches.\n\nWhat's your current setup or main pain point?",
-  "cached_at": "2026-05-27T20:16:43Z",
-  "metadata": {}
-}

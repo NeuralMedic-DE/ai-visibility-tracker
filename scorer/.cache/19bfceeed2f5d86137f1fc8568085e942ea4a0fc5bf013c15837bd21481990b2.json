@@ -1,9 +1,0 @@
-{
-  "brand": "Weights & Biases",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable MLOps tools instead of Comet",
-  "response": "# Open Source & Affordable MLOps Alternatives to Comet\n\n## **Completely Free & Open Source**\n\n### **MLflow**\n- Experiment tracking, model registry, deployment\n- Industry standard, widely adopted\n- Self-hosted option\n- [mlflow.org](https://mlflow.org)\n\n### **Weights & Biases (W&B)**\n- Free tier for open source/personal projects\n- Excellent UI and collaboration features\n- [wandb.ai](https://wandb.ai)\n\n### **Neptune.ai**\n- Generous free tier (500GB/month)\n- Good for small teams\n- [neptune.ai](https://neptune.ai)\n\n### **DVC (Data Version Control)**\n- Open source, Git-like for ML\n- Experiment tracking + data versioning\n- [dvc.org](https://dvc.org)\n\n### **Hydra** (Meta)\n- Configuration management\n- Lightweight, focuses on experiment management\n- [hydra.cc](https://hydra.cc)\n\n---\n\n## **Self-Hosted Options**\n\n| Tool | Cost | Best For |\n|------|------|----------|\n| **MLflow** | Free (OSS) | General tracking, model registry |\n| **Kubeflow** | Free (OSS) | Kubernetes workflows |\n| **Airflow** | Free (OSS) | Pipeline orchestration |\n| **JupyterHub** | Free (OSS) | Team notebooks |\n\n---\n\n## **Budget-Friendly Commercial**\n\n- **Weights & Biases**: $0-400/month (free tier available)\n- **Neptune**: $0-500/month (free tier generous)\n- **Aim**: Free & open source\n- **Guild AI**: Free community version\n\n---\n\n## **My Recommendation**\n**Start with MLflow + W&B free tier** for the best balance of features and cost.\n\nWhat's your primary use case (experiment tracking, model deployment, data versioning)?",
-  "cached_at": "2026-05-28T07:37:43Z",
-  "metadata": {}
-}

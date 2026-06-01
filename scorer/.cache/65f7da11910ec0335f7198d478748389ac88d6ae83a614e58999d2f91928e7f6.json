@@ -1,9 +1,0 @@
-{
-  "brand": "Amplemarket",
-  "prompt_id": "CD-05",
-  "llm": "anthropic",
-  "prompt_text": "Recommended CRM tools for outbound sales teams at B2B companies companies",
-  "response": "# Top CRM Tools for B2B Outbound Sales Teams\n\n## Best Overall Options\n\n**Salesforce Sales Cloud**\n- Enterprise-grade, highly customizable\n- Excellent for large teams with complex workflows\n- Strong reporting and analytics\n- Higher cost and learning curve\n\n**HubSpot Sales Hub**\n- User-friendly, great for mid-market\n- Good balance of features and affordability\n- Built-in email tracking and sequences\n- Strong automation capabilities\n\n## Specialized for Outbound\n\n**Pipedrive**\n- Visual sales pipeline management\n- Activity-focused (ideal for outbound tracking)\n- Affordable, intuitive interface\n- Good mobile app\n\n**Close**\n- Built for high-volume outbound teams\n- Strong call and email integration\n- Affordable per-user pricing\n- Less customizable than enterprise options\n\n**Outreach** or **SalesLoft**\n- Specifically designed for sales engagement\n- Advanced automation and sequences\n- AI-powered insights\n- Premium pricing\n\n## Budget-Friendly Alternatives\n\n- **Copper** – Simple, clean interface\n- **Freshsales** – Good features at lower cost\n- **Zoho CRM** – Highly affordable, feature-rich\n\n## Key Features to Prioritize\n\n✓ Activity tracking (calls, emails, tasks)  \n✓ Automated sequences and follow-ups  \n✓ Lead scoring and prioritization  \n✓ Mobile access  \n✓ Email/dialer integration  \n✓ Reporting on outreach metrics  \n\n**Pro tip:** Test free trials with your team first—usability matters more than feature lists for sales adoption.\n\nWhat's your team size and budget range?",
-  "cached_at": "2026-05-27T19:02:59Z",
-  "metadata": {}
-}

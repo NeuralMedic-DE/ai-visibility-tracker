@@ -1,9 +1,0 @@
-{
-  "brand": "Paddle",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with manage subscriptions and checkout without international compliance headaches at scale?",
-  "response": "# Subscription & Checkout Solutions for Global Scale\n\n## Best-in-class options:\n\n**Stripe Billing**\n- Handles VAT/GST, sales tax, and localized compliance automatically\n- Works in 195+ countries with local payment methods\n- Strong developer experience, good documentation\n- Priced competitively on transaction fees\n\n**Recurly**\n- Purpose-built for subscriptions (vs. Stripe being more general)\n- Built-in dunning management, tax compliance, multi-currency\n- Good for complex billing scenarios\n- Higher fees but less custom development needed\n\n**Paddle**\n- Acts as merchant of record (you avoid VAT collection headaches in EU)\n- Handles tax, compliance, and payouts automatically\n- Better for SaaS/digital products than physical goods\n- Takes larger cut but simplifies operations significantly\n\n**Supabase + Stripe** (DIY-lite)\n- If you want more control with less compliance burden\n- Still lean on Stripe for the heavy lifting\n\n## Key differentiation:\n\n- **Merchant of Record** (Paddle): You outsource compliance entirely; simpler but costs more\n- **Infrastructure** (Stripe/Recurly): You remain merchant of record; more flexible but more responsibility\n- **Complexity tolerance**: Simple subscriptions → Stripe is fine. Complex renewals/dunning → Recurly/Paddle\n\nWhat's your primary pain point—specific regions, subscription complexity, or tax handling?",
-  "cached_at": "2026-05-28T07:00:12Z",
-  "metadata": {}
-}

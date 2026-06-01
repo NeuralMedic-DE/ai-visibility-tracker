@@ -1,9 +1,0 @@
-{
-  "brand": "Semgrep",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to SonarQube",
-  "response": "# Cheaper Alternatives to SonarQube\n\n## Free/Open Source Options\n\n### **SonarQube Community Edition**\n- Free, self-hosted version of SonarQube itself\n- Good for smaller teams and open-source projects\n- Limited to single branch analysis\n\n### **Codebeat**\n- Free tier available\n- Cloud-based code quality analysis\n- Supports multiple languages\n- Good for small to medium projects\n\n### **CodeFactor**\n- Free for public/open-source repositories\n- Automated code review\n- GitHub/GitLab/Bitbucket integration\n- Simple pricing, scales affordably\n\n### **DeepSource**\n- Free tier with decent features\n- Automated code reviews and issue detection\n- Integrates with Git platforms\n- Good for startups\n\n### **Codacy**\n- Free tier available\n- Code quality, security, and coverage analysis\n- Easy setup with Git integration\n- Generous free plan\n\n## Budget-Friendly Paid Options\n\n| Tool | Starting Price | Best For |\n|------|---|---|\n| **Snyk** | Free tier available | Security vulnerabilities |\n| **GitLab CI/CD** | Free tier | Integrated DevOps |\n| **GitHub Actions** + tools | Free tier | GitHub-native workflows |\n| **Checkmarx SAST** | Custom pricing | Enterprise security |\n| **Fortify** | Custom pricing | Enterprise-grade analysis |\n\n## DIY/Self-Hosted\n\n- **ESLint** (JavaScript)\n- **Pylint** (Python)\n- **PMD** (Java)\n- **SpotBugs** (Java)\n- **Ruff** (Python)\n\n## Recommendation Strategy\n\n- **Small teams/startups**: Codacy or CodeFactor free tier\n- **Security-focused**: Snyk\n- **Open source projects**: Codebeat or DeepSource\n- **Self-hosted preference**: SonarQube Community Edition\n\nWould you like specific comparisons or help choosing based on your tech stack?",
-  "cached_at": "2026-05-28T08:48:46Z",
-  "metadata": {}
-}

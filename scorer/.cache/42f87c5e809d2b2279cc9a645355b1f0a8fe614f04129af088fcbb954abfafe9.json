@@ -1,9 +1,0 @@
-{
-  "brand": "LlamaIndex",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which AI tooling software should a AI Engineer or ML Lead building RAG applications use?",
-  "response": "# AI Tooling for RAG Applications\n\nHere's a practical breakdown by role and use case:\n\n## **Core RAG Frameworks**\n- **LangChain** - Most mature ecosystem; great for orchestration and prototyping\n- **LlamaIndex** - Purpose-built for RAG; excellent indexing and retrieval\n- **Haystack** - Production-focused; strong NLP pipelines\n- **DSPy** - For optimizing prompt + retrieval combinations\n\n## **Vector Databases** (Critical for RAG)\n- **Pinecone** - Easiest managed solution; good for getting started\n- **Weaviate** - Open-source + managed; strong hybrid search\n- **Milvus** - High-performance, open-source\n- **Postgres + pgvector** - Cost-effective if you have Postgres infrastructure\n- **Qdrant** - Excellent performance-to-complexity ratio\n\n## **LLM Orchestration & Observability**\n- **Langsmith** (by LangChain) - Debugging, testing, monitoring\n- **Weights & Biases** - Experiment tracking\n- **Arize / WhyLabs** - Model monitoring and drift detection\n- **Promptly / Prompt Hub** - Prompt management\n\n## **For ML Leads Specifically**\n- **Experiment tracking**: MLflow, W&B, Neptune\n- **Evaluation frameworks**: RAGAS, DeepEval, Trulens\n- **Deployment**: Modal, Replicate, or cloud-native solutions\n\n## **What to Consider**\n- **Team maturity**: Startups often choose managed solutions (Pinecone); enterprises prefer open-source\n- **Latency requirements**: Affects vector DB choice\n- **Cost model**: Self-hosted vs. managed trade-off\n- **Integration needs**: Your existing ML stack\n\n**Quick recommendation**: Start with **LlamaIndex + Pinecone/Weaviate + Langsmith**. This gives you rapid development with production visibility.\n\nWhat's your current stack or specific pain point?",
-  "cached_at": "2026-05-28T07:42:00Z",
-  "metadata": {}
-}

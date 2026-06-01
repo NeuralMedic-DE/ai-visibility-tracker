@@ -1,9 +1,0 @@
-{
-  "brand": "Finaloop",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable finance tools instead of QuickBooks",
-  "response": "# Open Source & Affordable Finance Tools\n\n## **Free/Open Source Options**\n\n### Accounting\n- **GnuCash** — Desktop app, double-entry bookkeeping, steeper learning curve\n- **Wave** — Cloud-based, free invoicing & accounting (ad-supported)\n- **Invoice Ninja** — Self-hosted or cloud, invoicing + expenses\n- **Akaunting** — Self-hosted accounting, clean interface\n\n### Business-Focused\n- **Odoo Community** — ERP suite (requires hosting/technical setup)\n- **Frappe ERPNext** — Full ERP, modular\n- **Manager.io** — Desktop + cloud option, simple & powerful\n\n---\n\n## **Affordable Paid Options**\n\n| Tool | Price | Best For |\n|------|-------|----------|\n| **Wave** | Free | Startups, invoicing |\n| **Zoho Books** | $9-45/mo | SMBs, multi-currency |\n| **Stripe** | Per transaction | Payments only |\n| **Square** | Per transaction | Retail/POS |\n| **Expensify** | $5+/mo | Expense tracking |\n| **FreshBooks** | $15-55/mo | Service businesses |\n\n---\n\n## **Budget-Friendly Setup**\n\n1. **Spreadsheets** (Google Sheets/Excel) + **Wave**\n2. **Self-hosted** accounting + **Stripe** for payments\n3. **Open source** stack on VPS (~$5-10/mo)\n\n**Which fits your situation?** (solo, team, industry?)",
-  "cached_at": "2026-05-28T07:07:35Z",
-  "metadata": {}
-}

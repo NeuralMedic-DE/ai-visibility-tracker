@@ -1,9 +1,0 @@
-{
-  "brand": "PostHog",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect PostHog with GitHub?",
-  "response": "# Connecting PostHog with GitHub\n\nHere are the main ways to integrate PostHog with GitHub:\n\n## 1. **GitHub Actions Integration**\nUse PostHog's GitHub Action to capture deployment events:\n\n```yaml\n- name: PostHog Event\n  uses: PostHog/posthog-github-action@v1\n  with:\n    posthog_api_key: ${{ secrets.POSTHOG_API_KEY }}\n    event: 'deployment'\n    properties: '{\"version\": \"${{ github.sha }}\"}'\n```\n\n## 2. **Manual API Integration**\nSend events from your GitHub workflows via PostHog's API:\n\n```bash\ncurl -X POST https://us.posthog.com/capture/ \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\n    \"api_key\": \"YOUR_API_KEY\",\n    \"event\": \"github_deployment\",\n    \"properties\": {\n      \"repo\": \"your-repo\",\n      \"branch\": \"main\"\n    }\n  }'\n```\n\n## 3. **Webhooks**\n- Set up GitHub webhooks to trigger PostHog events for push, pull request, or release events\n- Configure in your GitHub repo settings → Webhooks\n\n## 4. **PostHog App Marketplace**\n- Check PostHog's app marketplace for pre-built GitHub integrations\n- Access via PostHog dashboard → Apps → Search \"GitHub\"\n\n## Prerequisites\n- PostHog account and API key\n- GitHub repository access\n- (Optional) GitHub Actions enabled on your repo\n\n**Which use case interests you most?** I can provide more detailed setup instructions.",
-  "cached_at": "2026-05-27T19:37:53Z",
-  "metadata": {}
-}

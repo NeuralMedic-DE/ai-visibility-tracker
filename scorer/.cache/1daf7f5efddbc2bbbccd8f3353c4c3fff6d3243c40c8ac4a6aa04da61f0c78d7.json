@@ -1,9 +1,0 @@
-{
-  "brand": "Teamtailor",
-  "prompt_id": "CD-01",
-  "llm": "openai",
-  "prompt_text": "What is the best ATS for mid-market companies with active employer branding programs?",
-  "response": "For mid-market companies with active employer branding programs, some of the best Applicant Tracking Systems (ATS) to consider include:\n\n1. **Greenhouse**: Known for its robust features that support employer branding, Greenhouse offers customizable career pages and integrates well with various branding tools. It also provides strong analytics to help track the effectiveness of your branding efforts.\n\n2. **Lever**: Lever combines ATS and CRM capabilities, making it ideal for companies that want to maintain strong relationships with candidates. Its user-friendly interface and customizable workflows support employer branding initiatives.\n\n3. **Jobvite**: This ATS is well-suited for companies focusing on employer branding, offering features like branded career sites, social recruiting, and employee referral programs. Jobvite also provides analytics to measure the impact of branding strategies.\n\n4. **SmartRecruiters**: Known for its modern interface and ease of use, SmartRecruiters offers tools for building branded career sites and managing candidate relationships. It also provides insights into recruitment marketing efforts.\n\n5. **iCIMS**: iCIMS offers a comprehensive suite of tools that support employer branding, including customizable career sites and integration with social media platforms. Its analytics capabilities help track the success of branding campaigns.\n\nEach of these platforms offers unique features that can enhance employer branding efforts, so the best choice will depend on your specific needs and existing systems.",
-  "cached_at": "2026-05-28T06:41:36Z",
-  "metadata": {}
-}

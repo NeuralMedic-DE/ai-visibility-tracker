@@ -1,9 +1,0 @@
-{
-  "brand": "Comet ML",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Comet ML integrate with Python?",
-  "response": "Yes—**Comet ML integrates with Python**. The PyPI package `comet-ml` requires **Python 3.8+**, and its `Experiment` API is designed to be used directly from Python code; supported libraries can automatically log metrics, hyperparameters, model configuration, and script output[4].\n\nIt also supports integration with popular **Python machine learning frameworks** such as **Keras, TensorFlow, PyTorch, scikit-learn, Fastai, Chainer, Caffe, and MXNet**[3]. Examples and documentation also show using Comet with Python ML workflows and importing `Experiment` from `comet_ml`[2][4].\n\nIf you want, I can also show a minimal Python example of how to start logging with Comet ML.",
-  "cached_at": "2026-05-28T07:55:35Z",
-  "metadata": {}
-}

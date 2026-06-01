@@ -1,9 +1,0 @@
-{
-  "brand": "Userlist",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Userlist integrate with Stripe?",
-  "response": "Yes, Userlist does integrate with Stripe. This integration allows you to sync customer data and events from Stripe into Userlist, enabling you to send targeted messages and automate customer engagement based on billing events and customer activity.",
-  "cached_at": "2026-05-28T07:30:49Z",
-  "metadata": {}
-}

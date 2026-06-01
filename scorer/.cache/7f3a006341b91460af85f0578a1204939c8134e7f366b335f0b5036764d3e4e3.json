@@ -1,9 +1,0 @@
-{
-  "brand": "Doppler",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which secrets management software should a DevOps Lead or Platform Engineer use?",
-  "response": "# Secrets Management Software Comparison\n\n## **Top Choices by Use Case**\n\n### **Enterprise/Cloud-Native (Recommended Starting Point)**\n- **HashiCorp Vault** – Most flexible; on-prem or cloud, dynamic secrets, audit trails\n- **AWS Secrets Manager** – If AWS-locked; native integration, automatic rotation\n- **Azure Key Vault** – If Azure ecosystem; good compliance features\n\n### **Kubernetes-Focused**\n- **Sealed Secrets** – Lightweight, built-in encryption\n- **External Secrets Operator** – Multi-backend support, GitOps friendly\n- **SOPS** – Simple encrypted files, version-control friendly\n\n### **Open Source / Cost-Conscious**\n- **Vault** (community edition)\n- **Infisec's Conjur** – Focused on DevOps workflows\n- **Akeyless** – Zero-knowledge architecture\n\n## **Key Decision Factors**\n\n| Factor | Consider |\n|--------|----------|\n| **Infrastructure** | On-prem/hybrid → Vault; Cloud-first → Native provider |\n| **Team size** | Solo → simple tool (SOPS); Large → enterprise solution |\n| **Compliance** | Audit requirements → Vault; Regional data → native cloud |\n| **Rotation needs** | Dynamic secrets → Vault; Static → Secrets Manager |\n| **Cost** | Self-hosted → Vault OSS; Managed → AWS/Azure |\n\n## **Practical Recommendation**\nStart with **HashiCorp Vault** if you want portability and features, or **your cloud provider's native solution** if you're committed to that ecosystem. Pair with **External Secrets Operator** for Kubernetes deployments.\n\nWhat's your primary environment (cloud provider, on-prem, Kubernetes)?",
-  "cached_at": "2026-05-28T06:20:05Z",
-  "metadata": {}
-}

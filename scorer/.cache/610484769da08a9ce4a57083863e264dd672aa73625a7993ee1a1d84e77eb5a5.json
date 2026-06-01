@@ -1,9 +1,0 @@
-{
-  "brand": "Secureframe",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Vanta vs alternatives: what should I switch to?",
-  "response": "# Vanta Alternatives: Quick Comparison\n\nI'd need to know your priorities, but here's how the main contenders stack up:\n\n## **If you want lower cost:**\n- **Drata** - Similar features, often 30-40% cheaper\n- **Secureframe** - Good for startups, simpler/cheaper\n- **Vevi** - Budget option, less polished\n\n## **If you want better UX:**\n- **Drata** - Generally smoother interface\n- **Secureframe** - Cleaner dashboard\n\n## **If you want broader compliance:**\n- **Vanta** - Still strongest here (SOC 2, ISO, HIPAA, etc.)\n- **Drata** - Close second, well-rounded\n\n## **If you want automation focused:**\n- **Vanta** - Still leading\n- **Drata** - Very competitive\n\n## **Key trade-offs:**\n- Vanta is expensive but the most automated\n- Drata is cheaper but slightly more manual work\n- Smaller tools (Secureframe, Vevi) save money but need more babysitting\n\n---\n\n**Better questions to ask:**\n- What compliance frameworks do you actually need?\n- How much manual work can your team handle?\n- What's your budget vs. timeline?\n- How critical is integration with your existing stack?\n\nWhat's driving your switch? (Cost? Features? Support?) That would help narrow it down.",
-  "cached_at": "2026-05-28T08:33:45Z",
-  "metadata": {}
-}

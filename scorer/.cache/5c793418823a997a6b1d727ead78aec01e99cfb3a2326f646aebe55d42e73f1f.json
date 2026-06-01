@@ -1,9 +1,0 @@
-{
-  "brand": "Folk",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Folk with Gmail?",
-  "response": "# Connecting Folk with Gmail\n\nI'd be happy to help, but I need a bit more context. **Folk** could refer to different platforms. Here are the most common scenarios:\n\n## If you're using Folk (CRM platform):\n1. Go to your Folk account settings\n2. Look for \"Integrations\" or \"Connected Apps\"\n3. Find Gmail and click to authorize\n4. Sign in with your Gmail account\n5. Grant Folk permission to access your email\n\n## If you're using a different Folk app:\nCould you clarify which Folk service you're referring to? For example:\n- Folk CRM (customer relationship management)\n- A folk music app\n- Another service called Folk\n\nOnce you let me know, I can give you more specific instructions!\n\n## General Gmail integration tips:\n- Make sure you're using the right Gmail account\n- Check that 2-factor authentication is enabled for security\n- Allow less secure app access if prompted (though this varies by service)\n\nWhat specific Folk platform are you trying to connect?",
-  "cached_at": "2026-05-27T18:54:30Z",
-  "metadata": {}
-}

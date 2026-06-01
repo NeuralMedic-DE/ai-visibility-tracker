@@ -1,9 +1,0 @@
-{
-  "brand": "Sprinto",
-  "prompt_id": "AL-05",
-  "llm": "openai",
-  "prompt_text": "Open source or affordable compliance tools instead of Drata",
-  "response": "If you're looking for open source or affordable compliance tools as alternatives to Drata, here are a few options you might consider:\n\n1. **Open Source Options:**\n   - **osquery**: While not a full compliance tool, osquery allows you to query your infrastructure using SQL-like syntax, which can be useful for gathering data needed for compliance audits.\n   - **Security Monkey**: Developed by Netflix, this tool monitors AWS, GCP, OpenStack, and GitHub for security and compliance issues.\n   - **Compliance Masonry**: A tool for managing compliance documentation, particularly useful for NIST and FedRAMP compliance.\n\n2. **Affordable Commercial Options:**\n   - **Vanta**: Offers automated security monitoring and compliance management, often considered more affordable than Drata.\n   - **Tugboat Logic**: Provides a platform for managing security audits and compliance, with pricing that is competitive for small to medium-sized businesses.\n   - **Secureframe**: Another alternative that automates the compliance process, including SOC 2, ISO 27001, and more, with competitive pricing.\n   - **Hyperproof**: Offers a platform for managing compliance operations and risk management, with flexible pricing options.\n\nEach of these tools has its own strengths and weaknesses, so the best choice will depend on your specific compliance needs, the size of your organization, and your budget.",
-  "cached_at": "2026-05-28T08:31:17Z",
-  "metadata": {}
-}

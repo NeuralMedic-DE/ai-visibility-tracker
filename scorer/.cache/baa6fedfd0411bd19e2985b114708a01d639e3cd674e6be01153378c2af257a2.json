@@ -1,9 +1,0 @@
-{
-  "brand": "Mosaic",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable FP&A tools instead of Anaplan",
-  "response": "# Open Source & Affordable FP&A Alternatives\n\n## **Most Capable Open Source**\n\n### **Apache Superset**\n- Free, self-hosted BI/analytics\n- Good for dashboarding forecasts\n- Limited native planning features\n- Best for: Budget visualization\n\n### **Metabase**\n- User-friendly, self-hosted BI\n- Simpler than Superset\n- Good reporting on planning data\n- Best for: Non-technical users\n\n### **ERPNext**\n- Full ERP + built-in planning\n- Accounting, budgeting, forecasting modules\n- Self-hosted or cloud\n- Best for: Small to mid-market businesses\n\n## **Affordable Commercial Tools**\n\n| Tool | Price | Best For |\n|------|-------|----------|\n| **Vimcal/Causal** | $200-500/mo | Scenario modeling, simple FP&A |\n| **Float** | $149+/mo | Project-based planning |\n| **Fathom** | $99+/mo | Basic accounting dashboards |\n| **Jirav** | $150+/mo | Budgeting & forecasting |\n| **Mosaic** | $500+/mo | Mid-market FP&A |\n\n## **Hybrid Approach (Best Value)**\n\n1. **Google Sheets** + **Data Studio**\n   - Free, surprisingly powerful\n   - Manual but flexible\n\n2. **Postgres/Snowflake** + **Metabase**\n   - ~$0-100/mo hosting\n   - Strong technical requirement\n\n3. **Spreadsheet + Stripe/Quickbooks API** + custom scripts\n   - Automate data pulls\n\n## **Key Limitations vs Anaplan**\n- Less scalability for enterprise workflows\n- Manual consolidation often needed\n- Fewer built-in financial models\n- Steeper learning curve for open source\n\n**What's your company size & primary use case?** Can help narrow down.",
-  "cached_at": "2026-05-28T07:10:14Z",
-  "metadata": {}
-}

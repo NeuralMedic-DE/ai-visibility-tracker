@@ -1,9 +1,0 @@
-{
-  "brand": "ChurnZero",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does ChurnZero integrate with Salesforce?",
-  "response": "# ChurnZero and Salesforce Integration\n\nYes, **ChurnZero integrates with Salesforce**. The integration allows you to:\n\n- **Sync customer data** between ChurnZero and Salesforce\n- **View ChurnZero health scores and insights** within Salesforce\n- **Track customer engagement** and churn risk directly in Salesforce records\n- **Automate data flow** to keep both systems aligned\n\nThis integration is useful for customer success teams that rely on Salesforce for CRM management, as it brings ChurnZero's customer health and retention metrics into your existing Salesforce workflow.\n\nFor the most current details on integration capabilities and setup requirements, I'd recommend checking ChurnZero's documentation or contacting their support team, as integrations can be updated or modified over time.",
-  "cached_at": "2026-05-28T08:06:58Z",
-  "metadata": {}
-}

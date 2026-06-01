@@ -1,9 +1,0 @@
-{
-  "brand": "UserVoice",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best product feedback for product teams capturing and prioritizing customer feature requests?",
-  "response": "# Best Practices for Capturing & Prioritizing Feature Requests\n\n## Capture Methods\n\n**Structure feedback systematically:**\n- Use dedicated tools (Canny, Productboard, Upvote) rather than scattered emails/Slack\n- Include: who requested it, use case, frequency, impact on their workflow\n- Tag by customer segment, industry, or pain point for pattern recognition\n\n**Mix quantitative + qualitative:**\n- Vote/upvote counts (signal demand)\n- Customer interviews (reveal *why* they need it)\n- Usage analytics (show actual pain points)\n- Support tickets (indicate friction points)\n\n## Prioritization Frameworks\n\n**Effective scoring combines:**\n- **Business value** - revenue impact, strategic fit, competitive advantage\n- **Customer impact** - how many users affected, severity of problem\n- **Effort** - development complexity and resource requirements\n- **Urgency** - market timing, customer churn risk\n\n**Avoid common mistakes:**\n- Don't rely solely on request volume (vocal users ≠ most users)\n- Don't ignore low-request items if they affect high-value customers\n- Don't prioritize based on recency bias\n\n## Implementation Tips\n\n- **Make it visible** - share prioritization reasoning with customers\n- **Close the loop** - tell requesters what you decided and why\n- **Batch review** - quarterly prioritization prevents reactive firefighting\n- **Track outcomes** - measure if implemented features actually solve the problem\n\n**Red flag:** If your top priorities don't align with strategic goals, your prioritization process needs recalibration.\n\nWhat's your current bottleneck—collecting feedback or deciding what to build?",
-  "cached_at": "2026-05-28T08:23:56Z",
-  "metadata": {}
-}

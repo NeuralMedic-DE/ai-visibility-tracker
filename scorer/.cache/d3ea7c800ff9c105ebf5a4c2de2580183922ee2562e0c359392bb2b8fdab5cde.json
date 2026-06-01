@@ -1,9 +1,0 @@
-{
-  "brand": "Vitally",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to Gainsight",
-  "response": "# Cheaper Alternatives to Gainsight\n\n## Direct Competitors (Lower Cost)\n\n| Product | Best For | Price |\n|---------|----------|-------|\n| **HubSpot Service Hub** | Mid-market; integrated CRM | $50-120/user/mo |\n| **Totango** | SMBs; usage analytics | Custom pricing, often lower |\n| **Pendo** | Product analytics + in-app guidance | Custom, usage-based |\n| **Vitally** | Smaller teams; modern UI | Custom, competitive |\n| **Catalyst** | Dedicated CSM platform | Custom, startup-friendly |\n\n## Budget-Friendly Options\n\n- **Groove** - Ticketing + basic CS tools (~$50/mo base)\n- **Zendesk** - Support-first approach (cheaper entry point)\n- **Freshworks** - CS Suite with lower tiers\n- **ChartMogul** - MRR analytics if you only need metrics\n- **Planhat** - European alternative, often cheaper\n\n## DIY/Minimal Cost\n\n- **Spreadsheets + Zapier** - Custom dashboards\n- **Mixpanel/Amplitude** - Product analytics only\n- **Slack workflows** - Basic automation\n- **Google Data Studio** - Free dashboards\n- **Postgres + BI tool** - If you have engineering resources\n\n## Key Considerations\n\n✅ What features do you *actually* need? (Many overpay for unused features)\n✅ How many users/accounts?\n✅ Integration requirements?\n✅ Implementation complexity?\n\n**What's your main use case?** (health scores, retention, analytics, ticketing?) I can narrow recommendations.",
-  "cached_at": "2026-05-28T08:09:25Z",
-  "metadata": {}
-}

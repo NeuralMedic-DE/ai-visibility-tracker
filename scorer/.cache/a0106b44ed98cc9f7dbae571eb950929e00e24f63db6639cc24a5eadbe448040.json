@@ -1,9 +1,0 @@
-{
-  "brand": "Reply.io",
-  "prompt_id": "CM-01",
-  "llm": "anthropic",
-  "prompt_text": "Reply.io vs Lemlist: which is better?",
-  "response": "# Reply.io vs Lemlist\n\nBoth are solid sales engagement platforms, but they have different strengths:\n\n## **Reply.io** (better for)\n- **Email deliverability** – generally stronger inbox placement\n- **Affordability** – lower starting price\n- **Simplicity** – easier to get started quickly\n- **Multi-channel** – better native SMS/calls integration\n- **Automation** – more flexible workflow builder\n\n## **Lemlist** (better for)\n- **Personalization** – superior dynamic email personalization\n- **Landing pages** – built-in page builder for campaigns\n- **Design/UX** – more polished interface\n- **Warm-up features** – email warming is more robust\n- **Deliverability infrastructure** – specialized focus here\n\n## **Key differences**\n| Feature | Reply.io | Lemlist |\n|---------|----------|---------|\n| Base price | ~$50/mo | ~$99/mo |\n| Email warmup | Basic | Advanced |\n| SMS/calls | Native | Limited |\n| Design tools | Minimal | Strong |\n\n## **Bottom line**\n- Choose **Reply.io** if you want affordability, multi-channel outreach, and quick setup\n- Choose **Lemlist** if you need advanced personalization and design capabilities\n\n**Best move:** Try both free trials (1-2 weeks) with your actual use case—what matters most is fit with your workflow.\n\nWhat's your primary use case? That might help narrow it down.",
-  "cached_at": "2026-05-28T07:21:07Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Encharge",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best marketing automation for SaaS marketing leads and growth engineers building lifecycle flows?",
-  "response": "# Best Marketing Automation for SaaS Growth & Lifecycle\n\n## Top Tier for Your Use Case\n\n**HubSpot**\n- Best all-rounder for integrated workflows\n- Strong free tier + reasonable scaling costs\n- Native CRM + detailed lifecycle stage tracking\n- Best for: Teams wanting one unified platform\n\n**Segment/mParticle** (Data layer first)\n- Ideal if you're building sophisticated, data-driven flows\n- Integrates with almost any tool\n- Best for: Engineering-heavy teams wanting flexibility\n\n## Specialized for Growth Engineers\n\n**Klaviyo**\n- Excellent workflow builder with conditional logic\n- Strong for behavioral triggers and sequencing\n- Best for: E-commerce SaaS + lifecycle emails\n\n**Iterable**\n- Built for cross-channel orchestration\n- Powerful segmentation and testing\n- Best for: Retention-focused lifecycle campaigns\n\n## Developer-Friendly Options\n\n**Twilio Segment + custom tools**\n- Maximum control and customization\n- Requires engineering resources\n- Best for: Technically advanced teams\n\n## Key Questions to Guide Your Choice\n\n1. **Integration needs**: How many tools do you connect to?\n2. **Team composition**: How technical is your team?\n3. **Focus area**: Acquisition vs. retention vs. expansion?\n4. **Budget**: Scaling costs matter at growth stage\n\n**My recommendation**: Start with **HubSpot** (easiest cross-functional) or **Segment** (most flexible) depending on your engineering bandwidth.\n\nWhat's your current tech stack? That often determines the best fit.",
-  "cached_at": "2026-05-28T07:28:04Z",
-  "metadata": {}
-}

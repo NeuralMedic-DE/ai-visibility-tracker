@@ -1,9 +1,0 @@
-{
-  "brand": "Linear",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to Asana",
-  "response": "# Cheaper Alternatives to Asana\n\n## **Free/Freemium Options**\n- **Trello** – Simple kanban boards, great for small teams\n- **Notion** – Flexible workspace with databases and task management\n- **Monday.com** – Visual project management (limited free tier)\n- **Jira** – Excellent for development teams (free up to 10 users)\n- **OpenProject** – Open-source, self-hosted option\n\n## **Low-Cost Paid Plans**\n- **Clickup** – Feature-rich, often cheaper than Asana\n- **Todoist** – Lightweight task management (~$4/month)\n- **Smartsheet** – Spreadsheet-based alternative\n- **Taiga** – Open-source agile platform\n\n## **What to Consider**\n- **Team size** – How many users do you need?\n- **Features** – Timelines, dependencies, automation, reporting?\n- **Integration needs** – What tools do you use?\n- **Learning curve** – How quickly do you need adoption?\n\n## **Pro Tips**\n- Most offer free trials – test a few\n- Check if you qualify for **nonprofit/education discounts**\n- Open-source options can be self-hosted to save costs\n\n**What's your main use case?** That would help narrow down the best fit (marketing, engineering, general projects, etc.).",
-  "cached_at": "2026-05-27T21:07:53Z",
-  "metadata": {}
-}

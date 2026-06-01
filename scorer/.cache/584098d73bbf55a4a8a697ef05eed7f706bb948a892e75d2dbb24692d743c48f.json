@@ -1,9 +1,0 @@
-{
-  "brand": "Grip Security",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which security software should a Security Lead or IT Manager at an enterprise company use?",
-  "response": "# Enterprise Security Software Recommendations\n\nFor Security Leads/IT Managers, prioritize **enterprise-grade solutions** over consumer software:\n\n## Endpoint Protection\n- **Microsoft Defender for Endpoint** (if Microsoft ecosystem)\n- **CrowdStrike Falcon**\n- **Sentinelone**\n- **Kaspersky Managed Security**\n\n## SIEM & Threat Detection\n- **Splunk**\n- **Microsoft Sentinel**\n- **Datadog Security**\n- **Sumo Logic**\n\n## Network & Perimeter\n- **Palo Alto Networks**\n- **Fortinet FortiGate**\n- **Cisco Secure**\n- **Check Point**\n\n## Key Selection Criteria\n- **MDR/XDR capabilities** (managed detection & response)\n- **Central management console** for fleet visibility\n- **Integration** with existing tools (identity, cloud, email)\n- **Scalability** to your infrastructure size\n- **Compliance support** (SOC 2, ISO 27001, industry-specific)\n- **Vendor support** and SLAs\n- **Cost** vs. ROI and FTE savings\n\n## Important Notes\n- Avoid consumer antivirus (Norton, McAfee, Avast)\n- Most enterprises use **layered, multi-vendor approaches**\n- Evaluate based on your specific infrastructure, risk profile, and budget\n- Consider consulting security analysts (Gartner, Forrester) for vendor comparisons\n\nWhat's your current environment? (Size, cloud mix, industry) I can offer more targeted advice.",
-  "cached_at": "2026-05-28T08:41:02Z",
-  "metadata": {}
-}

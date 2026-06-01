@@ -1,9 +1,0 @@
-{
-  "brand": "Help Scout",
-  "prompt_id": "IN-04",
-  "llm": "openai",
-  "prompt_text": "Best customer support that works with Slack and HubSpot",
-  "response": "If you're looking for customer support tools that integrate well with both Slack and HubSpot, here are a few options to consider:\n\n1. **Zendesk**: Zendesk offers robust customer support solutions and integrates seamlessly with both Slack and HubSpot. You can receive notifications, create tickets, and manage customer interactions efficiently.\n\n2. **Intercom**: Intercom provides a comprehensive customer messaging platform that integrates with Slack for team notifications and HubSpot for CRM capabilities. It allows for real-time communication and customer engagement.\n\n3. **Freshdesk**: Freshdesk is another popular customer support tool that integrates with Slack for team collaboration and HubSpot for CRM management. It offers features like ticketing, automation, and reporting.\n\n4. **Help Scout**: Help Scout is known for its simplicity and effectiveness in managing customer support. It integrates with Slack to keep your team updated and with HubSpot to maintain customer data consistency.\n\n5. **Front**: Front is a collaborative inbox that integrates with Slack for team communication and HubSpot for CRM functionalities. It helps teams manage customer conversations from multiple channels in one place.\n\nEach of these tools offers unique features, so the best choice depends on your specific needs and workflow preferences.",
-  "cached_at": "2026-05-28T08:19:34Z",
-  "metadata": {}
-}

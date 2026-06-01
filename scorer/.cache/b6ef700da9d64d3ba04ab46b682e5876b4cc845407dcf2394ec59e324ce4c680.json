@@ -1,9 +1,0 @@
-{
-  "brand": "Leapsome",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with track employee engagement with pulse surveys and act on insights at scale?",
-  "response": "# Employee Engagement & Pulse Survey Software\n\nSeveral platforms excel at this:\n\n## **Leading Options**\n\n**Qualtrics EmployeeXM**\n- Enterprise-grade pulse surveys\n- Real-time analytics and dashboards\n- Action planning tools built in\n- AI-driven insights\n\n**Culture Amp**\n- Focused on engagement & feedback\n- Strong action planning features\n- Easy survey creation\n- Good for mid-to-large organizations\n\n**Peakon (now part of Workday)**\n- Continuous listening capabilities\n- Manager dashboards for action\n- Integration with Workday ecosystem\n\n**Officevibe**\n- User-friendly pulse surveys\n- Team-level insights\n- Action tracking features\n- Good for smaller teams\n\n**Glint (LinkedIn)**\n- AI-powered insights\n- Benchmarking capabilities\n- Manager coaching tools\n\n## **Key Features to Look For**\n- Quick survey deployment\n- Real-time dashboards\n- Segmentation by department/team\n- Automated action recommendations\n- Manager accountability tools\n- Integration with HR systems\n\n## **Considerations**\n- **Scale needed**: Enterprise vs. SMB\n- **Budget**: Pricing varies significantly\n- **Implementation speed**: Some are faster to deploy\n- **Customization**: How much flexibility do you need?\n\nWhat's your organization size? That would help narrow down the best fit.",
-  "cached_at": "2026-05-28T06:37:21Z",
-  "metadata": {}
-}

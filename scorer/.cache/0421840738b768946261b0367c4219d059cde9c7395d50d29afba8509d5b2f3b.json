@@ -1,9 +1,0 @@
-{
-  "brand": "Amplemarket",
-  "prompt_id": "CM-02",
-  "llm": "anthropic",
-  "prompt_text": "Amplemarket vs ZoomInfo pricing and features",
-  "response": "# Amplemarket vs ZoomInfo: Pricing & Features Comparison\n\n## Pricing\n\n| Feature | Amplemarket | ZoomInfo |\n|---------|-------------|----------|\n| **Starting Price** | ~$99-299/month | ~$4,000-8,000+/month |\n| **Model** | Freemium + paid tiers | Enterprise/custom pricing |\n| **Best For** | SMBs, startups | Mid-market to enterprise |\n\n## Key Features Comparison\n\n### **Amplemarket**\n**Strengths:**\n- Built-in email/calling tools\n- AI-powered email sequencing\n- Lower entry cost\n- Outreach automation\n- LinkedIn integration for B2B prospecting\n\n**Limitations:**\n- Smaller database (50M+ contacts)\n- Less predictive analytics\n- Fewer integrations\n- Better for manual/semi-automated outreach\n\n---\n\n### **ZoomInfo**\n**Strengths:**\n- Massive database (300M+ contacts)\n- Advanced intent data & predictive scoring\n- Better for account-based marketing (ABM)\n- Superior mobile app\n- Native CRM integrations (Salesforce, HubSpot)\n- AI-powered lead recommendations\n\n**Limitations:**\n- High cost barrier for SMBs\n- Steeper learning curve\n- Can feel over-engineered for small teams\n\n## Best Practices\n\n| Use Case | Better Choice |\n|----------|--------------|\n| **SMBs with tight budgets** | Amplemarket |\n| **Enterprise ABM/scaling** | ZoomInfo |\n| **Cold email campaigns** | Amplemarket |\n| **Intent-based selling** | ZoomInfo |\n| **Startups testing PMF** | Amplemarket |\n\n**Recommendation:** Start with Amplemarket if budget-conscious; upgrade to ZoomInfo if you need enterprise features and can justify the cost.",
-  "cached_at": "2026-05-27T19:03:09Z",
-  "metadata": {}
-}

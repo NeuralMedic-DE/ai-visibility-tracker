@@ -1,9 +1,0 @@
-{
-  "brand": "Brevo",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I send email and SMS campaigns to millions of contacts at affordable pricing without spending a lot on software?",
-  "response": "# Budget-Friendly Mass Communication Options\n\n## Email Campaigns\n\n**Free/low-cost platforms:**\n- Mailchimp (free tier up to 500 contacts)\n- Brevo (formerly Sendinblue) - free tier included\n- MailerLite - generous free plan\n- Constant Contact - affordable starter plans\n\n**Cost-saving tips:**\n- Start with smaller lists to test before scaling\n- Use automation to reduce manual work\n- Clean your lists regularly (improves deliverability, saves costs)\n\n## SMS Campaigns\n\n**Affordable providers:**\n- Twilio - pay-as-you-go (typically $0.005-0.01 per SMS)\n- AWS SNS - competitive per-message pricing\n- Plivo - bulk discounts available\n- Nexmo - volume-based pricing\n\n## Important considerations before scaling:\n\n⚠️ **Legal requirements:**\n- Have explicit opt-in consent from recipients\n- Include clear unsubscribe options\n- Follow CAN-SPAM (email) and TCPA (SMS) regulations\n- Compliance violations carry serious penalties\n\n⚠️ **Practical realities:**\n- Sending to millions requires proper infrastructure\n- ISPs/carriers monitor for spam patterns\n- Reputation management is critical\n- \"Affordable\" doesn't mean free once you hit scale\n\n## Better approach:\nRather than maximum volume, focus on **segmentation and relevance**—smaller, targeted lists typically outperform mass blasts and have better ROI.\n\nWhat's your actual use case? That would help suggest the best fit.",
-  "cached_at": "2026-05-28T07:26:05Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Attio",
-  "prompt_id": "CM-01",
-  "llm": "anthropic",
-  "prompt_text": "Attio vs Salesforce: which is better?",
-  "response": "# Attio vs Salesforce: Key Differences\n\n**Salesforce is better for:**\n- Large enterprises needing extensive customization\n- Complex sales processes with many stakeholders\n- Organizations already in the Salesforce ecosystem\n- Advanced reporting and AI features (Einstein)\n- Compliance-heavy industries\n\n**Attio is better for:**\n- Small to mid-size teams wanting simplicity\n- Modern, intuitive interface out of the box\n- Lower budget and faster implementation\n- Companies prioritizing ease of use over features\n- Teams wanting lightweight customization\n\n## Quick Comparison\n\n| Factor | Salesforce | Attio |\n|--------|-----------|-------|\n| **Price** | $165+/user/month | $50+/user/month |\n| **Learning curve** | Steep | Gentle |\n| **Customization** | Extensive | Moderate |\n| **Setup time** | Weeks/months | Days |\n| **Scale** | Enterprise | Mid-market |\n\n**The real answer:** It depends on your:\n- Team size and budget\n- CRM complexity needs\n- Technical resources available\n- Growth ambitions\n\nSalesforce is the \"safe enterprise choice\" but often overkill for smaller teams. Attio is newer and faster to implement, but Salesforce has deeper integrations and maturity.\n\nWhat's your team size and main CRM priorities? That would help narrow it down.",
-  "cached_at": "2026-05-27T17:53:46Z",
-  "metadata": {}
-}

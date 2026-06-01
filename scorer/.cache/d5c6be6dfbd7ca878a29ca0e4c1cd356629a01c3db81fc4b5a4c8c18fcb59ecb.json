@@ -1,9 +1,0 @@
-{
-  "brand": "Klipfolio",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Klipfolio integrate with Google Analytics?",
-  "response": "Yes. **Klipfolio has a built‑in integration (connector) for Google Analytics, including Google Analytics 4, and can pull GA data directly into dashboards.**\n\nKey points:\n\n- Klipfolio lists **Google Analytics** as a standard integration in its gallery of data sources.[6]\n- Klipfolio’s **Google Analytics integration** lets you:\n  - Use pre‑built Google Analytics metrics and dashboard templates.[3]\n  - Create custom API queries to pull metrics/dimensions and time ranges you choose using the **Google Analytics API / Query Explorer**.[1][3]\n  - Combine Google Analytics data with other sources (e.g., Facebook Ads, HubSpot) in one dashboard.[1][3]\n- Guides and case studies show Klipfolio dashboards being set up with both **Universal Analytics** and **Google Analytics 4 (GA4)** data via the Google Analytics API.[1][2][3]\n\nSo if you use Google Analytics, you can connect it directly to Klipfolio and build GA-driven dashboards without needing separate ETL tools.",
-  "cached_at": "2026-05-27T20:32:58Z",
-  "metadata": {}
-}

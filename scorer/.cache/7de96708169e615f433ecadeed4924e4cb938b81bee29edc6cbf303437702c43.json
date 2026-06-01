@@ -1,9 +1,0 @@
-{
-  "brand": "n8n",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is n8n better than Make for build complex LLM-powered automations with code nodes and custom business logic?",
-  "response": "# n8n vs Make for LLM Automations\n\nBoth are capable, but they have different strengths:\n\n## n8n advantages for your use case:\n- **Code nodes**: JavaScript execution is more flexible and straightforward\n- **Self-hostable**: Full control, no rate limits, better for complex logic\n- **Better for developers**: More granular control, easier debugging\n- **Workflow transparency**: JSON-based workflows are easier to version control\n- **Custom integrations**: Simpler to build and maintain\n\n## Make advantages:\n- **Extensive integrations**: Larger library of pre-built connectors\n- **Visual builder**: Better for non-developers building complex flows\n- **AI features**: Built-in prompt templates and AI-specific nodes\n- **Execution logs**: Arguably clearer debugging interface\n\n## Key considerations:\n\n**Choose n8n if:**\n- You need heavy custom logic/code execution\n- You want self-hosting control\n- Your team has development skills\n- Cost scales predictably\n\n**Choose Make if:**\n- You need maximum pre-built integrations\n- Your team prefers visual-first workflows\n- You want zero infrastructure management\n- Integration breadth matters more than depth\n\n## The nuance:\nFor \"complex LLM-powered automations,\" the question is really: **how much custom logic do you need?**\n\n- Mostly orchestrating LLM calls with existing tools? → **Make works fine**\n- Heavy data transformation, custom business logic? → **n8n is stronger**\n\nWhat's your primary use case—prompt chaining, data processing, or something else?",
-  "cached_at": "2026-05-28T08:56:04Z",
-  "metadata": {}
-}

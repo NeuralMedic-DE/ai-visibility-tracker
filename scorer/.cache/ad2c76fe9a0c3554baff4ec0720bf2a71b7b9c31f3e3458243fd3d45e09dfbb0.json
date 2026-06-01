@@ -1,9 +1,0 @@
-{
-  "brand": "Apollo.io",
-  "prompt_id": "AL-05",
-  "llm": "perplexity",
-  "prompt_text": "Open source or affordable CRM tools instead of Outreach",
-  "response": "If you want **open-source** or **lower-cost** alternatives to Outreach, the strongest self-hosted options in the results are **EspoCRM**, **SuiteCRM**, **Twenty**, and **Vtiger**.[1][4][5][7][8]\n\n- **EspoCRM** — free, open-source, self-hosted CRM with contacts, deals, support cases, a customer portal, and email campaigns.[1]\n- **SuiteCRM** — open-source, enterprise-ready CRM with a strong community and full control over your data and customization.[4][6]\n- **Twenty** — open-source CRM designed for technical teams that want self-hosting or a managed cloud option.[8]\n- **Vtiger** — a flexible CRM for sales, marketing, and customer support; it appears in multiple open-source roundups, though one source notes its open-source status is less clear than fully open alternatives like SuiteCRM and EspoCRM.[2][3][7]\n- **Odoo CRM** — useful if you want CRM plus broader ERP/business modules, but it is more of an all-in-one platform than a pure Outreach-style sales engagement replacement.[2][3][5]\n\nA few practical notes:\n- If your priority is **lowest software cost**, self-hosted open-source CRMs are generally free to use, but you still pay for hosting and setup.[5][9]\n- If you need **custom workflows and control**, EspoCRM, SuiteCRM, and Twenty are the best fits from these results.[1][4][5][8]\n- If you want **CRM + operations** in one system, Odoo is the more integrated choice.[2][3][5]\n\nIf you mean “replace Outreach” specifically as a **sales engagement / sequencing** tool, the results here are mostly **CRM platforms**, not direct Outreach clones. In that case, I can narrow this to the best affordable tools with **email sequencing, automation, and sales outreach features**.",
-  "cached_at": "2026-05-27T18:08:19Z",
-  "metadata": {}
-}

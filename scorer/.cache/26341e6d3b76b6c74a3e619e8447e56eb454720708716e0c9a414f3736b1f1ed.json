@@ -1,9 +1,0 @@
-{
-  "brand": "Charlie HR",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Charlie HR with Slack?",
-  "response": "# Connecting Charlie HR with Slack\n\nHere's how to set up the integration:\n\n## Basic Steps\n\n1. **In Charlie HR:**\n   - Go to **Settings** → **Integrations** (or **Apps**)\n   - Find and select **Slack**\n   - Click **Connect** or **Authorize**\n\n2. **Authorize the connection:**\n   - You'll be redirected to Slack\n   - Select your Slack workspace\n   - Review the permissions Charlie HR is requesting\n   - Click **Allow** or **Authorize**\n\n3. **Configure settings:**\n   - Choose which Charlie HR notifications you want in Slack\n   - Select which Slack channel(s) should receive alerts\n   - Save your preferences\n\n## Common Things You Can Do\n- Get alerts for absences, timesheets, or document requests\n- Receive birthday reminders\n- Get notifications about policy updates\n- Send team announcements\n\n## Troubleshooting Tips\n- Ensure you have admin access in both Charlie HR and Slack\n- Check that your Slack workspace allows third-party app integrations\n- Verify permissions are set correctly\n\n**Note:** The exact steps may vary depending on your Charlie HR version. If you're stuck, I'd recommend checking Charlie HR's official documentation or contacting their support team.\n\nIs there a specific notification type you're trying to set up?",
-  "cached_at": "2026-05-28T06:44:01Z",
-  "metadata": {}
-}

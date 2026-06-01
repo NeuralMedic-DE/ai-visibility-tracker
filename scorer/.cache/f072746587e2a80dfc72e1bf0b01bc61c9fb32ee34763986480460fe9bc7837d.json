@@ -1,9 +1,0 @@
-{
-  "brand": "Planhat",
-  "prompt_id": "AL-02",
-  "llm": "openai",
-  "prompt_text": "Cheaper alternatives to ChurnZero",
-  "response": "If you're looking for more affordable alternatives to ChurnZero for customer success and churn management, here are a few options you might consider:\n\n1. **Custify**: Offers customer success tools with a focus on automation and easy integration, often at a lower price point than ChurnZero.\n\n2. **UserIQ**: Provides customer success and product adoption solutions with flexible pricing plans suitable for smaller businesses.\n\n3. **Planhat**: A customer success platform that offers a variety of pricing tiers, making it accessible for different business sizes.\n\n4. **Totango**: Offers a free tier with essential features, which can be a cost-effective solution for small teams or startups.\n\n5. **ClientSuccess**: Known for its straightforward pricing and focus on customer success management, it can be a more budget-friendly option.\n\n6. **Gainsight Essentials**: A lighter version of Gainsight's full platform, designed for smaller teams with a more affordable pricing structure.\n\nWhen considering alternatives, it's important to evaluate the specific features you need and compare them against the pricing to ensure you get the best value for your requirements.",
-  "cached_at": "2026-05-28T08:11:59Z",
-  "metadata": {}
-}

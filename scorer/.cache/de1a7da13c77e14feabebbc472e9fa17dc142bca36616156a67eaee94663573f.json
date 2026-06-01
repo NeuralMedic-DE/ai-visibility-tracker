@@ -1,9 +1,0 @@
-{
-  "brand": "Matillion",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is Matillion better than Informatica for transform raw data into analytics-ready models using a visual low-code ETL designer?",
-  "response": "# Matillion vs Informatica: ETL Visual Design\n\nThere's no universal \"better,\" but here are the key trade-offs:\n\n## Matillion's Strengths\n- **Cloud-native by design** (Snowflake, Redshift, Databricks focus)\n- **Simpler visual interface** for basic-to-intermediate transformations\n- **Lower learning curve** for non-technical users\n- **Faster time-to-value** on cloud data warehouses\n- **Better pricing** for cloud-first organizations\n\n## Informatica's Strengths\n- **Enterprise breadth** — handles on-prem, hybrid, and cloud\n- **Advanced transformations** — more complex logic without custom code\n- **Established ecosystem** — integrations with legacy systems\n- **Governance/metadata** — stronger data lineage and compliance features\n- **Proven at scale** — longer track record in large enterprises\n\n## For Your Specific Use Case (Raw → Analytics)\n\n**Choose Matillion if:**\n- Using modern cloud data warehouses\n- Team prioritizes speed and simplicity\n- Budget-conscious\n- Working with relatively standard transformations\n\n**Choose Informatica if:**\n- Need enterprise governance/compliance\n- Working in hybrid/on-prem environments\n- Require advanced transformation logic\n- Already invested in Informatica ecosystem\n\n**Real consideration:** Try both on a pilot project. The \"best\" tool often depends on your specific data sources, team skills, and existing infrastructure.\n\nWhat's your current data stack?",
-  "cached_at": "2026-05-28T09:00:41Z",
-  "metadata": {}
-}

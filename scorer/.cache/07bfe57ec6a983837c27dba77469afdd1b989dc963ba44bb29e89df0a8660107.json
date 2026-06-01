@@ -1,9 +1,0 @@
-{
-  "brand": "UserVoice",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does UserVoice integrate with Salesforce?",
-  "response": "Yes, UserVoice does integrate with Salesforce. This integration allows you to sync customer feedback and support tickets from UserVoice with Salesforce, enabling better customer relationship management and a more streamlined workflow. You can track customer interactions, manage feedback, and ensure that your sales and support teams have access to the latest information. For detailed setup instructions, you might want to refer to the documentation provided by UserVoice or Salesforce.",
-  "cached_at": "2026-05-28T08:24:18Z",
-  "metadata": {}
-}

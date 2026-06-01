@@ -1,9 +1,0 @@
-{
-  "brand": "Pendo",
-  "prompt_id": "CD-02",
-  "llm": "openai",
-  "prompt_text": "Top product experience and analytics platform for enterprise SaaS tools in 2025",
-  "response": "As of my last update, I can't predict the future with certainty, but several platforms have been leading in product experience and analytics for enterprise SaaS tools and are likely to remain influential in 2025. These include:\n\n1. **Amplitude**: Known for its robust analytics capabilities, Amplitude helps companies understand user behavior to drive product decisions.\n\n2. **Mixpanel**: Offers powerful analytics focused on tracking user interactions with web and mobile applications, helping teams improve user engagement.\n\n3. **Heap**: Provides automatic data capture and real-time analytics, making it easier for teams to analyze user behavior without extensive manual tracking.\n\n4. **Pendo**: Combines product analytics with user feedback and in-app guidance to enhance user experience and product adoption.\n\n5. **Gainsight PX**: Part of the Gainsight suite, it focuses on customer success and product experience, offering insights into user behavior and engagement.\n\n6. **FullStory**: Offers session replay and analytics to understand user interactions and improve the overall digital experience.\n\nThese platforms are continually evolving, adding new features, and integrating with other tools to better serve enterprise needs. By 2025, advancements in AI and machine learning are likely to further enhance their capabilities, making them even more integral to enterprise SaaS strategies.",
-  "cached_at": "2026-05-27T19:43:37Z",
-  "metadata": {}
-}

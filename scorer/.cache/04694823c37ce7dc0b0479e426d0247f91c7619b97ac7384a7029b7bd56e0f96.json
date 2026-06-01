@@ -1,9 +1,0 @@
-{
-  "brand": "Vellum",
-  "prompt_id": "UC-03",
-  "llm": "openai",
-  "prompt_text": "What tools do AI product teams building and iterating on LLM-powered product features companies use to test and compare prompts systematically across multiple LLM providers?",
-  "response": "AI product teams often use a combination of specialized tools and platforms to test and compare prompts across multiple LLM providers. Some of the popular tools and platforms include:\n\n1. **Langchain**: This is a framework that helps in building applications with LLMs. It provides utilities to manage prompts, chain LLM calls, and integrate with various LLM providers.\n\n2. **PromptLayer**: This tool acts as a middleware that logs and manages prompts, allowing teams to track and compare how different LLMs respond to the same prompts.\n\n3. **LlamaIndex (formerly known as GPT Index)**: This tool is used to create and manage indices over data, which can be useful for testing how different LLMs handle structured data inputs.\n\n4. **OpenAI's Playground and API**: While specific to OpenAI models, the Playground allows for quick testing and iteration of prompts. The API can be used to systematically test prompts programmatically.\n\n5. **Weights & Biases**: This is a machine learning experiment tracking tool that can be adapted to log and compare prompt performance across different models and configurations.\n\n6. **Humanloop**: This platform provides tools to optimize prompts and fine-tune models, offering insights into how different prompts perform across various LLMs.\n\n7. **Prompt Engineering Tools**: Various bespoke tools and scripts are often developed in-house to automate the testing and comparison of prompts across different LLM APIs.\n\nThese tools help teams systematically evaluate the performance of prompts, optimize them for better results, and ensure consistency across different LLM providers.",
-  "cached_at": "2026-05-28T07:44:54Z",
-  "metadata": {}
-}

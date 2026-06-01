@@ -1,9 +1,0 @@
-{
-  "brand": "PostHog",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with track feature flags and run A/B experiments at scale?",
-  "response": "There are several software solutions that help manage feature flags and run A/B experiments at scale. Some of the popular ones include:\n\n1. **LaunchDarkly**: A feature management platform that allows you to control feature flags and conduct A/B testing. It provides robust tools for managing feature rollouts and experiments.\n\n2. **Optimizely**: Known for its experimentation platform, Optimizely also offers feature flagging capabilities. It allows you to run A/B tests and manage feature rollouts effectively.\n\n3. **Split.io**: This platform provides both feature flagging and experimentation capabilities. It helps you manage feature releases and run experiments to measure the impact of changes.\n\n4. **Flagsmith**: An open-source feature flagging and remote configuration service that also supports A/B testing. It allows you to manage feature flags across different environments.\n\n5. **Unleash**: An open-source feature management solution that provides feature toggling capabilities. It can be used to manage feature rollouts and conduct experiments.\n\n6. **GrowthBook**: An open-source platform that combines feature flagging with A/B testing capabilities, allowing you to manage experiments and feature rollouts.\n\nThese tools offer various integrations, analytics, and targeting capabilities to help you manage feature flags and run experiments efficiently at scale.",
-  "cached_at": "2026-05-27T19:34:58Z",
-  "metadata": {}
-}

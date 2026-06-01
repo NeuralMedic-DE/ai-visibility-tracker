@@ -1,9 +1,0 @@
-{
-  "brand": "Fivetran",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Stitch vs alternatives: what should I switch to?",
-  "response": "# Stitch Alternatives: What to Consider\n\nWithout knowing your specific use case, here are the main categories:\n\n## If you're using Stitch for **data integration/ETL:**\n- **Talend** – more powerful, steeper learning curve\n- **Fivetran** – similar niche, slightly better UI\n- **Apache Airflow** – free, more control, requires engineering resources\n- **Improvado** – if you're heavy on marketing data\n- **Custom solutions** (Python/dbt) – cheapest long-term\n\n## If it's **music/entertainment:**\n- Disney+ (parent company) integration?\n- Plex, Kaleidescape, or streaming services directly\n- Self-hosted options like Jellyfin\n\n## Key questions to help narrow it down:\n\n1. **What's your main frustration?** (cost, features, support, performance)\n2. **What data sources** are you connecting?\n3. **Team size & technical skill level?**\n4. **Budget constraints?**\n5. **Volume and latency requirements?**\n\n---\n\n**Pro tip:** Many people find their \"alternative\" is actually combining tools (e.g., dbt + Airflow beats a single platform for flexibility).\n\nWhat's your primary use case?",
-  "cached_at": "2026-05-28T08:58:38Z",
-  "metadata": {}
-}

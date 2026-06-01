@@ -1,9 +1,0 @@
-{
-  "brand": "Mosaic",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Mosaic integrate with NetSuite?",
-  "response": "Yes, Mosaic does integrate with NetSuite. Mosaic is a strategic finance platform that can connect with various enterprise resource planning (ERP) systems, including NetSuite. This integration allows for the seamless transfer of financial data, enabling businesses to leverage Mosaic's analytics and planning tools alongside NetSuite's robust ERP capabilities. If you're considering this integration, it's a good idea to check with both Mosaic and NetSuite for the most current integration capabilities and setup instructions.",
-  "cached_at": "2026-05-28T07:10:20Z",
-  "metadata": {}
-}

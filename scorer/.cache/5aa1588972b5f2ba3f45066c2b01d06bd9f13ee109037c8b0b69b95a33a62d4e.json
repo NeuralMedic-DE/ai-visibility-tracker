@@ -1,9 +1,0 @@
-{
-  "brand": "Amplemarket",
-  "prompt_id": "UC-04",
-  "llm": "anthropic",
-  "prompt_text": "How can a SDR manager or head of outbound sales find and contact ideal prospects automatically more efficiently?",
-  "response": "# Automating Prospect Discovery & Outreach\n\n## **Data & Prospecting Automation**\n\n**B2B Database Tools**\n- Clearbit, Apollo, Hunter, ZoomInfo - auto-enrich company/contact data\n- Lusha, RocketReach - verify email addresses at scale\n- LinkedIn Sales Navigator with filters - identifies decision-makers by role/company\n\n**Intent-Based Targeting**\n- 6sense, Demandbase, Bombora - show who's actively researching your solution\n- Often more efficient than cold lists (higher conversion rates)\n\n## **Outreach Workflow Automation**\n\n**Multi-Channel Sequences**\n- Outreach, SalesLoft, Apollo - automate email sequences with built-in follow-ups\n- Trigger-based cadences (replies trigger different paths)\n- LinkedIn + email + call logging in one platform\n\n**Bottleneck: Personalization at Scale**\n- Use dynamic fields (company name, recent news, job title)\n- Batch personalization scripts + AI tools (ChatGPT, Copy.ai) for customized angles\n- Tools like Lavender give real-time coaching on message quality\n\n## **Intelligence & Segmentation**\n\n- Qualify list *before* sending (filter by revenue, industry, company growth)\n- Recent funding/hiring alerts narrow to warm prospects\n- Company website/news crawlers flag new decision-makers\n\n## **The Practical Reality**\n\nThe biggest ROI comes from:\n1. **Better targeting** (not just volume)\n2. **Automating the mundane** (follow-ups, logging, sequencing)\n3. **Keeping personalization** (templates + light customization, not fully generic)\n\nWhat's your biggest bottleneck right now—finding contacts, getting responses, or something else?",
-  "cached_at": "2026-05-27T19:04:29Z",
-  "metadata": {}
-}

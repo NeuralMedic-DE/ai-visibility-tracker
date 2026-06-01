@@ -1,9 +1,0 @@
-{
-  "brand": "Personio",
-  "prompt_id": "IN-02",
-  "llm": "openai",
-  "prompt_text": "Personio Datev integration: how does it work?",
-  "response": "Personio's integration with DATEV is designed to streamline HR and payroll processes by enabling seamless data transfer between the two systems. Here's how it typically works:\n\n1. **Data Synchronization**: The integration allows for the automatic transfer of employee data from Personio to DATEV. This includes personal information, salary details, and other relevant HR data necessary for payroll processing.\n\n2. **Payroll Preparation**: By syncing data, the integration ensures that all employee information is up-to-date in DATEV, reducing the need for manual data entry and minimizing errors. This helps in preparing accurate payroll runs.\n\n3. **Configuration**: The integration can be configured to match the specific needs of an organization. This includes setting up mappings between fields in Personio and DATEV to ensure data is correctly transferred.\n\n4. **Security and Compliance**: Both Personio and DATEV are compliant with data protection regulations, ensuring that sensitive employee information is handled securely during the transfer process.\n\n5. **Efficiency**: By automating the data transfer, HR teams can save time and focus on more strategic tasks, while also ensuring that payroll is processed efficiently and accurately.\n\nOverall, the Personio DATEV integration is designed to enhance the efficiency of HR and payroll operations by reducing manual work and ensuring data consistency between the two platforms.",
-  "cached_at": "2026-05-28T06:35:01Z",
-  "metadata": {}
-}

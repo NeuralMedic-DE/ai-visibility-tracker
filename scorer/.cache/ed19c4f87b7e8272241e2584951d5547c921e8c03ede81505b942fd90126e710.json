@@ -1,9 +1,0 @@
-{
-  "brand": "Mixpanel",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Amplitude vs alternatives: what should I switch to?",
-  "response": "# Amplitude Alternatives: Quick Comparison\n\nYour choice depends on what you're prioritizing:\n\n## **If you want cheaper analytics:**\n- **Mixpanel** - Similar features, better free tier\n- **Heap** - Auto-captures events (less setup), good for web\n- **Plausible/Fathom** - Privacy-focused, simpler, cheaper (but less powerful)\n\n## **If you want better UX/ease:**\n- **Posthog** - Open source option, self-hostable, good UI\n- **Segment** - Better for multi-tool data pipelines\n- **Fullstory** - Excellent session replay + analytics combo\n\n## **If you want more power:**\n- **Mixpanel** - Slightly better cohort building\n- **Looker/Tableau** - If you're doing heavy analysis (but different category)\n\n## **If you're product-focused:**\n- **Pendo** - Better for in-app guidance + analytics\n- **LaunchDarkly** - If feature flags matter to you\n\n## **Real talk:**\nThe actual pain point with Amplitude is usually **cost + complexity**, not capability. Before switching:\n- Can you optimize what events you're tracking?\n- Does your team actually need all that power?\n- What's your data volume really costing?\n\nSometimes the answer is \"stick with Amplitude but use it differently\" rather than rip-and-replace.\n\nWhat's making you consider a switch?",
-  "cached_at": "2026-05-27T19:14:44Z",
-  "metadata": {}
-}

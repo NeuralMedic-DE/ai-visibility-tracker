@@ -1,9 +1,0 @@
-{
-  "brand": "PostHog",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does PostHog integrate with GitHub?",
-  "response": "# PostHog and GitHub Integration\n\nYes, PostHog does integrate with GitHub, though the integration is somewhat limited in scope:\n\n## What's Available\n\n**GitHub Authentication**: You can use your GitHub account to sign in to PostHog, which simplifies account creation and login.\n\n**GitHub Issues Integration**: PostHog can create GitHub issues directly from the platform, allowing you to:\n- File bugs or feature requests as GitHub issues from PostHog\n- Link product insights to your development workflow\n\n## Limitations\n\nThe integration isn't as deep as some other tools - PostHog doesn't offer:\n- Automatic code change tracking linked to product events\n- Bi-directional sync of issues and events\n- Native pull request tracking within PostHog\n\n## Better Alternatives for CI/CD\n\nIf you need tighter integration with your development workflow, you might want to explore:\n- **Webhooks**: PostHog supports webhooks to trigger external actions\n- **API**: Direct API calls to connect PostHog data to GitHub actions or other CI/CD tools\n- **Third-party tools**: Zapier or similar automation platforms for richer GitHub integration\n\nFor the most current information and specific integration details, I'd recommend checking [PostHog's documentation](https://posthog.com/docs) directly, as integrations can be updated regularly.",
-  "cached_at": "2026-05-27T19:37:44Z",
-  "metadata": {}
-}

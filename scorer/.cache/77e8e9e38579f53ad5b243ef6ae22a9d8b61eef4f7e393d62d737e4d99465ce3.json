@@ -1,9 +1,0 @@
-{
-  "brand": "Apollo.io",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which CRM software should a VP Sales or SDR manager use?",
-  "response": "# Best CRM Options for VP Sales & SDR Managers\n\nThe choice depends on your priorities, but here's a practical breakdown:\n\n## **Top Tier for Sales Leaders**\n\n**Salesforce**\n- Most comprehensive, scalable\n- Strong for complex sales ops\n- Best if you need enterprise features\n- Steeper learning curve & cost\n\n**HubSpot Sales Hub**\n- Easier to implement than Salesforce\n- Great balance of features and usability\n- Strong reporting and automation\n- Better for mid-market\n\n## **Best for SDR-Focused Teams**\n\n**Outreach or Salesloft**\n- Built specifically for SDR workflow\n- Strong call/email cadence management\n- Better activity tracking\n- Superior for high-volume prospecting\n\n**Apollo or Hunter**\n- Lighter, more affordable\n- Excellent for prospecting/outreach\n- Growing adoption among SDRs\n\n## **Key Questions to Ask:**\n\n1. **Team size & complexity** - Simple (HubSpot) vs. Complex (Salesforce)\n2. **Budget** - Enterprise vs. Startup\n3. **Primary use case** - Inbound closing vs. Outbound prospecting\n4. **Integration needs** - Which tools are already in your stack?\n5. **Reporting requirements** - How deep does forecasting need to be?\n\n## **Real Talk**\nMost SDR managers pair an **outreach tool** (Outreach/Apollo) with a **CRM** (Salesforce/HubSpot) rather than choosing one. What's your team size and primary motion?",
-  "cached_at": "2026-05-27T18:03:28Z",
-  "metadata": {}
-}

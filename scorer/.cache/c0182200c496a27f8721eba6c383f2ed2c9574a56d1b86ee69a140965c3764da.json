@@ -1,9 +1,0 @@
-{
-  "brand": "Attio",
-  "prompt_id": "CD-04",
-  "llm": "perplexity",
-  "prompt_text": "Best CRM platforms for manage customer relationships",
-  "response": "The **best CRM platforms** depend on your business size and goals, but the most consistently recommended options are **Salesforce**, **HubSpot**, **Zoho CRM**, and **Pipedrive**.[1][3][4]\n\n- **Salesforce Sales Cloud** — best for **extensibility** and large, complex teams.[1][3]\n- **HubSpot CRM** — best for **versatility** and a strong all-in-one starting point.[1][4]\n- **Zoho CRM** — best for **AI features** and value-focused teams.[1][4]\n- **Pipedrive** — best for **ease of use** and sales pipeline management.[1][4]\n- **Microsoft Dynamics 365** — strong option for organizations already using Microsoft tools.[4]\n- **Freshworks CRM** — good for teams wanting a modern CRM with sales and support features.[4]\n- **Creatio** — suited to businesses that want process automation and workflow design.[4]\n- **Monday CRM** — a flexible choice for teams that prefer visual project-style workflows.[4]\n\nIf you want the **best overall picks by use case**:\n- **Best for small teams:** HubSpot or Pipedrive.[1][4]\n- **Best for scaling companies:** Salesforce or Microsoft Dynamics 365.[1][3][4]\n- **Best for automation/AI:** Zoho CRM or Creatio.[1][4]\n- **Best free starting option:** HubSpot is commonly highlighted as the strongest free CRM.[2]\n\nIf you want, I can also narrow this down to the **best CRM for small business, sales teams, or enterprise**.",
-  "cached_at": "2026-05-27T17:56:13Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Retool",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to Budibase",
-  "response": "# Cheaper Alternatives to Budibase\n\n## **Free/Open-Source Options**\n\n| Tool | Cost | Best For |\n|------|------|----------|\n| **Appsmith** | Free (self-hosted) | Open-source low-code, similar feature set |\n| **NocoDB** | Free (self-hosted) | Database GUI + simple apps |\n| **Retool** | $10+/month | Slightly more feature-rich than Budibase |\n| **Directus** | Free (self-hosted) | Headless CMS + data management |\n| **Supabase** | Free tier available | Backend + frontend builder |\n\n## **Budget-Friendly Paid Options**\n\n- **Bubble** - $29/month (more powerful, more expensive long-term)\n- **FlutterFlow** - Free tier + $60/month (mobile-focused)\n- **Glide** - $25/month (mobile apps)\n- **Softr** | **Stacker** - $20+/month (database-to-app)\n- **Airtable** + automations - $20/month (lighter automation)\n\n## **Ultra-Low Cost**\n\n- **Google Forms** → **Apps Script** - Essentially free\n- **Microsoft Power Apps** - Included in Microsoft 365\n- **Firebase Console** + basic frontend - Free tier generous\n\n## **Key Comparison Points**\n\n- **Self-hosted**: Appsmith, NocoDB (lowest TCO)\n- **Cloud cheapest**: Glide, Softr ($20-30/mo)\n- **Best free tier**: Supabase, Firebase\n- **Enterprise/complex**: Retool, Bubble\n\n**What specific use case?** The best choice depends on your app complexity, hosting preference, and team size.",
-  "cached_at": "2026-05-27T20:57:09Z",
-  "metadata": {}
-}

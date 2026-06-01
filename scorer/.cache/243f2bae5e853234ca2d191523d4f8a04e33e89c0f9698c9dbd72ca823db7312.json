@@ -1,9 +1,0 @@
-{
-  "brand": "Linear",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Linear integrate with GitHub?",
-  "response": "# Linear and GitHub Integration\n\nYes, **Linear integrates with GitHub**, though the integration is somewhat limited compared to what you might expect.\n\n## What's Supported\n\n- **Issue linking**: You can link Linear issues to GitHub pull requests and issues\n- **GitHub comments**: Mention Linear issues in GitHub PR comments and commits\n- **Bi-directional references**: Reference GitHub issues in Linear and vice versa\n- **OAuth authentication**: You can use GitHub to sign into Linear\n\n## What's Not Fully Supported\n\n- **No automatic syncing** between Linear and GitHub issues\n- **No native GitHub app** in the official GitHub Marketplace (as of my last update)\n- **Limited automation** compared to other project management tools\n\n## Workarounds\n\nIf you need tighter integration, you can use:\n- **Zapier** or **Make** (formerly Integromat) for custom workflows\n- **GitHub Actions** combined with Linear's API for automation\n- Linear's **API** for custom integrations\n\n## Bottom Line\n\nLinear works *with* GitHub but doesn't deeply synchronize with it. If you need real-time bidirectional sync between the two tools, you'll likely need to set up a custom automation solution.\n\nAre you looking to integrate these tools for a specific workflow? I can provide more targeted suggestions.",
-  "cached_at": "2026-05-27T21:08:48Z",
-  "metadata": {}
-}

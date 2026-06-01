@@ -463,6 +463,45 @@ create index if not exists scoring_runs_run_date_cost
   where estimated_cost_usd is not null;
 
 -- ────────────────────────────────────────────────────────────
+-- 0013: subscription_status CHECK constraint (audit M3)
+-- ────────────────────────────────────────────────────────────
+-- Restrict subscription_status to the known union of our sentinel
+-- ('none') and all Stripe subscription statuses as of 2025-02-24.
+-- Also update STATUS_CONFIG in dashboard/page.tsx to map every value.
+
+do $$
+begin
+  if not exists (
+    select 1
+      from pg_constraint
+     where conname  = 'customers_subscription_status_check'
+       and conrelid = 'public.customers'::regclass
+  ) then
+    alter table public.customers
+      add constraint customers_subscription_status_check
+      check (
+        subscription_status in (
+          'none',
+          'trialing',
+          'active',
+          'past_due',
+          'canceled',
+          'incomplete',
+          'incomplete_expired',
+          'unpaid',
+          'paused'
+        )
+      );
+  end if;
+end
+$$;
+
+comment on column public.customers.subscription_status is
+  'Stripe subscription status. Allowed values: none | trialing | active | '
+  'past_due | canceled | incomplete | incomplete_expired | unpaid | paused. '
+  'Constrained by customers_subscription_status_check.';
+
+-- ────────────────────────────────────────────────────────────
 -- Verify: list all tables created
 -- ────────────────────────────────────────────────────────────
 select table_name, table_type

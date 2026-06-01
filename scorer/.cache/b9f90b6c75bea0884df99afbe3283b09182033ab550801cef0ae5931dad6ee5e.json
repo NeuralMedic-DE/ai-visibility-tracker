@@ -1,9 +1,0 @@
-{
-  "brand": "June.so",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which product analytics software should a founder or head of product at a B2B SaaS startup use?",
-  "response": "# Product Analytics for B2B SaaS: Key Options\n\n## Best Overall Choices\n\n**Amplitude** or **Mixpanel** are industry standards for B2B SaaS:\n- Strong cohort analysis and user journey mapping\n- Good for tracking feature adoption and engagement\n- Mature integrations ecosystem\n- Pricing scales reasonably at early stages\n\n**Heap** is worth considering if you want autocapture (tracks everything without manual instrumentation).\n\n## Lighter/Cheaper Alternatives\n\n- **PostHog** – open-source option, good if you want data ownership and lower costs\n- **Segment** + warehouse – gives more flexibility as you grow (though adds complexity)\n- **Pendo** – better if you need in-app guidance alongside analytics\n\n## What Actually Matters for Your Stage\n\nAsk yourself:\n- **Do you need it now?** Many early founders over-invest here. Basic event tracking in your app + Stripe data + talking to customers can go far initially.\n- **What's the key question?** Feature adoption? Churn drivers? Onboarding friction? Pick the tool that answers *your* current priority.\n- **How technical is your team?** PostHog requires more setup; Amplitude/Mixpanel are more plug-and-play.\n\n## My Take\n\nStart with **Mixpanel** or **Amplitude** if you have budget. Both have good free tiers and scale with you. If cost is tight, **PostHog** is a legitimate alternative.\n\nWhat's your biggest product question right now? That might narrow the choice.",
-  "cached_at": "2026-05-27T19:56:45Z",
-  "metadata": {}
-}

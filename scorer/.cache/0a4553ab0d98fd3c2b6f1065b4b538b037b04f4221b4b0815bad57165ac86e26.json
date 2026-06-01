@@ -1,9 +1,0 @@
-{
-  "brand": "Planhat",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is Planhat better than ChurnZero for align sales and success teams on revenue expansion and renewal opportunities?",
-  "response": "# Planhat vs ChurnZero: Sales-Success Alignment\n\nThis is genuinely competitive territory—both handle this use case well, but with different strengths:\n\n## Planhat's advantages for alignment:\n- **Stronger deal management** - Built-in opportunity tracking feels more native\n- **More flexible workflow orchestration** - Easier to create custom handoff processes between teams\n- **Better for complex use cases** - Handles multi-threaded accounts and intricate expansion scenarios well\n\n## ChurnZero's advantages for alignment:\n- **Health scoring** - More sophisticated out-of-the-box; helps flag renewal risks earlier\n- **Simpler setup** - Faster to get sales and success teams aligned without custom config\n- **Tighter Salesforce integration** - If your sales team lives in SFDC, the connection is more seamless\n\n## The real differentiator:\nIt depends on your specific workflow:\n- **Choose Planhat if** you need flexible, custom playbooks and have complex expansion deals\n- **Choose ChurnZero if** you want faster deployment and strong predictive signals for renewals\n\n## What I'd actually recommend:\nBefore deciding, map out:\n1. How often sales/success actually need to collaborate (weekly? ad-hoc?)\n2. Whether you need deal management or primarily visibility\n3. Your SFDC/HubSpot dependency level\n\nBoth will work. The \"better\" choice depends on whether you prioritize configuration flexibility or implementation speed.\n\nWhat's your team structure like? That might clarify the fit.",
-  "cached_at": "2026-05-28T08:11:57Z",
-  "metadata": {}
-}

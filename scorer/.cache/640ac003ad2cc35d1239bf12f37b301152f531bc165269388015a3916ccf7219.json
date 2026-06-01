@@ -1,9 +1,0 @@
-{
-  "brand": "Numeric",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best finance that works with NetSuite and QuickBooks",
-  "response": "# Best Finance Solutions for NetSuite & QuickBooks\n\n## **Top Integrated Options**\n\n### **1. Expensify** (Best for Expense Management)\n- Native integrations with both platforms\n- Real-time syncing\n- Mobile receipt capture\n- Best for: Mid-market companies\n\n### **2. Concur (SAP)** (Enterprise-Grade)\n- Robust reporting and compliance\n- Strong NetSuite integration\n- Advanced approval workflows\n- Best for: Large enterprises\n\n### **3. Certent** (Consolidation & Reporting)\n- Multi-entity financial close\n- Works seamlessly with both systems\n- Strong for: Complex consolidations\n\n### **4. Workiva** (Compliance & Reporting)\n- Financial close automation\n- SEC-ready reporting\n- Both integrations solid\n\n### **5. BlackLine** (Financial Close)\n- Automated reconciliation\n- GL close automation\n- Strong middle-market focus\n\n## **Consider Your Needs:**\n\n| Need | Best Option |\n|------|------------|\n| **Expense Management** | Expensify, Concur |\n| **Financial Close** | BlackLine, Workiva |\n| **Consolidation** | Certent |\n| **Billing/Revenue** | Zuora (if SaaS) |\n| **Budgeting/Planning** | Anaplan, Adaptive Insights |\n\n## **Quick Tip**\nMost integrate via APIs or pre-built connectors. Verify current integration status before purchasing, as updates change frequently.\n\n**What's your primary pain point?** (Close process, expenses, reporting, etc.) I can give more specific recommendations.",
-  "cached_at": "2026-05-28T07:05:20Z",
-  "metadata": {}
-}

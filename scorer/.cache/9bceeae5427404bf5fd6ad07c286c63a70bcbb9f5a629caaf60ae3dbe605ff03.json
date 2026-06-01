@@ -1,9 +1,0 @@
-{
-  "brand": "ChartMogul",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best SaaS analytics that works with Stripe and Chargebee",
-  "response": "# Best SaaS Analytics for Stripe & Chargebee\n\n## **Top Tier Options**\n\n### **1. Baremetrics**\n- **Best for:** Quick setup & beautiful dashboards\n- **Strengths:** Native Stripe & Chargebee integration, MRR tracking, cohort analysis, customer insights\n- **Pricing:** $99-$499/month\n- **Ideal if:** You want plug-and-play analytics without engineering effort\n\n### **2. Vitally**\n- **Best for:** Customer health & engagement tracking\n- **Strengths:** Proactive churn prediction, customer segmentation, built-in CRM\n- **Pricing:** $500+/month\n- **Ideal if:** You need operational insights beyond metrics\n\n### **3. Amplitude**\n- **Best for:** Product & user behavior analytics\n- **Strengths:** Deep product analytics, cohort analysis, retention funnels\n- **Pricing:** Free tier + $995+/month\n- **Ideal if:** User behavior insights matter as much as revenue\n\n## **Second Tier**\n\n| Tool | Best For | Notes |\n|------|----------|-------|\n| **ProfitWell** | Revenue analytics | Simple, free tier available |\n| **ChartMogul** | Revenue metrics & reporting | Excellent for recurring revenue |\n| **Mixpanel** | Product events + revenue | More technical setup |\n| **Metabase** | Custom dashboards | Open-source, self-hosted option |\n\n## **Quick Decision Tree**\n\n- **Quick setup + beautiful dashboards?** → Baremetrics\n- **Need churn prediction?** → Vitally\n- **Deep product analytics?** → Amplitude\n- **DIY dashboard builder?** → Metabase\n- **Simple revenue metrics?** → ChartMogul or ProfitWell\n\n**My recommendation:** Start with **Baremetrics** for best UX, or **ChartMogul** if you want something more specialized in subscription metrics.\n\nWhat's your priority—speed, customization, or specific use case?",
-  "cached_at": "2026-05-28T06:55:17Z",
-  "metadata": {}
-}

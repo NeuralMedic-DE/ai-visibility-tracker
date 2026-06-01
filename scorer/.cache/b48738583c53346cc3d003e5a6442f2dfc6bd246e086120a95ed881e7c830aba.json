@@ -1,9 +1,0 @@
-{
-  "brand": "ChurnZero",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best customer success that works with Salesforce and HubSpot",
-  "response": "# Top Customer Success Platforms for Salesforce & HubSpot\n\n## **Best Overall Integrations**\n\n### **1. Gainsight**\n- **Strength**: Industry-leading CS platform with native Salesforce integration\n- **Best for**: Enterprise customers, complex CS operations\n- **Features**: Health scoring, journey orchestration, automated playbooks\n- **HubSpot**: Works via API but deeper with Salesforce\n\n### **2. Totango**\n- **Strength**: Flexible, works seamlessly with both platforms\n- **Best for**: Mid-market to enterprise\n- **Features**: Predictive analytics, engagement tools, workflow automation\n- **Both integrations**: Native support for both CRMs\n\n### **3. ClientSuccess**\n- **Strength**: User-friendly, good for scaling teams\n- **Best for**: Mid-market SaaS\n- **Features**: Health metrics, automated alerts, task management\n- **Both integrations**: Strong dual support\n\n---\n\n## **Salesforce-First Options**\n\n| Platform | Best For | Integration |\n|----------|----------|-------------|\n| **Chorus** | AI-driven insights | Native |\n| **Vitally** | Product-led growth | Native |\n| **Catalyst** | Mid-market | Native |\n\n## **HubSpot-Optimized Options**\n\n- **HubSpot Service Hub** (native solution)\n- **Planhat** (better HubSpot experience)\n- **Nativity** (HubSpot-built)\n\n---\n\n## **Recommendation**\n**Start with your primary CRM choice**, as most platforms favor one. **Totango** or **Gainsight** offer the best dual-platform support if you need equal functionality in both.\n\nWhat's your company size and main CS challenge?",
-  "cached_at": "2026-05-28T08:07:04Z",
-  "metadata": {}
-}

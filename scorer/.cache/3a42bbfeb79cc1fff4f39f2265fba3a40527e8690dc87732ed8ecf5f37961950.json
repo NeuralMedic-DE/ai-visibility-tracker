@@ -1,9 +1,0 @@
-{
-  "brand": "Customer.io",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Customer.io integrate with Segment?",
-  "response": "# Customer.io and Segment Integration\n\nYes, **Customer.io integrates with Segment**. \n\n## Key Details:\n\n- **Segment acts as a data source**: You can send customer data from Segment to Customer.io\n- **Two-way sync**: Customer.io is available as a destination in Segment's catalog\n- **Event tracking**: Customer events and attributes flow from Segment to Customer.io to power automated campaigns\n- **Official support**: This is a native integration maintained by both platforms\n\n## Common Use Cases:\n\n- Track user behavior and send that data to Customer.io for triggered campaigns\n- Sync customer attributes and segment membership\n- Automate email/SMS workflows based on user actions\n\nIf you're setting this up, you'll typically:\n1. Add Customer.io as a destination in your Segment workspace\n2. Authenticate with your Customer.io API credentials\n3. Map your events and traits to Customer.io\n\nFor the most current integration details, I'd recommend checking Segment's destination catalog or Customer.io's documentation, as integration features can be updated.",
-  "cached_at": "2026-05-28T07:15:05Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Drip",
-  "prompt_id": "CM-01",
-  "llm": "anthropic",
-  "prompt_text": "Drip vs Klaviyo: which is better?",
-  "response": "# Drip vs Klaviyo: Quick Comparison\n\nNeither is universally \"better\"—it depends on your needs:\n\n## **Klaviyo** (Generally stronger)\n- **Best for:** Ecommerce, especially Shopify stores\n- **Strengths:** Superior segmentation, SMS capabilities, better integrations, more sophisticated automation\n- **Weakness:** Higher price point, steeper learning curve\n\n## **Drip** (Solid alternative)\n- **Best for:** Small-to-mid businesses, agencies, simplicity-focused users\n- **Strengths:** User-friendly, affordable, good visual workflows, decent ecommerce features\n- **Weakness:** Smaller feature set, less powerful for advanced marketing\n\n## **Key Decision Factors**\n\n| Factor | Winner |\n|--------|--------|\n| Ecommerce features | Klaviyo |\n| Ease of use | Drip |\n| Budget | Drip |\n| SMS marketing | Klaviyo |\n| Pricing scalability | Drip |\n| Automation power | Klaviyo |\n\n## **Bottom Line**\n- **Choose Klaviyo** if you're growing fast, need advanced features, and have budget\n- **Choose Drip** if you want simplicity, affordability, and solid core features\n\nTry both free trials—actual workflow matters more than specs.\n\nWhat's your main use case? (ecommerce, SaaS, email-only, etc.) I can give more targeted advice.",
-  "cached_at": "2026-05-28T07:32:45Z",
-  "metadata": {}
-}

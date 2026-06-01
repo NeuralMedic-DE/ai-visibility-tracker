@@ -1,9 +1,0 @@
-{
-  "brand": "TestBrand",
-  "prompt_id": "AL-01",
-  "llm": "google",
-  "prompt_text": "Alternatives to leading vendors for B2B SaaS startups",
-  "response": "NO_AI_OVERVIEW",
-  "cached_at": "2026-06-01T15:00:15Z",
-  "metadata": {}
-}

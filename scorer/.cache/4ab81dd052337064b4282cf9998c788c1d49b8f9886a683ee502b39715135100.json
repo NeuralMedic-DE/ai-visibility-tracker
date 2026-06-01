@@ -1,9 +1,0 @@
-{
-  "brand": "Doppler",
-  "prompt_id": "CM-01",
-  "llm": "anthropic",
-  "prompt_text": "Doppler vs HashiCorp Vault: which is better?",
-  "response": "# Doppler vs HashiCorp Vault\n\nNeither is universally \"better\"—they solve overlapping but different problems. Here's the key distinction:\n\n## **Doppler**\n**Best for:** Secrets management across development and deployment\n\n- ✅ Developer-friendly, quick setup\n- ✅ Built-in environment management (dev/staging/prod)\n- ✅ Strong multi-tenancy & team collaboration\n- ✅ Managed service (less ops overhead)\n- ✅ Good for modern CI/CD workflows\n- ❌ Less control (cloud-only, SaaS)\n- ❌ Limited to secrets—not general infrastructure config\n\n## **HashiCorp Vault**\n**Best for:** Enterprise secrets + broader identity/access needs\n\n- ✅ Self-hosted (on-prem or cloud)\n- ✅ Extremely flexible & extensible\n- ✅ Handles dynamic secrets, encryption, PKI, audit logging\n- ✅ Fine-grained access control policies\n- ❌ Steeper learning curve & more operational burden\n- ❌ Requires more infrastructure investment\n\n## **Quick Decision Guide**\n\n| Need | Choose |\n|------|--------|\n| Fast team adoption, SaaS preference | **Doppler** |\n| Self-hosted requirement | **Vault** |\n| Complex auth/encryption needs | **Vault** |\n| Simple secrets + CI/CD | **Doppler** |\n| Enterprise compliance/audit | **Vault** |\n\n**Most practical approach:** Some teams use both—Doppler for development, Vault for production infrastructure.\n\nWhat's your specific use case?",
-  "cached_at": "2026-05-28T06:20:12Z",
-  "metadata": {}
-}

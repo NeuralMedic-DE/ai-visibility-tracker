@@ -1,9 +1,0 @@
-{
-  "brand": "Amplemarket",
-  "prompt_id": "CM-05",
-  "llm": "perplexity",
-  "prompt_text": "Is Amplemarket better than ZoomInfo for automate multi-channel outreach sequences?",
-  "response": "For **automate multi-channel outreach sequences**, **Amplemarket is generally the better fit** than ZoomInfo because it is built around outbound execution, multichannel sequencing, and AI-driven automation in one platform.[1][3][5]\n\nZoomInfo is stronger as a **data and GTM intelligence** platform, but the results indicate that its outbound automation is not as native or as broad as Amplemarket’s multichannel workflow.[1][3] Amplemarket is described as an AI sales copilot that consolidates prospecting, email engagement, LinkedIn automation, deliverability management, and CRM functions, while its multichannel sequences adapt to prospect behavior in real time.[1][5]\n\nKey differences for your use case:\n\n- **Amplemarket**: native multichannel outreach across email, phone, and social, with conditional sequencing and deliverability tools built in.[2][4][5]\n- **ZoomInfo**: broader contact data, intent, enrichment, and GTM intelligence; outbound campaigns may require more external tooling to match Amplemarket’s sequence automation depth.[1][3]\n\nIf your priority is **running automated, personalized, cross-channel sequences**, choose **Amplemarket**.[4][5] If your priority is **best-in-class contact data and intent signals** and you already have separate engagement tools, ZoomInfo can still be the better platform overall for data-driven GTM workflows.[1][3]\n\nIf you want, I can also compare them for **deliverability, data quality, or total cost** for your team size.",
-  "cached_at": "2026-05-27T19:06:49Z",
-  "metadata": {}
-}

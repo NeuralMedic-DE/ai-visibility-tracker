@@ -1,9 +1,0 @@
-{
-  "brand": "LlamaIndex",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best AI tooling that works with OpenAI and Anthropic",
-  "response": "# Best AI Tooling for OpenAI & Anthropic\n\n## Multi-Model Platforms\n\n**LangChain** (JavaScript/Python)\n- Abstracts away API differences between providers\n- Great for chains, memory, and RAG workflows\n- Most mature ecosystem\n\n**LiteLLM** (Python)\n- Lightweight proxy layer\n- Simple drop-in replacement for OpenAI SDK\n- Easy cost tracking and fallback handling\n\n**Vercel AI SDK** (JavaScript/TypeScript)\n- Built for streaming and React\n- Provider-agnostic, ships with both APIs\n- Best for web app integration\n\n**Anthropic's Unified SDK** (Python/JavaScript)\n- Native support for Claude with OpenAI compatibility layer\n- Getting better at cross-provider patterns\n\n## Development & Testing\n\n**AnythingLLM**\n- Self-hosted RAG interface\n- Supports both providers cleanly\n- No coding required\n\n**Promptfoo**\n- Test harness comparing models side-by-side\n- Cost/latency evaluation\n- CLI-driven\n\n**Pydantic AI** (Python)\n- Structured outputs across providers\n- Type validation built-in\n- Modern Python approach\n\n## Production Infrastructure\n\n**Modal Labs**\n- Serverless GPU deployments\n- Works with any API key\n- Good for scheduled tasks\n\n**Together AI**\n- Unified endpoint for multiple models\n- Can route between providers\n\n## Quick Recommendation\n\n**For most use cases:** Start with **LangChain** (complexity) or **Vercel AI SDK** (simplicity)\n\n**For production:** Add **Promptfoo** for testing + **LiteLLM** for abstraction\n\nWhat's your use case? (Web app, backend service, research?)",
-  "cached_at": "2026-05-28T07:42:41Z",
-  "metadata": {}
-}

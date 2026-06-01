@@ -1,9 +1,0 @@
-{
-  "brand": "Lattice",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable HR tools instead of 15Five",
-  "response": "# Alternatives to 15Five\n\n## Open Source Options\n\n- **Plane** – Project management with team collaboration features\n- **OpenHRMS** – Dedicated HR management system\n- **Odoo HR Module** – Free HR tools (part of larger ERP suite)\n- **Frappe/ERPNext** – Includes employee management, leave tracking, performance\n\n## Affordable SaaS (Under $15/user/month)\n\n- **Lattice** – Performance management, starts ~$8/user\n- **Culture Amp** – Engagement surveys (lower-cost plans available)\n- **Officevibe** – Employee engagement, ~$2-5/user\n- **Peakon** – Pulse surveys, competitive pricing\n- **Guidepoint** – Lightweight feedback tool\n\n## Free/Freemium Tiers\n\n- **Bamboo HR** – Limited free version\n- **Workmates** – Free basic tier\n- **Leapsome** – Free tier for small teams\n- **Ally** – Free for basic 1-on-1s\n- **Google Forms + Sheets** – DIY survey approach (minimal cost)\n\n## Budget Tips\n\n- Combine tools (Slack + Google Forms + free survey tool)\n- Start with engagement surveys before full platform\n- Check for non-profit/startup discounts\n- Consider team size before committing\n\n**What's your priority?** (engagement surveys, performance reviews, feedback, or all-in-one?) That would help narrow recommendations.",
-  "cached_at": "2026-05-28T06:30:07Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "SafeBase",
-  "prompt_id": "CD-02",
-  "llm": "openai",
-  "prompt_text": "Top trust and security center platform for B2B SaaS vendor reviews tools in 2025",
-  "response": "As of my last update, there isn't specific information about the top trust and security center platforms for B2B SaaS vendor reviews in 2025. However, several platforms have been prominent in this space and are likely to continue to be relevant:\n\n1. **TrustArc**: Known for its comprehensive privacy compliance solutions, TrustArc offers tools that help businesses manage privacy, security, and compliance risks.\n\n2. **OneTrust**: A leading platform for privacy, security, and third-party risk management, OneTrust provides a suite of tools that help businesses maintain trust with their customers.\n\n3. **Drata**: Specializing in continuous security and compliance automation, Drata helps companies achieve and maintain compliance with frameworks like SOC 2, ISO 27001, and more.\n\n4. **Vanta**: Vanta automates security monitoring and compliance processes, making it easier for companies to achieve SOC 2, ISO 27001, and other certifications.\n\n5. **SecurityScorecard**: This platform provides security ratings and continuous monitoring, helping businesses assess the security posture of their vendors.\n\n6. **BitSight**: Known for its security ratings, BitSight helps organizations manage third-party risk by providing insights into the security performance of vendors.\n\nThese platforms are known for their capabilities in enhancing trust and security for B2B SaaS vendors. It's important to evaluate them based on your specific needs, such as the types of compliance you need to adhere to and the level of automation and integration you require.",
-  "cached_at": "2026-05-28T08:43:16Z",
-  "metadata": {}
-}

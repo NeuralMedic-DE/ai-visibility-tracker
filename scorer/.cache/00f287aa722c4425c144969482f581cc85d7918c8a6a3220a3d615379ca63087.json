@@ -1,9 +1,0 @@
-{
-  "brand": "Helicone",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Helicone integrate with OpenAI?",
-  "response": "Yes, Helicone integrates with OpenAI. Helicone is a tool designed to provide analytics and monitoring for applications using OpenAI's API. It helps developers track usage, performance, and costs associated with their OpenAI API calls, offering insights and metrics that can be valuable for optimizing and managing applications that rely on OpenAI's services.",
-  "cached_at": "2026-05-28T07:49:40Z",
-  "metadata": {}
-}

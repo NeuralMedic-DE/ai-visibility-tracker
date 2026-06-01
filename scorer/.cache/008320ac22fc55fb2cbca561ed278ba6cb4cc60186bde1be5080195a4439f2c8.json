@@ -1,9 +1,0 @@
-{
-  "brand": "Klipfolio",
-  "prompt_id": "IN-03",
-  "llm": "perplexity",
-  "prompt_text": "How do I connect Klipfolio with Google Analytics?",
-  "response": "The simplest way to connect **Klipfolio with Google Analytics** is to use Klipfolio’s **Google Analytics connector** or a pre-built **Google Analytics 4 (GA4) Klip** from the Klip Gallery.[4][6] For custom reporting, Klipfolio also supports building a data source with a Google Analytics query and then turning that data into a dashboard widget.[1][4]\n\n- **For a pre-built GA4 Klip:** in a dashboard, click **+ Add Klip**, choose **Google Analytics 4** in the Klip Gallery, click **Add to Dashboard**, then click **Connect your Data** and sign in with your Google Analytics 4 account.[6]\n- **For a custom connection:** go to **Library** → **Data Sources** → **Create a New Data source**, choose **Google Analytics**, sign in to Google, and allow Klipfolio read-only access to your analytics data.[1]\n- **If you want advanced reporting:** Klipfolio’s Connector Gallery lets you create **custom API queries** and, optionally, use the **Google Analytics Query Explorer** to test the query first, then paste the query URI into Klipfolio.[4][1]\n\nFor the custom-query approach, the basic flow is:\n- Authenticate your Google account in Klipfolio.[1]\n- Build or test the query in Google Analytics Query Explorer.[1][4]\n- Copy the query URI into Klipfolio’s **Query URI** field.[1]\n- Click **Get Data** to verify the results, then **Continue** and **Save** the data source.[1]\n- Use **Build a Klip with this Data Source** to create a table, chart, or other visualization.[1]\n\nIf you want, I can give you the exact step-by-step instructions for either **GA4 pre-built Klips** or a **custom Google Analytics data source**.",
-  "cached_at": "2026-05-27T20:33:08Z",
-  "metadata": {}
-}

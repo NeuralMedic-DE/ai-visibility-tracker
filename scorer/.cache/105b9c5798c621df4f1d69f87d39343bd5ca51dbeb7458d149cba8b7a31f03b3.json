@@ -1,9 +1,0 @@
-{
-  "brand": "Retool",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "AppSmith vs alternatives: what should I switch to?",
-  "response": "# AppSmith Alternatives: Comparison Guide\n\n## When to switch from AppSmith\n\n- Need better **performance** at scale\n- Require **advanced customization** beyond low-code\n- Want stronger **enterprise security/compliance**\n- Prefer **different pricing model**\n- Need **specific integrations** not well-supported\n\n## Top alternatives by use case\n\n### **Visual builders (most similar)**\n- **Budibase** - Open-source, good self-hosting, simpler UI\n- **Retool** - Polished UX, faster performance, pricier\n- **FlutterFlow** - If mobile-first is priority\n\n### **Maximum flexibility**\n- **Custom React/Vue + backend** - Full control, higher effort\n- **Next.js + Supabase** - Modern, developer-friendly\n- **Bubble** - No-code but less technical\n\n### **Enterprise/compliance-heavy**\n- **Mendix** - Professional support, stronger governance\n- **Salesforce/Airtable** - If already in ecosystem\n- **OutSystems** - More mature, steeper learning curve\n\n## Decision framework\n\n| Factor | Best choice |\n|--------|---|\n| **Budget-conscious** | Budibase |\n| **Fastest shipping** | Retool |\n| **Most control** | Custom code |\n| **No self-hosting** | Retool or Bubble |\n| **Scaling concerns** | Retool or custom |\n| **Mobile apps** | FlutterFlow |\n\n**Real talk:** Most teams don't actually need to switch—AppSmith works fine for internal tools. The question is usually about *when* to graduate to custom code.\n\nWhat's driving your consideration?",
-  "cached_at": "2026-05-27T20:57:22Z",
-  "metadata": {}
-}

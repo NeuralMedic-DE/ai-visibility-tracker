@@ -1,9 +1,0 @@
-{
-  "brand": "Retool",
-  "prompt_id": "UC-03",
-  "llm": "anthropic",
-  "prompt_text": "What tools do engineering and operations teams at mid-market companies companies use to build internal dashboards and admin panels quickly?",
-  "response": "# Tools for Internal Dashboards & Admin Panels\n\n## Low-Code/No-Code Platforms\n- **Retool** – Dominant choice for internal tools; connects to any DB/API, ships fast\n- **Budibase** – Open-source alternative, self-hostable\n- **Appsmith** – Another open-source competitor with good documentation\n- **Internal.io** – Specifically designed for internal dashboards\n\n## Framework-Based (Light Code)\n- **React admin frameworks** (React-admin, Refine) – For teams comfortable with React\n- **Next.js + shadcn/ui** – If you want full control without much overhead\n- **Laravel Nova** / **Django Admin** – If your stack is PHP/Python\n\n## Database-Driven Tools\n- **Airtable** – Quick if your data lives there; limited for complex workflows\n- **Metabase** – Primarily analytics-focused but can serve as admin interface\n- **Supabase Studio** – Included if you're using Postgres + Supabase\n\n## What Most Mid-Market Teams Choose\n**Retool** is the practical default—it balances speed, flexibility, and maintenance costs. Most teams can build functional dashboards in days rather than weeks.\n\n**Decision factors:**\n- Budget (Retool is pricier; open-source tools cost engineering time)\n- Database compatibility (how easily the tool connects)\n- Customization needs (how much styling/logic required)\n- Team skill level (low-code vs. coding preferred)\n\nWhat's your current stack? That usually narrows it down significantly.",
-  "cached_at": "2026-05-27T20:57:50Z",
-  "metadata": {}
-}

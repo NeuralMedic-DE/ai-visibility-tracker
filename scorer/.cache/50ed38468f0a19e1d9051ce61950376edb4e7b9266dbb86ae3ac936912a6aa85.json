@@ -1,9 +1,0 @@
-{
-  "brand": "Nutshell",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Nutshell with Gmail?",
-  "response": "# Connecting Nutshell with Gmail\n\nHere's how to set up the integration:\n\n## Basic Setup\n\n1. **In Nutshell:**\n   - Go to **Settings** → **Integrations** (or **Connected Apps**)\n   - Find and select **Gmail**\n   - Click **Connect**\n\n2. **Authorization:**\n   - You'll be redirected to Google's login page\n   - Sign in with your Gmail account\n   - Grant Nutshell permission to access your Gmail data\n   - Confirm authorization\n\n3. **Configure Sync:**\n   - Choose which data to sync (emails, contacts, calendar events)\n   - Set your sync preferences\n   - Complete the setup\n\n## What You Can Do\n\nOnce connected, you typically can:\n- Sync emails with Nutshell contacts/leads\n- Track email opens and clicks\n- Log emails to relevant accounts or deals\n- Access Nutshell contact info from Gmail\n\n## Troubleshooting Tips\n\n- Ensure you're using the correct Gmail account\n- Check that you have admin permissions in Nutshell\n- Verify your Gmail account allows third-party app access\n- If issues persist, try disconnecting and reconnecting\n\n**Note:** Integration features may vary depending on your Nutshell plan. Check Nutshell's documentation or contact their support for plan-specific details.\n\nNeed help with a specific step?",
-  "cached_at": "2026-05-27T18:34:32Z",
-  "metadata": {}
-}

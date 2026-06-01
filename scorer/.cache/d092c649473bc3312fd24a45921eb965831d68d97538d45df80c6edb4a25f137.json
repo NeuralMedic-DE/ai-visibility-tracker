@@ -1,9 +1,0 @@
-{
-  "brand": "Customer.io",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to Klaviyo",
-  "response": "# Cheaper Alternatives to Klaviyo\n\n## Budget-Friendly Options\n\n**Mailchimp**\n- Free tier up to 500 contacts\n- $20-350/month for paid plans\n- Good for small businesses and startups\n- Basic automation and segmentation\n\n**Brevo (Sendinblue)**\n- Free: 300 emails/day, unlimited contacts\n- Paid: $20-300/month\n- Strong automation features\n- SMS included in higher tiers\n\n**ConvertKit**\n- $29-79/month\n- Creator-focused\n- Simple automation, good deliverability\n- Better for content creators than ecommerce\n\n## Mid-Range Solutions\n\n**ActiveCampaign**\n- $15-229/month\n- More powerful automation than Klaviyo alternatives above\n- CRM included\n- Good for mid-market businesses\n\n**Omnisend**\n- $20-299/month\n- Ecommerce-focused (similar to Klaviyo)\n- Email + SMS + push notifications\n- Better value for Shopify stores\n\n**Moosend**\n- $10-179/month\n- Strong automation at lower price points\n- Good segmentation tools\n- Underrated option\n\n## Free/Very Cheap\n\n- **Flodesk** - $30/month flat (unlimited contacts)\n- **Substack** - Free for newsletters\n- **MailerLite** - Free up to 1,000 subscribers\n\n## Choosing Based on Your Needs\n- **Ecommerce focus**: Omnisend or Brevo\n- **Content/creators**: ConvertKit or Substack\n- **General email**: Mailchimp or MailerLite\n- **Advanced automation**: ActiveCampaign\n\nWhat's your primary use case?",
-  "cached_at": "2026-05-28T07:14:49Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Leapsome",
-  "prompt_id": "IN-02",
-  "llm": "anthropic",
-  "prompt_text": "Leapsome BambooHR integration: how does it work?",
-  "response": "# Leapsome-BambooHR Integration\n\n## Overview\nThe integration connects your HR data with performance management, automating workflows between systems.\n\n## How It Works\n\n### **Data Sync**\n- **Employee information** flows from BambooHR → Leapsome\n- Syncs employee profiles, departments, managers, and organizational structure\n- Typically one-way, keeping Leapsome data current\n\n### **Key Functions**\n1. **Auto-population** - Employee details pre-fill in Leapsome forms\n2. **Manager alignment** - Reporting relationships sync automatically\n3. **Reduced manual entry** - Less duplicate data entry\n\n### **Common Use Cases**\n- Pre-loading employee info for 1-on-1s and reviews\n- Mapping org structure for feedback cycles\n- Automating user provisioning\n\n## Setup Requirements\n\n- **BambooHR API access** - Admin credentials needed\n- **Leapsome workspace** - Active account\n- **Permissions** - HR admin access to both platforms\n\n## Limitations to Know\n\n- Typically **one-directional** (BambooHR → Leapsome)\n- Some fields may require manual mapping\n- Update frequency varies (often daily/weekly)\n- Custom fields may need special configuration\n\n## Next Steps\n\n- Check [Leapsome's integration docs](https://help.leapsome.com/) for current setup steps\n- Contact either vendor's support for troubleshooting\n- Consider data privacy/compliance requirements\n\nNeed help with specific setup steps or troubleshooting?",
-  "cached_at": "2026-05-28T06:37:25Z",
-  "metadata": {}
-}

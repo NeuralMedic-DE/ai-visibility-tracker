@@ -1,9 +1,0 @@
-{
-  "brand": "Mosaic",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Mosaic with NetSuite?",
-  "response": "# Connecting Mosaic with NetSuite\n\nThe process depends on which Mosaic product you're using. Here are the main approaches:\n\n## 1. **Native Integration (If Available)**\n- Check if your Mosaic product has a built-in NetSuite connector\n- Look in your integration marketplace or app store\n- Follow the documented setup steps for OAuth or API key authentication\n\n## 2. **API-Based Connection**\n- Use NetSuite's REST Web Services or SuiteTalk SOAP API\n- Use Mosaic's API to push/pull data\n- This typically requires:\n  - NetSuite API credentials (API key, account ID)\n  - Authentication setup (OAuth 2.0 or token-based)\n\n## 3. **Third-Party Integration Tools**\nIf direct integration isn't available, consider:\n- **Zapier** - connects Mosaic to NetSuite via workflows\n- **Integromat** - similar automation platform\n- **Custom middleware** - build your own connector\n\n## 4. **Data Import/Export**\n- Export data from one system as CSV/JSON\n- Import into the other using standard data import tools\n\n## **What You'll Typically Need:**\n- NetSuite account ID\n- API credentials or token\n- Field mapping documentation\n- Admin access to both systems\n\n**Can you clarify which Mosaic product you're using?** (e.g., Mosaic PSA, Mosaic for project management, etc.) This will help me provide more specific guidance.",
-  "cached_at": "2026-05-28T07:10:27Z",
-  "metadata": {}
-}

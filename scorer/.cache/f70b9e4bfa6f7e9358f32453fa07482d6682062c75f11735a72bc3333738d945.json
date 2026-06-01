@@ -1,9 +1,0 @@
-{
-  "brand": "Amplitude",
-  "prompt_id": "CD-01",
-  "llm": "openai",
-  "prompt_text": "What is the best product analytics for mid-market to enterprise product teams?",
-  "response": "Selecting the best product analytics tool for mid-market to enterprise product teams depends on specific needs, such as ease of use, integration capabilities, scalability, and the depth of insights required. However, some of the top contenders in this space include:\n\n1. **Mixpanel**: Known for its powerful event-based tracking and user segmentation capabilities, Mixpanel is excellent for teams looking to understand user behavior deeply.\n\n2. **Amplitude**: Offers robust analytics features, including cohort analysis, user journey mapping, and retention tracking. It's particularly strong in providing actionable insights for product teams.\n\n3. **Heap**: Provides automatic data capture, which means you don’t have to manually tag events. This can be a significant advantage for teams that want to quickly start analyzing user interactions without extensive setup.\n\n4. **Pendo**: Combines product analytics with in-app guidance and feedback tools, making it a good choice for teams that want to improve user onboarding and engagement.\n\n5. **Google Analytics 4 (GA4)**: While traditionally used for web analytics, GA4 has expanded its capabilities to include more product-focused insights, making it a viable option for some teams.\n\n6. **Segment**: Although primarily a customer data platform, Segment integrates with many analytics tools and can be used to streamline data collection and distribution across different analytics platforms.\n\nEach of these tools has its strengths, so the best choice will depend on your specific requirements, such as the complexity of your product, the size of your team, and your budget. It's often beneficial to trial a few options to see which one aligns best with your needs.",
-  "cached_at": "2026-05-27T19:20:45Z",
-  "metadata": {}
-}

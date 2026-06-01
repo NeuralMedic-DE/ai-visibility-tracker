@@ -1,9 +1,0 @@
-{
-  "brand": "Sentry",
-  "prompt_id": "IN-05",
-  "llm": "openai",
-  "prompt_text": "error monitoring tools with native GitHub integration",
-  "response": "There are several error monitoring tools that offer native GitHub integration, allowing you to seamlessly track and manage issues directly from your GitHub repositories. Here are a few popular ones:\n\n1. **Sentry**: Sentry provides real-time error tracking and performance monitoring. It integrates with GitHub to automatically create issues for new errors, link commits to errors, and provide context about the code that caused the error.\n\n2. **Rollbar**: Rollbar offers error monitoring and crash reporting with GitHub integration. It can automatically create GitHub issues for new errors and link errors to the relevant code changes.\n\n3. **Bugsnag**: Bugsnag provides error monitoring with a focus on stability and user impact. Its GitHub integration allows you to create issues directly from the Bugsnag dashboard and link errors to commits.\n\n4. **Raygun**: Raygun offers error, crash, and performance monitoring with GitHub integration. It can create issues in your GitHub repositories and link errors to specific commits.\n\n5. **Airbrake**: Airbrake provides error monitoring with GitHub integration, allowing you to create and manage GitHub issues directly from the Airbrake dashboard.\n\n6. **LogRocket**: While primarily a frontend monitoring tool, LogRocket offers integrations with GitHub to help link errors and issues to specific code changes.\n\nThese tools help streamline the process of tracking and resolving errors by linking them directly to your development workflow in GitHub.",
-  "cached_at": "2026-05-27T21:16:25Z",
-  "metadata": {}
-}

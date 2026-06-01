@@ -1,9 +1,0 @@
-{
-  "brand": "Chargebee",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with handle complex pricing models and SaaS revenue recognition rules at scale?",
-  "response": "# Software for SaaS Pricing & Revenue Recognition at Scale\n\n## Specialized Revenue Recognition Platforms\n\n**Stripe Billing** / **Zuora**\n- Purpose-built for subscription management\n- Handle complex pricing tiers, usage-based models, proration\n- Built-in ASC 606/IFRS 15 compliance\n- Good for mid-market to enterprise\n\n**Recurly** / **Chargebee**\n- Strong in flexible pricing configurations\n- Multi-currency, tax handling\n- Revenue recognition workflows\n- More accessible pricing than Zuora\n\n## Enterprise Solutions\n\n**NetSuite / Oracle NetSuite**\n- Comprehensive ERP with revenue recognition module\n- Handles complex multi-element arrangements\n- Better for companies needing full financial integration\n\n**SAP Revenue Cloud**\n- Enterprise-grade, heavy implementation\n- For very complex scenarios (hardware + software bundles, etc.)\n\n## Accounting-First Approach\n\n**Brex**, **Expensify** level tools often rely on:\n- **Fintech middleware**: Connectors that map billing data to accounting systems\n- Direct integration to Quickbooks, Xero, or your ERP\n- Custom automation through Zapier/Make for simpler models\n\n## Key Decision Factors\n\n| If You Need | Consider |\n|---|---|\n| Quick implementation | Chargebee, Stripe Billing |\n| Maximum flexibility | Zuora, NetSuite |\n| Simple model + accounting sync | Native billing + middleware |\n| Serious compliance audit-proofing | Zuora, SAP |\n\n**What's your current scale?** (ARR, team size) That would help narrow recommendations.",
-  "cached_at": "2026-05-28T06:50:51Z",
-  "metadata": {}
-}

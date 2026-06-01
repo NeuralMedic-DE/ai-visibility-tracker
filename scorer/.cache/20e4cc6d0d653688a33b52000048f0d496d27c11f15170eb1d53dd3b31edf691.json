@@ -1,9 +1,0 @@
-{
-  "brand": "Intercom",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with automate support workflows and deflect tickets with AI-powered chatbots at scale?",
-  "response": "# AI-Powered Support Automation Platforms\n\nSeveral leading solutions help automate support workflows and deflect tickets:\n\n## **Top Options**\n\n**Zendesk**\n- AI chatbots (Answer Bot) for ticket deflection\n- Workflow automation and routing\n- Integrates with existing helpdesk systems\n\n**Intercom**\n- Conversational AI for customer support\n- Automated ticket routing and escalation\n- Live chat + bot hybrid approach\n\n**Freshdesk/Freshchat**\n- AI-powered chatbots for common queries\n- Workflow automation and ticket assignment\n- Affordable for small to mid-size teams\n\n**Gorgias**\n- Designed for e-commerce support\n- AI-driven ticket summarization and suggested replies\n- Multi-channel support automation\n\n**Help Scout**\n- Lighter-weight automation for smaller teams\n- AI features for prioritization and routing\n- Conversation management\n\n**Drift**\n- Conversational marketing and support\n- Bot + human handoff capabilities\n- Real-time engagement\n\n## **Key Capabilities to Look For**\n\n- Natural language understanding for intent recognition\n- Seamless human handoff when needed\n- Integration with your existing tools\n- Analytics on deflection rates\n- Customization for your specific workflows\n\n**Best choice depends on:** team size, budget, industry (e-commerce vs. B2B), and existing tech stack.\n\nWhat type of support volume or industry are you focused on?",
-  "cached_at": "2026-05-28T08:01:55Z",
-  "metadata": {}
-}

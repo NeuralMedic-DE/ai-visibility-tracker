@@ -1,9 +1,0 @@
-{
-  "brand": "Lattice",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I run continuous performance reviews and set company-wide OKRs without spending a lot on software?",
-  "response": "# Low-Cost Approach to Continuous Reviews & OKRs\n\n## For Performance Reviews\n\n**Free/cheap tools:**\n- **Google Sheets or Airtable** (free tier) - create simple review templates with feedback sections, scores, and notes\n- **Notion** - one workspace free, good for building custom review workflows\n- **Lattice free tier** - limited but functional for basic feedback collection\n\n**Process that doesn't need software:**\n- Monthly 1-on-1s with a shared doc agenda (everyone notes progress)\n- Peer feedback via simple form (Google Forms is free)\n- Self-assessments in a shared spreadsheet\n- Skip annual reviews; make it 4x/year touchpoints instead\n\n**Real cost-savers:**\n- Use your existing email/Slack for feedback threads\n- Managers keep running notes in their own docs\n- Schedule recurring calendar blocks so reviews actually happen\n\n## For OKRs\n\n**Minimal setup:**\n- **Google Sheets template** (search \"OKR template\") - totally functional, visual tracking\n- **Notion database** - better for cross-team visibility if you set it up once\n- **Even simpler:** wiki or shared doc with quarterly updates\n\n**Process notes:**\n- Top-down draft, then 1-week feedback window (async in doc comments)\n- Monthly check-ins don't need software—could be a Slack thread or brief meeting\n- Quarterly review meeting where you review and reset\n\n## The Real Trick\n\nThe software matters less than:\n- Keeping it visible (shared doc everyone reviews weekly)\n- Consistent calendar blocks for reviews/check-ins\n- Actually using what you pick (don't over-engineer)\n\nWhat's your team size? That changes what makes sense.",
-  "cached_at": "2026-05-28T06:30:10Z",
-  "metadata": {}
-}

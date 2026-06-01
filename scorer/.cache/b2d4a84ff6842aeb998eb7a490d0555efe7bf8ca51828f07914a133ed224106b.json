@@ -1,9 +1,0 @@
-{
-  "brand": "LeadIQ",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does LeadIQ integrate with Salesforce?",
-  "response": "Yes. **LeadIQ has a native, direct integration with Salesforce CRM** that lets you create and update Salesforce records from LeadIQ.\n\nEssential points:\n\n- LeadIQ’s **Salesforce integration** allows you to save captured prospects directly into Salesforce as **Leads or Contacts**, and also **update existing Leads/Contacts** at the point of capture.[1][4][6]  \n- You connect Salesforce from the **LeadIQ Integrations** settings using an **OAuth-based API connection**, and each user authenticates with their own Salesforce login.[1][4]  \n- Once connected, users can see a **Salesforce cloud icon** in the LeadIQ extension and choose Salesforce as a destination when saving records.[4]  \n- LeadIQ is listed as a **Salesforce enrichment app** on Salesforce AppExchange and as a CRM integration on LeadIQ’s own integrations page.[3][6][5]  \n\nIf you need, I can outline the exact steps to turn the integration on in your account.",
-  "cached_at": "2026-05-27T18:49:06Z",
-  "metadata": {}
-}

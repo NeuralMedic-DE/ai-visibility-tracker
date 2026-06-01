@@ -1,9 +1,0 @@
-{
-  "brand": "Reply.io",
-  "prompt_id": "UC-03",
-  "llm": "openai",
-  "prompt_text": "What tools do sales teams at B2B SaaS companies running outbound sequences companies use to automate email LinkedIn and call sequences for outbound sales workflows?",
-  "response": "Sales teams at B2B SaaS companies often use a variety of tools to automate their outbound sales workflows, including email, LinkedIn, and call sequences. Some popular tools include:\n\n1. **Salesforce**: A comprehensive CRM platform that offers automation features and integrates with many other tools.\n\n2. **HubSpot Sales Hub**: Provides email tracking, automation, and CRM capabilities, along with integration options for LinkedIn and calling.\n\n3. **Outreach**: A sales engagement platform that automates email sequences, call workflows, and integrates with LinkedIn.\n\n4. **Salesloft**: Offers a suite of tools for managing email, call, and LinkedIn sequences, with robust analytics and reporting.\n\n5. **Apollo.io**: Provides a platform for automating email sequences, calling, and LinkedIn outreach, with a built-in prospecting database.\n\n6. **LinkedIn Sales Navigator**: While primarily a prospecting tool, it integrates with other platforms to facilitate LinkedIn outreach automation.\n\n7. **Reply.io**: Automates email and LinkedIn sequences and includes features for call automation.\n\n8. **Mixmax**: Focuses on email automation and tracking, with integrations for LinkedIn and calling.\n\n9. **Yesware**: An email tracking and automation tool that integrates with CRM systems and offers LinkedIn and calling capabilities.\n\n10. **Groove**: A sales engagement platform that automates email, call, and LinkedIn sequences, designed to work closely with Salesforce.\n\nThese tools help sales teams streamline their outbound efforts, improve efficiency, and maintain consistent communication with prospects.",
-  "cached_at": "2026-05-28T07:21:21Z",
-  "metadata": {}
-}

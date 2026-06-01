@@ -1,9 +1,0 @@
-{
-  "brand": "Grip Security",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Grip Security integrate with Okta?",
-  "response": "# Grip Security and Okta Integration\n\nYes, **Grip Security integrates with Okta**. Grip Security is an identity threat detection and response (ITDR) platform that works with Okta to help detect and remediate identity-based threats and security risks.\n\nThe integration allows organizations to:\n\n- **Monitor identity threats** within their Okta environment\n- **Detect suspicious activities** related to user accounts and access\n- **Respond to threats** more effectively through automated or manual remediation\n- **Gain visibility** into identity risks and vulnerabilities\n\nThis partnership is part of Grip Security's broader capability to integrate with major identity and access management platforms to provide comprehensive threat detection and response.\n\nIf you're considering this integration, I'd recommend checking Grip Security's latest documentation or contacting their sales team for current details about specific features and deployment options.",
-  "cached_at": "2026-05-28T08:41:30Z",
-  "metadata": {}
-}

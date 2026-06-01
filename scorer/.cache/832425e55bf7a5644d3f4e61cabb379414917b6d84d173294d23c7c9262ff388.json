@@ -1,9 +1,0 @@
-{
-  "brand": "Checkly",
-  "prompt_id": "IN-02",
-  "llm": "openai",
-  "prompt_text": "Checkly Slack integration: how does it work?",
-  "response": "Checkly's Slack integration allows you to receive real-time notifications in your Slack workspace about the status of your checks. Here's how it typically works:\n\n1. **Integration Setup**: You need to connect Checkly with your Slack workspace. This is usually done through the Checkly dashboard, where you can find an option to integrate with Slack. You'll be prompted to authorize Checkly to send messages to your Slack channels.\n\n2. **Channel Configuration**: Once integrated, you can configure which Slack channels should receive notifications. You can choose specific channels for different types of alerts, such as check failures, recoveries, or status changes.\n\n3. **Notification Settings**: You can customize the types of notifications you receive. For example, you might want to receive alerts only for certain checks or only when a check fails multiple times.\n\n4. **Real-time Alerts**: When a check fails, recovers, or changes status, Checkly sends a message to the designated Slack channel. These messages typically include details about the check, such as the name, status, and any error messages or logs.\n\n5. **Interactive Messages**: Some integrations allow you to interact with the notifications directly in Slack, such as acknowledging alerts or viewing more details.\n\nBy integrating Checkly with Slack, you can keep your team informed about the health of your applications and respond quickly to any issues.",
-  "cached_at": "2026-05-28T06:23:07Z",
-  "metadata": {}
-}

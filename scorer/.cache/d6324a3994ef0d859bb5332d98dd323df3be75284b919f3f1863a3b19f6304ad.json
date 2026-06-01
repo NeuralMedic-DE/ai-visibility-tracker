@@ -1,9 +1,0 @@
-{
-  "brand": "LangChain",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect LangChain with OpenAI?",
-  "response": "# Connecting LangChain with OpenAI\n\nHere's a step-by-step guide:\n\n## 1. **Install Required Packages**\n\n```bash\npip install langchain openai python-dotenv\n```\n\n## 2. **Set Up Your OpenAI API Key**\n\nCreate a `.env` file in your project root:\n\n```\nOPENAI_API_KEY=your_api_key_here\n```\n\nLoad it in your code:\n\n```python\nfrom dotenv import load_dotenv\nimport os\n\nload_dotenv()\napi_key = os.getenv(\"OPENAI_API_KEY\")\n```\n\n## 3. **Basic Usage Example**\n\n### Simple LLM Call\n\n```python\nfrom langchain.llms import OpenAI\n\nllm = OpenAI(temperature=0.7)\nresponse = llm(\"What is the capital of France?\")\nprint(response)\n```\n\n### Using Chat Models (Recommended)\n\n```python\nfrom langchain.chat_models import ChatOpenAI\nfrom langchain.schema import HumanMessage\n\nchat = ChatOpenAI(model=\"gpt-3.5-turbo\", temperature=0.7)\nresponse = chat([HumanMessage(content=\"Hello!\")])\nprint(response.content)\n```\n\n## 4. **With LangChain Chains**\n\n```python\nfrom langchain.chat_models import ChatOpenAI\nfrom langchain.chains import LLMChain\nfrom langchain.prompts import ChatPromptTemplate\n\nchat = ChatOpenAI()\nprompt = ChatPromptTemplate.from_template(\"Write a joke about {topic}\")\nchain = LLMChain(llm=chat, prompt=prompt)\n\nresult = chain.run(topic=\"programming\")\nprint(result)\n```\n\n## Key Parameters\n\n- `temperature`: 0-1 (lower = more deterministic)\n- `model`: \"gpt-4\", \"gpt-3.5-turbo\", etc.\n- `max_tokens`: Limit response length\n- `api_key`: Can pass directly if not using .env\n\nThat's it! You're connected and ready to use OpenAI with LangChain.",
-  "cached_at": "2026-05-28T07:40:12Z",
-  "metadata": {}
-}

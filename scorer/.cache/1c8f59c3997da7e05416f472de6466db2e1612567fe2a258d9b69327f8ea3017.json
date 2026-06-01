@@ -1,9 +1,0 @@
-{
-  "brand": "Pendo",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best product analytics for enterprise SaaS product teams?",
-  "response": "# Best Product Analytics for Enterprise SaaS\n\nThere's no single \"best,\" but here are the top contenders based on enterprise needs:\n\n## Market Leaders\n\n**Amplitude**\n- Strongest for behavioral cohort analysis and funnel insights\n- Excellent user journey mapping\n- Best-in-class data governance for enterprises\n- Higher price point but mature platform\n\n**Mixpanel**\n- User-focused analytics with strong retention/churn modeling\n- Good balance of power and usability\n- Solid for engagement metrics\n- Easier learning curve than Amplitude\n\n**Heap**\n- Automatic event capture (no instrumentation required)\n- Great for speed to insight\n- Lower implementation overhead\n- Less sophisticated than Amplitude for complex analysis\n\n## Specialized Alternatives\n\n**Pendo** — If you need in-app guidance alongside analytics\n\n**Segment** — If you need CDP capabilities and multi-destination flexibility\n\n**Posthog** — If self-hosted/privacy is critical or you want product-market fit features\n\n## Selection Criteria for Enterprise\n\n1. **Data volume** — How many events/users monthly?\n2. **Governance** — SSO, audit logs, data residency needs?\n3. **Integration** — Does it connect to your stack?\n4. **Time-to-value** — Can your team move fast?\n5. **Cost structure** — MTU vs. event-based pricing?\n\n**My pragmatic take:** Amplitude + a secondary tool (Mixpanel or Pendo) often wins for large teams because they excel at different questions.\n\nWhat's your team size and primary analytics challenge?",
-  "cached_at": "2026-05-27T19:46:40Z",
-  "metadata": {}
-}

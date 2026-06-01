@@ -1,9 +1,0 @@
-{
-  "brand": "Workable",
-  "prompt_id": "CD-01",
-  "llm": "openai",
-  "prompt_text": "What is the best ATS for HR teams at SMB and mid-market companies hiring at scale?",
-  "response": "Selecting the best Applicant Tracking System (ATS) for small to medium-sized businesses (SMBs) and mid-market companies depends on specific needs, such as budget, integration capabilities, ease of use, and scalability. However, some ATS platforms are generally well-regarded for their suitability in these environments:\n\n1. **BambooHR**: Known for its user-friendly interface and comprehensive HR features, BambooHR is great for SMBs looking for an all-in-one HR solution that includes ATS capabilities.\n\n2. **Greenhouse**: Popular among mid-market companies, Greenhouse offers robust features for managing the hiring process at scale, including strong integration options and analytics.\n\n3. **Lever**: Lever is designed to help companies scale their hiring efforts with a focus on collaboration and candidate relationship management. It offers a seamless user experience and integrates well with other tools.\n\n4. **Workable**: This platform is known for its ease of use and flexibility, making it a good choice for SMBs. Workable offers a wide range of features, including sourcing, evaluation, and collaboration tools.\n\n5. **JazzHR**: JazzHR is cost-effective and offers customizable workflows, making it a good fit for smaller businesses that need a straightforward ATS without breaking the bank.\n\n6. **Jobvite**: Suitable for mid-market companies, Jobvite provides a comprehensive suite of recruiting tools, including ATS, CRM, and onboarding features, all designed to support hiring at scale.\n\nEach of these platforms has its strengths, so it's important for HR teams to assess their specific requirements and possibly take advantage of free trials or demos to determine which ATS best fits their needs.",
-  "cached_at": "2026-05-28T06:45:50Z",
-  "metadata": {}
-}

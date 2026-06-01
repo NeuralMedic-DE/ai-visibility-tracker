@@ -1,9 +1,0 @@
-{
-  "brand": "Checkly",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to PagerDuty",
-  "response": "# Cheaper Alternatives to PagerDuty\n\n## Free/Low-Cost Options\n\n**Grafana OnCall**\n- Free tier available\n- Open-source option\n- Good integration with monitoring tools\n- ~$9-25/user/month (paid tiers)\n\n**Opsgenie (by Atlassian)**\n- Free tier (up to 5 team members)\n- Simpler feature set\n- ~$10-29/user/month (paid)\n\n**ilert**\n- Free plan available\n- ~$6-14/user/month\n- Good escalation policies\n\n**Incident.io**\n- Focuses on incident response\n- Mid-tier pricing (~$500+/month)\n- More specialized than on-call\n\n## Budget Options\n\n| Tool | Free Tier | Paid Starting | Best For |\n|------|-----------|---------------|----------|\n| **Squadcast** | Limited | ~$49/month | Small teams |\n| **OnPage** | No | ~$30/user/month | Enterprise features |\n| **Splunk On-Call** | 7-day free trial | ~$29/user/month | Splunk ecosystem |\n| **Big Panda** | No | Custom pricing | Enterprise |\n\n## DIY Alternatives\n\n- **Twilio + custom scripts** - Build your own alerting\n- **Alertmanager** (Prometheus) - Open-source, self-hosted\n- **n8n/Zapier** - Workflow automation for simpler needs\n\n## Key Considerations\n\n- **Team size** - affects per-user costs\n- **Integration needs** - some tools integrate better with your stack\n- **Features needed** - escalation, analytics, automation depth\n- **Self-hosted vs. SaaS** - open-source options save monthly costs\n\nWhat's your primary use case? That would help narrow recommendations.",
-  "cached_at": "2026-05-28T06:22:53Z",
-  "metadata": {}
-}

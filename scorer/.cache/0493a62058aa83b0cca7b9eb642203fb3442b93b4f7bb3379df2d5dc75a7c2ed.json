@@ -1,9 +1,0 @@
-{
-  "brand": "Braintrust",
-  "prompt_id": "IN-03",
-  "llm": "openai",
-  "prompt_text": "How do I connect Braintrust with OpenAI?",
-  "response": "To connect Braintrust with OpenAI, you would typically follow these general steps:\n\n1. **Identify Integration Needs**: Determine what specific functionality or data you want to integrate between Braintrust and OpenAI. This could involve using OpenAI's models to enhance services on Braintrust or vice versa.\n\n2. **API Access**: Ensure you have access to the necessary APIs. OpenAI provides an API for accessing its models, which you can sign up for and obtain an API key.\n\n3. **Development Environment**: Set up a development environment where you can write and test code. This might involve setting up a server or using cloud services.\n\n4. **Coding the Integration**: Write code to connect the two platforms. This will involve:\n   - Using OpenAI's API to send requests and receive responses.\n   - Using Braintrust's API or platform capabilities to integrate the responses or data from OpenAI.\n\n5. **Authentication and Security**: Implement proper authentication methods to secure API keys and data. This could involve using OAuth, API tokens, or other security measures.\n\n6. **Testing**: Thoroughly test the integration to ensure it works as expected and handles errors gracefully.\n\n7. **Deployment**: Once tested, deploy the integration to your production environment.\n\n8. **Monitoring and Maintenance**: Set up monitoring to ensure the integration continues to work smoothly and plan for regular maintenance.\n\nIf Braintrust provides specific documentation or tools for integration, be sure to consult those resources for more detailed guidance. If you need more specific help, consider reaching out to developers or consultants who specialize in API integrations.",
-  "cached_at": "2026-05-28T07:47:34Z",
-  "metadata": {}
-}

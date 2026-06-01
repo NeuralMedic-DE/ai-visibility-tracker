@@ -1,9 +1,0 @@
-{
-  "brand": "Semgrep",
-  "prompt_id": "CM-01",
-  "llm": "anthropic",
-  "prompt_text": "Semgrep vs Snyk: which is better?",
-  "response": "# Semgrep vs Snyk: Key Differences\n\n## **Semgrep**\n**Best for:** Code pattern scanning and custom rules\n\n- **Approach:** Pattern-based SAST (static analysis)\n- **Strengths:**\n  - Open-source and free tier\n  - Highly customizable rule writing\n  - Fast, lightweight scans\n  - Good for catching business logic bugs\n- **Weaknesses:**\n  - Requires rule expertise for custom detections\n  - Limited dependency vulnerability database\n  - Smaller community vs competitors\n\n## **Snyk**\n**Best for:** Dependency and vulnerability management\n\n- **Approach:** Vulnerability database + SAST + SCA\n- **Strengths:**\n  - Excellent dependency scanning (many languages)\n  - Integrated fix recommendations with PR automation\n  - Strong DevOps/container focus\n  - Large, curated vulnerability database\n- **Weaknesses:**\n  - Primarily paid (limited free tier)\n  - Less customizable for organization-specific rules\n  - Heavier resource usage\n\n## **Quick Comparison Table**\n\n| Feature | Semgrep | Snyk |\n|---------|---------|------|\n| **Cost** | Free/generous | Freemium/paid |\n| **Customization** | Excellent | Limited |\n| **Dependency scanning** | Basic | Excellent |\n| **Speed** | Fast | Moderate |\n| **Learning curve** | Moderate | Low |\n\n## **The Honest Answer**\n**Not either/or—they're complementary.** Many teams use both:\n- **Semgrep** for custom security policies and business logic\n- **Snyk** for dependency vulnerability management\n\nChoose based on your primary pain point.",
-  "cached_at": "2026-05-28T08:48:32Z",
-  "metadata": {}
-}

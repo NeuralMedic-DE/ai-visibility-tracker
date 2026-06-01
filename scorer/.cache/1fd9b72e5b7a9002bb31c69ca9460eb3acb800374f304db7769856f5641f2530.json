@@ -1,9 +1,0 @@
-{
-  "brand": "Airbyte",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Fivetran vs alternatives: what should I switch to?",
-  "response": "# Fivetran vs Alternatives\n\nWhether to switch depends on what's driving your frustration. Here's a practical breakdown:\n\n## If cost is the main issue\n- **Stitch** (Talend) – cheaper, similar connectors, simpler UI\n- **Airbyte** – open-source (free) or cloud, growing connector library\n- **custom in-house** – if you have engineering capacity, often cheapest long-term\n\n## If you want more control/customization\n- **Airbyte** – highly flexible, you can build custom connectors\n- **dbt** + lightweight EL – combine with tools like Meltano for DIY approach\n- **Apache NiFi** – powerful but steeper learning curve\n\n## If you want ease-of-use comparable to Fivetran\n- **Stitch** – very similar experience, slightly simpler\n- **Hightouch** (reverse-ELT) – if syncing data *to* destinations is your real need\n\n## If you need advanced transformations\n- **dbt Cloud** + EL tool – separates concerns better, more transparent\n- **Matillion** – stronger transformation capabilities\n\n## Real considerations before switching\n\n| Factor | Reality check |\n|--------|---|\n| **Migration effort** | Moving connections takes time; don't underestimate |\n| **Connector gaps** | Fivetran's main advantage—check if alternatives support your specific sources |\n| **Support** | Fivetran's responsive; smaller tools vary |\n| **Total cost** | Hidden ops/engineering costs often exceed tool costs |\n\n**Most common switch:** Fivetran → Airbyte (if DIY-capable) or Stitch (if you want similar but cheaper)\n\nWhat's your biggest pain point? That would help narrow it down.",
-  "cached_at": "2026-05-28T09:03:30Z",
-  "metadata": {}
-}

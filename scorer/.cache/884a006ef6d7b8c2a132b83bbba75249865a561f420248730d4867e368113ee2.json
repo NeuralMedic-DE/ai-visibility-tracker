@@ -1,9 +1,0 @@
-{
-  "brand": "Anecdotes",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Anecdotes integrate with GitHub?",
-  "response": "Yes, Anecdotes does integrate with GitHub. This integration allows users to streamline their compliance processes by automatically collecting evidence from GitHub repositories. This can be particularly useful for audits and ensuring that development practices meet compliance requirements. If you're looking to set up this integration, you might want to check Anecdotes' documentation or support resources for specific instructions on how to connect your GitHub account.",
-  "cached_at": "2026-05-28T08:36:14Z",
-  "metadata": {}
-}

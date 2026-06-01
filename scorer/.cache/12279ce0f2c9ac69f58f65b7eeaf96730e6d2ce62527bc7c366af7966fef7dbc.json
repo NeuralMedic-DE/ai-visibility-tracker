@@ -1,9 +1,0 @@
-{
-  "brand": "UserVoice",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect UserVoice with Salesforce?",
-  "response": "# Connecting UserVoice with Salesforce\n\nHere are the main ways to integrate these platforms:\n\n## 1. **Native Salesforce Integration (Recommended)**\n- UserVoice offers a built-in Salesforce connector\n- Go to **UserVoice Admin > Integrations > Salesforce**\n- Follow the OAuth authentication flow to authorize the connection\n- Configure which data syncs between platforms\n\n## 2. **Key Setup Steps**\n1. Verify you have admin access in both UserVoice and Salesforce\n2. In UserVoice, navigate to the Integrations section\n3. Select Salesforce and click \"Connect\"\n4. Authorize UserVoice to access your Salesforce org\n5. Map UserVoice data to Salesforce objects (Ideas, Cases, Contacts, etc.)\n6. Configure sync settings and field mappings\n\n## 3. **What Can Be Synced**\n- User feedback and ideas\n- Customer contacts\n- Cases and support tickets\n- Custom fields\n- Activity tracking\n\n## 4. **Alternative Methods**\n- **Zapier**: Connect via automation if native integration doesn't meet your needs\n- **API**: Build custom integration using REST APIs\n- **Third-party iPaaS tools**: Middleware services for more complex workflows\n\n## 5. **Best Practices**\n- Test the connection in a sandbox first\n- Plan field mappings carefully\n- Set up monitoring to ensure data sync works properly\n- Document your configuration\n\n**Need help with specific configuration details?** Let me know what you're trying to accomplish.",
-  "cached_at": "2026-05-28T08:24:26Z",
-  "metadata": {}
-}

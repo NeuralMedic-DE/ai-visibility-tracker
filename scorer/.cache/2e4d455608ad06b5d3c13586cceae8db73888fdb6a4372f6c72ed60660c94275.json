@@ -1,9 +1,0 @@
-{
-  "brand": "Lemlist",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which sales engagement software should a Head of Sales or Growth Lead at a B2B company use?",
-  "response": "# Top Sales Engagement Software Options\n\n## Best Overall Picks\n**Outreach** or **Salesloft** — market leaders with comprehensive features, strong integrations, and proven ROI. Choose based on your specific workflow preferences.\n\n## By Use Case\n\n**If you prioritize ease of use:**\n- Groove or Apollo (faster onboarding, lower learning curve)\n\n**If you need strong automation:**\n- HubSpot Sales Hub (especially if already in HubSpot ecosystem)\n- Klaviyo (if you're doing sophisticated sequences)\n\n**If you're budget-conscious:**\n- Apollo or Lemlist (good features at lower price points)\n\n**If you focus on enterprise deals:**\n- Outreach or Salesloft (best for complex, multi-threaded campaigns)\n\n## Key Evaluation Criteria\n\n1. **Team size & budget** — Outreach/Salesloft are pricier but scale well\n2. **Tech stack** — Does it integrate with your CRM, dialer, and tools?\n3. **Use case** — Pure outbound, account-based selling, or mixed?\n4. **Reporting needs** — What metrics matter most to your org?\n5. **Team preferences** — Some teams prefer lighter tools; others want an all-in-one\n\n## My Honest Take\nFor most B2B growth teams, **Outreach or Salesloft** deliver the best long-term value if you can afford them. For faster implementation with good ROI, **Apollo** is hard to beat.\n\nWhat's your team size and primary use case? That would help narrow it down.",
-  "cached_at": "2026-05-28T07:16:48Z",
-  "metadata": {}
-}

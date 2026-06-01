@@ -1,9 +1,0 @@
-{
-  "brand": "n8n",
-  "prompt_id": "IN-03",
-  "llm": "openai",
-  "prompt_text": "How do I connect n8n with GitHub?",
-  "response": "To connect n8n with GitHub, you need to set up a GitHub integration in n8n. Here’s a step-by-step guide to help you do that:\n\n1. **Create a Personal Access Token on GitHub:**\n   - Log in to your GitHub account.\n   - Go to **Settings** > **Developer settings** > **Personal access tokens**.\n   - Click on **Generate new token**.\n   - Give your token a descriptive name and select the scopes you need (e.g., `repo` for full control of private repositories).\n   - Generate the token and copy it. You will need this token to authenticate n8n with GitHub.\n\n2. **Set Up GitHub Credentials in n8n:**\n   - Open your n8n instance.\n   - Go to **Credentials** in the left sidebar.\n   - Click on **New Credential** and select **GitHub API**.\n   - Enter a name for your credentials.\n   - Choose **Access Token** as the authentication method.\n   - Paste the personal access token you generated from GitHub into the Access Token field.\n   - Save the credentials.\n\n3. **Create a Workflow Using GitHub Node:**\n   - Go to **Workflows** and create a new workflow.\n   - Add a new node and search for **GitHub**.\n   - Select the GitHub node and choose the operation you want to perform (e.g., get repository data, create an issue, etc.).\n   - Select the credentials you created earlier from the dropdown.\n   - Configure any additional parameters required for the operation.\n   - Save and execute the workflow to test the integration.\n\nBy following these steps, you should be able to connect n8n with GitHub and automate tasks involving your GitHub repositories.",
-  "cached_at": "2026-05-28T08:56:17Z",
-  "metadata": {}
-}

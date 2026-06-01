@@ -1,9 +1,0 @@
-{
-  "brand": "June.so",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does June.so integrate with Segment?",
-  "response": "# June.so and Segment Integration\n\nI don't have current information about whether June.so (a product analytics platform) has a direct, native integration with Segment in my training data.\n\nTo get the most accurate answer, I'd recommend:\n\n1. **Check June.so's documentation** - Visit their integrations or documentation page\n2. **Check Segment's catalog** - Segment maintains a directory of destination integrations\n3. **Contact their support teams directly** - Both June.so and Segment support can confirm current integration status\n\nIf a direct integration doesn't exist, you might still be able to connect them through:\n- **Webhook forwarding** from Segment\n- **API-to-API connections** if both platforms support it\n- **Third-party automation tools** like Zapier\n\nIs there a specific use case you're trying to accomplish? That might help suggest alternative approaches.",
-  "cached_at": "2026-05-27T19:58:38Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Conveyor",
-  "prompt_id": "CM-02",
-  "llm": "anthropic",
-  "prompt_text": "Conveyor vs Drata pricing and features",
-  "response": "# Conveyor vs Drata: Pricing & Features Comparison\n\n## **Pricing**\n\n| Feature | Conveyor | Drata |\n|---------|----------|-------|\n| **Model** | Usage-based + fixed tiers | Fixed subscription tiers |\n| **Starting Price** | ~$500-1,000/month | ~$2,000-3,000/month |\n| **Scaling** | Increases with data volume | Fixed per compliance framework |\n| **Free Trial** | Limited | Yes, available |\n\n## **Key Features**\n\n### **Conveyor**\n✅ **Strengths:**\n- Real-time evidence collection\n- Cloud-native focus\n- API-first architecture\n- Cost-effective for startups\n- Continuous compliance monitoring\n\n❌ **Gaps:**\n- Fewer compliance frameworks initially\n- Smaller integrations ecosystem\n- Less established enterprise features\n\n### **Drata**\n✅ **Strengths:**\n- 100+ pre-built integrations\n- Multiple compliance frameworks (SOC 2, ISO 27001, HIPAA, etc.)\n- Mature, trusted platform\n- Strong audit workflow tools\n- Extensive customer support\n\n❌ **Gaps:**\n- Higher baseline cost\n- Less flexible pricing for small teams\n- Can be over-featured for simple needs\n\n## **Best For**\n\n- **Conveyor**: Early-stage SaaS, startups seeking affordability, cloud-native companies\n- **Drata**: Established companies, multiple compliance needs, complex audit requirements\n\n## **Bottom Line**\n- Choose **Conveyor** for cost efficiency & continuous monitoring\n- Choose **Drata** for comprehensive compliance & established processes\n\n*Pricing and features subject to change—verify current details on their websites.*",
-  "cached_at": "2026-05-28T08:46:09Z",
-  "metadata": {}
-}

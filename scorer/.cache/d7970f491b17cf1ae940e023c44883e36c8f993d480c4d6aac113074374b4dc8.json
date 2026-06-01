@@ -1,9 +1,0 @@
-{
-  "brand": "FullStory",
-  "prompt_id": "CM-02",
-  "llm": "anthropic",
-  "prompt_text": "FullStory vs Mouseflow pricing and features",
-  "response": "# FullStory vs Mouseflow: Pricing & Features\n\n## **Pricing**\n\n| Feature | FullStory | Mouseflow |\n|---------|-----------|-----------|\n| **Free Plan** | Limited (1 user, 1,000 sessions/month) | Yes (500 sessions/month) |\n| **Starter** | ~$99/month | ~$99/month |\n| **Pro** | ~$249/month | ~$449/month |\n| **Enterprise** | Custom pricing | Custom pricing |\n\n*Note: Pricing varies by region and exact features; check current rates on their websites*\n\n---\n\n## **Core Features Comparison**\n\n| Feature | FullStory | Mouseflow |\n|---------|-----------|-----------|\n| **Session Replay** | ✅ HD quality | ✅ Standard quality |\n| **Heatmaps** | ✅ | ✅ |\n| **Form Analytics** | ✅ Advanced | ✅ Basic |\n| **Funnels** | ✅ | ✅ |\n| **Rage Click Detection** | ✅ | ✅ |\n| **Feedback Widget** | ✅ | ✅ |\n| **Event Tracking** | ✅ Custom events | ✅ Custom events |\n| **User Segmentation** | ✅ Advanced | ✅ Basic |\n| **API Access** | ✅ Full | ✅ Limited |\n| **Compliance** | SOC 2, GDPR, HIPAA | GDPR, CCPA |\n\n---\n\n## **Key Differences**\n\n### **FullStory Strengths**\n- Superior video quality & playback\n- More advanced analytics\n- Better for enterprise/large teams\n- Stronger data compliance (HIPAA)\n- More powerful API\n\n### **Mouseflow Strengths**\n- More affordable for small/mid teams\n- Simpler interface (easier onboarding)\n- Good value for basic UX analysis\n- Lighter data requirements\n\n---\n\n## **Best For**\n\n- **FullStory**: Large enterprises, regulated industries, teams needing deep technical insights\n- **Mouseflow**: SMBs, startups, teams prioritizing affordability & simplicity\n\n**Recommendation**: Request trials for both—they cater to different budget/complexity needs.",
-  "cached_at": "2026-05-27T20:45:57Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Linear",
-  "prompt_id": "IN-03",
-  "llm": "openai",
-  "prompt_text": "How do I connect Linear with GitHub?",
-  "response": "To connect Linear with GitHub, you need to set up an integration between the two platforms. Here’s a step-by-step guide on how to do it:\n\n1. **Access Linear Settings:**\n   - Log in to your Linear account.\n   - Click on your workspace name in the top left corner to open the workspace menu.\n   - Select \"Settings\" from the dropdown.\n\n2. **Navigate to Integrations:**\n   - In the settings menu, find and click on \"Integrations.\"\n\n3. **Select GitHub:**\n   - Look for the GitHub integration in the list of available integrations and click on it.\n\n4. **Authorize Linear:**\n   - You will be redirected to GitHub to authorize Linear. If you're not already logged in to GitHub, you will need to log in first.\n   - Review the permissions Linear is requesting and click \"Authorize Linear\" to proceed.\n\n5. **Configure the Integration:**\n   - Once authorized, you can configure the integration settings. This typically includes selecting which repositories you want to connect with Linear.\n   - You might also be able to configure how issues and pull requests are synchronized between GitHub and Linear.\n\n6. **Set Up Automation (Optional):**\n   - You can set up automation rules, such as automatically closing Linear issues when a pull request is merged in GitHub.\n\n7. **Save and Test:**\n   - Save your integration settings.\n   - Test the integration by creating an issue in Linear and checking if it appears in GitHub, or vice versa, depending on your configuration.\n\nBy following these steps, you should be able to successfully connect Linear with GitHub, enabling seamless collaboration between your project management and version control systems.",
-  "cached_at": "2026-05-27T21:06:30Z",
-  "metadata": {}
-}

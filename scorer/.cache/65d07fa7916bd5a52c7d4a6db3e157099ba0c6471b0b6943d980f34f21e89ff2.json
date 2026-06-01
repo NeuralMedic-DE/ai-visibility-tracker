@@ -1,9 +1,0 @@
-{
-  "brand": "Retool",
-  "prompt_id": "CM-01",
-  "llm": "anthropic",
-  "prompt_text": "Retool vs AppSmith: which is better?",
-  "response": "# Retool vs Appsmith: Key Differences\n\n## **Retool's Strengths**\n- **Faster setup**: Extensive pre-built connectors (100+) to databases and APIs\n- **Better UI components**: More polished, production-ready interface components\n- **Enterprise focus**: Strong security, SSO, audit logs\n- **Performance**: Generally smoother with complex apps\n- **Market maturity**: Larger user base, more integrations\n\n## **Appsmith's Strengths**\n- **Open source**: Self-hostable, no vendor lock-in\n- **Cost**: More affordable, especially for self-hosting\n- **Customization**: Easier to fork and modify\n- **Transparency**: Source code available; good for regulated industries\n- **Community**: Growing, active open-source community\n\n## **When to Choose Each**\n\n**Retool if:**\n- You want speed and polish with minimal setup\n- Your company needs enterprise security features\n- You're building internal tools quickly and budget allows\n\n**Appsmith if:**\n- You want to self-host or avoid lock-in\n- You need open-source flexibility\n- Cost is a primary concern\n- You need to audit/modify the codebase\n\n## **Bottom Line**\n- **Retool** = faster, more features, more expensive\n- **Appsmith** = more flexible, self-hostable, more affordable\n\n**Best choice**: Try both—they offer free tiers. Your needs (speed vs. control vs. cost) will determine the winner.\n\nWhat's your primary use case?",
-  "cached_at": "2026-05-27T20:56:27Z",
-  "metadata": {}
-}

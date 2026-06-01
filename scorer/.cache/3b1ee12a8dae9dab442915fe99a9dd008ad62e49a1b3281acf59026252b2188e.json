@@ -1,9 +1,0 @@
-{
-  "brand": "Pendo",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I guide users through in-app onboarding tours without spending a lot on software?",
-  "response": "# Budget-Friendly Onboarding Tours\n\n## DIY/Low-Cost Options\n\n**Built-in browser tools**\n- Browser DevTools can create overlays and tooltips with basic HTML/CSS/JS\n- Useful for testing concepts before investing in tools\n\n**Open-source libraries**\n- Shepherd.js, Intro.js, Joyride (React) — free, customizable\n- Host on your own servers to avoid licensing costs\n- Requires developer time but minimal ongoing expense\n\n**Simple approach: custom code**\n- Create your own tooltip system with CSS positioning and z-index management\n- Store tour state in localStorage\n- Works well if your tour needs are straightforward\n\n## Practical Design Tips\n\n**Start lean:**\n- Focus on 3-5 critical flows only, not every feature\n- Use text + arrows rather than complex animations\n- One tour beats ten mediocre ones\n\n**Reduce dependency on software:**\n- Highlight important UI elements with CSS overlays\n- Use progressive disclosure—show tips when users actually need them\n- Let analytics (which you likely have) guide which flows need guidance\n\n**Alternative: contextual help**\n- Embedded tooltips on hover/focus\n- Help documentation linked at relevant moments\n- Often works better than forced tours anyway\n\n**Track it cheaply:**\n- Log tour completions to your existing analytics\n- Simple event tracking tells you if tours are effective\n\nThe honest truth: many onboarding tours are overbuilt for the problem they solve. Start with one critical path, measure if it helps, then expand.\n\nWhat's your app type? That might suggest which approach fits best.",
-  "cached_at": "2026-05-27T19:48:17Z",
-  "metadata": {}
-}

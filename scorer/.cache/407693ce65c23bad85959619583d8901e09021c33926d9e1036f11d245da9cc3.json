@@ -1,9 +1,0 @@
-{
-  "brand": "Finaloop",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with sync multi-channel revenue and returns automatically without manual entry at scale?",
-  "response": "To manage and sync multi-channel revenue and returns automatically without manual entry at scale, you can consider using software solutions like:\n\n1. **Shopify Plus**: Offers integrations with various sales channels and has robust automation features for managing orders and returns.\n\n2. **NetSuite**: A comprehensive ERP solution that can handle multi-channel sales and automate financial processes, including revenue recognition and returns management.\n\n3. **Stitch Labs**: Provides inventory and order management with multi-channel syncing capabilities, though it is now part of Square.\n\n4. **Brightpearl**: Specializes in retail operations, offering automated order processing and returns management across multiple sales channels.\n\n5. **ChannelAdvisor**: Helps manage product listings, inventory, and orders across various marketplaces and channels, with automation features.\n\n6. **TradeGecko (now QuickBooks Commerce)**: Offers inventory and order management with multi-channel integration and automation features.\n\n7. **Skubana**: Focuses on automating order fulfillment and inventory management across multiple channels.\n\nThese platforms typically offer integrations with major e-commerce platforms, marketplaces, and accounting software to streamline operations and reduce the need for manual data entry.",
-  "cached_at": "2026-05-28T07:07:38Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Pendo",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Pendo integrate with Salesforce?",
-  "response": "Yes. Pendo **does integrate with Salesforce**, and Pendo’s own documentation says the Salesforce integration is a **bidirectional data sync**: you can **pull Salesforce data into Pendo** and **push Pendo data back into Salesforce**.[1][3]\n\nA few useful details:\n- The integration supports syncing data between matching objects in both systems.[1]\n- Pendo says it can **pull Salesforce fields into Pendo** for segmentation and analysis.[3]\n- Pendo also says it can **push Pendo product usage, sentiment, and feedback data into Salesforce** for workflows, tasks, notifications, and reporting.[3]\n- Pendo notes this is separate from its **Salesforce Toolkit**, which is a managed package for extending Pendo’s functionality on Salesforce and does **not** replace the integration itself.[6]\n\nIf you want, I can also explain **what data can sync**, **how the setup works**, or **whether it’s one-way or two-way for your use case**.",
-  "cached_at": "2026-05-27T19:53:00Z",
-  "metadata": {}
-}

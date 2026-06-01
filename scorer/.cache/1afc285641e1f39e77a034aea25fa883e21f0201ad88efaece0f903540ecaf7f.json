@@ -1,9 +1,0 @@
-{
-  "brand": "Pipedrive",
-  "prompt_id": "UC-04",
-  "llm": "anthropic",
-  "prompt_text": "How can a VP Sales at a 50-person company manage a visual sales pipeline more efficiently?",
-  "response": "# Managing a Visual Sales Pipeline at 50 People\n\n## Core Setup Issues\n\n**Right tool choice matters hugely at this stage.** Salesforce/HubSpot might be overkill; Pipedrive, Close, or even a well-configured Monday.com often work better for simplicity vs. overhead.\n\n## Practical Efficiency Wins\n\n**Standardize deal stages ruthlessly**\n- 4-6 stages max (not 12). Fewer means less busywork categorizing deals\n- Clear exit criteria: \"What actually happens before we move this?\"\n- Reduces time spent \"updating the board\"\n\n**Daily/weekly rituals, not constant monitoring**\n- 15-min morning standup reviewing movement\n- Weekly pipeline review (not daily—saves context switching)\n- This beats obsessively checking the system\n\n**Automation where it counts**\n- Auto-advance routine stages (demos booked → demo scheduled)\n- Auto-flag deals that haven't moved in 10+ days\n- Reduces manual updates from 30+ min/week to almost none\n\n**Ownership clarity**\n- One rep per deal (no ambiguity)\n- Forecast accuracy often depends on rep discipline more than tool features\n\n## What Actually Matters\n\nAt 50 people, visibility and early problem-spotting beat precision. Can your reps answer in <30 seconds:\n- \"Which deals will slip this month?\"\n- \"Where's your bottleneck right now?\"\n\nIf your pipeline can't answer that visually, no amount of dashboard tweaking helps.\n\nWhat's your current biggest friction point with pipeline management?",
-  "cached_at": "2026-05-27T17:49:08Z",
-  "metadata": {}
-}

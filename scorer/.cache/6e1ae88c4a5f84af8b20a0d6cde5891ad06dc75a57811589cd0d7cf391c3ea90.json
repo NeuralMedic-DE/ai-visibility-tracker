@@ -1,9 +1,0 @@
-{
-  "brand": "Charlie HR",
-  "prompt_id": "AL-03",
-  "llm": "anthropic",
-  "prompt_text": "Best HR alternatives for small UK-based companies with 10 to 100 employees teams on a budget",
-  "response": "# Best Budget HR Alternatives for Small UK Companies (10-100 employees)\n\n## Fully Managed HR Services\n\n**Breathe HR**\n- All-in-one platform (payroll, documents, absence tracking)\n- £3-5/employee/month\n- Good for companies wanting to outsource without a dedicated HR person\n\n**Factorial**\n- HR software + payroll integration\n- £2-4/employee/month\n- Strong on onboarding and employee self-service\n\n**Sage People**\n- Scalable from startup to growth\n- Integrates with Sage payroll (useful if already using Sage)\n- Moderate pricing\n\n## Payroll-Focused (Often Includes HR Basics)\n\n**Payfit**\n- Payroll + basic HR\n- From ~£80/month for smaller teams\n- Good employee portal\n\n**Staffology**\n- Pure payroll software\n- Free tier available\n- Simple if you just need payroll\n\n## DIY/Budget Approach\n\n**Combination strategy:**\n- **Google Workspace** - document management\n- **Notion/Airtable** - employee records, leave tracking\n- **Round Platform** or **Rocket HR** - payroll only\n- **Manage with spreadsheets** - genuinely viable at this size\n\n**Cost: £150-300/month total**\n\n## Free/Freemium Tools\n\n- **BambooHR** - 1 free user (limited)\n- **Zenefits** - free option for very small teams\n\n## What Size Matters Most\n\n- **10-25 employees**: DIY combination often works\n- **25-50 employees**: Breathe or Factorial recommended\n- **50-100 employees**: Worth investing in proper platform\n\n**Key question:** Do you have an HR person, or are you replacing one? That determines whether you need a tool or a service.\n\nWhat's your current setup?",
-  "cached_at": "2026-05-28T06:43:49Z",
-  "metadata": {}
-}

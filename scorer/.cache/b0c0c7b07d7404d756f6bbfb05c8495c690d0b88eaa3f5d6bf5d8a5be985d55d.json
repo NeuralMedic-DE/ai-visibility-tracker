@@ -1,9 +1,0 @@
-{
-  "brand": "Fivetran",
-  "prompt_id": "IN-05",
-  "llm": "perplexity",
-  "prompt_text": "data integration tools with native Snowflake integration",
-  "response": "Several **data integration tools with native Snowflake connectivity** include **Fivetran, dbt, Airbyte, Matillion, Boomi, Celigo, Census, Coalesce, Domo, dlt, Skyvia, Segment, Google Cloud Data Fusion, Azure Data Factory, Kafka Connect, and Workato**. Snowflake’s own documentation lists these and many others as tools and technologies known to provide native connectivity to Snowflake.[2][3]\n\nIf you want the shortest practical shortlist, Snowflake explicitly highlights these commonly used options:\n\n- **Fivetran** — validated by the Snowflake Ready Technology Validation Program.[2]\n- **dbt** — available via Snowflake Partner Connect and validated by Snowflake.[2]\n- **Census** — available via Snowflake Partner Connect.[2]\n- **Coalesce** — available via Snowflake Partner Connect.[2]\n- **Boomi** — validated by the Snowflake Ready Technology Validation Program.[2]\n- **Celigo** — validated by the Snowflake Ready Technology Validation Program.[2]\n- **dlt** — validated by the Snowflake Ready Technology Validation Program.[2]\n- **Google Cloud Data Fusion** — supports a Snowflake plugin.[2]\n- **Azure Data Factory** — listed by Snowflake as natively connected.[2]\n\nSnowflake also says its platform supports **native connectors, pipelines, and automation tools** for real-time and batch ingestion, including **Snowflake Openflow** for CDC use cases.[1]\n\nIf you want, I can turn this into a **comparison table** of the best tools by use case, such as **ELT, reverse ETL, CDC, real-time streaming, or no-code integration**.",
-  "cached_at": "2026-05-28T09:00:21Z",
-  "metadata": {}
-}

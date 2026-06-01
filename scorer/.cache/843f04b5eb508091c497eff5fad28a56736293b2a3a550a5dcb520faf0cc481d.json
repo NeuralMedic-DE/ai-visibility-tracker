@@ -1,9 +1,0 @@
-{
-  "brand": "HiBob",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "BambooHR vs alternatives: what should I switch to?",
-  "response": "# BambooHR Alternatives: Key Considerations\n\nBefore switching, think about **why** you're considering leaving:\n\n## If cost is the issue\n- **Gusto** - Similar features, better for payroll integration\n- **Rippling** - More comprehensive (HR + IT), but pricier\n- **Justworks** - Mid-market focused, good payroll bundling\n\n## If you need better payroll\n- **Gusto** - Strongest payroll feature set\n- **ADP Workforce Now** - Enterprise-grade, steeper learning curve\n- **Workday** - Only if you're large enough to justify complexity\n\n## If you want simpler/lighter\n- **Deel** - Great for remote/distributed teams\n- **Monday.com HR** - More customizable, less polished\n- **Factorial** - Newer, good UX, fewer enterprise features\n\n## If you need stronger compliance/security\n- **Workday**\n- **SAP SuccessFactors**\n\n## Real talk before switching\n- **Migration pain** - Moving employee data is tedious\n- **Learning curve** - Your team will lose productivity temporarily\n- **Hidden costs** - Implementation, training, data cleanup\n- **Feature gaps** - What BambooHR does well, what won't you get elsewhere?\n\n**Best move:** List your specific pain points, then demo 2-3 alternatives focused on those issues. The \"best\" HRIS is usually the one your team will actually use consistently.\n\nWhat's driving your switch interest?",
-  "cached_at": "2026-05-28T06:32:31Z",
-  "metadata": {}
-}

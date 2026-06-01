@@ -1,9 +1,0 @@
-{
-  "brand": "Nutshell",
-  "prompt_id": "AL-01",
-  "llm": "anthropic",
-  "prompt_text": "Alternatives to HubSpot for small and mid-size B2B sales teams",
-  "response": "# Alternatives to HubSpot for Small/Mid-Size B2B Sales Teams\n\n## Lightweight & Affordable Options\n\n**Pipedrive**\n- Sales pipeline-focused design\n- Visual deal tracking\n- Strong for quota management\n- Best for: Teams prioritizing pipeline visibility\n- Pricing: More budget-friendly than HubSpot\n\n**Freshsales**\n- AI-powered lead scoring\n- Built-in phone/email\n- Affordable entry point\n- Best for: Sales-first teams wanting integrated comms\n\n**Close**\n- Sales automation emphasis\n- Native calling/SMS\n- Flexible customization\n- Best for: High-volume outbound teams\n\n## Feature-Rich Mid-Market Options\n\n**Salesforce Sales Cloud**\n- Highly customizable\n- Scalable infrastructure\n- Best for: Growing teams planning long-term expansion\n\n**Zoho CRM**\n- Comprehensive suite\n- Very affordable\n- Good automation\n- Best for: Budget-conscious teams wanting depth\n\n## Niche/Specialized Alternatives\n\n**Apollo/Hunter** (with lightweight CRM)\n- Strong prospecting data\n- Minimal CRM overhead\n- Best for: Outbound-heavy sales teams\n\n**Notion + Zapier**\n- Ultra-customizable\n- Minimal cost\n- Best for: Small, tech-savvy teams\n\n**Slack + Airtable + Zapier**\n- Workflow-based approach\n- Best for: Teams already in Slack\n\n## Comparison Framework\n\nConsider your priority:\n- **Pipeline visibility** → Pipedrive\n- **Budget constraints** → Freshsales or Zoho\n- **Sales automation** → Close\n- **Simplicity** → Apollo + spreadsheets\n- **Growth potential** → Salesforce\n\nWhat's your team's main pain point with current tools?",
-  "cached_at": "2026-05-27T18:33:28Z",
-  "metadata": {}
-}

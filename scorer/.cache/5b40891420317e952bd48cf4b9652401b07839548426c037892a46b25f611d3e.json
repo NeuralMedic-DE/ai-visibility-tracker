@@ -1,9 +1,0 @@
-{
-  "brand": "Numeric",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best finance for finance teams at mid-market companies running month-end close?",
-  "response": "# Best Finance Tools for Mid-Market Month-End Close\n\n## Top Priorities for Your Situation\n\n**1. Accounting Automation Platform** (Core Need)\n- **Workiva, BlackLine, or FloQast** - Purpose-built for close automation\n- Handles reconciliations, journal entries, task management, audit trails\n- ROI typically comes from eliminating manual work (biggest pain point)\n\n**2. ERP System** (If not already solid)\n- **NetSuite, Microsoft Dynamics 365, or SAP S/4HANA Cloud**\n- Mid-market often runs on legacy systems—upgrading pays dividends\n- Integrated GL, AP/AR, and reporting reduces rework\n\n**3. Data Integration Layer**\n- **Fivetran, Stitch, or native ERP connectors**\n- Pulls data from disparate systems automatically\n- Eliminates manual exports/imports\n\n## Secondary Tools Worth Considering\n\n- **Driver-based planning tools** (Anaplan, Vena) - if forecasting is weak\n- **BI/reporting** (Tableau, Power BI) - for faster insights and variance analysis\n- **FP&A software** (Planful, Host Analytics) - if budget/forecast burden is heavy\n\n## Implementation Reality Check\n\n**Start here:** Audit where time actually goes. Most teams waste 40-60% of close time on:\n- Manual reconciliations\n- Chasing data from other systems\n- Fixing formatting/consolidation issues\n\n**Automation ROI is highest on these first.** Fancy reporting tools won't help if close takes 15 days.\n\nWhat's your current close timeline, and where does your team spend the most time?",
-  "cached_at": "2026-05-28T07:04:47Z",
-  "metadata": {}
-}

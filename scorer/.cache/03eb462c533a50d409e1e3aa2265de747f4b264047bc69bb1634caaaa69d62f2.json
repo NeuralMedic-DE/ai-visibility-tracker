@@ -1,9 +1,0 @@
-{
-  "brand": "TestBrand",
-  "prompt_id": "IN-02",
-  "llm": "anthropic",
-  "prompt_text": "TestBrand HubSpot integration: how does it work?",
-  "response": "# TestBrand HubSpot Integration Overview\n\nI don't have specific information about a \"TestBrand\" HubSpot integration in my training data. However, I can help you understand this in a few ways:\n\n## What You Can Do:\n\n1. **Check HubSpot's App Marketplace**\n   - Search for \"TestBrand\" in HubSpot's official app directory\n   - Review the integration's documentation and setup guide\n\n2. **Contact Support**\n   - TestBrand's support team\n   - HubSpot support for integration questions\n\n3. **General HubSpot Integration Pattern**\n   Most integrations typically work by:\n   - Authenticating your HubSpot account\n   - Mapping data fields between systems\n   - Syncing contacts, deals, or other records\n   - Setting up automated workflows\n\n## Can You Clarify?\n\n- Is **TestBrand** a specific tool/platform you're trying to connect?\n- Are you setting up the integration or troubleshooting an existing one?\n- What specific data/workflows are you trying to sync?\n\nWith more details, I can provide more targeted guidance or help you troubleshoot specific issues.",
-  "cached_at": "2026-06-01T15:00:18Z",
-  "metadata": {}
-}

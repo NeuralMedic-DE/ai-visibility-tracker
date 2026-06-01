@@ -1,9 +1,0 @@
-{
-  "brand": "Rho",
-  "prompt_id": "UC-03",
-  "llm": "anthropic",
-  "prompt_text": "What tools do finance teams at venture-backed startups managing spend and AP companies use to manage company spending with smart corporate cards and bill pay automation?",
-  "response": "# Tools Finance Teams Use for Spend Management at Venture-Backed Startups\n\n## Integrated Spend Management Platforms\n\n**Market leaders:**\n- **Brex** - Dominant player combining corporate cards, bill pay, expense management, and spend analytics\n- **Ramp** - Focused on AP automation with card issuance and spend controls\n- **Divvy** - Stripe-backed platform emphasizing real-time controls and automation\n- **Airbase** - All-in-one AP and spend platform with cards and approvals\n- **Navan (formerly TripActions)** - Originally travel, now broader spend management\n\n## Specialized Bill Pay/AP Automation\n\n- **Bill.com** - Dedicated AP automation, though less integrated with card programs\n- **Autobooks** - Smaller-scale AP automation\n- **Tipalti** - For vendor payments and payables\n- **Melio** - Bill payment alternative to checks\n\n## Pure Expense Management (Often Used Alongside Cards)\n\n- **Expensify** - Receipt scanning and employee reimbursement\n- **Concur (SAP)** - Enterprise-grade but less common in early-stage\n- **Spendesk** - Emerging European player gaining traction\n\n## Key Selection Criteria for Startups\n\n1. **Integration** - Native APIs to accounting software (Quickbooks, Netsuite, Xero)\n2. **Controls** - Real-time card limits, approval workflows, spend policies\n3. **Visibility** - Spend analytics and dashboards across categories\n4. **Scalability** - Handling multi-entity structures early on\n5. **User experience** - Lower friction for employees and finance teams\n\n**Most common bundle**: Brex or Ramp + accounting software\n\nWhat specific pain point are you trying to solve?",
-  "cached_at": "2026-05-28T07:12:36Z",
-  "metadata": {}
-}

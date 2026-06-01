@@ -1,9 +1,0 @@
-{
-  "brand": "Teamtailor",
-  "prompt_id": "UC-03",
-  "llm": "anthropic",
-  "prompt_text": "What tools do mid-market companies with active employer branding programs companies use to build a beautiful careers site and track all applicants in one place?",
-  "response": "# Tools for Mid-Market Employer Branding\n\nMid-market companies typically combine several categories:\n\n## Dedicated Careers Site Builders\n- **Ashby, Lever, Greenhouse** – ATS platforms with built-in career site functionality (design + recruiting combined)\n- **JoinOurTeam, Tinyhr** – Purpose-built careers sites with modern templates\n- **Webflow/custom builds** – For companies wanting full design control and branding flexibility\n\n## Standalone Careers Sites + Separate ATS\n- **Careers page builder**: Workable, BambooHR, or custom WordPress setups\n- **ATS layer**: Greenhouse, Lever, or Workable (these overlap significantly)\n\n## Key Integrated Approaches\n\n**Full-stack solution** (recommended for your use case):\n- Greenhouse or Lever handle both careers site design + applicant tracking\n- Strong employer branding features built-in\n- Better UX coherence\n\n**Best-of-breed approach**:\n- Beautiful careers site (Webflow or Ashby's design tools)\n- Dedicated ATS (often different from site builder)\n- Connected via Zapier if needed\n\n## What to Prioritize\n- **Mobile experience** (50%+ of applications)\n- **Application analytics** (track where dropoff occurs)\n- **Team collaboration tools** (feedback, hiring workflows)\n- **API/integration** with your existing HR stack\n\nWhat's your current bottleneck—is it the careers page design, applicant management, or visibility into your hiring funnel?",
-  "cached_at": "2026-05-28T06:42:03Z",
-  "metadata": {}
-}

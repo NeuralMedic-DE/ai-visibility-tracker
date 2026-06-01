@@ -1,9 +1,0 @@
-{
-  "brand": "Mailmodo",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which marketing automation software should a Email Marketer or Head of Growth at a SaaS company use?",
-  "response": "# Best Marketing Automation for SaaS Email Marketers/Growth Leaders\n\n## Top Tier (Most Popular for SaaS)\n\n**HubSpot**\n- Best all-rounder for mid-market SaaS\n- Strong CRM integration, landing pages, analytics\n- Excellent for both email and growth workflows\n- Higher price but comprehensive\n\n**Klaviyo**\n- Best if email is your primary channel\n- Superior segmentation and personalization\n- Strong deliverability\n- Great for product-driven growth\n\n**Marketo (Adobe)**\n- Enterprise-focused, most sophisticated workflows\n- Best for complex B2B nurturing\n- Steep learning curve and cost\n\n## Strong Alternatives\n\n**ActiveCampaign**\n- Great value for growing teams\n- Excellent automation + CRM features\n- Better pricing than HubSpot at comparable features\n\n**Iterable**\n- Best for multi-channel (email + SMS + push)\n- Strong for retention/lifecycle marketing\n- Good if you need developer-friendly APIs\n\n**ConvertKit/Substack**\n- Only if creator/newsletter-focused\n\n## Quick Decision Framework\n\n**Choose based on:**\n- **Budget**: Klaviyo or ActiveCampaign (better value)\n- **Scale**: HubSpot or Marketo (more power)\n- **Email-first**: Klaviyo\n- **Founder/startup**: Klaviyo or ActiveCampaign\n- **Enterprise**: Marketo or HubSpot\n\n**What's your company size/stage?** That would help narrow it down further.",
-  "cached_at": "2026-05-28T07:34:57Z",
-  "metadata": {}
-}

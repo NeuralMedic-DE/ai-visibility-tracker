@@ -1,9 +1,0 @@
-{
-  "brand": "Vanta",
-  "prompt_id": "CM-01",
-  "llm": "anthropic",
-  "prompt_text": "Vanta vs Drata: which is better?",
-  "response": "# Vanta vs Drata: Quick Comparison\n\nBoth are solid compliance automation platforms, but they serve slightly different needs:\n\n## **Vanta**\n- **Strengths**: Broader compliance coverage (SOC 2, ISO 27001, HIPAA, etc.), stronger integrations ecosystem, better for scaling companies\n- **Best for**: Growth-stage SaaS companies wanting multi-framework compliance\n\n## **Drata**\n- **Strengths**: More affordable, simpler UI, stronger focus on financial controls and accounting integrations\n- **Best for**: Smaller companies, those needing accounting-specific compliance\n\n## **Key Differences**\n| Factor | Vanta | Drata |\n|--------|-------|-------|\n| **Price** | Higher | Lower |\n| **Complexity** | More features | Simpler |\n| **Integrations** | Broader | Accounting-focused |\n| **Best fit** | Enterprise-bound | SMBs |\n\n## **How to Choose**\n1. **What compliance do you need?** (Check their framework coverage)\n2. **Budget constraints?** (Drata typically cheaper)\n3. **Size & growth trajectory?** (Vanta scales better)\n4. **Integration needs?** (Vanta more flexible)\n\nMany companies start with Drata and migrate to Vanta as they grow. Consider free trials—both offer them.\n\nWhat's your specific use case? That might help narrow it down further.",
-  "cached_at": "2026-05-28T08:26:25Z",
-  "metadata": {}
-}

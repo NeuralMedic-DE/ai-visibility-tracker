@@ -1,9 +1,0 @@
-{
-  "brand": "Zapier",
-  "prompt_id": "UC-03",
-  "llm": "openai",
-  "prompt_text": "What tools do operations teams and business users at SMBs and mid-market companies companies use to connect apps and automate repetitive workflows without writing any code?",
-  "response": "Operations teams and business users at SMBs and mid-market companies often use no-code or low-code platforms to connect apps and automate repetitive workflows. Some popular tools include:\n\n1. **Zapier**: A widely used automation tool that connects different apps and services to automate workflows without any coding. It supports thousands of apps and is known for its ease of use.\n\n2. **Integromat (now Make)**: Similar to Zapier, Make allows users to create complex workflows and automate tasks by connecting various apps and services.\n\n3. **Microsoft Power Automate**: Part of the Microsoft Power Platform, this tool enables users to automate workflows between Microsoft services and third-party applications.\n\n4. **IFTTT (If This Then That)**: A simple automation tool that lets users create applets to connect different services and automate tasks.\n\n5. **Tray.io**: A more advanced platform that offers both no-code and low-code options for automating workflows and integrating apps.\n\n6. **Automate.io**: A tool that helps businesses connect their cloud applications and automate marketing, sales, and business processes.\n\n7. **ZigiOps**: Focused on IT and business process automation, it offers no-code integrations for various enterprise applications.\n\n8. **N8n**: An open-source workflow automation tool that allows users to create complex workflows with a visual editor.\n\nThese tools help businesses streamline operations, reduce manual effort, and improve efficiency by automating repetitive tasks and integrating disparate systems.",
-  "cached_at": "2026-05-28T08:51:14Z",
-  "metadata": {}
-}

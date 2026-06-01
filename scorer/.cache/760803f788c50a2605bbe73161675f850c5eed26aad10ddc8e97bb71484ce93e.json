@@ -1,9 +1,0 @@
-{
-  "brand": "Plausible",
-  "prompt_id": "UC-03",
-  "llm": "anthropic",
-  "prompt_text": "What tools do privacy-conscious SaaS founders and developers companies use to track website traffic without cookies or consent banners?",
-  "response": "# Privacy-First Analytics Tools\n\nHere are the main options that avoid cookie/consent complexity:\n\n## Server-side tracking\n- **Plausible, Fathom, Simple Analytics** - Process data server-side so nothing stores on user devices\n- **Cabin** - Privacy-focused, no cookies\n- **Metrical** - GDPR-compliant alternative\n- Your own analytics backend (cleanest control, most effort)\n\n## Event-based approaches\n- **PostHog** - Self-hostable product analytics with privacy modes\n- **Mixpanel** - Has cookieless options\n- Custom event pipelines via server logs\n\n## Practical considerations\n\n**What you lose:**\n- Cross-device user journeys (without login)\n- Some conversion funnel detail\n- Behavioral heatmaps typically require cookies\n\n**What works without cookies:**\n- Page views, traffic sources, basic device info\n- User flows *within* a session\n- Anything tied to logged-in users\n- Server-side conversion tracking\n\n**Reality check:** Most privacy tools still require *some* consent if you're targeting EU users—though it's often lighter than cookie banners. The \"no banner needed\" sweet spot is usually when you're only collecting aggregated, non-identifying data.\n\n**Worth asking:** Do you actually need to know *who* visitors are, or just *how many* and *which pages*? That distinction drives tool choice significantly.\n\nWhat's your current setup like?",
-  "cached_at": "2026-05-27T20:18:45Z",
-  "metadata": {}
-}

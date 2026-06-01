@@ -1,9 +1,0 @@
-{
-  "brand": "Chargebee",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I manage the entire subscription lifecycle and automate billing workflows without spending a lot on software?",
-  "response": "# Managing Subscription Lifecycle on a Budget\n\n## Free/Cheap Core Tools\n\n**Stripe or Paddle** (payment processors)\n- Handle recurring billing natively\n- Webhooks automate most workflows\n- Stripe: $0.29 + 2.9% per transaction\n- Both have free tiers for testing\n\n**Zapier or Make.com** (workflow automation)\n- Connect Stripe → email, spreadsheets, CRM\n- Make.com offers 1,000 operations/month free\n- Zapier: $19-99/month for basic flows\n- Handles: failed payment retries, dunning, upgrades/downgrades\n\n**Airtable or Google Sheets** (minimal tracking)\n- Not ideal long-term, but free\n- Use with Zapier to log subscription events\n- Good for small (<500 customers) operations\n\n## DIY Approach (Developer Time)\n\nIf you can code, use **Stripe's API directly**:\n- Build custom logic for upgrades, cancellations, proration\n- Webhook listeners for payment events\n- Host on free tier (Railway, Render, Vercel)\n- Cost: mostly your time, ~$5-10/month hosting\n\n## Smart Workflow Automation\n\nFocus these on high-impact areas:\n1. **Failed payment recovery** (dunning) → biggest revenue leakage\n2. **Churn prevention** → automated win-back emails\n3. **Upgrade/downgrade logic** → auto-prorate charges\n4. **Expiration reminders** → 7/3/1 day before renewal\n\n## What NOT to DIY\n\n- PCI compliance (use Stripe, don't store cards)\n- Tax/VAT calculations (use Stripe Tax or integrate TaxJar)\n- Fraud detection (Stripe Radar handles this)\n\n**Realistic spend**: $20-50/month until you hit ~1000 customers, then reassess dedicated billing software.\n\nWhat's your current customer volume and main pain point?",
-  "cached_at": "2026-05-28T06:50:46Z",
-  "metadata": {}
-}

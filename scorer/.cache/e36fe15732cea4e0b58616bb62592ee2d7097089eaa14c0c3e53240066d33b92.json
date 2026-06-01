@@ -1,9 +1,0 @@
-{
-  "brand": "Braintrust",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Braintrust with OpenAI?",
-  "response": "# Connecting Braintrust with OpenAI\n\nHere's how to set up the integration:\n\n## 1. **Get Your OpenAI API Key**\n- Go to [platform.openai.com](https://platform.openai.com)\n- Navigate to API keys section\n- Create a new secret key\n- Copy it (you won't be able to see it again)\n\n## 2. **Set Up in Braintrust**\n\n### Option A: Environment Variable (Recommended)\n```bash\nexport OPENAI_API_KEY=\"your-api-key-here\"\n```\n\n### Option B: Direct Configuration\nIn your Braintrust code:\n```python\nfrom braintrust import Eval\nfrom openai import OpenAI\n\nclient = OpenAI(api_key=\"your-api-key-here\")\n```\n\n## 3. **Use in Your Evaluation**\n\n```python\nfrom braintrust import Eval\nfrom openai import OpenAI\n\nclient = OpenAI()\n\ndef task(input):\n    response = client.chat.completions.create(\n        model=\"gpt-4\",\n        messages=[{\"role\": \"user\", \"content\": input}]\n    )\n    return response.choices[0].message.content\n\nEval(\n    \"My Eval\",\n    data=your_dataset,\n    task=task,\n    # Add your scoring logic\n)\n```\n\n## 4. **Security Tips**\n- Never commit API keys to version control\n- Use environment variables or `.env` files\n- Rotate keys periodically\n- Use Braintrust's organization settings for team access\n\n## Need Help?\n- [OpenAI API docs](https://platform.openai.com/docs)\n- [Braintrust documentation](https://www.braintrust.dev/docs)\n\nWhat specific part are you trying to accomplish?",
-  "cached_at": "2026-05-28T07:47:40Z",
-  "metadata": {}
-}

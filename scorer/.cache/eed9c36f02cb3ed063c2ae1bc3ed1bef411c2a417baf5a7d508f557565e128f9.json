@@ -1,9 +1,0 @@
-{
-  "brand": "ChartMogul",
-  "prompt_id": "CM-02",
-  "llm": "anthropic",
-  "prompt_text": "ChartMogul vs ProfitWell pricing and features",
-  "response": "# ChartMogul vs ProfitWell: Pricing & Features\n\n## Pricing Overview\n\n| Feature | ChartMogul | ProfitWell |\n|---------|-----------|-----------|\n| **Free Tier** | None | Yes (Limited) |\n| **Starting Price** | ~$100/month | Free - $500+/month |\n| **Billing Model** | Per tracked MRR | Usage/MRR-based |\n\n## Key Features Comparison\n\n### ChartMogul\n**Strengths:**\n- **Subscription Analytics** - Deep MRR, ARR, churn analysis\n- **Data Aggregation** - Pulls from payment processors (Stripe, Zuora, etc.)\n- **Cohort Analysis** - Customer behavior tracking\n- **Segmentation** - Slice data by custom attributes\n- **API Access** - Full data export capabilities\n\n**Best For:** SaaS companies needing detailed subscription metrics\n\n---\n\n### ProfitWell\n**Strengths:**\n- **Free Tier** - Core analytics at no cost\n- **Dunning Management** - Automated failed payment recovery\n- **Benchmarking** - Industry comparison data\n- **Retention Analytics** - Churn prediction & insights\n- **Optimize Add-on** - Revenue optimization features\n\n**Best For:** Bootstrapped startups & companies wanting dunning included\n\n---\n\n## Quick Comparison\n\n| Need | Choose |\n|------|--------|\n| Detailed subscription cohorts | **ChartMogul** |\n| Budget-friendly start | **ProfitWell** |\n| Failed payment recovery | **ProfitWell** |\n| Industry benchmarks | **ProfitWell** |\n| Custom data integrations | **ChartMogul** |\n\n**Note:** ProfitWell was acquired by Stripe in 2021, which may affect its future direction.\n\nNeed help deciding based on your specific use case?",
-  "cached_at": "2026-05-28T06:54:53Z",
-  "metadata": {}
-}

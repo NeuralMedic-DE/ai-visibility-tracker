@@ -1,9 +1,0 @@
-{
-  "brand": "Maxio",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with manage complex multi-element arrangements and revenue recognition compliance at scale?",
-  "response": "To manage complex multi-element arrangements and ensure revenue recognition compliance at scale, companies often use specialized revenue management software. Some popular options include:\n\n1. **SAP Revenue Accounting and Reporting**: This software helps automate revenue recognition processes and ensures compliance with standards like IFRS 15 and ASC 606.\n\n2. **Oracle Revenue Management Cloud**: Part of Oracle's suite of financial applications, it provides tools for managing revenue recognition and compliance with accounting standards.\n\n3. **Workday Revenue Management**: Offers capabilities for managing revenue recognition, billing, and contract management in compliance with accounting standards.\n\n4. **Zuora RevPro**: Specifically designed to handle complex revenue recognition scenarios, Zuora RevPro automates the revenue recognition process and ensures compliance with ASC 606 and IFRS 15.\n\n5. **Sage Intacct**: Provides robust revenue recognition capabilities that help automate and streamline the process, ensuring compliance with the latest accounting standards.\n\nThese solutions typically offer features such as automated revenue recognition, contract management, billing, and reporting to help businesses manage their financial operations efficiently and in compliance with regulatory standards.",
-  "cached_at": "2026-05-28T06:52:52Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Matillion",
-  "prompt_id": "UC-05",
-  "llm": "perplexity",
-  "prompt_text": "What software helps with transform raw data into analytics-ready models using a visual low-code ETL designer at scale?",
-  "response": "Several modern data platforms provide **visual, low‑code ETL designers that turn raw data into analytics‑ready models at scale**. Leading options include:\n\n- **Visual Flow** – Open‑source, low‑code **ETL/ELT** with a drag‑and‑drop GUI over **Apache Spark and Kubernetes**, designed for scalable data pipelines into data lakes/warehouses and downstream BI/analytics.[1]  \n- **Integrate.io** – Cloud ETL/ELT platform with a **visual pipeline builder**, 200+ connectors, automated scheduling, and built‑in transformations, aimed at quickly delivering analytics‑ready data with minimal code.[2]  \n- **Databricks Lakeflow Designer** – A **no‑code visual pipeline builder** embedded in the Databricks Data Intelligence Platform; business users and engineers can design scalable, governed ETL pipelines on a canvas with drag‑and‑drop and natural language support.[3]  \n- **AWS Glue Studio / Glue DataBrew** – **Serverless** AWS services that provide **visual, no‑code/low‑code ETL**: Glue Studio for drag‑and‑drop pipeline design at scale, and DataBrew for point‑and‑click data prep and enrichment for analytics and ML.[4]  \n\nIf you share your stack (e.g., Databricks, AWS, open source, or multi‑cloud SaaS) and team profile (data engineers vs analysts), I can narrow this down to the 1–2 best‑fit tools and how you’d use them for your analytics models.",
-  "cached_at": "2026-05-28T09:02:37Z",
-  "metadata": {}
-}

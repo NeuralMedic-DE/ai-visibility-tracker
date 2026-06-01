@@ -1,9 +1,0 @@
-{
-  "brand": "Raycast",
-  "prompt_id": "IN-03",
-  "llm": "openai",
-  "prompt_text": "How do I connect Raycast with Slack?",
-  "response": "To connect Raycast with Slack, you can use the Slack extension available in Raycast's Extensions Store. Here’s how you can set it up:\n\n1. **Open Raycast**: Launch Raycast on your Mac.\n\n2. **Access Extensions**: Press `Cmd + K` to open the command bar and type \"Extensions\" to navigate to the Extensions Store.\n\n3. **Search for Slack**: In the Extensions Store, search for the \"Slack\" extension.\n\n4. **Install the Extension**: Once you find the Slack extension, click on it and then click the \"Install\" button.\n\n5. **Authenticate with Slack**: After installation, you will need to authenticate Raycast with your Slack account. Follow the prompts to log in and authorize the connection.\n\n6. **Configure Settings**: Once authenticated, you can configure the settings for the Slack extension within Raycast to suit your needs, such as setting default channels or customizing notifications.\n\nAfter completing these steps, you should be able to use Raycast to interact with Slack, such as sending messages or searching for channels and conversations directly from Raycast.",
-  "cached_at": "2026-05-28T06:25:25Z",
-  "metadata": {}
-}

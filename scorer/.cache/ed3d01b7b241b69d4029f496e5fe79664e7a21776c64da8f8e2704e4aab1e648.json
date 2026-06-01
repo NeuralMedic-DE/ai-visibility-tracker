@@ -1,9 +1,0 @@
-{
-  "brand": "HiBob",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with automate onboarding workflows and org chart updates at scale at scale?",
-  "response": "There are several software solutions that can help automate onboarding workflows and update organizational charts at scale. Here are a few popular ones:\n\n1. **BambooHR**: This HR software offers features for onboarding automation, including task management and electronic signatures. It also helps maintain and update organizational charts.\n\n2. **Workday**: Known for its comprehensive HR solutions, Workday provides tools for automating onboarding processes and managing organizational structures efficiently.\n\n3. **SAP SuccessFactors**: This platform offers onboarding solutions that integrate with other HR processes and can automatically update organizational charts.\n\n4. **Rippling**: Rippling automates the onboarding process and updates organizational charts as employees are added or roles change.\n\n5. **Gusto**: Primarily known for payroll, Gusto also offers onboarding features that include automated workflows and organizational chart management.\n\n6. **Zenefits**: This HR software provides onboarding automation and can help keep organizational charts updated as part of its suite of HR tools.\n\nThese tools typically integrate with other HR systems and can be customized to fit the specific needs of your organization, helping to streamline the onboarding process and maintain accurate organizational charts.",
-  "cached_at": "2026-05-28T06:32:38Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Braintrust",
-  "prompt_id": "CM-05",
-  "llm": "perplexity",
-  "prompt_text": "Is Braintrust better than PromptFoo for run A/B tests across different models and prompt versions to find optimal configurations?",
-  "response": "For **running A/B tests across different models and prompt versions**, **Braintrust is generally the better choice if you want a built-in product workflow for experiments, scoring, and comparison**.[3][4] **Promptfoo is stronger if your main need is lightweight, YAML-driven regression testing and red-teaming, including multi-model comparison, but it is less of a full experimentation platform**.[1][2][6]\n\n- **Braintrust strengths**: It supports A/B testing prompts natively in the web app and via SDK, lets you run multiple prompt variants or models in parallel, and tracks **quality scores, latency, cost, and token usage** for each variant.[3]\n- **Promptfoo strengths**: It is described as a CLI-first, YAML-configured evaluation tool that excels at **multi-model comparison**, prompt iteration, and red-teaming.[1][2][6]\n- **Best fit by goal**:\n  - Choose **Braintrust** if you want a more polished **experiment workflow** with side-by-side variants and measurement tied to a broader eval/observability stack.[3][4][7]\n  - Choose **Promptfoo** if you want a more developer-centric, open-source **test matrix** for comparing prompts and models quickly in CI or local workflows.[1][2][6]\n\nIf your question is strictly “which is better for finding the optimal configuration across models and prompts,” the answer is **Braintrust for experimentation**, while **Promptfoo is better for scripted evaluation and regression testing**.[1][3][4]",
-  "cached_at": "2026-05-28T07:47:51Z",
-  "metadata": {}
-}

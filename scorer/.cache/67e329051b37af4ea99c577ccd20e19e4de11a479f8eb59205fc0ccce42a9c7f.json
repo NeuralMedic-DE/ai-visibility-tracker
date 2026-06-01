@@ -1,9 +1,0 @@
-{
-  "brand": "Rho",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable finance tools instead of Mercury",
-  "response": "# Open Source & Affordable Finance Tools\n\n## **Free/Open Source Alternatives**\n\n### **Accounting & Bookkeeping**\n- **Odoo** (Community Edition) - Full ERP, invoicing, expense tracking\n- **Invoice Ninja** - Open source invoicing & time tracking\n- **GnuCash** - Desktop accounting software\n- **Akaunting** - Self-hosted invoicing platform\n- **Firefly III** - Personal finance management\n\n### **Banking & Payments**\n- **Stripe Atlas** - Low-cost business formation + banking partnerships\n- **PayPal** - Minimal setup, lower monthly fees\n- **Square** - Free account, pay per transaction\n- **Wise Business** - Low-cost international transfers\n- **Plaid** (open API) - Connect to existing banks for free\n\n### **Financial Management**\n- **Actual Budget** - Open source personal/business budgeting\n- **Maybe Finance** - Lightweight financial planning\n- **Wave** - Free invoicing, accounting, receipt scanning\n\n## **Affordable Alternatives**\n\n| Tool | Cost | Best For |\n|------|------|----------|\n| **Brex** | $0-15/mo | Startups with good credit |\n| **Novo** | $0/mo | Freelancers, small business |\n| **Chime Business** | Free checking | Very low balance businesses |\n| **SoFi Checking** | Free | Simple banking needs |\n| **Guidepoint Basics** | $99/mo | Mid-range accounting |\n\n## **DIY Stack (Cheapest)**\n1. **Banking**: Wise + Stripe/PayPal\n2. **Accounting**: Wave or GnuCash\n3. **Invoicing**: Invoice Ninja\n4. **Budgeting**: Actual Budget\n\n**What's your main need?** (invoicing, bookkeeping, banking, payments?)",
-  "cached_at": "2026-05-28T07:12:34Z",
-  "metadata": {}
-}

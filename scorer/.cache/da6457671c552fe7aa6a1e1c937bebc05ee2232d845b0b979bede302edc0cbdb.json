@@ -1,9 +1,0 @@
-{
-  "brand": "Helicone",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with debug and replay failed LLM calls with full request logging and history at scale?",
-  "response": "To debug and replay failed LLM (Large Language Model) calls with full request logging and history at scale, you might consider using specialized observability and monitoring tools designed for AI and machine learning models. Some of these tools include:\n\n1. **Arize AI**: Arize provides model monitoring and observability, allowing you to track model performance, detect data drift, and debug issues with detailed logging and analytics.\n\n2. **WhyLabs**: This platform offers AI observability and monitoring solutions, helping you to track model performance, detect anomalies, and maintain a history of model inputs and outputs.\n\n3. **Fiddler AI**: Fiddler provides model performance monitoring and explainability, enabling you to understand and debug model behavior with detailed logging and analytics.\n\n4. **Weights & Biases**: While primarily known for experiment tracking, Weights & Biases also offers tools for monitoring and debugging machine learning models, including logging and visualization features.\n\n5. **Datadog**: Although more general-purpose, Datadog can be configured to monitor machine learning models by integrating with your application to log requests and responses.\n\nThese tools can help you maintain a comprehensive history of LLM interactions, allowing you to replay and analyze failed calls to identify and resolve issues effectively.",
-  "cached_at": "2026-05-28T07:49:42Z",
-  "metadata": {}
-}

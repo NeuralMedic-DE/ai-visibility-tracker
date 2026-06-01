@@ -1,9 +1,0 @@
-{
-  "brand": "Numeric",
-  "prompt_id": "CM-01",
-  "llm": "anthropic",
-  "prompt_text": "Numeric vs FloQast: which is better?",
-  "response": "# Numeric vs FloQast\n\nBoth are solid close management platforms, but they serve different priorities:\n\n## **FloQast** (Generally stronger)\n**Best for:** Mid-market accounting teams seeking comprehensive close management\n- **Strengths:**\n  - More mature, established platform\n  - Stronger reconciliation tools\n  - Better user experience/intuitiveness\n  - Robust workflow automation\n  - Excellent customer support\n- **Cons:** Higher cost; can be overkill for smaller teams\n\n## **Numeric** (Newer alternative)\n**Best for:** Tech-forward teams wanting modern, flexible tooling\n- **Strengths:**\n  - Newer, more modern interface\n  - Lower pricing model\n  - Strong API/customization capabilities\n  - Growing feature set\n- **Cons:** Younger platform; fewer out-of-box templates; smaller user community\n\n## **Decision factors:**\n\n| Factor | Winner |\n|--------|--------|\n| Ease of use | FloQast |\n| Cost | Numeric |\n| Reconciliation depth | FloQast |\n| Customization | Numeric |\n| Reliability/maturity | FloQast |\n| Innovation | Numeric |\n\n**Quick recommendation:** Choose **FloQast** if budget allows and you want proven stability. Choose **Numeric** if you prioritize cost, want flexibility, and have stronger technical support.\n\nWhat's your team size and primary pain point? That would help narrow it down further.",
-  "cached_at": "2026-05-28T07:04:52Z",
-  "metadata": {}
-}

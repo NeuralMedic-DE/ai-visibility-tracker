@@ -1,9 +1,0 @@
-{
-  "brand": "Plausible",
-  "prompt_id": "IN-02",
-  "llm": "perplexity",
-  "prompt_text": "Plausible Gatsby integration: how does it work?",
-  "response": "Plausible integration in Gatsby works by adding Plausible’s tracking script to your site and then sending pageview and custom-event data from Gatsby’s client-side route changes. The usual setup is either a **Gatsby plugin** or manual script insertion in `gatsby-ssr` / `gatsby-browser` files.[1][2][3]\n\nHow it works in practice:\n\n- **Install the plugin** and configure your Plausible domain in `gatsby-config.js`, or manually add the script if you prefer full control.[2][3]\n- The plugin injects Plausible’s tracking script and can also support a **custom Plausible domain**, a **custom script path**, and **excluded paths** that should not count as pageviews.[2][3]\n- **Pageviews are tracked automatically** when users navigate between routes, including the initial page load in Gatsby’s SPA-style client routing.[2][3][8]\n- To track **conversions or goals**, you call `window.plausible('EventName', { callback })` from your code, and you must create the matching **goal** in the Plausible dashboard first.[2][3]\n- In manual setups, Gatsby examples often place the script in `gatsby-ssr` and route-change tracking in `gatsby-browser`, and some setups also add a 404-page custom event.[1]\n- If you use a proxied or self-hosted setup, one guide shows mapping the script and event endpoint through your own domain, such as proxying `/js/index.js` and `/api/event` to Plausible’s endpoints.[6]\n\nOne important Gatsby-specific note: Plausible says Gatsby’s async-script behavior can cause **double counting** unless you use a workaround to ensure the script loads only once.[8]\n\nIf you want, I can also give you a **minimal Gatsby plugin setup** or a **manual implementation**.",
-  "cached_at": "2026-05-27T20:23:21Z",
-  "metadata": {}
-}

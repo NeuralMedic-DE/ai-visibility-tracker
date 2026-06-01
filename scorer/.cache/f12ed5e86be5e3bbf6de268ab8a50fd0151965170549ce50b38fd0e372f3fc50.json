@@ -1,9 +1,0 @@
-{
-  "brand": "Apollo.io",
-  "prompt_id": "CM-01",
-  "llm": "anthropic",
-  "prompt_text": "Apollo.io vs ZoomInfo: which is better?",
-  "response": "# Apollo.io vs ZoomInfo\n\nBoth are solid B2B databases, but they serve slightly different needs:\n\n## **ZoomInfo** (stronger for enterprise)\n- **Best for:** Large companies, sales teams needing maximum accuracy\n- More verified contact data and deeper firmographics\n- Higher price point ($$$)\n- Stronger in intent data\n- Better compliance/data freshness track record\n\n## **Apollo.io** (stronger for startups/SMBs)\n- **Best for:** Smaller teams, budget-conscious buyers\n- Lower cost, easier to get started ($)\n- Good data quality for the price\n- Strong sales engagement tools built-in\n- Simple, intuitive interface\n\n## **Key trade-off**\n- **Accuracy**: ZoomInfo generally edges out Apollo\n- **Value**: Apollo offers better ROI for smaller budgets\n- **Ease of use**: Apollo slightly simpler; ZoomInfo more feature-heavy\n\n## **Quick decision framework**\n- **Pick ZoomInfo if:** Enterprise budget, need highest accuracy, want intent data\n- **Pick Apollo if:** Bootstrapped/growing company, need quick setup, tight budget\n\n**My take:** For most early-stage companies and small sales teams, Apollo is the smarter choice. ZoomInfo makes sense once you're scaling and accuracy ROI justifies the cost.\n\nWhat's your team size/budget? That would help narrow it down further.",
-  "cached_at": "2026-05-27T18:03:44Z",
-  "metadata": {}
-}

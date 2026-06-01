@@ -1,9 +1,0 @@
-{
-  "brand": "Sentry",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which error monitoring software should a engineering lead or DevOps manager use?",
-  "response": "# Error Monitoring Software Recommendations\n\n## Top Choices by Use Case\n\n**For comprehensive application monitoring:**\n- **Sentry** - Best for developers; excellent error tracking, source maps, release tracking\n- **Datadog** - Full observability platform (logs, metrics, traces, APM)\n- **New Relic** - Strong APM with error intelligence and alerting\n\n**For infrastructure/DevOps focus:**\n- **Grafana + Prometheus** - Open-source, cost-effective, highly customizable\n- **Elastic Stack** - Excellent for logs + metrics; self-hosted or managed\n- **Splunk** - Enterprise-grade but pricier\n\n**Lightweight/budget-conscious:**\n- **LogRocket** - Frontend-focused with session replay\n- **Rollbar** - Good balance of features and pricing\n- **Bugsnag** - Lightweight, easy setup\n\n## Key Selection Factors\n\n| Factor | Consider |\n|--------|----------|\n| **Scale** | High-volume apps → Datadog/Splunk; smaller → Sentry/Rollbar |\n| **Budget** | Open-source → ELK/Prometheus; SaaS → Sentry/New Relic |\n| **Stack** | Microservices → distributed tracing tools; monolith → simpler solutions |\n| **Team size** | Large DevOps teams prefer deeper customization; small teams prefer managed services |\n\n## My Recommendation\n**Start with Sentry** (best ROI for most teams) or **Datadog** (if you need full observability). Both integrate widely and scale well as you grow.\n\nWhat's your team size and primary tech stack?",
-  "cached_at": "2026-05-27T21:16:45Z",
-  "metadata": {}
-}

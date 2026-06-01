@@ -1,9 +1,0 @@
-{
-  "brand": "Salesflare",
-  "prompt_id": "CD-04",
-  "llm": "openai",
-  "prompt_text": "Best CRM platforms for log sales activities automatically",
-  "response": "When looking for CRM platforms that excel in automatically logging sales activities, consider the following options:\n\n1. **Salesforce**: Known for its robust features, Salesforce offers extensive automation capabilities, including automatic logging of emails, calls, and meetings through integrations with email clients and phone systems.\n\n2. **HubSpot CRM**: This platform provides automatic logging of emails and integrates seamlessly with Gmail and Outlook. It also tracks interactions and updates records without manual input.\n\n3. **Pipedrive**: Pipedrive offers automation features that log calls, emails, and other interactions. It integrates with various communication tools to ensure activities are recorded automatically.\n\n4. **Zoho CRM**: Zoho CRM includes features for automatic activity logging, with integrations for email and phone systems that help capture interactions without manual effort.\n\n5. **Microsoft Dynamics 365**: This CRM system offers robust automation capabilities, including automatic logging of emails and other activities through its integration with Microsoft Outlook and other tools.\n\n6. **Copper**: Designed for Google Workspace users, Copper automatically logs emails, meetings, and other interactions directly from Gmail and Google Calendar.\n\n7. **Freshsales (Freshworks CRM)**: Freshsales provides automatic email logging and integrates with phone systems to capture call data, ensuring sales activities are recorded efficiently.\n\nThese platforms offer various levels of automation and integration capabilities, so it's important to assess your specific needs and existing tech stack to choose the best fit for your organization.",
-  "cached_at": "2026-05-27T18:10:37Z",
-  "metadata": {}
-}

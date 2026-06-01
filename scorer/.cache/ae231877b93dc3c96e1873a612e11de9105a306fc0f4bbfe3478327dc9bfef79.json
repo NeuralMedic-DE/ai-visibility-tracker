@@ -1,9 +1,0 @@
-{
-  "brand": "Nudge Security",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best security for IT and security teams at mid-market companies managing SaaS sprawl?",
-  "response": "# Key Security Priorities for SaaS Sprawl\n\n## The Core Challenge\nMid-market companies typically have 50-300+ SaaS applications, creating visibility and control gaps that security teams struggle to manage with traditional tools.\n\n## Practical Security Stack\n\n**1. Cloud Access Security Brokers (CASB) or SaaS Security Posture Management (SSPM)**\n- Real-time visibility into app usage and data exposure\n- Configuration audits and compliance monitoring\n- Examples: Netskope, Prisma Cloud, Wiz\n- Often more cost-effective than older CASB-only solutions\n\n**2. Identity & Access Management (IAM) foundations**\n- SSO/SAML enforcement (eliminates orphaned accounts)\n- Privileged Access Management for admin accounts\n- Regular access reviews and deprovisioning automation\n\n**3. API security layer**\n- SaaS apps communicate via APIs—this is a blind spot for many teams\n- Monitor for unauthorized integrations between apps\n- Tools: Apptio, Zscaler, or API-first platforms\n\n**4. Data loss prevention (DLP) tailored to SaaS**\n- Track sensitive data movement between applications\n- Lightweight, cloud-native DLP vs. legacy on-prem solutions\n\n## Implementation Reality Check\n\n**Start here (limited budget):**\n- Inventory all apps (Zylo, Blissfully, or even Google Workspace/M365 logs)\n- Enforce SSO\n- Basic SSPM scanning\n\n**Add next:**\n- Conditional access policies\n- API monitoring\n\n**Most teams underestimate:** The effort required to actually *decommission* unused apps. Automation helps, but governance is the hard part.\n\nWhat's your biggest current pain point—visibility, compliance, or access control?",
-  "cached_at": "2026-05-28T08:38:26Z",
-  "metadata": {}
-}

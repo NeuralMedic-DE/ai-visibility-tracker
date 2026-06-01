@@ -1,9 +1,0 @@
-{
-  "brand": "Stonly",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable knowledge management tools instead of Confluence",
-  "response": "# Knowledge Management Alternatives to Confluence\n\n## Open Source Options\n\n### Documentation-Focused\n- **Docusaurus** - React-based, excellent for technical docs, GitHub-hosted\n- **MkDocs** - Python-based, lightweight, Markdown-driven\n- **Gitbook** - Free tier available, Git-synced content\n- **Outline** - Modern wiki, self-hostable, clean UI\n- **MediaWiki** - Battle-tested (powers Wikipedia), self-hosted\n\n### Wiki/General Purpose\n- **TiddlyWiki** - Single HTML file wiki, very portable\n- **Zim** - Desktop wiki, works offline\n- **Joplin** - Note-taking, end-to-end encrypted, open source\n- **Obsidian** (freemium) - Local-first, powerful linking\n\n## Affordable/Freemium\n\n| Tool | Price | Best For |\n|------|-------|----------|\n| **Notion** | Free → $8-15/user | All-purpose, relational |\n| **Coda** | Free → custom | Docs + light database |\n| **Slite** | ~$5/user | Team knowledge, clean UX |\n| **Nuclino** | Free → $10/user | Lightweight wiki |\n| **Bookstack** | Free (self-hosted) | Simple wiki feel |\n\n## Budget-Friendly Hybrid\n\n- **GitHub Wiki + GitHub Pages** - Free, developer-friendly\n- **Notion + free tier** - Works for small teams\n- **Bookstack self-hosted** - One-time server cost\n\n**What matters most to you?** (Search, collaboration, offline access, migration ease?) That'll help narrow it down.",
-  "cached_at": "2026-05-28T08:21:58Z",
-  "metadata": {}
-}

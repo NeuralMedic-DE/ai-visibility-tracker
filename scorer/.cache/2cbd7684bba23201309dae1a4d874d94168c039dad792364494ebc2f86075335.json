@@ -1,9 +1,0 @@
-{
-  "brand": "Klipfolio",
-  "prompt_id": "CD-03",
-  "llm": "perplexity",
-  "prompt_text": "Which business intelligence software should a marketing ops lead or COO use?",
-  "response": "For a **marketing ops lead**, the best default choice is usually **Power BI** or **Tableau**; for a **COO**, **Power BI** is often the safer first pick because it is strong for cross-functional reporting and works especially well in Microsoft-centric environments.[2][3]\n\n- **Power BI** is a strong fit when the priority is organization-wide dashboards, operational reporting, and easy integration with Microsoft tools.[2]\n- **Tableau** is a strong fit when the priority is rich visualization, interactive storytelling, and flexible exploration of marketing and business data.[2][7]\n- **Sisense** is a good option for teams that expect fast growth or large data volumes and want BI that can scale with the business.[2][4]\n- **Domo** is worth considering when you want a broader BI platform with governance and executive reporting capabilities.[3]\n- **HubSpot analytics** can be enough if the main need is marketing performance tracking inside a CRM/marketing stack rather than a standalone enterprise BI layer.[2]\n\nIf you want a single recommendation:\n- **Marketing ops lead:** **Tableau** if you care most about visualization and analysis depth; **Power BI** if your stack is Microsoft-heavy.[2][7]\n- **COO:** **Power BI** if you want a practical, company-wide BI standard with broad operational coverage.[2]\n\nIf you tell me your stack, I can narrow it to the best one in one line:\n- Microsoft-heavy\n- Salesforce-heavy\n- HubSpot-heavy\n- data team owned\n- self-serve for business users",
-  "cached_at": "2026-05-27T20:29:37Z",
-  "metadata": {}
-}

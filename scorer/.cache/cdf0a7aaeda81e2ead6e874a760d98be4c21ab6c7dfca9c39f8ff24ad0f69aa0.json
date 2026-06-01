@@ -1,9 +1,0 @@
-{
-  "brand": "Zapier",
-  "prompt_id": "CD-04",
-  "llm": "anthropic",
-  "prompt_text": "Best automation platforms for connect apps and automate repetitive workflows without writing any code",
-  "response": "# Best No-Code Automation Platforms\n\n## Top Overall Choices\n\n### **Zapier**\n- 7,000+ app integrations\n- Best for: Multi-step workflows across many apps\n- Workflow limit: Free tier has 100 tasks/month\n- Strengths: Largest app ecosystem, excellent templates\n\n### **Make (Formerly Integromat)**\n- 1,000+ apps integrated\n- Best for: Complex, multi-branching workflows\n- More visual workflow builder than Zapier\n- Lower cost at scale\n- Strengths: Better visual interface, flexible logic\n\n### **Microsoft Power Automate**\n- Integrated with Microsoft ecosystem\n- Best for: Organizations using Office 365/Teams\n- Free tier: 300 cloud flows\n- Strengths: Native Excel/Teams/Outlook integration\n\n---\n\n## Specialized Platforms\n\n| Platform | Best For | Pricing |\n|----------|----------|---------|\n| **IFTTT** | Simple 2-step automations | Free + Pro |\n| **Integromat (now Make)** | Complex conditional logic | Freemium |\n| **Airtable Automations** | Database-centric workflows | Built-in feature |\n| **Notion** | Document/wiki automation | Built-in (Pro+) |\n| **n8n** | Self-hosted, open-source option | Free/Paid |\n\n---\n\n## Quick Comparison\n\n**For Beginners:** IFTTT or Zapier  \n**For Power Users:** Make or n8n  \n**For Enterprise:** Microsoft Power Automate or Workato  \n**For Specific Needs:**\n- Ecommerce → Zapier\n- CRM workflows → Make\n- Internal processes → Power Automate\n\n**Recommendation:** Start with **Zapier** (easiest) or **Make** (most powerful) depending on complexity needs.\n\nWhat's your primary use case?",
-  "cached_at": "2026-05-28T08:50:56Z",
-  "metadata": {}
-}

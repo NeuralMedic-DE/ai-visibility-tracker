@@ -1,9 +1,0 @@
-{
-  "brand": "Planetscale",
-  "prompt_id": "AL-04",
-  "llm": "openai",
-  "prompt_text": "Aurora vs alternatives: what should I switch to?",
-  "response": "To provide a helpful recommendation, it would be useful to know more about what \"Aurora\" refers to in your context, as it could mean different things. For example, you might be referring to:\n\n1. **Amazon Aurora**: A relational database service offered by AWS.\n2. **Aurora Browser**: A web browser, though not commonly used today.\n3. **Aurora HDR**: A photo editing software for high dynamic range imaging.\n4. **Aurora Solar**: A software platform for solar design and sales.\n\nIf you're referring to **Amazon Aurora**, potential alternatives include:\n- **Amazon RDS**: Other database engines supported by Amazon RDS, such as MySQL, PostgreSQL, or MariaDB.\n- **Google Cloud SQL**: Managed database services on Google Cloud.\n- **Azure SQL Database**: Managed database services on Microsoft Azure.\n\nIf you're referring to an **Aurora Browser**, alternatives could be:\n- **Google Chrome**\n- **Mozilla Firefox**\n- **Microsoft Edge**\n- **Safari** (for Apple devices)\n\nIf you're referring to **Aurora HDR**, alternatives include:\n- **Adobe Lightroom**\n- **Photomatix Pro**\n- **Affinity Photo**\n\nIf you're referring to **Aurora Solar**, alternatives might be:\n- **Helioscope**\n- **PVsyst**\n- **OpenSolar**\n\nPlease provide more details about which \"Aurora\" you're using, and I can offer more specific advice.",
-  "cached_at": "2026-05-28T06:15:36Z",
-  "metadata": {}
-}

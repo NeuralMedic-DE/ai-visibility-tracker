@@ -1,9 +1,0 @@
-{
-  "brand": "Portkey",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Portkey with OpenAI?",
-  "response": "# Connecting Portkey with OpenAI\n\nHere's how to integrate Portkey with OpenAI:\n\n## 1. **Get Your API Keys**\n- **OpenAI API Key**: Get it from [platform.openai.com/api-keys](https://platform.openai.com/api-keys)\n- **Portkey API Key**: Get it from [portkey.ai](https://portkey.ai) after signing up\n\n## 2. **Install Portkey SDK**\n```bash\npip install portkey-ai\n```\n\n## 3. **Basic Setup**\n\n### Using Python:\n```python\nfrom portkey_ai import Portkey\n\nclient = Portkey(\n    api_key=\"your-portkey-api-key\",\n    provider=\"openai\",\n    authorization=\"your-openai-api-key\"\n)\n\n# Make API calls\nresponse = client.chat.completions.create(\n    model=\"gpt-4\",\n    messages=[{\"role\": \"user\", \"content\": \"Hello!\"}]\n)\n\nprint(response.choices[0].message.content)\n```\n\n## 4. **Alternative: Via Headers**\n```python\nclient = Portkey(\n    api_key=\"your-portkey-api-key\"\n)\n\nresponse = client.chat.completions.create(\n    model=\"gpt-4\",\n    messages=[{\"role\": \"user\", \"content\": \"Hello!\"}],\n    headers={\n        \"x-portkey-provider\": \"openai\",\n        \"x-portkey-authorization\": \"your-openai-api-key\"\n    }\n)\n```\n\n## 5. **Optional: Configure Advanced Features**\n```python\nclient = Portkey(\n    api_key=\"your-portkey-api-key\",\n    provider=\"openai\",\n    authorization=\"your-openai-api-key\",\n    retry_count=3,\n    mode=\"single\"  # or \"fallback\", \"loadbalance\"\n)\n```\n\nThat's it! Portkey now acts as a gateway to your OpenAI requests with added features like logging, monitoring, and failover capabilities.\n\nNeed help with anything specific?",
-  "cached_at": "2026-05-28T07:52:19Z",
-  "metadata": {}
-}

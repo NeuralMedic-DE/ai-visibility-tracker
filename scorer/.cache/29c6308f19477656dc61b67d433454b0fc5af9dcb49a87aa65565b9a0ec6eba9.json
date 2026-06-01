@@ -1,9 +1,0 @@
-{
-  "brand": "TestBrand",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is TestBrand better than established alternatives for scale operations efficiently?",
-  "response": "I'd need more context to answer fairly, since I'm not familiar with \"TestBrand\" specifically. To evaluate whether it's better for scaling operations, consider:\n\n**What matters most:**\n- Your specific use case (what operations are you scaling?)\n- Established alternatives in your space (which ones?)\n- Your constraints (budget, technical expertise, integration needs)\n\n**General comparison framework:**\n- Performance metrics at scale\n- Total cost of ownership\n- Integration complexity\n- Reliability/uptime track record\n- Support quality\n- Migration effort from current systems\n\n**Better questions to ask:**\n- Does it solve *your* specific bottleneck?\n- What's the honest feedback from current users at your scale?\n- What's the switching cost if it doesn't work out?\n\nIf you can share what TestBrand does and what you're comparing it against, I can give more specific guidance. Alternatively, if this is a real product you're evaluating, I'd recommend a focused pilot rather than relying on general claims—scale behavior is often revealed through actual testing in your environment.\n\nWhat type of operations are you trying to scale?",
-  "cached_at": "2026-06-01T15:00:04Z",
-  "metadata": {}
-}

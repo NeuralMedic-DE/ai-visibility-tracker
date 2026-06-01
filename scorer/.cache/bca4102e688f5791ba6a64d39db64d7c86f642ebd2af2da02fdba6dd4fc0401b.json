@@ -1,9 +1,0 @@
-{
-  "brand": "TestBrand",
-  "prompt_id": "CD-03",
-  "llm": "openai",
-  "prompt_text": "Which AI visibility tracking software should a head of growth use?",
-  "response": "When selecting AI visibility tracking software, a head of growth should consider options that provide comprehensive analytics, ease of integration, and actionable insights. Here are a few popular tools that might be suitable:\n\n1. **Google Analytics 4 (GA4)**: While not exclusively AI-focused, GA4 incorporates machine learning to provide predictive insights and deeper analysis of user behavior across platforms.\n\n2. **Mixpanel**: Known for its advanced analytics capabilities, Mixpanel uses AI to track user interactions and provides insights into user behavior and engagement.\n\n3. **Amplitude**: Offers robust analytics with AI-driven insights to help understand user behavior and optimize growth strategies.\n\n4. **Heap**: Automatically captures all user interactions and uses AI to provide insights without requiring manual event tracking.\n\n5. **Tableau**: While primarily a data visualization tool, Tableau can integrate with AI models to provide visibility into complex datasets and user behavior.\n\n6. **Looker**: Part of Google Cloud, Looker provides data analytics and business intelligence capabilities, integrating AI to enhance data-driven decision-making.\n\nEach of these tools has its strengths, so the choice depends on specific needs such as the level of technical expertise available, budget, and the specific insights required for growth strategies. It's often beneficial to trial a few options to see which best fits the organization's needs.",
-  "cached_at": "2026-06-01T14:59:53Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "TestBrand",
-  "prompt_id": "CM-02",
-  "llm": "google",
-  "prompt_text": "TestBrand vs established alternatives pricing and features",
-  "response": "NO_AI_OVERVIEW",
-  "cached_at": "2026-06-01T15:00:01Z",
-  "metadata": {}
-}

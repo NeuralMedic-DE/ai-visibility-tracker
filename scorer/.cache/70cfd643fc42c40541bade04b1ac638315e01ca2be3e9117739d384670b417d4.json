@@ -1,9 +1,0 @@
-{
-  "brand": "June.so",
-  "prompt_id": "CD-02",
-  "llm": "anthropic",
-  "prompt_text": "Top B2B product analytics built on Segment for early-stage teams tools in 2025",
-  "response": "# Top B2B Product Analytics Tools Built on Segment (2025)\n\n## Native Segment Integrations\n\n### 1. **Amplitude**\n- **Best for:** User behavior analysis & cohort building\n- **Key features:** Event tracking, funnel analysis, retention curves\n- **Why it works:** Deep Segment integration for real-time data pipeline\n\n### 2. **Mixpanel**\n- **Best for:** User journey mapping & conversion optimization\n- **Key features:** Event analytics, user segmentation, A/B testing\n- **Pricing advantage:** Good free tier for early-stage\n\n### 3. **Heap**\n- **Best for:** No-code event capture\n- **Key features:** Automatic event tracking, session replay, retroactive analysis\n- **Early-stage benefit:** Captures all interactions without manual instrumentation\n\n### 4. **Looker (Google Cloud)**\n- **Best for:** Custom dashboarding & data exploration\n- **Key features:** SQL-based analysis, embedded analytics\n- **Best if:** You need flexible BI capabilities\n\n## Alternative Analytics Stacks\n\n### 5. **PostHog**\n- Open-source alternative to Segment + analytics combined\n- Feature flags, A/B testing, session recording built-in\n- Better unit economics for early-stage\n\n### 6. **Plausible/Fathom**\n- Privacy-first alternatives\n- Lighter weight than Segment for B2B SaaS\n\n## Recommended Early-Stage Stack (2025)\n\n```\nSegment (data hub) → Amplitude (behavioral analytics) \n                   → Looker (dashboards)\n                   → S3 (data warehouse)\n```\n\n**Budget-conscious alternative:** PostHog standalone\n\n---\n\n**What's your primary use case?** (retention, activation, revenue analytics?) I can suggest a more specific recommendation.",
-  "cached_at": "2026-05-27T19:56:39Z",
-  "metadata": {}
-}

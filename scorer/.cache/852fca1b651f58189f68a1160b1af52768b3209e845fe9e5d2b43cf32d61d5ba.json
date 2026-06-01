@@ -1,9 +1,0 @@
-{
-  "brand": "Anecdotes",
-  "prompt_id": "CM-01",
-  "llm": "openai",
-  "prompt_text": "Anecdotes vs Vanta: which is better?",
-  "response": "The choice between Anecdotes and Vanta depends on your specific needs and context, as they serve different purposes.\n\n- **Anecdotes**: Typically refers to short, personal stories or accounts that are used to illustrate a point or entertain. If you're looking for engaging storytelling or a way to connect with an audience on a personal level, anecdotes can be very effective.\n\n- **Vanta**: This could refer to Vanta, a software company that provides tools for automating security and compliance processes. If you're considering Vanta in this context, it would be relevant for businesses needing to streamline their compliance with standards like SOC 2, ISO 27001, or GDPR.\n\nIf you're deciding between the two in a business context, consider whether you need a tool for compliance (Vanta) or a method for engaging communication (anecdotes). If this comparison is in a different context, please provide more details for a more tailored response.",
-  "cached_at": "2026-05-28T08:35:57Z",
-  "metadata": {}
-}

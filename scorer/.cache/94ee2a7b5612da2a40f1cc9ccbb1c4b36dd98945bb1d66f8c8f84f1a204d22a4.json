@@ -1,9 +1,0 @@
-{
-  "brand": "Raycast",
-  "prompt_id": "AL-01",
-  "llm": "anthropic",
-  "prompt_text": "Alternatives to Alfred for Mac-based developer and design teams at tech companies",
-  "response": "# Alternatives to Alfred for Mac Developer Teams\n\n## Premium/Feature-Rich Options\n\n**Raycast**\n- Modern, actively developed alternative\n- Built-in extensions (GitHub, Linear, npm, Jira)\n- Team collaboration features\n- Strong API for custom extensions\n- Free tier + paid plans\n\n**LaunchBar**\n- Long-standing competitor\n- Instant send feature for file transfers\n- Good clipboard management\n- Less flashy but reliable\n\n## Free/Open Source\n\n**Spotlight (Native)**\n- Built into macOS\n- Decent for basic searches\n- Limited extensibility for developers\n- Zero setup required\n\n**Albert** (cross-platform)\n- Open source alternative\n- Plugin architecture\n- Lighter weight but smaller ecosystem\n\n**Wox** (Windows-focused, but some Mac support)\n- Community-driven\n- Extensible via plugins\n\n## Specialized Alternatives by Use Case\n\n| Need | Tool |\n|------|------|\n| **Command palettes** | Cmd+K interfaces (VS Code style) in native apps |\n| **File/project jumping** | Finder + Quick Actions |\n| **Terminal speed** | Shell aliases + fzf + ripgrep |\n| **Dev tool access** | Homebrew + direct CLI tools |\n\n## What to Consider\n\n**Raycast** is typically the strongest direct replacement for developer teams because it:\n- Handles the workflow automation Alfred users expect\n- Adds modern team features (vs. single-user focus)\n- Has better first-party integrations for dev tools\n\n**Decision factors:**\n- Budget constraints (Raycast has team plans)\n- Ecosystem lock-in (how many Alfred workflows do you have?)\n- Integration needs specific to your stack\n\nWhat's your primary use case—would help narrow recommendations.",
-  "cached_at": "2026-05-28T06:25:13Z",
-  "metadata": {}
-}

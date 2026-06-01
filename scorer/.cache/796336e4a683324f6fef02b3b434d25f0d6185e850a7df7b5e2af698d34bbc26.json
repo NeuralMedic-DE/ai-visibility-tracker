@@ -1,9 +1,0 @@
-{
-  "brand": "Copper",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable CRM tools instead of Pipedrive",
-  "response": "# CRM Alternatives to Pipedrive\n\n## Free & Open Source\n\n**HubSpot CRM** (Free tier)\n- Unlimited contacts, basic automation\n- Good for small teams getting started\n- Paid tiers available for advanced features\n\n**Odoo**\n- Fully open source, self-hosted\n- Highly customizable\n- Steep learning curve but powerful\n\n**EspoCRM**\n- Open source, lightweight\n- Self-hosted option\n- Good UI, affordable\n\n**Mautic**\n- Open source marketing automation + CRM\n- Self-hosted\n- Best for marketing-heavy teams\n\n## Affordable Commercial Options\n\n**Zoho CRM**\n- ~$12-35/user/month\n- Very affordable for growing businesses\n- Integrates with Zoho's ecosystem\n\n**Monday.com**\n- Flexible, visual interface\n- Slightly more than Pipedrive but very intuitive\n- Good for teams preferring kanban boards\n\n**Freshsales**\n- $12-79/user/month\n- Built-in AI features\n- Good customer support\n\n**Insightly**\n- ~$30-99/month\n- Project management + CRM\n- Good for small-to-medium teams\n\n**HubSpot CRM** (Paid)\n- $50-1,200/month depending on needs\n- Great documentation\n\n## Budget Comparison\n- **Tightest:** Open source (hosting costs only)\n- **Under $20/user:** Zoho, Freshsales\n- **Mid-range:** HubSpot, Insightly\n\nWhat's your team size and primary use case?",
-  "cached_at": "2026-05-27T18:23:41Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Hightouch",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which reverse ETL software should a RevOps Lead or Data Engineer activating warehouse data use?",
-  "response": "# Reverse ETL Software for RevOps/Data Engineers\n\n## Top Contenders by Use Case\n\n### **Best Overall for RevOps Activation**\n- **Hightouch** - Most mature, strong warehouse-native approach, excellent UI for non-technical operators\n- **Census** - Close second, great segment builder, strong Salesforce integrations\n\n### **Best for Technical Data Engineers**\n- **Rudderstack** - Most flexible, code-first option, self-hostable\n- **dbt Cloud + partners** - If you're already in the dbt ecosystem (Hightouch/Census integrate well)\n\n### **Best for Specific Scenarios**\n- **Segment** - If you have CDP foundations already; simpler but less flexible\n- **Airbyte** - Better if you need combined ELT + reverse ETL in one platform\n\n## Key Decision Factors\n\n| Factor | Consider |\n|--------|----------|\n| **Technical depth** | Rudderstack (code-first) vs. Hightouch (low-code) |\n| **Warehouse choice** | All support major warehouses, but verify your specific one |\n| **Destination richness** | Hightouch/Census lead for CRM/marketing tools |\n| **Cost model** | Per-record vs. fixed—matters at scale |\n| **Team composition** | Non-technical RevOps = Hightouch; technical team = Rudderstack |\n\n## Most Common Path\n**RevOps Lead** → Hightouch or Census (user-friendly, built for this workflow)\n**Data Engineer** → Rudderstack or Hightouch (more control/flexibility)\n\nWhat's your warehouse, primary destination, and team technical level? That would narrow it further.",
-  "cached_at": "2026-05-28T09:05:13Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Render",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Render integrate with GitHub?",
-  "response": "Yes, Render integrates with GitHub. This integration allows you to automatically deploy your applications and services from your GitHub repositories. When you connect Render to your GitHub account, you can set up continuous deployment, meaning that Render will automatically build and deploy your application whenever you push changes to the connected repository. This makes it easy to keep your applications up to date with the latest code changes.",
-  "cached_at": "2026-05-27T21:35:23Z",
-  "metadata": {}
-}

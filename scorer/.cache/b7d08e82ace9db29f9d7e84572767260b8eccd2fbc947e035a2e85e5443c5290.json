@@ -1,9 +1,0 @@
-{
-  "brand": "HiBob",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best HR for mid-market companies with distributed global workforces?",
-  "response": "# Best HR Solutions for Distributed Global Teams\n\nThe \"best\" depends on your specific needs, but here's how to evaluate:\n\n## Top contenders by strength:\n\n**Rippling**\n- Unified platform (payroll, benefits, devices, identity)\n- Strong for global compliance\n- Higher cost but fewer integrations needed\n\n**Deel**\n- Specialist in global hiring/payments\n- Excellent for contractor-heavy teams\n- Lower barrier to entry\n\n**BambooHR**\n- User-friendly interface\n- Good for smaller distributed teams\n- Lighter on global complexity than Rippling\n\n**Workday**\n- Most robust for larger mid-market\n- Powerful analytics and scaling\n- Steeper implementation curve\n\n## Key questions to ask first:\n\n1. **How many countries?** (complexity multiplier)\n2. **Employee vs. contractor mix?** (affects payroll needs)\n3. **Current system pain points?** (integration vs. compliance vs. culture?)\n4. **Budget for implementation?** (can be 30-50% of software cost)\n5. **In-house HR tech capability?** (support/customization needed?)\n\n## Honest reality:\nMost mid-market companies benefit more from **one solid system + good HR processes** than chasing the perfect tool. Implementation and adoption matter more than feature lists.\n\nWhat's your biggest current HR pain point? That should drive your choice.",
-  "cached_at": "2026-05-28T06:32:12Z",
-  "metadata": {}
-}

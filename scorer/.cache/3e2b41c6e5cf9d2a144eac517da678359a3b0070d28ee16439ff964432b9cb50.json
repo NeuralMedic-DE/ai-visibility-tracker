@@ -1,9 +1,0 @@
-{
-  "brand": "Pipedrive",
-  "prompt_id": "CD-01",
-  "llm": "openai",
-  "prompt_text": "What is the best CRM for small and mid-size sales teams?",
-  "response": "The best CRM for small and mid-size sales teams often depends on the specific needs and budget of the business, but some popular and highly recommended options include:\n\n1. **HubSpot CRM**: Known for its user-friendly interface and robust free tier, HubSpot CRM is a great choice for small to mid-size teams. It offers a wide range of features, including contact management, email tracking, and sales automation.\n\n2. **Salesforce Essentials**: This is Salesforce's solution tailored for small businesses. It provides powerful CRM capabilities with the flexibility to scale as your business grows.\n\n3. **Zoho CRM**: Zoho offers a comprehensive suite of CRM tools at an affordable price. It's highly customizable and integrates well with other Zoho products and third-party applications.\n\n4. **Pipedrive**: Designed with sales teams in mind, Pipedrive is known for its intuitive pipeline management and easy-to-use interface, making it ideal for small to mid-size teams focused on sales processes.\n\n5. **Freshsales**: Part of the Freshworks suite, Freshsales offers AI-driven insights, lead scoring, and a clean interface, making it a solid choice for small and mid-size teams looking for an all-in-one solution.\n\n6. **Insightly**: This CRM offers project management features alongside traditional CRM capabilities, which can be beneficial for small to mid-size teams that need to manage both sales and projects.\n\nWhen choosing a CRM, consider factors such as ease of use, scalability, integration capabilities, and pricing to find the best fit for your team. Many of these CRMs offer free trials, so you can test them out before making a decision.",
-  "cached_at": "2026-05-27T17:09:03Z",
-  "metadata": {}
-}

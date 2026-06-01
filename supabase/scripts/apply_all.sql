@@ -451,6 +451,41 @@ end
 $$;
 
 -- ────────────────────────────────────────────────────────────
+-- 0013: subscription_status CHECK constraint (audit M3)
+-- ────────────────────────────────────────────────────────────
+do $$
+begin
+  if not exists (
+    select 1
+      from pg_constraint
+     where conname  = 'customers_subscription_status_check'
+       and conrelid = 'public.customers'::regclass
+  ) then
+    alter table public.customers
+      add constraint customers_subscription_status_check
+      check (
+        subscription_status in (
+          'none',
+          'trialing',
+          'active',
+          'past_due',
+          'canceled',
+          'incomplete',
+          'incomplete_expired',
+          'unpaid',
+          'paused'
+        )
+      );
+  end if;
+end
+$$;
+
+comment on column public.customers.subscription_status is
+  'Stripe subscription status. Allowed values: none | trialing | active | '
+  'past_due | canceled | incomplete | incomplete_expired | unpaid | paused. '
+  'Constrained by customers_subscription_status_check.';
+
+-- ────────────────────────────────────────────────────────────
 -- Verify: list all tables created
 -- ────────────────────────────────────────────────────────────
 select table_name, table_type

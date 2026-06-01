@@ -1,9 +1,0 @@
-{
-  "brand": "Fivetran",
-  "prompt_id": "UC-05",
-  "llm": "perplexity",
-  "prompt_text": "What software helps with transform and model raw data with dbt in a unified managed data pipeline at scale?",
-  "response": "The software you’re looking for is **Databricks with dbt (dbt on Databricks)**, which provides a **unified, managed data pipeline platform at scale** where you can ingest, transform, and model raw data with dbt in one place.[1]\n\nHere’s how it fits your description:\n\n- **Transform & model raw data with dbt**  \n  Databricks treats **dbt as a first‑class task type**, so you develop your transformations and models in dbt (using SQL) and run them directly on Databricks.[1]  \n  dbt brings the analytics engineering layer—modular models, tests, documentation, lineage—on top of your Databricks Lakehouse.[1][2][3]\n\n- **Unified managed data pipeline**  \n  Using **Lakeflow Jobs** on Databricks, you can build a single pipeline that:  \n  - Ingests raw data (e.g., with Auto Loader)  \n  - **Runs dbt models for transformations**  \n  - Triggers downstream actions like BI dashboard refreshes or ML retraining  \n  all with **one orchestration layer, unified retries, and dependency management**.[1]\n\n- **At scale, with governance**  \n  Databricks provides a **lakehouse architecture** with **open table formats** (Delta Lake, Apache Iceberg) where dbt models materialize as tables accessible across the platform.[1]  \n  **Unity Catalog** gives centralized governance, access control, discovery, and lineage across ingestion, dbt, BI, and ML, which is crucial for operating pipelines at scale.[1]\n\nIf you instead meant a *managed dbt service only*, that would be **dbt Cloud**, which manages dbt itself (scheduling, UI, collaboration) but does not by itself provide end‑to‑end ingestion and lakehouse capabilities.[2][3]",
-  "cached_at": "2026-05-28T08:59:59Z",
-  "metadata": {}
-}

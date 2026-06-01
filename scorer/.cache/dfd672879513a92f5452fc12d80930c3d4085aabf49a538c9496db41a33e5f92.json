@@ -1,9 +1,0 @@
-{
-  "brand": "Personio",
-  "prompt_id": "IN-03",
-  "llm": "openai",
-  "prompt_text": "How do I connect Personio with Slack?",
-  "response": "To connect Personio with Slack, you can use the Personio Slack integration to streamline HR processes and improve communication within your team. Here’s a general guide on how to set up this integration:\n\n1. **Access Personio Marketplace:**\n   - Log in to your Personio account.\n   - Navigate to the \"Marketplace\" from the main menu.\n\n2. **Find the Slack Integration:**\n   - In the Marketplace, search for \"Slack\" to find the integration option.\n\n3. **Install the Integration:**\n   - Click on the Slack integration and follow the prompts to install it.\n   - You may need to grant necessary permissions for Personio to access your Slack workspace.\n\n4. **Authorize the Connection:**\n   - You will be redirected to Slack to authorize the connection.\n   - Log in to your Slack account if prompted and approve the integration.\n\n5. **Configure the Integration:**\n   - Once authorized, you can configure the integration settings in Personio.\n   - Set up notifications and decide which events or updates you want to be sent to Slack channels or direct messages.\n\n6. **Test the Integration:**\n   - After configuration, test the integration to ensure that notifications and updates are being sent to the appropriate Slack channels.\n\n7. **Adjust Settings as Needed:**\n   - You can always go back to the integration settings in Personio to adjust notifications or permissions as your needs change.\n\nBy following these steps, you should be able to successfully connect Personio with Slack, enhancing your HR communication and workflow efficiency. If you encounter any issues, consult Personio's support documentation or contact their support team for assistance.",
-  "cached_at": "2026-05-28T06:34:59Z",
-  "metadata": {}
-}

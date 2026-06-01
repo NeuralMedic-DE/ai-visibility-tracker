@@ -1,9 +1,0 @@
-{
-  "brand": "FullStory",
-  "prompt_id": "IN-03",
-  "llm": "openai",
-  "prompt_text": "How do I connect FullStory with Segment?",
-  "response": "To connect FullStory with Segment, you need to follow these steps:\n\n1. **Log in to Segment**: Start by logging into your Segment account.\n\n2. **Select a Source**: Choose the source from which you want to send data to FullStory. This is typically your website or app where Segment is installed.\n\n3. **Navigate to Destinations**: Go to the \"Destinations\" tab in the Segment dashboard.\n\n4. **Add FullStory as a Destination**:\n   - Click on \"Add Destination\".\n   - Search for \"FullStory\" in the catalog and select it.\n   - Click on \"Configure FullStory\".\n\n5. **Enter FullStory Details**:\n   - You will need your FullStory Org ID. You can find this in your FullStory account under Settings > Account Settings.\n   - Enter the Org ID in the required field in Segment.\n\n6. **Configure Settings**: You may have additional configuration options, such as enabling or disabling specific features. Review these settings to ensure they align with your tracking needs.\n\n7. **Save and Enable**: Once you've configured the settings, save the configuration and enable FullStory as a destination.\n\n8. **Verify the Integration**: After setting up, it's a good idea to verify that data is being sent correctly from Segment to FullStory. You can do this by checking your FullStory account to see if sessions and events are being recorded as expected.\n\nBy following these steps, you should successfully connect FullStory with Segment, allowing you to send data from your Segment source to FullStory for analysis.",
-  "cached_at": "2026-05-27T20:45:00Z",
-  "metadata": {}
-}

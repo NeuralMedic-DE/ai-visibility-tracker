@@ -1,9 +1,0 @@
-{
-  "brand": "Folk",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to Attio",
-  "response": "# Cheaper Alternatives to Attio\n\n## Free/Low-Cost Options\n\n**Airtable**\n- Free tier available; paid plans from $10/user/month\n- Highly customizable database with CRM capabilities\n- Great for small teams or those needing flexibility over pre-built features\n\n**HubSpot CRM**\n- Completely free tier (unlimited contacts, basic features)\n- Paid tiers start at $45/month\n- More traditional CRM, less design-focused than Attio\n\n**Notion**\n- Free tier; paid at $10-15/month per user\n- DIY CRM templates available\n- Best if you want an all-in-one workspace\n\n## Budget-Friendly Paid Options\n\n**Pipedrive**\n- Plans from $14/user/month (billed annually)\n- Sales-focused, simple interface\n- Good for smaller teams\n\n**Zoho CRM**\n- Plans from $18/user/month\n- Feature-rich, especially for small businesses\n- Often underrated value\n\n**Clay**\n- Free tier available\n- $99-249/month for paid plans\n- Strong data enrichment; modern UI similar to Attio\n\n**Salesforce Essentials**\n- $165/month (flat rate, up to 10 users)\n- Scaled-down Salesforce for smaller teams\n\n## The Trade-off\nCheaper alternatives often sacrifice Attio's **modern design, no-code customization, and workspace-first approach**. Choose based on whether you prioritize cost savings or user experience.\n\nWhat's your main use case?",
-  "cached_at": "2026-05-27T18:53:30Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Fivetran",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to Airbyte",
-  "response": "# Cheaper Alternatives to Airbyte\n\n## **Free/Open-Source Options**\n\n### **Talend Open Studio**\n- Fully free, open-source ETL tool\n- Strong data integration capabilities\n- Steeper learning curve but powerful\n\n### **Apache NiFi**\n- Free, open-source data routing/transformation\n- Great for real-time data flows\n- Web-based UI, active community\n\n### **Meltano**\n- Open-source, singer-based ELT platform\n- Pay-as-you-go cloud option\n- Good for data engineers\n\n### **Stitch (Talend)**\n- Lower-cost SaaS alternative\n- Simple to set up\n- Fewer connectors than Airbyte\n\n## **Budget-Friendly Commercial Options**\n\n| Tool | Starting Price | Best For |\n|------|---|---|\n| **Fivetran** | $29.99/mo | Pre-built connectors |\n| **Superconductive** | Free tier available | Modern data stacks |\n| **Keboola** | Custom pricing | Mid-size teams |\n| **Zapier** | $29/mo | Simple workflows |\n\n## **Cost-Saving Strategies with Airbyte**\n\n- Self-host (free, but requires DevOps resources)\n- Use free tier: 100GB/month + basic connectors\n- Optimize sync frequency and data volumes\n\n## **What to Consider**\n- Number of connectors needed\n- Data volume and frequency\n- Your team's technical expertise\n- Integration flexibility\n\n**What's your primary use case?** That would help narrow down the best option.",
-  "cached_at": "2026-05-28T08:58:35Z",
-  "metadata": {}
-}

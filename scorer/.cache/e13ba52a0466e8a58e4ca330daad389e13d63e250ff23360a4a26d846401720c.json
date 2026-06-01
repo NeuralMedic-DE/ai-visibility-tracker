@@ -1,9 +1,0 @@
-{
-  "brand": "Lemlist",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I send personalized cold email campaigns at scale with AI-powered personalization without spending a lot on software?",
-  "response": "# Low-Cost AI Cold Email Personalization\n\nHere are practical approaches that keep costs minimal:\n\n## Free/Cheap Tools\n\n**Email infrastructure:**\n- Mailgun, SendGrid, or Brevo (free tiers for ~300 emails/day)\n- Google Sheets + Zapier (free tier covers basic automation)\n\n**AI personalization:**\n- Claude, ChatGPT, or Llama via APIs (pay-per-use, often cheaper than SaaS)\n- Write a simple script that batches personalization requests\n\n## DIY Workflow (Most Cost-Effective)\n\n1. **Build a prospect list** in a spreadsheet (LinkedIn Sales Navigator, Hunter.io free tier)\n2. **Use an API directly** to generate personalized subject lines and opening lines:\n   ```\n   - Batch 100 prospects at once to Claude API\n   - Cost: ~$0.30-2 per 100 emails depending on detail level\n   - Takes 2-3 minutes to run\n   ```\n3. **Send via Gmail or Mailgun** with merge tags\n4. **Track opens/clicks** with free tools (Mailmodo, simple pixel tracking)\n\n## Key Limitations to Know\n\n- Free email tiers throttle volume (you'll hit caps quickly at scale)\n- You need basic technical skills (spreadsheets, APIs, or no-code automation)\n- Personalization quality depends on data quality (garbage in = garbage out)\n\n## The Real Cost Trade-off\n\nBelow $500/month, you're trading convenience for time. Above that, tools like Outreach or Lemlist become cheaper than your engineering effort.\n\n**What's your technical comfort level?** That determines whether the DIY path is realistic.",
-  "cached_at": "2026-05-28T07:17:13Z",
-  "metadata": {}
-}

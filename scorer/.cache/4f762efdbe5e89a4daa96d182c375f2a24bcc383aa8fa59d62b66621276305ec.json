@@ -1,9 +1,0 @@
-{
-  "brand": "Amplemarket",
-  "prompt_id": "AL-01",
-  "llm": "openai",
-  "prompt_text": "Alternatives to Apollo.io for outbound sales teams at B2B companies",
-  "response": "There are several alternatives to Apollo.io that B2B companies can consider for their outbound sales efforts. Here are some popular options:\n\n1. **LinkedIn Sales Navigator**: This tool is excellent for finding and connecting with potential leads on LinkedIn, offering advanced search capabilities and insights.\n\n2. **ZoomInfo**: Provides a comprehensive database of business contacts and companies, along with tools for lead generation and market intelligence.\n\n3. **Clearbit**: Offers data enrichment and lead generation tools that integrate with your existing CRM to provide detailed information on prospects.\n\n4. **Lusha**: Known for its simplicity, Lusha provides accurate contact information for B2B sales teams, including direct dials and email addresses.\n\n5. **Hunter.io**: Specializes in finding and verifying professional email addresses, making it easier to reach out to potential leads.\n\n6. **LeadIQ**: Helps sales teams capture and enrich lead data, offering integrations with various CRMs to streamline the outbound sales process.\n\n7. **Outreach.io**: Focuses on sales engagement, providing tools to automate and optimize communication with prospects.\n\n8. **Salesloft**: Offers a comprehensive sales engagement platform that helps teams manage their outreach efforts more effectively.\n\n9. **InsideView**: Provides market intelligence and data insights to help sales teams identify and engage with the right prospects.\n\n10. **Seamless.ai**: Uses AI to find and verify contact information, helping sales teams build accurate lead lists.\n\nEach of these tools has its own strengths and features, so it's important to evaluate them based on your specific needs, budget, and existing technology stack.",
-  "cached_at": "2026-05-27T19:00:31Z",
-  "metadata": {}
-}

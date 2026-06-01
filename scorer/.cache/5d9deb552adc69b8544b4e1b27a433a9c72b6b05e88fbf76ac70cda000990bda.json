@@ -1,9 +1,0 @@
-{
-  "brand": "ChurnZero",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable customer success tools instead of Vitally",
-  "response": "# Customer Success Tools: Open Source & Affordable Alternatives to Vitally\n\n## **Open Source Options**\n\n### **Plane** (Project Management)\n- GitHub-based, self-hosted\n- Task/project tracking for CS teams\n- Free, MIT licensed\n- Limited CS-specific features\n\n### **Chatwoot** (Customer Communications)\n- Omnichannel inbox\n- Self-hosted option\n- Free community version\n- Good for CS communication workflows\n\n### **Mattermost** (Internal Collaboration)\n- Slack alternative\n- Open source, self-hosted\n- Helps CS team coordination\n- Free tier available\n\n---\n\n## **Affordable SaaS Alternatives**\n\n| Tool | Price | Best For |\n|------|-------|----------|\n| **ChartMogul** | $99+/mo | Revenue analytics, churn tracking |\n| **Nicereply** | $99/mo | Customer feedback & NPS |\n| **Drift** | $50/mo | CS conversations, automation |\n| **Intercom** | $39/mo | In-app messaging, basic CS |\n| **Totango** (free tier) | Free-$150 | CS workflows, health scoring |\n| **Gainsight PX** | $500+/mo | Product-led CS (pricey but powerful) |\n| **HubSpot Service Hub** | $50/mo | Service ticketing, CS features |\n\n---\n\n## **Budget Combo Stack** (under $200/mo)\n\n1. **HubSpot Service Hub** ($50) - core CRM\n2. **ChartMogul** ($99) - analytics\n3. **Nicereply** ($99) - NPS/feedback\n4. **Open source tools** - internal coordination\n\n---\n\n**What's your biggest CS need?** (churn tracking, customer health, automation?) I can narrow recommendations.",
-  "cached_at": "2026-05-28T08:06:50Z",
-  "metadata": {}
-}

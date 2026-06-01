@@ -1,9 +1,0 @@
-{
-  "brand": "ChartMogul",
-  "prompt_id": "UC-03",
-  "llm": "anthropic",
-  "prompt_text": "What tools do founders and finance teams at subscription SaaS businesses companies use to track MRR ARR churn and all subscription metrics in one dashboard?",
-  "response": "# Subscription Metrics Dashboard Tools\n\nHere are the most popular options:\n\n## **Dedicated Subscription Analytics Platforms**\n\n**Specialized & Comprehensive:**\n- **Baremetrics** - Most popular for indie/early-stage SaaS; integrates with Stripe, Shopify\n- **ChartMogul** - Enterprise-grade; excellent for multi-currency/marketplace complexity\n- **ProfitWell/Paddle Analytics** - Strong cohort analysis and unit economics\n- **Stripe Sigma** - Native within Stripe; requires SQL but very flexible\n\n**Lower-cost alternatives:**\n- **Littledata** - Good for Shopify/Stripe integration\n- **Subscription Ninja** - Lightweight option\n- **Subbly Analytics** - Shopify-focused\n\n## **General BI/Dashboard Tools**\n- **Metabase** - Open-source, self-hosted option\n- **Looker/Google Looker Studio** - Powerful but requires data pipeline setup\n- **Tableau** - Enterprise option\n- **Microsoft Power BI** - If you're in Microsoft ecosystem\n\n## **Accounting-Adjacent**\n- **Stripe directly** - Good for basics but limited visualization\n- **Zuora** - Enterprise billing & reporting platform\n- **Salesforce Billing** - If already in Salesforce\n\n## **Key Decision Factors**\n\nChoose based on:\n- **Payment processor** (Stripe/Shopify integration ease)\n- **Pricing complexity** (multi-tier, usage-based, currency)\n- **Revenue size** (some are overkill for <$50K MRR)\n- **Team SQL skills** (affects BI tool viability)\n\n**Most common recommendation for growth stage:** Baremetrics or ChartMogul depending on complexity.\n\nWhat's your current payment processor and revenue stage?",
-  "cached_at": "2026-05-28T06:55:09Z",
-  "metadata": {}
-}

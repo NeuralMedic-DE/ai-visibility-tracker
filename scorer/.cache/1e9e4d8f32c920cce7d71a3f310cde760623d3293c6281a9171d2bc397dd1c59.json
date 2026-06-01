@@ -1,9 +1,0 @@
-{
-  "brand": "Metabase",
-  "prompt_id": "UC-04",
-  "llm": "anthropic",
-  "prompt_text": "How can a data analyst or head of data build dashboards and reports without writing SQL more efficiently?",
-  "response": "# Building Dashboards Without SQL: Practical Approaches\n\n## 1. **Visual Query Builders**\n- **Tools**: Tableau, Power BI, Looker, Metabase\n- **How**: Drag-and-drop interfaces generate SQL automatically\n- **Best for**: Standard aggregations, filters, joins\n- **Limitation**: Complex logic still needs SQL\n\n## 2. **Pre-built Data Models & Semantic Layers**\n- Create a centralized semantic layer (dbt, Cube.dev, AtScale) once\n- Data analysts access clean, pre-modeled tables\n- They pull from these instead of raw data\n- **Payoff**: Saves time repeatedly + ensures consistency\n\n## 3. **Embedded Analytics Platforms**\n- **Sigma, Observable, Streamlit**: Let you build without SQL\n- More flexible than traditional BI, less coding than SQL\n- Good middle ground for custom logic\n\n## 4. **SQL Templates & Auto-generation**\n- Use AI tools (ChatGPT, GitHub Copilot, sql.ai)\n- Build a library of reusable SQL snippets\n- Generate boilerplate quickly\n\n## 5. **Delegate SQL Upfront**\n- Have engineers build **data marts** (pre-aggregated, ready-to-use tables)\n- Analysts build dashboards from clean inputs\n- Separates concerns efficiently\n\n## **Most Efficient for Teams:**\n→ **Combination**: Strong semantic layer + visual BI tool + one person maintaining SQL infrastructure\n\nThe bottleneck isn't usually *writing* SQL—it's maintaining **correct, performant, consistent data access**. Solve that once, and analysts are liberated.\n\nWhat's your current setup?",
-  "cached_at": "2026-05-27T20:09:07Z",
-  "metadata": {}
-}

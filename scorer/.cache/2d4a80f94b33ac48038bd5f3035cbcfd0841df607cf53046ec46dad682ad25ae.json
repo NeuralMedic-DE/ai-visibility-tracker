@@ -1,9 +1,0 @@
-{
-  "brand": "Drip",
-  "prompt_id": "CD-02",
-  "llm": "perplexity",
-  "prompt_text": "Top ecommerce CRM and email marketing platform for DTC brands tools in 2025",
-  "response": "For **DTC brands in 2025**, the strongest all-around choice is **Klaviyo** for ecommerce CRM plus email/SMS marketing, because multiple sources describe it as the best overall platform for ecommerce and a top pick for DTC growth.[1][2]\n\nThe most relevant tools to consider are:\n\n- **Klaviyo** — best overall for ecommerce, with deep ecommerce integrations, lifecycle automation, segmentation, and email/SMS in one stack.[1][2]\n- **Drip** — a lighter-weight ecommerce CRM option for DTC brands that want quick setup, automation, email, and SMS.[3][5]\n- **Braze** — better suited for *app-first* businesses than pure DTC ecommerce.[1]\n- **Iterable** — stronger for *multi-brand retailers* and more complex cross-channel orchestration.[1]\n- **Salesforce Marketing** — a broader enterprise option, but not the most DTC-focused choice in the results provided.[1][4]\n\nIf your goal is the **best single platform for a typical DTC brand**, the answer from the sources is **Klaviyo**.[1][2] If you want a **simpler, lighter CRM/automation tool**, **Drip** is the main alternative highlighted for DTC.[3][5]\n\nIf you want, I can also give you a **2025 comparison table** of Klaviyo vs Drip vs Braze vs Iterable for DTC brands.",
-  "cached_at": "2026-05-28T07:32:35Z",
-  "metadata": {}
-}

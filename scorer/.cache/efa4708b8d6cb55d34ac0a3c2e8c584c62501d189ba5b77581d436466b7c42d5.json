@@ -1,9 +1,0 @@
-{
-  "brand": "Plausible",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with monitor conversion funnels without compromising user privacy at scale?",
-  "response": "When looking for software that helps monitor conversion funnels while prioritizing user privacy, consider the following options:\n\n1. **Matomo**: An open-source analytics platform that emphasizes user privacy and data ownership. It can be self-hosted, allowing you to control all data collected.\n\n2. **Plausible Analytics**: A lightweight, privacy-focused analytics tool that doesn't use cookies or track personal data. It provides insights into conversion funnels while respecting user privacy.\n\n3. **Fathom Analytics**: Another privacy-first analytics tool that provides simple and clear insights without collecting personal data or using cookies.\n\n4. **GoAccess**: A real-time web log analyzer and interactive viewer that operates on server logs, thus avoiding the need for tracking scripts on user devices.\n\n5. **Heap Analytics**: Offers automatic data capture and privacy features, allowing you to analyze user behavior without compromising privacy.\n\nThese tools are designed to provide valuable insights into user behavior and conversion funnels while ensuring compliance with privacy regulations like GDPR and CCPA.",
-  "cached_at": "2026-05-27T20:16:12Z",
-  "metadata": {}
-}

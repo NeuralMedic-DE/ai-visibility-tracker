@@ -1,9 +1,0 @@
-{
-  "brand": "Apify",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Apify integrate with Python?",
-  "response": "Yes, Apify integrates with Python. Apify provides an API that you can interact with using Python to automate web scraping and data extraction tasks. You can use the `apify-client` Python package to interact with the Apify platform, manage actors, datasets, key-value stores, and more. This allows you to run Apify tasks and retrieve data directly from your Python scripts. You can install the `apify-client` package via pip and refer to the Apify documentation for detailed instructions on how to use it with Python.",
-  "cached_at": "2026-05-28T07:59:07Z",
-  "metadata": {}
-}

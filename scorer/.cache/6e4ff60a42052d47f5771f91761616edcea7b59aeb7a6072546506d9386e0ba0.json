@@ -1,9 +1,0 @@
-{
-  "brand": "Baremetrics",
-  "prompt_id": "IN-04",
-  "llm": "openai",
-  "prompt_text": "Best SaaS analytics that works with Stripe and PayPal",
-  "response": "When looking for SaaS analytics tools that integrate well with both Stripe and PayPal, you have several good options. Here are some of the best tools that can provide comprehensive analytics for your SaaS business:\n\n1. **Baremetrics**: Known for its deep integration with Stripe, Baremetrics also supports PayPal. It provides insights into MRR, ARR, churn rate, LTV, and other key SaaS metrics.\n\n2. **ChartMogul**: This tool integrates with Stripe, PayPal, and other payment processors. It offers features like cohort analysis, MRR, ARR, and churn tracking, making it a robust choice for SaaS analytics.\n\n3. **ProfitWell**: ProfitWell provides free subscription analytics and integrates with Stripe and PayPal. It offers insights into MRR, churn, and other critical metrics, along with additional features like pricing optimization.\n\n4. **Metorik**: While primarily known for its WooCommerce analytics, Metorik also supports Stripe and PayPal. It provides detailed reports and insights into your sales and customer data.\n\n5. **FirstOfficer**: This tool is designed for SaaS businesses and provides detailed subscription analytics. It integrates with Stripe and offers insights into MRR, churn, and other key metrics.\n\nEach of these tools offers a different set of features and pricing, so it's worth evaluating them based on your specific needs and budget.",
-  "cached_at": "2026-05-28T06:57:43Z",
-  "metadata": {}
-}

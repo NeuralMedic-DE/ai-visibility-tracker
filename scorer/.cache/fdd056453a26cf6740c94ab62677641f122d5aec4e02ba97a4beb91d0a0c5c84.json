@@ -1,9 +1,0 @@
-{
-  "brand": "Userlist",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with send feature announcements and lifecycle emails to keep users engaged at scale?",
-  "response": "There are several software platforms designed to help with sending feature announcements and lifecycle emails to keep users engaged at scale. Some popular options include:\n\n1. **Mailchimp**: Known for its user-friendly interface, Mailchimp offers automation features that are great for lifecycle emails and announcements.\n\n2. **HubSpot**: This platform provides a comprehensive suite of marketing tools, including email marketing automation, which is ideal for sending targeted lifecycle emails and feature announcements.\n\n3. **Sendinblue**: Offers powerful automation capabilities and is suitable for managing email campaigns, including feature announcements and lifecycle emails.\n\n4. **ActiveCampaign**: Known for its robust automation features, ActiveCampaign allows you to create complex email sequences for user engagement.\n\n5. **Customer.io**: Specifically designed for sending targeted messages to users, Customer.io is great for lifecycle emails and feature announcements based on user behavior.\n\n6. **Intercom**: Primarily a customer messaging platform, Intercom also offers features for sending targeted emails and in-app messages, making it useful for feature announcements.\n\n7. **Drip**: Focused on e-commerce, Drip offers sophisticated automation tools for sending personalized lifecycle emails and announcements.\n\n8. **Klaviyo**: Particularly popular with e-commerce businesses, Klaviyo provides advanced segmentation and automation features for personalized email campaigns.\n\nEach of these platforms has its own strengths, so the best choice depends on your specific needs, such as integration capabilities, ease of use, and budget.",
-  "cached_at": "2026-05-28T07:30:51Z",
-  "metadata": {}
-}

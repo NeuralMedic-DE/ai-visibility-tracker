@@ -1,9 +1,0 @@
-{
-  "brand": "Lattice",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Lattice integrate with Slack?",
-  "response": "# Lattice and Slack Integration\n\nYes, Lattice does integrate with Slack. The integration allows teams to:\n\n- **Receive notifications** in Slack about performance management activities (feedback, check-ins, reviews, etc.)\n- **Access Lattice features** directly from Slack without switching between apps\n- **Streamline workflows** by bringing HR and performance management updates into your existing Slack channels\n\n## What you can do:\n\n- Get alerts about upcoming feedback cycles or reviews\n- Share feedback or check-in updates\n- Access quick information about goals and performance conversations\n\nFor the most current details about specific features and setup instructions, I'd recommend:\n- Checking Lattice's app marketplace or integrations page\n- Visiting Slack's app directory to search for \"Lattice\"\n- Contacting Lattice support directly\n\nIntegration capabilities can vary depending on your Lattice plan, so it's worth verifying what's available with your specific subscription.",
-  "cached_at": "2026-05-28T06:30:14Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Raycast",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I launch apps and run custom workflows from the keyboard instantly without spending a lot on software?",
-  "response": "# Free/Low-Cost Keyboard Launch Options\n\n## No-cost solutions\n\n**Windows:**\n- **PowerToys Run** (Microsoft) - Win+Alt+Space to search and launch apps, files, calculator\n- **AutoHotkey** - Write custom keyboard shortcuts and automations for free\n- **Everything** - Instant file search accessible via hotkey\n- **Launchy** - Lightweight app launcher\n\n**Mac:**\n- **Alfred** (free tier) - Spotlight-like launcher with workflows\n- **Raycast** (free tier) - App launcher + quick actions\n- **Built-in Spotlight** - Already there (Cmd+Space)\n\n**Linux:**\n- **Rofi** or **dmenu** - Lightweight launchers\n- **Albert** - Cross-platform launcher\n\n## Budget-friendly automation\n\n- **AutoHotkey scripts** - Write workflows in a simple scripting language (Windows)\n- **Keyboard Maestro** trial (Mac) - $36 one-time, very powerful\n- **System Preferences** - Most OSes have native shortcut settings\n\n## Quick wins\n1. Start with built-in OS search (Win+S, Cmd+Space)\n2. Add PowerToys Run or Alfred\n3. Learn one automation tool (AutoHotkey or Bash scripts)\n\n**What workflows do you want to automate?** That'll help me suggest the best tool—some tasks are 2-minute script solutions.",
-  "cached_at": "2026-05-28T06:25:20Z",
-  "metadata": {}
-}

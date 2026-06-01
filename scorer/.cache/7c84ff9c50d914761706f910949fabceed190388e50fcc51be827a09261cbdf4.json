@@ -1,9 +1,0 @@
-{
-  "brand": "Vanta",
-  "prompt_id": "IN-03",
-  "llm": "openai",
-  "prompt_text": "How do I connect Vanta with GitHub?",
-  "response": "To connect Vanta with GitHub, you'll need to follow these steps:\n\n1. **Log in to Vanta**: Start by logging into your Vanta account.\n\n2. **Access Integrations**: Navigate to the integrations section. This is typically found in the settings or dashboard area of Vanta.\n\n3. **Select GitHub**: Look for GitHub in the list of available integrations. Click on it to start the connection process.\n\n4. **Authorize Vanta**: You will be redirected to GitHub to authorize the connection. You may need to log into your GitHub account if you aren't already. Vanta will request permission to access your repositories. Review the permissions and click \"Authorize\" to proceed.\n\n5. **Configure the Integration**: Once authorized, you may need to configure which repositories or organizations Vanta should have access to. Make sure to select the appropriate repositories that you want Vanta to monitor.\n\n6. **Complete the Setup**: Follow any additional setup instructions provided by Vanta to complete the integration. This may include configuring specific settings or verifying that the connection is working correctly.\n\nAfter completing these steps, Vanta should be successfully connected to your GitHub account, and it will start monitoring your repositories according to the settings you configured. If you encounter any issues, consult Vanta's support documentation or reach out to their support team for assistance.",
-  "cached_at": "2026-05-28T08:26:47Z",
-  "metadata": {}
-}

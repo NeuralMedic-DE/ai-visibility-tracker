@@ -1,9 +1,0 @@
-{
-  "brand": "Charlie HR",
-  "prompt_id": "CD-04",
-  "llm": "anthropic",
-  "prompt_text": "Best HR platforms for manage employee leave documents and HR admin in one place",
-  "response": "# Best HR Platforms for Leave Management & Admin\n\n## Top All-in-One Solutions\n\n### **Workday**\n- Enterprise-grade leave tracking and approval workflows\n- Integrated payroll and benefits\n- Best for: Large organizations\n- **Cost:** Premium pricing\n\n### **BambooHR**\n- Intuitive leave calendar and accrual tracking\n- Self-service employee portal\n- Document management built-in\n- Best for: Small to mid-size companies\n- **Cost:** $$-$$$\n\n### **Gusto**\n- Automated leave tracking (PTO, sick days)\n- Payroll integration\n- Mobile-friendly\n- Best for: SMBs and startups\n- **Cost:** $$\n\n### **Rippling**\n- Unified HR, IT, and Finance platform\n- Automated leave policies\n- Strong document management\n- Best for: Growth-stage companies\n- **Cost:** $$$\n\n### **ADP Workforce Now**\n- Comprehensive leave management\n- Payroll and tax compliance\n- Multi-country support\n- Best for: Mid to large enterprises\n- **Cost:** $$$\n\n## Budget-Friendly Options\n\n| Platform | Strength | Price |\n|----------|----------|-------|\n| **Zenefits** | Easy setup, compliance | $$ |\n| **Justworks** | Startup-friendly | $$ |\n| **Deel** | Global teams | $$ |\n\n## Key Features to Compare\n- ✅ Mobile access\n- ✅ Approval workflows\n- ✅ Leave accrual automation\n- ✅ Integration capabilities\n- ✅ Compliance templates\n- ✅ Reporting analytics\n\n**Recommendation:** Start with **BambooHR** (SMB) or **Rippling** (growth stage) for best balance of features and usability.\n\nWhat's your company size?",
-  "cached_at": "2026-05-28T06:43:35Z",
-  "metadata": {}
-}

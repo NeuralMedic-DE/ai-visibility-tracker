@@ -1,9 +1,0 @@
-{
-  "brand": "Rho",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best finance that works with NetSuite and Stripe",
-  "response": "# Best Finance Tools for NetSuite + Stripe\n\n## Top Integrated Solutions\n\n### **1. Stripe (Native)**\n- **Built-in NetSuite connector** via Stripe's official integration\n- Real-time payment sync\n- Automatic reconciliation\n- Best for: Direct Stripe payment processing\n\n### **2. Celigo (iPaaS)**\n- Excellent NetSuite + Stripe integration\n- Advanced workflow automation\n- Custom mapping capabilities\n- Strong support team\n\n### **3. Coupa**\n- Enterprise-grade spend management\n- Works well with both platforms\n- Procurement + payments integration\n- Best for: Larger organizations\n\n### **4. Bill.com**\n- Accounts payable automation\n- Stripe payment support\n- NetSuite-native integration\n- Good for: SMBs to mid-market\n\n### **5. Hubdoc (acquired by Dext)**\n- Expense automation\n- Document extraction\n- NetSuite sync\n- Best for: Expense management focused\n\n### **6. Expensify**\n- Employee expense management\n- Stripe receipt capture\n- NetSuite reconciliation\n- Great UX\n\n## Quick Comparison Table\n\n| Tool | Setup | Cost | Best For |\n|------|-------|------|----------|\n| **Stripe Native** | Easy | Free | Direct payments |\n| **Celigo** | Medium | $500-3K/mo | Complex automation |\n| **Bill.com** | Medium | $40-200/user | AP automation |\n| **Expensify** | Easy | $5-15/user | Expenses |\n\n## My Recommendation\n- **Start with**: Stripe's native NetSuite connector\n- **Scale to**: Celigo for advanced automation\n- **Add**: Bill.com or Expensify for specific workflows\n\nWhat's your primary use case—payments, reconciliation, or AP automation?",
-  "cached_at": "2026-05-28T07:12:46Z",
-  "metadata": {}
-}

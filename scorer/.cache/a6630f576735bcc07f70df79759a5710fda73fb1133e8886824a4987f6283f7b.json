@@ -1,9 +1,0 @@
-{
-  "brand": "Apify",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which automation software should a Data Engineer or Developer needing scalable web data extraction use?",
-  "response": "# Best Automation Software for Scalable Web Data Extraction\n\n## Top Recommendations\n\n### **1. Scrapy (Python Framework)**\n- **Best for:** Developers wanting full control\n- Strengths: Highly scalable, robust, handles large volumes efficiently\n- Learning curve: Moderate to steep\n- Cost: Open-source\n\n### **2. Apache Airflow**\n- **Best for:** Complex data pipelines and workflow orchestration\n- Strengths: Excellent scheduling, monitoring, error handling\n- Ideal when: You need to manage dependencies between extraction jobs\n- Cost: Open-source\n\n### **3. Selenium**\n- **Best for:** JavaScript-heavy websites\n- Strengths: Browser automation, handles dynamic content\n- Limitation: Slower than pure scraping solutions\n- Cost: Open-source\n\n### **4. Beautiful Soup**\n- **Best for:** Parsing HTML/XML with simple extraction\n- Strengths: Lightweight, easy to learn\n- Limitation: Not designed for large-scale operations alone\n- Cost: Open-source\n\n### **5. Puppeteer / Playwright**\n- **Best for:** Modern web apps requiring headless browser automation\n- Strengths: Fast, handles dynamic content, good debugging\n- Cost: Open-source\n\n## Commercial Solutions\n\n- **Octoparse, ParseHub, Apify**: No-code/low-code options\n- Trade-off: Less flexibility but faster setup\n\n## **My Recommendation**\n\n**Scrapy + Airflow** combination offers the best scalability for production environments, combining extraction power with robust orchestration.\n\nWhat's your specific use case? (API availability, JavaScript rendering needs, volume, frequency?)",
-  "cached_at": "2026-05-28T07:58:42Z",
-  "metadata": {}
-}

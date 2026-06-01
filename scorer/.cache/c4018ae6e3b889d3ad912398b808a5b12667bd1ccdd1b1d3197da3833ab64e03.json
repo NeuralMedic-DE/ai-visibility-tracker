@@ -1,9 +1,0 @@
-{
-  "brand": "Brevo",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is Brevo better than ActiveCampaign for manage contacts and automate marketing workflows from a single platform?",
-  "response": "# Brevo vs ActiveCampaign: Contact & Workflow Management\n\nBoth are solid, but they excel in different scenarios:\n\n## **Brevo strengths**\n- **Lower cost** – better for small budgets\n- **Simpler interface** – easier onboarding\n- **Email + SMS bundled** – good all-in-one value\n- **Decent automation** – handles basic-to-intermediate workflows\n\n## **ActiveCampaign strengths**\n- **More powerful automation** – visual builder, conditional logic, better for complex sequences\n- **Superior contact management** – cleaner CRM, better data organization\n- **Integrations** – more pre-built connections\n- **Scaling** – handles growth better (larger contact lists, more sophisticated workflows)\n\n## **Key trade-off**\n- **Choose Brevo if**: you want affordability and simplicity, managing <50k contacts, basic automation\n- **Choose ActiveCampaign if**: you need sophisticated workflows, robust CRM features, or plan to scale\n\n## **For your question specifically**\nActiveCampaign edges out Brevo for \"managing contacts + automating workflows from one platform\" if you need anything beyond basic campaigns. Its contact database and automation engine are more refined.\n\n**What matters most for your use case?** Budget constraints, workflow complexity, or contact volume? That would help narrow it down.",
-  "cached_at": "2026-05-28T07:25:55Z",
-  "metadata": {}
-}

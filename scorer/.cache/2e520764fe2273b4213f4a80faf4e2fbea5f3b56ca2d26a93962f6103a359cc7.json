@@ -1,9 +1,0 @@
-{
-  "brand": "Front",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Front integrate with Salesforce?",
-  "response": "Yes. **Front has a native Salesforce integration**, and you can also connect the two via third‑party automation tools if needed.\n\nEssential points:\n\n- Front offers an official **Salesforce integration** that lets you create, view, and edit Salesforce records (including custom objects) directly from Front, log emails/conversations to Salesforce, and sync company/contact fields for use in Front rules and workflows.[1][8]  \n- The integration supports logging conversations to opportunities and other objects with one click and includes pre-built connectors that can trigger any action available in the Salesforce API from Front (rules, macros, chatbots), without code.[1]  \n- You can additionally integrate Front and Salesforce via **Zapier**, **Relay.app**, **Skyvia**, or similar tools to build custom automations (e.g., create Salesforce tasks from Front emails, sync data bi‑directionally).[2][3][4][5]  \n- Salesforce itself provides a **Front Connector** in Salesforce Flow (via MuleSoft for Flow: Integration add‑on) to send messages and manage Front contacts, inboxes, and team members directly from Salesforce.[6]  \n\nIf you tell me your main use case (sales, support, logging emails, reporting), I can outline the exact integration setup steps that fit your workflow.",
-  "cached_at": "2026-05-28T08:18:36Z",
-  "metadata": {}
-}

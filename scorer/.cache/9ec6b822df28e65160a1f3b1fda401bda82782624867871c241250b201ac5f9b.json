@@ -1,9 +1,0 @@
-{
-  "brand": "Braintrust",
-  "prompt_id": "CM-01",
-  "llm": "openai",
-  "prompt_text": "Braintrust vs Vellum: which is better?",
-  "response": "Choosing between Braintrust and Vellum depends on your specific needs, as they serve different purposes.\n\n**Braintrust** is a decentralized talent network that connects freelancers with companies looking for skilled professionals. It's ideal if you're seeking freelance work or if you're a company looking to hire talent on a project basis. Braintrust emphasizes a community-driven model where freelancers have more control and can earn more compared to traditional platforms.\n\n**Vellum**, on the other hand, is a software tool designed for authors to format and publish books. It's particularly useful for writers who want to create professional-looking eBooks and print books without needing extensive design skills. Vellum is known for its ease of use and high-quality output, making it a popular choice among self-publishing authors.\n\nIn summary, if you're looking for a freelance platform, Braintrust might be the better choice. If you're an author in need of book formatting software, Vellum would be more suitable.",
-  "cached_at": "2026-05-28T07:47:10Z",
-  "metadata": {}
-}

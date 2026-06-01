@@ -1,9 +1,0 @@
-{
-  "brand": "Mailmodo",
-  "prompt_id": "AL-02",
-  "llm": "openai",
-  "prompt_text": "Cheaper alternatives to Mailchimp",
-  "response": "If you're looking for cheaper alternatives to Mailchimp for email marketing, there are several options you might consider:\n\n1. **Sendinblue**: Offers a free plan with up to 300 emails per day and paid plans that are generally more affordable than Mailchimp, especially for larger lists.\n\n2. **MailerLite**: Known for its simplicity and affordability, MailerLite offers a free plan for up to 1,000 subscribers and 12,000 emails per month, with reasonably priced upgrades.\n\n3. **Moosend**: Provides a free plan for up to 1,000 subscribers and unlimited emails. Their paid plans are also competitively priced.\n\n4. **Benchmark Email**: Offers a free plan for up to 500 subscribers and 3,500 emails per month, with affordable paid plans as your list grows.\n\n5. **AWeber**: While traditionally more expensive, AWeber now offers a free plan for up to 500 subscribers, which can be a cost-effective option for smaller lists.\n\n6. **GetResponse**: Offers a free plan for up to 500 contacts and a variety of features, with paid plans that can be more affordable depending on your needs.\n\n7. **Constant Contact**: Although not the cheapest, they often provide discounts and promotions that can make them competitive.\n\n8. **EmailOctopus**: Offers a free plan for up to 2,500 subscribers and 10,000 emails per month, with low-cost paid plans.\n\nWhen choosing an alternative, consider not only the cost but also the features you need, such as automation, templates, integrations, and customer support.",
-  "cached_at": "2026-05-28T07:35:08Z",
-  "metadata": {}
-}

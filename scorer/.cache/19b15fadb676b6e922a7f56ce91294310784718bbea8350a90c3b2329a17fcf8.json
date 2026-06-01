@@ -1,9 +1,0 @@
-{
-  "brand": "Humaans",
-  "prompt_id": "IN-05",
-  "llm": "anthropic",
-  "prompt_text": "HR tools with native Slack integration",
-  "response": "# HR Tools with Native Slack Integration\n\n## **Core HR Platforms**\n\n### **1. Workday**\n- Employee directory & profiles\n- Time tracking & PTO approvals\n- Performance feedback\n- Learning management\n- Integrates payroll data\n\n### **2. BambooHR**\n- Time off requests\n- Employee directory\n- Document management\n- Applicant tracking\n- Performance reviews\n\n### **3. Guidepoint**\n- Employee onboarding\n- Task automation\n- Document workflows\n- Team engagement\n\n---\n\n## **Specialized HR Tools**\n\n### **Time & Attendance**\n- **Clockify** - Time tracking, timesheets\n- **Deputy** - Scheduling & shifts\n- **Toggl Track** - Time logs\n- **When I Work** - Shift scheduling\n\n### **Leave & Absence Management**\n- **Lattice** - PTO requests, analytics\n- **Breathe HR** - Absence tracking\n- **Personio** - Leave management\n\n### **Payroll & Benefits**\n- **Gusto** - Payroll, benefits, compliance\n- **Rippling** - Unified HR & IT\n- **Justworks** - Payroll & compliance\n\n### **Engagement & Recognition**\n- **Bonusly** - Recognition & rewards\n- **15Five** - Engagement surveys\n- **Officevibe** - Pulse surveys\n\n### **Recruiting**\n- **Lever** - ATS & hiring\n- **Greenhouse** - Talent management\n- **Ashby** - Modern ATS\n\n---\n\n## **Key Integration Features**\n\n✅ Instant notifications for approvals  \n✅ Direct message approvers  \n✅ View employee info without leaving Slack  \n✅ Submit requests from Slack  \n✅ Birthday/anniversary reminders  \n✅ Automated workflows  \n\n**Best for:** Remote teams, async workflows, reducing app-switching\n\nWould you like specific recommendations based on your company size or needs?",
-  "cached_at": "2026-05-28T06:48:27Z",
-  "metadata": {}
-}

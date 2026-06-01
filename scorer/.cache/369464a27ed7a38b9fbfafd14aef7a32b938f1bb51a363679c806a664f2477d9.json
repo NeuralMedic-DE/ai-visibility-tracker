@@ -1,9 +1,0 @@
-{
-  "brand": "Teamtailor",
-  "prompt_id": "IN-04",
-  "llm": "openai",
-  "prompt_text": "Best ATS that works with LinkedIn and Slack",
-  "response": "When looking for an Applicant Tracking System (ATS) that integrates well with LinkedIn and Slack, there are several options to consider. Here are a few popular ATS platforms known for their integration capabilities:\n\n1. **Greenhouse**: Greenhouse is a widely used ATS that offers robust integration with LinkedIn, allowing you to post jobs and source candidates directly from LinkedIn. It also integrates with Slack, enabling notifications and updates to be sent to your team’s Slack channels.\n\n2. **Lever**: Lever provides seamless integration with LinkedIn, facilitating easy candidate sourcing and job postings. It also integrates with Slack, which allows for real-time communication and collaboration among hiring teams.\n\n3. **BambooHR**: While primarily known as an HR software, BambooHR includes ATS features and integrates with LinkedIn for job postings and candidate sourcing. It also offers Slack integration to keep your team updated on recruitment processes.\n\n4. **Jobvite**: Jobvite offers comprehensive integration with LinkedIn, supporting job postings and candidate management. It also integrates with Slack to streamline communication and collaboration within hiring teams.\n\n5. **Workable**: Workable integrates with LinkedIn for job postings and candidate sourcing. It also offers Slack integration to help teams stay informed and collaborate effectively during the recruitment process.\n\nThese ATS platforms are designed to enhance your recruitment process by leveraging the capabilities of LinkedIn for sourcing candidates and Slack for team communication. When choosing an ATS, consider your specific needs, budget, and the level of integration required with these tools.",
-  "cached_at": "2026-05-28T06:42:00Z",
-  "metadata": {}
-}

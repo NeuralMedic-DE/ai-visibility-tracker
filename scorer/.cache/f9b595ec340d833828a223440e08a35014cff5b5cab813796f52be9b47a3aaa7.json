@@ -1,9 +1,0 @@
-{
-  "brand": "Teamtailor",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Teamtailor integrate with LinkedIn?",
-  "response": "Yes, Teamtailor does integrate with LinkedIn. This integration allows you to post job ads directly to LinkedIn from Teamtailor, making it easier to reach a broader audience and attract potential candidates. Additionally, you can use LinkedIn to enhance your recruitment process by leveraging LinkedIn's network and tools in conjunction with Teamtailor's applicant tracking system. For specific setup instructions or to learn more about the integration features, you might want to check Teamtailor's support documentation or contact their customer support.",
-  "cached_at": "2026-05-28T06:41:57Z",
-  "metadata": {}
-}

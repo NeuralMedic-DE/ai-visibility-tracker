@@ -1,9 +1,0 @@
-{
-  "brand": "Customer.io",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Customer.io integrate with Segment?",
-  "response": "Yes. **Customer.io has a native integration with Segment**, and it can work both as a **Segment destination** (data-in from Segment to Customer.io) and as a **Segment source** (sending events from Customer.io back to Segment).[3][4]\n\nEssential details:\n\n- Customer.io lists **Segment** as an official integration that can act as **both a destination and a source**, letting you filter and map event and attribute data between the two platforms.[4]  \n- There is a **classic Segment destination integration** for piping Segment data into Customer.io; this older integration is in maintenance mode, and Customer.io now recommends using the newer **Segment Destination Actions** integration for most new setups.[3]  \n- Guides and third‑party tools describe connecting Segment as the **data infrastructure** (collecting/unifying data) and Customer.io as the **messaging layer**, so Segment events and traits can trigger Customer.io campaigns for personalized messaging.[1][2]\n\nIf you tell me your direction of data flow (Segment → Customer.io, Customer.io → Segment, or both), I can outline the exact setup steps for that path.",
-  "cached_at": "2026-05-28T07:16:13Z",
-  "metadata": {}
-}

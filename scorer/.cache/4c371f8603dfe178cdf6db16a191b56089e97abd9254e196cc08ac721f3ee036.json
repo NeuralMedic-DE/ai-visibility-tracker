@@ -1,9 +1,0 @@
-{
-  "brand": "Brevo",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Brevo integrate with WordPress?",
-  "response": "Yes, Brevo **does integrate with WordPress**, and there are multiple ways to do it.\n\nThe main options are:\n\n- **Official Brevo WordPress plugin**  \n  Brevo provides an official plugin on WordPress.org that lets you connect your site via an API key, sync contacts, create forms, and send/track email campaigns directly through Brevo.[6][7] You install it like any other plugin, activate it, then paste in your Brevo API key to connect.[3][6]\n\n- **SMTP / transactional email integration**  \n  You can use plugins like **Gravity SMTP** to route all your WordPress emails (core + plugin emails) through Brevo’s SMTP/API, improving deliverability.[5][8] This also uses a Brevo API key and SMTP & API settings from your Brevo dashboard.[5]\n\n- **Third‑party WordPress integrations**  \n  Tools like **WP Fusion**, MailOptin, and others can sync WordPress users, memberships, or opt‑in forms with Brevo for marketing automation and contact management.[2][4]\n\nIf you tell me what you want to do (e.g., “send all site emails via Brevo” vs “collect newsletter signups” vs “sync members/courses”), I can outline the exact integration steps for your use case.",
-  "cached_at": "2026-05-28T07:27:34Z",
-  "metadata": {}
-}

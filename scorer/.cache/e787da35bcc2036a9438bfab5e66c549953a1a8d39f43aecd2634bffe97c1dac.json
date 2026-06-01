@@ -1,9 +1,0 @@
-{
-  "brand": "ChartMogul",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect ChartMogul with Stripe?",
-  "response": "# Connecting ChartMogul with Stripe\n\nHere's how to set up the integration:\n\n## Steps:\n\n1. **Log in to ChartMogul**\n   - Go to your ChartMogul dashboard\n\n2. **Navigate to Data Sources**\n   - Click **Settings** → **Data Sources**\n\n3. **Add Stripe**\n   - Click **+ Add Data Source**\n   - Select **Stripe** from the list\n\n4. **Authenticate with Stripe**\n   - You'll be redirected to Stripe to authorize the connection\n   - Log in with your Stripe account\n   - Click **Authorize** to grant ChartMogul access\n\n5. **Verify the Connection**\n   - Return to ChartMogul\n   - Your Stripe account should now appear in Data Sources\n   - ChartMogul will begin syncing your subscription data\n\n## What Gets Synced:\n\n- Customers\n- Subscriptions\n- Invoices\n- Charges\n- Refunds\n\n## Important Notes:\n\n- **Historical data**: ChartMogul typically syncs data from the past 3 years\n- **Ongoing sync**: Data updates automatically (usually within a few hours)\n- **Required permissions**: Your Stripe account needs appropriate API access\n- **Test mode**: You can test with Stripe's test API keys first\n\n## Troubleshooting:\n\nIf the connection fails:\n- Verify your Stripe account has API access enabled\n- Check that you're using the correct Stripe account\n- Ensure you have admin permissions in both platforms\n\nNeed help with specific issues? Let me know!",
-  "cached_at": "2026-05-28T06:55:14Z",
-  "metadata": {}
-}

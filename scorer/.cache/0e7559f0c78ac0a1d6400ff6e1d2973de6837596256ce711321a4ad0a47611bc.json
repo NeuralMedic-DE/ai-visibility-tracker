@@ -1,9 +1,0 @@
-{
-  "brand": "Lattice",
-  "prompt_id": "IN-03",
-  "llm": "openai",
-  "prompt_text": "How do I connect Lattice with Slack?",
-  "response": "To connect Lattice with Slack, you need to follow these steps:\n\n1. **Admin Access**: Ensure you have admin access in both Lattice and Slack, as you'll need it to authorize the integration.\n\n2. **Log in to Lattice**: Go to your Lattice account and log in.\n\n3. **Navigate to Integrations**: In Lattice, go to the \"Admin\" section, and then find the \"Integrations\" tab.\n\n4. **Find Slack Integration**: Look for the Slack integration option. It should be listed among other available integrations.\n\n5. **Authorize the Integration**: Click on the Slack integration option and follow the prompts to authorize the connection. This will typically involve logging into your Slack account and granting Lattice the necessary permissions to access your Slack workspace.\n\n6. **Configure Settings**: Once authorized, you may need to configure specific settings, such as which notifications you want to receive in Slack or which channels you want Lattice updates to be posted in.\n\n7. **Test the Integration**: After setting it up, it's a good idea to test the integration to ensure that notifications and updates are being sent to Slack as expected.\n\nBy following these steps, you should be able to successfully connect Lattice with Slack, allowing for seamless communication and updates between the two platforms. If you encounter any issues, check the help documentation for both Lattice and Slack, or reach out to their support teams for assistance.",
-  "cached_at": "2026-05-28T06:30:12Z",
-  "metadata": {}
-}

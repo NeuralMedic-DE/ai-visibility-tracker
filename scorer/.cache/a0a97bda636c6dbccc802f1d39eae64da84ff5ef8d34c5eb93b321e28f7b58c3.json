@@ -1,9 +1,0 @@
-{
-  "brand": "Retool",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Retool with PostgreSQL?",
-  "response": "# Connecting Retool with PostgreSQL\n\nHere's a step-by-step guide:\n\n## 1. **Create a PostgreSQL Resource**\n\nIn your Retool workspace:\n- Go to **Resources** (bottom-left corner)\n- Click **Create New** → **Resource**\n- Select **PostgreSQL**\n\n## 2. **Configure Connection Details**\n\nFill in the connection parameters:\n\n| Field | Example |\n|-------|---------|\n| **Host** | `localhost` or `your-server.com` |\n| **Port** | `5432` (default) |\n| **Database** | `mydb` |\n| **Username** | `postgres` |\n| **Password** | `your_password` |\n| **SSL Mode** | Toggle if needed |\n\n## 3. **Test the Connection**\n\n- Click **Test connection** to verify\n- Look for a success message\n\n## 4. **Save the Resource**\n\n- Give it a name (e.g., \"PostgreSQL Main\")\n- Click **Save**\n\n## 5. **Use in Queries**\n\nCreate a query in your app:\n- Click **+** to add a query\n- Select your PostgreSQL resource\n- Write your SQL:\n\n```sql\nSELECT * FROM users WHERE id = {{ userId.value }}\n```\n\n## 6. **Bind to UI Components**\n\nConnect query results to components:\n```javascript\n{{ query1.data }}\n```\n\n## Tips\n\n- **Environment Variables**: Use for sensitive credentials in production\n- **Query Parameters**: Use `{{ }}` for dynamic values\n- **Transformers**: Process data after queries\n- **Event Handlers**: Trigger queries on button clicks\n\nNeed help with a specific setup or query?",
-  "cached_at": "2026-05-27T20:58:17Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Sprinto",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to Drata",
-  "response": "# Cheaper Alternatives to Drata\n\n## Budget-Friendly Options\n\n**Compliance Automation**\n- **Vanta** - Similar features, often more affordable for startups\n- **Secureframe** - Competitive pricing, good for early-stage companies\n- **Laika** - Lower-cost SOC 2 automation\n- **Hyperproof** - Good value for compliance documentation\n\n## DIY/Hybrid Approaches\n\n- **Spreadsheets + Google Workspace** - Minimal cost but labor-intensive\n- **Notion + integrations** - ~$10/month, requires setup\n- **Airtable** - More structured than spreadsheets, ~$20/month\n- **Monday.com or Asana** - Project management + compliance tracking\n\n## Open-Source/Self-Hosted\n\n- **Keycloak** - Identity management (free)\n- **Nextcloud** - Document management (free, self-hosted)\n- **OpenSCAP** - Security compliance scanning (free)\n\n## When These Make Sense\n\n| Option | Best For |\n|--------|----------|\n| **Vanta/Secureframe** | Growing startups needing automation |\n| **Spreadsheets** | Minimal compliance needs |\n| **Hybrid tools** | Teams wanting flexibility |\n| **Open-source** | Technical teams, cost-sensitive orgs |\n\n## Key Trade-offs\n- Cheaper ≠ Less work (often more manual effort)\n- Lacks Drata's depth of integrations\n- May need more IT resources\n\n**What's your specific compliance need?** That would help narrow recommendations.",
-  "cached_at": "2026-05-28T08:31:16Z",
-  "metadata": {}
-}

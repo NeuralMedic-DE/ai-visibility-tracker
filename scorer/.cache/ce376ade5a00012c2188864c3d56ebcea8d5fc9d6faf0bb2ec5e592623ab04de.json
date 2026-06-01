@@ -1,9 +1,0 @@
-{
-  "brand": "Maxio",
-  "prompt_id": "IN-02",
-  "llm": "perplexity",
-  "prompt_text": "Maxio QuickBooks integration: how does it work?",
-  "response": "Maxio’s QuickBooks integration works by **generating subscription invoices and revenue schedules in Maxio and then sharing them with QuickBooks Online**, so you can keep using QuickBooks for accounting while Maxio handles subscription billing and revenue recognition.[3]\n\nIn practical terms, the integration is meant to:\n\n- **Sync customers and transactional data** between Maxio and QuickBooks.[1]\n- **Send invoices directly to QuickBooks** from Maxio when the integration is connected.[4]\n- **Keep billing and revenue recognition in sync** for both QuickBooks Online and QuickBooks Desktop integrations listed by Maxio.[6]\n\nFor QuickBooks Online, the setup flow described in the sources is:\n\n- Go to **Config > Integrations** in Maxio.[1]\n- Open the **QuickBooks** tab.[1]\n- Enable the **QuickBooks Online Integration**.[1]\n- Connect and authorize your QuickBooks account.[1]\n- Configure synchronization options and mapping settings.[1]\n\nA key operational detail is that **additional configuration in QuickBooks may be needed to map data items correctly** between the two systems.[1] Maxio also notes that if the integration is disconnected, you **can no longer send invoices directly to QuickBooks** until it is reconnected.[4]\n\nIf you want, I can also explain the integration in one of these formats:\n- **simple plain-English workflow**\n- **setup steps**\n- **data flow: what syncs where**\n- **common pitfalls and mapping issues**",
-  "cached_at": "2026-05-28T06:54:14Z",
-  "metadata": {}
-}

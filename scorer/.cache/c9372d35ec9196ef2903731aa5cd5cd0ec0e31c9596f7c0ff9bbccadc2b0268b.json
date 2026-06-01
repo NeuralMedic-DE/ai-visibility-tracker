@@ -1,9 +1,0 @@
-{
-  "brand": "Sprinto",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with automate compliance checks and manage risk registries in a single platform at scale?",
-  "response": "There are several software solutions designed to automate compliance checks and manage risk registries at scale. Some popular options include:\n\n1. **ServiceNow Governance, Risk, and Compliance (GRC):** This platform provides a comprehensive suite for managing risk and compliance activities, automating workflows, and integrating with other systems.\n\n2. **RSA Archer Suite:** Known for its flexibility, RSA Archer offers solutions for risk management, compliance, audit, and more, allowing organizations to automate and streamline their processes.\n\n3. **MetricStream:** This platform offers integrated risk management solutions that help automate compliance checks and manage risk registries efficiently.\n\n4. **SAP GRC:** SAP's Governance, Risk, and Compliance solutions help organizations manage regulations and compliance while automating risk management processes.\n\n5. **LogicGate Risk Cloud:** This is a highly configurable platform that helps automate risk and compliance processes, making it easier to manage risk registries.\n\n6. **OneTrust GRC:** OneTrust provides a comprehensive platform for managing risk, compliance, and data privacy, with automation capabilities to streamline these processes.\n\nThese platforms typically offer features such as automated workflows, real-time reporting, and integration capabilities to help organizations manage compliance and risk more effectively.",
-  "cached_at": "2026-05-28T08:31:25Z",
-  "metadata": {}
-}

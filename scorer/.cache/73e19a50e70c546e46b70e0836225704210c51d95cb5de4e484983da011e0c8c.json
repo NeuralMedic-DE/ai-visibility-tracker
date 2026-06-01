@@ -1,9 +1,0 @@
-{
-  "brand": "Nutshell",
-  "prompt_id": "UC-03",
-  "llm": "anthropic",
-  "prompt_text": "What tools do small and mid-size B2B sales teams companies use to manage leads and track pipeline progress?",
-  "response": "# Common Tools for SMB B2B Sales Teams\n\n## **CRM Platforms** (Core)\n- **HubSpot** - popular for SMBs; free tier available\n- **Pipedrive** - pipeline-focused, visual workflow\n- **Salesforce** - more complex but scalable\n- **Zoho CRM** - affordable, broad features\n- **Microsoft Dynamics 365** - if already using Microsoft ecosystem\n\n## **Email & Outreach**\n- **Outreach** or **Salesloft** - cadence automation\n- **Apollo.io** or **Hunter.io** - email finding\n- **Gmail/Outlook** + native CRM integrations\n- **Lemlist** - personalized cold email campaigns\n\n## **Prospecting & Data**\n- **LinkedIn Sales Navigator** - research and outreach\n- **RocketReach** - contact database\n- **ZoomInfo** - intent signals and firmographics\n- **Apollo.io** - all-in-one prospecting\n\n## **Communication**\n- **Slack** - team alignment\n- **Calendly** - meeting scheduling\n- **Gong** or **Chorus** - call recording/insights (if budget allows)\n\n## **Reporting**\n- CRM dashboards (built-in)\n- **Tableau** or **Looker** - if needing custom analytics\n- **Google Sheets/Excel** - lightweight alternative\n\n## **What Usually Works Best for SMBs**\nMost successful small teams use 3-5 tools that integrate well rather than trying to do everything in one platform. **HubSpot** or **Pipedrive** + **LinkedIn** + **email** covers most bases affordably.\n\nWhat's your team's priority—ease of use, budget, or specific functionality?",
-  "cached_at": "2026-05-27T18:34:10Z",
-  "metadata": {}
-}

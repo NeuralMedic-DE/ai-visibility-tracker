@@ -1,9 +1,0 @@
-{
-  "brand": "Userlist",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Encharge vs alternatives: what should I switch to?",
-  "response": "# Encharge Alternatives: Quick Comparison\n\nHere's what to consider depending on your priorities:\n\n## **Best Overall Alternatives**\n\n**Klaviyo**\n- Stronger ecommerce automation\n- Better segmentation and analytics\n- Higher cost but more powerful\n- *Switch if:* You need advanced email + SMS marketing\n\n**HubSpot**\n- Full CRM + email + landing pages\n- Better for B2B/sales integration\n- More expensive at scale\n- *Switch if:* You want an all-in-one platform\n\n## **Budget-Friendly Options**\n\n**Brevo (formerly Sendinblue)**\n- Free tier available\n- Solid automation for the price\n- Less polished UI\n- *Switch if:* Cost is primary concern\n\n**Mailchimp**\n- Simple, familiar, free tier\n- Good for beginners\n- Limited automation\n- *Switch if:* You want simplicity over features\n\n## **Best If You Value...**\n\n- **Better onboarding**: ConvertKit, Flodesk\n- **Visual workflows**: ActiveCampaign, Drip\n- **Simplicity**: Substack (newsletters only)\n- **B2B sales focus**: HubSpot, Pipedrive\n\n## **Key Questions to Ask Yourself**\n\n1. What specifically are you missing in Encharge?\n2. What's your budget range?\n3. eCommerce, SaaS, B2B, or other?\n4. Do you need CRM integration?\n\n**What's driving your switch?** That'll help narrow it down.",
-  "cached_at": "2026-05-28T07:30:44Z",
-  "metadata": {}
-}

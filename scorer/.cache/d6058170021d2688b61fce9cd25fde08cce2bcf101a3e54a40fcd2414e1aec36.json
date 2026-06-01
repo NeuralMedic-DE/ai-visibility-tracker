@@ -1,9 +1,0 @@
-{
-  "brand": "Workato",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Workato integrate with SAP?",
-  "response": "Yes — **Workato integrates with SAP**. Workato’s SAP RFC Connector is SAP-certified and is designed to connect with SAP systems both on-premises and in the cloud, including SAP ERP ECC, SAP S/4HANA, SAP CRM, and other NetWeaver AS ABAP-compatible products.[1][4]\n\nWorkato also supports SAP-specific integration patterns such as **IDoc**, **RFC**, **BAPI**, and **OData**, and its documentation says the connector can work behind a corporate firewall via an on-prem agent.[4] Workato’s SAP page also highlights SAP-focused automation across SAP and non-SAP applications, including SAP Business One integration.[5][6]",
-  "cached_at": "2026-05-28T09:15:12Z",
-  "metadata": {}
-}

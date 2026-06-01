@@ -1,9 +1,0 @@
-{
-  "brand": "June.so",
-  "prompt_id": "AL-05",
-  "llm": "openai",
-  "prompt_text": "Open source or affordable product analytics tools instead of PostHog",
-  "response": "If you're looking for open-source or affordable alternatives to PostHog for product analytics, consider the following options:\n\n1. **Matomo**: An open-source web analytics platform that provides detailed reports on your website's visitors, including the search engines and keywords they used, the language they speak, and more. It can be self-hosted or used via their cloud service.\n\n2. **Plausible Analytics**: A lightweight and open-source analytics tool that focuses on simplicity and privacy. It's easy to set up and provides essential insights without overwhelming data.\n\n3. **Fathom Analytics**: A privacy-focused analytics tool that is simple to use and provides clear insights. While not open-source, it is affordable and emphasizes user privacy.\n\n4. **Countly**: An open-source product analytics tool that offers real-time analytics, push notifications, and crash reporting. It can be self-hosted or used via their cloud offering.\n\n5. **Ackee**: A self-hosted, Node.js-based analytics tool that is open-source and focuses on privacy. It's suitable for those who want a simple, no-frills analytics solution.\n\n6. **GoAccess**: An open-source, real-time web log analyzer and interactive viewer that runs in a terminal. It's particularly useful for those who prefer a command-line interface.\n\n7. **Umami**: A simple, open-source, self-hosted web analytics solution that provides essential insights while respecting user privacy.\n\nThese tools vary in terms of features, ease of use, and focus on privacy, so you may want to explore each to see which best fits your needs.",
-  "cached_at": "2026-05-27T19:55:37Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Pipedrive",
-  "prompt_id": "AL-03",
-  "llm": "anthropic",
-  "prompt_text": "Best CRM alternatives for small and mid-size sales teams teams on a budget",
-  "response": "# Best Budget-Friendly CRMs for Small/Mid-Size Sales Teams\n\n## **Free or Freemium Options**\n\n**HubSpot CRM**\n- Truly free tier (no time limit)\n- Contact management, basic automation, pipeline tracking\n- Good for teams <5 people learning CRM basics\n\n**Zoho CRM**\n- Free plan covers core features\n- Scales affordably as you grow\n- Strong automation, reports, and integrations\n\n**Pipedrive**\n- Free tier with visual pipeline management\n- Intuitive interface, minimal learning curve\n- ~$14-99/month paid tiers\n\n## **Budget-Friendly Paid Options**\n\n**Freshsales**\n- $15-65/user/month\n- Built-in phone/email, AI lead scoring\n- Good email integration\n\n**Vtiger**\n- $12-60/user/month\n- Open-source option available\n- All-in-one (CRM + support + marketing)\n\n**Insightly**\n- $29-99/month for small teams\n- Project management built-in\n- Good for service businesses\n\n## **Pro Tips for Budget-Conscious Teams**\n\n✓ Start with free tier, upgrade only as needed\n✓ Prioritize: contact management > pipeline > automation\n✓ Check for **one-time setup costs** before committing\n✓ Avoid over-featured solutions you won't use\n✓ Ensure mobile app is available\n\n**What's your team size and main pain point?** That would help narrow it down further.",
-  "cached_at": "2026-05-27T17:48:34Z",
-  "metadata": {}
-}

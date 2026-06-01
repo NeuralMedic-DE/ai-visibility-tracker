@@ -1,9 +1,0 @@
-{
-  "brand": "Attio",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable CRM tools instead of HubSpot",
-  "response": "# Open Source & Affordable CRM Alternatives\n\n## **Free/Open Source Options**\n\n### **Odoo**\n- Fully open-source, self-hosted or cloud\n- Includes CRM, sales, inventory, accounting\n- Scalable from small to enterprise\n- Free community edition\n- *Best for: Companies needing integrated business tools*\n\n### **EspoCRM**\n- Lightweight, open-source CRM\n- Modern UI, easy customization\n- Free self-hosted or affordable cloud ($9-24/user)\n- *Best for: Small teams, developers*\n\n### **Vtiger**\n- Open-source with free cloud tier\n- Sales, support, inventory modules\n- Community-driven\n- *Best for: SMBs wanting flexibility*\n\n---\n\n## **Affordable Paid Options**\n\n| Tool | Price | Best For |\n|------|-------|----------|\n| **Zoho CRM** | $15-65/user/mo | Budget-conscious, all-in-one |\n| **Pipedrive** | $15-99/user/mo | Sales-focused teams |\n| **Monday CRM** | $15-99/user/mo | Visual workflows |\n| **Freshsales** | $15-65/user/mo | Small to mid-market |\n| **Agile CRM** | $9-47/user/mo | Startups, marketing + sales |\n\n---\n\n## **Comparison at a Glance**\n\n**Need total freedom?** → Odoo or EspoCRM\n**Want simplicity?** → Pipedrive or Freshsales\n**Need affordability + features?** → Zoho CRM\n**Prefer visual interface?** → Monday CRM\n\nWhat's your primary use case? (Sales, support, marketing?)",
-  "cached_at": "2026-05-27T17:54:35Z",
-  "metadata": {}
-}

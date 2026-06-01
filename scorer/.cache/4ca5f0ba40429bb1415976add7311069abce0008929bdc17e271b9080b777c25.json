@@ -1,9 +1,0 @@
-{
-  "brand": "Drip",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Drip integrate with Shopify?",
-  "response": "Yes. Drip has a **native Shopify integration** that lets you connect your Shopify store to Drip, sync customer, order, and product data, and use that data for marketing automation.[1][5]\n\nDrip’s help center says you can connect the store in a few clicks through **Settings → Integrations → Shopify**, and once syncing is complete, your **customer list, orders, and products** are brought into Drip.[1] Drip also markets a “one-click” Shopify integration on its Shopify-specific page.[5]\n\nIf you want, I can also outline **what data syncs**, **how to install it**, or **whether it supports abandoned cart automation**.",
-  "cached_at": "2026-05-28T07:34:24Z",
-  "metadata": {}
-}

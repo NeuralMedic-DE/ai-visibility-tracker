@@ -1,9 +1,0 @@
-{
-  "brand": "TestBrand",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I manage ai visibility tracking workflows without spending a lot on software?",
-  "response": "# Low-Cost AI Visibility Tracking Options\n\n## Free/Built-in Tools\n\n**Cloud provider dashboards**\n- AWS CloudWatch, Azure Monitor, Google Cloud Logging (free tiers exist)\n- Native cost and usage tracking\n- Limited but functional for smaller deployments\n\n**Open-source solutions**\n- Prometheus + Grafana (self-hosted monitoring)\n- ELK Stack (Elasticsearch, Logstash, Kibana)\n- Jaeger (distributed tracing)\n- Setup time required, but zero licensing costs\n\n## Lean Approaches\n\n**Structured logging**\n- Log AI model inputs/outputs to CSV or JSON\n- Parse with Python/scripting instead of fancy platforms\n- Store in cheap cloud storage (S3, Blob Storage)\n\n**Spreadsheet-based tracking**\n- Google Sheets or Excel for smaller workflows\n- API calls logged to automated sheets\n- Works surprisingly well for <100 daily requests\n\n**Custom lightweight dashboards**\n- Python (Flask/Streamlit) + SQLite\n- ~2-4 hours to build basic request/cost tracking\n- Hosted free on services like Render or Railway\n\n## What to Prioritize\n\nFocus on tracking:\n1. **API costs** (most expensive variable)\n2. **Token usage** (throughput indicator)\n3. **Error rates** (quality baseline)\n\nSkip expensive features initially—fancy alerting and predictive analytics can wait.\n\n**What's your specific use case?** (frequency, number of models, team size) I can suggest what's actually worth implementing.",
-  "cached_at": "2026-06-01T15:00:13Z",
-  "metadata": {}
-}

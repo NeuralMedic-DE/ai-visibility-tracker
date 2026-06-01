@@ -1,9 +1,0 @@
-{
-  "brand": "RudderStack",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best customer data platform for data and engineering teams building warehouse-first customer data infrastructure?",
-  "response": "# Best CDP for Warehouse-First Infrastructure\n\n**Segment** and **mParticle** are traditionally the leaders, but the landscape has shifted. For engineering-focused teams building warehouse-first, consider:\n\n## Strong Options\n\n**Hightouch** (increasingly popular)\n- Purpose-built for reverse ETL workflows\n- Deep warehouse integrations (Snowflake, BigQuery, Redshift, Databricks)\n- Strong for teams wanting SQL-first transformations\n- Less vendor lock-in than traditional CDPs\n\n**dbt + Reverse ETL tools**\n- **dbt Cloud** + Hightouch/Census for warehouse-native transformations\n- Best for teams already investing in dbt\n- Maximum flexibility and control\n\n**Rudderstack**\n- Open-source option\n- Warehouse-first by design\n- Good control and customization\n- Smaller ecosystem than incumbents\n\n## Consider Your Architecture\n\nAsk yourself:\n- **Do you own the warehouse?** → Reverse ETL tools (Hightouch/Census) often beat traditional CDPs\n- **Need real-time activation?** → Segment/mParticle still lead, but at higher cost\n- **Want SQL-first operations?** → dbt ecosystem + reverse ETL\n- **Prioritize engineering autonomy?** → Rudderstack or fully custom solutions\n\n## The Trend\n\nEngineering teams increasingly skip traditional CDPs entirely and build with:\n- Warehouse + dbt\n- Reverse ETL tool\n- Event collection (Segment, Rudderstack, or custom)\n\nThis gives you more control, lower cost, and fewer vendor constraints.\n\nWhat's your current stack and main use case?",
-  "cached_at": "2026-05-28T09:07:42Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "FullStory",
-  "prompt_id": "AL-05",
-  "llm": "perplexity",
-  "prompt_text": "Open source or affordable product analytics tools instead of Mouseflow",
-  "response": "If you want **open source or affordable alternatives to Mouseflow**, the strongest options are **PostHog** for product analytics and session replay, **Matomo** for a more traditional web analytics stack, and **Plausible** or **Umami** for lightweight, privacy-focused site analytics.[1][3][5][8]\n\n- **PostHog** is the closest “all-in-one” replacement if you want **product analytics, funnels, session replay, feature flags, A/B testing, and surveys** in one platform.[1][3][4][7]\n- **Matomo** is the best fit if you want a **full Google Analytics-style replacement** with self-hosting and broad website analytics features.[2][3][8]\n- **Plausible** is a strong choice for **simple, open source, privacy-friendly web analytics** that is lightweight and cookie-free.[5][6]\n- **Umami** is another **lightweight self-hosted analytics** option with a free tier and a simple deployment model.[2][3]\n- **Open Web Analytics** and **GoAccess** are more niche open source options if you want self-hosted tracking or log-based analysis rather than a polished product analytics suite.[2]\n\nA practical way to choose:\n- Pick **PostHog** if you need **Mouseflow-like session replay plus product analytics**.[1][3][4]\n- Pick **Matomo** if you mainly need **website analytics and reporting** with strong self-hosting control.[2][3][8]\n- Pick **Plausible** or **Umami** if you want **cheaper, simpler, privacy-first analytics** and do not need advanced replay or experimentation features.[3][5][6]\n\nIf you want, I can also give you a **shortlist by use case**:  \n**best for session replay**, **best for self-hosting**, **best free tier**, or **best low-cost hosted alternative to Mouseflow**.",
-  "cached_at": "2026-05-27T20:50:55Z",
-  "metadata": {}
-}

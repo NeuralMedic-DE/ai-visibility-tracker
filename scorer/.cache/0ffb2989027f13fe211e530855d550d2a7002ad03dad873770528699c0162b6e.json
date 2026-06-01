@@ -1,9 +1,0 @@
-{
-  "brand": "LangChain",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable AI tooling tools instead of Haystack",
-  "response": "# Open Source & Affordable AI Tooling Alternatives to Haystack\n\n## **Core RAG/LLM Frameworks**\n\n### **LangChain** (Free, Open Source)\n- Most popular alternative\n- Extensive integrations with LLMs, vector stores, tools\n- Strong community support\n- Good documentation\n- https://github.com/langchain-ai/langchain\n\n### **LlamaIndex** (Free, Open Source)\n- Specialized for indexing and retrieval\n- Better for document-heavy applications\n- Simpler API than LangChain\n- https://github.com/run-llama/llama_index\n\n### **Semantic Kernel** (Free, Open Source)\n- Microsoft's framework\n- Language-agnostic (.NET, Python, Java)\n- Good enterprise integration\n- https://github.com/microsoft/semantic-kernel\n\n## **Vector Databases (Free/Affordable)**\n\n| Tool | Cost | Best For |\n|------|------|----------|\n| **Chroma** | Free | Lightweight, embedded, prototyping |\n| **Weaviate** | Free tier | Open source, scalable |\n| **Milvus** | Free | High performance, self-hosted |\n| **Qdrant** | Free tier | Fast, Rust-based |\n| **Pinecone** | Freemium | Managed (if budget available) |\n\n## **Local LLM Options (Free)**\n\n- **Ollama** - Run LLMs locally easily\n- **LM Studio** - GUI for local models\n- **GPT4All** - CPU-friendly models\n- **Llama.cpp** - Optimized inference\n\n## **Recommended Stack (Minimal Cost)**\n\n```\nLangChain/LlamaIndex\n    ↓\nLocal LLM (Ollama/Llama2)\n    ↓\nChroma or Milvus (vector DB)\n    ↓\nOpen source embeddings (Sentence-Transformers)\n```\n\n**Total cost: $0 for development**\n\nWould you like specific setup instructions for any of these?",
-  "cached_at": "2026-05-28T07:39:54Z",
-  "metadata": {}
-}

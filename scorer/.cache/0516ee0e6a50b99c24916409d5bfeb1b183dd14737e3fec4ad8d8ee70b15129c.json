@@ -1,9 +1,0 @@
-{
-  "brand": "Copper",
-  "prompt_id": "AL-01",
-  "llm": "openai",
-  "prompt_text": "Alternatives to HubSpot for Google Workspace power users",
-  "response": "If you're a Google Workspace power user looking for alternatives to HubSpot, there are several CRM and marketing automation platforms that integrate well with Google Workspace. Here are some options:\n\n1. **Zoho CRM**: Zoho offers a comprehensive CRM solution that integrates with Google Workspace. It provides features like email integration, calendar sync, and document management.\n\n2. **Pipedrive**: Known for its user-friendly interface, Pipedrive integrates seamlessly with Google Workspace, allowing you to sync emails, contacts, and calendar events.\n\n3. **Salesforce**: While more complex, Salesforce offers robust integration capabilities with Google Workspace, including Gmail and Google Calendar, making it a powerful option for larger teams.\n\n4. **Copper**: Specifically designed to work within Google Workspace, Copper integrates directly with Gmail and other Google apps, providing a seamless experience for managing relationships and sales pipelines.\n\n5. **Insightly**: This CRM offers integration with Google Workspace, including Gmail, Google Drive, and Google Calendar, and is known for its project management features.\n\n6. **Freshsales**: Part of the Freshworks suite, Freshsales integrates with Google Workspace and offers features like email tracking, lead scoring, and automation.\n\n7. **Agile CRM**: Agile CRM provides integration with Google Workspace and offers features like contact management, marketing automation, and web engagement.\n\nThese platforms offer various features and pricing models, so it's worth exploring each to see which best fits your specific needs and workflows.",
-  "cached_at": "2026-05-27T18:21:03Z",
-  "metadata": {}
-}

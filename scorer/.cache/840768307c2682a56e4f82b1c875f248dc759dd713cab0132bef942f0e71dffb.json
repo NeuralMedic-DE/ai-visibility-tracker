@@ -1,9 +1,0 @@
-{
-  "brand": "Drip",
-  "prompt_id": "AL-05",
-  "llm": "openai",
-  "prompt_text": "Open source or affordable marketing automation tools instead of Mailchimp",
-  "response": "There are several open-source and affordable marketing automation tools you can consider as alternatives to Mailchimp:\n\n1. **Sendinblue**: Offers a free plan with basic email marketing features and affordable paid plans. It includes email marketing, SMS marketing, and basic automation features.\n\n2. **MailerLite**: Provides a free plan with up to 1,000 subscribers and includes features like email automation, landing pages, and pop-ups. Their paid plans are also quite affordable.\n\n3. **Moosend**: Offers a free plan for up to 1,000 subscribers with unlimited emails and includes automation workflows. Their paid plans are competitively priced.\n\n4. **Mailjet**: Has a free plan with basic features and affordable pricing for more advanced features. It supports email marketing and automation.\n\n5. **Mautic**: An open-source marketing automation platform that you can host yourself. It offers a wide range of features, including email marketing, social media integration, and more.\n\n6. **Sendy**: A self-hosted email newsletter application that uses Amazon SES to send emails at a low cost. It requires a one-time payment for the software.\n\n7. **Zoho Campaigns**: Part of the Zoho suite, it offers a free plan with basic features and reasonably priced paid plans. It includes email marketing and automation features.\n\n8. **HubSpot CRM and Marketing Hub**: While HubSpot can be expensive at higher tiers, it offers a free CRM with basic marketing tools, including email marketing and automation.\n\nThese tools vary in terms of features, ease of use, and pricing, so it's a good idea to evaluate them based on your specific needs and budget.",
-  "cached_at": "2026-05-28T07:32:55Z",
-  "metadata": {}
-}

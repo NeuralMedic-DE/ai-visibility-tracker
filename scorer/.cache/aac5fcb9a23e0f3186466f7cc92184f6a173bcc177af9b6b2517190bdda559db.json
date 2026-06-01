@@ -1,9 +1,0 @@
-{
-  "brand": "Lemlist",
-  "prompt_id": "AL-05",
-  "llm": "openai",
-  "prompt_text": "Open source or affordable sales engagement tools instead of Instantly",
-  "response": "If you're looking for open-source or affordable alternatives to Instantly for sales engagement, here are a few options you might consider:\n\n1. **Mailshake**: While not open-source, Mailshake is a relatively affordable tool that offers email outreach and sales engagement features. It's designed for simplicity and effectiveness in managing cold email campaigns.\n\n2. **HubSpot Sales Hub**: HubSpot offers a free tier with basic sales engagement tools, including email tracking, meeting scheduling, and more. As your needs grow, you can upgrade to their paid plans.\n\n3. **Zoho CRM**: Zoho offers a comprehensive CRM with sales engagement features. They have a free plan for small teams and affordable paid plans as well.\n\n4. **Mautic**: This is an open-source marketing automation tool that can be used for email marketing and engagement. It requires some technical setup but offers a lot of flexibility.\n\n5. **Sendinblue**: Known for its email marketing capabilities, Sendinblue also offers CRM and automation features at competitive pricing, with a free tier available.\n\n6. **Gmelius**: This tool integrates with Gmail and offers features like email tracking, sequences, and collaboration tools. It has affordable pricing plans.\n\n7. **Reply.io**: While not open-source, Reply.io is a cost-effective tool for automating email outreach and follow-ups.\n\n8. **SuiteCRM**: Another open-source CRM that can be customized to include sales engagement features. It's a good option if you have the technical capability to set it up.\n\nThese tools vary in terms of features, ease of use, and pricing, so it might be worth exploring a few to see which best fits your specific needs.",
-  "cached_at": "2026-05-28T07:17:05Z",
-  "metadata": {}
-}

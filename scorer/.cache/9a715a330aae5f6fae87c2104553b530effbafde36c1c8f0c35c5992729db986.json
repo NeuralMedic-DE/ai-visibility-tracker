@@ -1,9 +1,0 @@
-{
-  "brand": "Vercel",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Vercel integrate with GitHub?",
-  "response": "Yes. **Vercel has a native integration with GitHub** that can automatically deploy your repositories on each push and pull request.[1][2][8]\n\nKey points:\n\n- Vercel provides a dedicated **“Vercel for GitHub” integration** that links your GitHub repositories to Vercel projects.[1][2][8]  \n- After connecting, **every push and pull request is deployed automatically**, with **Preview URLs** created for each PR so you can review changes before merging.[1][2]  \n- The integration works with **GitHub Free, Team, and Enterprise Cloud** editions.[2]  \n- You set it up by importing a GitHub repo as a new project in the Vercel dashboard and authorizing the Vercel GitHub App.[2][4][6][8]\n\nIf you’d like, I can walk you through the exact setup steps for your repo.",
-  "cached_at": "2026-05-27T21:32:39Z",
-  "metadata": {}
-}

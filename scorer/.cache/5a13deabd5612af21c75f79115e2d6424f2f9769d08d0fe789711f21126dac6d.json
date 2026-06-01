@@ -1,9 +1,0 @@
-{
-  "brand": "Encharge",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Encharge integrate with Stripe?",
-  "response": "# Encharge and Stripe Integration\n\nYes, **Encharge integrates with Stripe**. This integration allows you to:\n\n- **Sync customer data** between Stripe and Encharge\n- **Track purchases** and use them to trigger automated email campaigns\n- **Segment customers** based on their purchase behavior and payment history\n- **Automate workflows** based on subscription events, failed payments, and other Stripe activities\n\nThis integration is useful for ecommerce businesses and SaaS companies that want to combine Stripe's payment processing with Encharge's automation and email marketing capabilities.\n\nFor the most current details on how to set up this integration, I'd recommend checking Encharge's official documentation or their integrations page.",
-  "cached_at": "2026-05-28T07:28:35Z",
-  "metadata": {}
-}

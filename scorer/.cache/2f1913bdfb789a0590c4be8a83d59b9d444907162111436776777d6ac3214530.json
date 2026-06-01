@@ -1,9 +1,0 @@
-{
-  "brand": "ActiveCampaign",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does ActiveCampaign integrate with Shopify?",
-  "response": "# ActiveCampaign and Shopify Integration\n\nYes, **ActiveCampaign integrates with Shopify**. Here's what you can do:\n\n## Key Integration Features\n\n- **Customer Data Sync**: Automatically sync Shopify customer information to ActiveCampaign\n- **Order Tracking**: Track purchases and order data\n- **Abandoned Cart Automation**: Create automations for abandoned carts\n- **Segmentation**: Segment customers based on purchase behavior\n- **Email Marketing**: Send targeted campaigns based on Shopify data\n- **Automation Workflows**: Build automations triggered by Shopify events\n\n## How to Set It Up\n\n1. Install the ActiveCampaign app from the Shopify App Store\n2. Authenticate your ActiveCampaign account\n3. Configure which data syncs between platforms\n4. Create automations and campaigns\n\n## Important Notes\n\n- The integration works best with ActiveCampaign's ecommerce features\n- You can map custom fields and segment customers by purchase history\n- Integration may have limitations depending on your ActiveCampaign plan\n\nFor the most current details on features and setup requirements, I'd recommend checking ActiveCampaign's documentation or their app listing in the Shopify App Store, as integration capabilities can be updated periodically.",
-  "cached_at": "2026-05-28T07:23:48Z",
-  "metadata": {}
-}

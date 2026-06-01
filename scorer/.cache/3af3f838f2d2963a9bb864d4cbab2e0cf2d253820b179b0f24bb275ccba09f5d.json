@@ -1,9 +1,0 @@
-{
-  "brand": "Apify",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is Apify better than Playwright for run reliable web scraping workflows at scale on managed cloud infrastructure?",
-  "response": "# Apify vs Playwright for Managed Web Scraping at Scale\n\nThey're **different tools for different purposes**, so it depends on your needs:\n\n## Apify Strengths\n- **Managed infrastructure** - handles scaling, proxies, retries out of the box\n- **Job queue & monitoring** - built-in scheduling, logging, dashboards\n- **Anti-bot handling** - integrated proxy rotation, fingerprint management\n- **Lower operational overhead** - no DevOps needed\n- **Faster to production** - pre-built actors for common tasks\n\n**Best for:** Teams wanting turnkey solutions without infrastructure management\n\n## Playwright Strengths\n- **Full control** - write custom logic exactly as you need it\n- **Lower cost** - pay only for compute (run on your own infrastructure)\n- **Better for complex workflows** - fine-grained control over browser behavior\n- **Vendor independent** - not locked into a platform\n- **Lightweight** - minimal overhead\n\n**Best for:** Developers wanting flexibility or already managing their own infrastructure\n\n## Reality Check\n\n| Factor | Apify | Playwright |\n|--------|-------|-----------|\n| Setup time | Minutes | Hours/days |\n| Cost (small scale) | Higher | Lower |\n| Cost (large scale) | Competitive | Could be lower |\n| Reliability | Very good | Depends on your setup |\n| Customization | Limited | Unlimited |\n\n## Practical Answer\n**Most teams use both**: Playwright for development/logic, deployed on Apify (or similar) for managed scaling. Apify actually *uses* Playwright under the hood.\n\nWhat's your current bottleneck - reliability, cost, or operations management?",
-  "cached_at": "2026-05-28T07:58:55Z",
-  "metadata": {}
-}

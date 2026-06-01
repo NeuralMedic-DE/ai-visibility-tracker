@@ -1,9 +1,0 @@
-{
-  "brand": "Metabase",
-  "prompt_id": "UC-03",
-  "llm": "anthropic",
-  "prompt_text": "What tools do data and operations teams at startups and SMBs companies use to build dashboards and reports without writing SQL?",
-  "response": "# No-Code/Low-Code Dashboard Tools for Startups & SMBs\n\n## **Most Popular (Ease + Affordability)**\n\n**Google Sheets/Excel + Native Connectors**\n- Built-in integrations with most SaaS apps\n- Pivot tables, basic charts\n- Free or very cheap\n- Limited for complex analysis\n\n**Metabase**\n- Open-source or cloud version\n- Point-and-click query builder\n- Good balance of power and simplicity\n- Growing adoption in mid-market\n\n**Tableau Public / Tableau Desktop**\n- Industry standard for polish\n- Steeper learning curve but very capable\n- Getting pricier (~$70/month minimum)\n\n## **Fast-Growing Alternatives**\n\n**Looker Studio** (Google's free offering)\n- Zero cost, integrates with Google ecosystem\n- Good for basic reporting\n- Improving rapidly\n\n**Retool / Internal.io**\n- More developer-friendly but still accessible\n- Good for internal ops dashboards\n- Custom components available\n\n**Superset** (Apache)\n- Open-source, self-hosted\n- Modern interface, lower total cost of ownership\n\n## **For Non-Technical Users**\n\n**Airtable**\n- Flexible database + built-in dashboards\n- Great for ops teams managing workflows\n\n**Monday.com / Asana** (native reporting)\n- If already using for project management\n\n## **Reality Check**\n\nMost startups gravitate toward:\n1. **Google Sheets** initially (free, familiar)\n2. **Metabase** when they need something better\n3. **Looker Studio** if heavily invested in Google\n\nThe \"no SQL ever\" constraint usually breaks down for complex ops—teams eventually need *someone* who understands their data layer, even if it's not the person building dashboards.\n\nWhat's your specific use case?",
-  "cached_at": "2026-05-27T20:09:01Z",
-  "metadata": {}
-}

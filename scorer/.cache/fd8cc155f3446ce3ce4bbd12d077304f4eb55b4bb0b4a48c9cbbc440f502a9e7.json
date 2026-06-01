@@ -1,9 +1,0 @@
-{
-  "brand": "SafeBase",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to Whistic",
-  "response": "# Cheaper Alternatives to Whistic\n\n## Budget-Friendly Options\n\n### **Free/Freemium Tiers**\n- **OneTrust** - Has limited free features\n- **Vanta** - Free tier available (with premium options)\n- **Drata** - Basic compliance automation available\n- **Secureframe** - Freemium model for startups\n\n### **Lower-Cost Competitors**\n- **AuditBoard** - More affordable for smaller organizations\n- **Compliance.ai** - Mid-market pricing\n- **Laika** - Cheaper vendor risk assessment tool\n- **ZenGRC** - Budget-conscious GRC platform\n- **Tugboat Logic** - Competitive for SMBs\n\n## DIY/Lightweight Solutions\n\n- **Spreadsheet templates** (Google Sheets/Excel) - Free but time-consuming\n- **Jotform + Zapier** - Build custom questionnaires (~$30-100/month)\n- **Airtable** - Flexible database for assessments (~$20+/month)\n- **GitHub/Gitbook** - Document policies and security info free\n\n## Comparison Tips\n\n**Consider if you need:**\n- Automated questionnaires vs. manual\n- Integration with other tools\n- Compliance-specific features\n- Multi-user access\n\n**Best approach:** Many tools offer free trials—test 2-3 options for your specific use case before committing.\n\nWhat's your primary use case (vendor assessment, compliance, risk management)?",
-  "cached_at": "2026-05-28T08:43:31Z",
-  "metadata": {}
-}

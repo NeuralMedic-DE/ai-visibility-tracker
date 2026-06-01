@@ -1,9 +1,0 @@
-{
-  "brand": "Klipfolio",
-  "prompt_id": "CM-01",
-  "llm": "anthropic",
-  "prompt_text": "Klipfolio vs Google Data Studio: which is better?",
-  "response": "# Klipfolio vs Google Data Studio\n\nNeither is universally \"better\"—it depends on your needs. Here's a realistic comparison:\n\n## Google Data Studio\n\n**Strengths:**\n- Free (big advantage)\n- Easy to learn\n- Excellent Google integrations (Analytics, Ads, Sheets, etc.)\n- Good for quick dashboards\n- No data limits\n\n**Weaknesses:**\n- Limited data connectors (especially third-party sources)\n- Basic visualization options\n- Slower performance with large datasets\n- Limited collaboration/permission controls\n- No real-time data alerts\n\n## Klipfolio\n\n**Strengths:**\n- 500+ data connectors (APIs, databases, custom sources)\n- Better real-time capabilities\n- More advanced visualizations\n- Strong mobile experience\n- Good for complex data transformations\n\n**Weaknesses:**\n- Paid (starts ~$50/month)\n- Steeper learning curve\n- Overkill for simple dashboards\n\n## Quick decision guide\n\n**Choose Google Data Studio if:**\n- You're Google-centric (Analytics, Ads, Sheets)\n- Budget is tight\n- You need something quick and simple\n\n**Choose Klipfolio if:**\n- You need diverse data sources\n- You want professional visualizations\n- Real-time data matters\n- You can justify the cost\n\n**Alternative consideration:** Microsoft Power BI is also worth evaluating if you're in the Microsoft ecosystem.\n\nWhat's your main use case? That matters most.",
-  "cached_at": "2026-05-27T20:27:03Z",
-  "metadata": {}
-}

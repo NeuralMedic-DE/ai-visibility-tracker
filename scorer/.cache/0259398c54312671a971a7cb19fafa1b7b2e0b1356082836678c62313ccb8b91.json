@@ -1,9 +1,0 @@
-{
-  "brand": "LeadIQ",
-  "prompt_id": "IN-02",
-  "llm": "perplexity",
-  "prompt_text": "LeadIQ LinkedIn integration: how does it work?",
-  "response": "LeadIQ’s **LinkedIn integration** works as a browser-based capture workflow: you open LinkedIn or Sales Navigator, launch the LeadIQ Chrome extension, and capture a prospect’s contact data directly from the profile or search results page.[5][3] The captured lead can then be synced with connected tools such as your CRM or sales engagement platform, so you do not have to copy details manually.[5][2]\n\nIn practice, the flow is:\n\n- Open **LinkedIn** or **Sales Navigator** in Chrome.[5]\n- Click the **LeadIQ extension** on the page.[5]\n- LeadIQ mirrors the profile in the extension and shows available data such as email, phone, company, title, and location.[5][3]\n- You can capture one lead at a time with a plus icon, or capture multiple leads from a Sales Navigator results page in bulk.[5][3]\n- After capture, you can send the lead into connected systems like **Salesforce, HubSpot, Outreach, or Salesloft**.[5][3]\n\nA few details matter:\n\n- LeadIQ says its LinkedIn integration helps users find contact information **without switching tabs**.[2]\n- If you use LinkedIn Sales Navigator, LeadIQ can work alongside saved lists and help export those contacts into a CRM faster.[1]\n- The extension can also show sync status for captured leads and let you choose list destinations and email-quality filters.[5]\n\nSo the short version is: **LeadIQ sits on top of LinkedIn as an extension, enriches the profile with verified contact data, and pushes the lead into your downstream tools with one or a few clicks**.[5][3][2]",
-  "cached_at": "2026-05-27T18:49:11Z",
-  "metadata": {}
-}

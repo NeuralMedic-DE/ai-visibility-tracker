@@ -1,9 +1,0 @@
-{
-  "brand": "n8n",
-  "prompt_id": "AL-05",
-  "llm": "openai",
-  "prompt_text": "Open source or affordable automation tools instead of Make",
-  "response": "If you're looking for open source or affordable alternatives to Make (formerly Integromat) for automation, here are some options you might consider:\n\n1. **n8n**: An open-source workflow automation tool that allows you to connect different services and automate tasks. It provides a visual interface to create workflows and supports a wide range of integrations.\n\n2. **Node-RED**: A flow-based development tool for visual programming, originally developed by IBM. It's open-source and allows you to wire together devices, APIs, and online services.\n\n3. **Zapier**: While not open-source, Zapier offers a free tier that might be sufficient for smaller projects. It supports a vast number of integrations and is user-friendly.\n\n4. **Automate.io**: Similar to Zapier, Automate.io provides a free plan with basic features and supports many app integrations. It is designed for business and personal use.\n\n5. **Huginn**: An open-source system for building agents that perform automated tasks for you online. It's highly customizable and can be hosted on your own server.\n\n6. **Bip.io**: An open-source personal integration platform that allows you to automate tasks across different services.\n\n7. **IFTTT (If This Then That)**: Offers a free tier and is great for simple automation tasks. It connects various apps and devices with conditional statements.\n\n8. **Apache Airflow**: While more complex and typically used for data workflows, Apache Airflow is an open-source tool for authoring, scheduling, and monitoring workflows.\n\nEach of these tools has its own strengths and ideal use cases, so the best choice will depend on your specific needs, technical skills, and the complexity of the tasks you want to automate.",
-  "cached_at": "2026-05-28T08:56:10Z",
-  "metadata": {}
-}

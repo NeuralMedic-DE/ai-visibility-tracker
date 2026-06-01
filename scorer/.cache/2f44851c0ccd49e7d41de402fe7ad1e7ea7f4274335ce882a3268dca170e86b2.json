@@ -1,9 +1,0 @@
-{
-  "brand": "Baremetrics",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "ChartMogul vs alternatives: what should I switch to?",
-  "response": "# ChartMogul Alternatives: Quick Decision Guide\n\n## Main contenders by use case:\n\n**If you want simpler/cheaper basics:**\n- **Baremetrics** - More affordable, cleaner UI for SaaS metrics\n- **Stripe Radar/built-in dashboards** - Free if you use Stripe; limited but functional\n\n**If you need deeper analytics:**\n- **Profitwell** (now Paddle) - Strong cohort analysis, free tier available\n- **Vitally** - Better if you also want CSM/engagement tools alongside metrics\n\n**If you want all-in-one:**\n- **Paddle** - Billing + analytics + payouts (though different philosophy than ChartMogul)\n- **Stripe** - Keep it native if you're Stripe-only and don't need fancy visualization\n\n**If you prefer open-source/self-hosted:**\n- **Metabase** + your own data pipeline - More work, but full control\n\n## Questions to ask before switching:\n\n1. **What's the actual pain point?** (Price? Missing features? UX? Data accuracy?)\n2. **How dependent are you on their integrations?** (Switching is painful if they connect tools you need)\n3. **Do you need historical data migration?** (Some platforms handle this better than others)\n\n## Honest take:\nChartMogul is solid but pricey for what you get. Most switches happen for **cost reasons** rather than features. If price is the issue, Baremetrics usually wins. If you need more than metrics, consider what else you're paying for separately.\n\nWhat's driving your exploration?",
-  "cached_at": "2026-05-28T06:57:36Z",
-  "metadata": {}
-}

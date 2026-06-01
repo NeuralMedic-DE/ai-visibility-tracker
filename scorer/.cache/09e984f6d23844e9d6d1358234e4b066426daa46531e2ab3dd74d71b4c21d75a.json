@@ -1,9 +1,0 @@
-{
-  "brand": "Zapier",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable automation tools instead of n8n",
-  "response": "# Open Source & Affordable Automation Alternatives to n8n\n\n## **Self-Hosted Open Source**\n\n| Tool | Best For | Cost |\n|------|----------|------|\n| **Apache Airflow** | Data pipelines, workflows | Free |\n| **Prefect** | Modern data workflows | Free/Cloud option |\n| **Temporal** | Complex distributed workflows | Free |\n| **Huginn** | Personal automation | Free |\n| **Make (formerly Integromat)** | No-code automation | Free tier + paid |\n| **Zapier alternative: Aktually** | Simple automations | Lower cost |\n\n## **Most Practical Alternatives**\n\n### **Make/Integromat** (Best Value)\n- Free tier: 1,000 operations/month\n- More affordable than n8n for most use cases\n- 500+ integrations\n- Simple scenarios vs complex logic\n\n### **Zapier** (Most Popular)\n- Free tier: 100 tasks/month\n- Pricey but most reliable\n- Best UI/UX\n- Enterprise-grade stability\n\n### **Huginn** (Self-Hosted)\n- Completely free\n- More technical setup\n- Lightweight, runs on minimal infrastructure\n- Great for personal projects\n\n### **Apache Airflow** (Developer-Focused)\n- Free, open source\n- Steeper learning curve\n- Best for data engineering\n- Complex DAG workflows\n\n## **Budget-Friendly Strategy**\n\n1. **Start:** Make free tier or Huginn\n2. **Small business:** Make paid plans ($10-50/mo)\n3. **Complex needs:** Self-host n8n ($0, your server) or Airflow\n4. **Enterprise:** n8n cloud or custom solution\n\n**Question:** What's your main use case—simple integrations, data pipelines, or business workflows?",
-  "cached_at": "2026-05-28T08:51:15Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "ChartMogul",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with analyze cohort retention and forecast subscription revenue growth at scale?",
-  "response": "# Software for Cohort Retention & Subscription Revenue Forecasting\n\n## Specialized SaaS Analytics Platforms\n\n**Top-tier options:**\n- **Amplitude** - Excellent cohort analysis, retention tracking, and predictive analytics for subscription businesses\n- **Mixpanel** - Strong behavioral cohorts and retention funnels with forecasting capabilities\n- **Looker** - Enterprise-grade BI with custom cohort modeling and revenue projections\n- **Tableau** - Powerful visualization for building complex retention and revenue dashboards\n\n## Subscription-Specific Tools\n\n- **Baremetrics** - Built for SaaS; tracks MRR, churn, LTV, and cohort analysis automatically\n- **ChartMogul** - Dedicated subscription analytics (MRR, ARR, cohorts, retention curves)\n- **Zuora** - Enterprise billing + analytics with retention forecasting\n- **Gainsight** - Customer success platform with cohort-based retention insights\n- **Vitally** - Modern CSM platform with cohort tracking and risk modeling\n\n## Data Warehouse + BI Approach (at scale)\n\n- **Snowflake/BigQuery** + **dbt** for data modeling\n- Combined with **Tableau**, **Looker**, or **Mode Analytics**\n- Gives maximum flexibility for custom cohort definitions\n\n## Selection Criteria\n\nConsider:\n- **Scale** - Do you need to handle millions of events?\n- **Integration** - Does it connect with your billing system?\n- **Customization** - How specific are your cohort definitions?\n- **Ease of use** - Non-technical team needs?\n\n**What's your current scale/tech stack?** That would help narrow the recommendation.",
-  "cached_at": "2026-05-28T06:55:10Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Encharge",
-  "prompt_id": "UC-03",
-  "llm": "anthropic",
-  "prompt_text": "What tools do SaaS marketing leads and growth engineers building lifecycle flows companies use to trigger emails based on specific user actions in your SaaS product?",
-  "response": "# Tools SaaS Teams Use for Behavioral Email Triggers\n\n## Dedicated Lifecycle/Marketing Automation Platforms\n- **Klaviyo** – Strong event tracking, flexible segmentation (popular with product-led growth teams)\n- **HubSpot** – Integrated CRM with robust workflow automation\n- **Iterable** – Built for complex, cross-channel lifecycle campaigns\n- **Braze** – Enterprise-grade, handles high-volume behavioral triggers\n- **Mixpanel** – Analytics-first, excellent for building segments from product events\n\n## Product-Native/No-Code Options\n- **Segment** – CDP that routes user events to marketing tools\n- **mParticle** – Similar CDP approach, good for multi-tool stacks\n- **Zapier/Make** – Connects product events to email tools (more manual setup)\n\n## Email Service Providers with Event Capabilities\n- **SendGrid** – Basic event triggering via API\n- **Mailgun** – Developer-friendly, lightweight triggering\n- **PostHog** – Built-in email integrations for product analytics users\n\n## What Growth Teams Actually Value\n\nThe best choice depends on:\n\n1. **Event infrastructure** – Can your product reliably send events? (Segment/Amplitude SDK)\n2. **Latency** – How fast do emails need to send after an action?\n3. **Segmentation depth** – Do you need behavioral + firmographic + RFM combinations?\n4. **Team structure** – Marketing owning flows vs. engineers building custom logic\n\n**Honest take:** Most mature SaaS teams use a **CDP (Segment/mParticle) + specialized ESP (Klaviyo/Iterable)** combo rather than all-in-one tools.\n\nWhat's your current tech stack? That would help narrow recommendations.",
-  "cached_at": "2026-05-28T07:28:31Z",
-  "metadata": {}
-}

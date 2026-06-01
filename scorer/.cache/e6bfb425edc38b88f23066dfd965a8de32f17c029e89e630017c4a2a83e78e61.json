@@ -1,9 +1,0 @@
-{
-  "brand": "Gainsight",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best customer success for enterprise SaaS customer success teams managing large portfolios?",
-  "response": "# Best Practices for Enterprise SaaS Customer Success at Scale\n\n## Segmentation & Prioritization\n\n**Account tiering** is foundational:\n- Stratify by ARR, strategic value, churn risk, and expansion potential\n- Assign dedicated CSMs to high-touch accounts; use lower-touch models for mid-market\n- Create playbooks specific to each segment rather than one-size-fits-all approaches\n\n## Structural Approaches\n\n**Hybrid models work best:**\n- **Dedicated CSM** for top accounts (strategic relationships)\n- **Segment CSM** managing 15-25 similar accounts (efficiency)\n- **Digital/low-touch** for smaller accounts (scalability)\n- **Specialized roles**: onboarding, renewals, expansion, technical CSMs\n\n## Technology Stack\n\nInvest in proper tooling:\n- **CS platform** (Gainsight, Totango, Vitally) for visibility and automation\n- **Health scoring** to predict churn/expansion early\n- **Workflow automation** to reduce manual work on routine tasks\n- **Strong CRM integration** for data flow\n\n## Portfolio Management Tactics\n\n1. **Establish clear cadences**: quarterly business reviews for top tier, quarterly check-ins for mid-tier\n2. **Create accountability**: clear OKRs tied to retention, NRR, and expansion\n3. **Build communities**: user groups and peer connections reduce individual CSM dependency\n4. **Measure efficiency**: revenue per CSM, time allocation, and customer satisfaction by segment\n\n## The Often-Missed Element\n\n**Executive alignment** matters more than process. Enterprise accounts need visibility at director/VP level—not just individual CSM relationships.\n\nWhat's your current portfolio size or biggest scaling challenge?",
-  "cached_at": "2026-05-28T08:03:57Z",
-  "metadata": {}
-}

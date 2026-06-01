@@ -1,9 +1,0 @@
-{
-  "brand": "Teamtailor",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best ATS that works with LinkedIn and Slack",
-  "response": "# Best ATS Systems with LinkedIn + Slack Integration\n\n## Top Choices\n\n### **1. Greenhouse**\n- **LinkedIn**: Native integration for job posting, candidate sourcing\n- **Slack**: Built-in notifications for applicants, pipeline updates\n- **Best for**: Mid-to-large teams wanting sophisticated workflows\n- **Price**: ~$1,000-4,000+/month (scaling)\n\n### **2. Lever**\n- **LinkedIn**: Direct posting, candidate sync\n- **Slack**: Real-time hiring notifications, interview scheduling\n- **Best for**: Growth-stage companies, modern UX focus\n- **Price**: ~$1,500-5,000+/month\n\n### **3. Workable**\n- **LinkedIn**: Job posting and sourcing\n- **Slack**: Alerts for new applications, collaborative notes\n- **Best for**: Small-to-medium businesses\n- **Price**: ~$100-500+/month (tiered)\n\n### **4. JazzHR**\n- **LinkedIn**: Job posting integration\n- **Slack**: Basic notifications\n- **Best for**: SMBs with tighter budgets\n- **Price**: ~$99-249/month\n\n## Budget-Friendly Options\n- **Breezy HR** – Clean interface, strong integrations\n- **Rippling** – Unified HR/recruiting platform\n\n## Quick Comparison Matrix\n| ATS | LinkedIn | Slack | Starting Price |\n|-----|----------|-------|-----------------|\n| Greenhouse | ⭐⭐⭐ | ⭐⭐⭐ | $1,000+ |\n| Lever | ⭐⭐⭐ | ⭐⭐⭐ | $1,500+ |\n| Workable | ⭐⭐ | ⭐⭐ | $100+ |\n\n**What matters most to your hiring process?** That'll help narrow it down further.",
-  "cached_at": "2026-05-28T06:42:11Z",
-  "metadata": {}
-}

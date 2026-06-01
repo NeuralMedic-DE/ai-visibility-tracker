@@ -1,9 +1,0 @@
-{
-  "brand": "Nudge Security",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which security software should a Security Manager or IT Lead at a mid-market company use?",
-  "response": "# Security Software for Mid-Market Companies\n\nThe best choice depends on your specific needs, but here's a practical framework:\n\n## **Endpoint Protection (Priority)**\n- **Microsoft Defender for Endpoint** – Good if you're Microsoft-heavy; integrated with Windows\n- **CrowdStrike Falcon** – Industry leader; excellent detection, though premium-priced\n- **Sophos** – Strong mid-market fit; good balance of features and cost\n- **Trend Micro or Kaspersky** – Solid alternatives with good support\n\n## **Network/Firewall Layer**\n- **Palo Alto Networks** (NextGen Firewall) – Market leader but enterprise-focused\n- **Fortinet FortiGate** – Better mid-market pricing\n- **Cisco Meraki** – Good if you want cloud management simplicity\n\n## **Key Considerations**\n\n| Factor | Questions |\n|--------|-----------|\n| **Budget** | Can you afford premium (CrowdStrike) or need mid-tier (Sophos)? |\n| **Integration** | Do you need cloud, on-prem, or hybrid? |\n| **Team size** | Can you manage complex tools or need simplicity? |\n| **Compliance** | What regulations apply? (HIPAA, PCI-DSS, etc.) |\n\n## **Honest Recommendation**\nFor most mid-market companies: **Start with Sophos or Fortinet** for a good feature-to-cost ratio, paired with **Microsoft Defender** at the endpoint level if Windows-heavy.\n\nWhat's your company's primary concern—ransomware, compliance, or general coverage?",
-  "cached_at": "2026-05-28T08:38:24Z",
-  "metadata": {}
-}

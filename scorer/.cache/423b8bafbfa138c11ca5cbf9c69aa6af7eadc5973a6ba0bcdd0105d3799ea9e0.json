@@ -1,9 +1,0 @@
-{
-  "brand": "Supermetrics",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Supermetrics integrate with Google Analytics?",
-  "response": "Yes. **Supermetrics has a native connector for Google Analytics 4 (GA4)** and is designed to pull GA data into tools like Google Sheets, Excel, Looker Studio, BigQuery, Snowflake, and others.[1][2][8][9]\n\nEssential points:\n\n- Supermetrics lists **Google Analytics 4** as one of its core connectors among 100+ data sources.[1][2][9]  \n- The **Supermetrics for Google Sheets add-on** explicitly supports pulling **Google Analytics / GA4 data into Google Sheets**.[1]  \n- Supermetrics’ GA4 connector lets you access a wide range of GA4 metrics and dimensions (sessions, users, conversions, revenue, etc.) and move that data into BI tools and data warehouses.[2][8]  \n\nSo if you are using Google Analytics 4, you can integrate it with Supermetrics for reporting and analysis across multiple destinations.",
-  "cached_at": "2026-05-27T20:42:27Z",
-  "metadata": {}
-}

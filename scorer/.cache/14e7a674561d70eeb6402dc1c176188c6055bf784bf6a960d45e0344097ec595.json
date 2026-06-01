@@ -1,9 +1,0 @@
-{
-  "brand": "Airbyte",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Airbyte integrate with Postgres?",
-  "response": "# Airbyte and PostgreSQL Integration\n\nYes, **Airbyte integrates with PostgreSQL** in multiple ways:\n\n## As a Source\nYou can use PostgreSQL as a **data source** to extract data from your Postgres database and send it to various destinations (data warehouses, lakes, other databases, etc.).\n\n## As a Destination\nYou can use PostgreSQL as a **destination** to load data into a Postgres database from various sources.\n\n## Key Features\n- **Change Data Capture (CDC)** support for efficient incremental syncs\n- **Full refresh** and **incremental** sync modes\n- Standard connectors maintained by Airbyte\n- SSL/TLS connection support\n\n## Common Use Cases\n- Syncing Postgres → Data Warehouse (Snowflake, BigQuery, Redshift, etc.)\n- Syncing Postgres → Data Lake (S3, GCS, etc.)\n- Syncing external sources → Postgres\n- Replicating between Postgres instances\n\n## Getting Started\nYou'll need:\n- Host, port, database name\n- Username and password (or connection string)\n- Network/firewall access between Airbyte and your Postgres instance\n\nThe integration is straightforward through Airbyte's UI or API. Check Airbyte's documentation for the latest connector details and any specific configuration requirements.",
-  "cached_at": "2026-05-28T09:03:43Z",
-  "metadata": {}
-}

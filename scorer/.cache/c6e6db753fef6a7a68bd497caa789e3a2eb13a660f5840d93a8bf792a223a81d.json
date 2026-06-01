@@ -1,9 +1,0 @@
-{
-  "brand": "Zapier",
-  "prompt_id": "IN-05",
-  "llm": "anthropic",
-  "prompt_text": "automation tools with native Google Sheets integration",
-  "response": "# Automation Tools with Native Google Sheets Integration\n\n## **Top Automation Platforms**\n\n### **1. Zapier**\n- **Strength:** 500+ Google Sheets integrations\n- **Features:**\n  - Multi-step workflows\n  - Two-way sync with Sheets\n  - Conditional logic & formatting\n- **Best for:** Connecting Sheets to 1000+ apps\n- **Pricing:** Free tier available; paid from $19/month\n\n### **2. Make (Formerly Integromat)**\n- **Strength:** Visual workflow builder\n- **Features:**\n  - Complex automation scenarios\n  - Data transformation tools\n  - Webhook support\n- **Best for:** Advanced, multi-app workflows\n- **Pricing:** Free tier; paid from $9.99/month\n\n### **3. Google Sheets Native Tools**\n\n**Google Apps Script**\n- Write custom JavaScript automations\n- Triggers (onEdit, onOpen, time-based)\n- No cost beyond Google Workspace\n- Steep learning curve\n\n**Google Automation/Appsheet**\n- Low-code automation builder\n- Direct Sheets integration\n- Requires Google Workspace\n\n---\n\n## **Specialized Integrations**\n\n| Tool | Best For | Key Feature |\n|------|----------|-------------|\n| **Airtable** | Database-like Sheets | Two-way sync |\n| **Slack** | Team notifications | Real-time alerts |\n| **HubSpot** | CRM data sync | Contact management |\n| **Mailchimp** | Email automation | List management |\n| **Stripe/PayPal** | Payment data | Transaction logging |\n\n---\n\n## **Lightweight Alternatives**\n\n- **IFTTT** - Simple 1-to-1 automations\n- **Automate.io** - Budget-friendly alternative to Zapier\n- **n8n** - Open-source, self-hosted option\n- **Pabbly Connect** - Cost-effective Zapier alternative\n\n**What's your use case?** (CRM, email, data collection, etc.) I can recommend specific tools.",
-  "cached_at": "2026-05-28T08:51:30Z",
-  "metadata": {}
-}

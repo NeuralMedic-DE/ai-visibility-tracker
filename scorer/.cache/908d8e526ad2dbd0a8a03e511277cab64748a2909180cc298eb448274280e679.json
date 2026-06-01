@@ -1,9 +1,0 @@
-{
-  "brand": "Checkly",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable monitoring tools instead of PagerDuty",
-  "response": "# Open Source & Affordable Monitoring Alternatives\n\n## Self-Hosted Open Source\n\n### **Alertmanager** (Free)\n- Deduplicates, groups, routes alerts\n- Pairs with Prometheus\n- Minimal overhead\n- **Best for:** Prometheus users\n- **Cost:** Free\n\n### **Grafana OnCall** (Free tier + open source)\n- On-call scheduling, escalation policies\n- Integrates with Prometheus, Loki, etc.\n- Self-hosted option available\n- **Cost:** Free or ~$9/user/month managed\n\n### **Opsgenie alternatives:**\n- **Incidentio** - incident management (~$30/month)\n- **Rootly** - Slack-first incident ops\n- **Firefly** - AIOps platform\n\n## Budget-Friendly SaaS\n\n| Tool | Price | Best For |\n|------|-------|----------|\n| **Betteruptime** | $29/month | Uptime monitoring + on-call |\n| **Cronitor** | $19/month | Cron job + uptime monitoring |\n| **Updown.io** | $10/month | Basic uptime monitoring |\n| **Checkly** | $25/month | API & synthetic monitoring |\n| **Datadog** | ~$15/host (some free) | Full observability |\n\n## DIY Stack (Most Affordable)\n\n```\nPrometheus → Alertmanager → \n  ├─ Slack/Discord webhooks (free)\n  ├─ Twilio SMS ($0.01 per alert)\n  └─ Self-hosted oncall rotation\n```\n\n## What's your current use case?\n- Uptime monitoring?\n- Application performance?\n- Infrastructure alerts?\n\nI can suggest specifics based on your needs.",
-  "cached_at": "2026-05-28T06:22:58Z",
-  "metadata": {}
-}

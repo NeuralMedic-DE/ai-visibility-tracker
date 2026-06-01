@@ -1,9 +1,0 @@
-{
-  "brand": "Customer.io",
-  "prompt_id": "AL-05",
-  "llm": "openai",
-  "prompt_text": "Open source or affordable marketing automation tools instead of Klaviyo",
-  "response": "If you're looking for open-source or affordable marketing automation tools as alternatives to Klaviyo, here are some options you might consider:\n\n1. **Mailchimp**: While not open-source, Mailchimp offers a free tier with basic marketing automation features, making it an affordable option for small businesses.\n\n2. **Sendinblue**: Offers a free plan with marketing automation capabilities. It's a cost-effective option with a range of features including email marketing, SMS marketing, and more.\n\n3. **Mautic**: An open-source marketing automation platform that provides a wide range of features, including email marketing, social media integration, and lead management. It requires some technical setup but is highly customizable.\n\n4. **HubSpot**: Offers a free CRM with basic marketing automation features. While the full suite can be expensive, the free tools are quite robust for small businesses.\n\n5. **Zoho Campaigns**: Part of the Zoho suite, it offers affordable email marketing and automation features. It's well-integrated with other Zoho products.\n\n6. **ActiveCampaign**: While not open-source, it offers competitive pricing with powerful automation features, especially for small to medium-sized businesses.\n\n7. **MailerLite**: Known for its simplicity and affordability, MailerLite offers a free plan with basic automation features, suitable for small businesses and startups.\n\n8. **SendPulse**: Offers a free plan with limited features and affordable paid plans. It includes email marketing, SMS, and web push notifications.\n\nThese tools vary in terms of features, ease of use, and pricing, so you may want to explore a few to see which best fits your needs and budget.",
-  "cached_at": "2026-05-28T07:14:43Z",
-  "metadata": {}
-}

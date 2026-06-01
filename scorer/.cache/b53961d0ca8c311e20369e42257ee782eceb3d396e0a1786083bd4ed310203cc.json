@@ -1,9 +1,0 @@
-{
-  "brand": "Brevo",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable marketing automation tools instead of ActiveCampaign",
-  "response": "# Marketing Automation Alternatives to ActiveCampaign\n\n## Open Source Options\n\n**Mautic**\n- Free, self-hosted email marketing & automation\n- Lead scoring, segmentation, workflows\n- Good for technical teams; requires server management\n- Active community support\n\n**Odoo** (Marketing Automation module)\n- Open source ERP with marketing tools\n- Email campaigns, lead management, analytics\n- More comprehensive but steeper learning curve\n\n**Chatwoot**\n- Customer engagement platform\n- Better for support/chat automation than email campaigns\n- Self-hosted option available\n\n## Affordable/Low-Cost Platforms\n\n**Brevo (formerly Sendinblue)** - $20-65/month\n- Email, SMS, chat automation\n- Good CRM integration\n- Generous free tier (300 emails/day)\n\n**Mailchimp** - Free to $20+/month\n- Automation workflows included in paid plans\n- User-friendly, great for small businesses\n- Limited but improving automation features\n\n**HubSpot** - Free to $50+/month\n- Free CRM with basic automation\n- Excellent for startups\n- Grows with your business\n\n**GetResponse** - $15-99/month\n- All-in-one: email, automation, webinars, landing pages\n- Competitive pricing vs ActiveCampaign\n\n**Klaviyo** - Free to $28+/month\n- Excellent for ecommerce\n- Strong segmentation and personalization\n\n**Omnisend** - Free to $99+/month\n- Email + SMS automation\n- Great visual workflow builder\n\n## Best For Budget-Conscious Teams\n1. **Brevo** - best value overall\n2. **Mailchimp** - if you're just starting\n3. **Mautic** - if you have technical capacity\n\nWhat's your primary use case? (Email, SMS, CRM, etc.)",
-  "cached_at": "2026-05-28T07:26:05Z",
-  "metadata": {}
-}

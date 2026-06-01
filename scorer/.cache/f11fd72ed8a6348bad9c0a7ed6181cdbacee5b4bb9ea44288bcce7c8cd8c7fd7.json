@@ -1,9 +1,0 @@
-{
-  "brand": "Mosaic",
-  "prompt_id": "AL-02",
-  "llm": "perplexity",
-  "prompt_text": "Cheaper alternatives to Anaplan",
-  "response": "Cheaper alternatives to **Anaplan** include **Workday Adaptive Planning**, **Planful**, **Vena Solutions**, **Jedox**, **Pigment**, **Cube**, **Abacum**, **Drivetrain**, and **Farseer**; several of these are explicitly described as lower-cost options in the sources.[1][2][3]\n\n- **Workday Adaptive Planning**: average contract value around **$50,000/year** in one source, versus Anaplan’s average contract value around **$200,000**.[1]\n- **Planful**: pricing starts at **$32,000/year** for organizations with annual revenues under €50 million.[1]\n- **Vena Solutions**: pricing starts at **$23,000/year** for smaller organizations.[1]\n- **Jedox**: pricing starts at about **$26,000/year** on average.[1]\n- **Farseer**: contract value starts at **$20,000**, and the source frames it as a lower-cost enterprise FP&A option.[1]\n- **Pigment**: described as **5–10x cheaper than Anaplan** for certain mid-market/high-growth use cases.[2]\n- **Abacum** and **Drivetrain**: positioned in the sources as cost-effective, easier-to-use alternatives for FP&A, especially for mid-market teams.[2][6]\n\nIf your goal is the **lowest-cost practical substitute**, the best fit depends on what you use Anaplan for:\n- **FP&A / budgeting / forecasting**: **Planful**, **Vena**, **Workday Adaptive Planning**, **Pigment**, **Drivetrain**.[1][2][3]\n- **Spreadsheet-first teams wanting Excel familiarity**: **Vena** or **Cube**.[1][7]\n- **More enterprise consolidation needs**: **OneStream** or **Board**, though these may still be relatively expensive compared with mid-market tools.[1][2][4]\n\nIf you want, I can narrow this to the **cheapest 3 options** for your company size and use case.",
-  "cached_at": "2026-05-28T07:10:52Z",
-  "metadata": {}
-}

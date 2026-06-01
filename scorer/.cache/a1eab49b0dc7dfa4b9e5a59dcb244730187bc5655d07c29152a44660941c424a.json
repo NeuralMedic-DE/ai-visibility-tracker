@@ -1,9 +1,0 @@
-{
-  "brand": "Baremetrics",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is Baremetrics better than ProfitWell for forecast revenue and identify at-risk customers before they churn?",
-  "response": "# Baremetrics vs ProfitWell: Revenue Forecasting & Churn Risk\n\nBoth excel at different things here:\n\n## ProfitWell's Strengths\n- **Churn prediction**: More sophisticated ML-based at-risk flagging\n- **Cohort analysis**: Better granularity for identifying which customer segments are churning\n- **Free tier**: Robust features without paying (now owned by Paddle)\n\n## Baremetrics' Strengths\n- **Revenue forecasting**: More intuitive MRR/ARR projections with scenario planning\n- **Dashboard clarity**: Simpler interface if you just want core metrics quickly\n- **Integration flexibility**: Better for non-SaaS revenue models\n\n## Key Differences\n| Factor | Baremetrics | ProfitWell |\n|--------|------------|-----------|\n| Churn prediction | Basic | Advanced ML |\n| Forecast accuracy | Good | Adequate |\n| Ease of use | Simpler | More detailed |\n| Cost | Paid only | Free + premium |\n\n## My Take\n- **Choose ProfitWell if churn prevention is your priority** — its predictive models are genuinely better at flagging at-risk customers\n- **Choose Baremetrics if forecasting MRR trends matters more** — better visualization and scenario planning\n\n**Honest answer**: Most teams benefit from using *both* (ProfitWell free + Baremetrics) or supplementing either with a dedicated retention tool like Gainsight or Totango if churn is critical to your business.\n\nWhat's your primary pain point—forecasting accuracy or catching churn early?",
-  "cached_at": "2026-05-28T06:57:28Z",
-  "metadata": {}
-}

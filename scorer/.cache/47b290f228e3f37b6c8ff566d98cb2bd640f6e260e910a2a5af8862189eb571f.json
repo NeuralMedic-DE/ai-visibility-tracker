@@ -1,9 +1,0 @@
-{
-  "brand": "ChartMogul",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does ChartMogul integrate with Stripe?",
-  "response": "Yes, ChartMogul integrates with Stripe. This integration allows you to import your Stripe subscription and billing data into ChartMogul, enabling you to analyze your metrics and gain insights into your revenue and customer behavior.",
-  "cached_at": "2026-05-28T06:55:10Z",
-  "metadata": {}
-}

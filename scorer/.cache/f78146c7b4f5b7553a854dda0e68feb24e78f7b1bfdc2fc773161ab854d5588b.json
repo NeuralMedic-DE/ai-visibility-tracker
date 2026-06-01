@@ -1,9 +1,0 @@
-{
-  "brand": "FullStory",
-  "prompt_id": "CM-05",
-  "llm": "openai",
-  "prompt_text": "Is FullStory better than Mouseflow for identify rage clicks and broken flows in the product?",
-  "response": "Both FullStory and Mouseflow are popular tools for analyzing user interactions and identifying issues like rage clicks and broken flows. However, they have different strengths, so which one is \"better\" depends on your specific needs.\n\n**FullStory:**\n- **Strengths:** FullStory is known for its comprehensive session replay capabilities and robust analytics. It provides a detailed view of user interactions, making it easier to identify rage clicks and broken flows. Its interface is user-friendly, and it offers powerful search and segmentation features. FullStory also uses machine learning to automatically detect and highlight issues like rage clicks.\n- **Use Case:** If you need a tool that provides deep insights into user behavior with advanced analytics and automated issue detection, FullStory might be the better choice.\n\n**Mouseflow:**\n- **Strengths:** Mouseflow offers session replay, heatmaps, and funnel analysis, which are useful for understanding user behavior. It is particularly strong in providing visual representations of user interactions, such as heatmaps, which can help identify problem areas on a page.\n- **Use Case:** If you are looking for a more cost-effective solution with a focus on visual data representation and heatmaps, Mouseflow could be suitable.\n\nIn summary, if your primary goal is to identify rage clicks and broken flows with advanced analytics and automated insights, FullStory might be the better option. However, if you prefer a tool with strong visual data representation and are more budget-conscious, Mouseflow could be a good fit. Consider evaluating both tools based on your specific requirements and budget to make the best decision for your product.",
-  "cached_at": "2026-05-27T20:43:58Z",
-  "metadata": {}
-}

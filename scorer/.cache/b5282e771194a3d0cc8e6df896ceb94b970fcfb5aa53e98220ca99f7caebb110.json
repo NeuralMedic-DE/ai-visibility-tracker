@@ -1,9 +1,0 @@
-{
-  "brand": "PostHog",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable product analytics tools instead of Amplitude",
-  "response": "# Open Source & Affordable Analytics Alternatives\n\n## **Open Source (Self-Hosted)**\n\n### **Plausible Analytics**\n- Privacy-focused, lightweight alternative to Google Analytics\n- Simple event tracking\n- $20-200/month (also self-hostable)\n- Best for: Website analytics, privacy-conscious teams\n\n### **Posthog**\n- Full-featured product analytics platform\n- Session recordings, feature flags, heatmaps\n- Free tier + affordable self-hosted option\n- Best for: Engineers who want full control\n\n### **Matomo**\n- Google Analytics alternative\n- On-premise or cloud\n- Free self-hosted version\n- Best for: Privacy compliance, website analytics\n\n### **Open Web Analytics (OWA)**\n- Lightweight, open source\n- Completely free\n- Best for: Budget-constrained teams, simple tracking\n\n---\n\n## **Affordable SaaS ($50-300/month)**\n\n### **Mixpanel**\n- Freemium model, ~$150/month for core features\n- Strong cohort analysis, funnels\n- Best for: Mobile + web product teams\n\n### **Heap**\n- Auto-captures all user interactions\n- Free tier available\n- Best for: Quick implementation, no instrumentation needed\n\n### **Segment + open source warehouse**\n- Collect data cheaply, analyze in Postgres/DuckDB\n- Combine with: Metabase, Superset (free BI tools)\n- Best for: Tech-savvy teams, long-term cost savings\n\n### **Fathom Analytics**\n- Privacy-first, affordable ($14-39/month)\n- Best for: Websites, simple needs\n\n---\n\n## **Hybrid Approach (Best Value)**\n\n**Data pipeline**: Segment/mParticle → DuckDB/BigQuery → Metabase/Superset\n- Often cheaper than Amplitude at scale\n- Full control, no vendor lock-in\n\n---\n\n**What's your main use case?** (web, mobile, B2B, B2C?) Would help narrow recommendations.",
-  "cached_at": "2026-05-27T19:37:02Z",
-  "metadata": {}
-}

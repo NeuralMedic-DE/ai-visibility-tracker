@@ -1,9 +1,0 @@
-{
-  "brand": "Close",
-  "prompt_id": "AL-02",
-  "llm": "openai",
-  "prompt_text": "Cheaper alternatives to HubSpot",
-  "response": "If you're looking for cheaper alternatives to HubSpot for CRM and marketing automation, here are some options to consider:\n\n1. **Zoho CRM**: Offers a comprehensive suite of CRM tools with various pricing tiers, including a free version for small teams.\n\n2. **Pipedrive**: Known for its sales pipeline management, Pipedrive is user-friendly and offers competitive pricing.\n\n3. **Freshsales (by Freshworks)**: Provides an intuitive CRM with AI-based lead scoring and automation features at a lower cost.\n\n4. **Insightly**: Offers CRM and project management features, suitable for small to medium-sized businesses.\n\n5. **Agile CRM**: Combines sales, marketing, and service automation in one platform, with a free version for small teams.\n\n6. **ActiveCampaign**: Primarily an email marketing tool, it also offers CRM features and is known for its automation capabilities.\n\n7. **Bitrix24**: Offers a wide range of tools including CRM, project management, and communication tools, with a free plan available.\n\n8. **Salesforce Essentials**: A more affordable version of Salesforce designed for small businesses.\n\n9. **Capsule CRM**: A simple and effective CRM solution with a focus on ease of use and affordability.\n\n10. **Copper**: Designed for Google Workspace users, Copper integrates seamlessly with Google apps and offers CRM functionalities.\n\nEach of these alternatives has its own strengths and may be more suitable depending on your specific needs and budget. It's a good idea to take advantage of free trials or demos to see which one fits your business best.",
-  "cached_at": "2026-05-27T17:29:18Z",
-  "metadata": {}
-}

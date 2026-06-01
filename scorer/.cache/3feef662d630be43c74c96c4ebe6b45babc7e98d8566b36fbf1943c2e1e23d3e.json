@@ -1,9 +1,0 @@
-{
-  "brand": "TestBrand",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does TestBrand integrate with Slack?",
-  "response": "Yes, TestBrand does integrate with Slack. This integration allows you to receive notifications, alerts, or updates directly within your Slack channels, streamlining communication and collaboration. To set it up, you typically need to configure the integration through either TestBrand's settings or the Slack App Directory, depending on how the integration is offered.",
-  "cached_at": "2026-06-01T15:00:31Z",
-  "metadata": {}
-}

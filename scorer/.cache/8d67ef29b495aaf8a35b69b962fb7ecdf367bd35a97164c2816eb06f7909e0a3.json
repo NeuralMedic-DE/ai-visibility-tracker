@@ -1,9 +1,0 @@
-{
-  "brand": "Portkey",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with monitor costs and set safety guardrails on all LLM usage in production at scale?",
-  "response": "To monitor costs and set safety guardrails on large language model (LLM) usage in production at scale, you can consider using tools like:\n\n1. **Weights & Biases**: This tool offers experiment tracking, dataset versioning, and model management, which can help in monitoring the performance and costs associated with LLMs.\n\n2. **Arize AI**: Provides model monitoring and observability, allowing you to track model performance and detect issues in real-time, which can help in managing costs and ensuring safety.\n\n3. **Fiddler AI**: Offers model performance monitoring and explainability, which can help in understanding model behavior and setting safety guardrails.\n\n4. **MLflow**: An open-source platform for managing the ML lifecycle, including experimentation, reproducibility, and deployment, which can help in tracking costs and performance.\n\n5. **Tecton**: Provides a feature store for machine learning, which can help in managing data and monitoring costs associated with LLMs.\n\nThese tools can help you monitor usage, track costs, and implement safety measures to ensure that your LLMs are used efficiently and safely in production.",
-  "cached_at": "2026-05-28T07:52:06Z",
-  "metadata": {}
-}

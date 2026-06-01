@@ -1,9 +1,0 @@
-{
-  "brand": "Customer.io",
-  "prompt_id": "IN-05",
-  "llm": "openai",
-  "prompt_text": "marketing automation tools with native Segment integration",
-  "response": "There are several marketing automation tools that offer native integration with Segment. Here are some popular ones:\n\n1. **HubSpot**: HubSpot's marketing automation platform integrates with Segment, allowing you to sync customer data and automate marketing tasks seamlessly.\n\n2. **Marketo**: Marketo offers native integration with Segment, enabling you to leverage customer data for personalized marketing campaigns.\n\n3. **Braze**: Braze is a customer engagement platform that integrates with Segment to provide personalized messaging and marketing automation.\n\n4. **Iterable**: Iterable is a cross-channel marketing platform that integrates with Segment, allowing you to automate and personalize marketing communications.\n\n5. **Customer.io**: Customer.io offers native Segment integration, enabling you to create targeted and automated messaging based on user behavior.\n\n6. **Autopilot**: Autopilot integrates with Segment to help you automate customer journeys and marketing workflows.\n\n7. **ActiveCampaign**: ActiveCampaign provides marketing automation with Segment integration, allowing for enhanced customer data management and campaign personalization.\n\nThese tools can help you streamline your marketing efforts by leveraging the data collected and organized by Segment.",
-  "cached_at": "2026-05-28T07:14:57Z",
-  "metadata": {}
-}

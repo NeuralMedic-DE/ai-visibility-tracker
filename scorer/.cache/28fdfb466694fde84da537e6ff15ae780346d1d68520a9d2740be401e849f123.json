@@ -1,9 +1,0 @@
-{
-  "brand": "Metabase",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is Metabase better than Looker for share data insights with non-technical stakeholders?",
-  "response": "# Metabase vs Looker for Non-Technical Users\n\n**Metabase generally has the edge here.** Here's why:\n\n## Metabase's Strengths\n- **Simpler interface** — intuitive drag-and-drop query builder, minimal learning curve\n- **Faster setup** — can be running dashboards in hours, not weeks\n- **Lower cost** — open-source option available\n- **Self-service friendly** — non-technical users can create their own questions/dashboards\n\n## Looker's Trade-offs\n- **Steeper learning curve** — LookML requires some technical knowledge\n- **More setup required** — data modeling layer adds complexity upfront\n- **Higher cost** — enterprise pricing\n- **Better if** you need sophisticated governance, complex data relationships, or tight integration with Google Cloud\n\n## For Non-Technical Stakeholders Specifically\n\n**Choose Metabase if:**\n- Users mostly consume dashboards (not create)\n- You want quick time-to-value\n- Budget is limited\n- Your data structure is relatively straightforward\n\n**Looker might work if:**\n- You're willing to invest in training\n- You need heavy customization and governance\n- Your team has technical support available\n\n## Practical consideration\nMany organizations use both strategically—Metabase for self-service analytics, Looker for governed enterprise BI.\n\nWhat's your primary use case? (dashboards only vs. user-created reports?)",
-  "cached_at": "2026-05-27T20:08:03Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Sprinto",
-  "prompt_id": "AL-02",
-  "llm": "openai",
-  "prompt_text": "Cheaper alternatives to Drata",
-  "response": "If you're looking for cheaper alternatives to Drata for automating security compliance, there are several options you might consider:\n\n1. **Vanta**: Vanta is a popular choice for automating SOC 2, ISO 27001, and other compliance frameworks. It offers a range of features similar to Drata and is often praised for its ease of use.\n\n2. **Secureframe**: Secureframe helps companies achieve and maintain compliance with SOC 2, ISO 27001, and other standards. It provides automation tools and integrations to streamline the compliance process.\n\n3. **Tugboat Logic**: Tugboat Logic offers a comprehensive platform for managing security and compliance, including SOC 2, ISO 27001, and more. It provides tools for risk assessment, policy management, and audit readiness.\n\n4. **Laika**: Laika focuses on simplifying compliance for startups and small businesses, offering support for SOC 2, ISO 27001, and other frameworks with a focus on affordability and ease of use.\n\n5. **Strike Graph**: Strike Graph provides a customizable platform for managing security compliance, focusing on risk assessment and audit preparation.\n\n6. **Comply.io**: Comply.io offers tools for automating compliance processes, including policy management and audit preparation, with a focus on small to medium-sized businesses.\n\nWhen evaluating these alternatives, consider factors such as the specific compliance frameworks you need, the integrations with your existing tools, the level of customer support provided, and, of course, the pricing structure to ensure it fits your budget.",
-  "cached_at": "2026-05-28T08:31:15Z",
-  "metadata": {}
-}

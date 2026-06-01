@@ -1,9 +1,0 @@
-{
-  "brand": "Neon",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable database tools instead of PlanetScale",
-  "response": "# Open Source & Affordable Database Alternatives\n\n## **Self-Hosted MySQL/MariaDB**\n- **Cost**: Free (hosting costs vary)\n- **Setup**: Docker, traditional servers, or managed hosting\n- **Tools**: PhpMyAdmin, MySQL Workbench\n- **Best for**: Full control, no vendor lock-in\n\n## **PostgreSQL**\n- **Cost**: Free\n- **Advantages**: More advanced features than MySQL, JSONB support, full-text search\n- **Hosting options**: \n  - Self-hosted\n  - Supabase (free tier + affordable)\n  - Railway ($5/month starter)\n  - Render (free tier)\n\n## **Budget Managed Options**\n\n| Service | Price | Notes |\n|---------|-------|-------|\n| **Supabase** | Free tier + $25/mo | PostgreSQL, real-time, auth included |\n| **Railway** | Pay-as-you-go (~$5+) | Simple, PostgreSQL/MySQL |\n| **Render** | Free tier available | Easy deployment |\n| **Fly.io** | ~$3/mo min | Good for small apps |\n| **DigitalOcean** | $15+/mo | Managed databases, very reliable |\n\n## **Lightweight Alternatives**\n\n- **SQLite** - Embedded, zero-config (limited for scaling)\n- **MongoDB Atlas** - Free tier generous, document-based\n- **Firebase/Firestore** - Free tier solid, but less SQL-like\n\n## **My Recommendation**\n**Supabase** for most projects—PostgreSQL power with free tier + affordable upgrades, without PlanetScale's limitations.\n\nWhat's your use case? (App type, expected scale, budget?)",
-  "cached_at": "2026-05-28T06:17:53Z",
-  "metadata": {}
-}

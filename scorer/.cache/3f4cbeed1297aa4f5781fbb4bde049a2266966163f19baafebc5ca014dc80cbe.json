@@ -1,9 +1,0 @@
-{
-  "brand": "Planhat",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Planhat with Salesforce?",
-  "response": "# Connecting Planhat with Salesforce\n\nHere's how to set up the integration:\n\n## Basic Steps\n\n1. **Log in to Planhat** as an admin\n2. **Go to Settings** → **Integrations** (or **Connectors**)\n3. **Find Salesforce** in the available integrations\n4. **Click \"Connect\"** or **\"Authorize\"**\n5. **Log in with your Salesforce credentials** when prompted\n6. **Grant permissions** for Planhat to access your Salesforce data\n7. **Configure field mappings** (which Salesforce fields sync with Planhat fields)\n\n## Key Configuration Options\n\n- **Data sync direction**: Choose what syncs (two-way, one-way, etc.)\n- **Objects to sync**: Select which Salesforce objects (Accounts, Contacts, Opportunities, etc.)\n- **Field mapping**: Match Salesforce fields with Planhat fields\n- **Sync frequency**: Set how often data updates\n\n## Common Use Cases\n\n- Syncing Salesforce Accounts → Planhat Companies\n- Syncing Contacts → Planhat Contacts\n- Pulling opportunity data for customer success tracking\n\n## Need Help?\n\n- Check **Planhat's Help Center** for detailed documentation\n- Review **Salesforce permissions** if you get access errors\n- Ensure your Salesforce user has sufficient admin permissions\n\nDo you have a specific sync requirement or are you running into an issue with the connection?",
-  "cached_at": "2026-05-28T08:12:22Z",
-  "metadata": {}
-}

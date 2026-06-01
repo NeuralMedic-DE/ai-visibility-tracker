@@ -1,9 +1,0 @@
-{
-  "brand": "Render",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best cloud infrastructure for startup and scale-up engineering teams?",
-  "response": "# Cloud Infrastructure for Startup/Scale-up Teams\n\n## Top Contenders\n\n**AWS**\n- Most mature ecosystem and widest service range\n- Best for teams needing flexibility and growth runway\n- Steeper learning curve; can become expensive without discipline\n- Strong for complex architectures\n\n**Google Cloud (GCP)**\n- Excellent data analytics and ML capabilities\n- Generally simpler pricing model than AWS\n- Smaller ecosystem of third-party tools\n- Good for data-heavy startups\n\n**DigitalOcean**\n- Simplest mental model; fastest to deploy\n- Best for early stage when you want to ship quickly\n- Limited as you scale to sophisticated needs\n- Much cheaper initially\n\n## Practical Framework\n\nChoose based on your stage:\n\n| Stage | Best Option |\n|-------|------------|\n| Pre-product | DigitalOcean or cheap VPS |\n| MVP/Product-market fit | AWS or GCP |\n| Scaling | AWS (ecosystem) or GCP (if data-focused) |\n\n## Key Considerations\n\n**What actually matters:**\n- **Team expertise** — use what your hires know\n- **Time to market** — simpler = faster early on\n- **Specific needs** — ML? → GCP; databases? → AWS; simplicity? → DigitalOcean\n- **Budget constraints** — DigitalOcean/Heroku cheaper upfront; AWS cheaper at scale\n\n**Avoid early:**\n- Multi-cloud complexity\n- Optimizing costs before you have revenue\n- Over-engineering infrastructure\n\n**Realistic advice:** Most successful startups pick one platform and stick with it for 2-3 years before reconsidering.\n\nWhat's your team size and primary use case? That would help narrow it down.",
-  "cached_at": "2026-05-27T21:35:49Z",
-  "metadata": {}
-}

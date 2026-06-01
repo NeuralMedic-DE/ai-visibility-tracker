@@ -1,9 +1,0 @@
-{
-  "brand": "Apollo.io",
-  "prompt_id": "CD-05",
-  "llm": "anthropic",
-  "prompt_text": "Recommended CRM tools for SDR teams at B2B companies companies",
-  "response": "# Best CRM Tools for B2B SDR Teams\n\n## Top Tier (Purpose-Built for SDRs)\n\n### **Salesforce Sales Cloud**\n- **Strengths**: Industry standard, powerful automation, extensive integrations, customizable workflows\n- **Best for**: Enterprise teams needing robust reporting and compliance\n- **Drawback**: Steep learning curve, higher cost\n\n### **HubSpot Sales Hub**\n- **Strengths**: User-friendly, excellent for sequences, native email integration, affordable\n- **Best for**: Mid-market teams and those prioritizing ease of use\n- **Drawback**: Can feel limited at very large scale\n\n### **Pipedrive**\n- **Strengths**: Pipeline-focused, visual deal management, mobile-friendly, quick implementation\n- **Best for**: Teams that live by their pipeline\n- **Drawback**: Limited advanced features vs. Salesforce\n\n## Specialized SDR Tools\n\n### **Outreach** or **Salesloft**\n- Purpose-built sales engagement platforms\n- Best for: High-volume outreach and sequencing\n- Often used *alongside* CRM rather than as primary CRM\n\n## Budget-Friendly Options\n\n- **Copper** (Gmail-native, lighter weight)\n- **Zoho CRM** (affordable with good features)\n- **Freshsales** (clean interface, good onboarding)\n\n## Selection Framework\n\n| Priority | Recommended |\n|----------|------------|\n| Ease of use | HubSpot, Pipedrive |\n| Scalability | Salesforce |\n| Budget-conscious | Zoho, Freshsales |\n| Sales sequences | HubSpot, Outreach |\n| Customization | Salesforce, HubSpot |\n\n**Pro tip**: Most top SDR teams use a CRM + dedicated engagement tool combo (e.g., Salesforce + Outreach) rather than one tool doing everything.\n\nWhat's your team size and budget range?",
-  "cached_at": "2026-05-27T18:03:40Z",
-  "metadata": {}
-}

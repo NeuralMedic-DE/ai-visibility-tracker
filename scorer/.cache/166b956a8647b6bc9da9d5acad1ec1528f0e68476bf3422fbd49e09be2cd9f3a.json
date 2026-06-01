@@ -1,9 +1,0 @@
-{
-  "brand": "HiBob",
-  "prompt_id": "IN-02",
-  "llm": "anthropic",
-  "prompt_text": "HiBob Google Workspace integration: how does it work?",
-  "response": "# HiBob Google Workspace Integration\n\n## Overview\nHiBob integrates with Google Workspace to streamline HR workflows and data synchronization between platforms.\n\n## Key Capabilities\n\n### 1. **Single Sign-On (SSO)**\n- Employees log into HiBob using their Google Workspace credentials\n- Reduces password management and improves security\n- Simplified onboarding process\n\n### 2. **Data Synchronization**\n- **Employee Directory**: Syncs employee information between HiBob and Google Contacts\n- **Email Integration**: HiBob can pull employee email data from Workspace\n- **Calendar Sync**: Some features integrate with Google Calendar for scheduling\n\n### 3. **Email & Communication**\n- HiBob notifications can be sent via Gmail\n- Employee directory linked to Google Workspace contacts\n- Email-triggered workflows\n\n### 4. **Profile & Directory Management**\n- Centralized employee information accessible across both platforms\n- Updated employee data reflects in Google Workspace directory\n- Profile photos and contact details synchronized\n\n## Common Use Cases\n- ✅ Streamlined employee onboarding\n- ✅ Automated access provisioning\n- ✅ HR communications sent via familiar Gmail interface\n- ✅ Single source of truth for employee data\n\n## Setup Requirements\n- Active HiBob account\n- Google Workspace domain\n- Admin access to both platforms\n- OAuth permissions configuration\n\n## Limitations to Consider\n- Two-way sync may have latency\n- Some features require manual configuration\n- Integration scope depends on your HiBob plan\n\nWould you like details on setup steps or specific integration features?",
-  "cached_at": "2026-05-28T06:32:43Z",
-  "metadata": {}
-}

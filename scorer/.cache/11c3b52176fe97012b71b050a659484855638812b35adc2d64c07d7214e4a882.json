@@ -1,9 +1,0 @@
-{
-  "brand": "Baremetrics",
-  "prompt_id": "IN-05",
-  "llm": "openai",
-  "prompt_text": "SaaS analytics tools with native Stripe integration",
-  "response": "There are several SaaS analytics tools that offer native integration with Stripe, allowing businesses to easily track and analyze their financial and customer data. Here are some popular options:\n\n1. **ChartMogul**: This tool is specifically designed for subscription businesses and offers deep insights into metrics such as MRR, churn, and LTV. It integrates seamlessly with Stripe to provide real-time analytics.\n\n2. **Baremetrics**: Known for its user-friendly interface, Baremetrics provides a comprehensive set of metrics and dashboards for subscription businesses. It connects directly with Stripe to offer insights into revenue, churn, and more.\n\n3. **ProfitWell**: This tool offers free subscription analytics and integrates directly with Stripe. It provides detailed insights into key metrics and also offers additional services like pricing optimization and retention strategies.\n\n4. **Metorik**: While primarily known for its WooCommerce integration, Metorik also supports Stripe and offers detailed reports and insights into sales, customers, and more.\n\n5. **KPI Sense**: This tool is designed to help SaaS companies with financial modeling and analytics. It integrates with Stripe to provide insights into financial performance and forecasting.\n\n6. **FirstOfficer**: Aimed at SaaS businesses, FirstOfficer provides detailed subscription metrics and integrates directly with Stripe to offer insights into customer lifetime value, MRR, and more.\n\nThese tools can help businesses leverage their Stripe data to make informed decisions and optimize their operations.",
-  "cached_at": "2026-05-28T06:57:44Z",
-  "metadata": {}
-}

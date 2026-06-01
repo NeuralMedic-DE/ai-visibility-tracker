@@ -1,9 +1,0 @@
-{
-  "brand": "Comet ML",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to MLflow",
-  "response": "# Cheaper Alternatives to MLflow\n\n## Free/Open-Source Options\n\n### **DVC (Data Version Control)**\n- Free, open-source\n- Git-based experiment tracking\n- Good for datasets and models\n- Basic metrics/params logging\n- **Best for:** Teams already using Git\n\n### **Weights & Biases (W&B) Community**\n- Free tier available\n- Lightweight experiment tracking\n- Good visualization\n- Limited storage/history\n- **Best for:** Individual researchers, small teams\n\n### **Neptune.ai (Free Tier)**\n- Generous free tier\n- Clean UI for experiments\n- Good metadata tracking\n- Limited storage (~100GB)\n- **Best for:** Small projects, prototyping\n\n### **TensorBoard**\n- Completely free (included with TensorFlow)\n- Simple metrics visualization\n- No backend required\n- **Limitations:** TensorFlow/PyTorch only, no comparison features\n- **Best for:** Deep learning projects\n\n### **Sacred**\n- Lightweight, free\n- MongoDB/file-based storage\n- Minimal setup\n- Less polished UI\n- **Best for:** Quick experiment logging\n\n---\n\n## Budget-Friendly Commercial Options\n\n| Tool | Free Tier | Starting Price | Best For |\n|------|-----------|-----------------|----------|\n| **Comet ML** | Yes | $50/mo | Model explainability |\n| **Aim** | Open-source | Free | High-volume experiments |\n| **Guild AI** | Open-source | Free | Local tracking |\n| **Kubeflow** | Self-hosted | Free | Kubernetes deployments |\n\n---\n\n## My Recommendations\n\n**Choose based on your needs:**\n- 🎯 **Tight budget:** DVC + TensorBoard\n- 📊 **Best free tier:** Weights & Biases or Neptune\n- 🔬 **Academic/research:** Sacred or Aim\n- 🚀 **Production at scale:** Self-hosted MLflow (cheaper than SaaS)\n\nWould you like details on any specific alternative?",
-  "cached_at": "2026-05-28T07:54:17Z",
-  "metadata": {}
-}

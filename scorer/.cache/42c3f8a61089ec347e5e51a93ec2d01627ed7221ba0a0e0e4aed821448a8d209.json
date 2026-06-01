@@ -1,9 +1,0 @@
-{
-  "brand": "Nutshell",
-  "prompt_id": "CD-01",
-  "llm": "openai",
-  "prompt_text": "What is the best CRM for small and mid-size B2B sales teams?",
-  "response": "Selecting the best CRM for small and mid-size B2B sales teams depends on specific needs, budget, and the features required. However, some popular CRM options that are often recommended for small and mid-size B2B sales teams include:\n\n1. **HubSpot CRM**: Known for its user-friendly interface and free tier, HubSpot CRM offers a range of features suitable for small to mid-sized businesses. It integrates well with other HubSpot tools and provides robust sales and marketing capabilities.\n\n2. **Salesforce Essentials**: This is a scaled-down version of Salesforce, designed for small businesses. It offers powerful features and customization options, making it a good choice for teams looking to grow.\n\n3. **Zoho CRM**: Zoho offers a comprehensive suite of tools at an affordable price. It's highly customizable and integrates with other Zoho products, making it a flexible option for growing businesses.\n\n4. **Pipedrive**: Known for its intuitive interface and sales pipeline management, Pipedrive is ideal for sales-focused teams. It offers visual sales pipelines and automation features that help streamline sales processes.\n\n5. **Freshsales**: Part of the Freshworks suite, Freshsales offers AI-based lead scoring, built-in phone, email, and chat features, and is designed to help sales teams manage their contacts and deals effectively.\n\n6. **Copper**: If your team uses Google Workspace, Copper integrates seamlessly with it, offering a simple and intuitive user experience. It's designed to work directly within Gmail and other Google apps.\n\nWhen choosing a CRM, consider factors such as ease of use, integration capabilities, scalability, customer support, and pricing to find the best fit for your team's specific needs.",
-  "cached_at": "2026-05-27T18:29:40Z",
-  "metadata": {}
-}

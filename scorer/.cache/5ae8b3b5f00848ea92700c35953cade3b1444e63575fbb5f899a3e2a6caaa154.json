@@ -1,9 +1,0 @@
-{
-  "brand": "Workable",
-  "prompt_id": "UC-04",
-  "llm": "openai",
-  "prompt_text": "How can a Recruiting Lead or HR Manager at a growing company post jobs to 200 plus job boards with a single click more efficiently?",
-  "response": "A Recruiting Lead or HR Manager can post jobs to 200 plus job boards efficiently by using a job distribution platform or an applicant tracking system (ATS) that offers multi-channel job posting capabilities. These platforms allow you to create a job posting once and distribute it to numerous job boards with a single click. Here are some popular options:\n\n1. **Broadbean**: This tool integrates with many ATS platforms and allows you to post jobs to multiple job boards simultaneously.\n\n2. **SmartRecruiters**: This ATS offers a feature called \"SmartDistribute,\" which enables you to post jobs to over 200 job boards.\n\n3. **LinkedIn Talent Solutions**: While primarily a professional network, LinkedIn offers job distribution services to multiple job boards.\n\n4. **ZipRecruiter**: Known for its wide distribution network, ZipRecruiter posts your job to 100+ job boards with one submission.\n\n5. **iCIMS**: This platform provides a robust job distribution feature that can post to a wide array of job boards.\n\n6. **Jobvite**: Offers a comprehensive recruitment solution with job distribution capabilities to a large network of job boards.\n\n7. **Workable**: This ATS allows you to post jobs to over 200 job boards and offers various recruitment tools.\n\nUsing these platforms not only saves time but also increases the reach and visibility of your job postings, helping you attract a larger pool of candidates.",
-  "cached_at": "2026-05-28T06:46:06Z",
-  "metadata": {}
-}

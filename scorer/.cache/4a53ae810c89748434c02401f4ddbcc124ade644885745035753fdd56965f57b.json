@@ -1,9 +1,0 @@
-{
-  "brand": "Secureframe",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Secureframe with GitHub?",
-  "response": "# Connecting Secureframe with GitHub\n\nHere's how to set up the integration:\n\n## Steps\n\n1. **Log in to Secureframe** and go to your dashboard\n\n2. **Navigate to Integrations**\n   - Look for the integrations section (usually in settings or a dedicated integrations menu)\n\n3. **Find and select GitHub**\n   - Search for GitHub in the available integrations list\n\n4. **Authorize the connection**\n   - Click \"Connect\" or \"Authorize\"\n   - You'll be redirected to GitHub to grant permissions\n   - Review the permissions Secureframe is requesting\n   - Click \"Authorize\" on GitHub\n\n5. **Configure settings**\n   - Select which repositories you want to monitor\n   - Choose what data/metrics Secureframe should track (e.g., code commits, security alerts, vulnerability scanning)\n\n6. **Complete setup**\n   - Verify the connection is active in Secureframe\n\n## What Secureframe Monitors\n\nOnce connected, Secureframe typically tracks:\n- Code repository activity\n- Security alerts and vulnerabilities\n- Dependency scanning\n- Compliance-related code practices\n\n## Troubleshooting\n\n- Ensure you have admin/owner permissions on both Secureframe and GitHub\n- Check that your GitHub account has access to the repositories you want to connect\n- Verify your GitHub permissions haven't expired\n\nFor the most current instructions, check **Secureframe's support documentation** or contact their support team directly, as UI/processes may have changed.",
-  "cached_at": "2026-05-28T08:34:03Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Hightouch",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to Omnata",
-  "response": "# Cheaper Alternatives to Omnata\n\nOmnata is a cloud data governance platform. Here are more cost-effective options:\n\n## **Open Source Solutions**\n- **Apache Atlas** - Free metadata management and data governance\n- **OpenMetadata** - Free, open-source data catalog and governance\n- **Great Expectations** - Free data quality framework\n- **Collibra Community Edition** - Limited free version\n\n## **Budget-Friendly Commercial Tools**\n- **Alation** (lower-tier plans) - Data catalog with governance features\n- **Informatica** - Tiered pricing, often cheaper than Omnata\n- **Talend** - Data integration with governance capabilities\n- **Azure Purview** - Microsoft's option; pay-per-use model\n- **AWS Glue** - AWS's data catalog/governance\n- **dbt** - Free/low-cost data transformation with governance\n\n## **Lightweight Alternatives**\n- **Fivetran Metadata** - Simple data lineage tracking\n- **Meltano** - Open-source ELT platform\n- **Cube** - Semantic layer for BI governance\n- **Freshpaint** - Customer data platform with compliance focus\n\n## **What to Consider**\n- What specific features do you need? (lineage, quality, compliance, access control?)\n- Your data stack (cloud, on-prem, hybrid?)\n- Team size and technical expertise\n- Budget constraints\n\n**Share your specific use case for more targeted recommendations.**",
-  "cached_at": "2026-05-28T09:05:29Z",
-  "metadata": {}
-}

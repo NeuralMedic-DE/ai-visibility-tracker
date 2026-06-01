@@ -1,9 +1,0 @@
-{
-  "brand": "Pilot",
-  "prompt_id": "AL-05",
-  "llm": "openai",
-  "prompt_text": "Open source or affordable finance tools instead of QuickBooks",
-  "response": "There are several open-source and affordable finance tools that can serve as alternatives to QuickBooks. Here are some options:\n\n1. **GnuCash**: An open-source accounting software that offers features like double-entry accounting, scheduled transactions, and financial reports. It's suitable for small businesses and personal finance management.\n\n2. **Wave**: A free, web-based accounting software that provides features such as invoicing, accounting, and receipt scanning. It's particularly popular among freelancers and small businesses.\n\n3. **Odoo**: An open-source ERP system that includes a suite of business applications, including accounting. The community version is free, but you may need to pay for additional modules or support.\n\n4. **Manager**: A free accounting software for small businesses available on desktop. It offers features like invoicing, expense tracking, and financial reporting.\n\n5. **ZipBooks**: Offers a free version with basic accounting features, including invoicing and expense tracking. Paid plans are available for more advanced features.\n\n6. **KMyMoney**: An open-source personal finance manager that is user-friendly and provides features like double-entry accounting and investment tracking.\n\n7. **Zoho Books**: While not open-source, it is an affordable cloud-based accounting solution with various pricing plans suitable for small businesses.\n\nEach of these tools has its own strengths and limitations, so it's important to evaluate them based on your specific needs and preferences.",
-  "cached_at": "2026-05-28T07:02:38Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Reply.io",
-  "prompt_id": "AL-05",
-  "llm": "openai",
-  "prompt_text": "Open source or affordable sales engagement tools instead of Outreach",
-  "response": "There are several open-source and affordable sales engagement tools you can consider as alternatives to Outreach. Here are a few options:\n\n1. **HubSpot Sales Hub**: While not open-source, HubSpot offers a free version with basic sales engagement features. Their paid plans are also relatively affordable and scale with your needs.\n\n2. **Zoho CRM**: Zoho offers a comprehensive suite of tools, including sales engagement features, at a competitive price. They also have a free tier for small teams.\n\n3. **Freshsales**: Part of the Freshworks suite, Freshsales offers sales engagement features with a free tier and affordable paid plans.\n\n4. **Mailshake**: While not open-source, Mailshake is a cost-effective tool focused on email outreach and sales engagement.\n\n5. **SuiteCRM**: An open-source CRM that can be customized to include sales engagement features. It’s a good option if you have the technical resources to set it up and maintain it.\n\n6. **Bitrix24**: Offers a free version with sales engagement tools and has affordable paid plans. It includes CRM, project management, and collaboration tools.\n\n7. **EngageBay**: Provides a free tier and affordable pricing for its sales engagement and CRM tools, making it a good option for small businesses.\n\nThese tools vary in terms of features, so it’s a good idea to evaluate them based on your specific needs, such as email automation, CRM integration, and reporting capabilities.",
-  "cached_at": "2026-05-28T07:21:15Z",
-  "metadata": {}
-}

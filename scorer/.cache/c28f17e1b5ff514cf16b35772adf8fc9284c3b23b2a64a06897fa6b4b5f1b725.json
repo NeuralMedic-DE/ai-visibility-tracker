@@ -1,9 +1,0 @@
-{
-  "brand": "Copper",
-  "prompt_id": "CD-04",
-  "llm": "openai",
-  "prompt_text": "Best CRM platforms for manage client relationships inside Gmail",
-  "response": "If you're looking to manage client relationships directly within Gmail, there are several CRM platforms that integrate seamlessly with it. Here are some of the best options:\n\n1. **Streak CRM**: Streak is designed specifically for Gmail and integrates directly into your inbox. It allows you to manage contacts, track emails, and manage sales pipelines without leaving Gmail.\n\n2. **HubSpot CRM**: HubSpot offers a Gmail integration that allows you to track emails, log interactions, and manage contacts from within your Gmail account. It's a powerful tool for managing customer relationships and is free to start with.\n\n3. **Zoho CRM**: Zoho provides a Gmail add-on that lets you access CRM information directly from your inbox. You can view contact details, add notes, and manage tasks without switching tabs.\n\n4. **Copper CRM**: Formerly known as ProsperWorks, Copper is built to integrate with Google Workspace. It offers a native Gmail integration that helps you manage leads and track communication efficiently.\n\n5. **Salesforce Inbox**: Salesforce offers an integration called Salesforce Inbox that brings CRM capabilities into Gmail. It allows you to sync emails, manage leads, and access Salesforce data directly from your inbox.\n\n6. **Nimble**: Nimble provides a Gmail extension that helps you manage contacts and track interactions. It also offers social media integration, which can be useful for a more comprehensive view of your client relationships.\n\nThese platforms offer various features and pricing plans, so it's a good idea to evaluate them based on your specific needs and budget.",
-  "cached_at": "2026-05-27T18:20:16Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Rippling",
-  "prompt_id": "IN-03",
-  "llm": "openai",
-  "prompt_text": "How do I connect Rippling with Slack?",
-  "response": "To connect Rippling with Slack, you can follow these general steps:\n\n1. **Log in to Rippling:**\n   - Go to the Rippling website and log in to your account.\n\n2. **Access the App Store:**\n   - Once logged in, navigate to the Rippling App Store. This is typically found in the main menu or dashboard.\n\n3. **Find Slack Integration:**\n   - In the App Store, search for \"Slack\" to find the Slack integration option.\n\n4. **Install the Slack App:**\n   - Click on the Slack app and follow the prompts to install it. You may need to authorize the connection between Rippling and Slack.\n\n5. **Authorize Permissions:**\n   - You will be redirected to Slack to authorize the integration. Make sure you have the necessary permissions to add apps to your Slack workspace.\n\n6. **Configure Settings:**\n   - After authorization, you may need to configure settings for how Rippling interacts with Slack. This could include selecting which channels to post updates to or setting up notifications.\n\n7. **Test the Integration:**\n   - Once set up, test the integration to ensure that Rippling is communicating with Slack as expected. You can do this by performing an action in Rippling that should trigger a Slack notification.\n\n8. **Adjust as Needed:**\n   - If necessary, go back into the settings to adjust any configurations or permissions.\n\nIf you encounter any issues, consult Rippling's support documentation or contact their support team for assistance.",
-  "cached_at": "2026-05-28T06:27:45Z",
-  "metadata": {}
-}

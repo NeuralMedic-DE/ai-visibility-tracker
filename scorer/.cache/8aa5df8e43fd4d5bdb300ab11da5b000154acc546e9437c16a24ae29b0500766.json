@@ -1,9 +1,0 @@
-{
-  "brand": "Humaans",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "BambooHR vs alternatives: what should I switch to?",
-  "response": "# BambooHR vs Alternatives\n\n**Before switching, consider:**\n\n- **Why you're leaving** — gaps vary (cost, features, integrations, support, UX)\n- **Your size/complexity** — needs differ for startups vs enterprises\n- **Migration costs** — data transfer, setup time, retraining staff\n\n## Strongest alternatives by use case\n\n**Best overall ease of use**\n- Guidepoint (formerly BambooHR competitor)\n- Rippling — if you want IT + HR bundled\n- Lattice — strong on performance management\n\n**Best for small businesses**\n- Zenefits — simpler, cheaper\n- Paychex Flex — integrated payroll\n- ADP Workforce Now — trusted, comprehensive\n\n**Best for mid-market**\n- Workday — powerful but pricey and complex\n- SuccessFactors — strong analytics\n- Namely — culture-focused\n\n**Best for specific needs**\n- Gusto — if payroll is a pain point\n- 15Five — if you prioritize engagement/feedback\n- Culture Amp — if you want deep analytics on culture\n\n## Red flags to avoid\n- ❌ Picking based on single features you lack\n- ❌ Assuming \"newer = better\"\n- ❌ Ignoring total cost of ownership (setup, training, integrations)\n\n**What's actually pushing you to consider leaving?** That'll help narrow realistic options.",
-  "cached_at": "2026-05-28T06:48:10Z",
-  "metadata": {}
-}

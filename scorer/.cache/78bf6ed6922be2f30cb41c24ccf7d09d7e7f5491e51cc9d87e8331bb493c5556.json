@@ -1,9 +1,0 @@
-{
-  "brand": "Lattice",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Lattice integrate with Slack?",
-  "response": "Yes, Lattice does integrate with Slack. This integration allows teams to receive notifications and updates directly in Slack, making it easier to stay informed about performance reviews, feedback, goal updates, and other Lattice activities without leaving the Slack environment. To set up the integration, you typically need to have administrative permissions in both Lattice and Slack to authorize and configure the connection.",
-  "cached_at": "2026-05-28T06:30:07Z",
-  "metadata": {}
-}

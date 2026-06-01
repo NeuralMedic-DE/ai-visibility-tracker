@@ -1,9 +1,0 @@
-{
-  "brand": "Encharge",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Encharge with Stripe?",
-  "response": "# Connecting Encharge with Stripe\n\nHere's how to set up the integration:\n\n## Steps\n\n1. **Log into Encharge**\n   - Go to your Encharge dashboard\n\n2. **Navigate to Integrations**\n   - Click **Settings** (or gear icon)\n   - Select **Integrations** or **Apps**\n\n3. **Find and Select Stripe**\n   - Search for \"Stripe\" in the available integrations\n   - Click on it\n\n4. **Authorize the Connection**\n   - Click **Connect** or **Authorize**\n   - You'll be redirected to Stripe's login page\n   - Log into your Stripe account\n   - Review and approve the permissions Encharge is requesting\n\n5. **Confirm Connection**\n   - Once authorized, return to Encharge\n   - The integration should now show as \"Connected\"\n\n## What You Can Do\n\nOnce connected, you can typically:\n- Sync customer and payment data\n- Trigger automation based on payment events\n- Track subscription information\n- Create segments based on purchase history\n\n## Troubleshooting\n\n- Ensure you have admin access to both Encharge and Stripe\n- Check that your Stripe account is active\n- Verify you're using the correct account credentials\n\n**Note:** Steps may vary slightly depending on your Encharge plan. Check [Encharge's support documentation](https://help.encharge.io) for the most current instructions.\n\nNeed help with a specific step?",
-  "cached_at": "2026-05-28T07:28:41Z",
-  "metadata": {}
-}

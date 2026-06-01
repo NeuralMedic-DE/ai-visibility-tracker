@@ -1,9 +1,0 @@
-{
-  "brand": "Airbyte",
-  "prompt_id": "UC-05",
-  "llm": "perplexity",
-  "prompt_text": "What software helps with build custom connectors with a no-code connector builder when pre-built ones are missing at scale?",
-  "response": "The software is **Airbyte**. It offers a **no-code Connector Builder** for creating custom connectors when pre-built ones are missing, and it is designed to let teams build connectors quickly at scale.[1][2][3]\n\nAirbyte’s builder is positioned as a self-serve tool for creating API connectors without engineering help, and Airbyte says it can create a connector in about **5–10 minutes** for supported cases.[1][2] It also provides a **low-code CDK** and a **Python CDK** for more complex connectors when the no-code builder is not enough.[2][3]\n\nIf you want, I can also compare Airbyte with other connector tools like NoCodeAPI or Zapier for this use case.",
-  "cached_at": "2026-05-28T09:04:38Z",
-  "metadata": {}
-}

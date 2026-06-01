@@ -1,9 +1,0 @@
-{
-  "brand": "Humaans",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable HR tools instead of HiBob",
-  "response": "# Open Source & Affordable HR Tools vs HiBob\n\n## Open Source Options\n\n### **OpenHRM**\n- Fully open source, self-hosted\n- Employee records, leave management, recruitment\n- Good for small teams with technical resources\n\n### **OrangeHRM**\n- Open source + commercial versions\n- Core modules: employee management, recruitment, leave, attendance\n- Community support; paid hosting available\n\n### **Frappe HR**\n- Part of the ERPNext ecosystem\n- Employee records, leave, attendance, performance management\n- Self-hosted; good for startups\n\n---\n\n## Affordable/Budget Alternatives\n\n### **Low-Cost Options ($50-200/month)**\n- **Personio** — streamlined HRIS, focused feature set\n- **Workable** — strong on recruitment, lighter on HR\n- **Paychex Flex** — integrated payroll + HR\n- **Guidepoint** — employee self-service, affordable\n\n### **Micro-Business Options (<$50/month)**\n- **Zenefits** — free version available (limited)\n- **Deputy** — shift scheduling + HR basics\n- **Square Payroll** — minimal but functional\n- **Gusto** — payroll-first but includes HR starter features\n\n### **Spreadsheet/Freemium Hybrid**\n- **Google Workspace + Forms** — DIY approach\n- **Airtable** — customizable databases for HR workflows\n- **Monday.com** — flexible project/HR management\n\n---\n\n## Quick Comparison to HiBob\n\n| Feature | HiBob | Alternatives |\n|---------|-------|--------------|\n| **Price** | $$$$ (~$15/emp) | $-$$ (~$3-8/emp) |\n| **Ease** | Very high | Medium-High |\n| **Customization** | Limited | High (esp. open source) |\n| **Team Size** | 50+ | Any size |\n\n**Best for:** Need more details on your team size and priorities?",
-  "cached_at": "2026-05-28T06:48:11Z",
-  "metadata": {}
-}

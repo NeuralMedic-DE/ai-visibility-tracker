@@ -1,9 +1,0 @@
-{
-  "brand": "Rippling",
-  "prompt_id": "AL-02",
-  "llm": "openai",
-  "prompt_text": "Cheaper alternatives to BambooHR",
-  "response": "If you're looking for cheaper alternatives to BambooHR, there are several options available that offer a range of features for managing HR tasks. Here are a few:\n\n1. **Zoho People**: Zoho People is a comprehensive HR software that offers modules for attendance, leave management, performance appraisals, and more. It's known for its affordability and scalability.\n\n2. **Gusto**: While primarily a payroll service, Gusto also offers features for onboarding, benefits administration, and compliance. It's particularly popular with small businesses.\n\n3. **Freshteam by Freshworks**: Freshteam provides tools for applicant tracking, onboarding, time-off management, and employee information management. It's part of the Freshworks suite, known for its user-friendly interface and competitive pricing.\n\n4. **Breezy HR**: Breezy HR focuses on recruitment and applicant tracking but also offers some HR management features. It's a good choice for companies primarily looking to streamline their hiring process.\n\n5. **Cezanne HR**: Cezanne HR offers a modular approach, allowing you to pay for only the features you need, such as core HR, performance management, and absence tracking.\n\n6. **OrangeHRM**: This is an open-source HR management software that can be a cost-effective solution for businesses that are comfortable with a bit of technical setup and customization.\n\n7. **Bitrix24**: Bitrix24 offers a free plan with basic HR tools, including time management, employee directory, and task management, with paid plans for more advanced features.\n\nEach of these options has its own strengths and may suit different business needs, so it's a good idea to evaluate them based on the specific features and budget requirements of your organization.",
-  "cached_at": "2026-05-28T06:27:33Z",
-  "metadata": {}
-}

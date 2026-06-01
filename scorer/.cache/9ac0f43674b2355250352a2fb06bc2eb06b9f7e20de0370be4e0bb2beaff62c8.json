@@ -1,9 +1,0 @@
-{
-  "brand": "Mosaic",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best FP&A for CFOs and FP&A leads at growth-stage venture-backed companies?",
-  "response": "# Best FP&A Tools for Growth-Stage VC-Backed Companies\n\nThe \"best\" depends on your specific needs, but here's what works well:\n\n## Top Tier (Most Popular)\n\n**Mosaic** or **Anaplan** (now Salesforce)\n- Purpose-built for venture-backed companies\n- Strong scenario planning and board reporting\n- Mosaic especially popular with growth-stage teams\n\n**Planful** (formerly Host Analytics)\n- Scalable as you grow\n- Good balance of sophistication and ease of use\n- Strong in consolidation and multi-entity modeling\n\n## Strong Alternatives\n\n**Cabana** or **Pigment**\n- Newer players with better UX than legacy tools\n- Collaborative, driver-based modeling\n- Strong for iterative planning\n\n**Kyriba** or **Workday Planning**\n- If you need integrated treasury/cash flow focus\n- Better for companies scaling to mid-market\n\n## Implementation Reality Check\n\nFor growth-stage companies specifically:\n- **Speed matters more than perfection** — pick tools your team will actually use\n- **Avoid over-engineering** — you'll need to rebuild models in 18 months anyway\n- **Integration costs are hidden** — factor in data pipeline complexity\n- **Many successful teams use Excel + Tableau/Looker** — don't assume you need specialized FP&A software yet\n\n## My Practical Recommendation\n\nStart with what integrates cleanest with your existing stack (Salesforce, NetSuite, etc.). Mosaic wins for teams wanting a dedicated platform; Planful if you need consolidation; spreadsheets if your model is still stabilizing.\n\nWhat's your company's current stage and biggest FP&A pain point?",
-  "cached_at": "2026-05-28T07:09:50Z",
-  "metadata": {}
-}

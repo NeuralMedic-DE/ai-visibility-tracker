@@ -1,9 +1,0 @@
-{
-  "brand": "Encharge",
-  "prompt_id": "IN-05",
-  "llm": "perplexity",
-  "prompt_text": "marketing automation tools with native Stripe integration",
-  "response": "Here are some **marketing automation tools with native Stripe integration**, based on the results you provided:\n\n- **DailyStory** — offers a **native Stripe integration** with direct API connection, OAuth setup, and automation triggered by charges, refunds, subscription changes, and failed payments.[1]\n- **Encharge** — described as a **native Stripe-integrating email automation tool**, with Stripe events available as triggers for visual automations.[2][3]\n- **Audienceful** — listed in the Stripe App Marketplace as an email marketing automation platform for **Stripe-powered businesses**.[6]\n- **Klaviyo** — reported to have a **native Stripe integration** that pulls subscription and payment data into customer profiles.[3][7]\n- **ActiveCampaign** — has Stripe support, but the sources indicate it may rely on **Deep Data or third-party connectors** rather than a fully native Stripe setup in all cases.[2][3]\n- **Ortto** — described as having **Stripe as a native data source** for subscription, invoice, and customer data.[3]\n- **Bento** — listed as having a **native Stripe integration**.[3]\n- **ConvertKit (Kit)** — mentioned as having **native Stripe + Commerce** support for creators and paid products.[3]\n- **Beehiiv** — supports **native Stripe Connect** for paid tiers/newsletter monetization.[3]\n- **Agile CRM** — supports Stripe integration for syncing payment history and triggering campaigns from Stripe events.[4]\n\nIf you want, I can also narrow this down to:\n- **best for SaaS**\n- **best for creators/newsletters**\n- **best budget options**\n- **tools with truly native Stripe support vs. Zapier-based workarounds**",
-  "cached_at": "2026-05-28T07:30:13Z",
-  "metadata": {}
-}

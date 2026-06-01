@@ -1,9 +1,0 @@
-{
-  "brand": "Plausible",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is Plausible better than Mixpanel for monitor conversion funnels without compromising user privacy?",
-  "response": "# Plausible vs Mixpanel for Conversion Funnels\n\n**Plausible's privacy advantage is real, but there's a tradeoff:**\n\n## Privacy\n- **Plausible**: GDPR/CCPA compliant by design, no cookies, no user tracking across sites\n- **Mixpanel**: Requires explicit consent; tracks individual users by default\n\nIf privacy is non-negotiable, Plausible wins decisively.\n\n## Funnel Monitoring Capability\n- **Mixpanel**: More powerful—tracks individual user journeys, detailed cohort analysis, custom events with properties\n- **Plausible**: Tracks aggregate flows between pages, but limited event-level detail\n\n**The catch**: Plausible's privacy-first approach means you get aggregate data only. You can't track *individual* users through funnels (which is often why companies choose Mixpanel).\n\n## Better questions to ask yourself:\n\n1. **Do you need individual user tracking?** (Mixpanel yes, Plausible no)\n2. **Are you GDPR-strict or more relaxed on consent?** (Affects both)\n3. **Can aggregate funnel data work for you?** (Plausible's actual strength)\n\n## Middle ground\nIf you want privacy *and* detailed funnels, consider:\n- **Fathom Analytics** (privacy-first, more detailed than Plausible)\n- **Heap** (privacy-respecting options, good event tracking)\n\n**Bottom line**: You likely *can't* have both—full individual-level funnel tracking and strong privacy guarantees. Decide which matters more for your use case.",
-  "cached_at": "2026-05-27T20:17:44Z",
-  "metadata": {}
-}

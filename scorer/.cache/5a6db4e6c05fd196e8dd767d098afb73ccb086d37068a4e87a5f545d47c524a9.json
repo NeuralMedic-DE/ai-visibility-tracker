@@ -1,9 +1,0 @@
-{
-  "brand": "n8n",
-  "prompt_id": "CD-01",
-  "llm": "openai",
-  "prompt_text": "What is the best automation for developers and technical ops teams who need self-hosted workflow automation?",
-  "response": "For developers and technical operations teams seeking self-hosted workflow automation, several tools stand out due to their flexibility, scalability, and community support:\n\n1. **GitLab CI/CD**: GitLab offers a comprehensive CI/CD solution that can be self-hosted. It integrates well with GitLab repositories and provides robust features for automating build, test, and deployment processes.\n\n2. **Jenkins**: A widely-used open-source automation server, Jenkins is highly extensible with a vast library of plugins. It can be configured to automate a wide range of tasks and is suitable for complex workflows.\n\n3. **Argo Workflows**: Part of the Argo project, Argo Workflows is a Kubernetes-native workflow engine for orchestrating parallel jobs on Kubernetes. It's ideal for teams already using Kubernetes and looking for a cloud-native solution.\n\n4. **Apache Airflow**: Originally developed by Airbnb, Apache Airflow is a platform to programmatically author, schedule, and monitor workflows. It’s particularly strong in managing complex data pipelines.\n\n5. **Concourse CI**: Concourse is a CI system that emphasizes simplicity and scalability. It is container-based, making it a good choice for teams using Docker and looking for a modern CI/CD solution.\n\n6. **Tekton**: A Kubernetes-native framework for creating CI/CD systems, Tekton provides a set of shared, open-source components for building cloud-native CI/CD systems.\n\nEach of these tools has its strengths and is suitable for different use cases, so the best choice depends on your specific requirements, such as the existing infrastructure, team expertise, and the complexity of the workflows you need to automate.",
-  "cached_at": "2026-05-28T08:55:52Z",
-  "metadata": {}
-}

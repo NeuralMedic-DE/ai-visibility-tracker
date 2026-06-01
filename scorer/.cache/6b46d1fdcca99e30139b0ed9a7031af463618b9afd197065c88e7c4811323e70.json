@@ -1,9 +1,0 @@
-{
-  "brand": "Mailmodo",
-  "prompt_id": "IN-03",
-  "llm": "perplexity",
-  "prompt_text": "How do I connect Mailmodo with Zapier?",
-  "response": "To connect **Mailmodo with Zapier**, enable Zapier inside Mailmodo, copy the API key, and then use that key when connecting Mailmodo inside Zapier.[1]\n\n- In Mailmodo, go to **Integrations** in the left menu.[1]\n- Click **“Click to authenticate”** to enable Zapier.[1]\n- You’ll be redirected to the Zapier integration page; click **Integrate**.[1]\n- Copy the **API key** shown in the dialog box.[1]\n- In Zapier, create a Zap and choose **Mailmodo** as the action app.[1]\n- Paste the **API key** to connect your Mailmodo account.[1]\n- After setup, Mailmodo should move to **Connected Platforms** in Mailmodo.[1]\n\nMailmodo’s support center also groups several Zapier use cases, including importing contacts, exporting template submissions, and triggering journeys through Zapier.[6]\n\nIf you want, I can also walk you through a specific Zapier workflow, such as **adding Mailmodo contacts from Google Sheets** or **sending Mailmodo form submissions to Slack**.",
-  "cached_at": "2026-05-28T07:37:00Z",
-  "metadata": {}
-}

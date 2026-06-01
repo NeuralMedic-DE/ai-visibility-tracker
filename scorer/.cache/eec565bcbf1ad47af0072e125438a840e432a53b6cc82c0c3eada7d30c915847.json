@@ -1,9 +1,0 @@
-{
-  "brand": "Zapier",
-  "prompt_id": "UC-03",
-  "llm": "anthropic",
-  "prompt_text": "What tools do operations teams and business users at SMBs and mid-market companies companies use to connect apps and automate repetitive workflows without writing any code?",
-  "response": "# Low-Code/No-Code Integration Tools for SMBs and Mid-Market\n\n## Most Popular Platforms\n\n**Zapier**\n- Largest app ecosystem (7,000+ integrations)\n- Simplest learning curve for non-technical users\n- Pricing scales with usage (good for small teams)\n\n**Make (formerly Integromat)**\n- More powerful workflow logic than Zapier\n- Better for complex multi-step automations\n- Lower cost for advanced features\n\n**Microsoft Power Automate**\n- Built into Microsoft 365 ecosystem\n- Native integration with Teams, SharePoint, Excel\n- Often included in existing licenses\n\n**Integromat/Make**\n- Visual flow builder with conditional logic\n- Stronger data transformation capabilities\n- Good middle ground on cost vs. power\n\n## Industry/Use-Case Specific\n\n**HubSpot Workflows** - If you're already in their CRM\n**Salesforce Flow** - For Salesforce-heavy orgs\n**Airtable Automations** - If your data lives in Airtable\n**Slack Workflow Builder** - For Slack-centric operations\n\n## Common Workflows These Automate\n\n- Lead routing and CRM updates\n- Invoice/receipt processing\n- Email notifications and follow-ups\n- Data syncing between tools\n- Slack/Teams alerts\n- Spreadsheet updates\n\n## Key Selection Factors\n\n- Which apps you currently use\n- Pricing model (flat vs. usage-based)\n- Complexity of workflows needed\n- Support and learning resources available\n\nMost SMBs start with **Zapier** for simplicity, then upgrade to **Make** if they outgrow it.",
-  "cached_at": "2026-05-28T08:51:20Z",
-  "metadata": {}
-}

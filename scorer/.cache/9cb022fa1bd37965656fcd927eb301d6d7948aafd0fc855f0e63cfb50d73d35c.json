@@ -1,9 +1,0 @@
-{
-  "brand": "LeadIQ",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to Apollo.io",
-  "response": "# Cheaper Alternatives to Apollo.io\n\n## Budget-Friendly Options\n\n### **Hunter.io**\n- **Price:** Free tier available; paid from $49/month\n- **Best for:** Email finding and verification\n- **Strengths:** Simple interface, reliable data, good free plan\n\n### **RocketReach**\n- **Price:** Free + paid from ~$50/month\n- **Best for:** B2B contact data\n- **Strengths:** Large database, integrations with CRM tools\n\n### **Clearbit**\n- **Price:** $99/month + usage-based\n- **Best for:** Company and person data enrichment\n- **Strengths:** High-quality data, good API\n\n### **ZoomInfo**\n- **Price:** Custom pricing (enterprise)\n- **Best for:** B2B sales intelligence\n- **Strengths:** Most comprehensive data, strong filtering\n\n### **Findgmail/Voila Norbert**\n- **Price:** Free to ~$20/month\n- **Best for:** Email finding only\n- **Strengths:** Very affordable, simple\n\n## Free/Freemium Tier Winners\n\n- **LinkedIn Sales Navigator** ($65/month) - if you're already using LinkedIn\n- **Seamless.ai** - Similar to Apollo at potentially lower cost\n- **Email-checker tools** (Bulk Checker, NeverBounce) - Email verification only\n\n## Money-Saving Tips\n\n1. **Use free tiers** for initial prospecting\n2. **Combine tools** (Hunter for emails + LinkedIn for research)\n3. **Check for discounts** on annual plans\n4. **Evaluate actual needs** - you may not need all Apollo's features\n\n**What features matter most to you?** That would help narrow down the best match.",
-  "cached_at": "2026-05-27T18:43:37Z",
-  "metadata": {}
-}

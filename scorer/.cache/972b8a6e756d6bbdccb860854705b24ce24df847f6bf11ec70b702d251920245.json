@@ -1,9 +1,0 @@
-{
-  "brand": "Make",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best automation that works with Google Sheets and HubSpot",
-  "response": "# Best Automation Solutions for Google Sheets + HubSpot\n\n## Top Recommendations\n\n### 1. **Zapier** (Most Popular)\n- **Cost**: Free to $99+/month\n- **Best for**: Most use cases, easy setup\n- **Key features**:\n  - Two-way sync between HubSpot and Sheets\n  - Pre-built templates\n  - Multi-step workflows\n  - Good reliability\n\n**Common workflows**:\n- New HubSpot contacts → Google Sheets\n- Form responses → HubSpot deals\n- Spreadsheet data → HubSpot properties\n\n---\n\n### 2. **Make (Integromat)**\n- **Cost**: Free to $299+/month\n- **Best for**: Complex workflows, high volume\n- **Advantages**:\n  - More affordable at scale\n  - Advanced mapping/logic\n  - Better for multi-step processes\n\n---\n\n### 3. **Native HubSpot Integration**\n- **Cost**: Built into HubSpot\n- **Limitations**: \n  - Limited to exporting data only\n  - Not true two-way sync\n  - Good for simple reporting\n\n---\n\n### 4. **Google Sheets + Apps Script**\n- **Cost**: Free (requires some coding)\n- **Best for**: Custom needs, cost-sensitive\n- **Requires**: Basic JavaScript knowledge\n\n---\n\n## My Recommendation\n\n**For most users: Zapier**\n- Easiest setup\n- Best documentation\n- Most HubSpot template coverage\n- Reliable support\n\n**For power users: Make**\n- More flexibility\n- Better value long-term\n- Steeper learning curve\n\n---\n\n**What's your specific use case?** I can give more targeted advice.",
-  "cached_at": "2026-05-28T08:53:57Z",
-  "metadata": {}
-}

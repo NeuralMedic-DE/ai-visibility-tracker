@@ -1,9 +1,0 @@
-{
-  "brand": "Copper",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best CRM for Google Workspace power users?",
-  "response": "# Best CRMs for Google Workspace Power Users\n\n## Top Recommendations\n\n**Pipedrive**\n- Excellent Gmail integration (native sidebar)\n- Clean, intuitive interface focused on sales pipelines\n- Good for teams wanting simplicity over complexity\n\n**HubSpot**\n- Seamless Google integration across all modules\n- Free tier available with solid features\n- Strong automation and reporting capabilities\n\n**Zoho CRM**\n- Deep Google Workspace integration\n- Very customizable at reasonable pricing\n- Good for mid-market teams\n\n**Salesforce**\n- Most powerful for complex needs\n- Native Google integration\n- Steeper learning curve and cost\n\n## Key Integration Points to Check\n- Gmail sidebar/compose window functionality\n- Google Calendar syncing\n- Google Sheets data import\n- Contacts and calendar automation\n- Real-time notification preferences\n\n## Decision factors:\n- **Team size & budget** (HubSpot free tier → Salesforce enterprise)\n- **Sales vs. all-in-one** (Pipedrive is sales-focused; HubSpot/Zoho are broader)\n- **Customization needs** (Zoho/Salesforce vs. simpler tools)\n- **Existing Google habits** (some teams prefer minimal friction over features)\n\n**Quick pick:** If you want the smoothest Google Workspace experience with minimal friction, **Pipedrive** or **HubSpot** are typically best. What's your primary use case—sales, marketing, service, or mixed?",
-  "cached_at": "2026-05-27T18:22:21Z",
-  "metadata": {}
-}

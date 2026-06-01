@@ -1,9 +1,0 @@
-{
-  "brand": "Rho",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Rho integrate with NetSuite?",
-  "response": "Yes, Rho integrates with NetSuite. This integration allows businesses to streamline their financial operations by synchronizing data between Rho's financial platform and NetSuite's ERP system. This can help in automating workflows, improving data accuracy, and enhancing overall financial management efficiency. If you're considering this integration, it's a good idea to check the specific features and setup process to ensure it meets your business needs.",
-  "cached_at": "2026-05-28T07:12:38Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Grip Security",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Grip Security with Okta?",
-  "response": "# Connecting Grip Security with Okta\n\nHere's how to set up the integration:\n\n## Prerequisites\n- Admin access to both Grip Security and Okta\n- Okta tenant information\n\n## Steps\n\n### 1. **In Grip Security**\n- Navigate to **Settings** or **Integrations**\n- Look for **Okta** or **Identity Providers**\n- Select **Add Integration** or **Connect Okta**\n\n### 2. **Gather Okta Credentials**\nIn your Okta admin dashboard:\n- Go to **API** → **Tokens**\n- Create a new API token (or use an existing one)\n- Copy your **Okta Domain** (e.g., `https://yourdomain.okta.com`)\n- Copy the **API Token**\n\n### 3. **Configure in Grip Security**\n- Paste your Okta Domain\n- Paste your API Token\n- Select which Okta resources to sync (users, groups, applications, etc.)\n- Click **Connect** or **Authorize**\n\n### 4. **Verify Connection**\n- Confirm the integration shows as \"Connected\"\n- Test by syncing a small batch of data\n- Monitor logs for any errors\n\n## Common Settings\n- **Sync Frequency**: Set how often data syncs\n- **User Mapping**: Configure which Okta attributes to pull\n- **Scope**: Select which applications or groups to include\n\n## Troubleshooting\n- Verify API token has appropriate scopes\n- Check network connectivity/firewall rules\n- Ensure Okta domain is correct\n\n**Note**: For specific steps, consult [Grip Security's documentation](https://grip.security) or contact their support, as interfaces may vary by product version.",
-  "cached_at": "2026-05-28T08:41:34Z",
-  "metadata": {}
-}

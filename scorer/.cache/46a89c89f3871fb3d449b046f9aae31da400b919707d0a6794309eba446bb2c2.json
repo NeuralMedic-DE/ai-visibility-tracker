@@ -1,9 +1,0 @@
-{
-  "brand": "Metabase",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which business intelligence software should a data analyst or head of data use?",
-  "response": "# BI Software for Data Analysts & Data Leaders\n\nThe best choice depends on your needs, but here are the main contenders:\n\n## **Top General-Purpose Options**\n\n**Tableau**\n- Strongest for visualization and user-friendly dashboarding\n- Great for self-service analytics\n- Premium pricing; good for larger teams\n\n**Power BI**\n- Best value if you're already in Microsoft ecosystem (Excel, Azure, etc.)\n- Faster implementation than Tableau\n- Strong for enterprise adoption\n\n**Looker (Google Cloud)**\n- Excellent for technical analysts who write code (LookML)\n- Strong data governance features\n- Good for complex, scalable deployments\n\n## **By Role Priority**\n\n**For Data Analysts:**\n- Prioritize tools with strong SQL/coding capabilities\n- Consider: Looker, Tableau, Metabase (open-source, affordable)\n\n**For Heads of Data:**\n- Need governance, security, and scalability\n- Consider: Looker, Power BI, Tableau\n- Think about team enablement and self-service\n\n## **Key Questions to Ask**\n\n- What's your budget?\n- What data sources do you use?\n- How technical is your audience?\n- Do you need self-service capabilities?\n- What's your data governance priority?\n\n**No single \"best\" tool exists**—the right choice fits your technical stack, team skills, and organizational needs.\n\nWhat's your primary use case?",
-  "cached_at": "2026-05-27T20:07:13Z",
-  "metadata": {}
-}

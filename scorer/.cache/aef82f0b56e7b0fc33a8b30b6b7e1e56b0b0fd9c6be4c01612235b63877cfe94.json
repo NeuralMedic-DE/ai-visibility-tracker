@@ -1,9 +1,0 @@
-{
-  "brand": "Copper",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is Copper better than Pipedrive for track project and sales stages?",
-  "response": "# Copper vs Pipedrive for Sales & Project Tracking\n\nNeither is clearly \"better\"—it depends on your priorities:\n\n## **Pipedrive's Strengths**\n- **Sales-focused design**: Pipeline visualization is more intuitive\n- **Better for pure sales tracking**: Deal stages, win/loss tracking\n- **Simpler interface**: Easier to learn and implement quickly\n- **More affordable**: Generally lower pricing\n\n## **Copper's Strengths**\n- **Gmail integration**: Built into Gmail inbox (huge advantage if you use Gmail)\n- **Better for projects**: More robust project management features\n- **Contact-centric**: Better for relationship tracking across touchpoints\n- **Chrome extension**: Seamless data capture\n\n## **Key Differences**\n\n| Feature | Copper | Pipedrive |\n|---------|--------|-----------|\n| Sales stages | ✓ Good | ✓✓ Excellent |\n| Project tracking | ✓✓ Better | ✓ Basic |\n| Gmail native | ✓✓ Yes | ✓ Extension only |\n| Ease of setup | ✓ Moderate | ✓✓ Faster |\n\n## **Choose Copper if:**\n- You heavily use Gmail and want native integration\n- You need solid project management alongside CRM\n- You want contact-centric workflows\n\n## **Choose Pipedrive if:**\n- Sales pipeline visibility is your main priority\n- You want the fastest implementation\n- Budget is tight\n\n**Bottom line**: For *project + sales*, Copper has a slight edge. For *pure sales*, Pipedrive wins.\n\nWhat's your primary use case?",
-  "cached_at": "2026-05-27T18:23:12Z",
-  "metadata": {}
-}

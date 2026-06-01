@@ -1,9 +1,0 @@
-{
-  "brand": "Paddle",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Paddle integrate with Stripe?",
-  "response": "No, Paddle does not integrate with Stripe. Paddle is a standalone payment processing platform that offers its own suite of services for handling payments, subscriptions, and taxes, similar to what Stripe provides. Businesses typically choose one platform or the other based on their specific needs, rather than integrating the two.",
-  "cached_at": "2026-05-28T07:00:01Z",
-  "metadata": {}
-}

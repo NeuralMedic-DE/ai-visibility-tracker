@@ -1,9 +1,0 @@
-{
-  "brand": "ActiveCampaign",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with segment contacts and send personalized campaigns based on behavioral data at scale?",
-  "response": "There are several software platforms designed to help with segmenting contacts and sending personalized campaigns based on behavioral data at scale. Some of the most popular ones include:\n\n1. **HubSpot**: Offers robust CRM and marketing automation tools that allow you to segment contacts and create personalized campaigns based on user behavior and other criteria.\n\n2. **Mailchimp**: Known for its email marketing capabilities, Mailchimp also provides tools for audience segmentation and personalized messaging based on behavioral data.\n\n3. **ActiveCampaign**: Combines email marketing, marketing automation, and CRM features to help you segment contacts and send personalized campaigns based on user interactions.\n\n4. **Klaviyo**: Particularly popular with e-commerce businesses, Klaviyo uses behavioral data to help you create targeted and personalized email campaigns.\n\n5. **Marketo**: A powerful marketing automation platform that offers advanced segmentation and personalization features based on user behavior and other data points.\n\n6. **Salesforce Marketing Cloud**: Provides comprehensive tools for customer engagement, including segmentation and personalized messaging capabilities based on behavioral data.\n\n7. **Sendinblue**: Offers marketing automation features that include contact segmentation and personalized campaign creation based on user behavior.\n\nThese platforms typically integrate with various data sources to track user behavior and allow you to create highly targeted and personalized marketing campaigns.",
-  "cached_at": "2026-05-28T07:23:39Z",
-  "metadata": {}
-}

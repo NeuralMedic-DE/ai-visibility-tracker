@@ -1,9 +1,0 @@
-{
-  "brand": "Vitally",
-  "prompt_id": "IN-04",
-  "llm": "openai",
-  "prompt_text": "Best customer success that works with Salesforce and HubSpot",
-  "response": "When looking for a customer success platform that integrates well with both Salesforce and HubSpot, you should consider the following options:\n\n1. **Gainsight**: Gainsight is a leading customer success platform that offers robust integration capabilities with Salesforce. While its direct integration with HubSpot might not be as strong, you can often use middleware or APIs to connect the two systems.\n\n2. **Totango**: Totango provides a flexible customer success solution that can integrate with Salesforce. For HubSpot, you might need to use additional tools or custom integrations to ensure seamless data flow.\n\n3. **ChurnZero**: ChurnZero is designed to work well with CRM systems like Salesforce. While it doesn't have a native HubSpot integration, you can use tools like Zapier to connect them.\n\n4. **ClientSuccess**: This platform offers a straightforward integration with Salesforce, and you can use third-party integration tools to connect with HubSpot.\n\n5. **Planhat**: Planhat is another customer success platform that integrates with Salesforce. Similar to others, connecting with HubSpot might require additional integration solutions.\n\nFor the best results, you might need to use integration platforms like Zapier, Tray.io, or Workato to bridge any gaps between these customer success platforms and HubSpot. Always consider your specific needs and the complexity of the integrations required when choosing a solution.",
-  "cached_at": "2026-05-28T08:09:44Z",
-  "metadata": {}
-}

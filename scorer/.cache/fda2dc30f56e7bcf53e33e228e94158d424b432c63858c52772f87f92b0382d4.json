@@ -1,9 +1,0 @@
-{
-  "brand": "Workato",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which automation software should a IT Ops Lead or Enterprise Automation Manager at a large company use?",
-  "response": "# Automation Software for IT Ops Leaders\n\nThe best choice depends on your specific needs, but here are the top options:\n\n## **Enterprise-Grade Solutions**\n\n**Ansible (Red Hat)**\n- Agentless, easy to learn\n- Great for infrastructure automation\n- Strong community and enterprise support\n- Good for hybrid/multi-cloud\n\n**Terraform**\n- Infrastructure as Code (IaC) focused\n- Multi-cloud capability\n- Excellent for provisioning\n- Steep learning curve but powerful\n\n**ServiceNow**\n- Workflow automation + ITSM\n- Best if you're already using ServiceNow\n- Enterprise integration capabilities\n- Expensive but comprehensive\n\n## **For Broader Automation**\n\n**Puppet/Chef**\n- Configuration management at scale\n- Agent-based (more control)\n- Mature, enterprise-proven\n- Better for complex environments\n\n**Power Automate** (Microsoft)\n- If you're Microsoft-heavy (365, Azure, Windows)\n- Lower barrier to entry\n- Good ROI for existing Microsoft shops\n\n## **Key Questions to Ask**\n\n- What's your primary use case? (infrastructure, ITSM, cloud, compliance)\n- Multi-cloud or single platform?\n- Team's technical skill level?\n- Existing tech stack?\n- Budget constraints?\n\n**Most common enterprise choice:** Ansible + Terraform combination (flexibility + cloud-native) or ServiceNow (if ITSM integration is critical).\n\nWhat's your primary automation challenge?",
-  "cached_at": "2026-05-28T09:13:11Z",
-  "metadata": {}
-}

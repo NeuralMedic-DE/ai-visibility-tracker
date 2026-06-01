@@ -1,9 +1,0 @@
-{
-  "brand": "Retool",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I build internal dashboards and admin panels quickly without spending a lot on software?",
-  "response": "# Quick, Budget-Friendly Dashboard Options\n\n## No-Code/Low-Code Platforms\n- **Retool** - Drag-and-drop internal tools (free tier decent, paid scales reasonably)\n- **Budibase** - Open-source alternative, self-hostable\n- **Apache Superset** - Free, open-source for data visualization\n- **Metabase** - Simple BI tool, generous free tier\n\n## Framework Route (If You Code)\n- **React/Vue + Chart.js/Recharts** - Total control, minimal cost\n- **Django/Flask Admin** - Fast Python-based dashboards\n- **Next.js** - Modern, can ship quickly\n- **Streamlit** - Python-focused, almost no frontend work needed\n\n## Spreadsheet Extensions\n- **Google Sheets + Apps Script** - Surprisingly functional for simple dashboards\n- **Airtable** - Bridges spreadsheet/database gap\n\n## Quick Wins\n- Connect directly to your database (PostgreSQL, MySQL) rather than building custom APIs\n- Use existing admin panels if available (Django admin, Laravel Nova)\n- Start with one metric/view, expand iteratively\n- Host on free tiers: Vercel, Railway, Fly.io (for hobby projects)\n\n## Reality Check\n**Most cost comes from time, not software.** Retool often wins the value trade-off because it cuts development time dramatically—sometimes better than building custom even with free tools.\n\nWhat's your tech stack and main use case? (Sales tracking, support metrics, data analysis?) That changes the best approach.",
-  "cached_at": "2026-05-27T20:57:34Z",
-  "metadata": {}
-}

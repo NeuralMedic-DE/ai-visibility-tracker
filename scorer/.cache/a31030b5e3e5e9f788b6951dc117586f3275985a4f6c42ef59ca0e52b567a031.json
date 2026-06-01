@@ -1,9 +1,0 @@
-{
-  "brand": "ChurnZero",
-  "prompt_id": "CM-01",
-  "llm": "anthropic",
-  "prompt_text": "ChurnZero vs Gainsight: which is better?",
-  "response": "# ChurnZero vs Gainsight\n\nBoth are strong CS platforms, but they differ in focus and fit:\n\n## ChurnZero\n**Strengths:**\n- More affordable, especially for mid-market\n- Easier implementation and faster time-to-value\n- Strong at churn prediction and automated interventions\n- Simpler UI (less learning curve)\n\n**Best for:** Growing companies wanting quick wins in retention\n\n## Gainsight\n**Strengths:**\n- More comprehensive feature set\n- Better for complex, enterprise-scale operations\n- Superior data integration and customization\n- Stronger analytics and reporting\n\n**Best for:** Enterprise companies with complex use cases\n\n## Key Decision Factors\n\n| Factor | ChurnZero | Gainsight |\n|--------|-----------|-----------|\n| **Price** | Lower | Higher |\n| **Setup time** | Faster | Longer |\n| **Complexity** | Simpler | More powerful |\n| **Scale** | Mid-market | Enterprise |\n\n## Bottom Line\n- **Choose ChurnZero** if you want faster implementation and lower cost\n- **Choose Gainsight** if you need enterprise features and have resources for deeper customization\n\n**Pro tip:** Request trials with your actual data. The \"better\" tool depends heavily on your team size, technical capability, and specific workflows.\n\nWhat's your company size and main CS priority? That would help narrow it down.",
-  "cached_at": "2026-05-28T08:06:33Z",
-  "metadata": {}
-}

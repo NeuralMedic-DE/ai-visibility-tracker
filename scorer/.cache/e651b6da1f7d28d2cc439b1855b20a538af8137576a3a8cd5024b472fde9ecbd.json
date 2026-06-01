@@ -1,9 +1,0 @@
-{
-  "brand": "Stonly",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is Stonly better than Confluence for reduce support tickets with contextual in-app help widgets and self-service portals?",
-  "response": "# Stonly vs Confluence for Support Reduction\n\nThis depends on your specific needs, as they excel in different areas:\n\n## Stonly's Advantages\n- **In-app widgets**: Native guided tours and contextual help directly in your product\n- **Self-service focus**: Built specifically to reduce support tickets through embedded assistance\n- **Better for users who don't leave your app**: Helps users solve problems where they encounter them\n- **Engagement tracking**: Shows which guides actually reduce support volume\n\n## Confluence's Advantages\n- **Knowledge base flexibility**: Better for comprehensive documentation and complex content\n- **Integration ecosystem**: Works well within Atlassian products and many enterprise tools\n- **Scalability for large teams**: Superior for extensive internal/external knowledge bases\n- **Cost-effective at scale**: Generally cheaper for large organizations\n\n## For Your Goal (Reducing Support Tickets)\n\n**Stonly is likely better** if you want to:\n- Embed help directly in your product\n- Minimize user friction and drop-offs\n- Measure impact on support volume\n\n**Confluence is better** if you want to:\n- Build a comprehensive support portal users visit separately\n- Support complex documentation needs\n- Leverage existing Atlassian infrastructure\n\n## Realistic Answer\nMany companies use **both**: Confluence for the main knowledge base, Stonly for in-app contextual help. This hybrid approach typically drives the best support ticket reduction.\n\nWhat's your primary use case—reducing support for a web app, SaaS product, or internal tools?",
-  "cached_at": "2026-05-28T08:21:49Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Pilot",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with automate bookkeeping and catch financial errors before they cause problems at scale?",
-  "response": "# Software for Automated Bookkeeping & Error Detection\n\n## Cloud Accounting Platforms\n- **QuickBooks Online** - Broad automation, categorization rules, reconciliation alerts\n- **Xero** - Strong reconciliation features, multi-currency handling, good at flagging mismatches\n- **FreshBooks** - Invoice automation, expense tracking, real-time dashboards\n\n## Specialized Error Prevention\n- **Bill.com** - Automates AP/AR, has approval workflows to catch mistakes before posting\n- **Stripe or Square** - Built-in transaction categorization for payment processing\n- **Expensify** - Receipt scanning with OCR to reduce manual entry errors\n\n## Error-Catching Features Common Across Platforms\n- **Bank reconciliation automation** - flags unexplained discrepancies\n- **Rules engines** - auto-categorize transactions consistently\n- **Duplicate detection** - catches duplicate entries\n- **Real-time alerts** - notifications on unusual transactions or imbalances\n- **Audit trails** - tracks who changed what (useful for spotting problems)\n\n## At Scale Considerations\nFor larger organizations, look for:\n- Multi-user access with permission controls\n- API integrations with your other systems\n- Advanced reporting and variance analysis\n- Dedicated support/implementation help\n\n**The catch:** Software catches *mechanical* errors well but not judgment errors. You still need periodic reviews and possibly a bookkeeper or accountant, especially as complexity grows.\n\nWhat's your current scale or main pain point?",
-  "cached_at": "2026-05-28T07:02:45Z",
-  "metadata": {}
-}

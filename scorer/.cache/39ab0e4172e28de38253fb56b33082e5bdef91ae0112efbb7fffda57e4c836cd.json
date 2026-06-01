@@ -1,9 +1,0 @@
-{
-  "brand": "Drip",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best marketing automation that works with Shopify and WooCommerce",
-  "response": "# Best Marketing Automation for Shopify & WooCommerce\n\n## Top Multi-Platform Solutions\n\n### **Klaviyo** (Best Overall)\n- **Strengths**: Excellent email/SMS, strong analytics, native Shopify integration\n- **Best for**: E-commerce focused businesses\n- **Pricing**: Free tier available; paid from ~$20/month\n- **Unique**: Advanced segmentation, predictive analytics\n\n### **Mailchimp** (Best Budget Option)\n- **Strengths**: Free plan generous, simple to use, supports both platforms\n- **Best for**: Small businesses starting out\n- **Pricing**: Free; paid from ~$13/month\n- **Limitation**: Less advanced automation than competitors\n\n### **ActiveCampaign** (Best for Scale)\n- **Strengths**: Powerful automation, CRM included, detailed customer journeys\n- **Best for**: Growing brands needing sophistication\n- **Pricing**: From ~$15/month\n- **Unique**: Visual workflow builder, behavioral tracking\n\n## Platform-Specific Leaders\n\n**Shopify-First:**\n- **Omnisend** - specialized for Shopify with SMS focus\n- **Rejoiner** - Shopify-native, strong abandoned cart\n\n**WooCommerce-First:**\n- **AutomateWoo** - WooCommerce plugin (part of WooCommerce)\n- **Conversio** - WooCommerce specialized\n\n## Key Features to Prioritize\n✓ Email + SMS capabilities  \n✓ Abandoned cart automation  \n✓ Native platform integration  \n✓ Segmentation & personalization  \n✓ Analytics & ROI tracking  \n\n**My recommendation**: Start with **Klaviyo** or **Mailchimp** depending on budget, then upgrade to **ActiveCampaign** as you scale.\n\nWhat's your priority—email, SMS, or both?",
-  "cached_at": "2026-05-28T07:33:17Z",
-  "metadata": {}
-}

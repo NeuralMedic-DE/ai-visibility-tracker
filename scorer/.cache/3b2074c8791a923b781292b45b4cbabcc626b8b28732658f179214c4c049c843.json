@@ -1,9 +1,0 @@
-{
-  "brand": "Vitally",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with scale CS operations without adding headcount by automating high-touch playbooks at scale?",
-  "response": "To scale Customer Success (CS) operations without adding headcount, you can use Customer Success platforms that offer automation capabilities. Some popular software options include:\n\n1. **Gainsight**: Provides robust automation features to manage customer lifecycles, automate playbooks, and trigger actions based on customer data.\n\n2. **Totango**: Offers a modular approach to customer success with automation features that help in managing customer journeys and automating repetitive tasks.\n\n3. **ChurnZero**: Focuses on reducing churn by automating customer engagement and providing insights into customer health.\n\n4. **HubSpot Service Hub**: Includes automation tools to streamline customer service processes and manage customer interactions efficiently.\n\n5. **Zendesk**: While primarily a customer support tool, it includes automation features that can help in scaling customer success operations.\n\nThese platforms typically offer features like automated workflows, customer journey mapping, and playbook automation, which can help you manage customer relationships more efficiently at scale.",
-  "cached_at": "2026-05-28T08:09:37Z",
-  "metadata": {}
-}

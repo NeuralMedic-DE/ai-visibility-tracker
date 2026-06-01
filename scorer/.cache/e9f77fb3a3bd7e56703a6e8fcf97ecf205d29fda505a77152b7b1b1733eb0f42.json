@@ -1,9 +1,0 @@
-{
-  "brand": "Doppler",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I centralize and sync secrets across all environments and services without spending a lot on software?",
-  "response": "# Low-Cost Secret Management Options\n\n## Free/Open-Source Solutions\n\n**Vault (HashiCorp)**\n- Industry standard, truly free self-hosted version\n- Centralized secret storage, rotation, auditing\n- Works across all environments\n- Steeper learning curve but powerful\n\n**SOPS (Secrets Operations)**\n- Lightweight, encrypts secrets in git\n- Uses AWS KMS, GCP, or local keys\n- Good for infrastructure-as-code workflows\n- Minimal operational overhead\n\n**Sealed Secrets (Kubernetes)**\n- If you're running K8s, this is built-in\n- Encrypts secrets at rest in etcd\n- Free, simple for container environments\n\n## Cloud Provider Native (Often Free Tier)\n\n- **AWS Secrets Manager/Parameter Store** - Free tier covers most small setups\n- **Google Secret Manager** - Generous free quotas\n- **Azure Key Vault** - Free tier available\n\nThese work well if you're already in that ecosystem.\n\n## Practical Budget Approach\n\n1. **Start with git + encryption** (SOPS) if you have simple needs\n2. **Add a secret rotation script** (cron job) for manual or automated updates\n3. **Graduate to Vault** only when you need dynamic secrets or complex policies\n\n## Key Consideration\n\nThe real cost isn't usually the software—it's **operational complexity**. A simpler solution you maintain is better than abandoning an overcomplicated one.\n\nWhat's your primary use case? (containerized apps, traditional servers, specific cloud platform?) That helps narrow down what actually makes sense for you.",
-  "cached_at": "2026-05-28T06:20:32Z",
-  "metadata": {}
-}

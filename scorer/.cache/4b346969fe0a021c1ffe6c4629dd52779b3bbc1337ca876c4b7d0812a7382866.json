@@ -1,9 +1,0 @@
-{
-  "brand": "Sprinto",
-  "prompt_id": "CM-01",
-  "llm": "anthropic",
-  "prompt_text": "Sprinto vs Vanta: which is better?",
-  "response": "# Sprinto vs Vanta Comparison\n\nBoth are strong compliance automation platforms, but they differ in focus:\n\n## **Vanta** (Stronger overall)\n- **Best for:** SOC 2, ISO 27001, HIPAA, GDPR compliance\n- **Strengths:** \n  - Broader integrations (600+)\n  - Faster certification timelines\n  - Better for larger, more complex organizations\n  - Strong in security & privacy focus\n- **Weakness:** Higher pricing\n\n## **Sprinto** (Solid alternative)\n- **Best for:** Indian startups & companies targeting Indian/Asian markets\n- **Strengths:**\n  - Better pricing for startups\n  - Strong local expertise (India-focused)\n  - Good for SOC 2, ISO 27001\n  - Simpler UI\n- **Weakness:** Fewer integrations, smaller ecosystem\n\n## **Choose Sprinto if:**\n- You're budget-conscious\n- Operating in India/Asia\n- Need simpler, faster setup\n\n## **Choose Vanta if:**\n- You need comprehensive compliance coverage\n- Budget allows for premium features\n- Require extensive integrations\n- Growing rapidly/going global\n\n**Bottom line:** Vanta is more mature and feature-rich; Sprinto offers better value for early-stage startups, especially in Asia.\n\nWhat's your primary use case?",
-  "cached_at": "2026-05-28T08:31:05Z",
-  "metadata": {}
-}

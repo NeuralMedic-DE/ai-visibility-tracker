@@ -1,9 +1,0 @@
-{
-  "brand": "Humaans",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Humaans integrate with Slack?",
-  "response": "Yes, Humaans integrates with Slack. This integration allows teams to streamline their HR processes by enabling features such as automated notifications, reminders, and employee updates directly within Slack. This can help improve communication and efficiency within an organization.",
-  "cached_at": "2026-05-28T06:48:18Z",
-  "metadata": {}
-}

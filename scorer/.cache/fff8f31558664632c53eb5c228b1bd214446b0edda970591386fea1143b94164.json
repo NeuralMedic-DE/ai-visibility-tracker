@@ -1,9 +1,0 @@
-{
-  "brand": "Folk",
-  "prompt_id": "CD-04",
-  "llm": "anthropic",
-  "prompt_text": "Best CRM platforms for manage investor and partner relationships",
-  "response": "# Best CRM Platforms for Investor & Partner Management\n\n## **Top Tier Solutions**\n\n### **1. Salesforce**\n- **Strengths:** Highly customizable, enterprise-grade, excellent for complex deal tracking\n- **Best for:** Large organizations with sophisticated workflows\n- **Price:** $165–$330+/user/month\n\n### **2. HubSpot**\n- **Strengths:** User-friendly, strong pipeline visualization, good free tier\n- **Best for:** Mid-market companies and startups\n- **Price:** Free–$3,200+/month\n\n### **3. Pipedrive**\n- **Strengths:** Deal-focused, intuitive visual pipeline, excellent reporting\n- **Best for:** Sales-heavy relationship management\n- **Price:** $14–$99/user/month\n\n## **Investor-Specific Solutions**\n\n### **4. Carta**\n- Designed for cap table management and investor relations\n- Equity tracking and reporting\n- Investor communication tools\n\n### **5. Visible**\n- Built specifically for startups managing investor relations\n- Fundraising dashboards and metrics\n- Automated investor updates\n\n### **6. PitchBook**\n- Investment data and market intelligence\n- Deal tracking and portfolio management\n- Strong for VC/PE firms\n\n## **Budget-Friendly Options**\n\n- **Zoho CRM** ($18–$55/user/month) – Excellent value\n- **Freshsales** ($15–$99/user/month) – Clean interface\n- **Monday.com** – Flexible project/relationship tracking\n\n## **Key Features to Prioritize**\n\n✓ Deal pipeline management  \n✓ Custom fields for investor data  \n✓ Document storage & sharing  \n✓ Email integration & tracking  \n✓ Reporting & analytics  \n✓ Multi-user collaboration  \n\n**What's your company size and primary use case?** This would help narrow recommendations further.",
-  "cached_at": "2026-05-27T18:52:42Z",
-  "metadata": {}
-}

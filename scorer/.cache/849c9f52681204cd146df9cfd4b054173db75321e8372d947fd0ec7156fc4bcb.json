@@ -1,9 +1,0 @@
-{
-  "brand": "Rho",
-  "prompt_id": "AL-01",
-  "llm": "anthropic",
-  "prompt_text": "Alternatives to Brex for finance teams at venture-backed startups managing spend and AP",
-  "response": "# Finance Tools for Venture-Backed Startups\n\n## Corporate Cards + Spend Management\n- **Ramp** — Real-time controls, expense automation, receipt scanning\n- **Divvy** — Spend controls, budget limits, integrates with accounting\n- **Altitude** — Card + software, designed for SMBs and startups\n- **Illimis** — Physical + virtual cards with spend visibility\n\n## AP Automation Platforms\n- **Bill.com** — AP processing, bill pay, workflow approvals, integrates widely\n- **Melio** — AP automation with flexible payment methods\n- **Stampli** — Receipt-to-payment workflow, good for invoice matching\n- **Tipalti** — Broader supplier management and payments\n- **Airbase** — Expense + AP combined (newer, strong product)\n\n## Integrated Spend + AP Solutions\n- **Airbase** — Expenses, corporate cards, AP in one platform\n- **Expensify** — Mobile expense capture + corporate cards\n- **Spendesk** — European focus, cards + payment controls\n- **Coupa** — Enterprise-grade (better for larger companies)\n\n## Key Considerations\n\n**Size matters**: Early stage (5-50 people) vs. scaling (50-200+)\n\n**Integration**: Do they connect with your accounting software (NetSuite, Netsuite, Xero)?\n\n**Feature priority**: Is it card controls, automation, or real-time visibility?\n\n**Cost structure**: Fixed fees vs. percentage of volume\n\nWhat's your biggest pain point—card controls, AP bottlenecks, or expense visibility?",
-  "cached_at": "2026-05-28T07:12:25Z",
-  "metadata": {}
-}

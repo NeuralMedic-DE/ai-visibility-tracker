@@ -1,9 +1,0 @@
-{
-  "brand": "Workable",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which ATS software should a Recruiting Lead or HR Manager at a growing company use?",
-  "response": "# ATS Software for Growing Companies\n\nThe best choice depends on your **size, budget, and specific needs**, but here are top contenders:\n\n## For most growing companies:\n- **Greenhouse** – Strong for mid-market; excellent reporting and interview coordination\n- **Lever** – Very user-friendly; good balance of features and ease of use\n- **Workable** – Great for 50-500 person companies; affordable with solid functionality\n\n## If you prioritize:\n\n**Budget constraints:**\n- Workable, JazzHR, or Recruiterflow\n\n**Ease of use:**\n- Lever or Workable (less steep learning curve than Greenhouse)\n\n**Advanced analytics/reporting:**\n- Greenhouse or iCIMS\n\n**Integrations & flexibility:**\n- Greenhouse (most app ecosystem)\n\n**Candidate experience:**\n- Lever or Greenhouse\n\n## Key questions to ask first:\n1. How many hires/year are you making?\n2. What's your total hiring team size?\n3. Do you need ATS + hiring workflows, or just application tracking?\n4. Budget per user/month?\n5. Must-have integrations (LinkedIn, Slack, your HRIS)?\n\nMost growing companies between 50-300 people find **Lever** or **Workable** hit the sweet spot of usability, features, and cost. Greenhouse scales better if you're hiring heavily or have complex processes.\n\nWhat size is your company, and what's your main pain point?",
-  "cached_at": "2026-05-28T06:45:51Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Neon",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best database for developer teams building SaaS and AI applications?",
-  "response": "# Best Database Choices for SaaS & AI Teams\n\nThere's no single \"best,\" but here are top options by priority:\n\n## **For most SaaS teams: PostgreSQL**\n- Mature, reliable, open-source\n- Excellent JSON support (great for flexible schemas)\n- Strong ecosystem (hosted options: AWS RDS, Render, Supabase)\n- Good for both transactional and analytical workloads\n- Cost-effective at scale\n\n## **For AI-specific needs:**\n\n**Vector databases** (for embeddings/RAG):\n- **Pinecone** - easiest, fully managed\n- **Weaviate** - open-source, flexible\n- **Supabase** - PostgreSQL with pgvector extension (best if you want one database)\n\n**Time-series data** (model metrics, logs):\n- **ClickHouse** - excellent performance\n- **TimescaleDB** - PostgreSQL extension\n\n## **Modern alternatives:**\n\n| Database | Best for |\n|----------|----------|\n| **MongoDB** | Flexible schemas, rapid iteration |\n| **Firebase** | Quick prototyping, real-time needs |\n| **DynamoDB** | Extreme scale, AWS-native |\n| **PlanetScale** | MySQL compatibility, serverless |\n\n## **Practical recommendation:**\n\n**Start with:** PostgreSQL + Supabase (managed, includes vector support)\n\n**Add as needed:**\n- Pinecone if vectors become complex\n- Redis for caching/sessions\n- Something specialized when you have specific data patterns\n\n**What matters most:** Choose based on your team's expertise and immediate needs—migration later is doable but costly.\n\nWhat's your current tech stack?",
-  "cached_at": "2026-05-28T06:17:32Z",
-  "metadata": {}
-}

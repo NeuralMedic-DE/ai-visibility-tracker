@@ -1,9 +1,0 @@
-{
-  "brand": "Paddle",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with manage subscriptions and checkout without international compliance headaches at scale?",
-  "response": "A popular software solution that helps manage subscriptions and checkout without international compliance headaches at scale is **Stripe**. Stripe offers a comprehensive suite of tools for handling payments, subscriptions, and billing, and it is designed to be compliant with various international regulations and standards. It supports multiple currencies and payment methods, making it easier to operate globally. Additionally, Stripe handles tax compliance, fraud prevention, and provides detailed reporting, which can significantly reduce the complexity of managing international transactions.",
-  "cached_at": "2026-05-28T06:59:59Z",
-  "metadata": {}
-}

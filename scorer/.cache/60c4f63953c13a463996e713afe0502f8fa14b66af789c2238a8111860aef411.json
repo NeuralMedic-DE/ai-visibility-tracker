@@ -1,9 +1,0 @@
-{
-  "brand": "Planetscale",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best database for engineering teams at fast-growing SaaS companies?",
-  "response": "# Best Database for Fast-Growing SaaS Engineering Teams\n\nThere's no universal answer, but here's how to think about it:\n\n## Most Common Choice: PostgreSQL\n**Why it wins for many:**\n- Excellent reliability and data integrity (ACID compliance)\n- Scales well from startup to scale-up phase\n- Rich feature set (JSON support, full-text search, etc.)\n- Strong ecosystem and talent availability\n- Cost-effective (open source)\n- Minimal regrets—rare to outgrow it\n\n## Other Strong Options by Use Case\n\n**If you need extreme scale early:**\n- **Distributed SQL** (CockroachDB, YugabyteDB) — PostgreSQL compatibility with horizontal scaling\n\n**For time-series data:**\n- **TimescaleDB** — PostgreSQL extension, purpose-built\n- **InfluxDB** — specialized but fragmented ecosystem\n\n**For search/analytics:**\n- **Elasticsearch** — operational search (not a primary database)\n- **ClickHouse** — analytical queries at scale\n\n**For simple, fast iteration:**\n- **MongoDB** — if schema flexibility genuinely matters to you (though this is often overrated)\n\n## Practical Advice for Fast-Growing Teams\n\n1. **Start with PostgreSQL** unless you have a specific reason not to\n2. **Avoid premature polyglot databases** — one well-chosen DB beats five mediocre ones\n3. **Choose based on your access patterns**, not hype\n4. **Remember**: Data migration is expensive; picking wrong early costs more than picking \"good enough\"\n\nWhat's your primary data access pattern? (transaction-heavy, analytical, time-series, etc.) That would help narrow it further.",
-  "cached_at": "2026-05-28T06:15:18Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Make",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which automation software should a Ops Lead or Automation Manager at a growing company use?",
-  "response": "# Automation Software for Ops Leaders/Managers\n\nThe best choice depends on your specific needs, but here's a framework:\n\n## **For General Workflow Automation**\n- **Zapier** or **Make (Integromat)**: Best for connecting 1000+ apps without coding\n- **n8n**: Good open-source alternative with more control\n- **IFTTT**: Simple but limited for complex operations\n\n## **For Infrastructure/DevOps**\n- **Terraform**: Infrastructure as code\n- **Ansible**: Agentless server automation\n- **GitHub Actions**: If you're already in GitHub\n- **Jenkins**: Self-hosted CI/CD\n\n## **For IT Operations/System Admin Tasks**\n- **AutoMate** or **ActiveBatch**: Comprehensive job scheduling\n- **Rundeck**: Open-source for cross-system task automation\n\n## **For Robotic Process Automation (RPA)**\n- **UiPath**: Most mature but expensive\n- **Blue Prism**: Enterprise-focused\n- **Automation Anywhere**: Good middle ground\n\n## **Key Questions to Guide Your Choice**\n1. What processes are you automating? (business, IT, infrastructure)\n2. Do you need to integrate many apps or run server tasks?\n3. What's your technical depth? (non-technical vs. engineering-heavy team)\n4. Budget constraints?\n5. On-premise or cloud?\n\n**Common smart choice for growing companies**: Start with **Zapier** for business processes + **Ansible/Terraform** for infrastructure, then specialize as needs grow.\n\nWhat type of processes are you looking to automate?",
-  "cached_at": "2026-05-28T08:53:23Z",
-  "metadata": {}
-}

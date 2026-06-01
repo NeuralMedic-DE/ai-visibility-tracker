@@ -1,9 +1,0 @@
-{
-  "brand": "Semgrep",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which security software should a AppSec Lead or Developer at a security-conscious technology company use?",
-  "response": "# Security Software for AppSec Leads & Developers\n\nThe answer depends on your **specific role and responsibilities**, but here's a practical framework:\n\n## For Development Environments\n\n**SAST (Static Application Security Testing)**\n- SonarQube/SonarCloud (code quality + security)\n- Checkmarx, Fortify, or Veracode (enterprise-grade)\n- Semgrep (fast, open-source friendly)\n\n**Dependency Management**\n- Snyk, WhiteSource/Mend, or Dependabot (built into GitHub)\n- OWASP Dependency-Check (free option)\n\n**Secrets Detection**\n- TruffleHog, GitGuardian, or git-secrets\n- Built into most modern SCM platforms\n\n## For Local Machine Security\n\n**Essentials**\n- OS-native defender (Windows Defender, macOS built-in, Linux ufw)\n- Password manager (1Password, Bitwarden, KeePass)\n- VPN (if accessing company resources remotely)\n\n**Not typically needed:**\n- Third-party antivirus (if your OS is current—adds overhead)\n- Heavy endpoint protection (that's IT's domain)\n\n## For Runtime/Production\n\n- Container scanning (Trivy, Aqua)\n- DAST tools (Burp Suite, OWASP ZAP)\n- WAF/IDS systems (organizational level)\n\n## My Recommendation\n\n**Start with your company's existing tooling** rather than choosing independently. Ask your AppSec team what's already approved. Most security-conscious tech companies standardize on 2-3 tools per function to avoid tool sprawl.\n\nWhat's your specific focus—code scanning, secrets, or something else?",
-  "cached_at": "2026-05-28T08:48:29Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Amplemarket",
-  "prompt_id": "IN-05",
-  "llm": "anthropic",
-  "prompt_text": "CRM tools with native Salesforce integration",
-  "response": "# CRM Tools with Native Salesforce Integration\n\n## Top Options\n\n### **1. HubSpot CRM**\n- **Integration**: Two-way sync with Salesforce\n- **Best for**: Companies using both platforms\n- **Features**: Contact sync, deal tracking, automation\n- **Pricing**: Free tier available; premium starts ~$45/month\n\n### **2. Pipedrive**\n- **Native Salesforce connector** via Zapier\n- **Strengths**: Visual sales pipeline, deal-focused\n- **Sync capabilities**: Contacts, deals, activities\n- **Pricing**: From ~$14/month\n\n### **3. Freshsales**\n- **Built-in Salesforce integration**\n- **Highlights**: AI-powered lead scoring, phone integration\n- **Sync**: Automatic two-way data sync\n- **Pricing**: From ~$12/month\n\n### **4. Copper (formerly ProsperWorks)**\n- **Deep Salesforce integration** (Google Workspace-first)\n- **Best for**: G Suite users already in Salesforce\n- **Features**: Automatic CRM data capture\n- **Pricing**: From ~$25/month\n\n### **5. Zoho CRM**\n- **Seamless Salesforce sync**\n- **Strengths**: Affordable, comprehensive features\n- **Features**: Workflow automation, AI insights\n- **Pricing**: From ~$18/month\n\n## Key Integration Features to Look For\n\n✅ Two-way data sync  \n✅ Real-time updates  \n✅ Custom field mapping  \n✅ Automatic lead/contact sync  \n✅ Activity logging  \n✅ Opportunity tracking  \n\n## Integration Methods\n\n| Method | Speed | Cost |\n|--------|-------|------|\n| Native API | Real-time | Minimal |\n| Zapier/iPaaS | Near real-time | Monthly fee |\n| Custom integration | Flexible | Development cost |\n\n**Need help choosing based on your specific workflow or budget?**",
-  "cached_at": "2026-05-27T19:04:56Z",
-  "metadata": {}
-}

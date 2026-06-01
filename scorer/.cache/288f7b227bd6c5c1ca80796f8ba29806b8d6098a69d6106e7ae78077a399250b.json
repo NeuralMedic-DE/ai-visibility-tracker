@@ -1,9 +1,0 @@
-{
-  "brand": "Front",
-  "prompt_id": "CM-05",
-  "llm": "perplexity",
-  "prompt_text": "Is Front better than Help Scout for automate customer communication workflows with intelligent routing rules and macros?",
-  "response": "For **automated customer communication workflows with intelligent routing rules and macros**, **Front is the better fit** overall. It is built around unified customer operations and explicitly supports automated workflows, rules-based routing, assignments, and collaboration across multiple channels.[3][5][6]\n\nHelp Scout is stronger if you want a **simpler, email-focused** support tool with a more straightforward workflow and lower cost, but the results you provided consistently position Front as more capable for **workflow orchestration, advanced routing, and automation**.[1][2][4]\n\nA practical way to think about it:\n\n- **Choose Front** if you need:\n  - **Intelligent routing rules**\n  - **Macros / templated replies / workflow automation**\n  - **Multi-channel inboxes** like email, SMS, and social\n  - **Team collaboration** with assignments, internal comments, and shared ownership[1][3][5][6]\n\n- **Choose Help Scout** if you need:\n  - A **simpler shared inbox**\n  - Mostly **email-based support**\n  - A **more budget-conscious** option\n  - Less operational complexity[1][2][4]\n\nOne nuance: the search results describe Front’s automation largely as **rules-based automation** with workflows and templates, not as highly advanced AI automation in the same sense as some AI-first tools.[8] So if by “intelligent routing” you mean **smart, flexible, operational routing across teams and channels**, Front is the better match; if you mean **AI-driven autonomous decisioning**, neither result set shows Help Scout as stronger, and Front still appears better aligned.[3][5][8]",
-  "cached_at": "2026-05-28T08:17:36Z",
-  "metadata": {}
-}

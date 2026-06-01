@@ -1,9 +1,0 @@
-{
-  "brand": "TestBrand",
-  "prompt_id": "IN-04",
-  "llm": "openai",
-  "prompt_text": "Best AI visibility tracking that works with Slack and HubSpot",
-  "response": "For AI visibility tracking that integrates well with both Slack and HubSpot, you might consider using tools like:\n\n1. **Gong.io**: Gong provides AI-driven insights into customer interactions and sales processes. It integrates with Slack to send alerts and updates, and with HubSpot to analyze CRM data and improve sales strategies.\n\n2. **Chorus.ai**: Similar to Gong, Chorus.ai offers conversation intelligence and integrates with Slack for real-time notifications and HubSpot for CRM insights.\n\n3. **Clari**: Clari uses AI to provide revenue operations and forecasting insights. It integrates with Slack for communication and HubSpot for CRM data, helping teams track visibility and performance.\n\n4. **Troops**: Troops acts as a bridge between Slack and HubSpot, providing real-time alerts and updates. It helps track sales activities and CRM changes, enhancing visibility across platforms.\n\nThese tools can help streamline communication and provide valuable insights by leveraging AI to analyze interactions and data from both Slack and HubSpot.",
-  "cached_at": "2026-06-01T15:00:37Z",
-  "metadata": {}
-}

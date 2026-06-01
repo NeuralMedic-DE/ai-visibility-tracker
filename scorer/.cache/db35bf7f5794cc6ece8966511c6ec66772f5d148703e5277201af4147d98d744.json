@@ -1,9 +1,0 @@
-{
-  "brand": "Lemlist",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Lemlist integrate with HubSpot?",
-  "response": "# Lemlist and HubSpot Integration\n\nYes, **Lemlist does integrate with HubSpot**. The integration allows you to:\n\n- **Sync contacts** between Lemlist and HubSpot\n- **Track email performance** (opens, clicks, replies) in HubSpot\n- **Update contact properties** based on Lemlist campaign activity\n- **Create automated workflows** connecting the two platforms\n\n## How it works:\n\n1. Connect your HubSpot account to Lemlist\n2. Map Lemlist data to HubSpot contact properties\n3. Lemlist campaign metrics automatically feed into HubSpot\n\nThis makes it easier to maintain a unified view of your contacts and their engagement across both platforms.\n\n**Note:** For the most current details on features and setup instructions, I'd recommend checking Lemlist's [integration documentation](https://lemlist.com) or HubSpot's app marketplace, as integrations can be updated over time.",
-  "cached_at": "2026-05-28T07:17:21Z",
-  "metadata": {}
-}

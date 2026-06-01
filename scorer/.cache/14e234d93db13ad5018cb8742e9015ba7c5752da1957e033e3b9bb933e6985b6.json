@@ -1,9 +1,0 @@
-{
-  "brand": "Teamtailor",
-  "prompt_id": "AL-03",
-  "llm": "anthropic",
-  "prompt_text": "Best ATS alternatives for mid-market companies with active employer branding programs teams on a budget",
-  "response": "# Best ATS Alternatives for Mid-Market + Employer Branding\n\n## Strong Value-to-Price Options\n\n**Workable**\n- Built-in employer branding features (career pages, branded templates)\n- Integrates career site with ATS\n- ~$99-300/month depending on volume\n- Good for teams wanting unified platform\n\n**Lever**\n- Strong sourcing + branding capabilities\n- CRM-style interface reduces candidate loss\n- Transparent pricing (~$3-5/candidate)\n- Better for high-volume hiring\n\n**BrightHire / Freshteam**\n- Lower entry price point ($99-200/month)\n- Adequate branding features\n- Simpler interface (less learning curve)\n- Growing integration ecosystem\n\n## Budget-Conscious + Employer Branding\n\n**SmartRecruiters**\n- Freemium model available\n- Solid employer branding suite\n- Scales with your budget\n- Good API for custom integrations\n\n**Greenhouse** (if stretching budget)\n- Premium but industry-standard\n- Excellent candidate experience (boosts branding)\n- ROI justifiable for serious hiring teams\n\n## Cost-Cutting Strategy\n\n1. **Start with core ATS** (Workable/Freshteam)\n2. **Layer in specialized tools** (LinkedIn Recruiter, Glassdoor for branding)\n3. **Often cheaper than all-in-one**\n\n## Key Questions for Your Team\n\n- Monthly hiring volume?\n- Multi-department or single-team needs?\n- Employer branding priority: culture visibility vs. recruitment marketing?\n- Integration needs (HRIS, analytics)?\n\nWhat's your current hiring volume and main branding goal?",
-  "cached_at": "2026-05-28T06:41:54Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Braintrust",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Braintrust integrate with OpenAI?",
-  "response": "Yes, Braintrust integrates with OpenAI. This integration allows companies to leverage OpenAI's technology to enhance their projects by accessing a network of vetted talent through Braintrust. This can be particularly useful for businesses looking to implement AI solutions or develop AI-driven products.",
-  "cached_at": "2026-05-28T07:47:31Z",
-  "metadata": {}
-}

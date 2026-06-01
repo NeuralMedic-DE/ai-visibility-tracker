@@ -1,9 +1,0 @@
-{
-  "brand": "Pilot",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to QuickBooks",
-  "response": "# Cheaper Alternatives to QuickBooks\n\n## Free or Freemium Options\n\n**Wave**\n- Completely free accounting software\n- Invoicing, expense tracking, financial reports\n- Best for: Freelancers and small businesses\n\n**Zoho Books**\n- Free plan with limitations\n- Affordable paid tiers ($99–$299/year)\n- Good for invoicing and basic accounting\n\n**Manager.io**\n- Free desktop version\n- Cloud version ($9/month)\n- Professional-grade features at low cost\n\n## Budget-Friendly ($10–$30/month)\n\n**Square Online**\n- $10/month basic plan\n- Good for retail/e-commerce\n- Payment processing integration\n\n**Xero**\n- Starts around $13/month\n- More feature-rich than Wave\n- Better for growing businesses\n\n**FreshBooks**\n- $15/month starter plan\n- Focused on invoicing and time tracking\n- Client portal included\n\n## Niche/Specialized Alternatives\n\n- **Stripe Invoicing** – free for Stripe users\n- **Receipt Bank** – expense capture and automation\n- **Shopify** – if you sell online\n- **HoneyBook** – for service-based businesses\n\n## Comparison Tips\nConsider: # of users needed, invoicing volume, tax complexity, integrations, and your industry before choosing.\n\nWhat's your primary use case? That would help narrow recommendations.",
-  "cached_at": "2026-05-28T07:02:33Z",
-  "metadata": {}
-}

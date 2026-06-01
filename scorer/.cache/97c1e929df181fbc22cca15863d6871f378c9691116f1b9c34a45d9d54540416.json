@@ -1,9 +1,0 @@
-{
-  "brand": "Close",
-  "prompt_id": "CD-03",
-  "llm": "perplexity",
-  "prompt_text": "Which CRM software should a head of sales at a 20-person startup use?",
-  "response": "For a **20-person startup**, the best default choice is usually **HubSpot CRM**: it is widely recommended for startups because it is easy to set up, adopted quickly, and affordable for small teams.[1] If your team is heavily **Google Workspace**-centric, **Copper** is a strong alternative; if you need very flexible custom workflows, **Airtable** is often a better fit.[1]\n\nIf I were advising a head of sales, I’d frame it this way:\n\n- **Choose HubSpot** if you want the safest all-around option for a startup sales team, especially if speed of adoption matters most.[1]\n- **Choose Salesforce** if reporting, forecasting, and advanced analytics are the top priority and you can handle more complexity.[1]\n- **Choose Copper** if your reps live in Gmail and Google Calendar all day.[1]\n- **Choose Monday.com** if sales needs to work closely with other teams and wants a broader work-management system around CRM.[1]\n- **Choose Airtable** if your sales process is unusual and needs custom workflows rather than a conventional CRM structure.[1]\n\nFor a startup with about **20 people**, one source specifically says HubSpot was chosen by a team of roughly that size because it combined **simple setup, ease of use, and affordability**.[1] That makes it the most practical recommendation when the goal is to get the team using the system quickly rather than spending time on configuration.[1]\n\nIf you want, I can also give you a **“best CRM by startup stage”** recommendation or a **HubSpot vs Salesforce vs Copper** comparison for a 20-person sales team.",
-  "cached_at": "2026-05-27T17:38:56Z",
-  "metadata": {}
-}

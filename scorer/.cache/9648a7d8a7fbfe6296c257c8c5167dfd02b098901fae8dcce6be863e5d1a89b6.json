@@ -1,9 +1,0 @@
-{
-  "brand": "Amplemarket",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Amplemarket integrate with Salesforce?",
-  "response": "Yes. **Amplemarket has a native, two‑way API integration with Salesforce** that lets you sync leads/contacts, accounts, and activities between the two platforms.[1][2]\n\nKey points:\n\n- **Native Salesforce integration:** You can connect Salesforce directly from the Amplemarket dashboard under *Settings → Integrations → Salesforce CRM Integration* and authorize via a Salesforce login.[1][2]  \n- **2‑way sync (push & pull):**  \n  - *Push from Amplemarket to Salesforce:* Leads, contacts, accounts enrolled in sequences, plus activities (emails, calls, LinkedIn, meetings) and engagement results (replies, opens, meetings) can be pushed into Salesforce.[1][2]  \n  - *Pull from Salesforce to Amplemarket:* You can pull leads, contacts, and accounts from Salesforce (e.g., to build exclusion lists or use existing accounts/owners for prospecting).[2]  \n- **Real-time lead sync:** When you enroll leads in an Amplemarket sequence (and push is enabled), new or updated records are automatically created/updated in Salesforce as Leads or Contacts.[1][2]  \n- **Field mapping & configuration:** The integration lets you configure field mappings, choose whether to create Leads vs Contacts, control which records are pushed, and set the Lead Source (e.g., “Amplemarket”) in Salesforce.[1]  \n- **Salesforce restrictions note:** For Salesforce *Integration User* licenses, Salesforce now requires the Amplemarket connected app to be explicitly installed under *Connected Apps OAuth Usage* before you can connect.[2]  \n\nThere is also the option to connect the two indirectly via **Zapier**, but this is in addition to the native integration, not a requirement.[3]",
-  "cached_at": "2026-05-27T19:08:49Z",
-  "metadata": {}
-}

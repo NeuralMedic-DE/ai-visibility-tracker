@@ -1,9 +1,0 @@
-{
-  "brand": "LeadIQ",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with sync contacts and activities to CRM at scale?",
-  "response": "# CRM Sync Solutions\n\nHere are the main categories of software for syncing contacts and activities at scale:\n\n## Native CRM Integrations\n- **Salesforce** - Einstein Sync, native mobile sync\n- **HubSpot** - Built-in sync tools, free tier available\n- **Microsoft Dynamics 365** - Outlook/Teams integration\n- **Pipedrive** - Native email/calendar sync\n\n## Middleware/Integration Platforms\n- **Zapier** - No-code automation for contact/activity sync\n- **Make (Integromat)** - Visual workflow builder\n- **Celigo** - Enterprise iPaaS\n- **Workato** - API-first integration platform\n- **MuleSoft** - Heavy-duty enterprise integrations\n\n## Email/Calendar-Specific Sync\n- **Outreach** - Sales engagement with CRM sync\n- **Gong** - Activity tracking and CRM sync\n- **Revenue.io** - Real-time call/activity logging\n- **Gmail/Outlook plugins** - Direct CRM connectors\n\n## Data Management Platforms\n- **Marketo** - Lead management at scale\n- **6sense** - Account-based orchestration\n- **Apollo.io** / **Hunter.io** - Contact enrichment + sync\n\n## Key Considerations\n- **Scale needed** (volume of contacts/activities)\n- **Your current CRM** (each has different strengths)\n- **Budget** (free to enterprise tiers vary)\n- **Real-time vs. batch** sync requirements\n\nWhat's your current CRM and primary data sources?",
-  "cached_at": "2026-05-27T18:44:27Z",
-  "metadata": {}
-}

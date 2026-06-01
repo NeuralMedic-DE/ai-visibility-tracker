@@ -1,9 +1,0 @@
-{
-  "brand": "Close",
-  "prompt_id": "IN-04",
-  "llm": "openai",
-  "prompt_text": "Best CRM that works with Slack and Zapier",
-  "response": "There are several CRM systems that integrate well with both Slack and Zapier. Here are a few popular options:\n\n1. **HubSpot CRM**: HubSpot offers seamless integration with Slack, allowing you to receive notifications and updates directly in your Slack channels. It also integrates with Zapier, enabling you to automate workflows and connect with other apps.\n\n2. **Salesforce**: Salesforce is a robust CRM that supports integration with Slack, especially after Salesforce acquired Slack. It also works well with Zapier, providing extensive automation and connectivity options.\n\n3. **Pipedrive**: Pipedrive integrates with Slack to send updates and notifications. It also connects with Zapier, allowing you to automate tasks and integrate with various other tools.\n\n4. **Zoho CRM**: Zoho CRM offers integration with Slack for real-time notifications and updates. It also supports Zapier, enabling you to create automated workflows with other applications.\n\n5. **Copper**: Copper CRM, designed for Google Workspace users, integrates with Slack to keep your team updated and works with Zapier for automation and connectivity with other apps.\n\nEach of these CRMs has its own strengths, so the best choice depends on your specific needs, such as the size of your team, budget, and the specific features you require.",
-  "cached_at": "2026-05-27T17:33:05Z",
-  "metadata": {}
-}

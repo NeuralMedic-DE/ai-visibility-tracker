@@ -1,9 +1,0 @@
-{
-  "brand": "Planhat",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I centralize customer data and automate CS workflows across the entire customer lifecycle without spending a lot on software?",
-  "response": "# Low-Cost Customer Data & Workflow Automation\n\n## Free/Cheap Foundation Layer\n\n**Consolidate data first** (before buying tools):\n- Use a free CRM tier (HubSpot, Pipedrive, or Zoho free plan) as your single source of truth\n- Export customer interactions from email, support tickets, payments into a shared spreadsheet or database\n- Set up basic integrations via Zapier/Make free tier (~100 tasks/month) to push data between tools automatically\n\n## Automate High-Impact Workflows\n\n**Pick 2-3 workflows that waste the most time:**\n\n1. **Onboarding sequences** - Zapier/Make trigger email or task creation when new customer added\n2. **Support ticket routing** - Auto-assign based on customer segment or issue type\n3. **Renewal reminders** - Automated alerts before contracts expire\n4. **Health check-ins** - Template-based outreach at key lifecycle moments\n\nThese usually save 5-10 hours/week per person.\n\n## Practical Setup ($0-50/month)\n\n- **CRM**: HubSpot/Zoho free tier (captures 80% of what you need)\n- **Automation**: Zapier free or Make (100-500 tasks/month depending on needs)\n- **Spreadsheet backbone**: Google Sheets + formulas for simple segmentation\n- **Communication**: Existing email + templates (Gmail filters for auto-labeling)\n\n## What to Avoid\n\n- Don't buy an all-in-one platform to solve a data problem (solve data *first*)\n- Don't automate everything—focus on repetitive, low-judgment tasks\n- Don't let tools fragment your data (one source of truth matters more than fancy features)\n\n**What's your biggest CS pain point right now?** That's where to start.",
-  "cached_at": "2026-05-28T08:12:13Z",
-  "metadata": {}
-}

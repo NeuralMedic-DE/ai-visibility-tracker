@@ -1,9 +1,0 @@
-{
-  "brand": "Vercel",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with manage preview deployments for every pull request at scale?",
-  "response": "# Software for Managing Preview Deployments at Scale\n\nSeveral tools excel at handling preview deployments for pull requests:\n\n## **Specialized Preview Deployment Platforms**\n\n1. **Vercel**\n   - Automatic preview deployments for every PR\n   - Built-in for Next.js, but supports other frameworks\n   - Excellent for frontend applications\n   - Integrates seamlessly with Git workflows\n\n2. **Netlify**\n   - Similar to Vercel with automatic PR previews\n   - Good for static sites and JAMstack apps\n   - Built-in split testing and analytics\n\n3. **Preview.io / Fleek**\n   - Designed specifically for preview environments\n   - Multi-framework support\n\n## **Container & Infrastructure Platforms**\n\n4. **ArgoCD**\n   - GitOps-based deployment management\n   - Kubernetes-native\n   - Excellent for complex, multi-service applications\n\n5. **Helm + Kubernetes**\n   - Manual but powerful control\n   - Best for large-scale infrastructure\n   - Requires more operational overhead\n\n## **CI/CD Integration Tools**\n\n6. **GitHub Actions + Custom Workflows**\n   - Free for GitHub repos\n   - Can integrate with any hosting platform\n\n7. **GitLab CI/CD**\n   - Native review app support\n   - Strong Kubernetes integration\n\n## **Recommendation**\n\n- **Startups/Small teams**: Vercel or Netlify\n- **Complex multi-service apps**: ArgoCD on Kubernetes\n- **Maximum control**: GitHub Actions + self-hosted infrastructure\n\nWhat's your tech stack? That would help narrow down the best choice.",
-  "cached_at": "2026-05-27T21:28:38Z",
-  "metadata": {}
-}

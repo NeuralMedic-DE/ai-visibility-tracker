@@ -1,9 +1,0 @@
-{
-  "brand": "LangChain",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is LangChain better than Haystack for chain together LLM calls tool use and memory for complex AI agent workflows?",
-  "response": "# LangChain vs Haystack: A Balanced Comparison\n\nNeither is objectively \"better\"—it depends on your specific needs. Here's a practical breakdown:\n\n## LangChain Advantages\n- **Larger ecosystem**: More integrations, templates, and community support\n- **Better for rapid prototyping**: Easier to chain together simple workflows\n- **More documentation**: Especially for agentic patterns\n- **Memory management**: More flexible memory abstractions out-of-the-box\n\n## Haystack Advantages\n- **Production-focused design**: More explicit, less \"magic\" happening behind the scenes\n- **Better for RAG**: Originally built for retrieval-augmented generation; cleaner pipeline abstraction\n- **Clearer error handling**: Explicit component structure makes debugging easier\n- **Type safety**: Better typing throughout (helpful at scale)\n\n## For Complex Agent Workflows Specifically\n\n**LangChain is usually easier if you want:**\n- Quick agent setup (AgentExecutor, ReAct patterns)\n- Lots of pre-built tool integrations\n- Experimental features\n\n**Haystack is better if you want:**\n- Production reliability and maintainability\n- Clear component boundaries and testing\n- To avoid vendor lock-in (more modular)\n- Explicit control over execution flow\n\n## Practical Suggestion\nStart with **LangChain** for exploration—it has gentler learning curve. If you hit scaling/maintenance issues, **migrate to Haystack** (or consider **LlamaIndex** for RAG-heavy work).\n\nWhat's your primary use case? That would help narrow it down further.",
-  "cached_at": "2026-05-28T07:39:43Z",
-  "metadata": {}
-}

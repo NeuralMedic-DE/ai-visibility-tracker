@@ -1,9 +1,0 @@
-{
-  "brand": "Leapsome",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Leapsome integrate with Slack?",
-  "response": "Yes, Leapsome integrates with Slack. This integration allows you to receive notifications and updates directly in Slack, making it easier to stay informed about feedback, reviews, and other performance management activities without leaving your communication platform.",
-  "cached_at": "2026-05-28T06:37:14Z",
-  "metadata": {}
-}

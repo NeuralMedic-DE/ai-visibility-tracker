@@ -1,9 +1,0 @@
-{
-  "brand": "Planetscale",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best database that works with GitHub and Rails",
-  "response": "# Best Database for Rails + GitHub Integration\n\n## Top Recommendations\n\n### **1. PostgreSQL** (Most Popular)\n```ruby\n# Gemfile\ngem 'pg', '~> 1.1'\n```\n- Rails default for new projects\n- Excellent JSON support (perfect for GitHub API data)\n- Advanced features (arrays, JSONB, full-text search)\n- Great with Rails ecosystem\n\n### **2. MySQL/MariaDB**\n- Solid alternative if you have existing infrastructure\n- Good performance for most apps\n- Wide hosting support\n\n### **3. SQLite** (Development/Small Projects)\n```ruby\n# Gemfile\ngem 'sqlite3'\n```\n- Zero setup needed\n- Great for prototyping\n- Not recommended for production at scale\n\n---\n\n## GitHub Integration Best Practices\n\n### **Storing GitHub Data**\n```ruby\n# app/models/github_repo.rb\nclass GithubRepo < ApplicationRecord\n  store :metadata, accessors: [:github_data], coder: JSON\nend\n```\n\n### **Recommended Gems**\n```ruby\ngem 'octokit'          # GitHub API client\ngem 'rest-client'      # HTTP requests\ngem 'sidekiq'          # Background jobs (for API polling)\n```\n\n### **Example Setup**\n```ruby\n# Fetch and store GitHub data\nclass GithubSyncJob\n  include Sidekiq::Worker\n\n  def perform(repo_name)\n    client = Octokit::Client.new(access_token: ENV['GITHUB_TOKEN'])\n    repo_data = client.repo(repo_name)\n    \n    GithubRepo.create(\n      name: repo_data.name,\n      metadata: repo_data.to_h\n    )\n  end\nend\n```\n\n---\n\n## My Recommendation\n\n**Use PostgreSQL** because:\n- ✅ Rails standard\n- ✅ JSONB perfect for GitHub API responses\n- ✅ Excellent performance at scale\n- ✅ Sophisticated querying capabilities\n- ✅ Great hosting options (Heroku, AWS RDS, etc.)\n\nWould you like help setting up a specific integration?",
-  "cached_at": "2026-05-28T06:15:53Z",
-  "metadata": {}
-}

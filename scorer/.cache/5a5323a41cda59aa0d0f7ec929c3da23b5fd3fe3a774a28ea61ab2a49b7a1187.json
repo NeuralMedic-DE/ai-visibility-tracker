@@ -1,9 +1,0 @@
-{
-  "brand": "Amplemarket",
-  "prompt_id": "CM-01",
-  "llm": "anthropic",
-  "prompt_text": "Amplemarket vs Apollo.io: which is better?",
-  "response": "# Amplemarket vs Apollo.io\n\nBoth are solid B2B prospecting tools, but they excel in different areas:\n\n## **Apollo.io** (Generally stronger overall)\n**Strengths:**\n- Larger database (200M+ contacts)\n- Better email deliverability reputation\n- More mature product with solid integrations\n- Good for high-volume outreach\n- Reliable data quality\n\n**Weaknesses:**\n- More expensive at scale\n- UI can feel cluttered\n- Less personalized/consultative approach\n\n## **Amplemarket** (Growing challenger)\n**Strengths:**\n- Lower cost per contact\n- Better for personalization-focused campaigns\n- Cleaner, modern interface\n- Good customer success support\n- Strong for smaller teams/budgets\n\n**Weaknesses:**\n- Smaller database\n- Fewer native integrations\n- Less established track record\n- Email deliverability still improving\n\n## **Quick decision guide:**\n- **Choose Apollo.io** if: you need massive scale, prefer established tools, have budget flexibility\n- **Choose Amplemarket** if: you prioritize cost-efficiency, want personalized outreach, prefer ease of use\n\n## **Best approach:**\nTry both with free trials—success depends heavily on your:\n- Industry/market (data quality varies by sector)\n- Campaign style (volume vs. personalization)\n- Budget constraints\n- Team size\n\nWhat's your primary use case? That would help narrow it down.",
-  "cached_at": "2026-05-27T19:03:04Z",
-  "metadata": {}
-}

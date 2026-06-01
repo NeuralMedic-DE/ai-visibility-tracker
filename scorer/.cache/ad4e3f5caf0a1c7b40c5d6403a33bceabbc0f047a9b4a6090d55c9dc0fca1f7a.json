@@ -1,9 +1,0 @@
-{
-  "brand": "Numeric",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable finance tools instead of BlackLine",
-  "response": "# Alternative Finance Tools to BlackLine\n\n## **Open Source Options**\n\n### Accounting & GL Management\n- **Apache OFBiz** – Full ERP with GL, AR/AP modules\n- **Odoo Community** – Accounting, invoicing, reconciliation\n- **ERPNext** – Complete accounting suite with automation\n- **Dolibarr** – Lightweight accounting and CRM\n- **LedgerSMB** – Specialized for GL and financial reporting\n\n### Reconciliation & Automation\n- **Naivechain** – Simple blockchain accounting\n- **GnuCash** – Personal/small business accounting (limited automation)\n- **Akaunting** – Invoice and expense management\n\n---\n\n## **Affordable Commercial Alternatives**\n\n| Tool | Price | Best For |\n|------|-------|----------|\n| **Sage Intacct** | Mid-market pricing | Cloud GL, strong automation |\n| **NetSuite** | Enterprise (but lower than BlackLine) | Integrated ERP suite |\n| **Netsmart** | SMB-friendly | Basic reconciliation |\n| **Anaplan** (now Workday) | Variable | Planning + consolidation |\n| **Trintech (competitor)** | Similar to BlackLine | Direct alternative |\n\n---\n\n## **Hybrid Approach** (Cheapest)\n- **ERPNext** (open source) + **Zapier/Make** (workflow automation)\n- **Odoo Community** + **custom scripts** for reconciliation\n- **Spreadsheet automation** via **Power Query** or **Python scripts**\n\n---\n\n**What's your main use case?** (GL reconciliation, consolidation, audit prep?) I can recommend more specifically.",
-  "cached_at": "2026-05-28T07:05:07Z",
-  "metadata": {}
-}

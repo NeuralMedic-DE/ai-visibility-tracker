@@ -1,9 +1,0 @@
-{
-  "brand": "Nudge Security",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Nudge Security integrate with Okta?",
-  "response": "# Nudge Security and Okta Integration\n\nYes, **Nudge Security integrates with Okta**. This integration allows Nudge Security to:\n\n- **Monitor and analyze** SaaS application access and usage patterns through Okta's identity data\n- **Identify security risks** related to how applications are being accessed and shared\n- **Track user behavior** and access controls across your SaaS applications\n\n## What This Enables\n\nThe integration helps organizations:\n- Detect over-privileged users and unnecessary access\n- Identify shared accounts and credential-sharing risks\n- Monitor for suspicious access patterns\n- Improve overall SaaS security posture\n\nNudge Security's platform uses data from identity providers like Okta to provide visibility into SaaS application usage and security risks, making it particularly useful for organizations looking to strengthen their SaaS security controls.\n\nIf you're evaluating this integration for your organization, I'd recommend checking Nudge Security's documentation or contacting their sales team for the most current integration details and capabilities.",
-  "cached_at": "2026-05-28T08:38:56Z",
-  "metadata": {}
-}

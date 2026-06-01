@@ -1,9 +1,0 @@
-{
-  "brand": "Close",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I track sales pipeline without spending a lot on software?",
-  "response": "# Low-Cost Sales Pipeline Tracking\n\n## Free/Cheap Tools\n\n**Spreadsheets** (Google Sheets, Excel)\n- Simple columns: prospect name, stage, value, next step, date\n- Add filters and sorting as you scale\n- Works fine for <50 deals\n\n**All-in-one free options**\n- Notion (very flexible, steeper learning curve)\n- Airtable (free tier is generous, more intuitive)\n- HubSpot free CRM (actually quite capable for basics)\n\n**Lightweight specialized tools**\n- Pipedrive (paid but cheap ~$15/mo, very sales-focused)\n- Close (free tier exists)\n\n## What Actually Matters\n\nSkip fancy features. You need:\n- **Deal stages** (prospect → proposal → closed)\n- **Values and dates** (know your pipeline size and velocity)\n- **Next actions** (so deals don't stall)\n- **Notes** (context on why deals move or get stuck)\n\n## Real Talk\n\nMost people fail at pipeline tracking not because of software limitations, but because:\n- They don't update it consistently\n- They use it for vanity reporting instead of action\n- They track too many fields\n\nStart with whatever tool you'll *actually use* daily. A spreadsheet updated religiously beats expensive software updated quarterly.\n\nWhat's your deal volume like? That affects which direction makes sense.",
-  "cached_at": "2026-05-27T17:51:05Z",
-  "metadata": {}
-}

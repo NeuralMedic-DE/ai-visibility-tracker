@@ -1,9 +1,0 @@
-{
-  "brand": "Help Scout",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to Zendesk",
-  "response": "# Cheaper Zendesk Alternatives\n\n## Budget-Friendly Options\n\n**Freshdesk** ($15/agent/month)\n- Full-featured ticketing system\n- AI-powered automation\n- Multi-channel support\n- Good for small-to-mid teams\n\n**Helpdesk**\n- Very affordable entry point\n- Basic ticketing and knowledge base\n- Minimal learning curve\n\n**Zoho Desk** ($14/agent/month)\n- Part of Zoho ecosystem (integrations benefit)\n- AI assistant included\n- Mobile app\n- Good customization\n\n**LiveChat** ($20/month)\n- Chat-focused, but expanding\n- Ticketing available\n- Simple interface\n- Real-time collaboration\n\n## Self-Hosted/Open Source\n\n**Osticket**\n- Free, open-source\n- Lower hosting costs (~$5-10/month)\n- Full control\n- Requires more technical setup\n\n**Plane**\n- Modern, lightweight\n- Self-hosted option\n- Developer-friendly\n\n## Niche/Specialized\n\n**Groove** ($15/user/month) - Clean, simple UI\n**Desk.com** - Salesforce integration (if already using)\n**Intercom** - Better for chat/product support focus\n\n## Selection Tips\n\n| Need | Best Pick |\n|------|-----------|\n| **Tightest budget** | Osticket or Zoho Desk |\n| **Ease of use** | Freshdesk or Groove |\n| **Chat-first** | LiveChat |\n| **Self-hosted** | Osticket or Plane |\n\nWhat's your primary use case? That would help narrow it down.",
-  "cached_at": "2026-05-28T08:19:23Z",
-  "metadata": {}
-}

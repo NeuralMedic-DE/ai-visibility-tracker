@@ -1,9 +1,0 @@
-{
-  "brand": "Checkly",
-  "prompt_id": "AL-02",
-  "llm": "openai",
-  "prompt_text": "Cheaper alternatives to PagerDuty",
-  "response": "There are several alternatives to PagerDuty that might be more cost-effective, depending on your specific needs. Here are a few options:\n\n1. **Opsgenie**: Now part of Atlassian, Opsgenie offers robust incident management features and integrates well with other Atlassian products like Jira.\n\n2. **VictorOps**: Acquired by Splunk, VictorOps provides real-time incident management and collaboration tools.\n\n3. **xMatters**: This tool offers incident management and communication capabilities, with a focus on integrating with other IT service management tools.\n\n4. **Squadcast**: A modern incident management platform that focuses on SRE (Site Reliability Engineering) best practices and offers competitive pricing.\n\n5. **OnPage**: Provides secure incident alert management and is often used in healthcare and IT sectors.\n\n6. **AlertOps**: Offers customizable alerting and incident management solutions with a focus on flexibility and integration.\n\n7. **Zenduty**: A relatively new entrant that provides incident management and response automation at a lower cost.\n\n8. **Rocket.Chat**: While primarily a communication platform, it can be configured for incident management with the right integrations.\n\n9. **Freshservice**: Part of the Freshworks suite, it offers ITSM capabilities with incident management features.\n\nWhen choosing an alternative, consider the specific features you need, such as integrations, ease of use, and scalability, to ensure the solution fits your organization's requirements.",
-  "cached_at": "2026-05-28T06:22:51Z",
-  "metadata": {}
-}

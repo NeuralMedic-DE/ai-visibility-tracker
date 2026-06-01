@@ -1,9 +1,0 @@
-{
-  "brand": "Pipedrive",
-  "prompt_id": "CM-01",
-  "llm": "anthropic",
-  "prompt_text": "Pipedrive vs HubSpot: which is better?",
-  "response": "# Pipedrive vs HubSpot\n\nBoth are solid CRM platforms, but they're optimized differently. Here's how to choose:\n\n## **Pipedrive** is better if you:\n- Prioritize **sales pipeline management** (it's their specialty)\n- Want a **simpler, more visual interface**\n- Need something **affordable** for small-to-mid teams\n- Prefer a **lightweight tool** without extra features you won't use\n\n## **HubSpot** is better if you:\n- Need an **all-in-one platform** (CRM + marketing + sales + service)\n- Want **deep marketing automation**\n- Require **extensive integrations**\n- Plan to **scale across departments**\n- Value a **free tier** (Pipedrive's is more limited)\n\n## **Key differences**\n| Feature | Pipedrive | HubSpot |\n|---------|-----------|---------|\n| **Learning curve** | Easier | Steeper |\n| **Price** | Lower | Higher (but free tier exists) |\n| **Marketing tools** | Limited | Strong |\n| **Pipeline focus** | Excellent | Good |\n| **Best for** | Sales teams | Growing companies |\n\n## **Bottom line**\n- **Sales-focused teams** → Pipedrive\n- **Growing businesses needing multiple tools** → HubSpot\n\nWhat matters most for your use case? That'll narrow it down further.",
-  "cached_at": "2026-05-27T17:47:50Z",
-  "metadata": {}
-}

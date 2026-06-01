@@ -1,9 +1,0 @@
-{
-  "brand": "Gainsight",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with track product adoption and identify at-risk accounts before they churn at scale?",
-  "response": "# Software for Tracking Adoption & Churn Risk\n\n## Dedicated Platforms\n\n**Customer Success/Health Platforms:**\n- **Gainsight** - Industry leader for health scoring and account management\n- **Totango** - Adoption tracking and predictive churn analytics\n- **ChartMogul** - Subscription metrics and cohort analysis\n- **Vitally** - Modern CS platform with adoption workflows\n- **Planhat** - European alternative with strong analytics\n\n**Expansion/Usage Platforms:**\n- **Pendo** - In-app analytics and feature adoption tracking\n- **Amplitude** - Product analytics with retention cohorts\n- **Mixpanel** - Event tracking and funnel analysis\n- **Segment** - Data collection layer for adoption metrics\n\n## Lighter-Weight Options\n\n- **Databox** - Dashboard consolidation of existing metrics\n- **Lincoln** - Lightweight health scoring\n- **Freshworks** - CRM with built-in CS features\n- **HubSpot** - Has CS Hub for tracking engagement\n\n## Key Features to Look For\n\n- **Health scoring algorithms** (weighted metrics)\n- **Predictive analytics** (ML-based churn models)\n- **Product usage tracking** (feature adoption, logins, API calls)\n- **Automated workflows** (alerts for at-risk accounts)\n- **Dashboard customization** (for CS teams)\n\n## Real-World Approach\n\nMany companies combine:\n- A **data warehouse** (Snowflake, BigQuery) for flexibility\n- **BI tools** (Looker, Tableau) for custom dashboards\n- **Operational CS platform** for workflows\n\n**What's your company size/stage?** That often determines whether a full platform or DIY approach makes sense.",
-  "cached_at": "2026-05-28T08:04:28Z",
-  "metadata": {}
-}

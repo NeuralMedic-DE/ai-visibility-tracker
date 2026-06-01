@@ -1,9 +1,0 @@
-{
-  "brand": "Pipedrive",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Pipedrive integrate with Slack?",
-  "response": "Yes. **Pipedrive has a native Slack integration called Dealbot**, and you can also connect the two via third‑party automation tools like Zapier, n8n, Skyvia, etc.[2][5][1][9]\n\n**Native integration (Dealbot for Slack)**  \n- Pipedrive provides an official Slack app called **Dealbot for Slack** that sends real-time deal and activity updates into Slack channels and lets users search/share Pipedrive data from Slack.[2][5][7][8]  \n- You install it from **Pipedrive → Tools and apps → Marketplace apps → search “Slack” / “Dealbot for Slack” → Install**.[2][5]  \n- After authorizing Slack, you can choose which channels receive updates (e.g., new deals, stage changes, won/lost deals) and what events trigger messages.[2][4][7]  \n- Users can search and share deals, organizations, and contacts using the `/pipedrive` command in Slack and set up personal notifications for deals they own or follow.[2]\n\n**Third‑party integration options**  \nIf you need more advanced workflows (e.g., multi‑app automation, custom logic), you can integrate Pipedrive and Slack via:  \n- **Zapier**: ready-made triggers/actions between Pipedrive and Slack, no code needed.[1]  \n- **n8n**, **Skyvia**, and similar platforms: build custom workflows and data syncs between Pipedrive, Slack, and other tools.[3][4][9]",
-  "cached_at": "2026-05-27T17:27:22Z",
-  "metadata": {}
-}

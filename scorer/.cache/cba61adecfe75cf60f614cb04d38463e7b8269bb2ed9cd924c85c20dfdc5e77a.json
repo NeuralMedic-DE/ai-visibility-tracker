@@ -1,9 +1,0 @@
-{
-  "brand": "LeadIQ",
-  "prompt_id": "IN-03",
-  "llm": "openai",
-  "prompt_text": "How do I connect LeadIQ with Salesforce?",
-  "response": "To connect LeadIQ with Salesforce, follow these steps:\n\n1. **Log in to LeadIQ:**\n   - Go to the LeadIQ website and log in to your account.\n\n2. **Access Integrations:**\n   - Once logged in, navigate to the settings or integrations section. This is usually found in the dashboard or under your account settings.\n\n3. **Select Salesforce:**\n   - In the integrations section, look for Salesforce. Click on it to start the integration process.\n\n4. **Authenticate with Salesforce:**\n   - You will be prompted to log in to your Salesforce account. Enter your Salesforce credentials to authenticate the connection.\n\n5. **Grant Permissions:**\n   - You may need to grant LeadIQ permission to access your Salesforce data. Review the permissions and click \"Allow\" or \"Authorize\" to proceed.\n\n6. **Configure Settings:**\n   - After authentication, you might have options to configure how LeadIQ interacts with Salesforce. This could include setting up data fields, mapping, and deciding which Salesforce objects LeadIQ can access.\n\n7. **Test the Connection:**\n   - Once configured, test the connection by attempting to import or export a lead or contact to ensure everything is working correctly.\n\n8. **Save and Finalize:**\n   - Save your settings and finalize the integration.\n\nIf you encounter any issues during the process, consult LeadIQ's support documentation or reach out to their customer support for assistance.",
-  "cached_at": "2026-05-27T18:42:11Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Pendo",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with track feature adoption and measure NPS at scale?",
-  "response": "# Software for Feature Adoption & NPS Tracking\n\n## Top Solutions\n\n**Feature Adoption Tracking:**\n- **Pendo** - In-app guides, feature flags, and adoption analytics\n- **Appcues** - No-code product tours and onboarding flows\n- **LaunchDarkly** - Feature management with detailed usage metrics\n- **Mixpanel** - Event tracking with feature-specific cohorts\n- **Amplitude** - Product analytics focused on user behavior patterns\n\n**NPS at Scale:**\n- **Delighted** - Lightweight NPS surveys and analytics\n- **SurveySparrow** - Multi-channel NPS with automation\n- **Qualtrics** - Enterprise-grade feedback management\n- **Promoter.io** - NPS-specific with Slack integration\n- **Typeform** - Visual surveys with decent NPS templates\n\n## Integrated Platforms\n\nIf you want both in one tool:\n- **ProductBoard** - Feedback + feature tracking + some analytics\n- **Gainsight** - Customer success with NPS and adoption metrics\n- **Vitally** - Health scoring combining multiple signals\n- **Planhat** - Customer intelligence with NPS integration\n\n## What to Consider\n\n- **Scale needs** - Some better for 10k+ users\n- **Integration requirements** - Do you need Salesforce/Slack connectivity?\n- **Budget** - Range from $500-50k+/month\n- **Implementation speed** - Delighted and Typeform are fastest\n\nWhat's your team size and user base? That would help narrow recommendations.",
-  "cached_at": "2026-05-27T19:48:49Z",
-  "metadata": {}
-}

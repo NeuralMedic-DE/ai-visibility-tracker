@@ -1,9 +1,0 @@
-{
-  "brand": "LlamaIndex",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with connect LLMs to enterprise knowledge bases with advanced indexing techniques at scale?",
-  "response": "# Software for Connecting LLMs to Enterprise Knowledge Bases\n\nSeveral categories of solutions excel at this:\n\n## **Vector Database & Indexing Platforms**\n- **Pinecone** - Managed vector DB with serverless scaling, metadata filtering\n- **Weaviate** - Open-source with GraphQL API, hybrid search (vector + keyword)\n- **Milvus** - Open-source, highly scalable, supports various index types\n- **Qdrant** - Vector DB optimized for semantic search with filtering\n- **Elasticsearch** - Hybrid search combining dense vectors + BM25 retrieval\n\n## **RAG Frameworks & Orchestration**\n- **LangChain** - Chains LLMs with retrievers, document loaders, multiple KB connectors\n- **LlamaIndex (formerly GPT Index)** - Specialized for indexing and querying documents\n- **Haystack** - End-to-end NLP framework with retrieval pipelines\n- **HuggingFace Candle** - Production-ready inference with retrieval\n\n## **Enterprise-Focused Platforms**\n- **AWS Kendra** - Intelligent search with ML-powered indexing\n- **Azure Cognitive Search** - Enterprise search with semantic ranking\n- **Databricks Vector Search** - Unified data + vector indexing\n- **Vertex AI Search** - Google's enterprise search solution\n\n## **Key Indexing Techniques They Support**\n- Hybrid search (dense + sparse embeddings)\n- Hierarchical/chunking strategies\n- Metadata filtering & retrieval\n- Re-ranking and semantic search\n- Metadata-aware indexing\n\n**For most enterprises**, combining **LangChain/LlamaIndex** with **Pinecone, Weaviate, or Elasticsearch** provides flexibility and scale.\n\nWhat's your specific use case?",
-  "cached_at": "2026-05-28T07:42:34Z",
-  "metadata": {}
-}

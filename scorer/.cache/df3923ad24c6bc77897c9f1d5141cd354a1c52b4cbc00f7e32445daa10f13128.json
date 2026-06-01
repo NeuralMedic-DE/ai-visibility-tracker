@@ -1,9 +1,0 @@
-{
-  "brand": "Nutshell",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Nutshell integrate with Gmail?",
-  "response": "# Nutshell and Gmail Integration\n\nYes, Nutshell does integrate with Gmail. The integration allows you to:\n\n- **Link your Gmail account** to Nutshell\n- **Sync emails** with your contacts and deals\n- **Track email communications** within Nutshell\n- **Access Gmail functionality** from within the Nutshell CRM platform\n\nThis helps keep your email communication history organized alongside your customer relationship data.\n\nFor the most current details about specific features and setup instructions, I'd recommend checking Nutshell's official documentation or contacting their support team, as integration capabilities can be updated over time.",
-  "cached_at": "2026-05-27T18:34:23Z",
-  "metadata": {}
-}

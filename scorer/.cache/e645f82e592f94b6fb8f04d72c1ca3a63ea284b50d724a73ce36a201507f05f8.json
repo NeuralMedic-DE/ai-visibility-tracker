@@ -1,9 +1,0 @@
-{
-  "brand": "Encharge",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I trigger emails based on specific user actions in your SaaS product without spending a lot on software?",
-  "response": "# Low-Cost Email Automation for User Actions\n\n## Free/Cheap Built-In Options\n\n**Stripe, Twilio, Auth0, etc.** – Check if your core tools already handle this. Many include basic transactional emails at no extra cost.\n\n**Email service provider free tiers:**\n- Mailgun, SendGrid, AWS SES – generous free limits for transactional mail\n- Resend, PostalMQ – developer-friendly, cheap per-email pricing\n\n## Self-Hosted Approaches (One-Time Cost)\n\n- **Trigger emails via webhooks** → Your app fires a webhook when an action happens → simple worker/function calls your email service\n- **Background job queue** (Bull, Celery, RQ) → Action queued → worker processes it → sends email\n  - Hosting: $5-10/month VPS covers this easily\n\n## Practical Setup Example\n\n1. User does X (signup, payment, etc.)\n2. Your app makes an API call: `POST /send-email` with template + user data\n3. Email service sends it\n4. You only pay per email sent (usually $0.0001-0.001 each after free tier)\n\n## Things to Avoid\n\n- Paying for \"automation platform\" markup (Zapier, Make) when you already have a backend\n- Sending from your own server (deliverability nightmare)\n\n**What's your tech stack?** That changes the simplest path forward—self-hosted queue vs. serverless functions, etc.",
-  "cached_at": "2026-05-28T07:28:29Z",
-  "metadata": {}
-}

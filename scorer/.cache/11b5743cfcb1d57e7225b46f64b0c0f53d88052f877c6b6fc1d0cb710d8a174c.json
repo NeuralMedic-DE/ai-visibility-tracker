@@ -1,9 +1,0 @@
-{
-  "brand": "Folk",
-  "prompt_id": "IN-04",
-  "llm": "openai",
-  "prompt_text": "Best CRM that works with Gmail and Notion",
-  "response": "When looking for a CRM that integrates well with both Gmail and Notion, you have several options to consider. Here are a few popular choices:\n\n1. **HubSpot CRM**: HubSpot offers a free CRM that integrates seamlessly with Gmail, allowing you to track emails, manage contacts, and schedule meetings directly from your inbox. While it doesn't have a direct integration with Notion, you can use tools like Zapier to connect the two, automating workflows between HubSpot and Notion.\n\n2. **Zoho CRM**: Zoho CRM provides integration with Gmail through its Zoho Mail add-on, enabling email tracking and management. Similar to HubSpot, you can use Zapier or Integromat to create workflows between Zoho CRM and Notion.\n\n3. **Pipedrive**: Pipedrive offers a Gmail integration that allows you to manage your sales pipeline and track emails. For Notion integration, you can use third-party automation tools like Zapier to connect Pipedrive with Notion.\n\n4. **Copper**: Specifically designed to work with Google Workspace, Copper integrates directly with Gmail, offering features like email tracking and contact management. While it doesn't have a native Notion integration, you can use Zapier to connect Copper with Notion.\n\nWhen choosing a CRM, consider the specific features you need and how well the CRM integrates with your existing tools and workflow. Using automation tools like Zapier can help bridge the gap between different platforms, allowing you to create a more cohesive system.",
-  "cached_at": "2026-05-27T18:52:16Z",
-  "metadata": {}
-}

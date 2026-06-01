@@ -1,9 +1,0 @@
-{
-  "brand": "Checkly",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Checkly integrate with GitHub?",
-  "response": "Yes. Checkly **integrates with GitHub primarily via GitHub Actions and the Checkly CLI**, letting you run and deploy checks directly from your GitHub workflows.[1][3][5]\n\nKey points:\n\n- **GitHub Actions integration:** Checkly provides official docs and example workflows for running `checkly test` and `checkly deploy` from GitHub Actions, typically after deployments (e.g., on `deployment_status` events).[1][5]  \n- **Checkly CLI in repos:** The **Checkly CLI** is designed to live in your codebase and work with your dev pipeline “from your IDE, via PR to CI,” which includes GitHub-based workflows.[3][6]  \n- **Secrets & configuration:** You store `CHECKLY_API_KEY` and `CHECKLY_ACCOUNT_ID` as GitHub secrets and reference them in your workflow to authenticate Checkly commands.[1][5]  \n- **Reporting in GitHub:** Checkly can output a GitHub-specific Markdown report (`--reporter=github`) that is added to the GitHub Actions job summary for readable test results inside GitHub.[1][5]  \n- **Third‑party helpers:** There is also a third‑party **Checkly Trigger** GitHub Action that can call a Checkly trigger URL from workflows.[7]",
-  "cached_at": "2026-05-28T06:24:29Z",
-  "metadata": {}
-}

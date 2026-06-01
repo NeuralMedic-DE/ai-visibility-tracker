@@ -1,9 +1,0 @@
-{
-  "brand": "LeadIQ",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "ZoomInfo vs alternatives: what should I switch to?",
-  "response": "# ZoomInfo Alternatives: Key Considerations\n\nBefore switching, clarify what's frustrating you—pricing, data quality, UX, feature gaps? That shapes the best alternative.\n\n## Strong competitors by use case:\n\n**Sales prospecting/enrichment:**\n- **Apollo.io** - Similar feature set, often cheaper\n- **Hunter.io** - Strong for email finding, lighter weight\n- **Clearbit** - High-quality enrichment, API-first\n- **RocketReach** - Competitive pricing, decent coverage\n\n**Account-based selling:**\n- **6sense** - AI-driven intent data (premium price)\n- **Demandbase** - Account intelligence focus\n- **LinkedIn Sales Navigator** - Lower cost if you're already there\n\n**Contact databases:**\n- **Seamless.ai** - Real-time intent signals, competitive\n- **Clay** - Custom data workflows, flexible\n- **Dex** - Lightweight, affordable\n\n## Reality check:\n\n- **Data quality varies significantly** by industry/geography\n- Most have **overlap in coverage** but different strengths\n- **Switching costs** (integration, team retraining) are real\n- You might need **multiple tools** instead of one\n\n## Best approach:\n\n1. Free trials on 2-3 top contenders with *your* actual ICP\n2. Check integrations with your current stack\n3. Compare cost-per-qualified-lead, not just per-seat\n4. Ask about data refresh rates and accuracy guarantees\n\nWhat's your primary pain point with ZoomInfo? That would help narrow recommendations.",
-  "cached_at": "2026-05-27T18:43:49Z",
-  "metadata": {}
-}

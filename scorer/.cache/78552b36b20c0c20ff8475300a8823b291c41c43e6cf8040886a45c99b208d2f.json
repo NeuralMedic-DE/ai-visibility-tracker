@@ -1,9 +1,0 @@
-{
-  "brand": "Rippling",
-  "prompt_id": "UC-03",
-  "llm": "openai",
-  "prompt_text": "What tools do mid-market companies managing distributed and global teams companies use to automate HR payroll benefits and IT provisioning in a single platform?",
-  "response": "Mid-market companies managing distributed and global teams often look for comprehensive solutions that can automate HR, payroll, benefits, and IT provisioning in a single platform. Some popular tools that cater to these needs include:\n\n1. **Rippling**: Known for its ability to integrate HR, payroll, benefits, and IT management, Rippling allows companies to automate onboarding, offboarding, and other employee lifecycle processes.\n\n2. **BambooHR**: While primarily an HR software, BambooHR offers integrations with payroll and benefits services, and can be extended to include IT provisioning through third-party integrations.\n\n3. **Gusto**: Gusto provides payroll, benefits, and HR management, with some capabilities for IT provisioning through integrations with other platforms.\n\n4. **Zenefits**: This platform offers a comprehensive suite for HR, payroll, and benefits, and can be integrated with other tools for IT management.\n\n5. **Workday**: Known for its robust HR and financial management capabilities, Workday can also be integrated with IT provisioning tools to provide a more unified solution.\n\n6. **ADP Workforce Now**: A scalable platform that offers payroll, HR, and benefits management, with options to integrate IT provisioning tools.\n\nThese platforms often provide APIs and integration capabilities to connect with other specialized IT management tools, ensuring that companies can tailor the solution to their specific needs.",
-  "cached_at": "2026-05-28T06:27:41Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Salesflare",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Pipedrive vs alternatives: what should I switch to?",
-  "response": "# Pipedrive Alternatives Worth Considering\n\n**If you're frustrated with Pipedrive**, here's how alternatives compare:\n\n## Best overall replacements\n- **HubSpot** – More features, better automation, free tier available. Steeper learning curve.\n- **Salesforce** – Enterprise-grade, highly customizable. Overkill + expensive for small teams.\n\n## If you want something simpler\n- **Notion + Zapier** – Fully customizable, cheaper. Requires more setup work.\n- **Freshsales** – Cleaner UI, good customer support, simpler pricing.\n- **Monday.com** – Visual, flexible, works for non-sales too.\n\n## If you want Pipedrive-like but better\n- **Copper** – Similar simplicity, integrates with Google Workspace better\n- **Zoho CRM** – Cheaper, comparable features, less intuitive interface\n\n## Key questions to ask first\n- **What's actually broken?** (UI? Reporting? Price? Missing features?)\n- **How many users?** (Pricing shifts dramatically at scale)\n- **What integrations matter?** (Email, calendar, accounting software?)\n\nThe grass isn't always greener—sometimes it's configuration, not software. What's your main pain point with Pipedrive? That would help narrow down what actually solves your problem vs. just switching for switching's sake.",
-  "cached_at": "2026-05-27T18:14:11Z",
-  "metadata": {}
-}

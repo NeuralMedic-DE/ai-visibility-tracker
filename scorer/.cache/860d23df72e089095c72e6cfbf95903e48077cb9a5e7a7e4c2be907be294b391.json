@@ -1,9 +1,0 @@
-{
-  "brand": "SafeBase",
-  "prompt_id": "CM-02",
-  "llm": "anthropic",
-  "prompt_text": "SafeBase vs Whistic pricing and features",
-  "response": "# SafeBase vs Whistic: Pricing & Features Comparison\n\n## **Pricing**\n\n| Aspect | SafeBase | Whistic |\n|--------|----------|---------|\n| **Model** | Freemium + paid plans | Custom enterprise pricing |\n| **Free Tier** | Yes, limited features | No free tier |\n| **Starting Price** | ~$99-299/month | Contact sales (typically $10k+/year) |\n| **Best For** | Mid-market startups | Enterprise organizations |\n\n---\n\n## **Key Features Comparison**\n\n### **SafeBase**\n✅ **Strengths:**\n- Streamlined questionnaire builder\n- Automated compliance responses\n- Integration with popular tools (Slack, Zapier, etc.)\n- Intuitive dashboard\n- Audit trail & version control\n- More affordable entry point\n\n❌ **Limitations:**\n- Fewer customization options\n- Smaller customer base\n- Limited advanced analytics\n\n### **Whistic**\n✅ **Strengths:**\n- Comprehensive vendor risk management\n- Advanced customization\n- Strong security/compliance focus\n- Better for complex enterprise workflows\n- Detailed reporting & analytics\n- Established market presence\n\n❌ **Limitations:**\n- Higher cost barrier\n- Steeper learning curve\n- Overkill for smaller companies\n\n---\n\n## **Best Choice**\n\n- **Choose SafeBase if:** You need affordable compliance automation for SMBs\n- **Choose Whistic if:** You're enterprise-focused with complex vendor management needs\n\n**Both** handle security questionnaires well—the difference is mainly scale and price.",
-  "cached_at": "2026-05-28T08:43:24Z",
-  "metadata": {}
-}

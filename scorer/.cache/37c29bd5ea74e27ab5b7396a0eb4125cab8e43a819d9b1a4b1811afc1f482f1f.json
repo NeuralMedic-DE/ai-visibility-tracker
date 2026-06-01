@@ -1,9 +1,0 @@
-{
-  "brand": "Help Scout",
-  "prompt_id": "IN-03",
-  "llm": "perplexity",
-  "prompt_text": "How do I connect Help Scout with Slack?",
-  "response": "You can connect **Help Scout with Slack** directly from Help Scout by installing the Slack app in your Help Scout account, then choosing which inbox events should post into which Slack channels.[2]\n\n- In Help Scout, go to **Manage > Apps > Slack** and click **Install App**.[2]\n- If prompted, sign in to Slack and click **Allow**.[2]\n- In the integration settings, choose the events you want to send to Slack, then pick a channel for each inbox and click **Save**.[2]\n- If you want Slack @mentions, open the **Mentions** tab, enable mentions, and map Help Scout users to their Slack usernames.[2]\n\nA few important details:\n- Help Scout can post notifications for conversations that are **created, updated, replied to, or closed**.[1][5]\n- Newly created Slack channels may take **up to 2 hours** to appear in Help Scout’s channel menus.[2]\n- Help Scout supports linking only **one Slack team/domain per Help Scout account**.[2]\n- The Slack integration requires Help Scout API access, which Slack lists as available on the **Standard, Plus, and Company** plans.[5]\n\nIf you want, I can also walk you through the setup for **notifications only** or for **@mentions and assignment alerts**.",
-  "cached_at": "2026-05-28T08:21:13Z",
-  "metadata": {}
-}

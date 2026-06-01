@@ -1,9 +1,0 @@
-{
-  "brand": "LeadIQ",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does LeadIQ integrate with Salesforce?",
-  "response": "# LeadIQ and Salesforce Integration\n\nYes, **LeadIQ does integrate with Salesforce**. The integration allows you to:\n\n- **Push leads directly** into Salesforce from LeadIQ\n- **Sync contact information** automatically\n- **Track lead source** and activity in Salesforce\n- **Streamline your workflow** without manual data entry\n\n## How It Works\n\nOnce connected, you can export prospect data from LeadIQ directly into Salesforce records, helping keep your CRM updated with current contact information and engagement data.\n\n## Setup\n\nThe integration is typically straightforward through Salesforce's AppExchange or LeadIQ's native connector options. You'll need appropriate permissions in both platforms.\n\n**For the most current details**, I'd recommend checking:\n- LeadIQ's official documentation\n- Their support resources\n- The Salesforce AppExchange listing\n\nIs there a specific aspect of the integration you'd like to know more about?",
-  "cached_at": "2026-05-27T18:44:30Z",
-  "metadata": {}
-}

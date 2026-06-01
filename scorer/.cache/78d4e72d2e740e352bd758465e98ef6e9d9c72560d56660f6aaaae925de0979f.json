@@ -1,9 +1,0 @@
-{
-  "brand": "Vanta",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Vanta integrate with GitHub?",
-  "response": "Yes — Vanta **does integrate with GitHub**. Vanta’s help center says you can connect Vanta to a GitHub **organization**, choose whether to monitor all repositories or only selected ones, and verify the connection through the installed GitHub app list.[1][5]\n\nA couple of details matter:\n- Vanta connects to **GitHub Organizations**, not personal accounts.[5]\n- The person setting it up must have **Organization Owner** permissions in GitHub.[1]\n- Once connected, Vanta can monitor repositories you select, including future repos if you choose **All repositories**.[1]\n\nIf you want, I can also explain **what data Vanta pulls from GitHub** or **how to set up the integration step by step**.",
-  "cached_at": "2026-05-28T08:28:11Z",
-  "metadata": {}
-}

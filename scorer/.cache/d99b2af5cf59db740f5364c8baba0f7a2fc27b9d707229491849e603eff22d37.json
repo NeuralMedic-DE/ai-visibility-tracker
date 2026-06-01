@@ -1,9 +1,0 @@
-{
-  "brand": "Sprinto",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best compliance that works with GitHub and Slack",
-  "response": "# Best Compliance Tools for GitHub + Slack\n\n## Top Integrated Solutions\n\n### **1. Snyk**\n- **Strengths**: Security-first, developer-friendly\n- **GitHub integration**: Native app, pull request scanning\n- **Slack**: Real-time vulnerability alerts\n- **Best for**: Code/dependency compliance\n- **Cost**: Freemium model\n\n### **2. Lacework**\n- **Strengths**: Cloud-native compliance, automated scanning\n- **GitHub integration**: CI/CD pipeline integration\n- **Slack**: Incident notifications\n- **Best for**: Infrastructure & container compliance\n- **Cost**: Enterprise pricing\n\n### **3. Delinea (formerly Thycotic)**\n- **Strengths**: Secrets management + compliance\n- **GitHub integration**: Secret scanning, rotation\n- **Slack**: Alerts on credential exposure\n- **Best for**: Access control & secrets compliance\n- **Cost**: Mid-range enterprise\n\n### **4. Bridgekeeper**\n- **Strengths**: GitHub-native, lightweight\n- **GitHub integration**: Deep, built-in\n- **Slack**: Automated notifications\n- **Best for**: Small-to-mid teams\n- **Cost**: Affordable\n\n---\n\n## Framework-Specific Options\n\n| **Compliance Need** | **Best Tool** |\n|---|---|\n| **SOC 2/ISO 27001** | Lacework, HashiCorp Sentinel |\n| **GDPR/Privacy** | OneTrust, TrustArc |\n| **Code Quality** | SonarQube + Slack bot |\n| **Secrets/PII** | GitGuardian, Snyk |\n| **Supply Chain (SBOM)** | Snyk, CycloneDX |\n\n---\n\n## Quick Setup Recommendation\n\n**For most teams**: Start with **Snyk** + **GitHub native branch protection**\n- Minimal setup\n- Free tier is substantial\n- Excellent Slack integration\n- Covers most compliance bases\n\n**What's your specific compliance requirement?** (SOC 2, HIPAA, GDPR, etc.)",
-  "cached_at": "2026-05-28T08:31:38Z",
-  "metadata": {}
-}

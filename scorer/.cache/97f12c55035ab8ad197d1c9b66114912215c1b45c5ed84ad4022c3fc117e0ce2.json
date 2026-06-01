@@ -1,9 +1,0 @@
-{
-  "brand": "Reply.io",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to Outreach",
-  "response": "# Cheaper Alternatives to Outreach\n\n## Lower-Cost Sales Engagement Platforms\n\n**Budget-Friendly Options**\n- **Apollo.io** - ~$49/mo, strong prospecting + basic automation\n- **Lemlist** - ~$29/mo, email campaigns with personalization\n- **Instantly.ai** - ~$25/mo, cold email focused\n- **HubSpot** - Free tier available, scales affordably\n- **Waalaxy** - ~$20/mo, LinkedIn + email automation\n\n**Mid-Range** ($50-150/mo)\n- **Reply.io** - Multi-channel automation, good reviews\n- **Smartreach** - Cold email platform with sequences\n- **Salesloft** - More expensive but feature-rich alternative\n\n## DIY/No-Code Approaches\n\n- **Gmail + templates** - Boomerang, Streak, Mailmodo plugins\n- **Zapier** + basic CRM - Automate between tools you already use\n- **Airtable + automation** - Custom workflows, very flexible\n- **LinkedIn Sales Navigator** - ~$65/mo for direct outreach\n\n## Key Considerations\n\n- **What features matter most?** (email, calls, LinkedIn, multichannel)\n- **Team size** - Most cheaper tools scale linearly\n- **Integration needs** - Ensure it connects to your CRM\n- **Compliance** - Verify GDPR/CAN-SPAM compliance\n\n**Pro tip:** Many alternatives excel at specific channels (email or LinkedIn) rather than being all-in-one—sometimes using 2-3 specialized tools beats one expensive platform.\n\nWhat's your primary use case?",
-  "cached_at": "2026-05-28T07:21:13Z",
-  "metadata": {}
-}

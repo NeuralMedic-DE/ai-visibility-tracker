@@ -1,9 +1,0 @@
-{
-  "brand": "Lattice",
-  "prompt_id": "CM-01",
-  "llm": "perplexity",
-  "prompt_text": "Lattice vs Leapsome: which is better?",
-  "response": "There is no single **“better”** choice overall: **Lattice** is usually stronger for larger teams that want a broader, more integrated HR/performance platform, while **Leapsome** is often the better fit for organizations that prioritize **learning & development, flexibility, and simpler adoption**.[1][2][5][7]\n\n- **Choose Lattice** if you want stronger **goal alignment/OKRs**, **people analytics**, broader HR integrations, and a more comprehensive all-in-one HR/performance suite.[2][4][7][9]\n- **Choose Leapsome** if you want a platform with strong **employee development**, **surveys/feedback**, and a more intuitive experience, especially for small to mid-sized teams.[1][2][5][6]\n\nA practical way to decide is:\n\n| If you care most about… | Better fit |\n|---|---|\n| **OKRs, analytics, and enterprise-style HR workflows** | **Lattice**[2][4][7][9] |\n| **Learning, development, and simpler rollout** | **Leapsome**[2][5][7] |\n| **More integrations / broader HR stack** | **Lattice**[1][4] |\n| **More customization and development-focused features** | **Leapsome**[1][2] |\n\nPricing also tends to favor **Leapsome** in some comparisons, while **Lattice** is often described as more expensive, especially as you add modules.[3][6]\n\nIf you want, I can give you a **best-for-your-company recommendation** based on your team size, budget, and whether you need **reviews, OKRs, engagement surveys, or HRIS**.",
-  "cached_at": "2026-05-28T06:30:11Z",
-  "metadata": {}
-}

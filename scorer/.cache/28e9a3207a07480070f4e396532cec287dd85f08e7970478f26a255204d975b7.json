@@ -1,9 +1,0 @@
-{
-  "brand": "Planetscale",
-  "prompt_id": "IN-04",
-  "llm": "openai",
-  "prompt_text": "Best database that works with GitHub and Rails",
-  "response": "When working with Ruby on Rails and GitHub, the most commonly used database is PostgreSQL. It is a powerful, open-source relational database that integrates well with Rails and is supported by many hosting providers. Here are a few reasons why PostgreSQL is often considered the best choice:\n\n1. **Active Record Support**: Rails' default ORM, Active Record, has excellent support for PostgreSQL, making it easy to use advanced database features.\n\n2. **Rich Feature Set**: PostgreSQL offers a wide range of features, including support for JSON data types, full-text search, and advanced indexing, which can be very beneficial for complex applications.\n\n3. **Scalability and Performance**: PostgreSQL is known for its ability to handle large volumes of data and complex queries efficiently.\n\n4. **Community and Ecosystem**: It has a strong community and a rich ecosystem of tools and extensions, which can be very helpful for development and troubleshooting.\n\n5. **Compatibility with Hosting Services**: Many cloud hosting services, such as Heroku and AWS, offer excellent support for PostgreSQL, making deployment and scaling easier.\n\nWhile PostgreSQL is a popular choice, other databases like MySQL or SQLite can also work with Rails, depending on your project's specific needs. SQLite is often used for development and testing due to its simplicity and zero-configuration nature, but it's not recommended for production environments.",
-  "cached_at": "2026-05-28T06:15:48Z",
-  "metadata": {}
-}

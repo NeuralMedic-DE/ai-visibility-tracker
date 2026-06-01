@@ -1,9 +1,0 @@
-{
-  "brand": "Amplitude",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which product analytics software should a VP Product or Chief Product Officer use?",
-  "response": "# Product Analytics Tools for Senior PMs\n\nThe best choice depends on your specific needs, but here's how top options compare:\n\n## For Most VP/CPO Roles\n**Amplitude** or **Mixpanel** are industry standards because they:\n- Handle complex user journey analysis\n- Scale with enterprise needs\n- Integrate well with product roadmap tools\n- Provide strong cohort and retention analysis\n\n## By Priority\n\n**If you prioritize:**\n- **Ease of use + quick insights** → Mixpanel, Heap\n- **Deep behavioral analysis** → Amplitude\n- **Product-specific workflows** → Pendo, Appcues (if you also need in-app guidance)\n- **Data warehouse integration** → Segment + downstream tools (Looker, dbt)\n- **Cost efficiency at scale** → Posthog (open-source option) or custom solutions\n\n## The Real Decision Factors\nAt your level, focus on:\n1. **What your team already uses** (switching is expensive)\n2. **Integration with your stack** (data warehouse, CRM, etc.)\n3. **Reporting to executives** (dashboard quality matters)\n4. **Team enablement** (do analysts need to support others?)\n\n## Pro Tip\nMany CPOs supplement one primary tool with a **data warehouse** (Snowflake/BigQuery) + **BI tool** (Tableau/Looker) for custom deep dives. This gives flexibility that single-vendor solutions can't match.\n\nWhat's your company size/stage? That might narrow recommendations further.",
-  "cached_at": "2026-05-27T19:25:00Z",
-  "metadata": {}
-}

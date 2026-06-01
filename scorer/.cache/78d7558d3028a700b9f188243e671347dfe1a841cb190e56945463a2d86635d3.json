@@ -1,9 +1,0 @@
-{
-  "brand": "Mosaic",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Mosaic integrate with NetSuite?",
-  "response": "Yes. Mosaic **can integrate with NetSuite**, typically via integration platforms like **tray.ai** or NetSuite’s own integration capabilities.\n\nKey points:\n\n- Tray.io explicitly markets a **Mosaic + NetSuite integration** that lets you automate syncing actuals, budgets, and forecasts between your ERP (NetSuite) and Mosaic’s FP&A platform.[1]  \n- NetSuite provides an **Integration Platform** to connect NetSuite with other applications, including FP&A and finance tools.[3] Mosaic fits into this pattern as a strategic finance/FP&A platform that consumes ERP data.  \n- Mosaic’s own materials state that it integrates with “most project and financial management software,” which commonly includes major ERPs like NetSuite, even if NetSuite is not always listed by name in every generic summary.[4][5]\n\nIn practice, teams typically connect Mosaic to NetSuite using:\n- A prebuilt connector on an iPaaS like tray.io[1], or  \n- NetSuite’s integration tools (SuiteTalk APIs, connectors in the NetSuite Integration Platform).[3]\n\nFor an implementation, you would usually confirm with Mosaic sales/support which connector they recommend (native vs. iPaaS) for your NetSuite setup and data model.",
-  "cached_at": "2026-05-28T07:11:42Z",
-  "metadata": {}
-}

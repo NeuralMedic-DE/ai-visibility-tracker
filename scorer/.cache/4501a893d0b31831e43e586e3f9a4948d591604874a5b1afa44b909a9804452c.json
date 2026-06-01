@@ -1,9 +1,0 @@
-{
-  "brand": "Lemlist",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Reply.io vs alternatives: what should I switch to?",
-  "response": "# Reply.io Alternatives: Key Options\n\n## Top Contenders\n\n**HubSpot Sales Hub**\n- Better CRM integration, free tier available\n- Best if: You want an all-in-one platform\n- Trade-off: Can feel bloated for pure outreach\n\n**Lemlist**\n- Stronger personalization features (dynamic variables, videos)\n- Best if: Outreach quality matters more than volume\n- Trade-off: Smaller contact limits on lower tiers\n\n**Apollo.io**\n- Excellent data quality, built-in prospecting database\n- Best if: You need reliable B2B contact info\n- Trade-off: More expensive for large teams\n\n**Outreach**\n- Enterprise-focused, deep sales engagement tools\n- Best if: You have complex sales processes\n- Trade-off: Overkill and pricey for SMBs\n\n**Instantly.ai**\n- Best deliverability rates, newer\n- Best if: Email warm-up matters most\n- Trade-off: Fewer integrations\n\n**Mailshake**\n- Simpler, more affordable\n- Best if: You want no-nonsense outreach\n- Trade-off: Fewer advanced features\n\n## Decision Framework\n\nWhat's your main pain point with Reply.io?\n- **Deliverability?** → Instantly or Lemlist\n- **Data quality?** → Apollo\n- **Integration/CRM?** → HubSpot\n- **Budget?** → Mailshake or Instantly\n- **Personalization?** → Lemlist\n\nWhat's your company size and budget?",
-  "cached_at": "2026-05-28T07:17:12Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Rho",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which finance software should a CFO or Finance Lead at a venture-backed startup use?",
-  "response": "# Finance Software for Venture-Backed Startups\n\nThe answer depends on your stage and priorities, but here's a practical framework:\n\n## Core Stack (Most Important)\n\n**Accounting/General Ledger:**\n- **NetSuite** – If you have complexity (multi-entity, international, ~$50M+ revenue trajectory)\n- **Quickbooks Online Plus** – Solid baseline for simpler structures\n- **Sage Intacct** – Growing choice for mid-market, strong close automation\n\n**Cash Management:**\n- **Brex** or **Mercury** – Banking + visibility for startups (essential)\n- **Lattice** or **Mosaic** – Cash forecasting/modeling\n\n## Financial Planning & Analysis (FP&A)\n\n**Pick one based on needs:**\n- **Mosaic** – Purpose-built for VC-backed startups (metrics, cohorts, forecasting)\n- **Causal** or **Anaplan** – Flexible modeling\n- **Tableau/Looker** – Custom dashboards if you have analytics resources\n\n## Payroll & HR\n\n- **Guidepoint** or **ADP** – Standard choice\n- **Rippling** – If you want all-in-one HR+IT+Finance\n\n## Key Considerations\n\n1. **Don't over-engineer early** – Quickbooks + spreadsheets is fine at seed stage\n2. **Your investors care about**: quick close, accurate reporting, clean data\n3. **Migration is painful** – Pick something that scales with you\n4. **Integrate well** – Check compatibility with Salesforce, Slack, etc.\n\n**What stage are you at?** That would help narrow it down further.",
-  "cached_at": "2026-05-28T07:12:12Z",
-  "metadata": {}
-}

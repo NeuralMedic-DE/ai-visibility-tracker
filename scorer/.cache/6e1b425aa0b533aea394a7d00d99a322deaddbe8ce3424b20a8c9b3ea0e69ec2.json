@@ -1,9 +1,0 @@
-{
-  "brand": "RudderStack",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does RudderStack integrate with Segment?",
-  "response": "Yes, RudderStack can integrate with Segment. RudderStack is designed to be compatible with Segment's API, allowing you to switch from Segment to RudderStack with minimal changes to your existing setup. This integration enables you to send data from your applications to RudderStack using Segment's libraries and infrastructure, or vice versa, facilitating a smooth transition or coexistence between the two platforms.",
-  "cached_at": "2026-05-28T09:08:07Z",
-  "metadata": {}
-}

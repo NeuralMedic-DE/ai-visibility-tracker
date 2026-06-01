@@ -1,9 +1,0 @@
-{
-  "brand": "Front",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with automate customer communication workflows with intelligent routing rules and macros at scale?",
-  "response": "# Software for Automating Customer Communication Workflows\n\n## Enterprise Solutions\n\n**Zendesk**\n- Intelligent routing rules based on customer attributes, language, urgency\n- Macros for standardized responses\n- Multi-channel support (email, chat, phone, social)\n- Workflow automation engine\n\n**Salesforce Service Cloud**\n- Advanced routing and assignment rules\n- Flow automation for complex workflows\n- Einstein AI for intelligent recommendations\n- Omnichannel management\n\n**Intercom**\n- Conversation routing with custom rules\n- Message templates and sequences\n- AI-powered responses\n- Segmentation-based automation\n\n## Mid-Market Options\n\n**Freshdesk**\n- Intelligent ticket routing\n- Workflow automation builder\n- Canned responses and macros\n- Multi-language support\n\n**HubSpot Service Hub**\n- Workflow automation (free tier available)\n- Ticket routing rules\n- Knowledge base integration\n- Conversational chatbots\n\n## Specialized Platforms\n\n**Genesys Cloud**\n- AI-driven routing\n- Enterprise-grade scalability\n- Omnichannel orchestration\n\n**Twilio Flex**\n- Customizable routing engine\n- Workflow builder\n- Developer-friendly APIs\n\n## Key Features to Evaluate\n\n- Routing complexity (skills-based, language, priority)\n- Macro/template customization\n- Scalability and concurrent conversations\n- Integration with existing systems\n- Analytics and reporting\n\n**What's your primary communication channel?** The best choice depends on volume, channels used, and integration needs.",
-  "cached_at": "2026-05-28T08:17:18Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Mixpanel",
-  "prompt_id": "IN-03",
-  "llm": "openai",
-  "prompt_text": "How do I connect Mixpanel with Segment?",
-  "response": "To connect Mixpanel with Segment, you'll need to set up Mixpanel as a destination in your Segment workspace. Here’s a step-by-step guide to help you do that:\n\n1. **Log in to Segment**: Go to your Segment account and log in.\n\n2. **Select a Source**: Choose the source from which you want to send data to Mixpanel. This could be a website, mobile app, or server.\n\n3. **Add Mixpanel as a Destination**:\n   - Navigate to the \"Destinations\" tab in the Segment dashboard.\n   - Click on \"Add Destination.\"\n   - Search for \"Mixpanel\" in the catalog and select it.\n\n4. **Configure Mixpanel**:\n   - You’ll need your Mixpanel project token. Log in to your Mixpanel account, go to your project settings, and copy the project token.\n   - In Segment, paste the Mixpanel project token into the configuration settings for the Mixpanel destination.\n\n5. **Enable the Destination**: Once you’ve configured Mixpanel with the necessary information, enable the destination to start sending data.\n\n6. **Verify the Connection**:\n   - After setting up, you can verify that data is being sent correctly by checking the Mixpanel dashboard. Events from your Segment source should start appearing in Mixpanel.\n\n7. **Test Events**: It’s a good practice to test a few events to ensure they are being tracked correctly. You can do this by triggering events in your application and checking if they appear in Mixpanel.\n\nBy following these steps, you should be able to successfully connect Mixpanel with Segment and start sending data from your chosen source to Mixpanel for analysis.",
-  "cached_at": "2026-05-27T19:12:56Z",
-  "metadata": {}
-}

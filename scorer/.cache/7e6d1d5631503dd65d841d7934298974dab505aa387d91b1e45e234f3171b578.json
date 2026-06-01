@@ -1,9 +1,0 @@
-{
-  "brand": "Conveyor",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to Drata",
-  "response": "# Cheaper Alternatives to Drata\n\n## Budget-Friendly Options\n\n**Vanta**\n- Similar compliance automation features\n- Often cheaper for smaller companies\n- Good for SOC 2, ISO 27001\n\n**Secureframe**\n- Lower starting price point\n- User-friendly interface\n- Strong for early-stage startups\n\n**Laika**\n- Most affordable option\n- Lightweight compliance management\n- Best for minimal documentation needs\n\n## DIY/Hybrid Approaches\n\n**Free/Low-Cost Tools**\n- **Notion** or **Airtable** - Build custom compliance docs\n- **Auditor** (free tier) - Basic compliance tracking\n- **Freshdesk** - Ticketing + some compliance features\n\n**Open Source**\n- **OpenSCAP** - Security compliance scanning\n- **Cilium** - Cloud-native security\n\n## Consideration Factors\n\n| Factor | Best For |\n|--------|----------|\n| **Bootstrapped startups** | Laika, DIY with Airtable |\n| **Mid-market** | Secureframe, Vanta |\n| **Specific standards only** | Single-purpose tools |\n\n## Hidden Costs to Watch\n- Implementation time (DIY = labor intensive)\n- Training overhead\n- Less automation = manual work\n\n**Pro tip:** Many alternatives lack Drata's automation depth. Evaluate if you truly need full automation or can manage with lighter tools.\n\nWhat's your company size and primary compliance need?",
-  "cached_at": "2026-05-28T08:46:17Z",
-  "metadata": {}
-}

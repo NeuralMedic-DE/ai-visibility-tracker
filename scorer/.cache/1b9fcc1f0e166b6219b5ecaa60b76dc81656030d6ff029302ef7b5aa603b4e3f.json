@@ -1,9 +1,0 @@
-{
-  "brand": "Maxio",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Maxio integrate with Salesforce?",
-  "response": "# Maxio and Salesforce Integration\n\nYes, **Maxio does integrate with Salesforce**. The integration allows you to:\n\n- **Sync customer data** between Maxio and Salesforce\n- **Manage billing information** within your Salesforce environment\n- **Streamline workflows** between your billing and CRM systems\n- **Reduce manual data entry** and keep records synchronized\n\n## How to Get Started\n\nFor specific details about:\n- Setup requirements\n- Available features\n- Sync capabilities\n- Any limitations\n\nI'd recommend checking:\n- **Maxio's integration documentation** or help center\n- **Salesforce AppExchange** for the official listing\n- **Contacting Maxio support** directly for the most current integration details\n\nSince integrations can be updated or enhanced, reaching out to their support team will give you the most accurate and up-to-date information about what's currently available.",
-  "cached_at": "2026-05-28T06:53:05Z",
-  "metadata": {}
-}

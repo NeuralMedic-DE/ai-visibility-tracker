@@ -1,9 +1,0 @@
-{
-  "brand": "Mosaic",
-  "prompt_id": "AL-05",
-  "llm": "openai",
-  "prompt_text": "Open source or affordable FP&A tools instead of Anaplan",
-  "response": "If you're looking for open-source or more affordable alternatives to Anaplan for Financial Planning and Analysis (FP&A), here are some options you might consider:\n\n1. **Open-Source Options:**\n   - **Apache OFBiz**: While primarily an ERP system, it includes financial management features that can be customized for FP&A needs.\n   - **Odoo**: Offers a suite of business applications, including accounting and financial management, which can be tailored for FP&A tasks. The community version is open-source.\n\n2. **Affordable Proprietary Options:**\n   - **Jirav**: Provides budgeting, forecasting, and reporting capabilities and is known for being more affordable than Anaplan.\n   - **Vena Solutions**: Offers a more budget-friendly FP&A solution with Excel integration, which can be appealing for teams familiar with Excel.\n   - **Adaptive Insights (Workday Adaptive Planning)**: While not open-source, it is often considered a more cost-effective alternative to Anaplan.\n   - **Planful (formerly Host Analytics)**: Known for its ease of use and affordability compared to larger enterprise solutions.\n   - **Cube**: A financial planning platform that integrates with Excel and Google Sheets, offering a more budget-friendly option.\n\n3. **Spreadsheet-Based Solutions:**\n   - **Google Sheets or Microsoft Excel**: With the right templates and add-ons, these can be powerful tools for FP&A. They are highly customizable and can be integrated with other tools for automation.\n\nWhen choosing a tool, consider factors such as the size of your organization, specific feature requirements, ease of use, integration capabilities, and total cost of ownership.",
-  "cached_at": "2026-05-28T07:10:11Z",
-  "metadata": {}
-}

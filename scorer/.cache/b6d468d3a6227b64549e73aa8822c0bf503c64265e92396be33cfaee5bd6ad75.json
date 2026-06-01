@@ -1,9 +1,0 @@
-{
-  "brand": "Leapsome",
-  "prompt_id": "IN-04",
-  "llm": "openai",
-  "prompt_text": "Best HR that works with Slack and BambooHR",
-  "response": "When looking for HR tools that integrate well with both Slack and BambooHR, it's important to consider what specific features you need. However, a few popular options that are known for their seamless integration with both platforms include:\n\n1. **Officevibe**: This tool focuses on employee engagement and feedback. It integrates with Slack to facilitate quick surveys and feedback collection, and it can work alongside BambooHR for managing employee data.\n\n2. **Lattice**: Known for performance management and employee engagement, Lattice integrates with Slack to provide updates and reminders. It can also pull employee data from BambooHR to streamline performance reviews.\n\n3. **Bonusly**: A recognition and rewards platform, Bonusly integrates with Slack to allow employees to give and receive recognition easily. It can also sync with BambooHR to ensure that employee information is up-to-date.\n\n4. **Donut**: This tool helps build team culture by facilitating introductions and conversations among team members. It integrates with Slack to schedule meetups and can work with BambooHR for employee data management.\n\n5. **Leapsome**: A people enablement platform that combines performance management, employee engagement, and learning. It integrates with Slack for notifications and updates, and with BambooHR for syncing employee records.\n\nThese tools can help streamline HR processes and enhance team communication and engagement by leveraging the capabilities of both Slack and BambooHR.",
-  "cached_at": "2026-05-28T06:37:18Z",
-  "metadata": {}
-}

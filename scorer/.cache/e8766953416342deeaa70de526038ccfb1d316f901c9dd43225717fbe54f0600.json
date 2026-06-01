@@ -1,9 +1,0 @@
-{
-  "brand": "Raycast",
-  "prompt_id": "AL-02",
-  "llm": "openai",
-  "prompt_text": "Cheaper alternatives to Spotlight",
-  "response": "If you're looking for cheaper alternatives to Apple's Spotlight for searching and managing files on macOS, here are a few options:\n\n1. **Alfred**: While the basic version of Alfred is free, it offers powerful search capabilities similar to Spotlight. The paid Powerpack adds even more features, but the free version is quite robust on its own.\n\n2. **LaunchBar**: This is another powerful alternative that offers a free trial. It provides quick access to files, applications, and more with a focus on productivity.\n\n3. **Quicksilver**: This is a free and open-source application launcher and productivity tool that can serve as an alternative to Spotlight.\n\n4. **HoudahSpot**: Although not free, HoudahSpot offers a more advanced search experience than Spotlight and is often more affordable than some other paid options.\n\n5. **EasyFind**: This is a free tool from DEVONtechnologies that offers a straightforward search experience without the need for indexing.\n\nThese alternatives can provide similar or enhanced functionality compared to Spotlight, often with additional features tailored to specific needs.",
-  "cached_at": "2026-05-28T06:25:13Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Linear",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with manage product roadmaps and coordinate releases at scale?",
-  "response": "# Product Roadmap & Release Management Tools\n\n## Popular Options\n\n**Specialized Roadmap Tools:**\n- **Productboard** - Visual roadmaps, feedback integration, prioritization\n- **Roadmunk** - Timeline views, stakeholder alignment, scenario planning\n- **AHA!** - Strategy, roadmap, and release management in one platform\n- **ProdPad** - Idea management + roadmap planning\n\n**Agile/Development-Focused:**\n- **Jira** - Powerful for tech teams; extensive release planning features\n- **Azure DevOps** - Enterprise Microsoft integration\n- **Linear** - Modern, streamlined for engineering teams\n\n**Broader Portfolio Management:**\n- **Monday.com**, **Asana**, **Monday.com** - Flexible, customizable workspaces\n- **Atlassian Portfolio** - Works with Jira at enterprise scale\n\n## Key Features to Look For\n- Timeline/Gantt chart views\n- Stakeholder communication & feedback\n- Dependency mapping\n- Release tracking & coordination\n- Cross-team visibility\n- Integration with your development tools\n\n## Consider\n- Team size and technical depth\n- Budget constraints\n- Integration needs with existing tools\n- Whether you need product strategy or just release coordination\n\n**For scaling:** Most teams combine a dedicated roadmap tool with their development platform (like Jira) for best results.\n\nWhat's your team size and current setup? That would help narrow recommendations.",
-  "cached_at": "2026-05-27T21:08:44Z",
-  "metadata": {}
-}

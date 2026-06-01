@@ -1,9 +1,0 @@
-{
-  "brand": "Weights & Biases",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Weights & Biases integrate with PyTorch?",
-  "response": "# Yes, Weights & Biases Integrates with PyTorch\n\nWeights & Biases (W&B) has excellent integration with PyTorch. Here are the key points:\n\n## Easy Integration\n- **Minimal setup**: Just a few lines of code to start logging\n- **Native support**: W&B is PyTorch-friendly with straightforward APIs\n\n## Basic Example\n```python\nimport wandb\nimport torch\nimport torch.nn as nn\n\n# Initialize W&B\nwandb.init(project=\"my-project\")\n\n# Your PyTorch model and training loop\nmodel = nn.Linear(10, 1)\noptimizer = torch.optim.SGD(model.parameters(), lr=0.01)\n\nfor epoch in range(100):\n    # Training code...\n    loss = ...\n    \n    # Log metrics\n    wandb.log({\"loss\": loss, \"epoch\": epoch})\n\nwandb.finish()\n```\n\n## What You Can Track\n- Scalars (loss, accuracy, etc.)\n- Histograms of weights and gradients\n- Gradients and parameter distributions\n- Model checkpoints\n- System metrics (GPU/CPU usage)\n- Media (images, videos, audio)\n- Custom charts and visualizations\n\n## Additional Features\n- **Hyperparameter sweep integration** for easy tuning\n- **Model versioning and artifact tracking**\n- **Collaborative dashboards** for team experiments\n- **Reports** for sharing results\n\nThe integration is one of W&B's strongest, making it very popular in the PyTorch community.",
-  "cached_at": "2026-05-28T07:37:53Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Gainsight",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is Gainsight better than Totango for track product adoption and identify at-risk accounts before they churn?",
-  "response": "# Gainsight vs Totango for Adoption & Churn Risk\n\nBoth are strong, but with different strengths:\n\n## Gainsight's advantages\n- **Broader platform**: More mature across CTAs, forecasting, and playbooks beyond adoption tracking\n- **Enterprise features**: Better for complex multi-stakeholder accounts with sophisticated workflows\n- **Integration depth**: More robust connections to your existing tech stack\n- **Stronger in**: Executive dashboards, comprehensive customer health scoring\n\n## Totango's advantages\n- **Adoption focus**: Purpose-built specifically for product adoption tracking and usage analytics\n- **Ease of use**: Generally considered simpler to get up and running\n- **Visibility**: Clearer product feature-level adoption insights out of the box\n- **Pricing**: Often more affordable for mid-market\n- **Stronger in**: Quick implementation, adoption metrics clarity\n\n## For your specific needs:\n- **Risk detection** → roughly equal (both offer health scoring)\n- **Adoption tracking** → slight edge to Totango\n- **Pre-churn visibility** → roughly equal\n\n**Key question to ask yourself**: Do you need a full CSM platform ecosystem, or primarily adoption + health analytics? That distinction matters more than the Gainsight/Totango choice.\n\nConsider also: HubSpot (if you want simplicity), Vitally (if you want modern), or Planhat (if adoption is 80% of your need).\n\nWhat's driving your evaluation—specific gaps in your current setup?",
-  "cached_at": "2026-05-28T08:04:10Z",
-  "metadata": {}
-}

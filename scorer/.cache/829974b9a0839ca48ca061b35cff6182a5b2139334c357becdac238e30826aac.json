@@ -1,9 +1,0 @@
-{
-  "brand": "Copper",
-  "prompt_id": "AL-05",
-  "llm": "openai",
-  "prompt_text": "Open source or affordable CRM tools instead of Pipedrive",
-  "response": "If you're looking for open-source or affordable CRM alternatives to Pipedrive, here are some options you might consider:\n\n1. **HubSpot CRM**: HubSpot offers a free CRM that includes basic features like contact management, deal tracking, and email integration. There are also paid plans with more advanced features.\n\n2. **Zoho CRM**: Zoho offers a free plan for up to three users, which includes basic CRM functionalities. Their paid plans are also quite affordable and offer more advanced features.\n\n3. **Bitrix24**: Bitrix24 offers a free plan with a wide range of features, including CRM, project management, and communication tools. It's a good option for small teams.\n\n4. **SuiteCRM**: This is an open-source CRM that is free to use. It offers a wide range of features and can be customized to suit your needs.\n\n5. **Odoo**: Odoo offers a free open-source version that includes CRM functionalities. It's a modular system, so you can add other business applications as needed.\n\n6. **Vtiger CRM**: Vtiger offers both a free open-source version and affordable cloud-based plans. It includes features like sales automation, customer support, and marketing automation.\n\n7. **Freshsales (by Freshworks)**: Freshsales offers a free plan with basic features and affordable paid plans with more advanced capabilities.\n\n8. **EspoCRM**: An open-source CRM that is free to use and offers a variety of features, including sales automation and customer support.\n\nThese options provide a range of functionalities and pricing structures, so you can choose one that best fits your business needs and budget.",
-  "cached_at": "2026-05-27T18:21:22Z",
-  "metadata": {}
-}

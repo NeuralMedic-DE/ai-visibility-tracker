@@ -1,9 +1,0 @@
-{
-  "brand": "Lemlist",
-  "prompt_id": "CM-01",
-  "llm": "anthropic",
-  "prompt_text": "Lemlist vs Reply.io: which is better?",
-  "response": "# Lemlist vs Reply.io\n\nBoth are solid outreach platforms, but they serve slightly different priorities:\n\n## **Lemlist**\n**Strengths:**\n- Better personalization (dynamic video/images in emails)\n- Cleaner, more intuitive interface\n- Strong landing page builder\n- Good for creative cold outreach campaigns\n\n**Weaknesses:**\n- More limited CRM features\n- Smaller feature set overall\n- Pricier for advanced features\n\n## **Reply.io**\n**Strengths:**\n- More robust CRM and pipeline management\n- Better for sales teams (more collaboration tools)\n- Superior automation and sequences\n- Built-in phone/SMS capabilities\n- Better analytics and reporting\n\n**Weaknesses:**\n- Steeper learning curve\n- Less visually polished\n- Can feel feature-heavy\n\n## **Choose Lemlist if:**\n- You want creative personalization (video, images)\n- You're a solopreneur or small team\n- Design/aesthetics matter to you\n- Budget is tight\n\n## **Choose Reply.io if:**\n- You need full sales team collaboration\n- You want integrated calling/SMS\n- You need advanced CRM functionality\n- You're scaling outreach operations\n\n**Reality check:** Both work well. Your choice often comes down to whether you prioritize *creative differentiation* (Lemlist) or *sales infrastructure* (Reply.io).\n\nWhat's your primary use case? That would help narrow it down.",
-  "cached_at": "2026-05-28T07:16:57Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Copper",
-  "prompt_id": "IN-05",
-  "llm": "openai",
-  "prompt_text": "CRM tools with native Google Workspace integration",
-  "response": "There are several CRM tools that offer native integration with Google Workspace, allowing for seamless interaction with Gmail, Google Calendar, Google Drive, and other Google services. Here are some popular options:\n\n1. **HubSpot CRM**: HubSpot offers robust integration with Google Workspace, allowing users to sync emails, meetings, and contacts directly with Gmail and Google Calendar.\n\n2. **Zoho CRM**: Zoho provides integration with Google Workspace, enabling users to access emails, contacts, and calendar events from within the CRM.\n\n3. **Copper**: Specifically designed to work with Google Workspace, Copper integrates deeply with Gmail, Google Calendar, and other Google apps, providing a seamless experience for users who rely heavily on Google's ecosystem.\n\n4. **Pipedrive**: Pipedrive offers integration with Google Workspace, allowing users to sync emails, contacts, and calendar events, making it easier to manage sales activities.\n\n5. **Salesforce**: While Salesforce is a more complex CRM, it offers integration with Google Workspace through various add-ons and connectors, enabling users to sync data across platforms.\n\n6. **Insightly**: Insightly integrates with Google Workspace, allowing users to manage emails, contacts, and calendar events directly from the CRM.\n\n7. **Streak**: Built directly inside Gmail, Streak is a CRM that works natively within the Google Workspace environment, offering a unique experience for managing customer relationships without leaving your inbox.\n\nThese tools vary in terms of features and pricing, so it's a good idea to evaluate them based on your specific needs and how deeply you want them to integrate with Google Workspace.",
-  "cached_at": "2026-05-27T18:22:16Z",
-  "metadata": {}
-}

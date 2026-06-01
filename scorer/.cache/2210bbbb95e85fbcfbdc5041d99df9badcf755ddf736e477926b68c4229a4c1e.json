@@ -1,9 +1,0 @@
-{
-  "brand": "SafeBase",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is SafeBase better than Whistic for build a public trust center that proactively answers security questions for prospects?",
-  "response": "# SafeBase vs Whistic for Security Trust Centers\n\nBoth platforms serve this need, but they have different strengths:\n\n## SafeBase advantages\n- **Better designed for proactive answering** - Built specifically for self-service security Q&A\n- **More intuitive prospect experience** - Cleaner interface, easier navigation\n- **Faster to populate** - Good templates and workflows for getting content live quickly\n- **Lower cost typically** - More affordable for earlier-stage companies\n\n## Whistic advantages\n- **More comprehensive** - Handles security assessments, questionnaires, and certifications alongside trust center\n- **Better for complex organizations** - Stronger internal workflow/collaboration tools\n- **More integrations** - Syncs with more security tools (Jira, ServiceNow, etc.)\n- **Certification management** - Easier to track and showcase compliance certifications\n\n## For your specific goal:\n**SafeBase is likely the better fit** if your primary goal is a public-facing trust center that answers security questions proactively. It's purpose-built for this use case.\n\n**Choose Whistic** if you also need to streamline your actual security assessment processes or have a larger compliance/security team that needs internal collaboration.\n\n**Practical suggestion**: Both offer demos. Given that this is about prospect trust, test the actual user experience with a few realistic security questions to see which feels more trustworthy to *you*.\n\nWhat's your approximate company size? That context would help narrow it further.",
-  "cached_at": "2026-05-28T08:43:29Z",
-  "metadata": {}
-}

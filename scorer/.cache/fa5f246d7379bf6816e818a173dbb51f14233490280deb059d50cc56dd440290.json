@@ -1,9 +1,0 @@
-{
-  "brand": "Totango",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to ChurnZero",
-  "response": "# Cheaper Alternatives to ChurnZero\n\n## Free/Low-Cost Options\n\n| Tool | Best For | Pricing |\n|------|----------|---------|\n| **HubSpot Service Hub** | Small teams, basic support | Free tier available |\n| **Freshdesk** | Customer support + ticketing | ~$19-99/month |\n| **Zendesk** | Multi-channel support | ~$55+/month |\n| **Intercom** | Live chat + messaging | Free tier available |\n\n## Mid-Range Alternatives ($500-2000/month)\n\n- **Gainsight** - Comprehensive CSM platform (more expensive overall, but similar feature set)\n- **Totango** - Customer health scoring and retention\n- **Planhat** - CSM for mid-market companies\n- **Vitally** - Modern CSM with good automation\n- **Catalyst** - Lightweight CSM alternative\n\n## Lightweight/Specific Solutions\n\n- **Slack** + spreadsheets - Manual but minimal cost\n- **Mixpanel/Amplitude** - Product analytics focusing on retention\n- **Appcues** - In-app guidance (complementary)\n- **Microsoft Dynamics 365** - Enterprise CRM with support module\n- **Pipedrive** - CRM with health tracking add-ons\n\n## Decision Factors\n\n- **Team size** - Do you need dedicated CSM tools?\n- **Customer base** - Number of accounts to manage?\n- **Budget** - ChurnZero starts ~$1000/month; can you go lower?\n- **Specific needs** - Health scoring, automation, integrations?\n\nWhat's your primary use case? That would help narrow recommendations further.",
-  "cached_at": "2026-05-28T08:14:31Z",
-  "metadata": {}
-}

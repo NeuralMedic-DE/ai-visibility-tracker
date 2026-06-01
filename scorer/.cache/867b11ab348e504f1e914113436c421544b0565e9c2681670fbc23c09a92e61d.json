@@ -1,9 +1,0 @@
-{
-  "brand": "HiBob",
-  "prompt_id": "IN-02",
-  "llm": "perplexity",
-  "prompt_text": "HiBob Google Workspace integration: how does it work?",
-  "response": "HiBob’s **Google Workspace integration** is mainly for three things: **single sign-on (SSO)**, **user provisioning**, and **Google Calendar syncing**.[2][3] In practice, that means Bob can use Google credentials for login, automatically create/update/deactivate Google Workspace users based on employee changes in HiBob, and turn Bob-generated meeting invites into native Google Calendar events.[2][3]\n\nHow it works:\n\n- **SSO:** Employees can log into Bob with their Google Workspace credentials, which reduces the number of separate logins they need to manage.[2][3]\n- **Provisioning:** When someone is hired, changed, or leaves in HiBob, the integration can automatically **create**, **update**, or **deactivate** their Google Workspace account.[2][3]\n- **Calendar integration:** Tasks in Bob can generate calendar invites that appear directly in Google Calendar, and organizers can manage them there like normal events.[2][3]\n\nHiBob also describes its integrations as being **API-based** in most cases, with some integrations syncing **in real time or at defined lifecycle events**, so the Google Workspace connection is designed to keep employee data aligned across systems automatically.[7]\n\nIf you meant the broader “HiBob + Google Workspace” setup rather than a specific feature, it usually refers to these workforce-management workflows rather than a single all-purpose app connection.[2][3][7]",
-  "cached_at": "2026-05-28T06:34:16Z",
-  "metadata": {}
-}

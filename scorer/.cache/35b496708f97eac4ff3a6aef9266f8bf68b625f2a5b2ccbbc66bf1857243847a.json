@@ -1,9 +1,0 @@
-{
-  "brand": "Baremetrics",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Baremetrics with Stripe?",
-  "response": "# Connecting Baremetrics with Stripe\n\nHere's the standard process:\n\n## Basic Steps\n\n1. **Log into Baremetrics**\n   - Go to baremetrics.com and sign in to your account\n\n2. **Navigate to Integrations**\n   - Look for \"Integrations\" or \"Connections\" in your account settings\n   - Find Stripe in the list of available integrations\n\n3. **Click \"Connect\"**\n   - Select Stripe and you'll be prompted to authenticate\n   - You may be redirected to Stripe's login page\n\n4. **Authorize Access**\n   - Log in with your Stripe account credentials\n   - Approve the permissions Baremetrics is requesting\n   - Confirm the connection\n\n5. **Verify the Connection**\n   - Return to Baremetrics and confirm it shows as connected\n   - Your data should begin syncing shortly\n\n## What Gets Synced\n- Transactions\n- Customers\n- Subscriptions\n- Refunds\n- Charges\n\n## Troubleshooting Tips\n- Ensure you have admin access to both accounts\n- Check that your Stripe account is in \"live mode\" (if needed)\n- Clear your browser cache if connection fails\n- Verify you're using the correct Stripe account\n\n**Note:** If you're having specific issues or need the most current steps, check Baremetrics' official documentation or support, as interfaces can change.\n\nNeed help with a specific error?",
-  "cached_at": "2026-05-28T06:57:51Z",
-  "metadata": {}
-}

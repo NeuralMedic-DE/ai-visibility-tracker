@@ -1,9 +1,0 @@
-{
-  "brand": "Linear",
-  "prompt_id": "IN-04",
-  "llm": "openai",
-  "prompt_text": "Best project management that works with GitHub and Slack",
-  "response": "There are several project management tools that integrate well with both GitHub and Slack. Here are a few popular options:\n\n1. **Trello**: Trello is a flexible, easy-to-use project management tool that integrates with GitHub through Power-Ups, allowing you to link GitHub issues and pull requests to Trello cards. It also integrates with Slack, enabling notifications and updates directly in your Slack channels.\n\n2. **Asana**: Asana offers integrations with GitHub through third-party services like Unito or Zapier, allowing you to sync issues and tasks. It also integrates with Slack, providing notifications and the ability to create tasks directly from Slack messages.\n\n3. **Jira**: Jira is a robust project management tool often used for software development. It has strong integration capabilities with GitHub, allowing you to track commits, branches, and pull requests. Jira also integrates with Slack, offering notifications and updates.\n\n4. **ZenHub**: ZenHub is specifically designed to work with GitHub, providing a project management layer directly within the GitHub interface. It also integrates with Slack to provide updates and notifications.\n\n5. **ClickUp**: ClickUp offers integrations with GitHub to sync issues and pull requests, and with Slack for notifications and task creation directly from Slack.\n\nEach of these tools offers unique features, so the best choice depends on your specific needs and workflow preferences.",
-  "cached_at": "2026-05-27T21:06:33Z",
-  "metadata": {}
-}

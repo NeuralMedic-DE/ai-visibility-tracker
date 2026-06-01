@@ -1,9 +1,0 @@
-{
-  "brand": "Lemlist",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable sales engagement tools instead of Instantly",
-  "response": "# Open Source & Affordable Sales Engagement Alternatives to Instantly\n\n## **Open Source Options**\n\n### **Mautic**\n- Free marketing automation platform\n- Email campaigns, lead scoring, contact management\n- Self-hosted (your server)\n- Steep learning curve but powerful\n- https://www.mautic.org\n\n### **EspoCRM**\n- Open-source CRM with email capabilities\n- Contact/lead management, pipelines, automation\n- Self-hosted\n- Good community support\n- https://www.espocrm.com\n\n### **Odoo**\n- Modular open-source suite\n- CRM, email, pipelines, reporting\n- Free Community Edition (self-hosted)\n- Can get complex but very comprehensive\n- https://www.odoo.com\n\n---\n\n## **Budget-Friendly Commercial Tools**\n\n### **HubSpot Free CRM**\n- $0 for basic CRM & email\n- Good for small teams starting out\n- Limited automation\n- Strong feature set for the price\n\n### **Brevo (formerly Sendinblue)**\n- Email + SMS + basic CRM\n- Free up to 300 contacts\n- ~$20-100/month for paid plans\n- Decent automation features\n\n### **Close**\n- $29-99/month\n- Built for sales teams\n- Call tracking, email, pipelines\n- No contact limits (unlike many tools)\n\n### **Pipedrive**\n- $14-99/month per user\n- Visual pipeline management\n- Basic email integration\n- Very intuitive UI\n\n### **Mailchimp**\n- Free for basic email + small CRM\n- Best for smaller outreach volumes\n- ~$20-300/month for features\n\n---\n\n## **Hybrid Approach**\n\nMany teams combine:\n- **Free CRM** (HubSpot/Odoo) + **Email tool** (Brevo/Mailchimp)\n- **Self-hosted** (Mautic) + **Gmail/Outlook** for sending\n\n**What's your budget & team size?** That would help narrow this down.",
-  "cached_at": "2026-05-28T07:17:13Z",
-  "metadata": {}
-}

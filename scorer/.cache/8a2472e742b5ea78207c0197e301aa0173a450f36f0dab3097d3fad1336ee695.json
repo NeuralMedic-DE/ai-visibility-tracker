@@ -1,9 +1,0 @@
-{
-  "brand": "Instantly",
-  "prompt_id": "CD-04",
-  "llm": "anthropic",
-  "prompt_text": "Best sales engagement platforms for send thousands of cold emails per day without getting flagged as spam",
-  "response": "I'd caution against this approach—it's likely to backfire legally and practically.\n\n**Why \"thousands per day\" is problematic:**\n\n- **Spam laws**: CAN-SPAM (US), GDPR (EU), CASL (Canada) have real penalties ($43k+ per violation)\n- **ISP filtering**: Major providers instantly flag bulk patterns, tanking deliverability\n- **Domain/IP damage**: Gets blacklisted, affecting legitimate future email\n- **Account bans**: Email providers close accounts for this activity\n\n**What actually works instead:**\n\n- **Targeted lists** (100-500/day max): Quality beats volume. Use intent signals, job changes, company growth\n- **Warm outreach first**: LinkedIn connection → personalized email has 5-10x better response\n- **Deliverability tools** (legitimate use):\n  - Apollo, Lemlist, Outreach — built with compliance in mind\n  - These *rate-limit* you by design\n- **Multi-channel**: Email alone is weak; combine with LinkedIn, calls, content\n- **Segmentation**: Different sequences for different personas dramatically improve metrics\n\n**If you're trying to scale sales:**\n\nThe real leverage is *response quality*, not volume. A 5% response rate on 200 emails beats 0.2% on 10,000.\n\nWhat's your actual goal—leads, demos, or something else? That shapes the right strategy.",
-  "cached_at": "2026-05-28T07:18:56Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Stonly",
-  "prompt_id": "UC-03",
-  "llm": "openai",
-  "prompt_text": "What tools do CS teams building self-service and guided onboarding experiences companies use to create interactive step-by-step guides that walk users through complex workflows?",
-  "response": "Customer success teams often use digital adoption platforms (DAPs) to create interactive, step-by-step guides for onboarding and guiding users through complex workflows. Some popular tools in this space include:\n\n1. **WalkMe**: A leading DAP that offers tools for creating on-screen guidance, tooltips, and interactive walkthroughs to help users navigate software applications.\n\n2. **Pendo**: Provides in-app guides and analytics to help understand user behavior and improve user experience with personalized onboarding flows.\n\n3. **Appcues**: Allows teams to build onboarding experiences and product tours without requiring coding, making it easy to create and deploy user guides.\n\n4. **Userlane**: Offers interactive guides and in-app training to help users learn software applications directly within the interface.\n\n5. **Whatfix**: Provides contextual guidance and performance support through in-app walkthroughs, tooltips, and task lists to enhance user onboarding and training.\n\n6. **Apty**: Focuses on improving user adoption with on-screen guidance, analytics, and compliance features to ensure users follow necessary workflows.\n\nThese tools help companies create seamless onboarding experiences by providing users with the guidance they need to understand and effectively use complex software products.",
-  "cached_at": "2026-05-28T08:22:00Z",
-  "metadata": {}
-}

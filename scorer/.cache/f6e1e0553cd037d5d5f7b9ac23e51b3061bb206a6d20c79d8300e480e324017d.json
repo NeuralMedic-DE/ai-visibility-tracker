@@ -1,9 +1,0 @@
-{
-  "brand": "Intercom",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with automate support workflows and deflect tickets with AI-powered chatbots at scale?",
-  "response": "There are several software solutions that help automate support workflows and deflect tickets using AI-powered chatbots. Some popular ones include:\n\n1. **Zendesk**: Offers AI-powered chatbots and automation tools to help manage customer support tickets efficiently.\n\n2. **Intercom**: Provides a platform with AI chatbots that can automate responses and workflows to reduce the load on support teams.\n\n3. **Freshdesk**: Features AI-driven chatbots and automation capabilities to streamline support processes and deflect tickets.\n\n4. **Salesforce Service Cloud**: Includes Einstein AI, which helps automate support tasks and provide intelligent chatbot interactions.\n\n5. **Drift**: Known for its conversational AI capabilities, Drift helps automate customer interactions and support workflows.\n\n6. **HubSpot Service Hub**: Offers AI-powered chatbots that can help automate customer support and ticket deflection.\n\nThese platforms are designed to improve efficiency in customer support by leveraging AI to handle routine inquiries and tasks, allowing human agents to focus on more complex issues.",
-  "cached_at": "2026-05-28T08:01:47Z",
-  "metadata": {}
-}

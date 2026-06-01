@@ -1,9 +1,0 @@
-{
-  "brand": "Attio",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to HubSpot",
-  "response": "# Cheaper HubSpot Alternatives\n\n## Free/Freemium Options\n- **Pipedrive** - Strong CRM fundamentals, intuitive interface\n- **HubSpot Free** - Own free tier (limited features)\n- **Zoho CRM** - Robust free plan, good for small teams\n- **Freshsales** - Clean UI, affordable starter plans\n- **Close** - Sales-focused, simpler pricing model\n\n## Budget-Friendly Paid ($50-150/month)\n- **Copper** - Gmail-integrated, simple pricing\n- **Agile CRM** - All-in-one with automation\n- **Nutshell** - Lightweight, transparent pricing\n- **Streak** - Gmail-native, minimal learning curve\n- **Insightly** - Project management + CRM combo\n\n## Mid-Range ($200-500/month)\n- **Keap** - Marketing automation + CRM\n- **ActiveCampaign** - Better automation than HubSpot at lower tiers\n- **Pipedrive Pro** - For growing sales teams\n- **Salesforce Essentials** - More customizable than HubSpot\n\n## Key Considerations\n- **What HubSpot features do you need?** (Sales, marketing, service, automation?)\n- **Team size?**\n- **Integration requirements?**\n- **Ease of use priorities?**\n\n**Quick tip:** Many alternatives charge per user, not a flat fee—can be cheaper for small teams but more expensive as you scale.\n\nWhat's your primary use case? I can narrow it down.",
-  "cached_at": "2026-05-27T17:54:20Z",
-  "metadata": {}
-}

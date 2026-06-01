@@ -1,9 +1,0 @@
-{
-  "brand": "Paddle",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Stripe vs alternatives: what should I switch to?",
-  "response": "# Stripe vs Alternatives\n\n**Before switching**, consider: what's actually frustrating you? Stripe's main complaints are pricing, support responsiveness, and API complexity—but alternatives often trade one strength for another.\n\n## Quick comparison by priority:\n\n**If pricing is your main issue:**\n- **Adyen** — lower rates for high volume, complex setup\n- **Square** — simpler, competitive for small businesses\n- **Wise** (international transfers) — much cheaper for cross-border\n\n**If you need better support:**\n- **Square**, **PayPal** — faster response times\n- **Stripe** still ahead on docs/community despite slower support tickets\n\n**If you want simplicity:**\n- **Gumroad** — best for creators/digital goods\n- **Square Online** — all-in-one, less flexible\n- **Shopify Payments** — if you're already on Shopify\n\n**If you need specific features:**\n- **Gravity Forms + payment plugin** — maximum flexibility\n- **Braintree** (owned by PayPal) — good developer experience\n- **2Checkout/Verifone** — better for SaaS renewals\n\n## Real talk:\n\n- Most alternatives aren't actually cheaper once you add fees + processing\n- Switching is painful (integration work, customer communication)\n- **What's your actual blocker?** That matters more than comparing feature lists\n\nWhat's driving the consideration? That'll help narrow it down.",
-  "cached_at": "2026-05-28T07:00:06Z",
-  "metadata": {}
-}

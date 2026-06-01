@@ -1,9 +1,0 @@
-{
-  "brand": "Vellum",
-  "prompt_id": "IN-02",
-  "llm": "openai",
-  "prompt_text": "Vellum Anthropic integration: how does it work?",
-  "response": "Vellum's integration with Anthropic involves connecting Vellum's platform, which is designed for managing and deploying AI models, with Anthropic's language models. This integration allows users to leverage Anthropic's advanced AI capabilities within the Vellum environment.\n\nHere's how it typically works:\n\n1. **Access and Authentication**: Users need to authenticate their access to Anthropic's models through Vellum. This often involves setting up API keys or tokens that allow Vellum to communicate securely with Anthropic's services.\n\n2. **Model Selection**: Within Vellum, users can select from the available Anthropic models that best suit their needs. Anthropic offers a range of models with different capabilities and sizes, optimized for various tasks.\n\n3. **Deployment and Management**: Vellum provides tools for deploying these models into production environments. Users can manage model versions, monitor performance, and scale deployments as needed through Vellum's interface.\n\n4. **Customization and Fine-tuning**: Depending on the integration specifics, users might have the ability to fine-tune Anthropic models on their own datasets within Vellum, allowing for more tailored AI solutions.\n\n5. **Monitoring and Analytics**: Vellum typically offers analytics and monitoring tools that help users track the performance of their deployed models, including those from Anthropic. This can include metrics on usage, response times, and accuracy.\n\nOverall, the integration aims to provide a seamless experience for users who want to utilize Anthropic's AI models within the robust infrastructure and management tools offered by Vellum.",
-  "cached_at": "2026-05-28T07:44:59Z",
-  "metadata": {}
-}

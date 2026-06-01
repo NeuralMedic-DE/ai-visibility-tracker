@@ -1,9 +1,0 @@
-{
-  "brand": "Planetscale",
-  "prompt_id": "CD-01",
-  "llm": "perplexity",
-  "prompt_text": "What is the best database for engineering teams at fast-growing SaaS companies?",
-  "response": "There isn’t a single **best database** for all fast-growing SaaS engineering teams; the best choice depends on whether you need **transactional reliability**, **analytics at scale**, or a **combined operational + analytics** system. From the results you provided, **CrateDB** is the strongest direct fit for SaaS companies that need scalable, real-time analytics and search in one database. [1]\n\nIf your team is deciding by use case, the practical choice is:\n\n- **Operational product data:** PostgreSQL or MySQL are typically the default for SaaS app backends, but no provided result directly compares them here.\n- **Real-time analytics on large SaaS data volumes:** **CrateDB** is positioned for real-time analytics, scalable architecture, and AI-driven features for SaaS. [1]\n- **Engineering management / team metrics:** Waydev is not a database, but a data-driven engineering management tool for SaaS teams. [2]\n- **Broader data stack / warehouse-style analytics:** Databricks is mentioned as a strong option for data engineering, analytics, and ML in SaaS contexts. [7]\n\nIf you want a single recommendation based on the provided sources, choose **CrateDB** when your fast-growing SaaS team needs a database that can support **real-time analytics at scale** without splitting everything into separate systems. [1]\n\nIf you want, I can also give you a **practical decision matrix** for SaaS teams comparing PostgreSQL, MySQL, MongoDB, CrateDB, and Databricks by workload, scale, and team size.",
-  "cached_at": "2026-05-28T06:15:16Z",
-  "metadata": {}
-}

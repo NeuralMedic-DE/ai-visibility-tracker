@@ -1,9 +1,0 @@
-{
-  "brand": "Rho",
-  "prompt_id": "CD-01",
-  "llm": "openai",
-  "prompt_text": "What is the best finance for finance teams at venture-backed startups managing spend and AP?",
-  "response": "For venture-backed startups managing spend and accounts payable (AP), a few financial tools are particularly well-suited to meet their needs. These tools typically offer features like expense management, automated invoice processing, and integration with accounting software. Some of the top options include:\n\n1. **Brex**: Known for its corporate card and spend management solutions, Brex offers features tailored for startups, such as no personal guarantee, easy integration with accounting software, and real-time expense tracking.\n\n2. **Ramp**: Ramp provides a corporate card and spend management platform with a focus on automation and cost savings. It offers features like automated receipt matching, spend controls, and detailed analytics.\n\n3. **Airbase**: This platform combines spend management, accounts payable, and corporate card functionality. Airbase offers automation for AP processes, approval workflows, and real-time reporting.\n\n4. **Bill.com**: Specializing in AP automation, Bill.com streamlines the invoice approval process, integrates with major accounting systems, and offers features like electronic payments and document management.\n\n5. **Divvy**: Divvy provides a spend management platform with a focus on budgeting and expense tracking. It offers virtual cards, spend controls, and real-time expense reporting.\n\nEach of these platforms has its strengths, so the best choice depends on the specific needs and priorities of the finance team, such as ease of use, integration capabilities, and specific features required for managing spend and AP.",
-  "cached_at": "2026-05-28T07:12:09Z",
-  "metadata": {}
-}

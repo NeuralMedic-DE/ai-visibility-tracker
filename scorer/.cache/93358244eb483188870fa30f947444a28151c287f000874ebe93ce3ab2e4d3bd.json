@@ -1,9 +1,0 @@
-{
-  "brand": "LangChain",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best AI tooling for AI engineers at startups and enterprises building LLM applications?",
-  "response": "# Best AI Tooling for LLM Applications\n\n## Core Development & Experimentation\n\n**Model Access & APIs**\n- OpenAI API, Anthropic Claude, open-source alternatives (Llama via Together/Replicate)\n- Local options: Ollama, vLLM for self-hosted inference\n\n**LLM Frameworks**\n- **LangChain** - most mature ecosystem, extensive integrations\n- **LlamaIndex** - strong for RAG and data indexing\n- **Vercel AI SDK** - lightweight, good for web apps\n- **LiteLLM** - unified API across providers (cost/latency optimization)\n\n## Evaluation & Monitoring\n\n**Testing & Quality**\n- **Braintrust** - excellent for comparison testing and prompt optimization\n- **Arize, WhyLabs** - production monitoring and drift detection\n- **LangSmith** - debugging chains/agents, integrated with LangChain\n- **Ragas** - RAG evaluation metrics\n\n## Vector & Data Infrastructure\n\n- **Pinecone, Weaviate** - managed vector DBs (easiest for startups)\n- **Chroma** - lightweight local/cloud option\n- **pgvector** - if already using Postgres\n\n## Emerging Essentials\n\n- **Prompt engineering**: Anthropic's Prompt Generator, manual iteration (no magic bullet)\n- **Cost optimization**: OpenRouter, Anthropic Batch API\n- **Structured outputs**: Pydantic, JSON mode in newer models\n\n## Startup vs Enterprise\n\n**Startups**: Focus on LangChain + one vector DB + LangSmith. Move fast, optimize later.\n\n**Enterprises**: Add Arize/WhyLabs for compliance, consider self-hosted LlamaIndex + Weaviate for data control.\n\nWhat's your specific use case? That significantly changes the recommendation.",
-  "cached_at": "2026-05-28T07:39:32Z",
-  "metadata": {}
-}

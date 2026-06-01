@@ -1,9 +1,0 @@
-{
-  "brand": "Copper",
-  "prompt_id": "UC-03",
-  "llm": "anthropic",
-  "prompt_text": "What tools do Google Workspace power users companies use to manage client relationships inside Gmail?",
-  "response": "# Google Workspace CRM Tools for Gmail\n\nPower users typically rely on these approaches:\n\n## Native Gmail Features\n- **Labels and filters** for organization by client/project\n- **Stars and marks** for priority flagging\n- **Gmail search operators** for tracking conversations\n- **Scheduled send** to control outreach timing\n\n## Integrated CRM Platforms\n- **HubSpot** - Popular for its Gmail integration, pipeline tracking\n- **Salesforce** - Deep Gmail sync, contact management\n- **Pipedrive** - Visual deal tracking from email\n- **Zoho CRM** - Tight Google Workspace integration\n- **Freshsales** - Lightweight option for small teams\n\n## Gmail-Specific Extensions\n- **Gmail for Salesforce** - Native plugin\n- **HubSpot Sales** - Email tracking and templates\n- **Streak** - Kanban-style pipeline within Gmail\n- **Cirrus Insight** - Calendar + CRM features\n- **RocketReach** - Contact enrichment directly in Gmail\n\n## Workspace-Native Solutions\n- **Google Contacts** - Basic but integrated\n- **Google Calendar** - Client scheduling/notes\n- **Google Sheets** - Custom tracking (for smaller teams)\n\n## Reality Check\nMost companies with serious CRM needs move beyond Gmail eventually, but many **hybrid approaches** work well—using Gmail's efficiency while syncing critical data to a dedicated CRM platform.\n\nWhat's your use case? That would help narrow down what actually makes sense.",
-  "cached_at": "2026-05-27T18:23:59Z",
-  "metadata": {}
-}

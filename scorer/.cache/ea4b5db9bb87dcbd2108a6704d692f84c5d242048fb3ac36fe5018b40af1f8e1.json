@@ -1,9 +1,0 @@
-{
-  "brand": "Intercom",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Zendesk vs alternatives: what should I switch to?",
-  "response": "# Zendesk Alternatives: Key Considerations\n\n## Why people leave Zendesk\n- **Pricing** (often the main driver—scales aggressively with agents)\n- **Complexity** for smaller teams\n- **Feature bloat** if you only need basics\n\n## Strong alternatives by use case\n\n**If price is primary:**\n- **Freshdesk** – Similar features, usually 30-40% cheaper\n- **Gorgias** – Excellent for ecommerce, competitive pricing\n- **HubSpot Service Hub** – Free tier + good value if you use CRM\n\n**If you want simplicity:**\n- **Help Scout** – Clean UX, great for small teams\n- **Groove** – Lightweight, collaborative\n- **Outseta** – If you need billing integration too\n\n**If you're mid-market/enterprise:**\n- **Intercom** – Better for in-app support + messaging\n- **Kayako** – More modern than Zendesk, good omnichannel\n- **Kustomer** – Conversation-focused, nice UI\n\n**If you need specific features:**\n- **AI-heavy**: Intercom, Kustomer\n- **Multichannel**: Gorgias, Kayako\n- **Ecommerce**: Gorgias, Freshdesk\n- **Self-service focused**: Zendesk alternatives often skip this—keep Zendesk's Help Center if needed\n\n## Before switching\n- What's driving the change? (price, features, UX, specific gaps?)\n- Export timeline/data migration costs\n- Team training burden\n- Integration needs (CRM, ticketing, etc.)\n\n**What's your main pain point with Zendesk?** That'll help narrow it down.",
-  "cached_at": "2026-05-28T08:01:46Z",
-  "metadata": {}
-}

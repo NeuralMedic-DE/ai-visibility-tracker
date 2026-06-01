@@ -1,9 +1,0 @@
-{
-  "brand": "Amplitude",
-  "prompt_id": "CM-05",
-  "llm": "perplexity",
-  "prompt_text": "Is Amplitude better than Pendo for optimize onboarding and conversion funnels?",
-  "response": "For **optimizing onboarding and conversion funnels**, **Amplitude is generally the better fit** if your priority is *analytics depth* and understanding where users drop off.[1][2][6] **Pendo is stronger for in-app onboarding guides, feature tagging, and broader product adoption workflows**, so it is often better when the main goal is *guided onboarding execution* rather than advanced funnel analysis.[1][3]\n\n- **Choose Amplitude** if you want:\n  - deeper **conversion funnel** analysis\n  - stronger **retention** and **cohort** analysis\n  - more granular **behavioral analytics** and segmentation[1][2][6]\n- **Choose Pendo** if you want:\n  - easier **in-app guides** and walkthrough creation\n  - stronger **onboarding operations** for product teams and non-product users\n  - built-in **feedback/NPS** features alongside product usage tracking[1][3]\n\nA practical way to think about it is this: **Amplitude helps you identify and measure onboarding problems**, while **Pendo helps you build and deliver the onboarding experience**.[1][3][4] If you need one tool to improve conversion funnels through measurement and experimentation, Amplitude is usually the stronger choice; if you need one tool to create in-product guidance and adoption flows, Pendo is usually better.[1][4][5]\n\nIf you want, I can also give you a **side-by-side decision matrix** for onboarding, funnels, experimentation, and pricing tradeoffs.",
-  "cached_at": "2026-05-27T19:29:24Z",
-  "metadata": {}
-}

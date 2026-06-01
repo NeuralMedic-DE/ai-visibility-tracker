@@ -1,9 +1,0 @@
-{
-  "brand": "Sprinto",
-  "prompt_id": "IN-02",
-  "llm": "openai",
-  "prompt_text": "Sprinto Slack integration: how does it work?",
-  "response": "Sprinto's Slack integration is designed to streamline communication and enhance the efficiency of compliance management by bringing Sprinto's features directly into your Slack workspace. Here's how it typically works:\n\n1. **Notifications**: Once integrated, Sprinto can send real-time notifications to specific Slack channels or users. These notifications might include alerts about compliance tasks, reminders for upcoming deadlines, or updates on the status of compliance audits.\n\n2. **Task Management**: Users can receive and manage compliance-related tasks directly within Slack. This can include assigning tasks, marking them as complete, or getting reminders about pending tasks.\n\n3. **Incident Reporting**: Team members can report security incidents or compliance issues directly through Slack, which Sprinto can then track and manage.\n\n4. **Automated Updates**: Sprinto can provide automated updates on compliance status or audit progress, ensuring that all team members are informed without needing to log into the Sprinto platform separately.\n\n5. **Collaboration**: By integrating with Slack, Sprinto facilitates better collaboration among team members, allowing them to discuss compliance issues or tasks in real-time and in a centralized location.\n\nTo set up the integration, you typically need to authorize Sprinto to access your Slack workspace, which can usually be done through the Sprinto platform by following their integration setup instructions. Once authorized, you can configure which notifications and features you want to enable within Slack.\n\nAlways refer to Sprinto's official documentation or support for the most accurate and detailed setup instructions tailored to your specific needs.",
-  "cached_at": "2026-05-28T08:31:29Z",
-  "metadata": {}
-}

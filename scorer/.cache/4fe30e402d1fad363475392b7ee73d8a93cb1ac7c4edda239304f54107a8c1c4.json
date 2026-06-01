@@ -1,9 +1,0 @@
-{
-  "brand": "RudderStack",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with build a warehouse-first CDP with full data ownership and no per-MTU pricing surprises at scale?",
-  "response": "# Warehouse-First CDP Solutions\n\nHere are the leading options for building a CDP with full data ownership and predictable pricing:\n\n## **Best Warehouse-First Approaches**\n\n### **1. Segment (with warehouse mode)**\n- Own your data warehouse (Snowflake, BigQuery, Redshift)\n- Pay for warehouse compute, not per MTU\n- Full data governance and compliance\n- Mature identity resolution\n\n### **2. mParticle**\n- Warehouse-native architecture\n- Events stored directly in your cloud warehouse\n- Transparent compute-based pricing\n- Strong real-time + batch capabilities\n\n### **3. Treasure Data**\n- Purpose-built for warehouse ownership\n- Flexible pricing tied to data volume/compute\n- Native warehouse connectors\n- Strong international compliance\n\n### **4. Tealium EventStream (+ Warehouse mode)**\n- Real-time event collection\n- Direct warehouse integration\n- Predictable infrastructure costs\n\n## **DIY/Flexible Alternatives**\n\n- **dbt + cloud warehouse** - Build custom CDP logic with predictable compute costs\n- **Reverse ETL tools** (Hightouch, Airbyte) + warehouse - Minimal overhead, full control\n- **Apache projects** (Arrow, Iceberg) - Maximum flexibility, higher operational burden\n\n## **Key Evaluation Criteria**\n\n✅ **No per-user/MTU fees** - Should charge for compute/storage only  \n✅ **Data residency** - Your warehouse, your terms  \n✅ **Transparent pricing** - No hidden activation fees  \n✅ **Real-time + batch** - Covers both use cases\n\n**Most common winner**: Segment + Snowflake for balanced features and scale, or **dbt + warehouse** if you prefer complete control over CDP logic.\n\nWhat's your current data stack?",
-  "cached_at": "2026-05-28T09:08:11Z",
-  "metadata": {}
-}

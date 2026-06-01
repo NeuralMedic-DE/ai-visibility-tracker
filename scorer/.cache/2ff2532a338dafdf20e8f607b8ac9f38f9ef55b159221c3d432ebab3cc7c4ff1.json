@@ -1,9 +1,0 @@
-{
-  "brand": "Salesflare",
-  "prompt_id": "UC-02",
-  "llm": "anthropic",
-  "prompt_text": "Best way to track email opens and follow-ups for a small B2B teams and agencies team",
-  "response": "# Best Ways to Track Email Opens & Follow-ups for Small B2B Teams\n\n## **Top Solutions by Use Case**\n\n### **1. Email Tracking Plugins (Simplest)**\n- **Mailtrack, Streak, Yesware**\n  - Built into Gmail/Outlook\n  - Shows opens, clicks, read time\n  - ~$10-30/month per user\n  - *Best if: You want minimal workflow changes*\n\n### **2. All-in-One CRM (Most Scalable)**\n- **Pipedrive, HubSpot Free/Starter, Zoho**\n  - Native email tracking\n  - Integrated follow-up reminders\n  - Contact history in one place\n  - *Best if: You're managing pipelines already*\n\n### **3. Specialized Sales Engagement Tools**\n- **Outreach, Salesloft, Apollo, Lemlist**\n  - Sequence automation\n  - Smart follow-up cadences\n  - Team analytics\n  - *Best if: You have predictable prospecting workflows*\n\n---\n\n## **My Recommendation for Small Teams**\n\n**Start with:** HubSpot Free or Pipedrive ($14/user)\n- Email tracking included\n- Automatic follow-up reminders\n- Shared visibility (critical for teams)\n- Scales as you grow\n\n**Add:** Simple spreadsheet or Airtable backup\n- Track custom follow-up reasons\n- Flag \"hot\" prospects\n\n---\n\n## **Implementation Checklist**\n\n- [ ] Set tracking on all outbound emails\n- [ ] Create 2-3 follow-up sequences (e.g., no open → 2 days → 5 days)\n- [ ] Weekly team sync on \"needs follow-up\" leads\n- [ ] Review metrics (open rate baseline, reply rate)\n- [ ] Standardize follow-up messaging\n\n**What's your current workflow?** (Gmail-only, existing CRM, spreadsheets?) I can refine this further.",
-  "cached_at": "2026-05-27T18:14:28Z",
-  "metadata": {}
-}

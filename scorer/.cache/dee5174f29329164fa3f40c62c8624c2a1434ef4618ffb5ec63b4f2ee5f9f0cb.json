@@ -1,9 +1,0 @@
-{
-  "brand": "Workable",
-  "prompt_id": "CM-04",
-  "llm": "anthropic",
-  "prompt_text": "Compare Workable and Lever for post jobs to 200 plus job boards with a single click",
-  "response": "# Workable vs Lever: Job Board Distribution Comparison\n\n## Posting to 200+ Job Boards\n\n| Feature | Workable | Lever |\n|---------|----------|-------|\n| **Job Board Network** | 200+ boards via integration | 150+ boards via partnerships |\n| **Single-Click Distribution** | ✅ Yes (native feature) | ✅ Yes (native feature) |\n| **Setup Effort** | Moderate | Moderate |\n| **Coverage** | Broader reach | Strong but slightly narrower |\n\n## Key Differences\n\n### **Workable**\n- **Strength**: Largest job board network\n- **Ease**: Built-in one-click multi-posting\n- **Additional boards**: Can add niche/specialized sites\n- **Pricing**: Costs based on postings and users\n\n### **Lever**\n- **Strength**: Integrated, streamlined experience\n- **Ease**: Equally simple one-click posting\n- **Focus**: Premium job boards (LinkedIn, Indeed, etc.)\n- **Pricing**: Usually based on job slots, not postings\n\n## Recommendation\n\n| Choose Workable if: | Choose Lever if: |\n|-------------------|-----------------|\n| You need maximum job board reach | You want a simpler, cleaner interface |\n| You post high volume | You focus on quality of boards vs. quantity |\n| You want cost control per posting | You prefer predictable monthly costs |\n\n**Bottom Line**: Both deliver 200+ boards effectively. **Workable** edges ahead on reach; **Lever** wins on user experience.",
-  "cached_at": "2026-05-28T06:45:59Z",
-  "metadata": {}
-}

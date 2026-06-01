@@ -1,9 +1,0 @@
-{
-  "brand": "Apify",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best automation for data engineers and developers needing reliable structured web data?",
-  "response": "# Best Automation for Structured Web Data\n\n## Top Solutions by Use Case\n\n### **For Production Reliability**\n**Web Scraping Frameworks:**\n- **Scrapy** - Most mature for large-scale, structured data\n- **Selenium/Playwright** - When you need JavaScript rendering\n- **Puppeteer** - Lightweight browser automation\n\n**Managed Services:**\n- **Apify** - Cloud-based scraping with built-in reliability\n- **ScrapingBee/Bright Data** - Handles proxies, rotation, captchas\n\n### **For Data Pipeline Integration**\n- **Apache Airflow** + scraping tasks - Best for orchestration\n- **Fivetran** - Connectors to common data sources\n- **Stitch/Talend** - Pre-built integrations with error handling\n\n### **For Simplicity & Speed**\n- **Beautiful Soup + requests** - Simple, reliable parsing\n- **Prefect/Dagster** - Modern alternatives to Airflow\n- **GitHub Actions** - Lightweight scheduling for smaller jobs\n\n## Key Reliability Features to Prioritize\n\n✓ **Error handling** (retries, exponential backoff)  \n✓ **Data validation** (schema checks, completeness)  \n✓ **Proxy rotation** (avoid blocking)  \n✓ **Rate limiting** (respect target sites)  \n✓ **Monitoring/alerts** (know when things fail)  \n✓ **Idempotency** (safe to re-run)\n\n## My Recommendation\n\n**For most teams:** Scrapy + Airflow\n- Proven at scale\n- Community support\n- Fine-grained control\n- Reasonable learning curve\n\n**For rapid iteration:** Managed service (Apify/ScrapingBee) + native Python\n- Less infrastructure overhead\n- Handles edge cases\n- Better for dynamic sites\n\nWhat's your specific use case? (volume, frequency, site complexity?)",
-  "cached_at": "2026-05-28T07:58:42Z",
-  "metadata": {}
-}

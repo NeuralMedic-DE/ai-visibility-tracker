@@ -1,9 +1,0 @@
-{
-  "brand": "Helicone",
-  "prompt_id": "CM-01",
-  "llm": "openai",
-  "prompt_text": "Helicone vs LangSmith: which is better?",
-  "response": "Choosing between Helicone and LangSmith depends on your specific needs and use cases, as both platforms offer distinct features and benefits.\n\n**Helicone**:\n- Primarily focuses on providing analytics and observability for AI models.\n- Offers features like logging, monitoring, and tracking of AI model performance.\n- Useful for teams that need detailed insights into how their AI models are performing in production.\n\n**LangSmith**:\n- Designed to enhance the development and deployment of AI applications.\n- Provides tools for building, testing, and managing AI workflows.\n- Ideal for developers looking to streamline the process of creating and maintaining AI-driven applications.\n\nIf your primary need is to gain insights and monitor your AI models' performance, Helicone might be the better choice. However, if you are focused on developing and managing AI applications with robust workflow tools, LangSmith could be more suitable.\n\nUltimately, the decision should be based on the specific requirements of your project and the features that align best with your goals.",
-  "cached_at": "2026-05-28T07:49:24Z",
-  "metadata": {}
-}

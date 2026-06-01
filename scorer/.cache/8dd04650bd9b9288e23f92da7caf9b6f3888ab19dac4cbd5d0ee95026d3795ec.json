@@ -1,9 +1,0 @@
-{
-  "brand": "Supermetrics",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to Fivetran",
-  "response": "# Cheaper Alternatives to Fivetran\n\n## Budget-Friendly Options\n\n### **Open Source / Self-Hosted**\n- **Airbyte** - Free, open-source ELT platform with cloud option (~$0-500/month depending on scale)\n- **Meltano** - Singer-based, open-source data integration framework\n- **Talend Open Studio** - Free on-premises solution with paid enterprise options\n- **Apache NiFi** - Free, powerful data routing and transformation\n\n### **Low-Cost SaaS**\n- **Stitch** (by Talend) - $100-750/month depending on rows\n- **Blendo** - Pay-per-GB pricing, good for small volumes\n- **Hevo Data** - Starts ~$500/month but often cheaper than Fivetran\n- **Alooma** (Google) - Google Cloud-native, potentially bundled savings\n\n### **Custom/Developer-Focused**\n- **dbt** - Free transformation tool (works with any data loader)\n- **Custom Python scripts** - Using libraries like `requests`, `sqlalchemy`\n- **Zapier/Make** - Good for simple integrations ($15-500+/month)\n\n## Decision Matrix\n\n| Tool | Cost | Ease of Use | Scalability |\n|------|------|-------------|------------|\n| Airbyte | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ |\n| Stitch | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ |\n| Custom Code | ⭐⭐⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ |\n| dbt (transform only) | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ |\n\n**Best value-to-functionality ratio:** Airbyte for most use cases",
-  "cached_at": "2026-05-27T20:37:25Z",
-  "metadata": {}
-}

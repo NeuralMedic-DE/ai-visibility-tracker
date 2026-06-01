@@ -1,9 +1,0 @@
-{
-  "brand": "Close",
-  "prompt_id": "IN-02",
-  "llm": "anthropic",
-  "prompt_text": "Close Zapier integration: how does it work?",
-  "response": "# Close Zapier Integration\n\n## Overview\nThe Close + Zapier integration connects Close (CRM) with 7,000+ apps, automating workflows without code.\n\n## How It Works\n\n### Basic Flow\n1. **Trigger** — An event happens in Close (or connected app)\n2. **Action** — Zapier automatically performs a task in another app\n3. **Data syncing** — Information flows between platforms\n\n### Common Use Cases\n\n| Trigger | Action | Benefit |\n|---------|--------|---------|\n| New lead created in Close | Add contact to email list | Auto-nurture leads |\n| Lead status changes | Create task in project management | Align teams |\n| Lead added | Post to Slack | Real-time notifications |\n| New opportunity | Create calendar event | Never miss follow-ups |\n| Lead data updated | Update spreadsheet | Centralized reporting |\n\n## Setup Process\n\n### Quick Start\n1. Go to **Zapier.com** → Search \"Close\"\n2. Choose pre-built Zap or create custom one\n3. Connect your Close account (authorize)\n4. Select trigger in Close\n5. Choose action app & configure\n6. Test & activate\n\n### What You Can Trigger From Close\n- New lead\n- Lead updated\n- Opportunity created\n- Task completed\n- Activity logged\n\n## Key Features\n\n✅ **No coding required**  \n✅ **Two-way syncing** (Close ↔ other apps)  \n✅ **Conditional logic** (if/then workflows)  \n✅ **Formatting options** for data mapping  \n✅ **Filters** to run Zaps only for specific conditions  \n\n## Limitations\n- Free Zapier tier has limited tasks/month\n- Some delays (not real-time)\n- Complex workflows may need paid plan\n\nWould you like help setting up a specific workflow?",
-  "cached_at": "2026-05-27T17:51:38Z",
-  "metadata": {}
-}

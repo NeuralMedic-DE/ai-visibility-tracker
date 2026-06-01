@@ -1,9 +1,0 @@
-{
-  "brand": "Fivetran",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which data integration software should a Data Engineer or Head of Data at a data-driven company use?",
-  "response": "# Data Integration Software for Data Engineers & Heads of Data\n\nThe best choice depends on your specific context, but here's a framework:\n\n## **Top-Tier Options by Use Case**\n\n### **For Modern Cloud-Native Stacks**\n- **dbt** - Transform data in your warehouse (SQL-first, version control friendly)\n- **Apache Airflow** - Orchestrate complex workflows with code\n- **Fivetran** - Low-code ELT for standard connectors (SaaS focus)\n\n### **For Comprehensive ETL/ELT**\n- **Talend** - Full-featured enterprise ETL\n- **Informatica** - Established, scalable cloud/on-prem\n- **Matillion** - Cloud-native, good for Snowflake/Redshift\n\n### **For Lightweight/Modern Teams**\n- **Stitch** (by Talend) - Simple cloud ELT\n- **Airbyte** - Open-source, growing ecosystem\n- **Apache NiFi** - Visual dataflow for complex scenarios\n\n## **Key Decision Factors**\n\n| Factor | Consider |\n|--------|----------|\n| **Scale/Complexity** | Airflow (complex), Fivetran (simple) |\n| **Budget** | Airbyte/NiFi (open-source), vs. Informatica (enterprise) |\n| **Team Skills** | dbt (SQL), Airflow (Python), Fivetran (no-code) |\n| **Cloud Provider** | Native tools (AWS Glue, BigQuery Dataflow, Snowpipe) |\n| **Connector Needs** | Fivetran, Stitch (pre-built), Airbyte (growing) |\n\n**My pragmatic recommendation:** Start with **dbt + Airflow** for flexibility, or **Fivetran + dbt** if you want faster time-to-value.\n\nWhat's your current data stack?",
-  "cached_at": "2026-05-28T08:58:20Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Anecdotes",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to ServiceNow GRC",
-  "response": "# Cheaper Alternatives to ServiceNow GRC\n\n## **Open Source Solutions**\n- **OpenGRC** - Free, open-source governance platform\n- **Eramba** - Community edition available; strong compliance focus\n- **Nessus Essentials** - Free vulnerability management (limited features)\n\n## **Mid-Market/SMB Solutions**\n- **AuditBoard** - More affordable than ServiceNow, strong for SOX/audit\n- **Workiva** - Cloud-based compliance and reporting (better pricing tiers)\n- **Domo** - Data governance with lower entry costs\n- **Archer (RSA)** - Lower-tier offerings for smaller organizations\n- **LogicGate** - Risk and compliance, better for mid-size budgets\n- **Resolver** - Incident management and risk (competitive pricing)\n\n## **Point Solutions** (More Cost-Effective)\n- **SailPoint** - Identity governance specifically\n- **Rapid7** - Vulnerability/risk management\n- **Vanta** - Automated compliance (fixed pricing)\n- **Drata** - Compliance automation (lower cost)\n- **Reciprocity** - Risk management (transparent pricing)\n\n## **Key Considerations**\n✓ Assess which GRC pillars you actually need (risk, compliance, audit, policy)\n✓ Open-source requires internal IT resources\n✓ Smaller vendors offer better customization for your use case\n✓ Look for implementations with lower TCO (consulting + licensing + training)\n\n**What specific GRC functions are most critical for your organization?** That would help narrow recommendations.",
-  "cached_at": "2026-05-28T08:36:12Z",
-  "metadata": {}
-}

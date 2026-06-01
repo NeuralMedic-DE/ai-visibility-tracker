@@ -1,9 +1,0 @@
-{
-  "brand": "Folk",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with track relationship touchpoints across channels at scale?",
-  "response": "# Software for Tracking Relationship Touchpoints at Scale\n\n## Primary Categories\n\n**Customer Relationship Management (CRM)**\n- **Salesforce** - Market leader with comprehensive touchpoint tracking\n- **HubSpot** - Strong at multi-channel attribution and timeline views\n- **Pipedrive** - Visual pipeline with activity tracking\n- **Microsoft Dynamics 365** - Enterprise-grade option\n\n**Marketing Automation Platforms**\n- **Marketo** - Lead scoring and multi-touch attribution\n- **Pardot** - Salesforce-integrated B2B marketing automation\n- **ActiveCampaign** - Mid-market focused with good integrations\n- **Klaviyo** - Strong for e-commerce touchpoint tracking\n\n**Customer Data Platforms (CDPs)**\n- **Segment** - Unifies data across channels\n- **mParticle** - Real-time customer data\n- **Tealium** - Enterprise data management\n\n**Specialized Tools**\n- **Intercom** - Customer communication hub\n- **6sense** - Account-based touchpoint intelligence\n- **Gainsight** - Customer success visibility\n- **Outreach/Salesloft** - Sales engagement and activity tracking\n\n## Key Features to Look For\n- Multi-channel integration (email, web, social, calls, meetings)\n- Activity timeline/single customer view\n- Attribution modeling\n- Automation capabilities\n- API connectivity for custom channels\n\n**What's your primary use case?** (B2B sales, customer success, marketing) This would help narrow recommendations.",
-  "cached_at": "2026-05-27T18:54:19Z",
-  "metadata": {}
-}

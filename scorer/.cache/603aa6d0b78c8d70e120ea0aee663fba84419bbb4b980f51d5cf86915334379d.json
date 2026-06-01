@@ -1,9 +1,0 @@
-{
-  "brand": "Close",
-  "prompt_id": "CD-04",
-  "llm": "anthropic",
-  "prompt_text": "Best CRM platforms for track sales pipeline",
-  "response": "# Best CRM Platforms for Sales Pipeline Tracking\n\n## Top Tier Solutions\n\n### **Salesforce**\n- Industry standard with powerful pipeline visualization\n- Advanced forecasting and deal tracking\n- Highly customizable but steeper learning curve\n- Best for: Enterprise teams with complex needs\n\n### **HubSpot**\n- Intuitive drag-and-drop pipeline board\n- Strong free tier available\n- Excellent automation and reporting\n- Best for: Growing businesses, ease of use\n\n### **Pipedrive**\n- Built specifically for sales pipeline management\n- Visual deal tracking (kanban-style)\n- Affordable pricing tiers\n- Best for: Sales-focused teams, small to mid-market\n\n## Strong Mid-Market Options\n\n| Platform | Key Strength | Price Range |\n|----------|-------------|------------|\n| **Microsoft Dynamics 365** | Enterprise integration | $$$$ |\n| **Zoho CRM** | Feature-rich, affordable | $-$$ |\n| **ActiveCampaign** | Marketing automation + CRM | $$-$$$ |\n| **Monday.com CRM** | Visual, flexible workflows | $$-$$$ |\n\n## For Specific Needs\n\n- **Budget-conscious**: Zoho, HubSpot free tier\n- **Ease of use**: HubSpot, Pipedrive\n- **Mobile-first**: Salesforce, HubSpot\n- **Integrations**: Salesforce, HubSpot\n\n## Selection Checklist\n- ✓ Does it handle your sales stages?\n- ✓ Mobile app quality?\n- ✓ Integration with your tools?\n- ✓ Reporting/forecasting depth?\n- ✓ Training requirements?\n\n**Best starting point**: Try HubSpot free or Pipedrive for clearest pipeline focus.\n\nWhat's your team size or budget range?",
-  "cached_at": "2026-05-27T17:49:57Z",
-  "metadata": {}
-}

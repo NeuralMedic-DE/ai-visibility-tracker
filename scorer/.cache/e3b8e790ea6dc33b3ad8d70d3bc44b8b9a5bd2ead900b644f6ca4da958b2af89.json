@@ -1,9 +1,0 @@
-{
-  "brand": "Vitally",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable customer success tools instead of Gainsight",
-  "response": "# Open Source & Affordable Customer Success Alternatives\n\n## Open Source Options\n\n| Tool | Best For | Notes |\n|------|----------|-------|\n| **Plane** | Project/task management | Free, self-hosted alternative to Jira |\n| **OpenCRM** | CRM functionality | Lightweight, self-hosted option |\n| **Odoo** | Full business suite | Includes CRM, ticketing, surveys |\n| **Metabase** | Analytics/dashboards | Excellent for customer data visualization |\n\n## Affordable SaaS ($50-500/mo)\n\n| Tool | Focus | Price Range |\n|------|-------|-------------|\n| **HubSpot (free tier)** | CRM + ticketing | Free - $120/mo |\n| **Intercom** | Customer communication | $74+/mo |\n| **Zendesk** | Support + ticketing | $19+/mo |\n| **Freshdesk** | Ticketing + automation | $15+/mo |\n| **Slack + Airtable** | DIY CS stack | $10-30/mo combined |\n\n## DIY Approach (Most Affordable)\n\n**Build with:**\n- **Airtable** - Customer database & workflows\n- **Zapier/Make** - Automation\n- **Slack** - Notifications & alerts\n- **Metabase** - Analytics\n- **Google Sheets** - Health scoring\n\n**Cost:** $50-100/mo | **Best for:** Early-stage, <100 customers\n\n## Solid Mid-Market Options\n\n- **Totango Lite** - Simplified feature set\n- **Strikedeck** - Affordable, modern UI\n- **Vitally** - Generous free tier\n\n**What's your company size & budget? That'll help narrow the best fit.**",
-  "cached_at": "2026-05-28T08:09:28Z",
-  "metadata": {}
-}

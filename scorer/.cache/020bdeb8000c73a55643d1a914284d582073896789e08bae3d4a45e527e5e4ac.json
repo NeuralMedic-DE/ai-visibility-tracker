@@ -1,9 +1,0 @@
-{
-  "brand": "Personio",
-  "prompt_id": "UC-03",
-  "llm": "openai",
-  "prompt_text": "What tools do European SME HR teams and people operations leads companies use to manage all HR processes from hiring to payroll in one system?",
-  "response": "European SME HR teams and people operations leads often use integrated HR software solutions to manage all HR processes from hiring to payroll in one system. Some popular tools include:\n\n1. **Personio**: A comprehensive HR software designed for small and medium-sized enterprises, offering features for recruitment, onboarding, payroll, and performance management.\n\n2. **BambooHR**: While originally US-based, BambooHR is widely used in Europe for its user-friendly interface and features that cover the entire employee lifecycle, including hiring, onboarding, and payroll integrations.\n\n3. **Workday**: Known for its robust HR and financial management capabilities, Workday is suitable for larger SMEs that need a comprehensive solution for HR processes, including talent management and payroll.\n\n4. **SAP SuccessFactors**: This is a cloud-based solution that offers a suite of HR tools, including core HR, payroll, and talent management, suitable for SMEs looking for an integrated approach.\n\n5. **HiBob**: A modern HR platform that caters to dynamic businesses, offering modules for core HR, time and attendance, payroll, and employee engagement.\n\n6. **Zoho People**: Part of the Zoho suite, this tool provides HR management features including recruitment, onboarding, time tracking, and payroll integrations.\n\n7. **Cezanne HR**: A UK-based HR software that offers modules for core HR, recruitment, performance management, and payroll, tailored for European regulations and needs.\n\nThese tools help streamline HR processes, ensure compliance with local regulations, and improve overall efficiency in managing employee data and processes.",
-  "cached_at": "2026-05-28T06:34:55Z",
-  "metadata": {}
-}

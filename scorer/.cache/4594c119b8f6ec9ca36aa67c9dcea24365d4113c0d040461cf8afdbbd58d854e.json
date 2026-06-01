@@ -1,9 +1,0 @@
-{
-  "brand": "RudderStack",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable customer data platform tools instead of mParticle",
-  "response": "# Open Source & Affordable CDP Alternatives to mParticle\n\n## Open Source Options\n\n### **Segment (self-hosted components)**\n- Open source libraries for data collection\n- Not a full CDP but good building blocks\n- Lower cost than managed solutions\n\n### **Rudderstack**\n- **Fully open source** customer data platform\n- Self-hosted or cloud option\n- Strong feature parity with mParticle\n- Active community\n- Warehouse-native architecture\n\n### **Jitsu** (formerly Aloha)\n- Lightweight, open source data pipeline\n- Self-hosted\n- Good for event tracking & warehouse syncing\n- Simpler than full CDPs\n\n### **Apache Kafka + Custom Stack**\n- DIY approach using open infrastructure\n- Requires engineering resources\n- Highly customizable\n\n---\n\n## Affordable SaaS Alternatives\n\n| Platform | Price | Best For |\n|----------|-------|----------|\n| **Segment** | $120-1000+/mo | Established standard; still pricey |\n| **Rudderstack Cloud** | $50-500+/mo | Budget-conscious teams |\n| **Tealium** | Mid-market pricing | Enterprise needs |\n| **moengage** | Performance-based | Mobile/engagement-heavy |\n| **Freshpaint** | $500+/mo | Smaller teams |\n| **Blendo** | $99+/mo | Warehouse-first approach |\n\n---\n\n## Hybrid Approaches\n\n- **Data warehouse + reverse ETL** (Hightouch, Census)\n  - Use Snowflake/BigQuery as your CDP\n  - Lower cost, more control\n\n- **Composable CDP** \n  - Mix tools: event tracker (Plausible/Mixpanel) + warehouse + reverse ETL\n\n---\n\n**Which direction interests you?** (Self-hosted, specific use case, budget range?)",
-  "cached_at": "2026-05-28T09:08:02Z",
-  "metadata": {}
-}

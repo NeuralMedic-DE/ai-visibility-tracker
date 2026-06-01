@@ -1,9 +1,0 @@
-{
-  "brand": "HiBob",
-  "prompt_id": "AL-03",
-  "llm": "anthropic",
-  "prompt_text": "Best HR alternatives for mid-market companies with distributed global workforces teams on a budget",
-  "response": "# Budget-Friendly HR Platforms for Global Distributed Teams\n\n## Top Recommendations\n\n### **Rippling** (Best Overall)\n- Unified platform: payroll, benefits, IT, HR\n- Handles multi-country compliance automatically\n- Scales well mid-market\n- *Consideration:* Higher price point, but consolidates multiple tools\n\n### **Guidepoint** (Best for Payroll)\n- Global payroll in 150+ countries\n- Strong compliance handling\n- Lower cost than ADP/Paychex\n- Good self-service employee portal\n\n### **Remote.com**\n- Built specifically for distributed teams\n- Multi-currency, multi-country\n- Extremely affordable ($5-15/employee)\n- *Limitation:* Lighter on analytics features\n\n### **Justworks**\n- Transparent pricing (great for budgets)\n- Strong HR + benefits + compliance combo\n- Good for companies with 50-500 employees\n- US-focused (limited international)\n\n## Budget Strategies\n\n**Hybrid approach** (often cheapest):\n- **Payroll:** Guidepoint or Deel\n- **HRIS/Admin:** Bamboo HR or Factorial\n- **Benefits:** Catch your own or Catch Plan\n\n**All-in-one budget tier:**\n- Factorial (€2-4/employee)\n- BambooHR (~$100-300/month flat)\n- Pento (simple, affordable)\n\n## Key Considerations\n\n| Factor | Budget Pick |\n|--------|------------|\n| **Compliance** | Rippling (auto-handles) |\n| **Cost** | Remote.com, Factorial |\n| **Ease** | Justworks |\n| **Flexibility** | Bamboo HR |\n\n**Pro tip:** Many offer significant discounts for annual payment. Negotiate based on headcount growth plans.\n\nWhat's your approximate team size and primary pain point?",
-  "cached_at": "2026-05-28T06:32:29Z",
-  "metadata": {}
-}

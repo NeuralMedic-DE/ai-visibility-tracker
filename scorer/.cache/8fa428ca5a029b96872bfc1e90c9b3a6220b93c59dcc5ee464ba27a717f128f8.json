@@ -1,9 +1,0 @@
-{
-  "brand": "Klipfolio",
-  "prompt_id": "UC-03",
-  "llm": "anthropic",
-  "prompt_text": "What tools do marketing and operations teams at SMBs companies use to build KPI dashboards connected to multiple data sources?",
-  "response": "# KPI Dashboard Tools for SMBs\n\nSMBs typically use a mix of approaches depending on technical skill and budget:\n\n## **Dedicated BI/Dashboard Platforms**\n- **Tableau Public/Tableau Server** – Powerful but pricier; good if you need polish and sharing\n- **Power BI** – Microsoft ecosystem advantage; better for Excel-heavy teams\n- **Looker** – Strong for data teams; steeper learning curve\n- **Metabase** – Open-source, simpler setup, lower cost\n- **Superset** – Similar to Metabase; good for technical teams\n\n## **Spreadsheet + Integration Layer** (Very common for SMBs)\n- **Google Sheets** + **Data Studio** – Free/cheap, surprisingly capable for basic dashboards\n- **Excel** + **Power Query** – Familiar but labor-intensive\n- **Airtable** – Good for collaborative operational dashboards\n\n## **All-in-One Platforms**\n- **HubSpot, Salesforce, Pipedrive** – Built-in dashboards if you're already in the ecosystem\n- **Notion** + embedded charts – Growing trend for simpler use cases\n- **Monday.com, Asana** – Team dashboards for operational metrics\n\n## **Practical Considerations**\n| Factor | Best Choice |\n|--------|------------|\n| Tight budget | Data Studio + Sheets or Metabase |\n| Non-technical users | Power BI or native platform dashboards |\n| Real-time needs | Power BI or Tableau |\n| Quick setup | Google Data Studio, Airtable |\n| Multiple data sources | Looker, Power BI, Tableau |\n\n**Reality check:** Most SMBs start with spreadsheets, then move to Data Studio or Power BI when complexity grows. The \"right\" tool depends on where your data lives and team technical comfort.\n\nWhat data sources are you connecting?",
-  "cached_at": "2026-05-27T20:28:26Z",
-  "metadata": {}
-}

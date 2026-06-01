@@ -1,9 +1,0 @@
-{
-  "brand": "Rippling",
-  "prompt_id": "AL-05",
-  "llm": "openai",
-  "prompt_text": "Open source or affordable HR tools instead of BambooHR",
-  "response": "If you're looking for open-source or more affordable alternatives to BambooHR for managing human resources, there are several options available:\n\n1. **OrangeHRM**: This is a popular open-source HR management tool that offers features like personnel information management, leave management, time and attendance tracking, and recruitment. It has both a free community edition and paid professional and enterprise editions.\n\n2. **Sentrifugo**: Another open-source HR software, Sentrifugo offers features such as performance appraisal, employee self-service, leave management, and time tracking. It's highly customizable and free to use.\n\n3. **Bitrix24**: While not open-source, Bitrix24 offers a free plan with HR tools such as employee directory, leave management, and time tracking. It also includes collaboration tools like project management and communication features.\n\n4. **Zoho People**: Zoho People is an affordable HR solution that provides features like employee database management, leave tracking, and performance management. It offers a free plan for small teams and affordable paid plans for larger organizations.\n\n5. **IceHRM**: This is another open-source HR management system that includes features like employee information management, leave management, and attendance tracking. It offers both a free community edition and paid cloud-hosted versions.\n\n6. **Factorial HR**: Factorial offers a free plan with basic HR features, and it's particularly suitable for small to medium-sized businesses. It includes features like time tracking, document management, and employee self-service.\n\nThese tools can provide a range of HR functionalities at a lower cost or even for free, depending on your organization's needs.",
-  "cached_at": "2026-05-28T06:27:36Z",
-  "metadata": {}
-}

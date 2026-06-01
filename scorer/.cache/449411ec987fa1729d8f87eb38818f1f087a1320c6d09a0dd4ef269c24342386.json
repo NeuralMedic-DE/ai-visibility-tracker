@@ -1,9 +1,0 @@
-{
-  "brand": "Hightouch",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable reverse ETL tools instead of Omnata",
-  "response": "# Reverse ETL Alternatives to Omnata\n\n## Open Source Options\n\n### **Airbyte** (Freemium, Open Source)\n- **Best for:** Self-hosted, customizable reverse ETL\n- **Features:** 300+ connectors, transformation support, dbt integration\n- **Cost:** Free self-hosted or managed Cloud option\n- **GitHub:** github.com/airbytehq/airbyte\n\n### **dbt** + Custom Stack\n- **Best for:** Data transformation + reverse ETL builders\n- **Features:** Works with any data warehouse, extensive modeling\n- **Cost:** Free (dbt Core)\n- **Supplement with:** Webhooks, APIs, or lightweight job schedulers\n\n### **meltano**\n- **Best for:** Open-source ELT with reverse ETL capability\n- **Features:** Orchestration, transformation, cost-effective\n- **Cost:** Free\n\n## Budget-Friendly Commercial Options\n\n| Tool | Price | Best For |\n|------|-------|----------|\n| **Census** | $1.2K-5K+/mo | Similar to Omnata, more transparent pricing |\n| **Hightouch** | $500+/mo | Startup-friendly, flexible |\n| **Grouparoo** | $0-$1K+/mo | Open-source first, commercial support |\n| **Workato** (iPaaS) | $500+/mo | All-in-one, not just reverse ETL |\n| **Make (Integromat)** | $10-$700/mo | Scenario-based, very affordable |\n\n## DIY/Low-Code Approaches\n\n1. **Zapier/Integromat** - Simple workflows, limited data volume\n2. **Apache Airflow** - Fully customizable (DevOps required)\n3. **Prefect/Dagster** - Modern orchestration platforms\n4. **Cloud Functions + APIs** - AWS Lambda, Google Cloud Functions, Azure Functions\n\n## Recommendation\n**For most teams:** Start with **Airbyte** (free) + **dbt** (free) + custom automation, then graduate to **Census** or **Hightouch** when you need managed features.\n\nWhat's your use case or data volume?",
-  "cached_at": "2026-05-28T09:05:35Z",
-  "metadata": {}
-}

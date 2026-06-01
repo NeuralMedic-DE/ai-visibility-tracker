@@ -1,9 +1,0 @@
-{
-  "brand": "ChurnZero",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does ChurnZero integrate with Salesforce?",
-  "response": "Yes, ChurnZero integrates with Salesforce. This integration allows you to synchronize customer data between ChurnZero and Salesforce, enabling you to leverage customer insights and automate workflows to improve customer engagement and reduce churn. The integration typically involves setting up data flows between the two platforms to ensure that customer information is up-to-date and actionable in both systems.",
-  "cached_at": "2026-05-28T08:06:53Z",
-  "metadata": {}
-}

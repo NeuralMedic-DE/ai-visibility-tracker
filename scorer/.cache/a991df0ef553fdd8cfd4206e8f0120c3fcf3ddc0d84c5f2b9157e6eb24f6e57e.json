@@ -1,9 +1,0 @@
-{
-  "brand": "ActiveCampaign",
-  "prompt_id": "IN-04",
-  "llm": "openai",
-  "prompt_text": "Best marketing automation that works with Shopify and WordPress",
-  "response": "When looking for marketing automation tools that integrate well with both Shopify and WordPress, several options stand out due to their robust features and ease of integration:\n\n1. **Klaviyo**: Known for its powerful email marketing capabilities, Klaviyo integrates seamlessly with Shopify, allowing for personalized email campaigns based on customer behavior. It also offers integration with WordPress through plugins and third-party connectors.\n\n2. **Mailchimp**: A popular choice for email marketing, Mailchimp offers integration with both Shopify and WordPress. It provides automation features, audience segmentation, and detailed analytics.\n\n3. **HubSpot**: HubSpot offers a comprehensive suite of marketing tools, including email marketing, CRM, and automation. It integrates with Shopify through the HubSpot for Shopify app and can be connected to WordPress using the HubSpot WordPress plugin.\n\n4. **ActiveCampaign**: This platform provides advanced email marketing, automation, and CRM features. It integrates with Shopify via a direct app and can be connected to WordPress through plugins or third-party services.\n\n5. **Omnisend**: Tailored for e-commerce, Omnisend offers omnichannel marketing automation and integrates directly with Shopify. It can also be connected to WordPress using plugins or custom integrations.\n\n6. **Drip**: Drip is an e-commerce CRM that offers robust marketing automation features. It integrates well with Shopify and can be connected to WordPress through various plugins and tools.\n\nEach of these platforms offers unique features, so the best choice depends on your specific needs, such as the level of automation, budget, and the depth of integration required.",
-  "cached_at": "2026-05-28T07:23:43Z",
-  "metadata": {}
-}

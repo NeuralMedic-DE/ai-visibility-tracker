@@ -1,9 +1,0 @@
-{
-  "brand": "Lattice",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is Lattice better than 15Five for develop employee skills and track engagement scores over time?",
-  "response": "# Lattice vs 15Five for Skills Development & Engagement Tracking\n\nBoth have strengths here, but they differ in focus:\n\n## Lattice's advantages:\n- **Skills mapping** is more robust—explicit skill tracking, gap analysis, and development plans\n- **Better for structured learning paths** tied to career progression\n- Cleaner interface for tracking progress over time\n- Stronger integration with learning management systems\n\n## 15Five's advantages:\n- **Engagement focus** is built deeper into the product (it's in their DNA)\n- **Pulse surveys** and continuous feedback loops are more sophisticated\n- Better for capturing real-time engagement sentiment\n- Easier lightweight check-ins without feeling bureaucratic\n\n## The honest answer:\n- **Choose Lattice if** skills development and competency tracking are your primary need\n- **Choose 15Five if** engagement measurement and frequent feedback loops matter more\n\n**The catch:** Neither is perfect at *both*. If you need excellence in skills development *and* engagement tracking equally, you might need to:\n- Layer them together\n- Accept one tool will be your primary system\n- Look at more specialized alternatives (like Cornerstone or Workday for skills; Officevibe or Culture Amp for engagement)\n\nWhat's your primary goal—are you building skills infrastructure or trying to understand/improve engagement?",
-  "cached_at": "2026-05-28T06:29:58Z",
-  "metadata": {}
-}

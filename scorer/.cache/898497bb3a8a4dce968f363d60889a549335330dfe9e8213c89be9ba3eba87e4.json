@@ -1,9 +1,0 @@
-{
-  "brand": "Lemlist",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best sales engagement that works with HubSpot and Salesforce",
-  "response": "# Best Sales Engagement Platforms for HubSpot & Salesforce\n\n## Top Tier Options\n\n### **Outreach**\n- **Best for:** Enterprise sales teams\n- **Strengths:** \n  - Seamless dual integration with both platforms\n  - Advanced cadence automation & AI coaching\n  - Comprehensive analytics\n- **Cost:** Premium pricing (~$3K+/month for teams)\n\n### **Salesloft**\n- **Best for:** Mid-market to enterprise\n- **Strengths:**\n  - Excellent Salesforce integration\n  - AI-powered call coaching\n  - Strong forecasting features\n- **Cost:** Enterprise pricing\n\n---\n\n## Mid-Market Sweet Spots\n\n### **Apollo.io**\n- **Best for:** Cost-conscious, growing teams\n- **Strengths:**\n  - Affordable ($50-150/user/month)\n  - Built-in B2B database\n  - Good integrations with both platforms\n- **Cost:** Budget-friendly\n\n### **Hunter.io + Lemlist**\n- **Best for:** Outbound-focused teams\n- **Strengths:**\n  - Email finding + personalization\n  - Affordable and lightweight\n- **Cost:** $99-500/month range\n\n### **ZoomInfo Engage**\n- **Best for:** Data + engagement combo\n- **Strengths:**\n  - Leverages ZoomInfo's database\n  - Strong Salesforce native integration\n- **Cost:** Mid-to-premium\n\n---\n\n## Key Selection Criteria\n\n| Factor | Priority |\n|--------|----------|\n| **Integration quality** | Critical—ensure native apps exist |\n| **Team size** | Scales pricing significantly |\n| **Use case** | Outbound vs. account-based vs. sales ops |\n| **Budget** | $100-500K+ annual range varies widely |\n\n---\n\n**What's your team size & primary use case?** I can narrow this down further.",
-  "cached_at": "2026-05-28T07:17:31Z",
-  "metadata": {}
-}

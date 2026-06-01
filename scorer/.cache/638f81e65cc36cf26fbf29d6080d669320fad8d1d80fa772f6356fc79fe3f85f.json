@@ -1,9 +1,0 @@
-{
-  "brand": "Pipedrive",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with track deals and forecast revenue at scale?",
-  "response": "# Software for Deal Tracking & Revenue Forecasting\n\n## CRM Platforms (Most Common)\n- **Salesforce** - Industry standard with robust forecasting\n- **HubSpot** - User-friendly, strong for mid-market\n- **Pipedrive** - Pipeline-focused, visual deal management\n- **Microsoft Dynamics 365** - Enterprise option, Excel integration\n\n## Specialized Revenue Intelligence\n- **Looker** - Advanced analytics & forecasting\n- **Tableau** - Data visualization for sales metrics\n- **Clari** - AI-driven revenue forecasting\n- **Lattice Engines** - Predictive analytics for deals\n\n## Deal-Specific Tools\n- **Slack/Teams integrations** - Real-time deal updates\n- **Gong** - Call analysis + deal insights\n- **Outreach** - Sales execution + forecasting\n- **Forecast.app** - Lightweight forecasting tool\n\n## Key Features to Look For\n- Pipeline visibility across teams\n- Probability weighting for deals\n- Historical forecast accuracy tracking\n- Integration with existing tools\n- Mobile access for remote teams\n\n**Best choice depends on:**\n- Company size & budget\n- Industry requirements\n- Current tech stack\n- Forecasting complexity\n\nWhat's your company size and main pain point with deals/forecasting?",
-  "cached_at": "2026-05-27T17:49:12Z",
-  "metadata": {}
-}

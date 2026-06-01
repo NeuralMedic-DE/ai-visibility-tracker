@@ -1,9 +1,0 @@
-{
-  "brand": "Copper",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to Pipedrive",
-  "response": "# Cheaper Alternatives to Pipedrive\n\n## Free/Low-Cost Options\n\n### **HubSpot Free CRM**\n- Free forever plan with core features\n- Good for small teams starting out\n- Limited automation and reporting\n\n### **Zoho CRM**\n- Free plan for up to 3 users\n- Affordable paid tiers ($15-35/user/month)\n- More features than HubSpot free at lower cost\n\n### **Freshsales**\n- Free plan available\n- Paid plans from $15-65/user/month\n- Good email integration and mobile app\n\n## Budget-Friendly Paid Options\n\n### **Agile CRM**\n- Starts at $9.99/user/month\n- All-in-one (CRM + marketing + helpdesk)\n- Good for automation on a budget\n\n### **Insightly**\n- $29-99/month (flat rate, not per user)\n- Solid project management features\n- Good for small businesses\n\n### **Capsule CRM**\n- $25-149/month based on users\n- Simple interface, easy to learn\n- Good customer support\n\n### **Streak**\n- Free + $15/user/month\n- Works within Gmail\n- Great for Gmail-heavy teams\n\n## Considerations\n\n**Choose based on:**\n- Team size (per-user vs. flat pricing)\n- Required features (automation, reporting, integrations)\n- Industry-specific needs\n- Learning curve tolerance\n\nWould you like recommendations based on your specific needs?",
-  "cached_at": "2026-05-27T18:23:22Z",
-  "metadata": {}
-}

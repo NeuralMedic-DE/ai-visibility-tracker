@@ -1,9 +1,0 @@
-{
-  "brand": "Help Scout",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Help Scout integrate with Slack?",
-  "response": "Yes, Help Scout does integrate with Slack. This integration allows you to receive notifications in Slack about new conversations, updates, and other activities from your Help Scout mailbox. You can customize which notifications you receive and in which Slack channels they appear, helping your team stay informed and respond quickly to customer inquiries. To set up the integration, you can follow the instructions provided in the Help Scout documentation or within the Slack app directory.",
-  "cached_at": "2026-05-28T08:19:31Z",
-  "metadata": {}
-}

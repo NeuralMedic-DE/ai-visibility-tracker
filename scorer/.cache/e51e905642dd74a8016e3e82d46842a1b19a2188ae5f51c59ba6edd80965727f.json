@@ -1,9 +1,0 @@
-{
-  "brand": "Neon",
-  "prompt_id": "CD-04",
-  "llm": "openai",
-  "prompt_text": "Best database platforms for spin up serverless Postgres databases instantly with auto-suspend",
-  "response": "If you're looking for serverless PostgreSQL database platforms that can be spun up instantly with auto-suspend capabilities, here are some popular options:\n\n1. **Amazon Aurora Serverless**: Part of AWS, Aurora Serverless is a fully managed, serverless relational database service that automatically starts up, shuts down, and scales capacity up or down based on your application's needs. It supports PostgreSQL and provides a pay-per-use pricing model.\n\n2. **Google Cloud SQL**: Google Cloud offers a serverless option for PostgreSQL through its Cloud SQL service. It provides automatic scaling and can suspend when not in use, helping to reduce costs.\n\n3. **Azure Database for PostgreSQL - Flexible Server**: While not entirely serverless, Azure's Flexible Server option offers features like auto-scaling and the ability to pause and resume the database, which can help manage costs effectively.\n\n4. **Neon**: Neon is a serverless PostgreSQL platform that offers features like auto-scaling and auto-suspend. It is designed to provide a modern, cloud-native experience with PostgreSQL.\n\n5. **Supabase**: Supabase is an open-source alternative to Firebase that offers a serverless PostgreSQL database. It includes features like instant spin-up and auto-suspend, along with real-time capabilities.\n\nThese platforms provide varying degrees of serverless functionality and cost management features, so you should consider your specific requirements, such as pricing, scalability, and integration capabilities, when choosing the best option for your needs.",
-  "cached_at": "2026-05-28T06:17:32Z",
-  "metadata": {}
-}

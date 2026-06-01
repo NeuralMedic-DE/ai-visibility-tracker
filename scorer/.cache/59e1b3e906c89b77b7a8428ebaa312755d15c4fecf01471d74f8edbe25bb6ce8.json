@@ -1,9 +1,0 @@
-{
-  "brand": "Mixpanel",
-  "prompt_id": "UC-03",
-  "llm": "anthropic",
-  "prompt_text": "What tools do product and growth teams at SaaS companies companies use to track user engagement and feature adoption?",
-  "response": "# SaaS Product & Growth Analytics Tools\n\n## Core Analytics Platforms\n- **Amplitude** - Event tracking and cohort analysis (strong for engagement patterns)\n- **Mixpanel** - User behavior funnels and retention tracking\n- **Segment** - Data collection layer that feeds multiple tools\n- **Heap** - Automatic event capture (less setup required)\n\n## Product-Specific Tools\n- **Pendo** - In-app guidance, feature adoption, user feedback\n- **Apptio** - Feature usage analytics with engagement scoring\n- **Fullstory** - Session replay + analytics (good for understanding *why* users engage)\n- **Hotjar** - Heatmaps, session recordings, user surveys\n\n## Feature Adoption & Rollout\n- **LaunchDarkly** - Feature flags and progressive rollouts\n- **Statsig** - A/B testing with analytics integration\n- **Optimizely** - Experimentation platform\n- **Split.io** - Feature management with analytics\n\n## Usage Tracking Specifics\n- **Logrocket** - Session replay with product analytics\n- **Rudderstack** - Open-source CDP alternative to Segment\n- **PostHog** - Self-hosted product analytics (growing popular with startups)\n\n## Supporting Tools\n- **Tableau/Looker** - Dashboard and reporting layer\n- **SQL databases** - Direct analysis of raw events\n- **Slack integrations** - Real-time alerts on key metrics\n\n## What Teams Actually Track\nMost focus on: activation rates, feature adoption %, time-to-value, cohort retention, and NPS by feature usage.\n\nWhat's your specific use case—measuring new feature rollouts or understanding overall platform adoption?",
-  "cached_at": "2026-05-27T19:15:15Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Leapsome",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Lattice vs alternatives: what should I switch to?",
-  "response": "# Lattice Alternatives: Choosing Your Next Platform\n\n## Best for different needs:\n\n**Performance management & feedback:**\n- **15Five** – stronger pulse surveys, engagement focus\n- **Culture Amp** – best analytics & insights\n- **Deel** – if you need integrated payroll/HRIS\n- **Bamboo HR** – simpler, more affordable\n\n**Full HRIS (if you want everything integrated):**\n- **Workday** – enterprise-grade, comprehensive\n- **SuccessFactors** – similar tier to Workday\n- **Guidepoint** – mid-market sweet spot\n\n**Lightweight alternatives:**\n- **7shifts** – hourly/operations teams\n- **Rippling** – device management + HR\n- **ADP/Paychex** – if payroll is priority\n\n## Key trade-off questions:\n\n1. **Are you leaving because of:** pricing? feature gaps? poor UX? (answer shapes what fits)\n2. **Company size & structure?** (startups vs enterprise need different tools)\n3. **Do you need** payroll/benefits integration, or separate tools?\n4. **How critical is** customization vs. \"good enough\" defaults?\n\n## My take:\n- **Most direct swap**: 15Five or Culture Amp (similar scope, different strengths)\n- **Better value**: Bamboo HR if under 500 people\n- **Go bigger**: Workday only if enterprise-level complexity justifies cost\n\nWhat's pushing you away from Lattice? That'll narrow it down significantly.",
-  "cached_at": "2026-05-28T06:37:13Z",
-  "metadata": {}
-}

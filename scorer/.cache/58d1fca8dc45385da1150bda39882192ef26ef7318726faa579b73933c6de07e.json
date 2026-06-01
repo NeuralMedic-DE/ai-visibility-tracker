@@ -1,9 +1,0 @@
-{
-  "brand": "Attio",
-  "prompt_id": "UC-04",
-  "llm": "anthropic",
-  "prompt_text": "How can a founder or RevOps lead at a Series A startup manage customer relationships more efficiently?",
-  "response": "# Managing Customer Relationships Efficiently at Series A\n\n## Core Systems First\n\n**Implement a lightweight CRM**\n- Salesforce, HubSpot, or Pipedrive—pick one and commit\n- Focus on capturing: contact info, deal stage, next steps, pain points\n- Avoid over-customization; you'll iterate anyway\n\n**Document your sales process**\n- Map your typical deal stages (even if loosely defined)\n- Define what \"ready to close\" actually means\n- This prevents deals from mysteriously stalling\n\n## Operational Priorities\n\n**Create a single source of truth**\n- All customer interactions in one place (not scattered emails)\n- Automate data entry where possible (APIs, Zapier)\n- Weekly 15-min sync: founder + RevOps on key accounts\n\n**Establish rhythms**\n- Regular check-ins (monthly for mid-market, quarterly for smaller customers)\n- Clear escalation paths for issues\n- Post-sale handoff playbook (so nothing falls through cracks)\n\n## What Actually Moves the Needle at Series A\n\n- **Owning the top 3-5 accounts personally** as founder (you're your best salesperson)\n- **Saying no to bad-fit deals** early (saves RevOps headaches later)\n- **One unified email/calendar** instead of multiple systems\n- **Customer health scoring** (even basic: NPS + usage metrics) to catch churn early\n\n## Common Mistakes to Avoid\n\n- Overthinking the CRM setup before you have process discipline\n- Letting customer data live in spreadsheets as a \"temporary\" solution\n- Ignoring usage/engagement signals—focus only on revenue conversations\n\nWhat's your current bottleneck—pipeline visibility, closing deals, or retention?",
-  "cached_at": "2026-05-27T17:54:58Z",
-  "metadata": {}
-}

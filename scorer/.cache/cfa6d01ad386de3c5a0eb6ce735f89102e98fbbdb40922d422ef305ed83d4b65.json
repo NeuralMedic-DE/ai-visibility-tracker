@@ -1,9 +1,0 @@
-{
-  "brand": "Mixpanel",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Mixpanel with Segment?",
-  "response": "# Connecting Mixpanel with Segment\n\nHere's how to set up the integration:\n\n## 1. **Get Your Mixpanel Token**\n- Log into Mixpanel\n- Go to **Settings** → **Project Settings**\n- Copy your **Project Token** (you'll need this)\n\n## 2. **Add Mixpanel Destination in Segment**\n- Log into your Segment workspace\n- Go to **Catalog** → search for \"Mixpanel\"\n- Click the Mixpanel destination\n- Click **Configure Mixpanel**\n\n## 3. **Create a New Destination**\n- Select the source(s) you want to connect\n- Click **Next**\n\n## 4. **Paste Your Mixpanel Token**\n- In the settings, paste your Mixpanel **Project Token**\n- Configure other options as needed (e.g., set event batching preferences)\n- Click **Save**\n\n## 5. **Verify the Connection**\n- Go to your Segment source settings\n- Check that data is flowing (look for successful API calls)\n- Check Mixpanel to see if events are coming through\n\n## Key Configuration Options\n- **Token**: Your Mixpanel project token (required)\n- **Event Batching**: Enable to batch events for better performance\n- **Set All Traits as Super Properties**: Control how user properties map\n- **User ID Trait**: Specify which Segment trait maps to Mixpanel's user ID\n\n## Testing\nSend a test event from Segment and verify it appears in your Mixpanel project within a few minutes.\n\nNeed help with a specific step?",
-  "cached_at": "2026-05-27T19:15:40Z",
-  "metadata": {}
-}

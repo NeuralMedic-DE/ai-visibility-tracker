@@ -1,9 +1,0 @@
-{
-  "brand": "Checkly",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Checkly with GitHub?",
-  "response": "# Connecting Checkly with GitHub\n\nHere are the main ways to integrate Checkly with GitHub:\n\n## 1. **GitHub Checks Integration** (Recommended)\nThis displays Checkly results directly on pull requests:\n\n- Go to **Checkly Dashboard** → **Settings** → **Integrations**\n- Click **GitHub** and authorize the connection\n- Select which repositories to integrate\n- Checkly will now report check results on your PRs\n\n## 2. **GitHub Actions Workflow**\nRun Checkly checks as part of your CI/CD pipeline:\n\n```yaml\n- name: Run Checkly checks\n  uses: checkly/github-actions@v1\n  with:\n    api-key: ${{ secrets.CHECKLY_API_KEY }}\n    account-id: ${{ secrets.CHECKLY_ACCOUNT_ID }}\n```\n\nSteps:\n- Get your **API Key** and **Account ID** from Checkly settings\n- Store them as GitHub secrets\n- Add the action to your workflow file\n\n## 3. **Webhooks**\nSet up manual webhook notifications:\n\n- In Checkly, go to **Alerting** → **Webhooks**\n- Configure to send alerts to GitHub or trigger workflows\n\n## 4. **Set Up Secrets**\nAdd to your GitHub repository:\n- `CHECKLY_API_KEY` - from Checkly account settings\n- `CHECKLY_ACCOUNT_ID` - from Checkly account settings\n\nWould you like help with any specific integration method?",
-  "cached_at": "2026-05-28T06:23:13Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "TestBrand",
-  "prompt_id": "UC-03",
-  "llm": "google",
-  "prompt_text": "What tools do B2B SaaS startups companies use to manage ai visibility tracking workflows?",
-  "response": "NO_AI_OVERVIEW",
-  "cached_at": "2026-06-01T15:00:26Z",
-  "metadata": {}
-}

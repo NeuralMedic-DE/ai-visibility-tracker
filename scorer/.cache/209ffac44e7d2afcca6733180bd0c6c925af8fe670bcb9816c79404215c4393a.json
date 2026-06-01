@@ -1,9 +1,0 @@
-{
-  "brand": "Drata",
-  "prompt_id": "AL-05",
-  "llm": "openai",
-  "prompt_text": "Open source or affordable compliance tools instead of Sprinto",
-  "response": "If you're looking for open source or affordable compliance tools as alternatives to Sprinto, there are several options you might consider:\n\n1. **Open Source Tools:**\n   - **osTicket**: While primarily a ticketing system, it can be adapted for compliance tracking and management.\n   - **ComplianceForge**: Offers templates and frameworks that can be used to build a compliance program, though not a tool per se.\n   - **OpenSCAP**: A suite of open-source tools for automated vulnerability management, security measurement, and policy enforcement.\n\n2. **Affordable Compliance Tools:**\n   - **Drata**: Offers automated compliance workflows and is often considered more affordable than some competitors.\n   - **Vanta**: Provides automated security monitoring and compliance management, with pricing that can be more accessible for smaller companies.\n   - **Tugboat Logic**: Offers a platform for managing compliance and security audits, often at a competitive price.\n   - **Secureframe**: Provides compliance automation for various standards, and pricing is generally considered competitive.\n\nWhen choosing a compliance tool, consider the specific compliance standards you need to meet (e.g., SOC 2, ISO 27001, GDPR), the size of your organization, and the features you require. Many of these tools offer free trials or demos, which can be a good way to evaluate their suitability for your needs.",
-  "cached_at": "2026-05-28T08:28:51Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "ChurnZero",
-  "prompt_id": "CD-01",
-  "llm": "perplexity",
-  "prompt_text": "What is the best customer success for customer success teams at mid-market and enterprise SaaS companies?",
-  "response": "For **mid-market and enterprise SaaS**, the best customer success model is usually a **segmented, revenue-aligned CS motion**: use **high-touch CS for enterprise**, **mid-touch for larger mid-market accounts**, and **tech-touch/automated coverage for the long tail**.[1][2][3]\n\nWhat makes this approach work is that it matches engagement to account value and complexity rather than treating all customers the same.[1][2][3] The strongest CS teams are proactive, focused on measurable customer outcomes, and tied to metrics such as **net revenue retention**, **product adoption**, **churn**, and **expansion**.[1][3]\n\nFor these segments, a practical structure looks like this:\n\n- **Enterprise accounts:** assign experienced CSMs or dedicated account managers, provide customized onboarding, and run regular business reviews.[2][3]\n- **Mid-market accounts:** use scalable onboarding, automated touchpoints, and self-service resources, with selective human check-ins based on usage or health signals.[2]\n- **Across both segments:** define clear CS goals, set CSM capacity based on engagement needs, and align CS with Sales, Product, and Support through shared KPIs and playbooks.[1][3]\n\nIf you mean the **best CS platform** for this motion, the search results do not provide enough evidence to rank one vendor definitively. In that case, the better answer is to choose a platform that supports **customer health scoring, lifecycle automation, expansion tracking, and multi-segment workflows**.[3][8][9]\n\nIf you want, I can turn this into a **recommended org design**, **CSM-to-account ratio model**, or a **platform shortlist** for mid-market and enterprise SaaS.",
-  "cached_at": "2026-05-28T08:06:27Z",
-  "metadata": {}
-}

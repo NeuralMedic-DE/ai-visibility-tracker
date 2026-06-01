@@ -1,9 +1,0 @@
-{
-  "brand": "HiBob",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to Personio",
-  "response": "# Cheaper Alternatives to Personio\n\n## Budget-Friendly Options\n\n### **Free/Freemium Tier**\n- **Guidepoint** – Free for up to 10 employees\n- **Zoho People** – Free plan available\n- **BambooHR Lite** – Lower cost entry point\n- **Factorial** – Free version with basic features\n\n### **Low-Cost Solutions ($1-5/employee/month)**\n- **Rippling** – Competitive pricing, all-in-one platform\n- **Justworks** – Around $1-2/employee/month\n- **Monday.com HR** – Flexible pricing\n- **HubStaff** – Good for time tracking & payroll basics\n- **Paycor** – Mid-range pricing with strong features\n\n### **Self-Hosted/Open Source**\n- **OrangeHRM** – Open source, low cost\n- **ERPNext** – Includes HR module, affordable\n- **Odoo** – Modular, pay only for what you use\n\n## Feature-Specific Alternatives\n\n| Need | Best Alternative |\n|------|------------------|\n| **Payroll only** | Wave, Square Payroll |\n| **Time tracking** | Clockify, Toggl |\n| **Performance management** | Culture Amp, 15Five |\n| **Simple HRIS** | BambooHR |\n| **All-in-one cheap** | Rippling, Justworks |\n\n## Comparison Tips\n- Consider **total employees** (unit economics improve at scale)\n- Check if you need **payroll integration**\n- Evaluate **free trial length** before committing\n\n**Best budget pick:** Rippling or Factorial offer strong value for small teams.",
-  "cached_at": "2026-05-28T06:32:27Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "TestBrand",
-  "prompt_id": "IN-05",
-  "llm": "google",
-  "prompt_text": "AI visibility tracking tools with native Slack integration",
-  "response": "NO_AI_OVERVIEW",
-  "cached_at": "2026-06-01T15:00:34Z",
-  "metadata": {}
-}

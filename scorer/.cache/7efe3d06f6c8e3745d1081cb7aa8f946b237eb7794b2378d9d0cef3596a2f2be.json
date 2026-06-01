@@ -1,9 +1,0 @@
-{
-  "brand": "Amplitude",
-  "prompt_id": "CM-01",
-  "llm": "anthropic",
-  "prompt_text": "Amplitude vs Mixpanel: which is better?",
-  "response": "# Amplitude vs Mixpanel: Key Differences\n\nNeither is universally \"better\"—it depends on your needs. Here's how they compare:\n\n## **Amplitude's Strengths**\n- **Behavioral analytics focus**: Excellent for understanding user journeys and cohort analysis\n- **Better free tier**: More generous for smaller teams\n- **Easier learning curve**: Intuitive UI for non-technical users\n- **Lower cost**: Generally cheaper at scale\n\n## **Mixpanel's Strengths**\n- **Real-time data**: Faster event processing and dashboards\n- **User profiles**: Superior identity resolution and user segmentation\n- **Retention analysis**: Purpose-built retention tracking features\n- **Better integrations**: Easier connections to marketing/CRM tools\n\n## **Choose Amplitude if:**\n- You need affordability\n- You're focused on user flow analysis\n- You have a technical team\n- You want a free plan that works for early-stage products\n\n## **Choose Mixpanel if:**\n- Real-time insights are critical\n- You need sophisticated user segmentation\n- You're integrating with marketing automation\n- You have budget priority over cost\n\n## **Bottom Line**\nTest both with your actual data if possible. Many teams use them *together* for different purposes. Your specific use case (e-commerce vs. SaaS vs. mobile) matters more than general recommendations.\n\nWhat's your main analytics priority?",
-  "cached_at": "2026-05-27T19:25:22Z",
-  "metadata": {}
-}

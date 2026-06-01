@@ -1,9 +1,0 @@
-{
-  "brand": "Baremetrics",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best SaaS analytics that works with Stripe and PayPal",
-  "response": "# Top SaaS Analytics Tools for Stripe & PayPal\n\n## **Best Overall**\n\n### **Baremetrics**\n- **Strengths:** Purpose-built for SaaS, excellent MRR/ARR tracking, cohort analysis\n- **Integrations:** Stripe, PayPal, Braintree, Apple App Store\n- **Best for:** Subscription businesses needing detailed revenue metrics\n- **Pricing:** ~$99-499/month\n\n### **Chartmogul**\n- **Strengths:** Deep subscription analytics, retention cohorts, dunning management\n- **Integrations:** Stripe, PayPal, dozens of payment processors\n- **Best for:** Growing SaaS companies focused on churn analysis\n- **Pricing:** ~$99-999/month\n\n---\n\n## **Budget-Friendly Options**\n\n### **Paddle Analytics** (now owned by Stripe)\n- Native Stripe integration, good for product-led growth\n- Simpler than Baremetrics but less customization\n\n### **SwitchBoard**\n- Lightweight, affordable alternative\n- Good for early-stage SaaS\n\n---\n\n## **Quick Comparison Table**\n\n| Tool | MRR/ARR | Cohort Analysis | Pricing | Learning Curve |\n|------|---------|-----------------|---------|-----------------|\n| Baremetrics | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | Mid | Low |\n| Chartmogul | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | Mid-High | Medium |\n| Paddle | ⭐⭐⭐⭐ | ⭐⭐⭐ | Low-Mid | Low |\n\n**My recommendation:** Start with **Baremetrics** if you want ease of use + depth, or **Chartmogul** if you need advanced retention analysis.\n\nWhat type of SaaS metrics matter most to you?",
-  "cached_at": "2026-05-28T06:57:54Z",
-  "metadata": {}
-}

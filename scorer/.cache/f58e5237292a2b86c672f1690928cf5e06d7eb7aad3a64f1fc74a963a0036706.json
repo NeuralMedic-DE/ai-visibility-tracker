@@ -1,9 +1,0 @@
-{
-  "brand": "Anecdotes",
-  "prompt_id": "CM-01",
-  "llm": "anthropic",
-  "prompt_text": "Anecdotes vs Vanta: which is better?",
-  "response": "# Anecdotes vs Vanta\n\nNeither is strictly \"better\"—they serve different purposes:\n\n## **Anecdotes**\n- Personal stories that illustrate a point\n- Great for: engagement, relatability, memory\n- Weakness: not proof; can be misleading\n\n## **Vanta**\n- Compliance automation/security platform\n- Great for: real-time compliance monitoring, audit prep\n- Weakness: cost, complexity, overkill for small orgs\n\n**Are you comparing these in a specific context?** That would help me give a more useful answer. For example:\n- Choosing a compliance tool?\n- Deciding how to make an argument?\n- Something else entirely?\n\nWhat's your actual decision between them?",
-  "cached_at": "2026-05-28T08:35:58Z",
-  "metadata": {}
-}

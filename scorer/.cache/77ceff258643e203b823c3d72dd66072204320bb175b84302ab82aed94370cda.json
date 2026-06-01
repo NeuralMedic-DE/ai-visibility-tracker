@@ -1,9 +1,0 @@
-{
-  "brand": "UserVoice",
-  "prompt_id": "IN-02",
-  "llm": "anthropic",
-  "prompt_text": "UserVoice Zendesk integration: how does it work?",
-  "response": "# UserVoice Zendesk Integration Overview\n\n## How It Works\n\nThe integration connects UserVoice (customer feedback/feature request platform) with Zendesk (customer support platform), enabling better collaboration between support and product teams.\n\n### Key Functions\n\n**Bidirectional Communication**\n- Support agents in Zendesk can view, create, and link customer feedback from UserVoice\n- Feedback from support tickets can be pushed to UserVoice for product consideration\n- Updates sync between platforms\n\n**Support Agent Workflow**\n- Access UserVoice data directly from Zendesk tickets\n- Link tickets to existing feature requests or create new ones\n- See which customers have voted on specific ideas\n- Provide customers with status updates on their feature requests\n\n**Customer Feedback Loop**\n- Agents can notify customers when their feedback is logged\n- Track feature request popularity/voting\n- Close the loop by updating customers when features are implemented\n\n## Installation Steps\n\n1. Install the UserVoice app from Zendesk Marketplace\n2. Authenticate UserVoice account credentials\n3. Configure field mapping and permissions\n4. Customize which data syncs between platforms\n\n## Common Use Cases\n\n- Converting support tickets into feature requests\n- Identifying popular requests across multiple support interactions\n- Improving customer satisfaction by showing feature request status\n- Aligning support and product teams on priorities\n\n## Limitations\n\n- Requires active subscriptions to both platforms\n- Some versions may have limited customization options\n- Real-time sync may have slight delays\n\nWould you like details on setup, troubleshooting, or specific use cases?",
-  "cached_at": "2026-05-28T08:24:25Z",
-  "metadata": {}
-}

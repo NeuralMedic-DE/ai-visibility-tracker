@@ -1,9 +1,0 @@
-{
-  "brand": "Totango",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Gainsight vs alternatives: what should I switch to?",
-  "response": "# Gainsight Alternatives: Key Comparison Points\n\nBefore switching, clarify what's driving the change:\n- **Cost concerns?** Gainsight is premium-priced\n- **Too complex?** You might want something lighter\n- **Specific features missing?** (health scoring, playbooks, etc.)\n- **Integration issues?** Check if alternatives connect to your stack\n\n## Strong alternatives by use case:\n\n**If you want simplicity + lower cost:**\n- **HubSpot Service Hub** – solid basics, good if you're already in HubSpot\n- **Totango** – competitive pricing, strong health scoring\n- **Planhat** – lighter, good for SMBs\n\n**If you need depth comparable to Gainsight:**\n- **Vitally** – modern UI, strong for technical teams\n- **ChartMogul** – excellent analytics/reporting layer\n- **Kokoro** – emerging, good feature set\n\n**If you're heavily invested in specific tools:**\n- **Salesforce ecosystem?** → Gainsight's native integration wins\n- **HubSpot shop?** → Stay there or go Totango\n- **DataOps-focused?** → Vitally or Planhat\n\n## Honest take:\nMost switches happen because of **price/complexity, not capability gaps**. Before leaving:\n- Audit what you actually use (often 20% of features)\n- Map critical workflows to alternatives\n- Consider switching costs (data migration, training, integration setup)\n\n**What's your main pain point?** That'll narrow it down significantly.",
-  "cached_at": "2026-05-28T08:14:34Z",
-  "metadata": {}
-}

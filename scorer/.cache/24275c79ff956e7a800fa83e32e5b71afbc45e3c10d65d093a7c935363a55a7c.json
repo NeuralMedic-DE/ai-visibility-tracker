@@ -1,9 +1,0 @@
-{
-  "brand": "Raycast",
-  "prompt_id": "IN-04",
-  "llm": "perplexity",
-  "prompt_text": "Best productivity that works with Slack and GitHub",
-  "response": "If you want the **best productivity setup that works with both Slack and GitHub**, the strongest general-purpose choice is **GitHub + Slack notifications plus a workflow automation tool like Zapier or a dedicated GitHub/Slack app**. GitHub’s own Slack integration is useful for pull request and issue updates, but GitHub community reports note that Slack notifications can be delayed, so critical alerts are often more reliable through email, webhooks, or more targeted automation.[1][9]\n\nThe most practical options are:\n\n- **GitHub for Slack**: best for basic repo notifications, issue tracking, and PR updates inside Slack.[4][9]\n- **Zapier**: best when you want to connect Slack and GitHub with custom workflows, such as sending a Slack message when a PR is opened or creating tasks from Slack activity.[7][8]\n- **Slack Workflow Builder**: best for simple, no-code internal automations inside Slack, though it is less GitHub-specific.[4]\n- **Standup / developer workflow apps** from curated Slack app lists: useful if your main goal is team productivity around code reviews, standups, and coordination.[6][7]\n\nIf your priority is **developer productivity**, the best pattern is usually:\n- use **GitHub for Slack** for routine repo updates,\n- add **Zapier** for custom automations,\n- and keep **critical alerts** out of “real-time” Slack notifications if timing matters, because delays have been reported.[1]\n\nIf you want, I can narrow this down to:\n- the **best free option**,\n- the **best AI-powered option**,\n- or the **best setup for code review teams**.",
-  "cached_at": "2026-05-28T06:27:11Z",
-  "metadata": {}
-}

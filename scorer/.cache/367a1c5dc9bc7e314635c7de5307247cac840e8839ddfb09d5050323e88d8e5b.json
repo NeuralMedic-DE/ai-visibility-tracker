@@ -1,9 +1,0 @@
-{
-  "brand": "FullStory",
-  "prompt_id": "IN-05",
-  "llm": "openai",
-  "prompt_text": "product analytics tools with native Segment integration",
-  "response": "There are several product analytics tools that offer native integration with Segment, allowing you to seamlessly collect, manage, and analyze your data. Here are some popular options:\n\n1. **Mixpanel**: Mixpanel is a powerful product analytics tool that integrates well with Segment, enabling you to track user interactions and analyze user behavior.\n\n2. **Amplitude**: Amplitude provides robust analytics capabilities and integrates natively with Segment, allowing you to understand user engagement and retention.\n\n3. **Heap**: Heap offers automatic data capture and analytics, and its native Segment integration makes it easy to track and analyze user interactions without manual event tracking.\n\n4. **Google Analytics**: While not as specialized as some other tools, Google Analytics can be integrated with Segment to provide insights into user behavior and traffic sources.\n\n5. **Pendo**: Pendo focuses on product usage analytics and user feedback, and it integrates with Segment to help you understand how users interact with your product.\n\n6. **FullStory**: FullStory provides session replay and user interaction analytics, and its Segment integration helps you capture and analyze user sessions effectively.\n\n7. **Kissmetrics**: Kissmetrics offers detailed customer journey analytics and integrates with Segment to help you track and optimize user experiences.\n\nThese tools can help you leverage the data collected through Segment to gain insights into user behavior, improve product features, and enhance overall user experience.",
-  "cached_at": "2026-05-27T20:45:09Z",
-  "metadata": {}
-}

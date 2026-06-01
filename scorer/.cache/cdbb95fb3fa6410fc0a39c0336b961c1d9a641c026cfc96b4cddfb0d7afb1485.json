@@ -1,9 +1,0 @@
-{
-  "brand": "Userlist",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is Userlist better than Customer.io for send feature announcements and lifecycle emails to keep users engaged?",
-  "response": "# Userlist vs Customer.io for Feature Announcements & Lifecycle Emails\n\nBoth are solid choices, but they have different strengths:\n\n## Userlist's advantages\n- **Simpler, more focused** – built specifically for SaaS engagement (announcements, onboarding, lifecycle)\n- **Easier setup** – less overwhelming than Customer.io's broader platform\n- **Good for product-focused messaging** – strong at feature announcements and in-app messaging\n- **Competitive pricing** at smaller scales\n\n## Customer.io's advantages\n- **More powerful segmentation** – better for complex user behaviors and lifecycle automation\n- **Richer personalization** – more sophisticated triggering and conditional logic\n- **Email + SMS + push** – broader channel support if you need flexibility\n- **Better for scale** – handles complex, multi-step campaigns more elegantly\n- **Stronger analytics** – deeper reporting on engagement\n\n## The practical answer\n- **Choose Userlist if** you want simplicity, your needs are straightforward (announcements + onboarding emails), and you're price-sensitive\n- **Choose Customer.io if** you anticipate complex lifecycle sequences, need sophisticated segmentation, or want multi-channel flexibility\n\nFor *just* feature announcements and basic lifecycle emails, Userlist is probably sufficient. But if you think you'll need more advanced automation down the road, Customer.io's flexibility might save you a migration later.\n\nWhat's your approximate user base size and complexity of planned campaigns?",
-  "cached_at": "2026-05-28T07:30:39Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "FullStory",
-  "prompt_id": "AL-02",
-  "llm": "openai",
-  "prompt_text": "Cheaper alternatives to Mouseflow",
-  "response": "If you're looking for cheaper alternatives to Mouseflow for website analytics and user behavior tracking, here are a few options you might consider:\n\n1. **Hotjar**: Offers heatmaps, session recordings, and feedback polls. It has a free basic plan and paid plans that are generally more affordable than Mouseflow.\n\n2. **Lucky Orange**: Provides heatmaps, session recordings, live chat, and conversion funnels. It's known for being cost-effective with a range of pricing plans.\n\n3. **Crazy Egg**: Focuses on heatmaps, scroll maps, and A/B testing. It offers competitive pricing and a simple interface.\n\n4. **FullStory**: Offers session replay, heatmaps, and analytics. While it can be more expensive at higher tiers, it has a free plan for smaller sites.\n\n5. **Smartlook**: Provides session recordings, heatmaps, and event tracking. It offers a free tier and affordable paid plans.\n\n6. **Inspectlet**: Specializes in session recording and heatmaps. It offers a free plan with limited features and reasonably priced paid plans.\n\n7. **Zoho PageSense**: Includes heatmaps, A/B testing, and funnel analysis. It's part of the Zoho suite and offers competitive pricing.\n\nEach of these tools has its own strengths and weaknesses, so it's a good idea to evaluate them based on your specific needs and budget. Many of them offer free trials or free plans, which can help you test their features before committing.",
-  "cached_at": "2026-05-27T20:44:11Z",
-  "metadata": {}
-}

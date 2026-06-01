@@ -1,9 +1,0 @@
-{
-  "brand": "ChartMogul",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which SaaS analytics software should a SaaS Founder or Finance Manager at a subscription business use?",
-  "response": "# Best SaaS Analytics Tools by Use Case\n\n## Top General-Purpose Options\n\n**Amplitude or Mixpanel**\n- Best for product analytics and user behavior tracking\n- Strong cohort analysis and funnels\n- Good for understanding feature adoption and churn drivers\n\n**Chartio or Metabase**\n- Best for custom dashboarding and BI\n- Lower cost, easier self-service analytics\n- Good if you already have clean data infrastructure\n\n## Subscription-Specific Metrics\n\n**Dedicated SaaS tools** (if metrics matter most):\n- **ProfitWell Metrics** - Purpose-built for SaaS KPIs (MRR, ARR, churn, LTV/CAC)\n- **Baremetrics** - Similar focus, simpler interface\n- **Gainsight or Totango** - Enterprise-grade, includes customer success features\n\n## Practical Recommendation\n\n**For most SaaS founders/finance managers:**\n1. **Start with** what's already connected (Stripe/payment processor native dashboards)\n2. **Layer in** Amplitude or Mixpanel for product behavior (if not already using)\n3. **Add** a lightweight BI tool (Metabase/Chartio) for financial dashboarding\n\n**Skip the specialty SaaS tools initially** unless you're sophisticated enough to need their advanced features—your payment processor + basic BI usually covers 80% of critical metrics.\n\nWhat stage is your business at, and which metrics matter most to you?",
-  "cached_at": "2026-05-28T06:54:43Z",
-  "metadata": {}
-}

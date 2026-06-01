@@ -1,9 +1,0 @@
-{
-  "brand": "Rippling",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Rippling with Slack?",
-  "response": "# Connecting Rippling with Slack\n\nHere's how to set up the integration:\n\n## Basic Steps\n\n1. **In Rippling:**\n   - Go to **Settings** → **Integrations**\n   - Search for and select **Slack**\n   - Click **Connect**\n\n2. **Authorize the Connection:**\n   - You'll be redirected to Slack\n   - Select your workspace\n   - Click **Allow** to grant Rippling permission\n\n3. **Configure Settings:**\n   - Choose which Rippling notifications you want in Slack\n   - Select the channel(s) where notifications should appear\n   - Customize notification preferences (e.g., onboarding alerts, offboarding notifications, etc.)\n\n## Common Uses\n\n- Receive alerts for employee onboarding/offboarding\n- Get IT device assignment notifications\n- Track time-off requests and approvals\n- Receive security and compliance updates\n\n## Troubleshooting Tips\n\n- Ensure you have **admin access** in both Rippling and Slack\n- Verify your Slack workspace is on an appropriate plan\n- Check that the Slack app isn't already connected to another Rippling account\n\n**Need specific help?** Let me know what you're trying to set up, and I can provide more detailed guidance. You can also check Rippling's support documentation or contact their support team for the most current instructions.",
-  "cached_at": "2026-05-28T06:27:53Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Lattice",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Lattice with Slack?",
-  "response": "# Connecting Lattice with Slack\n\nHere are the main steps to integrate Lattice with Slack:\n\n## 1. **Access Lattice Settings**\n   - Log in to your Lattice account\n   - Go to **Admin Settings** or **Integrations**\n   - Look for the Slack integration option\n\n## 2. **Authorize the Connection**\n   - Click on Slack to initiate the connection\n   - You'll be redirected to Slack's authorization page\n   - Select your Slack workspace\n   - Click **Allow** to grant Lattice permissions\n\n## 3. **Configure Your Preferences**\n   - Choose which notifications you want to receive in Slack\n   - Select specific channels for different types of alerts (e.g., feedback, check-ins, goals)\n   - Decide on notification frequency\n\n## 4. **Test the Integration**\n   - Send a test notification to verify it's working\n   - Confirm messages appear in your designated Slack channel\n\n## Common Use Cases\n- **Notifications** for upcoming check-ins or feedback requests\n- **Updates** on goal progress\n- **Reminders** for engagement activities\n\n## Need Help?\nIf you encounter issues:\n- Check that you have admin access in both Lattice and Slack\n- Verify the Slack bot has permission to post in your selected channels\n- Consult [Lattice's help documentation](https://support.lattice.com/) for specific guidance\n\nIs there a specific feature or notification type you're trying to set up?",
-  "cached_at": "2026-05-28T06:30:18Z",
-  "metadata": {}
-}

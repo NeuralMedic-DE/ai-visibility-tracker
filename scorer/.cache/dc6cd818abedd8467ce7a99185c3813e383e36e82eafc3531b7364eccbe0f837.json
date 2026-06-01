@@ -1,9 +1,0 @@
-{
-  "brand": "Vitally",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with scale CS operations without adding headcount by automating high-touch playbooks at scale?",
-  "response": "# Software for Scaling CS Operations Without Headcount\n\nSeveral categories of tools excel at automating high-touch playbooks:\n\n## **Dedicated CS Automation Platforms**\n- **Gainsight PX** - In-app guidance and automated engagement flows\n- **Totango** - Health scoring with automated nurture sequences\n- **ChartMogul/Planhat** - Workflow automation tied to customer segments\n- **Catalyst** - Playbook automation for onboarding and expansion\n\n## **General Workflow Automation**\n- **Zapier/Make** - Connect tools and trigger actions across your stack\n- **n8n** - Open-source alternative for complex sequences\n- **IFTTT** - Simpler conditional logic\n\n## **Communication-Focused**\n- **Outreach/Salesloft** - Built for multi-channel cadences (email, tasks, reminders)\n- **Slack workflows** - Native automation within your communication hub\n\n## **Key Automation Opportunities**\n1. **Onboarding flows** - Automated check-ins, resource delivery\n2. **Health monitoring** - Alerts when accounts breach thresholds\n3. **Renewal/expansion plays** - Triggered by usage/timeline signals\n4. **Segmented nurturing** - Personalized sequences by customer tier\n\n## **Critical Success Factor**\nThe real leverage comes from **playbook-first thinking**: map your highest-ROI manual processes, then automate them. Otherwise, you're just automating busywork.\n\nWhat's your main bottleneck right now—onboarding, expansion, or retention?",
-  "cached_at": "2026-05-28T08:09:35Z",
-  "metadata": {}
-}

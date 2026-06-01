@@ -1,9 +1,0 @@
-{
-  "brand": "Helicone",
-  "prompt_id": "IN-03",
-  "llm": "openai",
-  "prompt_text": "How do I connect Helicone with OpenAI?",
-  "response": "To connect Helicone with OpenAI, you'll need to follow these general steps:\n\n1. **Create an Account with Helicone**: \n   - If you haven't already, sign up for an account on the Helicone platform.\n\n2. **Obtain Your OpenAI API Key**:\n   - Log in to your OpenAI account and navigate to the API section.\n   - Generate an API key if you don't have one. Keep this key secure as it will be used to authenticate your requests.\n\n3. **Configure Helicone with OpenAI**:\n   - Log in to your Helicone account.\n   - Navigate to the settings or integrations section where you can add or configure API keys.\n   - Enter your OpenAI API key into the appropriate field in Helicone.\n\n4. **Set Up Your Application**:\n   - If Helicone provides specific SDKs or libraries, integrate these into your application.\n   - Ensure that your application is configured to send requests to OpenAI through Helicone. This might involve setting the Helicone endpoint as a proxy or using specific headers or configurations provided by Helicone.\n\n5. **Test the Integration**:\n   - Run a few test requests to ensure that everything is working as expected.\n   - Check the logs or dashboard in Helicone to verify that requests are being tracked and managed correctly.\n\n6. **Monitor and Optimize**:\n   - Use Helicone’s features to monitor the usage of the OpenAI API, optimize costs, and analyze performance.\n\nIf Helicone provides specific documentation or guides, it's a good idea to refer to those for any additional steps or configurations that might be unique to their platform.",
-  "cached_at": "2026-05-28T07:49:44Z",
-  "metadata": {}
-}

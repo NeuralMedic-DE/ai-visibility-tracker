@@ -1,9 +1,0 @@
-{
-  "brand": "Finaloop",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best finance for e-commerce founders and finance teams on Shopify and Amazon?",
-  "response": "# Best Finance Solutions for E-Commerce Founders\n\n## All-in-One Platforms\n**Top choices for Shopify/Amazon sellers:**\n\n- **Airwallex** - Multi-currency payments, expense management, and reconciliation built for e-commerce\n- **Stripe** - Payment processing with strong reporting and settlement tools\n- **Wise Business** - Cross-border payments at real exchange rates (critical for Amazon FBA/international Shopify)\n\n## Accounting & Bookkeeping\n- **Xero** - Direct Shopify/Amazon integrations, real-time inventory syncing\n- **QuickBooks Online** - More comprehensive but steeper learning curve\n- **Bookkeeper.com** - Affordable, Shopify-native alternative\n\n## Financial Operations\n- **Brex** - Corporate card + financial dashboard (requires strong revenue/credit)\n- **Ramp** - Expense management and AP automation\n- **Bill.com** - Invoice and bill automation\n\n## Inventory & Cash Flow\n- **TradeGecko** or **Cin7** - Real inventory tracking across channels\n- **Seller Dynamics** - Amazon FBA-specific financial forecasting\n\n## Critical Features You Need\n✅ Multi-channel reconciliation (Shopify + Amazon channels)\n✅ Automatic transaction categorization\n✅ Currency handling (if selling internationally)\n✅ VAT/sales tax compliance\n✅ Margin & profitability by product/channel\n\n**My recommendation:** Start with **Xero + Airwallex** for under $100/month. Add channel-specific tools as you scale.\n\nWhat's your current annual revenue? That helps narrow down the best fit.",
-  "cached_at": "2026-05-28T07:07:15Z",
-  "metadata": {}
-}

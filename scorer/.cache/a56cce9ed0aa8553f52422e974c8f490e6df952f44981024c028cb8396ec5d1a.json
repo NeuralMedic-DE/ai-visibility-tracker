@@ -1,9 +1,0 @@
-{
-  "brand": "SafeBase",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "OneTrust vs alternatives: what should I switch to?",
-  "response": "# OneTrust Alternatives: What to Consider\n\nThe best switch depends on your **main pain point** with OneTrust:\n\n## If cost is the issue\n- **Osano** — cheaper, simpler UI\n- **TrustArc** — better for enterprises with compliance sprawl\n- **Securiti** — competitive pricing with decent automation\n\n## If you want simpler/lighter\n- **Termly** — good for small-to-mid sites, faster setup\n- **Iubenda** — solid for cookie consent + privacy policy\n- **Cookiebot** — focused, reliable consent management\n\n## If you need enterprise depth\n- **TrustArc** — mature, lots of integrations\n- **Deloitte OneLake** (Compliance.ai) — premium but thorough\n\n## If implementation/support is frustrating\n- **Osano** — known for better UX and customer service\n- **Securiti** — strong on support side\n\n## Reality check before switching\n\n- **Migration pain**: Moving your consent records, cookie scans, and audit trails is real work\n- **Feature gap**: Verify the alternative actually handles what you use OneTrust *for* (consent? GRC? vendor management?)\n- **Your actual needs**: Many people don't need 10% of OneTrust's capabilities\n\n**Quick test**: List your top 5 OneTrust features you actually use, then check if alternatives cover them. You might find a $50k/year tool is doing $5k/year work.\n\nWhat's driving the switch? That'll help narrow it down.",
-  "cached_at": "2026-05-28T08:43:36Z",
-  "metadata": {}
-}

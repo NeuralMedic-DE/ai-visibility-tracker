@@ -1,9 +1,0 @@
-{
-  "brand": "Amplemarket",
-  "prompt_id": "IN-02",
-  "llm": "openai",
-  "prompt_text": "Amplemarket LinkedIn integration: how does it work?",
-  "response": "Amplemarket's LinkedIn integration is designed to enhance your sales outreach by leveraging LinkedIn's vast network. Here's how it typically works:\n\n1. **LinkedIn Profile Enrichment**: Amplemarket can enrich your contact data by pulling additional information from LinkedIn profiles. This helps in building a more comprehensive profile of your leads.\n\n2. **Prospecting**: You can use Amplemarket to find potential leads on LinkedIn. The integration allows you to search for prospects using various filters and criteria available on LinkedIn.\n\n3. **Automated Outreach**: Amplemarket can automate LinkedIn actions such as sending connection requests and messages. This helps in scaling your outreach efforts while maintaining a personal touch.\n\n4. **Engagement Tracking**: The integration allows you to track engagement metrics from LinkedIn interactions. You can see who has accepted your connection requests, responded to messages, and more.\n\n5. **CRM Synchronization**: Amplemarket can sync data from LinkedIn interactions with your CRM, ensuring that all your lead information is up-to-date and centralized.\n\n6. **Compliance and Safety**: Amplemarket ensures that all actions taken via LinkedIn are compliant with LinkedIn's terms of service, helping to prevent account restrictions.\n\nBy integrating with LinkedIn, Amplemarket streamlines the process of finding and engaging with potential leads, making it easier for sales teams to manage their outreach efforts efficiently.",
-  "cached_at": "2026-05-27T19:02:12Z",
-  "metadata": {}
-}

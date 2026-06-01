@@ -1,9 +1,0 @@
-{
-  "brand": "Totango",
-  "prompt_id": "UC-03",
-  "llm": "anthropic",
-  "prompt_text": "What tools do enterprise customer success and CX teams at large SaaS organizations companies use to build modular customer success programs using composable SuccessBLOC templates?",
-  "response": "# I'm Not Aware of \"SuccessBLOC Templates\"\n\nI should be direct: I don't have reliable information about a specific tool or framework called \"SuccessBLOC templates\" for customer success programs. This could be:\n\n1. **A proprietary/newer tool** I'm not trained on\n2. **Internal terminology** from a specific company\n3. **A niche platform** with limited public documentation\n4. **A potential product name** I should verify\n\n## What Enterprise CS Teams Actually Use\n\nFor **modular/composable CS program design**, leading companies typically use:\n\n**Dedicated CS Platforms:**\n- Gainsight, Totango, Planhat, Vitally\n- Chorus (revenue intelligence)\n- These focus on playbooks, templates, and program orchestration\n\n**Supporting Tools:**\n- Slack/Microsoft Teams (workflows)\n- Salesforce/HubSpot (data layer)\n- Looker/Tableau (analytics)\n- Notion/Confluence (program documentation)\n- Custom API integrations for composability\n\n## Better Approach\n\nCould you clarify:\n- Is \"SuccessBLOC\" a **specific vendor/product name**?\n- Are you looking for **general modular CS program architecture**?\n- Did this come from a **particular vendor's marketing**?\n\nThis would help me give you accurate recommendations for what actually exists in the market versus aspirational marketing language around \"composable\" CS platforms.",
-  "cached_at": "2026-05-28T08:14:39Z",
-  "metadata": {}
-}

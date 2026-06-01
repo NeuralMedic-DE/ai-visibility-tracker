@@ -1,9 +1,0 @@
-{
-  "brand": "Make",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Zapier vs alternatives: what should I switch to?",
-  "response": "# Zapier Alternatives Worth Considering\n\n**If cost is the main issue:**\n- **Make.com** – More flexible pricing, better for complex workflows\n- **Zapier's free tier** – Still generous if you're starting out\n\n**If you want more power:**\n- **n8n** – Open-source, self-hosted option; no limits on automations\n- **Integromat/Make** – Better visual builder for complex logic\n- **Parabole** – Strong for data workflows\n\n**If you prefer simplicity:**\n- **IFTTT** – Dead simple but less powerful\n- **Slack/Teams workflows** – Free if you're already paying for these\n\n**If budget is tight:**\n- **Automation.io** – Cheaper than Zapier\n- **Integrately** – Comparable features, lower price\n- **Self-hosted** – Zapier's open-source competitors (n8n, Activepieces)\n\n## Key trade-offs to consider:\n- **Learning curve** – Zapier is easiest; others require more setup\n- **Support** – Zapier's is better\n- **Integration library** – Zapier still has the most\n- **Pricing model** – Task-based (Zapier) vs. execution-based (Make)\n\n**Real talk:** Most people don't actually *need* to switch. The question is usually about cost or specific missing features.\n\nWhat's driving your consideration? That'd help narrow it down.",
-  "cached_at": "2026-05-28T08:53:42Z",
-  "metadata": {}
-}

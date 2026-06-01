@@ -1,9 +1,0 @@
-{
-  "brand": "Grip Security",
-  "prompt_id": "IN-05",
-  "llm": "openai",
-  "prompt_text": "security tools with native Okta integration",
-  "response": "There are several security tools that offer native integration with Okta, providing seamless identity and access management capabilities. Here are some notable ones:\n\n1. **Splunk**: Splunk integrates with Okta to provide advanced security analytics and monitoring. It can ingest Okta logs to help detect and respond to security incidents.\n\n2. **Palo Alto Networks**: Their security platforms, including Prisma Access and Cortex XSOAR, integrate with Okta to enhance identity-based security policies and automate incident response.\n\n3. **Cisco Duo**: Duo Security, a part of Cisco, offers multi-factor authentication (MFA) and integrates with Okta to provide an additional layer of security for user authentication.\n\n4. **Zscaler**: Zscaler integrates with Okta to provide secure access to applications and data, leveraging Okta's identity management capabilities for zero trust security.\n\n5. **AWS**: Amazon Web Services (AWS) integrates with Okta for identity federation and single sign-on (SSO), allowing organizations to manage AWS access using Okta's identity platform.\n\n6. **Microsoft Azure**: Azure Active Directory can be integrated with Okta for identity management and SSO, enabling seamless access to Azure resources.\n\n7. **ServiceNow**: ServiceNow integrates with Okta to streamline identity management and automate workflows related to user provisioning and deprovisioning.\n\n8. **Slack**: Slack integrates with Okta for SSO and user provisioning, allowing organizations to manage Slack access through Okta's identity platform.\n\nThese integrations help organizations enhance their security posture by leveraging Okta's robust identity and access management capabilities alongside other security tools.",
-  "cached_at": "2026-05-28T08:41:29Z",
-  "metadata": {}
-}

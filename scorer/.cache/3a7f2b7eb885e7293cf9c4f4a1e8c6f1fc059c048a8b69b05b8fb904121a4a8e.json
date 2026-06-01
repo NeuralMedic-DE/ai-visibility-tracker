@@ -1,9 +1,0 @@
-{
-  "brand": "Conveyor",
-  "prompt_id": "IN-02",
-  "llm": "perplexity",
-  "prompt_text": "Conveyor HubSpot integration: how does it work?",
-  "response": "A **Conveyor–HubSpot integration** is a prebuilt connector that lets HubSpot exchange data with other business systems automatically, usually by mapping fields and then syncing on a schedule or in near real time depending on the connector setup.[3][6]\n\nIn practice, it works like this:\n\n- You first connect HubSpot and any other system using each platform’s credentials.[3]\n- You map matching fields between HubSpot objects and the other system’s objects, such as contacts, companies, deals, or activities.[3]\n- The integration then imports and exports data between the systems without manual re-entry.[3]\n- Once configured, the sync runs automatically in the background, so updates flow between systems after the initial setup.[3]\n\nFor the Conveyor HubSpot integration specifically, Conveyor describes it as part of its integrations platform for connecting HubSpot with tools like Salesforce and other workflows.[6] The related HubSpot connector material also says the connector “acts as a bridge” between platforms and supports two-way synchronization of information such as contacts, companies, and deals.[3]\n\nIf you meant **Conveyor’s trust-center/access workflow** rather than general HubSpot data sync, I can explain that version too.",
-  "cached_at": "2026-05-28T08:47:58Z",
-  "metadata": {}
-}

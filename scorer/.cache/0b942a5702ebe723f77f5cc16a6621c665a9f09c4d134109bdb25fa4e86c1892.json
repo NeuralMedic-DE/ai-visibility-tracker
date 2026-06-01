@@ -1,9 +1,0 @@
-{
-  "brand": "Intercom",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best customer support that works with Salesforce and HubSpot",
-  "response": "# Top Customer Support Platforms for Salesforce & HubSpot\n\n## **Best Overall Options**\n\n### **1. Zendesk**\n- **Strengths**: Deep native integrations, scalable, excellent reporting\n- **Best for**: Mid to enterprise companies\n- **Salesforce**: Native connector, two-way sync\n- **HubSpot**: Built-in integration with ticket visibility in HubSpot\n\n### **2. Intercom**\n- **Strengths**: Modern UX, real-time customer insights, proactive messaging\n- **Best for**: Product-focused companies, SaaS\n- **Salesforce**: Native integration\n- **HubSpot**: Seamless sync with contacts and deal data\n\n### **3. Freshdesk**\n- **Strengths**: Affordable, feature-rich, easy setup\n- **Best for**: Growing startups and SMBs\n- **Salesforce**: Native app on AppExchange\n- **HubSpot**: Direct integration available\n\n## **Other Strong Contenders**\n\n| Platform | Salesforce | HubSpot | Best For |\n|----------|-----------|---------|----------|\n| **Gorgias** | ✓ | ✓ | Ecommerce |\n| **HubSpot Service Hub** | ✓ | Native | All-in-one CRM users |\n| **Drift** | ✓ | ✓ | Live chat + support |\n| **Front** | ✓ | ✓ | Team collaboration |\n\n## **Pro Tips**\n- Test free trials with your actual CRM data\n- Check API rate limits for your volume\n- Verify real-time sync vs. batch updates\n- Compare per-user vs. per-ticket pricing\n\n**What's your company size & main support channel?** (Chat, email, tickets) That'll narrow it down further.",
-  "cached_at": "2026-05-28T08:02:01Z",
-  "metadata": {}
-}

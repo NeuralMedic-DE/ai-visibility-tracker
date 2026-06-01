@@ -1,9 +1,0 @@
-{
-  "brand": "Personio",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to BambooHR",
-  "response": "# Cheaper Alternatives to BambooHR\n\n## Budget-Friendly Options\n\n**Guidepoint** ($39-99/user/month)\n- Strong employee data management\n- Good onboarding workflows\n- Mobile app included\n\n**Lattice** ($79-299/user/month)\n- Performance management focus\n- Goal tracking\n- Real-time feedback\n\n**Zenefits** ($8-16/employee/month)\n- HR + benefits administration\n- Payroll integration\n- Compliance management\n\n**Workable** ($99-599/month)\n- Recruitment-focused\n- Solid core HRIS\n- Scalable pricing\n\n**Freshteam** ($30-80/user/month)\n- Recruitment + onboarding\n- Talent management\n- Good value for SMBs\n\n## Very Budget/Free Options\n\n**Wave Payroll** (Free)\n- Basic payroll only\n- No full HRIS features\n- Good for freelancers/small teams\n\n**Paychex Flex** (Pricing varies)\n- Payroll + HR basics\n- Per-payroll-run costs\n- Good support\n\n**Deel** (Free + premium)\n- Global teams/contractors\n- Time tracking\n- Expense management\n\n## Selection Tips\n\n- **Employee count matters**: Some charge per user (expensive at scale)\n- **Feature focus**: Payroll-only vs. full HRIS varies significantly\n- **Integration needs**: Check if they connect with your tools\n- **Compliance requirements**: Varies by location\n\n**What matters most for your needs?** (size, location, specific features)",
-  "cached_at": "2026-05-28T06:34:50Z",
-  "metadata": {}
-}

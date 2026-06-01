@@ -16,6 +16,11 @@ export const metadata: Metadata = {
 
 // ── Display config maps ─────────────────────────────────────────────────────
 
+// All Stripe subscription statuses (+ our own "none" sentinel).
+// Stripe statuses: trialing | active | past_due | canceled | incomplete |
+//                  incomplete_expired | unpaid | paused
+// Keep this list in sync with the CHECK constraint in
+// supabase/migrations/0013_subscription_status_check.sql
 const STATUS_CONFIG: Record<string, { label: string; className: string }> = {
   trialing: { label: "Free trial", className: "bg-blue-100 text-blue-800" },
   active: { label: "Active", className: "bg-green-100 text-green-800" },
@@ -25,7 +30,12 @@ const STATUS_CONFIG: Record<string, { label: string; className: string }> = {
     label: "Incomplete",
     className: "bg-orange-100 text-orange-800",
   },
+  incomplete_expired: {
+    label: "Expired",
+    className: "bg-gray-100 text-gray-500",
+  },
   unpaid: { label: "Unpaid", className: "bg-red-100 text-red-800" },
+  paused: { label: "Paused", className: "bg-indigo-100 text-indigo-700" },
   none: { label: "No subscription", className: "bg-gray-100 text-gray-600" },
 };
 

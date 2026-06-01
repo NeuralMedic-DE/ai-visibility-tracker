@@ -1,9 +1,0 @@
-{
-  "brand": "SafeBase",
-  "prompt_id": "CM-01",
-  "llm": "anthropic",
-  "prompt_text": "SafeBase vs OneTrust: which is better?",
-  "response": "# SafeBase vs OneTrust\n\nThis depends on your specific needs, as they serve somewhat different purposes:\n\n## OneTrust\n**Strengths:**\n- More comprehensive GRC platform (governance, risk, compliance)\n- Stronger in privacy management and consent tools\n- Better for enterprises managing multiple regulations (GDPR, CCPA, etc.)\n- Established market leader with broader integrations\n\n**Best for:** Large organizations needing full compliance infrastructure\n\n## SafeBase\n**Strengths:**\n- Purpose-built for secure due diligence and data room management\n- Simpler, more focused feature set\n- Better for vendor risk assessment workflows\n- Easier onboarding for specific use cases\n\n**Best for:** Companies doing frequent M&A, vendor assessments, or security diligence\n\n## Key Differences\n- **Scope:** OneTrust is broader; SafeBase is more specialized\n- **Pricing:** SafeBase typically more affordable for focused needs\n- **Learning curve:** SafeBase easier for single-use purposes\n\n## Quick Decision Guide\n- Choose **OneTrust** if you need comprehensive compliance management across your org\n- Choose **SafeBase** if you primarily need due diligence/vendor security assessment tools\n\nWhat's your main use case? That would help narrow down the recommendation.",
-  "cached_at": "2026-05-28T08:43:22Z",
-  "metadata": {}
-}

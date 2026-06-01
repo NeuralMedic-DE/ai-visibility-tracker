@@ -1,9 +1,0 @@
-{
-  "brand": "Reply.io",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which sales engagement software should a Head of Sales or SDR Manager at a B2B company use?",
-  "response": "# Top Sales Engagement Platforms for B2B Teams\n\n## Best Overall Options\n\n**Outreach** or **Salesloft**\n- Most mature, feature-rich platforms\n- Strong for multi-channel cadences (email, calls, LinkedIn)\n- Better for larger teams with complex workflows\n- Higher price point\n\n**HubSpot Sales Hub**\n- Great if you're already in HubSpot ecosystem\n- Good balance of features and ease of use\n- More affordable, especially for smaller teams\n\n## Specialized Strengths\n\n**Apollo or Hunter**\n- Strong prospecting data built-in\n- Better for SDR teams focused on outbound\n- Lower cost, easier setup\n\n**Groove** or **Kixie**\n- If phone/call-heavy workflows are critical\n- Better dialer features\n\n**LinkedIn Sales Navigator** (+ native tools)\n- For highly LinkedIn-dependent outreach\n- Limited but improving native features\n\n## Key Selection Criteria\n\nAsk yourself:\n- **Team size & budget?** (Solo SDR vs. 50-person org)\n- **Call vs. email ratio?** (Drives choice significantly)\n- **CRM already in use?** (Integration matters)\n- **Prospecting needs?** (Do you need built-in data?)\n- **Reporting priority?** (Some excel at pipeline visibility)\n\n**My suggestion:** Most mid-market B2B teams do well with **Outreach** or **HubSpot** depending on budget. Smaller/leaner teams often prefer **Apollo** for speed and cost.\n\nWhat's your team size and primary outreach channel?",
-  "cached_at": "2026-05-28T07:21:01Z",
-  "metadata": {}
-}

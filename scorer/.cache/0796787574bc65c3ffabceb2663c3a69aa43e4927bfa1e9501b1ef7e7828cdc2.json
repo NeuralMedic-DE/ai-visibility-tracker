@@ -1,9 +1,0 @@
-{
-  "brand": "Linear",
-  "prompt_id": "CD-04",
-  "llm": "anthropic",
-  "prompt_text": "Best project management platforms for track engineering tasks and sprints efficiently",
-  "response": "# Best Project Management Platforms for Engineering Tasks\n\n## **Top Tier Options**\n\n### **Jira**\n- **Best for:** Software development and Agile teams\n- **Strengths:** Sprint planning, issue tracking, Agile-native, GitHub integration\n- **Drawback:** Steep learning curve, can be pricey at scale\n- **Ideal for:** Teams already in Atlassian ecosystem\n\n### **Linear**\n- **Best for:** Modern, fast-moving engineering teams\n- **Strengths:** Sleek UI, lightning-fast, excellent GitHub integration, keyboard shortcuts\n- **Drawback:** Less mature than Jira, smaller feature set\n- **Ideal for:** Startups and lean teams\n\n### **GitHub Projects**\n- **Best for:** Teams already using GitHub\n- **Strengths:** Free, native integration, simple kanban boards\n- **Drawback:** Limited advanced features\n- **Ideal for:** Small teams, open-source projects\n\n---\n\n## **Alternative Solutions**\n\n| Platform | Best For | Key Feature |\n|----------|----------|-------------|\n| **Asana** | Cross-functional teams | Timeline & portfolio views |\n| **Monday.com** | Visual, flexible workflows | Highly customizable |\n| **Azure DevOps** | Microsoft ecosystem | End-to-end CI/CD integration |\n| **Plane** | Open-source alternative | Self-hostable, Jira-like |\n| **Shortcut** | Agile-focused teams | Dev-friendly, modern UX |\n\n---\n\n## **Quick Selection Guide**\n\n- **Enterprise/Complex:** Jira\n- **Startup/Speed:** Linear\n- **Already on GitHub:** GitHub Projects\n- **Visual/Creative:** Monday.com, Asana\n- **Budget-conscious:** Plane, GitHub Projects\n- **Microsoft stack:** Azure DevOps\n\n**Pro tip:** Start with a free tier and test with your team—platform fit matters as much as features.",
-  "cached_at": "2026-05-27T21:07:02Z",
-  "metadata": {}
-}

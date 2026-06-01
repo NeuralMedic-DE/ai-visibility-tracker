@@ -1,9 +1,0 @@
-{
-  "brand": "Vanta",
-  "prompt_id": "CM-02",
-  "llm": "anthropic",
-  "prompt_text": "Vanta vs Sprinto pricing and features",
-  "response": "# Vanta vs Sprinto: Pricing & Features Comparison\n\n## **Pricing**\n\n| Aspect | Vanta | Sprinto |\n|--------|-------|---------|\n| **Model** | Usage-based + per-framework | Fixed pricing tiers |\n| **Starting Price** | ~$3,000-5,000/month | ~$2,000-4,000/month |\n| **Scaling** | Increases with compliance frameworks | Tiered packages |\n| **Free Trial** | 14 days | Available |\n\n## **Key Features**\n\n### **Vanta**\n✅ Automated evidence collection & continuous monitoring\n✅ SOC 2, ISO 27001, HIPAA, GDPR ready\n✅ AI-powered control recommendations\n✅ Real-time compliance status dashboard\n✅ Third-party integrations (50+)\n✅ Audit readiness reports\n✅ Strong in tech/SaaS companies\n\n### **Sprinto**\n✅ Regulatory compliance (SOC 2, ISO, GDPR, HIPAA)\n✅ Continuous monitoring & automated workflows\n✅ Built-in audit trails & documentation\n✅ Policy and procedure management\n✅ Risk assessment automation\n✅ Incident management tools\n✅ Better for startups & growth-stage companies\n\n## **Best For**\n\n| **Vanta** | **Sprinto** |\n|-----------|-----------|\n| Scale-ups & enterprises | Early-stage startups & SMBs |\n| Multiple compliance needs | Budget-conscious teams |\n| Tech-heavy integrations | Need local/regional support |\n| Fast audit preparation | Building compliance foundations |\n\n## **Deciding Factors**\n- **Budget constraints?** → Sprinto\n- **Complex integrations needed?** → Vanta\n- **Enterprise requirements?** → Vanta\n- **Just starting compliance?** → Sprinto\n\nWould you like details on specific features or integration capabilities?",
-  "cached_at": "2026-05-28T08:26:27Z",
-  "metadata": {}
-}

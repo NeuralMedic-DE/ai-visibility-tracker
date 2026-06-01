@@ -1,9 +1,0 @@
-{
-  "brand": "n8n",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does n8n integrate with GitHub?",
-  "response": "Yes, n8n integrates with GitHub. n8n provides a GitHub node that allows you to interact with the GitHub API. You can use this integration to automate tasks such as creating issues, managing repositories, handling pull requests, and more. This integration can be set up within n8n's workflow editor, allowing you to connect your GitHub account and configure the specific actions you want to automate.",
-  "cached_at": "2026-05-28T08:56:13Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "LlamaIndex",
-  "prompt_id": "IN-03",
-  "llm": "openai",
-  "prompt_text": "How do I connect LlamaIndex with OpenAI?",
-  "response": "To connect LlamaIndex (formerly known as GPT Index) with OpenAI, you'll need to follow these general steps:\n\n1. **Install Required Libraries**: Make sure you have the necessary Python packages installed. You will need `llama-index` and `openai`. You can install them using pip:\n\n   ```bash\n   pip install llama-index openai\n   ```\n\n2. **Set Up OpenAI API Key**: Obtain your OpenAI API key from the OpenAI website. Once you have it, set it up in your environment. You can do this by setting an environment variable or directly in your code.\n\n   ```python\n   import os\n   os.environ['OPENAI_API_KEY'] = 'your-openai-api-key'\n   ```\n\n3. **Initialize LlamaIndex with OpenAI**: Use the OpenAI API key to initialize LlamaIndex. Here is a basic example of how you might set this up:\n\n   ```python\n   from llama_index import GPTIndex\n\n   # Initialize the GPTIndex with OpenAI\n   index = GPTIndex(api_key=os.environ['OPENAI_API_KEY'])\n\n   # Use the index for your tasks\n   response = index.query(\"Your query here\")\n   print(response)\n   ```\n\n4. **Use LlamaIndex for Your Application**: Once initialized, you can use LlamaIndex to perform various tasks such as querying, generating text, or other functionalities provided by the library.\n\nMake sure to replace `'your-openai-api-key'` with your actual OpenAI API key. Also, consult the documentation for both LlamaIndex and OpenAI for more detailed usage and advanced configurations.",
-  "cached_at": "2026-05-28T07:42:26Z",
-  "metadata": {}
-}

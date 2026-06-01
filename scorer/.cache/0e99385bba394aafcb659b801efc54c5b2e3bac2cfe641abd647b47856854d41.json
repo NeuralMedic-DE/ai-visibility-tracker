@@ -1,9 +1,0 @@
-{
-  "brand": "Sentry",
-  "prompt_id": "UC-03",
-  "llm": "anthropic",
-  "prompt_text": "What tools do engineering teams at SaaS companies companies use to catch and fix production errors before users notice?",
-  "response": "# Production Error Detection Tools for SaaS\n\nEngineering teams typically layer multiple tools to catch issues fast:\n\n## **Error Tracking & Monitoring**\n- **Sentry, Rollbar, Honeybadger** - Catch uncaught exceptions, track error frequency/severity\n- **Datadog, New Relic, Prometheus** - Monitor application performance, resource usage, custom metrics\n- **LogRocket** - Frontend errors + session replay (useful for understanding user impact)\n\n## **Observability & Debugging**\n- **ELK Stack, Splunk, Grafana Loki** - Centralized logging to spot patterns before users report them\n- **Jaeger, Zipkin** - Distributed tracing for complex architectures (track requests across services)\n- **Custom dashboards** - Team-specific alerts on key metrics (API latency, database query times, queue depth)\n\n## **Synthetic & Real User Monitoring**\n- **Pingdom, Uptime Robot** - Basic uptime checks\n- **Checkly, Synthetic Monitoring** - Simulate user workflows from multiple locations\n- **Real User Monitoring (RUM)** - Capture actual user experience data\n\n## **Process & Culture**\n- **Feature flags** (LaunchDarkly, Unleash) - Deploy gradually, kill bad features instantly\n- **Staging environments** that mirror production closely\n- **Alert thresholds** tuned to catch issues before they affect many users\n- **On-call rotations** with clear escalation paths\n\n## **The Hidden Factor**\nHonestly, the biggest predictor is **culture**: teams that assume something will break, bake observability in early, and treat alerts seriously catch things faster than teams with fancier tools but poor discipline.\n\nWhat's your team's biggest blind spot right now?",
-  "cached_at": "2026-05-27T21:18:21Z",
-  "metadata": {}
-}

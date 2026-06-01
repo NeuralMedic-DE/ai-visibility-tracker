@@ -1,9 +1,0 @@
-{
-  "brand": "Personio",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best HR that works with Slack and Datev",
-  "response": "# Best HR Tools That Integrate with Slack & Datev\n\n## Top Recommendations\n\n### **1. Personio**\n- **Best overall** for German-speaking companies\n- Native Datev integration\n- Strong Slack connectivity\n- Features: payroll, recruiting, time tracking, performance management\n- Popular in DACH region\n\n### **2. BambooHR**\n- Excellent Slack integration\n- Datev compatibility (via API)\n- Strong employee database and reporting\n- Better for mid-size companies\n- Good English support\n\n### **3. Factorial**\n- Modern, user-friendly interface\n- Works with both Slack and Datev\n- Features: time tracking, leave management, payroll\n- Growing popularity in Europe\n\n### **4. HRweb**\n- German-focused solution\n- Good Datev integration\n- Slack support available\n- Strong in payroll/tax compliance\n\n## Integration Approach\n\nIf your preferred HR tool doesn't have native Datev integration, consider:\n- **Zapier/Make** (formerly Integromat) - connects most HR tools to both Slack and Datev\n- **Direct API connections** - many modern HR platforms support this\n- **Datev automation modules** - often allow third-party connections\n\n## Key Questions to Determine Best Fit\n- Company size?\n- Location/language needs?\n- Primary HR functions needed?\n- Budget range?\n- Existing Datev setup complexity?\n\n**What's your main priority** - payroll integration, employee management, or recruitment?",
-  "cached_at": "2026-05-28T06:35:06Z",
-  "metadata": {}
-}

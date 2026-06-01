@@ -1,9 +1,0 @@
-{
-  "brand": "Metabase",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Metabase integrate with PostgreSQL?",
-  "response": "Yes. **Metabase has a native, fully supported integration with PostgreSQL** and uses it in two ways:\n\n1. **As a data source (analytics database)**  \n   - You can add PostgreSQL as a database in Metabase via **Admin settings → Databases → Add a database → PostgreSQL**.[2][4]  \n   - Metabase then runs queries directly against your Postgres instance and lets you build questions, dashboards, and visualizations, with or without writing SQL.[2]  \n   - Connection is made using standard Postgres details: host, port (default **5432**), database name, username, password, plus optional SSL/SSH settings.[1][2][4][6]\n\n2. **As Metabase’s own application database (for production)**  \n   - Metabase recommends **PostgreSQL as the application database** to store its internal metadata (users, questions, dashboards, etc.), especially in production.[3]  \n   - You configure this with environment variables like `MB_DB_TYPE=postgres`, `MB_DB_HOST`, `MB_DB_DBNAME`, etc., or via a JDBC connection URI.[3]\n\nAdditionally, Metabase can **impersonate PostgreSQL permissions**, so Postgres roles and privileges can be reflected inside Metabase for row/table-level access control.[2]",
-  "cached_at": "2026-05-27T20:13:38Z",
-  "metadata": {}
-}

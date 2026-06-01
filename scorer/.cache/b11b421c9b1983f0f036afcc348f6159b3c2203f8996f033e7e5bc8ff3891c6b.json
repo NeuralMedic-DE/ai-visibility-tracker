@@ -1,9 +1,0 @@
-{
-  "brand": "Rho",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to Mercury",
-  "response": "# Cheaper Alternatives to Mercury\n\n## **For Industrial/Laboratory Use**\n\n- **Alcohol thermometers** - Lower cost, safer, works for most temperature ranges\n- **Bimetallic thermometers** - Durable, mechanical alternative\n- **Digital/electronic thermometers** - Increasingly affordable, no hazmat concerns\n- **Gallium alloys** - Similar properties, non-toxic (more expensive upfront but safer)\n\n## **For Barometers/Pressure Measurement**\n- **Aneroid barometers** - No liquid, mechanical design\n- **Electronic pressure sensors** - Modern, accurate, low-cost\n\n## **For Switches/Relays**\n- **Solid-state switches** - Electronic alternatives, very affordable now\n- **Reed switches** - Mechanical but no mercury needed\n\n## **For Mirror/Reflective Surfaces**\n- **Aluminum coating** - Standard for modern mirrors\n- **Silver coating** - Higher quality, similar cost or less\n\n## **For Dental Applications** (if phasing out amalgam)\n- **Composite resins** - Modern standard\n- **Glass ionomer cements** - Fluoride-releasing option\n\n## **Key Advantages of Alternatives**\n✓ Lower toxicity\n✓ Easier disposal\n✓ Increasingly affordable\n✓ Better for environment and worker safety\n\n**What's your specific use case?** The best alternative depends on whether you need mercury for measurements, industrial processes, or something else.",
-  "cached_at": "2026-05-28T07:12:28Z",
-  "metadata": {}
-}

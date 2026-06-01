@@ -1,9 +1,0 @@
-{
-  "brand": "Paddle",
-  "prompt_id": "IN-02",
-  "llm": "anthropic",
-  "prompt_text": "Paddle PayPal integration: how does it work?",
-  "response": "# Paddle PayPal Integration Overview\n\n## How It Works\n\nPaddle acts as a **payment processor that accepts PayPal** as one of many payment methods. Here's the flow:\n\n### 1. **Customer Checkout**\n- Customer selects your product/subscription on Paddle's checkout\n- PayPal appears as a payment option alongside cards, Apple Pay, etc.\n- Customer clicks \"Pay with PayPal\"\n\n### 2. **PayPal Authentication**\n- Customer is redirected to PayPal to log in and authorize the payment\n- They review the transaction details\n- After approval, they're redirected back to Paddle\n\n### 3. **Payment Processing**\n- Paddle processes the transaction\n- Funds go to your Paddle account (not directly to PayPal)\n- Paddle handles PayPal's backend requirements\n\n### 4. **Your System**\n- Webhook notifications sent to your app\n- Customer gains access to product/subscription\n- Receipts generated automatically\n\n## Key Points\n\n| Aspect | Details |\n|--------|---------|\n| **Account Needed** | PayPal business account (Paddle configures it) |\n| **Settlement** | Paddle handles PayPal payouts to your bank |\n| **Fees** | Included in Paddle's transaction fee (~2.5-5%) |\n| **Setup** | Minimal - enable in Paddle dashboard |\n\n## Benefits\n✅ Larger customer base (PayPal users)  \n✅ Higher conversion (familiar payment method)  \n✅ Fraud protection  \n✅ One dashboard for all payments  \n\n## Limitations\n❌ No direct PayPal control  \n❌ Fees rolled into Paddle's rates  \n❌ Settlement through Paddle only\n\n**Do you need help setting this up, or have specific questions about fees/features?**",
-  "cached_at": "2026-05-28T07:00:17Z",
-  "metadata": {}
-}

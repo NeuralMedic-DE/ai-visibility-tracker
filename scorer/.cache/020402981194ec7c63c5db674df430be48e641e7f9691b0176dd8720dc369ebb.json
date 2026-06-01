@@ -1,9 +1,0 @@
-{
-  "brand": "Vellum",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Vellum integrate with OpenAI?",
-  "response": "As of my last update, Vellum does not have a direct integration with OpenAI. Vellum is primarily a tool for formatting and publishing e-books, while OpenAI provides AI models and services. However, you can use OpenAI's models separately to assist with tasks like content creation or editing, and then use Vellum for the final formatting and publishing steps. Always check the latest updates from both Vellum and OpenAI for any new integrations or features.",
-  "cached_at": "2026-05-28T07:44:56Z",
-  "metadata": {}
-}

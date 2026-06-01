@@ -1,9 +1,0 @@
-{
-  "brand": "Pendo",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Pendo integrate with Salesforce?",
-  "response": "Yes, Pendo integrates with Salesforce. This integration allows you to leverage Salesforce data within Pendo to better understand user behavior and personalize user experiences. By connecting Pendo with Salesforce, you can sync account and user data, which helps in segmenting users, targeting in-app messaging, and analyzing product usage in the context of your Salesforce data.",
-  "cached_at": "2026-05-27T19:45:59Z",
-  "metadata": {}
-}

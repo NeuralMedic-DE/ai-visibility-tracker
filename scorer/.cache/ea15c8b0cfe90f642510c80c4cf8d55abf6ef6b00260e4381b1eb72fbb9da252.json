@@ -1,9 +1,0 @@
-{
-  "brand": "Personio",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Personio integrate with Slack?",
-  "response": "Yes, Personio does integrate with Slack. This integration allows you to streamline HR processes by enabling notifications and updates directly within Slack. For example, you can receive reminders about upcoming absences, approvals, or other HR-related tasks. To set up the integration, you typically need to configure it within the Personio platform and authorize it to connect with your Slack workspace. It's always a good idea to check the latest documentation or support resources from Personio for detailed instructions on setting up the integration.",
-  "cached_at": "2026-05-28T06:34:55Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Braintrust",
-  "prompt_id": "AL-05",
-  "llm": "perplexity",
-  "prompt_text": "Open source or affordable AI tooling tools instead of PromptFoo",
-  "response": "If you want **open-source or cheaper alternatives to Promptfoo**, the closest matches from the results are **Confident AI**, **PyRIT**, and **Garak** for evaluation/red-teaming, plus **LMScorer** and **Latitude** for prompt validation workflows.[3][4][6][7]\n\n| Tool | Best for | Notes |\n|---|---|---|\n| **Confident AI** | LLM evaluation/testing | Described as an open-source evaluation framework for unit-testing LLMs like Python code.[3] |\n| **PyRIT** | Red teaming / risk identification | Listed as an open-source AI red-teaming and fuzzing tool alongside Promptfoo.[4] |\n| **Garak** | Vulnerability scanning / safety testing | Also listed as an open-source red-teaming and fuzzing tool.[4] |\n| **LMScorer** | Lightweight scoring / prompt checks | An open-source tool with a simple CLI/programming interface for scoring sentences with ML language models.[6] |\n| **Latitude** | Real-time prompt validation | An open-source prompt-validation tool focused on reliability in LLM workflows.[7] |\n| **Promptfoo** | Baseline comparison | Open-source evals, red teaming, testing prompts/agents/RAGs, and CI integration.[2] |\n\nA practical way to choose is:\n- Use **Confident AI** if you want a more test-framework-like evaluation setup.[3]\n- Use **PyRIT** or **Garak** if your main need is **security, safety, or red-teaming**.[4]\n- Use **LMScorer** or **Latitude** if you want **prompt validation/scoring** rather than full eval orchestration.[6][7]\n\nIf you want, I can also give you a **budget-first shortlist** split into:\n- **fully open source**\n- **open-core / free tier**\n- **best for CI**\n- **best for red-teaming**",
-  "cached_at": "2026-05-28T07:48:19Z",
-  "metadata": {}
-}

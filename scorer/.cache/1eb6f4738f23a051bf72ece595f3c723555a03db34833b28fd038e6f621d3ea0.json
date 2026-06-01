@@ -1,9 +1,0 @@
-{
-  "brand": "Charlie HR",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Charlie HR integrate with Slack?",
-  "response": "# Charlie HR and Slack Integration\n\nI don't have current information about whether Charlie HR has a direct, native integration with Slack. However, here's how to find out:\n\n1. **Check Charlie HR's app marketplace** - Look at their official integrations page or app store\n2. **Contact Charlie HR support** - They can confirm current integration capabilities\n3. **Check Slack's App Directory** - Search for Charlie HR to see if an official app exists\n4. **Look into workflow tools** - Even without direct integration, you might connect them through:\n   - Zapier\n   - Make (formerly Integromat)\n   - Other automation platforms\n\nMany HR systems now integrate with Slack for notifications, approvals, and announcements, so it's worth asking Charlie HR directly about their current offerings.\n\nWould you like help with alternative ways to connect these tools, or do you have other questions about Charlie HR?",
-  "cached_at": "2026-05-28T06:43:57Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Rho",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is Rho better than Mercury for gain real-time visibility into budget versus actuals across the entire company?",
-  "response": "# Rho vs Mercury for Budget Visibility\n\nI don't have reliable information about a product called \"Rho\" in the financial management space, so I can't make a direct comparison.\n\nHowever, I can share that **Mercury** (the business banking platform) is primarily designed for:\n- Payment processing and cash management\n- Banking operations and account management\n- Transaction visibility\n\nMercury isn't typically positioned as a comprehensive budgeting or variance analysis tool for \"budget vs actuals\" tracking across an entire company.\n\n## For Real-Time Budget Visibility, You Might Consider:\n\n- **Dedicated FP&A platforms**: Anaplan, Workiva, Planful\n- **Accounting software**: Netsuite, Sage Intacct, Certent\n- **Spreadsheet solutions**: Modified Excel/Sheets with integrations\n- **Newer fintech**: Ramp, Brex (offer some expense visibility)\n\n## To Help You Better:\n\nCould you clarify:\n1. What is \"Rho\"? (Is it a specific product, or possibly a different name?)\n2. What's your company size and complexity?\n3. Are you looking for expense tracking, full P&L budgeting, or cash flow forecasting?\n\nThis would help me give you a more targeted recommendation.",
-  "cached_at": "2026-05-28T07:12:22Z",
-  "metadata": {}
-}

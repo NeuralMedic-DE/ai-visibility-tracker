@@ -1,9 +1,0 @@
-{
-  "brand": "LeadIQ",
-  "prompt_id": "IN-02",
-  "llm": "anthropic",
-  "prompt_text": "LeadIQ LinkedIn integration: how does it work?",
-  "response": "# LeadIQ LinkedIn Integration: How It Works\n\n## Core Functionality\n\n**LeadIQ** is a LinkedIn-native sales prospecting tool that operates as a browser extension, allowing you to:\n\n### 1. **Direct LinkedIn Extraction**\n- Capture prospect information directly from LinkedIn profiles and search results\n- Extract names, titles, companies, and email addresses\n- One-click data collection without leaving LinkedIn\n\n### 2. **Email Finding & Verification**\n- Identifies professional email addresses for LinkedIn profiles\n- Uses proprietary databases and verification technology\n- Provides confidence scores for email accuracy\n\n### 3. **Real-Time Lead Capture**\n- Save prospects to your CRM directly from LinkedIn\n- Create instant lead lists from LinkedIn searches\n- Add notes and tags during discovery\n\n## Key Features\n\n| Feature | Purpose |\n|---------|---------|\n| **Browser Extension** | Integrates seamlessly into LinkedIn interface |\n| **Bulk Operations** | Export multiple prospects at once |\n| **CRM Sync** | Direct integration with Salesforce, HubSpot, etc. |\n| **Company Data** | Pull firmographic information alongside contacts |\n\n## Workflow Example\n\n1. Find prospect on LinkedIn\n2. Click LeadIQ extension icon\n3. System verifies email address\n4. Auto-populate CRM or lead list\n5. Begin outreach\n\n## Important Limitations\n\n- ⚠️ LinkedIn's Terms of Service restrict automated data scraping\n- Results depend on data availability in LeadIQ's database\n- Email accuracy varies (typically 85-95%)\n- Requires paid subscription for regular use\n\n**Is this for your sales team's outreach, or are you evaluating tools?**",
-  "cached_at": "2026-05-27T18:44:36Z",
-  "metadata": {}
-}

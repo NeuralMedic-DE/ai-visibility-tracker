@@ -1,9 +1,0 @@
-{
-  "brand": "FullStory",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with identify rage clicks and broken flows in the product at scale?",
-  "response": "To identify rage clicks and broken flows in a product at scale, you can use several user analytics and session replay tools. Some popular options include:\n\n1. **FullStory**: This tool provides session replay, heatmaps, and analytics to help identify user frustrations like rage clicks and broken flows.\n\n2. **Hotjar**: Known for its heatmaps and session recordings, Hotjar can help you see where users are clicking and identify any issues in the user experience.\n\n3. **Crazy Egg**: Offers heatmaps, scrollmaps, and session recordings to help understand user interactions and identify potential issues.\n\n4. **Mixpanel**: While primarily an analytics tool, Mixpanel can track user events and help identify where users drop off in a flow.\n\n5. **Heap**: Automatically captures user interactions and provides insights into user behavior, which can help identify problematic areas in your product.\n\n6. **Mouseflow**: Provides session replay, heatmaps, and funnels to help identify rage clicks and broken flows.\n\nThese tools can help you understand user behavior, identify pain points, and improve the overall user experience by addressing issues like rage clicks and broken flows.",
-  "cached_at": "2026-05-27T20:44:50Z",
-  "metadata": {}
-}

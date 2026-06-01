@@ -1,9 +1,0 @@
-{
-  "brand": "Langfuse",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Langfuse integrate with LangChain?",
-  "response": "# Langfuse and LangChain Integration\n\nYes, **Langfuse integrates with LangChain** through an official integration package.\n\n## How to Use\n\n1. **Install the integration package:**\n   ```bash\n   pip install langfuse langchain\n   ```\n\n2. **Add to your LangChain code:**\n   ```python\n   from langfuse.callback import CallbackHandler\n   \n   langfuse_handler = CallbackHandler()\n   \n   chain.invoke(input, config={\"callbacks\": [langfuse_handler]})\n   ```\n\n3. **Set API credentials** (via environment variables):\n   ```bash\n   LANGFUSE_PUBLIC_KEY=your_public_key\n   LANGFUSE_SECRET_KEY=your_secret_key\n   LANGFUSE_HOST=https://cloud.langfuse.com  # optional\n   ```\n\n## What Gets Tracked\n\nThe integration automatically captures:\n- LLM calls (prompts, completions, tokens, latency)\n- Chain execution traces\n- Tool/agent actions\n- Errors and exceptions\n- Custom metadata and tags\n\n## Key Features\n\n- **No code changes needed** - works as a callback handler\n- **Detailed traces** - visualize full execution flow in Langfuse dashboard\n- **Cost tracking** - automatic token counting\n- **Debugging** - identify issues and performance bottlenecks\n\nFor detailed documentation, check the [official Langfuse LangChain integration guide](https://langfuse.com/docs/integrations/langchain).",
-  "cached_at": "2026-05-28T07:56:38Z",
-  "metadata": {}
-}

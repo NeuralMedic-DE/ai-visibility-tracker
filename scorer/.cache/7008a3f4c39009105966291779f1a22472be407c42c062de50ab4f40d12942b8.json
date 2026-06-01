@@ -1,9 +1,0 @@
-{
-  "brand": "Customer.io",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable marketing automation tools instead of Klaviyo",
-  "response": "# Budget-Friendly Marketing Automation Alternatives\n\n## **Free/Open Source Options**\n\n### **Mautic** (Open Source)\n- Self-hosted or cloud\n- Email automation, landing pages, lead scoring\n- Full API access\n- Best for: Technical teams with dev resources\n\n### **Listmonk** (Open Source)\n- Simple, lightweight email automation\n- Great deliverability\n- Self-hosted only\n- Best for: Email-focused campaigns\n\n### **Brevo** (Free tier + affordable)\n- 300 emails/day free tier\n- Basic automation workflows\n- SMS + email bundled\n- Best for: Small businesses with simple needs\n\n## **Affordable Tier Options**\n\n### **MailerLite** ($0-$40/month)\n- Generous free tier (up to 1,000 subscribers)\n- Drag-and-drop automation\n- Good ecommerce features\n- No setup fees\n\n### **ActiveCampaign** (~$15-$150/month)\n- Strong automation workflows\n- CRM included\n- Ecommerce integration\n- More expensive but powerful\n\n### **Klaviyo Alternatives Specifically:**\n\n| Tool | Email Cost | Automation | Ecommerce |\n|------|-----------|-----------|----------|\n| **MailerLite** | $0-30 | Good | Good |\n| **Brevo** | $0-25 | Basic-Moderate | Decent |\n| **Omnisend** | $0-60 | Very Good | Excellent |\n| **ConvertKit** | $25+ | Good | Limited |\n\n## **Hybrid Approach** (Often Cheapest)\n- **Lemlist** or **Instantly** (cold email)\n- **Zapier** (workflow automation)\n- **ConvertKit** or **Substack** (newsletters)\n- **Shopify's native tools** (if on Shopify)\n\n**What's your main use case?** (ecommerce, SaaS, content, B2B?) I can narrow recommendations further.",
-  "cached_at": "2026-05-28T07:14:56Z",
-  "metadata": {}
-}

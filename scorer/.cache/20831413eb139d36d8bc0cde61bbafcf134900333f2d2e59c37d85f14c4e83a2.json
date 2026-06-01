@@ -1,9 +1,0 @@
-{
-  "brand": "Semgrep",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Semgrep integrate with GitHub?",
-  "response": "Yes, Semgrep integrates with GitHub. It can be used to scan code in GitHub repositories for security vulnerabilities, code quality issues, and enforce coding standards. You can set up Semgrep as part of your continuous integration (CI) pipeline using GitHub Actions, allowing it to automatically analyze code changes when pull requests are made. This integration helps in maintaining code quality and security by providing feedback directly within the GitHub interface.",
-  "cached_at": "2026-05-28T08:48:52Z",
-  "metadata": {}
-}

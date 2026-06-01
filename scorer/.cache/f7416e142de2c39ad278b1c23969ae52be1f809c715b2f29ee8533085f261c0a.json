@@ -1,9 +1,0 @@
-{
-  "brand": "Close",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best CRM for early-stage startups?",
-  "response": "# Best CRMs for Early-Stage Startups\n\n**Top picks depend on your priorities:**\n\n## Most Beginner-Friendly\n**HubSpot Free** - Generous free tier, intuitive interface, good onboarding. Great if you want to grow into their paid tiers later.\n\n## Most Affordable\n**Pipedrive** - Low cost, sales-focused, visual pipeline management. Best if your main need is tracking deals.\n\n## Most Flexible\n**Notion** - Ultra-customizable, costs ~$10/month. Requires more setup but gives you total control.\n\n## Best All-Around\n**Freshsales** - Affordable, clean interface, decent features for the price.\n\n## Key Questions to Ask Yourself\n- **What's your main use case?** (sales, customer support, marketing?)\n- **Team size now vs. in 6 months?**\n- **Budget constraints?**\n- **Integration needs?** (email, calendar, accounting software?)\n\n## General Advice\n- Start simple—you don't need all the features yet\n- Avoid expensive enterprise platforms too early\n- Pick something you can implement yourself without paying for setup\n- Make sure it integrates with tools you already use\n\nMost startups outgrow their initial CRM as they scale, so prioritize ease of use and getting data in quickly over perfect features.\n\nWhat type of business are you running? That might help narrow it down.",
-  "cached_at": "2026-05-27T17:49:42Z",
-  "metadata": {}
-}

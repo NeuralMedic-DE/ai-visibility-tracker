@@ -1,9 +1,0 @@
-{
-  "brand": "Langfuse",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best AI tooling for engineering teams building and debugging production LLM applications?",
-  "response": "# Top AI Tooling for Production LLM Engineering\n\n## Observability & Debugging\n**Best-in-class:**\n- **Langsmith** (LangChain ecosystem) - Excellent for tracing LLM chains, debugging prompts, and evaluating outputs\n- **Arize** - Strong ML observability with LLM-specific features\n- **Humanloop** - Focused on prompt management, evaluation, and versioning\n- **Braintrust** - Good for experimentation and evals with a developer-friendly approach\n\n## Evaluation & Testing\n- **Ragas** - Open source, specialized in RAG evaluation metrics\n- **DeepEval** - Framework for systematic LLM testing\n- **Weights & Biases** - General ML tool with solid LLM experiment tracking\n\n## Vector/Semantic Search\n- **Pinecone** or **Weaviate** - Managed vector DBs (easier ops)\n- **Postgres + pgvector** - Self-hosted, good if you control infrastructure\n\n## Prompt Management\n- **Promptfoo** - CLI-based, great for comparing prompt versions\n- **Anthropic Workbench** / **OpenAI Playground** - Quick iteration (less for prod CI/CD)\n\n## Orchestration/Frameworks\n- **LangChain** - Mature, broad integrations\n- **LlamaIndex** - Better if heavy on RAG/indexing\n- **Modal** or **Replicate** - For inference scaling\n\n## The Realistic Stack\nFor most teams, a practical combination:\n1. **Langsmith** for observability + prompt debugging\n2. **Ragas/DeepEval** for automated evaluation\n3. **Your vector DB** of choice\n4. **Standard monitoring** (Datadog/New Relic) + custom logging for production metrics\n\n**Key gaps today:** No perfect all-in-one. Production teams typically cobble together 3-4 tools.\n\nWhat's your primary pain point—prompt optimization, cost control, or reliability?",
-  "cached_at": "2026-05-28T07:56:05Z",
-  "metadata": {}
-}

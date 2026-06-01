@@ -1,9 +1,0 @@
-{
-  "brand": "Zapier",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Zapier with Google Sheets?",
-  "response": "# Connecting Zapier with Google Sheets\n\n## Basic Setup\n\n1. **Log in to Zapier** and click \"Create Zap\"\n2. **Choose your trigger app** (the service that starts your automation)\n3. **Search for Google Sheets** when selecting your action app\n4. **Authorize Google Sheets**:\n   - Click \"Sign in with Google\"\n   - Allow Zapier to access your Google account\n   - Grant permission to read/write spreadsheets\n\n## Common Actions with Google Sheets\n\nOnce connected, you can:\n- **Create spreadsheet rows** from form submissions, emails, etc.\n- **Update existing rows** based on conditions\n- **Find rows** and extract data\n- **Create new spreadsheets** automatically\n\n## Example Workflow\n\n1. Trigger: New form submission (Google Forms, Typeform, etc.)\n2. Action: Zapier adds data to a Google Sheet row\n3. Additional actions: Send notifications, emails, etc.\n\n## Tips\n\n- Make sure the Google Sheet is **shared with or owned by the Google account** you authorize\n- Column headers must exist before mapping data\n- Test your Zap before turning it on\n- Check Zapier's **task history** if data isn't appearing\n\nNeed help with a specific trigger or action? Let me know what you're trying to automate!",
-  "cached_at": "2026-05-28T08:51:27Z",
-  "metadata": {}
-}

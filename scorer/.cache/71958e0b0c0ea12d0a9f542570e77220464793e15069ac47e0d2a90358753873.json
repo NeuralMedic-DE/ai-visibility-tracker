@@ -1,9 +1,0 @@
-{
-  "brand": "Salesflare",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable CRM tools instead of HubSpot",
-  "response": "# CRM Alternatives to HubSpot\n\n## **Open Source (Free)**\n\n| Tool | Best For | Key Features |\n|------|----------|--------------|\n| **Odoo** | Growing businesses | Modular, ERP + CRM, highly customizable |\n| **SuiteCRM** | Enterprise users | Fork of SugarCRM, feature-rich |\n| **EspoCRM** | Developers | Clean UI, REST API, flexible |\n| **Crater** | Invoicing-heavy | Built on Laravel, modern stack |\n| **Opencrx** | Complex workflows | Java-based, enterprise-grade |\n\n## **Freemium/Low-Cost SaaS**\n\n| Tool | Starting Price | Best For |\n|------|-----------------|----------|\n| **Zoho CRM** | Free tier available | Affordable all-in-one, good features |\n| **Pipedrive** | $14-99/month | Sales pipeline focus, visual |\n| **HubSpot (Free)** | Free tier | Limited but solid basics |\n| **Agile CRM** | Free-$79/month | Small teams, automation |\n| **Freshsales** | Free-$79/month | Support teams, lead scoring |\n| **Capsule** | Free-$25/month | Simplicity, lightweight |\n\n## **Budget-Friendly for Specific Needs**\n\n- **Streak** (~$15/month) – Gmail-native CRM\n- **Copper** (free-$119/month) – Google Workspace integration\n- **Insightly** ($29-$99/month) – Project + CRM blend\n- **Nimble** ($19-$99/month) – Social CRM focus\n\n## **My Recommendation**\n\n**Start with:** Zoho CRM (free tier) or Pipedrive (if sales-focused)  \n**Self-hosted:** Odoo (if you can manage infrastructure)\n\nWhat's your primary use case? That would help narrow it down further.",
-  "cached_at": "2026-05-27T18:14:17Z",
-  "metadata": {}
-}

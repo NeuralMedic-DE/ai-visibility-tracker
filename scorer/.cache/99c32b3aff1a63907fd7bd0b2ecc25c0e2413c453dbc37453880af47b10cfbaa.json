@@ -1,9 +1,0 @@
-{
-  "brand": "Paddle",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which billing software should a SaaS Founder or Head of Finance at a global software company use?",
-  "response": "# Best Billing Software for Global SaaS Companies\n\n## Top Tier (Most Popular for SaaS)\n\n**Stripe Billing** or **Zuora**\n- **Stripe**: Best if you're already using Stripe for payments. Excellent for startups/growth stage, strong developer experience\n- **Zuora**: Enterprise-grade, handles complex global scenarios better, but pricier\n\n**ChartMoose** or **Recurly**\n- Strong SaaS-specific features, good for mid-market growth\n\n## By Company Stage\n\n**Early-stage (under $5M ARR)**\n- Stripe Billing + spreadsheet/basic accounting\n- Maybe add Baremetrics for analytics\n\n**Growth-stage ($5M-$50M ARR)**\n- Stripe Billing or Zuora\n- Add: dedicated financial reporting tool (Adaptive Insights, Planful)\n\n**Enterprise ($50M+ ARR)**\n- Zuora (or Salesforce Billing)\n- Usually paired with: NetSuite, SAP, or similar ERP\n\n## Critical for Global Companies\n\nEnsure it handles:\n- Multi-currency/multi-language billing\n- Tax compliance (VAT/GST automation)\n- Revenue recognition (ASC 606 / IFRS 15)\n- Local payment methods\n- Currency conversion & forex handling\n\n## My recommendation\n**For most heads of finance:** Start with Stripe Billing if <$20M ARR and not overly complex. **Switch to Zuora** if you have complex contracts, need deep analytics, or are enterprise-scale.\n\nWhat's your company size/ARR? That would help narrow it down further.",
-  "cached_at": "2026-05-28T06:59:42Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Ashby",
-  "prompt_id": "AL-03",
-  "llm": "anthropic",
-  "prompt_text": "Best ATS alternatives for talent teams at high-growth startups and scaleups teams on a budget",
-  "response": "# Budget-Friendly ATS Alternatives for High-Growth Startups\n\n## Strong All-Around Options\n\n**Lever**\n- Mid-market sweet spot; collaborative hiring features\n- Cleaner UX than legacy systems\n- ~$1-3k/month depending on volume\n\n**Greenhouse**\n- Industry standard for structured hiring\n- Expensive but has startup discounts\n- Worth it if you hire 50+ people/year\n\n**JazzHR**\n- Purpose-built for SMBs\n- Simple, affordable (~$50-300/month)\n- Limited customization but reliable\n\n## Budget Picks (<$1k/month)\n\n**Rippling** (if you use them for payroll)\n- Bundled discount makes it competitive\n- Decent automation and workflows\n\n**Ashby**\n- Modern, Y Combinator-backed\n- ~$500-2k/month; good for 10-100 person companies\n- Strong analytics and reporting\n\n**Workable**\n- Freemium tier available\n- Scales affordably with growth\n- Good mobile experience\n\n## Lean/No-Code Routes\n\n**Airtable + Zapier**\n- Complete flexibility for <$50/month\n- High setup effort initially\n- Works well at 5-30 person scale\n\n**Notion + integrations**\n- Free or low-cost, increasingly viable\n- Better for tracking than true recruiting workflows\n\n## Reality Check\n\n- **True bootstrapping**: Airtable + email works surprisingly well under 20 hires/year\n- **$20-50k ARR startups**: JazzHR or budget Workable tiers\n- **$1M+ ARR**: Lever or Ashby usually justify themselves\n\n**Best move**: Start cheap, budget to upgrade once you're hiring 20+ people/year. Early inefficiency costs less than overbuilding.\n\nWhat's your current hiring volume?",
-  "cached_at": "2026-05-28T06:39:26Z",
-  "metadata": {}
-}

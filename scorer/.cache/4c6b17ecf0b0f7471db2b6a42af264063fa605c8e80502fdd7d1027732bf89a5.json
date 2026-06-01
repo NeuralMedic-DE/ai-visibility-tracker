@@ -1,9 +1,0 @@
-{
-  "brand": "June.so",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does June.so integrate with Segment?",
-  "response": "Yes. **June.so has a native integration with Segment**: you can connect Segment as a data source in June, and Segment also lists **June as an official destination**.\n\nKey points:\n\n- June’s docs describe how to **connect Segment to June** either from June or from the Segment side, using an API token and the June destination in the Segment catalog.[1][2]  \n- Twilio Segment’s official documentation includes **“June” as a Destination** that accepts Page, Group, Identify, and Track calls, maintained by June.[2]  \n- June’s own site and product pages explicitly say you can “just connect Segment” as one of the main ways to set up June and start sending product data.[3][5][6]  \n\nSo if you are using Segment, you can send your events directly into June by configuring the June destination in Segment or by connecting Segment from within June.",
-  "cached_at": "2026-05-27T20:03:33Z",
-  "metadata": {}
-}

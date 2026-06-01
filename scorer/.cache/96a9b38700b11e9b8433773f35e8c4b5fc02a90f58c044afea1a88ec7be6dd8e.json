@@ -1,9 +1,0 @@
-{
-  "brand": "Gainsight",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to Totango",
-  "response": "# Cheaper Alternatives to Totango\n\n## Direct Competitors (Lower Cost)\n\n| Tool | Best For | Pricing |\n|------|----------|---------|\n| **Gainsight** | Mid-market CSM | Mid-range ($3-5K+/mo) |\n| **Planhat** | Smaller teams | Starting ~$800/mo |\n| **Vitally** | Smaller/mid-market | Custom (generally lower) |\n| **ChartMogul** | Revenue analytics focus | $99-299/mo |\n| **Arrows** | Lightweight CSM | ~$400-800/mo |\n\n## Budget Options\n\n### **Free/Low-Cost Entry**\n- **Freshworks** (Freshsuccess) - Starting at lower tiers\n- **HubSpot Service Hub** - Free + paid options\n- **Intercom** - Strong free plan for basics\n- **Pendo** - Analytics-first approach\n\n### **Niche/Specific Use Cases**\n- **Custometrics** - Revenue retention focus\n- **Strikedeck** - Sales/customer intelligence\n- **Catalyst** - CSM automation on budget\n\n## Build vs. Buy Options\n- Combine **Mixpanel/Amplitude** + **Slack** + simple CRM\n- Use **Zapier** for automation instead of expensive native integrations\n\n## Key Questions to Save Money\n- Do you need full CSM platform or just health scoring?\n- Can you start with simpler analytics tools?\n- How many users actually need access?\n\n**What's your primary use case?** That would help narrow down the best budget-friendly fit.",
-  "cached_at": "2026-05-28T08:04:15Z",
-  "metadata": {}
-}

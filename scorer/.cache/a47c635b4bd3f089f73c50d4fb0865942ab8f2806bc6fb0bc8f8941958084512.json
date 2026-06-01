@@ -1,9 +1,0 @@
-{
-  "brand": "ChurnZero",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does ChurnZero integrate with Salesforce?",
-  "response": "Yes. **ChurnZero has a native, bi‑directional integration with Salesforce CRM and Salesforce Service Cloud.**[1][2][7]\n\nKey details:\n\n- **Native Salesforce CRM integration:** ChurnZero lists **Salesforce** under its supported **CRM** integrations, with read/write access for Accounts, Contacts, Custom Fields, Tasks/Activities, and more, syncing about every 15 minutes.[1][7]  \n- **Bi‑directional sync:** ChurnZero states its CRM integrations (including Salesforce) are **bi‑directional**, so customer data can flow both from Salesforce to ChurnZero and from ChurnZero back into Salesforce.[2]  \n- **Service Cloud support:** ChurnZero also integrates with **Salesforce Service Cloud** for ticket data, syncing roughly every 15 minutes.[1][7]  \n- **Requirements:** Your Salesforce instance must support the **Web Services API** to use the integration.[1]  \n\nSo if you are using Salesforce (Sales Cloud and/or Service Cloud) with API access enabled, you can integrate it directly with ChurnZero.",
-  "cached_at": "2026-05-28T08:08:43Z",
-  "metadata": {}
-}

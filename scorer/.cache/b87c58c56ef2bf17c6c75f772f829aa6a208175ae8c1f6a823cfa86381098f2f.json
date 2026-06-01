@@ -1,9 +1,0 @@
-{
-  "brand": "Doppler",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is Doppler better than AWS Secrets Manager for auto-rotate secrets and manage access permissions without manual effort?",
-  "response": "# Doppler vs AWS Secrets Manager: Auto-Rotation & Access Management\n\nBoth have strengths, but the answer depends on your specific needs:\n\n## Auto-Rotation\n\n**AWS Secrets Manager**\n- ✅ Built-in rotation via Lambda functions\n- ✅ Native support for RDS, DocumentDB, Redshift\n- ✅ Automatic credential updates without application restart\n- ❌ Requires custom Lambda for non-native services\n\n**Doppler**\n- ✅ Simpler rotation workflows\n- ✅ Good for application secrets (API keys, tokens)\n- ❌ Less mature automation for database credentials\n- ❌ Still requires some manual integration work\n\n**Winner: AWS Secrets Manager** for database/infrastructure secrets; **Doppler** for application secrets simplicity\n\n## Access Permissions\n\n**AWS Secrets Manager**\n- ✅ Fine-grained IAM policy control\n- ✅ Resource-level permissions\n- ✅ Audit trail via CloudTrail\n- ❌ IAM complexity can be steep\n\n**Doppler**\n- ✅ Simpler, more intuitive role-based access\n- ✅ Environment-based permissions (dev/staging/prod)\n- ✅ Better for non-AWS teams\n- ❌ Less granular than IAM\n\n**Winner: Doppler** for ease; **AWS Secrets Manager** for enterprise control\n\n## Bottom Line\n\n- **Choose AWS** if you need sophisticated DB rotation + enterprise IAM\n- **Choose Doppler** if you want simplicity, manage app secrets, and non-AWS infrastructure\n- **Consider hybrid**: Many teams use both (AWS for infrastructure, Doppler for apps)\n\nWhat's your primary use case?",
-  "cached_at": "2026-05-28T06:20:18Z",
-  "metadata": {}
-}

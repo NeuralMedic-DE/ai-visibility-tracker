@@ -1,9 +1,0 @@
-{
-  "brand": "Instantly",
-  "prompt_id": "IN-02",
-  "llm": "anthropic",
-  "prompt_text": "Instantly Clay integration: how does it work?",
-  "response": "# Instantly Clay Integration\n\n## Overview\nThe Instantly + Clay integration connects your email outreach (Instantly) with data enrichment and automation workflows (Clay).\n\n## How It Works\n\n### Basic Flow\n1. **Data in Clay** → Enrich/prepare prospect lists with Clay's tools\n2. **Send to Instantly** → Export contacts to Instantly for email campaigns\n3. **Track Results** → Send campaign data back to Clay for analysis\n\n### Key Use Cases\n\n| Use Case | Process |\n|----------|---------|\n| **List Building** | Use Clay to find/enrich leads → sync to Instantly |\n| **Campaign Management** | Build segments in Clay → email via Instantly → track opens/clicks |\n| **Lead Scoring** | Track Instantly engagement in Clay → update scores |\n| **Follow-ups** | Identify non-openers in Clay → trigger Instantly sequences |\n\n## Setup Steps\n\n1. **Connect accounts** - Link Clay & Instantly via API/authorization\n2. **Map fields** - Match Clay data fields to Instantly contact fields\n3. **Create workflow** - Build automation (enrich → send → track)\n4. **Test sync** - Run with small batch first\n5. **Monitor & optimize** - Track delivery/engagement rates\n\n## Common Features\n- Bi-directional data sync\n- Automated list exports\n- Engagement data import\n- Multi-step workflows\n- Personalization from Clay data\n\n---\n\n**Need specifics on setup?** I can help with configuration steps or troubleshooting. Are you setting this up or troubleshooting an existing integration?",
-  "cached_at": "2026-05-28T07:19:29Z",
-  "metadata": {}
-}

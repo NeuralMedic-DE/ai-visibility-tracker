@@ -1,9 +1,0 @@
-{
-  "brand": "TestBrand",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect TestBrand with Slack?",
-  "response": "I don't have specific information about \"TestBrand\" or its Slack integration process. To help you better, could you clarify:\n\n1. **What is TestBrand?** (Is it a testing tool, project management app, analytics platform, etc.?)\n2. **What are you trying to accomplish?** (Send notifications to Slack, log test results, etc.?)\n\nIn the meantime, here's a **general approach** for most Slack integrations:\n\n### Common Steps:\n- Go to your TestBrand **settings or integrations** section\n- Look for **\"Slack\"** or **\"Integrations\"**\n- Click **\"Connect\"** or **\"Authorize\"**\n- You'll be redirected to Slack to approve permissions\n- Select which **Slack workspace and channel** to connect\n- Confirm the integration\n\n### If you need help:\n- Check TestBrand's **documentation or help center**\n- Look for a **\"Get Started\"** or **\"Integrations\"** guide\n- Contact TestBrand's **support team**\n\nCould you provide more details about TestBrand so I can give you more specific instructions?",
-  "cached_at": "2026-06-01T15:00:37Z",
-  "metadata": {}
-}

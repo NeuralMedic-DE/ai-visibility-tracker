@@ -1,9 +1,0 @@
-{
-  "brand": "Encharge",
-  "prompt_id": "CM-01",
-  "llm": "anthropic",
-  "prompt_text": "Encharge vs Customer.io: which is better?",
-  "response": "# Encharge vs Customer.io\n\nBoth are solid automation platforms, but they serve slightly different needs:\n\n## **Customer.io** (stronger overall)\n**Best for:** Growth-focused teams wanting sophisticated automation\n- More powerful segmentation and personalization\n- Better for complex, multi-channel journeys\n- Superior analytics and reporting\n- Larger user base = more integrations & community support\n- Higher price point\n\n## **Encharge** (better for specific use cases)\n**Best for:** SaaS companies seeking simplicity + affordability\n- Simpler UI, easier to learn\n- Built-in landing pages and forms\n- Better for smaller budgets\n- Good product-focused automation\n- Less robust for large-scale campaigns\n\n## **Key differences:**\n\n| Factor | Customer.io | Encharge |\n|--------|------------|----------|\n| **Learning curve** | Steeper | Gentler |\n| **Price** | Higher | Lower |\n| **Segmentation** | Advanced | Basic-to-moderate |\n| **Channels** | Email, SMS, push, webhooks | Email, SMS, webhooks |\n| **Best for scale** | Mid to enterprise | Startup to mid-market |\n\n## **Choose Encharge if:**\n- Budget-conscious\n- Need simplicity\n- SaaS/product-focused automation\n\n## **Choose Customer.io if:**\n- Need sophisticated segmentation\n- Running complex campaigns\n- Have the budget\n\n**My take:** Customer.io is more versatile, but Encharge wins on value for bootstrapped teams. What's your main use case?",
-  "cached_at": "2026-05-28T07:28:08Z",
-  "metadata": {}
-}

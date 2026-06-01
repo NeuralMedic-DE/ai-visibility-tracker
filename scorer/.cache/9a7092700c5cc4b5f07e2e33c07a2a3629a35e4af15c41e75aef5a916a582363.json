@@ -1,9 +1,0 @@
-{
-  "brand": "Numeric",
-  "prompt_id": "CD-05",
-  "llm": "anthropic",
-  "prompt_text": "Recommended finance tools for finance teams at mid-market companies running month-end close companies",
-  "response": "# Finance Tools for Mid-Market Month-End Close\n\n## Core Close Management\n- **Wdesk** (Workiva) - Purpose-built for financial close; strong audit trail and workflow\n- **OneStream** - Unified close, planning, and reporting platform\n- **Blackline** - Specializes in automation, reconciliation, and variance analysis\n- **FloQast** - Checklist-based close management with good visibility\n\n## General Ledger & Consolidation\n- **NetSuite** - Complete ERP with built-in GL and consolidation\n- **Sage Intacct** - Strong GL module, good for mid-market\n- **Adaptive Insights** - Excellent for consolidation and multi-entity\n\n## Accounting Automation\n- **Bill.com** - AP/AR automation (often a key bottleneck)\n- **Vena** - Close planning and variance analysis built on Excel\n- **Trintech** - Automated account reconciliation\n- **Domo** - Financial consolidation and reporting\n\n## Bank Reconciliation\n- **AutoRec** - Specialized bank reconciliation automation\n- **Kyriba** - Treasury and liquidity management\n- **Anaplan** - Planning and analysis (owned by Salesforce)\n\n## Reporting & Analytics\n- **Tableau** - Dashboard and visualization\n- **Power BI** - Microsoft ecosystem integration\n- **Qlik** - Self-service analytics\n- **Jet Reports** - Excel-based reporting (lighter lift)\n\n## Key Selection Criteria\n- **Integration capability** with existing ERP\n- **Audit trail** requirements (increasingly non-negotiable)\n- **User adoption curve** (critical for close team buy-in)\n- **Cost vs. complexity** (avoid over-engineering)\n\n**Pro tip:** Prioritize addressing your biggest close bottleneck first rather than implementing everything at once.",
-  "cached_at": "2026-05-28T07:04:52Z",
-  "metadata": {}
-}

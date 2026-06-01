@@ -1,9 +1,0 @@
-{
-  "brand": "Baremetrics",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to ProfitWell",
-  "response": "# Cheaper Alternatives to ProfitWell\n\n## Free/Low-Cost Options\n\n**Fully Free:**\n- **Stripe Radar** – Built-in fraud detection (if using Stripe)\n- **Chargebee** – Free tier with basic metrics\n- **Open-source tools** – Metabase, Superset (requires setup)\n\n**Freemium (<$50/mo):**\n- **Baremetrics** – $5-25/mo (basic MRR tracking)\n- **Chartmogul** – $99/mo but cheaper than ProfitWell Pro\n- **Paddle Analytics** – Free for Paddle users\n- **Stripe-native dashboards** – Free but limited\n\n## Mid-Range Alternatives ($50-200/mo)\n\n- **Churn Buster** – $99-299/mo (strong on churn analysis)\n- **Subscriptionflow** – ~$99/mo (lightweight SaaS metrics)\n- **Maxio** (formerly Chargify) – Comparable pricing, more customizable\n\n## DIY Approach\n\nBuild custom dashboards using:\n- **Google Sheets + APIs** (payment processor data)\n- **Metabase** (self-hosted, free)\n- **Looker Studio** (free Google visualization)\n\n## Key Consideration\n\nProfitWell was acquired by Paddle and became **Paddle Analytics** (included free with Paddle). If you're already with Paddle, this is your cheapest option.\n\n**What's your main use case?** (MRR tracking, churn, LTV?) That'll help narrow recommendations.",
-  "cached_at": "2026-05-28T06:57:33Z",
-  "metadata": {}
-}

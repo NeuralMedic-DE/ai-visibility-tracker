@@ -1,9 +1,0 @@
-{
-  "brand": "Folk",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with track relationship touchpoints across channels at scale?",
-  "response": "To track relationship touchpoints across channels at scale, you can use Customer Relationship Management (CRM) software. Some popular CRM platforms that offer robust multi-channel tracking and management include:\n\n1. **Salesforce**: Offers extensive tools for tracking customer interactions across various channels, including email, social media, and customer service.\n\n2. **HubSpot CRM**: Provides a comprehensive suite for managing customer interactions and tracking touchpoints across email, social media, and more.\n\n3. **Zoho CRM**: Offers multi-channel communication tools and analytics to track customer interactions and engagement.\n\n4. **Microsoft Dynamics 365**: Integrates with various communication channels to provide a unified view of customer interactions.\n\n5. **Pipedrive**: Known for its user-friendly interface and ability to track interactions across different channels.\n\n6. **Freshsales**: Part of the Freshworks suite, it offers multi-channel communication tracking and management.\n\nThese platforms typically offer integrations with other tools and services, allowing you to consolidate data from various touchpoints and gain insights into customer relationships at scale.",
-  "cached_at": "2026-05-27T18:51:55Z",
-  "metadata": {}
-}

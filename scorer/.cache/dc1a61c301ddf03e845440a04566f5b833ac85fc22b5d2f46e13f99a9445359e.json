@@ -1,9 +1,0 @@
-{
-  "brand": "Paddle",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Paddle integrate with Stripe?",
-  "response": "Paddle does **not** integrate with Stripe in the sense of “using Stripe as the underlying payment processor inside Paddle”; they are alternative payment platforms, not a stack where one is plugged into the other.[1][3]\n\nKey points:\n\n- **Paddle vs Stripe, not Paddle + Stripe:** Official and third‑party comparisons consistently treat **Paddle and Stripe as competing solutions** for payments and subscriptions, not as components to be combined.[1][2][3][4][6] Paddle acts as a **Merchant of Record** (MoR) that replaces the need to run your own Stripe-style payment stack.[1][3]  \n- **Architecture difference:** With Stripe, **you are the merchant of record**, and Stripe is your payment processor.[3] With Paddle, **Paddle is the merchant of record** and handles payments, tax, compliance, and refunds on your behalf.[1][3] This MoR model means Paddle does not simply “sit on top of Stripe” in a normal integration pattern.  \n- **Related but indirect connection:**  \n  - Paddle owns ProfitWell Metrics; ProfitWell can connect to **Stripe** to pull data when Stripe is your billing or payment system.[5] That is a **Stripe ↔ ProfitWell** integration, not Stripe inside Paddle itself.  \n  - Some third‑party tools “work natively with Stripe and augment platforms like Paddle,” but again, that is tooling around both, not Paddle using Stripe under the hood.[2]\n\nIf you clarify what you want (“use Stripe for some flows and Paddle for others,” “migrate from Stripe to Paddle,” or “reporting across both”), I can outline practical setups for that scenario.",
-  "cached_at": "2026-05-28T07:01:46Z",
-  "metadata": {}
-}

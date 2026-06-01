@@ -1,9 +1,0 @@
-{
-  "brand": "Personio",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with automate HR workflows and employee self-service requests at scale?",
-  "response": "There are several software solutions designed to automate HR workflows and facilitate employee self-service requests at scale. Some popular options include:\n\n1. **Workday**: Offers a comprehensive suite of HR tools that automate various HR processes and provide robust employee self-service capabilities.\n\n2. **BambooHR**: Known for its user-friendly interface, BambooHR automates many HR tasks and allows employees to manage their own information and requests.\n\n3. **SAP SuccessFactors**: A cloud-based HR solution that automates HR processes and provides self-service options for employees to manage their HR-related tasks.\n\n4. **ADP Workforce Now**: Provides a range of HR management tools, including automation of workflows and self-service features for employees.\n\n5. **UKG Pro (formerly Ultimate Software)**: Offers HR, payroll, and talent management solutions with strong automation capabilities and self-service options.\n\n6. **Zenefits**: Focuses on simplifying HR processes for small to medium-sized businesses, with automation features and self-service portals for employees.\n\n7. **Gusto**: Primarily aimed at small businesses, Gusto automates payroll and HR tasks and provides self-service features for employees.\n\n8. **Zoho People**: Part of the Zoho suite, this software automates HR workflows and offers self-service portals for employees to manage their HR needs.\n\nThese platforms typically offer features like automated onboarding, leave management, benefits administration, and performance tracking, along with portals where employees can access and update their personal information, request time off, and more.",
-  "cached_at": "2026-05-28T06:34:56Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Prefect",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which workflow orchestration software should a Data Engineer or MLOps Lead managing Python data pipelines use?",
-  "response": "# Top Workflow Orchestration Tools for Python Data Pipelines\n\n## **Best Overall Options**\n\n### **1. Apache Airflow** (Most Popular)\n- **Strengths**: Python-native, DAG-based, mature ecosystem, extensive community\n- **Best for**: Complex ETL/ELT pipelines, enterprises needing fine-grained control\n- **Considerations**: Steeper learning curve, self-hosted infrastructure burden\n\n### **2. Dagster**\n- **Strengths**: Asset-oriented, excellent data lineage, strong type checking, modern design\n- **Best for**: Data teams prioritizing observability and asset management\n- **Growing adoption**: Increasingly popular in modern data stacks\n\n### **3. Prefect**\n- **Strengths**: Developer-friendly, dynamic workflows, cloud-native, great UI\n- **Best for**: Teams wanting quick deployment and modern UX\n- **Hosting**: Managed cloud option available (Prefect Cloud)\n\n## **Quick Comparison Table**\n\n| Factor | Airflow | Dagster | Prefect |\n|--------|---------|---------|---------|\n| **Learning Curve** | Steep | Moderate | Easy |\n| **Hosting** | Self-hosted | Self/Cloud | Cloud-first |\n| **Data Lineage** | Basic | Excellent | Good |\n| **Python Native** | ✓ | ✓ | ✓ |\n| **Maturity** | Very mature | Growing | Mature |\n\n## **My Recommendation**\n\n- **Airflow**: If you need battle-tested stability and have DevOps resources\n- **Dagster**: If data lineage and asset management are priorities\n- **Prefect**: If you want fast time-to-value with minimal ops overhead\n\n**What's your team's size and primary use case?** That would help narrow it down further.",
-  "cached_at": "2026-05-28T09:10:42Z",
-  "metadata": {}
-}

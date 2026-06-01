@@ -1,9 +1,0 @@
-{
-  "brand": "Plausible",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best web analytics that works with WordPress and Gatsby",
-  "response": "# Best Web Analytics for WordPress & Gatsby\n\n## **Top Recommendations**\n\n### **1. Google Analytics 4 (GA4)** ⭐ Best Overall\n- **Free**, industry standard\n- Works with both platforms via plugins/code\n- **WordPress**: MonsterInsights, Google Site Kit plugins\n- **Gatsby**: Install via `gatsby-plugin-google-analytics` or manual gtag\n- Deep event tracking, conversion analysis\n\n### **2. Plausible Analytics**\n- Privacy-focused, no cookies, GDPR compliant\n- Simple, fast dashboard\n- **Both platforms**: Easy script installation\n- $9-20/month\n- Great for privacy-conscious sites\n\n### **3. Fathom Analytics**\n- Privacy-first alternative to GA4\n- Beautiful, simple interface\n- Works identically on both platforms\n- $14-34/month\n- Real-time data\n\n### **4. Matomo**\n- Open-source or cloud-hosted\n- Full data ownership\n- WordPress plugin available\n- Gatsby: npm package integration\n- Free (self-hosted) or $20+/month\n\n## **Platform-Specific Setup**\n\n**WordPress:**\n- Google Site Kit (easiest for GA4)\n- MonsterInsights\n- WP Statistics\n\n**Gatsby:**\n- `gatsby-plugin-google-analytics`\n- `gatsby-plugin-plausible`\n- Manual script injection for others\n\n## **My Pick**\n**GA4** for detailed insights + **Plausible** for privacy. Both track cross-platform seamlessly.\n\nWhat's your primary tracking need—conversions, traffic sources, user behavior?",
-  "cached_at": "2026-05-27T20:19:15Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Paddle",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is Paddle better than FastSpring for manage subscriptions and checkout without international compliance headaches?",
-  "response": "# Paddle vs FastSpring for Subscriptions\n\n**Short answer:** Paddle has a clearer advantage here, but \"better\" depends on your specific situation.\n\n## Paddle's strengths for compliance\n\n- **Merchant of Record (MoR) model**: Paddle handles VAT/GST/sales tax compliance in most countries—you're largely removed from the compliance burden\n- **Simpler setup**: Less you need to figure out yourself\n- **Better for international**: If you're selling globally, this is meaningful relief\n\n## FastSpring's position\n\n- Also acts as MoR and handles tax compliance\n- **Less comprehensive** on some international requirements (VAT handling can be more variable by region)\n- More manual configuration needed for certain regions\n- Generally considered more focused on US/Western markets\n\n## The real trade-offs\n\n| Factor | Paddle | FastSpring |\n|--------|--------|-----------|\n| Tax complexity | Handled well globally | Handled, but less seamless |\n| Setup friction | Lower | Higher |\n| Fees | 2.5% + $0.95 | 8.8% + $0.95 (or lower with volume) |\n| Customization | More limited | More flexible |\n\n## Honest caveats\n\n- Neither eliminates *all* compliance work (you still need privacy policies, terms, etc.)\n- If you're EU-focused specifically, both are reasonable, but Paddle's approach feels smoother\n- FastSpring's higher base fee might matter if margins are tight\n\n**What matters most for you?** International scope, transaction volume, or customization needs?",
-  "cached_at": "2026-05-28T06:59:54Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "HiBob",
-  "prompt_id": "CM-01",
-  "llm": "anthropic",
-  "prompt_text": "HiBob vs BambooHR: which is better?",
-  "response": "# HiBob vs BambooHR\n\nBoth are solid HR platforms, but they differ in focus:\n\n## HiBob\n**Strengths:**\n- Better for modern, people-focused culture\n- Stronger employee experience/engagement features\n- Better mobile app\n- Good at onboarding and employee lifecycle management\n- More intuitive interface\n\n**Best for:** Companies prioritizing employee experience and culture\n\n## BambooHR\n**Strengths:**\n- More affordable, especially for small/mid-size companies\n- Simpler, easier to implement\n- Stronger core HR fundamentals (payroll integration, compliance)\n- Better reporting for HR analytics\n- Lighter lift for basic HR needs\n\n**Best for:** Small-to-mid businesses wanting straightforward HR basics at lower cost\n\n## Quick comparison:\n| Factor | HiBob | BambooHR |\n|--------|-------|----------|\n| Price | Higher | Lower |\n| Ease of use | Modern UI | Simpler |\n| HR focus | Holistic/culture | Traditional/core |\n| Company size | Mid to enterprise | Small to mid |\n\n**Choose HiBob if** you want a modern platform emphasizing engagement and can afford it.\n\n**Choose BambooHR if** you need core HR functionality at a reasonable price without excess features.\n\nWhat's your company size and main priorities? That would help narrow it down.",
-  "cached_at": "2026-05-28T06:32:18Z",
-  "metadata": {}
-}

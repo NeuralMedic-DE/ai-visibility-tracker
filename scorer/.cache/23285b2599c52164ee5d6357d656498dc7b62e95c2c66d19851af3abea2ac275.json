@@ -1,9 +1,0 @@
-{
-  "brand": "Folk",
-  "prompt_id": "CM-03",
-  "llm": "anthropic",
-  "prompt_text": "Folk vs HubSpot for startup founders and agency leads",
-  "response": "# Folk vs HubSpot: Quick Comparison\n\n## **Folk** (Newer, relationship-focused)\n\n**Best for:** Startup founders, small agencies\n- **Strength:** Relationship intelligence + CRM basics\n- Lightweight, designed for sales outreach\n- Auto-populated contact data (LinkedIn, etc.)\n- Lower cost\n- **Weakness:** Limited automation, fewer integrations, smaller ecosystem\n\n**Price:** ~$50-150/month\n\n---\n\n## **HubSpot** (All-in-one platform)\n\n**Best for:** Agencies, scaling startups, multi-team coordination\n- **Strength:** CRM + marketing + sales + service hub in one place\n- Robust automation and workflows\n- Excellent for team collaboration\n- Better reporting/analytics\n- **Weakness:** Steeper learning curve, can feel over-featured for solopreneurs\n\n**Price:** Free tier exists; paid starts ~$50/month (grows quickly)\n\n---\n\n## **The Real Question**\n\n| Need | Choose |\n|------|--------|\n| Pure sales outreach, lean operation | **Folk** |\n| Marketing + sales coordination | **HubSpot** |\n| Working with a team/client teams | **HubSpot** |\n| Solo founder, relationship-focused | **Folk** |\n| Need detailed reporting/analytics | **HubSpot** |\n\n**Pro tip:** Many startups begin with Folk for simplicity, then migrate to HubSpot once they need marketing automation or team scaling.\n\nWhat's your specific pain point right now?",
-  "cached_at": "2026-05-27T18:53:02Z",
-  "metadata": {}
-}

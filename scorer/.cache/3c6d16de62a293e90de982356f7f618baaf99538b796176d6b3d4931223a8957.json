@@ -1,9 +1,0 @@
-{
-  "brand": "Personio",
-  "prompt_id": "CD-05",
-  "llm": "anthropic",
-  "prompt_text": "Recommended HR tools for European SME HR teams and people operations leads companies",
-  "response": "# HR Tools for European SMEs\n\n## **Core HRIS/HCM Platforms**\n\n### **All-in-One Solutions**\n- **Personio** (Germany) - Popular in EU, compliance-focused\n- **BambooHR** - Strong SME fit, user-friendly\n- **Deel** - Great for multi-country payroll\n- **Guidepoint/Workday** - Enterprise-grade (if scaling)\n\n### **GDPR-Compliant Focused**\n- **Factorial** (Spain) - European-first, intuitive\n- **HiBob** - Modern, people-centric\n- **Paychex/Orabank** - Regional payroll support\n\n---\n\n## **Recruitment & Onboarding**\n\n- **Greenhouse** - Mid-market focused\n- **Lever** - Collaboration-friendly\n- **Workable** - EU-based, scalable\n- **Rippling** - Unified IT + HR onboarding\n- **Ashby** - Modern ATS for growth\n\n---\n\n## **Payroll & Compliance**\n\n- **Sage HR** - Strong in UK/EU\n- **Pento** - Distributed teams\n- **Paycircle** - Multi-country support\n- **Local providers** - France (Paie), Germany (Lexware), etc.\n\n---\n\n## **Performance & Development**\n\n- **15Five** - Continuous feedback\n- **Lattice** - Goal tracking\n- **Officevibe** - Engagement surveys\n- **Learnlight** - Training/L&D\n\n---\n\n## **Employee Experience**\n\n- **Slack** + integrated apps\n- **Pulsely/Culture Amp** - Engagement metrics\n- **Icebreakers/Sococo** - Remote team building\n\n---\n\n## **Selection Criteria for SMEs**\n\n✅ GDPR/local compliance built-in  \n✅ Multi-language support  \n✅ Affordable (€50-200/employee/year)  \n✅ Easy implementation  \n✅ Mobile-first interface  \n✅ Good API integration  \n\n**Recommendation:** Start with integrated HRIS (Personio/Factorial), add specialized tools as you scale.\n\nWhat's your team size and priority pain point?",
-  "cached_at": "2026-05-28T06:34:40Z",
-  "metadata": {}
-}

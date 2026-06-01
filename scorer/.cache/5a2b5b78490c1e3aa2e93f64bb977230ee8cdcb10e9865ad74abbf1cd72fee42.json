@@ -1,9 +1,0 @@
-{
-  "brand": "Weights & Biases",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with manage datasets artifacts and model versions in a central model registry at scale?",
-  "response": "# Model Registry & MLOps Platforms\n\nSeveral solutions excel at managing datasets, artifacts, and model versions at scale:\n\n## **Dedicated Model Registries**\n\n### **MLflow Model Registry**\n- Open-source, widely adopted\n- Tracks model versions, stages (dev/staging/prod)\n- Integrates with experiment tracking\n- Good for smaller to medium deployments\n\n### **Hugging Face Model Hub**\n- Excellent for NLP/LLM models\n- Built-in versioning and model cards\n- Large community ecosystem\n\n## **Enterprise Solutions**\n\n### **Databricks MLflow + Unity Catalog**\n- Enterprise-grade governance\n- Fine-grained access control\n- Scales to thousands of models\n\n### **Weights & Biases (W&B)**\n- Model versioning + artifact storage\n- Collaboration features\n- Strong visualization tools\n\n### **Neptune AI**\n- Lightweight model registry\n- Good artifact organization\n- Metadata tracking\n\n## **Cloud Native Options**\n\n- **AWS SageMaker Model Registry** - AWS-integrated\n- **Google Vertex AI Model Registry** - GCP-native\n- **Azure ML Model Registry** - Azure ecosystem\n\n## **Open Source Alternatives**\n\n- **DVC (Data Version Control)** - lightweight, Git-compatible\n- **Kubeflow** - Kubernetes-based\n- **Pachyderm** - data pipeline versioning\n\n## **Key Features to Look For**\n✓ Version control (models + datasets)  \n✓ Artifact storage integration  \n✓ Metadata tracking  \n✓ Access controls  \n✓ API/SDK support  \n\n**What's your deployment environment?** That'll help narrow recommendations.",
-  "cached_at": "2026-05-28T07:37:48Z",
-  "metadata": {}
-}

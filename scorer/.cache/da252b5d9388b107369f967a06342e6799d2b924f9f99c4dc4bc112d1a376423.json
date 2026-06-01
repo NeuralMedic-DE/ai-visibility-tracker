@@ -1,9 +1,0 @@
-{
-  "brand": "HiBob",
-  "prompt_id": "IN-03",
-  "llm": "perplexity",
-  "prompt_text": "How do I connect HiBob with Slack?",
-  "response": "You can connect **HiBob (Bob)** to **Slack** either through HiBob’s built-in Slack integration or by using an automation tool like **Zapier** or **Make** if you want custom workflows.[8][1][3]\n\n- In **HiBob**, go to **Settings** → **Integrations** → **Slack**.[4][8]\n- Choose what you want to send to Slack, such as **daily digests**, **event updates**, or specific HR notifications.[4][8]\n- Select the **Slack channel** where the updates should appear.[4]\n- Click **Authorize** or **Add to Slack** to grant access and complete the connection.[4]\n- If you need more customization, set up a trigger in HiBob and an action in Slack using an automation platform like **Zapier** or **Make**.[1][3]\n\nHiBob’s Slack integration can be used for things like **clocking in and out**, **requesting time off**, and asking questions with **/bob** commands, according to HiBob’s blog.[8] HiBob also says Slack can receive updates in customizable channels, so you can route different types of information to different teams or sites.[4][9]\n\nIf you want, I can also give you:\n- a **step-by-step setup guide**\n- the **exact Slack permissions** needed\n- or a **troubleshooting checklist** if the integration doesn’t work",
-  "cached_at": "2026-05-28T06:34:16Z",
-  "metadata": {}
-}

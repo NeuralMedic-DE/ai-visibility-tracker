@@ -1,9 +1,0 @@
-{
-  "brand": "Gainsight",
-  "prompt_id": "CD-05",
-  "llm": "perplexity",
-  "prompt_text": "Recommended customer success tools for enterprise SaaS customer success teams managing large portfolios companies",
-  "response": "For **enterprise SaaS customer success teams managing large portfolios**, the strongest-fit tools in the results are **Gainsight**, **Totango**, and **ChurnZero**, with **ClientSuccess** and **Vitally** also worth evaluating depending on workflow and budget needs.[1][7][8]\n\n- **Gainsight** — positioned as the **best customer success platform for enterprise needs** and explicitly recommended for **enterprise deployments**.[1][7]\n- **Totango** — highlighted for **customizable workflows**, which is useful when large enterprise portfolios need segmentation and process variation across accounts.[7]\n- **ChurnZero** — described as best for **mid-market companies focused on real-time analytics**, but it can still be relevant if your team prioritizes live health signals and customer monitoring.[1][7]\n- **ClientSuccess** — presented as a simpler customer success platform, with a claim of being trusted by **500+ CS teams**; this makes it a candidate if you want a more straightforward operating model.[8]\n- **Vitally** — aimed at helping CSMs work **at scale**, which can fit teams handling many accounts and needing tighter operational efficiency.[6]\n\nA practical short list for enterprise SaaS would be:\n- **Gainsight** if you need the deepest enterprise-grade CS operating system.[1][7]\n- **Totango** if flexible workflows and portfolio segmentation matter most.[7]\n- **ChurnZero** if you want strong analytics and real-time customer visibility.[1][7]\n\nIf you want, I can also turn this into a **feature-by-feature comparison** for enterprise needs such as **health scoring, playbooks, renewals, forecasting, CRM integration, and large-account segmentation**.",
-  "cached_at": "2026-05-28T08:04:15Z",
-  "metadata": {}
-}

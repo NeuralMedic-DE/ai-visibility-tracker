@@ -1,9 +1,0 @@
-{
-  "brand": "Zapier",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with build multi-step automations that run on triggers from any app in your stack at scale?",
-  "response": "# Software for Multi-Step Automations at Scale\n\nSeveral platforms excel at this, depending on your needs:\n\n## **Top Platforms**\n\n**Zapier**\n- Connects 7,000+ apps\n- Visual workflow builder\n- Good for mid-market scale\n- Pay-per-task pricing\n\n**Make (formerly Integromat)**\n- More complex automation logic\n- Better for intricate workflows\n- Flexible pricing model\n- Stronger data transformation\n\n**n8n**\n- Open-source option (self-hosted or cloud)\n- Very powerful for complex logic\n- Lower cost at scale\n- Technical learning curve\n\n**Workato**\n- Enterprise-focused\n- Handles complex, mission-critical workflows\n- Better compliance/security\n- Higher cost\n\n**Relay**\n- Modern, user-friendly interface\n- Good conditional logic\n- Strong for non-technical users\n- Growing app ecosystem\n\n## **Key Features to Compare**\n- **Trigger flexibility** (webhooks, polling, real-time)\n- **App library size** (your specific tools)\n- **Conditional logic** complexity\n- **Scalability** (execution limits, concurrency)\n- **Pricing model** (usage-based vs. fixed)\n\n## **Quick Recommendation**\n- **Start:** Zapier (easiest, most integrations)\n- **Scale:** Make or Workato (more power)\n- **Cost-sensitive:** n8n or Zapier's lower tiers\n\nWhat's your primary use case? That would help narrow it down further.",
-  "cached_at": "2026-05-28T08:51:21Z",
-  "metadata": {}
-}

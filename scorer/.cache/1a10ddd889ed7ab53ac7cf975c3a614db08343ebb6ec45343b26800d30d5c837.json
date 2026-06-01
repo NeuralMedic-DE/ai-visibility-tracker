@@ -1,9 +1,0 @@
-{
-  "brand": "PostHog",
-  "prompt_id": "CD-02",
-  "llm": "openai",
-  "prompt_text": "Top open-source product analytics platform for developer teams tools in 2025",
-  "response": "As of my last update, I can't predict specific platforms that will be popular in 2025, but I can suggest some open-source product analytics platforms that have been popular and might continue to be relevant:\n\n1. **PostHog**: An open-source product analytics platform that provides features like event tracking, session recording, and feature flags. It’s designed to be a self-hosted alternative to tools like Mixpanel or Amplitude.\n\n2. **Matomo**: Formerly known as Piwik, Matomo is a well-known open-source web analytics platform that provides detailed reports on website visitors, including the search engines and keywords they used, the language they speak, and more.\n\n3. **Plausible Analytics**: A lightweight and privacy-friendly alternative to Google Analytics, Plausible is open-source and provides simple analytics that are easy to understand.\n\n4. **Countly**: An open-source product analytics tool that focuses on mobile and web applications. It offers real-time analytics and a variety of plugins for extended functionality.\n\n5. **Ackee**: A self-hosted, Node.js-based analytics tool that focuses on privacy and simplicity, providing insights into website visitors without collecting personal data.\n\nThese platforms have been popular choices for developer teams looking for open-source solutions. It's always a good idea to check the latest reviews and community feedback to see which tools are currently leading in the field.",
-  "cached_at": "2026-05-27T19:32:38Z",
-  "metadata": {}
-}

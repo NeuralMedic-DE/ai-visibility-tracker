@@ -1,9 +1,0 @@
-{
-  "brand": "Vanta",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with collect audit evidence and manage vendor risk from a single compliance dashboard at scale?",
-  "response": "# Compliance & Vendor Risk Management Platforms\n\nSeveral enterprise solutions offer centralized audit evidence collection and vendor risk management:\n\n## Leading Options\n\n**Domo, Tableau, or Power BI**\n- General BI platforms that can aggregate compliance data\n- Require custom configuration for audit workflows\n\n**Specialized Compliance Platforms**\n- **AuditBoard** - audit evidence management and workflow\n- **Workiva** - comprehensive compliance and reporting\n- **Resolver** - risk and compliance management\n- **Vanta** - continuous compliance automation\n- **Drata** - compliance and audit automation\n\n## Key Features to Look For\n\n- **Evidence collection** - automated document gathering and tagging\n- **Vendor assessment** - risk scoring and questionnaires\n- **Audit trails** - complete tracking of evidence lifecycle\n- **Dashboards** - real-time compliance status visibility\n- **Scalability** - handles multiple vendors and frameworks\n- **Integrations** - connects with your existing systems\n\n## Selection Depends On\n\n- Your industry/compliance needs (SOC 2, ISO 27001, etc.)\n- Vendor portfolio size\n- Budget and implementation timeline\n- Integration requirements\n\n**Recommendation:** Request demos from AuditBoard and Workiva first—they're market leaders for enterprise-scale needs. For smaller organizations, Vanta or Drata offer more affordable, faster implementations.\n\nWhat's your primary compliance framework or industry?",
-  "cached_at": "2026-05-28T08:26:51Z",
-  "metadata": {}
-}

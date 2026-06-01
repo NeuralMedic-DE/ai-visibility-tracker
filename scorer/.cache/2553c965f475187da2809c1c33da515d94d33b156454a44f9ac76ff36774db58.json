@@ -1,9 +1,0 @@
-{
-  "brand": "ChurnZero",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best customer success for customer success teams at mid-market and enterprise SaaS companies?",
-  "response": "# Best Practices for Mid-Market/Enterprise CS Teams\n\n## Strategy & Structure\n\n**Clear segmentation**\n- Dedicated CSMs for enterprise/strategic accounts\n- Tech-touch or hybrid models for mid-market\n- Separate playbooks by segment and use case\n\n**Aligned metrics**\n- Move beyond just retention to expansion/NRR\n- Track health scores and leading indicators\n- Tie compensation to these metrics\n\n## Execution Excellence\n\n**Proactive engagement**\n- Regular business reviews (quarterly minimum for enterprise)\n- Usage monitoring and early intervention\n- Executive sponsorship on both sides\n\n**Depth of impact**\n- Understand the customer's business outcomes, not just feature adoption\n- Drive ROI conversations early and often\n- Help them achieve measurable wins in first 90 days\n\n**Strong handoff orchestration**\n- Sales → CS: Clear transition, not abandonment\n- CS → Renewal/Expansion: Predictable revenue pipeline\n- Cross-functional: Ensure product, support, and success align\n\n## Organization & Enablement\n\n**Well-resourced team**\n- Realistic customer ratios (30-50 for enterprise, 50-150 for mid-market CSMs)\n- Support staff to handle admin/reporting\n- Access to product/engineering for escalations\n\n**Continuous development**\n- Consultative selling skills training\n- Industry/vertical expertise\n- Data literacy\n\n## What Actually Drives Results\n\nThe companies winning at CS typically obsess over **reducing time-to-value** and **creating quantifiable business outcomes** for customers—not just feature adoption.\n\nWhat specific CS challenge are you facing?",
-  "cached_at": "2026-05-28T08:06:29Z",
-  "metadata": {}
-}

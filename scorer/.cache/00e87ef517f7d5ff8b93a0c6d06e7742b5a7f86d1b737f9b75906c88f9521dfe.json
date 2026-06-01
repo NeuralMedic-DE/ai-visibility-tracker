@@ -1,9 +1,0 @@
-{
-  "brand": "Workable",
-  "prompt_id": "IN-03",
-  "llm": "openai",
-  "prompt_text": "How do I connect Workable with LinkedIn?",
-  "response": "To connect Workable with LinkedIn, you need to integrate your Workable account with LinkedIn Recruiter. Here’s a step-by-step guide to help you with the process:\n\n1. **Log in to Workable**: Start by logging into your Workable account.\n\n2. **Access Integrations**: Go to the main menu and select \"Integrations\" from the settings or account menu.\n\n3. **Find LinkedIn Integration**: Look for the LinkedIn integration option. This is typically listed under available integrations.\n\n4. **Connect LinkedIn Account**: Click on the LinkedIn integration option and follow the prompts to connect your LinkedIn account. You will likely need to log in to your LinkedIn account and authorize the connection.\n\n5. **Configure Settings**: Once connected, you may need to configure specific settings to tailor the integration to your needs. This could include setting up how job postings are shared or how candidate information is synced.\n\n6. **Verify Integration**: After setting up, verify that the integration is working correctly by posting a job or checking if candidate information is syncing between Workable and LinkedIn.\n\nIf you encounter any issues, consult Workable's support documentation or contact their support team for assistance. Additionally, ensure that you have the necessary permissions and a compatible LinkedIn Recruiter account to enable the integration.",
-  "cached_at": "2026-05-28T06:46:09Z",
-  "metadata": {}
-}

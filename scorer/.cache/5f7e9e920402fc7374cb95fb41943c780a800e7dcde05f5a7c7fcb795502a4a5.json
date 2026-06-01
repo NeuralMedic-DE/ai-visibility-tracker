@@ -1,9 +1,0 @@
-{
-  "brand": "Klipfolio",
-  "prompt_id": "IN-05",
-  "llm": "openai",
-  "prompt_text": "business intelligence tools with native Google Analytics integration",
-  "response": "There are several business intelligence (BI) tools that offer native integration with Google Analytics, allowing you to seamlessly connect and analyze your web data. Here are some popular options:\n\n1. **Google Data Studio**: As a Google product, Data Studio offers seamless integration with Google Analytics. It allows you to create interactive dashboards and reports using your Google Analytics data.\n\n2. **Tableau**: Tableau provides a native connector for Google Analytics, enabling you to import your data and create advanced visualizations and dashboards.\n\n3. **Power BI**: Microsoft Power BI also offers a Google Analytics connector, allowing you to pull in data for analysis and reporting within the Power BI environment.\n\n4. **Looker**: Now part of Google Cloud, Looker offers strong integration capabilities with Google Analytics, allowing you to leverage your data in Looker’s powerful BI platform.\n\n5. **Domo**: Domo provides native connectors for Google Analytics, enabling you to bring your data into Domo’s platform for comprehensive analysis and visualization.\n\n6. **Qlik Sense**: Qlik Sense offers integration with Google Analytics, allowing you to import data and use Qlik’s associative engine for in-depth analysis.\n\nThese tools provide various features and capabilities, so the best choice depends on your specific needs, such as ease of use, depth of analysis, and integration with other data sources.",
-  "cached_at": "2026-05-27T20:26:27Z",
-  "metadata": {}
-}

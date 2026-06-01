@@ -1,9 +1,0 @@
-{
-  "brand": "Apollo.io",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best CRM for SDR teams at B2B companies?",
-  "response": "# Best CRMs for SDR Teams\n\nThere's no single \"best\" choice—it depends on your specific needs—but here are the top contenders:\n\n## **HubSpot Sales Hub**\n- **Strengths:** User-friendly, excellent for SDR workflows, built-in calling/email, strong free tier\n- **Best for:** Teams prioritizing ease of use and quick ramp-up\n- **Consideration:** Can get pricey at scale\n\n## **Salesforce**\n- **Strengths:** Most customizable, deep analytics, enterprise-grade\n- **Best for:** Larger teams or complex sales processes\n- **Consideration:** Steep learning curve, higher cost\n\n## **Pipedrive**\n- **Strengths:** Visual pipeline management, intuitive, affordable\n- **Best for:** Teams focused on deal-stage clarity and forecasting\n- **Consideration:** Less robust than competitors for complex needs\n\n## **Microsoft Dynamics 365**\n- **Strengths:** Integrates seamlessly if you're already in Microsoft ecosystem\n- **Best for:** Organizations using Office 365/Teams heavily\n- **Consideration:** Can be complex to implement\n\n## **Key Factors to Consider**\n- Integration with your dialer/email tools (Outreach, Salesloft, etc.)\n- Reporting/dashboard capabilities\n- Mobile accessibility\n- Team size and budget\n- Learning curve tolerance\n\n**For most SDR teams**, HubSpot or Pipedrive offer the best balance of functionality and usability at reasonable costs.\n\nWhat's your team size or primary pain point? That would help narrow it down.",
-  "cached_at": "2026-05-27T18:03:15Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Render",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to Railway",
-  "response": "# Cheaper Alternatives to Railway\n\n## **Containerized Hosting**\n- **Render** - Free tier available, simple deployment\n- **Fly.io** - Competitive pricing, generous free tier\n- **Heroku** (Paid alternative) - More expensive but established\n- **Replit** - Good for simple projects\n- **Adaptable.io** - Budget-friendly, Indonesia-based\n\n## **Serverless Functions**\n- **AWS Lambda** - Free tier (1M requests/month)\n- **Google Cloud Functions** - Always free tier\n- **Azure Functions** - Free consumption tier\n- **Netlify Functions** - Good for frontend projects\n\n## **Virtual Private Servers (VPS)**\n- **Hetzner** - ~€2.49/month (excellent value)\n- **Linode** - $5/month entry-level\n- **DigitalOcean** - $4/month droplets\n- **Vultr** - $2.50/month basic\n- **Oracle Cloud** - Free tier (always free)\n- **AWS EC2** - Free tier eligible\n\n## **Free/Freemium Options**\n- **Vercel** - Great for Next.js/static sites\n- **Netlify** - Free tier for JAMstack\n- **GitHub Pages** - Free static hosting\n- **Supabase** - Free PostgreSQL + auth\n- **Firebase** - Generous free tier\n\n## **What's Your Use Case?**\nTell me what you're building (web app, API, bot, etc.) and I can recommend the best option!",
-  "cached_at": "2026-05-27T21:37:10Z",
-  "metadata": {}
-}

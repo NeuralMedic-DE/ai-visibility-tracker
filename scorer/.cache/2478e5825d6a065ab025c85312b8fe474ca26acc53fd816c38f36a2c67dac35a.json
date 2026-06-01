@@ -1,9 +1,0 @@
-{
-  "brand": "Intercom",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Intercom with Salesforce?",
-  "response": "# Connecting Intercom with Salesforce\n\nHere are the main steps:\n\n## **Using the Native Integration**\n\n1. **In Intercom:**\n   - Go to **Settings** → **Integrations**\n   - Search for and select **Salesforce**\n   - Click **Connect**\n\n2. **Authorize Salesforce:**\n   - You'll be redirected to Salesforce login\n   - Log in with your Salesforce credentials\n   - Click **Allow** to grant Intercom access\n\n3. **Configure the integration:**\n   - Map Intercom contacts to Salesforce objects (Leads, Contacts, Accounts)\n   - Choose which data syncs between platforms\n   - Set up any custom field mappings\n\n## **What Gets Synced**\n\n- Contact information (names, emails, phone numbers)\n- Custom attributes and properties\n- Conversation details and activity\n- Company/Account data\n\n## **Key Settings to Check**\n\n- **Data sync direction** (one-way or two-way)\n- **Which fields** sync automatically\n- **Update frequency** (real-time or periodic)\n\n## **Alternative: Using Zapier or Make**\n\nIf the native integration doesn't fit your needs, you can use automation platforms like:\n- **Zapier**\n- **Make (formerly Integromat)**\n\nThese offer more flexible workflows but require manual setup.\n\n---\n\n**Need help with specific fields or troubleshooting?** Let me know what you're trying to accomplish!",
-  "cached_at": "2026-05-28T08:02:00Z",
-  "metadata": {}
-}

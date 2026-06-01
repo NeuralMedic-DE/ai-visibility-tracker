@@ -1,9 +1,0 @@
-{
-  "brand": "Doppler",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with auto-rotate secrets and manage access permissions without manual effort at scale?",
-  "response": "To manage secrets and access permissions at scale with automated rotation, you can consider using tools like:\n\n1. **HashiCorp Vault**: This tool provides secure storage, dynamic secrets, and automated secrets rotation. It integrates with various systems to manage and rotate secrets automatically.\n\n2. **AWS Secrets Manager**: This service helps you protect access to your applications, services, and IT resources without the upfront investment and on-going maintenance costs of operating your own infrastructure. It also includes automatic secrets rotation.\n\n3. **Azure Key Vault**: This service helps safeguard cryptographic keys and secrets used by cloud applications and services. It supports automated key and secret rotation.\n\n4. **Google Cloud Secret Manager**: This service provides a secure and convenient way to store API keys, passwords, certificates, and other sensitive data. It supports automatic rotation of secrets.\n\n5. **CyberArk Conjur**: This tool is designed for managing secrets and other credentials used by applications, containers, and microservices. It offers automated secrets rotation and access management.\n\nThese tools are designed to integrate with various environments and provide robust solutions for managing secrets and permissions at scale, reducing the need for manual intervention.",
-  "cached_at": "2026-05-28T06:20:29Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "LeadIQ",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does LeadIQ integrate with Salesforce?",
-  "response": "Yes, LeadIQ integrates with Salesforce. This integration allows users to easily capture and enrich lead data from various sources and then sync it directly into Salesforce, streamlining the lead management process.",
-  "cached_at": "2026-05-27T18:41:56Z",
-  "metadata": {}
-}

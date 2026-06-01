@@ -1,9 +1,0 @@
-{
-  "brand": "Finaloop",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with sync multi-channel revenue and returns automatically without manual entry at scale?",
-  "response": "# Multi-Channel Revenue & Returns Sync Software\n\n## Dedicated Platforms\n\n**Inventory & Order Management:**\n- **Shopify Flow** / **Inventory Sync apps** - For Shopify sellers managing multiple channels\n- **Cin7** - Strong multi-channel inventory and order management\n- **Brightpearl** (by Sage) - Accounting + inventory sync\n- **TradeGecko** - Real-time multi-channel inventory\n- **Linnworks** - Specifically built for marketplace + store sync\n\n**Returns Management:**\n- **Happy Returns** - Unified returns across channels\n- **Returnly** - Multi-channel returns automation\n- **Narvar** - Post-purchase experience including returns tracking\n\n## Marketplace Connectors\n\n- **Synced** - Syncs Shopify, Amazon, eBay automatically\n- **Sellfy** - Multi-marketplace order/inventory sync\n- **Katana** - Lightweight order + inventory sync\n- **OrderFulfill** - Order aggregation across channels\n\n## Accounting-First Solutions\n\n- **QuickBooks Online** + connectors (Zapier, native integrations)\n- **Xero** - Pairs well with inventory sync apps\n- **NetSuite** - Enterprise-level multi-channel management\n\n## Key Considerations\n\n- **Scalability**: Look for real-time sync (not batch overnight)\n- **Returns specifically**: Most focus on orders; returns need dedicated tools or custom workflows\n- **Your channels**: Verify they support your exact mix (Amazon, eBay, Shopify, etc.)\n- **Integration depth**: Some only sync orders; others handle inventory + accounting\n\nWhat's your current channel mix? That'll help narrow recommendations.",
-  "cached_at": "2026-05-28T07:07:44Z",
-  "metadata": {}
-}

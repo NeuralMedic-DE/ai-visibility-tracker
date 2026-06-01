@@ -1,9 +1,0 @@
-{
-  "brand": "Vanta",
-  "prompt_id": "IN-02",
-  "llm": "anthropic",
-  "prompt_text": "Vanta AWS integration: how does it work?",
-  "response": "# Vanta AWS Integration Overview\n\n## Core Functionality\n\nVanta integrates with AWS to automate compliance and security monitoring through:\n\n### 1. **Read-Only API Access**\n- Vanta uses AWS API credentials (IAM role or user) with minimal, read-only permissions\n- No write access to your resources\n- Connects via secure HTTPS\n\n### 2. **Continuous Monitoring**\n- Automatically scans AWS resources (EC2, S3, RDS, IAM, etc.)\n- Collects security and compliance data in real-time\n- Tracks configurations, access controls, and user activity\n\n### 3. **CloudTrail Integration**\n- Analyzes logs to monitor user activity\n- Tracks API calls and changes\n- Maintains audit trails for compliance\n\n## Setup Process\n\n```\n1. Create IAM role/user in AWS\n2. Attach read-only policy (Vanta-provided template)\n3. Generate access credentials\n4. Enter credentials in Vanta dashboard\n5. Authorize connection\n```\n\n## Key Benefits\n\n| Aspect | Benefit |\n|--------|---------|\n| **Automation** | Reduces manual security checks |\n| **Compliance** | Maps findings to SOC 2, ISO 27001, HIPAA, etc. |\n| **Risk Visibility** | Identifies configuration gaps and vulnerabilities |\n| **Evidence Collection** | Automatically gathers audit evidence |\n\n## What Vanta Accesses\n\n- IAM policies and user permissions\n- Security groups and network configurations\n- Encryption settings\n- S3 bucket policies\n- Database security settings\n- CloudTrail logs\n\n## Security Considerations\n\n✅ Uses least-privilege IAM permissions  \n✅ Encrypted communication  \n✅ No data stored outside your AWS account  \n✅ Can be revoked anytime\n\nWould you like details on setup, specific compliance frameworks, or troubleshooting?",
-  "cached_at": "2026-05-28T08:26:55Z",
-  "metadata": {}
-}

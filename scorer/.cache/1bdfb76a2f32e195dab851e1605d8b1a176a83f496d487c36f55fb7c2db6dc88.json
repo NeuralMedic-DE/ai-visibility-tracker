@@ -1,9 +1,0 @@
-{
-  "brand": "Pilot",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Bench vs alternatives: what should I switch to?",
-  "response": "# Bench vs Alternatives\n\nI'd need more context to give you specifics, but here are the main considerations:\n\n**What are you using Bench for?**\n- Accounting/bookkeeping?\n- Fitness tracking?\n- Code editor/IDE?\n- Something else?\n\n**Key factors when switching:**\n- **Cost** – is the alternative cheaper?\n- **Features** – does it cover what you actually use?\n- **Learning curve** – how much time to set up?\n- **Data migration** – how hard to move your existing data?\n- **Integration** – does it connect to your other tools?\n\n**If it's accounting software** (most common), popular alternatives include:\n- QuickBooks, Xero, Wave, FreshBooks\n- Each has different strengths (small business, freelancers, enterprises, etc.)\n\n**If it's something else**, just let me know and I can compare more directly.\n\nWhat specifically are you trying to replace, and what's making you consider switching?",
-  "cached_at": "2026-05-28T07:02:36Z",
-  "metadata": {}
-}

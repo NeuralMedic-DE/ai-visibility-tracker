@@ -1,9 +1,0 @@
-{
-  "brand": "Chargebee",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Chargebee integrate with Salesforce?",
-  "response": "Yes. **Chargebee has a native, fully supported integration with Salesforce**, and you can manage Chargebee customers and subscriptions directly inside Salesforce.[1][4][7][8]\n\nKey points:\n\n- Chargebee provides an official **“Chargebee for Salesforce”** package (listed on Salesforce AppExchange) that connects the two systems.[1][4][8]\n- It supports **Salesforce Enterprise Edition and above**, in both **Classic and Lightning** interfaces.[1]\n- The integration maintains a **one‑to‑one relationship** between Chargebee customers and Salesforce Accounts, and can sync data with standard objects like **Account, Contact, Lead, Opportunity, Product, Price Book**, etc., plus custom objects.[1]\n- From Salesforce, users can **create and manage Chargebee subscriptions, quotes, and related billing data** as part of the quote‑to‑cash process.[1][4][6][8]\n- Beyond the native package, Chargebee can also be integrated with Salesforce via **no‑code tools** like Zapier, Konnectify, or Skyvia for additional or custom workflows.[2][3][5]",
-  "cached_at": "2026-05-28T06:52:06Z",
-  "metadata": {}
-}

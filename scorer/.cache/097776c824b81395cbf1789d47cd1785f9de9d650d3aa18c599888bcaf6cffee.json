@@ -1,9 +1,0 @@
-{
-  "brand": "Vitally",
-  "prompt_id": "UC-03",
-  "llm": "anthropic",
-  "prompt_text": "What tools do customer success teams at mid-market B2B SaaS companies companies use to manage customer accounts with configurable health scores and automated workflows?",
-  "response": "# Customer Success Tools for Mid-Market B2B SaaS\n\n## Dedicated CS Platforms with Health Scoring\n\n**Primary options:**\n- **Gainsight** – Industry standard; robust health scores, predictive analytics, automated playbooks\n- **Totango** – Strong health scoring engine, journey analytics, workflow automation\n- **Planhat** – Lightweight alternative; good for 50-500 customer range; health metrics + automation\n- **ChartMeter** – Focused on health scoring and expansion revenue\n\n## Hybrid Approaches (CRM + Add-ons)\n\nMany mid-market teams layer specialized tools onto Salesforce:\n- **Salesforce** + **Outreach/Salesloft** (sales execution, but works for CS)\n- **Hubspot** (native automation) + **Vitally** or **Catalyst** (CS-specific features)\n- **Pipedrive** + **custom workflows**\n\n## Lighter-Weight/Emerging Options\n\n- **Vitally** – Designed specifically for mid-market; configurable health, good UX\n- **Catalyst** – Focuses on reducing churn through automation\n- **Custify** – Smaller team friendly; basic health scoring + engagement\n- **Clari** (formerly Chorus) – Revenue intelligence angle but expanding CS features\n\n## Workflow/Automation Layers\n\n- **Zapier/Make** – Connect any tool; can trigger CS workflows\n- **Slack workflows** – Free tier for basic CS automation\n\n## Key Capabilities to Verify\n\n✓ Configurable health score weightings  \n✓ Workflow triggers based on health thresholds  \n✓ Integration with your product (usage data)  \n✓ Reasonable pricing per customer/user  \n\n**What's your current tech stack?** That'd help narrow recommendations.",
-  "cached_at": "2026-05-28T08:09:32Z",
-  "metadata": {}
-}

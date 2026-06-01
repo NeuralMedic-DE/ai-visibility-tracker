@@ -1,9 +1,0 @@
-{
-  "brand": "Humaans",
-  "prompt_id": "IN-02",
-  "llm": "openai",
-  "prompt_text": "Humaans Google Workspace integration: how does it work?",
-  "response": "Humaans' integration with Google Workspace is designed to streamline HR processes by syncing employee data between the two platforms. Here's how it typically works:\n\n1. **User Synchronization**: Humaans can automatically sync user profiles from Google Workspace, ensuring that employee information such as names, email addresses, and job titles are up-to-date and consistent across both systems.\n\n2. **Single Sign-On (SSO)**: By integrating with Google Workspace, Humaans can offer single sign-on capabilities, allowing employees to access the Humaans platform using their Google credentials. This simplifies the login process and enhances security.\n\n3. **Calendar Integration**: Humaans can integrate with Google Calendar to manage employee time-off requests and approvals. This ensures that team calendars are automatically updated with any approved leave, reducing scheduling conflicts.\n\n4. **Document Management**: The integration can facilitate the management of employee documents by linking Google Drive with Humaans. This allows HR teams to store and access important documents directly from Google Drive.\n\n5. **Onboarding and Offboarding**: Humaans can automate parts of the onboarding and offboarding processes by using Google Workspace data to set up or deactivate accounts, assign resources, and manage permissions.\n\nOverall, the integration aims to reduce manual data entry, minimize errors, and improve efficiency by leveraging the capabilities of Google Workspace alongside Humaans' HR platform.",
-  "cached_at": "2026-05-28T06:48:20Z",
-  "metadata": {}
-}

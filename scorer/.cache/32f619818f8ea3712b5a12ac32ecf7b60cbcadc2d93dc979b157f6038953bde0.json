@@ -1,9 +1,0 @@
-{
-  "brand": "Encharge",
-  "prompt_id": "AL-02",
-  "llm": "perplexity",
-  "prompt_text": "Cheaper alternatives to Intercom",
-  "response": "If you want **cheaper alternatives to Intercom**, the strongest budget-friendly options in the results are **Crisp, Freshdesk, Help Scout, Tidio, and Zoho Desk**.[1][2][3][4]\n\n- **Crisp**: Often positioned as a lower-cost all-in-one alternative; one result says it includes **20 seats for $295/month** with extra seats at **€10/month**, and emphasizes flat pricing rather than per-conversation AI fees.[1]\n- **Freshdesk**: Listed as a cheaper SMB-friendly option, with plans starting around **$15/agent/month** in one comparison.[2]\n- **Help Scout**: A lighter shared-inbox option that recently moved to **contact-based pricing**, which can be cheaper for teams with many collaborators.[2][3]\n- **Tidio**: Best if you mainly need **live chat + bots** on a budget; one source says it starts at **$29/month**.[4]\n- **Zoho Desk**: Another low-cost help desk option, with pricing reported at **$7–$40/user/month**.[3]\n- **LiveAgent**: Starts at **$15/agent/month** and can be attractive if you want support tools plus phone support.[2][3]\n\nA practical way to choose:\n- Pick **Crisp** if you want the closest all-in-one Intercom-style experience at lower cost.[1][4]\n- Pick **Freshdesk** or **Zoho Desk** if you want a more traditional help desk and lower per-agent pricing.[2][3]\n- Pick **Help Scout** if your team wants a simple, email-like inbox rather than a heavy support suite.[2][3]\n- Pick **Tidio** if live chat automation is the main need and you want the lowest entry price.[4]\n\nIf you want, I can turn this into a **shortlist by team size** or a **feature-by-feature comparison with Intercom**.",
-  "cached_at": "2026-05-28T07:29:04Z",
-  "metadata": {}
-}

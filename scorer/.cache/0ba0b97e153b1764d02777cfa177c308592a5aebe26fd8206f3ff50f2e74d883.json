@@ -1,9 +1,0 @@
-{
-  "brand": "Make",
-  "prompt_id": "CM-01",
-  "llm": "anthropic",
-  "prompt_text": "Make vs Zapier: which is better?",
-  "response": "# Make vs Zapier: Key Differences\n\n## **Make (formerly Integromat)**\n**Better for:** Complex workflows, visual builders, power users\n\n- More powerful automation logic (loops, filters, branching)\n- Lower cost at scale\n- Steeper learning curve\n- Better for intricate multi-step processes\n- Stronger visual workflow editor\n\n## **Zapier**\n**Better for:** Quick setup, simplicity, beginners\n\n- Easier to learn and faster to implement\n- More app integrations (6,000+)\n- Better documentation & community support\n- Higher pricing as complexity grows\n- Better for simple trigger → action flows\n\n## **Quick Comparison**\n\n| Factor | Make | Zapier |\n|--------|------|--------|\n| **Price** | Lower at scale | Higher complexity cost |\n| **Learning curve** | Steeper | Easier |\n| **App integrations** | ~1,000 | ~6,000 |\n| **Workflow complexity** | Excellent | Good |\n| **Support** | Growing | Extensive |\n\n## **The Bottom Line**\n- **Start with Zapier** if you're new to automation\n- **Switch to Make** if you need complex logic or want to save money long-term\n- Many teams use **both** for different purposes\n\nWhat type of automation are you looking to build? That would help narrow it down.",
-  "cached_at": "2026-05-28T08:53:27Z",
-  "metadata": {}
-}

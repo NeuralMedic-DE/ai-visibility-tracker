@@ -1,9 +1,0 @@
-{
-  "brand": "Vercel",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Vercel with GitHub?",
-  "response": "# Connecting Vercel with GitHub\n\nHere's how to connect your GitHub account to Vercel:\n\n## Option 1: During Project Import (Easiest)\n\n1. Go to [vercel.com](https://vercel.com) and sign in\n2. Click **\"Add New\"** → **\"Project\"**\n3. Click **\"Continue with GitHub\"**\n4. You'll be prompted to authorize Vercel in GitHub\n5. Select the GitHub account and repositories you want to connect\n6. Click **\"Install\"**\n\n## Option 2: Connect Existing Account\n\n1. Sign in to Vercel\n2. Go to **Settings** → **Integrations**\n3. Find the GitHub integration\n4. Click **\"Connect\"** or **\"Manage\"**\n5. Authorize Vercel to access your GitHub repositories\n\n## After Connecting\n\nOnce connected, you can:\n- **Import repositories** directly into Vercel\n- **Enable automatic deployments** on every push\n- **Create preview deployments** for pull requests\n- **Manage permissions** in the integration settings\n\n## Disconnecting\n\nIf you need to disconnect:\n1. Go to **Settings** → **Integrations** in Vercel\n2. Find the GitHub integration\n3. Click **\"Disconnect\"**\n\n---\n\n**Tip:** Make sure you have admin access to the GitHub repositories you want to connect. You can grant Vercel access to specific repositories or all repositories during setup.",
-  "cached_at": "2026-05-27T21:29:00Z",
-  "metadata": {}
-}

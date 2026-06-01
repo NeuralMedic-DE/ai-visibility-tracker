@@ -1,9 +1,0 @@
-{
-  "brand": "Fivetran",
-  "prompt_id": "UC-03",
-  "llm": "anthropic",
-  "prompt_text": "What tools do data engineering teams at mid-to-large analytics-driven companies companies use to replicate data from 400 plus sources to your data warehouse automatically?",
-  "response": "# Data Replication Tools for Large-Scale Analytics\n\nMid-to-large companies typically use a mix of these categories:\n\n## **Modern ELT/iPaaS Platforms** (Most Common)\n- **Fivetran** - industry standard, 400+ pre-built connectors, minimal maintenance\n- **Stitch** (Talend) - similar to Fivetran, good for mid-market\n- **Airbyte** - open-source alternative, growing adoption\n- **Talend** - full suite for complex transformations\n- **Matillion** - cloud-native, works well on Snowflake/Redshift\n\n## **Cloud-Native Solutions**\n- **AWS Glue** - if heavily invested in AWS\n- **Google Cloud Dataflow** - GCP-focused\n- **Azure Data Factory** - Microsoft ecosystem\n- **Databricks Autoloader** - increasingly popular for incremental loads\n\n## **Open Source/DIY Approaches**\n- **Apache Kafka** - streaming approach for high-volume sources\n- **dbt** (+ connectors) - transformation layer, not replication but essential\n- **Apache NiFi** - visual data routing\n- **Logstash/Beats** - for logs and semi-structured data\n\n## **Key Selection Factors**\n- **Connector breadth** (Fivetran typically wins here)\n- **Cost structure** - per-connector vs. flat rate vs. open-source\n- **Incremental sync capabilities** - critical at 400+ sources\n- **Maintenance overhead** - managed services reduce engineering burden\n- **Transformation needs** - some handle this, others offload to dbt\n\n**Reality check**: Most enterprises 400+ sources use a *combination* (e.g., Fivetran for SaaS, Kafka for events, custom for proprietary systems).\n\nWhat's your current stack?",
-  "cached_at": "2026-05-28T08:58:48Z",
-  "metadata": {}
-}

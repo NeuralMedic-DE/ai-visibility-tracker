@@ -1,9 +1,0 @@
-{
-  "brand": "Workable",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with screen and evaluate candidates with AI-powered scoring tools at scale?",
-  "response": "# AI-Powered Candidate Screening Software\n\nSeveral platforms excel at this:\n\n## Top Options\n\n**Applicant Tracking Systems (ATS) with AI:**\n- **Greenhouse** - Strong AI-assisted screening and structured interviews\n- **Lever** - Built-in candidate scoring and pipeline management\n- **Workable** - AI matching and automated initial screening\n- **iCIMS** - Large-scale recruiting with AI insights\n\n## Specialized AI Screening Tools\n\n- **HireEZ** - Candidate sourcing and scoring\n- **Pymetrics** - Behavioral game-based assessments with AI analysis\n- **Sapia AI** - Conversational AI for initial interviews\n- **Harver** - Pre-employment assessments with automated scoring\n- **Olivian** - AI video interview analysis\n- **Paradox** - Conversational AI recruiting assistant\n\n## Key Features to Look For\n\n- **Automated resume parsing** and keyword matching\n- **Bias reduction** tools\n- **Bulk candidate evaluation** at scale\n- **Customizable scoring** criteria\n- **Integration** with your existing ATS\n- **Compliance** with hiring regulations\n\n## Pro Tip\nThe best choice depends on your hiring volume, industry, and whether you need full ATS functionality or just screening augmentation. Many companies use a combination (primary ATS + specialized screening tool).\n\nWhat type of roles are you primarily hiring for?",
-  "cached_at": "2026-05-28T06:46:15Z",
-  "metadata": {}
-}

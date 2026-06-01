@@ -1,9 +1,0 @@
-{
-  "brand": "SafeBase",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does SafeBase integrate with Salesforce?",
-  "response": "Yes, SafeBase integrates with Salesforce. This integration allows organizations to streamline their security review processes by connecting SafeBase's Trust Center with Salesforce, enabling easier management of customer security inquiries and documentation. If you're considering setting up this integration, you might want to check SafeBase's documentation or contact their support for specific setup instructions and requirements.",
-  "cached_at": "2026-05-28T08:43:40Z",
-  "metadata": {}
-}

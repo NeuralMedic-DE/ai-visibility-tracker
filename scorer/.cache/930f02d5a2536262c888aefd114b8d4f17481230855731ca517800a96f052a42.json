@@ -1,9 +1,0 @@
-{
-  "brand": "Zapier",
-  "prompt_id": "AL-05",
-  "llm": "openai",
-  "prompt_text": "Open source or affordable automation tools instead of n8n",
-  "response": "If you're looking for open-source or affordable automation tools as alternatives to n8n, here are a few options you might consider:\n\n1. **Node-RED**: An open-source flow-based development tool for visual programming, ideal for wiring together hardware devices, APIs, and online services.\n\n2. **Huginn**: An open-source system for building agents that perform automated tasks. It's particularly useful for monitoring and responding to events.\n\n3. **Integromat (now Make)**: While not open-source, Make offers affordable plans and is known for its powerful automation capabilities and user-friendly interface.\n\n4. **Zapier**: Although not open-source, Zapier is a popular choice for automation with a free tier that might be sufficient for smaller projects.\n\n5. **Automate.io**: Another affordable option that provides a simple interface for connecting apps and automating workflows.\n\n6. **Apache NiFi**: An open-source data automation tool that supports powerful and scalable directed graphs of data routing, transformation, and system mediation logic.\n\n7. **Bipio**: An open-source personal API platform for creating and managing workflows.\n\nEach of these tools has its own strengths and use cases, so the best choice will depend on your specific needs, such as the complexity of the workflows, the number of integrations required, and your budget.",
-  "cached_at": "2026-05-28T08:51:12Z",
-  "metadata": {}
-}

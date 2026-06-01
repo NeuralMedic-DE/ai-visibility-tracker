@@ -1,9 +1,0 @@
-{
-  "brand": "LangChain",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does LangChain integrate with OpenAI?",
-  "response": "# Yes, LangChain integrates with OpenAI\n\nLangChain has strong integration with OpenAI's APIs. Here are the key integration points:\n\n## Main Integrations\n\n**Language Models**\n- GPT-4, GPT-3.5-turbo, and other OpenAI models\n- Accessible via `ChatOpenAI` and `OpenAI` classes\n- Streaming support available\n\n**Embeddings**\n- OpenAI's embedding models (text-embedding-3-small, text-embedding-3-large, etc.)\n- Used for vector representation of text\n\n**Other Services**\n- Vision capabilities (image analysis)\n- Function calling support\n\n## Basic Example\n\n```python\nfrom langchain_openai import ChatOpenAI\n\nllm = ChatOpenAI(\n    model=\"gpt-4\",\n    api_key=\"your-api-key\"\n)\n\nresponse = llm.invoke(\"What is LangChain?\")\n```\n\n## Setup\n\nYou'll need:\n1. An OpenAI API key\n2. `langchain-openai` package installed:\n   ```bash\n   pip install langchain-openai\n   ```\n\n## Notes\n\n- The integration is actively maintained\n- OpenAI is one of the most commonly used LLM providers with LangChain\n- LangChain also supports many other providers (Anthropic, Google, local models, etc.) if you want flexibility\n\nIs there a specific OpenAI feature you're looking to use with LangChain?",
-  "cached_at": "2026-05-28T07:40:07Z",
-  "metadata": {}
-}

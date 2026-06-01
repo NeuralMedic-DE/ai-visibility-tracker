@@ -1,9 +1,0 @@
-{
-  "brand": "Amplemarket",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to ZoomInfo",
-  "response": "# Cheaper Alternatives to ZoomInfo\n\n## Free or Freemium Options\n- **Hunter.io** - Email finding; free tier covers basic searches\n- **RocketReach** - Contact database with limited free credits\n- **Apollo.io** - Sales intelligence with free plan\n- **Clearbit** - B2B data API with free tier\n- **LinkedIn Sales Navigator** - Built-in tool; lower cost than ZoomInfo\n\n## Budget-Friendly Paid Tools\n- **Clay** - Data enrichment starting ~$99/month\n- **Lusha** - Contact intel at lower price points\n- **Datagma** - Email finder with competitive pricing\n- **Dripify** - LinkedIn-based prospecting (~$29/month)\n- **Captain Data** - Web scraping alternative\n\n## Industry-Specific Options\n- **PipeDrive** (CRM with built-in contact data)\n- **Freshsales** (affordable CRM alternative)\n- **HubSpot Free CRM** (limited but functional)\n\n## DIY/Hybrid Approaches\n- LinkedIn directly + email finders\n- Google Sheets + API integrations\n- Public records databases\n- Industry directories\n\n## Key Considerations\n- **What you actually need**: Full profiles? Just emails? Phone numbers?\n- **Volume required**: Some freemium tools work well for small teams\n- **Budget vs. time**: Cheaper tools may require more manual work\n\n**What's your main use case?** (Lead generation, hiring, market research?) That would help narrow down the best option.",
-  "cached_at": "2026-05-27T19:03:43Z",
-  "metadata": {}
-}

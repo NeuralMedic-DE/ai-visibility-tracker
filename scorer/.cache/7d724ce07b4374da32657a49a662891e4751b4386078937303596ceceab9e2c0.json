@@ -1,9 +1,0 @@
-{
-  "brand": "UserVoice",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable product feedback tools instead of Aha!",
-  "response": "# Open Source & Affordable Alternatives to Aha!\n\n## **Free/Open Source Options**\n\n### **Plane**\n- Open-source product roadmap & feedback tool\n- Self-hosted or cloud\n- Roadmaps, boards, cycles, modules\n- GitHub-based, actively maintained\n- *Cost: Free self-hosted, affordable cloud*\n\n### **OpenProject**\n- Project management + roadmapping\n- Open source, self-hosted option\n- Gantt charts, agile boards\n- *Cost: Free community edition*\n\n### **Fider**\n- Feedback collection & voting platform\n- Open source, fully self-hosted\n- Public roadmap features\n- *Cost: Free*\n\n### **Canny**\n- Not open source, but affordable\n- Strong feedback/voting mechanics\n- Good integrations\n- *Cost: $50-$300/month (cheaper than Aha!)*\n\n---\n\n## **Budget-Friendly Alternatives**\n\n### **Productboard** (~$40/month)\n- Lightweight feedback aggregation\n- Good for small teams\n\n### **Hellonext**\n- Feedback + roadmap\n- Pricing starts low (~$50/month)\n- Simple UI\n\n### **Feature Requests by Upvoty**\n- Dedicated feedback collection\n- More affordable than Aha!\n\n### **Trello + Power-Ups**\n- Use for roadmaps with Butler/API\n- *Cost: ~$10-20/month*\n\n---\n\n**Best recommendation:** Start with **Plane** if you want open source, or **Canny** if you need simplicity and affordability.\n\nWhat's your main use case?",
-  "cached_at": "2026-05-28T08:24:14Z",
-  "metadata": {}
-}

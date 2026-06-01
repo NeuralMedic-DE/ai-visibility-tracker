@@ -1,9 +1,0 @@
-{
-  "brand": "Brevo",
-  "prompt_id": "AL-02",
-  "llm": "openai",
-  "prompt_text": "Cheaper alternatives to ActiveCampaign",
-  "response": "If you're looking for cheaper alternatives to ActiveCampaign for email marketing and automation, here are a few options to consider:\n\n1. **Mailchimp**: Offers a free plan with basic features and affordable paid plans. It's user-friendly and widely used by small businesses.\n\n2. **MailerLite**: Known for its simplicity and affordability, MailerLite offers a free plan with limited features and competitive pricing for premium plans.\n\n3. **Sendinblue**: Provides a free plan with a limited number of emails per day and affordable pricing for additional features. It also includes SMS marketing.\n\n4. **Moosend**: Offers a free plan with unlimited emails and affordable paid plans. It's known for its easy-to-use interface and robust automation features.\n\n5. **GetResponse**: Offers a range of pricing plans, including a free plan for basic email marketing needs. It includes features like landing pages and webinars.\n\n6. **ConvertKit**: While primarily aimed at creators, ConvertKit offers a free plan and affordable pricing for more advanced features, focusing on simplicity and automation.\n\n7. **Benchmark Email**: Offers a free plan with limited features and competitive pricing for more advanced needs. It's known for its intuitive drag-and-drop email builder.\n\n8. **AWeber**: Provides a free plan for up to 500 subscribers and offers affordable pricing for larger lists. It's a well-established platform with a range of features.\n\nWhen choosing an alternative, consider the specific features you need, such as automation, segmentation, or integrations, and compare them to the pricing plans offered by each provider.",
-  "cached_at": "2026-05-28T07:25:55Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Personio",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Personio with Slack?",
-  "response": "# Connecting Personio with Slack\n\nHere are the main steps to integrate Personio with Slack:\n\n## Option 1: Using Personio's Built-in Slack Integration\n\n1. **Log in to Personio** as an administrator\n2. **Go to Settings** → **Integrations** or **Apps**\n3. **Find Slack** in the available integrations\n4. **Click \"Connect\"** or **\"Authorize\"**\n5. **Review permissions** that Personio will request\n6. **Click \"Allow\"** to authorize the connection\n7. **Select which Slack workspace** (if you have multiple)\n8. **Configure notification settings** (which events trigger Slack messages)\n\n## Common Integrations Available\n\n- **HR notifications** - New hires, departures, birthdays\n- **Approval workflows** - Time off requests, expense approvals\n- **Leave balance reminders**\n- **Employee milestones**\n\n## Option 2: Using Zapier or Make (formerly Integromat)\n\nIf Personio doesn't have a direct Slack app:\n1. Visit **Zapier.com** or **Make.com**\n2. Create a new Zap/Automation\n3. Select **Personio** as the trigger\n4. Select **Slack** as the action\n5. Connect both accounts and configure\n\n## Tips\n\n- Ensure you have **admin access** in both Personio and Slack\n- Check your **Slack workspace permissions**\n- Test with a notification type before full rollout\n\n**Need help with specific settings?** Let me know what you're trying to accomplish!",
-  "cached_at": "2026-05-28T06:35:05Z",
-  "metadata": {}
-}

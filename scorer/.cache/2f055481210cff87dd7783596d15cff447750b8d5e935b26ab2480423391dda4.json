@@ -1,9 +1,0 @@
-{
-  "brand": "Rippling",
-  "prompt_id": "IN-02",
-  "llm": "openai",
-  "prompt_text": "Rippling Google Workspace integration: how does it work?",
-  "response": "Rippling's integration with Google Workspace is designed to streamline the management of user accounts and access within an organization. Here's how it typically works:\n\n1. **User Provisioning and Deprovisioning**: When you onboard a new employee in Rippling, the integration can automatically create a Google Workspace account for them. Similarly, when an employee leaves the company, their Google Workspace account can be automatically deactivated or deleted, ensuring that access is revoked promptly.\n\n2. **Single Sign-On (SSO)**: Rippling can integrate with Google Workspace to provide single sign-on capabilities. This means employees can use their Rippling credentials to access Google Workspace, simplifying the login process and enhancing security.\n\n3. **Directory Sync**: Rippling can sync employee data with Google Workspace, ensuring that user information such as names, email addresses, and roles are consistent across both platforms. This reduces the need for manual updates and minimizes errors.\n\n4. **Access Management**: Through the integration, you can manage which Google Workspace applications and services employees have access to, based on their roles or departments within the organization.\n\n5. **Automated Workflows**: Rippling allows you to set up automated workflows that trigger actions in Google Workspace based on certain events, such as changes in employee status or role.\n\nOverall, the integration aims to reduce administrative overhead, improve security, and ensure that employees have the necessary tools and access to perform their jobs efficiently.",
-  "cached_at": "2026-05-28T06:27:43Z",
-  "metadata": {}
-}

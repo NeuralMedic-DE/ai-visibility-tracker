@@ -1,9 +1,0 @@
-{
-  "brand": "Portkey",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best AI tooling that works with OpenAI and Anthropic",
-  "response": "# Best AI Tooling for OpenAI & Anthropic\n\n## Development Frameworks\n\n**LangChain** (Most popular)\n- Multi-model support out of the box\n- Extensive integrations and memory management\n- Great for RAG and agent workflows\n\n**LlamaIndex** (RAG-focused)\n- Specialized for document indexing and retrieval\n- Excellent with both providers\n- Strong for production retrieval systems\n\n**Anthropic's Claude SDK** + **OpenAI SDK**\n- Native, lightweight libraries\n- Best for direct control\n- Less overhead than frameworks\n\n**Vercel AI SDK**\n- Modern, edge-friendly\n- Great TypeScript support\n- Built-in streaming and UI helpers\n\n## Evaluation & Testing\n\n**Braintrust**\n- Compare outputs across models\n- Automated evaluation\n- Cost tracking\n\n**Arize/Weights & Biases**\n- Monitor performance in production\n- Model comparison dashboards\n- Cost analysis\n\n## Prompting & Experimentation\n\n**Promptfoo**\n- CLI-based testing framework\n- Compare prompt quality across models\n- Cost/latency benchmarking\n\n**PromptLayer**\n- Track all API calls\n- Prompt versioning\n- Usage analytics\n\n## Infrastructure\n\n**Together AI** or **Replicate**\n- Multi-model endpoints\n- Unified rate limiting\n- Cost optimization\n\n**Supabase + PostgreSQL**\n- Vector storage (pgvector)\n- Works with both providers\n- Open-source friendly\n\n## What's your specific use case?\nThe best choice depends on whether you need RAG, agents, production monitoring, or simple API calls.",
-  "cached_at": "2026-05-28T07:52:20Z",
-  "metadata": {}
-}

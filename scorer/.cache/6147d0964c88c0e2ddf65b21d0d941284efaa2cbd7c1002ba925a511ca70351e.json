@@ -1,9 +1,0 @@
-{
-  "brand": "Workato",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Workato integrate with SAP?",
-  "response": "Yes, Workato does integrate with SAP. Workato provides connectors and tools that allow you to automate workflows and integrate SAP with various other applications and services. This integration enables you to streamline processes, synchronize data, and enhance the functionality of your SAP system by connecting it with other business applications.",
-  "cached_at": "2026-05-28T09:13:35Z",
-  "metadata": {}
-}

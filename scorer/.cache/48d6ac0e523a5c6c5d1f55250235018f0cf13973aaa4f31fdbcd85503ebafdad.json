@@ -1,9 +1,0 @@
-{
-  "brand": "Mosaic",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with run scenario analysis and board reporting without relying on spreadsheets at scale?",
-  "response": "# Software for Scenario Analysis & Board Reporting (Beyond Spreadsheets)\n\n## Purpose-Built Planning Platforms\n- **Anaplan** (Salesforce) – Strong for multi-scenario modeling and what-if analysis\n- **Planful** (formerly Host Analytics) – Focuses on FP&A, planning, and board reporting\n- **Valu Studio** – Good for scenario modeling and interactive dashboards\n- **Pigment** – Modern, visual planning with scenario comparison features\n\n## General EPM/BI Platforms\n- **Power BI** + dedicated planning tools – Dashboarding with some modeling capability\n- **Tableau** – Excellent visualization but requires data prep elsewhere\n- **Looker** – BI-focused; less ideal for complex scenario creation\n- **Qlik** – Associative analysis works well for exploratory scenarios\n\n## CFO-Specific Tools\n- **OneStream** – Unified CPM platform (planning, consolidation, reporting)\n- **BlackLine** – More accounting-focused, but integrates with planning\n- **Kyriba** – Treasury and risk, with scenario capabilities\n\n## Key Selection Criteria\n- **Collaborative modeling** (multiple users building scenarios simultaneously)\n- **Version control** (track scenario changes)\n- **Built-in consolidation** (if you need multi-entity reporting)\n- **Board-ready output** (automated formatting and distribution)\n- **API connectivity** (integrates with your ERP/data sources)\n\nWhat's your primary use case—financial planning, treasury, operational scenarios, or board reporting specifically? That narrows it significantly.",
-  "cached_at": "2026-05-28T07:10:20Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Close",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Close integrate with Slack?",
-  "response": "Yes. **Close can integrate with Slack**, but it is done via third‑party automation tools and iPaaS platforms rather than a single “native” Close→Slack app.\n\nThe main ways to connect Close with Slack are:\n\n- **Zapier** – Provides many ready‑made workflows to send **Slack messages based on Close events**, such as:  \n  - Send Slack channel messages for new opportunities in a specific status in Close  \n  - Post Close activity reports to a Slack channel on demand[2]  \n  Zapier handles the integration without code and can combine Close + Slack with other apps in your stack[2].\n\n- **Make (Integromat)** – Lets you build **visual workflows** that connect Close CRM and Slack using triggers (e.g., new lead, updated opportunity) and actions (e.g., send Slack message, create Slack channel)[3].  \n  It supports custom scenarios and multi‑step automations between Close CRM and Slack[3].\n\n- **Integrately, Skyvia, and similar tools** –  \n  - Integrately offers one‑click Close–Slack automations like sending a Slack message when a new task is created or a new contact is added in Close[1].  \n  - Skyvia provides a no‑code tool to **sync or move data between Close and Slack** with filtering and transformations, including upsert (insert or update) operations[4].\n\nIf you tell me what you want the integration to do (for example: “notify a Slack channel when a deal moves to ‘Won’ in Close” or “post daily Close activity summaries to Slack”), I can outline the exact steps using Zapier or Make.",
-  "cached_at": "2026-05-27T17:42:11Z",
-  "metadata": {}
-}

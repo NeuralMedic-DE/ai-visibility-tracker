@@ -1,9 +1,0 @@
-{
-  "brand": "Plausible",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with monitor conversion funnels without compromising user privacy at scale?",
-  "response": "# Privacy-Respecting Funnel Analytics Options\n\n## First-Party Data Approaches\n- **Plausible Analytics** - Privacy-focused alternative to Google Analytics; uses server-side tracking without cookies\n- **Fathom Analytics** - GDPR/CCPA compliant, no cookie consent needed\n- **Matomo** (self-hosted) - Full control over data storage and processing\n- **Heap** - Captures user interactions server-side; offers privacy modes\n\n## Privacy-Enhanced Tracking Methods\n- **Server-side tracking** - Process events on your infrastructure rather than client browsers\n- **First-party cookie strategies** - Using your own domain rather than third-party trackers\n- **Aggregated/anonymized dashboards** - Report on cohorts rather than individual users\n- **Contextual data** (page URL, referrer, time) - Meaningful without PII collection\n\n## Enterprise Solutions\n- **Segment** (privacy-conscious configuration) - CDPs with privacy controls built in\n- **Mixpanel** - Offers privacy mode and data governance tools\n- **Amplitude** - HIPAA/SOC 2 compliant with privacy controls\n\n## Key Questions to Evaluate\n- Do you need individual user journeys or cohort-level insights?\n- Can you work with aggregated data instead of granular tracking?\n- What's your infrastructure capacity for self-hosting?\n- Which regulations apply? (GDPR, CCPA, etc.)\n\n**The tradeoff**: Maximum privacy often means losing some detailed funnel segmentation. Most teams find aggregated cohort analysis sufficient while dramatically reducing privacy risk.\n\nWhat's your scale and primary regulation concern?",
-  "cached_at": "2026-05-27T20:18:56Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Zapier",
-  "prompt_id": "UC-01",
-  "llm": "openai",
-  "prompt_text": "How do I connect apps and automate repetitive workflows without writing any code without spending a lot on software?",
-  "response": "To connect apps and automate workflows without writing code, you can use no-code automation platforms. Many of these platforms offer free tiers or affordable pricing plans. Here are some popular options:\n\n1. **Zapier**: Zapier is a widely used tool that allows you to connect different apps and automate workflows, known as \"Zaps.\" It supports thousands of apps and offers a free plan with basic features and limited tasks per month.\n\n2. **Integromat (now Make)**: Integromat, rebranded as Make, provides a visual interface to create complex workflows. It offers a free plan with limited operations per month and supports a wide range of apps.\n\n3. **IFTTT (If This Then That)**: IFTTT is a simple automation tool that connects apps and devices. It offers a free plan that allows you to create basic applets.\n\n4. **Microsoft Power Automate**: Part of the Microsoft Power Platform, Power Automate allows you to automate workflows between Microsoft services and third-party apps. It offers a free plan with limited features.\n\n5. **Automate.io**: Automate.io is another user-friendly tool for connecting apps and automating tasks. It offers a free plan with a limited number of bots and actions.\n\n6. **n8n**: n8n is an open-source workflow automation tool that you can self-host for free. It provides a visual interface to create complex workflows and supports many integrations.\n\nThese platforms typically offer drag-and-drop interfaces to set up triggers and actions between apps, making it easy to automate tasks without any coding knowledge. Be sure to review the features and limitations of each platform's free tier to determine which one best suits your needs.",
-  "cached_at": "2026-05-28T08:51:13Z",
-  "metadata": {}
-}

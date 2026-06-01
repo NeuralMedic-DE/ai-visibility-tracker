@@ -1,9 +1,0 @@
-{
-  "brand": "Customer.io",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I send behavior-triggered emails and push notifications at scale without spending a lot on software?",
-  "response": "# Low-Cost Behavior-Triggered Automation\n\n## Free/Cheap Platforms\n\n**Email:**\n- **Mailchimp** - Free tier includes automation for up to 500 contacts\n- **Brevo (Sendinblue)** - Free automation workflows, 300 emails/day\n- **Klaviyo** - Generous free tier if you have <500 contacts; great for e-commerce triggers\n- **ConvertKit** - Free automation for creators\n\n**Push Notifications:**\n- **OneSignal** - Free tier with unlimited sends up to 30,000 subscribers\n- **Firebase Cloud Messaging** - Free, but requires some technical setup\n- **Pushwoosh** - Free tier available\n\n## DIY + Zapier Approach (Cheapest)\n\nCombine free tools with Zapier ($20-30/month):\n\n1. **Trigger source** (free): Shopify, Typeform, Google Sheets, webhooks\n2. **Zapier** (paid): Routes data based on conditions\n3. **Email/SMS** (free tier): Brevo or Mailchimp\n4. **Push** (free): OneSignal\n\nThis scales reasonably well without buying expensive CDP software.\n\n## Important Caveats\n\n- Free tiers have subscriber/email limits—calculate your actual volume\n- You'll hit scaling limits around 10k-50k contacts depending on platform\n- Technical setup varies (some no-code, some require dev work)\n- Deliverability matters more than cost; cheap can mean poor inbox placement\n\n**What's your main trigger type?** (purchase, sign-up, abandoned cart, etc.) That changes the best recommendation.",
-  "cached_at": "2026-05-28T07:14:56Z",
-  "metadata": {}
-}

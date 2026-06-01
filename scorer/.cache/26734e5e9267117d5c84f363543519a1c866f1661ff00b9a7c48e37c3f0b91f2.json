@@ -1,9 +1,0 @@
-{
-  "brand": "Semgrep",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Semgrep integrate with GitHub?",
-  "response": "Yes. **Semgrep integrates with GitHub (cloud and GitHub Enterprise)** via the Semgrep GitHub App, GitHub Actions workflows, and Managed Scans.[2][3][4]\n\nKey integration options:\n\n- **Semgrep GitHub App / Source Code Manager connection**  \n  - You can connect a GitHub organization to Semgrep under **Settings → Source code managers → Add → GitHub** in the Semgrep AppSec Platform.[3]  \n  - This enables Semgrep to:\n    - Manage Semgrep org membership via GitHub  \n    - Post **PR comments** on findings  \n    - Generate hyperlinks from findings back to GitHub code[3]  \n  - Works with **GitHub Cloud** and **GitHub Enterprise** (via the Semgrep App for GHE).[3]\n\n- **GitHub Actions CI integration**  \n  - You can run Semgrep as part of GitHub Actions by adding workflows in `.github/workflows/`, for example `semgrep-full.yaml` and `semgrep-diff.yaml` to do full and PR/differential scans.[1][4]  \n  - The workflow runs the `semgrep` CLI in a job and can upload results as **SARIF** to GitHub’s *Code scanning alerts* in the Security tab.[4][5]\n\n- **Managed Scans with GitHub App**  \n  - Semgrep’s **Managed Scans** feature lets you add GitHub repositories to your Semgrep org in bulk without changing existing CI workflows, using the public or private Semgrep GitHub App.[2]\n\n- **GitHub Enterprise integration**  \n  - Semgrep has built‑in support for **GitHub Enterprise** for Teams/Enterprise tiers, letting it leave PR comments via an access token or the GHE Semgrep App.[1][3]",
-  "cached_at": "2026-05-28T08:50:24Z",
-  "metadata": {}
-}

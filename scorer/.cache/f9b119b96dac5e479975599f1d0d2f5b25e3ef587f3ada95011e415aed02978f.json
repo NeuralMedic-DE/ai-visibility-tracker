@@ -1,9 +1,0 @@
-{
-  "brand": "Chargebee",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with handle complex pricing models and SaaS revenue recognition rules at scale?",
-  "response": "To handle complex pricing models and SaaS revenue recognition rules at scale, you might consider using specialized software solutions such as:\n\n1. **Zuora**: This platform is designed for subscription businesses and offers tools for managing complex pricing models, billing, and revenue recognition.\n\n2. **SaaSOptics**: This software provides comprehensive revenue recognition, subscription management, and financial reporting tailored for SaaS businesses.\n\n3. **Chargebee**: Known for its flexibility in handling recurring billing and subscription management, Chargebee also supports revenue recognition in compliance with accounting standards.\n\n4. **NetSuite**: As a comprehensive ERP solution, NetSuite offers modules for revenue recognition that can handle complex pricing and billing scenarios.\n\n5. **Intacct**: Now part of Sage, Intacct provides robust financial management solutions, including revenue recognition capabilities for SaaS companies.\n\n6. **RevPro by Zuora**: Specifically focused on revenue recognition, RevPro automates and simplifies compliance with revenue standards like ASC 606 and IFRS 15.\n\nThese tools are designed to streamline financial processes, ensure compliance with accounting standards, and provide scalability for growing SaaS businesses.",
-  "cached_at": "2026-05-28T06:50:52Z",
-  "metadata": {}
-}

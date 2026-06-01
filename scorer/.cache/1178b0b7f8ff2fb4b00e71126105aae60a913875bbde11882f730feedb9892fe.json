@@ -1,9 +1,0 @@
-{
-  "brand": "Salesflare",
-  "prompt_id": "IN-03",
-  "llm": "openai",
-  "prompt_text": "How do I connect Salesflare with Gmail?",
-  "response": "To connect Salesflare with Gmail, you can follow these steps:\n\n1. **Sign Up or Log In to Salesflare:**\n   - If you don't have a Salesflare account, you'll need to sign up at [Salesflare's website](https://www.salesflare.com/).\n   - If you already have an account, log in to your Salesflare account.\n\n2. **Access Settings:**\n   - Once logged in, go to the settings menu. This is usually represented by a gear icon or can be found in the dropdown menu under your profile picture or name.\n\n3. **Connect Your Email:**\n   - In the settings, look for an option related to email integration or email accounts.\n   - Choose to connect a new email account.\n\n4. **Select Gmail:**\n   - You will be prompted to select your email provider. Choose Gmail from the list of options.\n\n5. **Authenticate with Google:**\n   - You will be redirected to a Google login page. Enter your Gmail credentials to sign in.\n   - You may also need to grant Salesflare permission to access your Gmail account. This typically involves allowing Salesflare to read and send emails on your behalf, which is necessary for it to function properly.\n\n6. **Complete the Integration:**\n   - Once you have granted the necessary permissions, Salesflare will connect to your Gmail account.\n   - You should receive a confirmation that your Gmail account is now connected.\n\n7. **Verify the Connection:**\n   - To ensure everything is working correctly, you can check if your emails are syncing with Salesflare.\n   - You can also test sending an email from Salesflare to see if it appears in your Gmail sent items.\n\nBy following these steps, you should be able to successfully connect Salesflare with your Gmail account, allowing you to manage your emails and CRM tasks more efficiently.",
-  "cached_at": "2026-05-27T18:12:46Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Lemlist",
-  "prompt_id": "IN-05",
-  "llm": "anthropic",
-  "prompt_text": "sales engagement tools with native HubSpot integration",
-  "response": "# Sales Engagement Tools with Native HubSpot Integration\n\n## Top Options\n\n### **HubSpot Sales Hub** (Native)\n- **Email sequencing & tracking**\n- Built-in cadences and workflows\n- Document tracking and e-signatures\n- Meeting scheduling\n- *Best for: HubSpot-centric teams*\n\n### **Outreach**\n- Advanced sales engagement platform\n- Deep HubSpot sync for contacts/accounts\n- Email sequences, call tracking, coaching\n- *Strength: Enterprise-grade analytics*\n\n### **Salesloft**\n- Cadence automation and dialing\n- Conversation intelligence\n- Native HubSpot connector\n- *Strength: Call + email integration*\n\n### **Apollo.io**\n- Prospecting + engagement combined\n- Email sequencing and multi-channel outreach\n- Native HubSpot CRM sync\n- *Strength: Built-in database of 200M+ contacts*\n\n### **HubSpot Marketplace Options**\n- **Mailshake** - Email sequences & landing pages\n- **Lemlist** - Personalized outreach at scale\n- **Yesware** - Email tracking & templates\n- **Cirrus Insight** - Gmail-based CRM\n\n## Key Integration Features to Look For\n\n✅ Two-way contact/deal sync  \n✅ Activity logging (emails, calls)  \n✅ Real-time data updates  \n✅ Workflow triggers  \n✅ Revenue attribution  \n✅ Native app (not via Zapier)\n\n## Quick Comparison Table\n\n| Tool | Best For | Price Range |\n|------|----------|------------|\n| HubSpot Sales Hub | Native ecosystem | $50-3,200/mo |\n| Outreach | Enterprise sales | Custom pricing |\n| Salesloft | Call-heavy teams | Custom pricing |\n| Apollo | SMB/startup | $49-399/mo |\n| Lemlist | Personalization | $99-499/mo |\n\n**What's your primary use case?** (emails, calls, sequences?) I can narrow recommendations further.",
-  "cached_at": "2026-05-28T07:17:31Z",
-  "metadata": {}
-}

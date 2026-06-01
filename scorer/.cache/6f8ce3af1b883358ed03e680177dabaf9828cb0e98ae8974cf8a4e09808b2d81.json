@@ -1,9 +1,0 @@
-{
-  "brand": "Charlie HR",
-  "prompt_id": "UC-04",
-  "llm": "anthropic",
-  "prompt_text": "How can a HR Manager or SMB Founder in the UK manage employee leave documents and HR admin in one place more efficiently?",
-  "response": "# Managing Employee Leave & HR Admin Efficiently\n\n## Core Solutions\n\n**Integrated HR Management Software**\n- **Workable, BambooHR, or Guidepoint** - consolidated employee records, leave requests, and approvals in one dashboard\n- **Smaller budget? Try Wave or Zoho People** - affordable with essential features\n- Reduces paper shuffling and email chains\n\n## Practical Process Improvements\n\n**Standardize & Automate**\n- Create templates for leave requests (annual, sick, parental, compassionate)\n- Set up automatic approval workflows based on manager level\n- Enable self-service portals so employees submit directly (saves you time)\n\n**Clear Documentation System**\n- Centralized file storage (Google Drive, OneDrive, or your HR software)\n- Folder structure: [Employee Name] → [Leave Records] → [Year]\n- Digital signatures eliminate printing/scanning\n\n**Annual Leave Calendar**\n- Shared visibility tool (Excel, Google Sheets, or built-in software)\n- Prevents double-booking and aids business continuity planning\n\n## UK-Specific Considerations\n\n- **Statutory minimum tracking**: Ensure software records holiday entitlement clearly (for DWP and wage disputes)\n- **GDPR compliance**: Only store necessary data; check software's data handling\n- **Payroll integration**: Link leave records to payroll software to track unpaid time off\n\n## Quick Wins\n- Batch process leave requests weekly vs. daily ad-hoc\n- Set clear approval deadlines (e.g., requests 2+ weeks in advance)\n- Monthly audit to catch errors early\n\n**What's your current bottleneck?** (Email overload? Lost documents? Compliance tracking?) That'll help narrow down the best tool.",
-  "cached_at": "2026-05-28T06:43:55Z",
-  "metadata": {}
-}

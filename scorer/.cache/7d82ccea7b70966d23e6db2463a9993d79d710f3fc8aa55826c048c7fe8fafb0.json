@@ -1,9 +1,0 @@
-{
-  "brand": "HiBob",
-  "prompt_id": "IN-02",
-  "llm": "openai",
-  "prompt_text": "HiBob Google Workspace integration: how does it work?",
-  "response": "The HiBob Google Workspace integration is designed to streamline HR processes by connecting HiBob's HR platform with Google's suite of productivity tools. Here's how it typically works:\n\n1. **Single Sign-On (SSO):** The integration allows users to log into HiBob using their Google Workspace credentials, simplifying access and enhancing security through a unified login system.\n\n2. **Calendar Sync:** HiBob can sync with Google Calendar to manage events, meetings, and time-off requests. This ensures that any HR-related events are automatically reflected in employees' Google Calendars.\n\n3. **Contact Sync:** Employee information from HiBob can be synchronized with Google Contacts, ensuring that contact details are up-to-date across both platforms.\n\n4. **Document Management:** HiBob can integrate with Google Drive, allowing for easy storage and sharing of HR documents. This makes it simple to manage employee files and share important documents securely.\n\n5. **Email Notifications:** The integration can facilitate automated email notifications through Gmail for various HR processes, such as onboarding, time-off approvals, and other employee lifecycle events.\n\n6. **Data Import/Export:** HiBob can import and export data to and from Google Sheets, enabling easy data manipulation and reporting.\n\nOverall, the integration aims to enhance productivity by reducing manual data entry, improving data accuracy, and ensuring seamless communication between HR and other business functions. To set up the integration, you would typically need administrative access to both HiBob and Google Workspace to configure the necessary settings and permissions.",
-  "cached_at": "2026-05-28T06:32:41Z",
-  "metadata": {}
-}

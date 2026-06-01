@@ -1,9 +1,0 @@
-{
-  "brand": "Neon",
-  "prompt_id": "UC-03",
-  "llm": "anthropic",
-  "prompt_text": "What tools do developer teams building SaaS and AI applications companies use to spin up serverless Postgres databases instantly with auto-suspend?",
-  "response": "# Tools for Serverless Postgres with Auto-Suspend\n\nThe main players in this space are:\n\n## **Neon**\n- Purpose-built serverless Postgres with branching\n- Auto-suspend after inactivity (configurable)\n- SQL-based management\n- Good developer experience with CLI and UI\n- Popular choice for startups and AI/LLM applications\n\n## **Vercel Postgres** (Built on Neon)\n- Simplified version integrated with Vercel ecosystem\n- Auto-suspend included\n- Best if already using Vercel for hosting\n- Limited to smaller workloads\n\n## **Supabase**\n- Postgres + built-in auth, realtime, and storage\n- Auto-pause available\n- More feature-rich but slightly less focused on pure serverless\n- Good for full-stack applications\n\n## **AWS Aurora Serverless v2**\n- AWS-native option\n- Auto-scaling rather than auto-suspend\n- More complex setup but powerful for production\n- Higher latency on cold starts\n\n## **PlanetScale** (MySQL alternative)\n- Not Postgres, but worth knowing\n- Instant branching and serverless scaling\n\n## **Typical Developer Workflow**\nMost teams pair these with:\n- **ORMs**: Prisma, Drizzle, or SQLAlchemy\n- **Pooling**: pgBouncer or built-in connection pooling\n- **Infrastructure as Code**: Terraform or cloud provider CLIs\n\n**For AI/LLM apps specifically**, Neon is the most popular due to its instant provisioning, good branch management for testing, and low operational overhead.\n\nWhat's your specific use case?",
-  "cached_at": "2026-05-28T06:17:57Z",
-  "metadata": {}
-}

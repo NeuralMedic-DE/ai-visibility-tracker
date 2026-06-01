@@ -1,9 +1,0 @@
-{
-  "brand": "Pilot",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable finance tools instead of QuickBooks",
-  "response": "# Budget-Friendly Finance Alternatives to QuickBooks\n\n## Free Open-Source Options\n\n**GnuCash**\n- Desktop accounting software (Windows, Mac, Linux)\n- Good for small businesses and personal finance\n- Steep learning curve but very capable\n- No cloud sync (desktop-only)\n\n**Invoice Ninja**\n- Open-source invoicing & time tracking\n- Cloud-based with self-hosting option\n- Free tier available\n- Great for freelancers/service businesses\n\n**Akaunting**\n- Free, open-source invoicing platform\n- Lightweight and simple\n- Self-hosted or cloud\n- Good starting point for beginners\n\n## Affordable Cloud Options\n\n**Wave**\n- **Free** for invoicing, accounting, receipts\n- Paid payroll add-on\n- Great for very small businesses\n- Simple, clean interface\n\n**Zoho Books** (entry tier)\n- ~$10-40/month depending on features\n- Full accounting suite\n- Integrates with other Zoho apps\n- Good value for features\n\n**Xero** (starter plan)\n- ~$13-60/month\n- Professional accounting software\n- Better for growing businesses\n- Strong integrations\n\n## Spreadsheet-Based\n\n**Google Sheets / Excel templates**\n- Nearly free ($0-20/month)\n- Full control and customization\n- Manual data entry required\n- Best for very simple needs\n\n## Quick Comparison Table\n\n| Tool | Cost | Best For | Complexity |\n|------|------|----------|-----------|\n| Wave | Free | Startups | Low |\n| GnuCash | Free | Desktop users | High |\n| Zoho | $10-40 | Growing small biz | Medium |\n| Invoice Ninja | Free/paid | Freelancers | Medium |\n\n**Which to choose?** Start with **Wave** if you want simplicity, or **GnuCash** if you prefer owning your data locally.",
-  "cached_at": "2026-05-28T07:02:39Z",
-  "metadata": {}
-}

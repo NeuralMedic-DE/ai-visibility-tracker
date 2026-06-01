@@ -1,9 +1,0 @@
-{
-  "brand": "Klipfolio",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best business intelligence for marketing and operations teams at SMBs?",
-  "response": "# Best BI Solutions for SMB Marketing & Operations\n\n## Top Options by Approach\n\n**Low-code/No-code (Easiest to adopt)**\n- **Microsoft Power BI** – Strong Excel integration, affordable, good for both teams\n- **Tableau Public/Creator** – Excellent visualizations, intuitive\n- **Looker Studio** (formerly Data Studio) – Free, Google ecosystem integration\n- **Metabase** – Open-source, simple setup\n\n**Specialized for SMBs**\n- **Amplitude** or **Mixpanel** – Product/marketing analytics\n- **Hotjar** – User behavior & heatmaps\n- **Google Analytics 4** – Free, deep marketing insights\n\n## Key Selection Criteria\n\n**For Marketing Teams Need:**\n- Campaign ROI tracking\n- Multi-channel attribution\n- Customer journey visibility\n- Lead/pipeline management\n\n**For Operations Teams Need:**\n- Real-time dashboards\n- Process efficiency metrics\n- Inventory/resource tracking\n- KPI monitoring\n\n## Practical Recommendation\n\n**Start with:** Power BI or Looker Studio (depending on your tech stack)\n- **Why:** Low cost, reasonable learning curve, handles 80% of SMB needs\n- **Budget:** $10-50/user/month\n- **Implementation:** 2-8 weeks\n\n**Consider:** Best-of-breed tools for specific functions\n- Rather than one platform doing everything poorly, use focused tools (e.g., Shopify for ecommerce metrics + Power BI for consolidated view)\n\n**What matters most for your recommendation?**\n- Current data sources (Excel, CRM, ecommerce platform)?\n- Team technical skills?\n- Budget constraints?",
-  "cached_at": "2026-05-27T20:26:33Z",
-  "metadata": {}
-}

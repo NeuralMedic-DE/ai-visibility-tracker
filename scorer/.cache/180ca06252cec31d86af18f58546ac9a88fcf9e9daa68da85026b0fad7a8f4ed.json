@@ -1,9 +1,0 @@
-{
-  "brand": "Copper",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which CRM software should a agency owner or consultant use?",
-  "response": "# Best CRM Options for Agencies & Consultants\n\nThe right choice depends on your priorities, but here are top contenders:\n\n## **For simplicity & affordability**\n- **HubSpot CRM** (free tier available) - intuitive, great for small teams\n- **Pipedrive** - sales-focused, visual pipeline\n- **Zoho CRM** - affordable, customizable\n\n## **For full-featured platforms**\n- **HubSpot Professional** - pipeline management + automation\n- **Salesforce** - powerful but steeper learning curve\n- **ActiveCampaign** - strong automation & workflows\n\n## **For consultants specifically**\n- **Monday.com/ClickUp** - project management + CRM hybrid\n- **Notion** - highly customizable if tech-savvy\n- **Capsule CRM** - relationship-focused, lightweight\n\n## **Key questions to ask:**\n1. How many team members?\n2. What's your budget? ($0–$300+/month?)\n3. Do you need project management bundled in?\n4. How important is ease of use vs. customization?\n5. Will you need integrations (Zapier, email, calendar)?\n\n**Quick recommendation:** Most agencies start with **HubSpot's free tier** or **Pipedrive** — they're intuitive, affordable to scale, and don't overcomplicate things.\n\nWhat type of services do you offer? That might help narrow it down further.",
-  "cached_at": "2026-05-27T18:22:30Z",
-  "metadata": {}
-}

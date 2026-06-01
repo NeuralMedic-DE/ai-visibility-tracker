@@ -1,9 +1,0 @@
-{
-  "brand": "Rho",
-  "prompt_id": "IN-02",
-  "llm": "openai",
-  "prompt_text": "Rho Stripe integration: how does it work?",
-  "response": "Rho's integration with Stripe is designed to streamline financial operations for businesses by connecting Rho's financial platform with Stripe's payment processing capabilities. Here's how the integration typically works:\n\n1. **Account Linking**: Businesses can link their Stripe account to their Rho account. This connection allows Rho to access transaction data from Stripe, providing a comprehensive view of financial activities.\n\n2. **Transaction Syncing**: Once the accounts are linked, transactions processed through Stripe are automatically synced to Rho. This includes payments, refunds, and other financial activities, ensuring that all data is up-to-date and accurate.\n\n3. **Financial Management**: With the integration, businesses can manage their finances more efficiently. Rho provides tools for cash flow management, expense tracking, and financial reporting, all of which can incorporate data from Stripe transactions.\n\n4. **Reconciliation**: The integration helps automate the reconciliation process by matching Stripe transactions with bank statements and other financial records within Rho. This reduces manual effort and minimizes errors.\n\n5. **Insights and Reporting**: Rho can generate detailed financial reports and insights using data from Stripe. This helps businesses understand their revenue streams, customer payments, and overall financial health.\n\n6. **Security and Compliance**: Both Rho and Stripe prioritize security and compliance, ensuring that all financial data is handled securely and in accordance with relevant regulations.\n\nOverall, the Rho Stripe integration is designed to provide businesses with a seamless financial management experience by combining the strengths of both platforms.",
-  "cached_at": "2026-05-28T07:12:41Z",
-  "metadata": {}
-}

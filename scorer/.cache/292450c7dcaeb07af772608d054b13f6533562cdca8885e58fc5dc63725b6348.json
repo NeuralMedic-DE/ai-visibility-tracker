@@ -1,9 +1,0 @@
-{
-  "brand": "Apollo.io",
-  "prompt_id": "CD-01",
-  "llm": "openai",
-  "prompt_text": "What is the best CRM for SDR teams at B2B companies?",
-  "response": "The best CRM for SDR teams at B2B companies often depends on specific needs, such as integration capabilities, ease of use, and budget. However, some of the most popular and highly regarded CRMs for such teams include:\n\n1. **Salesforce**: Known for its robust features and extensive customization options, Salesforce is a leading choice for B2B companies. It offers comprehensive tools for managing leads, opportunities, and customer interactions.\n\n2. **HubSpot CRM**: HubSpot offers a user-friendly interface and strong integration with its marketing tools, making it a great option for companies looking to align their sales and marketing efforts.\n\n3. **Pipedrive**: This CRM is designed with sales teams in mind, providing an intuitive pipeline management system that helps SDRs track deals and activities efficiently.\n\n4. **Zoho CRM**: Zoho offers a cost-effective solution with a wide range of features, including automation, analytics, and integration with other Zoho products.\n\n5. **Outreach**: While not a traditional CRM, Outreach is a sales engagement platform that integrates well with CRMs like Salesforce and is specifically designed to enhance the productivity of SDR teams through automation and analytics.\n\n6. **SalesLoft**: Similar to Outreach, SalesLoft focuses on sales engagement and provides tools to help SDRs manage their workflows and improve communication with prospects.\n\nUltimately, the best CRM will depend on the specific requirements of your SDR team, such as the need for specific integrations, reporting capabilities, or user interface preferences. It's often beneficial to take advantage of free trials or demos to determine which CRM best fits your team's workflow.",
-  "cached_at": "2026-05-27T18:00:26Z",
-  "metadata": {}
-}

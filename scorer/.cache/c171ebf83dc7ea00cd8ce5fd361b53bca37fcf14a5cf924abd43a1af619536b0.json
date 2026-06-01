@@ -1,9 +1,0 @@
-{
-  "brand": "Mailmodo",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Customer.io vs alternatives: what should I switch to?",
-  "response": "# Customer.io Alternatives Comparison\n\n**Best overall replacements depend on your priorities:**\n\n## If you want better **automation + CRM**\n- **HubSpot** – More integrated, stronger sales features, but pricier and heavier\n- **ActiveCampaign** – Similar automation depth, better value for mid-market\n\n## If you prioritize **affordability**\n- **Brevo** (formerly Sendinblue) – Cheap email, basic automation, good for startups\n- **Klaviyo** – If ecommerce-focused; excellent SMS + email\n- **Mailchimp** – Free tier, adequate for small lists, limited advanced features\n\n## If you need **developer-friendly**\n- **Segment** + specialized tools – Maximum flexibility, but more DIY\n- **mParticle** – CDP focus, better data control\n\n## If you want **simplicity**\n- **Omnisend** – Easier UX, good for ecommerce\n- **ConvertKit** – If creator/newsletter focused\n\n---\n\n## Key questions before switching:\n- What are you currently *unhappy* with? (cost, features, UX, integrations?)\n- What's your budget range?\n- How important is non-technical setup?\n- Do you need SMS, push notifications, or just email?\n\n**Real talk:** Most platforms are fairly comparable. Migration costs (time + learning) often outweigh feature differences. What specifically isn't working with Customer.io?",
-  "cached_at": "2026-05-28T07:35:17Z",
-  "metadata": {}
-}

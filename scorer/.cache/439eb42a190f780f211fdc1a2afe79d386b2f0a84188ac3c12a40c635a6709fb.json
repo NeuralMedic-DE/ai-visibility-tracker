@@ -1,9 +1,0 @@
-{
-  "brand": "Nudge Security",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Zluri vs alternatives: what should I switch to?",
-  "response": "# Zluri Alternatives: What to Consider\n\nThe answer depends on your priorities, since \"better\" varies by use case:\n\n## If you want **lower cost**\n- **Freshworks IT** or **Intune** (if already in Microsoft ecosystem)\n- **Okta** (identity-focused)\n- Free tier tools like **Lansweep** for device management\n\n## If you want **broader IT/HR integration**\n- **ServiceNow** (comprehensive but pricier)\n- **JumpCloud** (identity + device management)\n- **Workspace ONE** (VMware's all-in-one)\n\n## If you want **better UX/ease of use**\n- **Kandji** (Mac-focused, excellent UX)\n- **Kolide** (device security + compliance, friendly interface)\n- **Jamf Pro** (Apple management, industry standard)\n\n## If you want **SaaS management specifically**\n- **Vendr** (procurement angle)\n- **Zylo** (similar to Zluri but different strengths)\n\n## Questions to ask yourself:\n1. What's the main pain point? (costs? compliance? visibility? Apple devices?)\n2. What's your OS mix? (Windows-heavy vs Apple vs mixed)\n3. Budget constraints?\n4. Already invested in other tools? (Okta, Entra, Jamf, etc.)\n\n**What's driving your interest in leaving Zluri?** That context would help narrow down what actually fits your situation.",
-  "cached_at": "2026-05-28T08:38:42Z",
-  "metadata": {}
-}

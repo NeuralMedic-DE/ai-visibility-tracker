@@ -1,9 +1,0 @@
-{
-  "brand": "Ashby",
-  "prompt_id": "IN-03",
-  "llm": "perplexity",
-  "prompt_text": "How do I connect Ashby with Slack?",
-  "response": "The simplest way to connect **Ashby with Slack** is to install Ashby from the **Slack Marketplace** and authorize it in your Slack workspace.[4] Ashby’s Slack app supports recruiting notifications, approvals, conversational actions, and an AI assistant that can work directly in Slack.[4]\n\nIf you want a more general automation setup, third-party tools like **Zapier**, **Relay**, or similar no-code platforms can connect Ashby and Slack by choosing a trigger in one app, an action in the other, and then authorizing both accounts.[2][3][1]\n\nTypical setup options:\n\n- **Official Slack app**\n  - Open the Ashby listing in the Slack Marketplace.\n  - Add the app to your workspace.\n  - Authorize Ashby and configure the notifications or assistant features you want.[4]\n\n- **Interview channel automation**\n  - Ashby can automatically create Slack channels tied to interview schedules.\n  - You can configure defaults at the organization level, on an interview plan, or when scheduling an interview.[6]\n\n- **No-code automation platforms**\n  - Create an account in Zapier or Relay.\n  - Pick a trigger such as an Ashby stage change or a Slack event.\n  - Choose the Slack or Ashby action you want.\n  - Authorize both apps and turn the workflow on.[2][3]\n\nIf you want, I can also give you the **exact step-by-step setup** for the official Slack app or for **Zapier/Relay**.",
-  "cached_at": "2026-05-28T06:41:21Z",
-  "metadata": {}
-}

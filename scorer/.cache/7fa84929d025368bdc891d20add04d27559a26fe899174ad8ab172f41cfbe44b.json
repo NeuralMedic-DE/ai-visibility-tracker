@@ -1,9 +1,0 @@
-{
-  "brand": "Close",
-  "prompt_id": "UC-03",
-  "llm": "openai",
-  "prompt_text": "What tools do early-stage startups companies use to track sales pipeline?",
-  "response": "Early-stage startups often use a variety of tools to track their sales pipeline, balancing cost, functionality, and ease of use. Here are some popular options:\n\n1. **CRM Software**: \n   - **HubSpot CRM**: Offers a free tier with robust features, making it a popular choice for startups.\n   - **Pipedrive**: Known for its intuitive interface and sales-focused features.\n   - **Zoho CRM**: Offers a range of features and is affordable for small businesses.\n   - **Salesforce Essentials**: A scaled-down version of Salesforce for small teams.\n\n2. **Project Management Tools**:\n   - **Trello**: Can be customized to track sales stages using boards and cards.\n   - **Asana**: While primarily a project management tool, it can be adapted for sales tracking.\n\n3. **Spreadsheet Software**:\n   - **Google Sheets** or **Microsoft Excel**: Many startups begin with spreadsheets due to their flexibility and low cost.\n\n4. **Communication and Collaboration Tools**:\n   - **Slack**: With integrations, it can be used to track updates and collaborate on sales efforts.\n   - **Microsoft Teams**: Offers similar capabilities with integration options.\n\n5. **Sales Enablement Tools**:\n   - **Outreach** or **SalesLoft**: These tools help automate and track sales outreach efforts.\n\n6. **Analytics and Reporting Tools**:\n   - **Google Data Studio**: Can be used to create dashboards and reports from CRM data.\n\nStartups often choose tools based on their specific needs, budget constraints, and the potential for scalability as they grow.",
-  "cached_at": "2026-05-27T17:30:01Z",
-  "metadata": {}
-}

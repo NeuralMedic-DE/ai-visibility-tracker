@@ -1,9 +1,0 @@
-{
-  "brand": "Baremetrics",
-  "prompt_id": "AL-05",
-  "llm": "openai",
-  "prompt_text": "Open source or affordable SaaS analytics tools instead of ProfitWell",
-  "response": "If you're looking for open-source or affordable SaaS analytics tools as alternatives to ProfitWell, here are some options you might consider:\n\n### Open Source Tools\n1. **Metabase**: A user-friendly, open-source business intelligence tool that allows you to ask questions about your data and visualize it in various formats.\n   \n2. **Apache Superset**: A modern, enterprise-ready business intelligence web application that is open source and offers a rich set of data visualizations.\n\n3. **Redash**: An open-source tool designed for querying and visualizing data from multiple sources.\n\n4. **Matomo**: An open-source web analytics platform that provides insights into your website's traffic and user behavior.\n\n### Affordable SaaS Tools\n1. **Baremetrics**: Offers analytics and insights for subscription businesses, similar to ProfitWell, with a focus on affordability.\n\n2. **ChartMogul**: Provides subscription analytics and insights, with pricing plans that cater to different business sizes.\n\n3. **Klipfolio**: A cloud-based business dashboard platform that allows you to build custom dashboards and reports.\n\n4. **Geckoboard**: A tool for creating real-time dashboards to visualize key metrics and KPIs.\n\n5. **Google Data Studio**: A free tool that allows you to create customizable dashboards and reports using data from various sources.\n\nEach of these tools has its own strengths and may cater to different needs, so it’s worth exploring them to see which best fits your specific requirements.",
-  "cached_at": "2026-05-28T06:57:34Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Semgrep",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with enforce security coding policies in CI/CD pipelines without slowing down developers at scale?",
-  "response": "# Security Coding Enforcement in CI/CD\n\nHere are the most practical solutions for scale:\n\n## **Static Analysis Tools** (Fast, Low Friction)\n- **SonarQube** - Balances depth and speed; good free tier\n- **Semgrep** - Fast custom rules, designed for CI efficiency\n- **GitHub Advanced Security / GitLab SAST** - Integrated, minimal setup\n- **Checkmarx/Snyk** - More heavyweight but comprehensive\n\n**Sweet spot for most teams:** Semgrep or integrated platform tools\n\n## **Policy Enforcement Without Blocking**\n- **Pre-commit hooks** (local) - Catch issues before pushing\n- **Asynchronous scanning** - Results post-merge, with automatic remediation suggestions\n- **Tiered gates** - Critical issues block; warnings notify\n- **SBOM tools** (CycloneDX, Syft) - Dependency security without performance impact\n\n## **Platform-Level Approaches**\n- **GitLab / GitHub branch protection rules** - Configurable strictness per severity\n- **Snyk/WhiteSource** - Dependency-focused, scales well\n- **Aqua/Trivy** - Container scanning with quick feedback\n\n## **Avoiding Developer Friction**\n\n✅ **Run locally first** - Pre-commit hooks catch 80% before CI  \n✅ **Fail fast** - Scan only changed files  \n✅ **Smart caching** - Reuse previous scan results  \n✅ **Clear feedback** - Actionable messages with fixes linked  \n✅ **Gradual enforcement** - Warn before blocking\n\n**Reality check:** Most slowdown comes from *misconfiguration*, not the tools. Start with one focused tool, tune scan scope, then add others.\n\nWhat's your current pipeline setup? That affects the best recommendation.",
-  "cached_at": "2026-05-28T08:48:58Z",
-  "metadata": {}
-}

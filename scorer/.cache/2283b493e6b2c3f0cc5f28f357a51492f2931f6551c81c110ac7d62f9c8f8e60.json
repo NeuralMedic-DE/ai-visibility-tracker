@@ -1,9 +1,0 @@
-{
-  "brand": "TestBrand",
-  "prompt_id": "IN-03",
-  "llm": "google",
-  "prompt_text": "How do I connect TestBrand with Slack?",
-  "response": "NO_AI_OVERVIEW",
-  "cached_at": "2026-06-01T15:00:32Z",
-  "metadata": {}
-}

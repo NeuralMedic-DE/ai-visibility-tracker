@@ -1,9 +1,0 @@
-{
-  "brand": "Intercom",
-  "prompt_id": "IN-02",
-  "llm": "anthropic",
-  "prompt_text": "Intercom HubSpot integration: how does it work?",
-  "response": "# Intercom-HubSpot Integration Overview\n\n## How It Works\n\nThe integration syncs customer data and interactions between both platforms:\n\n### **Core Functions**\n\n| Feature | Details |\n|---------|---------|\n| **Contact Sync** | HubSpot contacts automatically sync to Intercom (and vice versa) |\n| **Company Data** | Organization information flows both directions |\n| **Conversation History** | Intercom chats appear as activities in HubSpot contact records |\n| **Custom Properties** | Map custom fields between platforms |\n| **Behavioral Tracking** | User actions in Intercom track in HubSpot |\n\n## Setup Process\n\n1. **Connect accounts** - Authorize both apps via OAuth\n2. **Map fields** - Choose which HubSpot properties sync to Intercom\n3. **Set sync direction** - One-way or two-way syncing\n4. **Configure triggers** - Decide what data initiates syncs\n\n## Main Benefits\n\n✅ **Unified view** - See complete customer journey across both tools  \n✅ **Automation** - Trigger HubSpot workflows from Intercom conversations  \n✅ **No data gaps** - Contact info stays current in both platforms  \n✅ **Better segmentation** - Use Intercom data for targeted HubSpot campaigns  \n\n## Common Use Cases\n\n- Route support tickets to correct HubSpot team\n- Automatically update lead status based on chat engagement\n- Track customer sentiment for nurture campaigns\n- Prevent duplicate contact records\n\n## Limitations\n\n- Basic sync (more advanced integrations require API)\n- Occasional sync delays\n- Some custom properties may not sync\n\nWould you like help setting this up or troubleshooting a specific issue?",
-  "cached_at": "2026-05-28T08:02:00Z",
-  "metadata": {}
-}

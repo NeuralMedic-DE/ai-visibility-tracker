@@ -1,9 +1,0 @@
-{
-  "brand": "Humaans",
-  "prompt_id": "CM-05",
-  "llm": "openai",
-  "prompt_text": "Is Humaans better than HiBob for automate onboarding and offboarding workflows with zero manual effort?",
-  "response": "When comparing Humaans and HiBob for automating onboarding and offboarding workflows, it's important to consider the specific features and integrations each platform offers, as well as your organization's needs.\n\n**Humaans** is known for its simplicity and ease of use, focusing on streamlining HR processes with automation. It offers integrations with various tools to automate onboarding and offboarding tasks, aiming to reduce manual effort significantly. Humaans is particularly praised for its intuitive interface and ability to quickly set up workflows.\n\n**HiBob**, on the other hand, is a more comprehensive HR platform that offers a wide range of features beyond onboarding and offboarding, such as performance management and employee engagement tools. It also provides automation capabilities and integrates with various third-party applications to facilitate seamless workflows.\n\nIn terms of automating onboarding and offboarding with minimal manual effort, both platforms have strengths:\n\n- **Humaans**: Might be more suitable if you are looking for a straightforward, user-friendly solution with a strong focus on automation and integrations.\n- **HiBob**: Could be a better fit if you need a more robust HR platform with additional features that go beyond onboarding and offboarding.\n\nUltimately, the best choice depends on your organization's specific requirements, such as the size of your team, existing tech stack, and the level of customization you need. It might be beneficial to explore demos or trials of both platforms to see which aligns better with your workflows.",
-  "cached_at": "2026-05-28T06:48:02Z",
-  "metadata": {}
-}

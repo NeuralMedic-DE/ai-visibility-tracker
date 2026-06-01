@@ -1,9 +1,0 @@
-{
-  "brand": "Workable",
-  "prompt_id": "IN-02",
-  "llm": "anthropic",
-  "prompt_text": "Workable Slack integration: how does it work?",
-  "response": "# Workable Slack Integration: How It Works\n\n## Overview\nThe Workable-Slack integration connects your recruitment platform with Slack, streamlining hiring workflows directly within your team's communication hub.\n\n## Key Features\n\n### 1. **Job Posting Notifications**\n- New job openings automatically notify relevant Slack channels\n- Team members can see open positions and share them easily\n- Real-time updates about job status changes\n\n### 2. **Candidate Updates**\n- Receive notifications when candidates apply\n- Get alerts for candidate stage changes (screening, interview, offer)\n- Track candidate progress without leaving Slack\n\n### 3. **Interview Scheduling**\n- Schedule interviews and sync with team calendars\n- Send interview reminders to Slack\n- Coordinate availability across team members\n\n### 4. **Candidate Profiles**\n- View candidate summaries directly in Slack\n- Access resumes and application materials\n- Quick reference without switching apps\n\n### 5. **Two-Way Communication**\n- Comment on candidates and share feedback in Slack\n- Collaborate with hiring team in one place\n- Reduce email back-and-forth\n\n## Setup Process\n1. Install the Workable app in your Slack workspace\n2. Connect your Workable account\n3. Select which channels receive notifications\n4. Choose which events trigger Slack alerts\n\n## Common Use Cases\n- Notifying hiring managers of new applicants\n- Keeping remote teams aligned on hiring progress\n- Getting quick approvals from stakeholders\n- Broadcasting jobs to employee advocates\n\nWould you like help with setup, or are you interested in a specific feature?",
-  "cached_at": "2026-05-28T06:46:18Z",
-  "metadata": {}
-}

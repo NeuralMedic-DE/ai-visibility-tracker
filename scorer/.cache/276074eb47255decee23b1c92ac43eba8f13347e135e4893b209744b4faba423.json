@@ -1,9 +1,0 @@
-{
-  "brand": "Front",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Front integrate with Salesforce?",
-  "response": "Yes, Front integrates with Salesforce. This integration allows users to access and update Salesforce data directly from their Front inbox. You can view Salesforce contact details, create and edit Salesforce records, and log emails and other communications to Salesforce without leaving Front. This integration helps streamline workflows and improve productivity by keeping all relevant information accessible in one place.",
-  "cached_at": "2026-05-28T08:17:20Z",
-  "metadata": {}
-}

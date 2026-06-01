@@ -1,9 +1,0 @@
-{
-  "brand": "PostHog",
-  "prompt_id": "IN-02",
-  "llm": "anthropic",
-  "prompt_text": "PostHog Slack integration: how does it work?",
-  "response": "# PostHog Slack Integration\n\nPostHog can send alerts and notifications to Slack channels. Here's how it works:\n\n## Basic Setup\n\n1. **Create a Slack App**\n   - Go to api.slack.com and create a new app\n   - Install it to your workspace\n   - Copy the webhook URL (or bot token)\n\n2. **Connect to PostHog**\n   - In PostHog, navigate to **Settings → Integrations**\n   - Select Slack\n   - Paste your webhook URL or authenticate with your Slack workspace\n   - Choose which channel to send notifications to\n\n## Common Use Cases\n\n### Action Alerts\n- Trigger Slack messages when specific user actions occur\n- Example: \"User signed up\" → notification in #analytics\n\n### Subscription Alerts\n- Get notified about data changes in dashboards\n- Example: Daily report of key metrics sent to Slack\n\n### Feature Flag Changes\n- Alert team when feature flags are toggled\n- Example: \"Feature X rolled out to 50% of users\"\n\n## How Notifications Work\n\n```\nPostHog detects event/condition \n    ↓\nTriggers configured action/alert\n    ↓\nSends formatted message to Slack webhook\n    ↓\nMessage appears in your Slack channel\n```\n\n## Key Features\n\n- **Customizable messages** - Choose what data to include\n- **Channel routing** - Send different alerts to different channels\n- **Real-time** - Immediate notifications\n- **Flexible conditions** - Filter by user properties, event timing, etc.\n\n## Limitations\n\n- Requires Slack workspace admin access for initial setup\n- Messages are one-way (PostHog → Slack)\n- Rate limits apply based on your Slack plan\n\nWould you like help setting up a specific type of Slack alert?",
-  "cached_at": "2026-05-27T19:37:49Z",
-  "metadata": {}
-}

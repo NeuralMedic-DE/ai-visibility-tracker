@@ -1,9 +1,0 @@
-{
-  "brand": "Charlie HR",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best HR for small UK-based companies with 10 to 100 employees?",
-  "response": "# Best HR Solutions for Small UK Companies (10-100 staff)\n\n## Software Platforms\n**Tier 1 (Most Popular)**\n- **BreatheHR** – excellent for payroll + HR integration, intuitive interface\n- **Personio** – comprehensive, scalable, good customer support\n- **ChartHR** – strong on employee data and analytics\n- **Factorial** – good for absence management and scheduling\n\n**Budget-Friendly**\n- **Guidepoint** – simple, affordable\n- **Deputy** – if scheduling is a priority\n\n## Outsourced HR Services\n- **Peninsula** – employment law helpline + documents (popular choice)\n- **Croner** – payroll + HR support\n- **XpertHR** – mainly document/policy templates\n\n## Hybrid Approach (Most Common)\nMany companies use:\n1. **Payroll software** (Sage, Xero, ADP) + \n2. **Simple HR platform** (BreatheHR, ChartHR) +\n3. **Legal support** (Peninsula membership)\n\n## Key Factors to Consider\n- **Payroll integration** – saves time if using external accountants\n- **PAYE/RTI compliance** – essential for UK\n- **Support quality** – smaller teams need good onboarding\n- **Cost** – typically £2-10/employee/month\n- **Growth capability** – will it scale to 200+ staff?\n\n**My suggestion:** For your size, BreatheHR or Personio are the safest choices—they balance functionality, cost, and support well.\n\nWhat's your priority: payroll integration, compliance support, or ease of use?",
-  "cached_at": "2026-05-28T06:43:35Z",
-  "metadata": {}
-}

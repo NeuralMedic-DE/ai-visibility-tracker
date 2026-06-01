@@ -1,9 +1,0 @@
-{
-  "brand": "Mailmodo",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best marketing automation that works with Zapier and HubSpot",
-  "response": "# Top Marketing Automation Tools That Work with Zapier & HubSpot\n\n## **Best Overall: HubSpot Native**\n- **Why**: No integration needed—built-in automation is robust\n- **Cost**: Free tier available; paid plans $50+/month\n- **Best for**: Companies already committed to HubSpot ecosystem\n\n## **Top Zapier-Compatible Options**\n\n### 1. **Klaviyo**\n- **Strength**: Email + SMS marketing automation\n- **Zapier integration**: 1,000+ triggers/actions\n- **Best for**: E-commerce, segment-based campaigns\n- **Cost**: Free up to 500 contacts; then ~$20/month\n\n### 2. **ActiveCampaign**\n- **Strength**: Advanced automation workflows + CRM\n- **Zapier integration**: Excellent (300+ actions)\n- **Best for**: Complex lead scoring and nurturing\n- **Cost**: $15/month (starter)\n\n### 3. **ConvertKit**\n- **Strength**: Creator-focused, clean automation\n- **Zapier integration**: Strong\n- **Best for**: Newsletters, content creators\n- **Cost**: Free up to 1,000 subscribers\n\n### 4. **Brevo (Sendinblue)**\n- **Strength**: Email + SMS + affordable\n- **Zapier integration**: Good coverage\n- **Best for**: Budget-conscious teams\n- **Cost**: Free tier; paid from $20/month\n\n## **Quick Recommendation**\n- **Tight budget + simple needs**: Brevo\n- **E-commerce focus**: Klaviyo\n- **Complex workflows**: ActiveCampaign\n- **Already in HubSpot**: Use native tools first\n\nWhat's your primary use case? That would narrow it down further.",
-  "cached_at": "2026-05-28T07:35:32Z",
-  "metadata": {}
-}

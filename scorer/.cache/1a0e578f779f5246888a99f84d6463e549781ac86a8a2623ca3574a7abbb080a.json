@@ -1,9 +1,0 @@
-{
-  "brand": "Salesflare",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is Salesflare better than HubSpot for track email opens and follow-ups?",
-  "response": "# Salesflare vs HubSpot for Email Tracking\n\nBoth handle email tracking, but differently:\n\n## Salesflare's strengths\n- **Simpler, more focused** on tracking email opens/clicks\n- **Automatic logging** of emails to contacts\n- **Less setup required** to get started\n- Better for small teams wanting straightforward visibility\n\n## HubSpot's strengths\n- **More robust automation** for follow-up sequences\n- **Better integration** with your full sales pipeline\n- **Advanced reporting** and workflow building\n- Scales better as you grow\n\n## The real difference\n**Salesflare** = easier email tracking in isolation\n**HubSpot** = better if you want tracking connected to broader sales workflows\n\n## Questions to ask yourself\n- Do you need just email opens, or full follow-up automation?\n- How important is integration with other tools?\n- Will you outgrow basic tracking soon?\n\n**Honest take:** If email tracking + simple follow-ups are your main needs, Salesflare is cleaner. If you're building a broader sales process, HubSpot's complexity becomes an advantage.\n\nWhat's your main priority—tracking visibility or automated follow-up sequences?",
-  "cached_at": "2026-05-27T18:13:50Z",
-  "metadata": {}
-}

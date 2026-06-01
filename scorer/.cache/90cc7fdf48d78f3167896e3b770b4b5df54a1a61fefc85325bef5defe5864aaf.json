@@ -1,9 +1,0 @@
-{
-  "brand": "Grip Security",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with prevent data exfiltration through unsanctioned SaaS applications with no agents required at scale?",
-  "response": "To prevent data exfiltration through unsanctioned SaaS applications without requiring agents, you can use a Cloud Access Security Broker (CASB). CASBs provide visibility and control over data in the cloud, helping to secure data across various SaaS applications. They typically operate through API integrations and can enforce security policies without the need for endpoint agents.\n\nSome popular CASB solutions include:\n\n1. **Netskope**: Offers real-time data and threat protection for cloud services, with extensive API support for unsanctioned SaaS applications.\n\n2. **Microsoft Defender for Cloud Apps**: Formerly known as Microsoft Cloud App Security, it provides comprehensive visibility, control over data travel, and sophisticated analytics to identify and combat cyber threats across all your cloud services.\n\n3. **McAfee MVISION Cloud**: Provides visibility and control over data in the cloud, with a focus on data loss prevention and threat protection.\n\n4. **Symantec CloudSOC**: Offers data protection, threat protection, and compliance for cloud applications, with a strong emphasis on unsanctioned app discovery and control.\n\nThese solutions typically offer features like shadow IT discovery, data loss prevention (DLP), and user behavior analytics, allowing organizations to secure their data across a wide range of cloud applications without deploying agents on endpoints.",
-  "cached_at": "2026-05-28T08:41:21Z",
-  "metadata": {}
-}

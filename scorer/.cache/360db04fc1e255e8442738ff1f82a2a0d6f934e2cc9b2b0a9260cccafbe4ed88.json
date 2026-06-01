@@ -1,9 +1,0 @@
-{
-  "brand": "Vitally",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Vitally integrate with Salesforce?",
-  "response": "Yes. **Vitally has a native, bidirectional integration with Salesforce** that lets you sync data between the two platforms.\n\nAccording to Vitally’s integration page and help docs, you can:\n\n- **Bi-directionally sync Salesforce Accounts and Contacts** with Vitally Accounts and Users, including selected fields.[1][3][6]  \n- **Sync Opportunities and other Custom Objects** associated with the Account/Organization object, with full read/write/create support.[1][3]  \n- **Sync Notes and Tasks** both ways between Salesforce and Vitally.[1][3][4]  \n- Push Vitally data (e.g., **health scores, indicators, revenue, tasks, notes**) back into Salesforce fields for a unified customer view.[3][4]  \n\nAdditionally, you can also connect Salesforce and Vitally via third‑party tools like **Latenode** or **Zapier**, but a direct native integration is already available.[2][7]",
-  "cached_at": "2026-05-28T08:11:14Z",
-  "metadata": {}
-}

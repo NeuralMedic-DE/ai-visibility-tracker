@@ -1,9 +1,0 @@
-{
-  "brand": "ChurnZero",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is ChurnZero better than Vitally for give CSMs a unified view of every account's engagement risk and health?",
-  "response": "# ChurnZero vs Vitally for Account Health & Engagement Risk\n\nBoth platforms excel at this, but with different strengths:\n\n## ChurnZero's advantages:\n- **Stronger predictive analytics** - Their risk scoring is generally more sophisticated\n- **Better data integration** - Aggregates more touchpoints (product usage, support, billing, etc.) into one view\n- **More mature health scoring** - The engagement risk models feel more battle-tested\n- **Cleaner CSM dashboards** - Information hierarchy makes it easier to spot what matters\n\n## Vitally's advantages:\n- **More flexible/customizable** - You can build your own health metrics and scoring rules\n- **Better workflow integration** - Alerts and automations feel more intuitive to act on\n- **Stronger task management** - Better for turning insights into CSM action\n- **More modern UI** - Some find it more intuitive to navigate\n\n## The honest take:\n**ChurnZero likely edges out Vitally** for this specific use case if you want a \"unified view out of the box.\" Their health scoring is more comprehensive without customization.\n\nBut **Vitally wins if** you want maximum control over what \"health\" means for your business and prefer building it yourself.\n\n**What matters more for your decision:**\n- Do you want pre-built intelligence or customizable metrics?\n- How much data integration do you need (beyond product usage)?\n- How important is ease of use vs. flexibility?\n\nWhat's driving your evaluation between these two?",
-  "cached_at": "2026-05-28T08:06:40Z",
-  "metadata": {}
-}

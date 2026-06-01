@@ -1,9 +1,0 @@
-{
-  "brand": "PostHog",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does PostHog integrate with GitHub?",
-  "response": "Yes, PostHog integrates with GitHub. This integration allows you to link feature flags and other PostHog functionalities with your GitHub repositories. By doing so, you can automate workflows, track changes, and enhance collaboration between your product analytics and development processes. You can find more details on how to set up and configure this integration in the PostHog documentation or directly within the PostHog platform.",
-  "cached_at": "2026-05-27T19:35:01Z",
-  "metadata": {}
-}

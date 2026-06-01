@@ -1,9 +1,0 @@
-{
-  "brand": "Apollo.io",
-  "prompt_id": "IN-05",
-  "llm": "openai",
-  "prompt_text": "CRM tools with native Salesforce integration",
-  "response": "There are several CRM tools that offer native integration with Salesforce, allowing for seamless data exchange and enhanced functionality. Here are some popular ones:\n\n1. **HubSpot CRM**: HubSpot offers native integration with Salesforce, enabling users to sync data between the two platforms, such as contacts, leads, and activities.\n\n2. **Pardot**: As a Salesforce product, Pardot offers native integration for marketing automation, allowing for streamlined lead management and nurturing.\n\n3. **Marketo**: Marketo provides native integration with Salesforce, facilitating advanced marketing automation and lead management capabilities.\n\n4. **Zendesk**: Zendesk integrates with Salesforce to provide customer support and service features, allowing for a unified view of customer interactions.\n\n5. **Mailchimp**: Mailchimp's native Salesforce integration allows for synchronization of contact data and marketing activities, enhancing email marketing efforts.\n\n6. **Docusign**: Docusign integrates natively with Salesforce to streamline the document signing process, making it easier to manage contracts and agreements.\n\n7. **Slack**: As part of Salesforce, Slack offers native integration that enhances team collaboration and communication directly within Salesforce.\n\n8. **SurveyMonkey**: SurveyMonkey integrates with Salesforce to help collect and analyze customer feedback, syncing survey data with Salesforce records.\n\nThese tools, among others, provide robust native integrations with Salesforce, helping businesses enhance their CRM capabilities and streamline their operations.",
-  "cached_at": "2026-05-27T18:03:10Z",
-  "metadata": {}
-}

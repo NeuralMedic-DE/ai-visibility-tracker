@@ -1,9 +1,0 @@
-{
-  "brand": "Ashby",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best ATS that works with Slack and LinkedIn",
-  "response": "# Best ATS Options with Slack & LinkedIn Integration\n\n## Top Picks\n\n### **1. Greenhouse**\n- **Slack integration:** Native, two-way messaging\n- **LinkedIn:** Deep recruiting sync, job posting\n- **Best for:** Mid-to-enterprise teams with sophisticated workflows\n- **Cost:** High (custom pricing)\n\n### **2. Lever**\n- **Slack integration:** Native notifications and workflows\n- **LinkedIn:** Built-in recruiter tools, posting\n- **Best for:** Growth-stage companies, emphasis on collaboration\n- **Cost:** Mid-range ($$$)\n\n### **3. Workable**\n- **Slack integration:** Native app, job alerts, approvals\n- **LinkedIn:** Direct job posting, candidate sync\n- **Best for:** SMBs to mid-market; ease of use\n- **Cost:** Affordable ($-$$)\n\n### **4. Ashby**\n- **Slack integration:** Modern, responsive notifications\n- **LinkedIn:** Integration available\n- **Best for:** Modern, tech-focused teams\n- **Cost:** Mid-range ($$$)\n\n### **5. Guidepoint/Gem**\n- **Slack integration:** Strong notification system\n- **LinkedIn:** Excellent sourcing capabilities\n- **Best for:** High-volume recruiting\n- **Cost:** Varies\n\n## Quick Comparison Table\n\n| ATS | Slack | LinkedIn | Best Size | Price |\n|-----|-------|----------|-----------|-------|\n| Greenhouse | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | Enterprise | $$$$ |\n| Lever | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | Growth | $$$ |\n| Workable | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | SMB | $$ |\n| Ashby | ⭐⭐⭐⭐ | ⭐⭐⭐ | Startup | $$$ |\n\n## Recommendations by Use Case\n\n- **Budget-conscious:** Workable\n- **Best integrations:** Greenhouse\n- **Startup/scaling:** Lever or Ashby\n- **High-volume:** Gem or Guidepoint\n\nWhat's your company size and primary recruiting pain point?",
-  "cached_at": "2026-05-28T06:39:43Z",
-  "metadata": {}
-}

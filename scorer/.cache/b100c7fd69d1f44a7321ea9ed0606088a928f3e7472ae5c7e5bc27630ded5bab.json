@@ -1,9 +1,0 @@
-{
-  "brand": "RudderStack",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I collect track and route customer event data to all your analytics and marketing tools without spending a lot on software?",
-  "response": "# Low-Cost Event Data Collection & Routing\n\n## Free/Cheap Foundation\n**Open-source options:**\n- **Segment** (has a free tier, though limited)\n- **Plausible** or **Fathom** (privacy-focused, simpler than GA4)\n- **Mixpanel** (free tier with decent event limits)\n- **PostHog** (self-hostable, open-source)\n\n**DIY approach:**\n- Use your existing tech stack (Shopify webhooks, WooCommerce plugins, etc.)\n- Simple API calls to route data directly to tools you already pay for\n- Spreadsheet templates for smaller operations\n\n## Practical Low-Cost Strategy\n\n**1. Identify what you actually need**\n- Not every tool needs every event\n- Start with 3-5 critical events (signup, purchase, email open)\n- Avoid analysis paralysis\n\n**2. Use native integrations first**\n- Most tools already talk to each other\n- Stripe → your CRM, email platform\n- Email platforms → ad platforms (built-in)\n- No middle layer needed\n\n**3. If you need a hub, consider:**\n- **Make.com** or **Zapier** (zapier cheaper at scale, make has more free operations)\n- Route events conditionally—only send what each tool needs\n- Costs stay under $50-100/month with discipline\n\n**4. Analytics reality check**\n- GA4 is free and honestly sufficient for most businesses\n- Don't pay for Amplitude/Mixpanel until you're actually using cohort analysis\n\n## Red flag: Avoid paying for \"data infrastructure\" until you're $5M+ ARR\n\nWhat's your current setup? That'd help me suggest the fastest path.",
-  "cached_at": "2026-05-28T09:08:06Z",
-  "metadata": {}
-}

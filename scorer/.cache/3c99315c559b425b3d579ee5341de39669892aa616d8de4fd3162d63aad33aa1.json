@@ -1,9 +1,0 @@
-{
-  "brand": "LeadIQ",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with sync contacts and activities to CRM at scale?",
-  "response": "To sync contacts and activities to a CRM at scale, you can use integration platforms or dedicated CRM tools that offer robust synchronization features. Here are some popular options:\n\n1. **Zapier**: This is an automation tool that connects various apps and services. It can help you sync contacts and activities between different platforms and your CRM.\n\n2. **Integromat (now Make)**: Similar to Zapier, Integromat allows you to create complex workflows to automate data synchronization between your CRM and other applications.\n\n3. **PieSync**: This tool specializes in two-way contact synchronization between your CRM and other applications, ensuring that your contact data is always up-to-date across platforms.\n\n4. **HubSpot**: If you're using HubSpot CRM, it offers built-in tools and integrations to sync contacts and activities with other systems.\n\n5. **Salesforce**: Salesforce has a wide range of integration options, including its own tools like Salesforce Connect and third-party apps from the AppExchange.\n\n6. **Microsoft Power Automate**: This tool can automate workflows between Microsoft applications and other services, including CRM systems like Dynamics 365.\n\n7. **Zapier**: This is an automation tool that connects various apps and services. It can help you sync contacts and activities between different platforms and your CRM.\n\n8. **Riva CRM Integration**: This is a server-side integration solution that syncs contacts, calendar events, tasks, and more between your CRM and email platforms.\n\nWhen choosing a solution, consider factors like the specific CRM you're using, the other systems you need to integrate with, the volume of data, and your budget.",
-  "cached_at": "2026-05-27T18:41:54Z",
-  "metadata": {}
-}

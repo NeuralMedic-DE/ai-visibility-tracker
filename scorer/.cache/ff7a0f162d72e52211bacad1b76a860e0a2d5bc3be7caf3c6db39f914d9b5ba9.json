@@ -1,9 +1,0 @@
-{
-  "brand": "Checkly",
-  "prompt_id": "IN-03",
-  "llm": "openai",
-  "prompt_text": "How do I connect Checkly with GitHub?",
-  "response": "To connect Checkly with GitHub, you need to follow these steps:\n\n1. **Log in to Checkly**: Start by logging into your Checkly account. If you don't have an account, you'll need to create one.\n\n2. **Navigate to Integrations**: Once logged in, go to the \"Integrations\" section. This is usually found in the main menu or under your account settings.\n\n3. **Select GitHub**: In the integrations list, find and select GitHub. This will start the process of connecting your Checkly account with your GitHub account.\n\n4. **Authorize Checkly**: You will be redirected to GitHub to authorize the connection. You need to grant Checkly the necessary permissions to access your repositories. This typically includes permissions to read your repositories and access commit statuses.\n\n5. **Select Repositories**: After authorization, you may be prompted to select which repositories you want to connect with Checkly. You can choose specific repositories or allow access to all repositories.\n\n6. **Configure Settings**: Once connected, you can configure how Checkly interacts with your GitHub repositories. This might include setting up checks for specific branches or pull requests.\n\n7. **Test the Integration**: Finally, it's a good idea to test the integration to ensure everything is working as expected. You can do this by creating a test check or triggering a deployment to see if Checkly responds appropriately.\n\nBy following these steps, you should be able to successfully connect Checkly with GitHub and start using it to monitor and test your web applications.",
-  "cached_at": "2026-05-28T06:23:08Z",
-  "metadata": {}
-}

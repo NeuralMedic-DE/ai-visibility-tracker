@@ -1,9 +1,0 @@
-{
-  "brand": "Userlist",
-  "prompt_id": "IN-04",
-  "llm": "openai",
-  "prompt_text": "Best marketing automation that works with Stripe and Segment",
-  "response": "When looking for marketing automation tools that integrate well with both Stripe and Segment, there are a few options to consider:\n\n1. **HubSpot**: HubSpot offers robust marketing automation features and integrates with both Stripe and Segment. It allows you to track customer interactions and automate marketing processes effectively.\n\n2. **ActiveCampaign**: Known for its powerful automation capabilities, ActiveCampaign can integrate with Stripe through third-party connectors like Zapier, and it also works with Segment to help streamline customer data.\n\n3. **Autopilot**: Autopilot is a visual marketing automation tool that can connect with Stripe via Zapier and integrates with Segment natively, making it a good choice for managing customer journeys and automating marketing tasks.\n\n4. **Customer.io**: This platform is designed for sending targeted emails, push notifications, and SMS messages. It integrates directly with Segment and can connect to Stripe through third-party services, enabling personalized communication based on customer behavior.\n\n5. **Drip**: Drip is an e-commerce CRM that integrates with Stripe and can work with Segment to help automate and personalize marketing campaigns based on customer data.\n\nWhen choosing a tool, consider the specific features you need, such as email marketing, customer segmentation, and workflow automation, as well as the ease of integration with your existing systems.",
-  "cached_at": "2026-05-28T07:30:55Z",
-  "metadata": {}
-}

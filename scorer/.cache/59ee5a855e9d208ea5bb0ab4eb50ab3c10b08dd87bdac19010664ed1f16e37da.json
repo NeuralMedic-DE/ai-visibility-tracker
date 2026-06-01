@@ -1,9 +1,0 @@
-{
-  "brand": "Prefect",
-  "prompt_id": "IN-04",
-  "llm": "perplexity",
-  "prompt_text": "Best workflow orchestration that works with Python and Snowflake",
-  "response": "For **Python + Snowflake**, the strongest default choices are **Prefect** for external orchestration and **Snowflake Tasks/Serverless Tasks** if you want orchestration to stay inside Snowflake.[2][1]\n\n- **Best overall external orchestrator: Prefect** — Prefect’s Snowflake integration is explicitly designed to orchestrate ingestion, dbt, Snowpark, reverse ETL, and other systems around Snowflake using **Python-native orchestration**.[2]\n- **Best if you want to minimize external tooling: Snowflake Tasks** — Snowflake says Tasks and serverless tasks can orchestrate complex workflows as dependent SQL statements or Python code *directly within Snowflake*, which can remove the need for an external orchestrator.[1]\n- **Strong alternative for traditional data engineering stacks: Airflow** — Airflow is commonly used to schedule and execute Snowflake workflows, especially when you need broader pipeline coordination and retry/failure handling across many systems.[3][7]\n\nA practical rule of thumb:\n- Choose **Prefect** if your workflows are **Python-heavy** and span Snowflake plus external APIs, SaaS tools, dbt, or ML/data apps.[2]\n- Choose **Snowflake Tasks** if most of the work happens **inside Snowflake** and you want simpler operational overhead.[1]\n- Choose **Airflow** if your team already uses it or needs a **large, established orchestration framework** for many cross-system dependencies.[3][7]\n\nIf you want, I can give you a **recommendation by use case** such as ELT pipelines, machine learning jobs, dbt orchestration, or near-real-time scheduling.",
-  "cached_at": "2026-05-28T09:13:02Z",
-  "metadata": {}
-}

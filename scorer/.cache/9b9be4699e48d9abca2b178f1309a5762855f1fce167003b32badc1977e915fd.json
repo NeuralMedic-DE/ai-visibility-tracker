@@ -1,9 +1,0 @@
-{
-  "brand": "Instantly",
-  "prompt_id": "AL-05",
-  "llm": "openai",
-  "prompt_text": "Open source or affordable sales engagement tools instead of Mailshake",
-  "response": "There are several open-source and affordable sales engagement tools that you can consider as alternatives to Mailshake. Here are a few options:\n\n1. **Open Source Tools:**\n   - **Mautic**: Mautic is an open-source marketing automation platform that includes email marketing capabilities. It allows you to create and manage campaigns, segment contacts, and track engagement.\n   - **SuiteCRM**: This is an open-source CRM platform that includes sales automation features. It can be customized to fit your sales engagement needs.\n\n2. **Affordable Tools:**\n   - **GMass**: GMass is a powerful email marketing tool that works within Gmail. It's affordable and offers features like mail merge, automated follow-ups, and email tracking.\n   - **Woodpecker**: Woodpecker is designed for cold email campaigns and follow-ups. It offers features like personalization, A/B testing, and integration with CRM systems.\n   - **Reply.io**: This tool offers a comprehensive sales engagement platform with features like multichannel sequences, email automation, and analytics. It is priced competitively for small to medium-sized businesses.\n   - **SalesHandy**: SalesHandy provides email tracking, mail merge, and automated follow-ups. It's a cost-effective option for small teams.\n\nThese tools offer various features that can help you manage and automate your sales engagement processes effectively. Be sure to evaluate them based on your specific needs and budget.",
-  "cached_at": "2026-05-28T07:19:11Z",
-  "metadata": {}
-}

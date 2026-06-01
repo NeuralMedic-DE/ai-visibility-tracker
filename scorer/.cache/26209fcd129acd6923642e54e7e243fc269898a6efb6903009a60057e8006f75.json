@@ -1,9 +1,0 @@
-{
-  "brand": "TestBrand",
-  "prompt_id": "IN-02",
-  "llm": "perplexity",
-  "prompt_text": "TestBrand HubSpot integration: how does it work?",
-  "response": "A **HubSpot integration** connects HubSpot with another app so data can be passed between the systems automatically, often through a native connector, a data sync app, or middleware.[6][8] In practice, setup usually involves authorizing the app, choosing what data to sync, mapping fields, and then testing the configuration before turning it on.[1][4][7]\n\nIf you mean **HubSpot’s test sync** specifically, it works like this:\n\n- You set up a **new object sync** between HubSpot and a third-party app.[1]\n- The sync must be **one-way from the third-party app into HubSpot** for test syncs.[1]\n- In the setup flow, you configure **field mappings**, **sync rules**, and any **associations**.[1]\n- On the review screen, you click **Run test sync** to simulate the sync without starting the live sync.[1]\n- HubSpot then shows a **rule summary**, plus a **results preview** of records that will sync, fail, or be excluded.[1]\n- You can inspect individual records in the preview, then either **close** the screen or click **Start your sync** to begin the real sync.[1]\n\nIf you mean a **third-party app integration** with HubSpot, the typical pattern is:\n\n- Connect the app in HubSpot or from the app’s own integration page.[4]\n- Grant access to the app so it can read/write the approved data.[4]\n- Map the app’s fields to HubSpot properties, including any custom properties you need.[4]\n- Optionally use a test or sandbox environment to verify behavior before production use.[2]\n\nIf you want, I can also explain this in the context of a specific tool, such as **HubSpot Data Sync**, **CRM integrations**, or a **particular TestBrand app integration**.",
-  "cached_at": "2026-06-01T15:01:56Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Salesflare",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which CRM software should a founder or solo sales rep at a startup use?",
-  "response": "# Best CRM Options for Solo Founders/Sales Reps\n\n**Free or cheap to start:**\n- **HubSpot Free** – solid free tier, grows with you, good documentation\n- **Pipedrive** – intuitive pipeline view, affordable ($12–99/mo), minimal bloat\n- **Notion** – if you want full customization and don't mind building it yourself\n\n**Lean but powerful:**\n- **Close** – designed for sales teams doing outbound, clean interface\n- **Freshsales** – affordable, includes phone/email tools built-in\n- **Zoho CRM** – cheap and feature-rich, though can feel cluttered\n\n**What actually matters at your stage:**\n\n1. **Can you get deals in and move them through a pipeline?** (That's 90% of what you need)\n2. **Does it integrate with your email/calendar so you don't duplicate work?**\n3. **Can you export your data easily if you leave?**\n4. **Is it simple enough that you'll actually use it consistently?**\n\n**Honest take:** Most solo founders delay using CRM and regret it. Even a simple spreadsheet (with a clear pipeline column) beats no system. The tool matters less than the discipline of logging every conversation.\n\nWhat stage are you at? (Pre-launch, early customers, ramping?) That might narrow it down.",
-  "cached_at": "2026-05-27T18:13:10Z",
-  "metadata": {}
-}

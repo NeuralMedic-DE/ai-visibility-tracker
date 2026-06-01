@@ -1,9 +1,0 @@
-{
-  "brand": "Baremetrics",
-  "prompt_id": "CM-02",
-  "llm": "anthropic",
-  "prompt_text": "Baremetrics vs ProfitWell pricing and features",
-  "response": "# Baremetrics vs ProfitWell: Comparison\n\n## **Pricing**\n\n### Baremetrics\n- **Starter:** $50/month (up to $10K MRR)\n- **Growth:** $150/month (up to $100K MRR)\n- **Pro:** $300/month (up to $1M MRR)\n- **Enterprise:** Custom pricing\n\n### ProfitWell\n- **Free Plan:** Basic metrics only\n- **Premium:** $99/month (includes advanced features)\n- **Enterprise:** Custom pricing\n- **Note:** Acquired by Paddle (2021); pricing changed significantly\n\n## **Core Features Comparison**\n\n| Feature | Baremetrics | ProfitWell |\n|---------|-------------|-----------|\n| **MRR/ARR Tracking** | ✅ | ✅ |\n| **Churn Analysis** | ✅ Advanced | ✅ Advanced |\n| **Revenue Recognition** | ✅ | ✅ |\n| **Cohort Analysis** | ✅ | ✅ |\n| **Forecasting** | ✅ | ⚠️ Limited |\n| **Free Plan** | ❌ | ✅ |\n| **Dunning/Recovery** | ✅ Integrated | ✅ (via Paddle) |\n| **Multi-currency** | ✅ | ✅ |\n| **Integrations** | ~20+ | Extensive (via Paddle) |\n\n## **Key Differences**\n\n**Baremetrics Strengths:**\n- More comprehensive standalone product\n- Better UI/UX (generally considered cleaner)\n- Strong forecasting tools\n- Good for independent SaaS founders\n\n**ProfitWell Strengths:**\n- Freemium model (appeals to startups)\n- Now integrated with Paddle (payment processing + analytics)\n- Dunning management included free tier\n- Broader ecosystem integration\n\n## **Best For**\n\n- **Baremetrics:** Established SaaS with $100K+ MRR wanting detailed metrics\n- **ProfitWell:** Startups bootstrapping, or companies using Paddle\n\n**Current Note:** ProfitWell was acquired by Paddle and partially rebranded. Check latest updates before deciding.",
-  "cached_at": "2026-05-28T06:57:25Z",
-  "metadata": {}
-}

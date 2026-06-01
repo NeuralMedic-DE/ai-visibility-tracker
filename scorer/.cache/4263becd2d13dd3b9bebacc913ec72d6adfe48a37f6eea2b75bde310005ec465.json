@@ -1,9 +1,0 @@
-{
-  "brand": "Mailmodo",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I send interactive AMP emails with embedded forms and survey widgets without spending a lot on software?",
-  "response": "# Low-Cost AMP Email Options\n\n## Free/Cheap Platforms That Support AMP\n\n**Gmail AMP for Email** (built-in, free):\n- Google Forms embedded directly\n- Interactive accordions, carousels, forms\n- Works in Gmail, Yahoo Mail, Mail.ru\n- Design in Google AMP for Email or use platform templates\n\n**Mailmodo** (freemium):\n- Purpose-built for AMP forms in email\n- Forms stay in inbox, no click-through needed\n- Free tier covers basic needs; paid starts ~$15/mo\n\n**Dyspatch** (affordable):\n- Visual AMP builder\n- Forms, surveys, countdowns\n- Free tier available\n\n## Budget DIY Approach\n\n1. **Learn AMP for Email basics** (free resources via Google)\n2. **Use your existing email provider** if they support AMP:\n   - Mailchimp (limited AMP support)\n   - Campaign Monitor\n   - SendGrid\n\n3. **Build templates** using:\n   - Google's AMP playground (free testing)\n   - Open-source AMP libraries\n   - Your dev team (if available)\n\n## Important Limitations\n\n- **Fallback HTML required** (AMP doesn't work everywhere)\n- **Desktop support is spotty** outside Gmail\n- **Mobile rendering issues** are common\n- **Compliance matters**: ensure GDPR/CAN-SPAM compatibility\n\n## Real Talk\n\nFor surveys/forms, honestly, a **simple click-to-web approach** often converts better than embedded forms and costs less to maintain. AMP shines for urgency-driven interactions (countdowns, approval workflows).\n\nWhat's your main use case—surveys, approvals, or something else?",
-  "cached_at": "2026-05-28T07:35:22Z",
-  "metadata": {}
-}

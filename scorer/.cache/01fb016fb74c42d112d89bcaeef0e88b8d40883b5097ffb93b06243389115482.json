@@ -1,9 +1,0 @@
-{
-  "brand": "Mailmodo",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best marketing automation for SaaS growth marketers and email marketing leads wanting higher engagement?",
-  "response": "# Best Marketing Automation for SaaS Growth Teams\n\nThe answer depends on your priorities, but here's a practical breakdown:\n\n## **Top Tier for Growth Marketing**\n\n**HubSpot**\n- Best all-arounder for most SaaS teams\n- Excellent free CRM tier (limited automation)\n- Strong email + landing pages + workflows\n- Great for attribution tracking\n- Downside: Can get expensive at scale\n\n**Klaviyo**\n- Superior for email engagement metrics\n- Excellent segmentation and personalization\n- Best-in-class automation workflows\n- Downside: Primarily email-focused (less CRM depth)\n\n## **Specialist Tools Worth Considering**\n\n**Segment-focused:**\n- **Braze** - Highest sophistication for personalization\n- **ActiveCampaign** - Great automation + CRM balance at mid-market price\n\n**Growth-specific:**\n- **Iterable** - Built for retention and lifecycle marketing\n- **Pardot** (Salesforce) - Strong if you're already in ecosystem\n\n## **Critical Questions to Answer First**\n\n1. **What's your main bottleneck?** (Lead quality? Nurture? Retention?)\n2. **Team size & technical depth?** (Determines implementation complexity)\n3. **Budget?** ($0-500/mo vs. $5k+/mo changes everything)\n4. **Integration needs?** (CRM, analytics, product data?)\n\n**What specific part of your funnel needs the most help?** That answer usually points to your best tool choice.",
-  "cached_at": "2026-05-28T07:34:57Z",
-  "metadata": {}
-}

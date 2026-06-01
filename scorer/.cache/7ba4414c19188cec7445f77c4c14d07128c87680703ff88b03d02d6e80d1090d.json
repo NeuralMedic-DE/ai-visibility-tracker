@@ -1,9 +1,0 @@
-{
-  "brand": "Drip",
-  "prompt_id": "IN-02",
-  "llm": "anthropic",
-  "prompt_text": "Drip WooCommerce integration: how does it work?",
-  "response": "# Drip WooCommerce Integration: How It Works\n\n## Overview\nDrip is an e-commerce CRM that connects to WooCommerce to automate marketing based on customer behavior and purchases.\n\n## Key Functionality\n\n### **Data Synchronization**\n- **Customer Data**: Automatically syncs customer information (name, email, address) to Drip\n- **Purchase History**: Tracks orders, products purchased, and transaction values\n- **Real-time Updates**: Information flows automatically when customers take action\n\n### **Triggered Automations**\nOnce connected, Drip can trigger workflows based on:\n- **Purchase events** (new order, specific product bought, cart abandoned)\n- **Customer lifecycle** (first purchase, repeat buyer, at-risk customer)\n- **Custom tags** (segments for targeted campaigns)\n\n### **Common Use Cases**\n- **Post-purchase emails**: Thank you, shipping, product recommendations\n- **Cart abandonment**: Automated recovery campaigns\n- **Upsells/Cross-sells**: Targeted offers based on purchase history\n- **Win-back campaigns**: Re-engage inactive customers\n- **Loyalty programs**: Rewards based on spend/frequency\n\n## Setup Process\n\n1. **Install plugin** or configure API connection\n2. **Authenticate** Drip account\n3. **Map fields** (WooCommerce data → Drip fields)\n4. **Choose sync triggers** (which events sync to Drip)\n5. **Create automations** (workflows in Drip)\n\n## Benefits\n✓ Unified customer view  \n✓ Behavior-based marketing  \n✓ Reduced manual work  \n✓ Better ROI tracking  \n\n**Note**: Requires active Drip subscription and proper configuration for optimal results.",
-  "cached_at": "2026-05-28T07:33:15Z",
-  "metadata": {}
-}

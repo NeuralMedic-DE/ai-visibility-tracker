@@ -1,9 +1,0 @@
-{
-  "brand": "Maxio",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Maxio with Salesforce?",
-  "response": "# Connecting Maxio with Salesforce\n\nHere are the main steps to integrate Maxio (formerly Chargify) with Salesforce:\n\n## 1. **Enable the Integration**\n- Log in to your Maxio account\n- Go to **Settings** → **Integrations**\n- Find and enable the **Salesforce** integration\n\n## 2. **Authorize Salesforce**\n- Click the Salesforce integration option\n- You'll be redirected to Salesforce to authorize the connection\n- Log in with your Salesforce admin credentials\n- Grant Maxio the necessary permissions\n- Confirm and return to Maxio\n\n## 3. **Configure Sync Settings**\n- Choose which data to sync (customers, subscriptions, invoices, etc.)\n- Select sync direction (one-way or two-way)\n- Map Maxio fields to Salesforce fields as needed\n- Set sync frequency (real-time, hourly, daily, etc.)\n\n## 4. **Test the Connection**\n- Run a test sync to verify everything works\n- Check that data appears correctly in Salesforce\n\n## Key Considerations\n- **Permissions**: Ensure you have admin access in both systems\n- **Field Mapping**: Understand how data translates between platforms\n- **Data Sync**: Decide what customer and subscription data you need synced\n\n## Need More Help?\n- Check Maxio's [integration documentation](https://maxio.com)\n- Contact Maxio support if you encounter issues\n\nAre you looking for help with a specific aspect of the integration?",
-  "cached_at": "2026-05-28T06:53:09Z",
-  "metadata": {}
-}

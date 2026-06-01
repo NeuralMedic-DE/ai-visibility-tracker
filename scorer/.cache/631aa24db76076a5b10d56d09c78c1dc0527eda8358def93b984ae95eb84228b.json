@@ -1,9 +1,0 @@
-{
-  "brand": "Numeric",
-  "prompt_id": "UC-03",
-  "llm": "anthropic",
-  "prompt_text": "What tools do finance teams at mid-market companies running month-end close companies use to streamline month-end close with automated checklists and reconciliations?",
-  "response": "# Month-End Close Tools for Mid-Market Companies\n\n## Dedicated Close Management Platforms\n\n**Best-in-class options:**\n- **BlackLine** – Market leader; automation of reconciliations, journal entry controls, and task management\n- **Trintech Cadency** – Strong on reconciliation and balance sheet close automation\n- **Wdesk (Workiva)** – Reporting-focused with close workflow capabilities\n- **FloQast** – Lightweight, checklist-heavy approach; growing quickly among mid-market\n\n## Accounting System Add-ons\n\n- **NetSuite OpenAir** or native NetSuite close tools\n- **Sage Intacct** smart close features\n- **Oracle NetSuite** built-in close capabilities\n- **SAP Analytics Cloud**\n\n## Hybrid/Lighter-Weight Solutions\n\n- **Planful** (formerly Host Analytics) – Close workflow + planning\n- **OneStream** – Close orchestration with some automation\n- **Microsoft Excel + Power Query** – For teams wanting to build custom solutions\n\n## Spreadsheet Automation Tools\n\n- **Vena** or **Taboola** – Excel-based but with governance\n- **DataRails** – Excel analytics with some close workflow features\n\n## Key Features to Prioritize\n\n1. **Automated reconciliations** (bank, sub-ledger, balance sheet)\n2. **Digital checklists** with task dependencies\n3. **Audit trail** and version control\n4. **Journal entry templates** and controls\n5. **Real-time dashboards** on close progress\n6. **ERP integration** (critical for efficiency)\n\n**Reality check:** Many mid-market firms start with FloQast or strengthen their ERP's native tools before investing in enterprise platforms like BlackLine.\n\nWhat's your current setup?",
-  "cached_at": "2026-05-28T07:05:12Z",
-  "metadata": {}
-}

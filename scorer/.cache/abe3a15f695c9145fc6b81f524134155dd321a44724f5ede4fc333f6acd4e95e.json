@@ -1,9 +1,0 @@
-{
-  "brand": "Folk",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is Folk better than Attio for track relationship touchpoints across channels?",
-  "response": "# Folk vs Attio for Relationship Touchpoints\n\nI don't have current, detailed product comparisons between these two platforms. However, here's what typically matters for this use case:\n\n## Key evaluation criteria:\n\n**Channel coverage**\n- Which channels matter most to you? (email, calls, meetings, LinkedIn, etc.)\n- Does each tool automatically capture or require manual logging?\n\n**Touchpoint visibility**\n- Can you see a unified timeline across contacts/accounts?\n- How easy is it to query \"all interactions with X person\"?\n\n**Integration depth**\n- Email sync quality and speed\n- CRM data enrichment\n- Calendar integration\n\n## Better approach:\n\nRather than \"which is better,\" I'd suggest:\n\n1. **List your priority channels** - this shapes everything\n2. **Test both** - most offer trials and the UX difference matters a lot\n3. **Check specific integrations** - Folk and Attio have different API depths with various tools\n4. **Evaluate your team's workflow** - will people actually use it, or does it feel like overhead?\n\nBoth are modern relationship-focused CRMs, but they may have shifted capabilities since my training data.\n\n**What channels are most important for your tracking?** That would help narrow down which tool's strengths align better with your needs.",
-  "cached_at": "2026-05-27T18:53:16Z",
-  "metadata": {}
-}

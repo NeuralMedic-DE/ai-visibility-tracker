@@ -1,9 +1,0 @@
-{
-  "brand": "Drata",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Drata integrate with GitHub?",
-  "response": "Yes. **Drata has a native integration with GitHub**, plus a GitHub App and an optional GitHub Action.\n\nKey points:\n\n- Drata provides a built‑in **GitHub integration** that connects to your GitHub organization to automatically collect evidence and continuously validate access control, code review, and change‑management practices for compliance.[2]  \n- The **Drata (Version Control)** GitHub App uses **read‑only access** to your repos to monitor and collect evidence of security controls and SOC 2 posture.[4]  \n- Drata also offers a **“GitHub Rulesets” integration** to use GitHub organizational and repository rulesets as part of its formal code review tests.[3]  \n- For CI pipelines, Drata publishes a **“Compliance as Code” GitHub Action** you can add to workflows to scan Terraform for compliance-related configuration issues, using a Drata API token.[5][6]",
-  "cached_at": "2026-05-28T08:30:25Z",
-  "metadata": {}
-}

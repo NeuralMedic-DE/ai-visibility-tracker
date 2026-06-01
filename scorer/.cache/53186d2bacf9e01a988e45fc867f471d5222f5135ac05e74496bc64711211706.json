@@ -1,9 +1,0 @@
-{
-  "brand": "Vitally",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Vitally integrate with Salesforce?",
-  "response": "Yes, Vitally integrates with Salesforce. This integration allows you to sync data between Vitally and Salesforce, enabling you to leverage customer success insights alongside your CRM data. This can help streamline workflows and improve the efficiency of your customer success operations.",
-  "cached_at": "2026-05-28T08:09:37Z",
-  "metadata": {}
-}

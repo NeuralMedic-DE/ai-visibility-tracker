@@ -1,9 +1,0 @@
-{
-  "brand": "Ashby",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Ashby integrate with Slack?",
-  "response": "Yes, Ashby integrates with Slack. This integration allows you to receive notifications and updates directly in your Slack channels, helping streamline communication and keep your team informed about recruitment processes and candidate updates. To set it up, you would typically need to configure the integration settings within Ashby and authorize it to connect with your Slack workspace.",
-  "cached_at": "2026-05-28T06:39:29Z",
-  "metadata": {}
-}

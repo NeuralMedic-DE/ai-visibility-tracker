@@ -1,9 +1,0 @@
-{
-  "brand": "Gainsight",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "ChurnZero vs alternatives: what should I switch to?",
-  "response": "# ChurnZero Alternatives: Decision Framework\n\nBefore recommending a switch, consider **why** you're looking:\n\n## If price is the issue\n- **Gainsight** – Premium but more powerful analytics\n- **Totango** – Mid-market sweet spot\n- **Planhat** – Lighter weight, lower cost\n- **Vitally** – Modern, affordable for small-mid teams\n\n## If you need better features\n- **Missing customer data integration?** → Vitally, Totango\n- **Weak playbooks/automation?** → Gainsight, Totango\n- **Poor reporting?** → Gainsight (stronger BI)\n- **Need more customization?** → Gainsight, Planhat\n\n## If implementation/usability is painful\n- **Vitally** – Easiest modern onboarding\n- **Planhat** – Simpler, faster setup\n- **Chorus/Gong** (if CS + sales insights matter) – Different category but solves related problems\n\n## Honest take on ChurnZero\n- Good for: SMB SaaS, simple workflows, affordable\n- Weak for: Complex multi-touch attribution, deep analytics\n- Real concern: Growth limitations as you scale\n\n## Before you switch\n1. **Map your actual pain** – Is it the tool or your process?\n2. **Audit current usage** – Are you using 20% of ChurnZero's features?\n3. **Calculate migration cost** – Data, training, integration time\n4. **Trial the alternative** – Demos ≠ real usage\n\n**What's driving your search?** That'll help narrow it down.",
-  "cached_at": "2026-05-28T08:04:16Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Langfuse",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Langfuse integrate with LangChain?",
-  "response": "Yes, Langfuse integrates with LangChain. Langfuse is designed to provide observability for AI applications, and it can be used alongside LangChain to monitor and analyze the performance and behavior of language models and chains. This integration allows developers to gain insights into how their language models are functioning within the LangChain framework.",
-  "cached_at": "2026-05-28T07:56:25Z",
-  "metadata": {}
-}

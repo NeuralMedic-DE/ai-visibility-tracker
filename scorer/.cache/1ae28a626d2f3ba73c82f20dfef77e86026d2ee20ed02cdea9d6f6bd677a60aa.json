@@ -1,9 +1,0 @@
-{
-  "brand": "Helicone",
-  "prompt_id": "UC-05",
-  "llm": "perplexity",
-  "prompt_text": "What software helps with debug and replay failed LLM calls with full request logging and history at scale?",
-  "response": "If you want **debugging plus replay of failed LLM calls with full request logging and history at scale**, the most commonly cited tools are **Helicone**, **Traceloop**, **LangSmith**, **Langfuse**, and **Arize Phoenix**.[1][2][3][5][8]\n\n- **Helicone**: Strong for **full request logging**, cost/latency tracking, and **replaying/modifying sessions**; it can capture prompts, responses, metadata, token usage, and history with minimal code changes via a proxy setup.[1]\n- **Traceloop**: Built for **end-to-end tracing** of LLM apps and explicitly emphasizes turning failed production traces into **repeatable test cases** for debugging and reproduction.[2]\n- **LangSmith**: Commonly used for **LLM tracing and debugging**, especially in the LangChain/LangGraph ecosystem, with replay-oriented workflows in production debugging tool comparisons.[3][5]\n- **Langfuse**: An open-source option for **tracing, prompt management, and evaluation**, often positioned as an all-in-one observability layer for debugging at scale.[3][5]\n- **Arize Phoenix**: A framework-agnostic observability tool using **OpenTelemetry** for tracing LLM workflows and investigating failures across stacks.[2][3][5]\n\nIf your priority is specifically **“full request logging + replay” with low integration effort**, **Helicone** is the clearest match from the sources provided.[1][3] If you want **deeper trace reproduction and test-case conversion**, **Traceloop** is especially aligned with that use case.[2]",
-  "cached_at": "2026-05-28T07:51:06Z",
-  "metadata": {}
-}

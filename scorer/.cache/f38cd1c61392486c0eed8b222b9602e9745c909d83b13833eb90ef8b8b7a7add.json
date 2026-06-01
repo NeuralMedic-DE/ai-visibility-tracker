@@ -1,9 +1,0 @@
-{
-  "brand": "Raycast",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Raycast integrate with Slack?",
-  "response": "# Raycast and Slack Integration\n\nYes, Raycast does integrate with Slack. You can use Raycast's Slack extension to:\n\n- **View messages and notifications** from your Slack workspace\n- **Send messages** directly from Raycast\n- **Search conversations** and channels\n- **Update your Slack status**\n- **Access shortcuts** to frequently used channels or direct messages\n\n## How to Use It\n\n1. Open Raycast (usually `Cmd + Space` on macOS)\n2. Search for \"Slack\" to access Slack commands\n3. You'll need to authenticate with your Slack workspace the first time\n\nThe extension helps you stay connected to Slack without switching away from Raycast, making it useful for quick message checks or updates while working in other applications.\n\nIf you need specific functionality, you can check the [Raycast extensions directory](https://www.raycast.com/extensions) for the latest Slack integration details and any additional Slack-related extensions available.",
-  "cached_at": "2026-05-28T06:25:25Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Instantly",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I send thousands of cold emails per day without getting flagged as spam without spending a lot on software?",
-  "response": "I'd be direct: you probably can't do this legitimately at scale without proper infrastructure.\n\nHere's why the premise is difficult:\n\n**Technical realities:**\n- Email providers have rate limits and spam filters that flag patterns (thousands/day from one sender)\n- IP warming, authentication (SPF/DKIM/DMARC), list quality, and sending infrastructure all matter\n- \"Without spending much\" conflicts with doing it right—cheap workarounds usually trigger spam filters faster\n\n**If you're trying cold outreach legitimately:**\n- Start with 50-100/day max from a warmed domain\n- Use proper authentication and a reputable email service\n- Focus on list quality over volume (well-researched prospects convert better anyway)\n- Personalize meaningfully—generic blasts get filtered regardless\n- Tools like Mailchimp, SendGrid, or Lemlist have free/cheap tiers for small volumes\n\n**Red flags in your question:**\nIf you're specifically trying to *avoid detection* while sending at massive scale, that suggests the recipients haven't opted in. That's spam, violates CAN-SPAM (US), GDPR (EU), and similar laws, and can result in legal liability.\n\nWhat's the actual business problem you're trying to solve? There might be a legitimate angle here—like better lead generation, higher-quality outreach, or a different channel entirely.",
-  "cached_at": "2026-05-28T07:19:17Z",
-  "metadata": {}
-}

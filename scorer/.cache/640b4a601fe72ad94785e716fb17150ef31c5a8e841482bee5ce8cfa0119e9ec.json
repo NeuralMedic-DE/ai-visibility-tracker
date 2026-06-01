@@ -1,9 +1,0 @@
-{
-  "brand": "Weights & Biases",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which MLOps software should a ML Engineer or Head of AI/ML at a research-driven company use?",
-  "response": "# MLOps Software for Research-Driven Companies\n\nFor research-driven organizations, I'd prioritize based on your specific needs:\n\n## **Best Overall for Research**\n**MLflow** or **Weights & Biases (W&B)**\n- Lightweight experiment tracking\n- Great for iterative R&D workflows\n- Strong academic/research community\n- Lower operational overhead than enterprise platforms\n\n## **If You Need End-to-End Infrastructure**\n**Kubeflow** or **Airflow** + specialized tools\n- Good for orchestrating complex research pipelines\n- Open-source, customizable\n- Steeper learning curve but more control\n\n## **If You Prioritize Ease of Use**\n**Weights & Biases** or **Neptune.ai**\n- Intuitive dashboards\n- Minimal setup friction\n- Better for teams without dedicated MLOps engineers\n\n## **Key Questions to Answer First**\n\n1. **Team maturity**: Do you have dedicated MLOps engineers or are researchers wearing that hat?\n2. **Scale**: Are you running 10 experiments/month or 1000?\n3. **Deployment needs**: Just experiment tracking, or full production pipelines?\n4. **Budget**: Open-source vs. managed solutions?\n5. **Integration**: What frameworks/cloud platforms do you use?\n\n## **My Recommendation**\nStart with **W&B** or **MLflow** (free tier available), then add **Airflow** for orchestration only if you hit scaling problems. This avoids over-engineering for research workflows.\n\nWhat's your current pain point—experiment management, reproducibility, or deployment?",
-  "cached_at": "2026-05-28T07:37:16Z",
-  "metadata": {}
-}

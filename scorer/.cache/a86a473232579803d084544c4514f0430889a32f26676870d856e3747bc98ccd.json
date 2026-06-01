@@ -1,9 +1,0 @@
-{
-  "brand": "Drip",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Klaviyo vs alternatives: what should I switch to?",
-  "response": "# Klaviyo vs Alternatives\n\nThe best choice depends on your needs. Here's a quick breakdown:\n\n## When Klaviyo makes sense\n- Ecommerce-focused (Shopify, WooCommerce integration)\n- Need advanced segmentation & automation\n- Budget: $20-300+/month\n- Want visual automation builder\n\n## Strong alternatives by use case\n\n**Better for budget-conscious:**\n- **Brevo** (formerly Sendinblue) – Free tier, lower pricing\n- **MailerLite** – Affordable, good automation\n\n**Better for general businesses:**\n- **HubSpot** – More CRM-focused, free tier available\n- **ConvertKit** – Creator/newsletter focused\n- **Substack** – If you just need newsletters\n\n**Better for simplicity:**\n- **Mailchimp** – Basic, easy to use\n- **Constant Contact** – User-friendly\n\n**Better if scaling heavily:**\n- **ActiveCampaign** – Advanced CRM + automation\n- **Iterable** – High-volume, complex journeys\n\n## Key questions to ask yourself\n1. What's your actual budget?\n2. Do you need advanced automation or just basic campaigns?\n3. Is ecommerce your main channel?\n4. How large is your list?\n\n**What's prompting you to consider switching?** Cost, features, usability, or something else? That would help me give more specific advice.",
-  "cached_at": "2026-05-28T07:32:59Z",
-  "metadata": {}
-}

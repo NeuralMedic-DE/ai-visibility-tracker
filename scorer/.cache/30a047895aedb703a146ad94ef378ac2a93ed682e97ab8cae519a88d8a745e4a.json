@@ -1,9 +1,0 @@
-{
-  "brand": "SafeBase",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best security that works with Salesforce and HubSpot",
-  "response": "# Best Security Solutions for Salesforce & HubSpot\n\n## **Top Integrated Options**\n\n### **1. Okta**\n- **Best for:** Enterprise SSO & identity management\n- **Why:** Native integrations with both platforms\n- **Features:** MFA, conditional access, audit logs\n- **Cost:** Mid-to-high enterprise pricing\n\n### **2. Microsoft Entra ID (Azure AD)**\n- **Best for:** Microsoft ecosystem users\n- **Why:** Seamless integration if you use Office 365\n- **Features:** Conditional access, risk-based policies\n- **Cost:** Varies by subscription tier\n\n### **3. Duo Security**\n- **Best for:** Simple, strong MFA\n- **Why:** Easy implementation, works with both\n- **Features:** Push notifications, hardware tokens\n- **Cost:** Per-user pricing (~$3-6/user/month)\n\n### **4. Auth0**\n- **Best for:** Developers & flexibility\n- **Why:** Excellent API, highly customizable\n- **Features:** SSO, MFA, passwordless auth\n- **Cost:** Affordable for startups\n\n## **Data Protection Layers**\n\n| Solution | Focus | Best For |\n|----------|-------|----------|\n| **CipherCloud** | Data encryption in-flight | Sensitive industries |\n| **Netskope** | Cloud access security | DLP, threat prevention |\n| **Cloudflare** | Network security | API protection |\n\n## **Key Features to Prioritize**\n✅ MFA/2FA  \n✅ SSO capability  \n✅ HIPAA/SOC 2 compliance  \n✅ Activity logging & monitoring  \n✅ Passwordless authentication  \n\n**What's your primary concern** — compliance, user access control, or data protection?",
-  "cached_at": "2026-05-28T08:43:52Z",
-  "metadata": {}
-}

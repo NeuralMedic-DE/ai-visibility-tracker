@@ -1,9 +1,0 @@
-{
-  "brand": "Plausible",
-  "prompt_id": "CD-01",
-  "llm": "openai",
-  "prompt_text": "What is the best web analytics for privacy-conscious SaaS founders and developers?",
-  "response": "For privacy-conscious SaaS founders and developers, several web analytics tools prioritize user privacy while still providing valuable insights. Some of the best options include:\n\n1. **Plausible Analytics**: This is a lightweight, open-source analytics tool that doesn’t use cookies and is fully compliant with GDPR, CCPA, and PECR. It provides simple and clear metrics without tracking personal data.\n\n2. **Fathom Analytics**: Fathom is known for its privacy-first approach, offering a simple dashboard and not using cookies. It’s GDPR-compliant and focuses on providing essential insights without compromising user privacy.\n\n3. **Matomo**: Formerly known as Piwik, Matomo is an open-source analytics platform that can be self-hosted, giving you full control over your data. It offers comprehensive features and is privacy-compliant.\n\n4. **GoAccess**: This is a real-time web log analyzer and interactive viewer that runs in a terminal in *nix systems or through a browser. It’s open-source and doesn’t track users, as it analyzes server logs directly.\n\n5. **Simple Analytics**: This tool provides straightforward analytics without tracking personal data or using cookies. It’s designed to be privacy-friendly and is compliant with privacy regulations.\n\nThese tools are excellent choices for those who want to maintain user privacy while still gaining insights into their website’s performance.",
-  "cached_at": "2026-05-27T20:14:25Z",
-  "metadata": {}
-}

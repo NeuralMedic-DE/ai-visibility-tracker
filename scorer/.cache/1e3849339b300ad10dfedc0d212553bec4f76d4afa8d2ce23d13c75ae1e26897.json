@@ -1,9 +1,0 @@
-{
-  "brand": "Mixpanel",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Mixpanel integrate with Segment?",
-  "response": "Yes. **Mixpanel has a native, fully supported integration with Segment (Twilio Segment)**, and Mixpanel is available as a **destination** in Segment.\n\nKey points:\n\n- Mixpanel is listed as an official **Segment destination**, so you can send event data from your Segment sources into a Mixpanel project with a point-and-click setup in Segment’s catalog.[1][2][8]\n- The setup flow in Segment is:\n  - In Segment, go to **Catalog → Destinations → Mixpanel** and add the Mixpanel destination.[1]\n  - Select the Segment **source** whose data you want to stream to Mixpanel.[1]\n  - Enter your **Mixpanel project credentials** (from Mixpanel project settings) and enable the destination.[1]\n  - Optionally use Segment’s **Actions framework** to map Segment events and properties to Mixpanel events and properties.[1][3]\n- Once configured, Segment forwards `identify`, `track`, and related calls to Mixpanel, so developers primarily interact with Segment’s API instead of multiple Mixpanel SDKs.[2][6]\n- You can also use a **bi‑directional workflow**: send data from Segment to Mixpanel for analysis, then send Mixpanel cohorts back to Segment for activation in downstream tools.[3]\n\nIf you tell me your stack (web, mobile, server-side), I can outline the exact steps and recommended settings for your use case.",
-  "cached_at": "2026-05-27T19:19:46Z",
-  "metadata": {}
-}

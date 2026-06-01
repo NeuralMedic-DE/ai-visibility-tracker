@@ -1,9 +1,0 @@
-{
-  "brand": "Gainsight",
-  "prompt_id": "AL-01",
-  "llm": "openai",
-  "prompt_text": "Alternatives to ChurnZero for enterprise SaaS customer success teams managing large portfolios",
-  "response": "For enterprise SaaS customer success teams managing large portfolios, there are several alternatives to ChurnZero that you might consider:\n\n1. **Gainsight**: A leading customer success platform that offers robust features for managing customer relationships, including health scoring, automated workflows, and customer journey mapping.\n\n2. **Totango**: Provides a modular approach to customer success with features like health monitoring, customer segmentation, and automated engagement campaigns.\n\n3. **ClientSuccess**: Focuses on customer success management with tools for tracking customer health, managing renewals, and enhancing customer engagement.\n\n4. **Natero**: Offers a combination of customer success and product analytics, helping teams understand customer behavior and improve retention.\n\n5. **Planhat**: A flexible customer success platform that provides tools for managing customer lifecycles, health scores, and analytics.\n\n6. **Strikedeck (by Medallia)**: Offers a comprehensive suite of customer success tools, including automation, health scoring, and customer journey management.\n\n7. **Custify**: Designed for SaaS businesses, it provides customer success automation, health scoring, and actionable insights to improve retention.\n\n8. **UserIQ**: Combines customer success with user engagement analytics, offering tools for onboarding, segmentation, and customer health tracking.\n\nEach of these platforms has its own strengths and may cater to different aspects of customer success management, so it's important to evaluate them based on your specific needs and objectives.",
-  "cached_at": "2026-05-28T08:04:09Z",
-  "metadata": {}
-}

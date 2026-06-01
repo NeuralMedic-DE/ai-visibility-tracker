@@ -1,9 +1,0 @@
-{
-  "brand": "PostHog",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which product analytics software should a engineering lead or head of product use?",
-  "response": "# Product Analytics Tools for Engineering Leaders & PMs\n\n**Best overall options depend on your priorities:**\n\n## For balanced technical + product insights\n- **Amplitude** or **Mixpanel** – Strong event tracking, cohort analysis, and user journey visualization. Good for both technical teams and PMs\n- **Heap** – Auto-captures interactions; less instrumentation work upfront\n\n## If you prioritize engineering implementation\n- **Segment** (+ downstream tools) – Data collection layer; integrates with many analytics platforms\n- **PostHog** – Open source option; product analytics + feature flags + session replay. Appeals to engineering-minded teams\n- **Snowplow** – Heavy-duty event tracking; requires more engineering effort but maximum control\n\n## If you prioritize product decisions quickly\n- **Pendo** or **FullStory** – Strong UX focus, session replay, guided analytics\n- **Looker Studio** or **Tableau** – BI-focused; good if you have strong data infrastructure\n\n## Questions to guide your choice\n1. **Team size & data maturity** – Smaller teams benefit from simpler tools (Heap, Pendo)\n2. **Implementation bandwidth** – Low effort = Heap/Pendo; high control = Snowplow/PostHog\n3. **Primary use case** – Feature usage? Funnel analysis? Retention? Debugging?\n4. **Budget & scale** – Volume-based pricing varies significantly\n5. **Integration needs** – Do you need native connections to your data warehouse?\n\n**Honest take:** Most successful teams use 2-3 tools (analytics + session replay + BI tool). Start with what solves your most urgent question first.\n\nWhat's your biggest analytics gap right now?",
-  "cached_at": "2026-05-27T19:35:41Z",
-  "metadata": {}
-}

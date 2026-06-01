@@ -1,9 +1,0 @@
-{
-  "brand": "Airbyte",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Airbyte integrate with Postgres?",
-  "response": "Yes. Airbyte has a **certified Postgres (PostgreSQL) connector** and can use Postgres both as a **source** and as a **destination**.\n\nKey details:\n\n- Airbyte provides a **Postgres source connector** that is generally available and fully supported, allowing you to replicate data from Postgres to many destinations for analytics and other use cases.[1][2][4]  \n- The Postgres connector can replicate **tables, views, and materialized views**, supports multiple sync modes, and offers options like **Change Data Capture (CDC)** and `xmin`-based incremental replication.[4]  \n- You configure it by creating a Postgres source in the Airbyte UI and providing host, port, database, user, password, and SSL settings; one connector can be reused for multiple connections.[4][5]  \n- Tutorials and docs show Postgres being used both as a **source** (e.g., Postgres → BigQuery, Postgres → Pinecone) and as a **destination** (e.g., Postgres → Postgres syncs).[3][5][6][8]",
-  "cached_at": "2026-05-28T09:04:42Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Instantly",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable sales engagement tools instead of Mailshake",
-  "response": "# Sales Engagement Alternatives to Mailshake\n\n## Open Source / Self-Hosted\n\n| Tool | Best For | Cost |\n|------|----------|------|\n| **Mautic** | Email marketing & automation | Free (self-hosted) |\n| **Odoo CRM** | Full sales suite + CRM | Free community edition |\n| **EspoCRM** | Lightweight CRM + email | Free self-hosted |\n| **Taiga** | Project & sales pipeline | Free open-source |\n\n## Affordable SaaS Options\n\n### Budget-Friendly ($0-50/mo)\n- **Brevo (formerly Sendinblue)** — Free tier with 300 emails/day\n- **Mailchimp** — Automation starting at free tier\n- **Hunter** — Email finder + sequences ($45/mo)\n- **Apollo.io** — $49/mo (outreach + lead data)\n- **Clay** — Free tier for basic enrichment\n\n### Mid-Range ($50-150/mo)\n- **Instantly.ai** — $60/mo (unlimited email)\n- **Lemlist** — $99/mo (warm email sequences)\n- **PhantomBuster** — Pay-as-you-go automation\n- **Outreach lite tools** (Salesloft, HubSpot free)\n\n### Feature Comparison\n- Email sequences: All support\n- Lead enrichment: Apollo, Hunter, Clay\n- Multi-channel: Lemlist, Apollo\n- CRM integration: Most (Zapier-friendly)\n\n## My Recommendation\n**For budget:** Start with **Apollo.io** ($49) or **Brevo free tier**  \n**For simplicity:** **HubSpot free CRM** + Mailchimp  \n**For flexibility:** Self-host **Mautic** if you have technical capacity\n\nWhat's your main use case—lead generation, follow-ups, or full sequences?",
-  "cached_at": "2026-05-28T07:19:18Z",
-  "metadata": {}
-}

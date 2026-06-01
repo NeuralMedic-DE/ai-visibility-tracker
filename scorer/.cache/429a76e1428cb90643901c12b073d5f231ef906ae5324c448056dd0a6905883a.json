@@ -1,9 +1,0 @@
-{
-  "brand": "Pipedrive",
-  "prompt_id": "IN-02",
-  "llm": "perplexity",
-  "prompt_text": "Pipedrive Zapier integration: how does it work?",
-  "response": "Pipedrive’s **Zapier integration** works by connecting Pipedrive to other apps through automated workflows called **Zaps**: one app event acts as a **trigger**, and Zapier then performs one or more **actions** in Pipedrive or another connected app.[2][5]\n\nIn practice, this means you can automatically move data between Pipedrive and tools like Google Sheets, Slack, Trello, Typeform, Calendly, Monday.com, and many others, without coding.[1][2][3]\n\nHow it works:\n- You connect your Pipedrive account to Zapier by authorizing access and selecting the Pipedrive company you want to use.[5]\n- You choose a **trigger** event, such as a new deal being created in Pipedrive.[2][5]\n- You choose an **action**, such as creating a file attachment, adding a row, creating a lead, or updating a record in another app.[3][5][6]\n- Zapier runs the automation whenever the trigger happens, passing information between the apps you connected.[2][3]\n\nA common example is: when a **new deal** is created in Pipedrive, Zapier can automatically create a corresponding item in another app, or vice versa, depending on how you configure the Zap.[3][6][8]\n\nThe main benefit is that it lets you automate repetitive sales and admin tasks and keep data synchronized across systems with minimal setup.[1][2][3]",
-  "cached_at": "2026-05-27T17:27:27Z",
-  "metadata": {}
-}

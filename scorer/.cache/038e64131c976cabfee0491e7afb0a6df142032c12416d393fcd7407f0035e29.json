@@ -1,9 +1,0 @@
-{
-  "brand": "Secureframe",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best compliance for security teams at mid-market SaaS companies pursuing multiple frameworks?",
-  "response": "# Compliance Strategy for Mid-Market SaaS Teams\n\n## The Core Challenge\nYou're likely juggling SOC 2, ISO 27001, GDPR, and industry-specific requirements simultaneously. The key is **building a foundation that serves multiple frameworks** rather than treating each separately.\n\n## Best Approach\n\n**Start with SOC 2 Type II as your base layer:**\n- Covers most enterprise customer requirements\n- 6-12 month audit creates operational discipline\n- Heavily overlaps with ISO 27001 (easier to add later)\n\n**Then layer strategically:**\n- **GDPR** → Implement if you have EU customers (non-negotiable)\n- **ISO 27001** → Pursue only if it's a sales requirement (expensive, but reuses SOC 2 work)\n- **Industry-specific** → Only if it unlocks meaningful deals\n\n## Operational Efficiency\n\n1. **Unified control framework** - Map all requirements to shared controls\n2. **Single audit trail** - Document once, reference everywhere\n3. **Prioritize high-overlap** - GDPR + SOC 2 covers ~70% of ISO 27001\n\n## Resource Reality\n\nFor a mid-market team, this typically means:\n- 1 dedicated compliance lead (or fractional)\n- Embedded security champions in engineering/ops\n- External auditor (budget $15-40K for SOC 2)\n- 4-6 month runway before audit readiness\n\n## Red Flag\nDon't pursue multiple frameworks *simultaneously* on your first try. You'll burn out your team. SOC 2 first, always.\n\nWhat's driving your multi-framework pursuit—customer demand or competitive positioning?",
-  "cached_at": "2026-05-28T08:33:21Z",
-  "metadata": {}
-}

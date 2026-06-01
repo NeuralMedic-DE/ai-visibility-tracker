@@ -1,9 +1,0 @@
-{
-  "brand": "Drip",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with build revenue-generating workflows for cart abandonment and win-back campaigns at scale?",
-  "response": "# Software for Revenue-Generating Cart Abandonment & Win-Back Campaigns\n\n## Top Platforms\n\n**Klaviyo**\n- Industry leader for e-commerce email/SMS automation\n- Strong segmentation and predictive analytics\n- Excellent for abandoned cart and customer reactivation flows\n- Good integration with Shopify, WooCommerce, etc.\n\n**Omnisend**\n- Multi-channel (email, SMS, push, in-app)\n- Built-in abandoned cart recovery templates\n- Lower cost than Klaviyo for smaller brands\n\n**Braze**\n- Enterprise-grade customer engagement platform\n- Advanced personalization and journey orchestration\n- Better for larger operations at scale\n\n**Attentive**\n- SMS-first approach (powerful for urgency)\n- Strong conversion rates on mobile-first audiences\n- Good for aggressive recovery campaigns\n\n**Mailchimp (Plus tier)**\n- Accessible for beginners\n- Abandoned cart automation included\n- Limited compared to specialists but functional\n\n## Key Features to Look For\n\n- **Behavioral triggers** (cart abandonment, inactivity timers)\n- **Multi-channel capability** (email + SMS combination drives higher recovery)\n- **Dynamic product content** (show abandoned items)\n- **Segmentation** (VIP vs. first-time buyer strategies)\n- **A/B testing** for subject lines/timing\n- **Integrations** with your cart platform\n\n## Quick Pick\nFor most e-commerce: **Klaviyo** (best balance of power and ease). For SMS-heavy: **Attentive**.\n\nWhat's your current platform or business size?",
-  "cached_at": "2026-05-28T07:33:09Z",
-  "metadata": {}
-}

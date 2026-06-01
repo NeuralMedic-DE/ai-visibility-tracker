@@ -1,9 +1,0 @@
-{
-  "brand": "Workato",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Workato with SAP?",
-  "response": "# Connecting Workato to SAP\n\nHere are the main approaches:\n\n## 1. **Using Workato's Native SAP Connector**\n- Workato offers a built-in SAP connector for direct integration\n- Supports common SAP modules: FI, MM, SD, HR\n- Setup steps:\n  - Create SAP connection in Workato\n  - Provide SAP system details (host, client, user credentials)\n  - Authenticate and test the connection\n\n## 2. **Key Prerequisites**\n- **SAP credentials** with appropriate authorizations\n- **Network access** between Workato and your SAP system\n- **RFC (Remote Function Call)** enabled in SAP\n- **JCo (Java Connector)** libraries may be required\n- Proper **user roles/permissions** for API calls\n\n## 3. **Common Integration Patterns**\n- Read/write master data (customers, vendors, materials)\n- Create purchase orders, sales orders, invoices\n- Fetch financial data and reports\n- Sync HR/employee data\n- Real-time data synchronization\n\n## 4. **Connection Methods**\n- **On-Premises SAP**: Use Workato's cloud integration with proper firewall/VPN setup\n- **SAP Cloud** (S/4HANA Cloud): Direct API-based connection\n- **Hybrid**: Combine with middleware if needed\n\n## 5. **Best Practices**\n- Use service accounts for automation\n- Test in sandbox first\n- Monitor API limits and performance\n- Implement error handling in workflows\n- Secure credentials in Workato's vault\n\nWould you like specific guidance on any of these steps or your particular use case?",
-  "cached_at": "2026-05-28T09:13:45Z",
-  "metadata": {}
-}

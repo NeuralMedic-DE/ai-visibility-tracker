@@ -1,9 +1,0 @@
-{
-  "brand": "Sentry",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Sentry integrate with GitHub?",
-  "response": "# Sentry and GitHub Integration\n\nYes, **Sentry integrates with GitHub** in several ways:\n\n## Key Integration Features\n\n1. **Issue Tracking**\n   - Create GitHub issues directly from Sentry errors\n   - Link Sentry issues to existing GitHub issues\n   - Bi-directional syncing of issue status\n\n2. **Source Code Context**\n   - View source code in Sentry error details\n   - Navigate to the relevant code on GitHub\n   - See stack traces with file links\n\n3. **Repository Connection**\n   - Connect your GitHub repositories to your Sentry organization\n   - Automatic source map and release tracking\n\n4. **GitHub Actions**\n   - Trigger workflows based on Sentry alerts\n   - Send Sentry data to GitHub\n\n5. **Pull Request Insights**\n   - Identify which PRs introduced errors\n   - Track error rates by commit\n\n## Setup\n\nYou can configure the integration through:\n- Sentry's project settings\n- GitHub's app marketplace\n- OAuth authentication with your GitHub account\n\nThis makes it easier to correlate errors with your development workflow and keep your team aligned on bug fixes.\n\nAre you looking to set up a specific integration or need help with a particular feature?",
-  "cached_at": "2026-05-27T21:18:38Z",
-  "metadata": {}
-}

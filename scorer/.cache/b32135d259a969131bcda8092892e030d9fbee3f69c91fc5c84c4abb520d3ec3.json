@@ -1,9 +1,0 @@
-{
-  "brand": "Pendo",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which product analytics software should a VP Product or Product Ops Manager use?",
-  "response": "# Product Analytics Software for PMs and Ops\n\nThe best choice depends on your priorities, but here's how to think about it:\n\n## Top options by use case:\n\n**For user behavior & funnels:**\n- **Amplitude** – strongest for cohort analysis and retention tracking\n- **Mixpanel** – good balance of ease-of-use and depth\n- **Heap** – captures all events automatically (less setup)\n\n**For experimentation-focused teams:**\n- **LaunchDarkly** or **Optimizely** – if A/B testing is central\n- **Statsig** – strong modern alternative\n\n**For simple, fast insights:**\n- **Segment** – aggregates data from multiple sources\n- **Pendo** – pairs analytics with in-app engagement\n\n**For data-heavy orgs:**\n- **dbt + custom dashboards** – if you have analytics eng support\n\n## Key questions to ask yourself:\n\n1. **Do you need self-service or depend on analytics eng?** (affects tool complexity)\n2. **How important is experimentation?** (some tools are stronger here)\n3. **Are you tracking B2B or B2C?** (influences event modeling)\n4. **What's your current data stack?** (some integrate better)\n\n## My practical advice:\nStart with **Amplitude** or **Mixpanel** if you're building from scratch—they're purpose-built for PMs, have strong communities, and won't require heavy engineering lift.\n\nWhat's your team size and current analytics setup?",
-  "cached_at": "2026-05-27T19:46:55Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Grip Security",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable security tools instead of Obsidian",
-  "response": "# Open Source & Affordable Alternatives to Obsidian\n\n## Free & Open Source\n\n**Note-Taking + Security Focus:**\n- **Joplin** - Encrypted notes, sync to own server, markdown\n- **Logseq** - Open-source outliner, local-first, graph view\n- **Standard Notes** - E2E encrypted, open protocol, freemium\n- **Notesnook** - Privacy-focused, zero-knowledge encryption\n- **Zettlr** - Markdown editor, knowledge management\n- **TiddlyWiki** - Self-contained wiki, runs in browser\n\n**Password/Secret Management:**\n- **Bitwarden** - Open source, self-hostable, ~$10/yr\n- **KeePass/KeePassXC** - Local password manager, no cloud required\n- **Vaultwarden** - Self-hosted Bitwarden alternative\n\n**General Privacy:**\n- **Nextcloud** - Self-hosted cloud, notes + files + more\n- **Synology NAS** - Local-only storage (hardware cost)\n\n## Affordable Paid Options\n\n- **Bear** ($2/mo) - Clean, encrypted notes, Apple ecosystem\n- **OneNote** (Free tier) - Limited but integrated\n- **Notion** (Free tier) - Generous free plan, not E2E encrypted\n\n## Best Budget Setup\n\n1. **Joplin** (free) + self-host Joplin Server\n2. **KeePassXC** for passwords\n3. **Syncthing** for file sync (no cloud dependency)\n\n**What matters most to you?** (Privacy, cost, specific features?) Happy to recommend further.",
-  "cached_at": "2026-05-28T08:41:22Z",
-  "metadata": {}
-}

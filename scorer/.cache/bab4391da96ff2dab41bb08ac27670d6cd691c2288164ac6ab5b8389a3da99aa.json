@@ -1,9 +1,0 @@
-{
-  "brand": "Gainsight",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best customer success that works with Salesforce and Zendesk",
-  "response": "# Top Customer Success Platforms for Salesforce + Zendesk\n\n## Best Overall Integrations\n\n### **1. Gainsight**\n- **Strengths**: Purpose-built for CS, native Salesforce integration, Zendesk data syncing\n- **Best for**: Enterprise teams, complex health scoring\n- **Pricing**: Custom (typically $50K+/year)\n\n### **2. Totango**\n- **Strengths**: Strong Zendesk integration, AI-driven insights, lifecycle management\n- **Best for**: Mid-market to enterprise\n- **Pricing**: Custom\n\n### **3. Vitally**\n- **Strengths**: Modern UI, excellent Salesforce/Zendesk sync, automated workflows\n- **Best for**: Growth-stage companies, ease of use\n- **Pricing**: ~$500-2000/month depending on scale\n\n## Strong Mid-Market Options\n\n### **4. ClientSuccess**\n- Native integrations with both platforms\n- Intuitive dashboards\n- Good for <500 customers\n\n### **5. Planhat**\n- European-based, strong in Nordic region\n- Solid integrations\n- Competitive pricing\n\n## Cost-Conscious Alternatives\n\n- **ChartMogul** (with custom integrations)\n- **Amity** (newer, more affordable)\n- **Build custom solution** using Zapier/native APIs (if small team)\n\n## Key Selection Criteria\n\n✅ **Two-way data sync** (not just read-only)  \n✅ **Real-time Zendesk support ticket integration**  \n✅ **Salesforce object mapping flexibility**  \n✅ **Health scoring automation**  \n✅ **API documentation quality**\n\n**What's your team size and primary use case?** This would help narrow recommendations further.",
-  "cached_at": "2026-05-28T08:04:34Z",
-  "metadata": {}
-}

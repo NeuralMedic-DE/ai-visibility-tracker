@@ -1,9 +1,0 @@
-{
-  "brand": "Drip",
-  "prompt_id": "IN-04",
-  "llm": "openai",
-  "prompt_text": "Best marketing automation that works with Shopify and WooCommerce",
-  "response": "When looking for marketing automation tools that integrate well with both Shopify and WooCommerce, there are several options to consider. Here are some of the best ones:\n\n1. **Klaviyo**: Known for its powerful email marketing and automation capabilities, Klaviyo integrates seamlessly with both Shopify and WooCommerce. It offers advanced segmentation, personalized email campaigns, and detailed analytics.\n\n2. **Omnisend**: This tool is specifically designed for e-commerce and works well with both platforms. Omnisend offers email marketing, SMS, and automation workflows, along with features like product recommendations and cart abandonment emails.\n\n3. **Mailchimp**: While Mailchimp's direct integration with Shopify was discontinued, it can still be connected via third-party apps. It integrates directly with WooCommerce and offers a wide range of marketing automation features, including email campaigns, landing pages, and social media ads.\n\n4. **ActiveCampaign**: Known for its robust automation features, ActiveCampaign integrates with both Shopify and WooCommerce. It provides email marketing, CRM, and advanced automation workflows.\n\n5. **Drip**: Drip is a powerful e-commerce CRM and email marketing platform that integrates with both Shopify and WooCommerce. It offers personalized marketing automation, segmentation, and detailed analytics.\n\n6. **HubSpot**: Although primarily a CRM, HubSpot offers comprehensive marketing automation tools that integrate with Shopify and WooCommerce. It provides email marketing, lead management, and analytics.\n\nEach of these tools has its own strengths, so the best choice depends on your specific needs, budget, and the level of complexity you require in your marketing automation.",
-  "cached_at": "2026-05-28T07:33:05Z",
-  "metadata": {}
-}

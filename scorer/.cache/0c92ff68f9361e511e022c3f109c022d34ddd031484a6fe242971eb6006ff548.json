@@ -1,9 +1,0 @@
-{
-  "brand": "Baremetrics",
-  "prompt_id": "CD-01",
-  "llm": "openai",
-  "prompt_text": "What is the best SaaS analytics for early-stage SaaS founders and indie developers on Stripe?",
-  "response": "For early-stage SaaS founders and indie developers using Stripe, there are several analytics tools that can provide valuable insights into your business metrics. Some of the best options include:\n\n1. **Baremetrics**: Known for its user-friendly interface, Baremetrics provides real-time metrics and insights directly from your Stripe account. It offers features like customer segmentation, forecasting, and churn analysis, which are particularly useful for early-stage companies.\n\n2. **ChartMogul**: This tool offers robust analytics and reporting capabilities, including MRR, ARR, churn rates, and cohort analysis. It's designed to integrate seamlessly with Stripe, making it a popular choice for SaaS businesses.\n\n3. **ProfitWell**: ProfitWell offers free subscription metrics and provides insights into your MRR, churn, and other key performance indicators. It also offers additional paid features like pricing optimization and retention strategies.\n\n4. **Stripe Sigma**: If you prefer to work directly within Stripe, Stripe Sigma allows you to run SQL queries on your Stripe data to generate custom reports and insights. This can be particularly useful if you have specific analytics needs.\n\n5. **Metorik**: While originally built for WooCommerce, Metorik now supports Stripe and offers comprehensive analytics and reporting features, including customer insights and subscription metrics.\n\nEach of these tools has its strengths, so the best choice depends on your specific needs, budget, and how you prefer to interact with your data. Many of these platforms offer free trials or tiers, so you can test them out to see which one fits your business best.",
-  "cached_at": "2026-05-28T06:57:17Z",
-  "metadata": {}
-}

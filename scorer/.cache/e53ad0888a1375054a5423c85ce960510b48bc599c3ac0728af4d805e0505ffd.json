@@ -1,9 +1,0 @@
-{
-  "brand": "Ashby",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Ashby integrate with Slack?",
-  "response": "Yes. **Ashby has a native Slack integration**, and you can also connect Ashby and Slack via automation tools like Zapier and Relay.\n\nEssential details:\n\n- **Native Ashby ↔ Slack app**: Ashby offers an official Slack integration that sends **real‑time recruiting notifications, approvals, and reminders** directly into Slack, and lets you take actions (advance/archive candidates, add notes, send emails, etc.) from within Slack via the Ashby bot and Ashby Assistant.[1][5]  \n- **Use cases**:  \n  - Instant alerts on **candidate pipeline activity**, mentions/replies, tasks, and reporting.[1][5]  \n  - **Offer approvals** and other recruiting approvals directly in Slack.[1][5]  \n  - Automatically **create Slack channels for interviews**, invite the right interviewers, and post templated interview details for coordination.[5][6]  \n\n- **Third‑party automation**:  \n  - **Zapier** can connect Ashby and Slack to build custom workflows (e.g., when a new job is created in Ashby, send a message to a Slack channel).[2]  \n  - **Relay.app** also provides Ashby–Slack integrations with triggers and actions for more complex workflows.[3]  \n\nSo if you are asking whether Ashby “integrates with Slack,” the answer is yes: there is an official Slack app plus multiple automation options to connect the two.",
-  "cached_at": "2026-05-28T06:41:18Z",
-  "metadata": {}
-}

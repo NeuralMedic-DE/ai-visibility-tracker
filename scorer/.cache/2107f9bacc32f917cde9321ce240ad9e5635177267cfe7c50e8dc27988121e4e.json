@@ -1,9 +1,0 @@
-{
-  "brand": "Help Scout",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Freshdesk vs alternatives: what should I switch to?",
-  "response": "# Freshdesk vs Alternatives\n\nHere's a practical comparison to help you decide:\n\n## Strong alternatives by priority\n\n**If you care most about:**\n\n- **Cost** → Zendesk (surprisingly), HubSpot Free/Starter, or Zammad (open-source)\n- **Ease of use** → HubSpot, Intercom, or Help Scout\n- **AI/automation** → Zendesk, Intercom, or Microsoft Copilot-integrated options\n- **Small team/simple needs** → Help Scout, Groove, or Gorgias\n- **ecommerce** → Gorgias (Shopify native) or Zendesk\n- **Enterprise features** → Zendesk, ServiceNow, or Salesforce Service Cloud\n\n## Quick comparison matrix\n\n| Platform | Price | Ease | AI | Best For |\n|----------|-------|------|-----|----------|\n| **Zendesk** | Higher | Moderate | Good | Growing teams, omnichannel |\n| **HubSpot** | Mid | Easy | Strong | Sales+support integration |\n| **Intercom** | Mid-High | Easy | Excellent | Product-focused companies |\n| **Help Scout** | Low-Mid | Very Easy | Basic | Small teams, warm support |\n| **Gorgias** | Mid | Easy | Strong | Ecommerce businesses |\n\n## Before switching, ask:\n\n- Are you leaving due to **price**, **features**, or **usability**?\n- Do you need **omnichannel support** or mainly email/chat?\n- How important is **AI assistance**?\n- What's your team size and growth trajectory?\n\n**What's driving your consideration?** That'll help narrow it down further.",
-  "cached_at": "2026-05-28T08:19:27Z",
-  "metadata": {}
-}

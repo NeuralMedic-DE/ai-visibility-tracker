@@ -1,9 +1,0 @@
-{
-  "brand": "Workable",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Workable with LinkedIn?",
-  "response": "# Connecting Workable with LinkedIn\n\nHere are the main ways to integrate these platforms:\n\n## 1. **LinkedIn Job Posting (Direct Integration)**\n- Go to **Settings > Integrations** in Workable\n- Find and enable the **LinkedIn** integration\n- Authenticate your LinkedIn Recruiter account\n- Post jobs directly to LinkedIn from Workable\n- Job applications sync back automatically\n\n## 2. **LinkedIn Candidate Search (Recruiter)**\n- Use LinkedIn Recruiter from within Workable\n- Search and import candidate profiles\n- Add them directly to your Workable pipeline\n- Requires LinkedIn Recruiter seat\n\n## 3. **Manual Connection (Basic)**\n- Post job links to LinkedIn manually\n- Use UTM parameters to track LinkedIn applicants\n- Direct candidates to apply via your Workable career page\n\n## 4. **Two-Way Sync**\n- Once integrated, applicants from LinkedIn auto-sync to Workable\n- You can manage all LinkedIn applications in one place\n- Reduce duplicate entries and manual data entry\n\n## Steps to Set Up:\n1. Log into Workable\n2. Navigate to **Settings > Integrations**\n3. Search for \"LinkedIn\"\n4. Click **Connect** and authorize\n5. Configure your preferences (which jobs to post, etc.)\n\n**Note:** You'll need appropriate LinkedIn permissions and potentially a LinkedIn Recruiter subscription for full functionality.\n\nWould you like help with a specific part of the integration?",
-  "cached_at": "2026-05-28T06:46:19Z",
-  "metadata": {}
-}

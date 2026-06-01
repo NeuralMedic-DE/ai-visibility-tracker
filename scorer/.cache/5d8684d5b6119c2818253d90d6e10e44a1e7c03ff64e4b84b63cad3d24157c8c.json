@@ -1,9 +1,0 @@
-{
-  "brand": "Rippling",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable HR tools instead of BambooHR",
-  "response": "# Affordable HR Tools & Alternatives to BambooHR\n\n## Open Source Options\n\n**Odoo HR Module**\n- Free (open source) or cloud paid plans\n- Covers recruitment, payroll, leave management, employee data\n- Requires some technical setup but highly customizable\n\n**ERPNext**\n- Free & open source\n- HR, payroll, attendance, performance management\n- Good for growing companies; self-hosted option available\n\n**OpenHRMS**\n- Completely free, open source\n- Employee records, leave, recruitment, shifts\n- Lighter weight, easier to deploy\n\n## Low-Cost SaaS Alternatives\n\n**Guidepoint/Zoho People** ($1-3/user/month)\n- Mobile-friendly, HRIS features\n- Zoho ecosystem integration\n\n**Workday Community Edition**\n- Free for nonprofits and educational institutions\n- Full Workday features (normally expensive)\n\n**BrightHire**\n- Budget-friendly recruiting + onboarding\n- ~$2-5/user/month range\n\n**HiBob** (mid-market but scalable)\n- ~$8/user/month (cheaper at scale)\n- Modern interface, good UX\n\n## Lightweight/Specialized Tools\n- **Toggles** - attendance/leave only (~$1-2/user)\n- **Justworks** - all-in-one for small business\n- **Rippling** - device management included\n\n## Considerations\n- **Company size matters** (under 50 vs. 500+)\n- **Must-haves?** (payroll, compliance, benefits?)\n- **Budget** for implementation/training\n\nWhat's your company size & primary needs?",
-  "cached_at": "2026-05-28T06:27:43Z",
-  "metadata": {}
-}

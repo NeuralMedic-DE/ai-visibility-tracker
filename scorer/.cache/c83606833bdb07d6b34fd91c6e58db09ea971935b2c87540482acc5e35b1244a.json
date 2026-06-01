@@ -1,9 +1,0 @@
-{
-  "brand": "Attio",
-  "prompt_id": "IN-02",
-  "llm": "openai",
-  "prompt_text": "Attio Zapier integration: how does it work?",
-  "response": "Attio's integration with Zapier allows you to automate workflows between Attio and thousands of other apps without needing to write any code. Here's how it generally works:\n\n1. **Triggers and Actions**: In Zapier, you create \"Zaps,\" which are automated workflows consisting of a trigger and one or more actions. A trigger is an event that starts the workflow, and an action is the event that Zapier performs automatically.\n\n2. **Connecting Attio**: To use Attio with Zapier, you first need to connect your Attio account to Zapier. This typically involves logging into your Attio account through Zapier and granting the necessary permissions.\n\n3. **Creating Zaps**: Once connected, you can create Zaps that use Attio as either a trigger or an action. For example, you might set up a Zap that triggers when a new contact is added in Attio and then creates a corresponding entry in another app, like Google Sheets or Mailchimp.\n\n4. **Customizing Workflows**: You can customize the data that gets transferred between Attio and other apps. Zapier allows you to map fields from Attio to fields in other apps, ensuring that the data is transferred correctly.\n\n5. **Automation**: Once your Zaps are set up, they run automatically, allowing you to streamline processes and reduce manual data entry.\n\nBy using Attio with Zapier, you can integrate your CRM data with other tools you use, enhancing productivity and ensuring that your workflows are efficient and automated.",
-  "cached_at": "2026-05-27T17:52:57Z",
-  "metadata": {}
-}

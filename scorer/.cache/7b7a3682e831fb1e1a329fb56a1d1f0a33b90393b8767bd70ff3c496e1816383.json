@@ -1,9 +1,0 @@
-{
-  "brand": "Stonly",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with reduce support tickets with contextual in-app help widgets and self-service portals at scale?",
-  "response": "# Software for Self-Service Support at Scale\n\nSeveral platforms excel at reducing support tickets through in-app help and self-service portals:\n\n## **Top Solutions**\n\n**Zendesk Guide** / **Zendesk Suite**\n- In-app widgets, knowledge bases, and AI chatbots\n- Good for enterprise-scale operations\n\n**Intercom**\n- Contextual in-app messaging and help widgets\n- AI-powered chatbots for immediate responses\n- Strong for product-led growth companies\n\n**Freshdesk** / **Freshworks**\n- Self-service portal with knowledge base\n- In-app widgets and automation\n- Cost-effective for mid-market\n\n**HelpJuice** / **Document360**\n- Knowledge base platforms optimized for self-service\n- Search-friendly, scalable documentation\n\n**Pendo**\n- In-app guidance and contextual help\n- Analytics on user behavior\n- Good for reducing friction at scale\n\n**Appcues**\n- Lightweight in-app help flows\n- Onboarding and guided tours\n\n## **Key Features to Look For**\n\n- **Contextual widgets** that appear based on user behavior\n- **AI search** for fast knowledge base discovery\n- **Analytics** to identify common pain points\n- **Multi-language support** for global teams\n- **Integration capabilities** with your stack\n\n**Best choice depends on**: your company size, budget, integration needs, and whether you prioritize chatbots vs. self-service content.\n\nWhat's your primary use case or company size?",
-  "cached_at": "2026-05-28T08:22:05Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Reply.io",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is Reply.io better than Outreach for use AI to personalize messages and continuously find new qualified prospects?",
-  "response": "# Reply.io vs Outreach: AI Personalization & Prospect Finding\n\nThis depends on your specific priorities, but here's an honest breakdown:\n\n## Reply.io's Strengths\n- **More affordable** for small-to-mid teams\n- **Built-in email finding** (Hunter integration) makes prospect discovery easier\n- **Simpler AI personalization** - good for basic customization at scale\n- Better for volume-focused outreach\n\n## Outreach's Strengths\n- **More sophisticated AI** (with recent updates) for deeper personalization\n- **Better data integration** with existing CRMs and intelligence platforms\n- **Stronger for complex B2B sales** with account-based workflows\n- More mature platform overall, though heavier to use\n\n## Key Consideration: Prospect Finding\nBoth require external data sources (Hunter, Apollo, RocketReach, etc.) for continuous prospecting. Neither has a *major* advantage here—it's more about which integrations you prefer.\n\n## Practical Advice\n- **Choose Reply.io if**: Budget matters, you want simplicity, or you're doing high-volume SDR campaigns\n- **Choose Outreach if**: You have complex sales workflows, need deeper personalization, or larger team budget\n\n**Real talk**: The best tool depends less on AI capabilities (both are decent) and more on your sales process, team size, and budget. \n\nWhat's your team size and primary use case? That would help me give a more targeted recommendation.",
-  "cached_at": "2026-05-28T07:21:13Z",
-  "metadata": {}
-}

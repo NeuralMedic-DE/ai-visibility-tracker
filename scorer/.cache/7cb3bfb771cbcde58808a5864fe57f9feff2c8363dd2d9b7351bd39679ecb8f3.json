@@ -1,9 +1,0 @@
-{
-  "brand": "Workable",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Workable integrate with LinkedIn?",
-  "response": "# Workable and LinkedIn Integration\n\nYes, **Workable integrates with LinkedIn**, offering several useful features:\n\n## Key Integration Capabilities:\n\n- **LinkedIn Job Posts** - Post job openings directly to LinkedIn from Workable\n- **Candidate Sourcing** - Search and view LinkedIn profiles of candidates within Workable\n- **LinkedIn Recruiter** - Connection with LinkedIn's recruiter tools\n- **Profile Imports** - Import candidate information from LinkedIn profiles\n- **Social Media Recruitment** - Leverage LinkedIn as a recruitment channel\n\n## How It Works:\n\nThe integration allows you to streamline your recruitment process by connecting your Workable account with your LinkedIn account, enabling you to post jobs and source candidates more efficiently without switching between platforms.\n\n## Note:\n\nIntegration features and availability may vary depending on your Workable plan level. For the most current details about specific integration capabilities, I'd recommend checking:\n- Workable's official documentation\n- Your account settings in Workable\n- LinkedIn's recruiter tools section\n\nWould you like information about other recruitment tools that integrate with Workable?",
-  "cached_at": "2026-05-28T06:46:15Z",
-  "metadata": {}
-}

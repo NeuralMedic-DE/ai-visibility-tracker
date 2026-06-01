@@ -1,9 +1,0 @@
-{
-  "brand": "Userlist",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Userlist integrate with Stripe?",
-  "response": "# Userlist and Stripe Integration\n\nYes, **Userlist integrates with Stripe**. This integration allows you to:\n\n- **Sync customer data** from Stripe to Userlist\n- **Track subscription information** (plans, billing cycles, status)\n- **Segment users** based on their subscription details\n- **Trigger automated campaigns** based on subscription events (upgrades, downgrades, cancellations, etc.)\n\n## Common Use Cases\n\n- Send onboarding campaigns to new subscribers\n- Target users based on their plan tier\n- Trigger win-back campaigns for churned customers\n- Personalize messaging based on subscription status\n\nFor the most current details on setup and available features, I'd recommend checking [Userlist's integration documentation](https://userlist.com) or contacting their support team directly, as integration capabilities can be updated over time.",
-  "cached_at": "2026-05-28T07:31:00Z",
-  "metadata": {}
-}

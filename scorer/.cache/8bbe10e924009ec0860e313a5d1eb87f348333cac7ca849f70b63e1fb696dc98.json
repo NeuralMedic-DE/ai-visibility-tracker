@@ -1,9 +1,0 @@
-{
-  "brand": "Leapsome",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Leapsome integrate with Slack?",
-  "response": "Yes. **Leapsome has a native integration with Slack**, available via Leapsome’s integrations page and the Slack App Directory.[1][2][3][7]\n\nWith the **Leapsome–Slack integration**, you can:[1][2][3][7]  \n- Receive **notifications and reminders** (e.g., for reviews, feedback, goals) directly in Slack  \n- Use **slash commands and shortcuts** (e.g., `/leapsome`) to:  \n  - Give **praise** to colleagues  \n  - Request or send **feedback**  \n  - Add **1:1 and team meeting agenda items** from Slack into Leapsome  \n- Post public praise into a **Slack channel** to highlight recognition  \n\nYou can enable it either from Leapsome’s **Integrations** section or by installing the **Leapsome app** from the Slack App Directory.[2][3][7]",
-  "cached_at": "2026-05-28T06:38:42Z",
-  "metadata": {}
-}

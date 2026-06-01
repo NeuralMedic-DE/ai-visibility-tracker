@@ -1,9 +1,0 @@
-{
-  "brand": "Helicone",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Helicone with OpenAI?",
-  "response": "# Connecting Helicone with OpenAI\n\nHelicone is an observability platform for LLM APIs. Here's how to connect it:\n\n## Quick Setup (Easiest Method)\n\n### 1. **Get Your Helicone API Key**\n- Sign up at [helicone.ai](https://www.helicone.ai)\n- Navigate to your dashboard and copy your API key\n\n### 2. **Update Your OpenAI API Calls**\n\nChange your OpenAI base URL and add Helicone headers:\n\n```python\nfrom openai import OpenAI\n\nclient = OpenAI(\n    api_key=\"your-openai-api-key\",\n    base_url=\"https://oai.helicone.ai/v1\",\n    default_headers={\n        \"Helicone-Auth\": f\"Bearer {your-helicone-api-key}\"\n    }\n)\n\nresponse = client.chat.completions.create(\n    model=\"gpt-4\",\n    messages=[{\"role\": \"user\", \"content\": \"Hello!\"}]\n)\n```\n\n## JavaScript/Node.js Example\n\n```javascript\nimport OpenAI from \"openai\";\n\nconst client = new OpenAI({\n  apiKey: \"your-openai-api-key\",\n  baseURL: \"https://oai.helicone.ai/v1\",\n  defaultHeaders: {\n    \"Helicone-Auth\": `Bearer ${process.env.HELICONE_API_KEY}`,\n  },\n});\n\nconst response = await client.chat.completions.create({\n  model: \"gpt-4\",\n  messages: [{ role: \"user\", content: \"Hello!\" }],\n});\n```\n\n## Optional: Add Custom Properties\n\nTrack additional metadata:\n\n```python\ndefault_headers={\n    \"Helicone-Auth\": f\"Bearer {your-helicone-api-key}\",\n    \"Helicone-Property-Environment\": \"production\",\n    \"Helicone-Property-User-Id\": \"user123\"\n}\n```\n\n## Verify Connection\n\n- Check your Helicone dashboard\n- You should see requests appearing in real-time\n- View metrics like latency, costs, and token usage\n\nThat's it! Your OpenAI requests are now being logged and analyzed by Helicone.",
-  "cached_at": "2026-05-28T07:49:56Z",
-  "metadata": {}
-}

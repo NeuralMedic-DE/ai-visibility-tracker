@@ -1,9 +1,0 @@
-{
-  "brand": "Conveyor",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "SafeBase vs alternatives: what should I switch to?",
-  "response": "# SafeBase Alternatives\n\nI don't have current info on SafeBase's specific status or recent changes, but here are common reasons people switch and options depending on your needs:\n\n## If you need a **security questionnaire/compliance platform:**\n- **Vanta** - automated compliance, good UI\n- **OneTrust** - comprehensive governance/risk\n- **Drata** - accounting-friendly, good for startups\n- **JupiterOne** - asset management + compliance\n\n## If you need **vendor security assessment:**\n- **Secureframe** - streamlined questionnaires\n- **Sprinto** - simpler, lower cost\n- **Laika** - newer, focused tool\n- **Industry-specific**: CAIQ (for cloud vendors)\n\n## Key factors to evaluate:\n- **Cost** (per user/org/flat fee?)\n- **Ease of use** (for both you and vendors)\n- **Automation** (how much manual work?)\n- **Integration** (with your existing tools?)\n- **Support quality**\n\n## My suggestion:\n1. **What's driving the switch?** (cost, features, usability, support?)\n2. **Who's it for?** (internal compliance? vendor assessments?)\n3. **Check G2/Capterra reviews** for recent user feedback\n4. **Try free trials** - these tools vary significantly in practice\n\nWhat's your main pain point with SafeBase? That would help narrow it down.",
-  "cached_at": "2026-05-28T08:46:19Z",
-  "metadata": {}
-}

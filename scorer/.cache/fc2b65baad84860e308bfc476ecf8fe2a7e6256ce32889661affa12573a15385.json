@@ -1,9 +1,0 @@
-{
-  "brand": "Close",
-  "prompt_id": "CD-04",
-  "llm": "openai",
-  "prompt_text": "Best CRM platforms for track sales pipeline",
-  "response": "There are several CRM platforms that are highly regarded for tracking sales pipelines. Here are some of the best options:\n\n1. **Salesforce**: Known for its robust features and customization options, Salesforce is a leader in the CRM space. It offers comprehensive tools for managing sales pipelines, forecasting, and analytics.\n\n2. **HubSpot CRM**: HubSpot offers a free CRM with a user-friendly interface and powerful sales pipeline management tools. It integrates seamlessly with HubSpot's marketing and service hubs.\n\n3. **Pipedrive**: Designed specifically for sales teams, Pipedrive provides a visual sales pipeline that helps manage leads and deals effectively. It's known for its simplicity and ease of use.\n\n4. **Zoho CRM**: Zoho offers a flexible CRM solution with a strong focus on automation and AI. It provides tools for managing sales pipelines, workflows, and customer interactions.\n\n5. **Microsoft Dynamics 365**: This CRM integrates well with other Microsoft products and offers advanced analytics and AI capabilities. It's suitable for businesses looking for a comprehensive solution.\n\n6. **Freshsales (by Freshworks)**: Freshsales offers an intuitive interface with features like AI-based lead scoring, visual sales pipelines, and automation tools.\n\n7. **Insightly**: This CRM is great for small to medium-sized businesses and offers project management features along with sales pipeline management.\n\n8. **Copper**: Known for its seamless integration with Google Workspace, Copper is ideal for businesses that rely heavily on Google apps.\n\nEach of these platforms has its strengths, and the best choice depends on your specific business needs, budget, and the level of integration you require with other tools.",
-  "cached_at": "2026-05-27T17:28:25Z",
-  "metadata": {}
-}

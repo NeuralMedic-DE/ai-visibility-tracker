@@ -1,9 +1,0 @@
-{
-  "brand": "Attio",
-  "prompt_id": "AL-01",
-  "llm": "anthropic",
-  "prompt_text": "Alternatives to Salesforce for B2B startups",
-  "response": "# Alternatives to Salesforce for B2B Startups\n\n## **Lightweight & Affordable**\n\n### HubSpot\n- Free tier covers basics; paid starts at $45/month\n- Strong inbound marketing integration\n- User-friendly for non-technical teams\n- Best for: Early-stage companies prioritizing ease of use\n\n### Pipedrive\n- Affordable ($14-99/month)\n- Visual sales pipeline focus\n- Lightweight and intuitive\n- Best for: Sales-driven teams wanting simplicity\n\n### Freshsales\n- Budget-friendly ($15-99/month)\n- AI-powered lead scoring\n- Good customization for the price\n- Best for: Startups needing affordability + features\n\n## **Flexible & Customizable**\n\n### Monday.com / Notion + integrations\n- Modular approach to CRM\n- Can build custom workflows\n- Better for creative/non-traditional processes\n- Best for: Teams wanting full control\n\n### Microsoft Dynamics 365\n- Works well if already using Microsoft ecosystem\n- More expensive but powerful\n- Better ROI if you have Office 365\n- Best for: Enterprise-adjacent startups\n\n## **Niche/Specialized**\n\n### Copper (formerly ProsperWorks)\n- Gmail-integrated CRM\n- Minimal data entry required\n- Best for: Teams living in Gmail/Google Workspace\n\n### Outreach / Salesloft\n- Sales engagement platforms\n- Strong for outbound/enterprise sales\n- Best for: High-volume outbound teams\n\n## **Selection Criteria**\n\nChoose based on:\n- **Budget**: HubSpot/Pipedrive if tight\n- **Team size**: Pipedrive for small teams\n- **Integration needs**: Check your existing tools\n- **Sales complexity**: HubSpot for simple, Dynamics for complex\n- **Growth timeline**: Pick tools that scale with you\n\n**Most popular choice**: HubSpot for B2B startups—best balance of cost, features, and scalability.",
-  "cached_at": "2026-05-27T17:54:15Z",
-  "metadata": {}
-}

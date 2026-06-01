@@ -1,9 +1,0 @@
-{
-  "brand": "Portkey",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with monitor costs and set safety guardrails on all LLM usage in production at scale?",
-  "response": "# LLM Cost & Safety Monitoring Tools\n\nSeveral platforms specialize in this:\n\n## Dedicated LLM Observability Platforms\n- **Langfuse** - Open source option with cost tracking, latency monitoring, and safety features\n- **LangSmith** (by LangChain) - Built-in token counting, cost analysis, and evaluation frameworks\n- **Helicone** - LLM observability with cost monitoring and request filtering\n- **Humanloop** - Cost tracking, performance metrics, and safety guardrails\n- **Arize** - ML observability with LLM-specific monitoring capabilities\n\n## Enterprise-Grade Solutions\n- **Databricks Mosaic AI** - Governance and cost controls at scale\n- **AWS Bedrock** - Built-in usage monitoring and access controls\n- **Azure AI Content Safety** - Safety filters integrated with LLM services\n\n## Open Source / DIY Approaches\n- **OpenLLM** - Model serving with monitoring\n- **Ray Serve** - Scalable inference with custom guardrails\n- **Outlines** - Structured output generation to enforce safety constraints\n\n## Key Features to Look For\n✓ Token/cost tracking per request/user/model  \n✓ Rate limiting & quota enforcement  \n✓ Content filtering & safety guardrails  \n✓ Latency/performance monitoring  \n✓ Multi-model support  \n✓ Audit logging for compliance  \n\n**Popular combo**: Many teams pair **Langfuse** + **Guardrails AI** (open source safety framework) for cost-effective production setups, or use native platform tools (Bedrock, Azure) for tighter AWS/Microsoft ecosystems.\n\nWhat's your current deployment environment?",
-  "cached_at": "2026-05-28T07:52:15Z",
-  "metadata": {}
-}

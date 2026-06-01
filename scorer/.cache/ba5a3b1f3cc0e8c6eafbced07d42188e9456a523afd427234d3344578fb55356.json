@@ -1,9 +1,0 @@
-{
-  "brand": "Salesflare",
-  "prompt_id": "IN-02",
-  "llm": "anthropic",
-  "prompt_text": "Salesflare LinkedIn integration: how does it work?",
-  "response": "# Salesflare LinkedIn Integration Overview\n\n## How It Works\n\n**Automatic Contact Syncing**\n- Salesflare pulls LinkedIn profile data automatically when you connect the integration\n- Updates contact information like job titles, company changes, and profile photos\n- Enriches existing contacts in your CRM with LinkedIn details\n\n**Key Features**\n\n| Feature | Function |\n|---------|----------|\n| **Profile Enrichment** | Auto-fills missing contact details from LinkedIn |\n| **Activity Tracking** | Logs LinkedIn interactions and profile views |\n| **Lead Recommendations** | Suggests relevant LinkedIn prospects |\n| **Meeting Insights** | Provides LinkedIn context before calls/meetings |\n\n## Getting Started\n\n1. **Connect** your LinkedIn account to Salesflare\n2. **Authorize** the integration to access your profile data\n3. **Map fields** between LinkedIn and your CRM fields\n4. **Sync** - data automatically updates periodically\n\n## Main Benefits\n\n- ✅ Less manual data entry\n- ✅ Stay updated on prospect job changes\n- ✅ Access LinkedIn recommendations within your CRM\n- ✅ Add contacts directly from LinkedIn\n- ✅ View contact timeline with LinkedIn interactions\n\n## Limitations to Consider\n\n- May require Salesflare's Sales Engagement plan for full features\n- Data accuracy depends on LinkedIn profile completeness\n- Frequency of updates varies by plan\n\nWould you like details on specific features or troubleshooting help with the integration?",
-  "cached_at": "2026-05-27T18:14:53Z",
-  "metadata": {}
-}

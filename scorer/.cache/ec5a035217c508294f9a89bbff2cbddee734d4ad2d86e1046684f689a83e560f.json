@@ -1,9 +1,0 @@
-{
-  "brand": "Pipedrive",
-  "prompt_id": "UC-05",
-  "llm": "perplexity",
-  "prompt_text": "What software helps with track deals and forecast revenue at scale?",
-  "response": "Software that helps **track deals and forecast revenue at scale** is usually called **revenue intelligence**, **sales forecasting**, or **deal management** software.[1][4][6][8]\n\nThe strongest matches in the results are:\n\n- **Revenue Grid** — described as revenue tracking software that automatically captures deal activity, gives visibility into every opportunity, and provides data-driven forecasting.[1][6]\n- **Gong** — presented as sales tracking software and a “Revenue AI Operating System” for seeing and acting on revenue moments.[4]\n- **Clari** — described as a revenue platform focused on forecasting and pipeline inspection to manage deals at scale.[8]\n- **Salesloft** — listed as revenue operations software with forecasting and pipeline management capabilities.[7]\n- **ZoomInfo Sales Forecasting** — a category-focused option for turning pipeline data into revenue predictions.[5]\n\nIf you want the shortest answer: **Clari, Gong, and Revenue Grid** are the most directly relevant tools for tracking deals and forecasting revenue at scale.[1][4][8]",
-  "cached_at": "2026-05-27T17:27:16Z",
-  "metadata": {}
-}

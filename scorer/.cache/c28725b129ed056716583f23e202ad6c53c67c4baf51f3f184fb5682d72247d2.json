@@ -1,9 +1,0 @@
-{
-  "brand": "Airbyte",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with build custom connectors with a no-code connector builder when pre-built ones are missing at scale?",
-  "response": "A software that can help with building custom connectors using a no-code approach is **Workato**. Workato offers a no-code/low-code platform that allows users to create custom connectors when pre-built ones are not available. It provides a Connector SDK that enables users to define the API interactions and data mappings required for integration without needing extensive coding knowledge. This can be particularly useful for scaling integrations across various applications and services.",
-  "cached_at": "2026-05-28T09:03:31Z",
-  "metadata": {}
-}

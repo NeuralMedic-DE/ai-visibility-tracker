@@ -1,9 +1,0 @@
-{
-  "brand": "Workable",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with screen and evaluate candidates with AI-powered scoring tools at scale?",
-  "response": "There are several software solutions that use AI-powered tools to screen and evaluate candidates at scale. Some popular options include:\n\n1. **HireVue**: Offers AI-driven video interviewing and assessment tools to evaluate candidates' skills and fit.\n\n2. **Pymetrics**: Uses neuroscience-based games and AI to assess candidates' cognitive and emotional traits.\n\n3. **Modern Hire**: Provides a platform that combines AI with predictive analytics to enhance the hiring process through video interviews and assessments.\n\n4. **Vervoe**: Utilizes AI to automatically grade and rank candidates based on their performance in customized skill assessments.\n\n5. **Codility**: Focuses on technical hiring, using AI to evaluate coding skills and technical abilities through coding tests and challenges.\n\n6. **X0PA AI**: Offers an AI-driven platform for talent acquisition and management, providing predictive analytics to match candidates with job roles.\n\nThese tools can help streamline the recruitment process by automating initial candidate screening and providing data-driven insights to support hiring decisions.",
-  "cached_at": "2026-05-28T06:46:10Z",
-  "metadata": {}
-}

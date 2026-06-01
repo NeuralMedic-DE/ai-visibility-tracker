@@ -1,9 +1,0 @@
-{
-  "brand": "Front",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which customer operations software should a CS or Support Lead or Head of Ops at a mid-market company use?",
-  "response": "# Customer Operations Software for Mid-Market Leaders\n\nHere's what typically makes sense at that stage:\n\n## Core Platform (Pick One)\n- **Gainsight** – Most comprehensive; strong for CS analytics and health scoring\n- **Totango** – Good balance of CS + support workflows; easier implementation than Gainsight\n- **HubSpot Service Hub** – Best if you're already in HubSpot ecosystem; simpler but less specialized\n- **Zendesk** – Stronger on support side; weaker on proactive CS\n- **Salesloft/Outreach** – If revenue operations overlap is your priority\n\n## What Actually Matters at Your Stage\n\n**You probably need:**\n- Health scoring & account segmentation\n- Unified customer data (not siloed between teams)\n- Workflow automation (renewals, escalations, expansions)\n- Basic reporting for execs\n\n**You probably don't need:**\n- AI-powered predictive analytics (yet)\n- Complex multi-product roadmaps\n- Enterprise-grade security features\n\n## Realistic Advice\n\n1. **Start with what you have** – Audit your current stack (CRM, help desk, data warehouse) before buying\n2. **Integration matters more than features** – A 70% solution that talks to your tools beats 95% that doesn't\n3. **Avoid over-buying** – Mid-market often gets sold Gainsight when Totango or even structured Salesforce + Slack would work\n4. **Budget realistically** – Add 30-50% for implementation costs and internal setup\n\nWhat's your current tech stack? That would help narrow it down further.",
-  "cached_at": "2026-05-28T08:16:52Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Pilot",
-  "prompt_id": "IN-03",
-  "llm": "openai",
-  "prompt_text": "How do I connect Pilot with Stripe?",
-  "response": "To connect Pilot with Stripe, you'll need to follow these general steps:\n\n1. **Log in to Pilot:**\n   - Go to the Pilot website and log in to your account.\n\n2. **Navigate to Integrations:**\n   - Once logged in, find the section for integrations or settings. This is typically located in the dashboard or under account settings.\n\n3. **Select Stripe:**\n   - Look for Stripe among the list of available integrations. Click on it to start the connection process.\n\n4. **Authorize the Connection:**\n   - You will be prompted to authorize Pilot to access your Stripe account. This usually involves logging into your Stripe account and granting the necessary permissions.\n\n5. **Complete the Setup:**\n   - Follow any additional instructions provided by Pilot to complete the integration. This might include setting up specific preferences or configurations.\n\n6. **Verify the Connection:**\n   - Once connected, verify that the integration is working correctly by checking if data from Stripe is being accurately reflected in Pilot.\n\nIf you encounter any issues, consult the help documentation or support team for either Pilot or Stripe for further assistance.",
-  "cached_at": "2026-05-28T07:02:45Z",
-  "metadata": {}
-}

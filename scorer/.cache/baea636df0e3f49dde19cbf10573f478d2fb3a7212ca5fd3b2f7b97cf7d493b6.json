@@ -1,9 +1,0 @@
-{
-  "brand": "Braintrust",
-  "prompt_id": "IN-04",
-  "llm": "openai",
-  "prompt_text": "Best AI tooling that works with OpenAI and Anthropic",
-  "response": "When looking for AI tooling that works with both OpenAI and Anthropic, you should consider platforms and tools that offer flexibility and integration capabilities with multiple AI models. Here are some options:\n\n1. **LangChain**: This is a popular framework for developing applications powered by language models. It provides a unified interface to work with different LLMs, including those from OpenAI and Anthropic, allowing you to switch between models easily.\n\n2. **LlamaIndex**: This tool helps in creating and managing indices for large datasets, making it easier to query and retrieve information using language models. It supports integration with various LLMs, including OpenAI and Anthropic.\n\n3. **Hugging Face Transformers**: While primarily known for open-source models, Hugging Face's platform can be used to integrate with APIs from different providers, including OpenAI. They offer tools and libraries that can facilitate the use of multiple models in a single application.\n\n4. **Zapier**: If you're looking for automation and workflow integration, Zapier can connect with OpenAI's API and potentially other APIs, allowing you to build workflows that incorporate AI capabilities.\n\n5. **API Management Platforms**: Tools like Postman or RapidAPI can be used to manage and test API calls to both OpenAI and Anthropic, providing a unified interface for development and testing.\n\nWhen choosing a tool, consider your specific use case, such as whether you need more focus on development, data management, or automation, and ensure the tool supports the APIs and functionalities you require.",
-  "cached_at": "2026-05-28T07:47:43Z",
-  "metadata": {}
-}

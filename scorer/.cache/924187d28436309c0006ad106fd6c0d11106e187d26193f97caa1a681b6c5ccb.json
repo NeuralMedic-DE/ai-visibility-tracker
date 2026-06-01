@@ -1,9 +1,0 @@
-{
-  "brand": "Braintrust",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is Braintrust better than PromptFoo for run A/B tests across different models and prompt versions to find optimal configurations?",
-  "response": "# Braintrust vs PromptFoo for A/B Testing\n\nBoth have strengths, but they're designed somewhat differently:\n\n## PromptFoo's advantages for A/B testing:\n- **Purpose-built for this use case** – evaluating multiple models/prompts against test cases is its core function\n- **Simpler setup** – straightforward YAML configuration, quick to run comparisons\n- **Better for quick iteration** – evaluate dozens of prompt variations rapidly\n- **Clear output formatting** – side-by-side comparisons are intuitive\n- **Lower overhead** – minimal infrastructure needed\n\n## Braintrust's advantages:\n- **More comprehensive** – tracks experiments, evals, datasets, and monitoring together\n- **Better for production workflows** – integrated with deployment and monitoring\n- **Richer evaluation framework** – more sophisticated scoring and custom evaluators\n- **Team collaboration** – better suited for teams running many experiments\n- **Historical tracking** – easier to track performance over time\n\n## Key trade-off:\n- **PromptFoo** = lightweight, focused testing tool\n- **Braintrust** = full platform with testing as one component\n\n## For your specific question:\nPromptFoo is likely **better if**:\n- You're doing rapid prompt/model experimentation\n- You want minimal setup time\n- You primarily need functional comparison\n\nBraintrust is **better if**:\n- You're running experiments across a team\n- You need production integration\n- You want to track metrics over time systematically\n\nHave you already tried either tool, or are you just starting out with A/B testing LLM configurations?",
-  "cached_at": "2026-05-28T07:47:20Z",
-  "metadata": {}
-}

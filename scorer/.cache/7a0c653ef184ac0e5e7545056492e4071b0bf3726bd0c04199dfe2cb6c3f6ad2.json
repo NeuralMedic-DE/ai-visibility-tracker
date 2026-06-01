@@ -1,9 +1,0 @@
-{
-  "brand": "Portkey",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "Helicone vs alternatives: what should I switch to?",
-  "response": "# Helicone Alternatives: What to Consider\n\nI should note I don't have recent pricing/feature updates, so verify current offerings. Here's how to evaluate:\n\n## Key Alternatives\n\n**OpenObserve** / **Datadog** / **New Relic**\n- Full observability platforms (logs, metrics, traces)\n- Better if you need broad infrastructure monitoring\n- Often pricier for LLM-specific use cases\n\n**LangSmith** (LangChain's tool)\n- Strong if you're already in LangChain ecosystem\n- Good debugging & testing features\n- Can feel heavyweight if you just need logging\n\n**Arize** / **WhyLabs**\n- ML monitoring focus (drift detection, model performance)\n- Good for production monitoring at scale\n- Overkill if you just need request logging\n\n**DIY + open source**\n- **BerryDB**, **Logfire**, **OpenTelemetry** collectors\n- Most control, lowest cost\n- High maintenance burden\n\n## Decision framework\n\nAsk yourself:\n- Do I need just **logging/debugging**, or full **production monitoring**?\n- Am I already paying for **other observability tools**? (might consolidate)\n- What's my **monthly API spend**? (changes ROI calculation)\n- Do I need **specific features** like cost tracking, token analytics, user segmentation?\n\n**What's driving your switch?** (pricing, missing features, performance issues?) That would help narrow it down.",
-  "cached_at": "2026-05-28T07:52:01Z",
-  "metadata": {}
-}

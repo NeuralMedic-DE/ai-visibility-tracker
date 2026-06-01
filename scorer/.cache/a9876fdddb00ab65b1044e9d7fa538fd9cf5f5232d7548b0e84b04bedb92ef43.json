@@ -1,9 +1,0 @@
-{
-  "brand": "Vitally",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best customer success for customer success teams at mid-market B2B SaaS companies?",
-  "response": "# Best Practices for Mid-Market B2B SaaS Customer Success\n\n## Core Priorities\n\n**1. Proactive Health Monitoring**\n- Track leading indicators (feature adoption, login frequency, support tickets)\n- Intervene before churn signals appear\n- Use data to prioritize at-risk accounts\n\n**2. Outcome-Focused Engagement**\n- Map to their business metrics, not just product usage\n- Develop success plans with clear ROI milestones\n- Regular business reviews (quarterly minimum)\n\n**3. Efficient Scaling** (critical at mid-market)\n- Segment accounts by potential value and risk\n- Use playbooks for common use cases\n- Leverage automation for routine check-ins\n- Reserve high-touch for strategic accounts\n\n## Operational Essentials\n\n**Staffing Model**\n- Typical ratio: 1 CSM to 30-50 accounts (varies by complexity)\n- Pair CSMs with customer success operations for data/reporting\n\n**Key Activities**\n- Onboarding that drives time-to-value (weeks, not months)\n- Technical enablement and training\n- Executive relationships at 2-3 stakeholder levels\n- Expansion opportunity identification\n\n**Metrics That Matter**\n- Net Revenue Retention (NRR)\n- Churn/renewal rate\n- Time-to-value\n- Product adoption rates\n- Customer Health Score accuracy\n\n## Common Pitfalls to Avoid\n\n- Treating all accounts equally (resource drain)\n- Reactive support masquerading as CS\n- Weak handoff from sales\n- No clear expansion motion\n\n**The biggest differentiator?** CS teams that deeply understand their customer's business and tie product usage directly to business outcomes consistently outperform.\n\nWhat's your specific challenge—onboarding, retention, or scaling the team?",
-  "cached_at": "2026-05-28T08:09:09Z",
-  "metadata": {}
-}

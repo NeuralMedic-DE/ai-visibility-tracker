@@ -1,9 +1,0 @@
-{
-  "brand": "PostHog",
-  "prompt_id": "IN-05",
-  "llm": "openai",
-  "prompt_text": "product analytics tools with native GitHub integration",
-  "response": "There are several product analytics tools that offer native GitHub integration, allowing you to connect your analytics data with your GitHub repositories for better collaboration and streamlined workflows. Here are a few popular options:\n\n1. **Mixpanel**: Mixpanel provides product analytics with a focus on user behavior and engagement. It offers integrations with GitHub to help teams track changes and correlate them with user metrics.\n\n2. **Amplitude**: Amplitude is another powerful product analytics tool that can integrate with GitHub. It helps teams understand user behavior and product usage, and the integration can assist in linking code changes to user impact.\n\n3. **Pendo**: Pendo focuses on product usage analytics and user feedback. It offers integrations with various development tools, including GitHub, to help teams connect product changes with user data.\n\n4. **Heap**: Heap automatically captures user interactions and provides insights into user behavior. It can integrate with GitHub to help teams understand the impact of code changes on user engagement.\n\n5. **Segment**: While not a product analytics tool per se, Segment acts as a customer data platform that can route data to various analytics tools. It offers integrations with GitHub to help manage and track data flows related to product development.\n\nThese tools can help you leverage GitHub data to enhance your product analytics and make more informed decisions based on user behavior and feedback. Be sure to check the specific integration capabilities and features of each tool to ensure they meet your needs.",
-  "cached_at": "2026-05-27T19:35:25Z",
-  "metadata": {}
-}

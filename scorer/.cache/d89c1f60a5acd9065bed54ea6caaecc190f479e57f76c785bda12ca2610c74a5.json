@@ -1,9 +1,0 @@
-{
-  "brand": "Charlie HR",
-  "prompt_id": "AL-01",
-  "llm": "anthropic",
-  "prompt_text": "Alternatives to BambooHR for small UK-based companies with 10 to 100 employees",
-  "response": "# HR Software Alternatives to BambooHR for Small UK Companies\n\n## Top Contenders\n\n### **Breathe HR**\n- UK-native platform specifically designed for SMEs\n- Payroll integration, absence tracking, performance management\n- Strong compliance with UK employment law\n- Generally 20-30% cheaper than BambooHR\n- Excellent customer support reputation\n\n### **Personio**\n- Growing rapidly in the UK market\n- Modern, intuitive interface\n- Core HR, payroll, and recruitment tools\n- Good value for money\n- Strong onboarding features\n\n### **Guidepoint**\n- UK-focused with built-in employment law guidance\n- Particularly good for compliance-heavy needs\n- Performance and learning management included\n- Slightly higher cost but excellent support\n\n## Budget-Friendly Options\n\n| Platform | Key Strength | Price Range |\n|----------|---|---|\n| **Float** | Simple absence/holidays | £2-4/employee/month |\n| **Factorial** | Modern design + payroll | £3-6/employee/month |\n| **Lattice** | Performance reviews | £8-13/employee/month |\n| **Zenefits** | Comprehensive (if available in UK) | £6-10/employee/month |\n\n## Essential Considerations for UK Companies\n\n- **Statutory compliance**: Check GDPR, auto-enrolment pensions, and RTI payroll\n- **Payroll integration**: Most need third-party links\n- **Support timezone**: UK-based support is valuable for payroll issues\n- **Statutory sick pay handling**: Not all platforms manage this\n- **Free trials**: Almost all offer 14-30 day trials—test thoroughly\n\n**My recommendation**: Start with **Breathe HR** for genuine UK alignment, or **Personio** for flexibility and modern features.",
-  "cached_at": "2026-05-28T06:43:45Z",
-  "metadata": {}
-}

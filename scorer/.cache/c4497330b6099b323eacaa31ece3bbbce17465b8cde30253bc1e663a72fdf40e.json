@@ -1,9 +1,0 @@
-{
-  "brand": "Mixpanel",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Mixpanel integrate with Segment?",
-  "response": "# Mixpanel and Segment Integration\n\nYes, **Mixpanel integrates with Segment**. This is one of the standard integrations Segment offers.\n\n## How it works:\n\n- **Data flow**: You can send events from Segment to Mixpanel\n- **Setup**: Configure Mixpanel as a destination in your Segment workspace\n- **Event mapping**: Events tracked through Segment are forwarded to Mixpanel for analytics\n\n## Key points:\n\n- It's a **cloud-mode integration** (server-side)\n- You'll need your Mixpanel project token to authenticate\n- Segment handles the data transformation and delivery to Mixpanel\n- Useful if you want to consolidate event tracking through Segment rather than implementing Mixpanel directly\n\n## Alternative approach:\n\nYou can also implement Mixpanel directly in your application without Segment, depending on your needs and architecture.\n\nIf you're setting this up, check the current [Segment documentation](https://segment.com/catalog/integrations/) for the latest configuration details and any recent changes to the integration.",
-  "cached_at": "2026-05-27T19:15:31Z",
-  "metadata": {}
-}

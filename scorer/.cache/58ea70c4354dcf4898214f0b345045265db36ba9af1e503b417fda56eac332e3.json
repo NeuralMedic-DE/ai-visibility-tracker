@@ -1,9 +1,0 @@
-{
-  "brand": "Lemlist",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to Instantly",
-  "response": "# Cheaper Alternatives to Instantly\n\n## Free/Budget-Friendly Tools\n\n**Email Finding & Outreach:**\n- **Hunter.io** - Free tier with limited searches\n- **RocketReach** - Free plan available\n- **Clearbit** - Free email finder\n- **Snov.io** - Generous free plan\n\n**Cold Email Software:**\n- **Mailmodo** - Free option available\n- **Brevo (Sendinblue)** - Free tier for automation\n- **Lemlist** - Lower pricing than Instantly\n- **Smartlead** - Competitive pricing\n\n**DIY Approach (Cheapest):**\n- Gmail + **Apollo** or **Phantom Buster** (scripts)\n- **Make.com** or **Zapier** - Build custom workflows\n- **Bulk email via Gmail** (risky, can get flagged)\n\n## Mid-Range Alternatives ($50-150/mo)\n\n- **Lemlist** - Better personalization, lower cost\n- **Brevo** - Strong automation at lower price\n- **Mailshake** - Simple, affordable\n- **Reply.io** - Good features, reasonable pricing\n\n## Key Considerations\n\n- **Deliverability matters** - Cheapest isn't always best\n- **Compliance** - Ensure GDPR/CAN-SPAM compliance\n- **Warm-up needed** - Most require email warm-up (Hunter, Lemwarm, etc.)\n\n**What's your main use case?** (prospecting, follow-ups, etc.) I can recommend more specific options.",
-  "cached_at": "2026-05-28T07:17:06Z",
-  "metadata": {}
-}

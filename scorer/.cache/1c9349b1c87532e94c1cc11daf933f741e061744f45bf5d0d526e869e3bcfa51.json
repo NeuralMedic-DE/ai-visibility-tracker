@@ -1,9 +1,0 @@
-{
-  "brand": "Supermetrics",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best marketing analytics that works with Google Analytics and Facebook Ads",
-  "response": "# Best Marketing Analytics Tools for GA + Facebook Ads\n\n## **Top Integrated Solutions**\n\n### **1. Google Analytics 4 (GA4) + Facebook Pixel**\n- **Free native integration** – built-in FB conversion tracking\n- Best for: Small budgets, basic attribution\n- **Limitation**: Limited cross-platform insights\n\n### **2. Supermetrics**\n- ⭐ **Best overall value**\n- Pulls data from 100+ sources into Google Sheets/Data Studio\n- Easy dashboard creation\n- Pricing: Free tier available, $99-399/month\n\n### **3. Ruler Analytics**\n- Strong attribution modeling (multi-touch)\n- Connects GA + Facebook + CRM\n- Good for B2B\n- Pricing: $250-500+/month\n\n### **4. Segment**\n- Excellent data pipeline tool\n- Unifies customer data across platforms\n- Best for: Data-driven teams\n- Pricing: Starts ~$120/month\n\n### **5. Triple Whale**\n- Real-time dashboards\n- GA4 + Facebook + Shopify integration\n- Great for e-commerce\n- Pricing: $99-299/month\n\n## **Budget-Friendly Alternatives**\n\n| Tool | Cost | Best For |\n|------|------|----------|\n| **Data Studio** | Free | Custom dashboards |\n| **Looker Studio** | Free | Advanced reporting |\n| **Mixpanel** | Free-$999/mo | Product analytics + ads |\n| **Amplitude** | Free-$995/mo | User behavior |\n\n## **Quick Recommendation**\n- **Start**: GA4 + Supermetrics (low cost)\n- **Scale**: Ruler Analytics (attribution focus)\n- **E-commerce**: Triple Whale\n\nWhat's your main goal—ROI tracking, attribution, or dashboarding?",
-  "cached_at": "2026-05-27T20:38:35Z",
-  "metadata": {}
-}

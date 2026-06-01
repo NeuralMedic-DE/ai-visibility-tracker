@@ -1,9 +1,0 @@
-{
-  "brand": "Vanta",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Vanta with GitHub?",
-  "response": "# Connecting Vanta with GitHub\n\nHere's how to set up the integration:\n\n## Steps\n\n1. **Log in to Vanta** and navigate to **Integrations**\n\n2. **Find GitHub** in the available integrations list\n\n3. **Click \"Connect\"** or **\"Add Integration\"**\n\n4. **Authorize Vanta**\n   - You'll be redirected to GitHub to authorize the connection\n   - Review the requested permissions (typically read access to repositories, commits, and organization data)\n   - Click **\"Authorize Vanta\"**\n\n5. **Grant necessary permissions** at the GitHub organization level if prompted\n\n6. **Configure settings** (if applicable):\n   - Select which repositories to monitor\n   - Choose data collection preferences\n   - Set any specific scanning options\n\n7. **Verify the connection** by checking that data starts syncing in Vanta\n\n## What Vanta Can Access\n\nOnce connected, Vanta typically monitors:\n- Repository configuration and security settings\n- Branch protection rules\n- Commit history and code changes\n- Contributor access and permissions\n- Security vulnerabilities in dependencies\n\n## Troubleshooting Tips\n\n- Ensure you have **admin permissions** in GitHub to authorize the integration\n- Verify your **GitHub organization** is properly configured\n- Check that the Vanta app is installed at the **organization level** (not just personal account)\n\nFor detailed instructions specific to your Vanta plan, check the [Vanta documentation](https://docs.vanta.com) or contact Vanta support.",
-  "cached_at": "2026-05-28T08:26:55Z",
-  "metadata": {}
-}

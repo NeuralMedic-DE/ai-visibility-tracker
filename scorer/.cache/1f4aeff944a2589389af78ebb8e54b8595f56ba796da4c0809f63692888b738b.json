@@ -1,9 +1,0 @@
-{
-  "brand": "Retool",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Retool integrate with PostgreSQL?",
-  "response": "Yes, Retool integrates with PostgreSQL. You can connect Retool to your PostgreSQL database to build custom internal tools and applications. This integration allows you to query your PostgreSQL database, visualize data, and build interfaces using Retool's drag-and-drop components.",
-  "cached_at": "2026-05-27T20:55:21Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Teamtailor",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which ATS software should a Talent Manager or Head of HR at a mid-market company use?",
-  "response": "# ATS Options for Mid-Market HR Leaders\n\nHere's a practical breakdown by priority:\n\n## Best Overall Fits\n- **Greenhouse** – Strong for scaling teams, excellent candidate experience, good analytics\n- **Lever** – User-friendly, great collaboration features, modern interface\n- **iCIMS** – Comprehensive, handles high volume, includes onboarding modules\n\n## If Budget is Tight\n- **Workable** – Cost-effective, intuitive, covers essentials well\n- **JazzHR** – Simple setup, good for $0-$100M revenue companies\n\n## If You Need More\n- **BambooHR** – Adds HRIS features (payroll, benefits, PTO), reduces tool sprawl\n- **Rippling** – Full HR platform including payroll and IT, but pricier\n\n## Key Questions to Ask Yourself First\n\n1. **Volume**: Hiring 50+ roles/year? Opt for Greenhouse/iCIMS\n2. **Integration needs**: Need payroll, benefits, or HRIS? Consider BambooHR or Rippling\n3. **Internal hiring**: Need career pathing? Greenhouse excels here\n4. **Global operations**: iCIMS and BambooHR handle compliance better\n5. **Budget**: $2-8K/month is typical mid-market spend\n\n## My Honest Take\n**Greenhouse** or **Lever** if recruiting quality matters most. **BambooHR** if you want one platform. **Workable** if you want simplicity at lower cost.\n\nWhat's your company's annual hiring volume and biggest pain point?",
-  "cached_at": "2026-05-28T06:41:38Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Instantly",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Instantly integrate with HubSpot?",
-  "response": "Yes, Instantly integrates with HubSpot. This integration allows users to synchronize their contacts and automate workflows between Instantly and HubSpot, enhancing lead management and marketing efforts. You can typically set up this integration through the settings or integration section of either platform, often using API keys or third-party integration tools like Zapier if direct integration options are not available.",
-  "cached_at": "2026-05-28T07:19:19Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Humaans",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to HiBob",
-  "response": "# Cheaper Alternatives to HiBob\n\n## Core HR Platforms (Most Similar)\n- **BambooHR** - Good balance of features and cost for small-to-mid companies\n- **Gusto** - Strong for payroll + HR, competitive pricing\n- **Zenefits** - Lower-cost all-in-one option\n- **Namely** - Mid-market focused, sometimes cheaper depending on size\n- **Workday** - More expensive at scale, but better for enterprises\n\n## Budget-Friendly Options\n- **Square Payroll** - Very affordable if you use Square\n- **Rippling** - Competitive pricing, especially for IT management bundling\n- **ADP Run** - Simple, less feature-rich but cheaper tier\n- **Justworks** - Transparent pricing, good for startups\n\n## Super Budget (Under $10/employee/month)\n- **Deputy** - Scheduling & HR basics\n- **Factorial** - Streamlined, affordable\n- **Workable** (recruitment focused)\n- **Wave** - Free basic payroll\n\n## DIY/Spreadsheet Alternatives\n- **Airtable** + **Stripe** (custom solutions)\n- **Monday.com** (build your own system)\n- **Spreadsheets + separate payroll tool**\n\n## Key Considerations\n- **Size matters** - pricing varies dramatically by employee count\n- **Feature needs** - don't pay for what you won't use\n- **Integration requirements** - can affect total cost\n- **Support level** - cheaper = often less support\n\n**What size is your company & what features matter most?** That would help narrow recommendations.",
-  "cached_at": "2026-05-28T06:48:07Z",
-  "metadata": {}
-}

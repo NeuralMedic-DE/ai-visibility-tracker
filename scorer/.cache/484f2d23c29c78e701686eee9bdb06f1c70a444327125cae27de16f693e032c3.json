@@ -1,9 +1,0 @@
-{
-  "brand": "Langfuse",
-  "prompt_id": "AL-04",
-  "llm": "anthropic",
-  "prompt_text": "LangSmith vs alternatives: what should I switch to?",
-  "response": "# LangSmith Alternatives: A Practical Comparison\n\n## Main Competitors\n\n**Arize/Phoenix (Open Source)**\n- Best for: Cost-conscious teams, on-prem deployment\n- Strengths: Free, observability-focused, good for LLM monitoring\n- Weaknesses: Less polished UX, smaller ecosystem\n- *Good if: You want to self-host or minimize vendor lock-in*\n\n**Weights & Biases**\n- Best for: ML teams already using W&B\n- Strengths: Strong experiment tracking, existing integrations\n- Weaknesses: Less specialized for LLM workflows\n- *Good if: You're already in their ecosystem*\n\n**Datadog / New Relic**\n- Best for: Enterprise with existing APM infrastructure\n- Strengths: Comprehensive infrastructure monitoring\n- Weaknesses: Overkill for small projects, expensive\n- *Good if: You need full-stack observability*\n\n**Custom Solutions**\n- Best for: Specific needs, high volume\n- Strengths: Full control, cost-effective at scale\n- Weaknesses: Engineering overhead, maintenance burden\n\n## Key Questions to Ask Yourself\n\n1. **What are you actually missing?** (Cost? Features? Vendor lock-in?)\n2. **Scale?** (Cost matters differently at 10 vs 10M traces/month)\n3. **Compliance needs?** (Some alternatives offer better self-hosting)\n4. **Team size?** (Complexity of setup/maintenance matters)\n\n## Honest Take\n\n**Stay with LangSmith if:** You're building with LangChain, value polished UX, and aren't cost-constrained\n\n**Switch if:** You need self-hosting, don't use LangChain, or have specific infrastructure requirements\n\nWhat's driving your consideration to switch?",
-  "cached_at": "2026-05-28T07:56:25Z",
-  "metadata": {}
-}

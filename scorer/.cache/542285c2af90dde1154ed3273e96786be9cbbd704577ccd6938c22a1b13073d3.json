@@ -1,9 +1,0 @@
-{
-  "brand": "Braintrust",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to PromptFoo",
-  "response": "# Cheaper Alternatives to PromptFoo\n\n## Free/Open-Source Options\n\n### **1. LangSmith (Limited Free Tier)**\n- LangChain's native monitoring tool\n- Free tier covers basic tracing and debugging\n- Pay-as-you-go for higher volumes\n- Great if you're already in the LangChain ecosystem\n\n### **2. OpenAI Evals**\n- Completely free and open-source\n- Basic evaluation framework\n- Limited UI, more code-focused\n- Good for simple benchmarking\n\n### **3. DeepEval**\n- Free, open-source evaluation framework\n- Integrates with various LLM providers\n- Self-hosted option available\n- Growing community support\n\n## Budget-Friendly Paid Options\n\n### **4. Braintrust**\n- Competitive pricing with free tier\n- Strong evaluation and monitoring\n- Lower cost than enterprise tools\n- Good documentation\n\n### **5. Humanloop**\n- More affordable than PromptFoo for small teams\n- Built-in evaluation framework\n- Freemium model available\n\n### **6. Self-Hosted Solutions**\n- **Weights & Biases** (free tier generous)\n- **Arize** (free community tier)\n- Deploy your own evaluation framework on modal.com or similar\n\n## DIY Approach (Cheapest)\n\nBuild evaluation using:\n- Python + pandas\n- LangChain evaluators\n- Cloud storage (S3/GCS) for logs\n- GitHub Actions for automation\n- Spreadsheets for tracking\n\n**Cost estimate:** ~$20-50/month for cloud resources vs. $200+/month for hosted platforms\n\nWhich use case interests you most?",
-  "cached_at": "2026-05-28T07:47:23Z",
-  "metadata": {}
-}

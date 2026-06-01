@@ -1,9 +1,0 @@
-{
-  "brand": "Personio",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with automate HR workflows and employee self-service requests at scale?",
-  "response": "# HR Workflow Automation Software\n\nSeveral platforms excel at automating HR processes and self-service at scale:\n\n## **Enterprise Solutions**\n- **Workday** - Comprehensive HCM with strong workflow automation\n- **SAP SuccessFactors** - Deep integration for large organizations\n- **Oracle HCM Cloud** - Scalable enterprise option\n\n## **Mid-Market Focused**\n- **BambooHR** - User-friendly, good self-service portal\n- **Guidepoint** - Strong workflow customization\n- **Namely** - Modern interface, employee engagement focus\n- **Zenefits** - Payroll + HR integration\n\n## **Specialized Automation**\n- **Workpace** - Purpose-built for HR workflow automation\n- **UKG (Ultimate Kronos Group)** - Workforce management at scale\n- **Paychex Flex** - SMB-friendly with automation features\n\n## **Key Features to Look For**\n- Employee self-service portals\n- Approval workflow automation\n- Leave/time-off management\n- Onboarding automation\n- Document workflows\n- Low/no-code customization\n- API integrations\n\n## **Selection Tips**\n- Assess your company size and complexity\n- Consider existing tech stack\n- Evaluate implementation timeline\n- Check scalability for growth\n- Review user adoption rates\n\nWhat's your current company size or specific pain point? That would help narrow down the best fit.",
-  "cached_at": "2026-05-28T06:35:01Z",
-  "metadata": {}
-}

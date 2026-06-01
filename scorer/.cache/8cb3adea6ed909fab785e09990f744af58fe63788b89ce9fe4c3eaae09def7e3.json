@@ -1,9 +1,0 @@
-{
-  "brand": "Encharge",
-  "prompt_id": "CM-02",
-  "llm": "anthropic",
-  "prompt_text": "Encharge vs Intercom pricing and features",
-  "response": "# Encharge vs Intercom: Comparison\n\n## Pricing\n\n| Feature | Encharge | Intercom |\n|---------|----------|----------|\n| **Starting Price** | Free plan available | Free plan available |\n| **Paid Plans** | $24–$99/mo (annual billing) | $39–$1,200+/mo |\n| **Scaling** | Linear, transparent pricing | Usage-based (can spike unpredictably) |\n\n**Note:** Intercom's costs scale with conversation volume and contacts, making enterprise pricing unpredictable.\n\n---\n\n## Key Features\n\n### **Encharge**\n✅ **Strengths:**\n- Email marketing + automation focused\n- Better for SaaS/product-led companies\n- Simpler, predictable pricing\n- Good behavioral automation\n- Strong customer data platform\n\n❌ **Weaknesses:**\n- Limited live chat capabilities\n- Smaller feature set overall\n- Smaller integration ecosystem\n\n### **Intercom**\n✅ **Strengths:**\n- Comprehensive platform (chat, email, automation, help center)\n- Advanced AI features (Fin AI assistant)\n- More integrations (500+)\n- Better for omnichannel support\n- Superior mobile experience\n\n❌ **Weaknesses:**\n- Expensive at scale\n- Steeper learning curve\n- Overkill for simple use cases\n\n---\n\n## Best For\n\n| **Choose Encharge** | **Choose Intercom** |\n|---|---|\n| Budget-conscious SaaS startups | Enterprise companies |\n| Email-first strategy | Full-stack customer platform |\n| Product-led growth | High-touch customer support |\n| Predictable costs matter | Features matter more than price |\n\n**TL;DR:** Encharge = better value for email/automation; Intercom = more powerful but pricey.",
-  "cached_at": "2026-05-28T07:28:12Z",
-  "metadata": {}
-}

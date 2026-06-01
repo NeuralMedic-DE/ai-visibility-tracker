@@ -1,9 +1,0 @@
-{
-  "brand": "Airbyte",
-  "prompt_id": "CD-03",
-  "llm": "anthropic",
-  "prompt_text": "Which data integration software should a Data Engineer or Analytics Lead building ELT pipelines use?",
-  "response": "# ELT Pipeline Software Options\n\nThe best choice depends on your specific needs, but here are the leading options:\n\n## **Modern Cloud-Native (Recommended for most)**\n- **dbt** - Transform data in your warehouse (SQL-focused, excellent for analytics)\n- **Fivetran** - Fully managed ELT connectors (easy, reliable, pricey)\n- **Stitch** - Similar to Fivetran, often cheaper\n\n## **Open-Source / Self-Hosted**\n- **Airbyte** - Open-source, modern, growing rapidly\n- **Apache Airflow** - Orchestration + custom ELT (requires engineering effort)\n- **Meltano** - Open-source ELT built on Singer taps/targets\n\n## **Enterprise Solutions**\n- **Talend** - Comprehensive but complex\n- **Informatica** - Mature, expensive\n- **Apache NiFi** - Data flow automation\n\n## **Quick Decision Framework**\n\n| Your Priority | Best Option |\n|---|---|\n| **Quick setup, many connectors** | Fivetran |\n| **Cost-effective, flexible** | Airbyte |\n| **SQL transformation focus** | dbt |\n| **Full control, custom logic** | Apache Airflow + Python |\n| **Open-source preference** | Airbyte or Meltano |\n\n## **Popular Modern Stack**\nMany teams combine: **Airbyte (extraction) → Data Warehouse → dbt (transformation)**\n\n**What's your primary constraint?** (budget, timeline, technical depth, data sources) That would help narrow it down further.",
-  "cached_at": "2026-05-28T09:03:09Z",
-  "metadata": {}
-}

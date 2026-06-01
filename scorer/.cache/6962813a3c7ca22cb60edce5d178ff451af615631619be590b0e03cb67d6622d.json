@@ -1,9 +1,0 @@
-{
-  "brand": "Lemlist",
-  "prompt_id": "IN-02",
-  "llm": "anthropic",
-  "prompt_text": "Lemlist Salesforce integration: how does it work?",
-  "response": "# Lemlist Salesforce Integration Overview\n\n## How It Works\n\nThe Lemlist-Salesforce integration connects your outreach campaigns with your CRM, automating data flow between the two platforms.\n\n### Key Functionalities\n\n**1. Lead Synchronization**\n- Push leads from Salesforce into Lemlist campaigns\n- Automatically pull campaign results back to Salesforce\n- Sync contact data bidirectionally\n\n**2. Campaign Tracking**\n- Track email opens, clicks, and replies directly in Salesforce\n- See engagement metrics on contact records\n- Monitor campaign performance without manual updates\n\n**3. Activity Logging**\n- Lemlist activities (emails sent, opens, clicks) log as Salesforce activities\n- Creates an audit trail of outreach efforts\n- Helps with compliance and reporting\n\n**4. Custom Field Mapping**\n- Map Lemlist data to custom Salesforce fields\n- Sync personalization variables\n- Maintain consistent data structure\n\n## Setup Process\n\n1. **Install the app** from Salesforce AppExchange or Lemlist marketplace\n2. **Authenticate** both platforms (OAuth connection)\n3. **Configure field mapping** between systems\n4. **Set sync preferences** (frequency, fields to sync)\n5. **Launch campaigns** using Salesforce data\n\n## Benefits\n\n✅ No manual data entry between tools  \n✅ Real-time visibility of outreach in CRM  \n✅ Better lead scoring and qualification  \n✅ Improved sales-marketing alignment  \n\n## Limitations\n\n- Some users report sync delays\n- Custom field mapping can be complex\n- May require IT/admin setup\n\nWould you like help with specific setup steps or troubleshooting?",
-  "cached_at": "2026-05-28T07:17:24Z",
-  "metadata": {}
-}

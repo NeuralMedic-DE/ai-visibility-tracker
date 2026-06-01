@@ -1,9 +1,0 @@
-{
-  "brand": "Portkey",
-  "prompt_id": "IN-01",
-  "llm": "perplexity",
-  "prompt_text": "Does Portkey integrate with OpenAI?",
-  "response": "Yes. Portkey has **native support for OpenAI**, and its SDK is built to be compatible with the OpenAI SDK/API signature, so you can use Portkey with OpenAI-style code and even route requests to OpenAI models through Portkey’s gateway.[4][5][2]\n\nA few practical implications:\n\n- Portkey supports **OpenAI as a provider** and can call OpenAI models directly through its unified API.[1][6]\n- It is designed to be **OpenAI-compatible**, including using the OpenAI method structure and, in some integrations, the `ChatOpenAI` interface.[4][2]\n- Portkey’s docs explicitly say it has **native integrations with OpenAI SDKs for Node.js, Python, and REST APIs**.[5]\n\nSo if your question is whether Portkey can work with OpenAI: **yes, it does**.[4][5]",
-  "cached_at": "2026-05-28T07:53:30Z",
-  "metadata": {}
-}

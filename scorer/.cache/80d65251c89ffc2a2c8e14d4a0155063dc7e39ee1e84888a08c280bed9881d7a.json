@@ -1,9 +1,0 @@
-{
-  "brand": "FullStory",
-  "prompt_id": "AL-02",
-  "llm": "anthropic",
-  "prompt_text": "Cheaper alternatives to Mouseflow",
-  "response": "# Cheaper Alternatives to Mouseflow\n\n## **Free or Freemium Options**\n\n| Tool | Best For | Free Tier |\n|------|----------|-----------|\n| **Hotjar** | Session recordings + heatmaps | 35 sessions/month |\n| **Smartlook** | Video recordings + analytics | 3 hours/month |\n| **Lucky Orange** | Heatmaps + form analytics | 1 month free trial |\n| **LogRocket** | Debugging + replay | Limited free version |\n| **Crazy Egg** | Heatmaps + scrollmaps | 30-day free trial |\n\n## **Budget-Friendly Paid Plans**\n\n- **Hotjar**: $32/month (vs Mouseflow's ~$99)\n- **Smartlook**: $25/month (recording-focused)\n- **Statcounter**: $9-59/month (analytics alternative)\n- **Microsoft Clarity**: **Completely free** (heatmaps + recordings)\n\n## **Best by Use Case**\n\n**Session Recording Only**: Smartlook, Logrocket  \n**Heatmaps Focus**: Crazy Egg, Lucky Orange  \n**All-in-One**: Hotjar (best balance of features/price)  \n**Budget**: Microsoft Clarity (free, limited)\n\n## **Money-Saving Tips**\n- Start with **Microsoft Clarity** (free)\n- Upgrade to **Hotjar** when you need more sessions\n- Skip Mouseflow's premium tiers—competitors offer similar features cheaper\n\n**What's your primary use case?** (recordings, heatmaps, conversion optimization?) I can recommend more specifically.",
-  "cached_at": "2026-05-27T20:46:37Z",
-  "metadata": {}
-}

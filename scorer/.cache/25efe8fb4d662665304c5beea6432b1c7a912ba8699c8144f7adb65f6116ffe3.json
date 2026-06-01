@@ -1,9 +1,0 @@
-{
-  "brand": "Portkey",
-  "prompt_id": "CM-05",
-  "llm": "anthropic",
-  "prompt_text": "Is Portkey better than LiteLLM for monitor costs and set safety guardrails on all LLM usage in production?",
-  "response": "# Portkey vs LiteLLM: Cost Monitoring & Safety Guardrails\n\nBoth serve different primary purposes, so it depends on your specific needs:\n\n## **LiteLLM**\n**Strengths:**\n- Unified API across 100+ LLM providers (OpenAI, Anthropic, Cohere, local models, etc.)\n- Cost tracking via logging\n- Lightweight, easy integration\n\n**Limitations:**\n- Cost monitoring is basic (requires external setup for detailed analysis)\n- Safety guardrails are minimal—mainly routing and fallback logic\n- Focuses on **standardization**, not production governance\n\n## **Portkey**\n**Strengths:**\n- Purpose-built for production LLM management\n- Built-in cost monitoring with detailed analytics\n- Safety features: guardrails, content filtering, rate limiting, audit logging\n- Better suited for compliance and governance\n\n**Limitations:**\n- More opinionated/heavier than LiteLLM\n- Smaller ecosystem compared to LiteLLM's provider support\n\n## **Better for Your Use Case?**\n\n**Choose Portkey if** you need:\n- Centralized cost control & visibility\n- Production-grade safety guardrails out-of-box\n- Compliance/audit logging\n\n**Choose LiteLLM if** you need:\n- Multi-provider flexibility + you'll build monitoring separately\n- Lightweight abstraction layer\n\n---\n\n**Hybrid approach:** Some teams use **LiteLLM for routing** + **Portkey (or similar)** for monitoring/guardrails on top.\n\nWhat's your primary concern—cost control, safety compliance, or both?",
-  "cached_at": "2026-05-28T07:51:56Z",
-  "metadata": {}
-}

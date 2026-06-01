@@ -1,9 +1,0 @@
-{
-  "brand": "Ashby",
-  "prompt_id": "IN-03",
-  "llm": "openai",
-  "prompt_text": "How do I connect Ashby with Slack?",
-  "response": "To connect Ashby with Slack, you'll need to follow these general steps. Keep in mind that the exact steps might vary slightly depending on updates to the platforms:\n\n1. **Log into Ashby**: Start by logging into your Ashby account.\n\n2. **Access Integrations**: Navigate to the settings or integrations section within Ashby. This is usually found in the main menu or under account settings.\n\n3. **Find Slack Integration**: Look for the Slack integration option. This might be listed under communication tools or similar categories.\n\n4. **Authorize Ashby to Access Slack**: Click on the Slack integration option, and you will be prompted to authorize Ashby to access your Slack workspace. This typically involves logging into your Slack account if you aren't already logged in.\n\n5. **Select Slack Channels**: Once authorized, you may need to select which Slack channels you want Ashby to send notifications to or interact with.\n\n6. **Configure Notifications**: Set up the types of notifications or alerts you want to receive in Slack. This could include updates on candidate progress, interview schedules, or other recruitment activities.\n\n7. **Save Settings**: After configuring the integration to your liking, make sure to save your settings.\n\n8. **Test the Integration**: It’s a good idea to test the integration to ensure that notifications are being sent to the correct Slack channels and that everything is functioning as expected.\n\nIf you encounter any issues, consult the help or support documentation provided by Ashby or Slack, or reach out to their support teams for assistance.",
-  "cached_at": "2026-05-28T06:39:32Z",
-  "metadata": {}
-}

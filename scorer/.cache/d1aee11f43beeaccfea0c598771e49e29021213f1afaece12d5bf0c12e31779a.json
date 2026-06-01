@@ -1,9 +1,0 @@
-{
-  "brand": "Workato",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with connect SAP Salesforce and legacy enterprise systems without custom integration code at scale?",
-  "response": "To connect SAP, Salesforce, and legacy enterprise systems without custom integration code at scale, you can use integration platforms as a service (iPaaS) solutions. Some popular iPaaS solutions that facilitate these integrations include:\n\n1. **MuleSoft Anypoint Platform**: MuleSoft provides a comprehensive integration platform that allows you to connect various systems, including SAP and Salesforce, using pre-built connectors and templates.\n\n2. **Dell Boomi**: Boomi offers a cloud-based integration platform that supports a wide range of connectors for different enterprise systems, enabling seamless integration without the need for custom code.\n\n3. **Informatica Intelligent Cloud Services**: Informatica provides a robust iPaaS solution with numerous connectors and tools to integrate SAP, Salesforce, and other legacy systems efficiently.\n\n4. **SnapLogic**: SnapLogic offers a scalable integration platform with a visual interface and pre-built connectors to integrate various enterprise applications, including SAP and Salesforce.\n\n5. **Jitterbit**: Jitterbit's Harmony platform provides tools and connectors to integrate cloud and on-premises applications, including SAP and Salesforce, with minimal coding.\n\nThese platforms typically offer drag-and-drop interfaces, pre-built connectors, and templates to facilitate integration processes, making it easier to connect disparate systems at scale.",
-  "cached_at": "2026-05-28T09:13:37Z",
-  "metadata": {}
-}

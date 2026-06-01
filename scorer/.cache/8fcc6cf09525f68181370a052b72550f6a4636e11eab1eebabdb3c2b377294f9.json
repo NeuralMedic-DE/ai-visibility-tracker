@@ -1,9 +1,0 @@
-{
-  "brand": "Pipedrive",
-  "prompt_id": "CD-02",
-  "llm": "anthropic",
-  "prompt_text": "Top visual sales CRM for SMBs tools in 2025",
-  "response": "# Top Visual Sales CRMs for SMBs in 2025\n\n## Best Overall Picks\n\n### **Pipedrive**\n- **Standout:** Visual sales pipeline with drag-and-drop deals\n- **Best for:** Sales teams prioritizing visual workflow\n- **Price:** $14-99+/user/month\n- **Key features:** Deal stages, activity timeline, revenue forecasting\n\n### **HubSpot CRM (Free + Paid)**\n- **Standout:** Free version with powerful visuals + AI tools\n- **Best for:** Growing teams wanting all-in-one platform\n- **Price:** Free, then $45-3,200+/month\n- **Key features:** Pipeline builder, contact intelligence, automation\n\n### **Zoho CRM**\n- **Standout:** Highly customizable visual dashboards\n- **Best for:** Budget-conscious SMBs needing flexibility\n- **Price:** $20-65/user/month\n- **Key features:** Custom kanban boards, 360° contact view\n\n## Specialized Visual-First Options\n\n### **Monday Sales CRM**\n- Kanban-style boards, timeline views, mobile-first\n- Great for teams wanting visual project management + sales\n\n### **Notion CRM** (Self-built)\n- Free database approach, fully customizable\n- Best for DIY teams comfortable building their own\n\n### **Salesforce Essentials**\n- Enterprise-grade visuals for SMBs\n- Higher investment but most scalable\n\n## Selection Criteria for 2025\n- **Mobile usability** (remote teams)\n- **AI-powered insights** (deal scoring, forecasting)\n- **Third-party integrations** (email, calendar, Slack)\n- **Ease of setup** (time to value matters at SMB level)\n\n**Quick recommendation:** Start with **HubSpot free** or **Pipedrive** if pure sales CRM is your need.\n\nWhat's your team size and primary challenge?",
-  "cached_at": "2026-05-27T17:47:28Z",
-  "metadata": {}
-}

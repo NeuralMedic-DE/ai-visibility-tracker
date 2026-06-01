@@ -1,9 +1,0 @@
-{
-  "brand": "Conveyor",
-  "prompt_id": "AL-05",
-  "llm": "anthropic",
-  "prompt_text": "Open source or affordable security tools instead of Drata",
-  "response": "# Alternative Compliance & Security Tools to Drata\n\n## Open Source Options\n\n### **Compliance & Audit**\n- **OpenSCAP** - Vulnerability assessment and compliance scanning\n- **Lynis** - Security auditing tool for Linux/Unix\n- **Vault** (HashiCorp) - Secrets management and identity\n- **Compliance Masonry** - Documentation framework for compliance controls\n\n### **Infrastructure Security**\n- **Teleport** - Privileged access management (PAM) alternative\n- **Falco** - Runtime security monitoring\n- **Wazuh** - Security information and event management (SIEM)\n- **Suricata** - Network threat detection\n\n### **Vulnerability Management**\n- **Trivy** - Container/dependency scanning\n- **Grype** - Vulnerability scanner\n- **OpenVAS** - Comprehensive vulnerability assessment\n\n## Affordable Commercial Alternatives\n\n| Tool | Focus | Price Point |\n|------|-------|-------------|\n| **Vanta** | Compliance automation | Mid-range |\n| **Secureframe** | SOC 2, ISO 27001 | Competitive |\n| **Hyperproof** | Policy & compliance | Budget-friendly |\n| **Workiva** | GRC platform | Enterprise (scalable) |\n| **OneTrust** | Privacy & compliance | Mid-market+ |\n\n## Budget-Friendly Approach\n\n**DIY Stack:**\n- Google Workspace/GitHub audit logs (free)\n- **Checkov** - IaC scanning (free/open source)\n- **Snyk** - Dependency scanning (free tier)\n- Spreadsheets + **Airtable** for tracking\n\n---\n\n**What's your main need?** (SOC 2, ISO 27001, vendor management, etc.) I can recommend more specific tools.",
-  "cached_at": "2026-05-28T08:46:21Z",
-  "metadata": {}
-}

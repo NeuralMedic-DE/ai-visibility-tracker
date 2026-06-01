@@ -1,9 +1,0 @@
-{
-  "brand": "Workable",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I post jobs to 200 plus job boards with a single click without spending a lot on software?",
-  "response": "# Low-Cost Job Board Posting Options\n\n## Free/Cheap Multi-Board Services\n\n**Free tier options:**\n- **Indeed** - Posts to multiple boards automatically; their free tier reaches 200+ sites\n- **ZipRecruiter** - Free posting option reaches 100+ boards\n- **LinkedIn** - Posts to multiple job sites when you post there\n- **Google for Jobs** - Free; aggregates postings across the web\n\n**Affordable paid ($50-200/month):**\n- **BrightHire** or **SmartRecruiters** - Entry-level plans include multi-board posting\n- **Workable** - Starts around $99/month with broad distribution\n\n## DIY Approach (Free but Time-Intensive)\n\n- Use **job board aggregators** that accept feeds (Indeed, LinkedIn, Google for Jobs)\n- Post to 10-15 major boards manually (Indeed, LinkedIn, Glassdoor, Monster, ZipRecruiter, CareerBuilder)\n- These feed into secondary boards automatically\n\n## Reality Check\n\nGetting to \"200+ boards\" through truly free channels usually means:\n- Lower-quality job boards\n- Duplicate postings across networks\n- Minimal additional reach beyond the top 20-30 sites\n\n**Better approach:** Focus quality posting on 15-20 major boards that actually drive applicants, rather than chasing inflated board counts.\n\nWhat's your hiring volume and budget? That'll determine the best fit.",
-  "cached_at": "2026-05-28T06:46:10Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Supermetrics",
-  "prompt_id": "IN-03",
-  "llm": "anthropic",
-  "prompt_text": "How do I connect Supermetrics with Google Analytics?",
-  "response": "# Connecting Supermetrics with Google Analytics\n\n## Steps to Connect\n\n1. **Open Supermetrics**\n   - Go to your Supermetrics dashboard or open the add-on in Google Sheets/Data Studio\n\n2. **Select Google Analytics as Data Source**\n   - Click \"Create new report\" or \"Connect data source\"\n   - Choose \"Google Analytics\" from the available options\n\n3. **Authorize the Connection**\n   - Click \"Authorize\" or \"Connect\"\n   - Sign in with your Google account\n   - Grant Supermetrics permission to access your Google Analytics data\n   - Select which Google Analytics account to connect\n\n4. **Configure Your Report**\n   - Choose your property and view\n   - Select date range\n   - Pick metrics and dimensions you want to pull\n   - Add filters if needed\n\n5. **Save & Run**\n   - Name your report\n   - Click \"Create report\" or similar button\n   - Data will populate into your chosen destination (Sheets, Data Studio, etc.)\n\n## Common Destinations\n- **Google Sheets** (most popular)\n- **Google Data Studio**\n- **Email reports**\n- **Other platforms** (depending on your Supermetrics plan)\n\n## Tips\n- Ensure you have access to the Google Analytics view you're connecting\n- Double-check that your GA account has sufficient data\n- Use filters to limit data if pulling large datasets\n\n**Having trouble?** Let me know which platform you're using (Sheets, Data Studio, etc.) and I can provide more specific help!",
-  "cached_at": "2026-05-27T20:38:29Z",
-  "metadata": {}
-}

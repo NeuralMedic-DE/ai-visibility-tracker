@@ -1,9 +1,0 @@
-{
-  "brand": "Stonly",
-  "prompt_id": "IN-02",
-  "llm": "openai",
-  "prompt_text": "Stonly Zendesk integration: how does it work?",
-  "response": "Stonly's integration with Zendesk is designed to enhance customer support by providing interactive guides and knowledge base articles directly within Zendesk's interface. Here's how the integration typically works:\n\n1. **Interactive Guides**: Stonly allows you to create step-by-step guides that can be embedded into Zendesk. These guides help support agents and customers find solutions quickly by walking them through processes interactively.\n\n2. **Knowledge Base Enhancement**: You can enhance your Zendesk knowledge base articles by embedding Stonly guides. This makes the articles more engaging and easier to follow, improving the overall customer experience.\n\n3. **Agent Support**: Within the Zendesk interface, support agents can access Stonly guides to assist them in resolving customer issues more efficiently. This can reduce the time spent on each ticket and improve first-contact resolution rates.\n\n4. **Self-Service Options**: By integrating Stonly with Zendesk, you can offer customers self-service options. Customers can interact with guides on your help center or within the Zendesk widget, potentially reducing the number of tickets submitted.\n\n5. **Customization and Analytics**: Stonly provides customization options to match your brand's look and feel. Additionally, you can track how users interact with the guides, gaining insights into common issues and how effectively the guides are helping.\n\nTo set up the integration, you typically need to install the Stonly app from the Zendesk Marketplace and follow the configuration steps provided by Stonly to embed and manage guides within Zendesk. This integration helps streamline support processes and improve customer satisfaction by providing clear and interactive solutions.",
-  "cached_at": "2026-05-28T08:22:08Z",
-  "metadata": {}
-}

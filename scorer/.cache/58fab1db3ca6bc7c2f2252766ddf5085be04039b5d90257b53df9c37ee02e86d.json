@@ -1,9 +1,0 @@
-{
-  "brand": "Charlie HR",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I manage employee leave documents and HR admin in one place without spending a lot on software?",
-  "response": "# Low-Cost Leave & HR Management Solutions\n\n## Free or Cheap Built-In Options\n\n**Spreadsheets + basic structure**\n- Google Sheets with shared access and simple formulas\n- Create templates for leave requests, approvals, balances\n- Conditional formatting to flag expirations/issues\n- Works well for small teams (<20 people)\n\n**Google Forms + Sheets**\n- Employees submit leave requests via form\n- Auto-populates into a tracker sheet\n- Free, requires minimal setup\n\n## Affordable Dedicated Tools\n\n**Low-cost SaaS ($5-15/month per employee)**\n- Zoho People (basic tier ~$1/user)\n- HRNext, Guidepoint\n- Freshteam (limited free version available)\n\n**Better than spreadsheets, but lighter than enterprise software**\n\n## Hybrid Approach (Often Most Practical)\n\n1. **Google Workspace** - document storage + simple forms\n2. **Airtable free tier** - more flexible than sheets, better for multiple leave types\n3. **One Drive/OneDrive** - centralized document filing\n\n## Real Considerations\n\n- **Team size matters** - spreadsheets work <15 people; get messy after\n- **Regulatory requirements** - check what your jurisdiction requires\n- **Audit trail** - spreadsheets are harder to audit; software logs changes automatically\n- **Mobile access** - employees need to request leave remotely?\n\nWhat's your team size and main pain point right now? That'd help narrow down what actually makes sense for you.",
-  "cached_at": "2026-05-28T06:43:53Z",
-  "metadata": {}
-}

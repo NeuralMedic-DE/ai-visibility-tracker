@@ -1,9 +1,0 @@
-{
-  "brand": "Salesflare",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does Salesflare integrate with Gmail?",
-  "response": "# Salesflare and Gmail Integration\n\nYes, Salesflare integrates with Gmail. Here are the key features:\n\n## Main Integration Capabilities\n\n- **Email tracking** - Track opens and clicks on emails sent through Gmail\n- **Email logging** - Automatically log emails to relevant contacts and deals in Salesflare\n- **Two-way sync** - Sync contacts between Gmail and Salesflare\n- **Email templates** - Use Salesflare templates within Gmail\n- **Gmail sidebar** - Access Salesflare CRM data directly from Gmail\n\n## How It Works\n\nThe integration typically uses a Chrome extension or Gmail add-on that allows you to:\n- View CRM information without leaving Gmail\n- Log communications automatically\n- Track email engagement metrics\n\n## Best Practice\n\nFor the most current and detailed information about features, setup instructions, and any limitations, I'd recommend checking:\n- Salesflare's official website or help documentation\n- The Gmail integration section in your Salesflare account settings\n\nIntegration features can be updated, so verifying directly with Salesflare ensures you have the latest information.",
-  "cached_at": "2026-05-27T18:14:48Z",
-  "metadata": {}
-}

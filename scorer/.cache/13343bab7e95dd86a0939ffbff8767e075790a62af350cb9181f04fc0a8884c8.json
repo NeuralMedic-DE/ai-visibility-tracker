@@ -1,9 +1,0 @@
-{
-  "brand": "June.so",
-  "prompt_id": "IN-04",
-  "llm": "openai",
-  "prompt_text": "Best product analytics that works with Segment and HubSpot",
-  "response": "When looking for product analytics tools that integrate well with both Segment and HubSpot, you have several good options. Here are some of the top choices:\n\n1. **Mixpanel**: Mixpanel is a powerful product analytics tool that integrates seamlessly with Segment. It allows you to track user interactions and analyze user behavior to improve your product. Mixpanel also offers integrations with HubSpot, enabling you to sync data across platforms.\n\n2. **Amplitude**: Amplitude is another robust product analytics platform that works well with Segment. It provides in-depth insights into user behavior and product usage. Amplitude can also be integrated with HubSpot, allowing you to combine product analytics with customer relationship management.\n\n3. **Heap**: Heap automatically captures all user interactions on your website or app, providing comprehensive analytics without the need for manual event tracking. It integrates with Segment and can be connected to HubSpot for a more holistic view of your customer data.\n\n4. **Pendo**: Pendo is a product experience platform that offers analytics, user feedback, and in-app guidance. It integrates with Segment for data tracking and can be connected to HubSpot to enhance customer insights.\n\n5. **Google Analytics**: While not as specialized for product analytics as some of the other tools, Google Analytics can be integrated with Segment and HubSpot. It provides a broad range of analytics capabilities and is widely used for tracking website and app performance.\n\nEach of these tools has its strengths, so the best choice depends on your specific needs, such as the level of detail you require, your budget, and how you plan to use the data.",
-  "cached_at": "2026-05-27T19:56:23Z",
-  "metadata": {}
-}

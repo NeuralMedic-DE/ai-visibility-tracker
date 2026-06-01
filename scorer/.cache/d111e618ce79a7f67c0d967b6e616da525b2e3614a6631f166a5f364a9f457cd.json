@@ -1,9 +1,0 @@
-{
-  "brand": "n8n",
-  "prompt_id": "IN-01",
-  "llm": "anthropic",
-  "prompt_text": "Does n8n integrate with GitHub?",
-  "response": "# n8n and GitHub Integration\n\nYes, **n8n does integrate with GitHub** through a native GitHub node.\n\n## What You Can Do\n\nThe GitHub integration allows you to:\n\n- **Trigger workflows** on GitHub events (push, pull request, issues, etc.)\n- **Create, read, update, and delete** repositories, issues, and pull requests\n- **Manage** GitHub releases, branches, and commits\n- **Automate** code review processes and deployment workflows\n- **Monitor** repository activity\n\n## How to Use It\n\n1. In n8n, add a node and search for \"GitHub\"\n2. Authenticate with your GitHub account (OAuth or personal access token)\n3. Select the operation you want to perform\n4. Configure the specific details (repo name, branch, etc.)\n\n## Common Use Cases\n\n- Auto-create issues from external tools\n- Trigger deployments on code pushes\n- Sync GitHub data to other platforms\n- Automate PR notifications or updates\n- Generate release notes automatically\n\nThe integration is straightforward and works well for common GitHub automation scenarios. If you need more advanced functionality, you can also use n8n's HTTP node to call the GitHub REST API directly.",
-  "cached_at": "2026-05-28T08:56:23Z",
-  "metadata": {}
-}

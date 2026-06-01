@@ -1,9 +1,0 @@
-{
-  "brand": "Brevo",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Brevo integrate with WordPress?",
-  "response": "Yes, Brevo (formerly known as Sendinblue) does integrate with WordPress. You can use the Brevo plugin for WordPress to easily connect your Brevo account with your WordPress site. This integration allows you to manage your email marketing campaigns, create subscription forms, and track your email performance directly from your WordPress dashboard. You can find the Brevo plugin in the WordPress plugin repository and install it to get started.",
-  "cached_at": "2026-05-28T07:26:04Z",
-  "metadata": {}
-}

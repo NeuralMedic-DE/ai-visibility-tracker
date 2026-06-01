@@ -1,9 +1,0 @@
-{
-  "brand": "PostHog",
-  "prompt_id": "UC-05",
-  "llm": "anthropic",
-  "prompt_text": "What software helps with track feature flags and run A/B experiments at scale?",
-  "response": "# Feature Flag & A/B Testing Platforms\n\nHere are the main categories and popular tools:\n\n## **Dedicated Feature Flag Platforms**\n- **LaunchDarkly** - Most mature, enterprise-focused; real-time targeting and analytics\n- **Statsig** - Developer-friendly, good experimentation stats\n- **Unleash** - Open-source option; can self-host\n- **Split.io** - Strong on experiment analytics and guardrails\n\n## **Experimentation-First Platforms**\n- **Optimizely** - Enterprise standard for A/B testing\n- **VWO** - Visual editor + feature flags\n- **AB Tasty** - Good for non-technical teams\n- **Convert** - Privacy-focused experimentation\n\n## **Analytics Platforms with Built-in Features**\n- **Amplitude** - Feature flags + behavioral analytics\n- **Mixpanel** - Experimentation + product analytics\n- **Segment** - Feature management + data pipeline\n\n## **Open-Source / Self-Hosted**\n- **Unleash** (mentioned above)\n- **GrowthBook** - Open-source experimentation\n- **OpenFeature** - Vendor-neutral standard (framework, not platform)\n\n## **Key Capabilities to Compare**\n- SDK availability for your stack\n- Targeting flexibility and rollout control\n- Statistical rigor (sample size, significance calculations)\n- Real-time feature delivery\n- Cost structure at your scale\n\n**For most teams:** LaunchDarkly or Statsig offer the best balance of features and developer experience. **For budget-conscious teams:** Unleash or GrowthBook.\n\nWhat's your tech stack or primary use case?",
-  "cached_at": "2026-05-27T19:37:40Z",
-  "metadata": {}
-}

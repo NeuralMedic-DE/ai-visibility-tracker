@@ -1,9 +1,0 @@
-{
-  "brand": "Nutshell",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best CRM for small and mid-size B2B sales teams?",
-  "response": "# Top CRM Options for Small-to-Mid B2B Sales Teams\n\n**HubSpot Sales Hub**\n- Free tier available, scales affordably\n- Strong automation and email tracking\n- Good learning resources for teams new to CRM\n- Best if: You want an all-in-one platform you can grow into\n\n**Pipedrive**\n- Visual pipeline management (sales-focused design)\n- Competitive pricing\n- Intuitive for sales reps (less training needed)\n- Best if: Your team prioritizes deal tracking and ease of use\n\n**Zoho CRM**\n- Very affordable, especially for budget-conscious teams\n- Highly customizable\n- Integrates well with other Zoho apps\n- Best if: You need flexibility without breaking the bank\n\n**Salesforce Essentials**\n- Streamlined version of the enterprise standard\n- Professional, scalable\n- Higher learning curve and cost\n- Best if: You anticipate rapid growth or need enterprise features\n\n## Key factors to evaluate:\n- **Ease of adoption** – Will your team actually use it?\n- **Integration needs** – What tools do you already use?\n- **Scalability** – Does it grow with you?\n- **Price per user** – Usually $50–150/month when scaled up\n- **Support quality** – Especially important early on\n\nWould you like me to dig into any of these options or discuss what matters most for your specific situation?",
-  "cached_at": "2026-05-27T18:32:33Z",
-  "metadata": {}
-}

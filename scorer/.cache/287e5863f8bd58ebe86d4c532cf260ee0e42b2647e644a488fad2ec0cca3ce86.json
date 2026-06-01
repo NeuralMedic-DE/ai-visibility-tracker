@@ -1,9 +1,0 @@
-{
-  "brand": "Attio",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I manage customer relationships without spending a lot on software?",
-  "response": "# Low-Cost Customer Relationship Management\n\n**Free or cheap tools:**\n- **Spreadsheets** (Google Sheets, Excel) - surprisingly functional for small operations\n- **Free CRM tiers** - HubSpot, Zoho, Pipedrive all have no-cost versions with basic features\n- **Email + folders** - organize by customer if volume is small\n- **Google Contacts** - simple but limited\n- **Airtable** - flexible for custom setups on the free plan\n\n**Process-based (costs nothing):**\n- Keep a simple contact log with notes on conversations and preferences\n- Set calendar reminders for follow-ups\n- Document what matters to each customer (past purchases, concerns, preferences)\n- Create a basic template for customer notes so you're consistent\n\n**What actually matters:**\n- Responding promptly and remembering details between interactions\n- Following up consistently\n- Actually listening to what customers say\n- Writing things down so information doesn't vanish\n\nThe expensive CRM software sells on automation and scale. Most small businesses benefit more from discipline—a small documented process beats a fancy tool with no structure.\n\n**What's your customer volume like?** That matters for which approach makes sense.",
-  "cached_at": "2026-05-27T17:54:40Z",
-  "metadata": {}
-}

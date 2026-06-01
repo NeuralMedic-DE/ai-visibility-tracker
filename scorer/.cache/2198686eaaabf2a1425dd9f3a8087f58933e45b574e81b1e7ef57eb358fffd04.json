@@ -1,9 +1,0 @@
-{
-  "brand": "Salesflare",
-  "prompt_id": "AL-03",
-  "llm": "anthropic",
-  "prompt_text": "Best CRM alternatives for small B2B teams and agencies teams on a budget",
-  "response": "# Best Budget-Friendly CRM Alternatives for Small B2B Teams\n\n## Free & Freemium Options\n\n**HubSpot Free CRM**\n- Contact management, basic pipeline tracking\n- Email tracking, meeting scheduling\n- No credit card required\n- Good stepping stone to paid tier\n\n**Zoho CRM**\n- Free plan for up to 3 users\n- Lead management, workflow automation\n- Integrates with 500+ apps\n- Very affordable paid tiers ($12-65/user/month)\n\n**Pipedrive**\n- Free plan with basic features\n- Excellent visual pipeline management\n- Good for sales-focused teams\n- Paid plans start at $14/user/month\n\n**Capsule**\n- Lightweight, intuitive interface\n- Free plan includes basic contact management\n- Strong mobile app\n- Good for agencies\n\n## Low-Cost Paid Options\n\n**Monday.com CRM**\n- Highly customizable\n- $99/month for small teams\n- Great for agencies managing multiple clients\n- Strong automation features\n\n**Freshsales**\n- Starting at $12/user/month\n- AI-powered lead scoring\n- Built-in phone & email\n- Good for B2B sales teams\n\n**Streak** (Gmail-based)\n- $49/month for teams\n- Works inside Gmail inbox\n- Minimal learning curve\n- Perfect for teams already using Gmail\n\n## Lightweight Alternatives\n\n**Airtable** + templates\n- $20/month (Pro)\n- Highly flexible\n- Better as CRM supplement than replacement\n\n**Notion CRM** (free)\n- DIY solution, requires setup time\n- Good if team already uses Notion\n\n## Key Selection Criteria\n✓ How many users do you have?\n✓ Is pipeline visibility most important?\n✓ Do you need heavy automation?\n✓ Integration requirements?\n\n**Most common recommendation for small B2B teams:** HubSpot Free → Pipedrive → Zoho (best value)\n\nWhat's your team size and main priority?",
-  "cached_at": "2026-05-27T18:14:06Z",
-  "metadata": {}
-}

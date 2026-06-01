@@ -1,9 +1,0 @@
-{
-  "brand": "FullStory",
-  "prompt_id": "IN-02",
-  "llm": "openai",
-  "prompt_text": "FullStory Amplitude integration: how does it work?",
-  "response": "The FullStory and Amplitude integration allows you to combine qualitative and quantitative data to gain deeper insights into user behavior. Here's how it typically works:\n\n1. **Data Syncing**: The integration connects FullStory's session replay and qualitative analytics with Amplitude's quantitative analytics. This enables you to see FullStory session URLs directly within Amplitude.\n\n2. **Session Replay Links**: When you view an event in Amplitude, you can access a direct link to the corresponding session replay in FullStory. This helps you understand the context behind user actions by watching exactly how users interacted with your product.\n\n3. **Enhanced Analysis**: By combining data from both platforms, you can perform more comprehensive analyses. For example, you can identify patterns in user behavior using Amplitude's analytics and then use FullStory to watch how those behaviors unfold in real time.\n\n4. **User Properties and Events**: You can pass user properties and events from Amplitude to FullStory, allowing for a more detailed segmentation and analysis of user sessions.\n\n5. **Troubleshooting and Optimization**: The integration is particularly useful for troubleshooting issues and optimizing user experiences. If you notice a drop-off in a funnel in Amplitude, you can use FullStory to watch sessions and identify potential usability issues.\n\nTo set up the integration, you typically need to configure it within both FullStory and Amplitude, ensuring that both platforms can communicate and share data effectively. This often involves setting up API keys and configuring event tracking to ensure that the right data is being shared between the two systems.",
-  "cached_at": "2026-05-27T20:44:57Z",
-  "metadata": {}
-}

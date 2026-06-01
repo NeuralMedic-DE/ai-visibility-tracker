@@ -1,9 +1,0 @@
-{
-  "brand": "TestBrand",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best AI visibility tracking for B2B SaaS startups?",
-  "response": "# Best AI Visibility Tracking for B2B SaaS Startups\n\nThe answer depends on your stage and priorities, but here's a practical framework:\n\n## For Early-Stage (Pre-Product Fit)\n**Focus on intent signals, not vanity metrics:**\n- **6sense, Demandbase, or ZoomInfo** - Identify accounts researching your problem space\n- **LinkedIn Sales Navigator** - Direct outreach tracking at lower cost\n- **Clearbit** - Enrich inbound leads with company intent data\n\n## For Growth Stage\n**Layer in account-based metrics:**\n- **Terminus or Demandbase** - ABM-focused, with engagement scoring\n- **Drift or Intercom** - Conversational AI that tracks buyer engagement in-product\n- **HubSpot + integrations** - Cost-effective if you're already in their ecosystem\n\n## Lightweight/Budget Options\n- **Hotjar or Smartlook** - Session recording to understand how accounts behave\n- **Mixpanel or Amplitude** - Product-level intent tracking (what features matter)\n- **Custom tracking via Segment** - Build your own visibility layer\n\n## The Real Insight\nMost startups over-prioritize *traffic visibility* and under-prioritize:\n- **Account fit scoring** (who actually looks like your ICP?)\n- **Engagement velocity** (are they actually interested?)\n- **Sales-to-marketing alignment** (is visibility actually driving conversations?)\n\n**What's your current stage?** That matters more than the tool—early wins often come from talking to inbound leads, not buying expensive intent data.",
-  "cached_at": "2026-06-01T14:59:54Z",
-  "metadata": {}
-}

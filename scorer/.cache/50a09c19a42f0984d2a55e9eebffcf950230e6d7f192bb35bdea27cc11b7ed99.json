@@ -1,9 +1,0 @@
-{
-  "brand": "Vellum",
-  "prompt_id": "CM-05",
-  "llm": "openai",
-  "prompt_text": "Is Vellum better than Braintrust for manage and version prompts for production LLM-powered product features?",
-  "response": "When comparing Vellum and Braintrust for managing and versioning prompts in LLM-powered product features, it's important to consider the specific features and capabilities of each tool to determine which might be better suited for your needs.\n\n**Vellum** is a tool specifically designed for managing, testing, and iterating on prompts for language models. It offers features like prompt versioning, A/B testing, and analytics to help you optimize the performance of your prompts. Vellum is particularly useful if your primary focus is on refining and managing prompts efficiently.\n\n**Braintrust**, on the other hand, is a decentralized talent network that connects freelancers with companies. It is not specifically designed for managing prompts or LLM features. If you are looking for a tool to manage prompts, Braintrust might not be the right fit unless you are looking to hire talent to help with prompt engineering or related tasks.\n\nGiven these distinctions, Vellum would likely be the better choice for managing and versioning prompts for LLM-powered product features, as it is purpose-built for that task.",
-  "cached_at": "2026-05-28T07:44:45Z",
-  "metadata": {}
-}

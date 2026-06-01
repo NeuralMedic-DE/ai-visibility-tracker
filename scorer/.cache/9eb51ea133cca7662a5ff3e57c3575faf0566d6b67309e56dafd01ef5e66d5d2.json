@@ -1,9 +1,0 @@
-{
-  "brand": "Lemlist",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Lemlist integrate with HubSpot?",
-  "response": "Yes, Lemlist integrates with HubSpot. This integration allows you to sync contacts, automate workflows, and manage your email outreach campaigns more effectively by combining Lemlist's capabilities with HubSpot's CRM features. You can set up the integration through Lemlist's platform to ensure seamless data transfer between the two tools.",
-  "cached_at": "2026-05-28T07:17:12Z",
-  "metadata": {}
-}

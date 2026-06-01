@@ -1,9 +1,0 @@
-{
-  "brand": "Vercel",
-  "prompt_id": "CD-03",
-  "llm": "perplexity",
-  "prompt_text": "Which deployment software should a head of frontend engineering or CTO use?",
-  "response": "For a **head of frontend engineering** or **CTO**, the best choice is usually a **frontend deployment platform with preview environments, CI/CD, and production-grade controls** rather than a generic software deployment suite.[3][6]\n\nThe strongest options from the results are:\n\n- **Northflank** if you want **preview environments** and deployment workflows that cover frontend and backend use cases.[6]\n- **AWS Amplify** if you want a **comprehensive, enterprise-oriented frontend deployment platform** with scaling features.[3]\n- **Cloudflare** or **cloud distribution / object storage-based deployment** if your frontend is primarily **static** and you want fast global delivery, as described in the deployment workflow result.[2]\n- **Intune, PDQ, ManageEngine Endpoint Central, or SCCM/MEM** if you actually mean **enterprise device/software deployment** for endpoints rather than web app deployment.[1]\n\nIf your question is about **shipping frontend applications**, the most relevant answer is **Northflank or AWS Amplify**.[3][6] If you mean **internal software deployment to employee machines**, then **ManageEngine Endpoint Central** and **PDQ** are the most commonly mentioned tools in the results.[1]\n\nFor a CTO, the decision usually comes down to this:\n\n- **Frontend app deployment at scale:** Northflank, AWS Amplify[3][6]\n- **Static frontend hosting/CDN delivery:** Cloudflare-style delivery or object storage-based deployment[2]\n- **Enterprise endpoint/software rollout:** ManageEngine Endpoint Central, PDQ, Intune, SCCM/MEM[1]\n\nIf you want, I can turn this into a **short recommendation by company size**: startup, scale-up, or enterprise.",
-  "cached_at": "2026-05-27T21:29:44Z",
-  "metadata": {}
-}

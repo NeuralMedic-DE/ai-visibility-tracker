@@ -1,9 +1,0 @@
-{
-  "brand": "SafeBase",
-  "prompt_id": "UC-05",
-  "llm": "openai",
-  "prompt_text": "What software helps with build a public trust center that proactively answers security questions for prospects at scale?",
-  "response": "To build a public trust center that proactively addresses security questions for prospects at scale, you can consider using the following software solutions:\n\n1. **TrustArc**: This platform provides tools for managing privacy compliance and building trust with customers. It offers features to create a public-facing trust center that can display your compliance status and security measures.\n\n2. **OneTrust**: Known for its comprehensive privacy, security, and data governance solutions, OneTrust allows you to create a trust center that can showcase your organization's security posture and compliance certifications.\n\n3. **Drata**: Drata automates security and compliance workflows and can help you build a trust center that displays real-time compliance status and security controls.\n\n4. **Tugboat Logic**: This software helps automate the process of preparing for security audits and can be used to create a trust center that communicates your security readiness and compliance status.\n\n5. **Vanta**: Vanta automates security monitoring and helps maintain compliance. It can be used to create a trust center that provides transparency into your security practices.\n\n6. **SecurityScorecard**: This platform provides security ratings and can help you build a trust center that displays your security score and highlights your security strengths.\n\nThese tools can help you create a centralized location where prospects can find information about your security practices, compliance certifications, and other relevant security details, thereby building trust and reducing the need for repetitive security questionnaires.",
-  "cached_at": "2026-05-28T08:44:16Z",
-  "metadata": {}
-}

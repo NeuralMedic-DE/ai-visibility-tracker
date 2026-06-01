@@ -1,9 +1,0 @@
-{
-  "brand": "Intercom",
-  "prompt_id": "CD-04",
-  "llm": "anthropic",
-  "prompt_text": "Best customer support platforms for manage all customer conversations in one unified inbox across chat email and social",
-  "response": "# Best Unified Customer Support Platforms\n\n## Top-Tier Solutions\n\n### **Zendesk**\n- **Strengths:** Industry leader, excellent scalability, comprehensive features\n- **Channels:** Email, chat, phone, social, ticketing\n- **Best for:** Enterprise and growing businesses\n- **Pricing:** Starts ~$19/user/month\n\n### **Intercom**\n- **Strengths:** Modern interface, strong AI chatbots, product tours\n- **Channels:** Chat, email, SMS, social, messenger\n- **Best for:** SaaS and product-driven companies\n- **Pricing:** Starts ~$39/month\n\n### **Freshdesk**\n- **Strengths:** Affordable, user-friendly, good automation\n- **Channels:** Email, chat, phone, social, community forum\n- **Best for:** SMBs seeking value\n- **Pricing:** Starts ~$15/user/month\n\n## Mid-Market Options\n\n| Platform | Key Strengths | Best For |\n|----------|---------------|----------|\n| **HubSpot Service Hub** | CRM integration, automation | Sales + support teams |\n| **Notion** | Customizable, creative teams | Small teams, low budget |\n| **Slack + Apps** | Chat-native, integrations | Internal + external support |\n\n## Specialized Leaders\n\n- **Gorgias** - eCommerce focused (Shopify integration)\n- **Help Scout** - Email-first, minimalist\n- **Groove** - Lightweight, affordable\n- **Microsoft Dynamics 365** - Enterprise ecosystem\n\n## Selection Criteria\n\n**Choose based on:**\n- Team size & budget\n- Integration needs\n- Volume of conversations\n- Required automation level\n- Industry-specific features\n\nWhat's your team size and primary support channels? I can recommend more specifically.",
-  "cached_at": "2026-05-28T08:01:28Z",
-  "metadata": {}
-}

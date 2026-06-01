@@ -1,9 +1,0 @@
-{
-  "brand": "ActiveCampaign",
-  "prompt_id": "CD-01",
-  "llm": "anthropic",
-  "prompt_text": "What is the best marketing automation for SMB and mid-market marketing teams running email and CRM programs?",
-  "response": "# Top Marketing Automation Platforms for SMB/Mid-Market\n\n## Best Overall Fit\n\n**HubSpot** (free to enterprise plans)\n- Integrated CRM + email + workflows\n- Excellent for teams new to automation\n- Strong documentation and community support\n- Good balance of power and usability\n\n**Klaviyo** (if e-commerce focused)\n- Superior email segmentation and flows\n- Better analytics than many competitors\n- Strong SMS capabilities\n- Ideal for DTC brands\n\n## Strong Alternatives by Use Case\n\n**Mailchimp**\n- Most affordable entry point\n- Improving automation features\n- Better for simple campaigns than complex workflows\n\n**ActiveCampaign**\n- Advanced automation at mid-market prices\n- Better CRM than HubSpot for some teams\n- Steeper learning curve\n\n**Marketo/Adobe**\n- Enterprise-grade, overkill for most SMBs\n- Worth considering only at $5M+ revenue\n\n## Key Selection Criteria\n\nAsk yourself:\n- **Complexity needed?** (Simple campaigns vs. multi-touch nurture sequences)\n- **Team size/skill?** (HubSpot if less technical, ActiveCampaign if sophisticated)\n- **Budget?** ($0-500/mo or $1000+/mo?)\n- **Industry?** (E-commerce, SaaS, B2B service, etc.)\n- **Integration needs?** (Your existing tech stack matters)\n\n**What's your team's current setup and biggest pain point?** That would help narrow it further.",
-  "cached_at": "2026-05-28T07:23:15Z",
-  "metadata": {}
-}

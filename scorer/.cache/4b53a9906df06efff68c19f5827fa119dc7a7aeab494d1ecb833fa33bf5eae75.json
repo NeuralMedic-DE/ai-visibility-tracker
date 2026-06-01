@@ -1,9 +1,0 @@
-{
-  "brand": "Plausible",
-  "prompt_id": "UC-01",
-  "llm": "anthropic",
-  "prompt_text": "How do I track website traffic without cookies or consent banners without spending a lot on software?",
-  "response": "# Low-Cost Traffic Tracking Without Cookies\n\n## Free/Cheap Server-Side Options\n\n**Server logs analysis**\n- Your hosting already captures requests in access logs\n- Parse them with free tools (AWStats, Webalizer, or custom scripts)\n- No consent needed since it's your infrastructure\n- Limited but useful: pageviews, referrers, rough location\n\n**Plausible or Fathom lite tiers**\n- Privacy-focused, cookie-free alternatives (~$20-40/month)\n- GDPR-compliant by design\n- Much cheaper than Google Analytics\n\n## DIY Approaches\n\n**Custom event tracking**\n- Log events server-side (page visits, button clicks)\n- Build simple dashboards with SQLite + basic visualization\n- Only track what you need (reduces noise)\n- Takes some dev time but very cheap\n\n**First-party cookies with consent**\n- You can use cookies if you get consent—doesn't have to be intrusive\n- Many sites use simple bottom-bar notices\n- Legally simpler than avoiding tracking entirely\n\n## Real Talk\n\nFree options have tradeoffs:\n- Server logs miss client-side behavior (time on page, scroll depth)\n- Basic tools lack detail on user journeys\n- DIY requires technical skill and maintenance\n\n**Best budget move:** Start with server logs + one cheap privacy-focused service if you need more, rather than building from scratch.\n\nWhat's your main goal—just knowing daily traffic, or understanding user behavior too?",
-  "cached_at": "2026-05-27T20:18:27Z",
-  "metadata": {}
-}

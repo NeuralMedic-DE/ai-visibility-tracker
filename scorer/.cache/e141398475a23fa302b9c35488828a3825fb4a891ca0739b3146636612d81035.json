@@ -1,9 +1,0 @@
-{
-  "brand": "Amplitude",
-  "prompt_id": "IN-01",
-  "llm": "openai",
-  "prompt_text": "Does Amplitude integrate with Segment?",
-  "response": "Yes, Amplitude integrates with Segment. Segment can be used to collect and send data to Amplitude, allowing you to analyze user behavior and product metrics effectively. By using Segment as a data source, you can streamline the process of sending event data to Amplitude without needing to implement separate tracking code for Amplitude directly. This integration helps in maintaining a consistent data pipeline and ensures that your analytics are accurate and comprehensive.",
-  "cached_at": "2026-05-27T19:24:07Z",
-  "metadata": {}
-}

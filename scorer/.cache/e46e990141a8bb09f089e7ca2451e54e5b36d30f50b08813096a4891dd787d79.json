@@ -1,9 +1,0 @@
-{
-  "brand": "Nutshell",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best CRM that works with Gmail and Mailchimp",
-  "response": "# Best CRMs for Gmail + Mailchimp Integration\n\n## Top Choices\n\n### **HubSpot CRM** (Best Overall)\n- Native integration with both Gmail and Mailchimp\n- Free tier available\n- Email tracking and automation\n- Contact management within Gmail\n- Excellent email marketing features\n\n### **Pipedrive**\n- Seamless Gmail integration\n- Mailchimp app available in marketplace\n- Strong sales pipeline focus\n- Intuitive interface\n- Good automation capabilities\n\n### **Zoho CRM**\n- Deep integrations with both platforms\n- Very affordable\n- Comprehensive feature set\n- Good for small-to-medium businesses\n- Strong customization options\n\n### **Copper**\n- Integrates directly with Gmail\n- Mailchimp compatibility\n- Clean, simple interface\n- Google Workspace native\n- Lightweight and fast\n\n### **Salesforce**\n- Enterprise-level solution\n- Full Mailchimp integration\n- Comprehensive ecosystem\n- Steeper learning curve\n- Higher cost\n\n## Quick Comparison\n\n| CRM | Price | Ease | Integration |\n|-----|-------|------|-------------|\n| **HubSpot** | Free-$3200 | Easy | Excellent |\n| **Pipedrive** | $14-$99/user | Easy | Very Good |\n| **Zoho** | $18-$55/user | Moderate | Excellent |\n| **Copper** | $49-$119 | Very Easy | Good |\n\n## My Recommendation\n**HubSpot** for most users—excellent integrations, generous free tier, and both platforms work natively. Start free to test it.\n\nWhat's your main use case (sales, marketing, customer service)?",
-  "cached_at": "2026-05-27T18:34:37Z",
-  "metadata": {}
-}

@@ -1,9 +1,0 @@
-{
-  "brand": "Mosaic",
-  "prompt_id": "IN-04",
-  "llm": "anthropic",
-  "prompt_text": "Best FP&A that works with NetSuite and Salesforce",
-  "response": "# Top FP&A Solutions for NetSuite + Salesforce\n\n## **Best Overall Integrations**\n\n### **1. Anaplan (SAP)**\n- **Strengths**: Native NetSuite/Salesforce connectors, enterprise-grade modeling\n- **Best for**: Large organizations with complex planning needs\n- **Consideration**: Higher cost, steeper learning curve\n\n### **2. Adaptive Insights (Broadcom)**\n- **Strengths**: Strong NetSuite integration, good budgeting workflows\n- **Best for**: Mid-market companies\n- **Consideration**: Being phased toward Anaplan; evaluate roadmap\n\n### **3. Planful (formerly Host Analytics)**\n- **Strengths**: Excellent NetSuite native integration, user-friendly\n- **Best for**: Mid-market manufacturing, professional services\n- **Consideration**: Strong consolidation capabilities\n\n### **4. Prophix**\n- **Strengths**: Great Salesforce revenue forecasting, NetSuite GL integration\n- **Best for**: Sales-driven FP&A with revenue forecasting emphasis\n- **Consideration**: Good balance of features and cost\n\n## **Specialized/Lighter Options**\n\n| Tool | Best For | Integration Strength |\n|------|----------|----------------------|\n| **Wdesk** (Workiva) | Compliance + FP&A | Good, via API |\n| **Board** | Complex modeling | Native connectors |\n| **Sisense** | Analytics/insights | Strong via API |\n\n## **Key Evaluation Criteria**\n- ✓ **Revenue sync** from Salesforce forecasting\n- ✓ **GL integration** depth from NetSuite\n- ✓ **Consolidation** capabilities if multi-entity\n- ✓ **Ease of use** for finance teams\n- ✓ **Implementation time** and cost\n\n**Quick recommendation**: For most mid-market companies, **Planful** or **Prophix** offer the best balance. For enterprises, **Anaplan**.\n\nWhat's your company size/primary use case?",
-  "cached_at": "2026-05-28T07:10:30Z",
-  "metadata": {}
-}
