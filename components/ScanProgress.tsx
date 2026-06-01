@@ -19,15 +19,19 @@ import { useCallback, useEffect, useRef, useState } from "react";
 
 export interface ScanProgressProps {
   brandName: string;
-  /** DB status of scoring_jobs row at page-render time */
-  jobStatus: "pending" | "running" | "failed" | "no_job";
+  /**
+   * DB status of scoring_jobs row at page-render time.
+   * "done" can occur when the worker marks the job done but the run hasn't
+   * propagated to the dashboard query yet — treat it like "failed" (retry).
+   */
+  jobStatus: "pending" | "running" | "failed" | "done" | "no_job";
   /** ISO timestamp of scoring_jobs.created_at; null when no job exists */
   jobCreatedAt: string | null;
   /** Switch to failure UI after this many ms without a result. Default: 20 min */
   timeoutMs?: number;
 }
 
-const DEFAULT_TIMEOUT_MS = 20 * 60 * 1_000; // 20 minutes
+const DEFAULT_TIMEOUT_MS = 15 * 60 * 1_000; // 15 minutes
 const REFRESH_INTERVAL_MS = 30_000;          // 30 seconds
 
 function msElapsed(isoString: string | null): number {
@@ -106,7 +110,7 @@ function RetryButton({
               <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
               <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
             </svg>
-            Queuing scan…
+            Running scan…
           </>
         ) : (
           "Try again"
@@ -115,6 +119,12 @@ function RetryButton({
 
       {retryError && (
         <p className="text-xs text-red-600 max-w-xs text-center">{retryError}</p>
+      )}
+
+      {!retryError && (
+        <p className="text-xs text-gray-400">
+          Takes 1–3 minutes to complete.
+        </p>
       )}
 
       <p className="text-xs text-gray-400">
@@ -150,6 +160,8 @@ function FailureState({
       ? "Scan wasn't started"
       : jobStatus === "failed"
       ? "Scan failed"
+      : jobStatus === "done"
+      ? "Results not yet available"
       : "Scan is taking too long";
 
   const description =
@@ -157,6 +169,8 @@ function FailureState({
       ? "There was a problem queuing your first scan during onboarding. This is usually temporary — try triggering it again below."
       : jobStatus === "failed"
       ? "The scoring worker encountered an error processing your brand. It usually succeeds on retry."
+      : jobStatus === "done"
+      ? "The scan finished but the results haven't appeared yet. This is usually a brief delay — try refreshing or trigger a new scan below."
       : "Your scan has been running for over 20 minutes without completing. This typically means the worker service is restarting. Trigger a fresh scan to try again.";
 
   return (
@@ -219,7 +233,7 @@ function GeneratingState({
         </h2>
         <p className="text-sm text-gray-500 mb-1 leading-relaxed max-w-sm">
           Usually{" "}
-          <strong className="text-gray-700">6–12 minutes</strong>.
+          <strong className="text-gray-700">1–3 minutes</strong>.
           We&apos;re querying ChatGPT, Claude, Perplexity, and Google AI
           Overviews using 25 buyer-intent prompts for{" "}
           <strong className="text-gray-700">{brandName}</strong>.
@@ -299,7 +313,9 @@ export default function ScanProgress({
   const router = useRouter();
 
   // Calculate initial state at mount time.
-  const initiallyFailed = jobStatus === "failed" || jobStatus === "no_job";
+  // "done" with no latestRun means the DB write raced the page render — treat as retry.
+  const initiallyFailed =
+    jobStatus === "failed" || jobStatus === "no_job" || jobStatus === "done";
   const initiallyTimedOut =
     !initiallyFailed && msElapsed(jobCreatedAt) >= timeoutMs;
 

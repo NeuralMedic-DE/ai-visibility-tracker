@@ -8,6 +8,7 @@ import { createAdminClient } from "@/lib/supabase/admin";
 import { getCustomerByUser } from "@/lib/customer";
 import SignOutButton from "@/components/SignOutButton";
 import ScanProgress from "@/components/ScanProgress";
+import AutoRefresh from "@/components/AutoRefresh";
 
 export const metadata: Metadata = {
   title: "Dashboard | NeuralReach",
@@ -166,7 +167,7 @@ function daysUntilNextReport(runDate: string): number {
 // ── Page ────────────────────────────────────────────────────────────────────
 
 interface DashboardPageProps {
-  searchParams: Promise<{ checkout?: string; running?: string }>;
+  searchParams: Promise<{ checkout?: string }>;
 }
 
 export default async function DashboardPage({
@@ -237,19 +238,36 @@ export default async function DashboardPage({
     latestRun = runRow as ScoringRun | null;
   }
 
-  // 7. Load latest scoring job — only needed for State B (brand tracked, no run yet).
-  //    We use this to detect stuck / failed jobs and surface them to the user
-  //    instead of showing an infinite spinner.
+  // 7. Load latest scoring job.
+  //    State B (no run yet): any job status tells us what to show (spinner vs failure).
+  //    State C (has run): look for a *newer* pending/running job so we can show
+  //    a persistent "re-scanning" banner even after the page refreshes.
   let latestJob: ScoringJob | null = null;
-  if (customer && trackedBrand && !latestRun) {
-    const { data: jobRow } = await admin
-      .from("scoring_jobs")
-      .select("id, status, created_at")
-      .eq("customer_id", customer.id)
-      .order("created_at", { ascending: false })
-      .limit(1)
-      .maybeSingle();
-    latestJob = jobRow as ScoringJob | null;
+  if (customer && trackedBrand) {
+    if (!latestRun) {
+      // State B: need the latest job regardless of status
+      const { data: jobRow } = await admin
+        .from("scoring_jobs")
+        .select("id, status, created_at")
+        .eq("customer_id", customer.id)
+        .order("created_at", { ascending: false })
+        .limit(1)
+        .maybeSingle();
+      latestJob = jobRow as ScoringJob | null;
+    } else {
+      // State C: only care about active jobs created after the latest run
+      // (anything older is from a completed cycle and no longer relevant)
+      const { data: jobRow } = await admin
+        .from("scoring_jobs")
+        .select("id, status, created_at")
+        .eq("customer_id", customer.id)
+        .in("status", ["pending", "running"])
+        .gt("created_at", latestRun.created_at)
+        .order("created_at", { ascending: false })
+        .limit(1)
+        .maybeSingle();
+      latestJob = jobRow as ScoringJob | null;
+    }
   }
 
   // 8. Compute index rank (server-side fs read, only when we have results).
@@ -266,7 +284,9 @@ export default async function DashboardPage({
     STATUS_CONFIG["none"];
   const planInfo = customer?.plan ? PLAN_CONFIG[customer.plan] : null;
 
-  const isRunning = params.running === "1";
+  // True when a new scan is actively in progress AND we already have previous results.
+  // Derived from the DB (not the ?running URL param) so the banner persists across refreshes.
+  const isRescanning = !!(latestJob && latestRun);
 
   // ── Render ─────────────────────────────────────────────────────────────────
   return (
@@ -308,7 +328,7 @@ export default async function DashboardPage({
             latestRun={latestRun}
             latestJob={latestJob}
             indexRank={indexRank}
-            isRunning={isRunning}
+            isRescanning={isRescanning}
           />
         )}
       </main>
@@ -462,7 +482,7 @@ function AccountView({
   latestRun,
   latestJob,
   indexRank,
-  isRunning,
+  isRescanning,
 }: {
   email: string;
   customer: Customer;
@@ -474,7 +494,7 @@ function AccountView({
   latestRun: ScoringRun | null;
   latestJob: ScoringJob | null;
   indexRank: IndexRank;
-  isRunning: boolean;
+  isRescanning: boolean;
 }) {
   return (
     <div className="space-y-6">
@@ -484,10 +504,11 @@ function AccountView({
         <p className="text-sm text-gray-400 mt-1">{email}</p>
       </div>
 
-      {/* Re-scan in-progress banner (only relevant on state C when user re-triggered) */}
-      {isRunning && latestRun && (
+      {/* Re-scan in-progress banner — shown on State C when a new job is queued/running.
+          Derived from the DB so it persists across page refreshes. */}
+      {isRescanning && (
         <div className="rounded-xl bg-blue-50 border border-blue-200 px-5 py-4 flex items-start gap-3">
-          <span className="text-xl shrink-0">⚙️</span>
+          <span className="text-xl shrink-0" aria-hidden="true">⚙️</span>
           <div>
             <p className="text-sm font-semibold text-blue-800">
               New scan in progress…
@@ -495,7 +516,7 @@ function AccountView({
             <p className="text-xs text-blue-600 mt-0.5">
               We&apos;re re-querying ChatGPT, Claude, Perplexity, and Google AI
               Overviews for your brand. Your previous results are shown below.
-              Refresh the page to check for updated scores.
+              This page refreshes automatically when new scores are ready.
             </p>
           </div>
         </div>
@@ -518,7 +539,7 @@ function AccountView({
           brandName={trackedBrand.brand_name}
           jobStatus={
             latestJob
-              ? (latestJob.status as "pending" | "running" | "failed")
+              ? (latestJob.status as "pending" | "running" | "failed" | "done")
               : "no_job"
           }
           jobCreatedAt={latestJob?.created_at ?? null}
@@ -529,6 +550,7 @@ function AccountView({
           run={latestRun}
           indexRank={indexRank}
           isPro={customer.plan === "pro"}
+          isRescanning={isRescanning}
         />
       )}
 
@@ -703,11 +725,13 @@ function ScoringResults({
   run,
   indexRank,
   isPro,
+  isRescanning,
 }: {
   brand: TrackedBrand;
   run: ScoringRun;
   indexRank: IndexRank;
   isPro: boolean;
+  isRescanning: boolean;
 }) {
   const avs = Number(run.avs_brand);
   const runDate = new Date(run.run_date).toLocaleDateString("en-US", {
@@ -838,13 +862,26 @@ function ScoringResults({
           <span className="text-xs text-gray-400">Weekly · automated</span>
         </div>
 
-        <div className="mt-4 flex gap-3">
-          <Link
-            href="/dashboard/run-now"
-            className="inline-flex items-center rounded-lg border border-gray-300 px-3 py-1.5 text-xs font-medium text-gray-700 hover:bg-gray-50 transition-colors"
-          >
-            Re-run scan now
-          </Link>
+        <div className="mt-4 flex flex-wrap gap-3 items-center">
+          {isRescanning ? (
+            <>
+              <span className="inline-flex items-center gap-1.5 rounded-lg border border-blue-200 bg-blue-50 px-3 py-1.5 text-xs font-medium text-blue-700">
+                <svg className="h-3 w-3 animate-spin shrink-0" fill="none" viewBox="0 0 24 24" aria-hidden="true">
+                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+                </svg>
+                Scanning in progress
+              </span>
+              <AutoRefresh intervalMs={30_000} label="Checking for new scores" />
+            </>
+          ) : (
+            <Link
+              href="/dashboard/run-now"
+              className="inline-flex items-center rounded-lg border border-gray-300 px-3 py-1.5 text-xs font-medium text-gray-700 hover:bg-gray-50 transition-colors"
+            >
+              Re-run scan now
+            </Link>
+          )}
           <Link
             href="/dashboard/onboarding"
             className="inline-flex items-center rounded-lg border border-gray-300 px-3 py-1.5 text-xs font-medium text-gray-700 hover:bg-gray-50 transition-colors"

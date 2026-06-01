@@ -105,17 +105,25 @@ export async function POST(_request: NextRequest) {
     .limit(1)
     .maybeSingle();
 
+  // If a job is actively running, block to prevent concurrent execution.
+  // If a job is still "pending" (no background worker picked it up), take it
+  // over and process it inline — run-now IS the processor in this deployment.
+  let pendingJobId: string | null = null;
   if (activeJob) {
-    return NextResponse.json(
-      {
-        error:
-          activeJob.status === "running"
-            ? "Scoring is already in progress. Please check back shortly."
-            : "A scoring job is already queued. Please wait a few minutes.",
-        job_status: activeJob.status,
-      },
-      { status: 429 }
+    if (activeJob.status === "running") {
+      return NextResponse.json(
+        {
+          error: "Scoring is already in progress. Please check back shortly.",
+          job_status: "running",
+        },
+        { status: 429 }
+      );
+    }
+    // status === "pending": pick up and process this job inline.
+    console.info(
+      `[run-now] Picking up pending job ${activeJob.id} for customer ${customer.id}`
     );
+    pendingJobId = activeJob.id;
   }
 
   // 5b. Block if a completed run was created within the last 12 hours
@@ -176,44 +184,47 @@ export async function POST(_request: NextRequest) {
     );
   }
 
-  // 6. Insert a scoring_jobs row (status=pending).
+  // 6. Use the existing pending job (picked up above) or insert a new one.
   //    Race-condition fix: unique partial index prevents concurrent double-submit.
-  const { data: jobRow, error: jobErr } = await admin
-    .from("scoring_jobs")
-    .insert({
-      customer_id: customer.id,
-      status: "pending",
-      trigger: "manual",
-    })
-    .select("id")
-    .single();
+  let jobId: string | undefined = pendingJobId ?? undefined;
 
-  if (jobErr) {
-    if (jobErr.code === "23505") {
-      console.warn(
-        `[run-now] Duplicate job insert blocked (23505) for customer ${customer.id}`
-      );
+  if (!jobId) {
+    const { data: jobRow, error: jobErr } = await admin
+      .from("scoring_jobs")
+      .insert({
+        customer_id: customer.id,
+        status: "pending",
+        trigger: "manual",
+      })
+      .select("id")
+      .single();
+
+    if (jobErr) {
+      if (jobErr.code === "23505") {
+        console.warn(
+          `[run-now] Duplicate job insert blocked (23505) for customer ${customer.id}`
+        );
+        return NextResponse.json(
+          {
+            error:
+              "A scoring job is already queued. Please wait for it to complete.",
+            job_status: "pending",
+          },
+          { status: 429 }
+        );
+      }
+      reportError(jobErr, {
+        route: "run-now",
+        step: "scoring_jobs_insert",
+        customerId: customer.id,
+      });
       return NextResponse.json(
-        {
-          error:
-            "A scoring job is already queued. Please wait for it to complete.",
-          job_status: "pending",
-        },
-        { status: 429 }
+        { error: "Failed to queue scoring job. Please try again." },
+        { status: 500 }
       );
     }
-    reportError(jobErr, {
-      route: "run-now",
-      step: "scoring_jobs_insert",
-      customerId: customer.id,
-    });
-    return NextResponse.json(
-      { error: "Failed to queue scoring job. Please try again." },
-      { status: 500 }
-    );
+    jobId = jobRow?.id as string | undefined;
   }
-
-  const jobId = jobRow?.id as string | undefined;
 
   // 7. Mark job as running
   if (jobId) {
