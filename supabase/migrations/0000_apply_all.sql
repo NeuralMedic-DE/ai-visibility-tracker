@@ -1,7 +1,7 @@
 -- ============================================================
 -- NeuralReach — CONSOLIDATED MIGRATION (apply ALL at once)
 -- Run this in Supabase Dashboard → SQL Editor if starting fresh.
--- Combines migrations 0001 through 0009 in order.
+-- Combines migrations 0001 through 0011 in order.
 -- Safe to re-run: all statements use IF NOT EXISTS / OR REPLACE.
 -- ============================================================
 
@@ -399,6 +399,33 @@ begin
       add constraint customers_email_lowercase
       check (email = lower(trim(email)));
   end if;
+end
+$$;
+
+-- ────────────────────────────────────────────────────────────
+-- 0011: stripe_events — webhook idempotency
+-- ────────────────────────────────────────────────────────────
+
+create table if not exists public.stripe_events (
+  event_id      text        primary key,
+  event_type    text        not null,
+  processed_at  timestamptz not null default now()
+);
+
+comment on table public.stripe_events is
+  'Processed Stripe event IDs. Webhook inserts here first; a duplicate-key '
+  'error (23505) short-circuits all handlers so events are processed at-most-once.';
+
+create index if not exists stripe_events_type_processed
+  on public.stripe_events (event_type, processed_at desc);
+
+alter table public.stripe_events enable row level security;
+
+do $$
+begin
+  create policy "stripe_events_service_only" on public.stripe_events
+    for all using (auth.role() = 'service_role');
+exception when duplicate_object then null;
 end
 $$;
 

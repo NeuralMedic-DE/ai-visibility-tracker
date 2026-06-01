@@ -51,6 +51,32 @@ export async function POST(req: NextRequest) {
 
   const supabase = createAdminClient();
 
+  // ── Idempotency gate ──────────────────────────────────────────────────────
+  // Stripe may deliver the same event more than once (network retries,
+  // Stripe's at-least-once guarantee). We INSERT the event_id as a primary
+  // key into stripe_events before doing any work. Two outcomes:
+  //   • Success (new row) → proceed with handler logic below.
+  //   • PG error 23505 (unique violation) → already processed; ack and exit.
+  //   • Any other DB error → return 500 so Stripe retries later.
+  //
+  // This is the primary replay defence. The welcome_email_id IS NULL guard
+  // below is belt-and-suspenders for the edge case where a prior run sent
+  // the email but crashed before writing the ID back.
+  const { error: idempotencyErr } = await supabase
+    .from("stripe_events")
+    .insert({ event_id: event.id, event_type: event.type });
+
+  if (idempotencyErr) {
+    if (idempotencyErr.code === "23505") {
+      // Duplicate — this event was already processed successfully.
+      console.log(`[webhook] Duplicate event ${event.id} (${event.type}) — no-op`);
+      return NextResponse.json({ received: true, duplicate: true });
+    }
+    // Unexpected DB error — let Stripe retry.
+    console.error("[webhook] Idempotency insert error:", idempotencyErr);
+    return NextResponse.json({ error: "DB error" }, { status: 500 });
+  }
+
   try {
     switch (event.type) {
       // ──────────────────────────────────────────────────────────────────────
@@ -185,35 +211,83 @@ export async function POST(req: NextRequest) {
           `[webhook] ✅ Customer ${email} (user_id=${supabaseUserId ?? "legacy"}) → plan=${plan}, status=${subscriptionStatus}`
         );
 
-        // ── Send welcome email ────────────────────────────────────────────
+        // ── Send welcome email ─────────────────────────────────────────────
+        // Guard: only send if welcome_email_id IS NULL in the customers row.
+        //
+        // Primary replay protection is the stripe_events idempotency table
+        // above. This IS NULL check is belt-and-suspenders for the edge case
+        // where a prior invocation sent the email successfully but crashed
+        // before the welcome_email_id write-back completed. Without this
+        // guard that edge case would silently re-send the email.
+        //
         // FROM: NeuralReach <hello@mail.neuralreach.de>  (transactional subdomain)
         // ReplyTo: jonas@neuralreach.de  (founder inbox — "CEO email" pattern)
-        const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? "https://neuralreach.de";
-        const tmpl = welcomeEmail({ appUrl });
-        const { id: welcomeEmailId, error: emailErr } = await sendEmail({
-          to: email,
-          subject: tmpl.subject,
-          html: tmpl.html,
-          text: tmpl.text,
-          replyTo: "jonas@neuralreach.de",
-        });
 
-        if (emailErr) {
-          // Don't fail the webhook for an email error — log and continue.
-          console.error("[webhook] Failed to send welcome email:", emailErr);
+        const custLookupQ = supabaseUserId
+          ? supabase
+              .from("customers")
+              .select("welcome_email_id")
+              .eq("user_id", supabaseUserId)
+              .single()
+          : supabase
+              .from("customers")
+              .select("welcome_email_id")
+              .eq("email", email)
+              .single();
+
+        const { data: custRow, error: custLookupErr } = await custLookupQ;
+
+        if (custLookupErr) {
+          // Shouldn't happen — we just upserted. Log and attempt the send anyway
+          // rather than silently skipping the welcome email.
+          console.warn("[webhook] Could not fetch customer row for email guard:", custLookupErr);
+        }
+
+        if (custRow?.welcome_email_id) {
+          // welcome_email_id already recorded → email was sent in a previous run.
+          console.log(
+            `[webhook] Welcome email already sent to ${email} (id=${custRow.welcome_email_id}) — skipping`
+          );
         } else {
-          console.log(`[webhook] ✉️  Welcome email sent to ${email} | id=${welcomeEmailId}`);
+          const appUrl =
+            process.env.NEXT_PUBLIC_APP_URL ?? "https://neuralreach.de";
+          const tmpl = welcomeEmail({ appUrl });
+          const { id: welcomeEmailId, error: emailErr } = await sendEmail({
+            to: email,
+            subject: tmpl.subject,
+            html: tmpl.html,
+            text: tmpl.text,
+            replyTo: "jonas@neuralreach.de",
+          });
 
-          // Persist message_id in customers row (best-effort)
-          if (welcomeEmailId) {
-            // Look up customer by user_id (preferred) or email
-            const updateQuery = supabaseUserId
-              ? supabase.from("customers").update({ welcome_email_id: welcomeEmailId }).eq("user_id", supabaseUserId)
-              : supabase.from("customers").update({ welcome_email_id: welcomeEmailId }).eq("email", email);
+          if (emailErr) {
+            // Don't fail the webhook for an email error — log and continue.
+            console.error("[webhook] Failed to send welcome email:", emailErr);
+          } else {
+            console.log(
+              `[webhook] ✉️  Welcome email sent to ${email} | id=${welcomeEmailId}`
+            );
 
-            const { error: updateEmailIdErr } = await updateQuery;
-            if (updateEmailIdErr) {
-              console.warn("[webhook] Could not write welcome_email_id:", updateEmailIdErr);
+            // Persist message_id in customers row (best-effort).
+            // Subsequent replays use this to skip the send.
+            if (welcomeEmailId) {
+              const updateQuery = supabaseUserId
+                ? supabase
+                    .from("customers")
+                    .update({ welcome_email_id: welcomeEmailId })
+                    .eq("user_id", supabaseUserId)
+                : supabase
+                    .from("customers")
+                    .update({ welcome_email_id: welcomeEmailId })
+                    .eq("email", email);
+
+              const { error: updateEmailIdErr } = await updateQuery;
+              if (updateEmailIdErr) {
+                console.warn(
+                  "[webhook] Could not write welcome_email_id:",
+                  updateEmailIdErr
+                );
+              }
             }
           }
         }
