@@ -5,10 +5,14 @@
  * brand is tracked but no scoring results exist yet.
  *
  * Job states handled:
- *   pending / running  → spinner + auto-refresh (30 s) + client-side timeout
- *   failed             → failure UI rendered immediately on mount
- *   no_job             → no scoring job was ever queued (onboarding race / DB err)
- *   timed-out          → spinner ran past timeoutMs without result → failure UI
+ *   pending   → auto-triggers POST /api/run-now immediately on mount so the
+ *               scan starts without user interaction; shows spinner + auto-refresh.
+ *               run-now picks up the pending job rather than creating a new one.
+ *   running   → spinner + auto-refresh (30 s) + client-side 15-min timeout.
+ *   failed    → failure UI rendered immediately; user can click "Try again".
+ *   no_job    → failure UI rendered immediately (no job was ever queued).
+ *   done      → failure UI (job done but run hasn't propagated yet — retry).
+ *   timed-out → spinner ran past timeoutMs (15 min) without result → failure UI.
  *
  * The failure UI always includes a "Try again" button that calls POST /api/run-now
  * and then router.refresh() to re-enter the page render cycle.
@@ -27,7 +31,7 @@ export interface ScanProgressProps {
   jobStatus: "pending" | "running" | "failed" | "done" | "no_job";
   /** ISO timestamp of scoring_jobs.created_at; null when no job exists */
   jobCreatedAt: string | null;
-  /** Switch to failure UI after this many ms without a result. Default: 20 min */
+  /** Switch to failure UI after this many ms without a result. Default: 15 min */
   timeoutMs?: number;
 }
 
@@ -171,7 +175,7 @@ function FailureState({
       ? "The scoring worker encountered an error processing your brand. It usually succeeds on retry."
       : jobStatus === "done"
       ? "The scan finished but the results haven't appeared yet. This is usually a brief delay — try refreshing or trigger a new scan below."
-      : "Your scan has been running for over 20 minutes without completing. This typically means the worker service is restarting. Trigger a fresh scan to try again.";
+      : "Your scan has been running for over 15 minutes without completing. This typically means there was an API error. Trigger a fresh scan to try again.";
 
   return (
     <div className="rounded-2xl bg-white ring-1 ring-red-200 overflow-hidden">
@@ -279,7 +283,7 @@ function GeneratingState({
         </p>
 
         {/* Warn user if timeout is approaching */}
-        {minutesUntilTimeout > 0 && minutesUntilTimeout <= 18 && (
+        {minutesUntilTimeout > 0 && minutesUntilTimeout <= 13 && (
           <p className="text-xs text-orange-500">
             Will show error state in ~{minutesUntilTimeout} min if no result
           </p>
@@ -336,6 +340,64 @@ export default function ScanProgress({
   const countdownRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
+  // ── Auto-trigger ──────────────────────────────────────────────────────────
+  // When the component mounts with a "pending" job (queued by onboarding but
+  // not picked up by any background worker), immediately fire POST /api/run-now
+  // so the scan starts without requiring the user to wait for the failure timeout.
+  //
+  // run-now will pick up the existing pending job rather than creating a new one
+  // (see the "pendingJobId" logic in app/api/run-now/route.ts).
+  const hasAutoTriggered = useRef(false);
+
+  useEffect(() => {
+    // Guard: only fire once, only for un-processed pending jobs
+    if (hasAutoTriggered.current) return;
+    if (jobStatus !== "pending") return;
+    if (showFailure) return; // already in failure/timeout state
+
+    hasAutoTriggered.current = true;
+    // Reset timeout clock immediately so the scan has the full 15-min window,
+    // even if the pending job was created many minutes ago.
+    setEffectiveCreatedAt(new Date().toISOString());
+
+    let cancelled = false;
+
+    fetch("/api/run-now", { method: "POST" })
+      .then(async (res) => {
+        if (cancelled) return;
+        if (res.ok) {
+          // Scorer ran to completion. Refresh to show results.
+          router.refresh();
+        } else {
+          const data = (await res.json().catch(() => ({}))) as {
+            error?: string;
+            job_status?: string;
+          };
+          if (data.job_status === "running") {
+            // Something else is already processing this job (e.g. another tab).
+            // Timeout clock is already reset above — just keep polling.
+            return;
+          }
+          // Genuine error — surface the failure state so the user can retry.
+          setEffectiveStatus(jobStatus);
+          setRetryError(data.error ?? "Failed to start scan. Please try again.");
+          setShowFailure(true);
+        }
+      })
+      .catch(() => {
+        if (cancelled) return;
+        setEffectiveStatus(jobStatus);
+        setRetryError("Network error. Check your connection and try again.");
+        setShowFailure(true);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    // Intentional: deps captured at mount time; hasAutoTriggered ref prevents re-fires.
+  }, [jobStatus, showFailure, router]);
+
   useEffect(() => {
     if (showFailure) {
       // Clear any running timers when in failure state.
@@ -386,9 +448,9 @@ export default function ScanProgress({
       const res = await fetch("/api/run-now", { method: "POST" });
 
       if (res.ok) {
-        // Scan queued — flip back to generating state.
-        // Reset the effective creation time to NOW so the 20-min timeout
-        // clock starts fresh (the old jobCreatedAt may be > 20 min old).
+        // Scan queued/completed — flip back to generating state.
+        // Reset the effective creation time to NOW so the 15-min timeout
+        // clock starts fresh (the old jobCreatedAt may be many minutes old).
         setEffectiveCreatedAt(new Date().toISOString());
         setShowFailure(false);
         setEffectiveStatus("pending");

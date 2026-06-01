@@ -17,7 +17,9 @@ import { scoreForCustomer } from "@/lib/scorer";
 //   1. Auth session required
 //   2. Active/trialing subscription required
 //   3. Tracked brand required
-//   4a. No active/pending job in last 12h (scoring_jobs table)
+//   4a. No "running" job in last 12h (prevents concurrent execution).
+//       If a "pending" job exists, it is PICKED UP and processed here rather
+//       than rejected — there is no background worker in production.
 //   4b. No completed run in last 12h (customer_scoring_runs table)
 //   5. Monthly on-demand cap (starter=4, pro=8 completed runs/month)
 //   6. DB INSERT with unique-partial-index on (customer_id) WHERE status IN
