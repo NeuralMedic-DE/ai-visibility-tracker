@@ -4,6 +4,26 @@
 
 ---
 
+## ⚡ Step 0 — Update the Magic Link email template (fixes iCloud prefetch)
+
+The login page now uses a **typed 6-digit OTP code** instead of a click-link.
+For the code to appear in the email you must update the Supabase cloud template.
+
+1. Go to: https://supabase.com/dashboard/project/unrfdcxkmelafypuyruk/auth/templates
+2. Click **Magic Link**
+3. Replace the subject with: `Your NeuralReach sign-in code`
+4. Replace the body HTML with the contents of `supabase/templates/magic_link.html`
+5. Click **Save**
+
+The template shows `{{ .Token }}` (the 6-digit code) at the top and the magic
+link below it as a fallback. iCloud/Apple Mail may still prefetch the link, but
+the user can just type the code instead — the link expiry no longer blocks sign-in.
+
+> **Local dev:** `config.toml` already references the template file, so
+> `supabase start` / `supabase db reset` will pick it up automatically.
+
+---
+
 ## Step 1 — Apply the base schema (1 minute)
 
 1. Go to: https://supabase.com/dashboard/project/unrfdcxkmelafypuyruk/sql/new  

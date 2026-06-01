@@ -77,6 +77,13 @@ double_confirm_changes = true
 # If enabled, users need to confirm their email address before signing in.
 enable_confirmations = false
 
+# Custom email template: shows a 6-digit OTP code prominently (above the magic link)
+# so iCloud/Apple Mail prefetch cannot burn the only auth path.
+# IMPORTANT: the cloud project template must also be updated — see supabase/SETUP.md.
+[auth.email.template.magic_link]
+subject = "Your NeuralReach sign-in code"
+content_path = "./templates/magic_link.html"
+
 [analytics]
 enabled = false
 port = 54327
