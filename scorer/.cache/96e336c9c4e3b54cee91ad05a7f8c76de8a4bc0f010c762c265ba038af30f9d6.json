@@ -1,0 +1,9 @@
+{
+  "brand": "TestBrand",
+  "prompt_id": "CM-04",
+  "llm": "google",
+  "prompt_text": "Compare TestBrand and leading vendors for manage ai visibility tracking workflows",
+  "response": "NO_AI_OVERVIEW",
+  "cached_at": "2026-06-01T15:00:15Z",
+  "metadata": {}
+}

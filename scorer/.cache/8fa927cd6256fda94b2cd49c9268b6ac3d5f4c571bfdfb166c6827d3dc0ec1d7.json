@@ -1,0 +1,9 @@
+{
+  "brand": "TestBrand",
+  "prompt_id": "UC-02",
+  "llm": "google",
+  "prompt_text": "Best way to scale operations efficiently for a B2B SaaS startups team",
+  "response": "NO_AI_OVERVIEW",
+  "cached_at": "2026-06-01T15:00:29Z",
+  "metadata": {}
+}

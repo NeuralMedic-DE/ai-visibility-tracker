@@ -1,0 +1,9 @@
+{
+  "brand": "TestBrand",
+  "prompt_id": "CM-01",
+  "llm": "anthropic",
+  "prompt_text": "TestBrand vs leading vendors: which is better?",
+  "response": "I'd need more context to give you a useful answer. Could you clarify:\n\n1. **What product/service category?** (software, hardware, SaaS, etc.)\n2. **Which specific vendors** you're comparing to?\n3. **What matters most to you?** (price, features, support, ease of use, scalability, etc.)\n4. **What's your use case?** (enterprise, startup, personal, etc.)\n\nWithout knowing these details, any comparison would be pretty generic. If you share more specifics, I can help you think through the tradeoffs.",
+  "cached_at": "2026-06-01T14:59:56Z",
+  "metadata": {}
+}

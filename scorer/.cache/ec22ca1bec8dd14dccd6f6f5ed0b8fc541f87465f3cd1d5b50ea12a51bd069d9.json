@@ -1,0 +1,9 @@
+{
+  "brand": "TestBrand",
+  "prompt_id": "AL-04",
+  "llm": "google",
+  "prompt_text": "leading vendors vs alternatives: what should I switch to?",
+  "response": "NO_AI_OVERVIEW",
+  "cached_at": "2026-06-01T15:00:19Z",
+  "metadata": {}
+}

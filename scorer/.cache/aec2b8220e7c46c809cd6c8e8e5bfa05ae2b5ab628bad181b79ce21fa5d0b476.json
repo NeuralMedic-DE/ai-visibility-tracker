@@ -1,0 +1,9 @@
+{
+  "brand": "TestBrand",
+  "prompt_id": "UC-05",
+  "llm": "google",
+  "prompt_text": "What software helps with scale operations efficiently at scale?",
+  "response": "NO_AI_OVERVIEW",
+  "cached_at": "2026-06-01T15:00:27Z",
+  "metadata": {}
+}

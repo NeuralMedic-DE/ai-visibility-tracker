@@ -1,0 +1,9 @@
+{
+  "brand": "TestBrand",
+  "prompt_id": "CM-01",
+  "llm": "perplexity",
+  "prompt_text": "TestBrand vs leading vendors: which is better?",
+  "response": "I can’t tell whether **TestBrand** is better than the leading vendors from the results provided, because none of the search results mention a company called TestBrand or give direct head-to-head data against it.\n\nWhat the results *do* support is that “best” depends on the category of testing service and the buyer’s needs:\n\n- For **performance testing**, the 2026 comparison highlights specialist providers such as PFLB and enterprise-oriented providers such as Qualitest, with the vendors scored on fit, tooling depth, engagement footprint, and overall fit.[1]\n- For **software testing companies** more broadly, the comparison emphasizes that trusted vendors vary by expertise, compliance needs, reviews, and cost.[2]\n- For **cloud-based testing tools**, Sauce Labs frames the comparison around coverage, reliability, and real-world performance rather than a single universal winner.[5]\n\nIf you want a useful answer, I need one of these:\n- the exact **TestBrand** product/service category\n- the **leading vendors** you want compared against\n- your priorities, such as **price**, **accuracy**, **speed**, **enterprise compliance**, or **tooling depth**\n\nIf you share those, I can give you a direct “TestBrand vs X vs Y” recommendation.",
+  "cached_at": "2026-06-01T15:00:30Z",
+  "metadata": {}
+}

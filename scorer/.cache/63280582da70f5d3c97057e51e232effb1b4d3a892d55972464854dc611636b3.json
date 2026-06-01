@@ -1,0 +1,9 @@
+{
+  "brand": "TestBrand",
+  "prompt_id": "IN-04",
+  "llm": "google",
+  "prompt_text": "Best AI visibility tracking that works with Slack and HubSpot",
+  "response": "NO_AI_OVERVIEW",
+  "cached_at": "2026-06-01T15:00:34Z",
+  "metadata": {}
+}

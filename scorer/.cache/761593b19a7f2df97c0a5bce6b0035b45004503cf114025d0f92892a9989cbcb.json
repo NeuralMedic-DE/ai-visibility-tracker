@@ -1,0 +1,9 @@
+{
+  "brand": "TestBrand",
+  "prompt_id": "IN-04",
+  "llm": "anthropic",
+  "prompt_text": "Best AI visibility tracking that works with Slack and HubSpot",
+  "response": "# Best AI Visibility Tracking for Slack + HubSpot\n\n## Top Solutions\n\n### **1. HubSpot Native Integration**\n- **Built-in Slack sync** for deals, contacts, and tasks\n- **Activity timelines** with automatic logging\n- **Workflow automation** between platforms\n- **Best for:** Teams already committed to HubSpot ecosystem\n- *Limitation:* Less sophisticated AI analytics\n\n### **2. Zapier + Custom Automation**\n- Connects Slack messages → HubSpot records\n- **Smart routing** of conversations to contacts/deals\n- **Customizable triggers** for visibility\n- **Cost-effective** for basic needs\n- *Limitation:* Requires manual workflow setup\n\n### **3. Chorus.ai / Gong**\n- **AI conversation intelligence** (call/meeting analysis)\n- Slack notifications for key moments\n- HubSpot CRM sync\n- *Best for:* Sales teams needing deal intelligence\n- *Cost:* Higher tier ($$$)\n\n### **4. Drift / Intercom**\n- **Real-time chat visibility** in Slack\n- Customer conversation AI\n- HubSpot contact sync\n- *Best for:* Customer-facing teams\n\n### **5. Slack + Make (formerly Integromat)**\n- **Most flexible AI integration**\n- Custom visibility rules\n- Advanced HubSpot field mapping\n- *Best for:* Teams wanting control\n\n---\n\n## My Recommendation\n\n**For most teams:** Start with **HubSpot native Slack integration** + **Zapier** for enhanced automation.\n\n**For sales teams:** Add **Gong** or **Chorus.ai** for AI-driven deal visibility.\n\nWhat's your primary use case—sales, customer success, or general team visibility?",
+  "cached_at": "2026-06-01T15:00:38Z",
+  "metadata": {}
+}

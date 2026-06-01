@@ -1,0 +1,9 @@
+{
+  "brand": "TestBrand",
+  "prompt_id": "IN-03",
+  "llm": "perplexity",
+  "prompt_text": "How do I connect TestBrand with Slack?",
+  "response": "To connect **TestBrand** with Slack, you typically create a **Slack Incoming Webhook** in your Slack workspace, then paste that webhook URL into **TestBrand’s** Slack or webhook integration settings so TestBrand can send notifications to a chosen channel.[1][2]\n\n- In Slack, create a new app from **api.slack.com/apps** and choose **From Scratch**.[1][2]\n- In the app settings, enable **Incoming Webhooks**.[1][2]\n- Click **Add New Webhook to Workspace**, select the channel you want notifications sent to, and copy the generated **Webhook URL**.[1][2]\n- In **TestBrand**, open its integration or notification settings and add a **webhook/Slack connector** using that Slack webhook URL.[1][2]\n- Choose the events you want to receive, such as test success, failure, or abort events, depending on what TestBrand supports.[1]\n\nIf you mean a specific product by **TestBrand**, tell me which one and I can give you the exact setup steps for that tool.",
+  "cached_at": "2026-06-01T15:01:58Z",
+  "metadata": {}
+}

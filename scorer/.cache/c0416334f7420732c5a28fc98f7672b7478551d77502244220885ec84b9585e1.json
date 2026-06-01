@@ -1,0 +1,9 @@
+{
+  "brand": "TestBrand",
+  "prompt_id": "CD-01",
+  "llm": "google",
+  "prompt_text": "What is the best AI visibility tracking for B2B SaaS startups?",
+  "response": "NO_AI_OVERVIEW",
+  "cached_at": "2026-06-01T14:59:57Z",
+  "metadata": {}
+}

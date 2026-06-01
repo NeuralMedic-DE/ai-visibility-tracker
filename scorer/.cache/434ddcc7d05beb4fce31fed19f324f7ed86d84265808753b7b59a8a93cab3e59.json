@@ -1,0 +1,9 @@
+{
+  "brand": "TestBrand",
+  "prompt_id": "CM-03",
+  "llm": "google",
+  "prompt_text": "TestBrand vs leading vendors for B2B SaaS startups",
+  "response": "NO_AI_OVERVIEW",
+  "cached_at": "2026-06-01T15:00:08Z",
+  "metadata": {}
+}

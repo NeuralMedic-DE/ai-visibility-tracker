@@ -1,0 +1,9 @@
+{
+  "brand": "TestBrand",
+  "prompt_id": "UC-03",
+  "llm": "anthropic",
+  "prompt_text": "What tools do B2B SaaS startups companies use to manage ai visibility tracking workflows?",
+  "response": "# AI Visibility & Workflow Tracking Tools for B2B SaaS\n\n## Core Workflow Management\n- **Zapier/Make** - Connect AI tools with CRM, email, analytics\n- **n8n** - Open-source workflow automation with AI integrations\n- **Retool** - Build internal tools to monitor AI pipeline workflows\n- **Windmill** - Developer-friendly workflow automation\n\n## AI-Specific Monitoring\n- **Langsmith** (LangChain) - Debug and monitor LLM applications\n- **Arize** - ML model monitoring and observability\n- **Weights & Biases** - Experiment tracking and model governance\n- **Arthur** - AI model monitoring and explainability\n- **Fiddler** - Model performance and drift detection\n\n## Analytics & Visibility Dashboards\n- **Mixpanel/Amplitude** - Track AI feature usage and user behavior\n- **Segment** - Centralize data from AI workflows\n- **PostHog** - Open-source product analytics with AI insights\n- **Metabase/Looker** - Custom dashboards for workflow metrics\n\n## Operational Monitoring\n- **DataDog/New Relic** - Infrastructure and API performance\n- **Sentry** - Error tracking in AI pipelines\n- **Supabase/Firebase** - Backend observability for AI services\n\n## Document & Process Tracking\n- **Notion/Linear** - Workflow documentation and task management\n- **GitHub Actions** - CI/CD visibility for model deployments\n\n**What specific workflow aspect matters most to you?** (Model performance, user adoption, cost tracking, data quality?)",
+  "cached_at": "2026-06-01T15:00:15Z",
+  "metadata": {}
+}

@@ -1,0 +1,9 @@
+{
+  "brand": "TestBrand",
+  "prompt_id": "CM-01",
+  "llm": "openai",
+  "prompt_text": "TestBrand vs leading vendors: which is better?",
+  "response": "To determine whether TestBrand or leading vendors are better, you need to consider several factors:\n\n1. **Product Quality**: Compare the quality of the products offered by TestBrand and the leading vendors. Look for reviews, ratings, and any available performance data.\n\n2. **Price**: Evaluate the pricing of TestBrand products versus those from leading vendors. Consider whether the price difference is justified by differences in quality or features.\n\n3. **Features**: Compare the features offered by TestBrand and the leading vendors. Determine which features are most important to you and see which brand meets those needs.\n\n4. **Customer Service**: Consider the level of customer service provided by TestBrand and the leading vendors. Look for reviews or testimonials about their customer support experiences.\n\n5. **Reputation**: Research the reputation of TestBrand and the leading vendors. Established brands often have a track record that can be informative.\n\n6. **Warranty and Return Policy**: Check the warranty and return policies of both TestBrand and the leading vendors to ensure you are protected in case of defects or dissatisfaction.\n\n7. **Availability**: Consider the availability of the products in your region and whether there are any issues with supply or distribution.\n\nUltimately, the \"better\" choice will depend on your specific needs and priorities. It may be helpful to list out what is most important to you and compare the brands based on those criteria.",
+  "cached_at": "2026-06-01T15:00:01Z",
+  "metadata": {}
+}

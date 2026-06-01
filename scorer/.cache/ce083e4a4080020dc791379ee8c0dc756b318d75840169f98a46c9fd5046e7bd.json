@@ -1,0 +1,9 @@
+{
+  "brand": "TestBrand",
+  "prompt_id": "IN-05",
+  "llm": "openai",
+  "prompt_text": "AI visibility tracking tools with native Slack integration",
+  "response": "There are several AI visibility tracking tools that offer native Slack integration, allowing teams to streamline communication and keep track of project progress directly within Slack. Here are a few popular options:\n\n1. **Trello**: While primarily a project management tool, Trello offers Power-Ups that include AI capabilities and integrates seamlessly with Slack. You can receive updates, create cards, and manage boards directly from Slack.\n\n2. **Asana**: Asana provides AI-driven insights for project management and integrates with Slack to send updates, task assignments, and project notifications directly to your channels.\n\n3. **Monday.com**: This platform uses AI to enhance project management and has a native Slack integration. You can receive notifications, create new items, and update existing tasks from Slack.\n\n4. **Jira**: Known for its robust project tracking capabilities, Jira integrates with Slack to provide updates on issues, sprints, and other project elements, with some AI-driven features for predictive analytics.\n\n5. **ClickUp**: ClickUp offers AI features for task management and integrates with Slack to keep your team informed about task updates, comments, and project changes.\n\n6. **Wrike**: Wrike includes AI tools for project management and integrates with Slack to provide notifications, task updates, and collaboration features.\n\nThese tools help teams maintain visibility over projects and tasks while leveraging AI capabilities to enhance productivity and decision-making.",
+  "cached_at": "2026-06-01T15:00:39Z",
+  "metadata": {}
+}

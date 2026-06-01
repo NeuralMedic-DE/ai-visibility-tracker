@@ -1,0 +1,9 @@
+{
+  "brand": "TestBrand",
+  "prompt_id": "AL-04",
+  "llm": "anthropic",
+  "prompt_text": "leading vendors vs alternatives: what should I switch to?",
+  "response": "# Help me narrow this down—a few questions:\n\n**What product category?** (CRM, cloud storage, project management, etc.)\n\n**What are you using now?** (Salesforce, Slack, etc.)\n\n**Why consider switching?**\n- Cost too high?\n- Missing features?\n- Poor user experience?\n- Integration issues?\n- Something else?\n\n**What matters most to you?**\n- Price\n- Ease of use\n- Feature depth\n- Customer support\n- Data security\n- Specific integrations?\n\n---\n\nOnce I know what you're evaluating, I can give you a solid comparison of:\n- **Trade-offs** (what you gain/lose)\n- **Best alternatives** for your use case\n- **Migration considerations**\n\nWhat's the product in question?",
+  "cached_at": "2026-06-01T15:00:11Z",
+  "metadata": {}
+}

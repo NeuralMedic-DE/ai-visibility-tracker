@@ -1,0 +1,9 @@
+{
+  "brand": "TestBrand",
+  "prompt_id": "CM-01",
+  "llm": "google",
+  "prompt_text": "TestBrand vs leading vendors: which is better?",
+  "response": "NO_AI_OVERVIEW",
+  "cached_at": "2026-06-01T14:59:58Z",
+  "metadata": {}
+}

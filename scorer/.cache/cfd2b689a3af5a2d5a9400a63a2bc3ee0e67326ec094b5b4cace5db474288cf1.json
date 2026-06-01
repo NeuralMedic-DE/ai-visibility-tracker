@@ -1,0 +1,9 @@
+{
+  "brand": "TestBrand",
+  "prompt_id": "UC-05",
+  "llm": "anthropic",
+  "prompt_text": "What software helps with scale operations efficiently at scale?",
+  "response": "# Software for Scale Operations\n\nHere are the most effective tools depending on your needs:\n\n## **Infrastructure & DevOps**\n- **Kubernetes** - Container orchestration at scale\n- **Terraform** - Infrastructure as code\n- **AWS/Azure/GCP** - Cloud platforms with auto-scaling\n- **Docker** - Containerization for consistency\n\n## **Monitoring & Observability**\n- **Prometheus** - Metrics collection\n- **Grafana** - Visualization dashboards\n- **DataDog** - Comprehensive monitoring\n- **New Relic** - Performance tracking\n- **ELK Stack** - Logging and analysis\n\n## **Database & Data**\n- **PostgreSQL/MySQL** with replication\n- **Redis** - Caching layer\n- **Apache Kafka** - Event streaming\n- **Elasticsearch** - Search and analytics\n- **DynamoDB/Cassandra** - NoSQL at scale\n\n## **Automation & Management**\n- **Ansible/Chef/Puppet** - Configuration management\n- **Jenkins/GitLab CI** - CI/CD pipelines\n- **Load balancers** (nginx, HAProxy)\n\n## **Application Performance**\n- **APM tools** (New Relic, Datadog, Splunk)\n- **Message queues** (RabbitMQ, Apache MQ)\n\n**What type of operations are you scaling?** (web services, databases, infrastructure, data processing?) I can give more specific recommendations.",
+  "cached_at": "2026-06-01T15:00:17Z",
+  "metadata": {}
+}

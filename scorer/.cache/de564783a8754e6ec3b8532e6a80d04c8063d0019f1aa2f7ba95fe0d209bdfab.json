@@ -1,0 +1,9 @@
+{
+  "brand": "TestBrand",
+  "prompt_id": "CM-05",
+  "llm": "google",
+  "prompt_text": "Is TestBrand better than established alternatives for scale operations efficiently?",
+  "response": "NO_AI_OVERVIEW",
+  "cached_at": "2026-06-01T15:00:13Z",
+  "metadata": {}
+}

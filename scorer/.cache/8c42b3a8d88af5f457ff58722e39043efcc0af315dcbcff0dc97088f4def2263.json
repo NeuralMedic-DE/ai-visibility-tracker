@@ -1,0 +1,9 @@
+{
+  "brand": "TestBrand",
+  "prompt_id": "IN-01",
+  "llm": "perplexity",
+  "prompt_text": "Does TestBrand integrate with Slack?",
+  "response": "TestBrand does not appear in current documentation or marketplaces as a product with a named **Slack integration**, so there is no clear evidence that “TestBrand” specifically integrates with Slack.\n\nBased on available results, several *other* testing tools clearly advertise Slack integrations (e.g., **Testkube** via webhooks and a Slack bot[1], **TestBeats** via Slack webhooks and CLI publishing[2], **testomat.io** for test management notifications[3], and **Testable** via an official Slack app[4]). None of the search results reference a product called **TestBrand** or a Slack app/integration under that name.\n\nIf “TestBrand” is:\n\n- **A different product name or a typo**: It might be one of the above tools or another vendor that does have Slack support under a different brand name.\n- **An internal/company-specific tool**: Any Slack integration would likely be custom (for example, using Slack incoming webhooks or bots), and you would need to check your internal docs or ask your dev/DevOps team.\n- **A new or niche SaaS**: Check:\n  - Its official documentation or “Integrations” page.\n  - The Slack App Directory for an app named “TestBrand”.\n  - Settings under “Notifications” or “Webhooks” in the TestBrand UI, which is how many tools surface Slack support.\n\nIf you can share a link or a fuller description of TestBrand (vendor site, product category), I can look more specifically and tell you whether it supports Slack natively, via webhooks, or not at all.",
+  "cached_at": "2026-06-01T15:02:07Z",
+  "metadata": {}
+}

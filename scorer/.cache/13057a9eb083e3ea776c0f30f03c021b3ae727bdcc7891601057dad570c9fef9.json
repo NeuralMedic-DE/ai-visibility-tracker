@@ -1,0 +1,9 @@
+{
+  "brand": "TestBrand",
+  "prompt_id": "AL-02",
+  "llm": "anthropic",
+  "prompt_text": "Cheaper alternatives to established alternatives",
+  "response": "# Cheaper Alternatives to Popular Products\n\n## **Electronics & Tech**\n- **Phones**: Refurbished flagships, OnePlus, Motorola vs. Apple/Samsung\n- **Laptops**: ASUS, Lenovo, HP vs. MacBook\n- **Headphones**: Soundcore, Anker vs. Sony, Bose\n- **Tablets**: iPad alternatives from Samsung, Lenovo\n\n## **Home & Kitchen**\n- **Appliances**: Store brands (Costco Kirkland, Amazon Basics)\n- **Cookware**: No-name stainless steel vs. All-Clad\n- **Coffee makers**: Basic drip vs. Nespresso\n- **Air fryers**: Budget brands often identical to premium ones\n\n## **Fashion & Accessories**\n- **Clothing**: H&M, Uniqlo, Target vs. designer brands\n- **Shoes**: Payless alternatives, Target, Costco\n- **Watches**: Timex, Invicta vs. luxury brands\n- **Sunglasses**: Warby Parker, Amazon vs. Ray-Ban\n\n## **Health & Beauty**\n- **Skincare**: CeraVe, The Ordinary vs. luxury brands\n- **Makeup**: E.l.f., Maybelline vs. MAC, Urban Decay\n- **Supplements**: Generic/store brands (identical formulas)\n- **Fitness**: YouTube, apps vs. gym membership\n\n## **Entertainment & Software**\n- **Streaming**: Specific services vs. bundles\n- **Software**: Open-source (GIMP, LibreOffice) vs. paid\n- **Gaming**: Humble Bundle, Epic vs. full price\n\n**Pro tip**: Generic/store brands often come from the same factories as name brands.",
+  "cached_at": "2026-06-01T15:00:08Z",
+  "metadata": {}
+}

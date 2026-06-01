@@ -1,0 +1,9 @@
+{
+  "brand": "TestBrand",
+  "prompt_id": "UC-04",
+  "llm": "google",
+  "prompt_text": "How can a head of growth manage ai visibility tracking workflows more efficiently?",
+  "response": "NO_AI_OVERVIEW",
+  "cached_at": "2026-06-01T15:00:26Z",
+  "metadata": {}
+}

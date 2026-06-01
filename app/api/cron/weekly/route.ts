@@ -1,16 +1,21 @@
 /**
- * POST /api/cron/weekly
+ * GET /api/cron/weekly   (Vercel Cron — production)
+ * POST /api/cron/weekly  (manual trigger — development / ops)
  *
  * Runs the weekly AI visibility scoring loop for every active/trialing
  * customer, then sends each one a weekly digest email.
  *
- * Authentication: requires header X-Cron-Secret matching env CRON_SECRET.
+ * Authentication:
+ *   • GET  (Vercel Cron): header `Authorization: Bearer <CRON_SECRET>`
+ *   • POST (manual):      header `X-Cron-Secret: <CRON_SECRET>`
+ *                         OR     `Authorization: Bearer <CRON_SECRET>`
  *
  * Invoke manually:
  *   curl -X POST https://neuralreach.de/api/cron/weekly \
  *     -H "X-Cron-Secret: <CRON_SECRET>"
  *
  * Scheduled on Vercel Cron: see vercel.json (Monday 09:00 UTC).
+ * Vercel always sends GET with Authorization: Bearer header.
  *
  * Timeout note: set maxDuration=300 in vercel.json for this route.
  * Each scorer run takes up to ~90 s; the endpoint processes customers
@@ -51,6 +56,41 @@ interface ScoringRunRow {
 }
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
+
+/**
+ * Validates the incoming request carries a recognised cron secret.
+ *
+ * Vercel Cron (GET requests) sends:   Authorization: Bearer <CRON_SECRET>
+ * Manual POST callers may send either: X-Cron-Secret: <CRON_SECRET>
+ *                                  or: Authorization: Bearer <CRON_SECRET>
+ *
+ * Returns null on success, or an error response to return immediately.
+ */
+function authenticateCron(
+  req: NextRequest,
+  cronSecret: string
+): NextResponse | null {
+  // Accept Authorization: Bearer <token>  (Vercel Cron native format)
+  const authHeader = req.headers.get("authorization") ?? "";
+  if (authHeader.startsWith("Bearer ")) {
+    const token = authHeader.slice(7);
+    if (token === cronSecret) return null; // ✅
+    console.warn("[cron/weekly] Unauthorized — bad Bearer token");
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
+  // Accept X-Cron-Secret: <token>  (legacy manual-POST format)
+  const xSecret = req.headers.get("x-cron-secret");
+  if (xSecret !== null) {
+    if (xSecret === cronSecret) return null; // ✅
+    console.warn("[cron/weekly] Unauthorized — bad X-Cron-Secret");
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
+  // No recognised auth header present
+  console.warn("[cron/weekly] Unauthorized — no auth header");
+  return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+}
 
 /**
  * Spawns python3 -m scorer.run_for_customer for the given customer and waits
@@ -113,9 +153,9 @@ function runScorer(
   });
 }
 
-// ── Main handler ──────────────────────────────────────────────────────────────
+// ── Core business logic (shared by GET and POST handlers) ─────────────────────
 
-export async function POST(req: NextRequest) {
+async function runWeeklyCron(req: NextRequest): Promise<NextResponse> {
   // 1. Authenticate the cron caller
   const cronSecret = process.env.CRON_SECRET;
   if (!cronSecret) {
@@ -126,15 +166,11 @@ export async function POST(req: NextRequest) {
     );
   }
 
-  const incomingSecret = req.headers.get("x-cron-secret");
-  if (incomingSecret !== cronSecret) {
-    console.warn("[cron/weekly] Unauthorized cron attempt — bad secret");
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-  }
+  const authError = authenticateCron(req, cronSecret);
+  if (authError) return authError;
 
   const supabase = createAdminClient();
-  const appUrl =
-    process.env.NEXT_PUBLIC_APP_URL ?? "https://neuralreach.de";
+  const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? "https://neuralreach.de";
   const workspaceRoot = path.resolve(process.cwd());
 
   console.log("[cron/weekly] Starting weekly scoring + email run");
@@ -335,4 +371,22 @@ export async function POST(req: NextRequest) {
     skipped: skipCount,
     results,
   });
+}
+
+// ── Route exports ─────────────────────────────────────────────────────────────
+
+/**
+ * GET handler — used by Vercel Cron.
+ * Vercel sends GET with header: Authorization: Bearer <CRON_SECRET>
+ */
+export async function GET(req: NextRequest) {
+  return runWeeklyCron(req);
+}
+
+/**
+ * POST handler — used for manual invocations and local testing.
+ * Accepts: X-Cron-Secret: <CRON_SECRET>  OR  Authorization: Bearer <CRON_SECRET>
+ */
+export async function POST(req: NextRequest) {
+  return runWeeklyCron(req);
 }

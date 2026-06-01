@@ -1,0 +1,9 @@
+{
+  "brand": "TestBrand",
+  "prompt_id": "CM-03",
+  "llm": "anthropic",
+  "prompt_text": "TestBrand vs leading vendors for B2B SaaS startups",
+  "response": "# TestBrand vs Leading Vendors: B2B SaaS Comparison\n\n## Quick Positioning\n\nWithout knowing TestBrand's specific offering, here's how to structure this comparison:\n\n### Key Comparison Dimensions\n\n**1. Pricing Model**\n- Freemium vs. paid-only\n- Per-seat, usage-based, or tiered\n- Total cost of ownership for startups\n\n**2. Core Features**\n- Feature parity with competitors\n- Startup-specific capabilities\n- Ease of implementation\n\n**3. Ideal Customer Profile**\n- Stage: Early-stage vs. Series A+\n- Team size (2-50 vs. 50+)\n- Industry vertical focus\n\n**4. Go-to-Market Strengths**\n- Sales model (self-serve vs. sales-led)\n- Customer onboarding quality\n- Support tier availability\n\n**5. Differentiation**\n- What TestBrand uniquely solves\n- Performance/speed advantages\n- Integrations ecosystem\n\n## How to Structure Your Comparison\n\n```\nIf TestBrand is [category], main competitors are typically:\n- Analytics: Mixpanel, Amplitude, Heap\n- Communication: Slack, Discord, Loom\n- Infrastructure: Vercel, Railway, Fly.io\n- Operations: Notion, Airtable, Monday.com\n```\n\n## Questions to Help Clarify\n\n- What product category is TestBrand in?\n- What's your primary differentiation?\n- Who are your 2-3 closest competitors?\n- What's your target startup size/stage?\n\n**Can you share more details about TestBrand?** That'll let me create a much more targeted competitive analysis.",
+  "cached_at": "2026-06-01T15:00:00Z",
+  "metadata": {}
+}
