@@ -430,6 +430,39 @@ end
 $$;
 
 -- ────────────────────────────────────────────────────────────
+-- 0012: Quota controls & cost tracking
+-- ────────────────────────────────────────────────────────────
+
+-- 1. Prevent concurrent active jobs per customer (race-condition fix)
+create unique index if not exists scoring_jobs_one_active_per_customer
+  on public.scoring_jobs (customer_id)
+  where status in ('pending', 'running');
+
+comment on index public.scoring_jobs_one_active_per_customer is
+  'Prevents concurrent scorer processes for the same customer. '
+  'A second INSERT while status=pending|running yields PG 23505, '
+  'caught by the API route and returned as HTTP 429.';
+
+-- 2. prompt_count — how many prompts the scorer ran this cycle
+alter table public.customer_scoring_runs
+  add column if not exists prompt_count integer;
+
+comment on column public.customer_scoring_runs.prompt_count is
+  'Total prompts scored across all LLMs for this run (25 for Starter, 100 for Pro).';
+
+-- 3. estimated_cost_usd — actual API spend for this run
+alter table public.customer_scoring_runs
+  add column if not exists estimated_cost_usd numeric(8, 4);
+
+comment on column public.customer_scoring_runs.estimated_cost_usd is
+  'Actual API cost in USD (from cost_tracker). Used by the global daily spend circuit-breaker.';
+
+-- 4. Index for daily spend aggregation
+create index if not exists scoring_runs_run_date_cost
+  on public.customer_scoring_runs (run_date, estimated_cost_usd)
+  where estimated_cost_usd is not null;
+
+-- ────────────────────────────────────────────────────────────
 -- Verify: list all tables created
 -- ────────────────────────────────────────────────────────────
 select table_name, table_type

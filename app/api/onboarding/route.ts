@@ -144,14 +144,27 @@ export async function POST(request: NextRequest) {
   }
 
   // ── 7. Insert a scoring_jobs row (status = pending) ────────────────────────
-  // Non-fatal: if this fails we still want the user to proceed to /dashboard.
+  // Non-fatal: if this fails we still redirect the user to /dashboard.
+  //
+  // 23505 unique_violation: the unique partial index
+  //   scoring_jobs_one_active_per_customer ON scoring_jobs(customer_id)
+  //   WHERE status IN ('pending','running')
+  // prevents a double-submit (e.g. form submit twice) from creating two
+  // concurrent scorer processes. Treat this as success — a job is already queued.
   const { error: jobErr } = await admin.from("scoring_jobs").insert({
     customer_id: customer.id,
     status: "pending",
+    trigger: "manual",
   });
 
   if (jobErr) {
-    console.warn("[onboarding] scoring_jobs insert warning:", jobErr.message);
+    if (jobErr.code === "23505") {
+      console.info(
+        `[onboarding] scoring_jobs duplicate blocked (23505) for customer ${customer.id} — job already queued`
+      );
+    } else {
+      console.warn("[onboarding] scoring_jobs insert warning:", jobErr.message);
+    }
   }
 
   // ── 8. Scoring is handled by the always-on worker service ────────────────

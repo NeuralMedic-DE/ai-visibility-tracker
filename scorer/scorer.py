@@ -194,6 +194,7 @@ def score_brand(
     llms: Optional[List[str]] = None,
     dry_run: bool = False,
     simulate_latency: float = 0.0,
+    prompt_limit: Optional[int] = None,
 ) -> BrandScore:
     """
     Score a brand across all configured LLMs (or a subset).
@@ -205,6 +206,9 @@ def score_brand(
         dry_run: if True, skip API calls and return mock 0-scores.
         simulate_latency: seconds to sleep per prompt in dry-run mode
                           (used for benchmark comparisons; ignored in real mode).
+        prompt_limit: max prompts to run (slices PROMPT_TEMPLATES[:limit]).
+                      None = all 100. Pass PLAN_PROMPT_LIMITS[plan] to enforce
+                      per-plan quotas (starter=25, pro=100).
 
     Returns:
         BrandScore with per-LLM and aggregate scores.
@@ -212,7 +216,7 @@ def score_brand(
     if llms is None:
         llms = list(LLM_CONFIGS.keys())
 
-    prompts = render_prompts(brand)
+    prompts = render_prompts(brand, limit=prompt_limit)
     brand_names = brand.all_names()
     llm_scores: Dict[str, LLMScore] = {}
 
@@ -372,6 +376,7 @@ async def score_brand_async(
     concurrency: int = 4,
     simulate_latency: float = 0.0,
     semaphores: Optional[Dict[str, asyncio.Semaphore]] = None,
+    prompt_limit: Optional[int] = None,
 ) -> BrandScore:
     """
     Async version of score_brand — parallelizes all LLMs and prompts concurrently.
@@ -394,6 +399,9 @@ async def score_brand_async(
         simulate_latency: seconds to sleep per slot in dry-run mode (for benchmarks).
         semaphores: pre-created semaphores to share across brands. If None,
                     brand-local semaphores are created.
+        prompt_limit: max prompts to run (slices PROMPT_TEMPLATES[:limit]).
+                      None = all 100. Pass PLAN_PROMPT_LIMITS[plan] to enforce
+                      per-plan quotas (starter=25, pro=100).
 
     Returns:
         BrandScore with per-LLM and aggregate scores.
@@ -401,7 +409,7 @@ async def score_brand_async(
     if llms is None:
         llms = list(LLM_CONFIGS.keys())
 
-    prompts = render_prompts(brand)
+    prompts = render_prompts(brand, limit=prompt_limit)
     brand_names = brand.all_names()
 
     # Create brand-local semaphores if caller didn't supply shared ones
@@ -423,7 +431,7 @@ async def score_brand_async(
             f"({len(prompts)} prompts, async, cap={cap})…"
         )
 
-        # Launch all 25 prompts concurrently — semaphore limits actual parallelism
+        # Launch all prompts concurrently — semaphore limits actual parallelism
         tasks = [
             _score_single_prompt_async(
                 llm_key=llm_key,
