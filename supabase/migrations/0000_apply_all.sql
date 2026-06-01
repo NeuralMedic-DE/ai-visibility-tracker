@@ -287,6 +287,54 @@ comment on column public.waitlist.interested_plan is
   'Plan the visitor was viewing when they joined the waitlist. NULL = general sign-up.';
 
 -- ────────────────────────────────────────────────────────────
+-- 0007: scoring_jobs queue + last_scored_at on tracked_brands
+-- ────────────────────────────────────────────────────────────
+
+alter table public.tracked_brands
+  add column if not exists last_scored_at timestamptz;
+
+comment on column public.tracked_brands.last_scored_at is
+  'UTC timestamp of the last completed scoring run for this brand. NULL = never scored.';
+
+create table if not exists public.scoring_jobs (
+  id              uuid primary key default uuid_generate_v4(),
+  customer_id     uuid not null references public.customers(id) on delete cascade,
+  status          text not null default 'pending'
+                    check (status in ('pending', 'running', 'done', 'failed')),
+  error           text,
+  created_at      timestamptz not null default now(),
+  started_at      timestamptz,
+  finished_at     timestamptz
+);
+
+comment on table public.scoring_jobs is
+  'Per-customer scoring job queue. Inserted by /api/onboarding; processed by scorer subprocess or cron.';
+
+alter table public.scoring_jobs enable row level security;
+
+do $$ begin
+  create policy "scoring_jobs_own_select" on public.scoring_jobs
+    for select using (
+      customer_id in (
+        select id from public.customers
+        where email = auth.jwt() ->> 'email'
+      )
+    );
+exception when duplicate_object then null; end $$;
+
+do $$ begin
+  create policy "scoring_jobs_service_all" on public.scoring_jobs
+    for all using (auth.role() = 'service_role');
+exception when duplicate_object then null; end $$;
+
+create index if not exists scoring_jobs_customer_status
+  on public.scoring_jobs (customer_id, status, created_at desc);
+
+create index if not exists scoring_jobs_pending
+  on public.scoring_jobs (status, created_at)
+  where status = 'pending';
+
+-- ────────────────────────────────────────────────────────────
 -- Verify: list all tables created
 -- ────────────────────────────────────────────────────────────
 select table_name, table_type
