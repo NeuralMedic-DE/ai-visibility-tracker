@@ -12,6 +12,21 @@
 
 import { Resend } from "resend";
 
+// ── Production dry-run guard ─────────────────────────────────────────────────
+// Fires once when the module is first loaded (i.e. when any API route that
+// imports email.ts is initialised on a Vercel worker).
+// If EMAIL_DRY_RUN=1 leaks into a production deploy this will scream in the
+// Vercel Runtime Logs, making the misconfiguration impossible to miss.
+if (process.env.EMAIL_DRY_RUN === "1" && process.env.NODE_ENV === "production") {
+  const bar = "█".repeat(60);
+  console.error(`\n${bar}`);
+  console.error("🚨  EMAIL_DRY_RUN=1 is set in NODE_ENV=production!");
+  console.error("    No emails will be delivered to real users.");
+  console.error("    Remove EMAIL_DRY_RUN from Vercel Environment Variables");
+  console.error("    (Settings → Environment Variables → Production) NOW.");
+  console.error(`${bar}\n`);
+}
+
 // Lazily initialise so the module can be imported in tests without a real key.
 let _resend: Resend | null = null;
 function getResend(): Resend {
