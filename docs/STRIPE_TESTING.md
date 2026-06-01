@@ -108,17 +108,57 @@ stripe trigger customer.subscription.updated \
 stripe trigger customer.subscription.deleted
 ```
 
+### Simulate trial-ending warning email
+
+```bash
+stripe trigger customer.subscription.trial_will_end
+```
+
+Check that a "trial ending soon" email lands in your inbox (or EMAIL_DRY_RUN log).
+
+### Simulate successful payment / renewal
+
+```bash
+stripe trigger invoice.paid
+```
+
 ### Use a card that declines
 
 Use card `4000 0000 0000 9995` (insufficient funds) to test the decline flow.
+
+### Test subscription ID fallback (H5 fix)
+
+If `stripe_customer_id` is null in `customers` but `stripe_subscription_id` is
+set (e.g. due to a race during checkout), the webhook now falls back to matching
+by `stripe_subscription_id`. To verify: temporarily set
+`stripe_customer_id = null` for a test row, then trigger
+`customer.subscription.updated` — the row should still be updated and a
+`[webhook] … trying stripe_subscription_id=…` warning logged.
 
 ---
 
 ## Webhook events handled
 
-| Event | Effect on Supabase `customers` |
+| Event | Effect |
 |---|---|
-| `checkout.session.completed` | UPSERT row with plan + status=trialing/active |
-| `customer.subscription.updated` | UPDATE status, period_end |
-| `customer.subscription.deleted` | UPDATE status=canceled |
+| `checkout.session.completed` | UPSERT customers row with plan + status=trialing/active; send welcome email |
+| `customer.subscription.updated` | UPDATE status, current_period_end, plan; fallback match by sub ID if customer ID missing |
+| `customer.subscription.deleted` | UPDATE status=canceled; fallback match by sub ID |
+| `customer.subscription.trial_will_end` | Send "trial ending soon" email (Stripe fires 3 days before trial end) |
+| `invoice.paid` | UPDATE status=active + current_period_end (belt-and-suspenders for renewals) |
 | `invoice.payment_failed` | UPDATE status=past_due |
+
+> **Note:** Ensure all six events above are enabled in the Stripe webhook endpoint
+> configuration (Dashboard → Developers → Webhooks → select endpoint → Add events).
+> The two new events (`customer.subscription.trial_will_end` and `invoice.paid`)
+> must be added if the webhook was configured before 2026-06-01.
+
+### Simulate new lifecycle events locally
+
+```bash
+# Trial ending soon (fires 3 days before trial_end)
+stripe trigger customer.subscription.trial_will_end
+
+# Successful renewal payment
+stripe trigger invoice.paid
+```

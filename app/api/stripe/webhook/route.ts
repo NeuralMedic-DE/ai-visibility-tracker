@@ -5,9 +5,120 @@ import { stripe } from "@/lib/stripe";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { sendEmail } from "@/lib/email";
 import { welcomeEmail } from "@/lib/email-templates/welcome";
+import { trialEndingEmail } from "@/lib/email-templates/trial-ending";
 
 // Tell Next.js not to parse the body — Stripe needs the raw bytes for signature verification.
 export const dynamic = "force-dynamic";
+
+// ── Helper: resolve current_period_end safely ──────────────────────────────────
+//
+// Stripe API ≥ 2025-01-27.acacia (we pin 2025-02-24.acacia) moved
+// `current_period_end` from the Subscription root to
+// `items.data[0].current_period_end`. If the field is missing or not a valid
+// number, `new Date(undefined * 1000)` produces an Invalid Date whose
+// `.toISOString()` throws a RangeError → 500 → Stripe retries forever.
+//
+// This helper reads both locations, returning null rather than throwing.
+function resolveCurrentPeriodEnd(sub: Stripe.Subscription): string | null {
+  // Stripe API ≥ 2025-01-27.acacia moved `current_period_end` from the
+  // Subscription root to each SubscriptionItem. The TypeScript types for the
+  // pinned API version (2025-02-24.acacia) may not expose the field on either
+  // object, so we cast through `unknown` to read both locations safely.
+  //
+  // 1. Item-level (current — API ≥ 2025-01-27)
+  const itemEpoch = (
+    sub.items?.data?.[0] as unknown as { current_period_end?: number }
+  )?.current_period_end;
+  // 2. Top-level (legacy — API < 2025-01-27 / cached event objects)
+  const legacyEpoch = (sub as unknown as { current_period_end?: number })
+    .current_period_end;
+
+  const epochSecs = itemEpoch ?? legacyEpoch;
+  if (typeof epochSecs !== "number" || !isFinite(epochSecs)) return null;
+  return new Date(epochSecs * 1000).toISOString();
+}
+
+// ── Helper: update a customers row by stripe_customer_id with sub_id fallback ─
+//
+// H5 fix: subscription.updated / .deleted previously matched ONLY by
+// stripe_customer_id. If that column was never written (race during checkout,
+// legacy row) the update touches 0 rows silently → canceled user retains access.
+//
+// Strategy:
+//   1. Update by stripe_customer_id (primary — always present in well-formed events)
+//   2. If 0 rows affected, fall back to stripe_subscription_id (the sub.id from
+//      the event object itself, always reliable)
+//   3. If still 0 rows, log a warning but return success (200) — returning 500
+//      would cause Stripe to retry forever for a customer that genuinely doesn't
+//      exist in our DB (e.g. created outside this app or already deleted).
+//
+// Returns true if at least one row was updated.
+async function updateCustomerByStripeIds(
+  supabase: ReturnType<typeof createAdminClient>,
+  {
+    stripeCustomerId,
+    stripeSubscriptionId,
+    payload,
+    eventType,
+  }: {
+    stripeCustomerId: string;
+    stripeSubscriptionId: string;
+    payload: Record<string, unknown>;
+    eventType: string;
+  }
+): Promise<boolean> {
+  // Attempt 1: match by stripe_customer_id
+  const { data: byCustomer, error: err1 } = await supabase
+    .from("customers")
+    .update(payload)
+    .eq("stripe_customer_id", stripeCustomerId)
+    .select("id");
+
+  if (err1) {
+    // Real DB error — caller should propagate 500
+    console.error(
+      `[webhook] ${eventType} DB error (by customer_id):`,
+      err1.message
+    );
+    throw new Error(err1.message);
+  }
+
+  if (byCustomer && byCustomer.length > 0) {
+    return true; // happy path
+  }
+
+  // Attempt 2: fallback by stripe_subscription_id
+  console.warn(
+    `[webhook] ${eventType} — 0 rows matched stripe_customer_id=${stripeCustomerId}; ` +
+      `trying stripe_subscription_id=${stripeSubscriptionId}`
+  );
+
+  const { data: bySubscription, error: err2 } = await supabase
+    .from("customers")
+    .update(payload)
+    .eq("stripe_subscription_id", stripeSubscriptionId)
+    .select("id");
+
+  if (err2) {
+    console.error(
+      `[webhook] ${eventType} DB error (by subscription_id):`,
+      err2.message
+    );
+    throw new Error(err2.message);
+  }
+
+  if (bySubscription && bySubscription.length > 0) {
+    return true;
+  }
+
+  // 0 rows on both attempts — log a warning but do NOT error (would cause Stripe retries)
+  console.warn(
+    `[webhook] ⚠️ ${eventType} — no customer row matched ` +
+      `stripe_customer_id=${stripeCustomerId} OR stripe_subscription_id=${stripeSubscriptionId}. ` +
+      `Possible race condition or orphaned subscription. Acknowledging to Stripe (200).`
+  );
+  return false;
+}
 
 export async function POST(req: NextRequest) {
   // 1. Read raw body as text (App Router way)
@@ -124,9 +235,9 @@ export async function POST(req: NextRequest) {
             if (sub.trial_end) {
               trialEndsAt = new Date(sub.trial_end * 1000).toISOString();
             }
-            currentPeriodEnd = new Date(
-              sub.current_period_end * 1000
-            ).toISOString();
+            // H6: use helper to safely read current_period_end (guards against
+            // undefined when Stripe API moves field to items level)
+            currentPeriodEnd = resolveCurrentPeriodEnd(sub);
           } catch (subErr) {
             console.error(
               "[webhook] Could not retrieve subscription, defaulting to trialing:",
@@ -296,22 +407,28 @@ export async function POST(req: NextRequest) {
 
       // ──────────────────────────────────────────────────────────────────────
       // customer.subscription.updated — trial → active, active → past_due, etc.
+      //
+      // H5: also fall back to stripe_subscription_id if stripe_customer_id
+      //     matches 0 rows (race / missing field).
+      // H6: use resolveCurrentPeriodEnd() to guard against undefined.
       // ──────────────────────────────────────────────────────────────────────
       case "customer.subscription.updated": {
         const sub = event.data.object as Stripe.Subscription;
-        const customerId = sub.customer as string;
+        const stripeCustomerId = sub.customer as string;
+        const stripeSubscriptionId = sub.id;
 
         // Resolve plan from subscription metadata (set at checkout creation time)
         const plan =
           (sub.metadata?.plan as "starter" | "pro" | undefined) ?? undefined;
 
+        // H6: guard current_period_end against undefined / Invalid Date
+        const currentPeriodEnd = resolveCurrentPeriodEnd(sub);
+
         const updatePayload: Record<string, unknown> = {
           subscription_status: sub.status,
-          current_period_end: new Date(
-            sub.current_period_end * 1000
-          ).toISOString(),
           updated_at: new Date().toISOString(),
         };
+        if (currentPeriodEnd) updatePayload.current_period_end = currentPeriodEnd;
         if (plan) updatePayload.plan = plan;
         if (sub.trial_end) {
           updatePayload.trial_ends_at = new Date(
@@ -319,51 +436,199 @@ export async function POST(req: NextRequest) {
           ).toISOString();
         }
 
-        const { error: updateErr } = await supabase
-          .from("customers")
-          .update(updatePayload)
-          .eq("stripe_customer_id", customerId);
+        // H5: update with customer_id fallback to subscription_id
+        try {
+          const matched = await updateCustomerByStripeIds(supabase, {
+            stripeCustomerId,
+            stripeSubscriptionId,
+            payload: updatePayload,
+            eventType: "customer.subscription.updated",
+          });
 
-        if (updateErr) {
-          console.error("[webhook] Subscription update DB error:", updateErr);
+          if (matched) {
+            console.log(
+              `[webhook] ✅ Subscription updated for customer ${stripeCustomerId}: status=${sub.status}`
+            );
+          }
+        } catch (dbErr) {
+          console.error("[webhook] Subscription update DB error:", dbErr);
           return NextResponse.json(
             { error: "DB write failed" },
             { status: 500 }
           );
         }
-
-        console.log(
-          `[webhook] ✅ Subscription updated for customer ${customerId}: status=${sub.status}`
-        );
         break;
       }
 
       // ──────────────────────────────────────────────────────────────────────
       // customer.subscription.deleted — canceled / expired
+      //
+      // H5: also fall back to stripe_subscription_id if stripe_customer_id
+      //     matches 0 rows.
       // ──────────────────────────────────────────────────────────────────────
       case "customer.subscription.deleted": {
         const sub = event.data.object as Stripe.Subscription;
-        const customerId = sub.customer as string;
+        const stripeCustomerId = sub.customer as string;
+        const stripeSubscriptionId = sub.id;
 
-        const { error: cancelErr } = await supabase
-          .from("customers")
-          .update({
-            subscription_status: "canceled",
-            updated_at: new Date().toISOString(),
-          })
-          .eq("stripe_customer_id", customerId);
+        const cancelPayload: Record<string, unknown> = {
+          subscription_status: "canceled",
+          updated_at: new Date().toISOString(),
+        };
 
-        if (cancelErr) {
-          console.error("[webhook] Subscription cancel DB error:", cancelErr);
+        // H5: update with customer_id fallback to subscription_id
+        try {
+          const matched = await updateCustomerByStripeIds(supabase, {
+            stripeCustomerId,
+            stripeSubscriptionId,
+            payload: cancelPayload,
+            eventType: "customer.subscription.deleted",
+          });
+
+          if (matched) {
+            console.log(
+              `[webhook] ✅ Subscription canceled for customer ${stripeCustomerId}`
+            );
+          }
+        } catch (dbErr) {
+          console.error("[webhook] Subscription cancel DB error:", dbErr);
           return NextResponse.json(
             { error: "DB write failed" },
             { status: 500 }
           );
         }
+        break;
+      }
 
-        console.log(
-          `[webhook] ✅ Subscription canceled for customer ${customerId}`
-        );
+      // ──────────────────────────────────────────────────────────────────────
+      // customer.subscription.trial_will_end — fires 3 days before trial ends
+      //
+      // M4: send a "trial ending soon" email so the customer knows they'll be
+      // billed (or can cancel). Stripe sends this event exactly once per trial.
+      // ──────────────────────────────────────────────────────────────────────
+      case "customer.subscription.trial_will_end": {
+        const sub = event.data.object as Stripe.Subscription;
+        const stripeCustomerId = sub.customer as string;
+        const stripeSubscriptionId = sub.id;
+
+        // Look up the customer's email (needed to send the email)
+        let email: string | null = null;
+
+        const { data: byCustomer } = await supabase
+          .from("customers")
+          .select("email")
+          .eq("stripe_customer_id", stripeCustomerId)
+          .maybeSingle();
+
+        if (byCustomer?.email) {
+          email = byCustomer.email;
+        } else {
+          // Fallback by subscription ID
+          const { data: bySub } = await supabase
+            .from("customers")
+            .select("email")
+            .eq("stripe_subscription_id", stripeSubscriptionId)
+            .maybeSingle();
+          email = bySub?.email ?? null;
+        }
+
+        if (!email) {
+          console.warn(
+            `[webhook] trial_will_end — no customer row for customer_id=${stripeCustomerId} / sub_id=${stripeSubscriptionId}. Cannot send trial-ending email.`
+          );
+          break;
+        }
+
+        const appUrl =
+          process.env.NEXT_PUBLIC_APP_URL ?? "https://neuralreach.de";
+
+        // Format the trial end date in a human-readable way
+        const trialEndDate = sub.trial_end
+          ? new Date(sub.trial_end * 1000).toLocaleDateString("en-US", {
+              month: "long",
+              day: "numeric",
+              year: "numeric",
+            })
+          : "soon";
+
+        const tmpl = trialEndingEmail({ trialEndDate, appUrl });
+        const { id: emailId, error: emailErr } = await sendEmail({
+          to: email,
+          subject: tmpl.subject,
+          html: tmpl.html,
+          text: tmpl.text,
+          replyTo: "jonas@neuralreach.de",
+        });
+
+        if (emailErr) {
+          console.error("[webhook] Failed to send trial-ending email:", emailErr);
+        } else {
+          console.log(
+            `[webhook] ✉️  Trial-ending email sent to ${email} | id=${emailId}`
+          );
+        }
+        break;
+      }
+
+      // ──────────────────────────────────────────────────────────────────────
+      // invoice.paid — first payment or renewal
+      //
+      // M4: confirm subscription is active after successful payment.
+      // This is belt-and-suspenders alongside subscription.updated; it ensures
+      // that if subscription.updated is missed or delayed, the customer still
+      // gets their access reinstated promptly.
+      // ──────────────────────────────────────────────────────────────────────
+      case "invoice.paid": {
+        const invoice = event.data.object as Stripe.Invoice;
+        const stripeCustomerId = invoice.customer as string;
+        const stripeSubscriptionId =
+          (invoice.subscription as string | null) ?? "";
+
+        // Derive period end from the invoice's first line item
+        // (more reliable than invoice.period_end which covers the billing window,
+        // not the subscription access window)
+        const lineItemPeriodEnd = (
+          invoice.lines?.data?.[0]?.period?.end
+        ) as number | undefined;
+
+        const updatePayload: Record<string, unknown> = {
+          subscription_status: "active",
+          updated_at: new Date().toISOString(),
+        };
+
+        if (typeof lineItemPeriodEnd === "number" && isFinite(lineItemPeriodEnd)) {
+          updatePayload.current_period_end = new Date(
+            lineItemPeriodEnd * 1000
+          ).toISOString();
+        }
+
+        if (stripeSubscriptionId) {
+          try {
+            const matched = await updateCustomerByStripeIds(supabase, {
+              stripeCustomerId,
+              stripeSubscriptionId,
+              payload: updatePayload,
+              eventType: "invoice.paid",
+            });
+
+            if (matched) {
+              console.log(
+                `[webhook] ✅ invoice.paid — customer ${stripeCustomerId} status set to active`
+              );
+            }
+          } catch (dbErr) {
+            console.error("[webhook] invoice.paid DB error:", dbErr);
+            return NextResponse.json(
+              { error: "DB write failed" },
+              { status: 500 }
+            );
+          }
+        } else {
+          // One-off invoice (no subscription) — nothing to update in customers
+          console.log(
+            `[webhook] invoice.paid — no subscription attached to invoice ${invoice.id}; skipping customers update`
+          );
+        }
         break;
       }
 
@@ -372,18 +637,29 @@ export async function POST(req: NextRequest) {
       // ──────────────────────────────────────────────────────────────────────
       case "invoice.payment_failed": {
         const invoice = event.data.object as Stripe.Invoice;
-        const customerId = invoice.customer as string;
+        const stripeCustomerId = invoice.customer as string;
+        const stripeSubscriptionId =
+          (invoice.subscription as string | null) ?? "";
 
-        await supabase
-          .from("customers")
-          .update({
-            subscription_status: "past_due",
-            updated_at: new Date().toISOString(),
-          })
-          .eq("stripe_customer_id", customerId);
+        if (stripeSubscriptionId) {
+          try {
+            await updateCustomerByStripeIds(supabase, {
+              stripeCustomerId,
+              stripeSubscriptionId,
+              payload: {
+                subscription_status: "past_due",
+                updated_at: new Date().toISOString(),
+              },
+              eventType: "invoice.payment_failed",
+            });
+          } catch (dbErr) {
+            console.error("[webhook] invoice.payment_failed DB error:", dbErr);
+            // Non-fatal: Stripe's customer.subscription.updated will also fire
+          }
+        }
 
         console.log(
-          `[webhook] ⚠️ Payment failed for customer ${customerId}`
+          `[webhook] ⚠️ Payment failed for customer ${stripeCustomerId}`
         );
         break;
       }
