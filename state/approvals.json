@@ -12,6 +12,18 @@
     "decision_note": ""
   },
   {
+    "id": "A-7c53a25b",
+    "category": "irreversible",
+    "title": "Complete 4 dashboard actions: Supabase Auth URLs, Email provider, Resend DNS, DB migration",
+    "description": "Four founder-only dashboard actions needed before the subscriber product can go end-to-end. Full checklist with copy-paste values at: state/artifacts/approvals/combined_dashboard_actions_2026-06-01.md\n\n1. Supabase Auth URL config (5 min) — https://supabase.com/dashboard/project/unrfdcxkmelafypuyruk/auth/url-configuration\n   Set Site URL = https://neuralreach.de\n   Add to Redirect URLs: https://neuralreach.de/auth/callback, https://www.neuralreach.de/auth/callback, http://localhost:3000/auth/callback\n\n2. Supabase Email provider (5 min) — https://supabase.com/dashboard/project/unrfdcxkmelafypuyruk/auth/providers\n   Enable Email provider = ON, Confirm email = ON, Min password length = 8\n\n3. Resend DNS fix (10-15 min) — https://resend.com/domains\n   All 5 records for mail.neuralreach.de are wrong. Delete each, re-add from Resend dashboard.\n   SPF: v=spf1 include:amazonses.com ~all (on mail.neuralreach.de)\n   3x DKIM CNAME: copy exact values from Resend domain panel\n   DMARC: v=DMARC1; p=none; (on _dmarc.mail.neuralreach.de)\n\n4. Production DB migration (5 min) — https://supabase.com/dashboard/project/unrfdcxkmelafypuyruk/sql/new\n   Run supabase/migrations/0001_init.sql through 0013_subscription_status_check.sql in order.\n   Verify: SELECT table_name FROM information_schema.tables WHERE table_schema='public';\n\nBonus: Confirm EMAIL_DRY_RUN is NOT set (or is 0/false) in Vercel Production env vars.",
+    "proposed_by": "ops",
+    "est_cost_usd": 0.0,
+    "status": "pending",
+    "created_at": "2026-06-01T00:00:00Z",
+    "decided_at": "",
+    "decision_note": ""
+  },
+  {
     "id": "A-4f2a8c1e",
     "category": "public_post",
     "title": "Post 4 AI Visibility Index launch posts (Reddit + Indie Hackers)",
