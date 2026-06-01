@@ -1,0 +1,31 @@
+company,url,category,avs_score,global_rank,founded_year,founding_type,contact_role,top_gap
+Portkey,portkey.ai,AI tooling,18.3,88,2023,small-team,"AI Engineer or Platform Lead",Invisible on all 3 LLMs for multi-LLM production deployment queries
+Langfuse,langfuse.com,AI tooling,25.7,63,2023,small-team,"AI Engineer or LLM Observability Lead",Scores 0/30 on category discovery for LLM engineering tooling
+Helicone,helicone.ai,AI tooling,23.5,69,2023,small-team,"AI Developer or LLM Ops Lead",Not mentioned by any LLM for LLM cost/latency monitoring queries
+Vellum,vellum.ai,AI tooling,15.9,97,2022,small-team,"AI Product Lead or Head of AI",Invisible to all 3 LLMs for prompt testing and LLM product development
+Braintrust,braintrust.dev,AI tooling,22.8,72,2022,small-team,"AI Engineer or ML Ops Lead",Absent from LLM eval tooling queries across all 3 LLMs
+LangChain,langchain.com,AI tooling,38.8,26,2022,solo-origin,"AI or ML Engineer",Scores 0 on OpenAI integration queries despite being the de facto layer
+Checkly,checklyhq.com,monitoring,18.0,91,2018,solo,"DevOps Lead or QA Engineer",Invisible in 'monitoring as code' category queries across all 3 LLMs
+Numeric,numeric.io,finance,21.5,76,2021,2-person,"Finance Manager or Controller",Scores 0/30 on all month-end close and controller discovery queries
+Humaans,humaans.io,HR,16.5,95,2020,small-team,"People Ops Lead or HR Manager",Not surfaced by any LLM for HRIS startup/scaleup queries
+Sprinto,sprinto.com,compliance,23.7,68,2020,2-person,"Compliance Lead or CTO",Invisible to all LLMs for compliance discovery and Drata alternative queries
+Neon,neon.tech,database,40.0,23,2021,team,"Backend Engineer Lead",Mid-rank; weaker on developer-tool comparison queries
+Doppler,doppler.com,secrets management,31.1,48,2019,2-person,"DevOps Lead or Platform Engineer",Gaps on secrets-manager category discovery for DevOps leads
+Semgrep,semgrep.com,security,32.8,46,2021,team,"AppSec Lead or Developer",Visibility drops on SAST alternative and budget-option queries
+Ashby,ashby.com,ATS,31.1,49,2018,team,"Head of Talent or Recruiting Manager",Scores 0/30 on Greenhouse alternative and time-to-hire queries
+Leapsome,leapsome.com,HR,22.8,71,2016,team,"People Ops Lead or Head of HR",Invisible for performance review platform category discovery queries
+Finaloop,finaloop.com,finance,18.8,82,2020,team,"Founder/CEO or Finance Manager",Nearly absent across all LLMs for e-commerce bookkeeping queries
+Mosaic,mosaic.tech,FP&A,27.7,59,2019,team,"CFO or FP&A Lead",Low on FP&A platform discovery queries for Series B+ companies
+Rho,rho.co,finance,18.7,84,2018,team,"CFO or Finance Lead",Weak on corporate spend management and startup banking queries
+Anecdotes,anecdotes.ai,compliance,15.1,100,2020,small-team,"GRC Lead or Compliance Manager",Dead-last: invisible on every compliance evidence query across all LLMs
+Nudge Security,nudgesecurity.com,security,18.4,87,2021,2-person,"Security Manager or IT Lead",Not mentioned by LLMs for SaaS shadow IT or discovery queries
+Conveyor,conveyor.com,security,15.7,98,2021,small-team,"Security Lead or RevOps Manager",Near-invisible: scores 0 on security questionnaire automation queries
+SafeBase,safebase.io,security,18.3,89,2020,team,"Sales Ops Lead or Security Manager",Weak on trust center and vendor security review discovery queries
+Vitally,vitally.io,customer success,31.3,47,2019,team,"CS Lead or Head of Customer Success",Gaps on CS health-score and playbook automation discovery queries
+Mailmodo,mailmodo.com,marketing automation,24.1,67,2021,team,"Email Marketer or Head of Growth",Invisible on interactive email and AMP email category queries
+Hightouch,hightouch.com,reverse ETL,44.7,10,2020,team,"RevOps Lead or Data Engineer",High baseline but gaps in persona-specific warehouse activation queries
+Lattice,lattice.com,HR,35.1,37,2015,team,"Head of People or VP HR",Mid-rank; gaps on OKR software and performance management queries
+Teamtailor,teamtailor.com,ATS,18.1,90,2013,team,"Talent Manager or Head of HR",Very low: absent from employer branding and ATS discovery queries
+Maxio,maxio.com,billing,21.9,74,2022,team,"SaaS Finance Lead or CFO",Invisible on complex subscription billing and SaaS revenue recognition queries
+Planhat,planhat.com,customer success,28.1,57,2016,team,"CS Director or Account Manager Lead",Gaps on CS and revenue expansion platform discovery queries
+Stonly,stonly.com,knowledge management,16.9,94,2018,2-person,"CS Lead or Knowledge Base Manager",Near-invisible on self-service guide and interactive knowledge base queries
