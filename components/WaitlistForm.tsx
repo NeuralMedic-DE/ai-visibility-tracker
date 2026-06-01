@@ -68,7 +68,7 @@ export function WaitlistForm({
       }
 
       setStatus("success");
-      setMessage("You're on the list! We'll notify you when we launch.");
+      setMessage("You're on the list. You'll get an activation link 48 hours before public launch.");
       setEmail("");
       setBrandInterest("");
     } catch (err) {
@@ -119,7 +119,7 @@ export function WaitlistForm({
               "whitespace-nowrap"
             )}
           >
-            {status === "loading" ? "Joining…" : "Get Early Access"}
+            {status === "loading" ? "Claiming spot…" : "Claim My Early Access"}
           </button>
         </div>
       ) : (
@@ -169,7 +169,7 @@ export function WaitlistForm({
                 : "bg-brand-600 text-white hover:bg-brand-700 focus:ring-brand-500"
             )}
           >
-            {status === "loading" ? "Joining…" : "Join Waitlist"}
+            {status === "loading" ? "Claiming spot…" : "Claim My Early Access"}
           </button>
         </div>
       )}

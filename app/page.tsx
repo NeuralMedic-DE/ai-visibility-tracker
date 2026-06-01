@@ -72,28 +72,28 @@ export default function HomePage() {
           { href: "/pricing", label: "Pricing" },
           { href: "/methodology", label: "Methodology" },
         ]}
-        cta={{ label: "Get Early Access", href: "#waitlist", isAnchor: true }}
+        cta={{ label: "See My Score", href: "#waitlist", isAnchor: true }}
       />
 
       {/* Hero */}
       <section className="relative overflow-hidden bg-gradient-to-b from-brand-50 to-white py-20 sm:py-28">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
           <div className="inline-flex items-center rounded-full bg-brand-100 px-3 py-1 text-xs font-medium text-brand-700 ring-1 ring-brand-200 mb-6">
-            🚀 Now tracking 100 B2B SaaS brands. See the leaderboard.
+            📊 The average B2B SaaS brand scores 34 points below its top AI competitor. Fix yours.
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-gray-900 leading-tight">
             Does AI Search know{" "}
             <span className="text-brand-600">your brand?</span>
           </h1>
           <p className="mt-6 text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            NeuralReach shows you exactly how ChatGPT, Claude, Perplexity, and Google AI Overviews describe your B2B SaaS. Get the fixes to close the visibility gap before your competitors do.
+            NeuralReach shows you exactly where ChatGPT, Claude, Perplexity, and Google AIO mention — or miss — your brand, benchmarks you against your top 3 competitors, and delivers the schema + content fixes to close your 34-point gap in 60 days.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
               href="#waitlist"
               className="rounded-xl bg-brand-600 px-8 py-4 text-base font-semibold text-white shadow-lg hover:bg-brand-700 transition-colors"
             >
-              Get Free Early Access
+              See My AI Visibility Score
             </a>
             <Link
               href="/leaderboard"
@@ -102,7 +102,7 @@ export default function HomePage() {
               See the AI Visibility Index
             </Link>
           </div>
-          <p className="mt-4 text-sm text-gray-400">No credit card required. 2-minute setup.</p>
+          <p className="mt-4 text-sm text-gray-400">No credit card · See your brand&apos;s score in 60 seconds</p>
 
           {/* Credibility strip — pulled from same data/leaderboard.json the /leaderboard page uses */}
           <p className="mt-5 flex flex-wrap justify-center items-center gap-x-3 gap-y-1 text-xs text-gray-400">
