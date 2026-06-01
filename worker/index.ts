@@ -1,37 +1,34 @@
 /**
  * NeuralReach Scoring Worker
  *
- * Always-on service that polls the scoring_jobs queue and runs the Python
- * scorer (scorer.run_for_customer) for each pending job.
+ * Always-on service that polls the scoring_jobs queue and runs the TypeScript
+ * scorer (lib/scorer.ts) for each pending job.
  *
  * Deploy on Railway, Fly, or Render as a separate service alongside the
- * Next.js app. The Dockerfile at worker/Dockerfile builds a single image
- * with both Node.js (for this worker) and Python 3 (for the scorer).
+ * Next.js app. No Python runtime required — scoring is done entirely in
+ * TypeScript using the native fetch() API.
  *
  * Required env vars (set in your deployment platform):
  *   NEXT_PUBLIC_SUPABASE_URL      Supabase project URL
  *   SUPABASE_SERVICE_ROLE_KEY     Service role key — full DB access
- *   OPENAI_API_KEY                For the Python scorer (ChatGPT queries)
- *   ANTHROPIC_API_KEY             For the Python scorer (Claude queries)
- *   PERPLEXITY_API_KEY            For the Python scorer (Perplexity queries)
+ *   OPENAI_API_KEY                For ChatGPT (GPT-4o) queries
+ *   ANTHROPIC_API_KEY             For Claude (Haiku) queries
+ *   PERPLEXITY_API_KEY            For Perplexity (sonar-pro) queries
  *   SERPAPI_KEY                   For Google AI Overview checks
  *
  * Optional tuning:
  *   WORKER_POLL_INTERVAL_MS       How often to poll for new jobs (default: 30000)
- *   WORKER_SCORER_TIMEOUT_MS      Max time for one scoring job  (default: 300000)
  *   WORKER_STALE_JOB_MINUTES      Reset 'running' jobs stuck > N minutes (default: 15)
  */
 
 import { createClient, SupabaseClient } from "@supabase/supabase-js";
-import { spawn } from "child_process";
 import path from "path";
 import * as dotenv from "dotenv";
+import { scoreForCustomer } from "../lib/scorer";
 
 // ── Bootstrap ─────────────────────────────────────────────────────────────────
-// Load .env.local / .env from the repo root for local development.
-// In production the platform injects env vars directly — these calls are no-ops.
-const WORKER_DIR = __dirname; // <repo-root>/worker
-const REPO_ROOT = path.resolve(WORKER_DIR, ".."); // <repo-root>
+const WORKER_DIR = __dirname;
+const REPO_ROOT = path.resolve(WORKER_DIR, "..");
 
 dotenv.config({ path: path.join(REPO_ROOT, ".env.local") });
 dotenv.config({ path: path.join(REPO_ROOT, ".env") });
@@ -42,10 +39,6 @@ const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL ?? "";
 const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY ?? "";
 const POLL_INTERVAL_MS = parseInt(
   process.env.WORKER_POLL_INTERVAL_MS ?? "30000",
-  10
-);
-const SCORER_TIMEOUT_MS = parseInt(
-  process.env.WORKER_SCORER_TIMEOUT_MS ?? "300000",
   10
 );
 const STALE_JOB_MINUTES = parseInt(
@@ -67,69 +60,6 @@ const supabase: SupabaseClient = createClient(
   SUPABASE_SERVICE_KEY,
   { auth: { persistSession: false } }
 );
-
-// ── Python scorer runner ──────────────────────────────────────────────────────
-
-/**
- * Spawns `python3 -m scorer.run_for_customer --customer-id <id>` from the
- * repo root and waits for it to exit. Rejects on non-zero exit or timeout.
- */
-function runScorer(customerId: string): Promise<void> {
-  return new Promise((resolve, reject) => {
-    console.log(`[worker] Spawning scorer for customer ${customerId}`);
-
-    const proc = spawn(
-      "python3",
-      ["-m", "scorer.run_for_customer", "--customer-id", customerId],
-      {
-        cwd: REPO_ROOT,
-        stdio: ["ignore", "pipe", "pipe"],
-        env: { ...process.env, PYTHONUNBUFFERED: "1" },
-      }
-    );
-
-    let stdout = "";
-    let stderr = "";
-    proc.stdout?.on("data", (d: Buffer) => {
-      stdout += d.toString();
-    });
-    proc.stderr?.on("data", (d: Buffer) => {
-      stderr += d.toString();
-    });
-
-    const timer = setTimeout(() => {
-      proc.kill("SIGTERM");
-      reject(
-        new Error(
-          `Scorer timed out after ${SCORER_TIMEOUT_MS / 1000}s for customer ${customerId}`
-        )
-      );
-    }, SCORER_TIMEOUT_MS);
-
-    proc.on("error", (err) => {
-      clearTimeout(timer);
-      reject(new Error(`Scorer spawn error: ${err.message}`));
-    });
-
-    proc.on("close", (code) => {
-      clearTimeout(timer);
-      if (code === 0) {
-        console.log(
-          `[worker] Scorer finished for customer ${customerId}. ` +
-            `stdout tail: ${stdout.slice(-300)}`
-        );
-        resolve();
-      } else {
-        reject(
-          new Error(
-            `Scorer exited code ${code} for customer ${customerId}.\n` +
-              `stderr: ${stderr.slice(-500)}`
-          )
-        );
-      }
-    });
-  });
-}
 
 // ── Stale job recovery ────────────────────────────────────────────────────────
 
@@ -159,7 +89,7 @@ async function resetStaleJobs(): Promise<void> {
 // ── Job processing ────────────────────────────────────────────────────────────
 
 /**
- * Claims and processes one pending scoring job.
+ * Claims and processes one pending scoring job using the TypeScript scorer.
  * Returns true if a job was found (even if it failed), false if the queue
  * was empty (caller should wait before polling again).
  */
@@ -193,7 +123,6 @@ async function processNextJob(): Promise<boolean> {
     .maybeSingle();
 
   if (!claimed) {
-    // Another worker claimed it first — skip and look for the next
     console.log(
       `[worker] Job ${job.id} already claimed by another instance — skipping`
     );
@@ -204,9 +133,9 @@ async function processNextJob(): Promise<boolean> {
     `[worker] Claimed job ${job.id} | customer=${job.customer_id} | trigger=${job.trigger}`
   );
 
-  // 3. Run scorer
+  // 3. Run TypeScript scorer (replaces Python subprocess)
   try {
-    await runScorer(job.customer_id);
+    await scoreForCustomer(job.customer_id, supabase);
 
     // 4a. Mark done
     await supabase
@@ -273,11 +202,10 @@ async function poll(): Promise<void> {
 // ── Startup ───────────────────────────────────────────────────────────────────
 
 console.log("[worker] ─────────────────────────────────────────────────────");
-console.log("[worker] NeuralReach Scoring Worker starting");
+console.log("[worker] NeuralReach Scoring Worker starting (TypeScript scorer)");
 console.log(`[worker] Repo root     : ${REPO_ROOT}`);
 console.log(`[worker] Supabase URL  : ${SUPABASE_URL}`);
 console.log(`[worker] Poll interval : ${POLL_INTERVAL_MS}ms`);
-console.log(`[worker] Scorer timeout: ${SCORER_TIMEOUT_MS}ms`);
 console.log(`[worker] Stale reset   : ${STALE_JOB_MINUTES}min`);
 console.log("[worker] ─────────────────────────────────────────────────────");
 

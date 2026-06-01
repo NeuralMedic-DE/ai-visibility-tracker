@@ -188,8 +188,9 @@ export async function POST(request: NextRequest) {
 
   // ── 8. Scoring is handled by the always-on worker service ────────────────
   // The scoring_jobs row inserted above (status=pending) will be picked up
-  // by the worker (Railway/Fly/Render) which runs python3 scorer.run_for_customer
-  // out-of-band. Results appear on /dashboard once the worker completes.
+  // by the worker (Railway/Fly/Render) which runs the TypeScript scorer
+  // (lib/scorer.ts) out-of-band. Results appear on /dashboard once the
+  // worker completes.
   console.info(
     `[onboarding] scoring_jobs row enqueued for customer ${customer.id}`
   );

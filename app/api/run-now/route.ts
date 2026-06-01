@@ -3,11 +3,15 @@ import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { getCustomerByUser } from "@/lib/customer";
 import { reportError } from "@/lib/error-reporter";
+import { scoreForCustomer } from "@/lib/scorer";
 
 // ── POST /api/run-now ─────────────────────────────────────────────────────────
-// Auth-protected. Enqueues a scoring_jobs row (status=pending) for the signed-in
-// customer. The always-on worker service (Railway/Fly/Render) picks up the job
-// and runs the Python scorer out-of-band.
+// Auth-protected. Runs the TypeScript scorer inline for the signed-in customer.
+//
+// This endpoint NO LONGER uses a Python subprocess or an async job queue.
+// Scoring runs synchronously in the Vercel function using the TypeScript scorer
+// (lib/scorer.ts), which calls OpenAI / Anthropic / Perplexity / SerpAPI via
+// fetch() in parallel.
 //
 // Guards (in order):
 //   1. Auth session required
@@ -19,13 +23,18 @@ import { reportError } from "@/lib/error-reporter";
 //   6. DB INSERT with unique-partial-index on (customer_id) WHERE status IN
 //      ('pending','running') — conflicts return 429 instead of 500.
 //
-// Returns 202 Accepted immediately; scoring results appear on /dashboard when done.
+// Returns 200 with the AVS score object on success.
+// scoring_jobs row is kept in sync so ScanProgress polling works.
+
+// Allow up to 5 minutes — scoring 25–100 prompts × 4 LLMs takes 30–90s.
+export const maxDuration = 300;
+export const dynamic = "force-dynamic";
 
 // Per-plan monthly on-demand run caps.
 // Weekly cron runs don't count against this limit (they use trigger='weekly').
 const MONTHLY_ON_DEMAND_CAPS: Record<string, number> = {
-  starter: 4,  // ~1/week matches "Weekly report" pitch
-  pro: 8,      // generous on-demand allowance within cost budget
+  starter: 4, // ~1/week matches "Weekly report" pitch
+  pro: 8, // generous on-demand allowance within cost budget
 };
 
 export async function POST(_request: NextRequest) {
@@ -53,11 +62,7 @@ export async function POST(_request: NextRequest) {
     );
   }
 
-  // 3. Only allow active/trialing customers with a payment method.
-  // "active"   = paying — Stripe confirmed payment method.
-  // "trialing" = trial started — payment method may or may not be on file
-  //              depending on checkout configuration (collect card = yes).
-  // Both statuses are acceptable; past_due / canceled / none are not.
+  // 3. Only allow active/trialing customers.
   const allowedStatuses = ["trialing", "active"];
   if (!allowedStatuses.includes(customer.subscription_status)) {
     return NextResponse.json(
@@ -135,9 +140,7 @@ export async function POST(_request: NextRequest) {
     );
   }
 
-  // 5c. Monthly on-demand cap — count completed runs for the current month.
-  // This prevents abuse via automated retry loops and keeps API costs bounded.
-  // Weekly cron runs (trigger='weekly') are not counted against on-demand quota.
+  // 5c. Monthly on-demand cap
   const now = new Date();
   const startOfMonth = new Date(now.getFullYear(), now.getMonth(), 1).toISOString();
   const { count: monthlyCount, error: countErr } = await admin
@@ -169,27 +172,24 @@ export async function POST(_request: NextRequest) {
       );
     }
     console.info(
-      `[run-now] Monthly cap OK: ${monthlyCount ?? 0}/${monthlyCap} runs used (${plan})`
+      `[run-now] Monthly cap OK: ${monthlyCount ?? 0}/${monthlyCap} runs used (${customer.plan ?? "starter"})`
     );
   }
 
-  // 6. Enqueue a scoring job (trigger=manual, worker picks it up).
-  //
-  // Race-condition fix: the DB has a unique partial index
-  //   scoring_jobs_one_active_per_customer ON scoring_jobs(customer_id)
-  //   WHERE status IN ('pending', 'running')
-  // so two simultaneous POSTs will only insert ONE row; the second gets
-  // PG error 23505 (unique_violation) which we catch and return 429.
-  const { error: jobErr } = await admin.from("scoring_jobs").insert({
-    customer_id: customer.id,
-    status: "pending",
-    trigger: "manual",
-  });
+  // 6. Insert a scoring_jobs row (status=pending).
+  //    Race-condition fix: unique partial index prevents concurrent double-submit.
+  const { data: jobRow, error: jobErr } = await admin
+    .from("scoring_jobs")
+    .insert({
+      customer_id: customer.id,
+      status: "pending",
+      trigger: "manual",
+    })
+    .select("id")
+    .single();
 
   if (jobErr) {
     if (jobErr.code === "23505") {
-      // Unique violation → a concurrent request already inserted a pending job.
-      // Return 429 (not 500) — this is expected under double-click or retry storms.
       console.warn(
         `[run-now] Duplicate job insert blocked (23505) for customer ${customer.id}`
       );
@@ -213,15 +213,80 @@ export async function POST(_request: NextRequest) {
     );
   }
 
+  const jobId = jobRow?.id as string | undefined;
+
+  // 7. Mark job as running
+  if (jobId) {
+    await admin
+      .from("scoring_jobs")
+      .update({ status: "running", started_at: new Date().toISOString() })
+      .eq("id", jobId);
+  }
+
   console.info(
-    `[run-now] Scoring job enqueued for customer ${customer.id} (brand: ${brand.brand_name})`
+    `[run-now] Starting inline TypeScript scorer for customer ${customer.id} (brand: ${brand.brand_name})`
   );
 
-  return NextResponse.json(
-    {
+  // 8. Run the TypeScript scorer inline — no Python subprocess, no file I/O.
+  //    scoreForCustomer loads customer data, queries LLMs in parallel, and
+  //    writes results to customer_scoring_runs.
+  try {
+    const result = await scoreForCustomer(customer.id, admin);
+
+    // 9a. Mark job done
+    if (jobId) {
+      await admin
+        .from("scoring_jobs")
+        .update({ status: "done", finished_at: new Date().toISOString() })
+        .eq("id", jobId);
+    }
+
+    // 9b. Update tracked_brands.last_scored_at for UI display
+    await admin
+      .from("tracked_brands")
+      .update({ last_scored_at: new Date().toISOString() })
+      .eq("customer_id", customer.id);
+
+    console.info(
+      `[run-now] ✅ Scoring complete for customer ${customer.id}: AVS=${result.avsBrand}/100`
+    );
+
+    return NextResponse.json({
       success: true,
-      message: `Scoring queued for ${brand.brand_name}. Results will appear on your dashboard within ~5 minutes.`,
-    },
-    { status: 202 }
-  );
+      avs_brand: result.avsBrand,
+      per_llm: result.perLlm,
+      gap_prompts: result.gapPrompts,
+      prompt_count: result.promptCount,
+      estimated_cost_usd: result.estimatedCostUsd,
+      run_date: result.runDate,
+    });
+  } catch (err) {
+    const errMsg = err instanceof Error ? err.message : String(err);
+    console.error(
+      `[run-now] ❌ Scoring failed for customer ${customer.id}: ${errMsg}`
+    );
+
+    // Mark job failed
+    if (jobId) {
+      await admin
+        .from("scoring_jobs")
+        .update({
+          status: "failed",
+          error: errMsg.slice(0, 1000),
+          finished_at: new Date().toISOString(),
+        })
+        .eq("id", jobId);
+    }
+
+    reportError(err instanceof Error ? err : new Error(errMsg), {
+      route: "run-now",
+      step: "scorer",
+      customerId: customer.id,
+    });
+
+    return NextResponse.json(
+      { error: `Scoring failed: ${errMsg.slice(0, 200)}` },
+      { status: 500 }
+    );
+  }
 }
