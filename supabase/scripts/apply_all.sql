@@ -451,6 +451,23 @@ end
 $$;
 
 -- ────────────────────────────────────────────────────────────
+-- 0012: Quota controls & cost tracking
+-- ────────────────────────────────────────────────────────────
+create unique index if not exists scoring_jobs_one_active_per_customer
+  on public.scoring_jobs (customer_id)
+  where status in ('pending', 'running');
+
+alter table public.customer_scoring_runs
+  add column if not exists prompt_count integer;
+
+alter table public.customer_scoring_runs
+  add column if not exists estimated_cost_usd numeric(8, 4);
+
+create index if not exists scoring_runs_run_date_cost
+  on public.customer_scoring_runs (run_date, estimated_cost_usd)
+  where estimated_cost_usd is not null;
+
+-- ────────────────────────────────────────────────────────────
 -- 0013: subscription_status CHECK constraint (audit M3)
 -- ────────────────────────────────────────────────────────────
 do $$

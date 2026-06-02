@@ -1,7 +1,7 @@
 -- ============================================================
 -- NeuralReach — CONSOLIDATED MIGRATION (apply ALL at once)
 -- Run this in Supabase Dashboard → SQL Editor if starting fresh.
--- Combines migrations 0001 through 0011 in order.
+-- Combines migrations 0001 through 0013 in order.
 -- Safe to re-run: all statements use IF NOT EXISTS / OR REPLACE.
 -- ============================================================
 
