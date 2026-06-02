@@ -96,36 +96,70 @@ export async function POST(_request: NextRequest) {
     Date.now() - 12 * 60 * 60 * 1000
   ).toISOString();
 
-  // 5a. Block if there's already a pending or running job in the queue
+  // 5a. Block if there's already an active (pending or running) job.
+  //
+  //     NOTE: No time filter here — the unique partial index on scoring_jobs
+  //     (customer_id) WHERE status IN ('pending','running') means there can only
+  //     be ONE active job at a time regardless of age.  If we only looked at
+  //     recent jobs and missed a stuck "running" job from 13h ago, the unique
+  //     index would block a new insert with a confusing 23505 error.
   const { data: activeJob } = await admin
     .from("scoring_jobs")
-    .select("id, status, created_at")
+    .select("id, status, created_at, started_at")
     .eq("customer_id", customer.id)
     .in("status", ["pending", "running"])
-    .gte("created_at", twelveHoursAgo)
     .order("created_at", { ascending: false })
     .limit(1)
     .maybeSingle();
 
+  // Stale-job threshold: if a "running" job was claimed longer ago than this,
+  // the Vercel function that owned it has almost certainly died (Vercel kills
+  // functions on connection drop or hard timeout).  Reset it so we can reclaim.
+  const STALE_RUNNING_MS = 15 * 60 * 1_000; // 15 minutes
+
   // If a job is actively running, block to prevent concurrent execution.
   // If a job is still "pending" (no background worker picked it up), take it
   // over and process it inline — run-now IS the processor in this deployment.
+  // If a "running" job is stale (> 15 min), the owning function died — reset
+  // it to "pending" and reclaim it so the retry button always eventually works.
   let pendingJobId: string | null = null;
   if (activeJob) {
     if (activeJob.status === "running") {
-      return NextResponse.json(
-        {
-          error: "Scoring is already in progress. Please check back shortly.",
-          job_status: "running",
-        },
-        { status: 429 }
+      const startTime = activeJob.started_at
+        ? new Date(activeJob.started_at).getTime()
+        : new Date(activeJob.created_at).getTime();
+      const msRunning = Date.now() - startTime;
+
+      if (msRunning > STALE_RUNNING_MS) {
+        // Stale running job — the Vercel function that claimed it has died.
+        // Reset to "pending" with an optimistic guard (only update if still "running").
+        console.info(
+          `[run-now] Recovering stale job ${activeJob.id} ` +
+          `(running for ${Math.round(msRunning / 60_000)} min) ` +
+          `for customer ${customer.id}`
+        );
+        await admin
+          .from("scoring_jobs")
+          .update({ status: "pending", started_at: null })
+          .eq("id", activeJob.id)
+          .eq("status", "running"); // only reset if still in "running" state
+        pendingJobId = activeJob.id;
+      } else {
+        return NextResponse.json(
+          {
+            error: "Scoring is already in progress. Please check back shortly.",
+            job_status: "running",
+          },
+          { status: 429 }
+        );
+      }
+    } else {
+      // status === "pending": pick up and process this job inline.
+      console.info(
+        `[run-now] Picking up pending job ${activeJob.id} for customer ${customer.id}`
       );
+      pendingJobId = activeJob.id;
     }
-    // status === "pending": pick up and process this job inline.
-    console.info(
-      `[run-now] Picking up pending job ${activeJob.id} for customer ${customer.id}`
-    );
-    pendingJobId = activeJob.id;
   }
 
   // 5b. Block if a completed run was created within the last 12 hours
