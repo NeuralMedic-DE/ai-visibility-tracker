@@ -61,10 +61,6 @@ additional_redirect_urls = [
 jwt_expiry = 3600
 # If disabled, the refresh token will never expire.
 enable_refresh_token_rotation = true
-# Allows session invalidation when a user signs out from all devices.
-enable_session_invalidation = false
-# How many refresh tokens can exist per user session. Defaults to the built-in value of 10.
-max_refresh_token_reuse = 10
 # Set the minimum length for passwords.
 minimum_password_length = 8
 
