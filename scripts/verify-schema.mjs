@@ -2,8 +2,9 @@
 /**
  * NeuralReach — Schema Verification Script
  *
- * Checks that all 9 required tables and 4 required columns exist in the
+ * Checks that all 10 required tables and 8 required columns exist in the
  * production Supabase database (project unrfdcxkmelafypuyruk).
+ * Covers migrations 0001 through 0013.
  *
  * Usage:
  *   node --env-file=.env.local scripts/verify-schema.mjs
@@ -35,14 +36,20 @@ const REQUIRED_TABLES = [
   { table: 'customer_scoring_runs',  migration: '0003_tracked_brands.sql' },
   { table: 'email_log',              migration: '0005_email_log.sql' },
   { table: 'scoring_jobs',           migration: '0007_scoring_jobs.sql' },
+  // ⚠️  CRITICAL: stripe_events must exist or every Stripe webhook fails with 500
+  { table: 'stripe_events',          migration: '0011_stripe_events.sql' },
 ];
 
 // ── Expected column additions (ALTER TABLE) ──────────────────────────────────
 const REQUIRED_COLUMNS = [
-  { table: 'customers',      column: 'welcome_email_id', migration: '0004_email_tracking.sql' },
-  { table: 'waitlist',       column: 'interested_plan',  migration: '0006_waitlist_plan.sql' },
-  { table: 'tracked_brands', column: 'last_scored_at',   migration: '0007_scoring_jobs.sql' },
-  { table: 'scoring_jobs',   column: 'trigger',          migration: '0008_scoring_jobs_trigger.sql' },
+  { table: 'customers',              column: 'welcome_email_id',    migration: '0004_email_tracking.sql' },
+  { table: 'waitlist',               column: 'interested_plan',     migration: '0006_waitlist_plan.sql' },
+  { table: 'tracked_brands',         column: 'last_scored_at',      migration: '0007_scoring_jobs.sql' },
+  { table: 'scoring_jobs',           column: 'trigger',             migration: '0008_scoring_jobs_trigger.sql' },
+  // ⚠️  Missing in prod — requires migrations 0009-0013 (pending_delta_0009_0013.sql)
+  { table: 'customers',              column: 'user_id',             migration: '0009_user_id_binding.sql' },
+  { table: 'customer_scoring_runs',  column: 'prompt_count',        migration: '0012_quota_controls.sql' },
+  { table: 'customer_scoring_runs',  column: 'estimated_cost_usd',  migration: '0012_quota_controls.sql' },
 ];
 
 async function probe(path, select = 'id') {
@@ -89,7 +96,11 @@ async function main() {
     console.log(`✅  All ${REQUIRED_TABLES.length} tables + ${REQUIRED_COLUMNS.length} column checks PASSED\n`);
     process.exit(0);
   } else {
-    console.log(`❌  ${failures} check(s) FAILED — run: pnpm db:migrate\n`);
+    console.log(`❌  ${failures} check(s) FAILED`);
+    console.log(`\n   To fix, apply the pending migrations:`);
+    console.log(`   FASTEST: https://supabase.com/dashboard/project/unrfdcxkmelafypuyruk/sql/new`);
+    console.log(`   Paste:   supabase/migrations/pending_delta_0009_0013.sql`);
+    console.log(`   OR run:  export SUPABASE_DB_PASSWORD=xxxx && bash scripts/apply-migrations.sh psql\n`);
     process.exit(1);
   }
 }
