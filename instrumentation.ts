@@ -30,8 +30,8 @@ export async function register() {
       environment: process.env.NODE_ENV ?? "production",
       // Low trace sample rate — keeps us within Sentry free tier (10 k/mo).
       tracesSampleRate: 0.05,
-      // Surface unhandled rejections and uncaught exceptions.
-      autoSessionTracking: true,
+      // Note: autoSessionTracking was removed in @sentry/nextjs v9.
+      // Session tracking is enabled by default in v9+.
     });
     console.info("[sentry] Initialized for Node.js runtime");
   } catch {
