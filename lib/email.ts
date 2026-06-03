@@ -63,14 +63,32 @@ export interface SendResult {
 /**
  * Send a transactional email via Resend.
  *
- * If EMAIL_DRY_RUN=1, the email is printed to console and never sent —
- * the function still resolves successfully so callers don't need special
- * branching in tests / local dev.
+ * If EMAIL_DRY_RUN=1 in a non-production environment, the email is printed to
+ * console and never sent — useful during local dev to avoid burning Resend quota.
+ *
+ * If EMAIL_DRY_RUN=1 leaks into production (NODE_ENV=production), the function
+ * returns an explicit { error } so callers log the failure and do NOT persist a
+ * fake message-id (which would prevent the welcome-email idempotency check from
+ * re-sending when the flag is eventually removed).
  */
 export async function sendEmail(payload: EmailPayload): Promise<SendResult> {
   const dryRun = process.env.EMAIL_DRY_RUN === "1";
 
   if (dryRun) {
+    // ── Production guard ────────────────────────────────────────────────────
+    // Returning { error } instead of a fake ID ensures:
+    //  • welcome_email_id is NOT written to the customers row → can be retried
+    //  • email_log records an explicit failure → visible in Supabase
+    //  • callers log a real error, not a misleading "sent" confirmation
+    if (process.env.NODE_ENV === "production") {
+      const msg =
+        `EMAIL_DRY_RUN=1 in production: email NOT delivered to ${payload.to}. ` +
+        "Remove EMAIL_DRY_RUN from Vercel (Settings → Environment Variables → Production tab) and redeploy.";
+      console.error("[email] MISCONFIGURATION:", msg);
+      return { error: msg };
+    }
+
+    // ── Local / test dry-run ────────────────────────────────────────────────
     const divider = "─".repeat(60);
     console.log(`\n[email:dry-run] ${divider}`);
     console.log(`[email:dry-run] To:      ${payload.to}`);
