@@ -61,7 +61,7 @@ export async function getCustomerByUser(
   if (uidErr) {
     console.error("[customer] user_id lookup error:", uidErr.message);
   }
-  if (byUserId) return byUserId as CustomerRow;
+  if (byUserId) return byUserId as unknown as CustomerRow;
 
   // ── 2. Fallback: look up by lowercased email (legacy rows) ─────────────────
   const { data: byEmail, error: emailErr } = await admin
@@ -76,11 +76,11 @@ export async function getCustomerByUser(
   if (!byEmail) return null;
 
   // ── 3. Lazy-link: bind user_id to the legacy row (runs once per customer) ──
-  if (!(byEmail as CustomerRow).user_id) {
+  if (!(byEmail as unknown as CustomerRow).user_id) {
     const { error: bindErr } = await admin
       .from("customers")
       .update({ user_id: userId })
-      .eq("id", (byEmail as CustomerRow).id);
+      .eq("id", (byEmail as unknown as CustomerRow).id);
 
     if (bindErr) {
       // Non-fatal: row is still returned, user_id link will retry next request
@@ -90,10 +90,10 @@ export async function getCustomerByUser(
       );
     } else {
       console.info(
-        `[customer] Lazy-linked user_id ${userId} to customer ${(byEmail as CustomerRow).id}`
+        `[customer] Lazy-linked user_id ${userId} to customer ${(byEmail as unknown as CustomerRow).id}`
       );
     }
   }
 
-  return byEmail as CustomerRow;
+  return byEmail as unknown as CustomerRow;
 }
