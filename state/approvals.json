@@ -36,6 +36,18 @@
     "decision_note": ""
   },
   {
+    "id": "A-8b2d4e6f",
+    "category": "irreversible",
+    "title": "🚨 4TH ATTEMPT: Fix Resend DNS on united-domains.de — zero emails since launch",
+    "description": "IMPACT: Every single email (OTP login codes, welcome emails, weekly digests) has been silently failing since the product launched. Users cannot log in via OTP. This is blocking M1 / first paying customer.\n\nVERIFIED BROKEN RIGHT NOW (2026-06-10):\n  dig +short resend._domainkey.mail.neuralreach.de CNAME  →  (EMPTY — DKIM never added in 3 prior attempts)\n  dig +short mail.neuralreach.de TXT                      →  \"inbound-smtp.eu-west-1.amazonaws.com\" (WRONG — not SPF)\n  dig +short _dmarc.mail.neuralreach.de TXT               →  (EMPTY)\n\nFULL RUNBOOK (read every line): state/artifacts/runbooks/resend_dns_fix_FOURTH_ATTEMPT_2026-06-10.md\n\nQUICK SUMMARY — 6 DNS changes at united-domains.de:\n\n  STEP 1 (Resend dashboard first):\n    https://resend.com/domains → click mail.neuralreach.de → SCREENSHOT or keep open\n    You need the exact CNAME values — they're unique to your account\n\n  STEP 2 (united-domains.de DNS editor for neuralreach.de):\n    DELETE:  TXT  mail.neuralreach.de  =  \"inbound-smtp.eu-west-1.amazonaws.com\"\n    ADD:     TXT  mail               =  \"v=spf1 include:amazonses.com ~all\"\n    ADD:     CNAME  resend._domainkey.mail  =  [copy from Resend dashboard]\n    ADD:     CNAME  [2nd DKIM key name]     =  [copy from Resend dashboard]\n    ADD:     CNAME  [3rd DKIM key name]     =  [copy from Resend dashboard]\n    ADD:     TXT  _dmarc.mail              =  \"v=DMARC1; p=none; rua=mailto:dmarc@neuralreach.de\"\n\n  STEP 3 (Resend dashboard):\n    Click 'Verify DNS Records' → all rows should go green ✅\n\n  STEP 4 (Vercel):\n    Confirm EMAIL_DRY_RUN is NOT set (or is false/0) in Production environment variables\n\n  STEP 5 (test):\n    Try OTP login → you should receive the email within 30 seconds\n\nWHY PREVIOUS ATTEMPTS FAILED: The DKIM CNAME was never added in attempts 1, 2, or 3.\nThis is the single most important record. Without it Resend refuses to send.",
+    "proposed_by": "ops",
+    "est_cost_usd": 0.0,
+    "status": "pending",
+    "created_at": "2026-06-10T00:00:00Z",
+    "decided_at": "",
+    "decision_note": ""
+  },
+  {
     "id": "A-4f2a8c1e",
     "category": "public_post",
     "title": "Post 4 AI Visibility Index launch posts (Reddit + Indie Hackers)",
