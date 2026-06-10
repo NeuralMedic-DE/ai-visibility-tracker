@@ -84,6 +84,7 @@ export async function GET() {
     ...(failed.length > 0 && {
       missing_tables: failed.map((r) => r.table),
     }),
+    email_health: '/api/health/email',
     checked_at: new Date().toISOString(),
   };
 
