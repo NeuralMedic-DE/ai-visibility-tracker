@@ -6,10 +6,11 @@ type PlanKey = keyof typeof PLANS;
 
 export async function POST(req: NextRequest) {
   // ── 0. Server-side subscriptions gate ─────────────────────────────────────
-  // Mirror the same flag check used by the pricing page UI.
+  // Mirror the EXACT same flag check used by pricing/page.tsx and app/page.tsx.
   // Prevents direct-POST bypass when the storefront shows "Notify me" buttons.
+  // IMPORTANT: keep this date in sync with isSubscriptionsLive() in those pages.
   const flagOn = process.env.SUBSCRIPTIONS_LIVE === "true";
-  const dateReached = new Date().toISOString().slice(0, 10) >= "2026-06-04";
+  const dateReached = new Date().toISOString().slice(0, 10) >= "2026-06-17";
   if (!flagOn || !dateReached) {
     return NextResponse.json(
       { error: "Subscriptions are not yet open." },
