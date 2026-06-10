@@ -6,10 +6,9 @@
  * weekly scoring job completed today and who hasn't already received the
  * digest today.
  *
- * Pre-condition: /api/cron/weekly (enqueue) ran at 09:00 and the always-on
- * worker service finished processing those jobs before 10:00. If a job is
- * still running at 10:00 the customer is skipped this week (rare for <10
- * customers; scale up the worker or widen the gap if needed).
+ * Pre-condition: /api/cron/weekly ran at 09:00 and ran inline scoring for all
+ * eligible customers, writing results directly to customer_scoring_runs. This
+ * route reads those rows to send digest emails. No external worker is involved.
  *
  * Authentication:
  *   • GET  (Vercel Cron): header `Authorization: Bearer <CRON_SECRET>`
