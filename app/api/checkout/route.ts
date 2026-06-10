@@ -5,6 +5,18 @@ import { createClient } from "@/lib/supabase/server";
 type PlanKey = keyof typeof PLANS;
 
 export async function POST(req: NextRequest) {
+  // ── 0. Server-side subscriptions gate ─────────────────────────────────────
+  // Mirror the same flag check used by the pricing page UI.
+  // Prevents direct-POST bypass when the storefront shows "Notify me" buttons.
+  const flagOn = process.env.SUBSCRIPTIONS_LIVE === "true";
+  const dateReached = new Date().toISOString().slice(0, 10) >= "2026-06-04";
+  if (!flagOn || !dateReached) {
+    return NextResponse.json(
+      { error: "Subscriptions are not yet open." },
+      { status: 403 }
+    );
+  }
+
   // ── 1. Require an authenticated session ────────────────────────────────────
   // Users must register/log in before subscribing so we can bind their
   // Supabase user_id (immutable UUID) to the Stripe customer record.
