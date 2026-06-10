@@ -26,18 +26,20 @@ if (!SUPABASE_URL || !SERVICE_KEY) {
 }
 
 // ── Expected tables ──────────────────────────────────────────────────────────
+// selectCol: the column used to probe existence (must be a real column in that table).
+// NOTE: stripe_events uses 'event_id' not 'id' as its primary key — do NOT use 'id' there.
 const REQUIRED_TABLES = [
-  { table: 'waitlist',               migration: '0001_init.sql' },
-  { table: 'brands',                 migration: '0001_init.sql' },
-  { table: 'runs',                   migration: '0001_init.sql' },
-  { table: 'scores',                 migration: '0001_init.sql' },
-  { table: 'customers',              migration: '0002_customers.sql' },
-  { table: 'tracked_brands',         migration: '0003_tracked_brands.sql' },
-  { table: 'customer_scoring_runs',  migration: '0003_tracked_brands.sql' },
-  { table: 'email_log',              migration: '0005_email_log.sql' },
-  { table: 'scoring_jobs',           migration: '0007_scoring_jobs.sql' },
-  // ⚠️  CRITICAL: stripe_events must exist or every Stripe webhook fails with 500
-  { table: 'stripe_events',          migration: '0011_stripe_events.sql' },
+  { table: 'waitlist',               migration: '0001_init.sql',         selectCol: 'id' },
+  { table: 'brands',                 migration: '0001_init.sql',         selectCol: 'id' },
+  { table: 'runs',                   migration: '0001_init.sql',         selectCol: 'id' },
+  { table: 'scores',                 migration: '0001_init.sql',         selectCol: 'id' },
+  { table: 'customers',              migration: '0002_customers.sql',    selectCol: 'id' },
+  { table: 'tracked_brands',         migration: '0003_tracked_brands.sql', selectCol: 'id' },
+  { table: 'customer_scoring_runs',  migration: '0003_tracked_brands.sql', selectCol: 'id' },
+  { table: 'email_log',              migration: '0005_email_log.sql',    selectCol: 'id' },
+  { table: 'scoring_jobs',           migration: '0007_scoring_jobs.sql', selectCol: 'id' },
+  // stripe_events PRIMARY KEY is event_id (text), NOT id (uuid). Using 'event_id' here.
+  { table: 'stripe_events',          migration: '0011_stripe_events.sql', selectCol: 'event_id' },
 ];
 
 // ── Expected column additions (ALTER TABLE) ──────────────────────────────────
@@ -46,14 +48,14 @@ const REQUIRED_COLUMNS = [
   { table: 'waitlist',               column: 'interested_plan',     migration: '0006_waitlist_plan.sql' },
   { table: 'tracked_brands',         column: 'last_scored_at',      migration: '0007_scoring_jobs.sql' },
   { table: 'scoring_jobs',           column: 'trigger',             migration: '0008_scoring_jobs_trigger.sql' },
-  // ⚠️  Missing in prod — requires migrations 0009-0013 (pending_delta_0009_0013.sql)
+  // Added by migrations 0009 and 0012 — confirmed APPLIED in prod as of 2026-06-10
   { table: 'customers',              column: 'user_id',             migration: '0009_user_id_binding.sql' },
   { table: 'customer_scoring_runs',  column: 'prompt_count',        migration: '0012_quota_controls.sql' },
   { table: 'customer_scoring_runs',  column: 'estimated_cost_usd',  migration: '0012_quota_controls.sql' },
 ];
 
-async function probe(path, select = 'id') {
-  const url = `${SUPABASE_URL}/rest/v1/${path}?limit=1&select=${select}`;
+async function probe(table, select) {
+  const url = `${SUPABASE_URL}/rest/v1/${table}?limit=1&select=${select}`;
   const res = await fetch(url, {
     headers: {
       apikey: SERVICE_KEY,
@@ -69,8 +71,8 @@ async function main() {
 
   let failures = 0;
 
-  for (const { table, migration } of REQUIRED_TABLES) {
-    const code = await probe(table);
+  for (const { table, migration, selectCol } of REQUIRED_TABLES) {
+    const code = await probe(table, selectCol);
     if (code === 200) {
       console.log(`  ✅  ${table.padEnd(30)} (${migration})`);
     } else {

@@ -1,6 +1,8 @@
 # Supabase Setup — NeuralReach
-**Status:** ⚠️ Schema not yet applied  
-**Action needed:** Run the SQL below in the Supabase Dashboard SQL editor
+**Status:** ✅ Schema fully applied (migrations 0001–0013, verified 2026-06-10)  
+**Action needed:** None — all tables and columns confirmed present in production.
+
+Run `node --env-file=.env.local scripts/verify-schema.mjs` at any time to re-verify.
 
 ---
 
