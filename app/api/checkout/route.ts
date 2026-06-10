@@ -46,7 +46,36 @@ export async function POST(req: NextRequest) {
   }
 
   const selectedPlan = PLANS[plan];
-  const appUrl = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
+
+  // Build the base URL for success/cancel redirects.
+  // Priority order:
+  //   1. req origin header  — always correct for whatever host hit this route
+  //   2. NEXT_PUBLIC_SITE_URL env var — canonical production URL
+  //   3. NEXT_PUBLIC_APP_URL env var  — legacy name used elsewhere in the codebase
+  //   4. Hardcoded production domain  — last resort; NEVER falls back to localhost
+  const origin = req.headers.get("origin");
+  const appUrl =
+    (origin && !origin.includes("localhost") ? origin : null) ??
+    process.env.NEXT_PUBLIC_SITE_URL ??
+    (process.env.NEXT_PUBLIC_APP_URL?.includes("localhost")
+      ? null
+      : process.env.NEXT_PUBLIC_APP_URL) ??
+    "https://neuralreach.de";
+
+  // Safety guard: blow up loudly in production rather than silently redirect to localhost.
+  if (process.env.NODE_ENV === "production" && appUrl.includes("localhost")) {
+    console.error(
+      "[checkout] CRITICAL: success_url would contain localhost in production. " +
+        "Set NEXT_PUBLIC_SITE_URL=https://neuralreach.de in Vercel env vars."
+    );
+    return NextResponse.json(
+      {
+        error:
+          "Server misconfiguration: checkout URL resolves to localhost. Contact support.",
+      },
+      { status: 500 }
+    );
+  }
 
   // ── 3. Create Stripe Checkout session ─────────────────────────────────────
   // client_reference_id = auth user UUID → webhook writes this to customers.user_id

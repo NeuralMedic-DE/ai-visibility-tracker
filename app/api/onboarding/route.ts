@@ -3,10 +3,17 @@ import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { getCustomerByUser } from "@/lib/customer";
 import { reportError, reportMessage } from "@/lib/error-reporter";
+import { scoreForCustomer } from "@/lib/scorer";
 
 // ── POST /api/onboarding ──────────────────────────────────────────────────────
-// Auth-protected. Saves brand info for a newly-onboarding customer, queues a
-// scoring job, and fires off the scorer subprocess immediately (best-effort).
+// Auth-protected. Saves brand info for a newly-onboarding customer, runs the
+// TypeScript scorer inline (same as /api/run-now), and redirects to /dashboard.
+//
+// Scoring runs synchronously in this Vercel function — no worker service needed.
+// maxDuration = 300 gives up to 5 minutes, which is enough for 25–100 prompts
+// across 4 LLMs (~30–90s in practice). The client shows a "Setting up…" spinner
+// while the function runs, then receives the redirect to /dashboard with results
+// already available.
 //
 // Request body:
 //   brand_name        string   required
@@ -15,6 +22,10 @@ import { reportError, reportMessage } from "@/lib/error-reporter";
 //
 // Success response: { success: true, redirect: '/dashboard' }
 // Error responses:  401 | 400 | 403 | 500 with { error: string }
+
+// Allow up to 5 minutes — scoring 25–100 prompts × 4 LLMs takes 30–90s.
+export const maxDuration = 300;
+export const dynamic = "force-dynamic";
 
 export async function POST(request: NextRequest) {
   // ── 1. Verify auth session ─────────────────────────────────────────────────
