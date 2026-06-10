@@ -360,8 +360,15 @@ export async function POST(req: NextRequest) {
             `[webhook] Welcome email already sent to ${email} (id=${custRow.welcome_email_id}) — skipping`
           );
         } else {
+          // Build appUrl the same localhost-safe way as /api/checkout/route.ts:
+          // prefer NEXT_PUBLIC_SITE_URL (always the canonical prod domain), fall back to
+          // NEXT_PUBLIC_APP_URL only if it doesn't contain "localhost", then hard-code prod.
           const appUrl =
-            process.env.NEXT_PUBLIC_APP_URL ?? "https://neuralreach.de";
+            process.env.NEXT_PUBLIC_SITE_URL ??
+            (process.env.NEXT_PUBLIC_APP_URL?.includes("localhost")
+              ? null
+              : process.env.NEXT_PUBLIC_APP_URL) ??
+            "https://neuralreach.de";
           const tmpl = welcomeEmail({ appUrl });
           const { id: welcomeEmailId, error: emailErr } = await sendEmail({
             to: email,
@@ -539,8 +546,13 @@ export async function POST(req: NextRequest) {
           break;
         }
 
+        // Build appUrl the same localhost-safe way as /api/checkout/route.ts.
         const appUrl =
-          process.env.NEXT_PUBLIC_APP_URL ?? "https://neuralreach.de";
+          process.env.NEXT_PUBLIC_SITE_URL ??
+          (process.env.NEXT_PUBLIC_APP_URL?.includes("localhost")
+            ? null
+            : process.env.NEXT_PUBLIC_APP_URL) ??
+          "https://neuralreach.de";
 
         // Format the trial end date in a human-readable way
         const trialEndDate = sub.trial_end

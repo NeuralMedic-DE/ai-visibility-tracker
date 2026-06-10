@@ -83,7 +83,15 @@ async function sendWeeklyDigests(req: NextRequest): Promise<NextResponse> {
   if (authError) return authError;
 
   const admin = createAdminClient();
-  const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? "https://neuralreach.de";
+  // Build appUrl the same localhost-safe way as /api/checkout/route.ts:
+  // prefer NEXT_PUBLIC_SITE_URL, fall back to NEXT_PUBLIC_APP_URL (only if not localhost),
+  // then hard-code the production domain so email links never contain localhost.
+  const appUrl =
+    process.env.NEXT_PUBLIC_SITE_URL ??
+    (process.env.NEXT_PUBLIC_APP_URL?.includes("localhost")
+      ? null
+      : process.env.NEXT_PUBLIC_APP_URL) ??
+    "https://neuralreach.de";
 
   // "Today" in UTC — used to find jobs completed today and guard against
   // sending duplicate digests.
