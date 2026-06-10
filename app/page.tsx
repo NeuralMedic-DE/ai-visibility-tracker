@@ -43,7 +43,7 @@ const websiteSchema = {
 // ── Server-side feature flag (mirrors /pricing/page.tsx) ─────────────────────
 function isSubscriptionsLive(): boolean {
   const flagOn = process.env.SUBSCRIPTIONS_LIVE === "true";
-  const dateReached = new Date().toISOString().slice(0, 10) >= "2026-06-04";
+  const dateReached = new Date().toISOString().slice(0, 10) >= "2026-06-17";
   return flagOn && dateReached;
 }
 

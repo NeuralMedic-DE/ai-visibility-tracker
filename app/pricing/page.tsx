@@ -19,11 +19,11 @@ export const metadata: Metadata = {
 // ── Server-side feature flag ──────────────────────────────────────────────────
 // Subscriptions are open when BOTH:
 //   1. SUBSCRIPTIONS_LIVE=true is set in the environment
-//   2. Today's date is on or after 2026-06-04
+//   2. Today's date is on or after 2026-06-17
 // This check runs at render time on the server — no client JS involved.
 function isSubscriptionsLive(): boolean {
   const flagOn = process.env.SUBSCRIPTIONS_LIVE === "true";
-  const dateReached = new Date().toISOString().slice(0, 10) >= "2026-06-04";
+  const dateReached = new Date().toISOString().slice(0, 10) >= "2026-06-17";
   return flagOn && dateReached;
 }
 
@@ -165,7 +165,7 @@ export default function PricingPage() {
           <p className="mt-4 text-lg text-gray-600">
             {subscriptionsLive
               ? "Start with a 14-day free trial. No credit card billed until day 15. Cancel anytime."
-              : "Subscriptions open 2026-06-04. Enter your email below to be notified the moment sign-ups go live."}
+              : "Subscriptions open Wednesday, June 17, 2026. Enter your email below to be notified the moment sign-ups go live."}
           </p>
         </div>
       </section>
@@ -325,8 +325,7 @@ export default function PricingPage() {
                 Get notified when we open subscriptions
               </h2>
               <p className="text-brand-200 mb-8">
-                Subscriptions open Wednesday, 2026-06-04. Join the list and be
-                first in when sign-ups go live.
+                Subscriptions open Wednesday, June 17, 2026. Join the waitlist below to be notified the moment sign-ups go live.
               </p>
               <WaitlistForm
                 variant="compact"

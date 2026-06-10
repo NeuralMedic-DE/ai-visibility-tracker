@@ -36,8 +36,8 @@ export function PricingBanner() {
       <div className="mx-auto max-w-7xl px-4 py-3 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between gap-4 flex-wrap">
           <p className="text-sm text-amber-800">
-            <span className="font-bold">Subscriptions open Wednesday, 2026-06-04.</span>{" "}
-            Join early access below to be notified when sign-ups go live.
+            <span className="font-bold">Subscriptions open Wednesday, June 17, 2026.</span>{" "}
+            Join the waitlist below to be notified the moment sign-ups go live.
           </p>
           <button
             onClick={dismiss}
