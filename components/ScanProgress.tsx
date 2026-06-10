@@ -170,9 +170,9 @@ function FailureState({
 
   const description =
     jobStatus === "no_job"
-      ? "There was a problem queuing your first scan during onboarding. This is usually temporary — try triggering it again below."
+      ? "We tried to start your scan automatically but encountered an error. This is usually temporary — try triggering it again below."
       : jobStatus === "failed"
-      ? "The scoring worker encountered an error processing your brand. It usually succeeds on retry."
+      ? "The scoring engine encountered an error processing your brand. It usually succeeds on retry."
       : jobStatus === "done"
       ? "The scan finished but the results haven't appeared yet. This is usually a brief delay — try refreshing or trigger a new scan below."
       : "Your scan has been running for over 15 minutes without completing. This typically means there was an API error. Trigger a fresh scan to try again.";
@@ -318,8 +318,11 @@ export default function ScanProgress({
 
   // Calculate initial state at mount time.
   // "done" with no latestRun means the DB write raced the page render — treat as retry.
-  const initiallyFailed =
-    jobStatus === "failed" || jobStatus === "no_job" || jobStatus === "done";
+  // "no_job" means the brand was saved but no scoring_jobs row exists yet (e.g. the user
+  // navigated away from /dashboard/run-now before it could auto-trigger).  We treat this
+  // the same as "pending": show the spinner immediately and fire POST /api/run-now on mount
+  // so the scan starts without the user having to click anything.
+  const initiallyFailed = jobStatus === "failed" || jobStatus === "done";
   const initiallyTimedOut =
     !initiallyFailed && msElapsed(jobCreatedAt) >= timeoutMs;
 
@@ -341,23 +344,25 @@ export default function ScanProgress({
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // ── Auto-trigger ──────────────────────────────────────────────────────────
-  // When the component mounts with a "pending" job (queued by onboarding but
-  // not picked up by any background worker), immediately fire POST /api/run-now
-  // so the scan starts without requiring the user to wait for the failure timeout.
+  // Fires POST /api/run-now on mount when:
+  //   "pending"  — a scoring_jobs row exists but hasn't been picked up yet
+  //   "no_job"   — brand was saved but NO scoring_jobs row exists at all
+  //               (happens when the user navigates to /dashboard directly after
+  //                /dashboard/onboarding, bypassing /dashboard/run-now)
   //
-  // run-now will pick up the existing pending job rather than creating a new one
-  // (see the "pendingJobId" logic in app/api/run-now/route.ts).
+  // For "pending", run-now picks up the existing row rather than creating a new one.
+  // For "no_job",  run-now creates a fresh job and runs the scorer inline.
   const hasAutoTriggered = useRef(false);
 
   useEffect(() => {
-    // Guard: only fire once, only for un-processed pending jobs
+    // Guard: only fire once, only when there is no active scan yet
     if (hasAutoTriggered.current) return;
-    if (jobStatus !== "pending") return;
+    if (jobStatus !== "pending" && jobStatus !== "no_job") return;
     if (showFailure) return; // already in failure/timeout state
 
     hasAutoTriggered.current = true;
-    // Reset timeout clock immediately so the scan has the full 15-min window,
-    // even if the pending job was created many minutes ago.
+    // Reset timeout clock to NOW so the scan has the full 15-min window.
+    // For "no_job" jobCreatedAt is null, so the clock starts here regardless.
     setEffectiveCreatedAt(new Date().toISOString());
 
     let cancelled = false;
