@@ -226,7 +226,9 @@ export default function OnboardingPage() {
                 disabled={isSubmitting || !brandName.trim() || !domain.trim()}
                 className="w-full rounded-lg bg-brand-600 px-4 py-3 text-sm font-semibold text-white hover:bg-brand-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
               >
-                {isSubmitting ? "Saving…" : "Start tracking →"}
+                {isSubmitting
+                ? "Running AI scans… (may take ~1 min)"
+                : "Start tracking →"}
               </button>
             </form>
           </div>

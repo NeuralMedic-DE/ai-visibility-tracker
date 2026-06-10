@@ -170,7 +170,7 @@ export async function POST(request: NextRequest) {
   const { error: jobErr } = await admin.from("scoring_jobs").insert({
     customer_id: customer.id,
     status: "pending",
-    trigger: "manual",
+    trigger: "onboarding",
   });
 
   if (jobErr) {

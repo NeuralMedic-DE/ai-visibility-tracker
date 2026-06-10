@@ -43,7 +43,7 @@
       "maxDuration": 10
     },
     "app/api/onboarding/route.ts": {
-      "maxDuration": 10
+      "maxDuration": 300
     },
     "app/api/run-now/route.ts": {
       "maxDuration": 300
