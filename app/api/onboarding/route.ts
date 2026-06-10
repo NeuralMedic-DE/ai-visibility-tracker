@@ -197,14 +197,81 @@ export async function POST(request: NextRequest) {
     }
   }
 
-  // ── 8. Scoring is handled by the always-on worker service ────────────────
-  // The scoring_jobs row inserted above (status=pending) will be picked up
-  // by the worker (Railway/Fly/Render) which runs the TypeScript scorer
-  // (lib/scorer.ts) out-of-band. Results appear on /dashboard once the
-  // worker completes.
+  // ── 8. Run the TypeScript scorer inline (no worker service required) ───────
+  // We claim the pending job, run scoreForCustomer() synchronously, and update
+  // the job status — the same pattern used by /api/run-now and /api/cron/weekly.
+  // maxDuration = 300 (set above) gives enough headroom even for Pro plans.
+  //
+  // Retrieve the job id we just inserted so we can update its status.
+  const { data: jobRow } = await admin
+    .from("scoring_jobs")
+    .select("id")
+    .eq("customer_id", customer.id)
+    .in("status", ["pending"])
+    .order("created_at", { ascending: false })
+    .limit(1)
+    .maybeSingle();
+
+  const jobId: string | null = jobRow?.id ?? null;
+
+  // Mark the job as running before we start
+  if (jobId) {
+    await admin
+      .from("scoring_jobs")
+      .update({ status: "running", started_at: new Date().toISOString() })
+      .eq("id", jobId);
+  }
+
   console.info(
-    `[onboarding] scoring_jobs row enqueued for customer ${customer.id}`
+    `[onboarding] Starting inline TypeScript scorer for customer ${customer.id}`
   );
+
+  try {
+    await scoreForCustomer(customer.id, admin);
+
+    // Mark job done
+    if (jobId) {
+      await admin
+        .from("scoring_jobs")
+        .update({ status: "done", finished_at: new Date().toISOString() })
+        .eq("id", jobId);
+    }
+
+    // Update tracked_brands.last_scored_at so dashboard shows a fresh timestamp
+    await admin
+      .from("tracked_brands")
+      .update({ last_scored_at: new Date().toISOString() })
+      .eq("customer_id", customer.id);
+
+    console.info(
+      `[onboarding] ✅ Initial scoring complete for customer ${customer.id}`
+    );
+  } catch (err) {
+    const errMsg = err instanceof Error ? err.message : String(err);
+    console.error(
+      `[onboarding] ❌ Initial scoring failed for customer ${customer.id}: ${errMsg}`
+    );
+
+    if (jobId) {
+      await admin
+        .from("scoring_jobs")
+        .update({
+          status: "failed",
+          error: errMsg.slice(0, 1000),
+          finished_at: new Date().toISOString(),
+        })
+        .eq("id", jobId);
+    }
+
+    // Non-fatal: report the error but still redirect to /dashboard so the
+    // user is not stuck. They can click "Run Now" to retry.
+    reportError(err instanceof Error ? err : new Error(errMsg), {
+      route: "onboarding",
+      step: "inline_scorer",
+      customerId: customer.id,
+      note: "Initial scan failed — user redirected to /dashboard, can retry via Run Now",
+    });
+  }
 
   // ── 9. Respond with redirect target ───────────────────────────────────────
   return NextResponse.json(
