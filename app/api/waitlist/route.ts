@@ -54,14 +54,6 @@ export async function POST(req: NextRequest) {
 
     const normalizedEmail = email.toLowerCase().trim();
     const normalizedBrand = brand_interest?.trim() || null;
-    // Brand is required on every form — see WaitlistForm.tsx. The server-side
-    // check defends against direct POSTs that bypass the client validation.
-    if (!normalizedBrand || normalizedBrand.length < 2) {
-      return NextResponse.json(
-        { error: "Brand or company name is required (min 2 characters)." },
-        { status: 400 }
-      );
-    }
     // Only store known plan values; discard anything unexpected
     const normalizedPlan =
       interested_plan === "starter" || interested_plan === "pro"

@@ -177,6 +177,8 @@ export function WaitlistForm({
             <input
               id="waitlist-brand-compact"
               type="text"
+              required
+              minLength={2}
               value={brandInterest}
               onChange={(e) => setBrandInterest(e.target.value)}
               placeholder="e.g. Acme SaaS"
