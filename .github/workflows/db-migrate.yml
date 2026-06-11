@@ -54,7 +54,7 @@ jobs:
         # Uses the anon key (public read is enough for a HEAD check).
         run: |
           SUPA_URL="https://unrfdcxkmelafypuyruk.supabase.co"
-          SUPA_KEY="${{ secrets.SUPABASE_ANON_KEY }}"
+          SUPA_KEY="${SUPABASE_ANON_KEY}"
           FAILED=0
           for TABLE in customers tracked_brands customer_scoring_runs waitlist brands scores runs scoring_jobs email_log; do
             CODE=$(curl -s -o /dev/null -w "%{http_code}" \
@@ -73,5 +73,4 @@ jobs:
             exit 1
           fi
         env:
-          # Add SUPABASE_ANON_KEY secret: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
-          # (anon key from .env.local — safe for CI, no write access)
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
