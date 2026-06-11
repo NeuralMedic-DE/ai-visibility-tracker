@@ -10,17 +10,77 @@ const BASE_URL = "https://www.neuralreach.de";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
-  title: "NeuralReach: AI Search Visibility for B2B SaaS",
+  title: {
+    default: "NeuralReach: AI Search Visibility for B2B SaaS",
+    template: "%s | NeuralReach",
+  },
   description:
     "Track how your brand appears in ChatGPT, Claude, Perplexity, and Google AI Overviews. Weekly GEO/AEO reports + actionable schema fixes for B2B SaaS founders.",
+  applicationName: "NeuralReach",
+  authors: [{ name: "Jonas Heinzmann", url: "https://neuralreach.de" }],
+  creator: "NeuralMedic",
+  publisher: "NeuralMedic",
+  keywords: [
+    "AI search visibility",
+    "AI visibility tracker",
+    "GEO",
+    "generative engine optimization",
+    "AEO",
+    "answer engine optimization",
+    "ChatGPT visibility",
+    "Claude visibility",
+    "Perplexity visibility",
+    "Google AI Overviews",
+    "Google AIO",
+    "B2B SaaS marketing",
+    "brand monitoring",
+    "LLM brand tracking",
+    "AI search ranking",
+  ],
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "NeuralReach: AI Search Visibility for B2B SaaS",
     description:
-      "Know exactly how AI search engines describe your brand and your competitors.",
+      "Know exactly how ChatGPT, Claude, Perplexity, and Google AI Overviews describe your brand and your competitors.",
     url: BASE_URL,
     siteName: "NeuralReach",
+    locale: "en_US",
     type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "NeuralReach: AI Search Visibility for B2B SaaS",
+    description:
+      "Know exactly how ChatGPT, Claude, Perplexity, and Google AI Overviews describe your brand.",
+    creator: "@neuralreach",
+    site: "@neuralreach",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large",
+      "max-video-preview": -1,
+    },
+  },
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+};
+
+// Drives <meta name="theme-color"> + <meta name="viewport"> (Next.js 14+ split
+// these out of the metadata object).
+export const viewport = {
+  themeColor: "#0284c7",
+  width: "device-width",
+  initialScale: 1,
 };
 
 // Site-wide Organization schema — renders on every page

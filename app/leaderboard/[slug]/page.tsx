@@ -560,7 +560,7 @@ export default function BrandDetailPage({
             <Link href="/" className="hover:text-gray-600 transition-colors">Home</Link>
             <Link href="/leaderboard" className="hover:text-gray-600 transition-colors">Leaderboard</Link>
             <Link href="/#pricing" className="hover:text-gray-600 transition-colors">Pricing</Link>
-            <a href="mailto:hello@neuralreach.io" className="hover:text-gray-600 transition-colors">Contact</a>
+            <a href="mailto:hello@neuralreach.de" className="hover:text-gray-600 transition-colors">Contact</a>
           </div>
         </div>
       </footer>

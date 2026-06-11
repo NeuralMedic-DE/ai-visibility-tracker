@@ -23,22 +23,164 @@ export const metadata: Metadata = {
   },
 };
 
+const BASE_URL = "https://www.neuralreach.de";
+
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: "NeuralReach",
-  url: "https://www.neuralreach.de",
+  url: BASE_URL,
   description:
     "AI search visibility tracker for B2B SaaS. Track your brand in ChatGPT, Perplexity, Claude, and Google AI Overviews.",
+  inLanguage: "en-US",
   potentialAction: {
     "@type": "SearchAction",
     target: {
       "@type": "EntryPoint",
-      urlTemplate:
-        "https://www.neuralreach.de/leaderboard?q={search_term_string}",
+      urlTemplate: `${BASE_URL}/leaderboard?q={search_term_string}`,
     },
     "query-input": "required name=search_term_string",
   },
+};
+
+// SoftwareApplication / SaaSProduct schema — drives rich product cards in
+// Google search and grounds LLM answers about what NeuralReach actually is.
+const softwareApplicationSchema = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  name: "NeuralReach",
+  applicationCategory: "BusinessApplication",
+  applicationSubCategory: "Marketing analytics",
+  operatingSystem: "Web",
+  url: BASE_URL,
+  description:
+    "NeuralReach tracks how B2B SaaS brands appear in ChatGPT, Claude, Perplexity, and Google AI Overviews. Weekly visibility reports, competitor benchmarks, and schema and content fixes to close the gap.",
+  publisher: { "@type": "Organization", name: "NeuralMedic" },
+  offers: [
+    {
+      "@type": "Offer",
+      name: "Free",
+      price: "0",
+      priceCurrency: "USD",
+      description: "One-time AI visibility report covering 25 prompts across 4 LLMs for 1 brand.",
+    },
+    {
+      "@type": "Offer",
+      name: "Starter",
+      price: "39",
+      priceCurrency: "USD",
+      description: "25 prompts per week, 1 brand, weekly report, 30-day history.",
+    },
+    {
+      "@type": "Offer",
+      name: "Pro",
+      price: "89",
+      priceCurrency: "USD",
+      description: "100 prompts per week, up to 4 brands, full history, schema and content fix recommendations.",
+    },
+  ],
+  featureList: [
+    "Track brand mentions in ChatGPT, Claude, Perplexity, Google AI Overviews",
+    "Per-LLM visibility score across 25 buyer-intent prompts",
+    "Competitor benchmark (up to 3)",
+    "Weekly email reports",
+    "Schema and content fix recommendations",
+    "30-day to full-history trend charts",
+  ],
+};
+
+// HowTo schema on the "How it works" section. Gives Google an instructable
+// snippet target and tells LLMs the step ordering verbatim.
+const howToSchema = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "How to track your B2B SaaS brand's AI search visibility",
+  description:
+    "Three steps to start measuring how ChatGPT, Claude, Perplexity, and Google AI Overviews describe your brand.",
+  step: [
+    {
+      "@type": "HowToStep",
+      position: 1,
+      name: "Add your brand and competitors",
+      text: "Enter your brand name, website, category, and up to three competitors. We render 25 buyer-intent prompts tailored to your category.",
+    },
+    {
+      "@type": "HowToStep",
+      position: 2,
+      name: "We run 25 real prompts across 4 AI platforms",
+      text: "NeuralReach calls ChatGPT, Claude, Perplexity, and Google AI Overviews with your prompts and scores every response for brand presence, rank, sentiment, and citations.",
+    },
+    {
+      "@type": "HowToStep",
+      position: 3,
+      name: "Get the visibility report + schema and content fixes",
+      text: "You receive a report showing where your brand is invisible or misrepresented, with concrete schema markup and content changes to close the gap.",
+    },
+  ],
+};
+
+// FAQPage schema based on the implicit Q&A in the marketing copy. Triggers
+// FAQ rich snippets in Google search.
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "What is AI search visibility?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "AI search visibility measures how often and how favourably your brand appears when buyers ask AI assistants like ChatGPT, Claude, Perplexity, or Google AI Overviews about your category. Higher visibility means more pipeline and brand awareness from a channel traditional SEO does not cover.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Which AI platforms does NeuralReach track?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "NeuralReach tracks ChatGPT (GPT-4o), Claude (Anthropic), Perplexity (Sonar Pro), and Google AI Overviews (via SerpAPI). All scores come from live API calls — never synthetic estimates.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How do you measure brand visibility?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "For each brand we render 25 buyer-intent prompts across five categories (category discovery, comparison, alternatives, use-case, integration). Every prompt is sent to each LLM. We score the response on presence, rank position, sentiment, and whether the brand's URL is cited. The per-brand AI Visibility Score (AVS) is the mean across all prompt-LLM scores, normalised to 0-100.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is there a free plan?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. The Free plan delivers one full visibility report (25 prompts × 4 LLMs for 1 brand) with no credit card required. Starter and Pro add weekly tracking, competitor benchmarks, history, and the schema/content fix recommendations.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What can I do about a low AI visibility score?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Most visibility gaps come from missing structured data (FAQPage, HowTo, Product schema), thin or missing competitor comparison pages, and content that is not phrased in answer-engine-friendly format. NeuralReach's report prioritises the top 3 fixes per brand and links each to the prompts they would unblock.",
+      },
+    },
+  ],
+};
+
+// Breadcrumb on the homepage — keeps Google's breadcrumb richsnippet rules
+// happy site-wide.
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: BASE_URL,
+    },
+  ],
 };
 
 // Subscriptions feature flag — see lib/subscription-flag.ts.
@@ -129,6 +271,22 @@ export default function HomePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareApplicationSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       {/* Nav */}
       <Nav
