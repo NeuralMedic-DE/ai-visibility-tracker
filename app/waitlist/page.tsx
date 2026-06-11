@@ -156,7 +156,7 @@ export default function WaitlistPage() {
           {/* Above-the-fold WaitlistForm — the whole reason someone is on this page */}
           <div className="mt-10 mx-auto max-w-md">
             <div className="rounded-2xl bg-white p-6 sm:p-8 ring-1 ring-gray-200 shadow-sm">
-              <WaitlistForm />
+              <WaitlistForm variant="compact" />
             </div>
             <p className="mt-4 text-center text-xs text-gray-400">
               No credit card. Unsubscribe with one click. We never share your email.

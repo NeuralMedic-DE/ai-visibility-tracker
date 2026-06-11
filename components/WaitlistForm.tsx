@@ -47,7 +47,10 @@ export function WaitlistForm({
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    if (!email) return;
+    // Both fields are required at the form schema (HTML `required` attribute
+    // on both inputs); this JS check is the defence against any future
+    // surface that calls handleSubmit programmatically.
+    if (!email || !brandInterest.trim()) return;
 
     setStatus("loading");
     try {
@@ -56,7 +59,7 @@ export function WaitlistForm({
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           email,
-          brand_interest: brandInterest,
+          brand_interest: brandInterest.trim(),
           ...(interestedPlan ? { interested_plan: interestedPlan } : {}),
         }),
       });
@@ -87,40 +90,67 @@ export function WaitlistForm({
     );
   }
 
+  // The "hero" variant historically rendered an email-only single-row form,
+  // but as of 2026-06-11 every callsite uses variant="compact" because the
+  // founder wants the brand name captured on every waitlist signup ("we
+  // always have to ask for the company name"). To avoid drifting back to
+  // email-only on any future surface, the hero variant now also collects
+  // the brand field — just in a horizontally tighter layout.
+
   return (
     <form onSubmit={handleSubmit} className={cn("w-full", className)}>
       {variant === "hero" ? (
-        /* ── Hero variant: side-by-side on sm+ ── */
-        <div className="flex flex-col sm:flex-row gap-3 max-w-lg mx-auto">
-          <div className="flex-1">
-            <label htmlFor="waitlist-email-hero" className="sr-only">
-              Work email
-            </label>
-            <input
-              id="waitlist-email-hero"
-              type="email"
-              required
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              placeholder="you@company.com"
-              className={cn(
-                "w-full rounded-lg border border-gray-300 px-4 py-3 min-h-[48px] text-sm shadow-sm",
-                "focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-200 transition-colors"
-              )}
-            />
-          </div>
-          <button
-            type="submit"
-            disabled={status === "loading"}
+        /* ── Hero variant: brand row above the email + CTA row.
+              Brand is REQUIRED here too — every waitlist signup carries the
+              brand name (see component comment above). ── */
+        <div className="space-y-3 max-w-lg mx-auto">
+          <label htmlFor="waitlist-brand-hero" className="sr-only">
+            Brand or company you want to track
+          </label>
+          <input
+            id="waitlist-brand-hero"
+            type="text"
+            required
+            minLength={2}
+            value={brandInterest}
+            onChange={(e) => setBrandInterest(e.target.value)}
+            placeholder="Brand you want tracked (e.g. Acme SaaS)"
             className={cn(
-              "inline-flex items-center justify-center min-h-[48px] rounded-lg bg-brand-600 px-6 py-3 text-sm font-semibold text-white shadow-sm",
-              "hover:bg-brand-700 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2",
-              "disabled:opacity-50 disabled:cursor-not-allowed transition-colors",
-              "whitespace-nowrap"
+              "w-full rounded-lg border border-gray-300 px-4 py-3 min-h-[48px] text-sm shadow-sm",
+              "focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-200 transition-colors"
             )}
-          >
-            {status === "loading" ? "Claiming spot…" : "Claim My Early Access"}
-          </button>
+          />
+          <div className="flex flex-col sm:flex-row gap-3">
+            <div className="flex-1">
+              <label htmlFor="waitlist-email-hero" className="sr-only">
+                Work email
+              </label>
+              <input
+                id="waitlist-email-hero"
+                type="email"
+                required
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="you@company.com"
+                className={cn(
+                  "w-full rounded-lg border border-gray-300 px-4 py-3 min-h-[48px] text-sm shadow-sm",
+                  "focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-200 transition-colors"
+                )}
+              />
+            </div>
+            <button
+              type="submit"
+              disabled={status === "loading"}
+              className={cn(
+                "inline-flex items-center justify-center min-h-[48px] rounded-lg bg-brand-600 px-6 py-3 text-sm font-semibold text-white shadow-sm",
+                "hover:bg-brand-700 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2",
+                "disabled:opacity-50 disabled:cursor-not-allowed transition-colors",
+                "whitespace-nowrap"
+              )}
+            >
+              {status === "loading" ? "Claiming spot…" : "Claim My Early Access"}
+            </button>
+          </div>
         </div>
       ) : (
         /* ── Compact variant: stacked, labels visible ── */
@@ -142,10 +172,7 @@ export function WaitlistForm({
 
           <div>
             <label htmlFor="waitlist-brand-compact" className={labelClass}>
-              Brand / product name{" "}
-              <span className={cn("font-normal", theme === "dark" ? "text-white/60" : "text-gray-400")}>
-                (optional)
-              </span>
+              Brand or company you want to track
             </label>
             <input
               id="waitlist-brand-compact"
@@ -155,6 +182,14 @@ export function WaitlistForm({
               placeholder="e.g. Acme SaaS"
               className={inputClass}
             />
+            <p
+              className={cn(
+                "mt-1 text-xs",
+                theme === "dark" ? "text-white/60" : "text-gray-500"
+              )}
+            >
+              We use this to pick the buyer-intent prompts that fit your category.
+            </p>
           </div>
 
           <button
