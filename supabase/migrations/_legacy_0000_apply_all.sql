@@ -148,6 +148,7 @@ end;
 $$;
 
 do $$ begin
+drop trigger if exists customers_updated_at on public.customers;
   create trigger customers_updated_at
     before update on public.customers
     for each row execute procedure public.set_updated_at();
