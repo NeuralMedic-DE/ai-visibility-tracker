@@ -82,6 +82,14 @@ class PromptResult:
     raw_response: str
     cached: bool = False
     error: Optional[str] = None
+    # Auditability fields (added 2026-06-11).
+    # response_text: LLM response stored for audit; may be clipped to
+    # SCORER_RESPONSE_MAX_BYTES (default 16 KB). Empty string on old records
+    # so deserialising pre-2026-06-11 JSON files does not crash.
+    response_text: str = ""
+    # response_truncated_at: byte offset where response_text was clipped, or
+    # None if the full response fit within the cap.
+    response_truncated_at: Optional[int] = None
 
     def to_dict(self) -> Dict[str, Any]:
         return {
@@ -95,7 +103,11 @@ class PromptResult:
             "score": self.score,
             "cached": self.cached,
             "error": self.error,
-            # omit raw_response in summary; included in full output
+            # omit raw_response in summary; included in full output via
+            # LLMScore.to_dict(include_raw_responses=True).
+            # response_text is always serialised for auditability.
+            "response_text": self.response_text,
+            "response_truncated_at": self.response_truncated_at,
         }
 
 

@@ -7,6 +7,7 @@ Use score_brand() for sequential runs; score_brand_async() for parallel runs.
 """
 from __future__ import annotations
 import asyncio
+import os
 import time
 import logging
 from typing import Dict, List, Optional, Tuple
@@ -18,6 +19,42 @@ from .parser import detect_presence, extract_rank, detect_link, compute_score
 from .cache import get_cached, set_cache
 
 logger = logging.getLogger(__name__)
+
+
+# ── Response storage cap ──────────────────────────────────────────────────────
+# Default: 16 KB per response. Override via SCORER_RESPONSE_MAX_BYTES env var.
+# Set to 0 or pass store_response=False to disable storage entirely.
+_DEFAULT_RESPONSE_MAX_BYTES = 16 * 1024  # 16 KB
+
+
+def _get_response_max_bytes() -> int:
+    """Return the per-response storage cap in bytes (from env or default 16 KB)."""
+    try:
+        return int(os.getenv("SCORER_RESPONSE_MAX_BYTES", str(_DEFAULT_RESPONSE_MAX_BYTES)))
+    except (ValueError, TypeError):
+        return _DEFAULT_RESPONSE_MAX_BYTES
+
+
+def _build_response_text(raw: str, store: bool) -> tuple[str, Optional[int]]:
+    """
+    Produce (response_text, response_truncated_at) for storage.
+
+    If `store` is False (--no-store-response), returns ("", None).
+    Otherwise clips raw to SCORER_RESPONSE_MAX_BYTES (UTF-8 bytes) and sets
+    response_truncated_at to the byte offset if clipping occurred.
+    """
+    if not store:
+        return "", None
+    max_bytes = _get_response_max_bytes()
+    if max_bytes <= 0:
+        return "", None
+    encoded = raw.encode("utf-8")
+    if len(encoded) <= max_bytes:
+        return raw, None
+    # Clip to max_bytes, decoding back with error-replace to avoid splitting a
+    # multi-byte char at the boundary.
+    clipped = encoded[:max_bytes].decode("utf-8", errors="replace")
+    return clipped, max_bytes
 
 
 # ── Per-provider concurrency caps ─────────────────────────────────────────────
@@ -117,8 +154,11 @@ def _parse_response(
     brand: BrandProfile,
     brand_names: List[str],
     was_cached: bool,
+    store_response: bool = True,
 ) -> PromptResult:
     """Parse a raw LLM response into a PromptResult (sync, no I/O)."""
+    response_text, truncated_at = _build_response_text(raw_response, store_response)
+
     # Special handling for Google no-overview
     if llm_key == "google" and raw_response == "NO_AI_OVERVIEW":
         return PromptResult(
@@ -133,6 +173,8 @@ def _parse_response(
             raw_response=raw_response,
             cached=was_cached,
             error="no_ai_overview",
+            response_text=response_text,
+            response_truncated_at=truncated_at,
         )
 
     presence = detect_presence(raw_response, brand_names)
@@ -157,6 +199,8 @@ def _parse_response(
         score=score,
         raw_response=raw_response,
         cached=was_cached,
+        response_text=response_text,
+        response_truncated_at=truncated_at,
     )
 
 
@@ -195,6 +239,7 @@ def score_brand(
     dry_run: bool = False,
     simulate_latency: float = 0.0,
     prompt_limit: Optional[int] = None,
+    store_response: bool = True,
 ) -> BrandScore:
     """
     Score a brand across all configured LLMs (or a subset).
@@ -209,6 +254,8 @@ def score_brand(
         prompt_limit: max prompts to run (slices PROMPT_TEMPLATES[:limit]).
                       None = all 100. Pass PLAN_PROMPT_LIMITS[plan] to enforce
                       per-plan quotas (starter=25, pro=100).
+        store_response: if False, omit response_text from PromptResult (useful
+                        when PII risk outweighs auditability benefit). Default True.
 
     Returns:
         BrandScore with per-LLM and aggregate scores.
@@ -268,6 +315,7 @@ def score_brand(
                 _parse_response(
                     raw_response, llm_key, prompt_id, prompt_text, prompt_category,
                     brand, brand_names, was_cached,
+                    store_response=store_response,
                 )
             )
 
@@ -305,6 +353,7 @@ async def _score_single_prompt_async(
     dry_run: bool,
     simulate_latency: float,
     semaphore: asyncio.Semaphore,
+    store_response: bool = True,
 ) -> PromptResult:
     """
     Score one (prompt × LLM) pair asynchronously.
@@ -320,6 +369,7 @@ async def _score_single_prompt_async(
         return _parse_response(
             raw_response, llm_key, prompt_id, prompt_text, prompt_category,
             brand, brand_names, was_cached=True,
+            store_response=store_response,
         )
 
     # Slow path: gate on per-provider semaphore for both real and simulated calls
@@ -360,11 +410,13 @@ async def _score_single_prompt_async(
         return _parse_response(
             raw_response, llm_key, prompt_id, prompt_text, prompt_category,
             brand, brand_names, was_cached=False,
+            store_response=store_response,
         )
 
     return _parse_response(
         raw_response, llm_key, prompt_id, prompt_text, prompt_category,
         brand, brand_names, was_cached=False,
+        store_response=store_response,
     )
 
 

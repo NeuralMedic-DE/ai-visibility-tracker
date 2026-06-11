@@ -84,6 +84,18 @@
     "decision_note": ""
   },
   {
+    "id": "A-f0427ea8",
+    "category": "public_post",
+    "title": "Send June 17 'subscriptions open' blast email to waitlist subscribers",
+    "description": "One-time email blast to all rows in the Supabase `waitlist` table announcing subscriptions open on June 17.\n\nFull copy lives at: state/artifacts/marketing/launch_email_june17.md\n\n=== EMAIL DETAILS ===\nFrom: Jonas from NeuralReach <jonas@neuralreach.de>\nSubject: Subscriptions are open — NeuralReach is live\n\nBody (plain text):\n---\nHi,\n\nYou signed up to find out whether your brand shows up when buyers ask ChatGPT, Perplexity, Claude, or Google AI which tool to use. Now you can find out. NeuralReach delivers weekly AI visibility reports — showing exactly where you appear (or don't) across the four major AI search engines, plus the specific content fixes to close the gap on your competitors.\n\nSubscriptions opened today. Starter is $39/mo (25 prompts, 4 LLMs). Pro is $89/mo (100 prompts + competitor tracking):\n\nStart for $39/mo → https://neuralreach.de/pricing\n\n— Jonas\nNeuralReach\n---\n\n=== HOW TO SEND ===\nOption A (recommended): Resend dashboard → Broadcasts → New Broadcast → import waitlist CSV → paste subject + body → send test to jonas@neuralreach.de first → blast.\n\nTo export waitlist: Supabase SQL editor → SELECT email FROM waitlist ORDER BY signed_up_at ASC;\n\nOption B: Resend batch API curl command — see full runbook in state/artifacts/marketing/launch_email_june17.md.\n\n=== PRE-SEND GATE ===\nDo NOT send until ALL of these are true:\n1. Stripe success_url resolves to https://neuralreach.de/... (not localhost)\n2. /pricing page loads and checkout works in production\n3. End-to-end test passed: pay → welcome email received → login → add brand → report appears\n4. jonas@neuralreach.de has >=7 days sender history (confirmed warm by June 17)\n5. Resend DKIM verified green in Resend dashboard",
+    "proposed_by": "marketer",
+    "est_cost_usd": 0.0,
+    "status": "pending",
+    "created_at": "2026-06-11T00:00:00Z",
+    "decided_at": "",
+    "decision_note": ""
+  },
+  {
     "id": "A-1d21a348",
     "category": "public_post",
     "title": "Publish 4 waitlist-driving posts (corrected 2026-06-11 version)",
