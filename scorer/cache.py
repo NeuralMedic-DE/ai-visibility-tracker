@@ -1,4 +1,17 @@
-"""Disk-based cache for LLM responses — keyed by SHA-256 of (brand, prompt_id, llm, text)."""
+"""
+Disk-based cache for LLM responses — keyed by SHA-256 of (brand, prompt_id, llm, text).
+
+IMPORTANT — cache preservation policy (2026-06-11):
+  The cache is the canonical store of full LLM responses. We deliberately do NOT
+  auto-prune it at the end of a scoring run. Keeping the cache intact means any run
+  can be re-checked against the original API output without spending money on a
+  re-run, and the 16 KB response_text in each PromptResult can always be verified
+  against the full text here.
+
+  If disk usage becomes a concern, prune explicitly using the dedicated CLI tool:
+      python -m scorer.cli.prune_cache --older-than 30   # delete entries > 30 days
+      python -m scorer.cli.prune_cache --dry-run         # preview what would be deleted
+"""
 from __future__ import annotations
 import hashlib
 import json

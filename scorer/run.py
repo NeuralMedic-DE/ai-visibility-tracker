@@ -89,6 +89,7 @@ async def _run_async(
     concurrency: int,
     simulate_latency: float,
     include_raw: bool,
+    store_response: bool = True,
 ) -> tuple[list, float]:
     """
     Async runner: brands are processed sequentially (preserves cost guard),
@@ -136,6 +137,7 @@ async def _run_async(
             concurrency=concurrency,
             simulate_latency=simulate_latency,
             semaphores=semaphores,
+            store_response=store_response,
         )
 
         # Write per-brand JSON
@@ -217,6 +219,17 @@ def main():
             "Simulate API latency in dry-run mode (seconds per call). "
             "Useful for benchmarking async speedup without real API keys. "
             "Default: 0.0 (no simulation)."
+        ),
+    )
+    parser.add_argument(
+        "--no-store-response",
+        action="store_true",
+        help=(
+            "Do not persist the raw LLM response text in each PromptResult "
+            "(response_text will be empty, response_truncated_at will be null). "
+            "Use when the prompts or responses may contain PII and auditability "
+            "is less important than privacy. Default: responses ARE stored "
+            "(capped at SCORER_RESPONSE_MAX_BYTES, default 16 KB)."
         ),
     )
     args = parser.parse_args()

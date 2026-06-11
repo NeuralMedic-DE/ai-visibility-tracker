@@ -1,0 +1,1 @@
+# scorer/cli — standalone CLI utilities for the scorer pipeline.

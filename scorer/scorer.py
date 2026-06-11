@@ -429,6 +429,7 @@ async def score_brand_async(
     simulate_latency: float = 0.0,
     semaphores: Optional[Dict[str, asyncio.Semaphore]] = None,
     prompt_limit: Optional[int] = None,
+    store_response: bool = True,
 ) -> BrandScore:
     """
     Async version of score_brand — parallelizes all LLMs and prompts concurrently.
@@ -454,6 +455,8 @@ async def score_brand_async(
         prompt_limit: max prompts to run (slices PROMPT_TEMPLATES[:limit]).
                       None = all 100. Pass PLAN_PROMPT_LIMITS[plan] to enforce
                       per-plan quotas (starter=25, pro=100).
+        store_response: if False, omit response_text from PromptResult (useful
+                        when PII risk outweighs auditability benefit). Default True.
 
     Returns:
         BrandScore with per-LLM and aggregate scores.
@@ -497,6 +500,7 @@ async def score_brand_async(
                 dry_run=dry_run,
                 simulate_latency=simulate_latency,
                 semaphore=sem,
+                store_response=store_response,
             )
             for pid, ptext, pcat in prompts
         ]
