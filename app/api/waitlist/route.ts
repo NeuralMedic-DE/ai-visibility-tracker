@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { sendEmail } from "@/lib/email";
+import { waitlistConfirmEmail } from "@/lib/email-templates/waitlist-confirm";
 import fs from "fs";
 import path from "path";
 
@@ -100,9 +102,51 @@ export async function POST(req: NextRequest) {
       );
     }
 
+    // Fire-and-await the confirmation email. We don't fail the signup if
+    // Resend hiccups — the row is already in the DB, so the lead is safe.
+    // But we DO log the result so /api/health/email and the QA sweep can
+    // distinguish "no signup" from "signup but email broken".
+    try {
+      const appUrl = appUrlForSuccessRedirect(req);
+      const { subject, html, text } = waitlistConfirmEmail({
+        appUrl,
+        brandInterest: normalizedBrand,
+        interestedPlan: normalizedPlan,
+      });
+      const result = await sendEmail({
+        to: normalizedEmail,
+        subject,
+        html,
+        text,
+        replyTo: "jonas@neuralreach.de",
+      });
+      if (result.error) {
+        console.error("[waitlist] confirmation email failed:", result.error);
+      } else {
+        console.log(`[waitlist] confirmation email sent: id=${result.id}`);
+      }
+    } catch (emailErr) {
+      // Defensive: any throw from the email path must NOT break the 201 to the user.
+      console.error("[waitlist] email pipeline threw (signup still succeeded):", emailErr);
+    }
+
     return NextResponse.json({ success: true }, { status: 201 });
   } catch (err) {
     console.error("[waitlist] Unexpected error:", err);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
+}
+
+/**
+ * Resolve the canonical app URL for links inside emails. Mirrors the logic
+ * in app/api/checkout/route.ts so the leaderboard link in the confirmation
+ * email never points at http://localhost:3000 in production.
+ */
+function appUrlForSuccessRedirect(req: NextRequest): string {
+  const origin = req.headers.get("origin");
+  if (origin && !origin.includes("localhost")) return origin;
+  if (process.env.NEXT_PUBLIC_SITE_URL) return process.env.NEXT_PUBLIC_SITE_URL;
+  const appUrlEnv = process.env.NEXT_PUBLIC_APP_URL;
+  if (appUrlEnv && !appUrlEnv.includes("localhost")) return appUrlEnv;
+  return "https://neuralreach.de";
 }
