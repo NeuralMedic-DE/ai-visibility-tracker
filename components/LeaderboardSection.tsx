@@ -22,7 +22,6 @@ function getValue(brand: BrandScore, col: SortColumn): number | string {
     case "chatgpt":        return brand.scores.chatgpt;
     case "claude":         return brand.scores.claude;
     case "perplexity":     return brand.scores.perplexity;
-    case "google_aio":     return brand.scores.google_aio;
     default:               return brand.rank;
   }
 }
@@ -221,19 +220,32 @@ export function LeaderboardSection({ brands, note, generatedAt, runDate }: Leade
               <label htmlFor="category-filter" className="text-xs text-gray-500 whitespace-nowrap hidden sm:block">
                 Category
               </label>
-              <select
-                id="category-filter"
-                value={categoryFilter}
-                onChange={(e) => setCategoryFilter(e.target.value)}
-                className="rounded-lg border border-gray-200 px-3 py-2.5 min-h-[44px] text-sm focus:border-brand-400 focus:outline-none focus:ring-2 focus:ring-brand-200 bg-white transition-colors"
-              >
-                <option value="all">All categories</option>
-                {categories.map((cat) => (
-                  <option key={cat} value={cat}>
-                    {cat.charAt(0).toUpperCase() + cat.slice(1)}
-                  </option>
-                ))}
-              </select>
+              <div className="relative">
+                <select
+                  id="category-filter"
+                  value={categoryFilter}
+                  onChange={(e) => setCategoryFilter(e.target.value)}
+                  className="appearance-none w-full rounded-lg border border-gray-200 pl-3 pr-9 py-2.5 min-h-[44px] text-sm text-gray-900 bg-white focus:border-brand-400 focus:outline-none focus:ring-2 focus:ring-brand-200 transition-colors cursor-pointer"
+                >
+                  <option value="all">All categories</option>
+                  {categories.map((cat) => (
+                    <option key={cat} value={cat}>
+                      {cat.charAt(0).toUpperCase() + cat.slice(1)}
+                    </option>
+                  ))}
+                </select>
+                {/* Custom chevron so the select looks like the search input.
+                    Native dropdown arrow is hidden via appearance-none above. */}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400"
+                  aria-hidden="true"
+                >
+                  <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.06l3.71-3.83a.75.75 0 011.08 1.04l-4.25 4.39a.75.75 0 01-1.08 0L5.21 8.27a.75.75 0 01.02-1.06z" clipRule="evenodd" />
+                </svg>
+              </div>
             </div>
 
             {/* Result count */}

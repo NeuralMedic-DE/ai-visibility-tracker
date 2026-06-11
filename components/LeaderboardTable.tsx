@@ -38,8 +38,11 @@ export type SortColumn =
   | "overall_score"
   | "chatgpt"
   | "claude"
-  | "perplexity"
-  | "google_aio";
+  | "perplexity";
+// "google_aio" column was hidden 2026-06-11 because SerpAPI scoring isn't
+// wired up — every brand showed 0 which falsely implied "we measured and
+// got nothing." The underlying data type still has the field so we can
+// restore the column when SerpAPI runs against the brand list.
 
 export type SortDir = "asc" | "desc";
 
@@ -326,11 +329,7 @@ export function LeaderboardTable({
               label="Perplexity"
               className="px-3 text-center hidden md:table-cell"
             />
-            <SortableTh
-              col="google_aio"
-              label="Google AIO"
-              className="px-3 text-center hidden lg:table-cell"
-            />
+            {/* Google AIO column hidden — no SerpAPI scoring yet. */}
             <th
               scope="col"
               className="px-3 py-3 text-center text-xs font-semibold uppercase tracking-wide text-gray-500 hidden sm:table-cell"
@@ -412,9 +411,7 @@ export function LeaderboardTable({
               <td className="whitespace-nowrap px-3 py-3.5 text-center hidden md:table-cell">
                 <ScorePill score={brand.scores.perplexity} />
               </td>
-              <td className="whitespace-nowrap px-3 py-3.5 text-center hidden lg:table-cell">
-                <ScorePill score={brand.scores.google_aio} />
-              </td>
+              {/* Google AIO body cell hidden — see SortColumn comment. */}
 
               {/* Trend */}
               <td className="whitespace-nowrap px-3 py-3.5 text-center hidden sm:table-cell">
