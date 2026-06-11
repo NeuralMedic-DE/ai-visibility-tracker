@@ -32,21 +32,26 @@ jobs:
         with:
           version: latest
 
+      - name: Link Supabase project
+        # Newer Supabase CLI versions removed --project-ref from `db push`.
+        # The supported flow is: `supabase link --project-ref X` to bind the
+        # working directory to a remote project, then `supabase db push --linked`.
+        run: |
+          supabase link --project-ref unrfdcxkmelafypuyruk
+        env:
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+          SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
+
       - name: Push pending migrations
-        # supabase db push compares supabase/migrations/ against the remote
+        # `db push --linked` compares supabase/migrations/ against the remote
         # supabase_migrations.schema_migrations table and applies only the
-        # pending ones.  All our migrations are idempotent (IF NOT EXISTS /
+        # pending ones. All our migrations are idempotent (IF NOT EXISTS /
         # ADD COLUMN IF NOT EXISTS) so the very first run is safe even if
         # migrations were previously applied manually.
         run: |
-          supabase db push \
-            --project-ref unrfdcxkmelafypuyruk \
-            --password "$SUPABASE_DB_PASSWORD"
+          supabase db push --linked --password "$SUPABASE_DB_PASSWORD"
         env:
           SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
-          # DB password is only needed when --linked mode is used; for project-ref
-          # mode the access token is sufficient for most operations.
-          # Add SUPABASE_DB_PASSWORD secret if the CLI prompts for it.
           SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
 
       - name: Verify schema (quick probe)
