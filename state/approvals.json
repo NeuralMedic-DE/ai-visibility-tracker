@@ -70,5 +70,17 @@
     "created_at": "2026-06-10T00:00:00Z",
     "decided_at": "",
     "decision_note": ""
+  },
+  {
+    "id": "A-0b1c2d3e",
+    "category": "public_post",
+    "title": "POST NOW: 4 waitlist-driving launch posts — r/SEO, r/SaaS, r/SideProject, Indie Hackers",
+    "description": "GREEN-LIT per 2026-06-10 founder brief. All posts CTA to waitlist only (no pricing/subscribe links). Subscriptions-open date June 17 is stated in every post. Full formatted copy: state/artifacts/marketing/launch_posts_waitlist_2026-06-10.md\n\n=== CTA AUDIT (ops-verified 2026-06-11) ===\n✅ All 4 posts route to https://neuralreach.de/#waitlist  (NOT /pricing or any checkout)\n✅ Framing: 'early-access', 'subscriptions open Wednesday June 17' — no 'subscribe now' language\n✅ /leaderboard and /#waitlist URLs verified live as of 2026-06-10\n⚠️  NOTE: /waitlist path returns 404 — posts deliberately use /#waitlist anchor instead. Engineer follow-up: add /waitlist → /#waitlist redirect, but do NOT hold the posts for this.\n\nSupersedes A-1a2b3c4d (marketer approval with same content — can be declined).\n\n=== WHAT TO DO ===\nOpen: state/artifacts/marketing/launch_posts_waitlist_2026-06-10.md\nCopy-paste each post into the platform. Reply to top comments within 2 hrs of posting.\n\n--- POST 1: r/SEO ---\nBest time: Tue or Wed, 9–11 AM EST (next window: Wed 2026-06-11)\nTitle: We audited how 100 B2B SaaS brands appear (or don't) in ChatGPT, Perplexity, Claude, and Google AI Overviews — here's what we found\nFull body + 3 pre-written FAQ replies → see artifact POST 1 section\n\n--- POST 2: r/SaaS ---\nBest time: Mon or Thu, 10 AM–12 PM EST (next window: Thu 2026-06-12)\nTitle: I checked whether 100 B2B SaaS companies show up when buyers ask ChatGPT/Perplexity/Claude 'what tool should I use' — the results are surprising\nFull body + 3 pre-written FAQ replies → see artifact POST 2 section\n\n--- POST 3: r/SideProject ---\nBest time: Sat or Sun, 10 AM–1 PM EST (next window: Sat 2026-06-14)\nTitle: I built a free leaderboard showing how 100 SaaS companies rank in AI search (ChatGPT, Perplexity, Claude, Google AIO) — NeuralReach AI Visibility Index\nFull body + 3 pre-written FAQ replies → see artifact POST 3 section\n\n--- POST 4: Indie Hackers ---\nBest time: Tue/Wed/Thu, 9–11 AM EST (can pair with r/SEO or r/SaaS day)\nTitle: Day 14: I launched a free AI Visibility Index for 100 SaaS brands — what's live, what broke, and why subscriptions open June 17 (not today)\nFull body + 3 pre-written FAQ replies → see artifact POST 4 section\n\n=== STAGGER RECOMMENDATION ===\nDay 1 (Wed 2026-06-11): r/SEO + Indie Hackers\nDay 2 (Thu 2026-06-12): r/SaaS\nDay 3 (Sat 2026-06-14): r/SideProject\n\n=== ACCOUNTS NEEDED ===\n- Reddit: Jonas's personal account (not brand account)\n- Indie Hackers: Jonas's personal account\n- No budget required for any of these posts",
+    "proposed_by": "ops",
+    "est_cost_usd": 0.0,
+    "status": "pending",
+    "created_at": "2026-06-11T00:00:00Z",
+    "decided_at": "",
+    "decision_note": ""
   }
 ]
