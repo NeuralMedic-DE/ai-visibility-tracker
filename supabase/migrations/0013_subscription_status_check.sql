@@ -18,6 +18,7 @@
 -- Add the new value here + to STATUS_CONFIG (dashboard/page.tsx) before
 -- deploying any API version bump.
 
+alter table public.customers drop constraint if exists customers_subscription_status_check;
 alter table public.customers
   add constraint customers_subscription_status_check
   check (

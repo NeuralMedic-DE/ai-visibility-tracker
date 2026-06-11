@@ -31,6 +31,7 @@ begin
      where conname  = 'customers_email_lowercase'
        and conrelid = 'public.customers'::regclass
   ) then
+alter table public.customers drop constraint if exists customers_email_lowercase;
     alter table public.customers
       add constraint customers_email_lowercase
       check (email = lower(trim(email)));
