@@ -73,17 +73,41 @@ export async function generateMetadata({
       title: "Brand Not Found | NeuralReach",
     };
   }
+  const title = `${brand.brand} AI Visibility Score: ${brand.avs_brand.toFixed(1)}/100 — Rank #${brand.rank} of ${brand.total_brands}`;
+  const description = `${brand.brand} scores ${brand.avs_brand.toFixed(1)}/100 for AI search visibility in ChatGPT, Claude & Perplexity (${brand.prompts_scored * 3} live API prompts, run ${brand.run_date}). See visibility gaps + GEO/AEO fix recommendations.`;
+  const ogShort = `Rank #${brand.rank} of ${brand.total_brands} B2B SaaS brands. See exactly which AI prompts ${brand.brand} is missing and what to fix.`;
   return {
-    title: `${brand.brand} AI Visibility Score: ${brand.avs_brand.toFixed(1)}/100 — Rank #${brand.rank} of ${brand.total_brands} | NeuralReach`,
-    description: `${brand.brand} scores ${brand.avs_brand.toFixed(1)}/100 for AI search visibility in ChatGPT, Claude & Perplexity (${brand.prompts_scored * 3} live API prompts, run ${brand.run_date}). See visibility gaps + GEO/AEO fix recommendations.`,
+    title,
+    description,
     alternates: {
       canonical: `/leaderboard/${params.slug}`,
     },
     openGraph: {
       title: `${brand.brand} AI Visibility Score: ${brand.avs_brand.toFixed(1)}/100`,
-      description: `Rank #${brand.rank} of ${brand.total_brands} B2B SaaS brands. See exactly which AI prompts ${brand.brand} is missing and what to fix.`,
-      type: "website",
+      description: ogShort,
+      type: "article",
+      url: `/leaderboard/${params.slug}`,
+      siteName: "NeuralReach",
+      // images intentionally omitted — `app/leaderboard/[slug]/opengraph-image.tsx`
+      // is auto-discovered by Next.js and overrides any explicit image here.
     },
+    twitter: {
+      card: "summary_large_image",
+      title: `${brand.brand} AI Visibility Score: ${brand.avs_brand.toFixed(1)}/100`,
+      description: ogShort,
+      creator: "@neuralreach",
+      site: "@neuralreach",
+    },
+    keywords: [
+      `${brand.brand} AI search visibility`,
+      `${brand.brand} ChatGPT visibility`,
+      `${brand.brand} Claude`,
+      `${brand.brand} Perplexity`,
+      `${brand.brand} alternatives`,
+      "B2B SaaS AI visibility",
+      "GEO",
+      "AEO",
+    ],
   };
 }
 
