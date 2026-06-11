@@ -1234,6 +1234,22 @@ Keep the total report under 500 words. Be direct and specific.`;
 // Main Entry Point
 // ─────────────────────────────────────────────────────────────────────────────
 
+// The maximum number of prompts to run in a synchronous Vercel function context.
+// At Pro plan (100 prompts), low-concurrency LLMs (perplexity/google cap=2) would
+// take ~250s+ and risk hitting the 300s Vercel hard timeout.  Callers that run
+// inline (onboarding, run-now) should pass this as promptLimitOverride so the first
+// result is always fast; the weekly cron runs the full plan limit instead.
+export const INLINE_SAFE_PROMPT_LIMIT = 25;
+
+export interface ScoreForCustomerOptions {
+  /**
+   * Override the per-plan prompt limit for this specific run.
+   * Use INLINE_SAFE_PROMPT_LIMIT (25) for synchronous Vercel routes to prevent
+   * 300s timeouts on Pro plans.  When omitted, the plan default is used.
+   */
+  promptLimitOverride?: number;
+}
+
 /**
  * Score a customer's tracked brand and upsert the result into customer_scoring_runs.
  *
@@ -1243,11 +1259,16 @@ Keep the total report under 500 words. Be direct and specific.`;
  * The caller is responsible for updating scoring_jobs status and
  * tracked_brands.last_scored_at.
  *
+ * @param options.promptLimitOverride  - Hard-cap the number of prompts regardless
+ *   of plan.  Pass INLINE_SAFE_PROMPT_LIMIT for synchronous Vercel routes to avoid
+ *   the ~250s Pro-plan timeout.  Omit to use the plan default (25 Starter / 100 Pro).
+ *
  * @throws Error if customer or tracked brand is not found, or if subscription is invalid.
  */
 export async function scoreForCustomer(
   customerId: string,
-  supabase: SupabaseClient
+  supabase: SupabaseClient,
+  options: ScoreForCustomerOptions = {}
 ): Promise<AvsScoreResult> {
   // 1. Load customer row
   const { data: customer, error: customerErr } = await supabase
@@ -1272,8 +1293,16 @@ export async function scoreForCustomer(
     );
   }
 
-  // 2. Resolve per-plan prompt limit
-  const promptLimit = PLAN_PROMPT_LIMITS[plan] ?? 25;
+  // 2. Resolve per-plan prompt limit (honouring any caller override).
+  //    Synchronous Vercel routes (onboarding, run-now) should pass
+  //    promptLimitOverride: INLINE_SAFE_PROMPT_LIMIT (25) to guarantee the
+  //    function completes within the 300 s hard timeout even for Pro customers.
+  //    The weekly cron omits the override so Pro gets the full 100-prompt run.
+  const planDefault = PLAN_PROMPT_LIMITS[plan] ?? 25;
+  const promptLimit =
+    options.promptLimitOverride !== undefined
+      ? Math.min(options.promptLimitOverride, planDefault) // never exceed plan entitlement
+      : planDefault;
 
   // 3. Load tracked_brands row
   const { data: tb, error: brandErr } = await supabase

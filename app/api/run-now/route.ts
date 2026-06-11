@@ -3,7 +3,7 @@ import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { getCustomerByUser } from "@/lib/customer";
 import { reportError } from "@/lib/error-reporter";
-import { scoreForCustomer } from "@/lib/scorer";
+import { scoreForCustomer, INLINE_SAFE_PROMPT_LIMIT } from "@/lib/scorer";
 
 // ── POST /api/run-now ─────────────────────────────────────────────────────────
 // Auth-protected. Runs the TypeScript scorer inline for the signed-in customer.
@@ -12,6 +12,10 @@ import { scoreForCustomer } from "@/lib/scorer";
 // Scoring runs synchronously in the Vercel function using the TypeScript scorer
 // (lib/scorer.ts), which calls OpenAI / Anthropic / Perplexity / SerpAPI via
 // fetch() in parallel.
+//
+// Like /api/onboarding, this function caps the scorer at INLINE_SAFE_PROMPT_LIMIT
+// (25 prompts) regardless of plan to prevent Vercel 300 s timeout on Pro runs.
+// The full Pro 100-prompt run is handled by the weekly cron job.
 //
 // Guards (in order):
 //   1. Auth session required
@@ -28,7 +32,7 @@ import { scoreForCustomer } from "@/lib/scorer";
 // Returns 200 with the AVS score object on success.
 // scoring_jobs row is kept in sync so ScanProgress polling works.
 
-// Allow up to 5 minutes — scoring 25–100 prompts × 4 LLMs takes 30–90s.
+// Allow up to 5 minutes.  Capped at 25 prompts inline; actual calls take ~65 s.
 export const maxDuration = 300;
 export const dynamic = "force-dynamic";
 
@@ -277,8 +281,13 @@ export async function POST(_request: NextRequest) {
   // 8. Run the TypeScript scorer inline — no Python subprocess, no file I/O.
   //    scoreForCustomer loads customer data, queries LLMs in parallel, and
   //    writes results to customer_scoring_runs.
+  //
+  //    Capped at INLINE_SAFE_PROMPT_LIMIT (25) to prevent 300 s Vercel timeout
+  //    on Pro plans (100 prompts × concurrency=2 ≈ 250 s for slowest LLM).
   try {
-    const result = await scoreForCustomer(customer.id, admin);
+    const result = await scoreForCustomer(customer.id, admin, {
+      promptLimitOverride: INLINE_SAFE_PROMPT_LIMIT,
+    });
 
     // 9a. Mark job done
     if (jobId) {

@@ -3,17 +3,25 @@ import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { getCustomerByUser } from "@/lib/customer";
 import { reportError, reportMessage } from "@/lib/error-reporter";
-import { scoreForCustomer } from "@/lib/scorer";
+import { scoreForCustomer, INLINE_SAFE_PROMPT_LIMIT } from "@/lib/scorer";
 
 // ── POST /api/onboarding ──────────────────────────────────────────────────────
 // Auth-protected. Saves brand info for a newly-onboarding customer, runs the
-// TypeScript scorer inline (same as /api/run-now), and redirects to /dashboard.
+// TypeScript scorer inline, and redirects to /dashboard.
 //
-// Scoring runs synchronously in this Vercel function — no worker service needed.
-// maxDuration = 300 gives up to 5 minutes, which is enough for 25–100 prompts
-// across 4 LLMs (~30–90s in practice). The client shows a "Setting up…" spinner
-// while the function runs, then receives the redirect to /dashboard with results
-// already available.
+// Scoring runs synchronously in this Vercel function at a SAFE prompt cap of
+// INLINE_SAFE_PROMPT_LIMIT (25 prompts) regardless of plan.  This keeps the
+// function well within the 300 s Vercel hard timeout for ALL plans, including Pro.
+//
+// Why 25 and not the full Pro limit (100)?
+//   At 100 prompts, Perplexity and Google (concurrency cap = 2) require ~50
+//   serial batches × 5 s avg = ~250 s per provider.  Adding DB overhead and fix-
+//   report generation puts Pro onboarding at risk of hitting the 300 s timeout.
+//   25 prompts yields ~12–13 batches × 5 s ≈ 65 s — comfortably safe.
+//
+// Pro customers get the full 100-prompt run on their first weekly cron tick
+// (Monday 09:00 UTC) — within ~7 days of sign-up.  The dashboard shows a banner
+// "Full Pro scan runs on your first weekly report" to set expectations.
 //
 // Request body:
 //   brand_name        string   required
@@ -23,7 +31,8 @@ import { scoreForCustomer } from "@/lib/scorer";
 // Success response: { success: true, redirect: '/dashboard' }
 // Error responses:  401 | 400 | 403 | 500 with { error: string }
 
-// Allow up to 5 minutes — scoring 25–100 prompts × 4 LLMs takes 30–90s.
+// Allow up to 5 minutes.  The scorer is capped at INLINE_SAFE_PROMPT_LIMIT (25)
+// so this function completes well within the 300 s limit for all plans.
 export const maxDuration = 300;
 export const dynamic = "force-dynamic";
 
@@ -200,7 +209,11 @@ export async function POST(request: NextRequest) {
   // ── 8. Run the TypeScript scorer inline (no worker service required) ───────
   // We claim the pending job, run scoreForCustomer() synchronously, and update
   // the job status — the same pattern used by /api/run-now and /api/cron/weekly.
-  // maxDuration = 300 (set above) gives enough headroom even for Pro plans.
+  //
+  // IMPORTANT: We pass promptLimitOverride: INLINE_SAFE_PROMPT_LIMIT (25) so the
+  // scorer never exceeds 25 prompts here, regardless of plan.  This guarantees
+  // the function completes in ~65 s (vs ~250 s+ for a full 100-prompt Pro run).
+  // Pro customers automatically receive a full 100-prompt run from the weekly cron.
   //
   // Retrieve the job id we just inserted so we can update its status.
   const { data: jobRow } = await admin
@@ -227,7 +240,9 @@ export async function POST(request: NextRequest) {
   );
 
   try {
-    await scoreForCustomer(customer.id, admin);
+    await scoreForCustomer(customer.id, admin, {
+      promptLimitOverride: INLINE_SAFE_PROMPT_LIMIT,
+    });
 
     // Mark job done
     if (jobId) {

@@ -1,0 +1,824 @@
+{
+  "brands": {
+    "Pipedrive": {
+      "brand": "Pipedrive",
+      "aliases": [
+        "Pipedrive CRM",
+        "pipedrive",
+        "Pipedrive"
+      ],
+      "query": "how to choose a CRM for small and mid-size sales teams",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 6967,
+      "text_preview": "To choose the best CRM for a growing sales team, start by assessing your core pain points, set a per-user budget, and ensure deep integration with your current tech stack. The ideal CRM must balance immediate usability for reps with the robust reporting and scalability required b"
+    },
+    "Close": {
+      "brand": "Close",
+      "aliases": [
+        "Close CRM",
+        "close.io",
+        "Close",
+        "close"
+      ],
+      "query": "how to choose a CRM for early-stage startups",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 8012,
+      "text_preview": "To choose the right CRM for an early-stage startup, evaluate tools based on how they align with your sales cycle, team size, and budget. Prioritize intuitive pipeline management and integrations over bloated enterprise features so you can quickly drive revenue. YouTube\u00b7Viktor fro"
+    },
+    "Attio": {
+      "brand": "Attio",
+      "aliases": [
+        "attio.com",
+        "attio",
+        "Attio"
+      ],
+      "query": "how to choose a CRM for B2B startups",
+      "calls": 2,
+      "triggered": true,
+      "present": null,
+      "score": null,
+      "fetch_error": "Google hasn't returned any results for this query."
+    },
+    "Apollo.io": {
+      "brand": "Apollo.io",
+      "aliases": [
+        "Apollo io",
+        "Apollo.io",
+        "Apollo",
+        "apollo"
+      ],
+      "query": "how to choose a CRM for SDR teams at B2B companies",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 7779,
+      "text_preview": "Choosing the best CRM for a B2B Sales Development Representative (SDR) team requires balancing native outbound tooling (calling/sequences), lead routing speed, and integration depth. The right CRM depends strictly on your team size, sales complexity, and go-to-market (GTM) strate"
+    },
+    "Salesflare": {
+      "brand": "Salesflare",
+      "aliases": [
+        "Salesflare CRM",
+        "Salesflare",
+        "salesflare"
+      ],
+      "query": "how to choose a CRM for small B2B teams and agencies",
+      "calls": 2,
+      "triggered": true,
+      "present": false,
+      "score": 0,
+      "text_chars": 8961,
+      "text_preview": "Choose a CRM by mapping your sales cycle and matching it with the right tools. Prioritize B2B-specific features\u2014like contact-to-company association, multiple deal pipelines, and proposal tracking. Evaluate platforms based on ease of onboarding, scalability, and built-in automatio"
+    },
+    "Copper": {
+      "brand": "Copper",
+      "aliases": [
+        "Copper CRM",
+        "Copper",
+        "copper"
+      ],
+      "query": "how to choose a CRM for Google Workspace power users",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 4321,
+      "text_preview": "For Google Workspace power users, the ideal CRM operates inside your inbox and apps\u2014not alongside them. To choose the right one, audit your daily workflow to prioritize deep, native Google integrations, automated data entry, pipeline management simplicity, and seamless Drive/Shee"
+    },
+    "Nutshell": {
+      "brand": "Nutshell",
+      "aliases": [
+        "Nutshell CRM",
+        "nutshell",
+        "Nutshell"
+      ],
+      "query": "how to choose a CRM for small and mid-size B2B sales teams",
+      "calls": 2,
+      "triggered": true,
+      "present": false,
+      "score": 0,
+      "text_chars": 5812,
+      "text_preview": "To choose the right CRM for a B2B sales team, prioritize pipeline management for multi-stage deals, lead-to-account matching, and seamless integration with your email and marketing automation. Focus on user adoption\u2014an overly complex system will be abandoned by reps. Digital Litm"
+    },
+    "LeadIQ": {
+      "brand": "LeadIQ",
+      "aliases": [
+        "LeadIQ Prospecting",
+        "leadiq",
+        "LeadIQ"
+      ],
+      "query": "how to choose a CRM for SDR and outbound sales teams",
+      "calls": 1,
+      "triggered": false,
+      "present": false,
+      "score": 0
+    },
+    "Folk": {
+      "brand": "Folk",
+      "aliases": [
+        "Folk CRM",
+        "Folk",
+        "folk"
+      ],
+      "query": "how to choose a CRM for startup founders and agency leads",
+      "calls": 2,
+      "triggered": true,
+      "present": null,
+      "score": null,
+      "fetch_error": "Google hasn't returned any results for this query."
+    },
+    "Amplemarket": {
+      "brand": "Amplemarket",
+      "aliases": [
+        "Amplemarket AI",
+        "amplemarket",
+        "Amplemarket"
+      ],
+      "query": "how to choose a CRM for outbound sales teams at B2B companies",
+      "calls": 2,
+      "triggered": true,
+      "present": false,
+      "score": 0,
+      "text_chars": 9304,
+      "text_preview": "To choose a CRM for a B2B outbound sales team, prioritize systems that support account-based tracking, built-in sales engagement (sequences)\n, and automated lead routing. Avoid \"bloated\" or \"generic\" CRMs by ensuring your chosen platform natively handles complex B2B sales cycles,"
+    },
+    "Mixpanel": {
+      "brand": "Mixpanel",
+      "aliases": [
+        "Mixpanel Analytics",
+        "mixpanel",
+        "Mixpanel"
+      ],
+      "query": "how to choose a product analytics for product and growth teams at SaaS companies",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 9164,
+      "text_preview": "Choosing the right product analytics for SaaS product and growth teams means balancing behavioral depth (what users do) with (what you can do about it). Base your selection on your company\u2019s growth stage, technical bandwidth, and specific analytical needs rather than just feature"
+    },
+    "Amplitude": {
+      "brand": "Amplitude",
+      "aliases": [
+        "Amplitude Analytics",
+        "Amplitude",
+        "amplitude"
+      ],
+      "query": "how to choose a product analytics for mid-market to enterprise product teams",
+      "calls": 2,
+      "triggered": true,
+      "present": null,
+      "score": null,
+      "fetch_error": "Google hasn't returned any results for this query."
+    },
+    "PostHog": {
+      "brand": "PostHog",
+      "aliases": [
+        "PostHog Analytics",
+        "PostHog",
+        "posthog"
+      ],
+      "query": "how to choose a product analytics for developer-led product teams",
+      "calls": 1,
+      "triggered": false,
+      "present": false,
+      "score": 0
+    },
+    "Pendo": {
+      "brand": "Pendo",
+      "aliases": [
+        "Pendo.io",
+        "Pendo",
+        "pendo"
+      ],
+      "query": "how to choose a product analytics for enterprise SaaS product teams",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 8110,
+      "text_preview": "Choosing enterprise product analytics for a SaaS product requires evaluating tools based on account-level segmentation, data governance\n, compliance, and integration capabilities. The process involves four core steps to identify the right platform for your team. Gainsight +2\n1. E"
+    },
+    "June.so": {
+      "brand": "June.so",
+      "aliases": [
+        "June.so",
+        "June",
+        "june"
+      ],
+      "query": "how to choose a product analytics for early-stage B2B SaaS teams",
+      "calls": 2,
+      "triggered": true,
+      "present": false,
+      "score": 0,
+      "text_chars": 7155,
+      "text_preview": "For early-stage B2B SaaS teams, prioritize tools that offer account-level tracking rather than just individual user tracking. Start by evaluating your data infrastructure, budgeting for early-stage freemium options, and ensuring the tool helps you measure activation, retention, a"
+    },
+    "Metabase": {
+      "brand": "Metabase",
+      "aliases": [
+        "Metabase BI",
+        "metabase",
+        "Metabase"
+      ],
+      "query": "how to choose a business intelligence for data and operations teams at startups and SMBs",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 10094,
+      "text_preview": "For startups and SMBs, choosing a Business Intelligence (BI) tool for data and operations requires balancing self-serve agility with cost-effectiveness. Start by mapping your current data stack to existing ecosystem tools (like Google or Microsoft), prioritizing solutions that al"
+    },
+    "Plausible": {
+      "brand": "Plausible",
+      "aliases": [
+        "Plausible Analytics",
+        "plausible",
+        "Plausible"
+      ],
+      "query": "how to choose a web analytics for privacy-conscious SaaS founders and developers",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 4650,
+      "text_preview": "Choosing the right web analytics for a privacy-conscious SaaS means balancing actionable user insights with strict data compliance (such as GDPR, CCPA, and PECR). To make the right choice, focus on evaluating these core criteria:\nData Ownership & Hosting: Decide if you need self-"
+    },
+    "Klipfolio": {
+      "brand": "Klipfolio",
+      "aliases": [
+        "Klipfolio Dashboard",
+        "Klipfolio",
+        "klipfolio"
+      ],
+      "query": "how to choose a business intelligence for marketing and operations teams at SMBs",
+      "calls": 2,
+      "triggered": true,
+      "present": false,
+      "score": 0,
+      "text_chars": 8151,
+      "text_preview": "Choosing the right Business Intelligence (BI) tool for Small and Mid-sized Businesses (SMBs) requires balancing ease-of-use with advanced data connectors, aiming for a system that connects marketing performance with operational efficiency. The ideal solution should allow non-tech"
+    },
+    "Supermetrics": {
+      "brand": "Supermetrics",
+      "aliases": [
+        "Supermetrics for Google Sheets",
+        "supermetrics",
+        "Supermetrics"
+      ],
+      "query": "how to choose a marketing analytics for digital marketing agencies and in-house marketing teams",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 7783,
+      "text_preview": "Choosing the right marketing analytics setup depends on whether you are aggregating data for multiple clients (agency) or deeply tracking a single customer journey (in-house). First, map your data sources, prioritize revenue-driven metrics over vanity metrics, and select tools th"
+    },
+    "FullStory": {
+      "brand": "FullStory",
+      "aliases": [
+        "FullStory DX",
+        "Full Story",
+        "fullstory",
+        "FullStory"
+      ],
+      "query": "how to choose a product analytics for product and UX teams at mid-market SaaS companies",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 7749,
+      "text_preview": "Choosing the right product analytics platform requires evaluating tools based on implementation effort, UX needs, data control, and scalability. Because mid-market SaaS companies balance resource limits with complex user journeys, your choice must empower both quantitative and qu"
+    },
+    "Retool": {
+      "brand": "Retool",
+      "aliases": [
+        "Retool App",
+        "retool",
+        "Retool"
+      ],
+      "query": "how to choose a internal tooling for engineering and operations teams at mid-market companies",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 8612,
+      "text_preview": "For mid-market companies, choosing internal tooling requires balancing the agility of startups with the strict compliance needs of the enterprise. Focus on automation, cross-functional collaboration, and cost-efficiency. Audit your current tech stack, identify operational bottlen"
+    },
+    "Linear": {
+      "brand": "Linear",
+      "aliases": [
+        "Linear App",
+        "linear",
+        "Linear"
+      ],
+      "query": "how to choose a project management for software development teams at fast-growing companies",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 5991,
+      "text_preview": "To choose a project management tool for a fast-growing software team, evaluate platforms based on developer integrations (like GitHub/GitLab), scalability (Agile/Scrum capacity), and adoption ease. Avoid feature bloat; prioritize tools that align directly with your engineering wo"
+    },
+    "Sentry": {
+      "brand": "Sentry",
+      "aliases": [
+        "Sentry.io",
+        "Sentry",
+        "sentry"
+      ],
+      "query": "how to choose a error monitoring for engineering teams at SaaS companies",
+      "calls": 2,
+      "triggered": true,
+      "present": false,
+      "score": 0,
+      "text_chars": 3687,
+      "text_preview": "Choosing the right error monitoring tool for a SaaS engineering team requires evaluating how well it handles high-volume telemetry, integrates into your deployment pipeline, and provides actionable, real-time alerting. Key criteria to evaluate include:\nFramework Support: Ensure d"
+    },
+    "Vercel": {
+      "brand": "Vercel",
+      "aliases": [
+        "Vercel Cloud",
+        "Vercel",
+        "vercel"
+      ],
+      "query": "how to choose a deployment for frontend engineering teams at SaaS companies",
+      "calls": 2,
+      "triggered": true,
+      "present": null,
+      "score": null,
+      "fetch_error": "Google hasn't returned any results for this query."
+    },
+    "Render": {
+      "brand": "Render",
+      "aliases": [
+        "Render Cloud",
+        "render",
+        "Render"
+      ],
+      "query": "how to choose a cloud infrastructure for startup and scale-up engineering teams",
+      "calls": 2,
+      "triggered": true,
+      "present": false,
+      "score": 0,
+      "text_chars": 8587,
+      "text_preview": "Choosing the right cloud infrastructure requires balancing developer velocity, scalability limits, and cost. Evaluate providers based on your team\u2019s size, your expected traffic patterns, and your budget runway rather than just defaulting to the biggest hyperscalers. Reddit +3\n1. "
+    },
+    "Planetscale": {
+      "brand": "Planetscale",
+      "aliases": [
+        "PlanetScale DB",
+        "Planetscale",
+        "planetscale"
+      ],
+      "query": "how to choose a database for engineering teams at fast-growing SaaS companies",
+      "calls": 2,
+      "triggered": true,
+      "present": false,
+      "score": 0,
+      "text_chars": 11673,
+      "text_preview": "For fast-growing SaaS companies, database selection must balance development velocity, multi-tenant scale, and enterprise compliance. Default to a managed, ACID-compliant relational system (OLTP) like PostgreSQL. Add purpose-built data stores (like analytical warehouses or search"
+    },
+    "Neon": {
+      "brand": "Neon",
+      "aliases": [
+        "Neon Database",
+        "Neon",
+        "neon"
+      ],
+      "query": "how to choose a database for developer teams building SaaS and AI applications",
+      "calls": 2,
+      "triggered": true,
+      "present": false,
+      "score": 0,
+      "text_chars": 7917,
+      "text_preview": "Choose a database based on your data structure, AI workload, and scale. For a standard SaaS, PostgreSQL is the industry standard due to its reliability and support for multi-tenancy. For AI, evaluate if your priority is vector search, model state management, or real-time data ing"
+    },
+    "Doppler": {
+      "brand": "Doppler",
+      "aliases": [
+        "Doppler Secrets",
+        "Doppler",
+        "doppler"
+      ],
+      "query": "how to choose a secrets management for DevOps and platform engineering teams at SaaS companies",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 11301,
+      "text_preview": "For SaaS companies, choosing a secrets management solution requires balancing developer experience (DX) with strict compliance (SOC 2, ISO 27001). Platform engineering and DevOps teams should evaluate tools based on integration friction, dynamic secret generation capabilities, de"
+    },
+    "Checkly": {
+      "brand": "Checkly",
+      "aliases": [
+        "Checkly Monitoring",
+        "checklyhq",
+        "Checkly"
+      ],
+      "query": "how to choose a monitoring for DevOps and SRE teams at SaaS companies",
+      "calls": 2,
+      "triggered": true,
+      "present": false,
+      "score": 0,
+      "text_chars": 6616,
+      "text_preview": "To choose a monitoring and observability stack for your SaaS, first evaluate the platform's ability to seamlessly correlate the Four Golden Signals\n\n(latency, traffic, errors, and saturation) across distributed microservices. Prioritize tools with transparent consumption-based pr"
+    },
+    "Raycast": {
+      "brand": "Raycast",
+      "aliases": [
+        "Raycast App",
+        "raycast",
+        "Raycast"
+      ],
+      "query": "how to choose a productivity for Mac-based developer and design teams at tech companies",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 7117,
+      "text_preview": "Choosing productivity tooling for Mac-based developer and design teams requires reducing context switching, minimizing app friction, and streamlining cross-functional handoffs. Avoid one-size-fits-all suites; instead, stack best-in-class native Mac applications that integrate dir"
+    },
+    "Rippling": {
+      "brand": "Rippling",
+      "aliases": [
+        "Rippling HR",
+        "rippling",
+        "Rippling"
+      ],
+      "query": "how to choose a HR for mid-market companies managing distributed and global teams",
+      "calls": 2,
+      "triggered": true,
+      "present": null,
+      "score": null,
+      "fetch_error": "Google hasn't returned any results for this query."
+    },
+    "Lattice": {
+      "brand": "Lattice",
+      "aliases": [
+        "Lattice Performance",
+        "lattice",
+        "Lattice"
+      ],
+      "query": "how to choose a HR for mid-market companies building high-performance cultures",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 14846,
+      "text_preview": "Choosing HR for a mid-market company (50\u20131,000 employees) requires shifting from basic administrative compliance to strategic Human Capital Management (HCM). To build a high-performance culture, prioritize HR leaders and technology that excel in business strategy alignment, data-"
+    },
+    "HiBob": {
+      "brand": "HiBob",
+      "aliases": [
+        "HiBob HRIS",
+        "hibob",
+        "HiBob"
+      ],
+      "query": "how to choose a HR for mid-market companies with distributed global workforces",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 10441,
+      "text_preview": "Choosing an HR solution for a mid-market global workforce requires moving beyond basic HR Information Systems (HRIS) toward comprehensive Human Capital Management (HCM). You must prioritize platforms with built-in multi-country compliance, automated localized payroll, and seamles"
+    },
+    "Personio": {
+      "brand": "Personio",
+      "aliases": [
+        "Personio HR",
+        "personio",
+        "Personio"
+      ],
+      "query": "how to choose a HR for European SME HR teams and people operations leads",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 8355,
+      "text_preview": "Choosing the right HR strategy and technology for a European SME means balancing strict local compliance (GDPR, regional labor laws) with agile scaling. For People Ops leads, success relies on mapping your operational needs against multi-country regulatory requirements to reduce "
+    },
+    "Leapsome": {
+      "brand": "Leapsome",
+      "aliases": [
+        "Leapsome Platform",
+        "leapsome",
+        "Leapsome"
+      ],
+      "query": "how to choose a HR for fast-growing companies with performance-driven cultures",
+      "calls": 2,
+      "triggered": true,
+      "present": false,
+      "score": 0,
+      "text_chars": 10052,
+      "text_preview": "For fast-growing companies with performance-driven cultures, avoid traditional, policy-focused HR administrators. Instead, seek \"Strategic People Partners\" or \"Talent Watchdogs\" with deep tech/scale-up experience. They should prioritize agility, data analytics, and building merit"
+    },
+    "Ashby": {
+      "brand": "Ashby",
+      "aliases": [
+        "Ashby ATS",
+        "ashby",
+        "Ashby"
+      ],
+      "query": "how to choose a ATS for talent teams at high-growth startups and scaleups",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 7609,
+      "text_preview": "Choosing an ATS for a high-growth startup or scaleup means balancing the immediate need for speed with long-term scalability. Prioritize tools with flat-rate or scalable pricing, built-in AI, and deep integrations with platforms like to automate tedious sourcing and screening. Re"
+    },
+    "Teamtailor": {
+      "brand": "Teamtailor",
+      "aliases": [
+        "Teamtailor ATS",
+        "teamtailor",
+        "Teamtailor"
+      ],
+      "query": "how to choose a ATS for mid-market companies with active employer branding programs",
+      "calls": 2,
+      "triggered": true,
+      "present": false,
+      "score": 0,
+      "text_chars": 8591,
+      "text_preview": "For mid-market companies with active employer branding, your ATS must function as both a recruitment and marketing platform. Prioritize systems that offer highly customizable, branded career pages, seamless social media sharing, and strong Candidate Relationship Management (CRM) "
+    },
+    "Charlie HR": {
+      "brand": "Charlie HR",
+      "aliases": [
+        "Charlie HR Software",
+        "Charlie HR",
+        "charliehr"
+      ],
+      "query": "how to choose a HR for small UK-based companies with 10 to 100 employees",
+      "calls": 2,
+      "triggered": true,
+      "present": false,
+      "score": 0,
+      "text_chars": 7597,
+      "text_preview": "Choosing the right HR setup for a UK business depends on your headcount, growth trajectory, and . Companies with 10\u2013100 employees generally fall into three phases: HiBob\n10\u201325 Employees (Tech First):\n\nUse intuitive UK HR software options (e.g., Breathe HR, Sage HR, or BambooHR) t"
+    },
+    "Workable": {
+      "brand": "Workable",
+      "aliases": [
+        "Workable ATS",
+        "Workable",
+        "workable"
+      ],
+      "query": "how to choose a ATS for HR teams at SMB and mid-market companies hiring at scale",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 10262,
+      "text_preview": "For SMBs and mid-market companies scaling up, a great Applicant Tracking System (ATS) must balance enterprise-level automation with intuitive, lightweight adoption. Avoid basic starter tools that lack CRM (Candidate Relationship Management) capabilities, but steer clear of bloate"
+    },
+    "Humaans": {
+      "brand": "Humaans",
+      "aliases": [
+        "Humaans HRIS",
+        "humaans",
+        "Humaans"
+      ],
+      "query": "how to choose a HR for HR teams at startups and scaleups scaling their people ops",
+      "calls": 2,
+      "triggered": true,
+      "present": false,
+      "score": 0,
+      "text_chars": 7700,
+      "text_preview": "To choose the right HR or People Ops leader for a scaling startup, define your immediate bottlenecks first. Identify if you need help with strategic recruiting, compliance and infrastructure\n\n, or culture and employee development, and hire a specialized profile rather than a gene"
+    },
+    "Chargebee": {
+      "brand": "Chargebee",
+      "aliases": [
+        "Chargebee Billing",
+        "Chargebee",
+        "chargebee"
+      ],
+      "query": "how to choose a billing for finance and revenue operations teams at SaaS companies",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 4726,
+      "text_preview": "To choose the right billing solution, evaluate your pricing model complexity, the required integrations with your CRM and ERP, and automation needs for revenue recognition. A successful evaluation aligns sales freedom with strict financial compliance. Maxio +1\nKey factors to cons"
+    },
+    "Maxio": {
+      "brand": "Maxio",
+      "aliases": [
+        "Maxio SaaS Finance",
+        "Maxio",
+        "maxio"
+      ],
+      "query": "how to choose a billing for finance teams at B2B SaaS companies with complex pricing",
+      "calls": 2,
+      "triggered": true,
+      "present": null,
+      "score": null,
+      "fetch_error": "Google hasn't returned any results for this query."
+    },
+    "ChartMogul": {
+      "brand": "ChartMogul",
+      "aliases": [
+        "ChartMogul Analytics",
+        "ChartMogul",
+        "chartmogul"
+      ],
+      "query": "how to choose a SaaS analytics for founders and finance teams at subscription SaaS businesses",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 8528,
+      "text_preview": "For founders and finance teams at subscription SaaS businesses, choosing the right analytics tool is about shifting from reactive, manual spreadsheet updates to real-time visibility into MRR/ARR, churn, and cash flow. Here is how to evaluate and choose the best solution for your "
+    },
+    "Baremetrics": {
+      "brand": "Baremetrics",
+      "aliases": [
+        "Baremetrics Dashboard",
+        "baremetrics",
+        "Baremetrics"
+      ],
+      "query": "how to choose a SaaS analytics for early-stage SaaS founders and indie developers on Stripe",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 7916,
+      "text_preview": "For early-stage founders and indie developers on Stripe, the key to choosing SaaS analytics is avoiding \"dashboard fatigue.\" You need a tool that eliminates the manual math around MRR, handles involuntary churn automatically, and connects your marketing efforts to actual revenue."
+    },
+    "Paddle": {
+      "brand": "Paddle",
+      "aliases": [
+        "Paddle Billing",
+        "Paddle",
+        "paddle"
+      ],
+      "query": "how to choose a billing for SaaS companies selling software globally across multiple geographies",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 7892,
+      "text_preview": "Choosing a global SaaS billing solution requires balancing sales tax compliance (VAT/GST), multi-currency support, and regional payment methods. The best choice depends on your company stage, ranging from all-in-one solutions that handle everything to modular stacks for enterpris"
+    },
+    "Pilot": {
+      "brand": "Pilot",
+      "aliases": [
+        "Pilot Bookkeeping",
+        "pilot",
+        "Pilot"
+      ],
+      "query": "how to choose a finance for venture-backed and bootstrapped startups needing clean financials",
+      "calls": 2,
+      "triggered": true,
+      "present": false,
+      "score": 0,
+      "text_chars": 4723,
+      "text_preview": "To choose the right financing for your startup, assess your company's stage and funding needs, whether you are bootstrapping or raising venture capital. Bootstrapped startups need disciplined unit economics and cash flow management, whereas VC-backed startups need to prepare metr"
+    },
+    "Numeric": {
+      "brand": "Numeric",
+      "aliases": [
+        "Numeric Finance",
+        "numeric",
+        "Numeric"
+      ],
+      "query": "how to choose a finance for finance teams at mid-market companies running month-end close",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 6629,
+      "text_preview": "For mid-market companies, choosing the right financial close software means balancing multi-entity complexity, your existing tech stack, and the need for standardized workflows. The best software automates routine tasks, reduces close times, and provides clear visibility into you"
+    },
+    "Finaloop": {
+      "brand": "Finaloop",
+      "aliases": [
+        "Finaloop Accounting",
+        "finaloop",
+        "Finaloop"
+      ],
+      "query": "how to choose a finance for e-commerce founders and finance teams on Shopify and Amazon",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 10547,
+      "text_preview": "Choosing the right financial stack for Shopify and Amazon requires automating the gap between raw platform data and bank settlements. Founders and finance teams must prioritize automated payout reconciliation to track net sales, fees, and refunds accurately without manual data en"
+    },
+    "Mosaic": {
+      "brand": "Mosaic",
+      "aliases": [
+        "Mosaic Finance",
+        "Mosaic",
+        "mosaic"
+      ],
+      "query": "how to choose a FP&A for CFOs and FP&A leads at growth-stage venture-backed companies",
+      "calls": 2,
+      "triggered": true,
+      "present": false,
+      "score": 0,
+      "text_chars": 10417,
+      "text_preview": "Choosing the right FP&A solution for a growth-stage startup requires balancing three core priorities: seamless data integration, driver-based modeling, and user adoption. For venture-backed companies scaling up, your choice should move beyond manual, error-prone spreadsheets with"
+    },
+    "Rho": {
+      "brand": "Rho",
+      "aliases": [
+        "Rho Finance",
+        "Rho",
+        "rho"
+      ],
+      "query": "how to choose a finance for finance teams at venture-backed startups managing spend and AP",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 8332,
+      "text_preview": "Choosing the right finance stack for a venture-backed startup requires balancing speed, real-time visibility, and scalability. To effectively manage company spend and Accounts Payable (AP), evaluate platforms based on how well they integrate with your accounting system, automate "
+    },
+    "Customer.io": {
+      "brand": "Customer.io",
+      "aliases": [
+        "Customer.io CX",
+        "Customer.io",
+        "customer"
+      ],
+      "query": "how to choose a marketing automation for product-led growth and lifecycle marketing teams at SaaS companies",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 6266,
+      "text_preview": "Choose a marketing automation platform for Product-Led Growth (PLG) by prioritizing real-time product usage data integration, event-triggered automated journeys\n\n, and Product Qualified Lead (PQL) scoring. Select a tool that unifies behavioral telemetry with customer relationship"
+    },
+    "Lemlist": {
+      "brand": "Lemlist",
+      "aliases": [
+        "Lemlist Email",
+        "Lemlist",
+        "lemlist"
+      ],
+      "query": "how to choose a sales engagement for sales teams and growth marketers at B2B companies doing outbound",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 7614,
+      "text_preview": "To choose the best Sales Engagement Platform (SEP) for a B2B outbound team, prioritize software that bridges the gap between sales and marketing. You need a tool that handles multi-channel outreach (email, cold calling, LinkedIn), automates sequences, and ensures deliverability w"
+    },
+    "Instantly": {
+      "brand": "Instantly",
+      "aliases": [
+        "Instantly AI",
+        "Instantly",
+        "instantly"
+      ],
+      "query": "how to choose a sales engagement for SDR teams and growth hackers running high-volume cold email campaigns",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 5492,
+      "text_preview": "To choose the right sales engagement platform (SEP) for high-volume cold email, prioritize solutions with native deliverability infrastructure (custom domain warming and DNS management), deep data enrichment to fuel hyper-personalization, and signal-based automated workflows to e"
+    },
+    "Reply.io": {
+      "brand": "Reply.io",
+      "aliases": [
+        "Reply.io Sales",
+        "Reply.io",
+        "reply"
+      ],
+      "query": "how to choose a sales engagement for sales teams at B2B SaaS companies running outbound sequences",
+      "calls": 2,
+      "triggered": true,
+      "present": false,
+      "score": 0,
+      "text_chars": 10329,
+      "text_preview": "To choose the right sales engagement platform (SEP) for a B2B SaaS outbound operation, evaluate tools based on how they handle deliverability protection, signal-based triggering\n\n, and CRM synchronization. The goal is to maximize multi-channel touchpoints while protecting your do"
+    },
+    "ActiveCampaign": {
+      "brand": "ActiveCampaign",
+      "aliases": [
+        "ActiveCampaign Email",
+        "activecampaign",
+        "ActiveCampaign"
+      ],
+      "query": "how to choose a marketing automation for SMB and mid-market marketing teams running email and CRM programs",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 7511,
+      "text_preview": "To choose a marketing automation platform, outline your contact volume, sales cycle complexity, and integration requirements. Lean teams should prioritize native CRM connectivity, visual drag-and-drop builders, and dynamic segmentation to prevent disjointed customer experiences a"
+    }
+  },
+  "calls_used": 108,
+  "started_at": "2026-06-11T11:08:35Z"
+}

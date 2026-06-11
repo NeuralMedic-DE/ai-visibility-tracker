@@ -6,16 +6,26 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-RESULTS_FILE = ROOT / "scripts" / "google_aio_results_2026-06-11.json"
+# Prefer v2 (async-fetched, real AI Overview text) over v1 (no async, all zeros)
+V2_FILE = ROOT / "scripts" / "google_aio_v2_progress.json"
+V1_FILE = ROOT / "scripts" / "google_aio_results_2026-06-11.json"
 LEADERBOARD_FILE = ROOT / "data" / "leaderboard.json"
 
 
 def main() -> int:
-    if not RESULTS_FILE.exists():
-        print(f"ERROR: {RESULTS_FILE} not found — run the scoring script first")
+    results_file = V2_FILE if V2_FILE.exists() else V1_FILE
+    if not results_file.exists():
+        print(f"ERROR: neither v1 nor v2 results file found — run the scoring script first")
         return 1
-    results = json.loads(RESULTS_FILE.read_text())
-    by_brand = {name: rec.get("google_aio_score", 0) for name, rec in results["brands"].items()}
+    print(f"using results file: {results_file.relative_to(ROOT)}")
+    results = json.loads(results_file.read_text())
+    # Skip brands with score=None (couldn't fetch). Only merge real 0/100 signals.
+    by_brand: dict[str, int] = {}
+    for name, rec in results["brands"].items():
+        score = rec.get("score") if "score" in rec else rec.get("google_aio_score")
+        if score is None:
+            continue
+        by_brand[name] = int(score)
     print(f"loaded {len(by_brand)} brand scores from results file")
 
     leaderboard = json.loads(LEADERBOARD_FILE.read_text())
