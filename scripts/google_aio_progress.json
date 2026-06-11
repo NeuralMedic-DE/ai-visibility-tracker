@@ -342,8 +342,93 @@
       "al01_present": false,
       "al01_text_preview": "NO_AI_OVERVIEW",
       "google_aio_score": 0
+    },
+    "Retool": {
+      "brand": "Retool",
+      "aliases": [
+        "Retool App",
+        "retool",
+        "Retool"
+      ],
+      "cd01_prompt": "What is the best internal tooling for engineering and operations teams at mid-market companies?",
+      "cd01_triggered": false,
+      "cd01_present": false,
+      "cd01_text_preview": "NO_AI_OVERVIEW",
+      "al01_prompt": "Alternatives to AppSmith for engineering and operations teams at mid-market companies",
+      "al01_triggered": false,
+      "al01_present": false,
+      "al01_text_preview": "NO_AI_OVERVIEW",
+      "google_aio_score": 0
+    },
+    "Linear": {
+      "brand": "Linear",
+      "aliases": [
+        "Linear App",
+        "linear",
+        "Linear"
+      ],
+      "cd01_prompt": "What is the best project management for software development teams at fast-growing companies?",
+      "cd01_triggered": false,
+      "cd01_present": false,
+      "cd01_text_preview": "NO_AI_OVERVIEW",
+      "al01_prompt": "Alternatives to Jira for software development teams at fast-growing companies",
+      "al01_triggered": false,
+      "al01_present": false,
+      "al01_text_preview": "NO_AI_OVERVIEW",
+      "google_aio_score": 0
+    },
+    "Sentry": {
+      "brand": "Sentry",
+      "aliases": [
+        "Sentry.io",
+        "sentry",
+        "Sentry"
+      ],
+      "cd01_prompt": "What is the best error monitoring for engineering teams at SaaS companies?",
+      "cd01_triggered": false,
+      "cd01_present": false,
+      "cd01_text_preview": "NO_AI_OVERVIEW",
+      "al01_prompt": "Alternatives to Datadog for engineering teams at SaaS companies",
+      "al01_triggered": false,
+      "al01_present": false,
+      "al01_text_preview": "NO_AI_OVERVIEW",
+      "google_aio_score": 0
+    },
+    "Vercel": {
+      "brand": "Vercel",
+      "aliases": [
+        "Vercel Cloud",
+        "Vercel",
+        "vercel"
+      ],
+      "cd01_prompt": "What is the best deployment for frontend engineering teams at SaaS companies?",
+      "cd01_triggered": false,
+      "cd01_present": false,
+      "cd01_text_preview": "NO_AI_OVERVIEW",
+      "al01_prompt": "Alternatives to Netlify for frontend engineering teams at SaaS companies",
+      "al01_triggered": false,
+      "al01_present": false,
+      "al01_text_preview": "NO_AI_OVERVIEW",
+      "google_aio_score": 0
+    },
+    "Render": {
+      "brand": "Render",
+      "aliases": [
+        "Render Cloud",
+        "render",
+        "Render"
+      ],
+      "cd01_prompt": "What is the best cloud infrastructure for startup and scale-up engineering teams?",
+      "cd01_triggered": false,
+      "cd01_present": false,
+      "cd01_text_preview": "NO_AI_OVERVIEW",
+      "al01_prompt": "Alternatives to Heroku for startup and scale-up engineering teams",
+      "al01_triggered": false,
+      "al01_present": false,
+      "al01_text_preview": "NO_AI_OVERVIEW",
+      "google_aio_score": 0
     }
   },
-  "queries_used": 40,
+  "queries_used": 50,
   "started_at": "2026-06-11T10:58:33Z"
 }
