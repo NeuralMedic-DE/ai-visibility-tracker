@@ -81,18 +81,30 @@ export async function GET() {
   const failed = results.filter((r) => !r.ok);
   const healthy = failed.length === 0;
 
+  // Surface EMAIL_DRY_RUN misconfiguration so a single /api/health probe
+  // catches it without needing a separate /api/health/email call.
+  const emailDryRunInProd =
+    process.env.EMAIL_DRY_RUN === '1' && process.env.NODE_ENV === 'production';
+
+  const overallHealthy = healthy && !emailDryRunInProd;
+
   const body = {
-    status: healthy ? 'ok' : 'degraded',
+    status: overallHealthy ? 'ok' : 'degraded',
     supabase_project: supabaseUrl.match(/\/\/([^.]+)/)?.[1] ?? 'unknown',
     tables_ok: results.filter((r) => r.ok).length,
     tables_total: REQUIRED_TABLES.length,
     ...(failed.length > 0 && {
       missing_tables: failed.map((r) => r.table),
     }),
+    ...(emailDryRunInProd && {
+      email_misconfigured:
+        'EMAIL_DRY_RUN=1 is set in production — no emails will be delivered. ' +
+        'Remove it from Vercel Settings → Environment Variables → Production and redeploy.',
+    }),
     email_health: '/api/health/email',
     commit_sha: (process.env.VERCEL_GIT_COMMIT_SHA ?? 'local').slice(0, 7),
     checked_at: new Date().toISOString(),
   };
 
-  return NextResponse.json(body, { status: healthy ? 200 : 503 });
+  return NextResponse.json(body, { status: overallHealthy ? 200 : 503 });
 }
