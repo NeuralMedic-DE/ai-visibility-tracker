@@ -34,5 +34,6 @@ create index if not exists email_log_type_sent
 -- Row Level Security — service role only
 alter table public.email_log enable row level security;
 
+drop policy if exists "email_log_service_only" on public.email_log;
 create policy "email_log_service_only" on public.email_log
   for all using (auth.role() = 'service_role');

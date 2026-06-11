@@ -39,6 +39,7 @@ comment on table public.tracked_brands is
 alter table public.tracked_brands enable row level security;
 
 -- Authenticated users can SELECT their own row (via customer email → customers.id join)
+drop policy if exists "tracked_brands_own_select" on public.tracked_brands;
 create policy "tracked_brands_own_select" on public.tracked_brands
   for select using (
     customer_id in (
@@ -48,6 +49,7 @@ create policy "tracked_brands_own_select" on public.tracked_brands
   );
 
 -- Service role gets full access (server-side writes)
+drop policy if exists "tracked_brands_service_all" on public.tracked_brands;
 create policy "tracked_brands_service_all" on public.tracked_brands
   for all using (auth.role() = 'service_role');
 
@@ -83,6 +85,7 @@ comment on table public.customer_scoring_runs is
 alter table public.customer_scoring_runs enable row level security;
 
 -- Authenticated users can SELECT their own rows
+drop policy if exists "scoring_runs_own_select" on public.customer_scoring_runs;
 create policy "scoring_runs_own_select" on public.customer_scoring_runs
   for select using (
     customer_id in (
@@ -92,6 +95,7 @@ create policy "scoring_runs_own_select" on public.customer_scoring_runs
   );
 
 -- Service role gets full access
+drop policy if exists "scoring_runs_service_all" on public.customer_scoring_runs;
 create policy "scoring_runs_service_all" on public.customer_scoring_runs
   for all using (auth.role() = 'service_role');
 

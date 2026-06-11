@@ -35,6 +35,7 @@ comment on table public.scoring_jobs is
 alter table public.scoring_jobs enable row level security;
 
 -- Customers can read their own jobs
+drop policy if exists "scoring_jobs_own_select" on public.scoring_jobs;
 create policy "scoring_jobs_own_select" on public.scoring_jobs
   for select using (
     customer_id in (
@@ -44,6 +45,7 @@ create policy "scoring_jobs_own_select" on public.scoring_jobs
   );
 
 -- Service role gets full access (scorer + cron write, API reads)
+drop policy if exists "scoring_jobs_service_all" on public.scoring_jobs;
 create policy "scoring_jobs_service_all" on public.scoring_jobs
   for all using (auth.role() = 'service_role');
 

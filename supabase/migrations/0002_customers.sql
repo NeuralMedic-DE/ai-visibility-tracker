@@ -36,6 +36,7 @@ create index if not exists customers_stripe_subscription_id
 -- Row Level Security — service role only (webhook uses service role)
 alter table public.customers enable row level security;
 
+drop policy if exists "customers_service_only" on public.customers;
 create policy "customers_service_only" on public.customers
   for all using (auth.role() = 'service_role');
 

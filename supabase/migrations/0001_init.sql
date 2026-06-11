@@ -93,25 +93,31 @@ alter table public.runs      enable row level security;
 alter table public.scores    enable row level security;
 
 -- waitlist: only service role (no anon access)
+drop policy if exists "waitlist_service_only" on public.waitlist;
 create policy "waitlist_service_only" on public.waitlist
   for all using (auth.role() = 'service_role');
 
 -- brands: anyone can read
+drop policy if exists "brands_public_read" on public.brands;
 create policy "brands_public_read" on public.brands
   for select using (true);
 
 -- brands: only service role can write
+drop policy if exists "brands_service_write" on public.brands;
 create policy "brands_service_write" on public.brands
   for all using (auth.role() = 'service_role');
 
 -- runs: only service role
+drop policy if exists "runs_service_only" on public.runs;
 create policy "runs_service_only" on public.runs
   for all using (auth.role() = 'service_role');
 
 -- scores: anyone can read
+drop policy if exists "scores_public_read" on public.scores;
 create policy "scores_public_read" on public.scores
   for select using (true);
 
 -- scores: only service role can write
+drop policy if exists "scores_service_write" on public.scores;
 create policy "scores_service_write" on public.scores
   for all using (auth.role() = 'service_role');
