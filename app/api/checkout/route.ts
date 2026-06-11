@@ -1,17 +1,16 @@
 import { NextRequest, NextResponse } from "next/server";
 import { stripe, PLANS } from "@/lib/stripe";
 import { createClient } from "@/lib/supabase/server";
+import { subscriptionsLive } from "@/lib/subscription-flag";
 
 type PlanKey = keyof typeof PLANS;
 
 export async function POST(req: NextRequest) {
   // ── 0. Server-side subscriptions gate ─────────────────────────────────────
-  // Mirror the EXACT same flag check used by pricing/page.tsx and app/page.tsx.
-  // Prevents direct-POST bypass when the storefront shows "Notify me" buttons.
-  // IMPORTANT: keep this date in sync with isSubscriptionsLive() in those pages.
-  const flagOn = process.env.SUBSCRIPTIONS_LIVE === "true";
-  const dateReached = new Date().toISOString().slice(0, 10) >= "2026-06-17";
-  if (!flagOn || !dateReached) {
+  // Single source of truth in lib/subscription-flag.ts — requires BOTH
+  // SUBSCRIPTIONS_LIVE=true AND date >= 2026-06-17. Prevents direct-POST bypass
+  // when the storefront shows "Notify me" buttons.
+  if (!subscriptionsLive()) {
     return NextResponse.json(
       { error: "Subscriptions are not yet open." },
       { status: 403 }

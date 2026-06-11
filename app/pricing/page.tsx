@@ -4,6 +4,7 @@ import { PricingCard } from "@/components/PricingCard";
 import { CheckoutButton } from "@/components/CheckoutButton";
 import { PricingBanner } from "@/components/PricingBanner";
 import { WaitlistForm } from "@/components/WaitlistForm";
+import { subscriptionsLive as isSubscriptionsLive } from "@/lib/subscription-flag";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -16,16 +17,7 @@ export const metadata: Metadata = {
   },
 };
 
-// ── Server-side feature flag ──────────────────────────────────────────────────
-// Subscriptions are open when BOTH:
-//   1. SUBSCRIPTIONS_LIVE=true is set in the environment
-//   2. Today's date is on or after 2026-06-17
-// This check runs at render time on the server — no client JS involved.
-function isSubscriptionsLive(): boolean {
-  const flagOn = process.env.SUBSCRIPTIONS_LIVE === "true";
-  const dateReached = new Date().toISOString().slice(0, 10) >= "2026-06-17";
-  return flagOn && dateReached;
-}
+// Subscriptions feature flag — see lib/subscription-flag.ts.
 
 // ── Plan features ─────────────────────────────────────────────────────────────
 
