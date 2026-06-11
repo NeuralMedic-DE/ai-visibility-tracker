@@ -1,13 +1,21 @@
 /**
  * lib/email-templates/welcome.ts
  *
- * Welcome email sent on checkout.session.completed.
+ * Welcome email sent on checkout.session.completed. Uses the shared
+ * NeuralReach email layout for consistent branding.
  *
- * Design: "CEO email" pattern (plain text body, minimal chrome).
- * Copy sourced from state/artifacts/marketing/email_nurture_sequence.md — Email #1.
- * Sender: NeuralReach <hello@mail.neuralreach.de> (transactional subdomain)
- * ReplyTo: jonas@neuralreach.de (founder inbox — humanises the thread)
+ * Sender:   NeuralReach <hello@mail.neuralreach.de>
+ * Reply-To: jonas@neuralreach.de
  */
+
+import {
+  wrapEmail,
+  paragraph,
+  leadParagraph,
+  button,
+  signoff,
+  link,
+} from "./layout";
 
 interface WelcomeParams {
   appUrl: string;
@@ -18,61 +26,44 @@ export function welcomeEmail({ appUrl }: WelcomeParams): {
   html: string;
   text: string;
 } {
-  const subject = "Your NeuralReach account is ready — here's what happens next";
-
+  const subject = "Your NeuralReach account is live";
   const dashboardUrl = `${appUrl}/dashboard`;
 
-  // ── Plain text (primary) ───────────────────────────────────────────────────
-  // Plain-text CEO-style copy from email_nurture_sequence.md Email #1.
-  // No first_name available at webhook time — use generic greeting.
-  const text = `Hi there,
+  const openerText = "Welcome to NeuralReach. Your account is live.";
+  const contextText =
+    "First scan runs automatically in the background. You'll get the full report in your dashboard in about 10 minutes, and the first weekly digest by email next Monday.";
+  const questionText =
+    "One question before you dive in: what's the single brand you most want benchmarked, and which 2 or 3 competitors should we compare against? Just hit reply with the names.";
 
-Your NeuralReach account is live — you can log in here:
+  // ── Plain-text body ────────────────────────────────────────────────────
+  const text = `${openerText}
+
+Your dashboard:
 ${dashboardUrl}
 
-Quick question before you dive in: what's the #1 brand you want to track?
-Reply here and I'll make sure the prompt set we suggest actually fits your category.
+${contextText}
 
-(If you don't see this email or the login link, check spam — it comes from jonas@neuralreach.de)
+${questionText}
 
-— Jonas
-Founder, NeuralReach
+Jonas
+NeuralReach
+jonas@neuralreach.de
 `;
 
-  // ── HTML (lightweight wrapper so email clients render it nicely) ───────────
-  // Intentionally minimal — mirrors the plain-text feel to signal a human sender.
-  const html = `<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>${subject}</title>
-</head>
-<body style="margin:0;padding:40px 20px;background:#ffffff;
-             font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
-             font-size:16px;line-height:1.7;color:#1f2937;max-width:600px;">
+  // ── HTML body ──────────────────────────────────────────────────────────
+  const bodyHtml = [
+    leadParagraph(openerText),
+    paragraph(`Open your dashboard: ${link(dashboardUrl, "neuralreach.de/dashboard")}`),
+    button(dashboardUrl, "Open Dashboard"),
+    paragraph(contextText),
+    paragraph(questionText),
+    signoff(),
+  ].join("\n");
 
-  <p>Hi there,</p>
+  const preheader =
+    "Your dashboard is ready. First scan runs in the background; full report in about 10 minutes.";
 
-  <p>Your NeuralReach account is live — you can log in here:<br />
-     <a href="${dashboardUrl}" style="color:#2563eb;">${dashboardUrl}</a>
-  </p>
-
-  <p>Quick question before you dive in: <strong>what's the #1 brand you want to track?</strong><br />
-     Reply here and I'll make sure the prompt set we suggest actually fits your category.
-  </p>
-
-  <p style="color:#6b7280;font-size:14px;">
-    (If you don't see this email or the login link, check spam — it comes from
-    <a href="mailto:jonas@neuralreach.de" style="color:#6b7280;">jonas@neuralreach.de</a>)
-  </p>
-
-  <p style="margin-top:32px;">— Jonas<br />
-     <span style="color:#6b7280;">Founder, NeuralReach</span>
-  </p>
-
-</body>
-</html>`;
+  const html = wrapEmail(bodyHtml, { preheader, title: subject });
 
   return { subject, html, text };
 }

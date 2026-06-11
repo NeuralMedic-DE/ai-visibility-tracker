@@ -2,12 +2,20 @@
  * lib/email-templates/trial-ending.ts
  *
  * Sent 3 days before a trial ends (customer.subscription.trial_will_end).
- * Goal: remind the user what they'll get billed, link to the dashboard,
- * and surface a reply-to-cancel escape hatch so they don't file a chargeback.
+ * Uses the shared NeuralReach email layout for consistent branding.
  *
- * Sender: NeuralReach <hello@mail.neuralreach.de> (transactional subdomain)
- * ReplyTo: jonas@neuralreach.de (founder inbox)
+ * Sender:   NeuralReach <hello@mail.neuralreach.de>
+ * Reply-To: jonas@neuralreach.de
  */
+
+import {
+  wrapEmail,
+  paragraph,
+  leadParagraph,
+  button,
+  signoff,
+  footnote,
+} from "./layout";
 
 interface TrialEndingParams {
   /** Human-readable date string, e.g. "June 4, 2026" */
@@ -24,57 +32,43 @@ export function trialEndingEmail({
   html: string;
   text: string;
 } {
-  const subject = `Your NeuralReach trial ends on ${trialEndDate} — a quick heads-up`;
+  const subject = `Heads-up: your NeuralReach trial ends ${trialEndDate}`;
   const dashboardUrl = `${appUrl}/dashboard`;
 
-  // ── Plain text ────────────────────────────────────────────────────────────────
-  const text = `Hi there,
+  const openerText = `A quick heads-up: your free trial ends on ${trialEndDate}.`;
+  const billingText =
+    "After that your card gets charged so your AI visibility tracking keeps running without interruption.";
+  const cancelText =
+    "If you want to cancel before being billed, you can do it from your dashboard or just hit reply. No hard feelings either way. If you decide to cancel, I'd love to hear what would have made it worth keeping.";
 
-Just a heads-up: your NeuralReach free trial ends on ${trialEndDate}.
+  // ── Plain-text body ────────────────────────────────────────────────────
+  const text = `${openerText}
 
-After that, your card will be charged automatically so your AI Visibility tracking keeps running without interruption.
+${billingText}
 
-If you'd like to cancel before being billed, just reply to this email or visit your dashboard:
+Your dashboard:
 ${dashboardUrl}
 
-No hard feelings either way — I'd love to know what's holding you back if you decide to cancel.
+${cancelText}
 
-— Jonas
-Founder, NeuralReach
+Jonas
+NeuralReach
+jonas@neuralreach.de
 `;
 
-  // ── HTML ──────────────────────────────────────────────────────────────────────
-  const html = `<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>${subject}</title>
-</head>
-<body style="margin:0;padding:40px 20px;background:#ffffff;
-             font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
-             font-size:16px;line-height:1.7;color:#1f2937;max-width:600px;">
+  // ── HTML body ──────────────────────────────────────────────────────────
+  const bodyHtml = [
+    leadParagraph(openerText),
+    paragraph(billingText),
+    button(dashboardUrl, "Open Dashboard"),
+    paragraph(cancelText),
+    signoff(),
+    footnote("This is a one-time heads-up email tied to your active trial."),
+  ].join("\n");
 
-  <p>Hi there,</p>
+  const preheader = `Your trial ends ${trialEndDate}. Cancel from the dashboard or hit reply.`;
 
-  <p>Just a heads-up: your NeuralReach free trial ends on <strong>${trialEndDate}</strong>.</p>
-
-  <p>After that, your card will be charged automatically so your AI Visibility tracking keeps running without interruption.</p>
-
-  <p>If you'd like to cancel before being billed, just reply to this email or visit your dashboard:<br />
-     <a href="${dashboardUrl}" style="color:#2563eb;">${dashboardUrl}</a>
-  </p>
-
-  <p style="color:#6b7280;font-size:14px;">
-    No hard feelings either way — I'd love to know what's holding you back if you decide to cancel.
-  </p>
-
-  <p style="margin-top:32px;">— Jonas<br />
-     <span style="color:#6b7280;">Founder, NeuralReach</span>
-  </p>
-
-</body>
-</html>`;
+  const html = wrapEmail(bodyHtml, { preheader, title: subject });
 
   return { subject, html, text };
 }
