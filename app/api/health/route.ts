@@ -16,6 +16,11 @@
 
 import { NextResponse } from 'next/server';
 
+// Prevent Vercel edge from caching this response even when the upstream
+// Next.js route sets Cache-Control: no-store (edge honours its own TTL
+// unless the route is explicitly opted out of static rendering).
+export const dynamic = 'force-dynamic';
+
 const REQUIRED_TABLES = [
   'customers',
   'tracked_brands',
@@ -85,6 +90,7 @@ export async function GET() {
       missing_tables: failed.map((r) => r.table),
     }),
     email_health: '/api/health/email',
+    commit_sha: (process.env.VERCEL_GIT_COMMIT_SHA ?? 'local').slice(0, 7),
     checked_at: new Date().toISOString(),
   };
 

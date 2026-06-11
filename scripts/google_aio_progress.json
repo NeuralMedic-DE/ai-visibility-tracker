@@ -1,0 +1,349 @@
+{
+  "brands": {
+    "Pipedrive": {
+      "brand": "Pipedrive",
+      "aliases": [
+        "Pipedrive CRM",
+        "pipedrive",
+        "Pipedrive"
+      ],
+      "cd01_prompt": "What is the best CRM for small and mid-size sales teams?",
+      "cd01_triggered": false,
+      "cd01_present": false,
+      "cd01_text_preview": "NO_AI_OVERVIEW",
+      "al01_prompt": "Alternatives to HubSpot for small and mid-size sales teams",
+      "al01_triggered": false,
+      "al01_present": false,
+      "al01_text_preview": "NO_AI_OVERVIEW",
+      "google_aio_score": 0
+    },
+    "Close": {
+      "brand": "Close",
+      "aliases": [
+        "Close CRM",
+        "close.io",
+        "Close",
+        "close"
+      ],
+      "cd01_prompt": "What is the best CRM for early-stage startups?",
+      "cd01_triggered": false,
+      "cd01_present": false,
+      "cd01_text_preview": "NO_AI_OVERVIEW",
+      "al01_prompt": "Alternatives to Pipedrive for early-stage startups",
+      "al01_triggered": false,
+      "al01_present": false,
+      "al01_text_preview": "NO_AI_OVERVIEW",
+      "google_aio_score": 0
+    },
+    "Attio": {
+      "brand": "Attio",
+      "aliases": [
+        "attio.com",
+        "Attio",
+        "attio"
+      ],
+      "cd01_prompt": "What is the best CRM for B2B startups?",
+      "cd01_triggered": false,
+      "cd01_present": false,
+      "cd01_text_preview": "NO_AI_OVERVIEW",
+      "al01_prompt": "Alternatives to Salesforce for B2B startups",
+      "al01_triggered": false,
+      "al01_present": false,
+      "al01_text_preview": "NO_AI_OVERVIEW",
+      "google_aio_score": 0
+    },
+    "Apollo.io": {
+      "brand": "Apollo.io",
+      "aliases": [
+        "Apollo io",
+        "Apollo.io",
+        "Apollo",
+        "apollo"
+      ],
+      "cd01_prompt": "What is the best CRM for SDR teams at B2B companies?",
+      "cd01_triggered": false,
+      "cd01_present": false,
+      "cd01_text_preview": "NO_AI_OVERVIEW",
+      "al01_prompt": "Alternatives to ZoomInfo for SDR teams at B2B companies",
+      "al01_triggered": false,
+      "al01_present": false,
+      "al01_text_preview": "NO_AI_OVERVIEW",
+      "google_aio_score": 0
+    },
+    "Salesflare": {
+      "brand": "Salesflare",
+      "aliases": [
+        "Salesflare CRM",
+        "salesflare",
+        "Salesflare"
+      ],
+      "cd01_prompt": "What is the best CRM for small B2B teams and agencies?",
+      "cd01_triggered": false,
+      "cd01_present": false,
+      "cd01_text_preview": "NO_AI_OVERVIEW",
+      "al01_prompt": "Alternatives to Pipedrive for small B2B teams and agencies",
+      "al01_triggered": false,
+      "al01_present": false,
+      "al01_text_preview": "NO_AI_OVERVIEW",
+      "google_aio_score": 0
+    },
+    "Copper": {
+      "brand": "Copper",
+      "aliases": [
+        "Copper CRM",
+        "copper",
+        "Copper"
+      ],
+      "cd01_prompt": "What is the best CRM for Google Workspace power users?",
+      "cd01_triggered": false,
+      "cd01_present": false,
+      "cd01_text_preview": "NO_AI_OVERVIEW",
+      "al01_prompt": "Alternatives to HubSpot for Google Workspace power users",
+      "al01_triggered": false,
+      "al01_present": false,
+      "al01_text_preview": "NO_AI_OVERVIEW",
+      "google_aio_score": 0
+    },
+    "Nutshell": {
+      "brand": "Nutshell",
+      "aliases": [
+        "Nutshell CRM",
+        "Nutshell",
+        "nutshell"
+      ],
+      "cd01_prompt": "What is the best CRM for small and mid-size B2B sales teams?",
+      "cd01_triggered": false,
+      "cd01_present": false,
+      "cd01_text_preview": "NO_AI_OVERVIEW",
+      "al01_prompt": "Alternatives to HubSpot for small and mid-size B2B sales teams",
+      "al01_triggered": false,
+      "al01_present": false,
+      "al01_text_preview": "NO_AI_OVERVIEW",
+      "google_aio_score": 0
+    },
+    "LeadIQ": {
+      "brand": "LeadIQ",
+      "aliases": [
+        "LeadIQ Prospecting",
+        "LeadIQ",
+        "leadiq"
+      ],
+      "cd01_prompt": "What is the best CRM for SDR and outbound sales teams?",
+      "cd01_triggered": false,
+      "cd01_present": false,
+      "cd01_text_preview": "NO_AI_OVERVIEW",
+      "al01_prompt": "Alternatives to ZoomInfo for SDR and outbound sales teams",
+      "al01_triggered": false,
+      "al01_present": false,
+      "al01_text_preview": "NO_AI_OVERVIEW",
+      "google_aio_score": 0
+    },
+    "Folk": {
+      "brand": "Folk",
+      "aliases": [
+        "Folk CRM",
+        "folk",
+        "Folk"
+      ],
+      "cd01_prompt": "What is the best CRM for startup founders and agency leads?",
+      "cd01_triggered": false,
+      "cd01_present": false,
+      "cd01_text_preview": "NO_AI_OVERVIEW",
+      "al01_prompt": "Alternatives to HubSpot for startup founders and agency leads",
+      "al01_triggered": false,
+      "al01_present": false,
+      "al01_text_preview": "NO_AI_OVERVIEW",
+      "google_aio_score": 0
+    },
+    "Amplemarket": {
+      "brand": "Amplemarket",
+      "aliases": [
+        "Amplemarket AI",
+        "Amplemarket",
+        "amplemarket"
+      ],
+      "cd01_prompt": "What is the best CRM for outbound sales teams at B2B companies?",
+      "cd01_triggered": false,
+      "cd01_present": false,
+      "cd01_text_preview": "NO_AI_OVERVIEW",
+      "al01_prompt": "Alternatives to Apollo.io for outbound sales teams at B2B companies",
+      "al01_triggered": false,
+      "al01_present": false,
+      "al01_text_preview": "NO_AI_OVERVIEW",
+      "google_aio_score": 0
+    },
+    "Mixpanel": {
+      "brand": "Mixpanel",
+      "aliases": [
+        "Mixpanel Analytics",
+        "Mixpanel",
+        "mixpanel"
+      ],
+      "cd01_prompt": "What is the best product analytics for product and growth teams at SaaS companies?",
+      "cd01_triggered": false,
+      "cd01_present": false,
+      "cd01_text_preview": "NO_AI_OVERVIEW",
+      "al01_prompt": "Alternatives to Amplitude for product and growth teams at SaaS companies",
+      "al01_triggered": false,
+      "al01_present": false,
+      "al01_text_preview": "NO_AI_OVERVIEW",
+      "google_aio_score": 0
+    },
+    "Amplitude": {
+      "brand": "Amplitude",
+      "aliases": [
+        "Amplitude Analytics",
+        "amplitude",
+        "Amplitude"
+      ],
+      "cd01_prompt": "What is the best product analytics for mid-market to enterprise product teams?",
+      "cd01_triggered": false,
+      "cd01_present": false,
+      "cd01_text_preview": "NO_AI_OVERVIEW",
+      "al01_prompt": "Alternatives to Mixpanel for mid-market to enterprise product teams",
+      "al01_triggered": false,
+      "al01_present": false,
+      "al01_text_preview": "NO_AI_OVERVIEW",
+      "google_aio_score": 0
+    },
+    "PostHog": {
+      "brand": "PostHog",
+      "aliases": [
+        "PostHog Analytics",
+        "PostHog",
+        "posthog"
+      ],
+      "cd01_prompt": "What is the best product analytics for developer-led product teams?",
+      "cd01_triggered": false,
+      "cd01_present": false,
+      "cd01_text_preview": "NO_AI_OVERVIEW",
+      "al01_prompt": "Alternatives to Mixpanel for developer-led product teams",
+      "al01_triggered": false,
+      "al01_present": false,
+      "al01_text_preview": "NO_AI_OVERVIEW",
+      "google_aio_score": 0
+    },
+    "Pendo": {
+      "brand": "Pendo",
+      "aliases": [
+        "Pendo.io",
+        "pendo",
+        "Pendo"
+      ],
+      "cd01_prompt": "What is the best product analytics for enterprise SaaS product teams?",
+      "cd01_triggered": false,
+      "cd01_present": false,
+      "cd01_text_preview": "NO_AI_OVERVIEW",
+      "al01_prompt": "Alternatives to Amplitude for enterprise SaaS product teams",
+      "al01_triggered": false,
+      "al01_present": false,
+      "al01_text_preview": "NO_AI_OVERVIEW",
+      "google_aio_score": 0
+    },
+    "June.so": {
+      "brand": "June.so",
+      "aliases": [
+        "June.so",
+        "june",
+        "June"
+      ],
+      "cd01_prompt": "What is the best product analytics for early-stage B2B SaaS teams?",
+      "cd01_triggered": false,
+      "cd01_present": false,
+      "cd01_text_preview": "NO_AI_OVERVIEW",
+      "al01_prompt": "Alternatives to Mixpanel for early-stage B2B SaaS teams",
+      "al01_triggered": false,
+      "al01_present": false,
+      "al01_text_preview": "NO_AI_OVERVIEW",
+      "google_aio_score": 0
+    },
+    "Metabase": {
+      "brand": "Metabase",
+      "aliases": [
+        "Metabase BI",
+        "Metabase",
+        "metabase"
+      ],
+      "cd01_prompt": "What is the best business intelligence for data and operations teams at startups and SMBs?",
+      "cd01_triggered": false,
+      "cd01_present": false,
+      "cd01_text_preview": "NO_AI_OVERVIEW",
+      "al01_prompt": "Alternatives to Tableau for data and operations teams at startups and SMBs",
+      "al01_triggered": false,
+      "al01_present": false,
+      "al01_text_preview": "NO_AI_OVERVIEW",
+      "google_aio_score": 0
+    },
+    "Plausible": {
+      "brand": "Plausible",
+      "aliases": [
+        "Plausible Analytics",
+        "plausible",
+        "Plausible"
+      ],
+      "cd01_prompt": "What is the best web analytics for privacy-conscious SaaS founders and developers?",
+      "cd01_triggered": false,
+      "cd01_present": false,
+      "cd01_text_preview": "NO_AI_OVERVIEW",
+      "al01_prompt": "Alternatives to Google Analytics for privacy-conscious SaaS founders and developers",
+      "al01_triggered": false,
+      "al01_present": false,
+      "al01_text_preview": "NO_AI_OVERVIEW",
+      "google_aio_score": 0
+    },
+    "Klipfolio": {
+      "brand": "Klipfolio",
+      "aliases": [
+        "Klipfolio Dashboard",
+        "klipfolio",
+        "Klipfolio"
+      ],
+      "cd01_prompt": "What is the best business intelligence for marketing and operations teams at SMBs?",
+      "cd01_triggered": false,
+      "cd01_present": false,
+      "cd01_text_preview": "NO_AI_OVERVIEW",
+      "al01_prompt": "Alternatives to Google Data Studio for marketing and operations teams at SMBs",
+      "al01_triggered": false,
+      "al01_present": false,
+      "al01_text_preview": "NO_AI_OVERVIEW",
+      "google_aio_score": 0
+    },
+    "Supermetrics": {
+      "brand": "Supermetrics",
+      "aliases": [
+        "Supermetrics for Google Sheets",
+        "supermetrics",
+        "Supermetrics"
+      ],
+      "cd01_prompt": "What is the best marketing analytics for digital marketing agencies and in-house marketing teams?",
+      "cd01_triggered": false,
+      "cd01_present": false,
+      "cd01_text_preview": "NO_AI_OVERVIEW",
+      "al01_prompt": "Alternatives to Funnel.io for digital marketing agencies and in-house marketing teams",
+      "al01_triggered": false,
+      "al01_present": false,
+      "al01_text_preview": "NO_AI_OVERVIEW",
+      "google_aio_score": 0
+    },
+    "FullStory": {
+      "brand": "FullStory",
+      "aliases": [
+        "FullStory DX",
+        "Full Story",
+        "FullStory",
+        "fullstory"
+      ],
+      "cd01_prompt": "What is the best product analytics for product and UX teams at mid-market SaaS companies?",
+      "cd01_triggered": false,
+      "cd01_present": false,
+      "cd01_text_preview": "NO_AI_OVERVIEW",
+      "al01_prompt": "Alternatives to Hotjar for product and UX teams at mid-market SaaS companies",
+      "al01_triggered": false,
+      "al01_present": false,
+      "al01_text_preview": "NO_AI_OVERVIEW",
+      "google_aio_score": 0
+    }
+  },
+  "queries_used": 40,
+  "started_at": "2026-06-11T10:58:33Z"
+}

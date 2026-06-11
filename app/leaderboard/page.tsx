@@ -80,7 +80,7 @@ function transformBrand(v: NewBrand): BrandScore {
       chatgpt:    toFixed1(v.avs_per_llm.openai ?? 0),
       claude:     toFixed1(v.avs_per_llm.anthropic ?? 0),
       perplexity: toFixed1(v.avs_per_llm.perplexity ?? 0),
-      google_aio: 0,   // Google AIO not included in this run
+      google_aio: toFixed1(v.avs_per_llm.google_aio ?? 0),
     },
     trend:       "stable",
     badge:       TIER_BADGE[v.tier] ?? null,

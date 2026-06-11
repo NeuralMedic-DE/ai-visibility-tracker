@@ -22,6 +22,7 @@ function getValue(brand: BrandScore, col: SortColumn): number | string {
     case "chatgpt":        return brand.scores.chatgpt;
     case "claude":         return brand.scores.claude;
     case "perplexity":     return brand.scores.perplexity;
+    case "google_aio":     return brand.scores.google_aio;
     default:               return brand.rank;
   }
 }

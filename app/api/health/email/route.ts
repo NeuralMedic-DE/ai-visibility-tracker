@@ -119,6 +119,7 @@ export async function GET() {
         from,
         to,
         dry_run_active: false,
+        commit_sha: (process.env.VERCEL_GIT_COMMIT_SHA ?? "local").slice(0, 7),
         checked_at: new Date().toISOString(),
       },
       { status: 200 }
