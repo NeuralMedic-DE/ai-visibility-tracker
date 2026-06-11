@@ -88,6 +88,15 @@ function getLeaderboardMeta(): {
   }
 }
 
+const FREE_FEATURES = [
+  "1 one-time AI visibility report",
+  "25 real AI prompts scored",
+  "4 LLMs (ChatGPT, Claude, Perplexity, Google AIO)",
+  "1 brand",
+  "Schema & content gap summary",
+  "No credit card required",
+];
+
 const STARTER_FEATURES = [
   "25 AI prompts per week",
   "4 LLMs tracked (ChatGPT, Claude, Perplexity, Google AIO)",
@@ -235,7 +244,14 @@ export default function HomePage() {
               14-day free trial. No credit card billed until day 15.
             </p>
           </div>
-          <div className="grid gap-8 sm:grid-cols-2 max-w-2xl mx-auto">
+          <div className="grid gap-8 md:grid-cols-3 max-w-5xl mx-auto">
+            <PricingCard
+              name="Free"
+              price={0}
+              features={FREE_FEATURES}
+              plan="free"
+              freeCtaHref="#waitlist"
+            />
             <PricingCard
               name="Starter"
               price={39}

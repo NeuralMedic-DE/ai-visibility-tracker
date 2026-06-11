@@ -7,19 +7,27 @@ interface PricingCardProps {
   price: number;
   features: string[];
   highlighted?: boolean;
-  plan: "starter" | "pro";
-  /** Show trial badge */
+  plan: "free" | "starter" | "pro";
+  /** Show trial badge (paid plans only — Free never shows it). */
   showTrial?: boolean;
   /**
    * When false: renders a PricingNotifyForm instead of CheckoutButton.
    * Defaults to false (pre-launch safe). Set to true only after SUBSCRIPTIONS_LIVE=true.
+   * Ignored for plan="free" (always available).
    */
   subscriptionsLive?: boolean;
   /**
    * Optional 3-bullet "what you get" preview shown when subscriptionsLive=false.
    * Each string is one bullet. No em-dashes per brand voice guidelines.
+   * Ignored for plan="free".
    */
   subscriptionBullets?: string[];
+  /**
+   * Anchor href for the Free plan CTA. Defaults to "#waitlist" — falls back to
+   * the WaitlistForm on the current page. Used to route to /pricing#waitlist
+   * from the homepage embed, or just #waitlist on /pricing itself.
+   */
+  freeCtaHref?: string;
 }
 
 export function PricingCard({
@@ -31,7 +39,9 @@ export function PricingCard({
   showTrial = true,
   subscriptionsLive = false,
   subscriptionBullets,
+  freeCtaHref = "#waitlist",
 }: PricingCardProps) {
+  const isFree = plan === "free";
   return (
     <div
       className={cn(
@@ -67,17 +77,24 @@ export function PricingCard({
         >
           ${price}
         </span>
-        <span
-          className={cn(
-            "text-sm font-semibold",
-            highlighted ? "text-brand-200" : "text-gray-500"
-          )}
-        >
-          /month
-        </span>
+        {!isFree && (
+          <span
+            className={cn(
+              "text-sm font-semibold",
+              highlighted ? "text-brand-200" : "text-gray-500"
+            )}
+          >
+            /month
+          </span>
+        )}
+        {isFree && (
+          <span className="text-sm font-semibold text-gray-500">
+            one report
+          </span>
+        )}
       </div>
 
-      {showTrial && (
+      {showTrial && !isFree && (
         <p
           className={cn(
             "mt-1 text-xs",
@@ -87,9 +104,14 @@ export function PricingCard({
           14-day free trial. No credit card billed until day 15.
         </p>
       )}
+      {isFree && (
+        <p className="mt-1 text-xs text-green-600 font-medium">
+          No credit card. Real LLM calls, real score.
+        </p>
+      )}
 
-      {/* "What you get when subscriptions open" preview bullets */}
-      {!subscriptionsLive && subscriptionBullets && subscriptionBullets.length > 0 && (
+      {/* "What you get when subscriptions open" preview bullets (paid plans only) */}
+      {!isFree && !subscriptionsLive && subscriptionBullets && subscriptionBullets.length > 0 && (
         <div className="mt-5">
           <p
             className={cn(
@@ -148,9 +170,21 @@ export function PricingCard({
       </ul>
 
       <div className="mt-8">
-        {subscriptionsLive ? (
+        {isFree ? (
+          <a
+            href={freeCtaHref}
+            className={cn(
+              "block w-full text-center rounded-xl px-4 py-3 text-sm font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-brand-400 focus:ring-offset-2",
+              highlighted
+                ? "bg-white text-brand-600 hover:bg-brand-50"
+                : "bg-brand-600 text-white hover:bg-brand-700"
+            )}
+          >
+            Get My Free Report
+          </a>
+        ) : subscriptionsLive ? (
           <CheckoutButton
-            plan={plan}
+            plan={plan as "starter" | "pro"}
             label={`Start ${name} for $${price}/mo`}
             className={cn(
               highlighted
@@ -159,7 +193,7 @@ export function PricingCard({
             )}
           />
         ) : (
-          <PricingNotifyForm plan={plan} highlighted={highlighted} />
+          <PricingNotifyForm plan={plan as "starter" | "pro"} highlighted={highlighted} />
         )}
       </div>
     </div>

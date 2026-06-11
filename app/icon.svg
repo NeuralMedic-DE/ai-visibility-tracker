@@ -1,13 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0284c7"/>
-      <stop offset="1" stop-color="#0c4a6e"/>
+    <linearGradient id="nrBg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0ea5e9"/>
+      <stop offset="1" stop-color="#075985"/>
     </linearGradient>
   </defs>
-  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
-  <path
-    d="M 18 46 L 18 18 L 24 18 L 40 38 L 40 18 L 46 18 L 46 46 L 40 46 L 24 26 L 24 46 Z"
-    fill="white"
-  />
+
+  <rect width="64" height="64" rx="14" fill="url(#nrBg)"/>
+
+  <!--
+    Visual metaphor: a central brand node connecting to four AI search nodes
+    (ChatGPT, Claude, Perplexity, Google AI Overviews) — the product
+    capability rendered as an icon. Connection lines sit beneath the nodes
+    so the dots read first at small sizes.
+  -->
+  <g stroke="white" stroke-width="2.4" stroke-linecap="round" opacity="0.55">
+    <line x1="32" y1="32" x2="15" y2="17"/>
+    <line x1="32" y1="32" x2="49" y2="17"/>
+    <line x1="32" y1="32" x2="15" y2="47"/>
+    <line x1="32" y1="32" x2="49" y2="47"/>
+  </g>
+
+  <!-- four AI-platform nodes -->
+  <g fill="white">
+    <circle cx="15" cy="17" r="4.5"/>
+    <circle cx="49" cy="17" r="4.5"/>
+    <circle cx="15" cy="47" r="4.5"/>
+    <circle cx="49" cy="47" r="4.5"/>
+  </g>
+
+  <!-- central brand node — larger, ringed -->
+  <circle cx="32" cy="32" r="8" fill="white"/>
+  <circle cx="32" cy="32" r="3.5" fill="url(#nrBg)"/>
 </svg>

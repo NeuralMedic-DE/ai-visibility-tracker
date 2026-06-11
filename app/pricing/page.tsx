@@ -21,6 +21,16 @@ export const metadata: Metadata = {
 
 // ── Plan features ─────────────────────────────────────────────────────────────
 
+const FREE_FEATURES = [
+  "1 one-time AI visibility report",
+  "25 real AI prompts scored",
+  "4 LLMs tracked (ChatGPT, Claude, Perplexity, Google AIO)",
+  "1 brand",
+  "Schema & content gap summary",
+  "No competitor comparison",
+  "No weekly updates or history",
+];
+
 const STARTER_FEATURES = [
   "25 AI prompts per week",
   "4 LLMs tracked (ChatGPT, Claude, Perplexity, Google AIO)",
@@ -164,8 +174,15 @@ export default function PricingPage() {
 
       {/* Pricing cards */}
       <section className="py-12">
-        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-          <div className="grid gap-8 sm:grid-cols-2 max-w-2xl mx-auto">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+          <div className="grid gap-8 md:grid-cols-3 max-w-5xl mx-auto">
+            <PricingCard
+              name="Free"
+              price={0}
+              features={FREE_FEATURES}
+              plan="free"
+              freeCtaHref="#waitlist"
+            />
             <PricingCard
               name="Starter"
               price={39}
