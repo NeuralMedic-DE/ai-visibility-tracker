@@ -201,12 +201,43 @@ export async function POST(req: NextRequest) {
         // (DB upserts, email sends, log lines) is guaranteed lowercase+trimmed.
         // Stripe can return mixed-case from customer_details.email when the
         // buyer types their address in the Stripe Checkout form.
-        const emailRaw =
-          session.customer_details?.email || session.customer_email;
-        const email = emailRaw ? emailRaw.trim().toLowerCase() : null;
-
+        //
+        // Fallback chain (handles stripe trigger and edge cases):
+        //   1. customer_details.email  — populated in real checkouts
+        //   2. customer_email          — legacy field, also populated in real checkouts
+        //   3. stripe.customers.retrieve(customerId).email — populated by stripe trigger
+        //      and any session where customer_details is null but a Stripe customer exists
         const customerId = session.customer as string | null;
         const subscriptionId = session.subscription as string | null;
+
+        let emailRaw: string | null =
+          session.customer_details?.email ?? session.customer_email ?? null;
+
+        if (!emailRaw && customerId) {
+          // customer_details.email is absent (common with `stripe trigger` and
+          // some session configurations where Stripe hasn't populated the field).
+          // Fall back to the Stripe Customer object which always has an email
+          // when one was provided during customer creation or checkout.
+          try {
+            const stripeCustomerRaw = await stripe.customers.retrieve(customerId);
+            if (!stripeCustomerRaw.deleted) {
+              const stripeCustomer = stripeCustomerRaw as Stripe.Customer;
+              if (stripeCustomer.email) {
+                emailRaw = stripeCustomer.email;
+                console.log(
+                  `[webhook] checkout.session.completed — email resolved from Stripe customer ${customerId}: ${stripeCustomer.email}`
+                );
+              }
+            }
+          } catch (custErr) {
+            console.warn(
+              "[webhook] checkout.session.completed — could not retrieve Stripe customer for email fallback:",
+              custErr
+            );
+          }
+        }
+
+        const email = emailRaw ? emailRaw.trim().toLowerCase() : null;
         const plan = (session.metadata?.plan as "starter" | "pro") ?? "starter";
 
         // client_reference_id is the Supabase auth user UUID (set by /api/checkout
@@ -354,12 +385,25 @@ export async function POST(req: NextRequest) {
           console.warn("[webhook] Could not fetch customer row for email guard:", custLookupErr);
         }
 
-        if (custRow?.welcome_email_id) {
-          // welcome_email_id already recorded → email was sent in a previous run.
+        // Dry-run sentinel detection: if a previous LOCAL test run wrote a
+        // "dry-run-..." placeholder into welcome_email_id (EMAIL_DRY_RUN=1 in dev),
+        // the guard below would fire and silently skip the real production send.
+        // Treat any dry-run placeholder as NULL so the real email is sent.
+        const existingEmailId = custRow?.welcome_email_id ?? null;
+        const isDryRunPlaceholder = existingEmailId?.startsWith("dry-run-") ?? false;
+        const emailAlreadySent = existingEmailId !== null && !isDryRunPlaceholder;
+
+        if (emailAlreadySent) {
+          // welcome_email_id already recorded with a real Resend ID → email was sent in a previous run.
           console.log(
-            `[webhook] Welcome email already sent to ${email} (id=${custRow.welcome_email_id}) — skipping`
+            `[webhook] Welcome email already sent to ${email} (id=${existingEmailId}) — skipping`
           );
         } else {
+          if (isDryRunPlaceholder) {
+            console.log(
+              `[webhook] welcome_email_id contains dry-run placeholder "${existingEmailId}" — overwriting with real send`
+            );
+          }
           // Build appUrl the same localhost-safe way as /api/checkout/route.ts:
           // prefer NEXT_PUBLIC_SITE_URL (always the canonical prod domain), fall back to
           // NEXT_PUBLIC_APP_URL only if it doesn't contain "localhost", then hard-code prod.
@@ -388,24 +432,38 @@ export async function POST(req: NextRequest) {
 
             // Persist message_id in customers row (best-effort).
             // Subsequent replays use this to skip the send.
-            if (welcomeEmailId) {
-              const updateQuery = supabaseUserId
-                ? supabase
-                    .from("customers")
-                    .update({ welcome_email_id: welcomeEmailId })
-                    .eq("user_id", supabaseUserId)
-                : supabase
-                    .from("customers")
-                    .update({ welcome_email_id: welcomeEmailId })
-                    .eq("email", email);
+            //
+            // IMPORTANT: write even if welcomeEmailId is undefined — use a
+            // sentinel value so the guard above doesn't re-send on retry while
+            // also making it clear in the DB that the email was attempted/sent.
+            const emailIdToStore = welcomeEmailId ?? `sent-no-id-${Date.now()}`;
 
-              const { error: updateEmailIdErr } = await updateQuery;
-              if (updateEmailIdErr) {
-                console.warn(
-                  "[webhook] Could not write welcome_email_id:",
-                  updateEmailIdErr
-                );
-              }
+            const updateQuery = supabaseUserId
+              ? supabase
+                  .from("customers")
+                  .update({ welcome_email_id: emailIdToStore })
+                  .eq("user_id", supabaseUserId)
+                  .select("id")
+              : supabase
+                  .from("customers")
+                  .update({ welcome_email_id: emailIdToStore })
+                  .eq("email", email)
+                  .select("id");
+
+            const { data: updatedRows, error: updateEmailIdErr } = await updateQuery;
+            if (updateEmailIdErr) {
+              console.warn(
+                "[webhook] Could not write welcome_email_id:",
+                updateEmailIdErr
+              );
+            } else if (!updatedRows || updatedRows.length === 0) {
+              console.warn(
+                `[webhook] welcome_email_id write matched 0 rows for email=${email} user_id=${supabaseUserId ?? "none"} — ID not persisted`
+              );
+            } else {
+              console.log(
+                `[webhook] ✅ welcome_email_id="${emailIdToStore}" written for ${email}`
+              );
             }
           }
         }
