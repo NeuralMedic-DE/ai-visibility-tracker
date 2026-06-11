@@ -273,6 +273,7 @@ def main():
             concurrency=args.concurrency,
             simulate_latency=args.simulate_latency,
             include_raw=args.include_raw,
+            store_response=not args.no_store_response,
         )
     )
 
