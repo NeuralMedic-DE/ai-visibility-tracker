@@ -76,11 +76,23 @@ enable_confirmations = false
 # Custom email template: shows a 6-digit OTP code prominently (above the magic link)
 # so iCloud/Apple Mail prefetch cannot burn the only auth path.
 # IMPORTANT: the cloud project template must also be updated — see supabase/SETUP.md.
-[auth.email.template.magic_link]
-subject = "Your NeuralReach sign-in code"
-# Path is relative to the Supabase CLI's working directory (repo root),
-# not relative to this config.toml. So the prefix must include `supabase/`.
-content_path = "./supabase/templates/magic_link.html"
+# [auth.email.template.magic_link]
+# DISABLED at the config level — `supabase db push` parses this file even
+# though it's a local-dev-only section, and path resolution behaves
+# differently between local CLI invocations and the GitHub Actions runner
+# (caused DB Migrate workflow to fail with "open templates/magic_link.html:
+# no such file" on 2026-06-11 regardless of whether the path was relative
+# to repo root or to supabase/).
+#
+# The production magic-link template is configured directly in the
+# Supabase Cloud Dashboard:
+#   https://supabase.com/dashboard/project/unrfdcxkmelafypuyruk/auth/templates
+# The HTML source is preserved at supabase/templates/magic_link.html for
+# reference. If you change the dashboard template, also update that file
+# so the source-of-truth stays version-controlled. See supabase/SETUP.md.
+#
+# subject = "Your NeuralReach sign-in code"
+# content_path = "./templates/magic_link.html"
 
 [analytics]
 enabled = false
