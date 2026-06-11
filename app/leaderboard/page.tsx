@@ -34,6 +34,7 @@ interface NewBrand {
     openai?: number;
     anthropic?: number;
     perplexity?: number;
+    google_aio?: number;
   };
   prompts_scored: number;
   run_date: string;
@@ -80,7 +81,10 @@ function transformBrand(v: NewBrand): BrandScore {
       chatgpt:    toFixed1(v.avs_per_llm.openai ?? 0),
       claude:     toFixed1(v.avs_per_llm.anthropic ?? 0),
       perplexity: toFixed1(v.avs_per_llm.perplexity ?? 0),
-      google_aio: toFixed1(v.avs_per_llm.google_aio ?? 0),
+      // Preserve null for unscored brands (24 of 100 fell outside the 250-query
+      // SerpAPI free-tier budget). The UI renders "—" instead of "0" for these
+      // so visitors don't misread "we measured and got nothing".
+      google_aio: v.avs_per_llm.google_aio === undefined ? null : toFixed1(v.avs_per_llm.google_aio),
     },
     trend:       "stable",
     badge:       TIER_BADGE[v.tier] ?? null,

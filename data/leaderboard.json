@@ -97,7 +97,8 @@
       "avs_per_llm": {
         "openai": 55.2,
         "anthropic": 38.0,
-        "perplexity": 44.8
+        "perplexity": 44.8,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -137,7 +138,8 @@
       "avs_per_llm": {
         "openai": 46.0,
         "anthropic": 39.6,
-        "perplexity": 52.4
+        "perplexity": 52.4,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -177,7 +179,8 @@
       "avs_per_llm": {
         "openai": 54.4,
         "anthropic": 44.4,
-        "perplexity": 38.8
+        "perplexity": 38.8,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -297,7 +300,8 @@
       "avs_per_llm": {
         "openai": 47.6,
         "anthropic": 40.4,
-        "perplexity": 47.6
+        "perplexity": 47.6,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -337,7 +341,8 @@
       "avs_per_llm": {
         "openai": 45.2,
         "anthropic": 40.0,
-        "perplexity": 49.6
+        "perplexity": 49.6,
+        "google_aio": 0
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -417,7 +422,8 @@
       "avs_per_llm": {
         "openai": 43.2,
         "anthropic": 41.6,
-        "perplexity": 48.8
+        "perplexity": 48.8,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -497,7 +503,8 @@
       "avs_per_llm": {
         "openai": 46.8,
         "anthropic": 39.6,
-        "perplexity": 44.0
+        "perplexity": 44.0,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -537,7 +544,8 @@
       "avs_per_llm": {
         "openai": 48.8,
         "anthropic": 39.6,
-        "perplexity": 40.8
+        "perplexity": 40.8,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -577,7 +585,8 @@
       "avs_per_llm": {
         "openai": 44.4,
         "anthropic": 38.0,
-        "perplexity": 43.6
+        "perplexity": 43.6,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -657,7 +666,8 @@
       "avs_per_llm": {
         "openai": 42.8,
         "anthropic": 36.0,
-        "perplexity": 44.8
+        "perplexity": 44.8,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -737,7 +747,8 @@
       "avs_per_llm": {
         "openai": 37.6,
         "anthropic": 34.4,
-        "perplexity": 49.2
+        "perplexity": 49.2,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -777,7 +788,8 @@
       "avs_per_llm": {
         "openai": 34.0,
         "anthropic": 46.0,
-        "perplexity": 40.8
+        "perplexity": 40.8,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -817,7 +829,8 @@
       "avs_per_llm": {
         "openai": 39.6,
         "anthropic": 36.4,
-        "perplexity": 44.4
+        "perplexity": 44.4,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -857,7 +870,8 @@
       "avs_per_llm": {
         "openai": 40.8,
         "anthropic": 44.8,
-        "perplexity": 34.8
+        "perplexity": 34.8,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -897,7 +911,8 @@
       "avs_per_llm": {
         "openai": 26.8,
         "anthropic": 38.0,
-        "perplexity": 55.2
+        "perplexity": 55.2,
+        "google_aio": 0
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -937,7 +952,8 @@
       "avs_per_llm": {
         "openai": 37.2,
         "anthropic": 36.8,
-        "perplexity": 45.6
+        "perplexity": 45.6,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -977,7 +993,8 @@
       "avs_per_llm": {
         "openai": 36.8,
         "anthropic": 37.2,
-        "perplexity": 43.2
+        "perplexity": 43.2,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -1017,7 +1034,8 @@
       "avs_per_llm": {
         "openai": 37.6,
         "anthropic": 38.4,
-        "perplexity": 40.4
+        "perplexity": 40.4,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -1057,7 +1075,8 @@
       "avs_per_llm": {
         "openai": 35.6,
         "anthropic": 38.4,
-        "perplexity": 41.6
+        "perplexity": 41.6,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -1097,7 +1116,8 @@
       "avs_per_llm": {
         "openai": 50.4,
         "anthropic": 26.8,
-        "perplexity": 38.0
+        "perplexity": 38.0,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -1177,7 +1197,8 @@
       "avs_per_llm": {
         "openai": 41.6,
         "anthropic": 35.2,
-        "perplexity": 34.0
+        "perplexity": 34.0,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -1217,7 +1238,8 @@
       "avs_per_llm": {
         "openai": 44.0,
         "anthropic": 32.4,
-        "perplexity": 32.4
+        "perplexity": 32.4,
+        "google_aio": 0
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -1257,7 +1279,8 @@
       "avs_per_llm": {
         "openai": 41.6,
         "anthropic": 30.0,
-        "perplexity": 36.8
+        "perplexity": 36.8,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -1297,7 +1320,8 @@
       "avs_per_llm": {
         "openai": 37.2,
         "anthropic": 31.2,
-        "perplexity": 39.2
+        "perplexity": 39.2,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -1377,7 +1401,8 @@
       "avs_per_llm": {
         "openai": 29.6,
         "anthropic": 36.0,
-        "perplexity": 41.2
+        "perplexity": 41.2,
+        "google_aio": 0
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -1417,7 +1442,8 @@
       "avs_per_llm": {
         "openai": 38.0,
         "anthropic": 34.4,
-        "perplexity": 33.6
+        "perplexity": 33.6,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -1457,7 +1483,8 @@
       "avs_per_llm": {
         "openai": 36.8,
         "anthropic": 33.6,
-        "perplexity": 34.8
+        "perplexity": 34.8,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -1497,7 +1524,8 @@
       "avs_per_llm": {
         "openai": 39.2,
         "anthropic": 24.4,
-        "perplexity": 41.2
+        "perplexity": 41.2,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -1537,7 +1565,8 @@
       "avs_per_llm": {
         "openai": 27.6,
         "anthropic": 40.4,
-        "perplexity": 36.0
+        "perplexity": 36.0,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -1657,7 +1686,8 @@
       "avs_per_llm": {
         "openai": 23.6,
         "anthropic": 36.0,
-        "perplexity": 40.4
+        "perplexity": 40.4,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -1697,7 +1727,8 @@
       "avs_per_llm": {
         "openai": 27.6,
         "anthropic": 36.8,
-        "perplexity": 35.2
+        "perplexity": 35.2,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -1737,7 +1768,8 @@
       "avs_per_llm": {
         "openai": 36.8,
         "anthropic": 30.8,
-        "perplexity": 32.0
+        "perplexity": 32.0,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -1817,7 +1849,8 @@
       "avs_per_llm": {
         "openai": 39.2,
         "anthropic": 15.2,
-        "perplexity": 44.0
+        "perplexity": 44.0,
+        "google_aio": 0
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -1857,7 +1890,8 @@
       "avs_per_llm": {
         "openai": 16.8,
         "anthropic": 35.2,
-        "perplexity": 42.0
+        "perplexity": 42.0,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -1897,7 +1931,8 @@
       "avs_per_llm": {
         "openai": 18.0,
         "anthropic": 39.2,
-        "perplexity": 36.0
+        "perplexity": 36.0,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -1937,7 +1972,8 @@
       "avs_per_llm": {
         "openai": 27.6,
         "anthropic": 28.0,
-        "perplexity": 37.6
+        "perplexity": 37.6,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -1977,7 +2013,8 @@
       "avs_per_llm": {
         "openai": 18.4,
         "anthropic": 30.8,
-        "perplexity": 39.6
+        "perplexity": 39.6,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -2017,7 +2054,8 @@
       "avs_per_llm": {
         "openai": 24.0,
         "anthropic": 36.8,
-        "perplexity": 27.2
+        "perplexity": 27.2,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -2057,7 +2095,8 @@
       "avs_per_llm": {
         "openai": 11.6,
         "anthropic": 39.2,
-        "perplexity": 36.0
+        "perplexity": 36.0,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -2097,7 +2136,8 @@
       "avs_per_llm": {
         "openai": 31.6,
         "anthropic": 26.8,
-        "perplexity": 27.6
+        "perplexity": 27.6,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -2177,7 +2217,8 @@
       "avs_per_llm": {
         "openai": 29.6,
         "anthropic": 24.4,
-        "perplexity": 30.8
+        "perplexity": 30.8,
+        "google_aio": 0
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -2217,7 +2258,8 @@
       "avs_per_llm": {
         "openai": 27.2,
         "anthropic": 27.6,
-        "perplexity": 29.6
+        "perplexity": 29.6,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -2257,7 +2299,8 @@
       "avs_per_llm": {
         "openai": 23.2,
         "anthropic": 32.8,
-        "perplexity": 28.4
+        "perplexity": 28.4,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -2297,7 +2340,8 @@
       "avs_per_llm": {
         "openai": 24.8,
         "anthropic": 23.6,
-        "perplexity": 36.0
+        "perplexity": 36.0,
+        "google_aio": 0
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -2337,7 +2381,8 @@
       "avs_per_llm": {
         "openai": 16.0,
         "anthropic": 34.4,
-        "perplexity": 32.8
+        "perplexity": 32.8,
+        "google_aio": 0
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -2417,7 +2462,8 @@
       "avs_per_llm": {
         "openai": 22.0,
         "anthropic": 34.8,
-        "perplexity": 22.0
+        "perplexity": 22.0,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -2457,7 +2503,8 @@
       "avs_per_llm": {
         "openai": 20.0,
         "anthropic": 34.4,
-        "perplexity": 22.8
+        "perplexity": 22.8,
+        "google_aio": 0
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -2497,7 +2544,8 @@
       "avs_per_llm": {
         "openai": 15.6,
         "anthropic": 24.0,
-        "perplexity": 37.6
+        "perplexity": 37.6,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -2577,7 +2625,8 @@
       "avs_per_llm": {
         "openai": 20.8,
         "anthropic": 16.0,
-        "perplexity": 38.8
+        "perplexity": 38.8,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -2617,7 +2666,8 @@
       "avs_per_llm": {
         "openai": 33.2,
         "anthropic": 20.8,
-        "perplexity": 19.2
+        "perplexity": 19.2,
+        "google_aio": 0
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -2657,7 +2707,8 @@
       "avs_per_llm": {
         "openai": 19.2,
         "anthropic": 26.8,
-        "perplexity": 26.4
+        "perplexity": 26.4,
+        "google_aio": 0
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -2697,7 +2748,8 @@
       "avs_per_llm": {
         "openai": 18.0,
         "anthropic": 16.0,
-        "perplexity": 37.2
+        "perplexity": 37.2,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -2737,7 +2789,8 @@
       "avs_per_llm": {
         "openai": 15.2,
         "anthropic": 26.0,
-        "perplexity": 29.2
+        "perplexity": 29.2,
+        "google_aio": 0
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -2777,7 +2830,8 @@
       "avs_per_llm": {
         "openai": 20.8,
         "anthropic": 20.4,
-        "perplexity": 28.0
+        "perplexity": 28.0,
+        "google_aio": 0
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -2817,7 +2871,8 @@
       "avs_per_llm": {
         "openai": 13.2,
         "anthropic": 24.0,
-        "perplexity": 31.2
+        "perplexity": 31.2,
+        "google_aio": 0
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -2857,7 +2912,8 @@
       "avs_per_llm": {
         "openai": 25.2,
         "anthropic": 15.6,
-        "perplexity": 27.6
+        "perplexity": 27.6,
+        "google_aio": 0
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -2897,7 +2953,8 @@
       "avs_per_llm": {
         "openai": 15.2,
         "anthropic": 17.6,
-        "perplexity": 33.6
+        "perplexity": 33.6,
+        "google_aio": 0
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -2977,7 +3034,8 @@
       "avs_per_llm": {
         "openai": 31.6,
         "anthropic": 14.4,
-        "perplexity": 19.2
+        "perplexity": 19.2,
+        "google_aio": 0
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -3017,7 +3075,8 @@
       "avs_per_llm": {
         "openai": 19.6,
         "anthropic": 17.2,
-        "perplexity": 27.6
+        "perplexity": 27.6,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -3057,7 +3116,8 @@
       "avs_per_llm": {
         "openai": 17.6,
         "anthropic": 16.8,
-        "perplexity": 29.6
+        "perplexity": 29.6,
+        "google_aio": 0
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -3097,7 +3157,8 @@
       "avs_per_llm": {
         "openai": 22.0,
         "anthropic": 18.0,
-        "perplexity": 21.2
+        "perplexity": 21.2,
+        "google_aio": 0
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -3137,7 +3198,8 @@
       "avs_per_llm": {
         "openai": 18.4,
         "anthropic": 14.8,
-        "perplexity": 26.8
+        "perplexity": 26.8,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -3177,7 +3239,8 @@
       "avs_per_llm": {
         "openai": 18.8,
         "anthropic": 15.2,
-        "perplexity": 25.2
+        "perplexity": 25.2,
+        "google_aio": 0
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -3217,7 +3280,8 @@
       "avs_per_llm": {
         "openai": 22.0,
         "anthropic": 14.0,
-        "perplexity": 22.4
+        "perplexity": 22.4,
+        "google_aio": 0
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -3257,7 +3321,8 @@
       "avs_per_llm": {
         "openai": 16.8,
         "anthropic": 12.0,
-        "perplexity": 27.6
+        "perplexity": 27.6,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -3297,7 +3362,8 @@
       "avs_per_llm": {
         "openai": 18.8,
         "anthropic": 14.0,
-        "perplexity": 23.2
+        "perplexity": 23.2,
+        "google_aio": 0
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -3337,7 +3403,8 @@
       "avs_per_llm": {
         "openai": 15.6,
         "anthropic": 11.6,
-        "perplexity": 28.8
+        "perplexity": 28.8,
+        "google_aio": 100
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -3377,7 +3444,8 @@
       "avs_per_llm": {
         "openai": 21.2,
         "anthropic": 12.0,
-        "perplexity": 22.4
+        "perplexity": 22.4,
+        "google_aio": 0
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -3457,7 +3525,8 @@
       "avs_per_llm": {
         "openai": 17.6,
         "anthropic": 13.2,
-        "perplexity": 24.4
+        "perplexity": 24.4,
+        "google_aio": 0
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -3497,7 +3566,8 @@
       "avs_per_llm": {
         "openai": 12.4,
         "anthropic": 14.8,
-        "perplexity": 27.6
+        "perplexity": 27.6,
+        "google_aio": 0
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -3577,7 +3647,8 @@
       "avs_per_llm": {
         "openai": 13.6,
         "anthropic": 12.8,
-        "perplexity": 28.0
+        "perplexity": 28.0,
+        "google_aio": 0
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -3617,7 +3688,8 @@
       "avs_per_llm": {
         "openai": 17.2,
         "anthropic": 22.0,
-        "perplexity": 14.8
+        "perplexity": 14.8,
+        "google_aio": 0
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -3657,7 +3729,8 @@
       "avs_per_llm": {
         "openai": 16.8,
         "anthropic": 15.6,
-        "perplexity": 21.2
+        "perplexity": 21.2,
+        "google_aio": 0
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -3737,7 +3810,8 @@
       "avs_per_llm": {
         "openai": 19.6,
         "anthropic": 9.6,
-        "perplexity": 21.6
+        "perplexity": 21.6,
+        "google_aio": 0
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -3777,7 +3851,8 @@
       "avs_per_llm": {
         "openai": 16.8,
         "anthropic": 13.6,
-        "perplexity": 19.2
+        "perplexity": 19.2,
+        "google_aio": 0
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",
@@ -3857,7 +3932,8 @@
       "avs_per_llm": {
         "openai": 15.2,
         "anthropic": 13.6,
-        "perplexity": 18.8
+        "perplexity": 18.8,
+        "google_aio": 0
       },
       "prompts_scored": 25,
       "run_date": "2026-05-30",

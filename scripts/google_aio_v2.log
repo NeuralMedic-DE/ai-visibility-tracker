@@ -60,3 +60,34 @@ hard cap: 166 calls. budget remaining: 166
 [56/100] ✓ Brevo: AI Overview (7720 chars), brand mentioned (110/166)
 [57/100] · Encharge: AI Overview (9134 chars), brand not mentioned (112/166)
 [58/100] · Userlist: AI Overview (8180 chars), brand not mentioned (114/166)
+[59/100] ! Drip: fetch error — Google hasn't returned any results for this query.
+[60/100] · Mailmodo: AI Overview (10241 chars), brand not mentioned (118/166)
+[61/100] ! Weights & Biases: fetch error — Google hasn't returned any results for this query.
+[62/100] ✓ LangChain: AI Overview (12199 chars), brand mentioned (122/166)
+[63/100] ✓ LlamaIndex: AI Overview (15121 chars), brand mentioned (124/166)
+[64/100] · Vellum: AI Overview (11169 chars), brand not mentioned (126/166)
+[65/100] · Braintrust: AI Overview (10292 chars), brand not mentioned (128/166)
+[66/100] · Helicone: AI Overview (9067 chars), brand not mentioned (130/166)
+[67/100] · Portkey: AI Overview (7888 chars), brand not mentioned (132/166)
+[68/100] · Comet ML: AI Overview (6343 chars), brand not mentioned (134/166)
+[69/100] ✓ Langfuse: AI Overview (10567 chars), brand mentioned (136/166)
+[70/100] ✓ Apify: AI Overview (6685 chars), brand mentioned (138/166)
+[71/100] ✓ Intercom: AI Overview (8477 chars), brand mentioned (140/166)
+[72/100] ✓ Gainsight: AI Overview (11253 chars), brand mentioned (142/166)
+[73/100] · ChurnZero: AI Overview (8099 chars), brand not mentioned (144/166)
+[74/100] ✓ Vitally: AI Overview (7802 chars), brand mentioned (146/166)
+[75/100] ✓ Planhat: AI Overview (7931 chars), brand mentioned (148/166)
+[76/100] ✓ Totango: AI Overview (8186 chars), brand mentioned (150/166)
+[77/100] ✓ Front: AI Overview (5999 chars), brand mentioned (152/166)
+[78/100] ✓ Help Scout: AI Overview (9447 chars), brand mentioned (154/166)
+[79/100] · Stonly: AI Overview (9080 chars), brand not mentioned (156/166)
+[80/100] · UserVoice: AI Overview (7516 chars), brand not mentioned (158/166)
+[81/100] · Vanta: no AI Overview triggered (159/166)
+[82/100] ✓ Drata: AI Overview (10253 chars), brand mentioned (161/166)
+[83/100] ✓ Sprinto: AI Overview (12832 chars), brand mentioned (163/166)
+[84/100] ✓ Secureframe: AI Overview (10053 chars), brand mentioned (165/166)
+[85/100] ✋ Anecdotes: budget hit pre-fetch
+
+final: 85 brands recorded, 166 SerpAPI calls used
+AI Overviews triggered: 82/85
+brands mentioned in AI Overview: 45

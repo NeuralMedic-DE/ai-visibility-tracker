@@ -22,7 +22,8 @@ export interface BrandScore {
     chatgpt: number;
     claude: number;
     perplexity: number;
-    google_aio: number;
+    /** null = brand wasn't in the SerpAPI batch (budget cap / fetch error). Render as "—". */
+    google_aio: number | null;
   };
   trend: "up" | "down" | "stable";
   badge: string | null;
@@ -69,7 +70,19 @@ function scoreBgClass(score: number) {
   return "bg-red-100 text-red-800";
 }
 
-function ScorePill({ score }: { score: number }) {
+function ScorePill({ score }: { score: number | null }) {
+  // null = not scored (brand wasn't in the SerpAPI batch). Show "—" so
+  // visitors don't read "0" as "we measured and got nothing."
+  if (score === null || score === undefined) {
+    return (
+      <span
+        className="inline-flex items-center rounded px-2 py-0.5 text-xs font-medium text-gray-400 bg-gray-50 tabular-nums"
+        title="Not measured in this run"
+      >
+        —
+      </span>
+    );
+  }
   return (
     <span
       className={cn(

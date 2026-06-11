@@ -817,8 +817,453 @@
       "score": 100,
       "text_chars": 7511,
       "text_preview": "To choose a marketing automation platform, outline your contact volume, sales cycle complexity, and integration requirements. Lean teams should prioritize native CRM connectivity, visual drag-and-drop builders, and dynamic segmentation to prevent disjointed customer experiences a"
+    },
+    "Brevo": {
+      "brand": "Brevo",
+      "aliases": [
+        "Brevo Email",
+        "brevo",
+        "Brevo"
+      ],
+      "query": "how to choose a marketing automation for SMB and mid-market marketing teams needing affordable multi-channel tools",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 7720,
+      "text_preview": "To choose a marketing automation platform for SMBs and mid-market teams, evaluate platforms based on scalable contact-based pricing, omnichannel support (SMS, email, web)\n\n, and native CRM integration. Prioritize tools with visual drag-and-drop builders and pre-built workflows th"
+    },
+    "Encharge": {
+      "brand": "Encharge",
+      "aliases": [
+        "Encharge Automation",
+        "Encharge",
+        "encharge"
+      ],
+      "query": "how to choose a marketing automation for SaaS marketing leads and growth engineers building lifecycle flows",
+      "calls": 2,
+      "triggered": true,
+      "present": false,
+      "score": 0,
+      "text_chars": 9134,
+      "text_preview": "Choosing a marketing automation platform for SaaS requires aligning tools with your go-to-market model and the specific needs of growth engineers. The core criteria involve event-driven messaging, CRM integration, technical flexibility, and engineering leverage to build scalable "
+    },
+    "Userlist": {
+      "brand": "Userlist",
+      "aliases": [
+        "Userlist Email",
+        "userlist",
+        "Userlist"
+      ],
+      "query": "how to choose a marketing automation for indie SaaS developers and small SaaS teams building user journeys",
+      "calls": 2,
+      "triggered": true,
+      "present": false,
+      "score": 0,
+      "text_chars": 8180,
+      "text_preview": "For indie developers and small SaaS teams, choosing the right marketing automation means balancing developer-friendly API integration with intuitive visual journey builders for non-technical team members. Prioritize platforms that track native in-app product usage events, as thes"
+    },
+    "Drip": {
+      "brand": "Drip",
+      "aliases": [
+        "Drip Email",
+        "Drip",
+        "drip"
+      ],
+      "query": "how to choose a marketing automation for e-commerce brands and direct-to-consumer marketers",
+      "calls": 2,
+      "triggered": true,
+      "present": null,
+      "score": null,
+      "fetch_error": "Google hasn't returned any results for this query."
+    },
+    "Mailmodo": {
+      "brand": "Mailmodo",
+      "aliases": [
+        "Mailmodo Interactive Email",
+        "Mailmodo",
+        "mailmodo"
+      ],
+      "query": "how to choose a marketing automation for SaaS growth marketers and email marketing leads wanting higher engagement",
+      "calls": 2,
+      "triggered": true,
+      "present": false,
+      "score": 0,
+      "text_chars": 10241,
+      "text_preview": "For SaaS growth marketers, a high-converting marketing automation tool must handle both lead nurturing and product-led growth (PLG). To achieve higher engagement, the platform needs deep in-app behavioral tracking, robust A/B testing\n, and the ability to personalize communication"
+    },
+    "Weights & Biases": {
+      "brand": "Weights & Biases",
+      "aliases": [
+        "Weights and Biases",
+        "Weights & Biases",
+        "wandb"
+      ],
+      "query": "how to choose a MLOps for ML engineering teams at AI research companies and AI-first startups",
+      "calls": 2,
+      "triggered": true,
+      "present": null,
+      "score": null,
+      "fetch_error": "Google hasn't returned any results for this query."
+    },
+    "LangChain": {
+      "brand": "LangChain",
+      "aliases": [
+        "LangChain Framework",
+        "langchain",
+        "LangChain"
+      ],
+      "query": "how to choose a AI tooling for AI engineers at startups and enterprises building LLM applications",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 12199,
+      "text_preview": "When choosing AI tooling, the right stack for an AI engineer depends entirely on where they are in the development lifecycle and their compliance constraints. Startups prioritize speed, flexibility, and rapid iteration, whereas enterprise teams prioritize data governance, securit"
+    },
+    "LlamaIndex": {
+      "brand": "LlamaIndex",
+      "aliases": [
+        "LlamaIndex RAG",
+        "LlamaIndex",
+        "llamaindex"
+      ],
+      "query": "how to choose a AI tooling for AI engineers building knowledge-intensive LLM and RAG applications",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 15121,
+      "text_preview": "To choose AI tooling for knowledge-intensive Large Language Model (LLM) and Retrieval-Augmented Generation (RAG) applications, evaluate the tech stack based on three core pillars: Data Ingestion & Chunking, Retrieval & Vector Storage, and Orchestration & Evaluation. Engineers mus"
+    },
+    "Vellum": {
+      "brand": "Vellum",
+      "aliases": [
+        "Vellum AI",
+        "Vellum",
+        "vellum"
+      ],
+      "query": "how to choose a AI tooling for AI product teams building and iterating on LLM-powered product features",
+      "calls": 2,
+      "triggered": true,
+      "present": false,
+      "score": 0,
+      "text_chars": 11169,
+      "text_preview": "Choosing the right AI tooling for an AI product team depends heavily on your team's current bottleneck. Rather than adopting the flashiest technology, evaluate tools against the four primary phases of iterating on LLM-powered features: Prototyping, , Evaluation (Evals), and Obser"
+    },
+    "Braintrust": {
+      "brand": "Braintrust",
+      "aliases": [
+        "Braintrust Eval",
+        "Braintrust",
+        "braintrust"
+      ],
+      "query": "how to choose a AI tooling for AI engineering teams building and deploying LLM-powered products",
+      "calls": 2,
+      "triggered": true,
+      "present": false,
+      "score": 0,
+      "text_chars": 10292,
+      "text_preview": "Choosing the right AI tooling requires evaluating your stack across four core pillars: data preparation, model development, deployment, and monitoring. The goal is to select modular, interoperable tools that integrate with your existing infrastructure and scale with your user dem"
+    },
+    "Helicone": {
+      "brand": "Helicone",
+      "aliases": [
+        "Helicone Observability",
+        "Helicone",
+        "helicone"
+      ],
+      "query": "how to choose a AI tooling for developers and startups building and scaling LLM-powered applications",
+      "calls": 2,
+      "triggered": true,
+      "present": false,
+      "score": 0,
+      "text_chars": 9067,
+      "text_preview": "Choosing AI tooling for startups and development teams requires balancing rapid prototyping with production-grade scaling. You should evaluate your tech stack across four core layers: Orchestration/Frameworks, Data & Vector Storage, Observability, and Infrastructure. Gradient Flo"
+    },
+    "Portkey": {
+      "brand": "Portkey",
+      "aliases": [
+        "Portkey AI Gateway",
+        "Portkey",
+        "portkey"
+      ],
+      "query": "how to choose a AI tooling for platform and AI engineering teams managing multi-LLM production deployments",
+      "calls": 2,
+      "triggered": true,
+      "present": false,
+      "score": 0,
+      "text_chars": 7888,
+      "text_preview": "Choose AI tooling by auditing your infrastructure needs, focusing on multi-model routing, LLM observability, evaluation (Evals), and vendor integrations. A modular LLM stack allows engineering teams to switch models, manage costs, and prevent vendor lock-in. logic.inc +4\nEvaluate"
+    },
+    "Comet ML": {
+      "brand": "Comet ML",
+      "aliases": [
+        "Comet ML",
+        "CometML",
+        "comet"
+      ],
+      "query": "how to choose a MLOps for data science and ML engineering teams at analytics-driven companies",
+      "calls": 2,
+      "triggered": true,
+      "present": false,
+      "score": 0,
+      "text_chars": 6343,
+      "text_preview": "Choosing the right MLOps platform for analytics-driven teams involves assessing your team\u2019s ML maturity, toolchain interoperability, and budget. Prioritize comprehensive lifecycle support (experiment tracking, model registries, CI/CD, and model monitoring)\n\n\n, seamless integratio"
+    },
+    "Langfuse": {
+      "brand": "Langfuse",
+      "aliases": [
+        "Langfuse LLM Tracing",
+        "langfuse",
+        "Langfuse"
+      ],
+      "query": "how to choose a AI tooling for engineering teams building and debugging production LLM applications",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 10567,
+      "text_preview": "Choosing the right AI tooling for engineering teams requires balancing observability (tracing failures) with evaluation (measuring quality). Because LLM outputs are non-deterministic, debugging relies on understanding the context of reasoning and tool-usage rather than traditiona"
+    },
+    "Apify": {
+      "brand": "Apify",
+      "aliases": [
+        "Apify Platform",
+        "apify",
+        "Apify"
+      ],
+      "query": "how to choose a automation for data engineers and developers needing reliable structured web data",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 6685,
+      "text_preview": "For data engineers and developers, choosing a reliable web data automation tool means balancing scalability, anti-bot bypass capabilities, and maintenance overhead. The right choice depends heavily on the target websites, data volume, and engineering resources. codewords.ai +1\n1."
+    },
+    "Intercom": {
+      "brand": "Intercom",
+      "aliases": [
+        "Intercom Messenger",
+        "Intercom",
+        "intercom"
+      ],
+      "query": "how to choose a customer support for SaaS customer success and support teams managing high volumes of customer conversations",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 8477,
+      "text_preview": "Choosing the right customer support platform for high-volume SaaS teams requires a solution that bridges technical troubleshooting with proactive customer success. High-volume operations need robust ticket management, conversational AI, and omnichannel routing to handle massive r"
+    },
+    "Gainsight": {
+      "brand": "Gainsight",
+      "aliases": [
+        "Gainsight CS",
+        "Gainsight",
+        "gainsight"
+      ],
+      "query": "how to choose a customer success for enterprise SaaS customer success teams managing large portfolios",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 11253,
+      "text_preview": "Choosing the right Customer Success (CS) strategy for a large enterprise portfolio requires a hybrid engagement model. To prevent CSM burnout and maximize Net Revenue Retention (NRR), combine a specialized tier of portfolio-focused CSMs with automated data insights and targeted, "
+    },
+    "ChurnZero": {
+      "brand": "ChurnZero",
+      "aliases": [
+        "ChurnZero Platform",
+        "ChurnZero",
+        "churnzero"
+      ],
+      "query": "how to choose a customer success for customer success teams at mid-market and enterprise SaaS companies",
+      "calls": 2,
+      "triggered": true,
+      "present": false,
+      "score": 0,
+      "text_chars": 8099,
+      "text_preview": "Choosing the right customer success (CS) strategy and team structure for mid-market and enterprise SaaS means balancing specialized roles, white-glove account allocations, and customized technology stacks to prevent churn and drive Net Revenue Retention (NRR). Coworker AI +2\n1. S"
+    },
+    "Vitally": {
+      "brand": "Vitally",
+      "aliases": [
+        "Vitally CS",
+        "vitally",
+        "Vitally"
+      ],
+      "query": "how to choose a customer success for customer success teams at mid-market B2B SaaS companies",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 7802,
+      "text_preview": "Choosing the right customer success (CS) approach for a mid-market B2B SaaS requires balancing high-touch strategy with digital scalability\n\n. Build your foundation by identifying which core capability your team needs to fix first\u2014like accelerating onboarding, increasing Net Reve"
+    },
+    "Planhat": {
+      "brand": "Planhat",
+      "aliases": [
+        "Planhat Platform",
+        "Planhat",
+        "planhat"
+      ],
+      "query": "how to choose a customer success for enterprise SaaS CS and RevOps teams managing complex customer portfolios",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 7931,
+      "text_preview": "Choosing the right Customer Success (CS) and Revenue Operations (RevOps) platform for enterprise SaaS requires balancing complex customer portfolios with the need for data-driven cross-functional alignment. Reddit\u00b7r/CustomerSuccess\nEvaluate software based on the following framewo"
+    },
+    "Totango": {
+      "brand": "Totango",
+      "aliases": [
+        "Totango CS",
+        "totango",
+        "Totango"
+      ],
+      "query": "how to choose a customer success for enterprise customer success and CX teams at large SaaS organizations",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 8186,
+      "text_preview": "Choosing the right customer success (CS) platform for a large SaaS organization requires balancing complex scalability, deep omnichannel CX, and robust revenue analytics.\nTo select the ideal solution for your enterprise, follow this structured approach:\n1. Audit Your Enterprise A"
+    },
+    "Front": {
+      "brand": "Front",
+      "aliases": [
+        "Front Inbox",
+        "front",
+        "Front"
+      ],
+      "query": "how to choose a customer operations for customer ops support and account management teams at growing companies",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 5999,
+      "text_preview": "To choose or build a Customer Operations (CustOps) function for growing support and account management (AM) teams, define your goals based on product complexity, customer expectations, and scalability. CustOps removes operational friction so front-line teams can focus on customer"
+    },
+    "Help Scout": {
+      "brand": "Help Scout",
+      "aliases": [
+        "Help Scout Support",
+        "Help Scout",
+        "helpscout"
+      ],
+      "query": "how to choose a customer support for support and success teams at bootstrapped and growth-stage SaaS companies",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 9447,
+      "text_preview": "Choose support and success software by identifying your primary driver of customer churn: if users leave due to slow responses, prioritize shared inboxes, AI support bots, and robust knowledge bases. If they churn due to unresolved bugs, select platforms featuring deep Jira or Li"
+    },
+    "Stonly": {
+      "brand": "Stonly",
+      "aliases": [
+        "Stonly Guides",
+        "Stonly",
+        "stonly"
+      ],
+      "query": "how to choose a knowledge management for CS teams building self-service and guided onboarding experiences",
+      "calls": 2,
+      "triggered": true,
+      "present": false,
+      "score": 0,
+      "text_chars": 9080,
+      "text_preview": "Choosing the right Knowledge Management (KM) platform for a Customer Success (CS) team building self-service and guided onboarding requires a tool that balances robust content management with seamless in-app guidance.\nTo choose the best KM for your team, follow these core steps:\n"
+    },
+    "UserVoice": {
+      "brand": "UserVoice",
+      "aliases": [
+        "UserVoice Feedback",
+        "UserVoice",
+        "uservoice"
+      ],
+      "query": "how to choose a product feedback for product teams capturing and prioritizing customer feature requests",
+      "calls": 2,
+      "triggered": true,
+      "present": false,
+      "score": 0,
+      "text_chars": 7516,
+      "text_preview": "Choosing the right product feedback process for capturing and prioritizing feature requests involves a systematic approach to centralize, categorize, score, and align data with business goals.\nFollow this step-by-step framework to build a robust feedback loop:\n1. Centralize Your "
+    },
+    "Vanta": {
+      "brand": "Vanta",
+      "aliases": [
+        "Vanta Compliance",
+        "Vanta",
+        "vanta"
+      ],
+      "query": "how to choose a compliance for engineering and security teams at startups pursuing compliance certifications",
+      "calls": 1,
+      "triggered": false,
+      "present": false,
+      "score": 0
+    },
+    "Drata": {
+      "brand": "Drata",
+      "aliases": [
+        "Drata Compliance",
+        "Drata",
+        "drata"
+      ],
+      "query": "how to choose a compliance for security and compliance teams at high-growth technology companies",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 10253,
+      "text_preview": "For high-growth technology companies, choosing the right compliance framework and tooling means aligning security maturity with revenue acceleration, enterprise buyer demands, and regulatory obligations. Security and compliance teams should select standards and purpose-built plat"
+    },
+    "Sprinto": {
+      "brand": "Sprinto",
+      "aliases": [
+        "Sprinto Compliance",
+        "Sprinto",
+        "sprinto"
+      ],
+      "query": "how to choose a compliance for engineering and compliance teams at growth-stage SaaS startups",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 12832,
+      "text_preview": "Choosing compliance for a growth-stage SaaS startup requires aligning security frameworks with your enterprise sales targets and automating evidence collection to prevent engineering bottlenecks. Most B2B SaaS companies prioritize SOC 2 for the US market, ISO 27001 for global exp"
+    },
+    "Secureframe": {
+      "brand": "Secureframe",
+      "aliases": [
+        "Secureframe Compliance",
+        "Secureframe",
+        "secureframe"
+      ],
+      "query": "how to choose a compliance for security teams at mid-market SaaS companies pursuing multiple frameworks",
+      "calls": 2,
+      "triggered": true,
+      "present": true,
+      "score": 100,
+      "text_chars": 10053,
+      "text_preview": "For mid-market SaaS security teams, choosing a compliance solution requires moving beyond basic checklist management to continuous control monitoring and cross-framework mapping\n\n. Prioritize automation platforms that seamlessly integrate with your existing tech stack (AWS, Googl"
+    },
+    "Anecdotes": {
+      "brand": "Anecdotes",
+      "aliases": [
+        "Anecdotes GRC",
+        "anecdotes",
+        "Anecdotes"
+      ],
+      "query": "how to choose a compliance for enterprise GRC and compliance teams at regulated technology companies",
+      "calls": 1,
+      "triggered": true,
+      "present": null,
+      "score": null,
+      "note": "AI Overview triggered but budget exhausted before async fetch"
     }
   },
-  "calls_used": 108,
+  "calls_used": 166,
   "started_at": "2026-06-11T11:08:35Z"
 }

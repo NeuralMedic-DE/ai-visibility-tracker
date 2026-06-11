@@ -14,7 +14,7 @@ interface LeaderboardSectionProps {
   runDate?: string;
 }
 
-function getValue(brand: BrandScore, col: SortColumn): number | string {
+function getValue(brand: BrandScore, col: SortColumn): number | string | null {
   switch (col) {
     case "rank":           return brand.rank;
     case "name":           return brand.name.toLowerCase();
@@ -22,7 +22,7 @@ function getValue(brand: BrandScore, col: SortColumn): number | string {
     case "chatgpt":        return brand.scores.chatgpt;
     case "claude":         return brand.scores.claude;
     case "perplexity":     return brand.scores.perplexity;
-    case "google_aio":     return brand.scores.google_aio;
+    case "google_aio":     return brand.scores.google_aio;   // can be null
     default:               return brand.rank;
   }
 }
