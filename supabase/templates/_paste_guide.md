@@ -34,7 +34,7 @@ All 6 templates share the NeuralReach branded layout (wordmark header, white car
 ## Change Email Address
 
 **Tab in dashboard:** `Change Email Address`
-**Subject:** `Confirm your new NeuralReach email`
+**Subject:** `Confirm your NeuralReach email change`
 **Body file:** `supabase/templates/change_email.html`
 
 ## Invite user

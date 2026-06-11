@@ -154,18 +154,26 @@ TEMPLATES = {
         ),
     },
     "change_email": {
-        "subject": "Confirm your new NeuralReach email",
-        "preheader": "Click to confirm the email address change on your NeuralReach account.",
+        # The Change-Email template fires twice when double_confirm_changes=true
+        # in supabase/config.toml: once to the OLD address and once to the NEW
+        # address. Supabase's template engine does not expose a variable that
+        # tells you which one you are rendering, so the copy is kept
+        # symmetric: it works whether the recipient is the old or new mailbox.
+        # Supabase Auth does NOT expose `{{ .NewEmail }}` either; the only
+        # email-related variable is `{{ .Email }}`, and what it points to
+        # depends on which side of the confirmation we are on. Safer to omit.
+        "subject": "Confirm your NeuralReach email change",
+        "preheader": "Click to confirm the email change on your NeuralReach account.",
         "body": (
             '<p style="margin:0 0 14px 0;font-size:17px;font-weight:500;">'
-            'Confirm your new email address</p>'
+            'Confirm your email change</p>'
             '<p style="margin:0 0 14px 0;">'
-            'You asked to change the email on your NeuralReach account to '
-            '<strong>{{ .NewEmail }}</strong>. Click below to confirm.</p>'
-            + button("{{ .ConfirmationURL }}", "Confirm New Email")
+            'A request was made to change the email address on your NeuralReach '
+            'account. Click below to confirm and complete the change.</p>'
+            + button("{{ .ConfirmationURL }}", "Confirm Email Change")
             + f'<p style="margin:18px 0 0 0;font-size:13px;color:{MUTED};">'
-            'If you did not request this change, please write to jonas@neuralreach.de. '
-            'Until you click the link, the change does not take effect.</p>'
+            'If you did not request this change, please write to jonas@neuralreach.de '
+            'right away. Until you click the link, the change does not take effect.</p>'
         ),
     },
     "invite_user": {
