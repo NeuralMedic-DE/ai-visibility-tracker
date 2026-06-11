@@ -19,7 +19,24 @@ function scoreColorClass(score: number) {
   return "text-red-700 bg-red-100";
 }
 
-function ScoreBar({ label, score }: { label: string; score: number }) {
+function ScoreBar({ label, score }: { label: string; score: number | null }) {
+  // null = not scored. Render an empty bar with "—" instead of a misleading 0.
+  if (score === null || score === undefined) {
+    return (
+      <div className="space-y-1">
+        <div className="flex items-center justify-between text-xs">
+          <span className="font-medium text-gray-700">{label}</span>
+          <span
+            className="font-bold tabular-nums px-1.5 py-0.5 rounded text-xs text-gray-400 bg-gray-50"
+            title="Not measured in this run"
+          >
+            —
+          </span>
+        </div>
+        <div className="h-1.5 w-full rounded-full bg-gray-100" />
+      </div>
+    );
+  }
   const color =
     score >= 80
       ? "bg-green-500"

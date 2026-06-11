@@ -68,6 +68,12 @@ export function LeaderboardSection({ brands, note, generatedAt, runDate }: Leade
     return [...filteredBrands].sort((a, b) => {
       const av = getValue(a, sortColumn);
       const bv = getValue(b, sortColumn);
+      // Null = unscored. Always sort nulls to the bottom regardless of
+      // direction so the leaderboard never *appears* to be lead by an unscored
+      // brand when sorted desc on google_aio.
+      if (av === null && bv === null) return 0;
+      if (av === null) return 1;
+      if (bv === null) return -1;
       const cmp =
         typeof av === "string" && typeof bv === "string"
           ? av.localeCompare(bv)
