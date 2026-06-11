@@ -78,7 +78,9 @@ enable_confirmations = false
 # IMPORTANT: the cloud project template must also be updated — see supabase/SETUP.md.
 [auth.email.template.magic_link]
 subject = "Your NeuralReach sign-in code"
-content_path = "./templates/magic_link.html"
+# Path is relative to the Supabase CLI's working directory (repo root),
+# not relative to this config.toml. So the prefix must include `supabase/`.
+content_path = "./supabase/templates/magic_link.html"
 
 [analytics]
 enabled = false
