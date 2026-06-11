@@ -82,5 +82,17 @@
     "created_at": "2026-06-11T00:00:00Z",
     "decided_at": "",
     "decision_note": ""
+  },
+  {
+    "id": "A-1d21a348",
+    "category": "public_post",
+    "title": "Publish 4 waitlist-driving posts (corrected 2026-06-11 version)",
+    "description": "Corrected and updated launch posts for r/SEO, r/SaaS, r/SideProject, and Indie Hackers. Full copy at: state/artifacts/marketing/launch_posts_waitlist_2026-06-11.md\n\nSupersedes A-0b1c2d3e and A-1a2b3c4d (prior approvals with same 4 posts — those can be declined).\n\n=== CORRECTIONS vs PRIOR VERSIONS ===\n1. FIXED: r/SideProject body previously claimed 'a few scrappy startups scored over 70' — contradicts the dataset (nobody breaks 60). Removed that false claim.\n2. UPDATED: Indie Hackers post is now 'Day 15' (was 'Day 14'; launched 2026-05-27, today = June 11 = Day 15).\n3. ADDED: Real bottom-of-leaderboard data (#100 Anecdotes 15.1, 39-pt spread) to r/SaaS post.\n4. ADDED: Top 5 leaderboard data to r/SideProject (was top 3 only).\n\n=== CTA NOTE ===\nAll post bodies use https://neuralreach.de/waitlist per task instruction.\nIf that path still returns 404, substitute https://neuralreach.de/#waitlist (the homepage anchor) before posting.\nEngineer should add /waitlist → /#waitlist redirect.\n\n=== WHAT TO DO ===\nOpen: state/artifacts/marketing/launch_posts_waitlist_2026-06-11.md\nCopy-paste each post from the labeled sections.\n\n--- POST 1: r/SEO ---\nBest time: Wed June 11 or Thu June 12, 9–11 AM EST\nTitle: I scored 100 B2B SaaS brands on AI search visibility (ChatGPT, Perplexity, Claude, Google AIO) — here's what the data shows\n\n--- POST 2: r/SaaS ---\nBest time: Thu June 12 or Mon June 15, 10 AM–12 PM EST\nTitle: AI search is part of the B2B buying journey now. I checked how 100 SaaS brands stack up — category leaders don't always win.\n\n--- POST 3: r/SideProject ---\nBest time: Sat June 14 or Sun June 15, 10 AM–1 PM EST\nTitle: Built NeuralReach: free AI Visibility Index for 100 B2B SaaS brands. Paid tracker soft-launching June 17.\n\n--- POST 4: Indie Hackers ---\nBest time: Wed June 11 or Thu June 12, 9–11 AM EST (pair with r/SEO)\nTitle: Day 15: Free AI leaderboard is live, paid subscriptions open June 17 — what's working, what broke, and what I'm watching\n\n=== STAGGER RECOMMENDATION ===\nWed June 11: r/SEO + Indie Hackers\nThu June 12: r/SaaS\nSat June 14: r/SideProject\n\n=== ACCOUNTS NEEDED ===\n- Reddit: Jonas's personal account (not brand account)\n- Indie Hackers: Jonas's personal account\n- No budget required",
+    "proposed_by": "marketer",
+    "est_cost_usd": 0.0,
+    "status": "pending",
+    "created_at": "2026-06-11T10:00:00Z",
+    "decided_at": "",
+    "decision_note": ""
   }
 ]
